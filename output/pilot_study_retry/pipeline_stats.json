@@ -1,0 +1,46 @@
+{
+  "total_videos": 3,
+  "total_segments": 223,
+  "total_raw_captions": 197,
+  "total_filtered_captions": 124,
+  "total_merged_captions": 83,
+  "total_initial_queries": 24,
+  "total_accepted_queries": 22,
+  "total_discarded_queries": 2,
+  "average_accepted_queries_per_video": 7.3333,
+  "emotion_distribution_merged": {
+    "happy": 15,
+    "frustrated": 4,
+    "surprised": 9,
+    "excited": 2,
+    "angry": 9,
+    "fear": 34,
+    "sad": 9,
+    "disappointed": 1
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 9,
+    "explicit_event": 11,
+    "evidence_cue": 4
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 8,
+    "explicit_event": 10,
+    "evidence_cue": 4
+  },
+  "rewrite_count_distribution": {
+    "0": 15,
+    "1": 6,
+    "3": 3
+  },
+  "pass_rate_after_initial_verification": 0.625,
+  "pass_rate_after_rewrites": 0.9167,
+  "discarded_query_count": 2,
+  "diversity_warnings": [
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q003' and 'emostim_02_WhenHarryMetSally_clip_1_q008' are semantically similar (word overlap 73%)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q005' and 'emostim_02_WhenHarryMetSally_clip_1_q008' are semantically similar (word overlap 75%)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q006' and 'emostim_02_WhenHarryMetSally_clip_1_q008' are semantically similar (word overlap 71%)",
+    "[moviechat_06_33] WARNING: queries 'moviechat_06_33_q01' and 'moviechat_06_33_q02' are semantically similar (word overlap 73%)",
+    "[moviechat_06_33] WARNING: queries 'moviechat_06_33_q02' and 'moviechat_06_33_q05' are semantically similar (word overlap 73%)"
+  ]
+}

@@ -1,0 +1,62 @@
+PROMPT VERSION: caption_prompt_v1
+
+TASK:
+You are given a batch of short consecutive video clips cut from one longer video.
+Each clip is exactly one temporal segment of the video, given to you in order.
+Watch and listen to every clip carefully, then describe the emotion content of each
+segment that carries observable emotional meaning.
+
+VIDEO ID: {video_id}
+BATCH INDEX: {batch_index}
+
+CLIP -> SEGMENT MAPPING (the clips are provided in THIS order):
+{segment_list}
+
+The first video provided is Clip 1, the second is Clip 2, and so on. Use this mapping
+to attach the correct segment_id(s) to every caption you produce.
+
+WHAT TO PRODUCE:
+For each segment that contains a clear, observable emotional state, reaction, cue, or
+emotionally meaningful interaction, output one caption describing:
+- person: a concrete visual description of who shows the emotion (clothing, role,
+  position, age group, relation), not a name.
+- action: the observable action or interaction in the segment.
+- sound: the relevant audio (tone of voice, shouting, laughter, crying, silence).
+  Write "no audible cue" if there is no audible emotional signal.
+- emotion: exactly ONE label from this fixed set:
+  angry, excited, fear, sad, surprised, frustrated, happy, disappointed
+- confidence: how confident you are that this emotion is present — high, medium, or low.
+- evidence_strength: how clear the observable evidence is — clear, weak, or ambiguous.
+- observable_evidence: a short list of the concrete visual/audio cues you actually
+  observed (e.g. "furrowed brow", "raised voice", "wiping tears").
+
+RULES:
+1. Only describe what is visible or audible. Do not guess hidden thoughts, motives, or
+   backstory.
+2. Use ONLY the eight emotion labels above. If a segment shows no clear emotion, do not
+   emit a caption for it.
+3. segment_ids must come from the CLIP -> SEGMENT MAPPING above. If one emotional moment
+   clearly spans two adjacent clips, you may list both segment_ids; otherwise list one.
+4. Do not invent segments that are not in the mapping.
+5. Keep each field concise. Write everything in English.
+
+OUTPUT REQUIREMENTS:
+Return valid JSON only. No markdown, no comments, no text outside the JSON object.
+
+The output JSON must match this schema exactly:
+{
+"video_id": "{video_id}",
+"batch_index": {batch_index},
+"captions": [
+{
+"segment_ids": ["<segment_id from the mapping>", "..."],
+"person": "<visual description of the person or group>",
+"action": "<observable action or interaction>",
+"sound": "<audible cue, or 'no audible cue'>",
+"emotion": "<angry | excited | fear | sad | surprised | frustrated | happy | disappointed>",
+"confidence": "<high | medium | low>",
+"evidence_strength": "<clear | weak | ambiguous>",
+"observable_evidence": ["<observed cue>", "..."]
+}
+]
+}

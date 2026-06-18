@@ -1,0 +1,250 @@
+Selected 6 video(s) from data/_retry_failed
+Models — caption: gemini-2.5-flash-lite | generation: gemini-2.5-flash-lite | verification: gemini-3.1-flash-lite | rewrite: gemini-2.5-flash-lite
+Segmentation — 5.0s window / 5.0s stride | batch 8 | max_accepted 8
+
+[1/6] emostim_02_WhenHarryMetSally_clip_1.mp4  (id: emostim_02_WhenHarryMetSally_clip_1)
+  31 segments cut
+    [caption skip] batch 4 item 10: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+  captions: 38 raw -> 17 kept -> 8 merged
+  8 queries generated
+  Done — 7 accepted, 1 discarded
+  [usage] 470.4s, 273,502 tokens
+[2/6] emostim_05_TheSilenceOfTheLambs_b_clip_1.mp4  (id: emostim_05_TheSilenceOfTheLambs_b_clip_1)
+  37 segments cut
+    [caption skip] batch 1 item 2: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 4 item 2: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 4 item 3: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 4 item 4: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 4 item 6: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+  [attempt 1/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 2/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 3/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  ERROR processing emostim_05_TheSilenceOfTheLambs_b_clip_1: Gemini call failed after 3 attempts (schema=CaptionBatchOutput, model=gemini-2.5-flash-lite): empty response (no text candidate; possibly safety-blocked) — skipping.
+  [usage] 444.8s, 74,716 tokens
+[3/6] emostim_06_TheChamp_clip_3.mp4  (id: emostim_06_TheChamp_clip_3)
+  23 segments cut
+  captions: 21 raw -> 21 kept -> 8 merged
+  8 queries generated
+  [attempt 1/3] API error for VerificationBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 2/3] API error for VerificationBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 3/3] API error for VerificationBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  ERROR processing emostim_06_TheChamp_clip_3: Gemini call failed after 3 attempts (schema=VerificationBatchOutput, model=gemini-3.1-flash-lite): empty response (no text candidate; possibly safety-blocked) — skipping.
+  [usage] 298.3s, 58,566 tokens
+[4/6] moviechat_02_154.mp4  (id: moviechat_02_154)
+  96 segments cut
+    [caption skip] batch 2 item 1: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 2: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 3: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 4: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 5: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 6: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 7: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 8: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 9: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 10: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 11: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 13: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 14: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 15: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 2 item 16: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 5 item 4: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 6 item 2: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 6 item 5: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 6 item 6: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 6 item 7: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 7 item 4: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+  [attempt 1/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 2/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 3/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  ERROR processing moviechat_02_154: Gemini call failed after 3 attempts (schema=CaptionBatchOutput, model=gemini-2.5-flash-lite): empty response (no text candidate; possibly safety-blocked) — skipping.
+  [usage] 933.2s, 159,571 tokens
+[5/6] moviechat_05_30.mp4  (id: moviechat_05_30)
+  96 segments cut
+    [caption skip] batch 1 item 1: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 1 item 3: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 1 item 7: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 1 item 10: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 1 item 11: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 1 item 12: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 11 item 6: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 12 item 8: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='determined', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+  captions: 98 raw -> 62 kept -> 46 merged
+  8 queries generated
+  Done — 8 accepted, 0 discarded
+  [usage] 1304.6s, 415,758 tokens
+[6/6] moviechat_06_33.mp4  (id: moviechat_06_33)
+  96 segments cut
+    [caption skip] batch 3 item 2: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='no emotion', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 4 item 4: 1 validation error for EmotionCaption
+evidence_strength
+  Input should be 'clear', 'weak' or 'ambiguous' [type=literal_error, input_value='medium', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+    [caption skip] batch 9 item 1: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 9 item 2: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 9 item 3: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 9 item 4: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 9 item 5: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 9 item 6: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 9 item 7: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+    [caption skip] batch 9 item 8: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy' or 'disappointed' [type=literal_error, input_value='neutral', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.12/v/literal_error
+  captions: 61 raw -> 45 kept -> 29 merged
+  8 queries generated
+  Done — 7 accepted, 1 discarded
+  [usage] 1309.3s, 791,064 tokens
+  [emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q003' and 'emostim_02_WhenHarryMetSally_clip_1_q008' are semantically similar (word overlap 73%)
+  [emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q005' and 'emostim_02_WhenHarryMetSally_clip_1_q008' are semantically similar (word overlap 75%)
+  [emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q006' and 'emostim_02_WhenHarryMetSally_clip_1_q008' are semantically similar (word overlap 71%)
+  [moviechat_06_33] WARNING: queries 'moviechat_06_33_q01' and 'moviechat_06_33_q02' are semantically similar (word overlap 73%)
+  [moviechat_06_33] WARNING: queries 'moviechat_06_33_q02' and 'moviechat_06_33_q05' are semantically similar (word overlap 73%)
+
+Exporting to: output/pilot_study_retry
+
+--- v2 Pipeline Summary ---
+  Videos processed     : 3
+  Segments / captions  : 223 segs, 197 raw -> 83 merged
+  Initial queries      : 24
+  Accepted queries     : 22
+  Discarded queries    : 2
+  Pass rate (round 1)  : 62%
+  Pass rate (final)    : 92%
+  Wall time            : 79.3 min (1028s/video)
+  Tokens               : 1,773,177 in 74 LLM calls
+    - caption     :    651,883 tokens / 50 calls
+    - generation  :     27,232 tokens / 4 calls
+    - verification:    379,299 tokens / 13 calls
+    - rewrite     :    714,763 tokens / 7 calls
+
+Done.

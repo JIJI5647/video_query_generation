@@ -1,0 +1,47 @@
+{
+  "total_videos": 13,
+  "total_segments": 441,
+  "total_raw_captions": 342,
+  "total_filtered_captions": 170,
+  "total_initial_queries": 69,
+  "total_accepted_queries": 63,
+  "total_discarded_queries": 6,
+  "average_accepted_queries_per_video": 4.8462,
+  "emotion_distribution": {
+    "fear": 45,
+    "angry": 17,
+    "happy": 41,
+    "sad": 17,
+    "frustrated": 38,
+    "surprised": 8,
+    "disappointed": 1,
+    "excited": 3
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 24,
+    "explicit_event": 23,
+    "evidence_cue": 22
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 22,
+    "explicit_event": 23,
+    "evidence_cue": 18
+  },
+  "rewrite_count_distribution": {
+    "0": 52,
+    "1": 8,
+    "2": 3,
+    "3": 6
+  },
+  "pass_rate_after_initial_verification": 0.7536,
+  "pass_rate_after_rewrites": 0.913,
+  "discarded_query_count": 6,
+  "diversity_warnings": [
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: queries 'emostim_03_MrBeansHoliday_clip_4_q01' and 'emostim_03_MrBeansHoliday_clip_4_q02' are semantically similar (word overlap 80%)",
+    "[meld_03_dia572] WARNING: queries 'meld_03_dia572_q01' and 'meld_03_dia572_q03' are semantically similar (word overlap 76%)",
+    "[meld_05_dia980] WARNING: queries 'meld_05_dia980_q02' and 'meld_05_dia980_q04' are semantically similar (word overlap 78%)",
+    "[meld_06_dia823] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[meld_07_dia208] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[moviechat_03_160] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing"
+  ]
+}

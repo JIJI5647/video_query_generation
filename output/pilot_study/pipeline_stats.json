@@ -1,0 +1,49 @@
+{
+  "total_videos": 14,
+  "total_segments": 455,
+  "total_raw_captions": 348,
+  "total_filtered_captions": 176,
+  "total_merged_captions": 108,
+  "total_initial_queries": 77,
+  "total_accepted_queries": 69,
+  "total_discarded_queries": 8,
+  "average_accepted_queries_per_video": 4.9286,
+  "emotion_distribution_merged": {
+    "fear": 30,
+    "angry": 13,
+    "happy": 19,
+    "sad": 8,
+    "frustrated": 27,
+    "surprised": 7,
+    "disappointed": 1,
+    "excited": 3
+  },
+  "query_type_distribution_initial": {
+    "explicit_event": 21,
+    "emotion_state": 34,
+    "evidence_cue": 22
+  },
+  "query_type_distribution_final_accepted": {
+    "explicit_event": 19,
+    "emotion_state": 32,
+    "evidence_cue": 18
+  },
+  "rewrite_count_distribution": {
+    "0": 51,
+    "1": 14,
+    "2": 4,
+    "3": 8
+  },
+  "pass_rate_after_initial_verification": 0.6623,
+  "pass_rate_after_rewrites": 0.8961,
+  "discarded_query_count": 8,
+  "diversity_warnings": [
+    "[emostim_01_TheShining_clip_2] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[meld_01_dia337] WARNING: all accepted queries have the same query_type 'emotion_state' — low diversity",
+    "[meld_06_dia823] WARNING: queries 'meld_06_dia823_q001' and 'meld_06_dia823_q002' are semantically similar (word overlap 83%)",
+    "[meld_06_dia823] WARNING: queries 'meld_06_dia823_q002' and 'meld_06_dia823_q003' are semantically similar (word overlap 75%)",
+    "[meld_07_dia208] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[moviechat_04_159] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing"
+  ]
+}

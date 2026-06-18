@@ -1,0 +1,113 @@
+{
+  "total_wall_seconds": 1199.6,
+  "videos_attempted": 14,
+  "videos_processed": 13,
+  "total_tokens": 2377618,
+  "total_llm_calls": 68,
+  "by_stage": {
+    "generation": {
+      "calls": 14,
+      "prompt_tokens": 38837,
+      "candidates_tokens": 19751,
+      "total_tokens": 58588
+    },
+    "verification": {
+      "calls": 34,
+      "prompt_tokens": 788379,
+      "candidates_tokens": 31819,
+      "total_tokens": 820198
+    },
+    "rewrite": {
+      "calls": 20,
+      "prompt_tokens": 1490755,
+      "candidates_tokens": 8077,
+      "total_tokens": 1498832
+    }
+  },
+  "per_video": [
+    {
+      "video_id": "emostim_01_TheShining_clip_2",
+      "status": "ok",
+      "seconds": 148.4,
+      "total_tokens": 272834
+    },
+    {
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "status": "ok",
+      "seconds": 53.0,
+      "total_tokens": 69193
+    },
+    {
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "status": "ok",
+      "seconds": 32.8,
+      "total_tokens": 15522
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "status": "ok",
+      "seconds": 16.9,
+      "total_tokens": 8349
+    },
+    {
+      "video_id": "meld_01_dia337",
+      "status": "skipped",
+      "seconds": 87.4,
+      "total_tokens": 80828
+    },
+    {
+      "video_id": "meld_02_dia224",
+      "status": "ok",
+      "seconds": 26.5,
+      "total_tokens": 10287
+    },
+    {
+      "video_id": "meld_03_dia572",
+      "status": "ok",
+      "seconds": 42.7,
+      "total_tokens": 15263
+    },
+    {
+      "video_id": "meld_04_dia362",
+      "status": "ok",
+      "seconds": 54.1,
+      "total_tokens": 90289
+    },
+    {
+      "video_id": "meld_05_dia980",
+      "status": "ok",
+      "seconds": 36.0,
+      "total_tokens": 31474
+    },
+    {
+      "video_id": "meld_06_dia823",
+      "status": "ok",
+      "seconds": 31.9,
+      "total_tokens": 10121
+    },
+    {
+      "video_id": "meld_07_dia208",
+      "status": "ok",
+      "seconds": 99.6,
+      "total_tokens": 70912
+    },
+    {
+      "video_id": "moviechat_01_162",
+      "status": "ok",
+      "seconds": 188.4,
+      "total_tokens": 630958
+    },
+    {
+      "video_id": "moviechat_03_160",
+      "status": "ok",
+      "seconds": 168.5,
+      "total_tokens": 439622
+    },
+    {
+      "video_id": "moviechat_04_159",
+      "status": "ok",
+      "seconds": 213.3,
+      "total_tokens": 631966
+    }
+  ]
+}

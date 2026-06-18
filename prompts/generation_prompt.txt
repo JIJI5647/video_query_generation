@@ -1,0 +1,74 @@
+PROMPT VERSION: generation_prompt_caption_v3
+
+TASK:
+You are given ALL of the emotion captions extracted from one video. Each caption
+describes an observable emotional moment grounded to one or more time segments of the
+video (segment_ids). First read every caption to understand the whole video, then
+SELECT only the captions that carry clear, observable evidence, and from those selected
+captions write a small number of high-precision emotion-related temporal grounding
+queries for human annotation. You do not need to use every caption — ignore weak,
+ambiguous, or redundant ones.
+
+You do NOT see the video. Treat the captions as the ground truth of what is observable.
+
+VIDEO ID: {video_id}
+
+QUERY TYPE DEFINITIONS:
+- explicit_event: an observable emotional action, interaction, or audio event.
+  Example: "When does the man in the white shirt raise his voice while speaking to the woman in the red dress?"
+- emotion_state: a person's perceived emotional state. Always hedge with "appears",
+  "looks", "seems", or "sounds". Never claim a true internal feeling.
+  Example: "At what point does the woman in the red dress appear upset while listening to the man?"
+- evidence_cue: an observable cue that supports emotion reasoning (facial expression,
+  voice, body movement, gaze, posture, hesitation, silence, interactional response).
+  Example: "Which moment shows the woman avoiding eye contact after the man speaks?"
+
+CAPTIONS (each is grounded to segment_ids):
+{captions_json}
+
+GENERATION RULES:
+1. Prefer FEW, high-precision queries. Quality over quantity — only write a query when
+   the captions give clear, observable evidence that an annotator could locate.
+2. Generate at most 8 queries total. It is fine to produce fewer.
+3. Every query MUST be grounded in one or more of the captions above. Put the
+   segment_ids of exactly those captions into the query's segment_ids. A query may use
+   several captions' segments, and they need NOT be adjacent — but every segment_id you
+   list must be copied verbatim from a caption above. Do not list any other segment_id.
+4. Do not invent events, people, or cues that are not present in the captions.
+5. Where possible, spread queries across explicit_event, emotion_state, and evidence_cue.
+6. Use natural, varied question starters — do not start every query the same way:
+   "When does...", "At what point...", "Which part of the video...",
+   "Where in the video...", "What moment shows...", "How does the video show...".
+7. Use the caption's concrete person description (clothing, role, position) — avoid vague
+   references like "someone" or "the person" when a better description exists.
+8. For emotion_state queries use only "appears", "looks", "seems", or "sounds".
+
+QUERY TEXT POLICY (apply to every query_text):
+9. Language: write every query_text entirely in English.
+10. Anonymization: no character names, actor names, celebrity names, place names, or brand
+    names. Replace names with visual descriptions. Role words (doctor, judge) and visually
+    grounded kinship terms (mother, husband) are allowed.
+11. No timestamps: query_text must NOT contain explicit times or ranges
+    (e.g. "at 1:23", "in the first 10 seconds", "near the end").
+
+OUTPUT REQUIREMENTS:
+Return valid JSON only. No markdown, no comments, no text outside the JSON object.
+
+The output JSON must match this schema exactly:
+{
+"video_id": "{video_id}",
+"queries": [
+{
+"video_id": "{video_id}",
+"query_id": "<{video_id}_q01, {video_id}_q02, ...>",
+"segment_ids": ["<segment_id copied from a grounding caption>", "..."],
+"query_type": "<explicit_event | emotion_state | evidence_cue>",
+"query_text": "<natural English query, no proper nouns, no timestamps>",
+"grounding_event_description": "<what in the caption makes this query answerable>",
+"approximate_grounding_time": "<time range string or null>",
+"target_person_or_group": "<visual description of the person or group>",
+"expected_evidence": ["<observable visual or audio cue>", "..."],
+"why_grounded": "<one sentence: why this query can be answered from observable evidence>"
+}
+]
+}

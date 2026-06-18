@@ -1,0 +1,34 @@
+{
+  "total_videos": 1,
+  "total_segments": 11,
+  "total_raw_captions": 10,
+  "total_filtered_captions": 3,
+  "total_merged_captions": 3,
+  "total_initial_queries": 4,
+  "total_accepted_queries": 4,
+  "total_discarded_queries": 0,
+  "average_accepted_queries_per_video": 4.0,
+  "emotion_distribution_merged": {
+    "sad": 1,
+    "fear": 2
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 2,
+    "explicit_event": 1,
+    "evidence_cue": 1
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 2,
+    "explicit_event": 1,
+    "evidence_cue": 1
+  },
+  "rewrite_count_distribution": {
+    "0": 2,
+    "1": 1,
+    "2": 1
+  },
+  "pass_rate_after_initial_verification": 0.5,
+  "pass_rate_after_rewrites": 1.0,
+  "discarded_query_count": 0,
+  "diversity_warnings": []
+}

@@ -1,0 +1,73 @@
+{
+  "total_wall_seconds": 4760.6,
+  "videos_attempted": 6,
+  "videos_processed": 3,
+  "total_tokens": 1773177,
+  "total_llm_calls": 74,
+  "avg_seconds_per_processed_video": 1028.1,
+  "avg_tokens_per_processed_video": 591059,
+  "by_stage": {
+    "caption": {
+      "calls": 50,
+      "prompt_tokens": 614426,
+      "candidates_tokens": 37445,
+      "total_tokens": 651883
+    },
+    "generation": {
+      "calls": 4,
+      "prompt_tokens": 18111,
+      "candidates_tokens": 9121,
+      "total_tokens": 27232
+    },
+    "verification": {
+      "calls": 13,
+      "prompt_tokens": 368239,
+      "candidates_tokens": 11060,
+      "total_tokens": 379299
+    },
+    "rewrite": {
+      "calls": 7,
+      "prompt_tokens": 711745,
+      "candidates_tokens": 3018,
+      "total_tokens": 714763
+    }
+  },
+  "per_video": [
+    {
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "status": "ok",
+      "seconds": 470.4,
+      "total_tokens": 273502
+    },
+    {
+      "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+      "status": "skipped",
+      "seconds": 444.8,
+      "total_tokens": 74716
+    },
+    {
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "status": "skipped",
+      "seconds": 298.3,
+      "total_tokens": 58566
+    },
+    {
+      "video_id": "moviechat_02_154",
+      "status": "skipped",
+      "seconds": 933.2,
+      "total_tokens": 159571
+    },
+    {
+      "video_id": "moviechat_05_30",
+      "status": "ok",
+      "seconds": 1304.6,
+      "total_tokens": 415758
+    },
+    {
+      "video_id": "moviechat_06_33",
+      "status": "ok",
+      "seconds": 1309.3,
+      "total_tokens": 791064
+    }
+  ]
+}

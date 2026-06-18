@@ -1,0 +1,215 @@
+PROMPT VERSION: verification_prompt_v6
+
+TASK:
+Watch the provided video carefully. Then verify whether each query is suitable for human annotation of video clips.
+
+You judge every query against THREE criteria. A query is suitable only if it passes all three.
+
+Important:
+
+* You must judge each query based on BOTH the query text and the video content.
+* Do not judge emotion relevance from the query text alone.
+* A query can be emotion-relevant even if it does not explicitly contain an emotion word, as long as the queried moment is visibly or audibly tied to emotion in the video.
+* However, do not mark a neutral event as emotion-relevant merely because people are present, the scene is dramatic, or the surrounding context is emotional. The queried moment itself must carry emotional meaning in the video.
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+CRITERIA:
+
+1. RELEVANCE — Does the queried moment have emotional meaning in the video?
+
+PASS if, after watching the video, the query refers to a moment that functions as at least one of the following:
+
+* an emotional state or reaction, e.g., fear, anger, amusement, distress, surprise, relief, concern, confusion, anxiety, embarrassment, tension;
+* an emotional change, e.g., a facial expression changes from neutral to surprised, serious to amused, calm to distressed;
+* an observable cue of emotion, e.g., smiling, crying, laughing, shouting, trembling voice, tense posture, anxious gaze, nervous hesitation, silence after an emotional moment, visible pain;
+* an emotionally meaningful interaction, e.g., arguing, comforting, reassuring, reacting with fear, responding angrily, showing concern, teasing, mocking, rejecting, apologizing;
+* a contextually emotional event in the video, e.g., threat, conflict, comfort, affection, intimacy, pain, fear, surprise, embarrassment, concern, tension, relief, or distress.
+
+The query does NOT need to explicitly contain an emotion word if the target moment is emotionally meaningful in the video.
+
+Examples that may PASS Relevance depending on the video:
+
+* "What moment shows the woman picking up a weapon?"
+  PASS if the action functions as a threat, fear, tension, or self-defense moment in the video.
+* "What moment shows the man placing a hand on the pregnant woman's stomach?"
+  PASS if the gesture functions as comfort, care, affection, concern, intimacy, or emotional support.
+
+FAIL if the query refers only to a neutral action, object, location, entrance or exit, physical movement, object interaction, or factual event, and the target moment itself does not show, express, trigger, or support an emotional state, reaction, or interaction in the video.
+
+Examples that should FAIL Relevance if the video shows only neutral action:
+
+* "What moment shows the man interacting with the caged chicken?"
+* "When does the woman in the blue top offer a pastry to the man in the beige turtleneck?"
+
+Important rules for Relevance:
+
+* Watch the video and decide whether the queried moment itself has emotional meaning.
+* Do not rely only on whether the query contains emotion words.
+* Do not rely only on whether the scene is generally dramatic.
+* The queried moment must be directly tied to visible or audible emotion, emotional cue, emotional reaction, emotional change, or emotionally meaningful interaction.
+* Body movement, gesture, silence, and interaction are emotion-relevant only when they function as emotional evidence or emotional reaction in the video.
+* For explicit_event queries, pass relevance only if the event is emotionally meaningful in the video. A neutral explicit event should fail relevance even if it is easy to locate.
+
+2. ANSWERABILITY — Is the query supported and reliably locatable in the video?
+
+Watch the video and check whether a human annotator can locate the relevant segment or segments.
+
+PASS only if:
+
+* the queried moment is actually present in the video;
+* there is visible or audible evidence supporting the query;
+* the relevant evidence is clear enough for annotation;
+* a human annotator can reasonably identify one or more specific segments;
+* different careful annotators would likely agree on approximately where the relevant moment occurs.
+
+FAIL if:
+
+* the query cannot be answered from the video;
+* the query references content not present in the video;
+* the query depends on hallucinated details;
+* the relevant moment is too unclear, too brief, too ambiguous, or too weak to locate reliably;
+* the emotional cue is too subtle or uncertain for annotators to consistently locate;
+* different annotators would likely disagree on where the moment occurs;
+* the query asks about hidden internal states, motivations, intentions, beliefs, memories, or external knowledge that cannot be observed;
+* the query requires plot knowledge, character identity, movie context, or information outside the video.
+
+Important rules for Answerability:
+
+* Emotion-related queries are answerable only when the video contains visible or audible evidence for the emotional state, reaction, cue, change, or emotionally meaningful event.
+* A query may be emotion-relevant but still fail answerability if the emotional evidence is not clearly visible or audible.
+* If the emotional cue is subtle, ambiguous, or not clearly visible/audible enough for annotators to consistently locate the segment, mark answerability_pass as false.
+* If the query uses words such as "knows", "intends", "realizes", "decides", "wants", "remembers", or "understands", mark answerability as false unless the query is clearly grounded in observable behavior.
+* If the query asks for an emotional state such as "concerned", "amused", "relieved", "distressed", or "anxious", answerability passes only if there are visible or audible cues that a human annotator could use to locate the moment.
+* Do not mark answerability as pass merely because the query sounds plausible.
+* Do not mark answerability as pass merely because the event probably happens somewhere in the video. The relevant segment must be identifiable.
+
+3. QUERY QUALITY — Is the query text itself fit for annotation?
+
+PASS only if the query_text satisfies ALL of the following:
+
+* English: written entirely in English, with no non-English script or untranslated foreign dialogue.
+* No proper nouns: no character, actor, celebrity, place, organization, or brand names, e.g., "Jack", "Rose", "Harry Potter", "Starbucks". Use visual descriptions instead, such as "the man in the dark jacket".
+* Generic descriptors are allowed and are NOT proper nouns, including: "male character", "female character", "the man", "the woman", "the boy", "the girl", "the child", "the person", "the doctor", "the nurse".
+* Role words, such as doctor, nurse, judge, teacher, and visually grounded kinship terms, such as mother, father, husband, wife, boy, girl, child, are allowed.
+* Clear and unambiguous: one clear question, no confusing, contradictory, or overly complex phrasing.
+* Observable, not speculative: refers to observable states, reactions, expressions, tone, gestures, posture, behavior, or interaction cues, not guessed inner feelings, motivations, intentions, or hidden mental states.
+* Hedged emotion wording: emotion claims should be hedged with words such as "appears", "looks", "seems", or "sounds", unless the query refers to a directly observable expression or behavior such as smiling, crying, laughing, shouting, arguing, trembling, flinching, or showing pain.
+* Not too broad: targets a specific moment or segment, not the entire video.
+* Not repetitive: does not substantially overlap with another query in the same set.
+* No explicit timestamps or time ranges in the query_text.
+
+Important rules for Query Quality:
+
+* A query should be understandable without knowing character names, actor names, plot background, or external context.
+* A query should guide annotators toward a localizable moment.
+* Avoid vague references such as "this", "that", "something happens", or "the situation changes" unless the visual target is clear.
+* Avoid overly general questions such as "When is the scene emotional?" or "When does the person feel bad?"
+* Avoid unhedged internal emotion claims such as "When is the woman sad?" Prefer "When does the woman appear sad?" or "When does the woman look distressed?"
+* If the query is emotion-relevant and answerable but has a fixable wording issue, mark decision as "revise", not "fail".
+
+DECISION DEFINITIONS:
+
+* pass: Relevance, Answerability, and Query Quality all pass. The query is ready for annotation without modification.
+* revise: Relevance and Answerability pass, but Query Quality has a fixable issue, such as non-English text, an actual proper noun, vague person reference, missing hedge, slightly broad wording, minor overlap, or minor ambiguity. The core emotional grounding event is still valid.
+* fail: Relevance fails, OR Answerability fails, OR Query Quality is broken beyond a simple rewrite.
+
+QUERIES TO VERIFY:
+{queries_json}
+
+VERIFICATION CHECKLIST, apply to each query:
+
+Criterion 1 — Emotion_Relevance:
+
+* is_emotion_relevant: After watching the video, does the queried moment have emotional meaning? Mark true if the moment shows, expresses, triggers, or supports an emotional state, emotional reaction, emotional change, observable emotional cue, or emotionally meaningful interaction. Mark false if it is only a neutral action, object, location, entrance or exit, physical movement, object interaction, or factual event with no emotional meaning in the video.
+
+Criterion 2 — Answerability:
+
+* is_answerable_from_video: Can a human annotator find a specific moment or segment based on this query using visible or audible evidence in the video?
+* is_grounded_in_observable_evidence: Does the query refer to observable evidence only, not hidden feelings, motivations, intentions, memories, beliefs, or outside knowledge?
+* has_hallucination: Does the query reference content NOT present in the video? True is bad.
+
+Criterion 3 — Query Quality:
+
+* is_english_only: Is query_text fully in English, with no untranslated foreign dialogue?
+* avoids_proper_nouns: Does query_text avoid actual names of characters, actors, celebrities, places, organizations, and brands? Generic descriptors such as "male character", "female character", "the man", and "the woman" are allowed and should not be treated as proper nouns.
+* is_clear_and_unambiguous: Is the query a single, clearly worded question?
+* is_observable_not_speculative: Does it use observable cues and hedged emotion wording rather than asserting true inner feelings or hidden mental states?
+* is_not_too_broad: Does it target a specific moment or segment rather than the whole video?
+* is_not_repetitive: Is it distinct from the other queries in the set?
+* no_timestamp_in_query_text: Does query_text contain no explicit timestamps or time ranges?
+
+CRITERION ROLL-UPS:
+
+* relevance_pass = is_emotion_relevant
+* answerability_pass = is_answerable_from_video AND is_grounded_in_observable_evidence AND (NOT has_hallucination)
+* query_quality_pass = is_english_only AND avoids_proper_nouns AND is_clear_and_unambiguous AND is_observable_not_speculative AND is_not_too_broad AND is_not_repetitive AND no_timestamp_in_query_text
+
+FINAL DECISION LOGIC:
+
+* If relevance_pass is false, decision must be "fail".
+* Else if answerability_pass is false, decision must be "fail".
+* Else if query_quality_pass is true, decision must be "pass".
+* Else if query_quality_pass is false but the issue is fixable by rewriting the query_text while keeping the same emotional grounding event, decision must be "revise".
+* Else decision must be "fail".
+
+OUTPUT CONSISTENCY CHECK:
+Before returning the final JSON, check every result for consistency:
+
+* If decision is "pass", then relevance_pass, answerability_pass, and query_quality_pass must all be true.
+* If relevance_pass is false, decision must be "fail".
+* If answerability_pass is false, decision must be "fail".
+* If decision is "revise", then relevance_pass and answerability_pass must be true, and query_quality_pass must be false.
+* Do not output contradictory combinations such as decision="pass" with relevance_pass=false.
+* Do not include self-correction, uncertainty, chain-of-thought, or meta-commentary in failure_reason.
+* failure_reason must be a concise final judgment only.
+* Do not mention prompt instructions, schemas, or your own reasoning process in failure_reason.
+
+FAILURE REASON RULES:
+
+* If Relevance fails, explain briefly why the queried moment is not emotionally meaningful in the video.
+* If Answerability fails, explain briefly why the moment is unsupported, hallucinated, unclear, ambiguous, or not reliably locatable.
+* If Query Quality fails or needs revision, explain the text issue briefly.
+* Do not write long explanations.
+* Do not include phrases such as "Wait", "Actually", "I must follow instructions", or any self-correction.
+
+SUGGESTED REVISION RULES:
+
+* If decision is "pass", suggested_revision must be an empty string.
+* If decision is "revise", provide a concrete improved version of the query.
+* If decision is "fail" because Relevance or Answerability fails, suggested_revision should usually be an empty string unless a simple rewrite can make the same observed moment suitable.
+* Do not invent new video content in suggested_revision.
+
+OUTPUT REQUIREMENTS:
+Return valid JSON only. Do not include markdown, comments, or explanation outside the JSON object.
+
+The output JSON must match this schema exactly:
+{
+"video_id": "<string>",
+"round_index": <integer>,
+"results": [
+{
+"video_id": "<string>",
+"query_id": "<string>",
+"round_index": <integer>,
+"decision": "<pass | fail | revise>",
+"relevance_pass": <true | false>,
+"answerability_pass": <true | false>,
+"query_quality_pass": <true | false>,
+"is_emotion_relevant": <true | false>,
+"is_answerable_from_video": <true | false>,
+"is_grounded_in_observable_evidence": <true | false>,
+"has_hallucination": <true | false>,
+"is_english_only": <true | false>,
+"avoids_proper_nouns": <true | false>,
+"is_clear_and_unambiguous": <true | false>,
+"is_observable_not_speculative": <true | false>,
+"is_not_too_broad": <true | false>,
+"is_not_repetitive": <true | false>,
+"no_timestamp_in_query_text": <true | false>,
+"failure_reason": "<empty string if pass; brief explanation if fail or revise>",
+"suggested_revision": "<empty string if pass; concrete suggestion if revise; usually empty if fail>"
+}
+]
+}
