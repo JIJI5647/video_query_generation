@@ -1,0 +1,99 @@
+Re-generating queries for 11 video(s) from raw_captions.jsonl in output/pilot_study_v2 (NO FILTER)
+Models — generation: gemini-2.5-flash-lite | verification: gemini-3.1-flash-lite | rewrite: gemini-2.5-flash-lite
+
+[1/11] emostim_02_WhenHarryMetSally_clip_1
+  31 captions -> 8 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 8 accepted, 0 discarded
+  [usage] 135.5s, 72,884 tokens
+[2/11] emostim_03_MrBeansHoliday_clip_4
+  23 captions -> 8 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 6 accepted, 2 discarded
+  [usage] 163.6s, 93,855 tokens
+[3/11] emostim_04_28DaysLater_clip_6
+  11 captions -> 8 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 2 accepted, 6 discarded
+  [usage] 287.3s, 175,934 tokens
+[4/11] emostim_07_TheSilenceOfTheLambs_a_clip_2
+  3 captions -> 8 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 8 accepted, 0 discarded
+  [usage] 155.3s, 95,374 tokens
+[5/11] meld_01_dia337
+  14 captions -> 8 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 0 accepted, 8 discarded
+  [usage] 266.3s, 201,646 tokens
+[6/11] meld_02_dia224
+  8 captions -> 8 queries generated
+  Done — 6 accepted, 2 discarded
+  [usage] 147.3s, 92,334 tokens
+[7/11] meld_03_dia572
+  11 captions -> 8 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 4 accepted, 4 discarded
+  [usage] 287.1s, 147,289 tokens
+[8/11] meld_04_dia362
+  11 captions -> 8 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 3/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+    [rewrite skip] meld_04_dia362_q07: Gemini call failed after 3 attempts (schema=RewriteBatchOutput, model=gemini-2.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+  Done — 6 accepted, 2 discarded
+  [usage] 162.9s, 83,136 tokens
+[9/11] meld_05_dia980
+  8 captions -> 8 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 1 accepted, 7 discarded
+  [usage] 265.0s, 209,267 tokens
+[10/11] meld_07_dia208
+  9 captions -> 8 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 0 accepted, 8 discarded
+  [usage] 313.5s, 185,605 tokens
+[11/11] moviechat_06_33
+  96 captions -> 8 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 3 accepted, 5 discarded
+  [usage] 329.7s, 183,830 tokens
+  [emostim_03_MrBeansHoliday_clip_4] WARNING: queries 'emostim_03_MrBeansHoliday_clip_4_q02' and 'emostim_03_MrBeansHoliday_clip_4_q05' are semantically similar (word overlap 85%)
+  [emostim_04_28DaysLater_clip_6] WARNING: only 2 accepted queries (recommended minimum: 3)
+  [meld_01_dia337] WARNING: only 0 accepted queries (recommended minimum: 3)
+  [meld_05_dia980] WARNING: only 1 accepted queries (recommended minimum: 3)
+  [meld_05_dia980] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity
+  [meld_07_dia208] WARNING: only 0 accepted queries (recommended minimum: 3)
+
+Exporting to: output/pilot_study_v3_nofilter
+
+--- Re-generation Summary ---
+  Videos processed     : 11
+  Captions reused      : 225
+  Initial queries      : 88
+  Accepted queries     : 44
+  Discarded queries    : 44
+  Pass rate (round 1)  : 28%
+  Pass rate (final)    : 50%
+  Wall time            : 41.9 min
+  Tokens               : 1,541,154 in 422 LLM calls
+
+Done.

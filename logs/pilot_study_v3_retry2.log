@@ -1,0 +1,43 @@
+Selected 3 video(s) from data/_retry_v3_failed
+Models — caption: gemini-2.5-flash-lite | generation: gemini-2.5-flash-lite | verification: gemini-3.1-flash-lite | rewrite: gemini-2.5-flash-lite
+Segmentation — 5.0s window / 5.0s stride | batch 8 | max_accepted 8
+
+[1/3] emostim_01_TheShining_clip_2.mp4  (id: emostim_01_TheShining_clip_2)
+  57 segments cut
+  captions: 57 raw -> 37 kept -> 57 sent to generation
+  8 queries generated
+  Done — 6 accepted, 2 discarded
+  [usage] 803.1s, 205,208 tokens
+[2/3] emostim_05_TheSilenceOfTheLambs_b_clip_1.mp4  (id: emostim_05_TheSilenceOfTheLambs_b_clip_1)
+  37 segments cut
+  [attempt 1/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 2/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 3/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  ERROR processing emostim_05_TheSilenceOfTheLambs_b_clip_1: Gemini call failed after 3 attempts (schema=CaptionBatchOutput, model=gemini-2.5-flash-lite): empty response (no text candidate; possibly safety-blocked) — skipping.
+  [usage] 430.6s, 76,023 tokens
+[3/3] moviechat_02_154.mp4  (id: moviechat_02_154)
+  96 segments cut
+  [attempt 1/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 2/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 3/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  ERROR processing moviechat_02_154: Gemini call failed after 3 attempts (schema=CaptionBatchOutput, model=gemini-2.5-flash-lite): empty response (no text candidate; possibly safety-blocked) — skipping.
+  [usage] 959.6s, 160,980 tokens
+
+Exporting to: output/pilot_study_v3_retry2
+
+--- v2 Pipeline Summary ---
+  Videos processed     : 1
+  Segments / captions  : 57 segs, 57 raw -> 37 kept
+  Initial queries      : 8
+  Accepted queries     : 6
+  Discarded queries    : 2
+  Pass rate (round 1)  : 38%
+  Pass rate (final)    : 75%
+  Wall time            : 36.6 min (803s/video)
+  Tokens               : 442,211 in 54 LLM calls
+    - caption     :    335,356 tokens / 27 calls
+    - generation  :     10,924 tokens / 1 calls
+    - verification:     72,978 tokens / 17 calls
+    - rewrite     :     22,953 tokens / 9 calls
+
+Done.

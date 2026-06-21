@@ -87,6 +87,7 @@ def export_final_queries(
                 approximate_grounding_time=t.approximate_grounding_time,
                 target_person_or_group=t.target_person_or_group,
                 expected_evidence=t.expected_evidence,
+                time_range=t.time_range,
                 segment_ids=t.segment_ids,
                 rewrite_count=t.rewrite_count,
                 verification_rounds=[rd.model_dump() for rd in t.verification_rounds],
@@ -96,16 +97,24 @@ def export_final_queries(
     write_jsonl(out_path, records)
 
 
+def _format_time_range(time_range) -> str:
+    """Human-facing handle, e.g. ``12.0-17.0s``. Empty if no range."""
+    if not time_range or len(time_range) != 2:
+        return ""
+    return f"{time_range[0]:g}-{time_range[1]:g}s"
+
+
 def export_human_review_csv(
     video_traces: Dict[str, Dict[str, QueryTrace]], out_path: Path
 ) -> None:
     out_path.parent.mkdir(parents=True, exist_ok=True)
+    # v4 (B1): the external handle is the time_range, not the internal segment_ids.
     fieldnames = [
         "video_id",
         "query_id",
         "query_type",
         "final_query",
-        "segment_ids",
+        "time_range",
         "human_decision",
         "revised_query",
         "human_notes",
@@ -123,7 +132,7 @@ def export_human_review_csv(
                         "query_id": t.query_id,
                         "query_type": t.query_type,
                         "final_query": t.final_query_text,
-                        "segment_ids": " ".join(t.segment_ids),
+                        "time_range": _format_time_range(t.time_range),
                         "human_decision": "",
                         "revised_query": "",
                         "human_notes": "",

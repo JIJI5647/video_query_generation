@@ -21,16 +21,13 @@ def build_verification_prompt(
     template = load_prompt_template(
         prompts_dir or _PROMPTS_DIR, "verification_prompt.txt"
     )
+    # v4 (A1): the verifier sees ONLY the self-contained query_text (plus its id).
+    # All caption-derived fields (query_type, grounding_event_description,
+    # approximate_grounding_time, target_person_or_group, expected_evidence) are
+    # withheld so a wrong caption cannot bias the judgment — the query is judged
+    # purely against the clip.
     queries_payload = [
-        {
-            "query_id": q.query_id,
-            "query_type": q.query_type,
-            "query_text": q.query_text,
-            "grounding_event_description": q.grounding_event_description,
-            "approximate_grounding_time": q.approximate_grounding_time,
-            "target_person_or_group": q.target_person_or_group,
-            "expected_evidence": q.expected_evidence,
-        }
+        {"query_id": q.query_id, "query_text": q.query_text}
         for q in queries
     ]
     prompt = template

@@ -115,17 +115,42 @@ def plan_segments(
     ]
 
 
+def grid_key(segment_seconds: float, stride: float) -> str:
+    """Cache subdir name keyed by the windowing params (B4).
+
+    A change to ``segment_seconds`` or ``stride`` produces a different key, so a
+    new grid is written into a fresh cache subdir and old clips are never reused.
+    """
+    return f"win{float(segment_seconds):.2f}_str{float(stride):.2f}"
+
+
+def grid_key_from_segments(segments: List[Segment]) -> str:
+    """Derive the cache key from a full segment list (when params aren't handy)."""
+    if not segments:
+        return grid_key(0.0, 0.0)
+    seg_seconds = max(s.end_time - s.start_time for s in segments)
+    stride = (
+        segments[1].start_time - segments[0].start_time
+        if len(segments) >= 2
+        else seg_seconds
+    )
+    return grid_key(seg_seconds, stride)
+
+
 def extract_segment_clips(
     video_path: PathLike,
     video_id: str,
     segments: List[Segment],
     temp_dir: PathLike,
     overwrite: bool = True,
+    subdir: str = "",
 ) -> List[Segment]:
     """Cut a clip for each segment and fill ``Segment.clip_path`` in place.
 
     Rebuilds a ``TemporalWindow`` per segment so the copied ffmpeg extractor can
-    run unchanged, then joins the results back by ``index``.
+    run unchanged, then joins the results back by ``index``. ``subdir`` is the
+    cache key (see ``grid_key``); with ``overwrite=False`` existing clips are
+    reused without invoking ffmpeg.
     """
     windows = [
         TemporalWindow(
@@ -139,7 +164,7 @@ def extract_segment_clips(
         for seg in segments
     ]
     extracted = extract_windows(
-        video_path, video_id, windows, temp_dir, overwrite=overwrite
+        video_path, video_id, windows, temp_dir, overwrite=overwrite, subdir=subdir
     )
     by_index = {clip.window.index: clip.clip_path for clip in extracted}
     for seg in segments:

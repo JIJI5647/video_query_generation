@@ -1,0 +1,195 @@
+Selected 20 video(s) from data/pilot_study
+Models — caption: gemini-2.5-flash-lite | generation: gemini-2.5-flash-lite | verification: gemini-3.1-flash-lite | rewrite: gemini-2.5-flash-lite
+Segmentation — 5.0s window / 5.0s stride | batch 8 | max_accepted 8
+
+[1/20] emostim_01_TheShining_clip_2.mp4  (id: emostim_01_TheShining_clip_2)
+  57 segments cut
+  [attempt 1/3] JSON parse error for CaptionBatchOutput: Expecting value: line 73 column 74 (char 3244). Retrying...
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  captions: 57 raw -> 34 kept
+  8 queries generated
+  ERROR processing emostim_01_TheShining_clip_2: 1 validation error for RewriteBatchOutput
+rewrites.4.original_query_text
+  Field required [type=missing, input_value={'video_id': 'emostim_01_...owl.', 'round_index': 1}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.13/v/missing — skipping.
+  [usage] 864.4s, 240,055 tokens
+[2/20] emostim_02_WhenHarryMetSally_clip_1.mp4  (id: emostim_02_WhenHarryMetSally_clip_1)
+  31 segments cut
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  captions: 31 raw -> 8 kept
+  6 queries generated
+  Done — 6 accepted, 0 discarded
+  [usage] 509.9s, 206,608 tokens
+[3/20] emostim_03_MrBeansHoliday_clip_4.mp4  (id: emostim_03_MrBeansHoliday_clip_4)
+  23 segments cut
+  captions: 23 raw -> 6 kept
+  [attempt 1/3] API error for GenerationOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  3 queries generated
+  Done — 3 accepted, 0 discarded
+  [usage] 309.0s, 105,205 tokens
+[4/20] emostim_04_28DaysLater_clip_6.mp4  (id: emostim_04_28DaysLater_clip_6)
+  11 segments cut
+  captions: 11 raw -> 0 kept
+  0 queries generated
+  Done — 0 accepted, 0 discarded
+  [usage] 136.3s, 18,973 tokens
+[5/20] emostim_05_TheSilenceOfTheLambs_b_clip_1.mp4  (id: emostim_05_TheSilenceOfTheLambs_b_clip_1)
+  37 segments cut
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 3/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  ERROR processing emostim_05_TheSilenceOfTheLambs_b_clip_1: Gemini call failed after 3 attempts (schema=CaptionBatchOutput, model=gemini-2.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} — skipping.
+  [usage] 388.4s, 41,080 tokens
+[6/20] emostim_06_TheChamp_clip_3.mp4  (id: emostim_06_TheChamp_clip_3)
+  23 segments cut
+  captions: 23 raw -> 22 kept
+  7 queries generated
+  [attempt 1/3] API error for VerificationBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 2/3] API error for VerificationBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 3/3] API error for VerificationBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  ERROR processing emostim_06_TheChamp_clip_3: Gemini call failed after 3 attempts (schema=VerificationBatchOutput, model=gemini-3.1-flash-lite): empty response (no text candidate; possibly safety-blocked) — skipping.
+  [usage] 304.3s, 58,705 tokens
+[7/20] emostim_07_TheSilenceOfTheLambs_a_clip_2.mp4  (id: emostim_07_TheSilenceOfTheLambs_a_clip_2)
+  3 segments cut
+  captions: 3 raw -> 3 kept
+  [attempt 1/3] API error for GenerationOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  3 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 3 accepted, 0 discarded
+  [usage] 76.3s, 23,364 tokens
+[8/20] meld_01_dia337.mp4  (id: meld_01_dia337)
+  14 segments cut
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  captions: 14 raw -> 1 kept
+  2 queries generated
+  Done — 1 accepted, 1 discarded
+  [usage] 258.0s, 129,243 tokens
+[9/20] meld_02_dia224.mp4  (id: meld_02_dia224)
+  8 segments cut
+  captions: 8 raw -> 3 kept
+  3 queries generated
+  Done — 3 accepted, 0 discarded
+  [usage] 131.1s, 41,938 tokens
+[10/20] meld_03_dia572.mp4  (id: meld_03_dia572)
+  11 segments cut
+  captions: 11 raw -> 4 kept
+  3 queries generated
+  [attempt 1/3] API error for RewriteBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  Done — 2 accepted, 1 discarded
+  [usage] 206.6s, 105,411 tokens
+[11/20] meld_04_dia362.mp4  (id: meld_04_dia362)
+  11 segments cut
+  captions: 11 raw -> 3 kept
+  4 queries generated
+  Done — 4 accepted, 0 discarded
+  [usage] 160.6s, 31,098 tokens
+[12/20] meld_05_dia980.mp4  (id: meld_05_dia980)
+  8 segments cut
+  captions: 8 raw -> 4 kept
+  3 queries generated
+  Done — 3 accepted, 0 discarded
+  [usage] 136.4s, 24,634 tokens
+[13/20] meld_06_dia823.mp4  (id: meld_06_dia823)
+  9 segments cut
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 3/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  ERROR processing meld_06_dia823: Gemini call failed after 3 attempts (schema=CaptionBatchOutput, model=gemini-2.5-flash-lite): 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}} — skipping.
+  [usage] 123.7s, 0 tokens
+[14/20] meld_07_dia208.mp4  (id: meld_07_dia208)
+  9 segments cut
+  captions: 9 raw -> 0 kept
+  0 queries generated
+  Done — 0 accepted, 0 discarded
+  [usage] 116.5s, 14,903 tokens
+[15/20] moviechat_01_162.mp4  (id: moviechat_01_162)
+  96 segments cut
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 3/3] JSON parse error for CaptionBatchOutput: Expecting value: line 1 column 1 (char 0). Retrying...
+  ERROR processing moviechat_01_162: Gemini call failed after 3 attempts (schema=CaptionBatchOutput, model=gemini-2.5-flash-lite): Expecting value: line 1 column 1 (char 0) — skipping.
+  [usage] 1110.5s, 149,959 tokens
+[16/20] moviechat_02_154.mp4  (id: moviechat_02_154)
+  96 segments cut
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 2/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  [attempt 3/3] API error for CaptionBatchOutput: empty response (no text candidate; possibly safety-blocked). Retrying...
+  ERROR processing moviechat_02_154: Gemini call failed after 3 attempts (schema=CaptionBatchOutput, model=gemini-2.5-flash-lite): empty response (no text candidate; possibly safety-blocked) — skipping.
+  [usage] 999.4s, 160,882 tokens
+[17/20] moviechat_03_160.mp4  (id: moviechat_03_160)
+  96 segments cut
+  ERROR processing moviechat_03_160: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The service is currently unavailable.', 'status': 'UNAVAILABLE'}} — skipping.
+  [usage] 209.1s, 27,429 tokens
+[18/20] moviechat_04_159.mp4  (id: moviechat_04_159)
+  96 segments cut
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  ERROR processing moviechat_04_159: 400 Bad Request. {'message': 'Upload has already been terminated.', 'status': 'Bad Request'} — skipping.
+  [usage] 791.7s, 95,393 tokens
+[19/20] moviechat_05_30.mp4  (id: moviechat_05_30)
+  96 segments cut
+  ERROR processing moviechat_05_30: 400 Bad Request. {'message': 'Upload has already been terminated.', 'status': 'Bad Request'} — skipping.
+  [usage] 163.0s, 13,576 tokens
+[20/20] moviechat_06_33.mp4  (id: moviechat_06_33)
+  96 segments cut
+    [caption fallback] s003: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy', 'disappointed', 'neutral' or 'unrelevant' [type=literal_error, input_value='determined', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+    [caption fallback] s004: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy', 'disappointed', 'neutral' or 'unrelevant' [type=literal_error, input_value='determined', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+    [caption fallback] s005: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy', 'disappointed', 'neutral' or 'unrelevant' [type=literal_error, input_value='pain', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+    [caption fallback] s006: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy', 'disappointed', 'neutral' or 'unrelevant' [type=literal_error, input_value='pain', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+    [caption fallback] s007: 1 validation error for EmotionCaption
+emotion
+  Input should be 'angry', 'excited', 'fear', 'sad', 'surprised', 'frustrated', 'happy', 'disappointed', 'neutral' or 'unrelevant' [type=literal_error, input_value='pain', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 1/3] API error for CaptionBatchOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  captions: 96 raw -> 7 kept
+  [attempt 1/3] API error for GenerationOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/3] API error for GenerationOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  7 queries generated
+  Done — 5 accepted, 2 discarded
+  [usage] 1446.6s, 791,653 tokens
+  [emostim_04_28DaysLater_clip_6] WARNING: only 0 accepted queries (recommended minimum: 3)
+  [meld_01_dia337] WARNING: only 1 accepted queries (recommended minimum: 3)
+  [meld_01_dia337] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity
+  [meld_03_dia572] WARNING: only 2 accepted queries (recommended minimum: 3)
+  [meld_07_dia208] WARNING: only 0 accepted queries (recommended minimum: 3)
+
+Exporting to: output/pilot_study_v2
+
+--- v2 Pipeline Summary ---
+  Videos processed     : 11
+  Segments / captions  : 225 segs, 225 raw -> 39 kept
+  Initial queries      : 34
+  Accepted queries     : 30
+  Discarded queries    : 4
+  Pass rate (round 1)  : 71%
+  Pass rate (final)    : 88%
+  Wall time            : 140.7 min (317s/video)
+  Tokens               : 2,280,109 in 133 LLM calls
+    - caption     :  1,023,660 tokens / 80 calls
+    - generation  :     35,824 tokens / 11 calls
+    - verification:    444,228 tokens / 27 calls
+    - rewrite     :    776,397 tokens / 15 calls
+
+Done.

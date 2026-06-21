@@ -99,7 +99,11 @@ class EventGroundedQuery(BaseModel):
     target_person_or_group: str
     expected_evidence: List[str] = Field(default_factory=list)
     why_grounded: str = ""
-    # Provenance: query -> segments (each segment has exactly one caption)
+    # v4 (B1): the model-facing grounding handle is a [start, end] time range in
+    # seconds. ``segment_ids`` is resolved from it internally (overlapping
+    # segments) and kept only for clip lookup / provenance — it is never shown to
+    # the generation or verification models, nor to human annotators.
+    time_range: Optional[List[float]] = None
     segment_ids: List[str] = Field(default_factory=list)
 
 
@@ -174,6 +178,7 @@ class QueryTrace(BaseModel):
     approximate_grounding_time: Optional[str] = None
     target_person_or_group: str
     expected_evidence: List[str] = Field(default_factory=list)
+    time_range: Optional[List[float]] = None
     segment_ids: List[str] = Field(default_factory=list)
     rewrite_count: int = 0
     verification_rounds: List[RoundDecision] = Field(default_factory=list)
@@ -190,6 +195,7 @@ class FinalQueryRecord(BaseModel):
     approximate_grounding_time: Optional[str] = None
     target_person_or_group: str
     expected_evidence: List[str] = Field(default_factory=list)
+    time_range: Optional[List[float]] = None
     segment_ids: List[str] = Field(default_factory=list)
     rewrite_count: int
     verification_rounds: List[Dict[str, Any]] = Field(default_factory=list)

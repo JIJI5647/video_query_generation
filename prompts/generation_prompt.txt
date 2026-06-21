@@ -1,47 +1,82 @@
-PROMPT VERSION: generation_prompt_caption_v3
+PROMPT VERSION: generation_prompt_caption_v6
 
 TASK:
-You are given ALL of the emotion captions extracted from one video. Each caption
-describes an observable emotional moment grounded to one or more time segments of the
-video (segment_ids). First read every caption to understand the whole video, then
-SELECT only the captions that carry clear, observable evidence, and from those selected
-captions write a small number of high-precision emotion-related temporal grounding
-queries for human annotation. You do not need to use every caption — ignore weak,
-ambiguous, or redundant ones.
+You are given ALL of the captions extracted from one video, plus the spoken-dialogue
+transcript of that video. Each caption describes an observable moment grounded to a
+``time_range`` ([start, end] in seconds) of the video. These captions are UNFILTERED:
+many will have emotion "neutral" or "unrelevant", or a low ``confidence`` / "weak" or
+"ambiguous" ``evidence_strength`` — those carry no usable emotional evidence and you
+MUST ignore them. First read every caption (and the transcript) to understand the whole
+video, then write high-precision emotion-related temporal grounding queries for human
+annotation, each grounded in captions that show a real emotion (one of the eight emotion
+labels) with clear, observable evidence. Aim to produce 8 queries. Prefer grounding each
+query in a DIFFERENT strong caption so the queries cover the video broadly. If there are
+not enough strong captions to reach 8 distinct-caption queries, reuse a strong caption to
+write additional queries that approach the same moment from a DIFFERENT angle or
+query_type (e.g. one explicit_event, one emotion_state, and one evidence_cue about the
+same moment).
 
-You do NOT see the video. Treat the captions as the ground truth of what is observable.
+You do NOT see the video. Treat the captions and transcript as the ground truth of what
+is observable.
 
 VIDEO ID: {video_id}
 
 QUERY TYPE DEFINITIONS:
 - explicit_event: an observable emotional action, interaction, or audio event.
   Example: "When does the man in the white shirt raise his voice while speaking to the woman in the red dress?"
-- emotion_state: a person's perceived emotional state. Always hedge with "appears",
-  "looks", "seems", or "sounds". Never claim a true internal feeling.
+- emotion_state: a person's perceived emotional state. You may hedge with "appears",
+  "looks", "seems", or "sounds", but hedging is optional, not required.
   Example: "At what point does the woman in the red dress appear upset while listening to the man?"
 - evidence_cue: an observable cue that supports emotion reasoning (facial expression,
   voice, body movement, gaze, posture, hesitation, silence, interactional response).
   Example: "Which moment shows the woman avoiding eye contact after the man speaks?"
 
-CAPTIONS (each is grounded to segment_ids):
+CAPTIONS (each is grounded to a ``time_range`` in seconds; ``confidence`` and
+``evidence_strength`` indicate how reliable the caption is):
 {captions_json}
 
+SPOKEN-DIALOGUE TRANSCRIPT (each line is the transcribed speech for a ``time_range`` in
+seconds; use it as additional context, aligned to the caption time ranges, to understand
+what is said and the emotional tone — but ground queries in OBSERVABLE evidence, not in
+plot inferred only from words). Non-verbal sounds (shouting, crying, laughing, gasping,
+trembling voice, silence) are described in the captions' ``sound`` field, not here:
+{transcript_json}
+
 GENERATION RULES:
-1. Prefer FEW, high-precision queries. Quality over quantity — only write a query when
-   the captions give clear, observable evidence that an annotator could locate.
-2. Generate at most 8 queries total. It is fine to produce fewer.
-3. Every query MUST be grounded in one or more of the captions above. Put the
-   segment_ids of exactly those captions into the query's segment_ids. A query may use
-   several captions' segments, and they need NOT be adjacent — but every segment_id you
-   list must be copied verbatim from a caption above. Do not list any other segment_id.
+1. Every query must be high-precision: only write a query when the captions give clear,
+   observable evidence that an annotator could locate. Do NOT lower this bar to hit the
+   count — never invent evidence to pad the list. Only ground queries in captions whose
+   emotion is one of the eight emotion labels AND whose evidence_strength is "clear"
+   (avoid confidence "low" and evidence_strength "weak"/"ambiguous").
+2. Generate exactly 8 queries whenever the captions support it. Produce fewer ONLY when
+   even after reusing strong captions across different angles/types you cannot reach 8
+   without inventing evidence. First exhaust DISTINCT captions, then reuse strong
+   captions from different angles to fill the remaining slots up to 8.
+3. Every query MUST be grounded in one or more of the captions above. Set the query's
+   ``time_range`` to the [start, end] span that covers exactly those captions' time
+   ranges (in seconds). A query may span several captions' ranges, and they need NOT be
+   adjacent — choose the smallest range that covers the evidence you rely on. Use only
+   time ranges that fall within the captions above; do not invent a range with no caption.
 4. Do not invent events, people, or cues that are not present in the captions.
-5. Where possible, spread queries across explicit_event, emotion_state, and evidence_cue.
-6. Use natural, varied question starters — do not start every query the same way:
+5. CAPTION EMOTION IS A CANDIDATE INTERPRETATION, NOT A MUST-COPY ANSWER. The caption's
+   ``emotion`` label is one possible reading of the observable evidence — it is not a
+   gold label you must reproduce. When the ``emotion`` label disagrees with the caption's
+   own observable evidence (``person`` / ``action`` / ``sound`` / ``observable_evidence``),
+   or when that evidence is ambiguous or supports more than one emotion, you MAY:
+   (a) choose a more fitting emotion word, (b) use a more neutral phrasing, or (c) write a
+   pure behavior/cue query (explicit_event or evidence_cue) that names only the observable
+   action or cue. Do NOT blindly copy the caption's emotion label. You still must NOT
+   introduce any event, person, or cue that is absent from the captions — grounding stays
+   tied to observable evidence.
+6. Spread queries across explicit_event, emotion_state, and evidence_cue. When you reuse
+   the same caption for more than one query, give those queries DIFFERENT query_types so
+   each looks at the moment from a distinct angle (the event, the perceived state, the
+   observable cue).
+7. Use natural, varied question starters — do not start every query the same way:
    "When does...", "At what point...", "Which part of the video...",
    "Where in the video...", "What moment shows...", "How does the video show...".
-7. Use the caption's concrete person description (clothing, role, position) — avoid vague
+8. Use the caption's concrete person description (clothing, role, position) — avoid vague
    references like "someone" or "the person" when a better description exists.
-8. For emotion_state queries use only "appears", "looks", "seems", or "sounds".
 
 QUERY TEXT POLICY (apply to every query_text):
 9. Language: write every query_text entirely in English.
@@ -49,7 +84,11 @@ QUERY TEXT POLICY (apply to every query_text):
     names. Replace names with visual descriptions. Role words (doctor, judge) and visually
     grounded kinship terms (mother, husband) are allowed.
 11. No timestamps: query_text must NOT contain explicit times or ranges
-    (e.g. "at 1:23", "in the first 10 seconds", "near the end").
+    (e.g. "at 1:23", "in the first 10 seconds", "near the end"). The ``time_range`` field
+    carries the timing; the query_text itself must read naturally without it.
+12. Self-contained: the query_text must be understandable on its own, without the caption
+    metadata or the time_range — name the person by visual description and put the key
+    observable cue into the sentence.
 
 OUTPUT REQUIREMENTS:
 Return valid JSON only. No markdown, no comments, no text outside the JSON object.
@@ -61,7 +100,7 @@ The output JSON must match this schema exactly:
 {
 "video_id": "{video_id}",
 "query_id": "<{video_id}_q01, {video_id}_q02, ...>",
-"segment_ids": ["<segment_id copied from a grounding caption>", "..."],
+"time_range": [<start_seconds>, <end_seconds>],
 "query_type": "<explicit_event | emotion_state | evidence_cue>",
 "query_text": "<natural English query, no proper nouns, no timestamps>",
 "grounding_event_description": "<what in the caption makes this query answerable>",

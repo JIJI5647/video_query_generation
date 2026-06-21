@@ -1,0 +1,158 @@
+{
+  "total_wall_seconds": 12368.9,
+  "videos_attempted": 20,
+  "videos_processed": 18,
+  "total_tokens": 3769600,
+  "total_llm_calls": 769,
+  "avg_seconds_per_processed_video": 520.6,
+  "avg_tokens_per_processed_video": 209422,
+  "by_stage": {
+    "generation": {
+      "calls": 18,
+      "prompt_tokens": 111918,
+      "candidates_tokens": 32838,
+      "total_tokens": 144756
+    },
+    "verification": {
+      "calls": 404,
+      "prompt_tokens": 1584959,
+      "candidates_tokens": 126503,
+      "total_tokens": 1711462
+    },
+    "rewrite": {
+      "calls": 248,
+      "prompt_tokens": 575082,
+      "candidates_tokens": 55854,
+      "total_tokens": 630948
+    },
+    "caption": {
+      "calls": 99,
+      "prompt_tokens": 1209658,
+      "candidates_tokens": 72740,
+      "total_tokens": 1282434
+    }
+  },
+  "per_video": [
+    {
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "status": "ok",
+      "seconds": 135.5,
+      "total_tokens": 72884
+    },
+    {
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "status": "ok",
+      "seconds": 163.6,
+      "total_tokens": 93855
+    },
+    {
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "status": "ok",
+      "seconds": 287.3,
+      "total_tokens": 175934
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "status": "ok",
+      "seconds": 155.3,
+      "total_tokens": 95374
+    },
+    {
+      "video_id": "meld_01_dia337",
+      "status": "ok",
+      "seconds": 266.3,
+      "total_tokens": 201646
+    },
+    {
+      "video_id": "meld_02_dia224",
+      "status": "ok",
+      "seconds": 147.3,
+      "total_tokens": 92334
+    },
+    {
+      "video_id": "meld_03_dia572",
+      "status": "ok",
+      "seconds": 287.1,
+      "total_tokens": 147289
+    },
+    {
+      "video_id": "meld_04_dia362",
+      "status": "ok",
+      "seconds": 162.9,
+      "total_tokens": 83136
+    },
+    {
+      "video_id": "meld_05_dia980",
+      "status": "ok",
+      "seconds": 265.0,
+      "total_tokens": 209267
+    },
+    {
+      "video_id": "meld_07_dia208",
+      "status": "ok",
+      "seconds": 313.5,
+      "total_tokens": 185605
+    },
+    {
+      "video_id": "moviechat_06_33",
+      "status": "ok",
+      "seconds": 329.7,
+      "total_tokens": 183830
+    },
+    {
+      "video_id": "emostim_01_TheShining_clip_2",
+      "status": "ok",
+      "seconds": 803.1,
+      "total_tokens": 205208
+    },
+    {
+      "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+      "status": "skipped",
+      "seconds": 457.5,
+      "total_tokens": 75736
+    },
+    {
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "status": "ok",
+      "seconds": 472.3,
+      "total_tokens": 159145
+    },
+    {
+      "video_id": "meld_06_dia823",
+      "status": "ok",
+      "seconds": 362.4,
+      "total_tokens": 169171
+    },
+    {
+      "video_id": "moviechat_01_162",
+      "status": "ok",
+      "seconds": 1350.6,
+      "total_tokens": 307347
+    },
+    {
+      "video_id": "moviechat_02_154",
+      "status": "skipped",
+      "seconds": 1004.5,
+      "total_tokens": 161056
+    },
+    {
+      "video_id": "moviechat_03_160",
+      "status": "ok",
+      "seconds": 1288.8,
+      "total_tokens": 326441
+    },
+    {
+      "video_id": "moviechat_04_159",
+      "status": "ok",
+      "seconds": 1273.8,
+      "total_tokens": 285710
+    },
+    {
+      "video_id": "moviechat_05_30",
+      "status": "ok",
+      "seconds": 1305.9,
+      "total_tokens": 301629
+    }
+  ],
+  "note": "Merged v3 = pilot_study_v3_nofilter (11 videos, queries re-generated --no-filter from pilot_study_v2 captions) + pilot_study_v3_retry (7 videos captioned + generated --no-filter from data/pilot_study_retry). 2 videos still unprocessed (Gemini safety-blocked at captioning): emostim_05_TheSilenceOfTheLambs_b_clip_1, moviechat_02_154."
+}

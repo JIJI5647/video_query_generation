@@ -41,22 +41,28 @@ def extract_clip(
     video_id: str,
     temp_dir: PathLike,
     overwrite: bool = True,
+    subdir: str = "",
 ) -> Path:
-    """Extract a single temporal window into ``temp_dir/{video_id}/``.
+    """Extract a single temporal window into ``temp_dir/{video_id}[/{subdir}]/``.
 
-    Preserves video and audio. Returns the path to the written clip file.
+    Preserves video and audio. Returns the path to the written clip file. When
+    ``overwrite`` is False and the clip already exists, it is reused as-is (no
+    ffmpeg) — this backs the persistent segment cache (B4). ``subdir`` keys the
+    cache by windowing params so a different grid never reuses old clips.
 
     Raises:
         RuntimeError: if ffmpeg is missing or extraction fails.
     """
-    _require_ffmpeg()
-
     out_dir = Path(temp_dir) / video_id
-    out_dir.mkdir(parents=True, exist_ok=True)
+    if subdir:
+        out_dir = out_dir / subdir
     out_path = out_dir / clip_filename(video_id, window)
 
     if out_path.is_file() and not overwrite:
         return out_path
+
+    _require_ffmpeg()
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     duration = window.end_time - window.start_time
     if duration <= 0:
@@ -101,6 +107,7 @@ def extract_windows(
     windows: List[TemporalWindow],
     temp_dir: PathLike,
     overwrite: bool = True,
+    subdir: str = "",
 ) -> List[ExtractedClip]:
     """Extract every window for one video. Returns the extracted clips.
 
@@ -110,7 +117,7 @@ def extract_windows(
     extracted: List[ExtractedClip] = []
     for window in windows:
         clip_path = extract_clip(
-            video_path, window, video_id, temp_dir, overwrite=overwrite
+            video_path, window, video_id, temp_dir, overwrite=overwrite, subdir=subdir
         )
         extracted.append(ExtractedClip(window=window, clip_path=str(clip_path)))
     return extracted

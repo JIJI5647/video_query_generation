@@ -4,7 +4,8 @@ Per video:
   segment + cut clips -> batch caption -> filter
   -> generate queries from all of the video's captions (no video; the model
      selects which captions to ground queries on)
-  -> upload whole video once -> verify/rewrite loop
+  -> upload only the clips of the grounded segments -> verify/rewrite loop,
+     where each query is checked against ONLY its own segment clip(s)
   -> collect; finally clean temp clips and uploaded refs.
 
 One failing video never aborts the batch; it is logged and skipped.
@@ -19,18 +20,22 @@ import random
 import sys
 import time
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 
 sys.path.insert(0, str(Path(__file__).parent))
 
 from emotion_query_pipeline.captioning import GeminiUploader, caption_video
 from emotion_query_pipeline.caption_filter import filter_captions
-from emotion_query_pipeline.clip_extractor import cleanup_clips
 from emotion_query_pipeline.export import export_all
 from emotion_query_pipeline.generation import generate_queries
 from emotion_query_pipeline.llm_client import GeminiLLMClient
-from emotion_query_pipeline.segmentation import extract_segment_clips, plan_segments
+from emotion_query_pipeline.segmentation import (
+    extract_segment_clips,
+    grid_key,
+    plan_segments,
+)
 from emotion_query_pipeline.stats import compute_stats
+from emotion_query_pipeline.transcription import transcribe_video
 from emotion_query_pipeline.validation import validate_all
 from emotion_query_pipeline.video_utils import get_video_duration
 from emotion_query_pipeline.workflow import PipelineResult, run_query_pipeline
@@ -38,7 +43,9 @@ from emotion_query_pipeline.workflow import PipelineResult, run_query_pipeline
 _VIDEO_EXTENSIONS = (".mp4", ".avi")
 
 
-def pick_videos(video_dir: Path, n: int, seed: int = 42) -> List[Path]:
+def pick_videos(
+    video_dir: Path, n: int, seed: int = 42, video_ids: Optional[List[str]] = None
+) -> List[Path]:
     all_videos = sorted(
         p for ext in _VIDEO_EXTENSIONS for p in video_dir.glob(f"*{ext}")
     )
@@ -46,6 +53,16 @@ def pick_videos(video_dir: Path, n: int, seed: int = 42) -> List[Path]:
         raise FileNotFoundError(
             f"No video files ({', '.join(_VIDEO_EXTENSIONS)}) found in {video_dir}"
         )
+    # Pin an explicit set of video ids (stems) when given — overrides sampling.
+    if video_ids:
+        wanted = [v.strip() for v in video_ids if v.strip()]
+        by_stem = {p.stem: p for p in all_videos}
+        missing = [v for v in wanted if v not in by_stem]
+        if missing:
+            raise FileNotFoundError(
+                f"--video-ids not found in {video_dir}: {', '.join(missing)}"
+            )
+        return [by_stem[v] for v in wanted]
     if n >= len(all_videos):
         return all_videos
     random.seed(seed)
@@ -56,6 +73,12 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="v2 caption-based query generation.")
     parser.add_argument("--video-dir", required=True)
     parser.add_argument("--num-videos", "-n", type=int, default=10)
+    parser.add_argument(
+        "--video-ids",
+        default=None,
+        help="Comma/space-separated video ids (file stems) to process exactly, "
+        "in order. Overrides --num-videos/--seed sampling.",
+    )
     parser.add_argument("--output", default="output/v2_run")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--batch-size", type=int, default=8)
@@ -70,6 +93,33 @@ def main() -> None:
     parser.add_argument("--rewrite-model", default="gemini-2.5-flash-lite")
     parser.add_argument("--temp-dir", default="temp_clips")
     parser.add_argument("--keep-temp-clips", action="store_true")
+    parser.add_argument(
+        "--segments-dir",
+        default="data/processed_segments",
+        help="Persistent segment-clip cache root (B4). Clips are reused across "
+        "runs and not deleted afterwards.",
+    )
+    parser.add_argument(
+        "--force-reextract",
+        action="store_true",
+        help="Re-cut segment clips even if cached copies exist.",
+    )
+    parser.add_argument(
+        "--no-transcript",
+        action="store_true",
+        help="Skip WhisperX transcription; generation runs without dialogue text.",
+    )
+    parser.add_argument(
+        "--whisper-model",
+        default="small",
+        help="WhisperX model size for transcription (e.g. tiny, base, small).",
+    )
+    parser.add_argument(
+        "--no-filter",
+        action="store_true",
+        help="Skip rule-based caption filtering and feed ALL raw captions to "
+        "generation, letting the model select which moments to turn into queries.",
+    )
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -79,9 +129,14 @@ def main() -> None:
 
     video_dir = Path(args.video_dir)
     output_dir = Path(args.output)
-    temp_dir = Path(args.temp_dir)
+    # B4: segment clips live in a persistent, reusable cache (not a temp dir).
+    segments_dir = Path(args.segments_dir)
+    seg_subdir = grid_key(args.segment_seconds, args.stride)
 
-    selected = pick_videos(video_dir, args.num_videos, args.seed)
+    video_ids = (
+        args.video_ids.replace(",", " ").split() if args.video_ids else None
+    )
+    selected = pick_videos(video_dir, args.num_videos, args.seed, video_ids)
     print(f"Selected {len(selected)} video(s) from {video_dir}")
     print(
         f"Models — caption: {args.caption_model} | generation: {args.generation_model} "
@@ -108,7 +163,7 @@ def main() -> None:
     for i, video_path in enumerate(selected, 1):
         video_id = video_path.stem
         print(f"[{i}/{len(selected)}] {video_path.name}  (id: {video_id})")
-        whole_video_file = None
+        uploaded_segment_files: list = []
         v_start = time.perf_counter()
         tokens_before = client.usage_report()["total"]["total_tokens"]
         v_status = "ok"
@@ -119,29 +174,60 @@ def main() -> None:
                 video_id, duration, args.segment_seconds, args.stride,
                 min_segment_seconds=args.min_segment_seconds,
             )
-            extract_segment_clips(video_path, video_id, segments, temp_dir)
-            print(f"  {len(segments)} segments cut")
+            # Reuse cached segment clips unless --force-reextract (B4).
+            extract_segment_clips(
+                video_path, video_id, segments, segments_dir,
+                overwrite=args.force_reextract, subdir=seg_subdir,
+            )
+            print(f"  {len(segments)} segments ready (cache: {segments_dir})")
 
             # Steps 2-3: batch captions
             raw = caption_video(
                 video_id, segments, client, uploader, batch_size=args.batch_size
             )
-            # Step 4: filter
+            # Step 4: rule-based filter (still recorded for the funnel stats);
+            # with --no-filter we feed the model the raw captions instead and let
+            # it decide which moments are worth a query.
             filtered = filter_captions(raw)
-            print(f"  captions: {len(raw)} raw -> {len(filtered)} kept")
+            gen_captions = raw if args.no_filter else filtered
+            print(
+                f"  captions: {len(raw)} raw -> {len(filtered)} kept"
+                f" -> {len(gen_captions)} sent to generation"
+            )
 
-            # Step 5: generate queries from all of the video's captions (no video)
-            gen_output = generate_queries(video_id, filtered, client)
+            # B3: whole-video dialogue transcript (spliced into generation only).
+            transcript = None
+            if not args.no_transcript:
+                transcript = transcribe_video(video_path, model_size=args.whisper_model)
+                print(f"  transcript: {len(transcript)} dialogue line(s)")
+
+            # Step 5: generate queries from the video's captions + transcript
+            # (no video). Grounding is by time range; segment_ids are resolved
+            # internally (B1).
+            gen_output = generate_queries(
+                video_id, gen_captions, client, segments, transcript
+            )
             print(f"  {len(gen_output.queries)} queries generated")
 
-            # Step 6: upload whole video once, then verify/rewrite
+            # Step 6: upload only the clips of segments the queries are grounded
+            # on, then verify/rewrite each query against just its own clip(s).
             if gen_output.queries:
-                whole_video_file = uploader.upload(str(video_path))
+                seg_by_id = {s.segment_id: s for s in segments}
+                needed_ids = sorted(
+                    {sid for q in gen_output.queries for sid in q.segment_ids}
+                )
+                segment_uris: dict = {}
+                for sid in needed_ids:
+                    seg = seg_by_id.get(sid)
+                    if seg is not None and seg.clip_path:
+                        f = uploader.upload(seg.clip_path)
+                        uploaded_segment_files.append(f)
+                        segment_uris[sid] = f.uri
                 traces, ver_outs, rw_outs = run_query_pipeline(
                     video_id,
-                    whole_video_file.uri,
                     gen_output,
                     client,
+                    segment_uris,
                     max_rewrites=args.max_rewrites,
                     max_accepted=args.max_accepted,
                 )
@@ -163,10 +249,9 @@ def main() -> None:
             v_status = "skipped"
             print(f"  ERROR processing {video_id}: {e} — skipping.")
         finally:
-            if whole_video_file is not None:
-                uploader.delete(whole_video_file)
-            if not args.keep_temp_clips:
-                cleanup_clips(temp_dir, video_id)
+            for f in uploaded_segment_files:
+                uploader.delete(f)
+            # B4: segment clips are a persistent cache — do NOT delete them.
             v_elapsed = time.perf_counter() - v_start
             v_tokens = client.usage_report()["total"]["total_tokens"] - tokens_before
             per_video_usage.append(

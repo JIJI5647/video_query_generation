@@ -1,10 +1,14 @@
-"""Verify -> rewrite loop over caption-generated queries (whole video).
+"""Verify -> rewrite loop over caption-generated queries (per-segment).
 
 Generation is done upstream (caption-based, no video); this module takes the
-resulting ``GenerationOutput`` plus a whole-video URI and runs the same
-verify -> rewrite -> re-verify loop as v1. Query grounding (``segment_ids``) is
-preserved through traces and rewrites. The accepted cap is a parameter
-(``max_accepted``).
+resulting ``GenerationOutput`` plus a ``segment_id -> clip URI`` map and runs the
+verify -> rewrite -> re-verify loop. Crucially, each query is verified and
+rewritten while the model watches ONLY the clips of the segments the query is
+grounded on (``segment_ids``) -- not the whole video. Calls are therefore
+per-query; the per-round outputs are merged so downstream stats/export are
+unchanged. A per-query API failure discards just that query (its trace stays
+``discarded``) instead of aborting the whole video. The accepted cap is a
+parameter (``max_accepted``).
 """
 from __future__ import annotations
 
@@ -54,6 +58,7 @@ def _make_trace(q: EventGroundedQuery) -> QueryTrace:
         approximate_grounding_time=q.approximate_grounding_time,
         target_person_or_group=q.target_person_or_group,
         expected_evidence=list(q.expected_evidence),
+        time_range=list(q.time_range) if q.time_range else None,
         segment_ids=list(q.segment_ids),
         rewrite_count=0,
         verification_rounds=[],
@@ -107,15 +112,73 @@ def _apply_rewrites(
             target_person_or_group=old_q.target_person_or_group,
             expected_evidence=list(old_q.expected_evidence),
             why_grounded=old_q.why_grounded,
+            time_range=list(old_q.time_range) if old_q.time_range else None,
             segment_ids=list(old_q.segment_ids),
         )
 
 
+def _query_uris(q: EventGroundedQuery, segment_uris: Dict[str, str]) -> List[str]:
+    """The clip URIs for the segments a query is grounded on (in order)."""
+    return [segment_uris[sid] for sid in q.segment_ids if sid in segment_uris]
+
+
+def _verify_per_query(
+    video_id: str,
+    queries: List[EventGroundedQuery],
+    segment_uris: Dict[str, str],
+    round_index: int,
+    client: BaseLLMClient,
+    prompts_dir: Optional[Path],
+) -> VerificationBatchOutput:
+    """Verify each query while watching only its own segment clip(s).
+
+    One LLM call per query; results are merged into a single batch output. A
+    failing call drops just that query (no result -> stays pending -> discarded).
+    """
+    results: List[VerificationResult] = []
+    for q in queries:
+        try:
+            out = verify_queries(
+                video_id, _query_uris(q, segment_uris), [q],
+                round_index, client, prompts_dir,
+            )
+            results.extend(out.results)
+        except Exception as e:  # one bad query never aborts the video
+            print(f"    [verify skip] {q.query_id}: {e}")
+    return VerificationBatchOutput(
+        video_id=video_id, round_index=round_index, results=results
+    )
+
+
+def _rewrite_per_query(
+    video_id: str,
+    failing: List[Tuple[EventGroundedQuery, VerificationResult]],
+    segment_uris: Dict[str, str],
+    round_index: int,
+    client: BaseLLMClient,
+    prompts_dir: Optional[Path],
+) -> RewriteBatchOutput:
+    """Rewrite each failing query while watching only its own segment clip(s)."""
+    rewrites = []
+    for q, vr in failing:
+        try:
+            out = rewrite_queries(
+                video_id, _query_uris(q, segment_uris), [(q, vr)],
+                round_index, client, prompts_dir,
+            )
+            rewrites.extend(out.rewrites)
+        except Exception as e:  # one bad query never aborts the video
+            print(f"    [rewrite skip] {q.query_id}: {e}")
+    return RewriteBatchOutput(
+        video_id=video_id, round_index=round_index, rewrites=rewrites
+    )
+
+
 def run_query_pipeline(
     video_id: str,
-    video_uri: str,
     gen_output: GenerationOutput,
     client: BaseLLMClient,
+    segment_uris: Dict[str, str],
     max_rewrites: int = 3,
     max_accepted: int = 8,
     prompts_dir: Optional[Path] = None,
@@ -126,8 +189,9 @@ def run_query_pipeline(
 ]:
     """Run the verify -> rewrite loop for one video's generated queries.
 
-    ``video_uri`` is the whole-video Files API URI (verification/rewrite watch
-    the full video, exactly as in v1).
+    ``segment_uris`` maps ``segment_id`` to the Files API URI of that segment's
+    clip. Each query is verified/rewritten against only the clips of its own
+    ``segment_ids`` (per-query calls), not the whole video.
     """
     traces: Dict[str, QueryTrace] = {}
     current_queries: Dict[str, EventGroundedQuery] = {}
@@ -141,10 +205,9 @@ def run_query_pipeline(
 
     # Initial verification (round 1)
     round_index = 1
-    ver_output = verify_queries(
-        video_id, video_uri,
-        [current_queries[qid] for qid in pending],
-        round_index, client, prompts_dir,
+    ver_output = _verify_per_query(
+        video_id, [current_queries[qid] for qid in pending],
+        segment_uris, round_index, client, prompts_dir,
     )
     all_ver.append(ver_output)
     last_ver_results: Dict[str, VerificationResult] = {
@@ -164,17 +227,16 @@ def run_query_pipeline(
         if not failing:
             break
 
-        rw_output = rewrite_queries(
-            video_id, video_uri, failing, rewrite_round, client, prompts_dir
+        rw_output = _rewrite_per_query(
+            video_id, failing, segment_uris, rewrite_round, client, prompts_dir
         )
         all_rw.append(rw_output)
         _apply_rewrites(rw_output, traces, current_queries)
 
         round_index += 1
-        ver_output = verify_queries(
-            video_id, video_uri,
-            [current_queries[qid] for qid in pending],
-            round_index, client, prompts_dir,
+        ver_output = _verify_per_query(
+            video_id, [current_queries[qid] for qid in pending],
+            segment_uris, round_index, client, prompts_dir,
         )
         all_ver.append(ver_output)
         last_ver_results = {r.query_id: r for r in ver_output.results}

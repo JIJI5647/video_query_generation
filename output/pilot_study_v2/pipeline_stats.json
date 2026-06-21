@@ -1,0 +1,46 @@
+{
+  "total_videos": 11,
+  "total_segments": 225,
+  "total_raw_captions": 225,
+  "total_filtered_captions": 39,
+  "total_initial_queries": 34,
+  "total_accepted_queries": 30,
+  "total_discarded_queries": 4,
+  "average_accepted_queries_per_video": 2.7273,
+  "emotion_distribution": {
+    "happy": 9,
+    "frustrated": 9,
+    "surprised": 3,
+    "excited": 2,
+    "fear": 4,
+    "angry": 4,
+    "disappointed": 2,
+    "sad": 6
+  },
+  "query_type_distribution_initial": {
+    "evidence_cue": 13,
+    "emotion_state": 12,
+    "explicit_event": 9
+  },
+  "query_type_distribution_final_accepted": {
+    "evidence_cue": 12,
+    "emotion_state": 9,
+    "explicit_event": 9
+  },
+  "rewrite_count_distribution": {
+    "0": 24,
+    "1": 4,
+    "2": 1,
+    "3": 5
+  },
+  "pass_rate_after_initial_verification": 0.7059,
+  "pass_rate_after_rewrites": 0.8824,
+  "discarded_query_count": 4,
+  "diversity_warnings": [
+    "[emostim_04_28DaysLater_clip_6] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[meld_01_dia337] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[meld_01_dia337] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[meld_03_dia572] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[meld_07_dia208] WARNING: only 0 accepted queries (recommended minimum: 3)"
+  ]
+}
