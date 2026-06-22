@@ -1,7 +1,7 @@
 """v2 caption-based query-generation pipeline — main entry point.
 
 Per video:
-  segment + cut clips -> batch caption -> filter
+  segment + cut clips -> caption
   -> generate queries from all of the video's captions (no video; the model
      selects which captions to ground queries on)
   -> upload only the clips of the grounded segments -> verify/rewrite loop,
@@ -25,9 +25,9 @@ from typing import List, Optional
 sys.path.insert(0, str(Path(__file__).parent))
 
 from emotion_query_pipeline.captioning import GeminiUploader, caption_video
-from emotion_query_pipeline.caption_filter import filter_captions
 from emotion_query_pipeline.omni_captioning import (
     Qwen3OmniCaptioner,
+    QwenOmniLLMClient,
     caption_video_omni,
     omni_to_emotion_caption,
 )
@@ -119,27 +119,23 @@ def main() -> None:
         default="small",
         help="WhisperX model size for transcription (e.g. tiny, base, small).",
     )
-    parser.add_argument(
-        "--no-filter",
-        action="store_true",
-        help="Skip rule-based caption filtering and feed ALL raw captions to "
-        "generation, letting the model select which moments to turn into queries.",
-    )
     # --- Captioning backend (Qwen3-Omni) ---
     parser.add_argument(
         "--caption-backend",
         choices=["gemini", "qwen3_omni"],
-        default="gemini",
-        help="Captioning backend. 'gemini' (default) uses the Gemini Files API "
-        "batch path; 'qwen3_omni' uses the local-server Qwen3-Omni structured "
-        "captioner (one segment per prompt).",
+        default="qwen3_omni",
+        help="Captioning backend. 'qwen3_omni' (default) uses the local-server "
+        "Qwen3-Omni structured captioner (one segment per prompt); 'gemini' uses "
+        "the Gemini Files API batch path.",
     )
     parser.add_argument(
         "--caption-batch-size",
         type=int,
         default=1,
-        help="Segments per caption prompt for the qwen3_omni backend. Must be 1 "
-        "(one segment per prompt); larger values are ignored with a warning.",
+        help="qwen3_omni: how many independent single-segment prompts to run in "
+        "ONE batched model call (>1 = parallel throughput). Still one segment per "
+        "prompt; segments are decoded per-index and never mixed. Default 1 "
+        "(sequential). Larger batches use more VRAM.",
     )
     parser.add_argument(
         "--qwen-model-path",
@@ -161,6 +157,15 @@ def main() -> None:
         default=None,
         help="attn_implementation for the transformers engine "
         "(e.g. flash_attention_2, sdpa, eager). Default lets HF choose.",
+    )
+    parser.add_argument(
+        "--verify-rewrite-backend",
+        choices=["gemini", "qwen3_omni"],
+        default="qwen3_omni",
+        help="Backend for the verification + rewrite stages (both watch the "
+        "query's segment clip(s)). 'qwen3_omni' (default) watches the local clips "
+        "on the shared Qwen3-Omni model (no upload); 'gemini' uploads clips to the "
+        "Files API. Generation (query writing) always stays on Gemini.",
     )
     parser.add_argument(
         "--captions-cache-dir",
@@ -209,9 +214,13 @@ def main() -> None:
         caption_desc = f"{args.qwen_model_path} ({args.qwen_engine})"
     else:
         caption_desc = args.caption_model
+    if args.verify_rewrite_backend == "qwen3_omni":
+        vr_desc = f"{args.qwen_model_path} ({args.qwen_engine})"
+    else:
+        vr_desc = f"{args.verification_model} / {args.rewrite_model}"
     print(
         f"Models — caption: {caption_desc} | generation: {args.generation_model} "
-        f"| verification: {args.verification_model} | rewrite: {args.rewrite_model}"
+        f"| verify/rewrite: {vr_desc}"
     )
     print(
         f"Segmentation — {args.segment_seconds}s window / {args.stride}s stride "
@@ -227,24 +236,34 @@ def main() -> None:
     )
     uploader = GeminiUploader(api_key=api_key)
 
-    # Captioning backend. The Qwen3-Omni captioner is constructed here but does
-    # NOT load the model yet — the heavy vLLM/model load is lazy (first caption
-    # call on the server). Generation/verification/rewrite still use Gemini.
-    omni_captioner = None
-    captions_cache_dir = Path(args.captions_cache_dir or (output_dir / "captions"))
-    captions_raw_dir = output_dir / "captions_raw"
-    if args.caption_backend == "qwen3_omni":
-        omni_captioner = Qwen3OmniCaptioner(
+    # Qwen3-Omni engine, shared across stages that need it (caption and/or
+    # verify+rewrite) so the weights load ONCE. Constructed here but NOT loaded
+    # yet — the heavy model load is lazy (first inference call on the server).
+    use_qwen_caption = args.caption_backend == "qwen3_omni"
+    use_qwen_vr = args.verify_rewrite_backend == "qwen3_omni"
+    qwen_engine = None
+    if use_qwen_caption or use_qwen_vr:
+        qwen_engine = Qwen3OmniCaptioner(
             model_path=args.qwen_model_path,
             engine=args.qwen_engine,
             attn_implementation=args.qwen_attn_impl,
         )
+    # Caption backend selection.
+    omni_captioner = qwen_engine if use_qwen_caption else None
+    captions_cache_dir = Path(args.captions_cache_dir or (output_dir / "captions"))
+    captions_raw_dir = output_dir / "captions_raw"
+    if use_qwen_caption:
         print(
             f"Caption backend — qwen3_omni ({args.qwen_model_path}) | "
             f"engine={args.qwen_engine} | batch 1 | resume={args.resume} | "
             f"overwrite={args.overwrite_captions}\n"
             f"  cache: {captions_cache_dir}"
         )
+    # Verify/rewrite client: Gemini (default) or the shared Qwen3-Omni engine.
+    vr_client = QwenOmniLLMClient(qwen_engine) if use_qwen_vr else client
+    if use_qwen_vr:
+        print(f"Verify/rewrite backend — qwen3_omni ({args.qwen_model_path}) | "
+              f"engine={args.qwen_engine} (watches local clips, no upload)")
 
     result = PipelineResult()
     per_video_usage: List[dict] = []
@@ -285,21 +304,16 @@ def main() -> None:
                     caption_batch_size=args.caption_batch_size,
                 )
                 # Adapt the rich structured captions to the flat EmotionCaption
-                # the rest of the pipeline (filter/generation/export) consumes.
+                # the rest of the pipeline (generation/export) consumes.
                 raw = [omni_to_emotion_caption(oc, video_id) for oc in omni_caps]
             else:
                 raw = caption_video(
                     video_id, segments, client, uploader, batch_size=args.batch_size
                 )
-            # Step 4: rule-based filter (still recorded for the funnel stats);
-            # with --no-filter we feed the model the raw captions instead and let
-            # it decide which moments are worth a query.
-            filtered = filter_captions(raw)
-            gen_captions = raw if args.no_filter else filtered
-            print(
-                f"  captions: {len(raw)} raw -> {len(filtered)} kept"
-                f" -> {len(gen_captions)} sent to generation"
-            )
+            # No caption filtering — every caption feeds generation, which selects
+            # which moments are worth a query.
+            gen_captions = raw
+            print(f"  captions: {len(raw)} -> all sent to generation")
 
             # B3: whole-video dialogue transcript (spliced into generation only).
             transcript = None
@@ -315,8 +329,10 @@ def main() -> None:
             )
             print(f"  {len(gen_output.queries)} queries generated")
 
-            # Step 6: upload only the clips of segments the queries are grounded
-            # on, then verify/rewrite each query against just its own clip(s).
+            # Step 6: make the grounded segment clips available to verify/rewrite,
+            # then check each query against just its own clip(s). Gemini needs the
+            # clips uploaded (URIs); Qwen3-Omni watches the local clip paths
+            # directly (no upload).
             if gen_output.queries:
                 seg_by_id = {s.segment_id: s for s in segments}
                 needed_ids = sorted(
@@ -325,14 +341,18 @@ def main() -> None:
                 segment_uris: dict = {}
                 for sid in needed_ids:
                     seg = seg_by_id.get(sid)
-                    if seg is not None and seg.clip_path:
+                    if seg is None or not seg.clip_path:
+                        continue
+                    if use_qwen_vr:
+                        segment_uris[sid] = seg.clip_path  # local path, no upload
+                    else:
                         f = uploader.upload(seg.clip_path)
                         uploaded_segment_files.append(f)
                         segment_uris[sid] = f.uri
                 traces, ver_outs, rw_outs = run_query_pipeline(
                     video_id,
                     gen_output,
-                    client,
+                    vr_client,
                     segment_uris,
                     max_rewrites=args.max_rewrites,
                     max_accepted=args.max_accepted,
@@ -346,7 +366,6 @@ def main() -> None:
 
             result.segments[video_id] = segments
             result.raw_captions[video_id] = raw
-            result.filtered_captions[video_id] = filtered
             result.gen_outputs[video_id] = gen_output
             result.video_traces[video_id] = traces
             result.ver_outputs[video_id] = ver_outs
@@ -386,7 +405,6 @@ def main() -> None:
         result.ver_outputs,
         result.segments,
         result.raw_captions,
-        result.filtered_captions,
         warnings,
     )
 
@@ -421,7 +439,7 @@ def main() -> None:
     print("\n--- v2 Pipeline Summary ---")
     print(f"  Videos processed     : {stats.total_videos}")
     print(f"  Segments / captions  : {stats.total_segments} segs, "
-          f"{stats.total_raw_captions} raw -> {stats.total_filtered_captions} kept")
+          f"{stats.total_raw_captions} captions")
     print(f"  Initial queries      : {stats.total_initial_queries}")
     print(f"  Accepted queries     : {stats.total_accepted_queries}")
     print(f"  Discarded queries    : {stats.total_discarded_queries}")

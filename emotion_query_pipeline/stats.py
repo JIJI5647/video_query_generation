@@ -20,7 +20,6 @@ def compute_stats(
     ver_outputs: Dict[str, List[VerificationBatchOutput]],
     segments: Dict[str, List[Segment]],
     raw_captions: Dict[str, List[EmotionCaption]],
-    filtered_captions: Dict[str, List[EmotionCaption]],
     validation_warnings: List[str],
 ) -> PipelineStats:
     total_videos = len(video_traces)
@@ -40,12 +39,11 @@ def compute_stats(
     total_discarded = len(discarded)
     avg_accepted = total_accepted / total_videos if total_videos else 0.0
 
-    # Caption-stage tallies
+    # Caption-stage tallies (no filtering — all captions feed generation).
     total_segments = sum(len(v) for v in segments.values())
     total_raw = sum(len(v) for v in raw_captions.values())
-    total_filtered = sum(len(v) for v in filtered_captions.values())
     emotion_dist: Counter = Counter()
-    for caps in filtered_captions.values():
+    for caps in raw_captions.values():
         for c in caps:
             emotion_dist[c.emotion] += 1
 
@@ -77,7 +75,6 @@ def compute_stats(
         total_videos=total_videos,
         total_segments=total_segments,
         total_raw_captions=total_raw,
-        total_filtered_captions=total_filtered,
         total_initial_queries=total_initial,
         total_accepted_queries=total_accepted,
         total_discarded_queries=total_discarded,

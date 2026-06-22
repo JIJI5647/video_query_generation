@@ -19,23 +19,23 @@ raw .mp4
         (reused across runs; never auto-deleted)                          [B4]
   └─ 2. group segments into batches (default 8 = 40s)   [gemini backend only]
   └─ 3. captions, via one of two backends:
-        • gemini  (default): per batch, upload N clips → ONE multimodal call
-        • qwen3_omni       : ONE segment per prompt → structured caption,
-                             cached per-segment for resume (see below)
-  └─ 4. filter: drop low-confidence / weak / ambiguous / ungrounded captions
-        (or --no-filter to send all raw captions to generation)
-  └─ 5. WhisperX transcribes the whole video → sentence-level text + timestamps [B3]
-  └─ 6. caption-only LLM call sees ALL of the video's captions (with time ranges)
+        • qwen3_omni (default): ONE segment per prompt → structured caption,
+                                cached per-segment for resume (see below)
+        • gemini              : per batch, upload N clips → ONE multimodal call
+  └─ 4. WhisperX transcribes the whole video → sentence-level text + timestamps [B3]
+  └─ 5. caption-only LLM call sees ALL of the video's captions (with time ranges)
         + the dialogue transcript → few, high-precision queries, each grounded
         on a time_range. Caption `emotion` is treated as a candidate, not a
         must-copy label.                                                   [B1,B2]
-  └─ 7. for each query, upload ONLY its grounded segment clip(s) → verify ⇄ rewrite.
+  └─ 6. for each query, take ONLY its grounded segment clip(s) → verify ⇄ rewrite
+        (Gemini upload, or watched locally on Qwen3-Omni).
         The verifier sees ONLY query_id + query_text (no caption metadata).  [A1]
   └─ export intermediates + final queries; segment clips stay cached, uploads cleaned
 ```
 
-Step 3 sends the actual clips (with audio); step 6 sends **only** text (captions +
-transcript, no video). `segment_id` remains an internal handle that maps a query's
+Step 3 sends the actual clips (with audio); step 5 sends **only** text (captions +
+transcript, no video). There is no caption-filtering step — every caption is fed to
+generation, which selects which moments are worth a query. `segment_id` remains an internal handle that maps a query's
 `time_range` back to the segment clip(s) used for verification — it is never shown to the
 models or to human annotators. The eight emotion labels are fixed: `angry, excited, fear,
 sad, surprised, frustrated, happy, disappointed`.
@@ -78,7 +78,6 @@ tests run without them. The `transformers` engine does not need `vllm` at all.
 python run_pipeline.py \
   --video-dir data/pilot_study \
   --video-ids "emostim_01_TheShining_clip_2,meld_01_dia337" \
-  --no-filter \
   --output output/pilot_study_v4
 ```
 
@@ -87,11 +86,11 @@ and overrides the default `--num-videos`/`--seed` random sampling.
 
 Key flags (all optional except `--video-dir`):
 `--num-videos --seed --video-ids --batch-size --segment-seconds --stride`
-`--max-rewrites --max-accepted --no-filter`
+`--max-rewrites --max-accepted`
 `--caption-model --generation-model --verification-model --rewrite-model`
 `--segments-dir --force-reextract --no-transcript --whisper-model`
-`--caption-backend --caption-batch-size --qwen-model-path --captions-cache-dir`
-`--resume / --no-resume --overwrite-captions`
+`--caption-backend --caption-batch-size --qwen-model-path --qwen-engine --qwen-attn-impl`
+`--verify-rewrite-backend --captions-cache-dir --resume / --no-resume --overwrite-captions`
 
 Defaults: 5s segments / 5s stride (non-overlapping), batch 8, max_accepted 8,
 max_rewrites 3, caption & generation `gemini-2.5-flash-lite`, verification
@@ -100,26 +99,31 @@ max_rewrites 3, caption & generation `gemini-2.5-flash-lite`, verification
 
 ### Caption backends
 
-`--caption-backend gemini` (default) uses the Gemini Files API batch path above.
-`--caption-backend qwen3_omni` swaps **only the caption stage** for a local-server
-Qwen3-Omni model — generation, verification and rewrite still run on Gemini, so
-`GEMINI_API_KEY` is still required.
+**By default, caption + verification + rewrite run on Qwen3-Omni; only generation
+(query writing) runs on Gemini.** `GEMINI_API_KEY` is still required for generation.
+Switch any stage back to Gemini with `--caption-backend gemini` /
+`--verify-rewrite-backend gemini` (the Gemini caption path uses the Files API batch
+above; Gemini verify/rewrite uploads clips).
 
 ```bash
-# vLLM engine (default, fast)
+# default: caption + verify/rewrite on Qwen3-Omni (vLLM engine), generation on Gemini
 python run_pipeline.py \
   --video-dir data/pilot_study --num-videos 5 \
   --output output/pilot_study_v4 \
-  --caption-backend qwen3_omni \
-  --caption-batch-size 1 \
   --resume
 
 # transformers engine (fallback when vLLM won't load Qwen3-Omni as multimodal)
 python run_pipeline.py \
   --video-dir data/pilot_study --num-videos 5 \
   --output output/pilot_study_v4 \
-  --caption-backend qwen3_omni --qwen-engine transformers \
-  --caption-batch-size 1 \
+  --qwen-engine transformers \
+  --resume
+
+# all stages on Gemini (the old behaviour)
+python run_pipeline.py \
+  --video-dir data/pilot_study --num-videos 5 \
+  --output output/pilot_study_v4 \
+  --caption-backend gemini --verify-rewrite-backend gemini \
   --resume
 ```
 
@@ -137,17 +141,28 @@ Qwen3-Omni specifics:
 - **Lazy load:** the model is loaded only on the first inference call — importing
   the module or constructing the backend touches no GPU and downloads no weights.
   Run the pipeline on a GPU server; it cannot run on a laptop.
-- **One segment per prompt:** `--caption-batch-size` is `1` and enforced (a larger
-  value is ignored with a warning), so `segment_id` / `time_range` / caption can
-  never be mis-paired across segments.
+- **One segment per prompt:** each prompt always contains exactly one segment, so
+  `segment_id` / `time_range` / caption can never be mis-paired. `--caption-batch-size`
+  (default `1`, sequential) controls how many of these *independent* single-segment
+  prompts are submitted in one batched model call for throughput — they are decoded
+  per-index and never mixed within a prompt. Larger batches are faster but use more
+  VRAM; if a batched call errors it degrades gracefully to per-segment. Resume is
+  applied first, so only cache-miss segments are batched.
 - **Structured output:** each caption is a nested JSON with `visual_objective`
   (objective facts only), `visual_expression` (observable facial/body/gaze cues),
   `audio_description` (non-transcript audio), `emotion_description` (a *candidate*
   reading), plus `confidence` / `evidence_strength`. It is adapted to the existing
-  flat `EmotionCaption` for the rest of the pipeline, so filter/generation/export
-  are unchanged. The free-text `emotion_description` maps to one of the eight
-  labels by keyword, falling back to `neutral` (which the filter drops) — pair the
-  qwen backend with `--no-filter` so generation selects moments itself.
+  flat `EmotionCaption` for the rest of the pipeline, so generation/export are
+  unchanged. The free-text `emotion_description` maps to one of the eight labels by
+  keyword, falling back to `neutral`. There is no caption-filtering step, so every
+  caption (including neutral ones) is fed to generation, which selects moments.
+
+**Verify/rewrite on Qwen3-Omni (default):** the verification and rewrite stages
+(both watch a query's grounded segment clip(s)) run on the **same** loaded
+Qwen3-Omni model — clips are read from their local paths, with no Files API upload.
+The model loads once and is shared with the caption backend. Generation always
+stays on Gemini, so `GEMINI_API_KEY` is still required. Set
+`--verify-rewrite-backend gemini` to put these two stages back on Gemini.
 
 **Resume / cache:** each structured caption is written atomically to
 `<output>/captions/<video_id>/<segment_id>.json`. On rerun, a segment with a valid
@@ -172,8 +187,7 @@ caption/verification mismatch.
 | File | Contents |
 |------|----------|
 | `segments.jsonl` | every segment with its time span |
-| `raw_captions.jsonl` | captions straight from the model |
-| `filtered_captions.jsonl` | after rule filtering (the captions generation reads) |
+| `raw_captions.jsonl` | captions straight from the model (all fed to generation) |
 | `initial_queries.jsonl` | queries generated from captions |
 | `verification_rounds.jsonl` | every verifier round |
 | `rewritten_queries.jsonl` | every rewrite |
@@ -190,7 +204,7 @@ caption/verification mismatch.
 ## Testing without API calls
 
 The pure modules have no SDK imports and can be exercised directly:
-`segmentation.plan_segments` / `grid_key`, `caption_filter.filter_captions`,
+`segmentation.plan_segments` / `grid_key`,
 `generation._resolve_time_ranges` (validates `time_range` → covering `segment_ids`), and
 `workflow.run_query_pipeline` (inject a fake `BaseLLMClient`). Only `llm_client`,
 `captioning.GeminiUploader`, and `transcription` (WhisperX) touch external models.

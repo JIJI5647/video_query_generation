@@ -1,6 +1,6 @@
 """Re-run ONLY the query-generation stage on captions from a previous run.
 
-Skips captioning / filtering — those are loaded back from an existing run's
+Skips captioning — captions are loaded back from an existing run's
 JSONL artefacts. For every video it re-generates queries from all of that
 video's captions (current generation prompt), re-cuts only the clips of the
 grounded segments, uploads them, and runs the verify ⇄ rewrite loop (each query
@@ -72,7 +72,7 @@ def main() -> None:
         description="Re-run query generation from previously generated captions."
     )
     parser.add_argument("--captions-dir", required=True,
-                        help="prior run dir holding filtered_captions.jsonl etc.")
+                        help="prior run dir holding raw_captions.jsonl etc.")
     parser.add_argument("--video-dir", required=True)
     parser.add_argument("--output", required=True)
     parser.add_argument("--max-rewrites", type=int, default=3)
@@ -89,12 +89,6 @@ def main() -> None:
         help="Skip WhisperX transcription; generation runs without dialogue text.",
     )
     parser.add_argument("--whisper-model", default="small")
-    parser.add_argument(
-        "--no-filter",
-        action="store_true",
-        help="Feed ALL raw captions to generation (skip the rule-based filter) and "
-        "let the model select which moments to turn into queries.",
-    )
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -108,13 +102,9 @@ def main() -> None:
 
     segments = _load_by_video(captions_dir / "segments.jsonl", Segment)
     raw_captions = _load_by_video(captions_dir / "raw_captions.jsonl", EmotionCaption)
-    filtered_captions = _load_by_video(
-        captions_dir / "filtered_captions.jsonl", EmotionCaption
-    )
-    # With --no-filter, generation reads the raw captions and selects moments
-    # itself; otherwise it reads the rule-based filtered captions.
-    gen_caption_source = raw_captions if args.no_filter else filtered_captions
-    source_name = "raw_captions.jsonl" if args.no_filter else "filtered_captions.jsonl"
+    # No filtering — generation reads all captions and selects moments itself.
+    gen_caption_source = raw_captions
+    source_name = "raw_captions.jsonl"
     if not gen_caption_source:
         print(f"ERROR: no captions found in {captions_dir}/{source_name}",
               file=sys.stderr)
@@ -122,8 +112,7 @@ def main() -> None:
 
     video_ids = sorted(gen_caption_source)
     print(f"Re-generating queries for {len(video_ids)} video(s) "
-          f"from {source_name} in {captions_dir}"
-          + (" (NO FILTER)" if args.no_filter else ""))
+          f"from {source_name} in {captions_dir}")
     print(f"Models — generation: {args.generation_model} "
           f"| verification: {args.verification_model} | rewrite: {args.rewrite_model}\n")
 
@@ -207,7 +196,6 @@ def main() -> None:
 
             result.segments[video_id] = segments.get(video_id, [])
             result.raw_captions[video_id] = raw_captions.get(video_id, [])
-            result.filtered_captions[video_id] = caps
             result.gen_outputs[video_id] = gen_output
             result.video_traces[video_id] = traces
             result.ver_outputs[video_id] = ver_outs
@@ -246,7 +234,6 @@ def main() -> None:
         result.ver_outputs,
         result.segments,
         result.raw_captions,
-        result.filtered_captions,
         warnings,
     )
 
@@ -271,7 +258,7 @@ def main() -> None:
 
     print("\n--- Re-generation Summary ---")
     print(f"  Videos processed     : {stats.total_videos}")
-    print(f"  Captions reused      : {stats.total_filtered_captions}")
+    print(f"  Captions reused      : {stats.total_raw_captions}")
     print(f"  Initial queries      : {stats.total_initial_queries}")
     print(f"  Accepted queries     : {stats.total_accepted_queries}")
     print(f"  Discarded queries    : {stats.total_discarded_queries}")

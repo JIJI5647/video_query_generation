@@ -42,7 +42,6 @@ class PipelineResult:
     rw_outputs: Dict[str, List[RewriteBatchOutput]] = field(default_factory=dict)
     segments: Dict[str, List[Segment]] = field(default_factory=dict)
     raw_captions: Dict[str, List[EmotionCaption]] = field(default_factory=dict)
-    filtered_captions: Dict[str, List[EmotionCaption]] = field(default_factory=dict)
     validation_warnings: List[str] = field(default_factory=list)
 
 

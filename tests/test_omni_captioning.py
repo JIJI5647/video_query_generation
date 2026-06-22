@@ -271,6 +271,80 @@ def test_invalid_cache_triggers_regeneration(tmp_path):
     assert reason is None  # now valid
 
 
+class BatchCaptioner:
+    """Implements caption_many; records the size of each batched call."""
+
+    def __init__(self, payload: dict):
+        self.payload = payload
+        self.batch_calls = []  # one entry per caption_many call = its size
+        self.single_calls = 0
+
+    def _raw(self, seg_id):
+        d = dict(self.payload)
+        d["segment_id"] = seg_id  # echo (parse_caption overrides anyway)
+        return "```json\n" + json.dumps(d) + "\n```"
+
+    def caption(self, prompt_text, clip_path):
+        self.single_calls += 1
+        return self._raw("sX")
+
+    def caption_many(self, items):
+        self.batch_calls.append(len(items))
+        return [self._raw(f"s{i}") for i, _ in enumerate(items)]
+
+
+def _segments(n):
+    return [
+        Segment(segment_id=f"s{i:03d}", index=i, start_time=i * 5.0,
+                end_time=i * 5.0 + 5.0, clip_path=f"c{i}.mp4")
+        for i in range(1, n + 1)
+    ]
+
+
+def test_batched_groups_prompts_and_preserves_order(tmp_path):
+    cache, raw = tmp_path / "captions", tmp_path / "raw"
+    fake = BatchCaptioner(_good_caption_dict())
+    segs = _segments(5)
+    out = oc.caption_video_omni(
+        "vid01", segs, fake, cache, raw, caption_batch_size=2
+    )
+    # 5 segments / batch 2 -> calls of size [2, 2, 1], no per-segment fallback.
+    assert fake.batch_calls == [2, 2, 1]
+    assert fake.single_calls == 0
+    assert len(out) == 5
+    # Metadata is forced from each segment, in original order.
+    assert [c.segment_id for c in out] == [s.segment_id for s in segs]
+
+
+def test_batched_resume_skips_cached_and_only_generates_misses(tmp_path):
+    cache, raw = tmp_path / "captions", tmp_path / "raw"
+    fake = BatchCaptioner(_good_caption_dict())
+    segs = _segments(4)
+    # First pass generates all 4 (batch 2 -> [2, 2]).
+    oc.caption_video_omni("vid01", segs, fake, cache, raw, caption_batch_size=2)
+    assert fake.batch_calls == [2, 2]
+    # Second pass: all cached -> no model calls at all.
+    fake.batch_calls.clear()
+    out = oc.caption_video_omni("vid01", segs, fake, cache, raw, caption_batch_size=2)
+    assert fake.batch_calls == [] and fake.single_calls == 0
+    assert len(out) == 4
+
+
+def test_batched_falls_back_to_per_segment_on_error(tmp_path):
+    cache, raw = tmp_path / "captions", tmp_path / "raw"
+
+    class FlakyBatch(BatchCaptioner):
+        def caption_many(self, items):
+            raise RuntimeError("boom")  # whole batch fails
+
+    fake = FlakyBatch(_good_caption_dict())
+    segs = _segments(3)
+    out = oc.caption_video_omni("vid01", segs, fake, cache, raw, caption_batch_size=3)
+    # Degraded to per-segment caption() for all 3.
+    assert fake.single_calls == 3
+    assert len(out) == 3
+
+
 def test_parse_failure_saves_raw_and_skips(tmp_path):
     cache, raw = tmp_path / "captions", tmp_path / "raw"
 
@@ -281,3 +355,59 @@ def test_parse_failure_saves_raw_and_skips(tmp_path):
     out = oc.caption_video_omni("vid01", [_segment()], BadCaptioner(), cache, raw)
     assert out == []  # segment skipped, video not aborted
     assert oc.raw_output_path(raw, "vid01", "s022").exists()  # raw saved for debug
+
+
+# ---------------------------------------------------------------------------
+# QwenOmniLLMClient (verify/rewrite) — model-free via a fake engine
+# ---------------------------------------------------------------------------
+class FakeEngine:
+    """Stand-in for Qwen3OmniCaptioner: records messages, returns canned text."""
+
+    def __init__(self, replies):
+        self.replies = list(replies)
+        self.seen_messages = []
+
+    def generate(self, messages):
+        self.seen_messages.append(messages)
+        return self.replies.pop(0)
+
+
+def test_build_messages_multi_has_one_video_per_clip():
+    msgs = oc.Qwen3OmniCaptioner._build_messages_multi(
+        "judge this", ["a.mp4", "b.mp4"]
+    )
+    content = msgs[0]["content"]
+    videos = [c for c in content if c["type"] == "video"]
+    texts = [c for c in content if c["type"] == "text"]
+    assert [v["video"] for v in videos] == ["a.mp4", "b.mp4"]
+    assert texts[-1]["text"] == "judge this"
+
+
+def test_build_messages_multi_text_only_when_no_clips():
+    msgs = oc.Qwen3OmniCaptioner._build_messages_multi("text only", [])
+    content = msgs[0]["content"]
+    assert all(c["type"] == "text" for c in content)
+
+
+def test_llm_client_parses_json_and_passes_clips():
+    payload = {"video_id": "v", "round_index": 1, "results": []}
+    engine = FakeEngine(["```json\n" + json.dumps(payload) + "\n```"])
+    client = oc.QwenOmniLLMClient(engine)
+    out = client.generate_json("p", "VerificationBatchOutput", video_uri=["c1.mp4"])
+    assert out == payload
+    # The single clip path was turned into one video part (no upload).
+    videos = [c for c in engine.seen_messages[0][0]["content"] if c["type"] == "video"]
+    assert [v["video"] for v in videos] == ["c1.mp4"]
+
+
+def test_llm_client_retries_then_raises():
+    engine = FakeEngine(["no json", "still no json"])
+    client = oc.QwenOmniLLMClient(engine, max_retries=2)
+    with pytest.raises(RuntimeError):
+        client.generate_json("p", "VerificationBatchOutput", video_uri="c.mp4")
+    assert not engine.replies  # both attempts consumed
+
+
+def test_llm_client_usage_report_shape():
+    rep = oc.QwenOmniLLMClient(FakeEngine([])).usage_report()
+    assert rep["total"]["total_tokens"] == 0 and rep["by_stage"] == {}

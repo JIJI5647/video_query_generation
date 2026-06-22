@@ -77,15 +77,11 @@ def _load_dir(result: PipelineResult, d: Path) -> None:
     for vid, segs in seg_by_v.items():
         result.segments[vid] = segs
 
-    for fname, target in [
-        ("raw_captions.jsonl", result.raw_captions),
-        ("filtered_captions.jsonl", result.filtered_captions),
-    ]:
-        by_v: Dict[str, List[EmotionCaption]] = {}
-        for r in _read_jsonl(d / fname):
-            by_v.setdefault(r["video_id"], []).append(EmotionCaption.model_validate(r))
-        for vid, caps in by_v.items():
-            target[vid] = caps
+    by_v: Dict[str, List[EmotionCaption]] = {}
+    for r in _read_jsonl(d / "raw_captions.jsonl"):
+        by_v.setdefault(r["video_id"], []).append(EmotionCaption.model_validate(r))
+    for vid, caps in by_v.items():
+        result.raw_captions[vid] = caps
 
     # Query-stage
     for r in _read_jsonl(d / "initial_queries.jsonl"):
@@ -134,14 +130,13 @@ def main() -> None:
         result.ver_outputs,
         result.segments,
         result.raw_captions,
-        result.filtered_captions,
         warnings,
     )
 
     out = Path(args.into)
     export_all(result, out, stats)
     print(f"Merged {len(result.video_traces)} videos into {out}")
-    print(f"  segments={stats.total_segments} captions={stats.total_filtered_captions}")
+    print(f"  segments={stats.total_segments} captions={stats.total_raw_captions}")
     print(f"  initial={stats.total_initial_queries} accepted={stats.total_accepted_queries} "
           f"discarded={stats.total_discarded_queries}")
 

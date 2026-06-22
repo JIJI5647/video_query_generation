@@ -6,7 +6,8 @@ uploads its N clips to the Gemini Files API and issues ONE multimodal call
 order explicitly and asks for exactly one caption per clip. We emit exactly one
 caption per segment (1-to-1 with the clip), keyed by the segment_id the model
 reports; any segment the model skips or mislabels gets a neutral placeholder.
-Neutral / "unrelevant" captions are dropped later by ``filter_captions``.
+All captions (including neutral / "unrelevant") are fed to generation, which
+selects which moments are worth a query.
 
 ``GeminiUploader`` is a thin wrapper over the Files API (upload + poll ACTIVE +
 delete). It is reused by the entry script to upload the whole video for the
@@ -103,8 +104,8 @@ def build_caption_prompt(
 def _neutral_placeholder(video_id: str, seg_id: str) -> EmotionCaption:
     """A 'no emotion observed' caption for a segment the model skipped.
 
-    Kept so raw captions are exactly one-per-segment; ``filter_captions`` drops
-    it (neutral is not a real emotion label).
+    Kept so captions are exactly one-per-segment; generation decides whether a
+    neutral moment is worth a query.
     """
     return EmotionCaption(
         video_id=video_id,

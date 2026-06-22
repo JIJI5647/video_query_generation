@@ -182,7 +182,6 @@ def export_all(
 
     export_segments(result.segments, output_dir / "segments.jsonl")
     export_captions(result.raw_captions, output_dir / "raw_captions.jsonl")
-    export_captions(result.filtered_captions, output_dir / "filtered_captions.jsonl")
 
     export_initial_queries(result.gen_outputs, output_dir / "initial_queries.jsonl")
     export_verification_rounds(result.ver_outputs, output_dir / "verification_rounds.jsonl")

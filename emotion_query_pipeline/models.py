@@ -19,7 +19,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 # Eight fixed emotion labels for the caption stage. Tuple form for runtime
 # membership checks (Literal can't be iterated directly). These eight are the
-# "real" emotions kept by the filter.
+# "real" emotions; "neutral"/"unrelevant" mark a clip with no clear emotion.
 EMOTION_LABEL_VALUES: tuple[str, ...] = (
     "angry",
     "excited",
@@ -32,9 +32,9 @@ EMOTION_LABEL_VALUES: tuple[str, ...] = (
 )
 
 # Schema-accepted labels for a caption: the eight emotions plus two "no emotion"
-# markers. Every segment gets exactly one caption, so segments with no clear
-# emotion are labelled here and dropped later by ``filter_captions`` (they are
-# not in ``EMOTION_LABEL_VALUES``).
+# markers. Every segment gets exactly one caption; segments with no clear emotion
+# are labelled "neutral"/"unrelevant" (not in ``EMOTION_LABEL_VALUES``). All
+# captions feed generation, which decides which moments are worth a query.
 CAPTION_EMOTION_LABELS = Literal[
     "angry",
     "excited",
@@ -316,7 +316,6 @@ class PipelineStats(BaseModel):
     total_videos: int
     total_segments: int
     total_raw_captions: int
-    total_filtered_captions: int
     total_initial_queries: int
     total_accepted_queries: int
     total_discarded_queries: int
