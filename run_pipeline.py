@@ -205,8 +205,12 @@ def main() -> None:
     )
     selected = pick_videos(video_dir, args.num_videos, args.seed, video_ids)
     print(f"Selected {len(selected)} video(s) from {video_dir}")
+    if args.caption_backend == "qwen3_omni":
+        caption_desc = f"{args.qwen_model_path} ({args.qwen_engine})"
+    else:
+        caption_desc = args.caption_model
     print(
-        f"Models — caption: {args.caption_model} | generation: {args.generation_model} "
+        f"Models — caption: {caption_desc} | generation: {args.generation_model} "
         f"| verification: {args.verification_model} | rewrite: {args.rewrite_model}"
     )
     print(
