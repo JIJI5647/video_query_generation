@@ -147,6 +147,22 @@ def main() -> None:
         help="Model path/name for the qwen3_omni captioning backend.",
     )
     parser.add_argument(
+        "--qwen-engine",
+        choices=["vllm", "transformers"],
+        default="vllm",
+        help="Inference engine for the qwen3_omni backend. 'vllm' (default) is "
+        "fast but needs a vLLM build matching the GPU driver's CUDA and "
+        "Qwen3-Omni multimodal support; 'transformers' is a slower pure-HF "
+        "fallback that only needs a working torch (use it when vLLM won't load "
+        "the model as multimodal on the available CUDA/driver).",
+    )
+    parser.add_argument(
+        "--qwen-attn-impl",
+        default=None,
+        help="attn_implementation for the transformers engine "
+        "(e.g. flash_attention_2, sdpa, eager). Default lets HF choose.",
+    )
+    parser.add_argument(
         "--captions-cache-dir",
         default=None,
         help="Per-segment structured-caption cache root (qwen3_omni). Defaults to "
@@ -214,10 +230,14 @@ def main() -> None:
     captions_cache_dir = Path(args.captions_cache_dir or (output_dir / "captions"))
     captions_raw_dir = output_dir / "captions_raw"
     if args.caption_backend == "qwen3_omni":
-        omni_captioner = Qwen3OmniCaptioner(model_path=args.qwen_model_path)
+        omni_captioner = Qwen3OmniCaptioner(
+            model_path=args.qwen_model_path,
+            engine=args.qwen_engine,
+            attn_implementation=args.qwen_attn_impl,
+        )
         print(
             f"Caption backend — qwen3_omni ({args.qwen_model_path}) | "
-            f"batch 1 | resume={args.resume} | "
+            f"engine={args.qwen_engine} | batch 1 | resume={args.resume} | "
             f"overwrite={args.overwrite_captions}\n"
             f"  cache: {captions_cache_dir}"
         )

@@ -425,12 +425,23 @@ def caption_video_omni(
 # ---------------------------------------------------------------------------
 @dataclass
 class Qwen3OmniCaptioner:
-    """vLLM-backed Qwen3-Omni captioner. The model loads on first ``caption``.
+    """Qwen3-Omni captioner with two interchangeable engines. Loads on first use.
 
     Constructing this object is cheap and import-safe: it stores config only. No
     ``vllm`` / ``torch`` / ``transformers`` / ``qwen_omni_utils`` import happens
     until ``_ensure_model`` runs (inside the first ``caption`` call), so nothing
     here touches a GPU or downloads weights on this machine.
+
+    ``engine``:
+
+    - ``"vllm"`` (default): fast, but the installed vLLM build must match both
+      the GPU driver's CUDA and Qwen3-Omni's multimodal support.
+    - ``"transformers"``: a pure HuggingFace ``Qwen3OmniMoeForConditionalGeneration``
+      fallback (``device_map="auto"`` + the talker disabled for text-only). Use
+      this when vLLM won't load Qwen3-Omni as a multimodal model on the available
+      CUDA/driver — it only needs a working torch, at the cost of speed/VRAM.
+
+    Both engines share the same ``caption(prompt_text, clip_path)`` contract.
     """
 
     model_path: str = DEFAULT_MODEL_PATH
@@ -438,21 +449,34 @@ class Qwen3OmniCaptioner:
         default_factory=lambda: dict(DEFAULT_SAMPLING_PARAMS)
     )
     use_audio_in_video: bool = True
+    engine: str = "vllm"  # "vllm" | "transformers"
+    # vLLM-only knobs.
     gpu_memory_utilization: float = 0.95
     max_num_seqs: int = 8
     max_model_len: int = 32768
     tensor_parallel_size: Optional[int] = None
     seed: int = 1234
     limit_mm_per_prompt: Optional[Dict[str, int]] = None
+    # transformers-only knobs.
+    device_map: str = "auto"
+    attn_implementation: Optional[str] = None  # e.g. "flash_attention_2"
 
     _llm: Any = field(default=None, init=False, repr=False)
+    _model: Any = field(default=None, init=False, repr=False)
     _processor: Any = field(default=None, init=False, repr=False)
     _sampling: Any = field(default=None, init=False, repr=False)
 
+    # -- model loading -------------------------------------------------------
     def _ensure_model(self) -> None:
         """Load the model + processor exactly once. Heavy imports live here."""
-        if self._llm is not None:
+        if self._llm is not None or self._model is not None:
             return
+        if self.engine == "transformers":
+            self._ensure_model_transformers()
+        else:
+            self._ensure_model_vllm()
+
+    def _ensure_model_vllm(self) -> None:
         # Lazy imports — keep these OFF the module import path.
         import torch
         from vllm import LLM, SamplingParams
@@ -475,6 +499,32 @@ class Qwen3OmniCaptioner:
         self._sampling = SamplingParams(**self.sampling_params)
         self._processor = Qwen3OmniMoeProcessor.from_pretrained(self.model_path)
 
+    def _ensure_model_transformers(self) -> None:
+        # Lazy imports — keep these OFF the module import path.
+        from transformers import (
+            Qwen3OmniMoeForConditionalGeneration,
+            Qwen3OmniMoeProcessor,
+        )
+
+        load_kwargs: Dict[str, Any] = {
+            "dtype": "auto",
+            "device_map": self.device_map,
+            "trust_remote_code": True,
+        }
+        if self.attn_implementation:
+            load_kwargs["attn_implementation"] = self.attn_implementation
+        self._model = Qwen3OmniMoeForConditionalGeneration.from_pretrained(
+            self.model_path, **load_kwargs
+        )
+        # Captioning needs TEXT only — drop the audio-generating talker to save
+        # memory/time if the build supports it.
+        if hasattr(self._model, "disable_talker"):
+            try:
+                self._model.disable_talker()
+            except Exception:
+                pass
+        self._processor = Qwen3OmniMoeProcessor.from_pretrained(self.model_path)
+
     @staticmethod
     def _build_messages(prompt_text: str, clip_path: str) -> list:
         """One user turn: the segment video (audio included) then the text prompt."""
@@ -488,9 +538,15 @@ class Qwen3OmniCaptioner:
             }
         ]
 
+    # -- inference -----------------------------------------------------------
     def caption(self, prompt_text: str, clip_path: str) -> str:
         """Run one Qwen3-Omni inference on a single segment clip; return raw text."""
         self._ensure_model()
+        if self.engine == "transformers":
+            return self._caption_transformers(prompt_text, clip_path)
+        return self._caption_vllm(prompt_text, clip_path)
+
+    def _caption_vllm(self, prompt_text: str, clip_path: str) -> str:
         from qwen_omni_utils import process_mm_info  # lazy
 
         messages = self._build_messages(prompt_text, clip_path)
@@ -514,3 +570,67 @@ class Qwen3OmniCaptioner:
 
         outputs = self._llm.generate([inputs], sampling_params=self._sampling)
         return outputs[0].outputs[0].text
+
+    def _caption_transformers(self, prompt_text: str, clip_path: str) -> str:
+        # Follows the official Qwen3-Omni transformers example: generate returns
+        # (text_ids, audio); with thinker_return_dict_in_generate=True the text
+        # ids are under ``.sequences``. We ignore the audio (text-only caption)
+        # and slice off the prompt before decoding.
+        import torch
+        from qwen_omni_utils import process_mm_info  # lazy
+
+        messages = self._build_messages(prompt_text, clip_path)
+        text = self._processor.apply_chat_template(
+            messages, add_generation_prompt=True, tokenize=False
+        )
+        audios, images, videos = process_mm_info(
+            messages, use_audio_in_video=self.use_audio_in_video
+        )
+        inputs = self._processor(
+            text=text,
+            audio=audios,
+            images=images,
+            videos=videos,
+            return_tensors="pt",
+            padding=True,
+            use_audio_in_video=self.use_audio_in_video,
+        )
+        inputs = inputs.to(self._model.device).to(self._model.dtype)
+
+        sp = self.sampling_params
+        # Confirmed-safe kwargs from the official Qwen3-Omni examples (text-only,
+        # talker disabled, batch-safe).
+        base_kwargs: Dict[str, Any] = {
+            "return_audio": False,
+            "thinker_return_dict_in_generate": True,
+            "use_audio_in_video": self.use_audio_in_video,
+        }
+        # Sampling control via the Omni thinker_* knobs. Some builds may not
+        # accept these; if so we fall back to the model's generation defaults
+        # rather than failing the caption.
+        sampling_kwargs: Dict[str, Any] = {
+            "thinker_max_new_tokens": sp.get("max_tokens", 2048),
+            "thinker_do_sample": sp.get("temperature", 0.0) > 0,
+            "thinker_temperature": sp.get("temperature", 0.6),
+            "thinker_top_p": sp.get("top_p", 0.95),
+            "thinker_top_k": sp.get("top_k", 20),
+        }
+        prompt_len = inputs["input_ids"].shape[1]
+        with torch.no_grad():
+            try:
+                gen_out = self._model.generate(
+                    **inputs, **base_kwargs, **sampling_kwargs
+                )
+            except TypeError:
+                gen_out = self._model.generate(**inputs, **base_kwargs)
+
+        # Return is (text_ids, audio); talker-disabled builds may return only
+        # text_ids. text_ids is a ModelOutput (.sequences) or a plain tensor.
+        text_ids = gen_out[0] if isinstance(gen_out, (tuple, list)) else gen_out
+        seq = getattr(text_ids, "sequences", text_ids)
+        decoded = self._processor.batch_decode(
+            seq[:, prompt_len:],
+            skip_special_tokens=True,
+            clean_up_tokenization_spaces=False,
+        )
+        return decoded[0] if decoded else ""
