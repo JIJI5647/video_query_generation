@@ -58,9 +58,17 @@ export GEMINI_API_KEY="..."       # required
 WhisperX is heavy (~2–3 GB incl. torch) and downloads its ASR + alignment models on first
 run. Run with `--no-transcript` to skip it entirely.
 
-The `qwen3_omni` caption backend additionally needs `vllm`, `transformers` and
-`qwen-omni-utils` plus a GPU — install these only on the inference server. They are
-imported lazily, so the rest of the pipeline and all tests run without them.
+The `qwen3_omni` caption backend additionally needs `vllm`, `transformers`,
+`qwen-omni-utils` and `torch` plus a GPU — install these **only on the inference
+server**, kept out of the main requirements so the default pipeline and tests stay
+light:
+
+```bash
+pip install -r requirements.txt -r requirements-qwen.txt   # GPU server only
+```
+
+They are imported lazily (only on the first inference call), so the rest of the
+pipeline and all tests run without them.
 
 ## Run
 

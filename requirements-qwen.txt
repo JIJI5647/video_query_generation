@@ -1,0 +1,17 @@
+# Server-only dependencies for the qwen3_omni caption backend.
+#
+# These are heavy and require a GPU. They are NOT needed for the default Gemini
+# pipeline, for the local lightweight checks, or for tests — the backend imports
+# them lazily (only on the first real inference call). Install ONLY on the GPU
+# inference server:
+#
+#     pip install -r requirements.txt -r requirements-qwen.txt
+#
+# Versions are intentionally unpinned: vLLM and Transformers must be recent
+# enough to support Qwen3-Omni (Qwen3OmniMoeProcessor + the vLLM Qwen3-Omni
+# path). Follow the official Qwen3-Omni vLLM instructions for the exact build
+# combination if these floating versions don't resolve.
+vllm
+transformers
+qwen-omni-utils
+torch
