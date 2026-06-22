@@ -15,7 +15,7 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Literal, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, ConfigDict, Field
 
 # Eight fixed emotion labels for the caption stage. Tuple form for runtime
 # membership checks (Literal can't be iterated directly). These eight are the
@@ -87,16 +87,118 @@ class CaptionBatchOutput(BaseModel):
 
 
 # ---------------------------------------------------------------------------
+# Structured omni caption (Qwen3-Omni backend)
+# ---------------------------------------------------------------------------
+# A richer, nested caption produced by the Qwen3-Omni captioning backend, one
+# per segment (one segment per prompt). It separates objective visual facts
+# (``visual_objective``) from observable affective cues (``visual_expression``),
+# non-transcript audio (``audio_description``), and a CANDIDATE emotion reading
+# (``emotion_description``). ``segment_id`` / ``time_range`` are metadata only —
+# they must not appear in any natural-language field. These captions are cached
+# to disk for resume and adapted down to ``EmotionCaption`` (see
+# ``omni_captioning.omni_to_emotion_caption``) so the existing generation /
+# filter / export path is unchanged. Sub-models allow extra keys so a slightly
+# richer model response never fails validation.
+class OmniPerson(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
+    person: str = ""
+    visibility: str = ""
+    position: str = ""
+    action: str = ""
+
+
+class OmniScene(BaseModel):
+    model_config = ConfigDict(extra="allow")
+
+    location: str = ""
+    setting: str = ""
+
+
+class OmniVisualObjective(BaseModel):
+    """Objective visual facts only — never emotion inference (spec §5.1/§5.2)."""
+
+    model_config = ConfigDict(extra="allow")
+
+    people: List[OmniPerson] = Field(default_factory=list)
+    scene: OmniScene = Field(default_factory=OmniScene)
+    objects: List[Any] = Field(default_factory=list)
+    interactions: List[Any] = Field(default_factory=list)
+    key_actions: List[Any] = Field(default_factory=list)
+    visibility_notes: str = ""
+
+
+class OmniVisualExpression(BaseModel):
+    """Observable facial / body / gaze cues for one described person."""
+
+    model_config = ConfigDict(extra="allow")
+
+    person: str = ""
+    facial_cues: List[Any] = Field(default_factory=list)
+    body_cues: List[Any] = Field(default_factory=list)
+    gaze: str = ""
+
+
+class OmniCaption(BaseModel):
+    """One structured multimodal caption for a single video segment."""
+
+    model_config = ConfigDict(extra="allow")
+
+    # Metadata (filled/overridden by the backend from the Segment; never written
+    # into natural-language fields).
+    video_id: str = ""
+    segment_id: str
+    time_range: List[float] = Field(default_factory=list)
+    # Content.
+    visual_objective: OmniVisualObjective = Field(default_factory=OmniVisualObjective)
+    visual_expression: List[OmniVisualExpression] = Field(default_factory=list)
+    audio_description: str = ""
+    emotion_description: str = ""
+    confidence: Literal["high", "medium", "low"] = "low"
+    evidence_strength: Literal["clear", "ambiguous", "weak"] = "ambiguous"
+
+
+# Top-level fields a cached OmniCaption must carry to be treated as a valid,
+# resumable result (spec §9.2). Order is informative for logs.
+OMNI_REQUIRED_FIELDS: tuple[str, ...] = (
+    "segment_id",
+    "time_range",
+    "visual_objective",
+    "visual_expression",
+    "audio_description",
+    "emotion_description",
+    "confidence",
+    "evidence_strength",
+)
+
+
+# ---------------------------------------------------------------------------
 # Query stage
 # ---------------------------------------------------------------------------
+class GroundingEvidence(BaseModel):
+    """Observable cues the model used to ground a query (debug/export only).
+
+    Kept off the verification path — the verifier never sees these. ``visual``
+    and ``audio`` come from the caption's observable evidence; ``transcript``
+    must be supported by the existing dialogue transcript (no caption-guessed
+    quotes).
+    """
+
+    visual_evidence: List[str] = Field(default_factory=list)
+    audio_evidence: List[str] = Field(default_factory=list)
+    transcript_evidence: List[str] = Field(default_factory=list)
+
+
 class EventGroundedQuery(BaseModel):
     video_id: str
     query_id: str
     query_type: Literal["explicit_event", "emotion_state", "evidence_cue"]
     query_text: str
-    grounding_event_description: str
+    # Legacy free-text grounding fields — now optional and no longer requested in
+    # the generation prompt; superseded by structured ``grounding_evidence``.
+    grounding_event_description: str = ""
     approximate_grounding_time: Optional[str] = None
-    target_person_or_group: str
+    target_person_or_group: str = ""
     expected_evidence: List[str] = Field(default_factory=list)
     why_grounded: str = ""
     # v4 (B1): the model-facing grounding handle is a [start, end] time range in
@@ -105,6 +207,10 @@ class EventGroundedQuery(BaseModel):
     # the generation or verification models, nor to human annotators.
     time_range: Optional[List[float]] = None
     segment_ids: List[str] = Field(default_factory=list)
+    # Structured, observable cues the query is grounded on (debug/export).
+    grounding_evidence: Optional[GroundingEvidence] = None
+    # Internal provenance: the caption ids whose segments the query covers.
+    source_caption_ids: List[str] = Field(default_factory=list)
 
 
 class GenerationOutput(BaseModel):
@@ -176,10 +282,12 @@ class QueryTrace(BaseModel):
     query_type: Literal["explicit_event", "emotion_state", "evidence_cue"]
     grounding_event_description: str
     approximate_grounding_time: Optional[str] = None
-    target_person_or_group: str
+    target_person_or_group: str = ""
     expected_evidence: List[str] = Field(default_factory=list)
     time_range: Optional[List[float]] = None
     segment_ids: List[str] = Field(default_factory=list)
+    grounding_evidence: Optional[GroundingEvidence] = None
+    source_caption_ids: List[str] = Field(default_factory=list)
     rewrite_count: int = 0
     verification_rounds: List[RoundDecision] = Field(default_factory=list)
     final_status: Literal["accepted", "discarded"] = "discarded"
@@ -193,10 +301,12 @@ class FinalQueryRecord(BaseModel):
     final_query_text: str
     grounding_event_description: str
     approximate_grounding_time: Optional[str] = None
-    target_person_or_group: str
+    target_person_or_group: str = ""
     expected_evidence: List[str] = Field(default_factory=list)
     time_range: Optional[List[float]] = None
     segment_ids: List[str] = Field(default_factory=list)
+    grounding_evidence: Optional[GroundingEvidence] = None
+    source_caption_ids: List[str] = Field(default_factory=list)
     rewrite_count: int
     verification_rounds: List[Dict[str, Any]] = Field(default_factory=list)
     final_status: Literal["accepted", "discarded"]

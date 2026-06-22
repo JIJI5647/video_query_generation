@@ -23,6 +23,7 @@ from .workflow import PipelineResult
 _PROMPTS_SRC = Path(__file__).parent.parent / "prompts"
 _PROMPT_TEMPLATES = [
     "caption_prompt.txt",
+    "omni_caption_prompt.txt",
     "generation_prompt.txt",
     "verification_prompt.txt",
     "rewrite_prompt.txt",
@@ -89,6 +90,8 @@ def export_final_queries(
                 expected_evidence=t.expected_evidence,
                 time_range=t.time_range,
                 segment_ids=t.segment_ids,
+                grounding_evidence=t.grounding_evidence,
+                source_caption_ids=t.source_caption_ids,
                 rewrite_count=t.rewrite_count,
                 verification_rounds=[rd.model_dump() for rd in t.verification_rounds],
                 final_status=t.final_status,

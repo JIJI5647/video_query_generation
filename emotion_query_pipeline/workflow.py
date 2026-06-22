@@ -60,6 +60,8 @@ def _make_trace(q: EventGroundedQuery) -> QueryTrace:
         expected_evidence=list(q.expected_evidence),
         time_range=list(q.time_range) if q.time_range else None,
         segment_ids=list(q.segment_ids),
+        grounding_evidence=q.grounding_evidence,
+        source_caption_ids=list(q.source_caption_ids),
         rewrite_count=0,
         verification_rounds=[],
         final_status="discarded",
@@ -114,6 +116,8 @@ def _apply_rewrites(
             why_grounded=old_q.why_grounded,
             time_range=list(old_q.time_range) if old_q.time_range else None,
             segment_ids=list(old_q.segment_ids),
+            grounding_evidence=old_q.grounding_evidence,
+            source_caption_ids=list(old_q.source_caption_ids),
         )
 
 

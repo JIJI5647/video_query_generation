@@ -44,6 +44,15 @@ def _caption_time_range(
 def _captions_payload(
     captions: List[EmotionCaption], seg_time: Dict[str, Tuple[float, float]]
 ) -> list:
+    """Structured, segment-level multimodal evidence for the generation model.
+
+    Built from the existing caption fields, grouped into an omni-caption shape:
+    ``visual`` (person/action/observable cues), ``audio_description`` (non-verbal
+    sound), and ``emotion_description`` (a CANDIDATE interpretation, not a gold
+    label). ``confidence``/``evidence_strength`` gate whether an emotion_state
+    query is warranted. The spoken-dialogue transcript is provided separately —
+    it is NOT folded into captions.
+    """
     payload = []
     for c in captions:
         tr = _caption_time_range(c, seg_time)
@@ -52,13 +61,15 @@ def _captions_payload(
         payload.append(
             {
                 "time_range": tr,
-                "person": c.person,
-                "action": c.action,
-                "sound": c.sound,
-                "emotion": c.emotion,
+                "visual": {
+                    "person": c.person,
+                    "action": c.action,
+                    "observable_evidence": c.observable_evidence,
+                },
+                "audio_description": c.sound,
+                "emotion_description": c.emotion,
                 "confidence": c.confidence,
                 "evidence_strength": c.evidence_strength,
-                "observable_evidence": c.observable_evidence,
             }
         )
     return payload
@@ -136,22 +147,30 @@ def generate_queries(
             q["query_id"] = f"{video_id}_q{i:02d}"
 
     output = GenerationOutput.model_validate(raw)
-    return _resolve_time_ranges(output, segments)
+    return _resolve_time_ranges(output, segments, captions)
 
 
 def _resolve_time_ranges(
-    output: GenerationOutput, segments: List[Segment]
+    output: GenerationOutput,
+    segments: List[Segment],
+    captions: Optional[List[EmotionCaption]] = None,
 ) -> GenerationOutput:
-    """Validate each query's time_range and resolve it to overlapping segment_ids.
+    """Validate each query's time_range and resolve internal grounding handles.
 
-    Drops queries whose ``time_range`` is missing/malformed, lies outside the
-    video, or overlaps no real segment. Guarantees every surviving query has a
-    valid ``time_range`` AND a non-empty internal ``segment_ids`` for clip lookup.
+    Fills (a) ``segment_ids`` = the segments overlapping the query's time range
+    (for verification clip lookup) and (b) ``source_caption_ids`` = the caption
+    ids on those segments (provenance/debug). Drops queries whose ``time_range``
+    is missing/malformed, lies outside the video, or overlaps no real segment.
     """
     if not segments:
         output.queries = []
         return output
     video_end = max(s.end_time for s in segments)
+    # segment_id -> caption_id (each segment carries exactly one caption).
+    seg_to_caption: Dict[str, str] = {}
+    for c in captions or []:
+        for sid in c.segment_ids:
+            seg_to_caption.setdefault(sid, c.caption_id)
     kept: List[EventGroundedQuery] = []
     for q in output.queries:
         tr = q.time_range
@@ -174,6 +193,11 @@ def _resolve_time_ranges(
             continue
         q.time_range = [round(qs, 2), round(qe, 2)]
         q.segment_ids = [s.segment_id for s in covering]
+        q.source_caption_ids = [
+            seg_to_caption[s.segment_id]
+            for s in covering
+            if s.segment_id in seg_to_caption
+        ]
         kept.append(q)
     output.queries = kept
     return output

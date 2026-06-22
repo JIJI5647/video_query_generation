@@ -26,6 +26,11 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from emotion_query_pipeline.captioning import GeminiUploader, caption_video
 from emotion_query_pipeline.caption_filter import filter_captions
+from emotion_query_pipeline.omni_captioning import (
+    Qwen3OmniCaptioner,
+    caption_video_omni,
+    omni_to_emotion_caption,
+)
 from emotion_query_pipeline.export import export_all
 from emotion_query_pipeline.generation import generate_queries
 from emotion_query_pipeline.llm_client import GeminiLLMClient
@@ -70,7 +75,7 @@ def pick_videos(
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="v2 caption-based query generation.")
+    parser = argparse.ArgumentParser(description="v4 caption-based query generation.")
     parser.add_argument("--video-dir", required=True)
     parser.add_argument("--num-videos", "-n", type=int, default=10)
     parser.add_argument(
@@ -120,6 +125,52 @@ def main() -> None:
         help="Skip rule-based caption filtering and feed ALL raw captions to "
         "generation, letting the model select which moments to turn into queries.",
     )
+    # --- Captioning backend (Qwen3-Omni) ---
+    parser.add_argument(
+        "--caption-backend",
+        choices=["gemini", "qwen3_omni"],
+        default="gemini",
+        help="Captioning backend. 'gemini' (default) uses the Gemini Files API "
+        "batch path; 'qwen3_omni' uses the local-server Qwen3-Omni structured "
+        "captioner (one segment per prompt).",
+    )
+    parser.add_argument(
+        "--caption-batch-size",
+        type=int,
+        default=1,
+        help="Segments per caption prompt for the qwen3_omni backend. Must be 1 "
+        "(one segment per prompt); larger values are ignored with a warning.",
+    )
+    parser.add_argument(
+        "--qwen-model-path",
+        default="Qwen/Qwen3-Omni-30B-A3B-Instruct",
+        help="Model path/name for the qwen3_omni captioning backend.",
+    )
+    parser.add_argument(
+        "--captions-cache-dir",
+        default=None,
+        help="Per-segment structured-caption cache root (qwen3_omni). Defaults to "
+        "<output>/captions. Raw failed outputs go to <output>/captions_raw.",
+    )
+    parser.add_argument(
+        "--resume",
+        dest="resume",
+        action="store_true",
+        default=True,
+        help="Skip segments that already have a valid cached caption (default).",
+    )
+    parser.add_argument(
+        "--no-resume",
+        dest="resume",
+        action="store_false",
+        help="Disable resume; re-check every segment (still respects cache files "
+        "unless --overwrite-captions is given).",
+    )
+    parser.add_argument(
+        "--overwrite-captions",
+        action="store_true",
+        help="Force regeneration of every segment caption, ignoring any cache.",
+    )
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -156,6 +207,21 @@ def main() -> None:
     )
     uploader = GeminiUploader(api_key=api_key)
 
+    # Captioning backend. The Qwen3-Omni captioner is constructed here but does
+    # NOT load the model yet — the heavy vLLM/model load is lazy (first caption
+    # call on the server). Generation/verification/rewrite still use Gemini.
+    omni_captioner = None
+    captions_cache_dir = Path(args.captions_cache_dir or (output_dir / "captions"))
+    captions_raw_dir = output_dir / "captions_raw"
+    if args.caption_backend == "qwen3_omni":
+        omni_captioner = Qwen3OmniCaptioner(model_path=args.qwen_model_path)
+        print(
+            f"Caption backend — qwen3_omni ({args.qwen_model_path}) | "
+            f"batch 1 | resume={args.resume} | "
+            f"overwrite={args.overwrite_captions}\n"
+            f"  cache: {captions_cache_dir}"
+        )
+
     result = PipelineResult()
     per_video_usage: List[dict] = []
     run_start = time.perf_counter()
@@ -181,10 +247,26 @@ def main() -> None:
             )
             print(f"  {len(segments)} segments ready (cache: {segments_dir})")
 
-            # Steps 2-3: batch captions
-            raw = caption_video(
-                video_id, segments, client, uploader, batch_size=args.batch_size
-            )
+            # Steps 2-3: captions. Either the Gemini batch path or the
+            # Qwen3-Omni structured path (one segment per prompt + resume cache).
+            if args.caption_backend == "qwen3_omni":
+                omni_caps = caption_video_omni(
+                    video_id,
+                    segments,
+                    omni_captioner,
+                    captions_cache_dir,
+                    captions_raw_dir,
+                    resume=args.resume,
+                    overwrite=args.overwrite_captions,
+                    caption_batch_size=args.caption_batch_size,
+                )
+                # Adapt the rich structured captions to the flat EmotionCaption
+                # the rest of the pipeline (filter/generation/export) consumes.
+                raw = [omni_to_emotion_caption(oc, video_id) for oc in omni_caps]
+            else:
+                raw = caption_video(
+                    video_id, segments, client, uploader, batch_size=args.batch_size
+                )
             # Step 4: rule-based filter (still recorded for the funnel stats);
             # with --no-filter we feed the model the raw captions instead and let
             # it decide which moments are worth a query.
