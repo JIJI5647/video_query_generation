@@ -245,6 +245,73 @@ def extract_caption_list(raw_text: str) -> list:
     )
 
 
+def _match_items_to_segments(
+    items: list, segments: List[Segment]
+) -> Dict[str, dict]:
+    """Map decoded caption objects to segments (echoed segment_id, else position).
+
+    Returns ``segment_id -> raw item dict`` for every segment the model output
+    can be tied to. Used by the salvage path so a segment whose object failed
+    strict validation can still be turned into a best-effort caption.
+    """
+    by_id = {s.segment_id: s for s in segments}
+    matched: Dict[str, dict] = {}
+    for idx, item in enumerate(items):
+        if not isinstance(item, dict):
+            continue
+        seg = by_id.get(item.get("segment_id"))
+        if seg is None and idx < len(segments):
+            seg = segments[idx]  # fall back to clip order
+        if seg is None or seg.segment_id in matched:
+            continue
+        matched[seg.segment_id] = item
+    return matched
+
+
+def salvage_caption(
+    item: Optional[dict], raw_text: str, segment: Segment, video_id: str
+) -> OmniCaption:
+    """Best-effort OmniCaption for a segment whose output failed strict parsing.
+
+    The model always produces *some* format errors; rather than drop the segment
+    (so generation never hears about that moment), we keep whatever decoded —
+    ``OmniCaption`` allows extra keys and defaults the rest — force the trusted
+    metadata, and pin ``confidence=low`` / ``evidence_strength=weak`` so the
+    generator treats it as soft evidence. When nothing decoded, the raw model
+    text is stuffed into ``emotion_description`` so the segment is at least
+    described. A ``caption_status="salvaged"`` marker is carried for debug/export.
+    """
+    tr = [round(segment.start_time, 2), round(segment.end_time, 2)]
+    data: Dict[str, Any] = dict(item) if isinstance(item, dict) else {}
+    data["segment_id"] = segment.segment_id
+    data["time_range"] = tr
+    data["video_id"] = video_id
+    data["caption_status"] = "salvaged"
+    # Force the two enum fields to a valid soft value (a bad echo must not fail
+    # validation — that is the whole point of salvaging).
+    if data.get("confidence") not in ("high", "medium", "low"):
+        data["confidence"] = "low"
+    data["evidence_strength"] = "weak"
+    if not (str(data.get("emotion_description") or "")).strip():
+        data["emotion_description"] = (raw_text or "").strip()[:500] or "(unparseable)"
+    try:
+        return OmniCaption.model_validate(data)
+    except Exception:
+        # Last resort: a minimal valid caption keeping only trusted text so the
+        # segment is NEVER dropped, whatever odd shape the nested fields had.
+        audio = data.get("audio_description")
+        return OmniCaption(
+            segment_id=segment.segment_id,
+            video_id=video_id,
+            time_range=tr,
+            audio_description=audio if isinstance(audio, str) else "",
+            emotion_description=data["emotion_description"],
+            confidence="low",
+            evidence_strength="weak",
+            caption_status="salvaged",
+        )
+
+
 def parse_captions(
     raw_text: str, segments: List[Segment], video_id: str
 ) -> Dict[str, OmniCaption]:
@@ -464,31 +531,44 @@ def _write_chunk_captions(
     raw_dir: Path,
     results_by_id: Dict[str, OmniCaption],
 ) -> None:
-    """Parse N captions from one prompt's output and cache each segment's.
+    """Parse N captions from one prompt's output; cache valid ones, salvage the rest.
 
-    Segments the model skipped or returned invalid get a raw dump and are left
-    uncached (retried on the next run); they never abort the chunk.
+    A segment with a fully valid caption is cached and reused on rerun. A segment
+    the model skipped or returned in a bad format is NOT cached (so a later run
+    can still regenerate a clean caption), but a best-effort ``salvage_caption``
+    is still added to the results so it reaches generation — a format error never
+    makes a moment invisible to the generator, and never aborts the chunk. The
+    raw model text is dumped either way for debugging.
     """
     try:
         parsed = parse_captions(raw_text, chunk, video_id)
     except CaptionParseError:
-        parsed = {}  # whole array undecodable -> every segment is a miss below
+        parsed = {}  # whole array undecodable -> every segment is salvaged below
+    try:
+        items = extract_caption_list(raw_text)
+    except CaptionParseError:
+        items = []
+    matched = _match_items_to_segments(items, chunk)
     for segment in chunk:
         caption = parsed.get(segment.segment_id)
-        if caption is None:
-            raw_path = save_raw_output(
-                raw_dir, video_id, segment.segment_id, raw_text,
-                "missing_or_invalid_in_batch",
+        if caption is not None:
+            atomic_write_json(
+                caption_cache_path(cache_dir, video_id, segment.segment_id),
+                caption.model_dump(),
             )
-            print(f"[caption] parse failed: video_id={video_id} "
-                  f"segment_id={segment.segment_id} "
-                  f"reason=missing_or_invalid_in_batch raw_saved={raw_path}")
+            results_by_id[segment.segment_id] = caption
             continue
-        atomic_write_json(
-            caption_cache_path(cache_dir, video_id, segment.segment_id),
-            caption.model_dump(),
+        # Salvage: keep the moment for generation, raw-dump, leave uncached.
+        raw_path = save_raw_output(
+            raw_dir, video_id, segment.segment_id, raw_text,
+            "salvaged_for_generation",
         )
-        results_by_id[segment.segment_id] = caption
+        results_by_id[segment.segment_id] = salvage_caption(
+            matched.get(segment.segment_id), raw_text, segment, video_id
+        )
+        print(f"[caption] salvaged (fed to generation, not cached): "
+              f"video_id={video_id} segment_id={segment.segment_id} "
+              f"raw_saved={raw_path}")
 
 
 def caption_video_omni(
@@ -513,7 +593,10 @@ def caption_video_omni(
 
     Resume is applied first (cached segments skipped, no model call); only
     cache-miss segments are grouped. A segment the model skips/garbles is raw
-    dumped and left uncached (retried next run) — it never aborts the video.
+    dumped, salvaged into a best-effort low-confidence caption (so it still
+    reaches generation), and left uncached so a later run can regenerate a clean
+    one — it never aborts the video. Only a whole-group ``generate`` error leaves
+    a segment with no caption at all (raw dumped, retried next run).
     """
     results_by_id: Dict[str, OmniCaption] = {}
     cached, to_generate = _resolve_cache(
@@ -791,6 +874,41 @@ class QwenOmniLLMClient:
             f"Qwen3-Omni call failed after {self.max_retries} attempts "
             f"(schema={schema_name}): {last_error}"
         )
+
+    @staticmethod
+    def _clip_paths(video_uri) -> List[str]:
+        if video_uri is None:
+            return []
+        if isinstance(video_uri, str):
+            return [video_uri]
+        return list(video_uri)
+
+    def generate_json_many(
+        self, prompts: List[str], schema_name: str, video_uris=None
+    ) -> List[Dict[str, Any]]:
+        """Run N verify/rewrite prompts in ONE batched model forward.
+
+        Each prompt keeps its own clip(s) (``video_uris[i]``); the shared
+        Qwen3-Omni engine runs them as one ``generate_many`` call (the same
+        batching caption uses). An item whose output won't parse falls back to a
+        single retried ``generate_json`` so one bad query never fails the batch.
+        """
+        if not prompts:
+            return []
+        uris = list(video_uris) if video_uris else [None] * len(prompts)
+        messages_list = [
+            Qwen3OmniCaptioner._build_messages_multi(p, self._clip_paths(u))
+            for p, u in zip(prompts, uris)
+        ]
+        raw_texts = self._engine.generate_many(messages_list)
+        out: List[Dict[str, Any]] = []
+        for prompt, uri, raw in zip(prompts, uris, raw_texts):
+            try:
+                out.append(extract_caption_json(raw))
+            except CaptionParseError:
+                # Retry just this item through the single-call retry path.
+                out.append(self.generate_json(prompt, schema_name, video_uri=uri))
+        return out
 
     def usage_report(self) -> Dict[str, Any]:
         """Interface parity with GeminiLLMClient (local model: no token counts)."""

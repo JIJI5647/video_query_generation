@@ -308,7 +308,7 @@ def test_invalid_cache_regenerates(tmp_path):
     assert eng.total_prompts == 1 and oc.read_valid_cache(p)[1] is None
 
 
-def test_skipped_segment_in_array_is_raw_dumped(tmp_path):
+def test_skipped_segment_is_salvaged_and_raw_dumped(tmp_path):
     cache, raw = tmp_path / "cap", tmp_path / "raw"
 
     class PartialEngine(FakeEngine):
@@ -326,8 +326,15 @@ def test_skipped_segment_in_array_is_raw_dumped(tmp_path):
     eng = PartialEngine()
     out = oc.caption_video_omni("v", _segments(2), eng, cache, raw,
                                 caption_batch_size=2)
-    assert [c.segment_id for c in out] == ["s001"]  # s002 missing
+    # s002 is now SALVAGED (fed to generation) rather than dropped.
+    assert [c.segment_id for c in out] == ["s001", "s002"]
+    salvaged = next(c for c in out if c.segment_id == "s002")
+    assert salvaged.confidence == "low" and salvaged.evidence_strength == "weak"
+    assert getattr(salvaged, "caption_status", None) == "salvaged"
     assert oc.raw_output_path(raw, "v", "s002").exists()  # raw dumped for debug
+    # Salvaged captions are NOT cached, so a rerun can regenerate a clean one.
+    assert not oc.caption_cache_path(cache, "v", "s002").exists()
+    assert oc.caption_cache_path(cache, "v", "s001").exists()
 
 
 def test_generate_error_does_not_abort(tmp_path):

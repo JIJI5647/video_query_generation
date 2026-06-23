@@ -20,7 +20,7 @@ raw .mp4
   └─ 2. captions, --caption-batch-size segments/prompt (default 1), one of two backends:
         • qwen3_omni (default): N segments per prompt → JSON array of N structured
                                 captions (mapped back to segment_ids), cached
-                                per-segment for resume; --caption-parallel prompts
+                                per-segment for resume; --parallel prompts
                                 per generate() call
         • gemini              : upload N clips → ONE multimodal call
   └─ 3. WhisperX transcribes the whole video → sentence-level text + timestamps [B3]
@@ -116,7 +116,7 @@ All optional except `--video-dir`. Grouped by purpose; default in **bold**.
 |------|---------|---------|
 | `--caption-backend` | **qwen3_omni** | `qwen3_omni` (local Qwen3-Omni) or `gemini` (Files API). |
 | `--caption-batch-size` | **1** | Segments per caption prompt (both backends). The model sees N segment clips in one prompt and returns N captions mapped back to their segment_ids. Larger = fewer prompts but a bigger single prompt. |
-| `--caption-parallel` | **1** | qwen3_omni only: how many caption prompts run in ONE batched `generate` call (throughput). Orthogonal to `--caption-batch-size`; larger uses more VRAM. |
+| `--parallel` | **1** | qwen3_omni only: how many prompts run in ONE batched `generate` call (throughput) — applies to BOTH captioning (caption prompts/call) and verify/rewrite (queries/call). Orthogonal to `--caption-batch-size`; larger uses more VRAM. Gemini backend runs sequentially. |
 
 **Qwen3-Omni model / engine** (used when any stage is `qwen3_omni`)
 
@@ -205,8 +205,9 @@ Qwen3-Omni specifics:
     array of N captions, each mapped back to its `segment_id`. (This intentionally
     relaxes the original one-segment-per-prompt rule; a segment the model
     skips/garbles is raw-dumped and retried next run, never mixed.)
-  - `--caption-parallel` = **prompts per `generate` call**. How many of those
-    prompts run together in one batched model call for throughput.
+  - `--parallel` = **prompts per `generate` call**. How many prompts run together
+    in one batched model call for throughput. Shared across captioning and
+    verify/rewrite (queries per call).
   Resume is applied first, so only cache-miss segments are grouped. Larger values
   = fewer calls but more VRAM / a harder mapping for the model.
 - **Structured output:** each caption is a nested JSON with `visual_objective`

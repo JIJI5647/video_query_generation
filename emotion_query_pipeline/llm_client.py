@@ -42,6 +42,25 @@ class BaseLLMClient:
         """
         raise NotImplementedError
 
+    def generate_json_many(
+        self,
+        prompts: List[str],
+        schema_name: str,
+        video_uris: Optional[List[VideoUriArg]] = None,
+    ) -> List[Dict[str, Any]]:
+        """Run N independent ``generate_json`` requests, output order preserved.
+
+        Each ``prompts[i]`` is paired with ``video_uris[i]`` (its own clip(s)).
+        The base implementation is sequential; backends that can truly batch
+        (e.g. the local Qwen3-Omni engine, one forward over N prompts) override
+        this for throughput — the analog of caption batching.
+        """
+        uris = video_uris or [None] * len(prompts)
+        return [
+            self.generate_json(p, schema_name, video_uri=u)
+            for p, u in zip(prompts, uris)
+        ]
+
 
 class GeminiLLMClient(BaseLLMClient):
     """Production client backed by the Gemini API via the google-genai SDK."""

@@ -85,3 +85,42 @@ def verify_queries(
     raw = client.generate_json(prompt, "VerificationBatchOutput", video_uri=video_uri)
     raw = _normalize_verification_raw(raw, video_id, round_index)
     return VerificationBatchOutput.model_validate(raw)
+
+
+def verify_queries_many(
+    video_id: str,
+    queries: List[EventGroundedQuery],
+    video_uris: List,
+    round_index: int,
+    client: BaseLLMClient,
+    prompts_dir: Optional[Path] = None,
+) -> VerificationBatchOutput:
+    """Verify N queries in ONE batched client call (each watches its own clip(s)).
+
+    Builds a single-query prompt per query (so each keeps its own segment clips),
+    then hands the whole list to ``client.generate_json_many`` — which truly
+    batches on the Qwen3-Omni engine and falls back to sequential elsewhere.
+    Results are merged in input order; each single-query result has its
+    ``query_id`` pinned to the trusted query so a wrong model echo can't misroute.
+    """
+    if not queries:
+        return VerificationBatchOutput(
+            video_id=video_id, round_index=round_index, results=[]
+        )
+    prompts = [
+        build_verification_prompt(video_id, [q], round_index, prompts_dir)
+        for q in queries
+    ]
+    raws = client.generate_json_many(
+        prompts, "VerificationBatchOutput", video_uris=video_uris
+    )
+    results = []
+    for q, raw in zip(queries, raws):
+        raw = _normalize_verification_raw(raw, video_id, round_index)
+        vb = VerificationBatchOutput.model_validate(raw)
+        if len(vb.results) == 1:
+            vb.results[0].query_id = q.query_id  # single-query prompt: trust the id
+        results.extend(vb.results)
+    return VerificationBatchOutput(
+        video_id=video_id, round_index=round_index, results=results
+    )

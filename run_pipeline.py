@@ -174,12 +174,14 @@ def main() -> None:
         "single prompt (and a harder mapping for the model).",
     )
     parser.add_argument(
-        "--caption-parallel",
+        "--parallel",
         type=int,
         default=1,
-        help="qwen3_omni only: how many caption prompts to run in ONE batched "
-        "model generate() call (throughput). Default 1. Orthogonal to "
-        "--caption-batch-size; larger uses more VRAM.",
+        help="qwen3_omni only: how many prompts to run in ONE batched model "
+        "generate() call (throughput) — applies to BOTH captioning (caption "
+        "prompts per call) and verify/rewrite (queries per call). Default 1. "
+        "Orthogonal to --caption-batch-size; larger uses more VRAM. Truly batched "
+        "on the qwen3_omni engine; the Gemini backend runs sequentially.",
     )
     parser.add_argument(
         "--qwen-model-path",
@@ -298,7 +300,7 @@ def main() -> None:
         print(
             f"Caption backend — qwen3_omni ({args.qwen_model_path}) | "
             f"engine=transformers | {args.caption_batch_size} seg/prompt | "
-            f"{args.caption_parallel} prompt(s)/call | "
+            f"{args.parallel} prompt(s)/call | "
             f"resume={args.resume} | overwrite={args.overwrite_captions}\n"
             f"  cache: {captions_cache_dir}"
         )
@@ -323,6 +325,7 @@ def main() -> None:
         v_status = "ok"
         try:
             # Step 1: segment + cut clips
+            print("  → [1/5] segmenting + cutting clips...", flush=True)
             with timer.stage("segment/clips"):
                 duration = get_video_duration(video_path)
                 segments = plan_segments(
@@ -338,6 +341,9 @@ def main() -> None:
 
             # Steps 2-3: captions. Either the Gemini batch path or the
             # Qwen3-Omni structured path (N segments/prompt + resume cache).
+            print(f"  → [2/5] captioning {len(segments)} segment(s) "
+                  f"({args.caption_backend}, parallel={args.parallel})...",
+                  flush=True)
             with timer.stage("captions"):
                 if args.caption_backend == "qwen3_omni":
                     omni_caps = caption_video_omni(
@@ -349,7 +355,7 @@ def main() -> None:
                         resume=args.resume,
                         overwrite=args.overwrite_captions,
                         caption_batch_size=args.caption_batch_size,
-                        caption_parallel=args.caption_parallel,
+                        caption_parallel=args.parallel,
                     )
                     # Generation reads the RICH structured captions directly. The
                     # flat EmotionCaption (adapter) is kept only for export/stats.
@@ -368,6 +374,8 @@ def main() -> None:
             # B3: whole-video dialogue transcript (spliced into generation only).
             transcript = None
             if not args.no_transcript:
+                print(f"  → [3/5] transcribing audio (WhisperX "
+                      f"{args.whisper_model})...", flush=True)
                 with timer.stage("transcript"):
                     transcript = transcribe_video(
                         video_path, model_size=args.whisper_model
@@ -377,6 +385,7 @@ def main() -> None:
             # Step 5: generate queries from the video's captions + transcript
             # (no video). Grounding is by time range; segment_ids are resolved
             # internally (B1).
+            print("  → [4/5] generating queries (Gemini)...", flush=True)
             with timer.stage("generation"):
                 gen_output = generate_queries(
                     video_id, gen_captions, client, segments, transcript
@@ -388,6 +397,8 @@ def main() -> None:
             # clips uploaded (URIs); Qwen3-Omni watches the local clip paths
             # directly (no upload).
             if gen_output.queries:
+                print(f"  → [5/5] verifying + rewriting {len(gen_output.queries)} "
+                      f"query(ies) ({args.verify_rewrite_backend})...", flush=True)
                 with timer.stage("verify/rewrite"):
                     seg_by_id = {s.segment_id: s for s in segments}
                     needed_ids = sorted(
@@ -411,6 +422,7 @@ def main() -> None:
                         segment_uris,
                         max_rewrites=args.max_rewrites,
                         max_accepted=args.max_accepted,
+                        verify_parallel=args.parallel,
                     )
             else:
                 traces, ver_outs, rw_outs = {}, [], []
