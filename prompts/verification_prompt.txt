@@ -1,8 +1,10 @@
-PROMPT VERSION: verification_prompt_v7
+PROMPT VERSION: verification_prompt_v8
 
 TASK:
-Watch the provided video clip carefully. Then verify whether each query is suitable for
-human annotation of that clip.
+Watch the provided video clip(s) carefully. You may be given ONE clip or SEVERAL clips:
+when several are provided they are CONSECUTIVE segments of the same moment, in order —
+treat them together as one continuous span of video. Then verify whether each query is
+suitable for human annotation of that span.
 
 You are given ONLY each query's id and its query_text. You are NOT given any caption,
 grounding description, expected evidence, or query type — judge each query purely from
@@ -34,11 +36,12 @@ the video carries no emotional meaning either.
 Do NOT decide here whether the emotion actually matches the video — that judgment belongs
 to Answerability below. Relevance only asks: is this query in the domain of emotion?
 
-2. ANSWERABILITY — Is the query supported by, and locatable in, the video clip?
+2. ANSWERABILITY — Is the query supported by, and locatable in, the video clip(s)?
 
 This is where you decide whether the query actually holds up against what you see and
-hear. Watch the clip and check whether a human annotator could locate the moment AND
-whether the claim in the query is true of the clip.
+hear. Watch the clip(s) and check whether a human annotator could locate the moment AND
+whether the claim in the query is true of the clip(s). When several clips are given,
+consider the moment present if it occurs anywhere across them.
 
 PASS only if:
 

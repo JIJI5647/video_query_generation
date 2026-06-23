@@ -1,4 +1,4 @@
-PROMPT VERSION: generation_prompt_caption_v8
+PROMPT VERSION: generation_prompt_caption_v9
 
 TASK:
 You are given TWO signals extracted from one video:
@@ -100,8 +100,14 @@ QUERY TYPE DEFINITIONS:
 GROUNDING METADATA (you provide ``time_range`` and ``grounding_evidence``; the
 system fills the internal ``segment_ids`` and ``source_caption_ids`` from your
 time_range — do NOT output those):
-- ``time_range``: the smallest [start, end] in seconds that covers the caption
-  evidence the query relies on. Use only ranges supported by the captions above.
+- ``time_range``: the [start, end] in seconds that covers the caption evidence
+  the query relies on. Use only ranges supported by the captions above.
+  - If the evidence is a single moment, use that one caption's range.
+  - If the query is about ONE continuous event/exchange that spans several
+    CONSECUTIVE captions (adjacent time ranges describing the same ongoing
+    action), set time_range to the UNION [earliest start, latest end] covering
+    all of those captions, so the grounding spans every segment the event runs
+    across. Do NOT merge captions that describe separate/unrelated moments.
 - ``grounding_evidence``: the concrete observable cues you grounded on:
   - ``visual_evidence``: e.g. ["eyes widened", "mouth open"]
   - ``audio_evidence``: e.g. ["excited voice"]
