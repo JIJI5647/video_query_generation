@@ -316,7 +316,7 @@ def main() -> None:
             print(f"  {len(segments)} segments ready (cache: {segments_dir})")
 
             # Steps 2-3: captions. Either the Gemini batch path or the
-            # Qwen3-Omni structured path (one segment per prompt + resume cache).
+            # Qwen3-Omni structured path (N segments/prompt + resume cache).
             if args.caption_backend == "qwen3_omni":
                 omni_caps = caption_video_omni(
                     video_id,
@@ -329,17 +329,18 @@ def main() -> None:
                     caption_batch_size=args.caption_batch_size,
                     caption_parallel=args.caption_parallel,
                 )
-                # Adapt the rich structured captions to the flat EmotionCaption
-                # the rest of the pipeline (generation/export) consumes.
+                # Generation reads the RICH structured captions directly. The flat
+                # EmotionCaption (adapter) is kept only for export/stats provenance.
+                gen_captions = omni_caps
                 raw = [omni_to_emotion_caption(oc, video_id) for oc in omni_caps]
             else:
                 raw = caption_video(
                     video_id, segments, client, uploader,
                     batch_size=args.caption_batch_size,
                 )
+                gen_captions = raw
             # No caption filtering — every caption feeds generation, which selects
             # which moments are worth a query.
-            gen_captions = raw
             print(f"  captions: {len(raw)} -> all sent to generation")
 
             # B3: whole-video dialogue transcript (spliced into generation only).

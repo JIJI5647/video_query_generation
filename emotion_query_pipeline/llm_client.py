@@ -13,8 +13,9 @@ import os
 import time
 from typing import Any, Dict, List, Optional, Union
 
-from google import genai
-from google.genai import types
+# NOTE: ``google.genai`` is imported lazily (inside the methods that use it) so
+# that ``BaseLLMClient`` and the pure helpers in this module can be imported
+# without the SDK installed (e.g. for local tests of generation / workflow).
 
 VideoUriArg = Optional[Union[str, List[str]]]
 
@@ -63,6 +64,8 @@ class GeminiLLMClient(BaseLLMClient):
         self.temperature = temperature
         self.max_retries = max_retries
         self.retry_delay = retry_delay
+
+        from google import genai  # lazy: keep the SDK off the module import path
 
         resolved_key = api_key or os.environ.get("GEMINI_API_KEY")
         if not resolved_key:
@@ -118,6 +121,8 @@ class GeminiLLMClient(BaseLLMClient):
     def _video_parts(video_uri: VideoUriArg) -> List[Any]:
         if video_uri is None:
             return []
+        from google.genai import types  # lazy
+
         uris = [video_uri] if isinstance(video_uri, str) else list(video_uri)
         return [
             types.Part.from_uri(file_uri=uri, mime_type="video/mp4")
@@ -130,6 +135,8 @@ class GeminiLLMClient(BaseLLMClient):
         schema_name: str,
         video_uri: VideoUriArg = None,
     ) -> Dict[str, Any]:
+        from google.genai import types  # lazy
+
         model = self._model_for(schema_name)
         config = types.GenerateContentConfig(
             response_mime_type="application/json",

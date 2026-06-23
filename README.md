@@ -224,11 +224,15 @@ Qwen3-Omni specifics:
 - **Structured output:** each caption is a nested JSON with `visual_objective`
   (objective facts only), `visual_expression` (observable facial/body/gaze cues),
   `audio_description` (non-transcript audio), `emotion_description` (a *candidate*
-  reading), plus `confidence` / `evidence_strength`. It is adapted to the existing
-  flat `EmotionCaption` for the rest of the pipeline, so generation/export are
-  unchanged. The free-text `emotion_description` maps to one of the eight labels by
-  keyword, falling back to `neutral`. There is no caption-filtering step, so every
-  caption (including neutral ones) is fed to generation, which selects moments.
+  reading — a full sentence), plus `confidence` / `evidence_strength`. **Generation
+  consumes this rich structure directly** (the full `visual_objective` /
+  `visual_expression` and the `emotion_description` sentence), so no information is
+  lost to flattening. A flat `EmotionCaption` is still derived (via the
+  `OmniCaption → EmotionCaption` adapter) only for `raw_captions.jsonl` and stats;
+  its keyword-mapped `emotion` label is provenance, not what generation reads. The
+  flat Gemini caption path maps into the same generation schema sparsely. There is
+  no caption-filtering step — every caption is fed to generation, which selects
+  moments.
 
 **Verify/rewrite on Qwen3-Omni (default):** the verification and rewrite stages
 (both watch a query's grounded segment clip(s)) run on the **same** loaded
@@ -276,11 +280,13 @@ caption/verification mismatch.
 
 ## Testing without API calls
 
-The pure modules have no SDK imports and can be exercised directly:
-`segmentation.plan_segments` / `grid_key`,
-`generation._resolve_time_ranges` (validates `time_range` → covering `segment_ids`), and
-`workflow.run_query_pipeline` (inject a fake `BaseLLMClient`). Only `llm_client`,
-`captioning.GeminiUploader`, and `transcription` (WhisperX) touch external models.
+The pure modules have no hard SDK imports and can be exercised directly:
+`segmentation.plan_segments` / `grid_key`, `generation` (payload building for both
+`OmniCaption` and `EmotionCaption`, and `_resolve_time_ranges`), and
+`workflow.run_query_pipeline` (inject a fake `BaseLLMClient`). `llm_client` imports
+`google.genai` lazily, so `BaseLLMClient` / `generation` import fine without it;
+only constructing `GeminiLLMClient`, `GeminiUploader`, and `transcription`
+(WhisperX) touch external models. See `tests/test_generation.py`.
 
 The Qwen3-Omni backend is fully testable without the model — prompt construction,
 JSON extraction, field validation, the cache/resume decision, atomic write and the

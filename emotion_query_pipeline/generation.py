@@ -22,7 +22,13 @@ from typing import Dict, List, Optional, Tuple
 
 from .io_utils import load_prompt_template
 from .llm_client import BaseLLMClient
-from .models import EmotionCaption, EventGroundedQuery, GenerationOutput, Segment
+from .models import (
+    EmotionCaption,
+    EventGroundedQuery,
+    GenerationOutput,
+    OmniCaption,
+    Segment,
+)
 
 _PROMPTS_DIR = Path(__file__).parent.parent / "prompts"
 
@@ -31,47 +37,91 @@ def _segment_time_map(segments: List[Segment]) -> Dict[str, Tuple[float, float]]
     return {s.segment_id: (s.start_time, s.end_time) for s in segments}
 
 
+# --- caption-type-agnostic accessors (works for OmniCaption + EmotionCaption) -
+def _caption_segment_ids(caption) -> List[str]:
+    if isinstance(caption, OmniCaption):
+        return [caption.segment_id]
+    return list(caption.segment_ids)
+
+
+def _caption_id(caption, video_id: str) -> str:
+    if isinstance(caption, OmniCaption):
+        return f"{video_id}_{caption.segment_id}"
+    return caption.caption_id
+
+
 def _caption_time_range(
-    caption: EmotionCaption, seg_time: Dict[str, Tuple[float, float]]
+    caption, seg_time: Dict[str, Tuple[float, float]]
 ) -> Optional[List[float]]:
-    """The [min start, max end] span of the segments a caption is grounded on."""
+    """The [start, end] span a caption is grounded on (rounded)."""
+    if isinstance(caption, OmniCaption):
+        tr = caption.time_range
+        if tr and len(tr) == 2:
+            return [round(tr[0], 2), round(tr[1], 2)]
+        span = seg_time.get(caption.segment_id)
+        return [round(span[0], 2), round(span[1], 2)] if span else None
     spans = [seg_time[sid] for sid in caption.segment_ids if sid in seg_time]
     if not spans:
         return None
     return [round(min(s for s, _ in spans), 2), round(max(e for _, e in spans), 2)]
 
 
+def _caption_payload_entry(caption, tr: List[float]) -> dict:
+    """One caption as the model sees it — a unified rich schema for both types.
+
+    Qwen3-Omni captions pass through their full ``visual_objective`` /
+    ``visual_expression`` structure; the flat Gemini ``EmotionCaption`` is mapped
+    into the same shape (sparsely) so the generation prompt describes one schema.
+    ``emotion_description`` is a CANDIDATE reading (a full sentence for omni, the
+    label for the flat caption), never a gold label.
+    """
+    if isinstance(caption, OmniCaption):
+        visual_objective = caption.visual_objective.model_dump()
+        visual_expression = [ve.model_dump() for ve in caption.visual_expression]
+        audio_description = caption.audio_description
+        emotion_description = caption.emotion_description
+    else:
+        visual_objective = {
+            "people": [{"person": caption.person, "action": caption.action}],
+            "scene": {},
+            "objects": [],
+            "interactions": [],
+            "key_actions": [],
+            "visibility_notes": "",
+        }
+        visual_expression = (
+            [{"facial_cues": list(caption.observable_evidence)}]
+            if caption.observable_evidence
+            else []
+        )
+        audio_description = caption.sound
+        emotion_description = caption.emotion
+    return {
+        "time_range": tr,
+        "visual_objective": visual_objective,
+        "visual_expression": visual_expression,
+        "audio_description": audio_description,
+        "emotion_description": emotion_description,
+        "confidence": caption.confidence,
+        "evidence_strength": caption.evidence_strength,
+    }
+
+
 def _captions_payload(
-    captions: List[EmotionCaption], seg_time: Dict[str, Tuple[float, float]]
+    captions: list, seg_time: Dict[str, Tuple[float, float]]
 ) -> list:
     """Structured, segment-level multimodal evidence for the generation model.
 
-    Built from the existing caption fields, grouped into an omni-caption shape:
-    ``visual`` (person/action/observable cues), ``audio_description`` (non-verbal
-    sound), and ``emotion_description`` (a CANDIDATE interpretation, not a gold
-    label). ``confidence``/``evidence_strength`` gate whether an emotion_state
-    query is warranted. The spoken-dialogue transcript is provided separately —
-    it is NOT folded into captions.
+    Accepts Qwen3-Omni ``OmniCaption`` (rich, fed directly) or the flat
+    ``EmotionCaption`` (Gemini / rerun); both render to one unified schema. The
+    spoken-dialogue transcript is provided separately — never folded into captions.
     """
     payload = []
     for c in captions:
         tr = _caption_time_range(c, seg_time)
         if tr is None:
             continue  # no resolvable time range -> not groundable, skip
-        payload.append(
-            {
-                "time_range": tr,
-                "visual": {
-                    "person": c.person,
-                    "action": c.action,
-                    "observable_evidence": c.observable_evidence,
-                },
-                "audio_description": c.sound,
-                "emotion_description": c.emotion,
-                "confidence": c.confidence,
-                "evidence_strength": c.evidence_strength,
-            }
-        )
+        payload.append(_caption_payload_entry(c, tr))
     return payload
 
 
@@ -169,8 +219,9 @@ def _resolve_time_ranges(
     # segment_id -> caption_id (each segment carries exactly one caption).
     seg_to_caption: Dict[str, str] = {}
     for c in captions or []:
-        for sid in c.segment_ids:
-            seg_to_caption.setdefault(sid, c.caption_id)
+        cid = _caption_id(c, output.video_id)
+        for sid in _caption_segment_ids(c):
+            seg_to_caption.setdefault(sid, cid)
     kept: List[EventGroundedQuery] = []
     for q in output.queries:
         tr = q.time_range

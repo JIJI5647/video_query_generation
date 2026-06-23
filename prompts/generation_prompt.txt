@@ -1,4 +1,4 @@
-PROMPT VERSION: generation_prompt_caption_v7
+PROMPT VERSION: generation_prompt_caption_v8
 
 TASK:
 You are given TWO signals extracted from one video:
@@ -17,10 +17,14 @@ VIDEO ID: {video_id}
 
 SIGNAL A — STRUCTURED CAPTIONS (segment-level multimodal evidence). Each caption:
 - ``time_range``: [start, end] seconds.
-- ``visual``: { person, action, observable_evidence } — what is seen.
+- ``visual_objective``: objective visual facts — { people:[{person, visibility,
+  position, action}], scene:{location, setting}, objects, interactions,
+  key_actions, visibility_notes }. No emotion words here.
+- ``visual_expression``: observable affective cues per person — [{ person,
+  facial_cues, body_cues, gaze }].
 - ``audio_description``: NON-VERBAL audio (tone of voice, shouting, crying,
   laughing, silence). This is NOT a transcript and must NOT be quoted as speech.
-- ``emotion_description``: a CANDIDATE emotion reading — NOT a gold label.
+- ``emotion_description``: a CANDIDATE emotion reading (free text) — NOT a gold label.
 - ``confidence`` (high/medium/low) and ``evidence_strength`` (clear/weak/ambiguous):
   how reliable the caption is.
 Captions are UNFILTERED: many are emotion "neutral"/"unrelevant" or low
@@ -37,8 +41,9 @@ GENERATION RULES:
 1. EMOTION IS A CANDIDATE, NOT A GOLD LABEL. Do NOT generate an emotion_state
    query just because ``emotion_description`` names an emotion (fear, anger,
    surprise, frustration, ...). Ground every query in OBSERVABLE evidence —
-   ``visual`` (person/action/observable_evidence), ``audio_description``, and the
-   transcript. If ``emotion_description`` conflicts with the observable evidence,
+   ``visual_objective`` (people/actions/scene), ``visual_expression`` (facial/body/
+   gaze cues), ``audio_description``, and the transcript. If ``emotion_description``
+   conflicts with the observable evidence,
    trust the observable evidence and choose a more fitting wording (or a pure
    behavior/cue query).
 
