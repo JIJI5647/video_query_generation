@@ -83,31 +83,39 @@ class CaptionParseError(Exception):
 # Backend protocol (so tests can inject a fake without any heavy deps)
 # ---------------------------------------------------------------------------
 class CaptionerProtocol(Protocol):
-    """Anything that turns (prompt_text, clip_path) into raw model text.
+    """Anything that turns pre-built chat messages into raw model text.
 
-    ``caption_many`` (batched) is optional — the batched code path uses it when
-    present and otherwise falls back to per-segment ``caption`` calls.
+    ``generate_many`` runs N conversations in one batched call (order preserved);
+    ``generate`` is the single-conversation convenience.
     """
 
-    def caption(self, prompt_text: str, clip_path: str) -> str:  # pragma: no cover
+    def generate(self, messages: list) -> str:  # pragma: no cover
+        ...
+
+    def generate_many(self, messages_list: List[list]) -> List[str]:  # pragma: no cover
         ...
 
 
 # ---------------------------------------------------------------------------
-# Prompt construction (one segment per prompt)
+# Prompt construction (N segments per prompt)
 # ---------------------------------------------------------------------------
 def build_omni_caption_prompt(
-    segment: Segment, prompts_dir: Optional[Path] = None
+    segments: List[Segment], prompts_dir: Optional[Path] = None
 ) -> str:
-    """Build the structured caption prompt for exactly ONE segment's clip."""
+    """Build the structured caption prompt for a chunk of N segments' clips.
+
+    The clips are provided to the model in the same order as ``segments``; the
+    prompt enumerates the Clip -> segment_id / time_range mapping and asks for a
+    JSON array of one caption per clip. Works for N == 1 (array of one).
+    """
     template = load_prompt_template(
         prompts_dir or _PROMPTS_DIR, "omni_caption_prompt.txt"
     )
-    prompt = template
-    prompt = prompt.replace("{segment_id}", segment.segment_id)
-    prompt = prompt.replace("{start_time}", f"{segment.start_time:.2f}")
-    prompt = prompt.replace("{end_time}", f"{segment.end_time:.2f}")
-    return prompt
+    lines = [
+        f"Clip {i} -> {s.segment_id} ({s.start_time:.2f}-{s.end_time:.2f}s)"
+        for i, s in enumerate(segments, 1)
+    ]
+    return template.replace("{segment_list}", "\n".join(lines))
 
 
 # ---------------------------------------------------------------------------
@@ -196,6 +204,80 @@ def parse_caption(raw_text: str, segment: Segment, video_id: str) -> OmniCaption
         return OmniCaption.model_validate(data)
     except Exception as e:  # pydantic ValidationError or anything odd in subfields
         raise CaptionParseError("schema_validation_error", str(e), raw_text) from e
+
+
+def extract_caption_list(raw_text: str) -> list:
+    """Pull a JSON array of caption objects out of a raw model response.
+
+    Tolerates markdown fences and surrounding prose. A bare single object is
+    wrapped into a one-element list (some models drop the array for N == 1).
+    Raises ``CaptionParseError(json_parse_error)`` if nothing decodes.
+    """
+    if not raw_text or not raw_text.strip():
+        raise CaptionParseError("json_parse_error", "empty response", raw_text or "")
+    text = raw_text.strip()
+    if "```" in text:
+        fence = text.find("```")
+        rest = text[fence + 3 :]
+        if "\n" in rest:
+            rest = rest.split("\n", 1)[1]
+        end = rest.rfind("```")
+        if end != -1:
+            rest = rest[:end]
+        text = rest.strip()
+
+    # Decode whichever JSON value (array or object) appears first.
+    starts = [p for p in (text.find("["), text.find("{")) if p != -1]
+    if not starts:
+        raise CaptionParseError(
+            "json_parse_error", "no JSON array/object in output", raw_text
+        )
+    try:
+        value, _ = json.JSONDecoder().raw_decode(text[min(starts):])
+    except json.JSONDecodeError as e:
+        raise CaptionParseError("json_parse_error", str(e), raw_text) from e
+    if isinstance(value, dict):
+        return [value]
+    if isinstance(value, list):
+        return value
+    raise CaptionParseError(
+        "json_parse_error", "top-level JSON is neither array nor object", raw_text
+    )
+
+
+def parse_captions(
+    raw_text: str, segments: List[Segment], video_id: str
+) -> Dict[str, OmniCaption]:
+    """Parse N captions from one model output, keyed by segment_id.
+
+    Each object is matched to a segment by its echoed ``segment_id`` (falling
+    back to clip position when the echo is missing/unknown), then has its
+    metadata forced from the trusted segment and is validated. Only segments
+    with a valid caption appear in the result; missing/invalid ones are left to
+    the caller (raw dump + retry next run). Raises ``CaptionParseError`` only if
+    the whole array fails to decode.
+    """
+    items = extract_caption_list(raw_text)
+    by_id = {s.segment_id: s for s in segments}
+    out: Dict[str, OmniCaption] = {}
+    for idx, item in enumerate(items):
+        if not isinstance(item, dict):
+            continue
+        seg = by_id.get(item.get("segment_id"))
+        if seg is None and idx < len(segments):
+            seg = segments[idx]  # fall back to clip order
+        if seg is None or seg.segment_id in out:
+            continue
+        if missing_required_fields(item):
+            continue
+        item["segment_id"] = seg.segment_id
+        item["time_range"] = [round(seg.start_time, 2), round(seg.end_time, 2)]
+        item["video_id"] = video_id
+        try:
+            out[seg.segment_id] = OmniCaption.model_validate(item)
+        except Exception:
+            continue
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -338,52 +420,75 @@ def omni_to_emotion_caption(oc: OmniCaption, video_id: str) -> EmotionCaption:
 # ---------------------------------------------------------------------------
 # Per-segment + per-video captioning (with resume)
 # ---------------------------------------------------------------------------
-def caption_one_segment(
-    captioner: CaptionerProtocol,
+def _chunks(items: list, size: int) -> List[list]:
+    return [items[i : i + size] for i in range(0, len(items), max(1, size))]
+
+
+def _resolve_cache(
     video_id: str,
-    segment: Segment,
+    segments: List[Segment],
+    cache_dir: Path,
+    resume: bool,
+    overwrite: bool,
+):
+    """Split segments into (cached results, segments needing generation).
+
+    Logs skip / regenerate decisions. Segments without a clip are dropped.
+    """
+    cached: Dict[str, OmniCaption] = {}
+    to_generate: List[Segment] = []
+    for segment in segments:
+        if not segment.clip_path:
+            continue
+        if resume and not overwrite:
+            cap, reason = read_valid_cache(
+                caption_cache_path(cache_dir, video_id, segment.segment_id)
+            )
+            if cap is not None:
+                print(f"[caption] skip existing: video_id={video_id} "
+                      f"segment_id={segment.segment_id}")
+                cached[segment.segment_id] = cap
+                continue
+            if reason != "not_found":
+                print(f"[caption] regenerate invalid cache: video_id={video_id} "
+                      f"segment_id={segment.segment_id} reason={reason}")
+        to_generate.append(segment)
+    return cached, to_generate
+
+
+def _write_chunk_captions(
+    video_id: str,
+    chunk: List[Segment],
+    raw_text: str,
     cache_dir: Path,
     raw_dir: Path,
-    resume: bool = True,
-    overwrite: bool = False,
-    prompts_dir: Optional[Path] = None,
-) -> OmniCaption:
-    """Caption one segment, honouring the resume cache.
+    results_by_id: Dict[str, OmniCaption],
+) -> None:
+    """Parse N captions from one prompt's output and cache each segment's.
 
-    Resume hit (``resume`` and not ``overwrite`` and a valid cache file) returns
-    the cached caption WITHOUT calling the model. Otherwise the model is called
-    once for this single segment, the result parsed/validated and written
-    atomically. Parse failures save the raw output and re-raise
-    ``CaptionParseError``.
+    Segments the model skipped or returned invalid get a raw dump and are left
+    uncached (retried on the next run); they never abort the chunk.
     """
-    cache_path = caption_cache_path(cache_dir, video_id, segment.segment_id)
-
-    if resume and not overwrite:
-        cached, reason = read_valid_cache(cache_path)
-        if cached is not None:
-            print(f"[caption] skip existing: video_id={video_id} "
-                  f"segment_id={segment.segment_id}")
-            return cached
-        if reason != "not_found":
-            print(f"[caption] regenerate invalid cache: video_id={video_id} "
-                  f"segment_id={segment.segment_id} reason={reason}")
-
-    print(f"[caption] generate: video_id={video_id} "
-          f"segment_id={segment.segment_id}")
-    prompt = build_omni_caption_prompt(segment, prompts_dir)
-    raw_text = captioner.caption(prompt, segment.clip_path or "")
     try:
-        caption = parse_caption(raw_text, segment, video_id)
-    except CaptionParseError as e:
-        raw_path = save_raw_output(
-            raw_dir, video_id, segment.segment_id, e.raw_text, e.reason
+        parsed = parse_captions(raw_text, chunk, video_id)
+    except CaptionParseError:
+        parsed = {}  # whole array undecodable -> every segment is a miss below
+    for segment in chunk:
+        caption = parsed.get(segment.segment_id)
+        if caption is None:
+            raw_path = save_raw_output(
+                raw_dir, video_id, segment.segment_id, raw_text,
+                "missing_or_invalid_in_batch",
+            )
+            print(f"[caption] parse failed: video_id={video_id} "
+                  f"segment_id={segment.segment_id} "
+                  f"reason=missing_or_invalid_in_batch raw_saved={raw_path}")
+            continue
+        atomic_write_json(
+            caption_cache_path(cache_dir, video_id, segment.segment_id),
+            caption.model_dump(),
         )
-        print(f"[caption] parse failed: video_id={video_id} "
-              f"segment_id={segment.segment_id} reason={e.reason} "
-              f"raw_saved={raw_path}")
-        raise
-    atomic_write_json(cache_path, caption.model_dump())
-    return caption
+        results_by_id[segment.segment_id] = caption
 
 
 def caption_video_omni(
@@ -395,122 +500,59 @@ def caption_video_omni(
     resume: bool = True,
     overwrite: bool = False,
     caption_batch_size: int = DEFAULT_CAPTION_BATCH_SIZE,
+    caption_parallel: int = 1,
     prompts_dir: Optional[Path] = None,
 ) -> List[OmniCaption]:
-    """Caption every segment of one video.
+    """Caption every segment of one video, with two orthogonal batching dims.
 
-    Always ONE segment per prompt. ``caption_batch_size`` only controls how many
-    of those independent single-segment prompts are submitted in one batched
-    model call (>1 = parallel throughput); segments are still decoded per-index
-    and never mixed within a prompt. ``caption_batch_size <= 1`` keeps the simple
-    sequential path. A per-segment parse failure is logged (raw output saved) and
-    that segment is skipped — it never aborts the whole video.
-    """
-    if caption_batch_size <= 1:
-        captions: List[OmniCaption] = []
-        for segment in segments:
-            if not segment.clip_path:
-                continue
-            try:
-                captions.append(
-                    caption_one_segment(
-                        captioner, video_id, segment, cache_dir, raw_dir,
-                        resume=resume, overwrite=overwrite, prompts_dir=prompts_dir,
-                    )
-                )
-            except CaptionParseError:
-                continue  # already logged + raw saved; skip this segment
-        return captions
+    - ``caption_batch_size`` = segments packed into ONE prompt (the model sees N
+      segment clips at once and returns N captions, each mapped back to its
+      segment_id). N == 1 is one segment per prompt.
+    - ``caption_parallel`` = how many such prompts run together in ONE model
+      ``generate`` call (throughput). 1 = one prompt per call.
 
-    return _caption_video_batched(
-        video_id, segments, captioner, cache_dir, raw_dir,
-        resume=resume, overwrite=overwrite, batch_size=caption_batch_size,
-        prompts_dir=prompts_dir,
-    )
-
-
-def _chunks(items: list, size: int) -> List[list]:
-    return [items[i : i + size] for i in range(0, len(items), size)]
-
-
-def _caption_video_batched(
-    video_id: str,
-    segments: List[Segment],
-    captioner: CaptionerProtocol,
-    cache_dir: Path,
-    raw_dir: Path,
-    resume: bool,
-    overwrite: bool,
-    batch_size: int,
-    prompts_dir: Optional[Path],
-) -> List[OmniCaption]:
-    """Batched captioning: resolve cache first, then generate misses in groups.
-
-    Cache hits are returned without calling the model (resume). Cache-miss
-    segments are grouped into batches of ``batch_size`` and captioned in one
-    model call each. If a batched call raises, that chunk degrades gracefully to
-    the per-segment path so one bad batch never loses the whole video.
+    Resume is applied first (cached segments skipped, no model call); only
+    cache-miss segments are grouped. A segment the model skips/garbles is raw
+    dumped and left uncached (retried next run) — it never aborts the video.
     """
     results_by_id: Dict[str, OmniCaption] = {}
-    to_generate: List[Segment] = []
+    cached, to_generate = _resolve_cache(
+        video_id, segments, cache_dir, resume, overwrite
+    )
+    results_by_id.update(cached)
 
-    # Pass 1: resolve the resume cache (no model calls).
-    for segment in segments:
-        if not segment.clip_path:
-            continue
-        cache_path = caption_cache_path(cache_dir, video_id, segment.segment_id)
-        if resume and not overwrite:
-            cached, reason = read_valid_cache(cache_path)
-            if cached is not None:
-                print(f"[caption] skip existing: video_id={video_id} "
-                      f"segment_id={segment.segment_id}")
-                results_by_id[segment.segment_id] = cached
-                continue
-            if reason != "not_found":
-                print(f"[caption] regenerate invalid cache: video_id={video_id} "
-                      f"segment_id={segment.segment_id} reason={reason}")
-        to_generate.append(segment)
+    seg_per_prompt = max(1, caption_batch_size)
+    prompts_per_call = max(1, caption_parallel)
+    prompt_chunks = _chunks(to_generate, seg_per_prompt)  # each chunk = 1 prompt
 
-    # Pass 2: generate misses, batch_size prompts per model call.
-    for chunk in _chunks(to_generate, batch_size):
-        for segment in chunk:
-            print(f"[caption] generate: video_id={video_id} "
-                  f"segment_id={segment.segment_id} (batch={len(chunk)})")
-        items = [
-            (build_omni_caption_prompt(seg, prompts_dir), seg.clip_path or "")
-            for seg in chunk
+    for group in _chunks(prompt_chunks, prompts_per_call):  # prompts per generate
+        for chunk in group:
+            ids = ", ".join(s.segment_id for s in chunk)
+            print(f"[caption] generate: video_id={video_id} segment_ids=[{ids}] "
+                  f"(segments/prompt={len(chunk)})")
+        messages_list = [
+            Qwen3OmniCaptioner._build_messages_multi(
+                build_omni_caption_prompt(chunk, prompts_dir),
+                [s.clip_path or "" for s in chunk],
+            )
+            for chunk in group
         ]
         try:
-            raw_texts = captioner.caption_many(items)
-        except Exception as e:  # batch failed -> degrade to per-segment
-            print(f"[caption] batch failed ({e}); falling back to per-segment "
-                  f"for {len(chunk)} segment(s).")
-            for segment in chunk:
-                try:
-                    results_by_id[segment.segment_id] = caption_one_segment(
-                        captioner, video_id, segment, cache_dir, raw_dir,
-                        resume=False, overwrite=True, prompts_dir=prompts_dir,
+            raw_texts = captioner.generate_many(messages_list)
+        except Exception as e:  # whole group failed -> raw dump, skip (retry next run)
+            print(f"[caption] generate failed for {len(group)} prompt(s): {e}")
+            for chunk in group:
+                for segment in chunk:
+                    save_raw_output(
+                        raw_dir, video_id, segment.segment_id, "",
+                        f"generate_error: {e}",
                     )
-                except CaptionParseError:
-                    continue
             continue
 
-        for segment, raw_text in zip(chunk, raw_texts):
-            try:
-                caption = parse_caption(raw_text, segment, video_id)
-            except CaptionParseError as err:
-                raw_path = save_raw_output(
-                    raw_dir, video_id, segment.segment_id, err.raw_text, err.reason
-                )
-                print(f"[caption] parse failed: video_id={video_id} "
-                      f"segment_id={segment.segment_id} reason={err.reason} "
-                      f"raw_saved={raw_path}")
-                continue
-            atomic_write_json(
-                caption_cache_path(cache_dir, video_id, segment.segment_id),
-                caption.model_dump(),
+        for chunk, raw_text in zip(group, raw_texts):
+            _write_chunk_captions(
+                video_id, chunk, raw_text, cache_dir, raw_dir, results_by_id
             )
-            results_by_id[segment.segment_id] = caption
 
     # Reassemble in original segment order.
     return [
@@ -634,11 +676,6 @@ class Qwen3OmniCaptioner:
         self._processor = Qwen3OmniMoeProcessor.from_pretrained(self.model_path)
 
     @staticmethod
-    def _build_messages(prompt_text: str, clip_path: str) -> list:
-        """One user turn: the segment video (audio included) then the text prompt."""
-        return Qwen3OmniCaptioner._build_messages_multi(prompt_text, [clip_path])
-
-    @staticmethod
     def _build_messages_multi(prompt_text: str, clip_paths: List[str]) -> list:
         """One user turn: N segment videos (audio included) then the text prompt.
 
@@ -655,31 +692,19 @@ class Qwen3OmniCaptioner:
 
         Shared by captioning and the ``QwenOmniLLMClient`` (verify/rewrite).
         """
-        self._ensure_model()
-        if self.engine == "transformers":
-            inputs = self._prep_transformers_inputs(messages)
-            decoded = self._run_transformers_generate(inputs)
-            return decoded[0] if decoded else ""
-        return self._caption_vllm_batch([messages])[0]
+        out = self.generate_many([messages])
+        return out[0] if out else ""
 
-    def caption(self, prompt_text: str, clip_path: str) -> str:
-        """Run one Qwen3-Omni inference on a single segment clip; return raw text."""
-        return self.generate(self._build_messages(prompt_text, clip_path))
+    def generate_many(self, messages_list: List[list]) -> List[str]:
+        """Run inference on N pre-built conversations in ONE batched call.
 
-    def caption_many(self, items: List[tuple]) -> List[str]:
-        """Caption N independent single-segment prompts in one batched call.
-
-        Each item is a ``(prompt_text, clip_path)`` pair and stays its own
-        one-segment conversation — they are batched only for throughput and
-        decoded per-index, so segments are never mixed within a prompt. Output
-        order matches input order. A single item reuses the proven single path.
+        Output order matches input order. Each conversation is independent (its
+        own clip(s) + prompt); used both for multi-segment caption prompts and to
+        run several prompts in parallel per ``generate``.
         """
-        if not items:
+        if not messages_list:
             return []
-        if len(items) == 1:
-            return [self.caption(items[0][0], items[0][1])]
         self._ensure_model()
-        messages_list = [self._build_messages(p, c) for p, c in items]
         if self.engine == "transformers":
             return self._caption_transformers_batch(messages_list)
         return self._caption_vllm_batch(messages_list)

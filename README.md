@@ -17,23 +17,24 @@ raw .mp4
   └─ 1. ffprobe duration + cut fixed 5s segments (s001, s002, ...) with ffmpeg,
         into a PERSISTENT cache: data/processed_segments/<video_id>/<grid_key>/
         (reused across runs; never auto-deleted)                          [B4]
-  └─ 2. group segments into batches (default 8 = 40s)   [gemini backend only]
-  └─ 3. captions, via one of two backends:
-        • qwen3_omni (default): ONE segment per prompt → structured caption,
-                                cached per-segment for resume (see below)
-        • gemini              : per batch, upload N clips → ONE multimodal call
-  └─ 4. WhisperX transcribes the whole video → sentence-level text + timestamps [B3]
-  └─ 5. caption-only LLM call sees ALL of the video's captions (with time ranges)
+  └─ 2. captions, --caption-batch-size segments/prompt (default 1), one of two backends:
+        • qwen3_omni (default): N segments per prompt → JSON array of N structured
+                                captions (mapped back to segment_ids), cached
+                                per-segment for resume; --caption-parallel prompts
+                                per generate() call
+        • gemini              : upload N clips → ONE multimodal call
+  └─ 3. WhisperX transcribes the whole video → sentence-level text + timestamps [B3]
+  └─ 4. caption-only LLM call sees ALL of the video's captions (with time ranges)
         + the dialogue transcript → few, high-precision queries, each grounded
         on a time_range. Caption `emotion` is treated as a candidate, not a
         must-copy label.                                                   [B1,B2]
-  └─ 6. for each query, take ONLY its grounded segment clip(s) → verify ⇄ rewrite
+  └─ 5. for each query, take ONLY its grounded segment clip(s) → verify ⇄ rewrite
         (Gemini upload, or watched locally on Qwen3-Omni).
         The verifier sees ONLY query_id + query_text (no caption metadata).  [A1]
   └─ export intermediates + final queries; segment clips stay cached, uploads cleaned
 ```
 
-Step 3 sends the actual clips (with audio); step 5 sends **only** text (captions +
+Step 2 sends the actual clips (with audio); step 4 sends **only** text (captions +
 transcript, no video). There is no caption-filtering step — every caption is fed to
 generation, which selects which moments are worth a query. `segment_id` remains an internal handle that maps a query's
 `time_range` back to the segment clip(s) used for verification — it is never shown to the
@@ -44,7 +45,7 @@ The v4 work targets verification (A1–A4), generation grounding (B1), caption-e
 handling (B2), audio transcription (B3), and the segment cache (B4). A later addition adds
 a second, pluggable **caption backend** (`qwen3_omni`, see below) alongside the original
 Gemini batch captioner. Prompt versions: `verification_prompt_v7`,
-`generation_prompt_caption_v6`, `omni_caption_prompt_v1`.
+`generation_prompt_caption_v6`, `omni_caption_prompt_v2`.
 
 ## Setup
 
@@ -114,9 +115,9 @@ All optional except `--video-dir`. Grouped by purpose; default in **bold**.
 
 | Flag | Default | Meaning |
 |------|---------|---------|
-| `--caption-backend` | **qwen3_omni** | `qwen3_omni` (local Qwen3-Omni, one segment per prompt) or `gemini` (Files API batch). |
-| `--caption-batch-size` | **1** | qwen3_omni only: independent single-segment prompts per batched model call (>1 = parallel throughput, more VRAM; still one segment per prompt). |
-| `--batch-size` | **8** | gemini caption backend only: clips grouped per multimodal Gemini call. |
+| `--caption-backend` | **qwen3_omni** | `qwen3_omni` (local Qwen3-Omni) or `gemini` (Files API). |
+| `--caption-batch-size` | **1** | Segments per caption prompt (both backends). The model sees N segment clips in one prompt and returns N captions mapped back to their segment_ids. Larger = fewer prompts but a bigger single prompt. |
+| `--caption-parallel` | **1** | qwen3_omni only: how many caption prompts run in ONE batched `generate` call (throughput). Orthogonal to `--caption-batch-size`; larger uses more VRAM. |
 
 **Qwen3-Omni model / engine** (used when any stage is `qwen3_omni`)
 
@@ -210,13 +211,16 @@ Qwen3-Omni specifics:
   video reader (sets `FORCE_QWENVL_VIDEO_READER`). Default `torchvision` avoids
   `torchcodec`, which often fails to load on mismatched CUDA/ffmpeg. Equivalent to
   exporting `FORCE_QWENVL_VIDEO_READER=torchvision` yourself.
-- **One segment per prompt:** each prompt always contains exactly one segment, so
-  `segment_id` / `time_range` / caption can never be mis-paired. `--caption-batch-size`
-  (default `1`, sequential) controls how many of these *independent* single-segment
-  prompts are submitted in one batched model call for throughput — they are decoded
-  per-index and never mixed within a prompt. Larger batches are faster but use more
-  VRAM; if a batched call errors it degrades gracefully to per-segment. Resume is
-  applied first, so only cache-miss segments are batched.
+- **Two batching dimensions** (both default `1`):
+  - `--caption-batch-size` = **segments per prompt**. The model sees N segment
+    clips in one prompt (enumerated `Clip i -> segment_id`) and returns a JSON
+    array of N captions, each mapped back to its `segment_id`. (This intentionally
+    relaxes the original one-segment-per-prompt rule; a segment the model
+    skips/garbles is raw-dumped and retried next run, never mixed.)
+  - `--caption-parallel` = **prompts per `generate` call**. How many of those
+    prompts run together in one batched model call for throughput.
+  Resume is applied first, so only cache-miss segments are grouped. Larger values
+  = fewer calls but more VRAM / a harder mapping for the model.
 - **Structured output:** each caption is a nested JSON with `visual_objective`
   (objective facts only), `visual_expression` (observable facial/body/gaze cues),
   `audio_description` (non-transcript audio), `emotion_description` (a *candidate*

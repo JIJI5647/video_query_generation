@@ -94,7 +94,6 @@ def main() -> None:
     )
     parser.add_argument("--output", default="output/v2_run")
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--batch-size", type=int, default=8)
     parser.add_argument("--segment-seconds", type=float, default=5.0)
     parser.add_argument("--stride", type=float, default=5.0)
     parser.add_argument("--min-segment-seconds", type=float, default=1.0)
@@ -140,10 +139,18 @@ def main() -> None:
         "--caption-batch-size",
         type=int,
         default=1,
-        help="qwen3_omni: how many independent single-segment prompts to run in "
-        "ONE batched model call (>1 = parallel throughput). Still one segment per "
-        "prompt; segments are decoded per-index and never mixed. Default 1 "
-        "(sequential). Larger batches use more VRAM.",
+        help="How many segments go into ONE caption prompt (both backends). The "
+        "model sees N segment clips at once and returns N captions, each mapped "
+        "back to its segment_id. Default 1. Larger = fewer prompts but a bigger "
+        "single prompt (and a harder mapping for the model).",
+    )
+    parser.add_argument(
+        "--caption-parallel",
+        type=int,
+        default=1,
+        help="qwen3_omni only: how many caption prompts to run in ONE batched "
+        "model generate() call (throughput). Default 1. Orthogonal to "
+        "--caption-batch-size; larger uses more VRAM.",
     )
     parser.add_argument(
         "--qwen-model-path",
@@ -238,16 +245,9 @@ def main() -> None:
         f"Models — caption: {caption_desc} | generation: {args.generation_model} "
         f"| verify/rewrite: {vr_desc}"
     )
-    # Show the caption batch that is actually in effect for the chosen backend
-    # (qwen3_omni uses --caption-batch-size; gemini uses --batch-size).
-    cap_batch = (
-        args.caption_batch_size
-        if args.caption_backend == "qwen3_omni"
-        else args.batch_size
-    )
     print(
         f"Segmentation — {args.segment_seconds}s window / {args.stride}s stride "
-        f"| caption batch {cap_batch} | max_accepted {args.max_accepted}\n"
+        f"| {args.caption_batch_size} segment(s)/prompt | max_accepted {args.max_accepted}\n"
     )
 
     client = GeminiLLMClient(
@@ -279,8 +279,9 @@ def main() -> None:
     if use_qwen_caption:
         print(
             f"Caption backend — qwen3_omni ({args.qwen_model_path}) | "
-            f"engine={args.qwen_engine} | batch 1 | resume={args.resume} | "
-            f"overwrite={args.overwrite_captions}\n"
+            f"engine={args.qwen_engine} | {args.caption_batch_size} seg/prompt | "
+            f"{args.caption_parallel} prompt(s)/call | "
+            f"resume={args.resume} | overwrite={args.overwrite_captions}\n"
             f"  cache: {captions_cache_dir}"
         )
     # Verify/rewrite client: Gemini (default) or the shared Qwen3-Omni engine.
@@ -326,13 +327,15 @@ def main() -> None:
                     resume=args.resume,
                     overwrite=args.overwrite_captions,
                     caption_batch_size=args.caption_batch_size,
+                    caption_parallel=args.caption_parallel,
                 )
                 # Adapt the rich structured captions to the flat EmotionCaption
                 # the rest of the pipeline (generation/export) consumes.
                 raw = [omni_to_emotion_caption(oc, video_id) for oc in omni_caps]
             else:
                 raw = caption_video(
-                    video_id, segments, client, uploader, batch_size=args.batch_size
+                    video_id, segments, client, uploader,
+                    batch_size=args.caption_batch_size,
                 )
             # No caption filtering — every caption feeds generation, which selects
             # which moments are worth a query.

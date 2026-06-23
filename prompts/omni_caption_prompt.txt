@@ -1,55 +1,25 @@
-PROMPT VERSION: omni_caption_prompt_v1
+PROMPT VERSION: omni_caption_prompt_v2
 
-You are generating a structured multimodal caption for one short video segment.
+You are generating structured multimodal captions for short video segments.
 
-You are given exactly ONE short video clip (with its audio). It is a single
-temporal segment of a longer video. Watch and listen to this clip only and
-describe THIS segment.
+You are given one or more short video clips (with audio), each one temporal
+segment of a longer video, provided IN ORDER. Watch and listen to every clip,
+then caption EVERY clip — one caption per clip, no skipping and no merging.
 
-SEGMENT METADATA (use only as metadata, do NOT mention it in any natural-language field):
-  segment_id: {segment_id}
-  time_range: [{start_time}, {end_time}]
+CLIP -> SEGMENT MAPPING (the clips are provided in THIS order):
+{segment_list}
 
-Return only valid JSON. Do not include markdown fences or extra explanation.
+The first video provided is Clip 1, the second is Clip 2, and so on. Use this
+mapping to attach the correct segment_id and time_range to each caption.
 
-The caption must describe the current segment only.
+Return ONLY a valid JSON array — one object per clip, in clip order. No markdown
+fences, no extra text. Even for a single clip, return an array with one object.
 
-Do not generate transcript text. Audio description should describe how the audio
-sounds, not the exact spoken words.
-
-Do not use internal person IDs such as person_1 or person_2. Use natural
-descriptions such as "the woman in a white shirt" or "the man in a suit".
-
-Keep segment_id only as metadata. Do not mention segment_id in natural-language fields.
-
-visual_objective must describe only objective visual facts: people, actions,
-scene, objects, interactions, positions, and visibility. Do not include emotion
-words here.
-
-visual_expression must describe observable facial cues, body cues, posture,
-gestures, and gaze (visible affective cues only — no interpretation).
-
-audio_description must describe non-transcript audio information, such as excited
-voice, tense voice, shouting, crying, laughing, heavy breathing, silence,
-unclear audio, or off-screen voice. It is one natural-language sentence, not a
-transcript.
-
-emotion_description is a candidate interpretation, not ground truth. It must be
-supported by visual_expression or audio_description. It may mention multiple
-people and may state uncertainty. If emotion is unclear, say it is unclear.
-
-If evidence is weak or ambiguous, set evidence_strength to "weak" or "ambiguous"
-and do not force a strong emotion label. If a cue is not clearly visible or
-audible, write "unclear", "not clearly visible", or "not audible".
-
-confidence must be one of: high | medium | low
-evidence_strength must be one of: clear | ambiguous | weak
-
-Output JSON must match this structure exactly (echo the segment_id and
-time_range given above):
+Each caption object describes ONLY its own clip and must follow this structure
+exactly (echo the segment_id and time_range from the mapping):
 {
-  "segment_id": "{segment_id}",
-  "time_range": [{start_time}, {end_time}],
+  "segment_id": "<the clip's segment_id from the mapping>",
+  "time_range": [<start>, <end>],
   "visual_objective": {
     "people": [
       {
@@ -59,10 +29,7 @@ time_range given above):
         "action": "<observable action>"
       }
     ],
-    "scene": {
-      "location": "<indoor room | street | ...>",
-      "setting": "<short description of the setting>"
-    },
+    "scene": {"location": "<indoor room | street | ...>", "setting": "<short description>"},
     "objects": [],
     "interactions": [],
     "key_actions": [],
@@ -81,3 +48,38 @@ time_range given above):
   "confidence": "<high | medium | low>",
   "evidence_strength": "<clear | ambiguous | weak>"
 }
+
+RULES (apply to every caption):
+
+The caption must describe only the current clip.
+
+Do not generate transcript text. audio_description describes how the audio
+sounds (excited voice, shouting, crying, laughing, heavy breathing, silence,
+unclear audio, off-screen voice), not the exact spoken words.
+
+Do not use internal person IDs such as person_1 or person_2. Use natural
+descriptions such as "the woman in a white shirt" or "the man in a suit".
+
+Keep segment_id only as metadata. Do not mention segment_id in natural-language
+fields.
+
+visual_objective must describe only objective visual facts: people, actions,
+scene, objects, interactions, positions, and visibility. No emotion words here.
+
+visual_expression must describe observable facial cues, body cues, posture,
+gestures, and gaze (visible affective cues only — no interpretation).
+
+emotion_description is a candidate interpretation, not ground truth. It must be
+supported by visual_expression or audio_description. If emotion is unclear, say
+so, and set evidence_strength to "weak" or "ambiguous" rather than forcing a
+strong label. If a cue is not clearly visible or audible, write "unclear", "not
+clearly visible", or "not audible".
+
+confidence must be one of: high | medium | low
+evidence_strength must be one of: clear | ambiguous | weak
+
+Output exactly one object per clip, in clip order, as a JSON array:
+[
+  { "segment_id": "...", "time_range": [..], ... },
+  ...
+]
