@@ -60,10 +60,9 @@ WhisperX is heavy (~2–3 GB incl. torch) and downloads its ASR + alignment mode
 run. Run with `--no-transcript` to skip it entirely.
 
 The `qwen3_omni` caption backend additionally needs `transformers`,
-`qwen-omni-utils`, `torch` and `accelerate` (plus `vllm` for the default vLLM
-engine, or `flash-attn` for faster attention) — install these **only on the
-inference server**, kept out of the main requirements so the default pipeline and
-tests stay light:
+`qwen-omni-utils`, `torch` and `accelerate` (plus optional `flash-attn` for
+faster attention) — install these **only on the inference server**, kept out of
+the main requirements so the default pipeline and tests stay light:
 
 ```bash
 pip install -r requirements.txt -r requirements-qwen.txt   # GPU server only
@@ -71,7 +70,7 @@ pip install -r requirements.txt -r requirements-qwen.txt   # GPU server only
 
 Install the `torch` build that matches your GPU driver's CUDA. They are imported
 lazily (only on the first inference call), so the rest of the pipeline and all
-tests run without them. The `transformers` engine does not need `vllm` at all.
+tests run without them.
 
 ## Run
 
@@ -124,7 +123,6 @@ All optional except `--video-dir`. Grouped by purpose; default in **bold**.
 | Flag | Default | Meaning |
 |------|---------|---------|
 | `--qwen-model-path` | **Qwen/Qwen3-Omni-30B-A3B-Instruct** | HF model id / local path. |
-| `--qwen-engine` | **vllm** | `vllm` (fast; needs CUDA-matched vLLM with Qwen3-Omni multimodal) or `transformers` (slower HF fallback; only needs a working torch). |
 | `--qwen-attn-impl` | **None** | `attn_implementation` for the transformers engine, e.g. `flash_attention_2`, `sdpa`, `eager`. None lets HF choose. |
 | `--qwen-video-reader-backend` | **torchvision** | Forces the `qwen_omni_utils` video reader (`FORCE_QWENVL_VIDEO_READER`). `torchvision` avoids `torchcodec`, which often fails on mismatched CUDA/ffmpeg. Also `decord`, `torchcodec`. |
 
@@ -172,17 +170,10 @@ Switch any stage back to Gemini with `--caption-backend gemini` /
 above; Gemini verify/rewrite uploads clips).
 
 ```bash
-# default: caption + verify/rewrite on Qwen3-Omni (vLLM engine), generation on Gemini
+# default: caption + verify/rewrite on Qwen3-Omni (transformers engine), generation on Gemini
 python run_pipeline.py \
   --video-dir data/pilot_study --num-videos 5 \
   --output output/pilot_study_v4 \
-  --resume
-
-# transformers engine (fallback when vLLM won't load Qwen3-Omni as multimodal)
-python run_pipeline.py \
-  --video-dir data/pilot_study --num-videos 5 \
-  --output output/pilot_study_v4 \
-  --qwen-engine transformers \
   --resume
 
 # all stages on Gemini (the old behaviour)
@@ -197,13 +188,10 @@ Qwen3-Omni specifics:
 
 - **Model:** `Qwen/Qwen3-Omni-30B-A3B-Instruct` by default (override with
   `--qwen-model-path`), with audio-in-video enabled.
-- **Engine (`--qwen-engine`):** `vllm` (default, fast) or `transformers` (slower
-  pure-HuggingFace fallback). Use `transformers` when the installed vLLM build
-  won't load Qwen3-Omni as a multimodal model on the available CUDA/driver (e.g.
-  vLLM errors with *"`limit_mm_per_prompt` is only supported for multimodal
-  models"*). The transformers engine loads with `device_map="auto"`, disables the
-  audio "talker" for text-only output, and only needs a working torch — no vLLM.
-  Pass `--qwen-attn-impl flash_attention_2` if flash-attn is installed.
+- **Engine:** a pure-HuggingFace `transformers` backend. It loads with
+  `device_map="auto"`, disables the audio "talker" for text-only output, and only
+  needs a working torch. Pass `--qwen-attn-impl flash_attention_2` if flash-attn
+  is installed.
 - **Lazy load:** the model is loaded only on the first inference call — importing
   the module or constructing the backend touches no GPU and downloads no weights.
   Run the pipeline on a GPU server; it cannot run on a laptop.

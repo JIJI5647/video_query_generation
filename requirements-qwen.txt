@@ -11,17 +11,11 @@
 # and torch must be a build matching the GPU driver's CUDA. Follow the official
 # Qwen3-Omni instructions if these floating versions don't resolve.
 
-# --- Shared by both engines ---
+# --- transformers inference engine ---
 transformers          # Qwen3-Omni model + processor
 qwen-omni-utils       # process_mm_info (video/audio preprocessing)
 torch                 # install the CUDA build that matches your GPU driver
-accelerate            # device_map="auto" sharding for the transformers engine
-
-# --- Engine: vllm (default, --qwen-engine vllm) ---
-# Fast, but the vLLM build must match BOTH the driver's CUDA and Qwen3-Omni's
-# multimodal support. If vLLM won't load the model as multimodal on your
-# CUDA/driver, use --qwen-engine transformers instead (no vLLM needed).
-vllm
+accelerate            # device_map="auto" sharding
 
 # --- Optional: faster attention for the transformers engine ---
 # Enable with --qwen-attn-impl flash_attention_2 once installed.

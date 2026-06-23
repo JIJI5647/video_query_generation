@@ -2,8 +2,8 @@
 
 Design / safety constraints (this machine cannot run Qwen3-Omni):
 
-- LAZY EVERYTHING. ``vllm``, ``torch``, ``transformers`` and ``qwen_omni_utils``
-  are imported, and the 30B model is loaded, only inside ``Qwen3OmniCaptioner._
+- LAZY EVERYTHING. ``torch``, ``transformers`` and ``qwen_omni_utils`` are
+  imported, and the 30B model is loaded, only inside ``Qwen3OmniCaptioner._
   ensure_model`` / ``.caption`` — never at module import. Importing this module,
   constructing the captioner, building prompts, extracting/validating JSON, and
   the whole cache/resume path are pure Python and run without the heavy deps or
@@ -47,8 +47,8 @@ _PROMPTS_DIR = Path(__file__).parent.parent / "prompts"
 
 DEFAULT_MODEL_PATH = "Qwen/Qwen3-Omni-30B-A3B-Instruct"
 
-# Sampling defaults (spec §4.5). Plain dict so the SamplingParams object is only
-# built lazily inside the captioner (vllm import stays out of module load).
+# Sampling defaults (spec §4.5). Plain dict consumed lazily inside the captioner
+# (mapped to the transformers ``thinker_*`` generate kwargs).
 DEFAULT_SAMPLING_PARAMS: Dict[str, Any] = {
     "temperature": 0.6,
     "top_p": 0.95,
@@ -567,23 +567,16 @@ def caption_video_omni(
 # ---------------------------------------------------------------------------
 @dataclass
 class Qwen3OmniCaptioner:
-    """Qwen3-Omni captioner with two interchangeable engines. Loads on first use.
+    """Qwen3-Omni captioner on the HuggingFace transformers engine. Loads on first use.
 
     Constructing this object is cheap and import-safe: it stores config only. No
-    ``vllm`` / ``torch`` / ``transformers`` / ``qwen_omni_utils`` import happens
-    until ``_ensure_model`` runs (inside the first ``caption`` call), so nothing
-    here touches a GPU or downloads weights on this machine.
+    ``torch`` / ``transformers`` / ``qwen_omni_utils`` import happens until
+    ``_ensure_model`` runs (inside the first ``caption`` call), so nothing here
+    touches a GPU or downloads weights on this machine.
 
-    ``engine``:
-
-    - ``"vllm"`` (default): fast, but the installed vLLM build must match both
-      the GPU driver's CUDA and Qwen3-Omni's multimodal support.
-    - ``"transformers"``: a pure HuggingFace ``Qwen3OmniMoeForConditionalGeneration``
-      fallback (``device_map="auto"`` + the talker disabled for text-only). Use
-      this when vLLM won't load Qwen3-Omni as a multimodal model on the available
-      CUDA/driver — it only needs a working torch, at the cost of speed/VRAM.
-
-    Both engines share the same ``caption(prompt_text, clip_path)`` contract.
+    Inference is a pure HuggingFace ``Qwen3OmniMoeForConditionalGeneration``
+    (``device_map="auto"`` + the talker disabled for text-only captioning). The
+    public ``caption`` / ``generate`` contract is unchanged.
     """
 
     model_path: str = DEFAULT_MODEL_PATH
@@ -591,63 +584,31 @@ class Qwen3OmniCaptioner:
         default_factory=lambda: dict(DEFAULT_SAMPLING_PARAMS)
     )
     use_audio_in_video: bool = True
-    engine: str = "vllm"  # "vllm" | "transformers"
     # Force the qwen_omni_utils video reader so it never tries torchcodec
     # (which often fails to load on mismatched CUDA/ffmpeg). "" leaves the
     # library's auto-detection alone. Set via FORCE_QWENVL_VIDEO_READER.
     video_reader_backend: str = "torchvision"
-    # vLLM-only knobs.
-    gpu_memory_utilization: float = 0.95
-    max_num_seqs: int = 8
-    max_model_len: int = 32768
-    tensor_parallel_size: Optional[int] = None
-    seed: int = 1234
-    limit_mm_per_prompt: Optional[Dict[str, int]] = None
-    # transformers-only knobs.
     device_map: str = "auto"
     attn_implementation: Optional[str] = None  # e.g. "flash_attention_2"
 
-    _llm: Any = field(default=None, init=False, repr=False)
     _model: Any = field(default=None, init=False, repr=False)
     _processor: Any = field(default=None, init=False, repr=False)
-    _sampling: Any = field(default=None, init=False, repr=False)
 
     # -- model loading -------------------------------------------------------
     def _ensure_model(self) -> None:
         """Load the model + processor exactly once. Heavy imports live here."""
-        if self._llm is not None or self._model is not None:
+        if self._model is not None:
             return
         # Pin the qwen_omni_utils video reader BEFORE any video is decoded, so it
         # never falls through to torchcodec. Set before process_mm_info import.
         if self.video_reader_backend:
             os.environ["FORCE_QWENVL_VIDEO_READER"] = self.video_reader_backend
-        if self.engine == "transformers":
-            self._ensure_model_transformers()
-        else:
-            self._ensure_model_vllm()
-
-    def _ensure_model_vllm(self) -> None:
-        # Lazy imports — keep these OFF the module import path.
-        import torch
-        from vllm import LLM, SamplingParams
-        from transformers import Qwen3OmniMoeProcessor
-
-        os.environ.setdefault("VLLM_USE_V1", "0")
-        tp = self.tensor_parallel_size or max(1, torch.cuda.device_count())
-        limit_mm = self.limit_mm_per_prompt or {"image": 3, "video": 3, "audio": 3}
-
-        self._llm = LLM(
-            model=self.model_path,
-            trust_remote_code=True,
-            gpu_memory_utilization=self.gpu_memory_utilization,
-            tensor_parallel_size=tp,
-            limit_mm_per_prompt=limit_mm,
-            max_num_seqs=self.max_num_seqs,
-            max_model_len=self.max_model_len,
-            seed=self.seed,
-        )
-        self._sampling = SamplingParams(**self.sampling_params)
-        self._processor = Qwen3OmniMoeProcessor.from_pretrained(self.model_path)
+        import time as _time
+        t0 = _time.perf_counter()
+        print(f"[model] loading {self.model_path} (transformers)...")
+        self._ensure_model_transformers()
+        print(f"[model] loaded in {_time.perf_counter() - t0:.1f}s "
+              f"(one-time; reused for all videos/segments)")
 
     def _ensure_model_transformers(self) -> None:
         # Lazy imports — keep these OFF the module import path.
@@ -705,41 +666,7 @@ class Qwen3OmniCaptioner:
         if not messages_list:
             return []
         self._ensure_model()
-        if self.engine == "transformers":
-            return self._caption_transformers_batch(messages_list)
-        return self._caption_vllm_batch(messages_list)
-
-    def _caption_vllm_batch(self, messages_list: List[list]) -> List[str]:
-        """vLLM batches a list of independent single-segment inputs in one call.
-
-        ``llm.generate`` preserves input order, so output[i] is the caption for
-        messages_list[i]. Each input carries its own video — they are not merged.
-        """
-        from qwen_omni_utils import process_mm_info  # lazy
-
-        inputs_list: List[Dict[str, Any]] = []
-        for messages in messages_list:
-            text = self._processor.apply_chat_template(
-                messages, tokenize=False, add_generation_prompt=True
-            )
-            audios, images, videos = process_mm_info(
-                messages, use_audio_in_video=self.use_audio_in_video
-            )
-            one: Dict[str, Any] = {
-                "prompt": text,
-                "multi_modal_data": {},
-                "mm_processor_kwargs": {"use_audio_in_video": self.use_audio_in_video},
-            }
-            if images is not None:
-                one["multi_modal_data"]["image"] = images
-            if videos is not None:
-                one["multi_modal_data"]["video"] = videos
-            if audios is not None:
-                one["multi_modal_data"]["audio"] = audios
-            inputs_list.append(one)
-
-        outputs = self._llm.generate(inputs_list, sampling_params=self._sampling)
-        return [o.outputs[0].text for o in outputs]
+        return self._caption_transformers_batch(messages_list)
 
     # -- transformers helpers (shared by the single + batch paths) -----------
     def _prep_transformers_inputs(self, conversations):

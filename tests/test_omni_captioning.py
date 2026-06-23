@@ -1,6 +1,6 @@
 """Local, model-free tests for the Qwen3-Omni captioning backend.
 
-These never import vllm/torch/transformers/qwen_omni_utils and never load the
+These never import torch/transformers/qwen_omni_utils and never load the
 Qwen3-Omni model. They cover: multi-segment prompt construction, robust JSON
 array/object extraction, required-field validation, single + multi caption
 parsing, the cache/resume decision (segments-per-prompt + prompts-per-call
@@ -70,26 +70,26 @@ def _good_caption_dict(seg_id="s022", time_range=(105.0, 110.0)) -> dict:
 # No heavy imports at module load
 # ---------------------------------------------------------------------------
 def test_no_heavy_imports_at_module_load():
-    for mod in ("vllm", "torch", "transformers", "qwen_omni_utils"):
+    for mod in ("torch", "transformers", "qwen_omni_utils"):
         assert mod not in sys.modules, f"{mod} must not be imported at module load"
 
 
 def test_constructing_captioner_does_not_load_model():
     cap = oc.Qwen3OmniCaptioner()
-    assert cap._llm is None and cap._model is None and cap._processor is None
+    assert cap._model is None and cap._processor is None
     assert cap.use_audio_in_video is True
     assert cap.video_reader_backend == "torchvision"
     assert cap.sampling_params == {
         "temperature": 0.6, "top_p": 0.95, "top_k": 20, "max_tokens": 2048,
     }
-    for mod in ("vllm", "torch", "transformers", "qwen_omni_utils"):
+    for mod in ("torch", "transformers", "qwen_omni_utils"):
         assert mod not in sys.modules
 
 
 def test_ensure_model_pins_video_reader_backend(monkeypatch):
     monkeypatch.delenv("FORCE_QWENVL_VIDEO_READER", raising=False)
-    cap = oc.Qwen3OmniCaptioner(engine="vllm", video_reader_backend="torchvision")
-    monkeypatch.setattr(cap, "_ensure_model_vllm", lambda: None)
+    cap = oc.Qwen3OmniCaptioner(video_reader_backend="torchvision")
+    monkeypatch.setattr(cap, "_ensure_model_transformers", lambda: None)
     cap._ensure_model()
     import os as _os
     assert _os.environ["FORCE_QWENVL_VIDEO_READER"] == "torchvision"

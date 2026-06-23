@@ -19,8 +19,10 @@ import os
 import random
 import sys
 import time
+from collections import defaultdict
+from contextlib import contextmanager
 from pathlib import Path
-from typing import List, Optional
+from typing import Dict, List, Optional
 
 sys.path.insert(0, str(Path(__file__).parent))
 
@@ -46,6 +48,33 @@ from emotion_query_pipeline.video_utils import get_video_duration
 from emotion_query_pipeline.workflow import PipelineResult, run_query_pipeline
 
 _VIDEO_EXTENSIONS = (".mp4", ".avi")
+
+
+class StageTimer:
+    """Accumulates wall-time per pipeline stage, per-video and overall.
+
+    ``with timer.stage("captions"): ...`` adds the block's elapsed time to both
+    the current video's tally and the run total. The one-time Qwen model load is
+    reported separately by the captioner, so the "captions" stage here reflects
+    inference (plus, on the first video, that load — called out in the summary).
+    """
+
+    def __init__(self) -> None:
+        self.totals: Dict[str, float] = defaultdict(float)
+        self.video: Dict[str, float] = defaultdict(float)
+
+    def reset_video(self) -> None:
+        self.video = defaultdict(float)
+
+    @contextmanager
+    def stage(self, name: str):
+        t0 = time.perf_counter()
+        try:
+            yield
+        finally:
+            dt = time.perf_counter() - t0
+            self.video[name] += dt
+            self.totals[name] += dt
 
 
 def pick_videos(
@@ -158,16 +187,6 @@ def main() -> None:
         help="Model path/name for the qwen3_omni captioning backend.",
     )
     parser.add_argument(
-        "--qwen-engine",
-        choices=["vllm", "transformers"],
-        default="vllm",
-        help="Inference engine for the qwen3_omni backend. 'vllm' (default) is "
-        "fast but needs a vLLM build matching the GPU driver's CUDA and "
-        "Qwen3-Omni multimodal support; 'transformers' is a slower pure-HF "
-        "fallback that only needs a working torch (use it when vLLM won't load "
-        "the model as multimodal on the available CUDA/driver).",
-    )
-    parser.add_argument(
         "--qwen-attn-impl",
         default=None,
         help="attn_implementation for the transformers engine "
@@ -234,11 +253,11 @@ def main() -> None:
     selected = pick_videos(video_dir, args.num_videos, args.seed, video_ids)
     print(f"Selected {len(selected)} video(s) from {video_dir}")
     if args.caption_backend == "qwen3_omni":
-        caption_desc = f"{args.qwen_model_path} ({args.qwen_engine})"
+        caption_desc = f"{args.qwen_model_path} (transformers)"
     else:
         caption_desc = args.caption_model
     if args.verify_rewrite_backend == "qwen3_omni":
-        vr_desc = f"{args.qwen_model_path} ({args.qwen_engine})"
+        vr_desc = f"{args.qwen_model_path} (transformers)"
     else:
         vr_desc = f"{args.verification_model} / {args.rewrite_model}"
     print(
@@ -268,7 +287,6 @@ def main() -> None:
     if use_qwen_caption or use_qwen_vr:
         qwen_engine = Qwen3OmniCaptioner(
             model_path=args.qwen_model_path,
-            engine=args.qwen_engine,
             attn_implementation=args.qwen_attn_impl,
             video_reader_backend=args.qwen_video_reader_backend,
         )
@@ -279,7 +297,7 @@ def main() -> None:
     if use_qwen_caption:
         print(
             f"Caption backend — qwen3_omni ({args.qwen_model_path}) | "
-            f"engine={args.qwen_engine} | {args.caption_batch_size} seg/prompt | "
+            f"engine=transformers | {args.caption_batch_size} seg/prompt | "
             f"{args.caption_parallel} prompt(s)/call | "
             f"resume={args.resume} | overwrite={args.overwrite_captions}\n"
             f"  cache: {captions_cache_dir}"
@@ -288,57 +306,61 @@ def main() -> None:
     vr_client = QwenOmniLLMClient(qwen_engine) if use_qwen_vr else client
     if use_qwen_vr:
         print(f"Verify/rewrite backend — qwen3_omni ({args.qwen_model_path}) | "
-              f"engine={args.qwen_engine} (watches local clips, no upload)")
+              f"engine=transformers (watches local clips, no upload)")
 
     result = PipelineResult()
     per_video_usage: List[dict] = []
+    timer = StageTimer()
     run_start = time.perf_counter()
 
     for i, video_path in enumerate(selected, 1):
         video_id = video_path.stem
         print(f"[{i}/{len(selected)}] {video_path.name}  (id: {video_id})")
         uploaded_segment_files: list = []
+        timer.reset_video()
         v_start = time.perf_counter()
         tokens_before = client.usage_report()["total"]["total_tokens"]
         v_status = "ok"
         try:
             # Step 1: segment + cut clips
-            duration = get_video_duration(video_path)
-            segments = plan_segments(
-                video_id, duration, args.segment_seconds, args.stride,
-                min_segment_seconds=args.min_segment_seconds,
-            )
-            # Reuse cached segment clips unless --force-reextract (B4).
-            extract_segment_clips(
-                video_path, video_id, segments, segments_dir,
-                overwrite=args.force_reextract, subdir=seg_subdir,
-            )
+            with timer.stage("segment/clips"):
+                duration = get_video_duration(video_path)
+                segments = plan_segments(
+                    video_id, duration, args.segment_seconds, args.stride,
+                    min_segment_seconds=args.min_segment_seconds,
+                )
+                # Reuse cached segment clips unless --force-reextract (B4).
+                extract_segment_clips(
+                    video_path, video_id, segments, segments_dir,
+                    overwrite=args.force_reextract, subdir=seg_subdir,
+                )
             print(f"  {len(segments)} segments ready (cache: {segments_dir})")
 
             # Steps 2-3: captions. Either the Gemini batch path or the
             # Qwen3-Omni structured path (N segments/prompt + resume cache).
-            if args.caption_backend == "qwen3_omni":
-                omni_caps = caption_video_omni(
-                    video_id,
-                    segments,
-                    omni_captioner,
-                    captions_cache_dir,
-                    captions_raw_dir,
-                    resume=args.resume,
-                    overwrite=args.overwrite_captions,
-                    caption_batch_size=args.caption_batch_size,
-                    caption_parallel=args.caption_parallel,
-                )
-                # Generation reads the RICH structured captions directly. The flat
-                # EmotionCaption (adapter) is kept only for export/stats provenance.
-                gen_captions = omni_caps
-                raw = [omni_to_emotion_caption(oc, video_id) for oc in omni_caps]
-            else:
-                raw = caption_video(
-                    video_id, segments, client, uploader,
-                    batch_size=args.caption_batch_size,
-                )
-                gen_captions = raw
+            with timer.stage("captions"):
+                if args.caption_backend == "qwen3_omni":
+                    omni_caps = caption_video_omni(
+                        video_id,
+                        segments,
+                        omni_captioner,
+                        captions_cache_dir,
+                        captions_raw_dir,
+                        resume=args.resume,
+                        overwrite=args.overwrite_captions,
+                        caption_batch_size=args.caption_batch_size,
+                        caption_parallel=args.caption_parallel,
+                    )
+                    # Generation reads the RICH structured captions directly. The
+                    # flat EmotionCaption (adapter) is kept only for export/stats.
+                    gen_captions = omni_caps
+                    raw = [omni_to_emotion_caption(oc, video_id) for oc in omni_caps]
+                else:
+                    raw = caption_video(
+                        video_id, segments, client, uploader,
+                        batch_size=args.caption_batch_size,
+                    )
+                    gen_captions = raw
             # No caption filtering — every caption feeds generation, which selects
             # which moments are worth a query.
             print(f"  captions: {len(raw)} -> all sent to generation")
@@ -346,15 +368,19 @@ def main() -> None:
             # B3: whole-video dialogue transcript (spliced into generation only).
             transcript = None
             if not args.no_transcript:
-                transcript = transcribe_video(video_path, model_size=args.whisper_model)
+                with timer.stage("transcript"):
+                    transcript = transcribe_video(
+                        video_path, model_size=args.whisper_model
+                    )
                 print(f"  transcript: {len(transcript)} dialogue line(s)")
 
             # Step 5: generate queries from the video's captions + transcript
             # (no video). Grounding is by time range; segment_ids are resolved
             # internally (B1).
-            gen_output = generate_queries(
-                video_id, gen_captions, client, segments, transcript
-            )
+            with timer.stage("generation"):
+                gen_output = generate_queries(
+                    video_id, gen_captions, client, segments, transcript
+                )
             print(f"  {len(gen_output.queries)} queries generated")
 
             # Step 6: make the grounded segment clips available to verify/rewrite,
@@ -362,29 +388,30 @@ def main() -> None:
             # clips uploaded (URIs); Qwen3-Omni watches the local clip paths
             # directly (no upload).
             if gen_output.queries:
-                seg_by_id = {s.segment_id: s for s in segments}
-                needed_ids = sorted(
-                    {sid for q in gen_output.queries for sid in q.segment_ids}
-                )
-                segment_uris: dict = {}
-                for sid in needed_ids:
-                    seg = seg_by_id.get(sid)
-                    if seg is None or not seg.clip_path:
-                        continue
-                    if use_qwen_vr:
-                        segment_uris[sid] = seg.clip_path  # local path, no upload
-                    else:
-                        f = uploader.upload(seg.clip_path)
-                        uploaded_segment_files.append(f)
-                        segment_uris[sid] = f.uri
-                traces, ver_outs, rw_outs = run_query_pipeline(
-                    video_id,
-                    gen_output,
-                    vr_client,
-                    segment_uris,
-                    max_rewrites=args.max_rewrites,
-                    max_accepted=args.max_accepted,
-                )
+                with timer.stage("verify/rewrite"):
+                    seg_by_id = {s.segment_id: s for s in segments}
+                    needed_ids = sorted(
+                        {sid for q in gen_output.queries for sid in q.segment_ids}
+                    )
+                    segment_uris: dict = {}
+                    for sid in needed_ids:
+                        seg = seg_by_id.get(sid)
+                        if seg is None or not seg.clip_path:
+                            continue
+                        if use_qwen_vr:
+                            segment_uris[sid] = seg.clip_path  # local path, no upload
+                        else:
+                            f = uploader.upload(seg.clip_path)
+                            uploaded_segment_files.append(f)
+                            segment_uris[sid] = f.uri
+                    traces, ver_outs, rw_outs = run_query_pipeline(
+                        video_id,
+                        gen_output,
+                        vr_client,
+                        segment_uris,
+                        max_rewrites=args.max_rewrites,
+                        max_accepted=args.max_accepted,
+                    )
             else:
                 traces, ver_outs, rw_outs = {}, [], []
 
@@ -407,15 +434,24 @@ def main() -> None:
             # B4: segment clips are a persistent cache — do NOT delete them.
             v_elapsed = time.perf_counter() - v_start
             v_tokens = client.usage_report()["total"]["total_tokens"] - tokens_before
+            stage_breakdown = {k: round(v, 1) for k, v in timer.video.items()}
             per_video_usage.append(
                 {
                     "video_id": video_id,
                     "status": v_status,
                     "seconds": round(v_elapsed, 1),
                     "total_tokens": v_tokens,
+                    "stage_seconds": stage_breakdown,
                 }
             )
+            stages_str = ", ".join(
+                f"{k} {v:.1f}s" for k, v in sorted(
+                    timer.video.items(), key=lambda kv: kv[1], reverse=True
+                )
+            )
             print(f"  [usage] {v_elapsed:.1f}s, {v_tokens:,} tokens")
+            if stages_str:
+                print(f"  [time]  {stages_str}")
 
     if not result.video_traces:
         print("\nERROR: No videos produced queries.", file=sys.stderr)
@@ -458,6 +494,7 @@ def main() -> None:
             if processed else 0
         ),
         "by_stage": usage["by_stage"],
+        "stage_seconds_total": {k: round(v, 1) for k, v in timer.totals.items()},
         "per_video": per_video_usage,
     }
     (output_dir / "usage_report.json").write_text(
@@ -479,6 +516,14 @@ def main() -> None:
           f"in {usage['total']['calls']} LLM calls")
     for stage, b in usage["by_stage"].items():
         print(f"    - {stage:12s}: {b['total_tokens']:>10,} tokens / {b['calls']} calls")
+    if timer.totals:
+        total_staged = sum(timer.totals.values()) or 1.0
+        print(f"  Time by stage        : (sum {total_staged/60:.1f} min; "
+              f"model load reported separately above)")
+        for stage, secs in sorted(
+            timer.totals.items(), key=lambda kv: kv[1], reverse=True
+        ):
+            print(f"    - {stage:14s}: {secs:>8.1f}s  ({secs / total_staged:.0%})")
     print("\nDone.")
 
 
