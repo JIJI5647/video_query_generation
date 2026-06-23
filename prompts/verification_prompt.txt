@@ -1,4 +1,4 @@
-PROMPT VERSION: verification_prompt_v8
+PROMPT VERSION: verification_prompt_v11
 
 TASK:
 Watch the provided video clip(s) carefully. You may be given ONE clip or SEVERAL clips:
@@ -18,23 +18,32 @@ Round Index: {round_index}
 
 CRITERIA:
 
-1. RELEVANCE — Is this query about emotion at all?
+1. RELEVANCE — Is the query, OR the moment it points to, about one of the eight target
+emotions?
 
-This is a loose gate. Mark is_emotion_relevant = true if EITHER of the following holds:
+The pipeline targets EXACTLY eight emotions (the same fixed set used to label captions):
 
-* the query itself is about an emotional state, emotional reaction, emotional cue, or
-  emotionally meaningful interaction (e.g. it asks when someone appears afraid, upset,
-  amused, comforting, arguing, crying, laughing, flinching, raising their voice); OR
-* the moment the query points to carries emotional meaning in the video, even if the
-  query is phrased as a neutral action (e.g. "picking up a weapon" that functions as a
-  threat, "placing a hand on the stomach" that functions as comfort).
+  angry, excited, fear, sad, surprised, frustrated, happy, disappointed.
 
-Mark is_emotion_relevant = false ONLY when the query is about a purely neutral, factual
-thing (a plain action, object, location, entrance/exit, or movement) AND the moment in
-the video carries no emotional meaning either.
+This is a loose gate — it is satisfied if EITHER the query OR the clip involves one of
+the eight. Mark is_emotion_relevant = true if EITHER of the following holds:
 
-Do NOT decide here whether the emotion actually matches the video — that judgment belongs
-to Answerability below. Relevance only asks: is this query in the domain of emotion?
+* the QUERY concerns at least one of the eight — by naming the emotional state ("appears
+  frightened", "looks happy"), by an action/interaction/audio event that expresses one
+  (shouting in anger, crying in sadness, laughing in happiness, flinching in fear), or by
+  an observable cue indicating one (widened eyes → surprise/fear, trembling voice →
+  fear/sadness, clenched jaw → anger, ...); OR
+* the MOMENT the query points to DISPLAYS at least one of the eight in the clip (visible
+  or audible), even if the query itself is phrased as a neutral action.
+
+Mark is_emotion_relevant = false ONLY when NEITHER holds — the query does not concern any
+of the eight AND the moment it points to shows none of them (a purely neutral moment:
+plain action, object, location, entrance/exit, movement, count, or identification). This
+mirrors the caption labels "neutral" / "unrelevant".
+
+This is only a loose in-domain gate: it asks whether one of the eight emotions is in play
+(in the query or in the clip). Whether the query's SPECIFIC emotional claim is actually
+correct is decided in Answerability below, not here.
 
 2. ANSWERABILITY — Is the query supported by, and locatable in, the video clip(s)?
 
@@ -113,9 +122,11 @@ VERIFICATION CHECKLIST, apply to each query:
 
 Criterion 1 — Relevance:
 
-* is_emotion_relevant: Is this query about emotion (either the query is about an emotional
-  state/reaction/cue/interaction, OR the moment it points to is emotionally meaningful in
-  the video)? Mark false only for a neutral query about a neutral moment.
+* is_emotion_relevant: Does the QUERY concern one of the eight target emotions (angry,
+  excited, fear, sad, surprised, frustrated, happy, disappointed), OR does the MOMENT it
+  points to DISPLAY one of the eight in the clip? Mark true if either holds; mark false
+  only when neither the query nor the moment involves any of the eight (mirrors caption
+  "neutral"/"unrelevant").
 
 Criterion 2 — Answerability:
 

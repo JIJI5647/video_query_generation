@@ -44,7 +44,7 @@ sad, surprised, frustrated, happy, disappointed`.
 The v4 work targets verification (A1–A4), generation grounding (B1), caption-emotion
 handling (B2), audio transcription (B3), and the segment cache (B4). A later addition adds
 a second, pluggable **caption backend** (`qwen3_omni`, see below) alongside the original
-Gemini batch captioner. Prompt versions: `verification_prompt_v8`,
+Gemini batch captioner. Prompt versions: `verification_prompt_v11`,
 `generation_prompt_caption_v9`, `omni_caption_prompt_v2`.
 
 ## Setup
