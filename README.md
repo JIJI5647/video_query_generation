@@ -84,23 +84,83 @@ python run_pipeline.py \
 Selection: `--video-ids` pins an exact set (file stems, comma/space-separated, in order)
 and overrides the default `--num-videos`/`--seed` random sampling.
 
-Key flags (all optional except `--video-dir`):
-`--num-videos --seed --video-ids --batch-size --segment-seconds --stride`
-`--max-rewrites --max-accepted`
-`--caption-model --generation-model --verification-model --rewrite-model`
-`--segments-dir --force-reextract --no-transcript --whisper-model`
-`--caption-backend --caption-batch-size --qwen-model-path --qwen-engine --qwen-attn-impl`
-`--qwen-video-reader-backend --verify-rewrite-backend --captions-cache-dir`
-`--resume / --no-resume --overwrite-captions`
+### Flags
 
-Defaults: 5s segments / 5s stride (non-overlapping), max_accepted 8, max_rewrites 3,
-segments cached under `data/processed_segments`, WhisperX model `small`.
+All optional except `--video-dir`. Grouped by purpose; default in **bold**.
 
-Backend defaults: **caption + verify/rewrite on Qwen3-Omni**
-(`Qwen/Qwen3-Omni-30B-A3B-Instruct`, vLLM engine, caption batch 1), **generation on
-Gemini** (`gemini-2.5-flash-lite`). The `--caption-model` / `--verification-model`
-(`gemini-3.1-flash-lite`) / `--rewrite-model` / `--batch-size 8` flags only take
-effect for whichever of those stages you switch back to Gemini.
+**Input / selection**
+
+| Flag | Default | Meaning |
+|------|---------|---------|
+| `--video-dir` | *(required)* | Directory of source `.mp4` / `.avi` videos. |
+| `--num-videos`, `-n` | **all** | How many videos to sample. Omit to process every video in `--video-dir`. |
+| `--video-ids` | **None** | Comma/space-separated file stems to process exactly, in order. Overrides `--num-videos`/`--seed`. |
+| `--seed` | **42** | Random seed for video sampling. |
+| `--output` | **output/v2_run** | Output directory for all artefacts. |
+
+**Segmentation / clips**
+
+| Flag | Default | Meaning |
+|------|---------|---------|
+| `--segment-seconds` | **5.0** | Length of each fixed segment, in seconds. |
+| `--stride` | **5.0** | Hop between segment starts (= `segment-seconds` → non-overlapping). |
+| `--min-segment-seconds` | **1.0** | Drop a trailing segment shorter than this. |
+| `--segments-dir` | **data/processed_segments** | Persistent segment-clip cache root (reused across runs, never auto-deleted). |
+| `--force-reextract` | **off** | Re-cut segment clips even if cached copies exist. |
+| `--temp-dir` | **temp_clips** | Scratch dir for clips. |
+| `--keep-temp-clips` | **off** | Keep temp clips instead of cleaning them up. |
+
+**Caption backend**
+
+| Flag | Default | Meaning |
+|------|---------|---------|
+| `--caption-backend` | **qwen3_omni** | `qwen3_omni` (local Qwen3-Omni, one segment per prompt) or `gemini` (Files API batch). |
+| `--caption-batch-size` | **1** | qwen3_omni only: independent single-segment prompts per batched model call (>1 = parallel throughput, more VRAM; still one segment per prompt). |
+| `--batch-size` | **8** | gemini caption backend only: clips grouped per multimodal Gemini call. |
+
+**Qwen3-Omni model / engine** (used when any stage is `qwen3_omni`)
+
+| Flag | Default | Meaning |
+|------|---------|---------|
+| `--qwen-model-path` | **Qwen/Qwen3-Omni-30B-A3B-Instruct** | HF model id / local path. |
+| `--qwen-engine` | **vllm** | `vllm` (fast; needs CUDA-matched vLLM with Qwen3-Omni multimodal) or `transformers` (slower HF fallback; only needs a working torch). |
+| `--qwen-attn-impl` | **None** | `attn_implementation` for the transformers engine, e.g. `flash_attention_2`, `sdpa`, `eager`. None lets HF choose. |
+| `--qwen-video-reader-backend` | **torchvision** | Forces the `qwen_omni_utils` video reader (`FORCE_QWENVL_VIDEO_READER`). `torchvision` avoids `torchcodec`, which often fails on mismatched CUDA/ffmpeg. Also `decord`, `torchcodec`. |
+
+**Caption resume / cache** (qwen3_omni)
+
+| Flag | Default | Meaning |
+|------|---------|---------|
+| `--resume` / `--no-resume` | **resume on** | Skip segments that already have a valid cached caption (no model call). `--no-resume` re-checks every segment. |
+| `--overwrite-captions` | **off** | Force regeneration of every caption, ignoring any cache. |
+| `--captions-cache-dir` | **`<output>/captions`** | Per-segment structured-caption cache root. Raw parse failures go to `<output>/captions_raw`. |
+
+**Verify / rewrite backend**
+
+| Flag | Default | Meaning |
+|------|---------|---------|
+| `--verify-rewrite-backend` | **qwen3_omni** | Backend for verification + rewrite (both watch the query's clip(s)). `qwen3_omni` watches local clips on the shared model (no upload); `gemini` uploads to the Files API. |
+| `--max-rewrites` | **3** | Max rewrite rounds per failing query. |
+| `--max-accepted` | **8** | Max accepted queries kept per video. |
+
+**Gemini models** (only used for stages running on Gemini)
+
+| Flag | Default | Meaning |
+|------|---------|---------|
+| `--generation-model` | **gemini-2.5-flash-lite** | Query-generation model (generation always runs on Gemini). |
+| `--caption-model` | **gemini-2.5-flash-lite** | Caption model, used only when `--caption-backend gemini`. |
+| `--verification-model` | **gemini-3.1-flash-lite** | Verifier model, used only when `--verify-rewrite-backend gemini`. |
+| `--rewrite-model` | **gemini-2.5-flash-lite** | Rewrite model, used only when `--verify-rewrite-backend gemini`. |
+
+**Transcript (WhisperX)**
+
+| Flag | Default | Meaning |
+|------|---------|---------|
+| `--no-transcript` | **off (transcript on)** | Skip WhisperX; generation runs without dialogue text. |
+| `--whisper-model` | **small** | WhisperX size (`tiny`, `base`, `small`, ...). |
+
+**Default backend split:** caption + verify/rewrite run on **Qwen3-Omni**; generation
+(query writing) runs on **Gemini**. `GEMINI_API_KEY` is therefore always required.
 
 ### Caption backends
 

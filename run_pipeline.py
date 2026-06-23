@@ -49,7 +49,10 @@ _VIDEO_EXTENSIONS = (".mp4", ".avi")
 
 
 def pick_videos(
-    video_dir: Path, n: int, seed: int = 42, video_ids: Optional[List[str]] = None
+    video_dir: Path,
+    n: Optional[int] = None,
+    seed: int = 42,
+    video_ids: Optional[List[str]] = None,
 ) -> List[Path]:
     all_videos = sorted(
         p for ext in _VIDEO_EXTENSIONS for p in video_dir.glob(f"*{ext}")
@@ -68,7 +71,9 @@ def pick_videos(
                 f"--video-ids not found in {video_dir}: {', '.join(missing)}"
             )
         return [by_stem[v] for v in wanted]
-    if n >= len(all_videos):
+    # No count given -> process every video. Otherwise sample n (or all if n is
+    # at least the total).
+    if n is None or n >= len(all_videos):
         return all_videos
     random.seed(seed)
     return sorted(random.sample(all_videos, n))
@@ -77,7 +82,10 @@ def pick_videos(
 def main() -> None:
     parser = argparse.ArgumentParser(description="v4 caption-based query generation.")
     parser.add_argument("--video-dir", required=True)
-    parser.add_argument("--num-videos", "-n", type=int, default=10)
+    parser.add_argument(
+        "--num-videos", "-n", type=int, default=None,
+        help="How many videos to sample. Omit to process ALL videos in --video-dir.",
+    )
     parser.add_argument(
         "--video-ids",
         default=None,
