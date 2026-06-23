@@ -550,6 +550,10 @@ class Qwen3OmniCaptioner:
     )
     use_audio_in_video: bool = True
     engine: str = "vllm"  # "vllm" | "transformers"
+    # Force the qwen_omni_utils video reader so it never tries torchcodec
+    # (which often fails to load on mismatched CUDA/ffmpeg). "" leaves the
+    # library's auto-detection alone. Set via FORCE_QWENVL_VIDEO_READER.
+    video_reader_backend: str = "torchvision"
     # vLLM-only knobs.
     gpu_memory_utilization: float = 0.95
     max_num_seqs: int = 8
@@ -571,6 +575,10 @@ class Qwen3OmniCaptioner:
         """Load the model + processor exactly once. Heavy imports live here."""
         if self._llm is not None or self._model is not None:
             return
+        # Pin the qwen_omni_utils video reader BEFORE any video is decoded, so it
+        # never falls through to torchcodec. Set before process_mm_info import.
+        if self.video_reader_backend:
+            os.environ["FORCE_QWENVL_VIDEO_READER"] = self.video_reader_backend
         if self.engine == "transformers":
             self._ensure_model_transformers()
         else:

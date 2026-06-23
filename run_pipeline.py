@@ -159,6 +159,14 @@ def main() -> None:
         "(e.g. flash_attention_2, sdpa, eager). Default lets HF choose.",
     )
     parser.add_argument(
+        "--qwen-video-reader-backend",
+        choices=["torchvision", "decord", "torchcodec"],
+        default="torchvision",
+        help="Force the qwen_omni_utils video reader (sets "
+        "FORCE_QWENVL_VIDEO_READER). Default 'torchvision' avoids torchcodec, "
+        "which often fails to load on mismatched CUDA/ffmpeg.",
+    )
+    parser.add_argument(
         "--verify-rewrite-backend",
         choices=["gemini", "qwen3_omni"],
         default="qwen3_omni",
@@ -222,9 +230,16 @@ def main() -> None:
         f"Models — caption: {caption_desc} | generation: {args.generation_model} "
         f"| verify/rewrite: {vr_desc}"
     )
+    # Show the caption batch that is actually in effect for the chosen backend
+    # (qwen3_omni uses --caption-batch-size; gemini uses --batch-size).
+    cap_batch = (
+        args.caption_batch_size
+        if args.caption_backend == "qwen3_omni"
+        else args.batch_size
+    )
     print(
         f"Segmentation — {args.segment_seconds}s window / {args.stride}s stride "
-        f"| batch {args.batch_size} | max_accepted {args.max_accepted}\n"
+        f"| caption batch {cap_batch} | max_accepted {args.max_accepted}\n"
     )
 
     client = GeminiLLMClient(
@@ -247,6 +262,7 @@ def main() -> None:
             model_path=args.qwen_model_path,
             engine=args.qwen_engine,
             attn_implementation=args.qwen_attn_impl,
+            video_reader_backend=args.qwen_video_reader_backend,
         )
     # Caption backend selection.
     omni_captioner = qwen_engine if use_qwen_caption else None

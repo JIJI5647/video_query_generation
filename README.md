@@ -90,12 +90,17 @@ Key flags (all optional except `--video-dir`):
 `--caption-model --generation-model --verification-model --rewrite-model`
 `--segments-dir --force-reextract --no-transcript --whisper-model`
 `--caption-backend --caption-batch-size --qwen-model-path --qwen-engine --qwen-attn-impl`
-`--verify-rewrite-backend --captions-cache-dir --resume / --no-resume --overwrite-captions`
+`--qwen-video-reader-backend --verify-rewrite-backend --captions-cache-dir`
+`--resume / --no-resume --overwrite-captions`
 
-Defaults: 5s segments / 5s stride (non-overlapping), batch 8, max_accepted 8,
-max_rewrites 3, caption & generation `gemini-2.5-flash-lite`, verification
-`gemini-3.1-flash-lite`, rewrite `gemini-2.5-flash-lite`, segments cached under
-`data/processed_segments`, WhisperX model `small`.
+Defaults: 5s segments / 5s stride (non-overlapping), max_accepted 8, max_rewrites 3,
+segments cached under `data/processed_segments`, WhisperX model `small`.
+
+Backend defaults: **caption + verify/rewrite on Qwen3-Omni**
+(`Qwen/Qwen3-Omni-30B-A3B-Instruct`, vLLM engine, caption batch 1), **generation on
+Gemini** (`gemini-2.5-flash-lite`). The `--caption-model` / `--verification-model`
+(`gemini-3.1-flash-lite`) / `--rewrite-model` / `--batch-size 8` flags only take
+effect for whichever of those stages you switch back to Gemini.
 
 ### Caption backends
 
@@ -141,6 +146,10 @@ Qwen3-Omni specifics:
 - **Lazy load:** the model is loaded only on the first inference call — importing
   the module or constructing the backend touches no GPU and downloads no weights.
   Run the pipeline on a GPU server; it cannot run on a laptop.
+- **Video reader (`--qwen-video-reader-backend`):** forces the `qwen_omni_utils`
+  video reader (sets `FORCE_QWENVL_VIDEO_READER`). Default `torchvision` avoids
+  `torchcodec`, which often fails to load on mismatched CUDA/ffmpeg. Equivalent to
+  exporting `FORCE_QWENVL_VIDEO_READER=torchvision` yourself.
 - **One segment per prompt:** each prompt always contains exactly one segment, so
   `segment_id` / `time_range` / caption can never be mis-paired. `--caption-batch-size`
   (default `1`, sequential) controls how many of these *independent* single-segment
