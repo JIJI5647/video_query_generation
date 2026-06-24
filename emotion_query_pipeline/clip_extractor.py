@@ -123,6 +123,66 @@ def extract_windows(
     return extracted
 
 
+def extract_frames(
+    clip_path: PathLike,
+    n: int = 5,
+    out_dir: PathLike = None,
+    overwrite: bool = False,
+) -> List[str]:
+    """Sample ``n`` evenly-spaced JPEG frames from a clip (for frame-based VLMs).
+
+    Frames are written next to the clip under ``<clip_dir>/frames/<clip_stem>/``
+    (or ``out_dir`` if given) as ``frame_000.jpg`` .. and reused on rerun unless
+    ``overwrite``. Returns the frame paths in temporal order. Used by the
+    Qwen3-VL caption backend, which reads frames rather than the whole video.
+    """
+    clip_path = Path(clip_path)
+    n = max(1, int(n))
+    frames_dir = Path(out_dir) if out_dir else clip_path.parent / "frames" / clip_path.stem
+    expected = [frames_dir / f"frame_{i:03d}.jpg" for i in range(n)]
+    if not overwrite and all(p.is_file() for p in expected):
+        return [str(p) for p in expected]
+
+    _require_ffmpeg()
+    frames_dir.mkdir(parents=True, exist_ok=True)
+    # Evenly sample n frames across the clip via the thumbnail/select filter. Use
+    # fps based on probed duration so frames are spread, not clustered at the start.
+    duration = _probe_duration(clip_path)
+    # Place samples at the midpoints of n equal sub-intervals.
+    paths: List[str] = []
+    for i in range(n):
+        t = duration * (i + 0.5) / n if duration > 0 else 0.0
+        out_path = frames_dir / f"frame_{i:03d}.jpg"
+        cmd = [
+            "ffmpeg", "-y", "-loglevel", "error",
+            "-ss", f"{t:.3f}", "-i", str(clip_path),
+            "-frames:v", "1", "-q:v", "2", str(out_path),
+        ]
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode != 0 or not out_path.is_file():
+            raise RuntimeError(
+                f"ffmpeg failed to grab frame {i} from {clip_path}: "
+                f"{result.stderr.strip()}"
+            )
+        paths.append(str(out_path))
+    return paths
+
+
+def _probe_duration(clip_path: PathLike) -> float:
+    """Best-effort clip duration in seconds via ffprobe (0.0 if unknown)."""
+    if shutil.which("ffprobe") is None:
+        return 0.0
+    cmd = [
+        "ffprobe", "-v", "error", "-show_entries", "format=duration",
+        "-of", "default=noprint_wrappers=1:nokey=1", str(clip_path),
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    try:
+        return float(result.stdout.strip())
+    except (ValueError, AttributeError):
+        return 0.0
+
+
 def cleanup_clips(temp_dir: PathLike, video_id: str) -> None:
     """Delete the temp clip directory for a video (best-effort)."""
     target = Path(temp_dir) / video_id

@@ -27,12 +27,16 @@ from typing import Dict, List, Optional
 sys.path.insert(0, str(Path(__file__).parent))
 
 from emotion_query_pipeline.captioning import GeminiUploader, caption_video
-from emotion_query_pipeline.omni_captioning import (
+from emotion_query_pipeline.qwen_omni_engine import (
     Qwen3OmniCaptioner,
     QwenOmniLLMClient,
-    caption_video_omni,
-    omni_to_emotion_caption,
 )
+from emotion_query_pipeline.observation_captioning import (
+    Qwen3VLCaptioner,
+    TimeChatCaptioner,
+    caption_video_observation,
+)
+from emotion_query_pipeline.emotion_events import generate_emotion_events
 from emotion_query_pipeline.export import export_all
 from emotion_query_pipeline.generation import generate_queries
 from emotion_query_pipeline.llm_client import GeminiLLMClient
@@ -42,7 +46,6 @@ from emotion_query_pipeline.segmentation import (
     plan_segments,
 )
 from emotion_query_pipeline.stats import compute_stats
-from emotion_query_pipeline.transcription import transcribe_video
 from emotion_query_pipeline.validation import validate_all
 from emotion_query_pipeline.video_utils import get_video_duration
 from emotion_query_pipeline.workflow import PipelineResult, run_query_pipeline
@@ -145,57 +148,57 @@ def main() -> None:
         action="store_true",
         help="Re-cut segment clips even if cached copies exist.",
     )
-    parser.add_argument(
-        "--transcript",
-        dest="transcript",
-        action="store_true",
-        default=False,
-        help="Enable WhisperX transcription; splices dialogue text into generation. "
-        "Default OFF (generation runs without dialogue text).",
-    )
-    parser.add_argument(
-        "--no-transcript",
-        dest="transcript",
-        action="store_false",
-        help="Disable WhisperX transcription (this is the default).",
-    )
-    parser.add_argument(
-        "--whisper-model",
-        default="small",
-        help="WhisperX model size for transcription (e.g. tiny, base, small).",
-    )
-    # --- Captioning backend (Qwen3-Omni) ---
+    # --- Captioning backend ---
     parser.add_argument(
         "--caption-backend",
-        choices=["gemini", "qwen3_omni"],
-        default="qwen3_omni",
-        help="Captioning backend. 'qwen3_omni' (default) uses the local-server "
-        "Qwen3-Omni structured captioner (one segment per prompt); 'gemini' uses "
-        "the Gemini Files API batch path.",
+        choices=["qwen3_vl_timechat", "gemini"],
+        default="qwen3_vl_timechat",
+        help="Captioning backend (OBSERVATION-only, no emotion). "
+        "'qwen3_vl_timechat' (default) = Qwen3-VL over sampled frames (visual) + "
+        "TimeChat over the clip (audio/temporal), merged per segment. "
+        "'gemini' = Files API batch.",
+    )
+    parser.add_argument(
+        "--qwen3vl-model-path",
+        default="Qwen/Qwen3-VL-8B-Instruct",
+        help="Model path/name for the Qwen3-VL visual caption backend.",
+    )
+    parser.add_argument(
+        "--timechat-model-path",
+        default="yaolily/TimeChat-Captioner-GRPO-7B",
+        help="Model path/name for the TimeChat audio/temporal caption backend.",
+    )
+    parser.add_argument(
+        "--frames-per-segment",
+        type=int,
+        default=5,
+        help="Frames sampled per segment for the Qwen3-VL visual backend (default 5).",
+    )
+    parser.add_argument(
+        "--emotion-event-model",
+        default=None,
+        help="Gemini model for the emotion-event stage. Defaults to the "
+        "generation model.",
     )
     parser.add_argument(
         "--caption-batch-size",
         type=int,
         default=1,
-        help="How many segments go into ONE caption prompt (both backends). The "
-        "model sees N segment clips at once and returns N captions, each mapped "
-        "back to its segment_id. Default 1. Larger = fewer prompts but a bigger "
-        "single prompt (and a harder mapping for the model).",
+        help="Segments per caption prompt for the gemini caption backend. Default 1. "
+        "(The qwen3_vl_timechat backend is always one segment per prompt.)",
     )
     parser.add_argument(
         "--parallel",
         type=int,
         default=1,
-        help="qwen3_omni only: how many prompts to run in ONE batched model "
-        "generate() call (throughput) — applies to BOTH captioning (caption "
-        "prompts per call) and verify/rewrite (queries per call). Default 1. "
-        "Orthogonal to --caption-batch-size; larger uses more VRAM. Truly batched "
-        "on the qwen3_omni engine; the Gemini backend runs sequentially.",
+        help="How many prompts to run in ONE batched model generate() call "
+        "(throughput) — applies to captioning (qwen3_vl_timechat) and verify/rewrite "
+        "(qwen3_omni). Default 1; larger uses more VRAM.",
     )
     parser.add_argument(
         "--qwen-model-path",
         default="Qwen/Qwen3-Omni-30B-A3B-Instruct",
-        help="Model path/name for the qwen3_omni captioning backend.",
+        help="Model path/name for the qwen3_omni verify/rewrite engine.",
     )
     parser.add_argument(
         "--qwen-attn-impl",
@@ -263,8 +266,8 @@ def main() -> None:
     )
     selected = pick_videos(video_dir, args.num_videos, args.seed, video_ids)
     print(f"Selected {len(selected)} video(s) from {video_dir}")
-    if args.caption_backend == "qwen3_omni":
-        caption_desc = f"{args.qwen_model_path} (transformers)"
+    if args.caption_backend == "qwen3_vl_timechat":
+        caption_desc = f"{args.qwen3vl_model_path} + {args.timechat_model_path}"
     else:
         caption_desc = args.caption_model
     if args.verify_rewrite_backend == "qwen3_omni":
@@ -272,8 +275,9 @@ def main() -> None:
     else:
         vr_desc = f"{args.verification_model} / {args.rewrite_model}"
     print(
-        f"Models — caption: {caption_desc} | generation: {args.generation_model} "
-        f"| verify/rewrite: {vr_desc}"
+        f"Models — caption: {caption_desc} | emotion-event: "
+        f"{args.emotion_event_model or args.generation_model} | generation: "
+        f"{args.generation_model} | verify/rewrite: {vr_desc}"
     )
     print(
         f"Segmentation — {args.segment_seconds}s window / {args.stride}s stride "
@@ -285,35 +289,47 @@ def main() -> None:
         generation_model=args.generation_model,
         verification_model=args.verification_model,
         rewrite_model=args.rewrite_model,
+        emotion_event_model=args.emotion_event_model,
         api_key=api_key,
     )
     uploader = GeminiUploader(api_key=api_key)
 
-    # Qwen3-Omni engine, shared across stages that need it (caption and/or
-    # verify+rewrite) so the weights load ONCE. Constructed here but NOT loaded
-    # yet — the heavy model load is lazy (first inference call on the server).
-    use_qwen_caption = args.caption_backend == "qwen3_omni"
+    use_dual_caption = args.caption_backend == "qwen3_vl_timechat"
     use_qwen_vr = args.verify_rewrite_backend == "qwen3_omni"
+
+    # Qwen3-Omni engine — used ONLY for verify/rewrite. Lazy: constructed here,
+    # loaded on first inference.
     qwen_engine = None
-    if use_qwen_caption or use_qwen_vr:
+    if use_qwen_vr:
         qwen_engine = Qwen3OmniCaptioner(
             model_path=args.qwen_model_path,
             attn_implementation=args.qwen_attn_impl,
             video_reader_backend=args.qwen_video_reader_backend,
         )
-    # Caption backend selection.
-    omni_captioner = qwen_engine if use_qwen_caption else None
+
+    # Dual observation caption backend (Qwen3-VL frames + TimeChat clip). Lazy load.
+    vl_captioner = tc_captioner = None
+    if use_dual_caption:
+        vl_captioner = Qwen3VLCaptioner(
+            model_path=args.qwen3vl_model_path,
+            attn_implementation=args.qwen_attn_impl,
+        )
+        tc_captioner = TimeChatCaptioner(
+            model_path=args.timechat_model_path,
+            attn_implementation=args.qwen_attn_impl,
+            video_reader_backend=args.qwen_video_reader_backend,
+        )
+
     captions_cache_dir = Path(args.captions_cache_dir or (output_dir / "captions"))
     captions_raw_dir = output_dir / "captions_raw"
-    if use_qwen_caption:
+    if use_dual_caption:
         print(
-            f"Caption backend — qwen3_omni ({args.qwen_model_path}) | "
-            f"engine=transformers | {args.caption_batch_size} seg/prompt | "
-            f"{args.parallel} prompt(s)/call | "
-            f"resume={args.resume} | overwrite={args.overwrite_captions}\n"
-            f"  cache: {captions_cache_dir}"
+            f"Caption backend — qwen3_vl_timechat | "
+            f"{args.frames_per_segment} frames/seg (VL) + clip (TimeChat) | "
+            f"{args.parallel} prompt(s)/call | resume={args.resume} | "
+            f"overwrite={args.overwrite_captions}\n  cache: {captions_cache_dir}"
         )
-    # Verify/rewrite client: Gemini (default) or the shared Qwen3-Omni engine.
+    # Verify/rewrite client: Gemini (default) or the Qwen3-Omni engine.
     vr_client = QwenOmniLLMClient(qwen_engine) if use_qwen_vr else client
     if use_qwen_vr:
         print(f"Verify/rewrite backend — qwen3_omni ({args.qwen_model_path}) | "
@@ -348,56 +364,44 @@ def main() -> None:
                 )
             print(f"  {len(segments)} segments ready (cache: {segments_dir})")
 
-            # Steps 2-3: captions. Either the Gemini batch path or the
-            # Qwen3-Omni structured path (N segments/prompt + resume cache).
+            # Step 2: OBSERVATION captions (no emotion). Dual VL+TimeChat, legacy
+            # Qwen3-Omni, or Gemini — all produce observation captions.
             print(f"  → [2/5] captioning {len(segments)} segment(s) "
                   f"({args.caption_backend}, parallel={args.parallel})...",
                   flush=True)
             with timer.stage("captions"):
-                if args.caption_backend == "qwen3_omni":
-                    omni_caps = caption_video_omni(
-                        video_id,
-                        segments,
-                        omni_captioner,
-                        captions_cache_dir,
-                        captions_raw_dir,
-                        resume=args.resume,
-                        overwrite=args.overwrite_captions,
-                        caption_batch_size=args.caption_batch_size,
-                        caption_parallel=args.parallel,
+                if args.caption_backend == "qwen3_vl_timechat":
+                    raw = caption_video_observation(
+                        video_id, segments, vl_captioner, tc_captioner,
+                        captions_cache_dir, captions_raw_dir,
+                        resume=args.resume, overwrite=args.overwrite_captions,
+                        frames_per_segment=args.frames_per_segment,
+                        parallel=args.parallel,
                     )
-                    # Generation reads the RICH structured captions directly. The
-                    # flat EmotionCaption (adapter) is kept only for export/stats.
-                    gen_captions = omni_caps
-                    raw = [omni_to_emotion_caption(oc, video_id) for oc in omni_caps]
+                    gen_captions = raw
                 else:
                     raw = caption_video(
                         video_id, segments, client, uploader,
                         batch_size=args.caption_batch_size,
                     )
                     gen_captions = raw
-            # No caption filtering — every caption feeds generation, which selects
-            # which moments are worth a query.
-            print(f"  captions: {len(raw)} -> all sent to generation")
+            print(f"  captions: {len(raw)} observation caption(s)")
 
-            # B3: whole-video dialogue transcript (spliced into generation only).
-            transcript = None
-            if args.transcript:
-                print(f"  → [3/5] transcribing audio (WhisperX "
-                      f"{args.whisper_model})...", flush=True)
-                with timer.stage("transcript"):
-                    transcript = transcribe_video(
-                        video_path, model_size=args.whisper_model
-                    )
-                print(f"  transcript: {len(transcript)} dialogue line(s)")
+            # Step 3: emotion-event stage (Gemini, text-only) — the ONLY emotion
+            # judgment. Observation captions -> EmotionEvents (8 labels).
+            print("  → [3/5] inferring emotion events (Gemini)...", flush=True)
+            with timer.stage("emotion_events"):
+                event_output = generate_emotion_events(
+                    video_id, gen_captions, client, segments
+                )
+            print(f"  {len(event_output.events)} emotion event(s)")
 
-            # Step 5: generate queries from the video's captions + transcript
-            # (no video). Grounding is by time range; segment_ids are resolved
-            # internally (B1).
+            # Step 4: generate queries from observation captions + emotion events
+            # (no video). Grounding by time range; segment_ids resolved internally.
             print("  → [4/5] generating queries (Gemini)...", flush=True)
             with timer.stage("generation"):
                 gen_output = generate_queries(
-                    video_id, gen_captions, client, segments, transcript
+                    video_id, gen_captions, event_output.events, client, segments
                 )
             print(f"  {len(gen_output.queries)} queries generated")
 
@@ -442,6 +446,7 @@ def main() -> None:
 
             result.segments[video_id] = segments
             result.raw_captions[video_id] = raw
+            result.emotion_events[video_id] = event_output
             result.gen_outputs[video_id] = gen_output
             result.video_traces[video_id] = traces
             result.ver_outputs[video_id] = ver_outs
@@ -490,6 +495,7 @@ def main() -> None:
         result.ver_outputs,
         result.segments,
         result.raw_captions,
+        result.emotion_events,
         warnings,
     )
 
@@ -525,7 +531,8 @@ def main() -> None:
     print("\n--- v2 Pipeline Summary ---")
     print(f"  Videos processed     : {stats.total_videos}")
     print(f"  Segments / captions  : {stats.total_segments} segs, "
-          f"{stats.total_raw_captions} captions")
+          f"{stats.total_raw_captions} observation captions")
+    print(f"  Emotion events       : {stats.total_emotion_events}")
     print(f"  Initial queries      : {stats.total_initial_queries}")
     print(f"  Accepted queries     : {stats.total_accepted_queries}")
     print(f"  Discarded queries    : {stats.total_discarded_queries}")

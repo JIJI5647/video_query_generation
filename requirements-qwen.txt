@@ -1,19 +1,22 @@
-# Server-only dependencies for the qwen3_omni caption backend.
+# Server-only dependencies for the local caption / verify backends:
+#   - qwen3_vl_timechat caption backend (Qwen3-VL frames + TimeChat clip)
+#   - legacy qwen3_omni caption backend
+#   - qwen3_omni verify/rewrite
 #
-# Heavy + require a GPU. NOT needed for the default Gemini pipeline, the local
-# lightweight checks, or tests — the backend imports them lazily (only on the
-# first real inference call). Install ONLY on the GPU inference server:
+# Heavy + require a GPU. NOT needed for the local lightweight checks or tests —
+# everything is imported lazily (only on the first real inference call). Install
+# ONLY on the GPU inference server:
 #
 #     pip install -r requirements.txt -r requirements-qwen.txt
 #
 # Versions are intentionally unpinned: Transformers must be recent enough to
-# support Qwen3-Omni (Qwen3OmniMoeForConditionalGeneration + Qwen3OmniMoeProcessor),
-# and torch must be a build matching the GPU driver's CUDA. Follow the official
-# Qwen3-Omni instructions if these floating versions don't resolve.
+# support Qwen3-VL (Qwen3VLForConditionalGeneration), Qwen2.5-Omni (TimeChat's
+# arch) and Qwen3-Omni; torch must be a build matching the GPU driver's CUDA.
 
-# --- transformers inference engine ---
-transformers          # Qwen3-Omni model + processor
-qwen-omni-utils       # process_mm_info (video/audio preprocessing)
+# --- transformers inference ---
+transformers          # Qwen3-VL / Qwen2.5-Omni (TimeChat) / Qwen3-Omni + processors
+qwen-vl-utils         # process_vision_info (frame preprocessing for Qwen3-VL)
+qwen-omni-utils       # process_mm_info (video/audio preprocessing for the Omni models)
 torch                 # install the CUDA build that matches your GPU driver
 accelerate            # device_map="auto" sharding
 

@@ -26,16 +26,16 @@ from typing import Dict, List
 sys.path.insert(0, str(Path(__file__).parent))
 
 from emotion_query_pipeline.captioning import GeminiUploader
+from emotion_query_pipeline.emotion_events import generate_emotion_events
 from emotion_query_pipeline.export import export_all
 from emotion_query_pipeline.generation import generate_queries
 from emotion_query_pipeline.llm_client import GeminiLLMClient
-from emotion_query_pipeline.models import EmotionCaption, Segment
+from emotion_query_pipeline.models import OmniCaption, Segment
 from emotion_query_pipeline.segmentation import (
     extract_segment_clips,
     grid_key_from_segments,
 )
 from emotion_query_pipeline.stats import compute_stats
-from emotion_query_pipeline.transcription import transcribe_video
 from emotion_query_pipeline.validation import validate_all
 from emotion_query_pipeline.workflow import PipelineResult, run_query_pipeline
 
@@ -83,12 +83,7 @@ def main() -> None:
     parser.add_argument("--temp-dir", default="temp_clips")
     parser.add_argument("--segments-dir", default="data/processed_segments")
     parser.add_argument("--force-reextract", action="store_true")
-    parser.add_argument(
-        "--no-transcript",
-        action="store_true",
-        help="Skip WhisperX transcription; generation runs without dialogue text.",
-    )
-    parser.add_argument("--whisper-model", default="small")
+    parser.add_argument("--emotion-event-model", default=None)
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -101,7 +96,7 @@ def main() -> None:
     output_dir = Path(args.output)
 
     segments = _load_by_video(captions_dir / "segments.jsonl", Segment)
-    raw_captions = _load_by_video(captions_dir / "raw_captions.jsonl", EmotionCaption)
+    raw_captions = _load_by_video(captions_dir / "raw_captions.jsonl", OmniCaption)
     # No filtering — generation reads all captions and selects moments itself.
     gen_caption_source = raw_captions
     source_name = "raw_captions.jsonl"
@@ -121,6 +116,7 @@ def main() -> None:
         generation_model=args.generation_model,
         verification_model=args.verification_model,
         rewrite_model=args.rewrite_model,
+        emotion_event_model=args.emotion_event_model,
         api_key=api_key,
     )
     uploader = GeminiUploader(api_key=api_key)
@@ -146,19 +142,18 @@ def main() -> None:
                     f"no video for {video_id} in {video_dir}"
                 )
 
-            # B3: whole-video dialogue transcript (spliced into generation only).
-            transcript = None
-            if not args.no_transcript:
-                transcript = transcribe_video(video_path, model_size=args.whisper_model)
-                print(f"  transcript: {len(transcript)} dialogue line(s)")
-
-            # Step 5: generate queries from all of the video's captions +
-            # transcript (no video). Grounding is by time range; segment_ids are
-            # resolved internally (B1).
-            gen_output = generate_queries(
-                video_id, caps, client, full_segs, transcript
+            # Emotion-event stage (Gemini, text-only) from observation captions.
+            event_output = generate_emotion_events(
+                video_id, caps, client, full_segs
             )
-            print(f"  {len(caps)} captions -> {len(gen_output.queries)} queries generated")
+            print(f"  {len(caps)} captions -> {len(event_output.events)} emotion event(s)")
+
+            # Generate queries from observation captions + emotion events (no
+            # video). Grounding is by time range; segment_ids resolved internally.
+            gen_output = generate_queries(
+                video_id, caps, event_output.events, client, full_segs
+            )
+            print(f"  {len(gen_output.queries)} queries generated")
 
             # Step 6: cut (or reuse cached) the grounded segment clips, upload
             # them, then verify/rewrite each query against just its own clip(s).
@@ -196,6 +191,7 @@ def main() -> None:
 
             result.segments[video_id] = segments.get(video_id, [])
             result.raw_captions[video_id] = raw_captions.get(video_id, [])
+            result.emotion_events[video_id] = event_output
             result.gen_outputs[video_id] = gen_output
             result.video_traces[video_id] = traces
             result.ver_outputs[video_id] = ver_outs
@@ -234,6 +230,7 @@ def main() -> None:
         result.ver_outputs,
         result.segments,
         result.raw_captions,
+        result.emotion_events,
         warnings,
     )
 

@@ -71,6 +71,7 @@ class GeminiLLMClient(BaseLLMClient):
         generation_model: str = "gemini-2.5-flash-lite",
         verification_model: str = "gemini-3.1-flash-lite",
         rewrite_model: str = "gemini-2.5-flash-lite",
+        emotion_event_model: Optional[str] = None,
         api_key: Optional[str] = None,
         temperature: float = 1.0,
         max_retries: int = 3,
@@ -80,6 +81,8 @@ class GeminiLLMClient(BaseLLMClient):
         self.generation_model = generation_model
         self.verification_model = verification_model
         self.rewrite_model = rewrite_model
+        # Emotion-event stage defaults to the generation model unless overridden.
+        self.emotion_event_model = emotion_event_model or generation_model
         self.temperature = temperature
         self.max_retries = max_retries
         self.retry_delay = retry_delay
@@ -99,6 +102,7 @@ class GeminiLLMClient(BaseLLMClient):
     # Map schema names to human-readable pipeline stages.
     _STAGE = {
         "CaptionBatchOutput": "caption",
+        "EmotionEventOutput": "emotion_event",
         "GenerationOutput": "generation",
         "VerificationBatchOutput": "verification",
         "RewriteBatchOutput": "rewrite",
@@ -130,6 +134,8 @@ class GeminiLLMClient(BaseLLMClient):
     def _model_for(self, schema_name: str) -> str:
         if schema_name == "CaptionBatchOutput":
             return self.caption_model
+        if schema_name == "EmotionEventOutput":
+            return self.emotion_event_model
         if schema_name == "VerificationBatchOutput":
             return self.verification_model
         if schema_name == "RewriteBatchOutput":

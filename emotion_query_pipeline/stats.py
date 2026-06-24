@@ -5,7 +5,7 @@ from collections import Counter
 from typing import Dict, List
 
 from .models import (
-    EmotionCaption,
+    EmotionEventOutput,
     GenerationOutput,
     PipelineStats,
     QueryTrace,
@@ -19,7 +19,8 @@ def compute_stats(
     gen_outputs: Dict[str, GenerationOutput],
     ver_outputs: Dict[str, List[VerificationBatchOutput]],
     segments: Dict[str, List[Segment]],
-    raw_captions: Dict[str, List[EmotionCaption]],
+    raw_captions: Dict[str, list],
+    emotion_events: Dict[str, EmotionEventOutput],
     validation_warnings: List[str],
 ) -> PipelineStats:
     total_videos = len(video_traces)
@@ -39,13 +40,15 @@ def compute_stats(
     total_discarded = len(discarded)
     avg_accepted = total_accepted / total_videos if total_videos else 0.0
 
-    # Caption-stage tallies (no filtering — all captions feed generation).
+    # Caption-stage tallies (observation captions — no emotion on captions).
     total_segments = sum(len(v) for v in segments.values())
     total_raw = sum(len(v) for v in raw_captions.values())
+    # Emotion distribution now comes from the emotion-event stage (the 8 labels).
+    total_events = sum(len(out.events) for out in emotion_events.values())
     emotion_dist: Counter = Counter()
-    for caps in raw_captions.values():
-        for c in caps:
-            emotion_dist[c.emotion] += 1
+    for out in emotion_events.values():
+        for e in out.events:
+            emotion_dist[e.emotion_label] += 1
 
     # Query type distributions
     initial_types: Counter = Counter()
@@ -75,6 +78,7 @@ def compute_stats(
         total_videos=total_videos,
         total_segments=total_segments,
         total_raw_captions=total_raw,
+        total_emotion_events=total_events,
         total_initial_queries=total_initial,
         total_accepted_queries=total_accepted,
         total_discarded_queries=total_discarded,

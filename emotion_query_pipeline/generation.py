@@ -1,18 +1,15 @@
-"""Step 5: generate queries from all of a video's captions (text-only, no video).
+"""Query generation from observation captions + emotion events (text-only, no video).
 
-The model never sees the video here — it reads every emotion caption extracted
-from the video (plus the spoken-dialogue transcript, when available) and selects
-the moments worth turning into queries.
+The model never sees the video here — it reads the observation captions and the
+emotion events (the Gemini emotion-event stage already did all emotion judgment)
+and selects the moments worth turning into queries.
 
-v4 changes:
 - Grounding handle is a **time range** ``[start, end]`` in seconds, not a
-  ``segment_id``. Captions are shown to the model with their time range, and the
-  model grounds each query on a time range. We validate every query's range and
-  resolve it back to the overlapping ``segment_ids`` internally (each segment has
-  exactly one caption / one clip), so the rest of the pipeline — which uploads
-  and verifies per-segment clips — is unchanged. A query whose range is invalid
-  or overlaps no segment is dropped.
-- A WhisperX dialogue transcript is spliced into the prompt as extra context.
+  ``segment_id``. Captions/events are shown with their time range, the model
+  grounds each query on a time range, and we resolve it back to the overlapping
+  ``segment_ids`` internally (each segment has exactly one caption / one clip).
+  A query whose range is invalid or overlaps no segment is dropped.
+- There is NO transcript anymore (WhisperX removed); no quotable-speech queries.
 """
 from __future__ import annotations
 
@@ -24,6 +21,7 @@ from .io_utils import load_prompt_template
 from .llm_client import BaseLLMClient
 from .models import (
     EmotionCaption,
+    EmotionEvent,
     EventGroundedQuery,
     GenerationOutput,
     OmniCaption,
@@ -67,19 +65,18 @@ def _caption_time_range(
 
 
 def _caption_payload_entry(caption, tr: List[float]) -> dict:
-    """One caption as the model sees it — a unified rich schema for both types.
+    """One OBSERVATION caption as the model sees it — a unified schema for both types.
 
-    Qwen3-Omni captions pass through their full ``visual_objective`` /
-    ``visual_expression`` structure; the flat Gemini ``EmotionCaption`` is mapped
-    into the same shape (sparsely) so the generation prompt describes one schema.
-    ``emotion_description`` is a CANDIDATE reading (a full sentence for omni, the
-    label for the flat caption), never a gold label.
+    ``OmniCaption`` passes through its full ``visual_objective`` /
+    ``visual_expression`` structure; the legacy flat ``EmotionCaption`` is mapped
+    into the same shape (sparsely). NO emotion is included — emotion lives in the
+    separate emotion-events payload.
     """
     if isinstance(caption, OmniCaption):
         visual_objective = caption.visual_objective.model_dump()
         visual_expression = [ve.model_dump() for ve in caption.visual_expression]
         audio_description = caption.audio_description
-        emotion_description = caption.emotion_description
+        temporal_description = getattr(caption, "temporal_description", "")
     else:
         visual_objective = {
             "people": [{"person": caption.person, "action": caption.action}],
@@ -95,13 +92,13 @@ def _caption_payload_entry(caption, tr: List[float]) -> dict:
             else []
         )
         audio_description = caption.sound
-        emotion_description = caption.emotion
+        temporal_description = ""
     return {
         "time_range": tr,
         "visual_objective": visual_objective,
         "visual_expression": visual_expression,
         "audio_description": audio_description,
-        "emotion_description": emotion_description,
+        "temporal_description": temporal_description,
         "confidence": caption.confidence,
         "evidence_strength": caption.evidence_strength,
     }
@@ -110,11 +107,11 @@ def _caption_payload_entry(caption, tr: List[float]) -> dict:
 def _captions_payload(
     captions: list, seg_time: Dict[str, Tuple[float, float]]
 ) -> list:
-    """Structured, segment-level multimodal evidence for the generation model.
+    """Structured, segment-level OBSERVATION evidence (no emotion).
 
-    Accepts Qwen3-Omni ``OmniCaption`` (rich, fed directly) or the flat
-    ``EmotionCaption`` (Gemini / rerun); both render to one unified schema. The
-    spoken-dialogue transcript is provided separately — never folded into captions.
+    Accepts ``OmniCaption`` (rich, fed directly) or the legacy flat
+    ``EmotionCaption``; both render to one unified observation schema. Shared by
+    the emotion-event stage and the query stage.
     """
     payload = []
     for c in captions:
@@ -125,21 +122,21 @@ def _captions_payload(
     return payload
 
 
-def _transcript_payload(transcript: Optional[List[dict]]) -> list:
-    if not transcript:
-        return []
+def _events_payload(events: Optional[List[EmotionEvent]]) -> list:
+    """Emotion events as the query model sees them (the emotion signal)."""
     out = []
-    for line in transcript:
-        text = (line.get("text") or "").strip()
-        if not text:
-            continue
+    for e in events or []:
         out.append(
             {
-                "time_range": [
-                    round(float(line.get("start", 0.0)), 2),
-                    round(float(line.get("end", 0.0)), 2),
-                ],
-                "text": text,
+                "event_id": e.event_id,
+                "emotion_label": e.emotion_label,
+                "event_description": e.event_description,
+                "time_range": e.time_range,
+                "target_person_or_group": e.target_person_or_group,
+                "visual_evidence": list(e.visual_evidence),
+                "audio_evidence": list(e.audio_evidence),
+                "confidence": e.confidence,
+                "evidence_strength": e.evidence_strength,
             }
         )
     return out
@@ -148,44 +145,45 @@ def _transcript_payload(transcript: Optional[List[dict]]) -> list:
 def build_generation_prompt(
     video_id: str,
     captions: List[EmotionCaption],
+    events: Optional[List[EmotionEvent]],
     segments: List[Segment],
-    transcript: Optional[List[dict]] = None,
     prompts_dir: Optional[Path] = None,
 ) -> str:
     template = load_prompt_template(
         prompts_dir or _PROMPTS_DIR, "generation_prompt.txt"
     )
     seg_time = _segment_time_map(segments)
-    tx = _transcript_payload(transcript)
-    transcript_json = (
-        json.dumps(tx, indent=2, ensure_ascii=False)
-        if tx
-        else "(no spoken dialogue transcript available for this video)"
-    )
     prompt = template
     prompt = prompt.replace("{video_id}", video_id)
     prompt = prompt.replace(
         "{captions_json}",
         json.dumps(_captions_payload(captions, seg_time), indent=2, ensure_ascii=False),
     )
-    prompt = prompt.replace("{transcript_json}", transcript_json)
+    prompt = prompt.replace(
+        "{events_json}",
+        json.dumps(_events_payload(events), indent=2, ensure_ascii=False),
+    )
     return prompt
 
 
 def generate_queries(
     video_id: str,
     captions: List[EmotionCaption],
+    events: Optional[List[EmotionEvent]],
     client: BaseLLMClient,
     segments: List[Segment],
-    transcript: Optional[List[dict]] = None,
     prompts_dir: Optional[Path] = None,
 ) -> GenerationOutput:
-    """Generate queries from all of a video's captions. Returns a validated GenerationOutput."""
-    if not captions:
+    """Generate queries from observation captions + emotion events.
+
+    Returns a validated GenerationOutput. With no emotion events there is nothing
+    to ground emotion queries on, so an empty list is returned.
+    """
+    if not captions or not events:
         return GenerationOutput(video_id=video_id, queries=[])
 
     prompt = build_generation_prompt(
-        video_id, captions, segments, transcript, prompts_dir
+        video_id, captions, events, segments, prompts_dir
     )
     raw = client.generate_json(prompt, "GenerationOutput", video_uri=None)
     raw.setdefault("video_id", video_id)

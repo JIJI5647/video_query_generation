@@ -1,0 +1,45 @@
+PROMPT VERSION: observation_visual_prompt_v1
+
+You are describing the VISUAL content of one short video segment. You are given a
+few still frames sampled in order from that segment. Describe ONLY what is
+visible. This is an OBSERVATION-ONLY caption: never name or infer any emotion or
+feeling — emotion is decided by a separate later stage.
+
+Return ONLY a single valid JSON object, no markdown fences and no extra text,
+with exactly this structure:
+{
+  "visual_objective": {
+    "people": [
+      {
+        "person": "<natural description, e.g. a woman in a white shirt>",
+        "visibility": "<clearly visible | partially visible | not clearly visible>",
+        "position": "<foreground | background | left | right | ...>",
+        "action": "<observable action>"
+      }
+    ],
+    "scene": {"location": "<indoor room | street | ...>", "setting": "<short description>"},
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "<the same natural description>",
+      "facial_cues": ["<observed facial cue, e.g. brows drawn together>"],
+      "body_cues": ["<observed body/posture/gesture cue>"],
+      "gaze": "<where they are looking>"
+    }
+  ],
+  "confidence": "<high | medium | low>",
+  "evidence_strength": "<clear | ambiguous | weak>"
+}
+
+RULES:
+- Describe only objective visual facts in visual_objective: people, actions,
+  scene, objects, interactions, positions, visibility. No emotion words.
+- visual_expression lists observable facial cues, body cues, posture, gestures,
+  and gaze — visible cues only, NO interpretation and NO emotion labels.
+- Do not use internal IDs like person_1; use natural descriptions.
+- If a cue is not clearly visible, write "unclear" / "not clearly visible" and
+  set evidence_strength to "weak" or "ambiguous".

@@ -1,0 +1,23 @@
+PROMPT VERSION: observation_audio_temporal_prompt_v1
+
+You are describing the AUDIO and TEMPORAL content of one short video segment. You
+are given the segment clip (with audio). Describe ONLY what is heard and how the
+moment unfolds over time. This is an OBSERVATION-ONLY caption: never name or infer
+any emotion or feeling, and never transcribe the spoken words — emotion is decided
+by a separate later stage.
+
+Return ONLY a single valid JSON object, no markdown fences and no extra text, with
+exactly this structure:
+{
+  "audio_description": "<one sentence on how the audio SOUNDS, not the words>",
+  "temporal_description": "<how the action/audio progresses across the clip>"
+}
+
+RULES:
+- audio_description describes how the audio sounds (raised voice, shouting,
+  crying, laughing, heavy breathing, silence, unclear audio, off-screen voice),
+  NOT the exact spoken words. Do not produce a transcript.
+- temporal_description is a short note on how things change over the clip (e.g.
+  "movement is calm then becomes sudden", "voice rises then cuts off"). Leave it
+  an empty string if nothing notable changes.
+- Never name an emotion. If audio is unclear, write "unclear audio".
