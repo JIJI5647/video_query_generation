@@ -16,7 +16,7 @@ set -u
 VIDEO_DIR="data/pilot_study"
 NUM_VIDEOS=5
 SEED=42
-PARALLEL=4
+PARALLEL=2
 BATCH_SIZES=(1 2 4 8)
 
 mkdir -p logs/batch_sweep
