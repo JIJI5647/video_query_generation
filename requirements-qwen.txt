@@ -18,6 +18,8 @@ transformers          # Qwen3-VL / Qwen2.5-Omni (TimeChat) / Qwen3-Omni + proces
 qwen-vl-utils         # process_vision_info (frame preprocessing for Qwen3-VL)
 qwen-omni-utils       # process_mm_info (video/audio preprocessing for the Omni models)
 torch                 # install the CUDA build that matches your GPU driver
+torchvision           # REQUIRED by the Qwen VL/Omni image+video processors; install
+                      # the build matching torch (e.g. --index-url .../whl/cu121)
 accelerate            # device_map="auto" sharding
 
 # --- Optional: faster attention for the transformers engine ---
