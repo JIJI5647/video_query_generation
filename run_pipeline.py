@@ -146,9 +146,18 @@ def main() -> None:
         help="Re-cut segment clips even if cached copies exist.",
     )
     parser.add_argument(
-        "--no-transcript",
+        "--transcript",
+        dest="transcript",
         action="store_true",
-        help="Skip WhisperX transcription; generation runs without dialogue text.",
+        default=False,
+        help="Enable WhisperX transcription; splices dialogue text into generation. "
+        "Default OFF (generation runs without dialogue text).",
+    )
+    parser.add_argument(
+        "--no-transcript",
+        dest="transcript",
+        action="store_false",
+        help="Disable WhisperX transcription (this is the default).",
     )
     parser.add_argument(
         "--whisper-model",
@@ -373,7 +382,7 @@ def main() -> None:
 
             # B3: whole-video dialogue transcript (spliced into generation only).
             transcript = None
-            if not args.no_transcript:
+            if args.transcript:
                 print(f"  → [3/5] transcribing audio (WhisperX "
                       f"{args.whisper_model})...", flush=True)
                 with timer.stage("transcript"):
