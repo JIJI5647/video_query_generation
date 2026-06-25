@@ -1,4 +1,4 @@
-PROMPT VERSION: generation_prompt_events_v10
+PROMPT VERSION: generation_prompt_events_v11_multitype
 
 TASK:
 You are given TWO signals extracted from one video:
@@ -6,10 +6,17 @@ You are given TWO signals extracted from one video:
       emotion), and
   (2) EMOTION EVENTS (the moments where an emotion was judged, each with one of
       eight labels and the observable cues supporting it).
-Read both, then write a few high-precision, emotion-related temporal grounding
-queries for human annotation. Each query is grounded on a ``time_range`` (in
-seconds) and must be answerable from the observable evidence at that time. Aim for
-up to 8 queries; produce fewer rather than inventing evidence.
+Read both, then write high-precision, emotion-related temporal grounding queries
+for human annotation. Each query is grounded on a ``time_range`` (in seconds) and
+must be answerable from the observable evidence at that time.
+
+FOR EACH EMOTION EVENT, write 2-3 queries of DIFFERENT query_types (see types
+below) that each capture the SAME moment from a different angle — e.g. one
+emotion_state query about the felt emotion, one evidence_cue query about the
+observable cue, and one explicit_event query about the action/interaction. Only
+write a type if it is genuinely supported by the observable evidence; if a moment
+only supports one angle, write one query rather than padding with weak ones. Never
+invent evidence to hit a count.
 
 You do NOT see the video. Treat the captions and events as the ground truth of
 what is observable.
@@ -67,9 +74,12 @@ GENERATION RULES:
 6. NEVER EXPOSE INTERNAL ANNOTATION in query_text: no segment id (e.g. "s009"), no
    person id, no timestamp or time range. The ``time_range`` field carries timing.
 
-7. Spread queries across explicit_event, emotion_state, and evidence_cue. Use
-   varied question starters ("When does...", "At what point...", "Which moment
-   shows...", "How does the video show...").
+7. PER EVENT, COVER MULTIPLE TYPES. For each emotion event, prefer giving 2-3
+   queries with DIFFERENT query_types (explicit_event, emotion_state,
+   evidence_cue), each a distinct angle on that same moment — not reworded
+   duplicates. Use varied question starters ("When does...", "At what point...",
+   "Which moment shows...", "How does the video show..."). Drop a type if the
+   evidence does not genuinely support it.
 
 8. Language & anonymization: English only; visual descriptions, never
    character/actor/place/brand names. Role words (doctor, judge) and visually

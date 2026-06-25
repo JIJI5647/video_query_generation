@@ -74,7 +74,7 @@ class GeminiLLMClient(BaseLLMClient):
         emotion_event_model: Optional[str] = None,
         api_key: Optional[str] = None,
         temperature: float = 1.0,
-        max_retries: int = 3,
+        max_retries: int = 5,
         retry_delay: float = 5.0,
     ) -> None:
         self.caption_model = caption_model
@@ -206,7 +206,10 @@ class GeminiLLMClient(BaseLLMClient):
                     f"for {schema_name}: {e}. Retrying..."
                 )
             if attempt < self.max_retries:
-                time.sleep(self.retry_delay)
+                # Exponential backoff (5, 10, 20, 40, ... capped at 60s) so a
+                # transient 503 "high demand" spike is ridden out, not failed.
+                delay = min(self.retry_delay * (2 ** (attempt - 1)), 60.0)
+                time.sleep(delay)
 
         raise RuntimeError(
             f"Gemini call failed after {self.max_retries} attempts "
