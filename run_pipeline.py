@@ -31,8 +31,8 @@ from emotion_query_pipeline.omni_captioning import (
     Qwen3OmniCaptioner,
     QwenOmniLLMClient,
     caption_video_omni,
-    omni_to_emotion_caption,
 )
+from emotion_query_pipeline.emotion_events import generate_emotion_events
 from emotion_query_pipeline.export import export_all
 from emotion_query_pipeline.generation import generate_queries
 from emotion_query_pipeline.llm_client import GeminiLLMClient
@@ -42,7 +42,6 @@ from emotion_query_pipeline.segmentation import (
     plan_segments,
 )
 from emotion_query_pipeline.stats import compute_stats
-from emotion_query_pipeline.transcription import transcribe_video
 from emotion_query_pipeline.validation import validate_all
 from emotion_query_pipeline.video_utils import get_video_duration
 from emotion_query_pipeline.workflow import PipelineResult, run_query_pipeline
@@ -146,23 +145,10 @@ def main() -> None:
         help="Re-cut segment clips even if cached copies exist.",
     )
     parser.add_argument(
-        "--transcript",
-        dest="transcript",
-        action="store_true",
-        default=False,
-        help="Enable WhisperX transcription; splices dialogue text into generation. "
-        "Default OFF (generation runs without dialogue text).",
-    )
-    parser.add_argument(
-        "--no-transcript",
-        dest="transcript",
-        action="store_false",
-        help="Disable WhisperX transcription (this is the default).",
-    )
-    parser.add_argument(
-        "--whisper-model",
-        default="small",
-        help="WhisperX model size for transcription (e.g. tiny, base, small).",
+        "--emotion-event-model",
+        default=None,
+        help="Gemini model for the emotion-event stage. Defaults to the "
+        "generation model.",
     )
     # --- Captioning backend (Qwen3-Omni) ---
     parser.add_argument(
@@ -285,6 +271,7 @@ def main() -> None:
         generation_model=args.generation_model,
         verification_model=args.verification_model,
         rewrite_model=args.rewrite_model,
+        emotion_event_model=args.emotion_event_model,
         api_key=api_key,
     )
     uploader = GeminiUploader(api_key=api_key)
@@ -348,14 +335,14 @@ def main() -> None:
                 )
             print(f"  {len(segments)} segments ready (cache: {segments_dir})")
 
-            # Steps 2-3: captions. Either the Gemini batch path or the
-            # Qwen3-Omni structured path (N segments/prompt + resume cache).
+            # Step 2: OBSERVATION captions (no emotion). Qwen3-Omni structured
+            # path (cached) or the Gemini batch path.
             print(f"  → [2/5] captioning {len(segments)} segment(s) "
                   f"({args.caption_backend}, parallel={args.parallel})...",
                   flush=True)
             with timer.stage("captions"):
                 if args.caption_backend == "qwen3_omni":
-                    omni_caps = caption_video_omni(
+                    raw = caption_video_omni(
                         video_id,
                         segments,
                         omni_captioner,
@@ -366,38 +353,29 @@ def main() -> None:
                         caption_batch_size=args.caption_batch_size,
                         caption_parallel=args.parallel,
                     )
-                    # Generation reads the RICH structured captions directly. The
-                    # flat EmotionCaption (adapter) is kept only for export/stats.
-                    gen_captions = omni_caps
-                    raw = [omni_to_emotion_caption(oc, video_id) for oc in omni_caps]
                 else:
                     raw = caption_video(
                         video_id, segments, client, uploader,
                         batch_size=args.caption_batch_size,
                     )
-                    gen_captions = raw
-            # No caption filtering — every caption feeds generation, which selects
-            # which moments are worth a query.
-            print(f"  captions: {len(raw)} -> all sent to generation")
+                gen_captions = raw
+            print(f"  captions: {len(raw)} observation caption(s)")
 
-            # B3: whole-video dialogue transcript (spliced into generation only).
-            transcript = None
-            if args.transcript:
-                print(f"  → [3/5] transcribing audio (WhisperX "
-                      f"{args.whisper_model})...", flush=True)
-                with timer.stage("transcript"):
-                    transcript = transcribe_video(
-                        video_path, model_size=args.whisper_model
-                    )
-                print(f"  transcript: {len(transcript)} dialogue line(s)")
+            # Step 3: emotion-event stage (Gemini, text-only) — the ONLY emotion
+            # judgment. Observation captions -> EmotionEvents (8 labels).
+            print("  → [3/5] inferring emotion events (Gemini)...", flush=True)
+            with timer.stage("emotion_events"):
+                event_output = generate_emotion_events(
+                    video_id, gen_captions, client, segments
+                )
+            print(f"  {len(event_output.events)} emotion event(s)")
 
-            # Step 5: generate queries from the video's captions + transcript
-            # (no video). Grounding is by time range; segment_ids are resolved
-            # internally (B1).
+            # Step 4: generate queries from observation captions + emotion events
+            # (no video). Grounding by time range; segment_ids resolved internally.
             print("  → [4/5] generating queries (Gemini)...", flush=True)
             with timer.stage("generation"):
                 gen_output = generate_queries(
-                    video_id, gen_captions, client, segments, transcript
+                    video_id, gen_captions, event_output.events, client, segments
                 )
             print(f"  {len(gen_output.queries)} queries generated")
 
@@ -442,6 +420,7 @@ def main() -> None:
 
             result.segments[video_id] = segments
             result.raw_captions[video_id] = raw
+            result.emotion_events[video_id] = event_output
             result.gen_outputs[video_id] = gen_output
             result.video_traces[video_id] = traces
             result.ver_outputs[video_id] = ver_outs
@@ -490,6 +469,7 @@ def main() -> None:
         result.ver_outputs,
         result.segments,
         result.raw_captions,
+        result.emotion_events,
         warnings,
     )
 
@@ -525,7 +505,8 @@ def main() -> None:
     print("\n--- v2 Pipeline Summary ---")
     print(f"  Videos processed     : {stats.total_videos}")
     print(f"  Segments / captions  : {stats.total_segments} segs, "
-          f"{stats.total_raw_captions} captions")
+          f"{stats.total_raw_captions} observation captions")
+    print(f"  Emotion events       : {stats.total_emotion_events}")
     print(f"  Initial queries      : {stats.total_initial_queries}")
     print(f"  Accepted queries     : {stats.total_accepted_queries}")
     print(f"  Discarded queries    : {stats.total_discarded_queries}")

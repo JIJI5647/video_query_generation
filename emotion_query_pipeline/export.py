@@ -9,7 +9,7 @@ from typing import Dict, List
 
 from .io_utils import write_jsonl
 from .models import (
-    EmotionCaption,
+    EmotionEventOutput,
     FinalQueryRecord,
     GenerationOutput,
     PipelineStats,
@@ -24,6 +24,7 @@ _PROMPTS_SRC = Path(__file__).parent.parent / "prompts"
 _PROMPT_TEMPLATES = [
     "caption_prompt.txt",
     "omni_caption_prompt.txt",
+    "emotion_event_prompt.txt",
     "generation_prompt.txt",
     "verification_prompt.txt",
     "rewrite_prompt.txt",
@@ -42,10 +43,20 @@ def export_segments(segments: Dict[str, List[Segment]], out_path: Path) -> None:
     write_jsonl(out_path, records)
 
 
-def export_captions(
-    captions: Dict[str, List[EmotionCaption]], out_path: Path
-) -> None:
+def export_captions(captions: Dict[str, list], out_path: Path) -> None:
+    """Write observation captions (OmniCaption) — or any caption model — to JSONL."""
     records = [c.model_dump() for caps in captions.values() for c in caps]
+    write_jsonl(out_path, records)
+
+
+def export_emotion_events(
+    emotion_events: Dict[str, EmotionEventOutput], out_path: Path
+) -> None:
+    records = [
+        e.model_dump()
+        for out in emotion_events.values()
+        for e in out.events
+    ]
     write_jsonl(out_path, records)
 
 
@@ -182,6 +193,7 @@ def export_all(
 
     export_segments(result.segments, output_dir / "segments.jsonl")
     export_captions(result.raw_captions, output_dir / "raw_captions.jsonl")
+    export_emotion_events(result.emotion_events, output_dir / "emotion_events.jsonl")
 
     export_initial_queries(result.gen_outputs, output_dir / "initial_queries.jsonl")
     export_verification_rounds(result.ver_outputs, output_dir / "verification_rounds.jsonl")

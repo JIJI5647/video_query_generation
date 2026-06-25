@@ -48,6 +48,20 @@ CAPTION_EMOTION_LABELS = Literal[
     "unrelevant",
 ]
 
+# Labels an EmotionEvent may carry: exactly the eight emotion-relevant classes
+# (NO "neutral"/"unrelevant"). A moment with no clear emotion-relevant evidence
+# simply produces no event.
+EMOTION_EVENT_LABELS = Literal[
+    "angry",
+    "excited",
+    "fear",
+    "sad",
+    "surprised",
+    "frustrated",
+    "happy",
+    "disappointed",
+]
+
 
 # ---------------------------------------------------------------------------
 # Caption stage
@@ -87,18 +101,16 @@ class CaptionBatchOutput(BaseModel):
 
 
 # ---------------------------------------------------------------------------
-# Structured omni caption (Qwen3-Omni backend)
+# Structured observation caption (Qwen3-Omni backend)
 # ---------------------------------------------------------------------------
-# A richer, nested caption produced by the Qwen3-Omni captioning backend, one
-# per segment (one segment per prompt). It separates objective visual facts
-# (``visual_objective``) from observable affective cues (``visual_expression``),
-# non-transcript audio (``audio_description``), and a CANDIDATE emotion reading
-# (``emotion_description``). ``segment_id`` / ``time_range`` are metadata only —
-# they must not appear in any natural-language field. These captions are cached
-# to disk for resume and adapted down to ``EmotionCaption`` (see
-# ``omni_captioning.omni_to_emotion_caption``) so the existing generation /
-# filter / export path is unchanged. Sub-models allow extra keys so a slightly
-# richer model response never fails validation.
+# A nested, OBSERVATION-ONLY caption, one per segment. It separates objective
+# visual facts (``visual_objective``) from observable expression cues
+# (``visual_expression``), non-transcript audio (``audio_description``) and an
+# optional temporal progression (``temporal_description``). It carries NO emotion
+# — emotion is judged later by the Gemini emotion-event stage. ``segment_id`` /
+# ``time_range`` are metadata only. Captions are cached to disk for resume and
+# consumed directly downstream. Sub-models allow extra keys so a slightly richer
+# model response never fails validation.
 class OmniPerson(BaseModel):
     model_config = ConfigDict(extra="allow")
 
@@ -153,23 +165,53 @@ class OmniCaption(BaseModel):
     visual_objective: OmniVisualObjective = Field(default_factory=OmniVisualObjective)
     visual_expression: List[OmniVisualExpression] = Field(default_factory=list)
     audio_description: str = ""
-    emotion_description: str = ""
+    # Optional non-transcript temporal/audio progression.
+    temporal_description: str = ""
     confidence: Literal["high", "medium", "low"] = "low"
     evidence_strength: Literal["clear", "ambiguous", "weak"] = "ambiguous"
 
 
 # Top-level fields a cached OmniCaption must carry to be treated as a valid,
-# resumable result (spec §9.2). Order is informative for logs.
+# resumable result. Observation-only — NO emotion. ``temporal_description`` is
+# optional and intentionally NOT required.
 OMNI_REQUIRED_FIELDS: tuple[str, ...] = (
     "segment_id",
     "time_range",
     "visual_objective",
     "visual_expression",
     "audio_description",
-    "emotion_description",
     "confidence",
     "evidence_strength",
 )
+
+
+# ---------------------------------------------------------------------------
+# Emotion-event stage (Gemini) — the ONLY place emotion is judged
+# ---------------------------------------------------------------------------
+class EmotionEvent(BaseModel):
+    """One emotion-relevant moment inferred by the Gemini emotion-event stage.
+
+    Produced from observation captions only. ``emotion_label`` is restricted to
+    the eight emotion-relevant classes; a moment with no clear evidence yields no
+    event. ``segment_ids`` is resolved internally from ``time_range``.
+    """
+
+    video_id: str
+    event_id: str
+    emotion_label: EMOTION_EVENT_LABELS
+    event_description: str
+    time_range: Optional[List[float]] = None
+    target_person_or_group: str = ""
+    visual_evidence: List[str] = Field(default_factory=list)
+    audio_evidence: List[str] = Field(default_factory=list)
+    confidence: Literal["high", "medium", "low"] = "low"
+    evidence_strength: Literal["clear", "ambiguous", "weak"] = "ambiguous"
+    segment_ids: List[str] = Field(default_factory=list)
+
+
+class EmotionEventOutput(BaseModel):
+    video_id: str
+    events: List[EmotionEvent] = Field(default_factory=list)
 
 
 # ---------------------------------------------------------------------------
@@ -179,14 +221,11 @@ class GroundingEvidence(BaseModel):
     """Observable cues the model used to ground a query (debug/export only).
 
     Kept off the verification path — the verifier never sees these. ``visual``
-    and ``audio`` come from the caption's observable evidence; ``transcript``
-    must be supported by the existing dialogue transcript (no caption-guessed
-    quotes).
+    and ``audio`` come from the observation caption's observable evidence.
     """
 
     visual_evidence: List[str] = Field(default_factory=list)
     audio_evidence: List[str] = Field(default_factory=list)
-    transcript_evidence: List[str] = Field(default_factory=list)
 
 
 class EventGroundedQuery(BaseModel):
@@ -316,6 +355,7 @@ class PipelineStats(BaseModel):
     total_videos: int
     total_segments: int
     total_raw_captions: int
+    total_emotion_events: int
     total_initial_queries: int
     total_accepted_queries: int
     total_discarded_queries: int

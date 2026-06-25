@@ -22,7 +22,7 @@ import pytest
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from emotion_query_pipeline import omni_captioning as oc
-from emotion_query_pipeline.models import EMOTION_LABEL_VALUES, OmniCaption, Segment
+from emotion_query_pipeline.models import OmniCaption, Segment
 
 
 def _segment(seg_id="s022", index=22, start=105.0, end=110.0, clip="clip.mp4") -> Segment:
@@ -60,7 +60,7 @@ def _good_caption_dict(seg_id="s022", time_range=(105.0, 110.0)) -> dict:
             "body_cues": [], "gaze": "looking toward the man",
         }],
         "audio_description": "The woman speaks with an excited voice.",
-        "emotion_description": "The woman appears surprised, with widened eyes.",
+        "temporal_description": "Her voice rises sharply midway through the clip.",
         "confidence": "high",
         "evidence_strength": "clear",
     }
@@ -142,10 +142,13 @@ def test_extract_failures_raise():
 # Required-field validation
 # ---------------------------------------------------------------------------
 def test_missing_required_fields():
-    d = _good_caption_dict(); del d["emotion_description"]
-    assert "emotion_description" in oc.missing_required_fields(d)
+    d = _good_caption_dict(); del d["audio_description"]
+    assert "audio_description" in oc.missing_required_fields(d)
     d2 = _good_caption_dict(); d2["time_range"] = [1.0]
     assert "time_range" in oc.missing_required_fields(d2)
+    # temporal_description is OPTIONAL — its absence must not flag missing.
+    d3 = _good_caption_dict(); d3.pop("temporal_description", None)
+    assert oc.missing_required_fields(d3) == []
     assert oc.missing_required_fields(_good_caption_dict()) == []
 
 
@@ -190,20 +193,12 @@ def test_parse_captions_skips_invalid_keeps_valid():
 
 
 # ---------------------------------------------------------------------------
-# Adapter: OmniCaption -> EmotionCaption
+# Observation-only: captions carry NO emotion field
 # ---------------------------------------------------------------------------
-def test_adapter_maps_fields_and_label():
-    ec = oc.omni_to_emotion_caption(OmniCaption.model_validate(_good_caption_dict()), "vid01")
-    assert ec.segment_ids == ["s022"] and ec.caption_id == "vid01_s022"
-    assert ec.sound == "The woman speaks with an excited voice."
-    assert ec.emotion == "surprised"
-    assert "eyes widened" in ec.observable_evidence
-
-
-def test_adapter_unknown_emotion_defaults_neutral():
-    d = _good_caption_dict(); d["emotion_description"] = "unclear what they feel"
-    ec = oc.omni_to_emotion_caption(OmniCaption.model_validate(d), "vid01")
-    assert ec.emotion == "neutral" and ec.emotion not in EMOTION_LABEL_VALUES
+def test_caption_has_no_emotion_field():
+    cap = OmniCaption.model_validate(_good_caption_dict())
+    assert not hasattr(cap, "emotion_description")
+    assert cap.temporal_description.startswith("Her voice rises")
 
 
 # ---------------------------------------------------------------------------

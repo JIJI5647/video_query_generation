@@ -44,7 +44,7 @@ exactly (echo the segment_id and time_range from the mapping):
     }
   ],
   "audio_description": "<one sentence on how the audio sounds, not the words>",
-  "emotion_description": "<candidate emotion reading, supported by cues above>",
+  "temporal_description": "<optional: how the action/audio progresses over the clip>",
   "confidence": "<high | medium | low>",
   "evidence_strength": "<clear | ambiguous | weak>"
 }
@@ -69,11 +69,14 @@ scene, objects, interactions, positions, and visibility. No emotion words here.
 visual_expression must describe observable facial cues, body cues, posture,
 gestures, and gaze (visible affective cues only — no interpretation).
 
-emotion_description is a candidate interpretation, not ground truth. It must be
-supported by visual_expression or audio_description. If emotion is unclear, say
-so, and set evidence_strength to "weak" or "ambiguous" rather than forcing a
-strong label. If a cue is not clearly visible or audible, write "unclear", "not
-clearly visible", or "not audible".
+Do NOT name or infer any emotion anywhere in the caption. This is an
+observation-only caption: describe what is visible and audible, never what the
+person feels. Emotion is decided in a later, separate stage. If a cue is not
+clearly visible or audible, write "unclear" / "not clearly visible" / "not
+audible", and set evidence_strength to "weak"/"ambiguous" when cues are faint.
+
+temporal_description is optional: a short note on how the action or audio
+progresses across the clip. Omit or leave empty if nothing notable.
 
 confidence must be one of: high | medium | low
 evidence_strength must be one of: clear | ambiguous | weak

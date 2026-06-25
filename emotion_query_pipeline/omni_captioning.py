@@ -22,9 +22,8 @@ Design / safety constraints (this machine cannot run Qwen3-Omni):
   ``<raw_dir>/<video_id>/<segment_id>.txt`` for debugging (never silently
   dropped).
 
-Downstream generation / verification / export are unchanged: the rich
-``OmniCaption`` is adapted to the existing flat ``EmotionCaption`` via
-``omni_to_emotion_caption`` (the compatibility / field-mapping layer).
+Captions are OBSERVATION-ONLY (no emotion). Emotion is judged later in the Gemini
+emotion-event stage. ``OmniCaption`` is consumed directly downstream.
 """
 from __future__ import annotations
 
@@ -36,8 +35,6 @@ from typing import Any, Dict, List, Optional, Protocol
 
 from .io_utils import load_prompt_template
 from .models import (
-    EMOTION_LABEL_VALUES,
-    EmotionCaption,
     OMNI_REQUIRED_FIELDS,
     OmniCaption,
     Segment,
@@ -278,7 +275,7 @@ def salvage_caption(
     ``OmniCaption`` allows extra keys and defaults the rest — force the trusted
     metadata, and pin ``confidence=low`` / ``evidence_strength=weak`` so the
     generator treats it as soft evidence. When nothing decoded, the raw model
-    text is stuffed into ``emotion_description`` so the segment is at least
+    text is stuffed into ``temporal_description`` so the segment is at least
     described. A ``caption_status="salvaged"`` marker is carried for debug/export.
     """
     tr = [round(segment.start_time, 2), round(segment.end_time, 2)]
@@ -292,8 +289,11 @@ def salvage_caption(
     if data.get("confidence") not in ("high", "medium", "low"):
         data["confidence"] = "low"
     data["evidence_strength"] = "weak"
-    if not (str(data.get("emotion_description") or "")).strip():
-        data["emotion_description"] = (raw_text or "").strip()[:500] or "(unparseable)"
+    fallback = (raw_text or "").strip()[:500] or "(unparseable)"
+    if not (str(data.get("audio_description") or "")).strip() and not (
+        str(data.get("temporal_description") or "")
+    ).strip():
+        data["temporal_description"] = fallback
     try:
         return OmniCaption.model_validate(data)
     except Exception:
@@ -305,7 +305,7 @@ def salvage_caption(
             video_id=video_id,
             time_range=tr,
             audio_description=audio if isinstance(audio, str) else "",
-            emotion_description=data["emotion_description"],
+            temporal_description=fallback,
             confidence="low",
             evidence_strength="weak",
             caption_status="salvaged",
@@ -412,76 +412,6 @@ def read_valid_cache(path: Path):
         return OmniCaption.model_validate(data), None
     except Exception:
         return None, "schema_validation_error"
-
-
-# ---------------------------------------------------------------------------
-# Compatibility layer: OmniCaption -> EmotionCaption
-# ---------------------------------------------------------------------------
-def _label_from_description(emotion_description: str) -> str:
-    """Best-effort map a free-text emotion reading to one fixed label.
-
-    The structured caption carries a NL ``emotion_description`` rather than a
-    fixed label; generation reads the caption's ``emotion`` field, so we map to
-    one of the eight ``EMOTION_LABEL_VALUES``. We scan for one of those words
-    (longest first so e.g. "disappointed" wins over a substring) and fall back to
-    ``"neutral"`` when none is clearly present.
-    """
-    text = (emotion_description or "").lower()
-    for label in sorted(EMOTION_LABEL_VALUES, key=len, reverse=True):
-        if label in text:
-            return label
-    return "neutral"
-
-
-def _flatten(items: List[Any]) -> List[str]:
-    out: List[str] = []
-    for it in items or []:
-        if it is None:
-            continue
-        s = it if isinstance(it, str) else str(it)
-        s = s.strip()
-        if s:
-            out.append(s)
-    return out
-
-
-def omni_to_emotion_caption(oc: OmniCaption, video_id: str) -> EmotionCaption:
-    """Adapt a structured OmniCaption to the flat EmotionCaption the rest of the
-    pipeline (generation / export / stats) already consumes.
-
-    ``segment_ids`` stays a single-element list (the segment's id), so internal
-    segment_id -> clip mapping used by verification is preserved.
-    """
-    vo = oc.visual_objective
-    persons = _flatten([p.person for p in vo.people])
-    person = "; ".join(persons) if persons else "not described"
-
-    actions = _flatten([p.action for p in vo.people]) + _flatten(vo.key_actions)
-    action = "; ".join(actions) if actions else "not described"
-
-    evidence: List[str] = []
-    for ve in oc.visual_expression:
-        evidence.extend(_flatten(ve.facial_cues))
-        evidence.extend(_flatten(ve.body_cues))
-        if ve.gaze and ve.gaze.strip():
-            evidence.append(ve.gaze.strip())
-
-    sound = oc.audio_description.strip() if oc.audio_description else ""
-    if not sound:
-        sound = "no audible cue"
-
-    return EmotionCaption(
-        video_id=video_id,
-        caption_id=f"{video_id}_{oc.segment_id}",
-        segment_ids=[oc.segment_id],
-        person=person,
-        action=action,
-        sound=sound,
-        emotion=_label_from_description(oc.emotion_description),
-        confidence=oc.confidence,
-        evidence_strength=oc.evidence_strength,
-        observable_evidence=evidence,
-    )
 
 
 # ---------------------------------------------------------------------------

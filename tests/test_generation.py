@@ -1,19 +1,23 @@
-"""Model-free tests for feeding rich OmniCaption (and flat EmotionCaption) to
+"""Model-free tests for feeding observation OmniCaptions (+ emotion events) to
 the query-generation stage. No SDK / network: a fake LLM client is injected and
-``google.genai`` is never imported (it is now lazy in llm_client).
+``google.genai`` is never imported (it is lazy in llm_client).
 
 Run:  python -m pytest tests/test_generation.py -q
 """
 from __future__ import annotations
 
-import json
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from emotion_query_pipeline import generation as gen
-from emotion_query_pipeline.models import EmotionCaption, OmniCaption, Segment
+from emotion_query_pipeline.models import (
+    EmotionCaption,
+    EmotionEvent,
+    OmniCaption,
+    Segment,
+)
 
 
 def _segments():
@@ -36,8 +40,8 @@ def _omni(seg_id, start, end):
             "person": "the woman in a white shirt",
             "facial_cues": ["eyes widened"], "body_cues": [], "gaze": "toward the man",
         }],
-        "audio_description": "The woman speaks with an excited voice.",
-        "emotion_description": "The woman appears surprised, supported by widened eyes.",
+        "audio_description": "The woman speaks with a raised voice.",
+        "temporal_description": "Her voice rises sharply midway through the clip.",
         "confidence": "high", "evidence_strength": "clear",
     })
 
@@ -48,6 +52,16 @@ def _flat(seg_id):
         person="a man in a suit", action="raising his voice", sound="shouting",
         emotion="angry", confidence="high", evidence_strength="clear",
         observable_evidence=["furrowed brow"],
+    )
+
+
+def _event(start, end):
+    return EmotionEvent(
+        video_id="v", event_id="v_e01", emotion_label="surprised",
+        event_description="the woman widens her eyes",
+        time_range=[start, end], target_person_or_group="the woman in a white shirt",
+        visual_evidence=["eyes widened"], audio_evidence=["raised voice"],
+        confidence="high", evidence_strength="clear",
     )
 
 
@@ -71,9 +85,10 @@ def test_omni_payload_keeps_rich_structure():
     # Full nested structure preserved (not flattened to person/action strings).
     assert e["visual_objective"]["people"][0]["person"] == "a woman in a white shirt"
     assert e["visual_expression"][0]["facial_cues"] == ["eyes widened"]
-    # Full sentences, not a compressed label.
-    assert e["audio_description"] == "The woman speaks with an excited voice."
-    assert "surprised" in e["emotion_description"] and len(e["emotion_description"]) > 20
+    assert e["audio_description"] == "The woman speaks with a raised voice."
+    assert e["temporal_description"].startswith("Her voice rises")
+    # Observation-only: NO emotion field anywhere in the payload.
+    assert "emotion_description" not in e and "emotion" not in e
 
 
 def test_flat_caption_maps_into_same_schema():
@@ -83,13 +98,17 @@ def test_flat_caption_maps_into_same_schema():
     assert e["visual_objective"]["people"][0]["person"] == "a man in a suit"
     assert e["visual_expression"][0]["facial_cues"] == ["furrowed brow"]
     assert e["audio_description"] == "shouting"
-    assert e["emotion_description"] == "angry"
+    assert "emotion_description" not in e and "emotion" not in e
 
 
-def test_build_prompt_includes_rich_fields():
-    prompt = gen.build_generation_prompt("v", [_omni("s001", 0.0, 5.0)], _segments())
+def test_build_prompt_includes_caption_and_event_fields():
+    prompt = gen.build_generation_prompt(
+        "v", [_omni("s001", 0.0, 5.0)], [_event(0.0, 5.0)], _segments()
+    )
     assert "visual_objective" in prompt and "visual_expression" in prompt
-    assert "excited voice" in prompt
+    assert "raised voice" in prompt
+    # The emotion signal comes from the events payload.
+    assert "surprised" in prompt
 
 
 def test_generate_queries_resolves_segment_ids_and_provenance():
@@ -99,7 +118,7 @@ def test_generate_queries_resolves_segment_ids_and_provenance():
          "query_text": "When does the woman appear surprised?",
          "time_range": [1.0, 4.0]},
     ])
-    out = gen.generate_queries("v", caps, client, _segments())
+    out = gen.generate_queries("v", caps, [_event(1.0, 4.0)], client, _segments())
     assert len(out.queries) == 1
     q = out.queries[0]
     assert q.segment_ids == ["s001"]  # resolved from time_range
@@ -111,5 +130,14 @@ def test_generate_queries_drops_out_of_range_query():
     client = FakeClient([
         {"query_type": "evidence_cue", "query_text": "x", "time_range": [100.0, 110.0]},
     ])
-    out = gen.generate_queries("v", caps, client, _segments())
+    out = gen.generate_queries("v", caps, [_event(0.0, 5.0)], client, _segments())
     assert out.queries == []  # range outside the video -> dropped
+
+
+def test_generate_queries_no_events_returns_empty():
+    caps = [_omni("s001", 0.0, 5.0)]
+    client = FakeClient([
+        {"query_type": "emotion_state", "query_text": "x", "time_range": [1.0, 4.0]},
+    ])
+    out = gen.generate_queries("v", caps, [], client, _segments())
+    assert out.queries == []  # no emotion events -> nothing to ground on
