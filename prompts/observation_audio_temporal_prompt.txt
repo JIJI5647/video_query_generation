@@ -1,23 +1,15 @@
-PROMPT VERSION: observation_audio_temporal_prompt_v1
+PROMPT VERSION: observation_audio_temporal_prompt_v2_freeform
 
-You are describing the AUDIO and TEMPORAL content of one short video segment. You
-are given the segment clip (with audio). Describe ONLY what is heard and how the
-moment unfolds over time. This is an OBSERVATION-ONLY caption: never name or infer
-any emotion or feeling, and never transcribe the spoken words — emotion is decided
-by a separate later stage.
+Thoroughly describe this short video clip, focusing on the AUDIO and on how the
+moment unfolds over TIME. Capture as much from the audio as possible — tone of
+voice (calm, raised, shouting, trembling), crying, laughing, sighing, breathing,
+music, sound effects, silence, and off-screen sounds — and coordinate it with the
+visible action as it progresses through the clip.
 
-Return ONLY a single valid JSON object, no markdown fences and no extra text, with
-exactly this structure:
-{
-  "audio_description": "<one sentence on how the audio SOUNDS, not the words>",
-  "temporal_description": "<how the action/audio progresses across the clip>"
-}
-
-RULES:
-- audio_description describes how the audio sounds (raised voice, shouting,
-  crying, laughing, heavy breathing, silence, unclear audio, off-screen voice),
-  NOT the exact spoken words. Do not produce a transcript.
-- temporal_description is a short note on how things change over the clip (e.g.
-  "movement is calm then becomes sudden", "voice rises then cuts off"). Leave it
-  an empty string if nothing notable changes.
-- Never name an emotion. If audio is unclear, write "unclear audio".
+Constraints:
+- Do NOT transcribe the spoken words verbatim; describe HOW things sound, not what
+  is said.
+- Do NOT name or infer any emotion or feeling (no "happy", "angry", "sad", etc.).
+  Describe only what is observable; emotion is decided by a separate later stage.
+- Write a concise natural-language description (a few sentences), not a list and
+  not JSON.

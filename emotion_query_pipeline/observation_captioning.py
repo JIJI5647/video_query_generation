@@ -45,6 +45,16 @@ DEFAULT_QWEN3VL_MODEL = "Qwen/Qwen3-VL-8B-Instruct"
 DEFAULT_TIMECHAT_MODEL = "yaolily/TimeChat-Captioner-GRPO-7B"
 DEFAULT_FRAMES_PER_SEGMENT = 5
 
+# Per-image pixel cap for Qwen3-VL frames (keeps vision-token count / prefill in
+# check; ~ the value from the TimeChat reference example).
+VL_MAX_PIXELS = 297920
+
+# TimeChat video-sampling params (from the official TimeChat example): it reads
+# the clip directly at fps with a per-frame pixel cap.
+TIMECHAT_MAX_PIXELS = 297920
+TIMECHAT_FPS = 2.0
+TIMECHAT_MAX_FRAMES = 160
+
 DEFAULT_SAMPLING_PARAMS: Dict[str, Any] = {
     "temperature": 0.6,
     "top_p": 0.95,
@@ -90,7 +100,10 @@ class Qwen3VLCaptioner:
 
     @staticmethod
     def _build_messages_frames(prompt_text: str, frame_paths: List[str]) -> list:
-        content = [{"type": "image", "image": p} for p in frame_paths if p]
+        content = [
+            {"type": "image", "image": p, "max_pixels": VL_MAX_PIXELS}
+            for p in frame_paths if p
+        ]
         content.append({"type": "text", "text": prompt_text})
         return [{"role": "user", "content": content}]
 
@@ -187,10 +200,18 @@ class TimeChatCaptioner:
 
     @staticmethod
     def _build_messages_clip(prompt_text: str, clip_path: str) -> list:
-        content: List[Dict[str, Any]] = []
+        # Text first, then the video with the reference sampling params (TimeChat
+        # reads the clip directly at fps with a per-frame pixel cap).
+        content: List[Dict[str, Any]] = [{"type": "text", "text": prompt_text}]
         if clip_path:
-            content.append({"type": "video", "video": clip_path})
-        content.append({"type": "text", "text": prompt_text})
+            content.append({
+                "type": "video",
+                "video": clip_path,
+                "max_pixels": TIMECHAT_MAX_PIXELS,
+                "max_frames": TIMECHAT_MAX_FRAMES,
+                "fps": TIMECHAT_FPS,
+                "video_max_pixels": TIMECHAT_MAX_PIXELS,
+            })
         return [{"role": "user", "content": content}]
 
     def generate(self, messages: list) -> str:
@@ -222,14 +243,22 @@ class TimeChatCaptioner:
         inputs = inputs.to(self._model.device).to(self._model.dtype)
         sp = self.sampling_params
         prompt_len = inputs["input_ids"].shape[1]
+        # Generate kwargs from the official TimeChat example: ``in_video=True``,
+        # talker disabled, ``thinker_max_new_tokens``. Fall back if a build doesn't
+        # accept the TimeChat-specific kwargs.
+        gen_kwargs: Dict[str, Any] = {
+            "return_audio": False,
+            "in_video": True,
+            "thinker_max_new_tokens": sp.get("max_tokens", 1024),
+        }
         with torch.no_grad():
-            gen_out = self._model.generate(
-                **inputs,
-                return_audio=False,
-                use_audio_in_video=self.use_audio_in_video,
-                max_new_tokens=sp.get("max_tokens", 1024),
-                do_sample=sp.get("temperature", 0.0) > 0,
-            )
+            try:
+                gen_out = self._model.generate(**inputs, **gen_kwargs)
+            except TypeError:
+                gen_out = self._model.generate(
+                    **inputs, return_audio=False,
+                    max_new_tokens=sp.get("max_tokens", 1024),
+                )
         text_ids = gen_out[0] if isinstance(gen_out, (tuple, list)) else gen_out
         seq = getattr(text_ids, "sequences", text_ids)
         return self._processor.batch_decode(
@@ -245,10 +274,11 @@ class TimeChatCaptioner:
 def _merge_strict(
     visual_raw: str, audio_raw: str, segment: Segment, video_id: str
 ) -> Optional[OmniCaption]:
-    """Merge the VL + TimeChat outputs into a valid OmniCaption, or None on failure.
+    """Merge the VL JSON + TimeChat free-form text into a valid OmniCaption.
 
-    Visual fields come from the VL object; audio/temporal from the TimeChat object.
-    Metadata is forced from the trusted segment. Returns None if either half can't
+    Visual fields come from the VL JSON object. TimeChat is a free-form captioner
+    (NOT JSON), so its raw text is stored directly as ``audio_description``.
+    Metadata is forced from the trusted segment. Returns None if the VL half can't
     be parsed or the merged caption is incomplete/invalid (caller salvages).
     """
     try:
@@ -256,13 +286,9 @@ def _merge_strict(
     except CaptionParseError:
         return None
     data: Dict[str, Any] = dict(vobj) if isinstance(vobj, dict) else {}
-    try:
-        tobj = extract_caption_json(audio_raw)
-        if isinstance(tobj, dict):
-            data["audio_description"] = tobj.get("audio_description", "")
-            data["temporal_description"] = tobj.get("temporal_description", "")
-    except CaptionParseError:
-        return None
+    audio_text = (audio_raw or "").strip()
+    data["audio_description"] = audio_text or "no audible cue"
+    data.setdefault("temporal_description", "")
     data["segment_id"] = segment.segment_id
     data["time_range"] = [round(segment.start_time, 2), round(segment.end_time, 2)]
     data["video_id"] = video_id
@@ -285,14 +311,10 @@ def _salvage_merge(
             item.update(v)
     except CaptionParseError:
         pass
-    try:
-        t = extract_caption_json(audio_raw)
-        if isinstance(t, dict):
-            item["audio_description"] = t.get("audio_description", item.get("audio_description", ""))
-            item["temporal_description"] = t.get("temporal_description", "")
-    except CaptionParseError:
-        pass
-    combined = f"--- VISUAL ---\n{visual_raw}\n--- AUDIO/TEMPORAL ---\n{audio_raw}"
+    audio_text = (audio_raw or "").strip()
+    if audio_text:
+        item["audio_description"] = audio_text
+    combined = f"--- VISUAL ---\n{visual_raw}\n--- TIMECHAT ---\n{audio_raw}"
     return salvage_caption(item or None, combined, segment, video_id)
 
 
