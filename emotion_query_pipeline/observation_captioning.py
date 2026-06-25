@@ -243,18 +243,18 @@ class TimeChatCaptioner:
         inputs = inputs.to(self._model.device).to(self._model.dtype)
         sp = self.sampling_params
         prompt_len = inputs["input_ids"].shape[1]
-        # Generate kwargs from the official TimeChat example: ``in_video=True``,
-        # talker disabled, ``thinker_max_new_tokens``. Fall back if a build doesn't
-        # accept the TimeChat-specific kwargs.
+        # Qwen2.5-Omni (TimeChat) generate kwargs: talker off + thinker token cap.
+        # NOTE: some builds reject TimeChat-specific kwargs like ``in_video`` (they
+        # raise ValueError "model_kwargs are not used"); fall back to plain
+        # max_new_tokens in that case.
         gen_kwargs: Dict[str, Any] = {
             "return_audio": False,
-            "in_video": True,
             "thinker_max_new_tokens": sp.get("max_tokens", 1024),
         }
         with torch.no_grad():
             try:
                 gen_out = self._model.generate(**inputs, **gen_kwargs)
-            except TypeError:
+            except (TypeError, ValueError):
                 gen_out = self._model.generate(
                     **inputs, return_audio=False,
                     max_new_tokens=sp.get("max_tokens", 1024),
