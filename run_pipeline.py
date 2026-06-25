@@ -460,6 +460,7 @@ def main() -> None:
         timer.reset_video()
         v_start = time.perf_counter()
         tokens_before = client.usage_report()["total"]["total_tokens"]
+        traces, ver_outs, rw_outs = {}, [], []
         try:
             if gen_output.queries:
                 print(f"  → verifying + rewriting "
@@ -492,14 +493,15 @@ def main() -> None:
             accepted = sum(1 for t in traces.values() if t.final_status == "accepted")
             discarded = sum(1 for t in traces.values() if t.final_status == "discarded")
             print(f"  Done — {accepted} accepted, {discarded} discarded")
-
-            result.video_traces[video_id] = traces
-            result.ver_outputs[video_id] = ver_outs
-            result.rw_outputs[video_id] = rw_outs
         except Exception as e:
             v_meta[video_id]["status"] = "skipped"
             print(f"  ERROR (phase 2) {video_id}: {e} — skipping.")
         finally:
+            # Always record (even empty) so a phase-2 failure never discards the
+            # phase-1 artefacts: export still runs and writes captions/events/queries.
+            result.video_traces[video_id] = traces
+            result.ver_outputs[video_id] = ver_outs
+            result.rw_outputs[video_id] = rw_outs
             for f in uploaded_segment_files:
                 uploader.delete(f)
             _record(video_id, v_start, tokens_before)

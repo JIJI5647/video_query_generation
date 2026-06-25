@@ -57,13 +57,22 @@ TIMECHAT_MAX_FRAMES = 160
 
 
 def _free_gpu() -> None:
-    """Release GPU memory after dropping a model's references (best-effort)."""
+    """Release GPU memory after dropping a model's references (best-effort).
+
+    Prints the post-cleanup allocated/reserved memory so it is VISIBLE whether the
+    weights actually left the GPU (rather than guessing).
+    """
     import gc
     gc.collect()
     try:
         import torch
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
+            torch.cuda.synchronize()
+            alloc = torch.cuda.memory_allocated() / 1e9
+            reserved = torch.cuda.memory_reserved() / 1e9
+            print(f"[gpu] after cleanup: allocated={alloc:.1f}GB "
+                  f"reserved={reserved:.1f}GB")
     except Exception:
         pass
 
