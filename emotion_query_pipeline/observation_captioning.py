@@ -55,6 +55,18 @@ TIMECHAT_MAX_PIXELS = 297920
 TIMECHAT_FPS = 2.0
 TIMECHAT_MAX_FRAMES = 160
 
+
+def _free_gpu() -> None:
+    """Release GPU memory after dropping a model's references (best-effort)."""
+    import gc
+    gc.collect()
+    try:
+        import torch
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
+    except Exception:
+        pass
+
 DEFAULT_SAMPLING_PARAMS: Dict[str, Any] = {
     "temperature": 0.6,
     "top_p": 0.95,
@@ -148,6 +160,14 @@ class Qwen3VLCaptioner:
         return self._processor.batch_decode(
             trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
         )
+
+    def unload(self) -> None:
+        """Drop the model + processor and free GPU memory (for phased loading)."""
+        if self._model is not None:
+            print(f"[model] unloading {self.model_path} (Qwen3-VL)")
+        self._model = None
+        self._processor = None
+        _free_gpu()
 
 
 # ---------------------------------------------------------------------------
@@ -266,6 +286,14 @@ class TimeChatCaptioner:
             skip_special_tokens=True,
             clean_up_tokenization_spaces=False,
         )
+
+    def unload(self) -> None:
+        """Drop the model + processor and free GPU memory (for phased loading)."""
+        if self._model is not None:
+            print(f"[model] unloading {self.model_path} (TimeChat)")
+        self._model = None
+        self._processor = None
+        _free_gpu()
 
 
 # ---------------------------------------------------------------------------

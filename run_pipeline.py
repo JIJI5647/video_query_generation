@@ -353,33 +353,47 @@ def main() -> None:
     timer = StageTimer()
     run_start = time.perf_counter()
 
+    # Per-video accounting accumulated across BOTH phases.
+    v_meta = {
+        vp.stem: {"status": "ok", "seconds": 0.0, "tokens": 0, "stages": {}}
+        for vp in selected
+    }
+
+    def _record(video_id: str, v_start: float, tokens_before: int) -> None:
+        m = v_meta[video_id]
+        m["seconds"] += time.perf_counter() - v_start
+        m["tokens"] += client.usage_report()["total"]["total_tokens"] - tokens_before
+        for k, v in timer.video.items():
+            m["stages"][k] = round(m["stages"].get(k, 0.0) + v, 1)
+
+    # =====================================================================
+    # PHASE 1/2: caption + emotion events + query generation.
+    # GPU here holds ONLY the caption models (Qwen3-VL + TimeChat); the 30B
+    # Qwen3-Omni is NOT loaded yet (events/generation run on Gemini).
+    # =====================================================================
+    print("\n=== Phase 1/2: caption + emotion events + generation ===")
+    phase1_ok: Dict[str, tuple] = {}  # video_id -> (segments, gen_output)
     for i, video_path in enumerate(selected, 1):
         video_id = video_path.stem
         print(f"[{i}/{len(selected)}] {video_path.name}  (id: {video_id})")
-        uploaded_segment_files: list = []
         timer.reset_video()
         v_start = time.perf_counter()
         tokens_before = client.usage_report()["total"]["total_tokens"]
-        v_status = "ok"
         try:
-            # Step 1: segment + cut clips
-            print("  → [1/5] segmenting + cutting clips...", flush=True)
+            print("  → [1/4] segmenting + cutting clips...", flush=True)
             with timer.stage("segment/clips"):
                 duration = get_video_duration(video_path)
                 segments = plan_segments(
                     video_id, duration, args.segment_seconds, args.stride,
                     min_segment_seconds=args.min_segment_seconds,
                 )
-                # Reuse cached segment clips unless --force-reextract (B4).
                 extract_segment_clips(
                     video_path, video_id, segments, segments_dir,
                     overwrite=args.force_reextract, subdir=seg_subdir,
                 )
             print(f"  {len(segments)} segments ready (cache: {segments_dir})")
 
-            # Step 2: OBSERVATION captions (no emotion). Dual VL+TimeChat, legacy
-            # Qwen3-Omni, or Gemini — all produce observation captions.
-            print(f"  → [2/5] captioning {len(segments)} segment(s) "
+            print(f"  → [2/4] captioning {len(segments)} segment(s) "
                   f"({args.caption_backend}, parallel={args.parallel})...",
                   flush=True)
             with timer.stage("captions"):
@@ -391,40 +405,65 @@ def main() -> None:
                         frames_per_segment=args.frames_per_segment,
                         parallel=args.parallel,
                     )
-                    gen_captions = raw
                 else:
                     raw = caption_video(
                         video_id, segments, client, uploader,
                         batch_size=args.caption_batch_size,
                     )
-                    gen_captions = raw
+                gen_captions = raw
             print(f"  captions: {len(raw)} observation caption(s)")
 
-            # Step 3: emotion-event stage (Gemini, text-only) — the ONLY emotion
-            # judgment. Observation captions -> EmotionEvents (8 labels).
-            print("  → [3/5] inferring emotion events (Gemini)...", flush=True)
+            print("  → [3/4] inferring emotion events (Gemini)...", flush=True)
             with timer.stage("emotion_events"):
                 event_output = generate_emotion_events(
                     video_id, gen_captions, client, segments
                 )
             print(f"  {len(event_output.events)} emotion event(s)")
 
-            # Step 4: generate queries from observation captions + emotion events
-            # (no video). Grounding by time range; segment_ids resolved internally.
-            print("  → [4/5] generating queries (Gemini)...", flush=True)
+            print("  → [4/4] generating queries (Gemini)...", flush=True)
             with timer.stage("generation"):
                 gen_output = generate_queries(
                     video_id, gen_captions, event_output.events, client, segments
                 )
             print(f"  {len(gen_output.queries)} queries generated")
 
-            # Step 6: make the grounded segment clips available to verify/rewrite,
-            # then check each query against just its own clip(s). Gemini needs the
-            # clips uploaded (URIs); Qwen3-Omni watches the local clip paths
-            # directly (no upload).
+            result.segments[video_id] = segments
+            result.raw_captions[video_id] = raw
+            result.emotion_events[video_id] = event_output
+            result.gen_outputs[video_id] = gen_output
+            phase1_ok[video_id] = (segments, gen_output)
+        except Exception as e:
+            v_meta[video_id]["status"] = "skipped"
+            print(f"  ERROR (phase 1) {video_id}: {e} — skipping.")
+        finally:
+            _record(video_id, v_start, tokens_before)
+
+    # Free the caption models BEFORE loading the verify/rewrite model, so the
+    # 30B Qwen3-Omni never co-resides with Qwen3-VL + TimeChat.
+    if vl_captioner is not None:
+        vl_captioner.unload()
+    if tc_captioner is not None:
+        tc_captioner.unload()
+
+    # =====================================================================
+    # PHASE 2/2: verify + rewrite. GPU here holds ONLY the Qwen3-Omni model
+    # (loaded lazily on the first verify call); the caption models are gone.
+    # =====================================================================
+    print("\n=== Phase 2/2: verify + rewrite ===")
+    for i, video_path in enumerate(selected, 1):
+        video_id = video_path.stem
+        if video_id not in phase1_ok:
+            continue
+        segments, gen_output = phase1_ok[video_id]
+        print(f"[{i}/{len(selected)}] {video_id}  ({len(gen_output.queries)} queries)")
+        uploaded_segment_files: list = []
+        timer.reset_video()
+        v_start = time.perf_counter()
+        tokens_before = client.usage_report()["total"]["total_tokens"]
+        try:
             if gen_output.queries:
-                print(f"  → [5/5] verifying + rewriting {len(gen_output.queries)} "
-                      f"query(ies) ({args.verify_rewrite_backend})...", flush=True)
+                print(f"  → verifying + rewriting "
+                      f"({args.verify_rewrite_backend})...", flush=True)
                 with timer.stage("verify/rewrite"):
                     seg_by_id = {s.segment_id: s for s in segments}
                     needed_ids = sorted(
@@ -442,10 +481,7 @@ def main() -> None:
                             uploaded_segment_files.append(f)
                             segment_uris[sid] = f.uri
                     traces, ver_outs, rw_outs = run_query_pipeline(
-                        video_id,
-                        gen_output,
-                        vr_client,
-                        segment_uris,
+                        video_id, gen_output, vr_client, segment_uris,
                         max_rewrites=args.max_rewrites,
                         max_accepted=args.max_accepted,
                         verify_parallel=args.parallel,
@@ -457,40 +493,27 @@ def main() -> None:
             discarded = sum(1 for t in traces.values() if t.final_status == "discarded")
             print(f"  Done — {accepted} accepted, {discarded} discarded")
 
-            result.segments[video_id] = segments
-            result.raw_captions[video_id] = raw
-            result.emotion_events[video_id] = event_output
-            result.gen_outputs[video_id] = gen_output
             result.video_traces[video_id] = traces
             result.ver_outputs[video_id] = ver_outs
             result.rw_outputs[video_id] = rw_outs
         except Exception as e:
-            v_status = "skipped"
-            print(f"  ERROR processing {video_id}: {e} — skipping.")
+            v_meta[video_id]["status"] = "skipped"
+            print(f"  ERROR (phase 2) {video_id}: {e} — skipping.")
         finally:
             for f in uploaded_segment_files:
                 uploader.delete(f)
-            # B4: segment clips are a persistent cache — do NOT delete them.
-            v_elapsed = time.perf_counter() - v_start
-            v_tokens = client.usage_report()["total"]["total_tokens"] - tokens_before
-            stage_breakdown = {k: round(v, 1) for k, v in timer.video.items()}
-            per_video_usage.append(
-                {
-                    "video_id": video_id,
-                    "status": v_status,
-                    "seconds": round(v_elapsed, 1),
-                    "total_tokens": v_tokens,
-                    "stage_seconds": stage_breakdown,
-                }
-            )
-            stages_str = ", ".join(
-                f"{k} {v:.1f}s" for k, v in sorted(
-                    timer.video.items(), key=lambda kv: kv[1], reverse=True
-                )
-            )
-            print(f"  [usage] {v_elapsed:.1f}s, {v_tokens:,} tokens")
-            if stages_str:
-                print(f"  [time]  {stages_str}")
+            _record(video_id, v_start, tokens_before)
+
+    # Finalize per-video usage records (summed across both phases).
+    for vp in selected:
+        m = v_meta[vp.stem]
+        per_video_usage.append({
+            "video_id": vp.stem,
+            "status": m["status"],
+            "seconds": round(m["seconds"], 1),
+            "total_tokens": m["tokens"],
+            "stage_seconds": m["stages"],
+        })
 
     if not result.video_traces:
         print("\nERROR: No videos produced queries.", file=sys.stderr)
