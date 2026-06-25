@@ -15,7 +15,7 @@ from typing import List, Optional
 from .generation import _captions_payload, _segment_time_map
 from .io_utils import load_prompt_template
 from .llm_client import BaseLLMClient
-from .models import EmotionEventOutput, Segment
+from .models import EmotionEvent, EmotionEventOutput, Segment
 
 _PROMPTS_DIR = Path(__file__).parent.parent / "prompts"
 
@@ -52,13 +52,24 @@ def generate_emotion_events(
 
     prompt = build_emotion_event_prompt(video_id, captions, segments, prompts_dir)
     raw = client.generate_json(prompt, "EmotionEventOutput", video_uri=None)
-    raw.setdefault("video_id", video_id)
+
+    # Validate events ONE AT A TIME and drop the invalid ones (e.g. an
+    # emotion_label outside the eight allowed classes) instead of letting a single
+    # bad event fail the whole video.
+    events: list = []
     for i, e in enumerate(raw.get("events") or [], 1):
+        if not isinstance(e, dict):
+            continue
         e.setdefault("video_id", video_id)
         if not e.get("event_id"):
             e["event_id"] = f"{video_id}_e{i:02d}"
+        try:
+            events.append(EmotionEvent.model_validate(e))
+        except Exception as ex:
+            print(f"[emotion_event] dropped invalid event "
+                  f"(label={e.get('emotion_label')!r}): {ex}")
 
-    output = EmotionEventOutput.model_validate(raw)
+    output = EmotionEventOutput(video_id=video_id, events=events)
     return _resolve_event_segments(output, segments)
 
 

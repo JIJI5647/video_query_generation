@@ -124,7 +124,16 @@ def main() -> None:
         help="Comma/space-separated video ids (file stems) to process exactly, "
         "in order. Overrides --num-videos/--seed sampling.",
     )
-    parser.add_argument("--output", default="output/v2_run")
+    parser.add_argument(
+        "--output", default="output",
+        help="Root output directory. The actual run dir is "
+        "<output>/<project-name>_<timestamp>.",
+    )
+    parser.add_argument(
+        "--project-name", default="run",
+        help="Label for this run. The run dir is <output>/<project-name>_<timestamp> "
+        "so every run is uniquely timestamped and never overwrites a previous one.",
+    )
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--segment-seconds", type=float, default=5.0)
     parser.add_argument("--stride", type=float, default=5.0)
@@ -256,7 +265,11 @@ def main() -> None:
         sys.exit(1)
 
     video_dir = Path(args.video_dir)
-    output_dir = Path(args.output)
+    # Every run goes to its own timestamped dir: <output>/<project-name>_<ts>.
+    run_stamp = time.strftime("%Y%m%d_%H%M%S")
+    output_dir = Path(args.output) / f"{args.project_name}_{run_stamp}"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    print(f"Run: project={args.project_name} | started {run_stamp}\n  dir: {output_dir}")
     # B4: segment clips live in a persistent, reusable cache (not a temp dir).
     segments_dir = Path(args.segments_dir)
     seg_subdir = grid_key(args.segment_seconds, args.stride)
@@ -507,6 +520,8 @@ def main() -> None:
     usage = client.usage_report()
     processed = [v for v in per_video_usage if v["status"] == "ok"]
     usage_report = {
+        "project_name": args.project_name,
+        "run_timestamp": run_stamp,
         "total_wall_seconds": round(total_wall, 1),
         "videos_attempted": len(per_video_usage),
         "videos_processed": len(processed),

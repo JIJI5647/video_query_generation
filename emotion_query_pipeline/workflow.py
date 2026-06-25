@@ -182,8 +182,10 @@ def _verify_per_query(
     Queries are grouped into batches of ``verify_parallel`` and each batch is run
     in one ``verify_queries_many`` call (truly batched on the Qwen3-Omni engine;
     sequential otherwise). A whole-batch failure falls back to one-at-a-time
-    verification so a single bad query never drops the rest. Results are merged;
-    a query with no result stays pending -> discarded.
+    verification so a single bad query never drops the rest. Any query that gets
+    NO result (call failed, or the model omitted/garbled it) is synthesized as a
+    hard FAIL — a malformed verification output is treated as a failure, never a
+    silent pass.
     """
     results: List[VerificationResult] = []
     for group in _chunks(queries, max(1, verify_parallel)):
@@ -203,7 +205,24 @@ def _verify_per_query(
                     )
                     results.extend(out.results)
                 except Exception as e2:  # one bad query never aborts the video
-                    print(f"    [verify skip] {q.query_id}: {e2}")
+                    print(f"    [verify fail-on-error] {q.query_id}: {e2}")
+
+    # Format error / missing result -> hard FAIL (default to failure, not pass).
+    seen = {r.query_id for r in results}
+    for q in queries:
+        if q.query_id not in seen:
+            results.append(
+                VerificationResult(
+                    video_id=video_id,
+                    query_id=q.query_id,
+                    round_index=round_index,
+                    decision="fail",
+                    relevance_pass=False,
+                    answerability_pass=False,
+                    query_quality_pass=False,
+                    failure_reason="verification output missing or invalid format",
+                )
+            )
     return VerificationBatchOutput(
         video_id=video_id, round_index=round_index, results=results
     )

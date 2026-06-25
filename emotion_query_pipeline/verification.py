@@ -39,33 +39,44 @@ def build_verification_prompt(
     return prompt
 
 
+def _decision_from_dimensions(rel: bool, ans: bool, qual: bool) -> str:
+    """Decide in CODE from the three judged dimensions (not the model's word).
+
+    - relevance OR answerability fails  -> "fail"  (not fixable by rewording)
+    - both pass but query_quality fails -> "revise" (wording fix, re-verify)
+    - all three pass                    -> "pass"
+    A missing/non-True dimension counts as failed, so a malformed or evasive
+    verifier response routes to "fail" rather than slipping through.
+    """
+    if not rel or not ans:
+        return "fail"
+    if not qual:
+        return "revise"
+    return "pass"
+
+
 def _normalize_verification_raw(raw: dict, video_id: str, round_index: int) -> dict:
-    """Fill fields the model sometimes omits from per-result objects."""
+    """Fill metadata and DERIVE ``decision`` from the three dimension booleans.
+
+    The verifier outputs only ``relevance_pass`` / ``answerability_pass`` /
+    ``query_quality_pass`` (+ reason + suggested_revision); the decision is
+    computed here so the routing never depends on the model's own verdict. A
+    dimension that is missing or not exactly ``true`` is treated as failed.
+    """
     raw.setdefault("video_id", video_id)
     raw.setdefault("round_index", round_index)
-    bool_defaults = {
-        "relevance_pass": True,
-        "answerability_pass": True,
-        "query_quality_pass": True,
-        "is_emotion_relevant": True,
-        "is_answerable_from_video": True,
-        "is_grounded_in_observable_evidence": True,
-        "has_hallucination": False,
-        "is_english_only": True,
-        "avoids_proper_nouns": True,
-        "is_clear_and_unambiguous": True,
-        "is_observable_not_speculative": True,
-        "is_not_too_broad": True,
-        "is_not_repetitive": True,
-        "no_timestamp_in_query_text": True,
-    }
     for result in raw.get("results") or []:
         result.setdefault("video_id", video_id)
         result.setdefault("round_index", round_index)
         result.setdefault("failure_reason", "")
         result.setdefault("suggested_revision", "")
-        for key, default in bool_defaults.items():
-            result.setdefault(key, default)
+        rel = result.get("relevance_pass") is True
+        ans = result.get("answerability_pass") is True
+        qual = result.get("query_quality_pass") is True
+        result["relevance_pass"] = rel
+        result["answerability_pass"] = ans
+        result["query_quality_pass"] = qual
+        result["decision"] = _decision_from_dimensions(rel, ans, qual)
     return raw
 
 
