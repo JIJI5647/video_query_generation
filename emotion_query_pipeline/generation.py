@@ -72,7 +72,9 @@ def _caption_payload_entry(caption, tr: List[float]) -> dict:
     into the same shape (sparsely). NO emotion is included — emotion lives in the
     separate emotion-events payload.
     """
+    description = ""
     if isinstance(caption, OmniCaption):
+        description = getattr(caption, "description", "")
         visual_objective = caption.visual_objective.model_dump()
         visual_expression = [ve.model_dump() for ve in caption.visual_expression]
         audio_description = caption.audio_description
@@ -93,7 +95,7 @@ def _caption_payload_entry(caption, tr: List[float]) -> dict:
         )
         audio_description = caption.sound
         temporal_description = ""
-    return {
+    entry = {
         "time_range": tr,
         "visual_objective": visual_objective,
         "visual_expression": visual_expression,
@@ -102,6 +104,11 @@ def _caption_payload_entry(caption, tr: List[float]) -> dict:
         "confidence": caption.confidence,
         "evidence_strength": caption.evidence_strength,
     }
+    # TimeChat-only captions carry a free-form full narrative instead of the
+    # structured visual fields; surface it when present.
+    if description:
+        entry["description"] = description
+    return entry
 
 
 def _captions_payload(

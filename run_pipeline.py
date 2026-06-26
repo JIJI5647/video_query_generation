@@ -160,7 +160,7 @@ def main() -> None:
     # --- Captioning backend ---
     parser.add_argument(
         "--caption-backend",
-        choices=["qwen3_vl_timechat", "gemini"],
+        choices=["qwen3_vl_timechat", "timechat", "gemini"],
         default="qwen3_vl_timechat",
         help="Captioning backend (OBSERVATION-only, no emotion). "
         "'qwen3_vl_timechat' (default) = Qwen3-VL over sampled frames (visual) + "
@@ -281,6 +281,8 @@ def main() -> None:
     print(f"Selected {len(selected)} video(s) from {video_dir}")
     if args.caption_backend == "qwen3_vl_timechat":
         caption_desc = f"{args.qwen3vl_model_path} + {args.timechat_model_path}"
+    elif args.caption_backend == "timechat":
+        caption_desc = f"{args.timechat_model_path} (timechat-only)"
     else:
         caption_desc = args.caption_model
     if args.verify_rewrite_backend == "qwen3_omni":
@@ -308,6 +310,8 @@ def main() -> None:
     uploader = GeminiUploader(api_key=api_key)
 
     use_dual_caption = args.caption_backend == "qwen3_vl_timechat"
+    use_timechat_only = args.caption_backend == "timechat"
+    use_observation_caption = use_dual_caption or use_timechat_only
     use_qwen_vr = args.verify_rewrite_backend == "qwen3_omni"
 
     # Qwen3-Omni engine — used ONLY for verify/rewrite. Lazy: constructed here,
@@ -320,13 +324,15 @@ def main() -> None:
             video_reader_backend=args.qwen_video_reader_backend,
         )
 
-    # Dual observation caption backend (Qwen3-VL frames + TimeChat clip). Lazy load.
+    # Observation caption backends (lazy load). VL is only built for the dual
+    # backend; the timechat-only backend uses TimeChat alone (vl_captioner=None).
     vl_captioner = tc_captioner = None
     if use_dual_caption:
         vl_captioner = Qwen3VLCaptioner(
             model_path=args.qwen3vl_model_path,
             attn_implementation=args.qwen_attn_impl,
         )
+    if use_observation_caption:
         tc_captioner = TimeChatCaptioner(
             model_path=args.timechat_model_path,
             attn_implementation=args.qwen_attn_impl,
@@ -339,6 +345,12 @@ def main() -> None:
         print(
             f"Caption backend — qwen3_vl_timechat | "
             f"{args.frames_per_segment} frames/seg (VL) + clip (TimeChat) | "
+            f"{args.parallel} prompt(s)/call | resume={args.resume} | "
+            f"overwrite={args.overwrite_captions}\n  cache: {captions_cache_dir}"
+        )
+    elif use_timechat_only:
+        print(
+            f"Caption backend — timechat-only ({args.timechat_model_path}) | "
             f"{args.parallel} prompt(s)/call | resume={args.resume} | "
             f"overwrite={args.overwrite_captions}\n  cache: {captions_cache_dir}"
         )
@@ -397,7 +409,7 @@ def main() -> None:
                   f"({args.caption_backend}, parallel={args.parallel})...",
                   flush=True)
             with timer.stage("captions"):
-                if args.caption_backend == "qwen3_vl_timechat":
+                if use_observation_caption:
                     raw = caption_video_observation(
                         video_id, segments, vl_captioner, tc_captioner,
                         captions_cache_dir, captions_raw_dir,

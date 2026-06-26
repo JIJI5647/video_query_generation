@@ -355,10 +355,30 @@ def _salvage_merge(
     return salvage_caption(item or None, combined, segment, video_id)
 
 
+def _timechat_caption(
+    tc_raw: str, segment: Segment, video_id: str
+) -> Optional[OmniCaption]:
+    """Build an observation caption from a TimeChat-only free-form narrative.
+
+    The whole narrative goes into the ``description`` field; the structured visual
+    fields stay empty. Returns None when the model produced nothing (caller
+    salvages).
+    """
+    text = (tc_raw or "").strip()
+    if not text:
+        return None
+    return OmniCaption(
+        video_id=video_id,
+        segment_id=segment.segment_id,
+        time_range=[round(segment.start_time, 2), round(segment.end_time, 2)],
+        description=text,
+    )
+
+
 def caption_video_observation(
     video_id: str,
     segments: List[Segment],
-    vl_captioner: Qwen3VLCaptioner,
+    vl_captioner: Optional[Qwen3VLCaptioner],
     tc_captioner: TimeChatCaptioner,
     cache_dir: Path,
     raw_dir: Path,
@@ -368,12 +388,16 @@ def caption_video_observation(
     parallel: int = 1,
     prompts_dir: Optional[Path] = None,
 ) -> List[OmniCaption]:
-    """Caption every segment of one video with the dual VL+TimeChat backend.
+    """Caption every segment of one video (observation-only).
 
-    Resume is applied first (cached segments skipped). Cache-miss segments are
-    grouped ``parallel`` at a time; each group runs one batched VL call and one
-    batched TimeChat call, the halves are merged per segment, valid captions are
-    cached, and a missing/garbled half is salvaged (uncached, retried next run).
+    Two modes:
+    - DUAL (``vl_captioner`` given): one batched VL call (frames -> visual JSON) +
+      one batched TimeChat call (clip -> audio/temporal text), merged per segment.
+    - TIMECHAT-ONLY (``vl_captioner`` is None): one batched TimeChat call per group
+      describing the whole clip; the narrative is stored in ``description``.
+
+    Resume is applied first (cached segments skipped). A missing/garbled output is
+    salvaged (uncached, retried next run); it never aborts the video.
     """
     results_by_id: Dict[str, OmniCaption] = {}
     cached, to_generate = _resolve_cache(
@@ -381,15 +405,55 @@ def caption_video_observation(
     )
     results_by_id.update(cached)
 
-    visual_prompt = load_prompt_template(
-        prompts_dir or _PROMPTS_DIR, "observation_visual_prompt.txt"
-    )
-    audio_prompt = load_prompt_template(
-        prompts_dir or _PROMPTS_DIR, "observation_audio_temporal_prompt.txt"
-    )
+    timechat_only = vl_captioner is None
+    if timechat_only:
+        full_prompt = load_prompt_template(
+            prompts_dir or _PROMPTS_DIR, "observation_full_prompt.txt"
+        )
+    else:
+        visual_prompt = load_prompt_template(
+            prompts_dir or _PROMPTS_DIR, "observation_visual_prompt.txt"
+        )
+        audio_prompt = load_prompt_template(
+            prompts_dir or _PROMPTS_DIR, "observation_audio_temporal_prompt.txt"
+        )
 
     for group in _chunks(to_generate, max(1, parallel)):
         ids = ", ".join(s.segment_id for s in group)
+
+        if timechat_only:
+            print(f"[caption] generate(timechat-only): video_id={video_id} "
+                  f"segment_ids=[{ids}]")
+            tc_messages = [
+                TimeChatCaptioner._build_messages_clip(full_prompt, seg.clip_path or "")
+                for seg in group
+            ]
+            try:
+                tc_raws = tc_captioner.generate_many(tc_messages)
+            except Exception as e:
+                print(f"[caption] TimeChat generate failed for {len(group)}: {e}")
+                tc_raws = [""] * len(group)
+            for seg, traw in zip(group, tc_raws):
+                cap = _timechat_caption(traw, seg, video_id)
+                if cap is not None:
+                    atomic_write_json(
+                        caption_cache_path(cache_dir, video_id, seg.segment_id),
+                        cap.model_dump(),
+                    )
+                    results_by_id[seg.segment_id] = cap
+                    continue
+                raw_path = save_raw_output(
+                    raw_dir, video_id, seg.segment_id, traw or "", "salvaged_timechat"
+                )
+                results_by_id[seg.segment_id] = salvage_caption(
+                    None, traw or "", seg, video_id
+                )
+                print(f"[caption] salvaged timechat (uncached): "
+                      f"video_id={video_id} segment_id={seg.segment_id} "
+                      f"raw_saved={raw_path}")
+            continue
+
+        # DUAL backend: VL frames + TimeChat clip.
         print(f"[caption] generate(observation): video_id={video_id} "
               f"segment_ids=[{ids}] (frames/seg={frames_per_segment})")
         vl_messages = []

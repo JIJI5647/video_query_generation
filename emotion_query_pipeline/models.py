@@ -161,6 +161,10 @@ class OmniCaption(BaseModel):
     segment_id: str
     time_range: List[float] = Field(default_factory=list)
     # Content.
+    # Free-form full observation narrative (used by the TimeChat-only backend,
+    # which is a single captioner covering both audio and visuals). Empty for the
+    # structured backends, which fill the fields below instead.
+    description: str = ""
     visual_objective: OmniVisualObjective = Field(default_factory=OmniVisualObjective)
     visual_expression: List[OmniVisualExpression] = Field(default_factory=list)
     audio_description: str = ""

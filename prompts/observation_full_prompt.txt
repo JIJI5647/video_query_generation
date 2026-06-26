@@ -1,0 +1,16 @@
+PROMPT VERSION: observation_full_prompt_v1_timechat_only
+
+Thoroughly describe this short video clip — both what is VISIBLE and what is
+HEARD — and how the moment unfolds over time. Capture as much detail as possible:
+the people (appearance, position, what they do), the scene, objects and
+interactions, observable facial/body/gaze cues, and the audio (tone of voice,
+shouting, crying, laughing, music, sound effects, silence). Coordinate the audio
+and visual description as the clip progresses.
+
+Constraints:
+- Do NOT transcribe the spoken words verbatim; describe HOW things sound, not the
+  exact words.
+- Do NOT name or infer any emotion or feeling (no "happy", "angry", "sad", etc.).
+  Describe only what is observable; emotion is decided by a separate later stage.
+- Write a concise natural-language description (a few sentences), not a list and
+  not JSON.

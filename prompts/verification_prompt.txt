@@ -15,19 +15,15 @@ Round Index: {round_index}
 
 THE THREE DIMENSIONS (answer true/false for each):
 
-1. relevance_pass — Is the query's emotional claim ONE OF THESE EIGHT (or an
-   obvious synonym): angry, excited, fear, sad, surprised, frustrated, happy,
-   disappointed? Synonyms that map cleanly are fine (afraid/terrified/panicked/
-   alarmed -> fear; amused/joyful/delighted -> happy; furious -> angry).
-   Mark relevance_pass = FALSE if the query is built on a state that is NOT one of
-   the eight — e.g. curious, interested, pensive, thoughtful, focused, confused,
-   concerned, worried, pleased, content, playful, bored, sinister, incredulous,
-   suspicious, calm, neutral. Do not stretch these into the eight.
+1. emotion_relevance_pass — Is the query is asking or intending to asking emotion question to the video. TRUE if the query is emotional in intent and the emotion
+asked about, implied by the query, or clearly evidenced in the video maps to one
+of these eight target emotions: angry, excited, fear, sad, surprised,
+frustrated, happy, disappointed. Otherwise FALSE.
 
-2. answerability_pass — Is what the query describes actually present and locatable
-   in the clip? true only if the moment/behaviour is visible or audible, the
-   emotion claimed MATCHES what you actually see/hear, and an annotator could find
-   it. Mark FALSE if it is absent, mismatched (the clip shows a different emotion,
+2. answerability_pass — Is what the query describes actually present and appear
+   in the clip? TRUE only if the moment/behaviour is visible or audible, the
+   emotion claimed MATCHES what you actually see/hear. 
+   Mark FALSE if it is absent, mismatched (the clip shows a different emotion,
    or none), hallucinated, too unclear to locate, OR asks about an internal
    cognitive/mental state that has no observable cue (curious, pensive, focused,
    thinking, intends/knows/remembers/wants), OR needs outside knowledge.
@@ -35,8 +31,8 @@ THE THREE DIMENSIONS (answer true/false for each):
    there — widened eyes for surprise/fear, smiling/laughing for happy, etc.)
 
 3. query_quality_pass — Is the WORDING good? true only if query_text is in English,
-   uses visual descriptions (no proper names), has no timestamps, and is one clear,
-   specific question. false if the wording has an issue.
+   uses visual and audio descriptions (no proper names), has no timestamps, and is one clear,
+   specific question. False if the wording has an issue.
 
 BE STRICT on answerability: if you are not confident the moment is really in the
 clip, answer false. Do not pass a query just because it reads well.
