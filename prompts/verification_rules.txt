@@ -1,0 +1,33 @@
+DIMENSIONS:
+
+1. relevance_pass
+TRUE if the query asks directly or implicitly about one of the eight target
+emotions, or about observable evidence for one of them:
+angry, excited, fear, sad, surprised, frustrated, happy, disappointed.
+
+Obvious synonyms are allowed when they map clearly, such as afraid -> fear,
+joyful -> happy, furious -> angry, shocked -> surprised.
+
+FALSE if the query is mainly about a non-target state such as curious, focused,
+confused, concerned, worried, calm, neutral, thinking, intending, knowing, or
+remembering.
+
+2. answerability_pass
+TRUE if the described moment is actually visible or audible in the clip, the
+claimed or implied emotion matches the evidence, and the moment can be located
+by an annotator.
+
+FALSE if the moment is absent, hallucinated, mismatched, too unclear, based on
+an internal mental state without observable cues, or requires outside knowledge.
+
+3. query_quality_pass
+TRUE if the query is in English, is one clear and specific question, uses
+observable visual or audible descriptions, contains no timestamps, and avoids
+characters names.
+
+FALSE if the wording violates any of these requirements.
+
+SUGGESTED REVISION:
+If relevance_pass and answerability_pass are both true but query_quality_pass is
+false, provide a corrected query in suggested_revision.
+Otherwise, leave suggested_revision empty.

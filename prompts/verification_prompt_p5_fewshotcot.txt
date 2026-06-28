@@ -1,0 +1,70 @@
+PROMPT VERSION: verification_prompt_p5_fewshotcot_v2
+
+TASK:
+Watch the provided video clip(s). If several clips are given, treat them as one
+continuous moment. For each query, judge three independent dimensions.
+
+Use only the video clip(s) and the query text.
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+{{include: verification_rules.txt}}
+
+REASONING (do this for EACH query before deciding):
+Step 1 — Watch: what is visible and audible at the moment.
+Step 2 — Relevance: one of the eight target emotions (or a clear synonym/cue)?
+Step 3 — Answerability: is the moment really present and does the claimed emotion
+  match? Could an annotator locate it?
+Step 4 — Quality: English, single clear question, observable wording, no
+  timestamps, no proper names.
+Then set the three booleans and put a brief version of the reasoning in the
+"reasoning" field.
+
+EXAMPLES (illustrative reasoning + judgement; NOT about the current clip):
+
+Example A — off-target state:
+  query: "When does the boy look curious while examining the knife?"
+  reasoning: "Boy turns a knife, neutral face. 'curious' is not one of the eight."
+  -> relevance_pass=false, answerability_pass=false, query_quality_pass=true,
+     failure_reason="curious is not a target emotion".
+
+Example B — emotion mismatch:
+  query: "At what point does the woman appear happy while running away?"
+  reasoning: "Woman runs, wide eyes, tense face = fear, not happy. Mismatch."
+  -> relevance_pass=true, answerability_pass=false, query_quality_pass=true,
+     failure_reason="claimed happy contradicts the clip".
+
+Example C — wording-only fix:
+  query: "When is Jack scared at [12s]?"
+  reasoning: "A man flinches, frightened face = fear (present). But 'Jack' is a
+    proper name and [12s] is a timestamp."
+  -> relevance_pass=true, answerability_pass=true, query_quality_pass=false,
+     failure_reason="proper name + timestamp",
+     suggested_revision="When does the man flinch with a frightened expression?".
+
+Example D — clean pass:
+  query: "When does the man in the dark jacket shout angrily with clenched fists?"
+  reasoning: "Man shouts, fists clenched, harsh voice = anger (present)."
+  -> relevance_pass=true, answerability_pass=true, query_quality_pass=true.
+
+QUERIES TO VERIFY:
+{queries_json}
+
+OUTPUT:
+Return valid JSON only:
+{
+  "video_id": "{video_id}",
+  "round_index": {round_index},
+  "results": [
+    {
+      "query_id": "<query id>",
+      "reasoning": "<brief step-by-step justification>",
+      "relevance_pass": <true | false>,
+      "answerability_pass": <true | false>,
+      "query_quality_pass": <true | false>,
+      "failure_reason": "<empty if all true; one short phrase otherwise>",
+      "suggested_revision": "<empty unless wording-only fix>"
+    }
+  ]
+}
