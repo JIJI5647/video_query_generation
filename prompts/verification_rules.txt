@@ -13,12 +13,9 @@ confused, concerned, worried, calm, neutral, thinking, intending, knowing, or
 remembering.
 
 2. answerability_pass
-TRUE if the described moment is actually visible or audible in the clip, the
-claimed or implied emotion matches the evidence, and the moment can be located
-by an annotator.
+TRUE if the emotion is supported by at least one observable cue in the clip — a facial expression / action unit, body language or gesture, vocal prosody (tone, pitch, tempo, volume), or an explicit verbal statement of feeling.
 
-FALSE if the moment is absent, hallucinated, mismatched, too unclear, based on
-an internal mental state without observable cues, or requires outside knowledge.
+FALSE only if the emotion can be inferred solely from plot, outside knowledge, or an unobservable interior state with no visible or audible cue.
 
 3. query_quality_pass
 TRUE if the query is in English, is one clear and specific question, uses
