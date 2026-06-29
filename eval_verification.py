@@ -39,12 +39,13 @@ def _prf1(tp: int, fp: int, fn: int):
     return p, r, f1
 
 
-def _dim_f1(pairs):
-    """pairs: list of (gold_bool, pred_bool). F1 with positive class = True (pass)."""
+def _dim_prf(pairs):
+    """pairs: (gold_bool, pred_bool). Returns (precision, recall, f1) for the
+    positive class = True (i.e. predicting 'pass')."""
     tp = sum(1 for g, p in pairs if g and p)
     fp = sum(1 for g, p in pairs if (not g) and p)
     fn = sum(1 for g, p in pairs if g and (not p))
-    return _prf1(tp, fp, fn)[2]
+    return _prf1(tp, fp, fn)
 
 
 def _label_from_path(path: Path) -> str:
@@ -90,9 +91,9 @@ def score_one(gold: Dict[str, dict], results_path: Path) -> dict:
         "dec_acc": dec_acc,
         "accept_f1": accept_f1,
         "false_pass": false_pass,
-        "rel_f1": _dim_f1(rel),
-        "ans_f1": _dim_f1(ans),
-        "qual_f1": _dim_f1(qual),
+        "rel": _dim_prf(rel),    # (precision, recall, f1)
+        "ans": _dim_prf(ans),
+        "qual": _dim_prf(qual),
         "json_err": json_err / len(rows) if rows else 0.0,
     }
 
@@ -112,24 +113,43 @@ def main() -> None:
     scores = [score_one(gold, Path(p)) for p in args.results]
     scores.sort(key=lambda s: s["label"])
 
-    cols = ["label", "n", "dec_acc", "accept_f1", "false_pass",
-            "rel_f1", "ans_f1", "qual_f1", "json_err"]
-    head = f"{'prompt':16} {'N':>3} {'Dec.Acc':>8} {'Accept.F1':>9} " \
-           f"{'FalsePass':>9} {'Rel.F1':>7} {'Ans.F1':>7} {'Qual.F1':>7} {'JSONErr':>7}"
+    # --- Decision-level overview ---
+    head = (f"{'prompt':16} {'N':>3} {'Dec.Acc':>8} {'Accept.F1':>9} "
+            f"{'FalsePass':>9} {'JSONErr':>7}")
+    print("=== Decision (pass/fail/revise vs gold) ===")
     print(head)
     print("-" * len(head))
     for s in scores:
         print(f"{s['label']:16} {s['n']:>3} {s['dec_acc']:>8.3f} "
-              f"{s['accept_f1']:>9.3f} {s['false_pass']:>9.1%} {s['rel_f1']:>7.3f} "
-              f"{s['ans_f1']:>7.3f} {s['qual_f1']:>7.3f} {s['json_err']:>7.1%}")
+              f"{s['accept_f1']:>9.3f} {s['false_pass']:>9.1%} {s['json_err']:>7.1%}")
+
+    # --- Per-dimension Precision / Recall / F1 (positive class = "pass") ---
+    for dim_key, dim_name in (("rel", "relevance_pass"),
+                              ("ans", "answerability_pass"),
+                              ("qual", "query_quality_pass")):
+        print(f"\n=== {dim_name}  (precision / recall / f1, positive = pass) ===")
+        h = f"{'prompt':16} {'Prec':>7} {'Recall':>7} {'F1':>7}"
+        print(h)
+        print("-" * len(h))
+        for s in scores:
+            p, r, f1 = s[dim_key]
+            print(f"{s['label']:16} {p:>7.3f} {r:>7.3f} {f1:>7.3f}")
 
     if args.csv:
         import csv
+        cols = ["label", "n", "dec_acc", "accept_f1", "false_pass", "json_err",
+                "rel_prec", "rel_recall", "rel_f1",
+                "ans_prec", "ans_recall", "ans_f1",
+                "qual_prec", "qual_recall", "qual_f1"]
         with open(args.csv, "w", newline="") as f:
             w = csv.DictWriter(f, fieldnames=cols)
             w.writeheader()
             for s in scores:
-                w.writerow({k: s[k] for k in cols})
+                row = {k: s[k] for k in ("label", "n", "dec_acc", "accept_f1",
+                                         "false_pass", "json_err")}
+                for dk, pre in (("rel", "rel"), ("ans", "ans"), ("qual", "qual")):
+                    row[f"{pre}_prec"], row[f"{pre}_recall"], row[f"{pre}_f1"] = s[dk]
+                w.writerow(row)
         print(f"\nWrote {args.csv}")
 
 
