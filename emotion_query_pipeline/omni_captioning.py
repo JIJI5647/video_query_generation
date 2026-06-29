@@ -47,7 +47,7 @@ DEFAULT_MODEL_PATH = "Qwen/Qwen3-Omni-30B-A3B-Instruct"
 # Sampling defaults (spec §4.5). Plain dict consumed lazily inside the captioner
 # (mapped to the transformers ``thinker_*`` generate kwargs).
 DEFAULT_SAMPLING_PARAMS: Dict[str, Any] = {
-    "temperature": 0.6,
+    "temperature": 0.0,
     "top_p": 0.95,
     "top_k": 20,
     "max_tokens": 2048,

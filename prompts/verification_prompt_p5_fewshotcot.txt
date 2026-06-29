@@ -27,7 +27,7 @@ query: "When does the woman feel sad while sitting alone?" (clip shows a neutral
 
 Example 4 — quality fail with suggested_revision (answerable, but bad wording):
 query: "When is Jack happy at 12s?" (clip clearly shows a man smiling and laughing)
-{"query_id": "example_4", "relevance_pass": true, "answerability_pass": true, "query_quality_pass": false, "failure_reason": "proper name and timestamp", "suggested_revision": "When does the man smile and laugh happily?"}
+{"query_id": "example_4", "relevance_pass": true, "answerability_pass": true, "query_quality_pass": false, "failure_reason": "character name and timestamp", "suggested_revision": "When does the man smile and laugh happily?"}
 
 Example 5 — fail, not revise (answerability fails, so no suggested_revision even though wording is also bad):
 query: "When is Rose terrified at [00:30]?" (clip shows a calm, neutral scene with no fear)
