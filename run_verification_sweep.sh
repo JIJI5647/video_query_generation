@@ -28,6 +28,8 @@ PROMPTS=(
   "p3_fewshot:verification_prompt_p3_fewshot.txt"
   "p4_zscot:verification_prompt_p4_zscot.txt"
   "p5_fewshotcot:verification_prompt_p5_fewshotcot.txt"
+  "p6_rolefewshot:verification_prompt_p6_rolefewshot.txt"
+  "p7_rolecot:verification_prompt_p7_rolecot.txt"
 )
 
 mkdir -p logs/verify_sweep
