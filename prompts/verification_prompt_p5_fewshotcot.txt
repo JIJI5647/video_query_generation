@@ -1,8 +1,7 @@
-PROMPT VERSION: verification_prompt_p5_fewshotcot_v2
+PROMPT VERSION: verification_prompt_p5_fewshotcot_v1
 
 TASK:
-Watch the provided video clip(s). If several clips are given, treat them as one
-continuous moment. For each query, judge three independent dimensions.
+Watch the provided video clip(s). If several clips are given, treat them as one continuous moment. For each query, judge three independent dimensions.
 
 Use only the video clip(s) and the query text.
 
@@ -11,55 +10,49 @@ Round Index: {round_index}
 
 {{include: verification_rules.txt}}
 
-REASONING (do this for EACH query before deciding):
-Step 1 — Watch: what is visible and audible at the moment.
-Step 2 — Relevance: one of the eight target emotions (or a clear synonym/cue)?
-Step 3 — Answerability: is the moment really present and does the claimed emotion
-  match? Could an annotator locate it?
-Step 4 — Quality: English, single clear question, observable wording, no
-  timestamps, no proper names.
-Then set the three booleans and put a brief version of the reasoning in the
-"reasoning" field.
+EXAMPLES (illustrative judgements that follow the rules above; they are NOT about
+the current clip — assume each clip shows what the example states):
 
-EXAMPLES (illustrative reasoning + judgement; NOT about the current clip):
+Example 1 — all pass (target emotion, clear observable evidence, clean wording):
+query: "When does the man in the dark jacket shout with clenched fists and a harsh voice?"
+{"query_id": "example_1", "relevance_pass": true, "answerability_pass": true, "query_quality_pass": true, "failure_reason": "", "suggested_revision": ""}
 
-Example A — off-target state:
-  query: "When does the boy look curious while examining the knife?"
-  reasoning: "Boy turns a knife, neutral face. 'curious' is not one of the eight."
-  -> relevance_pass=false, answerability_pass=false, query_quality_pass=true,
-     failure_reason="curious is not a target emotion".
+Example 2 — relevance fail (non-target state):
+query: "When does the boy look curious while examining the knife?"
+{"query_id": "example_2", "relevance_pass": false, "answerability_pass": false, "query_quality_pass": true, "failure_reason": "curious is not a target emotion", "suggested_revision": ""}
 
-Example B — emotion mismatch:
-  query: "At what point does the woman appear happy while running away?"
-  reasoning: "Woman runs, wide eyes, tense face = fear, not happy. Mismatch."
-  -> relevance_pass=true, answerability_pass=false, query_quality_pass=true,
-     failure_reason="claimed happy contradicts the clip".
+Example 3 — answerability fail (target emotion, but no evidence in the provided clip):
+query: "When does the woman feel sad while sitting alone?" (clip shows a neutral face, no sad cue)
+{"query_id": "example_3", "relevance_pass": true, "answerability_pass": false, "query_quality_pass": true, "failure_reason": "no visible or audible sadness in the clip", "suggested_revision": ""}
 
-Example C — wording-only fix:
-  query: "When is Jack scared at [12s]?"
-  reasoning: "A man flinches, frightened face = fear (present). But 'Jack' is a
-    proper name and [12s] is a timestamp."
-  -> relevance_pass=true, answerability_pass=true, query_quality_pass=false,
-     failure_reason="proper name + timestamp",
-     suggested_revision="When does the man flinch with a frightened expression?".
+Example 4 — quality fail with suggested_revision (answerable, but bad wording):
+query: "When is Jack happy at 12s?" (clip clearly shows a man smiling and laughing)
+{"query_id": "example_4", "relevance_pass": true, "answerability_pass": true, "query_quality_pass": false, "failure_reason": "proper name and timestamp", "suggested_revision": "When does the man smile and laugh happily?"}
 
-Example D — clean pass:
-  query: "When does the man in the dark jacket shout angrily with clenched fists?"
-  reasoning: "Man shouts, fists clenched, harsh voice = anger (present)."
-  -> relevance_pass=true, answerability_pass=true, query_quality_pass=true.
+Example 5 — fail, not revise (answerability fails, so no suggested_revision even though wording is also bad):
+query: "When is Rose terrified at [00:30]?" (clip shows a calm, neutral scene with no fear)
+{"query_id": "example_5", "relevance_pass": true, "answerability_pass": false, "query_quality_pass": false, "failure_reason": "no fear evidence in the clip", "suggested_revision": ""}
+
+Before producing the final JSON, briefly reason through each query step by step:
+
+1. Determine whether the query is related to one of the eight target emotions (angry, excited, fear, sad, surprised, frustrated, happy, disappointed). Check if the query explicitly mentions one of these emotions or clearly implies it through observable behavior or context. If the query mainly refers to a different mental state (e.g., curiosity, confusion, intention, memory), mark it as not relevant.
+
+2. Verify that the provided clip segment(s), rather than the full video, contain sufficient visible or audible evidence to answer the query. Look for concrete signals such as facial expressions, body language, gestures, interactions, vocal tone, or explicit verbal statements. Do not rely on background knowledge, plot context outside the clip, or assumptions about the character's internal state.
+
+3. Assess whether the query wording is clear, specific, and self-contained. Ensure it is a single, well-formed English question that does not include timestamps, segment IDs, character names, actor names, movie titles, or dataset-specific identifiers. The query should be self-contained and grounded in observable evidence.
 
 QUERIES TO VERIFY:
 {queries_json}
 
 OUTPUT:
-Return valid JSON only:
+You may write brief reasoning before the JSON. Do not use curly braces in the reasoning. Then output the final JSON object. Do not output anything after the JSON.
+
 {
   "video_id": "{video_id}",
   "round_index": {round_index},
   "results": [
     {
       "query_id": "<query id>",
-      "reasoning": "<brief step-by-step justification>",
       "relevance_pass": <true | false>,
       "answerability_pass": <true | false>,
       "query_quality_pass": <true | false>,

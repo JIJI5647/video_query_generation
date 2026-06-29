@@ -56,6 +56,17 @@ def main() -> None:
     out_dir = Path(args.output)
     out_dir.mkdir(parents=True, exist_ok=True)
 
+    # Authoritative per-segment [start, end] from SINGLE-segment queries: their
+    # approximate_time carries the real range, including a short final segment at
+    # the video's tail (e.g. "s011 (50-54.4s)"). The fixed grid is only a fallback
+    # and would overshoot the last segment past the end of the video.
+    seg_exact: dict = {}
+    for a in annotations:
+        sids = a.get("segment_ids") or []
+        m = _TIME_RE.search(a.get("approximate_time") or "")
+        if len(sids) == 1 and m:
+            seg_exact[(a["video_id"], sids[0])] = (float(m.group(1)), float(m.group(2)))
+
     gold_rows = []
     queries_by_video: dict = {}
     segments_by_video: dict = {}
@@ -93,7 +104,10 @@ def main() -> None:
         seg_map = segments_by_video.setdefault(vid, {})
         for sid in seg_ids:
             if sid not in seg_map:
-                s, e, n = _seg_start_end(sid, args.segment_seconds)
+                grid_s, grid_e, n = _seg_start_end(sid, args.segment_seconds)
+                # Prefer the exact range from a single-segment query (handles the
+                # short final segment); fall back to the grid otherwise.
+                s, e = seg_exact.get((vid, sid), (grid_s, grid_e))
                 seg_map[sid] = {
                     "video_id": vid, "segment_id": sid, "index": n,
                     "start_time": s, "end_time": e, "clip_path": None,

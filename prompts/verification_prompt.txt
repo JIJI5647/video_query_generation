@@ -1,8 +1,7 @@
-PROMPT VERSION: verification_prompt_rule_base_v2
+PROMPT VERSION: verification_prompt_rule_base_clean_v1
 
 TASK:
-Watch the provided video clip(s). If several clips are given, treat them as one
-continuous moment. For each query, judge three independent dimensions.
+Watch the provided video clip(s). If several clips are given, treat them as one continuous moment. For each query, judge three independent dimensions.
 
 Use only the video clip(s) and the query text.
 
@@ -15,7 +14,8 @@ QUERIES TO VERIFY:
 {queries_json}
 
 OUTPUT:
-Return valid JSON only:
+Return valid JSON only. Do not include markdown, explanations, or extra text.
+
 {
   "video_id": "{video_id}",
   "round_index": {round_index},

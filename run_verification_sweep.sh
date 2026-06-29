@@ -20,9 +20,10 @@ VIDEO_READER="${VIDEO_READER:-decord}"
 PARALLEL="${PARALLEL:-4}"
 VERIFICATION_MODEL="${VERIFICATION_MODEL:-gemini-3.1-flash-lite}"
 
-# label -> prompt filename. P1 is the default verification_prompt.txt.
+# label -> prompt filename. P0 = no rules (task + output only); P1 = rules base.
 PROMPTS=(
-  "p1:verification_prompt.txt"
+  "p0_norule:verification_prompt_p0_norule.txt"
+  "p1_rule:verification_prompt.txt"
   "p2_role:verification_prompt_p2_role.txt"
   "p3_fewshot:verification_prompt_p3_fewshot.txt"
   "p4_zscot:verification_prompt_p4_zscot.txt"

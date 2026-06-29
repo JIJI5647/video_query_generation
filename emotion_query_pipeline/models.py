@@ -261,25 +261,12 @@ class VerificationResult(BaseModel):
     video_id: str
     query_id: str
     round_index: int
+    # ``decision`` is derived in code from the three dimensions below
+    # (see verification._normalize_verification_raw).
     decision: Literal["pass", "fail", "revise"]
-    # Three top-level criteria
     relevance_pass: bool = True
     answerability_pass: bool = True
     query_quality_pass: bool = True
-    # Relevance detail
-    is_emotion_relevant: bool = True
-    # Answerability detail
-    is_answerable_from_video: bool = True
-    is_grounded_in_observable_evidence: bool = True
-    has_hallucination: bool = False
-    # Query-quality detail
-    is_english_only: bool = True
-    avoids_proper_nouns: bool = True
-    is_clear_and_unambiguous: bool = True
-    is_observable_not_speculative: bool = True
-    is_not_too_broad: bool = True
-    is_not_repetitive: bool = True
-    no_timestamp_in_query_text: bool = True
     failure_reason: str = ""
     suggested_revision: str = ""
 

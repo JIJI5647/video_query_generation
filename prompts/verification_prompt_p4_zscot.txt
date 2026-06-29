@@ -1,8 +1,7 @@
-PROMPT VERSION: verification_prompt_p4_zscot_v2
+PROMPT VERSION: verification_prompt_p4_zscot_v1
 
 TASK:
-Watch the provided video clip(s). If several clips are given, treat them as one
-continuous moment. For each query, judge three independent dimensions.
+Watch the provided video clip(s). If several clips are given, treat them as one continuous moment. For each query, judge three independent dimensions.
 
 Use only the video clip(s) and the query text.
 
@@ -11,30 +10,26 @@ Round Index: {round_index}
 
 {{include: verification_rules.txt}}
 
-REASONING (do this for EACH query before deciding):
-Step 1 — Watch: state what is actually visible and audible at the moment the
-  query points to.
-Step 2 — Relevance: is the query about one of the eight target emotions (or a
-  clear synonym / its observable cue)?
-Step 3 — Answerability: is that moment really present in the clip, and does the
-  claimed emotion match what you saw/heard? Could an annotator locate it?
-Step 4 — Quality: check English, single clear question, observable wording, no
-  timestamps, no proper names.
-Then set the three booleans from your reasoning, and put a brief version of the
-reasoning in the "reasoning" field of each result.
+Before producing the final JSON, briefly reason through each query step by step:
+
+1. Determine whether the query is related to one of the eight target emotions (angry, excited, fear, sad, surprised, frustrated, happy, disappointed). Check if the query explicitly mentions one of these emotions or clearly implies it through observable behavior or context. If the query mainly refers to a different mental state (e.g., curiosity, confusion, intention, memory), mark it as not relevant.
+
+2. Verify that the provided clip segment(s), rather than the full video, contain sufficient visible or audible evidence to answer the query. Look for concrete signals such as facial expressions, body language, gestures, interactions, vocal tone, or explicit verbal statements. Do not rely on background knowledge, plot context outside the clip, or assumptions about the character's internal state.
+
+3. Assess whether the query wording is clear, specific, and self-contained. Ensure it is a single, well-formed English question that does not include timestamps, segment IDs, character names, actor names, movie titles, or dataset-specific identifiers. The query should be self-contained and grounded in observable evidence.
 
 QUERIES TO VERIFY:
 {queries_json}
 
 OUTPUT:
-Return valid JSON only:
+You may write brief reasoning before the JSON. Do not use curly braces in the reasoning. Then output the final JSON object. Do not output anything after the JSON.
+
 {
   "video_id": "{video_id}",
   "round_index": {round_index},
   "results": [
     {
       "query_id": "<query id>",
-      "reasoning": "<brief step-by-step justification>",
       "relevance_pass": <true | false>,
       "answerability_pass": <true | false>,
       "query_quality_pass": <true | false>,

@@ -187,12 +187,21 @@ class GeminiLLMClient(BaseLLMClient):
                         "empty response (no text candidate; possibly safety-blocked)"
                     )
                 text = raw_text.strip()
-                if text.startswith("```"):
-                    text = text.split("\n", 1)[1] if "\n" in text else text[3:]
-                    text = text.rsplit("```", 1)[0].strip()
-                # raw_decode parses the first JSON value and ignores any trailing
-                # junk (some responses append a second object -> "Extra data").
-                return json.JSONDecoder().raw_decode(text)[0]
+                if "```" in text:
+                    # Drop a ```json ... ``` fence if present.
+                    fence = text.find("```")
+                    rest = text[fence + 3:]
+                    if "\n" in rest:
+                        rest = rest.split("\n", 1)[1]
+                    end = rest.rfind("```")
+                    text = (rest[:end] if end != -1 else rest).strip()
+                # Skip any leading prose (e.g. chain-of-thought reasoning written
+                # before the JSON) by decoding from the first '{'. raw_decode then
+                # parses one JSON value and ignores trailing junk.
+                start = text.find("{")
+                if start == -1:
+                    raise ValueError("no JSON object found in response")
+                return json.JSONDecoder().raw_decode(text[start:])[0]
             except json.JSONDecodeError as e:
                 last_error = e
                 print(
