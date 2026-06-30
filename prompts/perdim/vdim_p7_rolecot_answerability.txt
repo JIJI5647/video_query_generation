@@ -1,0 +1,32 @@
+PROMPT VERSION: vdim_p7_rolecot_answerability
+
+{{include: strat_role.txt}}
+
+TASK:
+Judge ONLY one dimension: answerability_pass. Watch the provided video clip(s); if several are given, treat them as one continuous moment. Judge whether the queried moment is answerable from the clip(s).
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+RULE:
+{{include: rule_answerability.txt}}
+
+{{include: cot_answerability.txt}}
+
+QUERIES TO VERIFY:
+{queries_json}
+
+OUTPUT:
+You may write brief reasoning before the JSON. Do not use curly braces in the reasoning. Then output the final JSON object and nothing after it.
+
+{
+  "video_id": "{video_id}",
+  "round_index": {round_index},
+  "results": [
+    {
+      "query_id": "<query id>",
+      "answerability_pass": <true | false>,
+      "failure_reason": "<empty if true; one short phrase otherwise>"
+    }
+  ]
+}

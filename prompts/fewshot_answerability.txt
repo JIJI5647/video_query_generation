@@ -1,0 +1,10 @@
+EXAMPLES (illustrative answerability_pass judgements; assume each clip shows what is stated):
+
+query: "When does the woman cry while holding the photo?" (clip shows her sobbing with tears)
+{"query_id": "example_a", "answerability_pass": true, "failure_reason": ""}
+
+query: "When does the woman feel sad while sitting alone?" (clip shows a neutral face, no sad cue)
+{"query_id": "example_b", "answerability_pass": false, "failure_reason": "no visible or audible sadness in the clip"}
+
+query: "When is the man relieved about the news from yesterday?" (relief depends on plot outside the clip)
+{"query_id": "example_c", "answerability_pass": false, "failure_reason": "requires plot context outside the clip"}

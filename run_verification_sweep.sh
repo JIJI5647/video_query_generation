@@ -1,14 +1,18 @@
 #!/usr/bin/env bash
-# Run the 5 verification-prompt variants over the SAME queries, then you can
-# score each against gold with eval_verification.py.
+# Verifier prompt ablation: run each strategy variant (p0..p8) over the SAME
+# queries, then score against gold with eval_verification.py.
 #
-# Each prompt -> its own output dir output/verify_<p>/verification_results.jsonl.
+# Default MODE=perdim — the new per-dimension architecture: each variant is judged
+# as 3 separate inferences (relevance & query_quality from query text only;
+# answerability watching the clip), composed from vdim_template.txt + strategy
+# fragments. MODE=combined runs the old single-call combined prompts instead.
 #
-# Run on the GPU server (qwen3_omni verify) with:
-#     export GEMINI_API_KEY=...      # only needed if --verify-rewrite-backend gemini
+# Each variant -> its own dir: ${OUT_ROOT}/verify_<variant>/
+#
+# Run on the GPU server (qwen3_omni verify):
 #     bash run_verification_sweep.sh
-# Override defaults via env, e.g.:
 #     QUERIES_DIR=data/test5_eval VIDEO_DIR=data/pilot_study PARALLEL=4 bash run_verification_sweep.sh
+#     MODE=combined bash run_verification_sweep.sh    # old single-call prompts
 
 set -u
 
@@ -19,41 +23,47 @@ BACKEND="${BACKEND:-qwen3_omni}"          # qwen3_omni | gemini
 VIDEO_READER="${VIDEO_READER:-decord}"
 PARALLEL="${PARALLEL:-4}"
 VERIFICATION_MODEL="${VERIFICATION_MODEL:-gemini-3.1-flash-lite}"
+MODE="${MODE:-perdim}"                     # perdim | combined
 
-# label -> prompt filename. P0 = no rules (task + output only); P1 = rules base.
-PROMPTS=(
-  "p0_norule:verification_prompt_p0_norule.txt"
-  "p1_rule:verification_prompt.txt"
-  "p2_role:verification_prompt_p2_role.txt"
-  "p3_fewshot:verification_prompt_p3_fewshot.txt"
-  "p4_zscot:verification_prompt_p4_zscot.txt"
-  "p5_fewshotcot:verification_prompt_p5_fewshotcot.txt"
-  "p6_rolefewshot:verification_prompt_p6_rolefewshot.txt"
-  "p7_rolecot:verification_prompt_p7_rolecot.txt"
-  "p8_rawcot:verification_prompt_p8_rawcot.txt"
+VARIANTS=(
+  p0_norule p1_rule p2_role p3_fewshot p4_zscot
+  p5_fewshotcot p6_rolefewshot p7_rolecot p8_rawcot
 )
+
+# variant -> combined prompt file (only used when MODE=combined).
+combined_file() {
+  case "$1" in
+    p1_rule) echo "verification_prompt.txt" ;;
+    *)       echo "verification_prompt_${1}.txt" ;;
+  esac
+}
 
 mkdir -p logs/verify_sweep
 
-for entry in "${PROMPTS[@]}"; do
-  label="${entry%%:*}"
-  prompt_file="prompts/${entry##*:}"
-  out="${OUT_ROOT}/verify_${label}"
+for v in "${VARIANTS[@]}"; do
+  out="${OUT_ROOT}/verify_${v}"
+  if [ "$MODE" = "combined" ]; then
+    MODE_ARGS=(--using-prompt "prompts/$(combined_file "$v")")
+    desc="combined prompt $(combined_file "$v")"
+  else
+    MODE_ARGS=(--per-dimension --variant "$v")
+    desc="per-dimension (3 inferences/query), variant ${v}"
+  fi
   echo "=========================================================="
-  echo "[$(date '+%F %T')] verify prompt=${label}  (${prompt_file}) -> ${out}"
+  echo "[$(date '+%F %T')] verify ${v}  (${desc}) -> ${out}"
   echo "=========================================================="
   python -u run_verification.py \
     --queries-dir "$QUERIES_DIR" \
     --video-dir "$VIDEO_DIR" \
     --output "$out" \
-    --using-prompt "$prompt_file" \
+    "${MODE_ARGS[@]}" \
     --verify-rewrite-backend "$BACKEND" \
     --verification-model "$VERIFICATION_MODEL" \
     --qwen-video-reader-backend "$VIDEO_READER" \
     --parallel "$PARALLEL" \
-    > "logs/verify_sweep/${label}.log" 2>&1
-  echo "[$(date '+%F %T')] done ${label} (exit $?)  log: logs/verify_sweep/${label}.log"
+    > "logs/verify_sweep/${v}.log" 2>&1
+  echo "[$(date '+%F %T')] done ${v} (exit $?)  log: logs/verify_sweep/${v}.log"
 done
 
-echo "All prompts done. Score with:"
-echo "  python eval_verification.py --gold ${QUERIES_DIR}/gold.jsonl --results ${OUT_ROOT}/verify_*/verification_results.jsonl"
+echo "All variants done (MODE=${MODE}). Score with:"
+echo "  python eval_verification.py --gold ${QUERIES_DIR}/gold.jsonl --results ${OUT_ROOT}/verify_*/verification_results.jsonl --csv ${OUT_ROOT}/verify_metrics.csv"

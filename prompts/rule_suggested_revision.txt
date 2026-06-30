@@ -1,0 +1,6 @@
+SUGGESTED REVISION:
+Provide suggested_revision only when relevance_pass = true, answerability_pass =
+true, and query_quality_pass = false. The revision must only fix wording: do not
+change the target person, target emotion, observable evidence, or temporal moment.
+If relevance_pass = false or answerability_pass = false, leave suggested_revision
+empty.

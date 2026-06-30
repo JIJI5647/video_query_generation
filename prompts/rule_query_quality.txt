@@ -1,0 +1,9 @@
+3. query_quality_pass
+Mark query_quality_pass = true if the query is a single clear English question,
+self-contained, specific enough for annotation, based on observable visual or
+audible evidence, and contains no timestamps, segment IDs, person IDs, character
+names, actor names, movie titles, or dataset-specific identifiers.
+Mark query_quality_pass = false if the query is vague, too broad, grammatically
+unclear, asks multiple questions, includes timestamps or segment IDs, uses
+character names, actor names, movie titles, dataset-specific identifiers, or
+depends on unobservable mental content.

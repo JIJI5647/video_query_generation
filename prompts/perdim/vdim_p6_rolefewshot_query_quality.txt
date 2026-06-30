@@ -1,0 +1,32 @@
+PROMPT VERSION: vdim_p6_rolefewshot_query_quality
+
+{{include: strat_role.txt}}
+
+TASK:
+Judge ONLY one dimension: query_quality_pass. There is no video in this step — judge from the QUERY TEXT ALONE (wording, clarity, English, no timestamps / segment IDs / names / titles).
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+RULE:
+{{include: rule_query_quality.txt}}
+
+{{include: fewshot_query_quality.txt}}
+
+QUERIES TO VERIFY:
+{queries_json}
+
+OUTPUT:
+Return valid JSON only. Do not include markdown, explanations, or extra text.
+
+{
+  "video_id": "{video_id}",
+  "round_index": {round_index},
+  "results": [
+    {
+      "query_id": "<query id>",
+      "query_quality_pass": <true | false>,
+      "failure_reason": "<empty if true; one short phrase otherwise>"
+    }
+  ]
+}

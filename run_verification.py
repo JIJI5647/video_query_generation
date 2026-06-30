@@ -39,6 +39,7 @@ from emotion_query_pipeline.segmentation import (
     extract_segment_clips,
     grid_key_from_segments,
 )
+from emotion_query_pipeline.verification import verify_queries_per_dimension
 from emotion_query_pipeline.workflow import _verify_per_query
 
 _VIDEO_EXTENSIONS = (".mp4", ".avi")
@@ -79,6 +80,18 @@ def main() -> None:
         "default prompts/verification_prompt.txt (for A/B testing prompts).",
     )
     parser.add_argument("--parallel", type=int, default=1)
+    parser.add_argument(
+        "--per-dimension", action="store_true",
+        help="Judge each of the 3 dimensions in its OWN inference (3xN calls, run "
+        "in parallel) instead of one call judging all three. relevance/quality are "
+        "text-only; answerability watches the clip. --using-prompt is ignored.",
+    )
+    parser.add_argument(
+        "--variant", default="p1_rule",
+        help="Strategy applied per dimension in --per-dimension mode "
+        "(p0_norule, p1_rule, p2_role, p3_fewshot, p4_zscot, p5_fewshotcot, "
+        "p6_rolefewshot, p7_rolecot, p8_rawcot).",
+    )
     parser.add_argument("--segments-dir", default="data/processed_segments")
     parser.add_argument("--force-reextract", action="store_true")
     # Qwen3-Omni (verify backend) knobs.
@@ -191,10 +204,22 @@ def main() -> None:
                     segment_uris[seg.segment_id] = f.uri
 
             # SINGLE verification pass — no revise/rewrite loop.
-            ver_output = _verify_per_query(
-                video_id, queries, segment_uris, 1, vr_client, prompts_dir,
-                verify_parallel=args.parallel,
-            )
+            if args.per_dimension:
+                per_query_uris = [
+                    [segment_uris[sid] for sid in q.segment_ids if sid in segment_uris]
+                    for q in queries
+                ]
+                # Per-dimension prompts live under the real prompts/perdim/ dir
+                # (not a --using-prompt temp stage), so pass None.
+                ver_output = verify_queries_per_dimension(
+                    video_id, queries, per_query_uris, 1, vr_client, None,
+                    variant=args.variant,
+                )
+            else:
+                ver_output = _verify_per_query(
+                    video_id, queries, segment_uris, 1, vr_client, prompts_dir,
+                    verify_parallel=args.parallel,
+                )
 
             qtext = {q.query_id: q for q in queries}
             for r in ver_output.results:

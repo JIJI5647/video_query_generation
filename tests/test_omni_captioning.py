@@ -80,7 +80,7 @@ def test_constructing_captioner_does_not_load_model():
     assert cap.use_audio_in_video is True
     assert cap.video_reader_backend == "torchvision"
     assert cap.sampling_params == {
-        "temperature": 0.6, "top_p": 0.95, "top_k": 20, "max_tokens": 2048,
+        "temperature": 0.0, "top_p": 0.95, "top_k": 20, "max_tokens": 2048,
     }
     for mod in ("torch", "transformers", "qwen_omni_utils"):
         assert mod not in sys.modules

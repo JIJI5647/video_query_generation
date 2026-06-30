@@ -1,0 +1,10 @@
+1. relevance_pass
+Mark relevance_pass = true if the query is about one of the eight target emotions
+— angry, excited, fear, sad, surprised, frustrated, happy, disappointed — or about
+observable evidence for one of them. Synonyms are allowed only when they clearly
+refer to one of the eight labels.
+Mark relevance_pass = false if the query is mainly about a non-target emotion, a
+broad mental state, an intention, a thought, a memory, a relationship, or a
+plot-level interpretation rather than one of the eight target emotions or its
+observable evidence. Do not stretch broad states into the eight target emotions
+unless the query and the provided clip(s) clearly support one of the eight labels.

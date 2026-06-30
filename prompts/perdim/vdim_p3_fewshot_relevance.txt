@@ -1,0 +1,30 @@
+PROMPT VERSION: vdim_p3_fewshot_relevance
+
+TASK:
+Judge ONLY one dimension: relevance_pass. There is no video in this step — judge from the QUERY TEXT ALONE (whether the query is about one of the eight target emotions or its observable evidence).
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+RULE:
+{{include: rule_relevance.txt}}
+
+{{include: fewshot_relevance.txt}}
+
+QUERIES TO VERIFY:
+{queries_json}
+
+OUTPUT:
+Return valid JSON only. Do not include markdown, explanations, or extra text.
+
+{
+  "video_id": "{video_id}",
+  "round_index": {round_index},
+  "results": [
+    {
+      "query_id": "<query id>",
+      "relevance_pass": <true | false>,
+      "failure_reason": "<empty if true; one short phrase otherwise>"
+    }
+  ]
+}

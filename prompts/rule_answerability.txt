@@ -1,0 +1,11 @@
+2. answerability_pass
+Mark answerability_pass = true only if the provided clip segment(s) contain enough
+visible or audible evidence to answer the query. Valid evidence may include facial
+expression, gaze, body movement, gesture, posture, interaction, non-verbal audio,
+vocal tone, crying, laughing, shouting, hesitation, silence, or an explicit verbal
+statement of feeling.
+Mark answerability_pass = false if the query can only be answered using plot
+context, outside knowledge, character identity, events outside the provided
+clip(s), or an unobservable internal state. If the query may be answerable
+somewhere else in the full video but not in the provided clip(s), mark
+answerability_pass = false.

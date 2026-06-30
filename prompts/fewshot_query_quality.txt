@@ -1,0 +1,10 @@
+EXAMPLES (illustrative query_quality_pass judgements; judged from wording alone):
+
+query: "When does the man smile and laugh happily?"
+{"query_id": "example_a", "query_quality_pass": true, "failure_reason": ""}
+
+query: "When is Jack happy at 12s?"
+{"query_id": "example_b", "query_quality_pass": false, "failure_reason": "character name and timestamp"}
+
+query: "When does something emotional happen in the scene?"
+{"query_id": "example_c", "query_quality_pass": false, "failure_reason": "too vague and broad"}

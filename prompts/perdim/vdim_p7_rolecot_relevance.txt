@@ -1,0 +1,32 @@
+PROMPT VERSION: vdim_p7_rolecot_relevance
+
+{{include: strat_role.txt}}
+
+TASK:
+Judge ONLY one dimension: relevance_pass. There is no video in this step — judge from the QUERY TEXT ALONE (whether the query is about one of the eight target emotions or its observable evidence).
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+RULE:
+{{include: rule_relevance.txt}}
+
+{{include: cot_relevance.txt}}
+
+QUERIES TO VERIFY:
+{queries_json}
+
+OUTPUT:
+You may write brief reasoning before the JSON. Do not use curly braces in the reasoning. Then output the final JSON object and nothing after it.
+
+{
+  "video_id": "{video_id}",
+  "round_index": {round_index},
+  "results": [
+    {
+      "query_id": "<query id>",
+      "relevance_pass": <true | false>,
+      "failure_reason": "<empty if true; one short phrase otherwise>"
+    }
+  ]
+}
