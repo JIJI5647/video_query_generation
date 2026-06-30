@@ -208,16 +208,20 @@ def verify_queries_per_dimension(
     client: BaseLLMClient,
     prompts_dir: Optional[Path] = None,
     variant: str = "p1_rule",
+    verify_parallel: int = 1,
 ) -> VerificationBatchOutput:
     """Judge each of the three dimensions in its OWN inference.
 
-    Runs ONE ``generate_json_many`` call per dimension, the three dimensions
-    SEQUENTIALLY (not batched together), so every call is modality-uniform:
-    relevance / query_quality are judged from the query text only; answerability
-    watches the clip. Queries are still batched within a dimension's call. Each
-    dimension prompt is composed for the given strategy ``variant`` (p0..p8). The
-    three booleans per query are then merged and the decision is derived in code
-    with the same rule as the combined verifier.
+    Runs ONE ``generate_json_many`` call per chunk of ``verify_parallel`` queries,
+    the three dimensions SEQUENTIALLY (not batched together), so every call is
+    modality-uniform: relevance / query_quality are judged from the query text
+    only; answerability watches the clip. Each dimension prompt is composed for the
+    given strategy ``variant`` (p0..p8). The three booleans per query are then
+    merged and the decision is derived in code with the same rule as the combined
+    verifier.
+
+    Queries are chunked by ``verify_parallel`` so only that many video clips are in
+    a single forward at once (avoids OOM on the answerability pass).
     """
     if not queries:
         return VerificationBatchOutput(
@@ -225,24 +229,28 @@ def verify_queries_per_dimension(
         )
     vals = [dict() for _ in queries]
     reasons = [[] for _ in queries]
-    # The three dimensions are judged in SEPARATE passes (one call per dimension,
-    # run sequentially) so each call is modality-uniform: relevance / query_quality
-    # are text-only, answerability watches the clip. Queries are still batched
-    # within a dimension's call.
+    step = max(1, verify_parallel)
     for dim in _DIM_NEEDS_VIDEO:
-        prompts = [
-            _build_dim_prompt(dim, video_id, q, round_index, prompts_dir, variant)
-            for q in queries
-        ]
-        uris = [(u if _DIM_NEEDS_VIDEO[dim] else None) for u in video_uris]
-        raws = client.generate_json_many(
-            prompts, "VerificationBatchOutput", video_uris=uris
-        )
-        for qi, raw in enumerate(raws):
-            val, reason = _dim_value(raw, dim)
-            vals[qi][dim] = val
-            if not val and reason:
-                reasons[qi].append(f"{dim.replace('_pass', '')}: {reason}")
+        needs_video = _DIM_NEEDS_VIDEO[dim]
+        for start in range(0, len(queries), step):
+            group = queries[start:start + step]
+            prompts = [
+                _build_dim_prompt(dim, video_id, q, round_index, prompts_dir, variant)
+                for q in group
+            ]
+            uris = [
+                (video_uris[start + j] if needs_video else None)
+                for j in range(len(group))
+            ]
+            raws = client.generate_json_many(
+                prompts, "VerificationBatchOutput", video_uris=uris
+            )
+            for j, raw in enumerate(raws):
+                qi = start + j
+                val, reason = _dim_value(raw, dim)
+                vals[qi][dim] = val
+                if not val and reason:
+                    reasons[qi].append(f"{dim.replace('_pass', '')}: {reason}")
 
     results: List[VerificationResult] = []
     for qi, q in enumerate(queries):

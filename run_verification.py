@@ -213,7 +213,7 @@ def main() -> None:
                 # (not a --using-prompt temp stage), so pass None.
                 ver_output = verify_queries_per_dimension(
                     video_id, queries, per_query_uris, 1, vr_client, None,
-                    variant=args.variant,
+                    variant=args.variant, verify_parallel=args.parallel,
                 )
             else:
                 ver_output = _verify_per_query(
