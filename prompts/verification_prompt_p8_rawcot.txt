@@ -1,0 +1,34 @@
+PROMPT VERSION: verification_prompt_p8_rawcot_v1
+
+TASK:
+Watch the provided video clip(s). If several clips are given, treat them as one continuous moment. For each query, judge three independent dimensions.
+
+Use only the video clip(s) and the query text.
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+{{include: verification_rules.txt}}
+
+Before producing the final JSON, think step by step about each query.
+
+QUERIES TO VERIFY:
+{queries_json}
+
+OUTPUT:
+You may write brief reasoning before the JSON. Do not use curly braces in the reasoning. Then output the final JSON object. Do not output anything after the JSON.
+
+{
+  "video_id": "{video_id}",
+  "round_index": {round_index},
+  "results": [
+    {
+      "query_id": "<query id>",
+      "relevance_pass": <true | false>,
+      "answerability_pass": <true | false>,
+      "query_quality_pass": <true | false>,
+      "failure_reason": "<empty if all true; one short phrase otherwise>",
+      "suggested_revision": "<empty unless wording-only fix>"
+    }
+  ]
+}
