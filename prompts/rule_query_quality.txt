@@ -1,5 +1,5 @@
-3. query_quality_pass
-Mark query_quality_pass = true if the query is a single clear English question,
+### 3. query_quality_pass
+
 Mark `query_quality_pass = true` only if the query satisfies all of the following conditions:
 
 1. It is a single, clear English question.
@@ -7,9 +7,12 @@ Mark `query_quality_pass = true` only if the query satisfies all of the followin
 3. It can be answered using observable visual or audible evidence in the video.
 4. It does not contain any forbidden identifiers.
 
+**Important distinction:**
+Generic temporal localization wording is allowed. Do **not** mark `query_quality_pass = false` merely because the query asks `When does...`, `At what point does...`, or `Where in the video does...`. These are valid question forms for asking the model to localize evidence in the video.
+
 Forbidden identifiers include:
 
-* **Timestamps**: explicit time expressions that point to a location in the video, such as `00:15`, `1:23`, `from 10 seconds to 20 seconds`, `at the beginning`, `near the end`, or `in the final scene`.
+* **Timestamps**: explicit time expressions that leak or point to a specific location in the video, such as `00:15`, `1:23`, `from 10 seconds to 20 seconds`, `at the beginning`, `near the end`, or `in the final scene`. Do not include any explicit or specific time or positional references.
 * **Segment IDs**: dataset or preprocessing labels for video segments, such as `s001`, `s012`, `segment 3`, `clip 5`, `round 2`, or `batch 1`.
 * **Person IDs**: artificial labels used to identify people in the dataset, such as `Person 1`, `Person A`, `speaker 2`, `man #1`, or `woman B`.
 * **Character names**: names of fictional characters appearing in the source video.
