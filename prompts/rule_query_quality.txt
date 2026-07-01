@@ -1,9 +1,25 @@
 3. query_quality_pass
 Mark query_quality_pass = true if the query is a single clear English question,
-self-contained, specific enough for annotation, based on observable visual or
-audible evidence, and contains no timestamps, segment IDs, person IDs, character
-names, actor names, movie titles, or dataset-specific identifiers.
-Mark query_quality_pass = false if the query is vague, too broad, grammatically
-unclear, asks multiple questions, includes timestamps or segment IDs, uses
-character names, actor names, movie titles, dataset-specific identifiers, or
-depends on unobservable mental content.
+Mark `query_quality_pass = true` only if the query satisfies all of the following conditions:
+
+1. It is a single, clear English question.
+2. It is self-contained and can be understood without extra context.
+3. It can be answered using observable visual or audible evidence in the video.
+4. It does not contain any forbidden identifiers.
+
+Forbidden identifiers include:
+
+* **Timestamps**: explicit time expressions that point to a location in the video, such as `00:15`, `1:23`, `from 10 seconds to 20 seconds`, `at the beginning`, `near the end`, or `in the final scene`.
+* **Segment IDs**: dataset or preprocessing labels for video segments, such as `s001`, `s012`, `segment 3`, `clip 5`, `round 2`, or `batch 1`.
+* **Person IDs**: artificial labels used to identify people in the dataset, such as `Person 1`, `Person A`, `speaker 2`, `man #1`, or `woman B`.
+* **Character names**: names of fictional characters appearing in the source video.
+* **Actor names**: names of real actors or performers.
+* **Movie titles**: names of films, TV shows, or source videos.
+* **Dataset-specific identifiers**: any internal ID or filename-like label, such as `video_001`, `moviechat_01_162`, `TheShining_clip_2`, or `b01_c04`.
+
+Mark `query_quality_pass = false` if the query has any of the following problems:
+
+1. It is vague, overly broad, or grammatically unclear.
+2. It asks more than one question.
+3. It contains any forbidden identifier listed above.
+4. It depends on unobservable mental content, such as a person’s hidden thoughts, intentions, memories, beliefs, or motivations, unless the question is phrased in terms of visible or audible evidence.

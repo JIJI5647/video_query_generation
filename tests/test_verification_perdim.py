@@ -28,9 +28,9 @@ def test_composer_applies_variant_strategy():
     p1 = _build_dim_prompt("relevance_pass", "v", q, 1, None, "p1_rule")
     p3 = _build_dim_prompt("relevance_pass", "v", q, 1, None, "p3_fewshot")
     p4 = _build_dim_prompt("relevance_pass", "v", q, 1, None, "p4_zscot")
-    # p0 has no rule; p1+ include the rule. p3 adds examples; p4 adds CoT.
-    assert "Mark relevance_pass" not in p0
-    assert "Mark relevance_pass" in p1
+    # p0 has no rule block; p1+ include the rule. p3 adds examples; p4 adds CoT.
+    assert "RULE:" not in p0
+    assert "RULE:" in p1
     assert "EXAMPLES" in p3 and "EXAMPLES" not in p1
     assert "think step by step" in p4 and "brief reasoning before the JSON" in p4
     # every variant x dimension file exists, loads, and fully fills.

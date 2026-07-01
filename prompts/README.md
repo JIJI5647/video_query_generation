@@ -53,18 +53,17 @@ Shared fragments included by the `perdim/` files:
 To add/adjust a variant: edit (or copy) the three `perdim/vdim_<variant>_*.txt`
 files. To change a rule everywhere: edit the relevant `rule_*.txt` once.
 
-### Combined prompts (legacy, `MODE=combined`)
-One inference judges all 3 dimensions (watching the clip). Run via
-`--using-prompt prompts/<file>`.
+### Combined prompt (single-call default)
+`verification_prompt.txt` judges all 3 dimensions in one call (watching the clip).
+It is the default used by the full pipeline (`workflow.run_query_pipeline`) and by
+`run_verification.py` **without** `--per-dimension`. It composes the rules via
+`{{include: verification_rules.txt}}` (which includes the 4 `rule_*.txt`).
 
-| File | Variant |
-|------|---------|
-| `verification_prompt.txt` | p1_rule (default) |
-| `verification_prompt_p0_norule.txt` … `_p8_rawcot.txt` | p0, p2–p8 |
-| `verification_rules.txt` | composes the 4 `rule_*.txt` (included by the above) |
+The per-strategy combined variants (`verification_prompt_p0..p8`) were removed —
+the ablation now runs on the per-dimension architecture above.
 
 **To change a rule: edit the relevant `rule_*.txt` once** — it propagates to both
-the per-dimension composer and the combined variants (via `verification_rules.txt`).
+the `perdim/` files and the combined default (via `verification_rules.txt`).
 
 ---
 

@@ -1,10 +1,27 @@
-1. relevance_pass
-Mark relevance_pass = true if the query is about one of the eight target emotions
-— angry, excited, fear, sad, surprised, frustrated, happy, disappointed — or about
-observable evidence for one of them. Synonyms are allowed only when they clearly
-refer to one of the eight labels.
-Mark relevance_pass = false if the query is mainly about a non-target emotion, a
-broad mental state, an intention, a thought, a memory, a relationship, or a
-plot-level interpretation rather than one of the eight target emotions or its
-observable evidence. Do not stretch broad states into the eight target emotions
-unless the query and the provided clip(s) clearly support one of the eight labels.
+### 1. `relevance_pass`
+
+Mark `relevance_pass = true` if the query is about one of the eight target emotions:
+
+`angry`, `excited`, `fear`, `sad`, `surprised`, `frustrated`, `happy`, `disappointed`
+
+A query is also relevant if it asks about observable evidence for one of these emotions, such as facial expression, gaze, body movement, gesture, posture, interaction, vocal tone, hesitation, silence, crying, laughing, or shouting.
+
+Synonyms are allowed only when they clearly map to one of the eight target emotions. For example:
+
+* `mad`, `furious`, or `irritated` may map to `angry`;
+* `joyful`, `pleased`, or `cheerful` may map to `happy`;
+* `scared`, `afraid`, or `terrified` may map to `fear`;
+* `upset` may map to `sad`, `angry`, `frustrated`, or `disappointed` only if the query wording clearly indicates which target emotion is meant.
+
+Mark `relevance_pass = false` if the query is mainly about:
+
+1. a non-target emotion, such as disgust, guilt, shame, pride, jealousy, boredom, calmness, confusion, or anxiety;
+2. a broad mental state, such as being focused, tired, stressed, interested, uncomfortable, confident, relaxed, serious, or worried;
+3. an intention, thought, memory, belief, preference, or motivation;
+4. a relationship between people;
+5. a plot-level interpretation or story event rather than an emotion;
+6. a general behavior or action without a clear link to one of the eight target emotions.
+
+Do not stretch broad states into the eight target emotions unless the query wording clearly refers to one of the eight target emotions or its observable evidence.
+
+This dimension only checks whether the query is about a target emotion or its observable evidence. It does not check whether the provided clip segment(s) contain enough evidence to answer the query.

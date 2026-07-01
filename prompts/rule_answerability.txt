@@ -1,11 +1,18 @@
-2. answerability_pass
-Mark answerability_pass = true only if the provided clip segment(s) contain enough
-visible or audible evidence to answer the query. Valid evidence may include facial
-expression, gaze, body movement, gesture, posture, interaction, non-verbal audio,
-vocal tone, crying, laughing, shouting, hesitation, silence, or an explicit verbal
-statement of feeling.
-Mark answerability_pass = false if the query can only be answered using plot
-context, outside knowledge, character identity, events outside the provided
-clip(s), or an unobservable internal state. If the query may be answerable
-somewhere else in the full video but not in the provided clip(s), mark
-answerability_pass = false.
+### 2. `answerability_pass`
+
+Mark `answerability_pass = true` only if the provided clip segment(s) contain enough visible or audible evidence to answer the query.
+
+Valid evidence may include facial expression, gaze, body movement, gesture, posture, interaction with others, non-verbal audio, vocal tone, crying, laughing, shouting, hesitation, silence, or an explicit verbal statement of feeling.
+
+Mark `answerability_pass = false` if the query cannot be answered from the provided clip segment(s) alone.
+
+This includes cases where answering the query would require:
+
+1. plot context outside the provided clip segment(s);
+2. knowledge of events before or after the provided clip segment(s);
+3. outside knowledge about the movie, actor, character, or dataset;
+4. knowing a character’s identity or name;
+5. inferring an unobservable internal state that is not grounded in visible or audible evidence;
+6. guessing based on weak, ambiguous, or insufficient evidence.
+
+If the query may be answerable somewhere else in the full video but not in the provided clip segment(s), mark `answerability_pass = false`.
