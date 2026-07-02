@@ -3,7 +3,7 @@ PROMPT VERSION: vdim_p2_role_relevance
 {{include: strat_role.txt}}
 
 TASK:
-Judge ONLY one dimension: relevance_pass. There is no video in this step — judge from the QUERY TEXT ALONE (whether the query is about one of the eight target emotions or its observable evidence).
+Judge ONLY one dimension: emotion_relevance_pass. There is no video in this step — judge from the QUERY TEXT ALONE (whether the query is about one of the eight target emotions or its observable evidence).
 
 VIDEO ID: {video_id}
 Round Index: {round_index}
@@ -23,7 +23,7 @@ Return valid JSON only. Do not include markdown, explanations, or extra text.
   "results": [
     {
       "query_id": "<query id>",
-      "relevance_pass": <true | false>,
+      "emotion_relevance_pass": <true | false>,
       "failure_reason": "<empty if true; one short phrase otherwise>"
     }
   ]

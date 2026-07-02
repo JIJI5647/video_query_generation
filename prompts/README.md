@@ -14,7 +14,7 @@ would break `--using-prompt` staging in `run_verification.py`).
 
 Driven by `run_verification.py` / `run_verification_sweep.sh`, scored by
 `eval_verification.py`. Every variant emits the **same JSON schema**
-(`relevance_pass` / `answerability_pass` / `query_quality_pass` + `failure_reason`);
+(`emotion_relevance_pass` / `answerability_pass` / `query_quality_pass` + `failure_reason`);
 `decision` is derived in code, never output by the model.
 
 ### Per-dimension architecture (default, `MODE=perdim`)

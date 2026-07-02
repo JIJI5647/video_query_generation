@@ -264,7 +264,7 @@ class VerificationResult(BaseModel):
     # ``decision`` is derived in code from the three dimensions below
     # (see verification._normalize_verification_raw).
     decision: Literal["pass", "fail", "revise"]
-    relevance_pass: bool = True
+    emotion_relevance_pass: bool = True
     answerability_pass: bool = True
     query_quality_pass: bool = True
     failure_reason: str = ""

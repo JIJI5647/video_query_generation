@@ -217,7 +217,7 @@ def _verify_per_query(
                     query_id=q.query_id,
                     round_index=round_index,
                     decision="fail",
-                    relevance_pass=False,
+                    emotion_relevance_pass=False,
                     answerability_pass=False,
                     query_quality_pass=False,
                     failure_reason="verification output missing or invalid format",

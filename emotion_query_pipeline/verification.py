@@ -19,12 +19,12 @@ _PROMPTS_DIR = Path(__file__).parent.parent / "prompts"
 # prompts/perdim/vdim_<variant>_<slug>.txt (composed there via {{include}}), so the
 # experiment design stays in the prompt files, not here.
 _DIM_NEEDS_VIDEO = {
-    "relevance_pass": False,
+    "emotion_relevance_pass": False,
     "answerability_pass": True,
     "query_quality_pass": False,
 }
 _DIM_SLUG = {  # filename suffix per dimension
-    "relevance_pass": "relevance",
+    "emotion_relevance_pass": "relevance",
     "answerability_pass": "answerability",
     "query_quality_pass": "query_quality",
 }
@@ -76,7 +76,7 @@ def _decision_from_dimensions(rel: bool, ans: bool, qual: bool) -> str:
 def _normalize_verification_raw(raw: dict, video_id: str, round_index: int) -> dict:
     """Fill metadata and DERIVE ``decision`` from the three dimension booleans.
 
-    The verifier outputs only ``relevance_pass`` / ``answerability_pass`` /
+    The verifier outputs only ``emotion_relevance_pass`` / ``answerability_pass`` /
     ``query_quality_pass`` (+ reason + suggested_revision); the decision is
     computed here so the routing never depends on the model's own verdict. A
     dimension that is missing or not exactly ``true`` is treated as failed.
@@ -88,10 +88,10 @@ def _normalize_verification_raw(raw: dict, video_id: str, round_index: int) -> d
         result.setdefault("round_index", round_index)
         result.setdefault("failure_reason", "")
         result.setdefault("suggested_revision", "")
-        rel = result.get("relevance_pass") is True
+        rel = result.get("emotion_relevance_pass") is True
         ans = result.get("answerability_pass") is True
         qual = result.get("query_quality_pass") is True
-        result["relevance_pass"] = rel
+        result["emotion_relevance_pass"] = rel
         result["answerability_pass"] = ans
         result["query_quality_pass"] = qual
         result["decision"] = _decision_from_dimensions(rel, ans, qual)
@@ -254,7 +254,7 @@ def verify_queries_per_dimension(
 
     results: List[VerificationResult] = []
     for qi, q in enumerate(queries):
-        rel = vals[qi].get("relevance_pass", False)
+        rel = vals[qi].get("emotion_relevance_pass", False)
         ans = vals[qi].get("answerability_pass", False)
         qual = vals[qi].get("query_quality_pass", False)
         results.append(
@@ -263,7 +263,7 @@ def verify_queries_per_dimension(
                 query_id=q.query_id,
                 round_index=round_index,
                 decision=_decision_from_dimensions(rel, ans, qual),
-                relevance_pass=rel,
+                emotion_relevance_pass=rel,
                 answerability_pass=ans,
                 query_quality_pass=qual,
                 failure_reason="; ".join(reasons[qi]),

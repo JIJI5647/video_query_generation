@@ -1,10 +1,10 @@
-EXAMPLES (illustrative relevance_pass judgements; NOT about the current query set):
+EXAMPLES (illustrative emotion_relevance_pass judgements; NOT about the current query set):
 
 query: "When does the man in the dark jacket shout with clenched fists?"
-{"query_id": "example_a", "relevance_pass": true, "failure_reason": ""}
+{"query_id": "example_a", "emotion_relevance_pass": true, "failure_reason": ""}
 
 query: "When does the boy look curious while examining the knife?"
-{"query_id": "example_b", "relevance_pass": false, "failure_reason": "curious is not a target emotion"}
+{"query_id": "example_b", "emotion_relevance_pass": false, "failure_reason": "curious is not a target emotion"}
 
 query: "When does the woman appear afraid as the door opens?"
-{"query_id": "example_c", "relevance_pass": true, "failure_reason": ""}
+{"query_id": "example_c", "emotion_relevance_pass": true, "failure_reason": ""}

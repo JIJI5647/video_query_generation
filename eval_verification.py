@@ -70,7 +70,8 @@ def score_one(gold: Dict[str, dict], results_path: Path) -> dict:
             continue
         matched += 1
         dec_pairs.append((g["gold_decision"], r.get("decision")))
-        rel.append((bool(g["gold_emotion_relevant"]), bool(r.get("relevance_pass"))))
+        rel_pred = r.get("emotion_relevance_pass", r.get("relevance_pass"))  # back-compat: old runs used "relevance_pass"
+        rel.append((bool(g["gold_emotion_relevant"]), bool(rel_pred)))
         ans.append((bool(g["gold_answerability"]), bool(r.get("answerability_pass"))))
         qual.append((bool(g["gold_query_quality"]), bool(r.get("query_quality_pass"))))
 
@@ -124,7 +125,7 @@ def main() -> None:
               f"{s['accept_f1']:>9.3f} {s['false_pass']:>9.1%} {s['json_err']:>7.1%}")
 
     # --- Per-dimension Precision / Recall / F1 (positive class = "pass") ---
-    for dim_key, dim_name in (("rel", "relevance_pass"),
+    for dim_key, dim_name in (("rel", "emotion_relevance_pass"),
                               ("ans", "answerability_pass"),
                               ("qual", "query_quality_pass")):
         print(f"\n=== {dim_name}  (precision / recall / f1, positive = pass) ===")

@@ -231,7 +231,7 @@ def main() -> None:
                     "query_text": q.query_text if q else "",
                     "query_type": q.query_type if q else "",
                     "decision": r.decision,
-                    "relevance_pass": r.relevance_pass,
+                    "emotion_relevance_pass": r.emotion_relevance_pass,
                     "answerability_pass": r.answerability_pass,
                     "query_quality_pass": r.query_quality_pass,
                     "failure_reason": r.failure_reason,

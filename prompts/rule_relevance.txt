@@ -1,6 +1,6 @@
-### 1. `relevance_pass`
+### 1. `emotion_relevance_pass`
 
-Mark `relevance_pass = true` if the query is about one of the eight target emotions:
+Mark `emotion_relevance_pass = true` if the query is about one of the eight target emotions:
 
 `angry`, `excited`, `fear`, `sad`, `surprised`, `frustrated`, `happy`, `disappointed`
 
@@ -13,7 +13,7 @@ Synonyms are allowed only when they clearly map to one of the eight target emoti
 * `scared`, `afraid`, or `terrified` may map to `fear`;
 * `upset` may map to `sad`, `angry`, `frustrated`, or `disappointed` only if the query wording clearly indicates which target emotion is meant.
 
-Mark `relevance_pass = false` if the query is mainly about:
+Mark `emotion_relevance_pass = false` if the query is mainly about:
 
 1. a non-target emotion, such as disgust, guilt, shame, pride, jealousy, boredom, calmness, confusion, or anxiety;
 2. a broad mental state, such as being focused, tired, stressed, interested, uncomfortable, confident, relaxed, serious, or worried;
