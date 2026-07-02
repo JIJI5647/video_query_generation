@@ -161,7 +161,7 @@ def _build_dim_prompt(
     query: EventGroundedQuery,
     round_index: int,
     prompts_dir: Optional[Path],
-    variant: str = "p1_rule",
+    variant: str = "p7_rolecot",
 ) -> str:
     """Load the per-dimension prompt for ``variant`` and fill the runtime fields.
 
@@ -207,7 +207,7 @@ def verify_queries_per_dimension(
     round_index: int,
     client: BaseLLMClient,
     prompts_dir: Optional[Path] = None,
-    variant: str = "p1_rule",
+    variant: str = "p7_rolecot",
     verify_parallel: int = 1,
 ) -> VerificationBatchOutput:
     """Judge each of the three dimensions in its OWN inference.

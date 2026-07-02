@@ -87,7 +87,7 @@ def main() -> None:
         "text-only; answerability watches the clip. --using-prompt is ignored.",
     )
     parser.add_argument(
-        "--variant", default="p1_rule",
+        "--variant", default="p7_rolecot",
         help="Strategy applied per dimension in --per-dimension mode "
         "(p0_norule, p1_rule, p2_role, p3_fewshot, p4_zscot, p5_fewshotcot, "
         "p6_rolefewshot, p7_rolecot, p8_rawcot).",
