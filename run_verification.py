@@ -32,6 +32,7 @@ from emotion_query_pipeline.io_utils import write_jsonl
 from emotion_query_pipeline.llm_client import GeminiLLMClient
 from emotion_query_pipeline.models import GenerationOutput, Segment
 from emotion_query_pipeline.omni_captioning import (
+    DEFAULT_SAMPLING_PARAMS,
     Qwen3OmniCaptioner,
     QwenOmniLLMClient,
 )
@@ -97,6 +98,12 @@ def main() -> None:
     # Qwen3-Omni (verify backend) knobs.
     parser.add_argument("--qwen-model-path", default="Qwen/Qwen3-Omni-30B-A3B-Instruct")
     parser.add_argument("--qwen-attn-impl", default=None)
+    parser.add_argument(
+        "--qwen-max-tokens", type=int, default=None,
+        help="Override the Qwen3-Omni thinker max_new_tokens. Raise it for the "
+        "Thinking reasoning checkpoint (e.g. 8192) so the long chain-of-thought "
+        "isn't truncated before the JSON answer. Default keeps the built-in 2048.",
+    )
     parser.add_argument("--qwen-video-reader-backend",
                         choices=["torchvision", "decord", "torchcodec"],
                         default="torchvision")
@@ -141,13 +148,20 @@ def main() -> None:
     # Verify client: Gemini (uploads clips) or the local Qwen3-Omni engine.
     uploader = None
     if use_qwen_vr:
+        # Raise the thinker token budget when asked (needed for the Thinking
+        # reasoning checkpoint, whose long CoT otherwise truncates before the JSON).
+        sampling = dict(DEFAULT_SAMPLING_PARAMS)
+        if args.qwen_max_tokens:
+            sampling["max_tokens"] = args.qwen_max_tokens
         engine = Qwen3OmniCaptioner(
             model_path=args.qwen_model_path,
             attn_implementation=args.qwen_attn_impl,
             video_reader_backend=args.qwen_video_reader_backend,
+            sampling_params=sampling,
         )
         vr_client = QwenOmniLLMClient(engine)
-        print(f"Verify backend — qwen3_omni ({args.qwen_model_path})")
+        print(f"Verify backend — qwen3_omni ({args.qwen_model_path}, "
+              f"max_new_tokens={sampling['max_tokens']})")
     else:
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:

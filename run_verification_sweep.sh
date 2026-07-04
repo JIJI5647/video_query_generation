@@ -19,6 +19,15 @@ BACKEND="${BACKEND:-qwen3_omni}"          # qwen3_omni | gemini
 VIDEO_READER="${VIDEO_READER:-decord}"
 PARALLEL="${PARALLEL:-4}"
 VERIFICATION_MODEL="${VERIFICATION_MODEL:-gemini-3.1-flash-lite}"
+# Qwen3-Omni verify knobs (BACKEND=qwen3_omni). Set QWEN_MODEL_PATH to the
+# Thinking reasoning checkpoint (Qwen/Qwen3-Omni-30B-A3B-Thinking) and bump
+# QWEN_MAX_TOKENS (e.g. 8192) so its long CoT isn't truncated before the JSON.
+QWEN_MODEL_PATH="${QWEN_MODEL_PATH:-}"
+QWEN_MAX_TOKENS="${QWEN_MAX_TOKENS:-}"
+
+QWEN_ARGS=()
+[ -n "$QWEN_MODEL_PATH" ] && QWEN_ARGS+=(--qwen-model-path "$QWEN_MODEL_PATH")
+[ -n "$QWEN_MAX_TOKENS" ] && QWEN_ARGS+=(--qwen-max-tokens "$QWEN_MAX_TOKENS")
 
 VARIANTS=(
   p0_norule p1_rule p2_role p3_fewshot p4_zscot
@@ -40,6 +49,7 @@ for v in "${VARIANTS[@]}"; do
     --verify-rewrite-backend "$BACKEND" \
     --verification-model "$VERIFICATION_MODEL" \
     --qwen-video-reader-backend "$VIDEO_READER" \
+    ${QWEN_ARGS[@]+"${QWEN_ARGS[@]}"} \
     --parallel "$PARALLEL" \
     > "logs/verify_sweep/${v}.log" 2>&1
   echo "[$(date '+%F %T')] done ${v} (exit $?)  log: logs/verify_sweep/${v}.log"

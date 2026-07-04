@@ -118,16 +118,31 @@ def build_omni_caption_prompt(
 # ---------------------------------------------------------------------------
 # Robust JSON extraction + validation + parsing
 # ---------------------------------------------------------------------------
+def _strip_reasoning_block(text: str) -> str:
+    """Drop a leading ``<think> ... </think>`` reasoning block if present.
+
+    Qwen3-Omni-*-Thinking (and other reasoning checkpoints) emit a chain-of-thought
+    inside ``<think>...</think>`` BEFORE the answer. That reasoning is free-form and
+    can contain braces, which would derail the first-``{`` JSON extraction below, so
+    we keep only what follows the final ``</think>``.
+    """
+    close = text.rfind("</think>")
+    if close != -1:
+        return text[close + len("</think>"):].strip()
+    return text
+
+
 def extract_caption_json(raw_text: str) -> dict:
     """Pull the first JSON object out of a raw model response.
 
-    Tolerates markdown fences (```json ... ```), leading/trailing prose, and a
-    second trailing JSON value. Raises ``CaptionParseError(json_parse_error)``
-    if no JSON object can be decoded.
+    Tolerates markdown fences (```json ... ```), a Thinking model's
+    ``<think>...</think>`` reasoning, leading/trailing prose, and a second trailing
+    JSON value. Raises ``CaptionParseError(json_parse_error)`` if no JSON object can
+    be decoded.
     """
     if raw_text is None:
         raise CaptionParseError("json_parse_error", "empty (None) response", "")
-    text = raw_text.strip()
+    text = _strip_reasoning_block(raw_text.strip())
     if not text:
         raise CaptionParseError("json_parse_error", "empty response", raw_text)
 
@@ -212,7 +227,7 @@ def extract_caption_list(raw_text: str) -> list:
     """
     if not raw_text or not raw_text.strip():
         raise CaptionParseError("json_parse_error", "empty response", raw_text or "")
-    text = raw_text.strip()
+    text = _strip_reasoning_block(raw_text.strip())
     if "```" in text:
         fence = text.find("```")
         rest = text[fence + 3 :]
