@@ -1,0 +1,52 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a gray sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, holding a piece of paper, gesturing with his hands, speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a television, a bookshelf, and a black leather chair in the background"
+    },
+    "objects": [
+      {
+        "object": "a red plastic cup",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on the table"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the gray sweater holds a piece of paper and gestures with his hands while speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a gray sweater",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "looking at the other person"
+    }
+  ],
+  "audio_description": "a man is speaking in an agitated tone, followed by audience laughter.",
+  "temporal_description": "the man in the gray sweater speaks animatedly, gesturing with his hands, while the other man listens.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

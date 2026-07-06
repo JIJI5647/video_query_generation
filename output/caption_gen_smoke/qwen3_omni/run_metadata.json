@@ -1,0 +1,31 @@
+{
+  "caption_model": "qwen3_omni",
+  "model_kind": "av",
+  "non_commercial": false,
+  "video_dir": "data/pilot_study",
+  "num_videos": 2,
+  "num_segments": 11,
+  "num_captions": 11,
+  "total_seconds": 336.2,
+  "segment_seconds": 5.0,
+  "stride": 5.0,
+  "per_video": [
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "num_segments": 3,
+      "num_cached": 0,
+      "seconds": 136.1
+    },
+    {
+      "video_id": "meld_02_dia224",
+      "num_segments": 8,
+      "num_cached": 0,
+      "seconds": 199.9
+    }
+  ],
+  "model_paths": {
+    "caption_model_path": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "audio_model_path": null,
+    "video_model_path": null
+  }
+}

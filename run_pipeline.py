@@ -231,6 +231,13 @@ def main() -> None:
         action="store_true",
         help="Force regeneration of every segment caption, ignoring any cache.",
     )
+    parser.add_argument(
+        "--skip-verification",
+        action="store_true",
+        help="Stop after query generation — skip the verify/rewrite stage "
+        "entirely (no clip upload/watch, no verification_results). Every "
+        "video's traces end up empty, matching the existing 0-queries path.",
+    )
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -383,7 +390,11 @@ def main() -> None:
             # then check each query against just its own clip(s). Gemini needs the
             # clips uploaded (URIs); Qwen3-Omni watches the local clip paths
             # directly (no upload).
-            if gen_output.queries:
+            if gen_output.queries and args.skip_verification:
+                print(f"  → [5/5] skipping verify/rewrite (--skip-verification): "
+                      f"{len(gen_output.queries)} query(ies) left unverified")
+                traces, ver_outs, rw_outs = {}, [], []
+            elif gen_output.queries:
                 print(f"  → [5/5] verifying + rewriting {len(gen_output.queries)} "
                       f"query(ies) ({args.verify_rewrite_backend})...", flush=True)
                 with timer.stage("verify/rewrite"):

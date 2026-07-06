@@ -1,0 +1,72 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    39.62
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the dark green jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "speaking and gesturing with his hands"
+      },
+      {
+        "person": "the man in the grey sweater",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding a red cup and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "kitchen with cabinets and a refrigerator in the background"
+    },
+    "objects": [
+      {
+        "object": "red cup",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "held by the man in the grey sweater"
+      }
+    ],
+    "interactions": [
+      "the man in the dark green jacket is speaking to the man in the grey sweater"
+    ],
+    "key_actions": [
+      "the man in the dark green jacket is speaking",
+      "the man in the grey sweater is holding a red cup"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the dark green jacket",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "towards the man in the grey sweater"
+    },
+    {
+      "person": "the man in the grey sweater",
+      "facial_cues": [
+        "mouth slightly open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "holding a red cup"
+      ],
+      "gaze": "towards the man in the dark green jacket"
+    }
+  ],
+  "audio_description": "a man is speaking, followed by audience laughter.",
+  "temporal_description": "the man in the dark green jacket speaks, then the man in the grey sweater responds.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

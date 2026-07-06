@@ -1,0 +1,34 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    12.76
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a dark green shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "aiming a handgun with both hands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with peeling yellow walls and shadows from bars or slats across the wall"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s003\", \"time_range\": [10.0, 12.76], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a dark green shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"aiming a handgun with both hands\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with peeling yellow walls and shadows from bars or slats across the wall\"}}, \"objects\": [{\"object\": \"handgun\", \"visibility\": \"clearly visible\", \"position\": \"held by the woman\", \"action\": \"being aimed\"}], \""
+}

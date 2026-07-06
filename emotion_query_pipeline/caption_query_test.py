@@ -445,6 +445,40 @@ def merge_audio_video_caption(
     return cap
 
 
+# AVoCaDO's fused AV narrative and TimeChat's scene-timestamped narrative are both
+# trusted higher than a naive free-text fallback (purpose-built cross-modal
+# captioners, raw text passed through as-is in temporal_description) — see the
+# caption_model -> confidence discussion in normalize_to_omni_caption's docstring.
+DEFAULT_CONFIDENCE_BY_MODEL = {"avocado": "medium", "timechat": "medium"}
+
+
+def normalize_caption_output(
+    out: "CaptionModelOutput", segment: Segment, video_id: str, caption_model: str
+) -> OmniCaption:
+    """Coerce a caption runner/session output into an ``OmniCaption``.
+
+    Dispatches on modality (``audio_video`` merges the two sub-model texts;
+    everything else normalizes the single raw output) and applies the
+    per-model default confidence. Shared by ``run_caption_generation_test.py``
+    (per-segment) and ``run_caption_generation.py`` (batch).
+    """
+    if out.modality == "audio_video":
+        return merge_audio_video_caption(
+            out.audio_text, out.video_text, segment, video_id,
+            audio_source_model=out.audio_source_model or "",
+            video_source_model=out.video_source_model or "",
+            source_caption_model=out.source_caption_model,
+        )
+    return normalize_to_omni_caption(
+        out.raw_output, segment, video_id,
+        source_caption_model=out.source_caption_model,
+        modality=out.modality,
+        audio_source_model=out.audio_source_model,
+        video_source_model=out.video_source_model,
+        default_confidence=DEFAULT_CONFIDENCE_BY_MODEL.get(caption_model, "low"),
+    )
+
+
 # ---------------------------------------------------------------------------
 # Downstream inputs + Gemini run (reuses the existing pipeline stages)
 # ---------------------------------------------------------------------------
@@ -764,17 +798,9 @@ def _run_qwen3_omni(
     )
 
 
-def _run_qwen3_vl_video(
-    video_path: str, model_path: str, config: RunnerConfig
-) -> str:
-    """Caption a video clip's VISUALS with Qwen3-VL (video + text, no audio).
-
-    Qwen3-VL is a vision-language model: it must receive video/image + text and
-    must NOT receive audio. Returns plain caption text. Heavy imports are lazy.
-    """
-    import torch  # lazy
+def _load_qwen3_vl(model_path: str, config: RunnerConfig):
+    """Load a Qwen3-VL model + processor once. Returns ``(model, processor)``."""
     from transformers import AutoModelForImageTextToText, AutoProcessor  # lazy
-    from qwen_vl_utils import process_vision_info  # lazy
 
     processor = AutoProcessor.from_pretrained(model_path, trust_remote_code=True)
     model = AutoModelForImageTextToText.from_pretrained(
@@ -784,6 +810,14 @@ def _run_qwen3_vl_video(
         trust_remote_code=True,
         **({"attn_implementation": config.attn_impl} if config.attn_impl else {}),
     )
+    return model, processor
+
+
+def _qwen3_vl_generate(model, processor, video_path: str, config: RunnerConfig) -> str:
+    """Caption one clip's VISUALS with an already-loaded Qwen3-VL model. Returns text."""
+    import torch  # lazy
+    from qwen_vl_utils import process_vision_info  # lazy
+
     messages = [
         {
             "role": "user",
@@ -807,6 +841,19 @@ def _run_qwen3_vl_video(
         trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
     )
     return (out[0] if out else "").strip()
+
+
+def _run_qwen3_vl_video(
+    video_path: str, model_path: str, config: RunnerConfig
+) -> str:
+    """Load Qwen3-VL and caption ONE clip's visuals (per-call; reloads).
+
+    Qwen3-VL is a vision-language model: it must receive video/image + text and
+    must NOT receive audio. For many segments use
+    ``batch_captioning.Qwen3VLVideoSession`` (loads once via ``_load_qwen3_vl``).
+    """
+    model, processor = _load_qwen3_vl(model_path, config)
+    return _qwen3_vl_generate(model, processor, video_path, config)
 
 
 def _run_subprocess_caption(
@@ -836,27 +883,16 @@ def _run_subprocess_caption(
     return out[start + len("###CAPTION_START###"):end].strip()
 
 
-def _run_qwen2_5_omni_av(
-    video_path: str,
-    model_path: str,
-    prompt: str,
-    config: RunnerConfig,
-    system_prompt: Optional[str] = None,
-) -> str:
-    """Caption a video clip (audio+video) with a Qwen2.5-Omni-based AV captioner.
+def _load_qwen2_5_omni(model_path: str, config: RunnerConfig):
+    """Load a Qwen2.5-Omni AV model + processor once (talker disabled).
 
-    Shared by AVoCaDO and TimeChat-Captioner-GRPO — both are fine-tunes of
-    Qwen2.5-Omni-7B (``Qwen2_5OmniForConditionalGeneration``) and are called the
-    same way per their own reference inference scripts (talker disabled,
-    ``process_mm_info`` with ``use_audio_in_video=True``). Only the prompt (and
-    optionally a system message) differs per model. Returns plain caption text.
+    Returned ``(model, processor)`` is reusable across many segments — the batch
+    captioner holds it for a whole run so the 7B weights load only once.
     """
-    import torch  # lazy
     from transformers import (  # lazy
         Qwen2_5OmniForConditionalGeneration,
         Qwen2_5OmniProcessor,
     )
-    from qwen_omni_utils import process_mm_info  # lazy
 
     load_kwargs: Dict[str, Any] = {
         "dtype": "auto",
@@ -868,6 +904,16 @@ def _run_qwen2_5_omni_av(
     if hasattr(model, "disable_talker"):
         model.disable_talker()
     processor = Qwen2_5OmniProcessor.from_pretrained(model_path)
+    return model, processor
+
+
+def _qwen2_5_omni_generate(
+    model, processor, video_path: str, prompt: str, config: RunnerConfig,
+    system_prompt: Optional[str] = None,
+) -> str:
+    """Caption one clip with an already-loaded Qwen2.5-Omni AV model. Returns text."""
+    import torch  # lazy
+    from qwen_omni_utils import process_mm_info  # lazy
 
     messages = []
     if system_prompt:
@@ -900,23 +946,47 @@ def _run_qwen2_5_omni_av(
     return (out[0] if out else "").strip()
 
 
-def _run_qwen_omni_captioner_audio(audio_path: str, model_path: str) -> str:
-    """Caption audio ONLY with Qwen3-Omni-Captioner — NO text prompt.
+def _run_qwen2_5_omni_av(
+    video_path: str,
+    model_path: str,
+    prompt: str,
+    config: RunnerConfig,
+    system_prompt: Optional[str] = None,
+) -> str:
+    """Load a Qwen2.5-Omni AV captioner and caption ONE clip (per-call; reloads).
 
-    Qwen3-Omni-Captioner is audio-only and does not accept a text instruction, so
-    the user turn carries just the audio. Returns plain caption text.
+    Shared by AVoCaDO and TimeChat-Captioner-GRPO — both are fine-tunes of
+    Qwen2.5-Omni-7B, called the same way per their reference inference scripts
+    (talker disabled, ``process_mm_info`` with ``use_audio_in_video=True``); only
+    the prompt (and optional system message) differs. For captioning many
+    segments, use ``batch_captioning.Qwen25OmniAVSession`` instead, which loads
+    the model once via ``_load_qwen2_5_omni`` and reuses it.
     """
-    import torch  # lazy
+    model, processor = _load_qwen2_5_omni(model_path, config)
+    return _qwen2_5_omni_generate(
+        model, processor, video_path, prompt, config, system_prompt=system_prompt
+    )
+
+
+def _load_qwen_omni_captioner(model_path: str):
+    """Load Qwen3-Omni-Captioner (audio-only) model + processor once."""
     from transformers import (  # lazy
         Qwen3OmniMoeForConditionalGeneration,
         Qwen3OmniMoeProcessor,
     )
-    from qwen_omni_utils import process_mm_info  # lazy
 
     processor = Qwen3OmniMoeProcessor.from_pretrained(model_path)
     model = Qwen3OmniMoeForConditionalGeneration.from_pretrained(
         model_path, dtype="auto", device_map="auto", trust_remote_code=True
     )
+    return model, processor
+
+
+def _qwen_omni_captioner_generate(model, processor, audio_path: str) -> str:
+    """Caption one audio clip with an already-loaded Qwen3-Omni-Captioner (no text prompt)."""
+    import torch  # lazy
+    from qwen_omni_utils import process_mm_info  # lazy
+
     # Audio-only turn: NO text part (Captioner takes no text prompt).
     conversations = [{"role": "user", "content": [{"type": "audio", "audio": audio_path}]}]
     text = processor.apply_chat_template(
@@ -938,6 +1008,17 @@ def _run_qwen_omni_captioner_audio(audio_path: str, model_path: str) -> str:
         skip_special_tokens=True, clean_up_tokenization_spaces=False,
     )
     return (out[0] if out else "").strip()
+
+
+def _run_qwen_omni_captioner_audio(audio_path: str, model_path: str) -> str:
+    """Load Qwen3-Omni-Captioner and caption ONE audio clip (per-call; reloads).
+
+    Qwen3-Omni-Captioner is audio-only and does not accept a text instruction, so
+    the user turn carries just the audio. For many segments use
+    ``batch_captioning.QwenOmniCaptionerAudioSession`` (loads once).
+    """
+    model, processor = _load_qwen_omni_captioner(model_path)
+    return _qwen_omni_captioner_generate(model, processor, audio_path)
 
 
 def _run_qwen_audio_vl(

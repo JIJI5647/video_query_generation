@@ -43,6 +43,7 @@ def test_importing_module_does_not_import_heavy_deps():
 
 @pytest.mark.parametrize("script", [
     "run_caption_generation_test", "run_query_generation_test", "run_evaluation_test",
+    "run_caption_generation",
 ])
 def test_importing_cli_script_does_not_import_heavy_deps(script):
     for m in _HEAVY:
@@ -50,6 +51,14 @@ def test_importing_cli_script_does_not_import_heavy_deps(script):
     importlib.import_module(script)
     for m in _HEAVY:
         assert m not in sys.modules, f"{m} must not be imported by {script}"
+
+
+def test_importing_batch_captioning_does_not_import_heavy_deps():
+    for m in _HEAVY:
+        sys.modules.pop(m, None)
+    importlib.import_module("emotion_query_pipeline.batch_captioning")
+    for m in _HEAVY:
+        assert m not in sys.modules, f"{m} must not be imported by batch_captioning"
 
 
 # ---------------------------------------------------------------------------
@@ -195,6 +204,84 @@ def test_merge_audio_video_caption():
     assert "covers her face" in cap.temporal_description
     assert cap.audio_source_model == "yaoxunxu/SECaps"
     assert cap.video_source_model == "Qwen/Qwen3-VL-8B-Instruct"
+
+
+# ---------------------------------------------------------------------------
+# normalize_caption_output (shared modality dispatch + per-model confidence)
+# ---------------------------------------------------------------------------
+def test_normalize_caption_output_av_confidence_by_model():
+    seg = _seg()
+    for model, expected in (("avocado", "medium"), ("timechat", "medium"),
+                            ("qwen3_omni", "low"), ("unknown_model", "low")):
+        out = cqt.CaptionModelOutput(
+            modality="av", raw_output="a fused audiovisual narrative.",
+            source_caption_model=model,
+        )
+        cap = cqt.normalize_caption_output(out, seg, "v", model)
+        assert cap.confidence == expected, f"{model} -> {cap.confidence}"
+
+
+def test_normalize_caption_output_audio_video_merges():
+    seg = _seg()
+    out = cqt.CaptionModelOutput(
+        modality="audio_video", audio_text="a trembling voice",
+        video_text="a man backs away", source_caption_model="qwen_audio_vl",
+        audio_source_model="A", video_source_model="B",
+    )
+    cap = cqt.normalize_caption_output(out, seg, "v", "qwen_audio_vl")
+    assert cap.audio_description == "a trembling voice"
+    assert "backs away" in cap.temporal_description
+    assert cap.audio_source_model == "A" and cap.video_source_model == "B"
+
+
+# ---------------------------------------------------------------------------
+# batch_captioning: factory routing + a fake-session batch round trip
+# ---------------------------------------------------------------------------
+def test_batch_session_factory_unknown_model_errors():
+    from emotion_query_pipeline import batch_captioning as bc
+    with pytest.raises(ValueError, match="unknown"):
+        bc.build_caption_session("not_a_model", cqt.RunnerConfig())
+
+
+def test_batch_fake_session_round_trip_av():
+    # A fake session that never loads a model — proves the normalize + record
+    # path the batch script relies on works end-to-end without any heavy deps.
+    from emotion_query_pipeline import batch_captioning as bc
+
+    class FakeAVSession:
+        def __init__(self):
+            self.closed = False
+            self.calls = 0
+
+        def caption(self, segment, video_path, audio_path):
+            self.calls += 1
+            return cqt.CaptionModelOutput(
+                modality="av",
+                raw_output=f"caption for {segment.segment_id}",
+                source_caption_model="fake",
+            )
+
+        def close(self):
+            self.closed = True
+
+    sess = FakeAVSession()
+    segs = [_seg("s001", 0.0, 5.0), _seg("s002", 5.0, 10.0)]
+    caps = []
+    try:
+        for s in segs:
+            out = sess.caption(s, s.clip_path, None)
+            caps.append(cqt.normalize_caption_output(out, s, "vid", "avocado"))
+    finally:
+        sess.close()
+    assert sess.calls == 2 and sess.closed
+    assert [c.segment_id for c in caps] == ["s001", "s002"]
+    assert "s002" in caps[1].temporal_description
+    assert caps[0].confidence == "medium"  # avocado default
+    # Both are valid OmniCaptions that round-trip through write/read helpers.
+    assert all(isinstance(c, OmniCaption) for c in caps)
+    # AudioVideoSession composite exists and exposes the session interface.
+    assert hasattr(bc.AudioVideoSession, "caption")
+    assert hasattr(bc.AudioVideoSession, "close")
 
 
 # ---------------------------------------------------------------------------

@@ -1,0 +1,30 @@
+{
+  "total_videos": 3,
+  "total_segments": 19,
+  "total_raw_captions": 19,
+  "total_emotion_events": 8,
+  "total_initial_queries": 19,
+  "total_accepted_queries": 0,
+  "total_discarded_queries": 0,
+  "average_accepted_queries_per_video": 0.0,
+  "emotion_distribution": {
+    "surprised": 2,
+    "happy": 5,
+    "excited": 1
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 7,
+    "evidence_cue": 7,
+    "explicit_event": 5
+  },
+  "query_type_distribution_final_accepted": {},
+  "rewrite_count_distribution": {},
+  "pass_rate_after_initial_verification": 0.0,
+  "pass_rate_after_rewrites": 0.0,
+  "discarded_query_count": 0,
+  "diversity_warnings": [
+    "[emostim_07_TheSilenceOfTheLambs_a_clip_2] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[meld_02_dia224] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[meld_05_dia980] WARNING: only 0 accepted queries (recommended minimum: 3)"
+  ]
+}

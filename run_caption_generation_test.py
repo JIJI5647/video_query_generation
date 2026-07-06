@@ -112,35 +112,12 @@ def _plan_segments(
     return segments, audio_by_segment
 
 
-# AVoCaDO's fused AV narrative and TimeChat's scene-timestamped/6-dimension
-# narrative are both trusted higher than a naive free-text fallback (purpose-
-# built cross-modal captioners, not just prompted generic prose) — see the
-# caption_model -> confidence discussion in normalize_to_omni_caption's
-# docstring. Neither is parsed into the structured fields (visual_objective /
-# audio_description); their raw text passes through to Gemini as-is in
-# temporal_description, which is capable of reading the embedded timestamps
-# and dimension labels itself.
-_DEFAULT_CONFIDENCE_BY_MODEL = {"avocado": "medium", "timechat": "medium"}
-
-
 def _normalize_output(
     out: cqt.CaptionModelOutput, segment: Segment, video_id: str, caption_model: str
 ) -> OmniCaption:
-    if out.modality == "audio_video":
-        return cqt.merge_audio_video_caption(
-            out.audio_text, out.video_text, segment, video_id,
-            audio_source_model=out.audio_source_model or "",
-            video_source_model=out.video_source_model or "",
-            source_caption_model=out.source_caption_model,
-        )
-    return cqt.normalize_to_omni_caption(
-        out.raw_output, segment, video_id,
-        source_caption_model=out.source_caption_model,
-        modality=out.modality,
-        audio_source_model=out.audio_source_model,
-        video_source_model=out.video_source_model,
-        default_confidence=_DEFAULT_CONFIDENCE_BY_MODEL.get(caption_model, "low"),
-    )
+    # Thin delegator to the shared package helper (single source of truth for the
+    # modality dispatch + per-model default confidence).
+    return cqt.normalize_caption_output(out, segment, video_id, caption_model)
 
 
 def _raw_record(out: cqt.CaptionModelOutput, segment: Segment) -> dict:
