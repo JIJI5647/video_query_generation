@@ -15,6 +15,7 @@ from __future__ import annotations
 import argparse
 import os
 import sys
+import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
@@ -65,11 +66,13 @@ def main() -> None:
         api_key=api_key,
     )
     inputs = cqt.build_downstream_inputs(video_id, captions, segments)
+    t0 = time.perf_counter()
     downstream = cqt.run_downstream_gemini(inputs, client)
+    generation_seconds = time.perf_counter() - t0
     events, generation = downstream["events"], downstream["generation"]
     warnings = list(downstream["warnings"])
     print(f"[query-gen-test] {len(events.events)} emotion event(s), "
-          f"{len(generation.queries)} query(ies)")
+          f"{len(generation.queries)} query(ies) in {generation_seconds:.1f}s")
     for w in warnings:
         print(f"  WARNING: {w}")
 
@@ -79,6 +82,7 @@ def main() -> None:
         "num_segments": len(segments),
         "num_emotion_events": len(events.events),
         "num_generated_queries": len(generation.queries),
+        "generation_seconds": round(generation_seconds, 1),
         "generation_model": args.generation_model,
         "emotion_event_model": args.emotion_event_model or args.generation_model,
         "warnings": warnings,

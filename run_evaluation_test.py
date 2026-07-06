@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import os
 import sys
+import time
 from collections import Counter
 from pathlib import Path
 
@@ -81,13 +82,16 @@ def main() -> None:
     print(f"[eval-test] video_id={video_id} segments={len(segments)} "
           f"queries={len(generation.queries)}")
 
+    t0 = time.perf_counter()
     final_queries = cqt.run_verification_stage(
         video_id, generation, segments, api_key,
         verification_model=args.verification_model,
         rewrite_model=args.rewrite_model,
     )
+    evaluation_seconds = time.perf_counter() - t0
     summary = _summarize(final_queries)
-    print(f"[eval-test] {summary['total']} query(ies) checked: "
+    print(f"[eval-test] {summary['total']} query(ies) checked in "
+          f"{evaluation_seconds:.1f}s: "
           + ", ".join(f"{k}={v} ({summary['final_status_pct'][k]}%)"
                        for k, v in summary["final_status"].items()))
 
@@ -96,6 +100,7 @@ def main() -> None:
         "queries_dir": str(queries_dir),
         "num_queries_in": len(generation.queries),
         "num_queries_checked": summary["total"],
+        "evaluation_seconds": round(evaluation_seconds, 1),
         "verification_model": args.verification_model,
         "rewrite_model": args.rewrite_model,
     }
