@@ -3,6 +3,19 @@
 Live status of in-progress work. Update as tasks complete; this is a status log,
 not a reference doc (see `docs/caption_query_test.md` / `README.md` for those).
 
+## This machine: `$HOME` is wiped on restart, only `/work/mzha0323/...` persists
+
+Machine-specific, not general repo guidance (other environments running this repo may
+differ) — noting it here rather than in `CLAUDE.md`. `df -h` on this server shows `$HOME`
+(`/home/dgxuser`) on the container's `overlay` root fs and `/work` on a separate persistent
+Lustre mount. `env.sh` (API keys), `conda_envs/`, `hf_cache/` (`HF_HOME`), `pip_cache/` are
+already kept under the project dir instead of their usual home-directory defaults for this
+reason. Also affects `~/.gitconfig`, `~/.ssh/`, `~/.netrc`, `~/.git-credentials` — git
+identity on this machine is set via `git config --local` (this repo's own `.git/config`,
+under `/work`) instead of `--global`, and the push SSH key lives at
+`/work/mzha0323/.ssh_persist/id_ed25519` (outside the git working tree) with
+`core.sshCommand` pointed at it.
+
 ## Verification: Qwen3-Omni-Thinking sweep
 
 Ablation of the 9 per-dimension verification-prompt variants (p0-p8), run with the
