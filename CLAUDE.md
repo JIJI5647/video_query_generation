@@ -82,6 +82,18 @@ PID file can go stale (process died but file remains) — always verify with `ps
 gpu_keepalive.pid)` before assuming it's protecting the session, don't trust the file's mere
 existence.
 
+**`$HOME` (`/home/dgxuser`) is wiped on container restart — only `/work/mzha0323/...` (this
+project dir) persists.** `df -h` shows `$HOME` on the container's `overlay` root fs and
+`/work` on a separate persistent Lustre mount. This is why `env.sh` (API keys),
+`conda_envs/`, `hf_cache/` (`HF_HOME`), `pip_cache/` all live under the project dir instead
+of their usual home-directory defaults — keep that pattern for anything new. It also means
+`~/.gitconfig`, `~/.ssh/`, `~/.netrc`, `~/.git-credentials` all get wiped too: git identity
+should be set with `git config --local` (writes to this repo's own `.git/config`, which is
+under `/work` and persists) instead of `--global`, and any SSH key for pushing should live
+under `/work/mzha0323/...` (e.g. `.ssh_persist/`, kept outside the git working tree) with the
+repo pointed at it via `git config --local core.sshCommand "ssh -i /path/to/key -o IdentitiesOnly=yes"`
+rather than the default `~/.ssh/`.
+
 ## Architecture
 
 All pipeline logic lives in the `emotion_query_pipeline/` package; the top-level `run_*.py` /
