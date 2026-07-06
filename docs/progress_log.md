@@ -16,6 +16,29 @@ under `/work`) instead of `--global`, and the push SSH key lives at
 `/work/mzha0323/.ssh_persist/id_ed25519` (outside the git working tree) with
 `core.sshCommand` pointed at it.
 
+Same problem hit **Claude Code itself**: the native install
+(`~/.local/share/claude/versions/...`), login credentials (`~/.claude/.credentials.json`),
+and config (`~/.claude.json`, `~/.claude/settings.json`, `~/.claude/plugins/`) all live
+under `$HOME` too, so a restart used to mean reinstalling Claude Code from scratch AND
+re-running the interactive login every time. Fixed the same way — snapshotted to
+`/work/mzha0323/.claude_persist/` (outside any git repo, since `.credentials.json` is a
+live auth token and must never be committed):
+
+- `/work/mzha0323/.claude_persist/backup.sh` — re-run any time (safe while Claude Code is
+  running; only copies, never touches the live `$HOME` files) to refresh the snapshot,
+  e.g. after `claude update` or re-logging in.
+- `/work/mzha0323/.claude_persist/restore.sh` — run ONCE after a container restart,
+  **before** starting `claude` for the first time in the fresh `$HOME`, to restore the
+  install + login from the snapshot (no reinstall, no re-login).
+
+Deliberately does NOT snapshot conversation history / live session state
+(`~/.claude/projects/`, `sessions/`, `session-env/`, `shell-snapshots/`, `tasks/`,
+`file-history/`, `plans/`, `downloads/`, `cache/`, `backups/`) — those are per-session
+working state, not the install/login this exists to protect, and copying the *currently
+open* session's transcript mid-write would risk losing its tail end. Losing old
+conversation history/resumability on restart is a known, accepted gap here — not what
+this solves.
+
 ## Verification: Qwen3-Omni-Thinking sweep
 
 Ablation of the 9 per-dimension verification-prompt variants (p0-p8), run with the
