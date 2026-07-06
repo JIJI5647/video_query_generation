@@ -1,0 +1,53 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair in a dark jacket and vest",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a wand and casting a spell with a strained expression"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, wooded area with a crowd of people in the background"
+    },
+    "objects": [
+      {
+        "object": "wand",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man, emitting a spark"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "casting a spell"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair in a dark jacket and vest",
+      "facial_cues": [
+        "strained expression",
+        "furrowed brows",
+        "tense jaw"
+      ],
+      "body_cues": [
+        "hand extended holding a wand"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A low, ominous, and sustained musical tone plays in the background.",
+  "emotion_description": "Intense concentration and strain",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -242,15 +242,28 @@ def verify_queries_per_dimension(
                 (video_uris[start + j] if needs_video else None)
                 for j in range(len(group))
             ]
-            raws = client.generate_json_many(
-                prompts, "VerificationBatchOutput", video_uris=uris
-            )
+            try:
+                raws = client.generate_json_many(
+                    prompts, "VerificationBatchOutput", video_uris=uris
+                )
+                call_failed = False
+            except Exception as e:
+                # A query whose retries are all exhausted (e.g. a Thinking model
+                # that never closes its reasoning block within the token budget)
+                # must not lose every OTHER query for this video — fail just this
+                # chunk's dimension values, same as a missing/garbled response.
+                print(f"  WARN: {dim} call failed for {video_id} "
+                      f"[{start}:{start + len(group)}]: {e} — marking as fail.")
+                raws = [None] * len(group)
+                call_failed = True
             for j, raw in enumerate(raws):
                 qi = start + j
                 val, reason = _dim_value(raw, dim)
                 vals[qi][dim] = val
-                if not val and reason:
-                    reasons[qi].append(f"{dim.replace('_pass', '')}: {reason}")
+                if not val:
+                    reason = "call failed" if call_failed else reason
+                    if reason:
+                        reasons[qi].append(f"{dim.replace('_pass', '')}: {reason}")
 
     results: List[VerificationResult] = []
     for qi, q in enumerate(queries):

@@ -1,0 +1,107 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with white-blond hair wearing a dark coat",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "pointing a wand forward with both hands"
+      },
+      {
+        "person": "a man with dark hair and glasses wearing a brown jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man with dark hair and a dark suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "pointing a wand forward with one hand"
+      },
+      {
+        "person": "a man with dark hair and a dark suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "pointing a wand forward with one hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dimly lit room filled with various objects, mirrors, and metal bowls on shelves."
+    },
+    "objects": [
+      "wands",
+      "metal bowls",
+      "mirrors",
+      "shelves"
+    ],
+    "interactions": [
+      "three men are pointing their wands towards the man with dark hair and glasses."
+    ],
+    "key_actions": [
+      "pointing wands",
+      "standing"
+    ],
+    "visibility_notes": "The lighting is low, casting deep shadows."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with white-blond hair wearing a dark coat",
+      "facial_cues": [
+        "staring forward",
+        "focused expression"
+      ],
+      "body_cues": [
+        "arms extended forward",
+        "holding wand"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with dark hair and glasses wearing a brown jacket",
+      "facial_cues": [
+        "staring forward",
+        "serious expression"
+      ],
+      "body_cues": [
+        "arms at sides"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with dark hair and a dark suit",
+      "facial_cues": [
+        "staring forward",
+        "serious expression"
+      ],
+      "body_cues": [
+        "arm extended forward",
+        "holding wand"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with dark hair and a dark suit",
+      "facial_cues": [
+        "staring forward",
+        "serious expression"
+      ],
+      "body_cues": [
+        "arm extended forward",
+        "holding wand"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice is heard speaking in a calm, conversational tone.",
+  "temporal_description": "The audio begins with a male voice speaking at the start of the clip, continuing throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

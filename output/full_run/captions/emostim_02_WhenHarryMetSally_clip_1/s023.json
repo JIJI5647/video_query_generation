@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, curly hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up and tilting her head back"
+      },
+      {
+        "person": "a man in a patterned sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded restaurant or cafeteria with other people in the background"
+    },
+    "objects": [
+      "a white collared shirt",
+      "a dark cardigan"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman tilting her head back",
+      "the man looking forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde, curly hair",
+      "facial_cues": [
+        "eyes closed",
+        "mouth open"
+      ],
+      "body_cues": [
+        "head tilted back"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A person is audibly gasping for air, followed by a high-pitched, strained vocalization.",
+  "emotion_description": "The woman appears to be in a state of shock, surprise, or pain.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

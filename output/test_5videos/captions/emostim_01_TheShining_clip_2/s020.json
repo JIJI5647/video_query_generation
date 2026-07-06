@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "carrying a child and opening a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a bed, a side table with a lamp, and a bookshelf"
+    },
+    "objects": [
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being opened by the woman"
+      }
+    ],
+    "interactions": [
+      "the woman is carrying the child while opening the door"
+    ],
+    "key_actions": [
+      "the woman opens the door while holding the child"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "tense posture",
+        "hugging the child tightly"
+      ],
+      "gaze": "looking towards the door"
+    }
+  ],
+  "audio_description": "A loud crash followed by a low, ominous hum.",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

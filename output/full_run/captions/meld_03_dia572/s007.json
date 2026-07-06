@@ -1,0 +1,71 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white hospital gown",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "lying in a hospital bed with her hands behind her head"
+      },
+      {
+        "person": "a man in a light-colored jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and pulling a curtain closed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with a patient bed, an IV stand, and a bedside table"
+    },
+    "objects": [
+      "hospital bed",
+      "IV stand",
+      "curtain",
+      "bedside table",
+      "pink cup"
+    ],
+    "interactions": [
+      "The man pulls the curtain to separate the woman's bed from the rest of the room."
+    ],
+    "key_actions": [
+      "Pulling a curtain",
+      "Lying in a hospital bed"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a white hospital gown",
+      "facial_cues": [
+        "appears to be in pain"
+      ],
+      "body_cues": [
+        "lying in bed with hands behind head"
+      ],
+      "gaze": "looking towards the man"
+    },
+    {
+      "person": "the man in a light-colored jacket",
+      "facial_cues": [
+        "speaking",
+        "appearing concerned"
+      ],
+      "body_cues": [
+        "pulling a curtain closed",
+        "standing next to the bed"
+      ],
+      "gaze": "looking towards the woman"
+    }
+  ],
+  "audio_description": "A man speaks, followed by a woman speaking, and then a loud, sustained, low-pitched electronic tone.",
+  "emotion_description": "The man appears concerned, and the woman appears to be in pain.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

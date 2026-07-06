@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with blonde hair wearing a black suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing a wand forward with a slight smile"
+      },
+      {
+        "person": "two other men in black suits",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing behind the blonde-haired man, also pointing wands forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dimly lit room filled with various objects and mirrors"
+    },
+    "objects": [
+      "wands",
+      "mirrors",
+      "metal bowls",
+      "framed pictures"
+    ],
+    "interactions": [
+      "the three men are pointing their wands forward together, aiming at an unseen target"
+    ],
+    "key_actions": [
+      "pointing wands"
+    ],
+    "visibility_notes": "The room is dark, but the three men are clearly visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with blonde hair wearing a black suit",
+      "facial_cues": [
+        "slight smile",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "pointing wand forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in a serious tone.",
+  "emotion_description": "Confident and slightly smug",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

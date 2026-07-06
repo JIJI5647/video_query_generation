@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark green suit and a green and black checkered tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "entering a room and walking towards the right"
+      },
+      {
+        "person": "a woman in a red and leopard-print dress",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting on a brown leather booth"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a restaurant or bar with brown leather booths and a light fixture in the foreground"
+    },
+    "objects": [
+      "a light fixture",
+      "a brown leather booth"
+    ],
+    "interactions": [
+      "The man walks past the woman's booth."
+    ],
+    "key_actions": [
+      "The man enters the frame and walks to the right."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark green suit and a green and black checkered tie",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "walking"
+      ],
+      "gaze": "looking forward and to the right"
+    },
+    {
+      "person": "a woman in a red and leopard-print dress",
+      "facial_cues": [
+        "looking forward"
+      ],
+      "body_cues": [
+        "sitting"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio contains a man speaking in a foreign language, followed by a loud, low-pitched, sustained horn sound.",
+  "emotion_description": "The man appears to be in a cheerful or welcoming mood, while the woman's expression is neutral and calm.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

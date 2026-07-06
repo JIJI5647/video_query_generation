@@ -1,0 +1,60 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair wearing a plaid shirt and a dark robe",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "breaking through a door with an axe"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a damaged door and a lamp on a table next to a bed, possibly a bedroom"
+    },
+    "objects": [
+      {
+        "object": "an axe",
+        "position": "held by the man",
+        "action": "being swung to break the door"
+      },
+      {
+        "object": "a lamp",
+        "position": "on a table next to a bed",
+        "action": "illuminating the room"
+      }
+    ],
+    "interactions": [
+      "man breaking through a door with an axe"
+    ],
+    "key_actions": [
+      "breaking door",
+      "swinging axe"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair wearing a plaid shirt and a dark robe",
+      "facial_cues": [
+        "angry expression",
+        "open mouth as if yelling"
+      ],
+      "body_cues": [
+        "swinging axe",
+        "breaking through door"
+      ],
+      "gaze": "looking towards the door"
+    }
+  ],
+  "audio_description": "A man is yelling and the sound of a door breaking down is heard.",
+  "emotion_description": "anger",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

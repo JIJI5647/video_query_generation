@@ -1,0 +1,64 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning over and holding a young boy"
+      },
+      {
+        "person": "a young boy with blond hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held by the man, his back to the camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a plain wall in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the suit is holding the young boy closely."
+    ],
+    "key_actions": [
+      "The man leans over the boy, appearing to speak or shout into his ear."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit and glasses",
+      "facial_cues": [
+        "His mouth is open as if shouting or speaking urgently",
+        "His brow is furrowed, indicating strain or intensity"
+      ],
+      "body_cues": [
+        "He is leaning forward aggressively over the boy",
+        "His arms are wrapped around the boy's upper body"
+      ],
+      "gaze": "Looking down at the boy"
+    },
+    {
+      "person": "a young boy with blond hair",
+      "facial_cues": [
+        "His head is turned away from the camera, but his mouth is open as if screaming"
+      ],
+      "body_cues": [
+        "His arms are raised, hands gripping the man's suit jacket"
+      ],
+      "gaze": "Not visible"
+    }
+  ],
+  "audio_description": "A child's voice is heard screaming in distress, overlapping with a man's voice speaking urgently.",
+  "emotion_description": "The man appears to be shouting or speaking in a panicked and intense manner, while the child is audibly distressed and screaming.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

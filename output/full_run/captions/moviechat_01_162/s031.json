@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car and pressing his hand against his mouth"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "a car's interior with a gray headrest and a window showing green foliage outside"
+    },
+    "objects": [
+      "a hand wrapped in a white bandage",
+      "a car headrest"
+    ],
+    "interactions": [
+      "The man is pressing his bandaged hand against his mouth."
+    ],
+    "key_actions": [
+      "The man pressing his hand to his mouth"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair",
+      "facial_cues": [
+        "his eyes are wide",
+        "his mouth is covered by his hand",
+        "his face is sweaty"
+      ],
+      "body_cues": [
+        "his hand is wrapped in a white bandage"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A man's voice is heard speaking in a strained tone.",
+  "emotion_description": "The man appears to be in a state of panic or extreme distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

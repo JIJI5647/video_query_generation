@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the driver's seat",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "speaking and turning his head towards the passenger"
+      },
+      {
+        "person": "the man in the passenger seat",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "sitting and listening"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "a car's interior, with a steering wheel visible and a blurry, overcast landscape outside the window"
+    },
+    "objects": [
+      "steering wheel",
+      "seatbelt"
+    ],
+    "interactions": [
+      "the man in the driver's seat is talking to the man in the passenger seat"
+    ],
+    "key_actions": [
+      "speaking",
+      "turning the head",
+      "sitting"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the driver's seat",
+      "facial_cues": [
+        "mouth open as if speaking",
+        "looking towards the passenger"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "towards the passenger"
+    }
+  ],
+  "audio_description": "A man is speaking, his voice is slightly strained and sounds like he is out of breath.",
+  "emotion_description": "The man in the driver's seat sounds strained and weary, possibly due to physical exertion.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

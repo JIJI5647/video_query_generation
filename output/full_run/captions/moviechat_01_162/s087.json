@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a phone to his ear and looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with blinds in the background"
+    },
+    "objects": [
+      {
+        "object": "a silver flip phone",
+        "visibility": "clearly visible",
+        "position": "in the man's hand"
+      }
+    ],
+    "interactions": [
+      {
+        "actor": "the man",
+        "action": "talking on the phone"
+      }
+    ],
+    "key_actions": [
+      "talking on the phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "looking down",
+        "focused expression"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A man speaks in a calm, conversational tone.",
+  "emotion_description": "Calm",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

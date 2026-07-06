@@ -1,0 +1,69 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark, curly hair and a goatee wearing a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting at a table, holding a sandwich, and speaking"
+      },
+      {
+        "person": "a woman with blonde, wavy hair wearing a dark sweater over a white collared shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting at a table, holding a sandwich, and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded cafeteria or restaurant with many other people in the background"
+    },
+    "objects": [
+      "sandwiches"
+    ],
+    "interactions": [
+      "The man and the woman are having a conversation while eating."
+    ],
+    "key_actions": [
+      "The man speaks and gestures with his hands.",
+      "The woman listens and then responds."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man",
+      "facial_cues": [
+        "open mouth",
+        "raised eyebrows",
+        "engaged expression"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "looking at the woman"
+    },
+    {
+      "person": "the woman",
+      "facial_cues": [
+        "raised eyebrows",
+        "slightly open mouth",
+        "inquisitive expression"
+      ],
+      "body_cues": [
+        "holding a sandwich"
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "Two people are having a conversation.",
+  "emotion_description": "Argumentative",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

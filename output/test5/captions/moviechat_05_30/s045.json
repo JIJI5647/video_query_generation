@@ -1,0 +1,70 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair and a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and talking to a group of people"
+      },
+      {
+        "person": "a woman with long brown hair",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man with glasses and dark hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking to the man on the right"
+      }
+    ],
+    "scene": {
+      "location": "indoor",
+      "setting": "a dimly lit stone hallway with a staircase in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The man on the right speaks to the man on the left and the woman in the center."
+    ],
+    "key_actions": [
+      "The man on the right speaks to the other two people."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man on the right",
+      "facial_cues": [
+        "speaking",
+        "talking"
+      ],
+      "body_cues": [
+        "gesturing with his hands"
+      ],
+      "gaze": "looking at the man on the left"
+    },
+    {
+      "person": "the man on the left",
+      "facial_cues": [
+        "speaking",
+        "talking"
+      ],
+      "body_cues": [
+        "gesturing with his hands"
+      ],
+      "gaze": "looking at the man on the right"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a concerned tone.",
+  "temporal_description": "The audio consists of a continuous male voice speaking throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

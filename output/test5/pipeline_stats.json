@@ -1,0 +1,44 @@
+{
+  "total_videos": 4,
+  "total_segments": 90,
+  "total_raw_captions": 90,
+  "total_emotion_events": 54,
+  "total_initial_queries": 67,
+  "total_accepted_queries": 30,
+  "total_discarded_queries": 37,
+  "average_accepted_queries_per_video": 7.5,
+  "emotion_distribution": {
+    "fear": 15,
+    "angry": 10,
+    "surprised": 15,
+    "happy": 11,
+    "sad": 1,
+    "frustrated": 1,
+    "excited": 1
+  },
+  "query_type_distribution_initial": {
+    "evidence_cue": 21,
+    "emotion_state": 45,
+    "explicit_event": 1
+  },
+  "query_type_distribution_final_accepted": {
+    "evidence_cue": 13,
+    "emotion_state": 17
+  },
+  "rewrite_count_distribution": {
+    "0": 62,
+    "1": 1,
+    "2": 1,
+    "3": 3
+  },
+  "pass_rate_after_initial_verification": 0.8358,
+  "pass_rate_after_rewrites": 0.4478,
+  "discarded_query_count": 37,
+  "diversity_warnings": [
+    "[emostim_01_TheShining_clip_2] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_01_TheShining_clip_2] WARNING: 4 accepted queries start with 'at what' — repetitive phrasing",
+    "[meld_02_dia224] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_02_dia224] WARNING: queries 'meld_02_dia224_q01' and 'meld_02_dia224_q02' are semantically similar (word overlap 76%)",
+    "[meld_02_dia224] WARNING: queries 'meld_02_dia224_q02' and 'meld_02_dia224_q04' are semantically similar (word overlap 75%)"
+  ]
+}

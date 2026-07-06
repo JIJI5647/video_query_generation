@@ -1,0 +1,76 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a grey sweater",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a stool, reading a piece of paper"
+      },
+      {
+        "person": "the man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "leaning over a counter, looking at the paper"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a kitchen and living room area with a foosball table, a stove, and a counter"
+    },
+    "objects": [
+      "a piece of paper",
+      "a red cup",
+      "a telephone",
+      "a foosball table",
+      "a kitchen counter",
+      "a stool"
+    ],
+    "interactions": [
+      "the man in the black jacket is looking over the shoulder of the man in the grey sweater",
+      "they are both focused on the paper"
+    ],
+    "key_actions": [
+      "reading",
+      "leaning",
+      "looking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a grey sweater",
+      "facial_cues": [
+        "reading the paper",
+        "concentrating"
+      ],
+      "body_cues": [
+        "sitting on a stool",
+        "holding the paper"
+      ],
+      "gaze": "down at the paper"
+    },
+    {
+      "person": "the man in a black jacket",
+      "facial_cues": [
+        "leaning forward",
+        "focused"
+      ],
+      "body_cues": [
+        "leaning over the counter",
+        "hands on the counter"
+      ],
+      "gaze": "at the paper"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a conversational tone.",
+  "emotion_description": "The interaction appears to be focused and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

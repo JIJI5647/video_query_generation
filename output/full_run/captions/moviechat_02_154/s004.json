@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person driving a car",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "driving a car"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a city street at night, with wet pavement reflecting the lights from surrounding tall buildings and streetlights."
+    },
+    "objects": [
+      {
+        "object": "a black car",
+        "position": "foreground",
+        "action": "driving forward"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The car is driving forward on a wet city street at night."
+    ],
+    "visibility_notes": "The scene is dark, with the car's headlights and streetlights providing the main illumination."
+  },
+  "visual_expression": [
+    {
+      "person": "a person driving a car",
+      "facial_cues": [],
+      "body_cues": [
+        "the person's head is turned forward, looking at the road"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A dramatic orchestral music piece with prominent strings and brass is playing, creating a suspenseful and tense atmosphere.",
+  "emotion_description": "The music evokes a feeling of tension and suspense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

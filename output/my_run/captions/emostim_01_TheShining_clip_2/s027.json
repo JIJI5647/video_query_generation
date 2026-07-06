@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a bloodied forehead",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "peering through a hole in a door and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a damaged, light-colored wooden door that has a hole in it, a chain lock, and a brass doorknob, with floral wallpaper visible to the left."
+    },
+    "objects": [
+      "damaged wooden door",
+      "chain lock",
+      "doorknob",
+      "wooden plank"
+    ],
+    "interactions": [
+      "the man uses a wooden plank to strike the doorknob"
+    ],
+    "key_actions": [
+      "the man peers through the hole, speaks, and uses a plank to force the door open"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a bloodied forehead",
+      "facial_cues": [
+        "smiling",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "holding a wooden plank"
+      ],
+      "gaze": "looking towards the camera"
+    }
+  ],
+  "audio_description": "A man speaks, followed by the loud, metallic sound of a chain being pulled and a door being forced open.",
+  "emotion_description": "menacing",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

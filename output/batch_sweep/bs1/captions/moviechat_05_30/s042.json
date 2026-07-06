@@ -1,0 +1,73 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in dark robes",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being propelled backward through the air, arms outstretched, as a large section of a stone wall explodes behind him, sending debris flying."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark, stone-walled room with metal railings and chains, resembling a dungeon or castle interior."
+    },
+    "objects": [
+      {
+        "object": "a stone wall",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "exploding and collapsing."
+      },
+      {
+        "object": "debris",
+        "visibility": "clearly visible",
+        "position": "air",
+        "action": "flying through the air."
+      },
+      {
+        "object": "metal railings",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still."
+      },
+      {
+        "object": "chains",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "hanging still."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man is propelled backward",
+      "a stone wall explodes"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in dark robes",
+      "facial_cues": [
+        "angry",
+        "straining",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "arms outstretched",
+        "body arched backward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, deep, booming explosion sound with a reverberating effect, followed by a high-pitched, sustained scream.",
+  "emotion_description": "terror",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

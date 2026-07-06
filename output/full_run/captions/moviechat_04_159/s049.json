@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored button-down shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking on a mobile phone, with his left hand on his hip"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and facing the other man, listening"
+      }
+    ],
+    "scene": {
+      "location": "outdoor balcony",
+      "setting": "an urban area at night, with buildings in the background"
+    },
+    "objects": [
+      {
+        "object": "a mobile phone",
+        "position": "held to the man's left ear"
+      },
+      {
+        "object": "a metal railing",
+        "position": "in the foreground"
+      }
+    ],
+    "interactions": [
+      "The man in the suit is standing next to the man on the phone, facing him."
+    ],
+    "key_actions": [
+      "Talking on the phone",
+      "Standing and listening"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored button-down shirt",
+      "facial_cues": [
+        "Looking down and to his right while on the phone"
+      ],
+      "body_cues": [
+        "Left hand on his hip"
+      ],
+      "gaze": "Looking down and to his right"
+    },
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "Looking at the other man"
+      ],
+      "body_cues": [
+        "Standing still"
+      ],
+      "gaze": "Looking at the other man"
+    }
+  ],
+  "audio_description": "A man is speaking in a conversational tone.",
+  "emotion_description": "The man on the phone appears to be focused and engaged in the conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

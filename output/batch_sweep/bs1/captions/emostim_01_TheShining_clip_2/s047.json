@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark red sweater and blue jeans",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "swinging a large axe at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit bedroom with a bed, nightstand, and lamp"
+    },
+    "objects": [
+      "axe",
+      "door",
+      "lamp",
+      "bed",
+      "nightstand"
+    ],
+    "interactions": [
+      "the man swings the axe at the door"
+    ],
+    "key_actions": [
+      "swinging an axe",
+      "breaking a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark red sweater and blue jeans",
+      "facial_cues": [
+        "smiling",
+        "laughing"
+      ],
+      "body_cues": [
+        "swinging an axe"
+      ],
+      "gaze": "at the door"
+    }
+  ],
+  "audio_description": "a loud crash followed by a scream and a man laughing",
+  "emotion_description": "amused",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with platinum blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing forward with his right hand and speaking"
+      },
+      {
+        "person": "a man with dark hair",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the first man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room filled with clutter and machinery"
+    },
+    "objects": [],
+    "interactions": [
+      "The man with platinum blonde hair is gesturing and speaking to someone off-screen."
+    ],
+    "key_actions": [
+      "Pointing forward",
+      "Speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with platinum blonde hair",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "arm extended",
+        "hand pointing"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks with a tense and urgent tone.",
+  "emotion_description": "Tense and urgent",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

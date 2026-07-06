@@ -1,0 +1,71 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde hair in a white shirt and dark sweater",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding a sandwich and gesturing with her right hand"
+      },
+      {
+        "person": "a man with dark hair and a beard in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "holding a sandwich and gesturing with his right hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded cafeteria or dining hall"
+    },
+    "objects": [
+      {
+        "object": "sandwich",
+        "position": "held by both people"
+      }
+    ],
+    "interactions": [
+      "The two people are sitting opposite each other at a table, engaged in a conversation."
+    ],
+    "key_actions": [
+      "The woman gestures with her right hand while speaking.",
+      "The man gestures with his right hand while speaking."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman with blonde hair",
+      "facial_cues": [
+        "questioning expression",
+        "raised eyebrows"
+      ],
+      "body_cues": [
+        "gesturing with her right hand"
+      ],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "the man with dark hair and a beard",
+      "facial_cues": [
+        "questioning expression",
+        "raised eyebrows",
+        "mouth open"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A female voice asks a question, followed by a male voice responding in a questioning tone.",
+  "emotion_description": "The two people appear to be in a serious discussion, questioning each other with a sense of disbelief.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

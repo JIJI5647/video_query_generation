@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a large, pale creature",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "moving forward"
+      },
+      {
+        "person": "a group of figures",
+        "visibility": "not clearly visible",
+        "position": "background",
+        "action": "running"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "a dark, rocky landscape at night"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the large creature moving forward",
+      "a group of figures running"
+    ],
+    "visibility_notes": "The overall scene is very dark, with only faint details of the figures and the landscape visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a large, pale creature",
+      "facial_cues": [],
+      "body_cues": [
+        "moving forward"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, deep, and resonant roar is heard, suggesting a large creature.",
+  "emotion_description": "The roar suggests aggression or threat from the creature.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

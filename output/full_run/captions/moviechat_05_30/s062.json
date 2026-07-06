@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with round glasses and dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "staring forward"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a very dark, expansive hall with high, arched ceilings and numerous indistinct objects filling the space"
+    },
+    "objects": [
+      "round glasses",
+      "high arched ceilings",
+      "dark, cluttered space"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man staring forward"
+    ],
+    "visibility_notes": "The scene is extremely dark, with only faint details of the architecture and the man's face visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with round glasses and dark hair",
+      "facial_cues": [
+        "staring forward",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The audio features a deep, sustained, low-frequency hum, creating a tense and ominous atmosphere.",
+  "emotion_description": "The man's expression and the ominous audio suggest a feeling of suspense, tension, and concern.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

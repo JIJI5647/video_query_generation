@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with a bed, a lamp on a nightstand, and a bookshelf."
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "position": "held by the boy",
+        "action": "held in the boy's hand"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The boy stands still, holding a knife."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy in a striped sweater",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing still",
+        "holding a knife"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A loud, high-pitched, repetitive electronic tone is heard.",
+  "emotion_description": "unclear",
+  "confidence": "low",
+  "evidence_strength": "weak"
+}

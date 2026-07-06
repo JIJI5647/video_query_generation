@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s088",
+  "time_range": [
+    435.0,
+    440.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing round glasses and a brown jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still and looking slightly to his right"
+      },
+      {
+        "person": "a man with blonde hair and a dark coat",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and pointing forward with his left hand"
+      },
+      {
+        "person": "a man with dark hair and a dark coat",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and pointing forward with his left hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dimly lit room filled with various objects and papers"
+    },
+    "objects": [
+      "a glass lamp",
+      "a wooden cabinet",
+      "stacks of books and papers"
+    ],
+    "interactions": [
+      "the man in the background is pointing a wand-like object at the man in the foreground"
+    ],
+    "key_actions": [
+      "pointing",
+      "standing"
+    ],
+    "visibility_notes": "The background is very dark, making the people and objects there less distinct."
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing round glasses and a brown jacket",
+      "facial_cues": [
+        "calm",
+        "neutral"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking slightly to his right"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a tense, serious tone.",
+  "emotion_description": "The man in the foreground appears calm, while the other men in the background appear confrontational. The overall atmosphere is tense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

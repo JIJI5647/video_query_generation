@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s083",
+  "time_range": [
+    410.0,
+    415.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking back over his shoulder"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing in a doorway"
+      },
+      {
+        "person": "a group of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and sitting in a room"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, green-hued room, possibly a restaurant or office, with tiled walls and a table with metal bowls"
+    },
+    "objects": [
+      "a table with metal bowls",
+      "tiled walls",
+      "a doorway",
+      "a red diamond-shaped sign on the door"
+    ],
+    "interactions": [
+      "the man in the suit looks back over his shoulder towards the man in the dark suit"
+    ],
+    "key_actions": [
+      "a man looking back over his shoulder",
+      "a man standing in a doorway"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "wide eyes",
+        "surprised expression"
+      ],
+      "body_cues": [
+        "body turned to the side",
+        "looking back over shoulder"
+      ],
+      "gaze": "over his shoulder"
+    }
+  ],
+  "audio_description": "A loud crash is heard, followed by a male voice shouting in an urgent and commanding tone.",
+  "emotion_description": "The man in the light-colored suit appears shocked and alarmed by the events.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

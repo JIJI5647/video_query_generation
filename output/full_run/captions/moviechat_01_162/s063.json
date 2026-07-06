@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with one hand on his hip"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with glass walls and a monitor displaying a security camera feed"
+    },
+    "objects": [
+      "a monitor with a security camera feed",
+      "a name tag on a lanyard"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the white shirt standing still"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black tie",
+      "facial_cues": [
+        "serious expression",
+        "frowned eyebrows"
+      ],
+      "body_cues": [
+        "one hand on hip",
+        "standing upright"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a serious and calm tone.",
+  "emotion_description": "The man's expression and tone suggest a serious and focused state.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

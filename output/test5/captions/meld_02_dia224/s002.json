@@ -1,0 +1,52 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue V-neck sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "laughing and gesturing with his right hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor",
+      "setting": "a living room or cafe with an orange couch and a green pillar in the background"
+    },
+    "objects": [
+      {
+        "name": "an orange couch",
+        "position": "background",
+        "visibility": "clearly visible"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the blue sweater laughs and gestures with his right hand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue V-neck sweater",
+      "facial_cues": [
+        "wide smile",
+        "closed eyes",
+        "laughing"
+      ],
+      "body_cues": [
+        "gesturing with right hand"
+      ],
+      "gaze": "looking down and to his left"
+    }
+  ],
+  "audio_description": "A man's voice is heard laughing and speaking in a playful tone.",
+  "temporal_description": "The man continues to laugh and gesture throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

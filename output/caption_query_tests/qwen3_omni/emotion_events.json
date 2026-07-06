@@ -1,0 +1,29 @@
+{
+  "video_id": "short",
+  "events": [
+    {
+      "video_id": "short",
+      "event_id": "ev_001",
+      "emotion_label": "fear",
+      "event_description": "The woman is sitting on the floor in a dimly lit room while a loud, low-frequency rumbling sound occurs.",
+      "time_range": [
+        0.0,
+        5.0
+      ],
+      "target_person_or_group": "a woman in a red dress",
+      "visual_evidence": [
+        "sitting on the floor",
+        "gaze directed upward",
+        "dimly lit room"
+      ],
+      "audio_evidence": [
+        "a loud, low-frequency rumbling sound, like a large object moving or shaking"
+      ],
+      "confidence": "medium",
+      "evidence_strength": "ambiguous",
+      "segment_ids": [
+        "s001"
+      ]
+    }
+  ]
+}

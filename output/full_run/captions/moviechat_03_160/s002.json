@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair wearing a shiny silver jacket",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "turning his head to his right to look at another man"
+      },
+      {
+        "person": "an older man with gray hair wearing a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "looking at the first man with a concerned expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with wooden paneled walls"
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the silver jacket is looking at and seemingly speaking to the older man."
+    ],
+    "key_actions": [
+      "The man in the silver jacket turns his head to speak to the other man."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair wearing a shiny silver jacket",
+      "facial_cues": [
+        "looking at the other man",
+        "mouth slightly open as if speaking"
+      ],
+      "body_cues": [
+        "turning his head to his right"
+      ],
+      "gaze": "looking at the older man"
+    },
+    {
+      "person": "an older man with gray hair wearing a light-colored suit jacket",
+      "facial_cues": [
+        "concerned expression",
+        "raised eyebrows",
+        "tense jaw"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the first man"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, questioning tone.",
+  "emotion_description": "The man in the silver jacket appears to be calmly questioning the other man, who looks concerned and tense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

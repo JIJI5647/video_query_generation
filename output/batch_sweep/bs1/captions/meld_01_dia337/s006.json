@@ -1,0 +1,72 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue and black plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and looking to the left"
+      },
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "bending down, then standing up and walking out of frame"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch, a coffee table with flowers, and a doorway in the background"
+    },
+    "objects": [
+      "a coffee table",
+      "flowers",
+      "a couch",
+      "a doorway",
+      "a framed picture on the wall",
+      "a lamp"
+    ],
+    "interactions": [
+      "the man in the pink shirt walks past the man in the blue shirt"
+    ],
+    "key_actions": [
+      "the man in the pink shirt bends down and then walks out of the frame"
+    ],
+    "visibility_notes": "The man in the blue shirt is partially visible at the start and end of the clip as the other man moves in front of him."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue and black plaid shirt",
+      "facial_cues": [
+        "neutral expression",
+        "looking to the left"
+      ],
+      "body_cues": [
+        "standing with hands behind his back"
+      ],
+      "gaze": "to the left"
+    },
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "bending down",
+        "standing up",
+        "walking"
+      ],
+      "gaze": "downward, then forward"
+    }
+  ],
+  "audio_description": "A male voice asks a question, followed by a second male voice asking the same question, and then a loud, distorted buzzing sound.",
+  "emotion_description": "confused",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

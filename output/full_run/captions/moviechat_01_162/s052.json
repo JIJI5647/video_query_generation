@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pressing his hand against his chest"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "darkly lit"
+    },
+    "objects": [
+      {
+        "object": "a hand",
+        "description": "covered in blood and wrapped in a white bandage"
+      },
+      {
+        "object": "a white cloth",
+        "description": "held against the man's chest"
+      }
+    ],
+    "interactions": [
+      "The man is pressing a white cloth against his chest."
+    ],
+    "key_actions": [
+      "pressing a cloth against the chest"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man",
+      "facial_cues": [
+        "sweating",
+        "pained expression"
+      ],
+      "body_cues": [
+        "pressing hand against chest"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A high-pitched, sustained, and ethereal musical note plays in the background.",
+  "emotion_description": "The man appears to be in extreme pain and distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

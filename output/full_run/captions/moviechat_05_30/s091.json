@@ -1,0 +1,78 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s091",
+  "time_range": [
+    450.0,
+    455.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with blonde hair in a dark uniform",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "aiming a wand forward"
+      },
+      {
+        "person": "a man with dark hair and glasses in a brown jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with hands in pockets, looking forward"
+      },
+      {
+        "person": "two men in dark uniforms",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the man with blonde hair, aiming wands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dimly lit room filled with old objects like mirrors, metal bowls, and a large candelabra"
+    },
+    "objects": [
+      "wands",
+      "a large candelabra",
+      "metal bowls",
+      "mirrors"
+    ],
+    "interactions": [
+      "the men in the background are aiming their wands at the man with dark hair"
+    ],
+    "key_actions": [
+      "the man with blonde hair aims his wand forward",
+      "the man with dark hair stands still"
+    ],
+    "visibility_notes": "The scene is dark, with the characters illuminated from the front."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with blonde hair in a dark uniform",
+      "facial_cues": [
+        "intense expression",
+        "tense jaw",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "standing with a rigid posture",
+        "arms extended forward"
+      ],
+      "gaze": "directly forward"
+    },
+    {
+      "person": "a man with dark hair and glasses in a brown jacket",
+      "facial_cues": [
+        "serious expression",
+        "staring forward"
+      ],
+      "body_cues": [
+        "standing still with hands in pockets"
+      ],
+      "gaze": "directly forward"
+    }
+  ],
+  "audio_description": "A tense, low-pitched male voice speaks in a hushed, urgent tone.",
+  "emotion_description": "The men with the wands appear tense and menacing, while the man with dark hair appears serious and defiant.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

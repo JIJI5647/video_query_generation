@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with brown hair in a dark coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "hugging a woman"
+      },
+      {
+        "person": "a woman with brown hair in a dark top",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being hugged by the man"
+      }
+    ],
+    "scene": {
+      "location": "underground chamber",
+      "setting": "dark, damp, with stone walls and a floor covered in water. Large, dark, serpentine heads are carved into the walls on both sides."
+    },
+    "objects": [],
+    "interactions": [
+      "The man and woman are embracing each other tightly."
+    ],
+    "key_actions": [
+      "The man and woman are hugging each other tightly."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man with brown hair",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "arms wrapped around the woman"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A low, ominous, and suspenseful musical score plays in the background.",
+  "temporal_description": "The music begins at the start of the clip and continues throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

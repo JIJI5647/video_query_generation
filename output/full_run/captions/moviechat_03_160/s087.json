@@ -1,0 +1,82 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still"
+      },
+      {
+        "person": "a man with dark hair in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still"
+      },
+      {
+        "person": "a group of men in suits",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing together"
+      },
+      {
+        "person": "a bald man in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing with his back to the camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with fluorescent lights, a large pillar, and a metal security gate"
+    },
+    "objects": [
+      "a large pillar",
+      "fluorescent lights",
+      "a metal security gate",
+      "a fan",
+      "framed pictures on the wall"
+    ],
+    "interactions": [
+      "the man in the suit and the man in the black shirt are standing close to each other, facing forward"
+    ],
+    "key_actions": [
+      "standing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression",
+        "staring forward"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with dark hair in a black shirt",
+      "facial_cues": [
+        "serious expression",
+        "staring forward"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A low, ominous, and suspenseful musical score plays in the background.",
+  "emotion_description": "The people in the scene appear serious and tense, with the music creating a suspenseful and ominous mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

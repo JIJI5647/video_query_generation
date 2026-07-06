@@ -1,0 +1,73 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit with a white shirt and a lanyard",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking forward"
+      },
+      {
+        "person": "a group of men in an office setting",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and sitting, looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or command center with multiple computer monitors, a large whiteboard with diagrams, and blinds on the window"
+    },
+    "objects": [
+      "computer monitors",
+      "whiteboard",
+      "lanyard",
+      "blinds"
+    ],
+    "interactions": [
+      "the man in the suit walks past the group of men"
+    ],
+    "key_actions": [
+      "walking",
+      "standing",
+      "sitting",
+      "looking forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit with a white shirt and a lanyard",
+      "facial_cues": [
+        "serious expression",
+        "staring ahead"
+      ],
+      "body_cues": [
+        "walking forward",
+        "standing straight"
+      ],
+      "gaze": "looking straight ahead"
+    },
+    {
+      "person": "the group of men in the background",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing with hands on hips or crossed",
+        "sitting upright"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a serious and informative tone.",
+  "emotion_description": "The people in the scene appear serious and focused, suggesting a tense or high-stakes situation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

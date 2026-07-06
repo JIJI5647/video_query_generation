@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car, looking forward with a sweaty face"
+      },
+      {
+        "person": "another man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting in a car, turned towards the first man"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dark interior, with green foliage visible through the window"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the foreground has sweat on his face and is looking forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "sweating",
+        "eyes open, looking forward"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks, followed by a loud crashing sound.",
+  "emotion_description": "The man appears distressed and anxious, as indicated by his sweating and tense expression.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

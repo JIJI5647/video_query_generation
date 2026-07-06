@@ -1,0 +1,63 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting up in bed, looking at the boy with a shocked expression"
+      },
+      {
+        "person": "a young boy in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing in front of the bed, facing the woman, holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor bedroom",
+      "setting": "dimly lit with a lamp on a nightstand"
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held by the boy"
+      }
+    ],
+    "interactions": [
+      "the woman is looking at the boy in shock",
+      "the boy is holding a knife up to the woman"
+    ],
+    "key_actions": [
+      "the woman sitting up in bed",
+      "the boy holding a knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "sitting up in bed",
+        "reaching out her hands"
+      ],
+      "gaze": "at the boy"
+    }
+  ],
+  "audio_description": "A child is shouting in a high-pitched voice, followed by the woman shouting in a panicked tone.",
+  "emotion_description": "Panicked",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

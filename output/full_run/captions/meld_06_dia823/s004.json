@@ -1,0 +1,50 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue dress",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a striped armchair and gesturing with her hands."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered living room with multiple chairs and a wooden shelf in the background."
+    },
+    "objects": [
+      "a striped armchair",
+      "a wooden shelf",
+      "a pink tufted chair"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman gesturing with her hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue dress",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "hands clasped together",
+        "leaning forward slightly"
+      ],
+      "gaze": "looking slightly to her right"
+    }
+  ],
+  "audio_description": "The audio contains a person speaking in a firm and insistent tone.",
+  "emotion_description": "The woman appears to be serious and insistent.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

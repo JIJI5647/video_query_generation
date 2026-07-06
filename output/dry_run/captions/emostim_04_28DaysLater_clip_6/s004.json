@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "taking a shower, holding onto the shower head"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bathroom with a shower stall."
+    },
+    "objects": [
+      {
+        "object": "shower head",
+        "position": "left",
+        "action": "spraying water"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman holds onto the shower head and looks around"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman",
+      "facial_cues": [
+        "closed eyes",
+        "wet hair"
+      ],
+      "body_cues": [
+        "water droplets on her skin"
+      ],
+      "gaze": "looking around"
+    }
+  ],
+  "audio_description": "There is a sound of running water, likely from a shower.",
+  "emotion_description": "calm",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

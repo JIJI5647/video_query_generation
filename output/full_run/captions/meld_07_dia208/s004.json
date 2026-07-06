@@ -1,0 +1,73 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "sitting at a table, gesturing with his hands while speaking to the man next to him"
+      },
+      {
+        "person": "a man in a dark sweater",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting at the table, listening with his arms crossed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a coffee shop decorated for Christmas with garlands and lights"
+    },
+    "objects": [
+      "a small round table",
+      "two mugs",
+      "a small pitcher",
+      "a vintage-style radio"
+    ],
+    "interactions": [
+      "the man in the red shirt is talking and gesturing to the man in the dark sweater"
+    ],
+    "key_actions": [
+      "talking",
+      "gesturing",
+      "listening",
+      "sitting"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red plaid shirt",
+      "facial_cues": [
+        "active facial expressions",
+        "brow furrowed"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "looking at the man next to him"
+    },
+    {
+      "person": "a man in a dark sweater",
+      "facial_cues": [
+        "listening",
+        "slightly raised eyebrows"
+      ],
+      "body_cues": [
+        "arms crossed",
+        "leaning back slightly"
+      ],
+      "gaze": "looking at the man speaking"
+    }
+  ],
+  "audio_description": "A male voice is speaking, followed by a series of electronic beeps.",
+  "emotion_description": "The man speaking appears animated and possibly slightly exasperated, while the listener seems engaged and attentive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

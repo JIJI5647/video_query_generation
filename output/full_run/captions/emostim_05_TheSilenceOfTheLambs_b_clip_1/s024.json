@@ -1,0 +1,86 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with short brown hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up and to her right with a concerned expression"
+      },
+      {
+        "person": "a man with glasses and a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up and to his right with a concerned expression"
+      },
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up and to his left with a concerned expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a green wall and a window in the background"
+    },
+    "objects": [
+      {
+        "object": "glasses",
+        "position": "on the man in the white shirt",
+        "visibility": "clearly visible"
+      },
+      {
+        "object": "glasses",
+        "position": "on the man in the suit",
+        "visibility": "clearly visible"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The woman, man in the white shirt, and man in the suit all look up and to their sides with concerned expressions."
+    ],
+    "visibility_notes": "The camera cuts between close-ups of each person."
+  },
+  "visual_expression": [
+    {
+      "person": "the woman with short brown hair",
+      "facial_cues": [
+        "wide eyes",
+        "slightly parted lips",
+        "concerned expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking up and to her right"
+    },
+    {
+      "person": "the man with glasses and a white shirt",
+      "facial_cues": [
+        "furrowed brow",
+        "wide eyes",
+        "concerned expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking up and to his right"
+    },
+    {
+      "person": "the man in a dark suit and glasses",
+      "facial_cues": [
+        "wide eyes",
+        "concerned expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking up and to his left"
+    }
+  ],
+  "audio_description": "A person speaks with a concerned and questioning tone.",
+  "emotion_description": "The people are expressing concern and worry.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

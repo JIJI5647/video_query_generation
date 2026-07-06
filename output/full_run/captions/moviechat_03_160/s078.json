@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still and looking forward"
+      },
+      {
+        "person": "a younger man in a black jacket with a white bandage on his left arm",
+        "visibility": "clearly visible",
+        "position": "right side, foreground",
+        "action": "standing and looking at the older man"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "background, left",
+        "action": "standing still and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "outdoor rooftop at night",
+      "setting": "a metal security gate is visible behind the men"
+    },
+    "objects": [],
+    "interactions": [
+      "The younger man in the black jacket turns his head to look at the older man."
+    ],
+    "key_actions": [
+      "The younger man in the black jacket turns his head to look at the older man."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "an older man in a light-colored suit",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brows"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a younger man in a black jacket with a white bandage on his left arm",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "head turned towards the older man"
+      ],
+      "gaze": "at the older man"
+    }
+  ],
+  "audio_description": "A male voice speaks in Mandarin, followed by a loud, low-pitched, sustained electronic buzz.",
+  "emotion_description": "The mood is tense and suspenseful, conveyed by the serious expressions of the men and the ominous sound.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s091",
+  "time_range": [
+    450.0,
+    455.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a chair and looking down at an object in his hands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with blinds on the window in the background"
+    },
+    "objects": [
+      "a black office chair",
+      "blinds",
+      "a plastic-wrapped object"
+    ],
+    "interactions": [
+      "the man is holding and examining the object"
+    ],
+    "key_actions": [
+      "the man looks down at the object, then lifts his head slightly to look forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and striped tie",
+      "facial_cues": [
+        "his expression is neutral",
+        "his eyebrows are slightly furrowed"
+      ],
+      "body_cues": [
+        "he is sitting upright in the chair"
+      ],
+      "gaze": "looking down at the object, then forward"
+    }
+  ],
+  "audio_description": "A dramatic orchestral score with strings plays in the background.",
+  "emotion_description": "The man appears to be in a serious, contemplative, or concerned state.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

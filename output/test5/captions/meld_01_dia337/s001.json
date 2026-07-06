@@ -1,0 +1,66 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "walking into a room and then bending over a couch to pick up items"
+      },
+      {
+        "person": "a man in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing in the room and gesturing with his hands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a furnished room, possibly a hotel suite or apartment, with a couch, a side table, and a door with the number 1232 on it."
+    },
+    "objects": [
+      {
+        "name": "couch",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "being used by the man in the pink shirt to pick up items"
+      },
+      {
+        "name": "door",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "the man in the pink shirt walks through it"
+      }
+    ],
+    "interactions": [
+      "The man in the blue shirt asks the man in the pink shirt a question."
+    ],
+    "key_actions": [
+      "The man in the pink shirt enters the room and picks up items from the couch.",
+      "The man in the blue shirt stands and gestures while speaking."
+    ],
+    "visibility_notes": "The man in the pink shirt is initially partially obscured by the door as he enters."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "surprised"
+      ],
+      "body_cues": [
+        "bending over"
+      ],
+      "gaze": "down at the couch"
+    }
+  ],
+  "audio_description": "A man speaks with a questioning tone.",
+  "temporal_description": "The man in the blue shirt speaks throughout the clip, asking a question and gesturing.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

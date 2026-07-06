@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "A person wearing latex gloves",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "Using tweezers to extract a dark, worm-like object from a person's mouth."
+      },
+      {
+        "person": "A person lying down with their mouth open",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "Undergoing a procedure where an object is being removed from their mouth."
+      }
+    ],
+    "scene": {
+      "location": "Indoor room",
+      "setting": "A close-up view of a medical or dental procedure."
+    },
+    "objects": [
+      "Tweezers",
+      "Latex gloves",
+      "A dark, worm-like object"
+    ],
+    "interactions": [
+      "The person with gloves uses tweezers to grasp and pull the object from the other person's mouth."
+    ],
+    "key_actions": [
+      "Extracting an object from a mouth using tweezers."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "A person wearing latex gloves",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "Looking down at the procedure."
+    }
+  ],
+  "audio_description": "A sustained, high-pitched electronic tone is audible.",
+  "emotion_description": "The emotion of the people involved is unclear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt in the driver's seat",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "driving a car"
+      },
+      {
+        "person": "a man in a black shirt in the passenger seat",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "holding his right hand up to his face, showing a white bandage on his knuckles"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "the car appears to be moving, with a blurry green landscape visible through the windows"
+    },
+    "objects": [
+      "a white bandage",
+      "a car interior"
+    ],
+    "interactions": [
+      "the passenger holds his bandaged hand up to his face"
+    ],
+    "key_actions": [
+      "the passenger holds his bandaged hand up to his face",
+      "the driver looks forward while driving"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the passenger",
+      "facial_cues": [
+        "his eyes are wide and focused forward",
+        "his brow is slightly furrowed"
+      ],
+      "body_cues": [
+        "his right hand is held up to his face"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "the driver",
+      "facial_cues": [
+        "his eyes are focused forward"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man speaks in a calm, inquisitive tone.",
+  "emotion_description": "The passenger appears serious and focused, possibly tense or in deep thought. The driver's expression is neutral and concentrated.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

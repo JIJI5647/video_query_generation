@@ -1,0 +1,103 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red sweater and jeans",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a couch, looking at the man in the center"
+      },
+      {
+        "person": "a man in a black shirt and jeans",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a couch, looking at the man in the center"
+      },
+      {
+        "person": "a woman in a blue sweater",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "sitting on a couch, looking at the man in the center"
+      },
+      {
+        "person": "a man in a beige turtleneck sweater",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "sitting on a couch, looking at the woman in red"
+      },
+      {
+        "person": "a woman in a red sweater",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "sitting on a couch, looking at the man in the beige sweater"
+      },
+      {
+        "person": "a woman in a purple and white striped shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "walking behind the couch"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded bar or coffee shop with a couch, a coffee table, and other patrons"
+    },
+    "objects": [
+      {
+        "name": "couch",
+        "position": "center",
+        "type": "sofa"
+      },
+      {
+        "name": "coffee table",
+        "position": "center",
+        "type": "table"
+      },
+      {
+        "name": "rug",
+        "position": "floor",
+        "type": "carpet"
+      }
+    ],
+    "interactions": [
+      "The man in the beige sweater talks to the woman in the red sweater."
+    ],
+    "key_actions": [
+      "The man in the beige sweater talks and gestures.",
+      "The woman in the red sweater listens and turns her head."
+    ],
+    "visibility_notes": "The scene is brightly lit, and all people are clearly visible."
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the beige turtleneck sweater",
+      "facial_cues": [
+        "smiling",
+        "looking engaged"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "looking at the woman in the red sweater"
+    },
+    {
+      "person": "the woman in the red sweater",
+      "facial_cues": [
+        "smiling",
+        "looking engaged"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man in the beige sweater"
+    }
+  ],
+  "audio_description": "A male voice speaks in a conversational tone.",
+  "emotion_description": "The man in the beige sweater and the woman in the red sweater appear to be engaged in a friendly and pleasant conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

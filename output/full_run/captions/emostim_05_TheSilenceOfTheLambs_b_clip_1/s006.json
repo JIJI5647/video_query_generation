@@ -1,0 +1,44 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a green wall and a window"
+    },
+    "objects": [
+      "a window"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and glasses",
+      "facial_cues": [
+        "mouth moving"
+      ],
+      "body_cues": [],
+      "gaze": "looking slightly to the side"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, conversational tone.",
+  "emotion_description": "The man sounds calm and conversational.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

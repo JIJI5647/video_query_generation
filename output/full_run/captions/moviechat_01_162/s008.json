@@ -1,0 +1,44 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking upwards, then looking down"
+      }
+    ],
+    "scene": {
+      "location": "outdoor street",
+      "setting": "blurry background with ambient light"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "looking upwards",
+      "looking down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "looking upwards",
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "upwards, then down"
+    }
+  ],
+  "audio_description": "A low, continuous ambient hum or drone is present.",
+  "emotion_description": "The man's expression suggests he is contemplative or pensive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

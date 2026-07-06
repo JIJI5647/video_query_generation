@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "swinging an axe at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "hallway with a light-colored door and blue walls"
+    },
+    "objects": [
+      "axe",
+      "door"
+    ],
+    "interactions": [
+      "the man swings the axe at the door"
+    ],
+    "key_actions": [
+      "the man swings the axe at the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red shirt",
+      "facial_cues": [
+        "angry expression",
+        "mouth open"
+      ],
+      "body_cues": [
+        "swinging an axe"
+      ],
+      "gaze": "toward the door"
+    }
+  ],
+  "audio_description": "a loud, rhythmic banging sound is heard.",
+  "temporal_description": "the banging sound is continuous and repetitive throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

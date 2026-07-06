@@ -1,0 +1,4 @@
+# parse failure: reason=missing_or_invalid_in_batch
+# segment_id=s006
+
+[{"segment_id": "s006", "time_range": [25.0, 30.0], "visual_objective": {"people": [{"person": "a man in a dark hooded sweatshirt", "visibility": "partially visible", "position": "foreground", "action": "walking forward"}], "scene": {"location": "indoors", "setting": "a dimly lit room at night, with a window showing rain on the glass"}}, "objects": [], "interactions": [], "key_actions": ["walking forward"], "visibility_notes": "The man is partially obscured by shadows and the camera angle."}, "visual_expression": [{"person": "a man in a dark hooded sweatshirt", "facial_cues": ["mouth open"], "body_cues": ["walking forward"], "gaze": "looking forward"}], "audio_description": "The audio contains the sound of heavy breathing and a low, ambient hum.", "emotion_description": "Anxious or scared", "confidence": "high", "evidence_strength": "clear"}]

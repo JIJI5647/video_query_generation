@@ -1,0 +1,78 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "reaching for a knife held by a child"
+      },
+      {
+        "person": "a child in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a knife and hugging the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a bed and a lit lamp on a nightstand"
+    },
+    "objects": [
+      {
+        "name": "knife",
+        "description": "a silver kitchen knife"
+      },
+      {
+        "name": "lamp",
+        "description": "a lit table lamp with a beige shade"
+      }
+    ],
+    "interactions": [
+      "The woman reaches for the knife",
+      "The child hugs the woman while holding the knife"
+    ],
+    "key_actions": [
+      "The woman reaches for the knife",
+      "The child hugs the woman"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "showing teeth",
+        "frightened expression"
+      ],
+      "body_cues": [
+        "reaching forward",
+        "hugging the child"
+      ],
+      "gaze": "directly at the child"
+    },
+    {
+      "person": "a child in a striped sweater",
+      "facial_cues": [
+        "head turned away"
+      ],
+      "body_cues": [
+        "hugging the woman",
+        "holding the knife"
+      ],
+      "gaze": "not visible"
+    }
+  ],
+  "audio_description": "A child's voice is heard shouting frantically, followed by a loud, sustained, high-pitched scream.",
+  "emotion_description": "Fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,73 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bending over and speaking to another man"
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a beige couch, a framed picture on the wall, and a lamp on a side table"
+    },
+    "objects": [
+      {
+        "obj": "a framed picture",
+        "position": "background",
+        "action": "hanging on the wall"
+      }
+    ],
+    "interactions": [
+      "The man in the pink plaid shirt is speaking to the man in the blue plaid shirt."
+    ],
+    "key_actions": [
+      "bending over",
+      "speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "surprised",
+        "questioning"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hand gestures"
+      ],
+      "gaze": "at the other man"
+    },
+    {
+      "person": "a man in a blue plaid shirt",
+      "facial_cues": [
+        "confused",
+        "questioning"
+      ],
+      "body_cues": [
+        "standing straight",
+        "arms at sides"
+      ],
+      "gaze": "at the other man"
+    }
+  ],
+  "audio_description": "A man asks another man about cameras, and the other man denies it.",
+  "emotion_description": "The man in the pink plaid shirt sounds surprised and questioning, while the man in the blue plaid shirt sounds confused and dismissive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

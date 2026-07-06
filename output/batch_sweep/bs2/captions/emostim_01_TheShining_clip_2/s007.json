@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy wearing a red and brown sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and touching a door with a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with a bed and a lamp on a nightstand"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "position": "in the boy's hand",
+        "action": "held by the boy"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the boy is touching the door with a knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy wearing a red and brown sweater",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "holding a knife",
+        "touching the door"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "a person is speaking in a low, unclear voice.",
+  "emotion_description": "unclear",
+  "confidence": "low",
+  "evidence_strength": "weak"
+}

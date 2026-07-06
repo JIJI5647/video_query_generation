@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair and a dark jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with a group of people, holding a wand and looking forward with a strained expression"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, wooded area with a group of people gathered"
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "held in front of him"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man holding the wand",
+      "the man looking forward with a strained expression"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair and a dark jacket",
+      "facial_cues": [
+        "strained expression",
+        "frown"
+      ],
+      "body_cues": [
+        "holding a wand",
+        "standing forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A low, ominous hum is present.",
+  "emotion_description": "The man's expression suggests tension and strain, possibly fear or determination.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,62 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "raising his right index finger"
+      },
+      {
+        "person": "the man in a pink plaid shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "standing and looking at the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wooden door and a framed picture on the wall"
+    },
+    "objects": [
+      {
+        "name": "framed picture",
+        "position": "background"
+      },
+      {
+        "name": "door",
+        "position": "background"
+      }
+    ],
+    "interactions": [
+      "The man in the blue plaid shirt gestures with his finger towards the man in the pink plaid shirt."
+    ],
+    "key_actions": [
+      "The man in the blue plaid shirt raises his index finger."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a blue plaid shirt",
+      "facial_cues": [
+        "smiling",
+        "looking at the other man"
+      ],
+      "body_cues": [
+        "raising his right index finger"
+      ],
+      "gaze": "towards the man in the pink shirt"
+    }
+  ],
+  "audio_description": "A male voice speaks, followed by a loud buzzer sound.",
+  "emotion_description": "The man in the blue plaid shirt appears to be pleased or triumphant.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

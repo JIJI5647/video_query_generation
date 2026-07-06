@@ -1,0 +1,9 @@
+{
+  "segments": [
+    {
+      "segment_id": "s001",
+      "modality": "av",
+      "raw_output": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a red dress\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting on the floor\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, with a mirror and a bathtub visible in the background\"}, \"objects\": [{\"object\": \"mirror\", \"position\": \"background\", \"action\": \"reflecting the room\"}, {\"object\": \"bathtub\", \"position\": \"background\", \"action\": \"stationary\"}], \"interactions\": [], \"key_actions\": [\"the woman sits on the floor\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a woman in a red dress\", \"facial_cues\": [\"unclear\"], \"body_cues\": [\"sitting on the floor\"], \"gaze\": \"upward\"}], \"audio_description\": \"a loud, low-frequency rumbling sound, like a large object moving or shaking.\", \"temporal_description\": \"The rumbling sound starts abruptly and continues throughout the clip.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+    }
+  ]
+}

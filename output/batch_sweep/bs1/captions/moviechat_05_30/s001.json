@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "stands and looks at the woman, then embraces her"
+      },
+      {
+        "person": "the woman in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "stands and looks at the man, then is embraced"
+      }
+    ],
+    "scene": {
+      "location": "dark cave",
+      "setting": "a dark, cavernous space with large, serpentine-like stone structures in the background."
+    },
+    "objects": [],
+    "interactions": [
+      "the man embraces the woman"
+    ],
+    "key_actions": [
+      "standing",
+      "embracing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a black jacket",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "embraces the woman"
+      ],
+      "gaze": "at the woman"
+    },
+    {
+      "person": "the woman in a dark jacket",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "embraced by the man"
+      ],
+      "gaze": "at the man"
+    }
+  ],
+  "audio_description": "A dramatic orchestral score with a heavy, impactful sound plays in the background.",
+  "emotion_description": "Somber",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

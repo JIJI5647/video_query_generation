@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "exchanging a black briefcase with another person"
+      },
+      {
+        "person": "a person in a dark suit",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "receiving the briefcase"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "standing and observing"
+      }
+    ],
+    "scene": {
+      "location": "an outdoor city street at night",
+      "setting": "a street with a parked car, illuminated by streetlights, with buildings in the background"
+    },
+    "objects": [
+      "a black briefcase",
+      "a silver car"
+    ],
+    "interactions": [
+      "the man in the light-colored suit hands over the briefcase to the person in the dark suit"
+    ],
+    "key_actions": [
+      "handing over a briefcase"
+    ],
+    "visibility_notes": "The lighting is dim, creating high contrast with some areas brightly lit by streetlights."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit and glasses",
+      "facial_cues": [
+        "a slight smile"
+      ],
+      "body_cues": [
+        "leaning forward during the exchange"
+      ],
+      "gaze": "looking at the person receiving the briefcase"
+    }
+  ],
+  "audio_description": "The audio contains a dramatic, suspenseful musical score with a sudden, loud, high-pitched electronic sound effect.",
+  "emotion_description": "The mood is tense and suspenseful, suggesting a clandestine or high-stakes transaction.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

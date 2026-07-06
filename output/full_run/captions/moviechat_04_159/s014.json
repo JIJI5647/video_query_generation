@@ -1,0 +1,69 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "right, foreground",
+        "action": "holding a cigarette to his mouth and inhaling"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "left, foreground",
+        "action": "holding a lit object, possibly a lighter, near his face"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit, with a strong spotlight on the man in the suit"
+    },
+    "objects": [
+      "cigarette",
+      "lighter",
+      "glasses",
+      "suit"
+    ],
+    "interactions": [
+      "The man on the left appears to be lighting the cigarette for the man on the right."
+    ],
+    "key_actions": [
+      "Inhaling from a cigarette",
+      "Holding a lighter near the cigarette"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "Inhaling smoke",
+        "Eyes focused forward"
+      ],
+      "body_cues": [
+        "Hand holding a cigarette"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "Holding a lighter"
+      ],
+      "body_cues": [
+        "Hand holding a lighter"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A person is heard sniffing repeatedly.",
+  "emotion_description": "The man inhaling the cigarette appears to be in a state of contemplation or stress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

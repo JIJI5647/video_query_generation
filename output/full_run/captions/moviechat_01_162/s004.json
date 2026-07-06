@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a black handgun with both hands, aiming it forward"
+      },
+      {
+        "person": "a person with dark hair and blood on their face",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "lying down with their head tilted back"
+      }
+    ],
+    "scene": {
+      "location": "outdoor street",
+      "setting": "an urban environment with blurred buildings and a utility pole in the background"
+    },
+    "objects": [
+      "a black handgun",
+      "a utility pole with wires"
+    ],
+    "interactions": [
+      "the man in the suit is aiming the handgun towards the person on the right"
+    ],
+    "key_actions": [
+      "the man in the suit is aiming a gun"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and white shirt",
+      "facial_cues": [
+        "intense gaze",
+        "tense facial muscles"
+      ],
+      "body_cues": [
+        "holding the gun with both hands",
+        "leaning forward"
+      ],
+      "gaze": "focused forward and slightly to the right"
+    }
+  ],
+  "audio_description": "A loud, dramatic, and suspenseful musical score with prominent strings and percussion plays, creating a tense atmosphere.",
+  "emotion_description": "The man in the suit appears to be in a state of intense concentration or tension, likely due to a high-stakes confrontation. The overall mood is highly dramatic and suspenseful.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "opening a wooden box"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with various objects in the background, including an armillary sphere and a multi-tiered pagoda-like object on a table."
+    },
+    "objects": [
+      {
+        "object": "a wooden box",
+        "position": "foreground",
+        "action": "being opened by the man"
+      }
+    ],
+    "interactions": [
+      "the man opens the wooden box"
+    ],
+    "key_actions": [
+      "opening a box"
+    ],
+    "visibility_notes": "The man's face is partially visible and in shadow, but his action of opening the box is clear."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown jacket",
+      "facial_cues": [
+        "looking down"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "downwards"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful orchestral score plays.",
+  "emotion_description": "Anticipation",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

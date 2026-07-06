@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s073",
+  "time_range": [
+    360.0,
+    365.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a green suit",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "opening a briefcase, then taking out a white rectangular object, then placing it back down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark room with a table, lit with a cool, greenish light"
+    },
+    "objects": [
+      "a black briefcase",
+      "a white rectangular object",
+      "a table"
+    ],
+    "interactions": [
+      "the person opens the briefcase",
+      "the person takes out the white object",
+      "the person places the white object back in the briefcase"
+    ],
+    "key_actions": [
+      "opening the briefcase",
+      "handling the white object"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a green suit",
+      "facial_cues": [],
+      "body_cues": [
+        "hands interacting with the briefcase and the object"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A male voice speaks in a questioning tone, accompanied by a brief, low electronic sound.",
+  "emotion_description": "Uncertain, the tone is inquisitive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

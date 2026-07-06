@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a grey suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a mobile phone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with wooden shelves holding bowls in the background"
+    },
+    "objects": [
+      "a mobile phone",
+      "shelves",
+      "bowls"
+    ],
+    "interactions": [
+      "the man is holding the phone to his ear"
+    ],
+    "key_actions": [
+      "the man is on a phone call"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a grey suit",
+      "facial_cues": [
+        "eyes closed",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "head tilted slightly"
+      ],
+      "gaze": "looking down and to the side"
+    }
+  ],
+  "audio_description": "The audio consists of a deep, continuous, low-frequency humming or drone sound.",
+  "emotion_description": "The man appears to be in a state of deep thought, concentration, or fatigue.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

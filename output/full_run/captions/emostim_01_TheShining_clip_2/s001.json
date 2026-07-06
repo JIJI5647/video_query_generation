@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with shaggy blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and holding a large knife while looking down at a table"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a television, a lamp, and a vanity table cluttered with items"
+    },
+    "objects": [
+      "a large knife",
+      "a vanity table",
+      "a lamp",
+      "a television",
+      "a framed picture on the wall",
+      "curtains"
+    ],
+    "interactions": [
+      "the boy is holding the knife and appears to be interacting with items on the vanity table"
+    ],
+    "key_actions": [
+      "holding a knife",
+      "looking down at the table"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with shaggy blonde hair",
+      "facial_cues": [],
+      "body_cues": [
+        "standing still",
+        "holding a knife"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A low, ominous musical tone plays, followed by a loud, jarring crash.",
+  "emotion_description": "The scene is tense and ominous, with the boy's focused gaze and the jarring sound creating a sense of foreboding.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

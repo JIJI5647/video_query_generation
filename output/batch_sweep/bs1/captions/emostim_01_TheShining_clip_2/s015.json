@@ -1,0 +1,71 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting up in bed, grabbing a child, and pulling them close in a protective embrace"
+      },
+      {
+        "person": "a child in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing beside the bed, holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "bedroom",
+      "setting": "dimly lit, with a lit lamp on a nightstand"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held by the child"
+      },
+      {
+        "object": "lamp",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "illuminating the room"
+      },
+      {
+        "object": "bed",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by the woman"
+      }
+    ],
+    "interactions": [
+      "the woman grabs the child and pulls them towards her"
+    ],
+    "key_actions": [
+      "the woman sits up, grabs the child, and embraces them"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "showing fear and urgency"
+      ],
+      "body_cues": [
+        "reaching out to grab the child"
+      ],
+      "gaze": "looking at the child"
+    }
+  ],
+  "audio_description": "A child is shouting repeatedly, and an adult female voice is heard urgently telling the child to stop.",
+  "emotion_description": "The woman is frightened and urgent, while the child is distressed and agitated.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

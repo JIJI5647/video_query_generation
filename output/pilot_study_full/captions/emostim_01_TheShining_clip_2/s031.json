@@ -1,0 +1,46 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark blue robe",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "lying in the snow, struggling to move"
+      }
+    ],
+    "scene": {
+      "location": "outside at night",
+      "setting": "a snowy area next to a wooden structure with a frosted window."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "struggling in the snow",
+      "reaching out with hands"
+    ],
+    "visibility_notes": "The person is mostly obscured by the dark clothing and low light."
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark blue robe",
+      "facial_cues": [
+        "face is not visible"
+      ],
+      "body_cues": [
+        "struggling",
+        "reaching out with hands"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, high-pitched, continuous screeching or whining sound is heard throughout the clip.",
+  "emotion_description": "distress",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

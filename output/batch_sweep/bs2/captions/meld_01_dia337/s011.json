@@ -1,0 +1,74 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking and turning his head to face the other man"
+      },
+      {
+        "person": "the man in the blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing with arms crossed and talking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wooden door, a framed picture, and a lamp on the wall"
+    },
+    "objects": [
+      {
+        "name": "door",
+        "description": "a wooden door with a number plate, number 232",
+        "visibility": "clearly visible",
+        "position": "background right"
+      }
+    ],
+    "interactions": [
+      "the two men are having a conversation"
+    ],
+    "key_actions": [
+      "the man in the pink plaid shirt turns to face the other man",
+      "the man in the blue plaid shirt stands with his arms crossed and talks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the pink plaid shirt",
+      "facial_cues": [
+        "talking with an open mouth",
+        "showing teeth",
+        "brow furrowed"
+      ],
+      "body_cues": [
+        "turning his head to face the other man"
+      ],
+      "gaze": "towards the man in the blue plaid shirt"
+    },
+    {
+      "person": "the man in the blue plaid shirt",
+      "facial_cues": [
+        "talking with an open mouth",
+        "brow furrowed",
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing with arms crossed"
+      ],
+      "gaze": "towards the man in the pink plaid shirt"
+    }
+  ],
+  "audio_description": "a man is speaking with a frustrated tone, followed by another man responding.",
+  "emotion_description": "frustrated",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

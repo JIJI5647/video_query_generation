@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a child in a red and gray sweater",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and holding a knife, looking at a closed door"
+      },
+      {
+        "person": "a person sleeping in a bed",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "lying in bed under a blanket"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit bedroom at night"
+    },
+    "objects": [
+      {
+        "name": "knife",
+        "description": "a long-bladed knife, possibly a butcher knife"
+      },
+      {
+        "name": "door",
+        "description": "a closed, light-colored panelled door"
+      },
+      {
+        "name": "lamp",
+        "description": "a lit table lamp with a beige shade"
+      },
+      {
+        "name": "bed",
+        "description": "a bed with a person sleeping under a green patterned blanket"
+      }
+    ],
+    "interactions": [
+      "The child stands in front of the door, holding a knife, while a person sleeps in the bed nearby."
+    ],
+    "key_actions": [
+      "The child stands still, holding a knife and looking at the door."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a child in a red and gray sweater",
+      "facial_cues": [],
+      "body_cues": [
+        "The child is holding a knife with both hands."
+      ],
+      "gaze": "Looking at the closed door"
+    }
+  ],
+  "audio_description": "A high-pitched, continuous ringing sound is heard.",
+  "emotion_description": "The child's posture and the sound suggest tension or suspense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

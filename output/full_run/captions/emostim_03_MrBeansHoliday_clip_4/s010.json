@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit riding a bicycle",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle"
+      },
+      {
+        "person": "a group of cyclists",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "riding bicycles in a peloton"
+      }
+    ],
+    "scene": {
+      "location": "outdoor road",
+      "setting": "a rural landscape with rolling hills and cultivated fields in the background, under a clear blue sky"
+    },
+    "objects": [
+      "bicycles"
+    ],
+    "interactions": [
+      "The man in the suit is riding alongside a group of professional-looking cyclists."
+    ],
+    "key_actions": [
+      "The man in the suit and the group of cyclists are all riding their bicycles forward on a paved road."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit riding a bicycle",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "leaning forward while pedaling"
+      ],
+      "gaze": "looking forward, occasionally glancing to the side"
+    }
+  ],
+  "audio_description": "Energetic rock music with a male vocalist singing in a slightly strained, passionate tone.",
+  "emotion_description": "The man in the suit appears amused and lighthearted, smiling as he rides. The overall mood of the music is energetic and passionate.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

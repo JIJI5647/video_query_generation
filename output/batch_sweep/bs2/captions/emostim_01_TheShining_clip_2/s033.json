@@ -1,0 +1,70 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket and blue jeans",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking down a hallway, holding an axe"
+      },
+      {
+        "person": "a person in a blue outfit",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "lying face down in the snow, struggling and reaching towards a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway and outdoor snowy area",
+      "setting": "a dimly lit hallway with peeling wallpaper, transitioning to a dark, snowy outdoor scene with a wooden door"
+    },
+    "objects": [
+      "axe",
+      "door",
+      "snow"
+    ],
+    "interactions": [
+      "The man walks through the hallway, while the person in the snow reaches for the door."
+    ],
+    "key_actions": [
+      "The man walks with the axe",
+      "The person in the snow struggles and reaches for the door"
+    ],
+    "visibility_notes": "The person in the snow is partially obscured by their position and the low light."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red jacket and blue jeans",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "holding an axe",
+        "walking"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a person in a blue outfit",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "lying in the snow",
+        "reaching out",
+        "struggling"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "The audio contains a loud, high-pitched, screeching sound.",
+  "emotion_description": "The man appears to be in a state of malicious glee or excitement, while the person in the snow appears to be in a state of desperation and fear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

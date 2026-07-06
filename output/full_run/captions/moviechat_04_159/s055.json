@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing on a balcony and looking over the railing"
+      }
+    ],
+    "scene": {
+      "location": "balcony",
+      "setting": "a building exterior at night, with a bright light source on the left and a red fire extinguisher in the background"
+    },
+    "objects": [
+      "balcony railing",
+      "fire extinguisher",
+      "plastic sheeting",
+      "bright light source"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man stands still and observes his surroundings"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "standing with his hands on the railing"
+      ],
+      "gaze": "looking over the railing to the left"
+    }
+  ],
+  "audio_description": "Dramatic, suspenseful orchestral music plays in the background.",
+  "emotion_description": "The music creates a tense and suspenseful atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

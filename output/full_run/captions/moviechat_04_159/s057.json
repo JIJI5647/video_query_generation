@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "sitting in front of multiple computer monitors, facing away from the camera"
+      },
+      {
+        "person": "a person in a dark suit",
+        "visibility": "partially visible",
+        "position": "left foreground",
+        "action": "standing and looking at the man in the light-colored shirt"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit control room or office with multiple computer monitors displaying data and a security camera feed"
+    },
+    "objects": [
+      "computer monitors",
+      "security camera"
+    ],
+    "interactions": [
+      "the person in the dark suit is observing the man in the light-colored shirt who is working at the computers"
+    ],
+    "key_actions": [
+      "the man in the light-colored shirt is focused on the computer screens"
+    ],
+    "visibility_notes": "The scene is dark, with the monitors being a primary light source."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting upright and leaning forward",
+        "focusing on the monitors"
+      ],
+      "gaze": "directed at the computer screens"
+    }
+  ],
+  "audio_description": "A slow, somber, and suspenseful musical score is playing.",
+  "emotion_description": "The mood appears to be tense and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

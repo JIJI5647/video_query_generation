@@ -1,0 +1,68 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and knocking on a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with a bed and a lamp on a nightstand."
+    },
+    "objects": [
+      {
+        "object": "a wooden door",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being knocked on by the boy"
+      },
+      {
+        "object": "a bed",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by a sleeping person"
+      },
+      {
+        "object": "a nightstand",
+        "visibility": "clearly visible",
+        "position": "middle",
+        "action": "has a lamp and other items on it"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The boy knocks on the door, while a person sleeps in the bed."
+      }
+    ],
+    "key_actions": [
+      "knocking on a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy in a striped sweater",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "standing",
+        "raising his hand to knock"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A high-pitched, electronic beeping sound is heard, followed by a person speaking.",
+  "temporal_description": "The beeping sound continues throughout the clip, while the person speaks at the beginning.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,7 @@
+usage: run_pipeline.py [-h] --video-dir VIDEO_DIR [--num-videos NUM_VIDEOS] [--video-ids VIDEO_IDS] [--output OUTPUT] [--seed SEED] [--segment-seconds SEGMENT_SECONDS] [--stride STRIDE]
+                       [--min-segment-seconds MIN_SEGMENT_SECONDS] [--max-rewrites MAX_REWRITES] [--max-accepted MAX_ACCEPTED] [--caption-model CAPTION_MODEL] [--generation-model GENERATION_MODEL]
+                       [--verification-model VERIFICATION_MODEL] [--rewrite-model REWRITE_MODEL] [--temp-dir TEMP_DIR] [--keep-temp-clips] [--segments-dir SEGMENTS_DIR] [--force-reextract]
+                       [--no-transcript] [--whisper-model WHISPER_MODEL] [--caption-backend {gemini,qwen3_omni}] [--caption-batch-size CAPTION_BATCH_SIZE] [--parallel PARALLEL]
+                       [--qwen-model-path QWEN_MODEL_PATH] [--qwen-attn-impl QWEN_ATTN_IMPL] [--qwen-video-reader-backend {torchvision,decord,torchcodec}] [--verify-rewrite-backend {gemini,qwen3_omni}]
+                       [--captions-cache-dir CAPTIONS_CACHE_DIR] [--resume] [--no-resume] [--overwrite-captions]
+run_pipeline.py: error: unrecognized arguments: --no_transcript

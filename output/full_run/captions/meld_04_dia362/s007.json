@@ -1,0 +1,85 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman lying in a hospital bed",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying in bed, holding onto the bed rail, and grimacing in pain"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "kneeling beside the bed, leaning in, and speaking to the woman"
+      },
+      {
+        "person": "a woman in a white lab coat",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with medical equipment"
+    },
+    "objects": [
+      "hospital bed",
+      "medical equipment",
+      "pillow",
+      "blanket"
+    ],
+    "interactions": [
+      "The man is leaning towards the woman in the bed, talking to her."
+    ],
+    "key_actions": [
+      "The woman in the bed is in pain.",
+      "The man is talking to her.",
+      "The woman in the lab coat is speaking."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman lying in a hospital bed",
+      "facial_cues": [
+        "grimacing",
+        "eyes closed"
+      ],
+      "body_cues": [
+        "clenching her hands on the bed rail",
+        "arched back"
+      ],
+      "gaze": "closed eyes"
+    },
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "concerned expression"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking at the woman"
+    },
+    {
+      "person": "a woman in a white lab coat",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking towards the bed"
+    }
+  ],
+  "audio_description": "A woman is heard speaking in distress, followed by a man speaking calmly.",
+  "emotion_description": "The woman is in pain and distressed, while the man is concerned and trying to be reassuring.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

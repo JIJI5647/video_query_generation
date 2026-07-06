@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark red leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting down at a round table"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room, possibly a small restaurant or a room with multiple tables"
+    },
+    "objects": [
+      "a round table",
+      "a yellow and purple drink pitcher",
+      "a plate of food",
+      "a portable stove or hot pot",
+      "chairs"
+    ],
+    "interactions": [
+      "The man places his hand on the table"
+    ],
+    "key_actions": [
+      "The man walks towards the table, sits down, and places his hand on his head"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark red leather jacket",
+      "facial_cues": [],
+      "body_cues": [
+        "He places his hand on his head"
+      ],
+      "gaze": "looking down at the table"
+    }
+  ],
+  "audio_description": "A loud, jarring electronic sound, like a distorted buzzer or a wrong-answer alarm, plays in the background.",
+  "emotion_description": "The man appears to be in a state of frustration or disappointment.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

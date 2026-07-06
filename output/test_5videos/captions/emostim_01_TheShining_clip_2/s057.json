@@ -1,0 +1,60 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a red plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "breaking through a white door, then holding the door handle with a bloody hand."
+      },
+      {
+        "person": "the woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "holding a knife and screaming in terror."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a white door with a brass knob, the wall around it is peeling and damaged."
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "position": "held by the woman in the blue robe",
+        "action": "being held"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man breaks through the door.",
+      "The woman screams and holds a knife.",
+      "The man's hand, with a cut, is seen on the door handle."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a red plaid shirt",
+      "facial_cues": [
+        "intense grimace",
+        "bared teeth",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "clenched fist"
+      ],
+      "gaze": "directly forward"
+    }
+  ],
+  "audio_description": "A woman screams in terror, followed by a man yelling in pain.",
+  "emotion_description": "The man is in pain and the woman is terrified.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

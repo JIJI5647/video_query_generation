@@ -1,0 +1,87 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking, holding a small white bottle."
+      },
+      {
+        "person": "the man in the blue plaid shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "listening and then looking down."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hotel room with a couch, a side table, and a door."
+    },
+    "objects": [
+      {
+        "object": "bottle",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being held by the man in the pink shirt."
+      },
+      {
+        "object": "couch",
+        "visibility": "clearly visible",
+        "position": "left background",
+        "action": "a piece of furniture."
+      },
+      {
+        "object": "door",
+        "visibility": "clearly visible",
+        "position": "right background",
+        "action": "closed with the number 232 on it."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The man in the pink shirt defends his actions while the man in the blue shirt listens."
+      }
+    ],
+    "key_actions": [
+      "The man in the pink shirt holds up a bottle while speaking.",
+      "The man in the blue shirt looks down and away."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the pink plaid shirt",
+      "facial_cues": [
+        "confident expression",
+        "slight smile"
+      ],
+      "body_cues": [
+        "holding up a bottle",
+        "standing straight"
+      ],
+      "gaze": "looking at the man in the blue shirt."
+    },
+    {
+      "person": "the man in the blue plaid shirt",
+      "facial_cues": [
+        "thoughtful expression"
+      ],
+      "body_cues": [
+        "looks down",
+        "slight head tilt"
+      ],
+      "gaze": "looking down and away from the other man."
+    }
+  ],
+  "audio_description": "A male voice defends his actions, followed by a brief pause.",
+  "emotion_description": "Confident",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

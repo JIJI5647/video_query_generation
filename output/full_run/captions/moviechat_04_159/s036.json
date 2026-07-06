@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and striped tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "left background",
+        "action": "standing and listening"
+      },
+      {
+        "person": "a person in a dark jacket",
+        "visibility": "partially visible",
+        "position": "front background",
+        "action": "sitting and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or briefing room with a large map on the wall"
+    },
+    "objects": [
+      "a large map on the wall",
+      "a blackboard"
+    ],
+    "interactions": [
+      "The man in the suit is speaking to the other two people."
+    ],
+    "key_actions": [
+      "The man in the suit points at the map."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and striped tie",
+      "facial_cues": [],
+      "body_cues": [
+        "pointing at the map"
+      ],
+      "gaze": "towards the map"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, explanatory tone.",
+  "emotion_description": "Calm, focused",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,10 +1,9 @@
 # Caption-based Emotion Query Generation Pipeline (v4)
 
 Generates emotion-related **temporal grounding queries** from raw videos by first
-building per-segment **emotion captions**, then writing queries from the caption text
-(plus the spoken-dialogue transcript). Each query is grounded to a **time range**
-`[start, end]` of the video, so grounding is tied to specific moments rather than the
-whole video.
+building per-segment **emotion captions**, then writing queries from the caption text.
+Each query is grounded to a **time range** `[start, end]` of the video, so grounding is
+tied to specific moments rather than the whole video.
 
 This is a self-contained sibling of `video_query_answering_demo` (the v1 demo); it copies
 the segmentation/clip-extraction utilities and the verify/rewrite stage rather than
@@ -23,41 +22,36 @@ raw .mp4
                                 per-segment for resume; --parallel prompts
                                 per generate() call
         • gemini              : upload N clips → ONE multimodal call
-  └─ 3. WhisperX transcribes the whole video → sentence-level text + timestamps [B3]
-  └─ 4. caption-only LLM call sees ALL of the video's captions (with time ranges)
-        + the dialogue transcript → few, high-precision queries, each grounded
-        on a time_range. Caption `emotion` is treated as a candidate, not a
-        must-copy label.                                                   [B1,B2]
-  └─ 5. for each query, take ONLY its grounded segment clip(s) → verify ⇄ rewrite
+  └─ 3. caption-only LLM call sees ALL of the video's captions (with time ranges) →
+        few, high-precision queries, each grounded on a time_range. Caption `emotion`
+        is treated as a candidate, not a must-copy label.                  [B1,B2]
+  └─ 4. for each query, take ONLY its grounded segment clip(s) → verify ⇄ rewrite
         (Gemini upload, or watched locally on Qwen3-Omni).
         The verifier sees ONLY query_id + query_text (no caption metadata).  [A1]
   └─ export intermediates + final queries; segment clips stay cached, uploads cleaned
 ```
 
-Step 2 sends the actual clips (with audio); step 4 sends **only** text (captions +
-transcript, no video). There is no caption-filtering step — every caption is fed to
-generation, which selects which moments are worth a query. `segment_id` remains an internal handle that maps a query's
+Step 2 sends the actual clips (with audio); step 3 sends **only** text (captions, no
+video, no transcript — WhisperX transcription support was removed). There is no
+caption-filtering step — every caption is fed to generation, which selects which
+moments are worth a query. `segment_id` remains an internal handle that maps a query's
 `time_range` back to the segment clip(s) used for verification — it is never shown to the
 models or to human annotators. The eight emotion labels are fixed: `angry, excited, fear,
 sad, surprised, frustrated, happy, disappointed`.
 
 The v4 work targets verification (A1–A4), generation grounding (B1), caption-emotion
-handling (B2), audio transcription (B3), and the segment cache (B4). A later addition adds
-a second, pluggable **caption backend** (`qwen3_omni`, see below) alongside the original
-Gemini batch captioner. Prompt versions: `verification_prompt_v11`,
-`generation_prompt_caption_v9`, `omni_caption_prompt_v2`.
+handling (B2), and the segment cache (B4). A later addition adds a second, pluggable
+**caption backend** (`qwen3_omni`, see below) alongside the original Gemini batch
+captioner. Prompt versions: `verification_prompt_v11`, `generation_prompt_caption_v9`,
+`omni_caption_prompt_v2`.
 
 ## Setup
 
 ```bash
 pip install -r requirements.txt   # google-genai, pydantic>=2
-pip install whisperx              # transcription (B3); pulls torch CPU + faster-whisper
 export GEMINI_API_KEY="..."       # required
-# ffmpeg + ffprobe must be on PATH (clip cutting + duration probing + WhisperX audio)
+# ffmpeg + ffprobe must be on PATH (clip cutting + duration probing)
 ```
-
-WhisperX is heavy (~2–3 GB incl. torch) and downloads its ASR + alignment models on first
-run. Run with `--no-transcript` to skip it entirely.
 
 The `qwen3_omni` caption backend additionally needs `transformers`,
 `qwen-omni-utils`, `torch` and `accelerate` (plus optional `flash-attn` for
@@ -150,13 +144,6 @@ All optional except `--video-dir`. Grouped by purpose; default in **bold**.
 | `--caption-model` | **gemini-2.5-flash-lite** | Caption model, used only when `--caption-backend gemini`. |
 | `--verification-model` | **gemini-3.1-flash-lite** | Verifier model, used only when `--verify-rewrite-backend gemini`. |
 | `--rewrite-model` | **gemini-2.5-flash-lite** | Rewrite model, used only when `--verify-rewrite-backend gemini`. |
-
-**Transcript (WhisperX)**
-
-| Flag | Default | Meaning |
-|------|---------|---------|
-| `--no-transcript` | **off (transcript on)** | Skip WhisperX; generation runs without dialogue text. |
-| `--whisper-model` | **small** | WhisperX size (`tiny`, `base`, `small`, ...). |
 
 **Default backend split:** caption + verify/rewrite run on **Qwen3-Omni**; generation
 (query writing) runs on **Gemini**. `GEMINI_API_KEY` is therefore always required.
@@ -274,8 +261,8 @@ The pure modules have no hard SDK imports and can be exercised directly:
 `OmniCaption` and `EmotionCaption`, and `_resolve_time_ranges`), and
 `workflow.run_query_pipeline` (inject a fake `BaseLLMClient`). `llm_client` imports
 `google.genai` lazily, so `BaseLLMClient` / `generation` import fine without it;
-only constructing `GeminiLLMClient`, `GeminiUploader`, and `transcription`
-(WhisperX) touch external models. See `tests/test_generation.py`.
+only constructing `GeminiLLMClient` or `GeminiUploader` touches external models.
+See `tests/test_generation.py`.
 
 The Qwen3-Omni backend is fully testable without the model — prompt construction,
 JSON extraction, field validation, the cache/resume decision, atomic write and the

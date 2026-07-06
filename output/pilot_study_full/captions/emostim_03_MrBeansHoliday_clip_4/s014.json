@@ -1,0 +1,69 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown suit and red tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at the chicken"
+      },
+      {
+        "person": "a man in a plaid shirt and black cap",
+        "visibility": "clearly visible",
+        "position": "inside a vehicle",
+        "action": "eating"
+      }
+    ],
+    "scene": {
+      "location": "inside a vehicle",
+      "setting": "daytime"
+    },
+    "objects": [
+      "a chicken",
+      "a wire mesh cage",
+      "a pillow"
+    ],
+    "interactions": [
+      "the man on the bicycle looks at the chicken in the cage"
+    ],
+    "key_actions": [
+      "the man on the bicycle is looking at the chicken",
+      "the man in the truck is eating"
+    ],
+    "visibility_notes": "The man on the bicycle is seen from the side, and the man in the truck is seen from the front."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown suit and red tie",
+      "facial_cues": [
+        "smiling",
+        "looking at the chicken"
+      ],
+      "body_cues": [
+        "pedaling the bicycle"
+      ],
+      "gaze": "at the chicken in the cage"
+    },
+    {
+      "person": "a man in a plaid shirt and black cap",
+      "facial_cues": [
+        "eating",
+        "mouth open"
+      ],
+      "body_cues": [
+        "sitting in a vehicle"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "Upbeat music with a male voice singing is playing.",
+  "emotion_description": "The man on the bicycle appears amused and happy, while the man in the truck seems to be enjoying his food.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

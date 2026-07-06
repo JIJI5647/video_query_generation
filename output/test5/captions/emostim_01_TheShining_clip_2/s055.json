@@ -1,0 +1,58 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair wearing a dark red shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "swings a sledgehammer, then walks toward the door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with pink walls and a lamp on a nightstand"
+    },
+    "objects": [
+      {
+        "object": "a sledgehammer",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "being swung by the man"
+      },
+      {
+        "object": "a door",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "being approached by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "swinging a sledgehammer",
+      "walking towards a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair wearing a dark red shirt",
+      "facial_cues": [
+        "intense expression"
+      ],
+      "body_cues": [
+        "swinging a sledgehammer"
+      ],
+      "gaze": "toward the door"
+    }
+  ],
+  "audio_description": "a loud, distorted scream is heard, followed by a deep, guttural growl.",
+  "temporal_description": "the audio begins with a scream, which is then followed by a growl.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

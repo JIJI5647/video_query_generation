@@ -1,0 +1,72 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and looking at a door while holding a knife"
+      },
+      {
+        "person": "an older woman",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "lying in bed, asleep"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom at night with a lamp on a nightstand and a bookshelf in the background"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "held by the boy"
+      },
+      {
+        "object": "lamp",
+        "visibility": "clearly visible",
+        "position": "on a nightstand",
+        "action": "illuminating the room"
+      },
+      {
+        "object": "bed",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the boy stands and holds a knife",
+      "the boy looks at a door",
+      "the woman sleeps in bed"
+    ],
+    "visibility_notes": "The boy's face is mostly obscured from view."
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing still",
+        "holding a knife"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A loud, sustained, high-pitched electronic tone plays.",
+  "temporal_description": "The tone begins at the start of the clip and continues unchanged until the end.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

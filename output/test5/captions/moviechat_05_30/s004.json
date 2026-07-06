@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a dark robe",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "kissing the woman, then pulling back and smiling"
+      },
+      {
+        "person": "the woman in a dark robe with a red hood",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "kissing the man, then pulling back and smiling"
+      }
+    ],
+    "scene": {
+      "location": "outdoor",
+      "setting": "dark, rocky terrain with large, dark creatures in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "the man and woman kiss",
+      "the man and woman smile at each other"
+    ],
+    "key_actions": [
+      "kissing",
+      "smiling"
+    ],
+    "visibility_notes": "The background is dark and the creatures are mostly silhouetted."
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a dark robe",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [],
+      "gaze": "at the woman"
+    },
+    {
+      "person": "the woman in a dark robe with a red hood",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [],
+      "gaze": "at the man"
+    }
+  ],
+  "audio_description": "A woman laughs.",
+  "temporal_description": "The audio begins with the woman's laugh, which continues for the duration of the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

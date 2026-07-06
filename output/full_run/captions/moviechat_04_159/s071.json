@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "looking through the viewfinder of a large video camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit"
+    },
+    "objects": [
+      {
+        "name": "video camera",
+        "description": "a large professional video camera on a tripod"
+      }
+    ],
+    "interactions": [
+      "the man in the light-colored shirt is operating the video camera, while the man in the dark suit observes him from the side."
+    ],
+    "key_actions": [
+      "the man in the light-colored shirt looking through the camera's viewfinder",
+      "the man in the dark suit leaning in to look at the camera"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a dark suit",
+      "facial_cues": [
+        "looking down"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "downward"
+    },
+    {
+      "person": "the man in a light-colored shirt",
+      "facial_cues": [
+        "concentrating"
+      ],
+      "body_cues": [
+        "holding the camera"
+      ],
+      "gaze": "through the viewfinder"
+    }
+  ],
+  "audio_description": "The audio features a loud, rhythmic, percussive beat.",
+  "emotion_description": "Focused",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

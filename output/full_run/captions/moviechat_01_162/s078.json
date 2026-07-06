@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt with epaulets and a black tie",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "looking at the other man and speaking"
+      },
+      {
+        "person": "a man in a light blue shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "looking down and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or meeting room with a wall and a chair visible"
+    },
+    "objects": [],
+    "interactions": [
+      "The two men are having a conversation."
+    ],
+    "key_actions": [
+      "The man on the left speaks.",
+      "The man on the right listens."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt with epaulets and a black tie",
+      "facial_cues": [
+        "his mouth is moving as he speaks"
+      ],
+      "body_cues": [
+        "he is sitting and leaning slightly forward"
+      ],
+      "gaze": "looking towards the other man"
+    },
+    {
+      "person": "a man in a light blue shirt and dark tie",
+      "facial_cues": [
+        "his head is tilted down"
+      ],
+      "body_cues": [
+        "he is sitting and looking down"
+      ],
+      "gaze": "looking down and to his left"
+    }
+  ],
+  "audio_description": "The audio contains a male voice speaking in a serious and direct tone, followed by a loud, low-pitched buzzer sound.",
+  "emotion_description": "The man speaking sounds serious and authoritative, while the other man appears focused and attentive. The buzzer sound introduces a jarring, negative element.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

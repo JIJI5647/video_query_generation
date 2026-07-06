@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on his stomach on a wooden floor, propped up on his elbows, looking forward and speaking"
+      }
+    ],
+    "scene": {
+      "location": "dark indoor room",
+      "setting": "a dimly lit, dark wooden room with a large hole in the floor."
+    },
+    "objects": [
+      {
+        "name": "wooden floor",
+        "type": "floor",
+        "position": "foreground",
+        "visibility": "clearly visible"
+      },
+      {
+        "name": "hole in floor",
+        "type": "hole",
+        "position": "center",
+        "visibility": "clearly visible"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man speaks",
+      "the man smiles"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man",
+      "facial_cues": [
+        "smiles",
+        "opens his mouth to speak",
+        "tightens his jaw"
+      ],
+      "body_cues": [
+        "propped up on elbows"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio features a man speaking in a foreign language, followed by a loud, distorted sound.",
+  "emotion_description": "The man appears to be in pain or discomfort, as indicated by his facial expression and the accompanying sound.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

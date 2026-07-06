@@ -1,0 +1,62 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s096",
+  "time_range": [
+    475.0,
+    480.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a grey suit jacket and light-colored collared shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating with chopsticks, then speaking and looking to his right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room, possibly a restaurant or a casual dining area, with a table set for a meal."
+    },
+    "objects": [
+      {
+        "name": "food",
+        "description": "multiple dishes of food in white bowls and plates on the table."
+      },
+      {
+        "name": "chopsticks",
+        "description": "held by the man as he eats."
+      },
+      {
+        "name": "beverage cup",
+        "description": "a white paper cup with a straw is on the table."
+      }
+    ],
+    "interactions": [
+      "The man is eating and then turns his head to speak to someone off-screen to his right."
+    ],
+    "key_actions": [
+      "Eating with chopsticks",
+      "Speaking",
+      "Looking to the right"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a grey suit jacket and light-colored collared shirt",
+      "facial_cues": [
+        "Mouth open while speaking",
+        "Eyes looking to the right"
+      ],
+      "body_cues": [
+        "Leaning slightly forward over the table"
+      ],
+      "gaze": "Looking to his right"
+    }
+  ],
+  "audio_description": "A man speaks in a conversational tone, followed by a loud, sustained, low-pitched electronic buzz.",
+  "emotion_description": "The man appears to be engaged in a casual, conversational interaction. The loud electronic buzz at the end is jarring and disruptive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

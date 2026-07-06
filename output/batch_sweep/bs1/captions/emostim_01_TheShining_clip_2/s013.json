@@ -1,0 +1,93 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy in a red and green striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in front of a door and writing on it with a red marker while holding a knife in his other hand."
+      },
+      {
+        "person": "a person sleeping in a bed",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "lying in bed under a blanket, seemingly asleep."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night, with a lamp on a nightstand and a door with the word 'MURDER' written on it in reverse."
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "held by the boy."
+      },
+      {
+        "object": "a red marker",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "used to write on the door."
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "on the right side of the frame",
+        "action": "has the word 'MURDER' written on it in reverse."
+      },
+      {
+        "object": "a bed",
+        "visibility": "partially visible",
+        "position": "on the left side of the frame",
+        "action": "occupied by a sleeping person."
+      },
+      {
+        "object": "a lamp",
+        "visibility": "clearly visible",
+        "position": "on a nightstand next to the bed",
+        "action": "illuminating the room."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The boy writes on the door with a marker."
+      },
+      {
+        "interaction": "The boy holds a knife while writing on the door."
+      }
+    ],
+    "key_actions": [
+      "The boy writes on the door with a marker.",
+      "The boy holds a knife.",
+      "The boy turns his back to the camera and walks away."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy in a red and green striped sweater",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing",
+        "holding a knife",
+        "writing on a door",
+        "turning away"
+      ],
+      "gaze": "looking at the door while writing."
+    }
+  ],
+  "audio_description": "A child's voice speaks, followed by a loud, distorted, and ominous sound effect.",
+  "emotion_description": "The boy appears to be in a state of play or mischief, possibly pretending to be a murderer, as indicated by his actions and the sound effect.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s083",
+  "time_range": [
+    410.0,
+    415.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with short dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking intently at a computer monitor, then turning and raising a phone to his ear"
+      },
+      {
+        "person": "a man in a uniform",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing by a window with closed blinds, looking through them"
+      }
+    ],
+    "scene": {
+      "location": "an indoor room",
+      "setting": "a dimly lit room with a computer monitor and a window"
+    },
+    "objects": [
+      "a computer monitor",
+      "a phone",
+      "window blinds"
+    ],
+    "interactions": [
+      "the man looks at the monitor, then speaks into the phone"
+    ],
+    "key_actions": [
+      "looking at a computer screen",
+      "speaking on a phone",
+      "looking through window blinds"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with short dark hair",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "turning from the screen to the phone"
+      ],
+      "gaze": "initially down at the screen, then forward towards the window"
+    },
+    {
+      "person": "a man in a uniform",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "raising a phone to his ear"
+      ],
+      "gaze": "through the blinds"
+    }
+  ],
+  "audio_description": "A male voice speaks in a neutral, informative tone over a low, electronic hum.",
+  "emotion_description": "Calm, focused, and professional.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

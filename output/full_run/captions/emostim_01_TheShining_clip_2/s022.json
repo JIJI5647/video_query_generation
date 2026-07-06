@@ -1,0 +1,59 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "pushing against a frosted glass window with both hands"
+      },
+      {
+        "person": "a small child",
+        "visibility": "partially visible",
+        "position": "lower right",
+        "action": "standing behind the woman and holding onto her robe"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bathroom with white tiled walls and a frosted glass window"
+    },
+    "objects": [
+      "frosted glass window",
+      "white tiled wall",
+      "white toilet"
+    ],
+    "interactions": [
+      "the woman is pushing on the window, and the child is standing behind her, holding onto her robe"
+    ],
+    "key_actions": [
+      "the woman pushing on the window",
+      "the child holding onto the woman"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "strained expression",
+        "mouth open"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "pushing with both hands"
+      ],
+      "gaze": "looking at the window"
+    }
+  ],
+  "audio_description": "A loud, sustained, high-pitched electronic tone sounds.",
+  "emotion_description": "The woman appears to be in a state of panic and desperation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

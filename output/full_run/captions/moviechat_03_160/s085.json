@@ -1,0 +1,62 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man in a black long-sleeved shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, featuring a metal security gate in the background"
+    },
+    "objects": [
+      "a metal security gate"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "standing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit jacket",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a black long-sleeved shirt",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A continuous, low-frequency, rumbling sound, like a large engine or machinery, is audible.",
+  "emotion_description": "The mood is tense and ominous.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

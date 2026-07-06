@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "exiting a black car and closing its door"
+      },
+      {
+        "person": "a woman in a brown jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and talking on a mobile phone"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "next to a black car, with tall grass and city lights in the background"
+    },
+    "objects": [
+      "a black car",
+      "a mobile phone",
+      "tall grass",
+      "a pink container"
+    ],
+    "interactions": [
+      "the man closes the car door after getting out"
+    ],
+    "key_actions": [
+      "the man getting out of the car and closing the door",
+      "the woman talking on her phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [],
+      "body_cues": [
+        "closes the car door"
+      ],
+      "gaze": "looking towards the front of the car"
+    },
+    {
+      "person": "a woman in a brown jacket",
+      "facial_cues": [],
+      "body_cues": [
+        "holding a phone to her ear",
+        "standing with one hand on her hip"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio features the sound of a car door closing followed by a sustained, low-pitched musical chord.",
+  "emotion_description": "The man appears neutral and focused on exiting the vehicle. The woman's posture and focus on her phone suggest she is concentrated on her conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

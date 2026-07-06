@@ -1,0 +1,1971 @@
+Selected 5 video(s) from data/pilot_study
+Models — caption: Qwen/Qwen3-Omni-30B-A3B-Instruct (transformers) | generation: gemini-2.5-flash-lite | verify/rewrite: Qwen/Qwen3-Omni-30B-A3B-Instruct (transformers)
+Segmentation — 5.0s window / 5.0s stride | 1 segment(s)/prompt | max_accepted 8
+
+Caption backend — qwen3_omni (Qwen/Qwen3-Omni-30B-A3B-Instruct) | engine=transformers | 1 seg/prompt | 2 prompt(s)/call | resume=True | overwrite=False
+  cache: output/test5/captions
+Verify/rewrite backend — qwen3_omni (Qwen/Qwen3-Omni-30B-A3B-Instruct) | engine=transformers (watches local clips, no upload)
+[1/5] emostim_01_TheShining_clip_2.mp4  (id: emostim_01_TheShining_clip_2)
+  → [1/5] segmenting + cutting clips...
+  57 segments ready (cache: data/processed_segments)
+  → [2/5] captioning 57 segment(s) (qwen3_omni, parallel=2)...
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s001] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s002] (segments/prompt=1)
+[model] loading Qwen/Qwen3-Omni-30B-A3B-Instruct (transformers)...
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Unrecognized keys in `rope_scaling` for 'rope_type'='default': {'mrope_interleaved', 'interleaved', 'mrope_section'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='default': {'interleaved', 'mrope_section'}
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:02<00:40,  2.88s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:05<00:35,  2.71s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:08<00:32,  2.69s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [00:10<00:30,  2.73s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [00:13<00:27,  2.80s/it]Loading checkpoint shards:  40%|████      | 6/15 [00:16<00:25,  2.82s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [00:19<00:22,  2.82s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [00:22<00:19,  2.82s/it]Loading checkpoint shards:  60%|██████    | 9/15 [00:25<00:16,  2.80s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [00:27<00:13,  2.79s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [00:30<00:11,  2.81s/it]Loading checkpoint shards:  80%|████████  | 12/15 [00:33<00:08,  2.82s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [00:37<00:06,  3.24s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [00:43<00:03,  4.00s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:44<00:00,  3.05s/it]Loading checkpoint shards: 100%|██████████| 15/15 [00:44<00:00,  2.96s/it]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[model] loaded in 92.7s (one-time; reused for all videos/segments)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+qwen-vl-utils using decord to read video.
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] salvaged (fed to generation, not cached): video_id=emostim_01_TheShining_clip_2 segment_id=s002 raw_saved=output/test5/captions_raw/emostim_01_TheShining_clip_2/s002.txt
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s003] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s004] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] salvaged (fed to generation, not cached): video_id=emostim_01_TheShining_clip_2 segment_id=s003 raw_saved=output/test5/captions_raw/emostim_01_TheShining_clip_2/s003.txt
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s005] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s006] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s007] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s008] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s009] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s010] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s011] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s012] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s013] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s014] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s015] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s016] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s017] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s018] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s019] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s020] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s021] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s022] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s023] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s024] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s025] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s026] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s027] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s028] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s029] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s030] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s031] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s032] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] salvaged (fed to generation, not cached): video_id=emostim_01_TheShining_clip_2 segment_id=s031 raw_saved=output/test5/captions_raw/emostim_01_TheShining_clip_2/s031.txt
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s033] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s034] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s035] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s036] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s037] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s038] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s039] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s040] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s041] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s042] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s043] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s044] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s045] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s046] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s047] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s048] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s049] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s050] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s051] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s052] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s053] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s054] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s055] (segments/prompt=1)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s056] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s057] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  captions: 57 observation caption(s)
+  → [3/5] inferring emotion events (Gemini)...
+  39 emotion event(s)
+  → [4/5] generating queries (Gemini)...
+  39 queries generated
+  → [5/5] verifying + rewriting 39 query(ies) (qwen3_omni)...
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  Done — 8 accepted, 31 discarded
+  [usage] 2028.5s, 70,825 tokens
+  [time]  captions 1377.6s, verify/rewrite 453.4s, emotion_events 165.2s, generation 29.8s, segment/clips 2.4s
+[2/5] emostim_04_28DaysLater_clip_6.mp4  (id: emostim_04_28DaysLater_clip_6)
+  → [1/5] segmenting + cutting clips...
+  11 segments ready (cache: data/processed_segments)
+  → [2/5] captioning 11 segment(s) (qwen3_omni, parallel=2)...
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s001] (segments/prompt=1)
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s002] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] salvaged (fed to generation, not cached): video_id=emostim_04_28DaysLater_clip_6 segment_id=s001 raw_saved=output/test5/captions_raw/emostim_04_28DaysLater_clip_6/s001.txt
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s003] (segments/prompt=1)
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s004] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s005] (segments/prompt=1)
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s006] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] salvaged (fed to generation, not cached): video_id=emostim_04_28DaysLater_clip_6 segment_id=s005 raw_saved=output/test5/captions_raw/emostim_04_28DaysLater_clip_6/s005.txt
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s007] (segments/prompt=1)
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s008] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s009] (segments/prompt=1)
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s010] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=emostim_04_28DaysLater_clip_6 segment_ids=[s011] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  captions: 11 observation caption(s)
+  → [3/5] inferring emotion events (Gemini)...
+  8 emotion event(s)
+  → [4/5] generating queries (Gemini)...
+  14 queries generated
+  → [5/5] verifying + rewriting 14 query(ies) (qwen3_omni)...
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  Done — 8 accepted, 6 discarded
+  [usage] 457.1s, 14,917 tokens
+  [time]  captions 190.3s, emotion_events 144.6s, verify/rewrite 111.6s, generation 10.4s, segment/clips 0.1s
+[3/5] meld_01_dia337.mp4  (id: meld_01_dia337)
+  → [1/5] segmenting + cutting clips...
+  14 segments ready (cache: data/processed_segments)
+  → [2/5] captioning 14 segment(s) (qwen3_omni, parallel=2)...
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s001] (segments/prompt=1)
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s002] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s003] (segments/prompt=1)
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s004] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s005] (segments/prompt=1)
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s006] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s007] (segments/prompt=1)
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s008] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s009] (segments/prompt=1)
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s010] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s011] (segments/prompt=1)
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s012] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s013] (segments/prompt=1)
+[caption] generate: video_id=meld_01_dia337 segment_ids=[s014] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  captions: 14 observation caption(s)
+  → [3/5] inferring emotion events (Gemini)...
+  3 emotion event(s)
+  → [4/5] generating queries (Gemini)...
+  6 queries generated
+  → [5/5] verifying + rewriting 6 query(ies) (qwen3_omni)...
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  Done — 6 accepted, 0 discarded
+  [usage] 429.4s, 16,531 tokens
+  [time]  captions 369.7s, verify/rewrite 49.0s, generation 6.2s, emotion_events 4.4s, segment/clips 0.1s
+[4/5] meld_02_dia224.mp4  (id: meld_02_dia224)
+  → [1/5] segmenting + cutting clips...
+  8 segments ready (cache: data/processed_segments)
+  → [2/5] captioning 8 segment(s) (qwen3_omni, parallel=2)...
+[caption] generate: video_id=meld_02_dia224 segment_ids=[s001] (segments/prompt=1)
+[caption] generate: video_id=meld_02_dia224 segment_ids=[s002] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=meld_02_dia224 segment_ids=[s003] (segments/prompt=1)
+[caption] generate: video_id=meld_02_dia224 segment_ids=[s004] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=meld_02_dia224 segment_ids=[s005] (segments/prompt=1)
+[caption] generate: video_id=meld_02_dia224 segment_ids=[s006] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=meld_02_dia224 segment_ids=[s007] (segments/prompt=1)
+[caption] generate: video_id=meld_02_dia224 segment_ids=[s008] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  captions: 8 observation caption(s)
+  → [3/5] inferring emotion events (Gemini)...
+  [attempt 1/5] API error for EmotionEventOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  4 emotion event(s)
+  → [4/5] generating queries (Gemini)...
+  [attempt 1/5] API error for GenerationOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/5] API error for GenerationOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  8 queries generated
+  → [5/5] verifying + rewriting 8 query(ies) (qwen3_omni)...
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  Done — 8 accepted, 0 discarded
+  [usage] 489.5s, 12,520 tokens
+  [time]  captions 226.5s, generation 162.9s, verify/rewrite 82.2s, emotion_events 17.8s, segment/clips 0.1s
+[5/5] moviechat_05_30.mp4  (id: moviechat_05_30)
+  → [1/5] segmenting + cutting clips...
+  96 segments ready (cache: data/processed_segments)
+  → [2/5] captioning 96 segment(s) (qwen3_omni, parallel=2)...
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s001] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s002] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s003] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s004] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s005] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s006] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s007] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s008] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s009] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s010] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s011] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s012] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s013] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s014] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s015] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s016] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s017] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s018] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s019] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s020] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s021] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s022] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s023] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s024] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s025] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s026] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s027] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s028] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s029] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s030] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s031] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s032] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s033] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s034] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s035] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s036] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s037] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s038] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s039] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s040] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s041] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s042] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s043] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s044] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s045] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s046] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s047] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s048] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s049] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s050] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] salvaged (fed to generation, not cached): video_id=moviechat_05_30 segment_id=s049 raw_saved=output/test5/captions_raw/moviechat_05_30/s049.txt
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s051] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s052] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s053] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s054] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s055] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s056] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s057] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s058] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s059] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s060] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s061] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s062] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s063] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s064] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s065] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s066] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s067] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s068] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s069] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s070] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s071] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s072] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s073] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s074] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s075] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s076] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s077] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s078] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s079] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s080] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] salvaged (fed to generation, not cached): video_id=moviechat_05_30 segment_id=s079 raw_saved=output/test5/captions_raw/moviechat_05_30/s079.txt
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s081] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s082] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s083] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s084] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s085] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s086] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s087] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s088] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s089] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s090] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s091] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s092] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s093] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s094] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s095] (segments/prompt=1)
+[caption] generate: video_id=moviechat_05_30 segment_ids=[s096] (segments/prompt=1)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+video_reader_backend decord error, use torchvision as default, msg: No module named 'decord'
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  captions: 96 observation caption(s)
+  → [3/5] inferring emotion events (Gemini)...
+  [attempt 1/5] API error for EmotionEventOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 2/5] API error for EmotionEventOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  [attempt 3/5] API error for EmotionEventOutput: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}. Retrying...
+  68 emotion event(s)
+  → [4/5] generating queries (Gemini)...
+  ERROR processing moviechat_05_30: 68 validation errors for GenerationOutput
+queries.0.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='happy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.2.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.4.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.6.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='surprised', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.8.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.10.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.12.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.14.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='sad', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.16.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.18.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.20.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.22.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.24.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.26.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='happy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.28.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.30.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='happy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.32.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.34.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.36.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='happy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.38.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.40.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='surprised', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.42.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='frustrated', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.44.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.46.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.48.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.50.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.52.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.54.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='angry', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.56.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.58.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.60.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.62.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.64.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.66.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.68.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.70.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.72.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='happy', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.74.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.76.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.78.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.80.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.82.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='surprised', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.84.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='surprised', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.86.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.88.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.90.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.92.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.94.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.96.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.98.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.100.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='surprised', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.102.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='surprised', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.104.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='surprised', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.106.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.108.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.110.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.112.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='sad', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.113.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.115.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.117.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.119.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.121.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.123.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.125.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.127.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='surprised', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.129.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.131.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='frustrated', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error
+queries.133.query_type
+  Input should be 'explicit_event', 'emotion_state' or 'evidence_cue' [type=literal_error, input_value='fear', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.13/v/literal_error — skipping.
+  [usage] 2392.5s, 123,606 tokens
+  [time]  captions 2072.8s, emotion_events 240.8s, generation 78.7s, segment/clips 0.2s
+  [emostim_01_TheShining_clip_2] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing
+  [emostim_01_TheShining_clip_2] WARNING: 4 accepted queries start with 'at what' — repetitive phrasing
+  [meld_02_dia224] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing
+  [meld_02_dia224] WARNING: queries 'meld_02_dia224_q01' and 'meld_02_dia224_q02' are semantically similar (word overlap 76%)
+  [meld_02_dia224] WARNING: queries 'meld_02_dia224_q02' and 'meld_02_dia224_q04' are semantically similar (word overlap 75%)
+
+Exporting to: output/test5
+
+--- v2 Pipeline Summary ---
+  Videos processed     : 4
+  Segments / captions  : 90 segs, 90 observation captions
+  Emotion events       : 54
+  Initial queries      : 67
+  Accepted queries     : 30
+  Discarded queries    : 37
+  Pass rate (round 1)  : 84%
+  Pass rate (final)    : 45%
+  Wall time            : 96.6 min (851s/video)
+  Tokens               : 238,399 in 10 LLM calls
+    - emotion_event:     99,011 tokens / 5 calls
+    - generation  :    139,388 tokens / 5 calls
+  Time by stage        : (sum 96.6 min; model load reported separately above)
+    - captions      :   4236.9s  (73%)
+    - verify/rewrite:    696.2s  (12%)
+    - emotion_events:    572.8s  (10%)
+    - generation    :    287.9s  (5%)
+    - segment/clips :      3.0s  (0%)
+
+Done.

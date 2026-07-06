@@ -1,0 +1,69 @@
+PROMPT VERSION: verification_prompt_v13_three_dims
+
+TASK:
+Watch the provided video clip(s) — when several are given they are consecutive
+segments of one moment; treat them as one continuous span. Then judge each query
+below on THREE independent dimensions. You only output the three true/false
+judgements (plus a short reason and, if needed, a reworded query) — the final
+accept/revise/reject decision is made by code from your three answers.
+
+You are given ONLY each query's id and its query_text. Judge it purely from the
+clip(s) and the text.
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+THE THREE DIMENSIONS (answer true/false for each):
+
+1. relevance_pass — Is the query's emotional claim ONE OF THESE EIGHT (or an
+   obvious synonym): angry, excited, fear, sad, surprised, frustrated, happy,
+   disappointed? Synonyms that map cleanly are fine (afraid/terrified/panicked/
+   alarmed -> fear; amused/joyful/delighted -> happy; furious -> angry).
+   Mark relevance_pass = FALSE if the query is built on a state that is NOT one of
+   the eight — e.g. curious, interested, pensive, thoughtful, focused, confused,
+   concerned, worried, pleased, content, playful, bored, sinister, incredulous,
+   suspicious, calm, neutral. Do not stretch these into the eight.
+
+2. answerability_pass — Is what the query describes actually present and locatable
+   in the clip? true only if the moment/behaviour is visible or audible, the
+   emotion claimed MATCHES what you actually see/hear, and an annotator could find
+   it. Mark FALSE if it is absent, mismatched (the clip shows a different emotion,
+   or none), hallucinated, too unclear to locate, OR asks about an internal
+   cognitive/mental state that has no observable cue (curious, pensive, focused,
+   thinking, intends/knows/remembers/wants), OR needs outside knowledge.
+   (Perceived emotions among the eight ARE answerable when the cues are genuinely
+   there — widened eyes for surprise/fear, smiling/laughing for happy, etc.)
+
+3. query_quality_pass — Is the WORDING good? true only if query_text is in English,
+   uses visual descriptions (no proper names), has no timestamps, and is one clear,
+   specific question. false if the wording has an issue.
+
+BE STRICT on answerability: if you are not confident the moment is really in the
+clip, answer false. Do not pass a query just because it reads well.
+
+SUGGESTED REVISION:
+- If relevance_pass and answerability_pass are both true but query_quality_pass is
+  false, put a concrete improved query (same grounding, fixed wording) in
+  suggested_revision.
+- Otherwise leave suggested_revision an empty string (a wording fix cannot rescue
+  an irrelevant or unsupported query).
+
+QUERIES TO VERIFY:
+{queries_json}
+
+OUTPUT:
+Return valid JSON only — no markdown, no commentary outside the JSON object:
+{
+"video_id": "{video_id}",
+"round_index": {round_index},
+"results": [
+{
+"query_id": "<the query's id>",
+"relevance_pass": <true | false>,
+"answerability_pass": <true | false>,
+"query_quality_pass": <true | false>,
+"failure_reason": "<empty if all true; one short phrase otherwise>",
+"suggested_revision": "<empty unless this is a wording-only fix; then the improved query>"
+}
+]
+}

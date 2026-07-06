@@ -1,0 +1,47 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and white shirt",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "adjusting a dark garment"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a close-up on a man adjusting a garment"
+    },
+    "objects": [
+      "a dark garment",
+      "a white stripe on the garment"
+    ],
+    "interactions": [
+      "the man's hands are touching and adjusting the dark garment"
+    ],
+    "key_actions": [
+      "adjusting a garment"
+    ],
+    "visibility_notes": "The focus is on the man's hands and the garment; his face is not visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and white shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "his hands are moving over the garment"
+      ],
+      "gaze": "not visible"
+    }
+  ],
+  "audio_description": "A continuous, high-pitched electronic tone is audible.",
+  "emotion_description": "The man's action of adjusting his garment suggests a moment of preparation or nervousness, while the electronic tone in the background creates a sense of tension or anticipation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

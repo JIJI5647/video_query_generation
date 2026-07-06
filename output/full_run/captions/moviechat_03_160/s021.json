@@ -1,0 +1,45 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a white shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting in a car"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime, city street with traffic"
+    },
+    "objects": [
+      {
+        "object": "black car",
+        "description": "a black car with headlights on, driving on the street. A license plate 'HN 397' is visible."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a black car is driving on a street at night."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a white shirt",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "The audio contains a male voice speaking in a normal tone, accompanied by the sounds of a moving car.",
+  "emotion_description": "The person in the car appears neutral.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

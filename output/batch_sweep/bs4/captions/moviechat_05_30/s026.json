@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "partially visible",
+        "position": "center",
+        "action": "running and falling through the air."
+      },
+      {
+        "person": "a woman in a grey cardigan",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing in the middle of a dark, wooden corridor."
+      },
+      {
+        "person": "a group of young people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the woman in a grey cardigan."
+      }
+    ],
+    "scene": {
+      "location": "indoor corridor",
+      "setting": "dark, narrow, wooden corridor, possibly inside a large building."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "falling",
+      "running",
+      "standing"
+    ],
+    "visibility_notes": "The scene cuts between the man falling and the group standing still."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "fearful expression"
+      ],
+      "body_cues": [
+        "falling"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A loud, rushing sound of falling debris and a man shouting in panic.",
+  "emotion_description": "Fear and panic",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

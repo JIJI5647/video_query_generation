@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being hugged by an adult"
+      },
+      {
+        "person": "an adult",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "hugging the boy"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit"
+    },
+    "objects": [],
+    "interactions": [
+      "the adult is hugging the boy"
+    ],
+    "key_actions": [
+      "hugging"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "crying",
+        "tears on face",
+        "red-rimmed eyes"
+      ],
+      "body_cues": [
+        "being held by an adult"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio contains a child crying and sobbing.",
+  "emotion_description": "sadness",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "looking forward and speaking"
+      },
+      {
+        "person": "a man with a bandaged hand",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "holding his bandaged hand to his mouth and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dark, likely at night"
+    },
+    "objects": [
+      "a white bandage on a man's hand"
+    ],
+    "interactions": [
+      "The two men are sitting next to each other in a car."
+    ],
+    "key_actions": [
+      "A man is speaking.",
+      "Another man holds his bandaged hand to his mouth."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "looking forward",
+        "mouth moving as if speaking"
+      ],
+      "body_cues": [
+        "sitting in a car seat"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with a bandaged hand",
+      "facial_cues": [
+        "looking forward",
+        "hand covering his mouth"
+      ],
+      "body_cues": [
+        "holding his hand to his mouth"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, conversational tone.",
+  "emotion_description": "The man speaking appears to be in a state of calm, possibly reflective or weary.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

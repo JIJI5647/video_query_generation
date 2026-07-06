@@ -1,0 +1,49 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and red tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "opening a door and stepping into a dark room"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a single light fixture on the wall"
+    },
+    "objects": [
+      "a door",
+      "a light fixture"
+    ],
+    "interactions": [
+      "the man opens the door"
+    ],
+    "key_actions": [
+      "entering the room"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and red tie",
+      "facial_cues": [
+        "a smile"
+      ],
+      "body_cues": [
+        "stepping forward"
+      ],
+      "gaze": "looking towards the camera"
+    }
+  ],
+  "audio_description": "Upbeat, distorted rock music with a male vocalist plays in the background.",
+  "emotion_description": "The man appears to be happy or amused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

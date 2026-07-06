@@ -1,0 +1,58 @@
+PROMPT VERSION: verification_prompt_p3_fewshot_v2
+
+TASK:
+Watch the provided video clip(s). If several clips are given, treat them as one
+continuous moment. For each query, judge three independent dimensions.
+
+Use only the video clip(s) and the query text.
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+{{include: verification_rules.txt}}
+
+EXAMPLES (illustrative judgement patterns — NOT about the current clip; assume the
+clip shows what each example states):
+
+Example A — off-target state:
+  query: "When does the boy look curious while examining the knife?"
+  -> relevance_pass=false (curious is not one of the eight),
+     answerability_pass=true, query_quality_pass=true,
+     failure_reason="curious is not a target emotion".
+
+Example B — emotion mismatch / hallucination:
+  query: "At what point does the woman appear happy while running away?"
+  Clip shows the woman running with a fearful, wide-eyed face (not happy).
+  -> relevance_pass=true, answerability_pass=false (clip shows fear, not happy),
+     query_quality_pass=true,
+     failure_reason="claimed happy contradicts the clip".
+
+Example C — wording-only fix:
+  query: "When is Jack scared at [12s]?" (clip clearly shows a man flinching).
+  -> relevance_pass=true, answerability_pass=true, query_quality_pass=false,
+     failure_reason="proper name + timestamp",
+     suggested_revision="When does the man flinch with a frightened expression?".
+
+Example D — clean pass:
+  query: "When does the man in the dark jacket shout angrily with clenched fists?"
+  -> relevance_pass=true, answerability_pass=true, query_quality_pass=true.
+
+QUERIES TO VERIFY:
+{queries_json}
+
+OUTPUT:
+Return valid JSON only:
+{
+  "video_id": "{video_id}",
+  "round_index": {round_index},
+  "results": [
+    {
+      "query_id": "<query id>",
+      "relevance_pass": <true | false>,
+      "answerability_pass": <true | false>,
+      "query_quality_pass": <true | false>,
+      "failure_reason": "<empty if all true; one short phrase otherwise>",
+      "suggested_revision": "<empty unless wording-only fix>"
+    }
+  ]
+}

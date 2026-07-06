@@ -1,0 +1,51 @@
+Verify backend — qwen3_omni (Qwen/Qwen3-Omni-30B-A3B-Thinking, max_new_tokens=8192)
+Verifying 1 video(s) from data/test5_eval_p1_missing
+
+[1/1] moviechat_05_30  (38 queries)
+[model] loading Qwen/Qwen3-Omni-30B-A3B-Thinking (transformers)...
+Unrecognized keys in `rope_scaling` for 'rope_type'='default': {'interleaved', 'mrope_interleaved', 'mrope_section'}
+Loading checkpoint shards:   0%|          | 0/16 [00:00<?, ?it/s]Loading checkpoint shards:   6%|▋         | 1/16 [00:05<01:18,  5.22s/it]Loading checkpoint shards:  12%|█▎        | 2/16 [00:10<01:12,  5.19s/it]Loading checkpoint shards:  19%|█▉        | 3/16 [00:15<01:07,  5.21s/it]Loading checkpoint shards:  25%|██▌       | 4/16 [00:20<01:01,  5.15s/it]Loading checkpoint shards:  31%|███▏      | 5/16 [00:25<00:56,  5.11s/it]Loading checkpoint shards:  38%|███▊      | 6/16 [00:30<00:51,  5.11s/it]Loading checkpoint shards:  44%|████▍     | 7/16 [00:35<00:45,  5.11s/it]Loading checkpoint shards:  50%|█████     | 8/16 [00:41<00:40,  5.10s/it]Loading checkpoint shards:  56%|█████▋    | 9/16 [00:46<00:35,  5.10s/it]Loading checkpoint shards:  62%|██████▎   | 10/16 [00:51<00:30,  5.10s/it]Loading checkpoint shards:  69%|██████▉   | 11/16 [00:56<00:25,  5.18s/it]Loading checkpoint shards:  75%|███████▌  | 12/16 [01:01<00:20,  5.20s/it]Loading checkpoint shards:  81%|████████▏ | 13/16 [01:06<00:15,  5.14s/it]Loading checkpoint shards:  88%|████████▊ | 14/16 [01:11<00:10,  5.12s/it]Loading checkpoint shards:  94%|█████████▍| 15/16 [01:17<00:05,  5.12s/it]Loading checkpoint shards: 100%|██████████| 16/16 [01:21<00:00,  5.00s/it]Loading checkpoint shards: 100%|██████████| 16/16 [01:21<00:00,  5.11s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p', 'top_k']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+[model] loaded in 129.1s (one-time; reused for all videos/segments)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  [attempt 1/2] Qwen JSON parse error for VerificationBatchOutput: json_parse_error: no JSON object found in output. Retrying...
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+  [attempt 2/2] Qwen JSON parse error for VerificationBatchOutput: json_parse_error: no JSON object found in output. Retrying...
+  ERROR verifying moviechat_05_30: Qwen3-Omni call failed after 2 attempts (schema=VerificationBatchOutput): json_parse_error: no JSON object found in output — skipping.
+
+--- Verification Summary (3499s) ---
+  Total queries verified : 0
+  pass    :    0  (0%)
+  revise  :    0  (0%)
+  fail    :    0  (0%)
+
+Wrote output/verify_p1_rule_supplement/verification_results.jsonl

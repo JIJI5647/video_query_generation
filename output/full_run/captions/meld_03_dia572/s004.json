@@ -1,0 +1,47 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue and grey plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and gesturing with his hands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with beds and curtains"
+    },
+    "objects": [
+      "hospital beds",
+      "curtains"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man is gesturing with his hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue and grey plaid shirt",
+      "facial_cues": [
+        "his mouth is open as if speaking"
+      ],
+      "body_cues": [
+        "gesturing with his hands"
+      ],
+      "gaze": "looking towards the right"
+    }
+  ],
+  "audio_description": "A male voice is heard speaking, followed by a loud, sustained buzzer sound.",
+  "emotion_description": "The man appears to be speaking emphatically. The buzzer sound indicates a negative outcome.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

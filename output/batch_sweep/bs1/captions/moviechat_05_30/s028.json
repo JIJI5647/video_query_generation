@@ -1,0 +1,53 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long brown hair wearing a grey cardigan and jeans",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking forward"
+      },
+      {
+        "person": "a group of five young people in school uniforms",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a long, narrow, dimly lit wooden bridge with arched openings on the sides"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The woman walks forward towards the camera",
+      "The group of students stands behind her"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman with long brown hair",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "walking steadily",
+        "hands at her sides"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful musical score with a prominent brass instrument plays.",
+  "emotion_description": "serious",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

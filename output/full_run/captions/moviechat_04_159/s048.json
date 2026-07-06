@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored, collared shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking on a mobile phone, holding it to his right ear"
+      },
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and facing the first man, appearing to listen to him"
+      }
+    ],
+    "scene": {
+      "location": "an outdoor balcony at night",
+      "setting": "in front of a building with lit windows"
+    },
+    "objects": [
+      "a mobile phone",
+      "a black metal railing"
+    ],
+    "interactions": [
+      "The man in the suit is standing next to the man on the phone, seemingly engaged in a conversation with him."
+    ],
+    "key_actions": [
+      "The man on the phone is speaking into the device."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored, collared shirt",
+      "facial_cues": [
+        "Looking towards the man in the suit"
+      ],
+      "body_cues": [
+        "Holding the phone to his ear with his left hand, his right hand is on his hip"
+      ],
+      "gaze": "Looking at the man in the suit"
+    },
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "Looking towards the man on the phone"
+      ],
+      "body_cues": [
+        "Standing with his hands at his sides"
+      ],
+      "gaze": "Looking at the man on the phone"
+    }
+  ],
+  "audio_description": "The audio contains a conversation between two male speakers in a language other than English.",
+  "emotion_description": "The tone of the conversation sounds serious and somewhat tense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

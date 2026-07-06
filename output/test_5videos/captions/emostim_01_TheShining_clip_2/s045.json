@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket and plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "shouting and making a strained facial expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hallway with beige walls and a framed picture in the background"
+    },
+    "objects": [
+      {
+        "object": "framed picture",
+        "position": "background",
+        "visibility": "partially visible"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "shouting",
+      "making a strained facial expression"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red jacket and plaid shirt",
+      "facial_cues": [
+        "eyes rolled back",
+        "mouth open",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "strained posture"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "a man is shouting intensely.",
+  "emotion_description": "intense",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

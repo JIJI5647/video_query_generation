@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy wearing a red sweater and a plaid shirt collar",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in front of a door, holding a knife and attempting to open it with a key"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom at night, with a bed and a lamp visible in the background."
+    },
+    "objects": [
+      "knife",
+      "key",
+      "door",
+      "lamp",
+      "bed"
+    ],
+    "interactions": [
+      "the boy uses the key to try to open the door"
+    ],
+    "key_actions": [
+      "the boy attempts to open the door with a key"
+    ],
+    "visibility_notes": "The boy's face is partially obscured by his hair and the angle of the shot."
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy wearing a red sweater and a plaid shirt collar",
+      "facial_cues": [
+        "unclear expression"
+      ],
+      "body_cues": [
+        "holding a knife in one hand and a key in the other"
+      ],
+      "gaze": "looking at the door handle"
+    }
+  ],
+  "audio_description": "A high-pitched, repetitive electronic sound, similar to a malfunctioning alarm or a distorted musical note, plays in the background.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

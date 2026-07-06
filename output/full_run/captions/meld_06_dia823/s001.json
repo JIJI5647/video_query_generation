@@ -1,0 +1,72 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde hair wearing a patterned shirt and black pants",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "entering a room, smiling, and walking towards the center"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing near a couch"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting on a couch"
+      },
+      {
+        "person": "a man in a red shirt with a white bib",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing near a refrigerator"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered living room with a blue bookshelf, a couch, and a table"
+    },
+    "objects": [
+      "a blue bookshelf filled with various items",
+      "a couch",
+      "a table with a vase of flowers",
+      "a refrigerator",
+      "a purple jacket"
+    ],
+    "interactions": [
+      "the woman in the patterned shirt walks through the room"
+    ],
+    "key_actions": [
+      "the woman walks into the room and smiles"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde hair wearing a patterned shirt and black pants",
+      "facial_cues": [
+        "smiling",
+        "laughing"
+      ],
+      "body_cues": [
+        "walking",
+        "carrying a purple jacket"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A group of people are talking in a casual, conversational tone.",
+  "emotion_description": "The woman appears happy and amused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

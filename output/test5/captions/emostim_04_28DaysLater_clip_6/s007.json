@@ -1,0 +1,42 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person wearing a dark hooded jacket",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a dark wooden door in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": "The person's face is partially obscured by the hood, and the lighting is very low, making details difficult to discern."
+  },
+  "visual_expression": [
+    {
+      "person": "a person wearing a dark hooded jacket",
+      "facial_cues": [
+        "visible eyes and mouth"
+      ],
+      "body_cues": [
+        "hooded jacket"
+      ],
+      "gaze": "looking towards the camera"
+    }
+  ],
+  "audio_description": "Heavy breathing is audible, suggesting exertion or distress.",
+  "temporal_description": "The breathing sound is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

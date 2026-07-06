@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking on a mobile phone"
+      },
+      {
+        "person": "a man with grey hair in a black shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "talking on a mobile phone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a brightly lit room with horizontal blinds in the background, and a dark room with a golden statue and chandelier in the foreground"
+    },
+    "objects": [
+      "mobile phone",
+      "office chair",
+      "horizontal blinds",
+      "golden statue",
+      "chandelier"
+    ],
+    "interactions": [
+      "The man in the light blue shirt and the man in the black shirt are both on their mobile phones, seemingly in a conversation with each other"
+    ],
+    "key_actions": [
+      "talking on a mobile phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man with grey hair in a black shirt",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm but concerned tone.",
+  "emotion_description": "The man on the phone sounds worried and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

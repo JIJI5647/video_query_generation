@@ -1,0 +1,58 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue polo shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch, laughing, and gesturing with his right hand"
+      },
+      {
+        "person": "a person in a red shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "sitting next to the man in the blue shirt"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a coffee shop, with a brown couch and tables in the background"
+    },
+    "objects": [
+      "a brown couch",
+      "a green pillar",
+      "a white mug on a table"
+    ],
+    "interactions": [
+      "The man in the blue shirt interacts with the person in the red shirt"
+    ],
+    "key_actions": [
+      "Laughing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue polo shirt",
+      "facial_cues": [
+        "wide smile",
+        "eyes crinkled",
+        "laughing"
+      ],
+      "body_cues": [
+        "gesturing with right hand"
+      ],
+      "gaze": "looking down and to his left"
+    }
+  ],
+  "audio_description": "A man is laughing and speaking in a high-pitched, playful tone.",
+  "emotion_description": "The man in the blue shirt is clearly amused and happy.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

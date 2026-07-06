@@ -1,0 +1,45 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running forward"
+      }
+    ],
+    "scene": {
+      "location": "an indoor room",
+      "setting": "a crowded, dimly lit room with many people moving around"
+    },
+    "objects": [],
+    "interactions": [
+      "the man in the brown jacket runs through the crowd"
+    ],
+    "key_actions": [
+      "running"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown jacket",
+      "facial_cues": [],
+      "body_cues": [
+        "running",
+        "moving forward"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, deep, and resonant horn or foghorn sound is heard, creating a sense of urgency and scale.",
+  "emotion_description": "The sound and the man's action suggest a feeling of urgency and possibly panic.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

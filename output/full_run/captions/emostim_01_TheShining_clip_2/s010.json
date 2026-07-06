@@ -1,0 +1,70 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy wearing a red sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "writing the letters 'RECA' in red on a white door with a red marker"
+      },
+      {
+        "person": "a woman in a blue shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sleeping in a bed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom at night, with a bed, a lamp, and a door"
+    },
+    "objects": [
+      "a red marker",
+      "a white door",
+      "a bed with a patterned blanket",
+      "a lamp with a beige shade",
+      "a nightstand"
+    ],
+    "interactions": [
+      "the boy writes on the door"
+    ],
+    "key_actions": [
+      "writing on a door",
+      "sleeping"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy wearing a red sweater",
+      "facial_cues": [],
+      "body_cues": [
+        "concentrating",
+        "standing",
+        "holding a marker"
+      ],
+      "gaze": "looking down at the door"
+    },
+    {
+      "person": "a woman in a blue shirt",
+      "facial_cues": [
+        "eyes closed"
+      ],
+      "body_cues": [
+        "lying down",
+        "still"
+      ],
+      "gaze": "not applicable"
+    }
+  ],
+  "audio_description": "A low, steady hum is audible in the background.",
+  "emotion_description": "The boy appears to be focused and concentrated on his task. The sleeping woman is at rest.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

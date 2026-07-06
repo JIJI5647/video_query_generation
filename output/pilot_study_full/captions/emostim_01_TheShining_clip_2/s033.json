@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long hair, wearing a red jacket over a plaid shirt and jeans",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking down a hallway while carrying a hatchet"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "dimly lit hallway with peeling wallpaper and a door on the left side"
+    },
+    "objects": [
+      {
+        "object": "hatchet",
+        "position": "right hand of the man",
+        "action": "being carried"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "walking",
+      "carrying hatchet"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long hair, wearing a red jacket over a plaid shirt and jeans",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "walking"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A rhythmic, mechanical whirring sound is heard.",
+  "emotion_description": "The man appears to be in a cheerful or amused mood, as indicated by his smile.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

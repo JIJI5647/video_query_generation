@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, wavy hair",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "sitting and talking"
+      },
+      {
+        "person": "a man with dark hair and a beard",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded restaurant with other people at tables in the background"
+    },
+    "objects": [
+      "a white collared shirt",
+      "a dark cardigan sweater",
+      "a patterned sweater"
+    ],
+    "interactions": [
+      "The woman and the man are having a conversation while sitting at a table."
+    ],
+    "key_actions": [
+      "The woman is talking and gesturing with her hands.",
+      "The man is looking at the woman and listening."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde, wavy hair",
+      "facial_cues": [
+        "mouth open as she speaks",
+        "eyebrows slightly raised"
+      ],
+      "body_cues": [
+        "gesturing with her hands"
+      ],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "a man with dark hair and a beard",
+      "facial_cues": [
+        "eyebrows slightly raised",
+        "mouth slightly open"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A woman is speaking in a conversational tone, followed by a low, sustained musical chord.",
+  "emotion_description": "The woman appears to be in the middle of a serious or argumentative conversation, while the man seems to be listening intently.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with blonde hair wearing a black robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "pointing a wand forward with his right hand, then lowering it and speaking"
+      },
+      {
+        "person": "a man with dark hair and glasses wearing a brown jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing still, looking forward with a neutral expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dimly lit room filled with old furniture, mirrors, and various objects."
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "held by the blonde-haired man, pointed forward"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The blonde-haired man points a wand forward, then lowers it and speaks.",
+      "The man with glasses stands still, looking forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with blonde hair wearing a black robe",
+      "facial_cues": [
+        "serious expression",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "points a wand forward with his right hand",
+        "lowers the wand"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with dark hair and glasses wearing a brown jacket",
+      "facial_cues": [
+        "neutral expression",
+        "calm"
+      ],
+      "body_cues": [
+        "standing still",
+        "arms at sides"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, clear tone.",
+  "temporal_description": "The blonde-haired man points a wand forward, then lowers it and speaks. The other man remains still throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

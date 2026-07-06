@@ -1,0 +1,71 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a grey cardigan",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking forward."
+      },
+      {
+        "person": "a group of young people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and watching."
+      },
+      {
+        "person": "a man in a dark sweater",
+        "visibility": "partially visible",
+        "position": "lower left",
+        "action": "lying on the ground with his head and arm protruding from a hole in the floor."
+      }
+    ],
+    "scene": {
+      "location": "indoor corridor",
+      "setting": "dark, narrow, wooden corridor, possibly inside a large building."
+    },
+    "objects": [
+      {
+        "object": "wooden floor",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "has a large hole in it."
+      },
+      {
+        "object": "wand",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on the wooden floor."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "walking",
+      "lying",
+      "watching"
+    ],
+    "visibility_notes": "The camera is positioned low to the ground, looking up the length of the corridor."
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a grey cardigan",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "walking forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, echoing horn sound.",
+  "emotion_description": "Seriousness",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

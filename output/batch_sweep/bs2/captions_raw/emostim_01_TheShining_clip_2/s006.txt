@@ -1,0 +1,4 @@
+# parse failure: reason=salvaged_for_generation
+# segment_id=s006
+
+[{"segment_id": "s005", "time_range": [20.0, 25.0], "visual_objective": {"people": [{"person": "a young boy", "visibility": "clearly visible", "position": "center", "action": "standing and holding a knife"}], "scene": {"location": "indoor room", "setting": "a dimly lit bedroom with a lamp, a bed, and a bookshelf"}, "objects": ["knife", "lamp", "bed", "bookshelf"], "interactions": [], "key_actions": ["holding a knife", "standing"], "visibility_notes": ""}, "visual_expression": [{"person": "a young boy", "facial_cues": ["not visible"], "body_cues": ["standing still"], "gaze": "toward the door"}], "audio_description": "a high-pitched, eerie musical tone is playing", "emotion_description": "fearful", "confidence": "high", "evidence_strength": "clear"}]

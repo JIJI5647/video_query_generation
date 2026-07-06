@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long hair and a mustache wearing a red jacket over a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking down a hallway while smiling and holding an axe"
+      }
+    ],
+    "scene": {
+      "location": "inside a house",
+      "setting": "a narrow hallway with patterned wallpaper and a mirror on the wall"
+    },
+    "objects": [
+      {
+        "object": "axe",
+        "description": "held in the man's right hand"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "walking down the hallway",
+      "smiling",
+      "holding an axe"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long hair and a mustache wearing a red jacket over a plaid shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "walking",
+        "holding an axe"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud, high-pitched screeching sound is heard.",
+  "emotion_description": "menacing",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

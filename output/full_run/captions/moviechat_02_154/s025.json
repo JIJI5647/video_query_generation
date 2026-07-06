@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark, spiky hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and to his right"
+      },
+      {
+        "person": "a man with dark, medium-length hair",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "looking towards the left"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with greenish lighting, a window with closed horizontal blinds in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man in the foreground looks down and to his right",
+      "the man on the right looks towards the left"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark, spiky hair",
+      "facial_cues": [
+        "looking down",
+        "slight frown"
+      ],
+      "body_cues": [],
+      "gaze": "down and to his right"
+    },
+    {
+      "person": "a man with dark, medium-length hair",
+      "facial_cues": [
+        "looking forward",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "to his left"
+    }
+  ],
+  "audio_description": "The audio consists of a continuous, low-frequency mechanical hum, possibly from an engine or machinery.",
+  "emotion_description": "The man with dark, spiky hair appears pensive or troubled. The man with medium-length hair appears serious and attentive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,104 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit walking",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking"
+      },
+      {
+        "person": "a man in a dark suit walking",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking"
+      },
+      {
+        "person": "a man in a dark suit walking",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking"
+      },
+      {
+        "person": "a man in a dark suit standing",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing"
+      },
+      {
+        "person": "a man in a dark suit standing",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a city street at night, wet from rain, with streetlights and tall buildings in the background."
+    },
+    "objects": [
+      {
+        "object": "a black car",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "parked"
+      }
+    ],
+    "interactions": [
+      "The three men in the foreground walk towards the parked car."
+    ],
+    "key_actions": [
+      "Walking",
+      "Standing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit walking",
+      "facial_cues": [],
+      "body_cues": [
+        "Walking in a purposeful manner"
+      ],
+      "gaze": "Looking forward"
+    },
+    {
+      "person": "a man in a dark suit walking",
+      "facial_cues": [],
+      "body_cues": [
+        "Walking in a purposeful manner"
+      ],
+      "gaze": "Looking forward"
+    },
+    {
+      "person": "a man in a dark suit walking",
+      "facial_cues": [],
+      "body_cues": [
+        "Walking in a purposeful manner"
+      ],
+      "gaze": "Looking forward"
+    },
+    {
+      "person": "a man in a dark suit standing",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "Looking forward"
+    },
+    {
+      "person": "a man in a dark suit standing",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "Looking forward"
+    }
+  ],
+  "audio_description": "The sound of footsteps on a hard surface is heard, followed by a car door closing and an engine starting.",
+  "emotion_description": "Unclear",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

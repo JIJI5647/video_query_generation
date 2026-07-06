@@ -1,0 +1,70 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with one hand on his hip, looking towards the left"
+      },
+      {
+        "person": "a man in a police uniform",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting and looking down"
+      },
+      {
+        "person": "a person in a white shirt",
+        "visibility": "partially visible",
+        "position": "left foreground",
+        "action": "sitting and looking at a monitor"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with a glass wall and a monitor displaying a grainy video feed"
+    },
+    "objects": [
+      "monitor",
+      "lanyard",
+      "chair"
+    ],
+    "interactions": [
+      "The man in the white shirt observes the man in the police uniform."
+    ],
+    "key_actions": [
+      "The man in the white shirt stands with his hand on his hip."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and dark tie",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing with one hand on his hip"
+      ],
+      "gaze": "looking towards the left"
+    },
+    {
+      "person": "a man in a police uniform",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A man speaks in a calm, informative tone in a language other than English.",
+  "emotion_description": "The man in the white shirt appears serious and observant. The man in the police uniform appears focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

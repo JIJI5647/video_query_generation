@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with messy hair and a beard, wearing a red jacket over a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pressing his hand against a door frame while looking off-camera with a wide, unsettling smile"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with pale yellow walls and a framed picture hanging on the wall in the background"
+    },
+    "objects": [
+      "a door frame",
+      "a framed picture"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "pressing against a door frame",
+      "looking off-camera",
+      "smiling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with messy hair and a beard, wearing a red jacket over a plaid shirt",
+      "facial_cues": [
+        "wide, open-mouthed smile",
+        "wide eyes",
+        "raised eyebrows"
+      ],
+      "body_cues": [
+        "pressing hand against door frame"
+      ],
+      "gaze": "looking off-camera to the right"
+    }
+  ],
+  "audio_description": "A low, ominous, and sustained musical note plays in the background.",
+  "emotion_description": "The man's expression is menacing and deranged, suggesting a psychotic or unhinged state.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

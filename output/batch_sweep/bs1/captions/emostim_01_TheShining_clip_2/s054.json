@@ -1,0 +1,69 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with messy hair and a beard, wearing a dark shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "pokes his head through a torn wall, then steps back into a room"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a bed, a lamp, and a white door in the background, with a wall torn open on the right side."
+    },
+    "objects": [
+      {
+        "object": "a torn wall",
+        "position": "right",
+        "action": "is torn, revealing the room behind it."
+      },
+      {
+        "object": "a lamp",
+        "position": "right",
+        "action": "is on a nightstand next to the bed."
+      },
+      {
+        "object": "a bed",
+        "position": "left",
+        "action": "is in the room with a person lying on it."
+      },
+      {
+        "object": "a door",
+        "position": "left",
+        "action": "is closed."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man looks through the torn wall",
+      "the man steps back into the room"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man with messy hair and a beard, wearing a dark shirt",
+      "facial_cues": [
+        "shouting",
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "moving backward"
+      ],
+      "gaze": "towards the camera/observer"
+    }
+  ],
+  "audio_description": "A loud crash is followed by a man shouting in distress.",
+  "emotion_description": "Distressed, panicked",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

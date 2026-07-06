@@ -1,0 +1,49 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket and jeans",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking towards a door, then turning around"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with a bed, a nightstand with a lamp, and a bookshelf."
+    },
+    "objects": [
+      "bed",
+      "nightstand",
+      "lamp",
+      "bookshelf",
+      "door"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "walking",
+      "turning around"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red jacket and jeans",
+      "facial_cues": [],
+      "body_cues": [
+        "turning around"
+      ],
+      "gaze": "looking at the door"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a strained and forceful manner.",
+  "emotion_description": "Aggressive",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s067",
+  "time_range": [
+    330.0,
+    335.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking down"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right background",
+        "action": "sitting and working at a computer"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "left background",
+        "action": "sitting and working at a computer"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or operations center with computer monitors and blinds on the window"
+    },
+    "objects": [
+      "computer monitors",
+      "headphones",
+      "microphones",
+      "tripods",
+      "blinds"
+    ],
+    "interactions": [
+      "people are working at their stations"
+    ],
+    "key_actions": [
+      "the man in the suit standing and looking down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "looking down",
+        "eyes closed"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A low, suspenseful musical score plays in the background.",
+  "emotion_description": "The man in the suit appears serious and contemplative.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

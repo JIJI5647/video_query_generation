@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing next to a car and putting a small object into his mouth."
+      },
+      {
+        "person": "a person in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "bending down near some tall grass."
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "next to a black car on a dirt path, with tall grass to the right."
+    },
+    "objects": [
+      {
+        "name": "a black car",
+        "position": "left of the man in the suit"
+      },
+      {
+        "name": "tall grass",
+        "position": "right side of the scene"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit puts a small object into his mouth.",
+      "The person in the background bends down."
+    ],
+    "visibility_notes": "The scene is dark, with the man in the suit being the main focus."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "his face is in shadow, making details unclear"
+      ],
+      "body_cues": [
+        "standing with his body angled away from the camera",
+        "his hands are near his mouth"
+      ],
+      "gaze": "looking down towards the object in his hands"
+    }
+  ],
+  "audio_description": "A melancholic and somber tune is played on a harmonica.",
+  "emotion_description": "The man appears pensive and serious, and the music contributes to a somber mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

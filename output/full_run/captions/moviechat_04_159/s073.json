@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s073",
+  "time_range": [
+    360.0,
+    365.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and opening a dark door"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "sitting and looking towards the door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with tiled walls, a large metal cabinet, and a table with a metal container on it."
+    },
+    "objects": [
+      "a dark door",
+      "a red diamond-shaped decoration on the door",
+      "a metal container on a table",
+      "a large metal cabinet",
+      "a table"
+    ],
+    "interactions": [
+      "the woman opens the door"
+    ],
+    "key_actions": [
+      "the woman opens the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue patterned shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "turning her back to the camera",
+        "reaching for the door handle"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A rhythmic, electronic music track with a driving beat plays in the background.",
+  "emotion_description": "The woman appears focused and intent on opening the door, while the man's expression is unreadable as he is only partially visible.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,85 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s086",
+  "time_range": [
+    425.0,
+    430.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with white-blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing a wand forward with his right hand"
+      },
+      {
+        "person": "a man with short dark hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "pointing a wand forward with his right hand"
+      },
+      {
+        "person": "a man with short black hair",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "pointing a wand forward with his right hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, cluttered room with various objects and furniture in the background"
+    },
+    "objects": [
+      {
+        "obj": "wands",
+        "position": "held by the three men",
+        "action": "pointed forward"
+      }
+    ],
+    "interactions": [
+      "all three men are pointing their wands forward in unison"
+    ],
+    "key_actions": [
+      "pointing wands forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with white-blonde hair",
+      "facial_cues": [
+        "pursed lips",
+        "focused expression"
+      ],
+      "body_cues": [
+        "pointing forward"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with short dark hair",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "pointing forward"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with short black hair",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "pointing forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man speaks in a calm, low-pitched voice.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing headphones",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down at a laptop screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a laptop and a computer screen displaying data"
+    },
+    "objects": [
+      "laptop",
+      "headphones",
+      "computer screen"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man looking at a laptop",
+      "a computer screen displaying data"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing headphones",
+      "facial_cues": [
+        "frowning",
+        "concentrating"
+      ],
+      "body_cues": [],
+      "gaze": "looking down at the laptop screen"
+    }
+  ],
+  "audio_description": "A suspenseful, electronic musical score plays in the background.",
+  "emotion_description": "The man appears focused and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

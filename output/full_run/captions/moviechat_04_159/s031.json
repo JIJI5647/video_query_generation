@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a mobile phone"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting at a desk and drinking from a cup"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing with his back turned"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office environment with glass partitions"
+    },
+    "objects": [
+      "mobile phone",
+      "desk",
+      "cup",
+      "glass partition"
+    ],
+    "interactions": [
+      "The man in the white shirt is on a phone call."
+    ],
+    "key_actions": [
+      "The man in the white shirt talking on the phone."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "holding a phone to his ear"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in Mandarin, followed by a loud, continuous electronic beep.",
+  "emotion_description": "The man on the phone sounds calm and businesslike. The loud beep is an external sound and does not indicate emotion.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

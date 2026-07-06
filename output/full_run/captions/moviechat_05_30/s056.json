@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with messy brown hair in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding and looking at a large, old, folded map"
+      },
+      {
+        "person": "a woman with dark, wet-looking hair in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "right of the man",
+        "action": "looking up and to the side, then turning to look at the man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit stone corridor or hall with a window in the background"
+    },
+    "objects": [
+      "a large, old, folded map"
+    ],
+    "interactions": [
+      "the man and woman are looking at the map together and then talking to each other"
+    ],
+    "key_actions": [
+      "the man looks up from the map with a surprised expression",
+      "the man and woman turn to face and speak to each other"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man with messy brown hair",
+      "facial_cues": [
+        "wide eyes",
+        "surprised expression"
+      ],
+      "body_cues": [
+        "holding a map"
+      ],
+      "gaze": "looking up from the map towards the woman"
+    },
+    {
+      "person": "the woman with dark, wet-looking hair",
+      "facial_cues": [
+        "serious expression",
+        "looking up and to the side"
+      ],
+      "body_cues": [],
+      "gaze": "looking up and to the side, then turning to face the man"
+    }
+  ],
+  "audio_description": "A low, ominous rumble is heard, followed by a male voice speaking.",
+  "emotion_description": "The man appears surprised or alarmed, while the woman appears concerned.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

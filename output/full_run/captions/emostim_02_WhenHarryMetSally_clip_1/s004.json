@@ -1,0 +1,62 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white shirt with a black cardigan",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating a sandwich"
+      },
+      {
+        "person": "a man in a plaid sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating a sandwich"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded cafeteria or dining hall with other people in the background"
+    },
+    "objects": [
+      "sandwich",
+      "table"
+    ],
+    "interactions": [
+      "the woman and the man are sitting at a table together, eating sandwiches."
+    ],
+    "key_actions": [
+      "eating",
+      "sitting"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white shirt with a black cardigan",
+      "facial_cues": [
+        "eating"
+      ],
+      "body_cues": [],
+      "gaze": "looking down at the sandwich"
+    },
+    {
+      "person": "a man in a plaid sweater",
+      "facial_cues": [
+        "eating"
+      ],
+      "body_cues": [],
+      "gaze": "looking down at the sandwich"
+    }
+  ],
+  "audio_description": "A woman speaks, followed by a man speaking, with background chatter.",
+  "emotion_description": "The woman appears to be expressing a strong opinion, while the man sounds defensive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

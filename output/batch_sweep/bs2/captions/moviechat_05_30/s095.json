@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a gray shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "searching through a pile of furniture"
+      },
+      {
+        "person": "a woman in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "walking toward the man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered room filled with overturned furniture and debris, dimly lit with a greenish hue"
+    },
+    "objects": [
+      "upturned chairs",
+      "sofa",
+      "rug",
+      "debris"
+    ],
+    "interactions": [
+      "the woman approaches the man who is searching through the clutter"
+    ],
+    "key_actions": [
+      "the woman walks toward the man",
+      "the man searches through the clutter"
+    ],
+    "visibility_notes": "The scene is viewed from an elevated, slightly tilted angle, making the man's actions partially obscured by the clutter."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a gray shirt",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "bending over",
+        "reaching into the pile"
+      ],
+      "gaze": "down at the pile of furniture"
+    }
+  ],
+  "audio_description": "A series of loud, metallic crashing and clanging sounds fill the audio.",
+  "emotion_description": "The man appears focused and determined, while the woman seems cautious and concerned.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

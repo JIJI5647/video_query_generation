@@ -90,3 +90,37 @@ def test_unknown_variant_raises():
     except ValueError:
         return
     raise AssertionError("expected ValueError for unknown variant")
+
+
+class _OneQueryExplodesClient:
+    """q_bad's answerability call always raises (retries exhausted upstream,
+    e.g. a Thinking model that never closes its reasoning within budget);
+    every other query/dimension for the SAME video must still get scored."""
+
+    def generate_json_many(self, prompts, schema_name, video_uris=None):
+        out = []
+        for p, u in zip(prompts, video_uris):
+            if "q_bad" in p and "Watch the provided video" in p:
+                raise RuntimeError("Qwen3-Omni call failed after 2 attempts")
+            if "Watch the provided video" in p:
+                dim = "answerability_pass"
+            elif '"emotion_relevance_pass"' in p.split("OUTPUT")[1]:
+                dim = "emotion_relevance_pass"
+            else:
+                dim = "query_quality_pass"
+            qid = "q_bad" if "q_bad" in p else "q_ok"
+            out.append({"results": [{"query_id": qid, dim: True, "failure_reason": ""}]})
+        return out
+
+
+def test_one_query_failure_does_not_lose_the_rest():
+    client = _OneQueryExplodesClient()
+    queries = [_q("q_ok"), _q("q_bad")]
+    out = verify_queries_per_dimension(
+        "v", queries, [["ok.mp4"], ["bad.mp4"]], 1, client, variant="p1_rule",
+        verify_parallel=1,
+    )
+    by_id = {r.query_id: r for r in out.results}
+    assert by_id["q_ok"].decision == "pass"
+    assert by_id["q_bad"].answerability_pass is False
+    assert "call failed" in by_id["q_bad"].failure_reason

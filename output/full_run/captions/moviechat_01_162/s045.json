@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, center",
+        "action": "being held by the throat by another person"
+      },
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "left, foreground",
+        "action": "holding the other man's throat"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit interior"
+    },
+    "objects": [
+      "car seat"
+    ],
+    "interactions": [
+      "one man is holding another man's throat"
+    ],
+    "key_actions": [
+      "the man in the black leather jacket is choking the man in the black shirt"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "sweating",
+        "strained facial expression",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "head tilted back"
+      ],
+      "gaze": "looking up and to the side"
+    },
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "focused expression",
+        "intense gaze"
+      ],
+      "body_cues": [
+        "hand gripping the other man's throat"
+      ],
+      "gaze": "looking at the man he is choking"
+    }
+  ],
+  "audio_description": "The audio contains a person speaking in a strained, urgent tone.",
+  "emotion_description": "The man being choked appears to be distressed and fearful, while the man choking him appears determined and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

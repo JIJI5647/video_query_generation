@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still, looking forward"
+      },
+      {
+        "person": "a woman in a light blue shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk, looking at a computer screen"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and leaning over a desk"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or control room with multiple computer monitors and a large whiteboard with photos on it"
+    },
+    "objects": [
+      "computer monitors",
+      "whiteboard",
+      "desks",
+      "office chairs"
+    ],
+    "interactions": [
+      "the people are working in the same room"
+    ],
+    "key_actions": [
+      "the man in the suit is standing and looking forward",
+      "the people in the background are working at their desks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression",
+        "frowning"
+      ],
+      "body_cues": [
+        "standing still",
+        "arms at sides"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A high-pitched, repetitive electronic alarm sound is playing.",
+  "emotion_description": "The man in the suit appears serious and focused, possibly concerned or stressed by the alarm.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

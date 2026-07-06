@@ -1,0 +1,78 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and holding a knife while writing on a door with a red marker."
+      },
+      {
+        "person": "a woman",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "lying in bed, partially covered by a blanket."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night, with a lamp on a nightstand and a door with writing on it."
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the boy."
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "has red writing on it."
+      },
+      {
+        "object": "a nightstand",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "has a lamp and a glass of water on it."
+      },
+      {
+        "object": "a bed",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by the woman."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the boy writes on the door",
+      "the boy turns and walks to the nightstand",
+      "the boy picks up a glass of water"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "focused"
+      ],
+      "body_cues": [
+        "holding a knife",
+        "writing on the door"
+      ],
+      "gaze": "down at the door"
+    }
+  ],
+  "audio_description": "A child's voice is heard saying 'Redrum' in a distorted, echoing manner.",
+  "emotion_description": "The boy appears focused and possibly scared.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

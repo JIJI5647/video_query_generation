@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark red jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running down a hallway and swinging a large wooden object"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "a dimly lit hallway with blue walls and a wooden door at the end"
+    },
+    "objects": [
+      {
+        "object": "a large wooden object",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being swung by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "running",
+      "swinging"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark red jacket",
+      "facial_cues": [
+        "intense",
+        "determined"
+      ],
+      "body_cues": [
+        "running",
+        "swinging a large wooden object"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "The audio features the sound of a heavy door being struck repeatedly.",
+  "emotion_description": "determined",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

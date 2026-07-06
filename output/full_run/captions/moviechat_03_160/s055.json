@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking into a walkie-talkie"
+      },
+      {
+        "person": "a man wearing headphones",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at a computer screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a computer monitor and a bulletin board"
+    },
+    "objects": [
+      "a walkie-talkie",
+      "a computer monitor",
+      "headphones",
+      "a bulletin board"
+    ],
+    "interactions": [
+      "The man in the suit speaks into the walkie-talkie."
+    ],
+    "key_actions": [
+      "The man in the suit speaks into the walkie-talkie.",
+      "The man wearing headphones looks at a computer screen."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "speaking into the walkie-talkie"
+      ],
+      "body_cues": [
+        "holding the walkie-talkie to his mouth"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man wearing headphones",
+      "facial_cues": [
+        "focused expression",
+        "looking intently at the screen"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the computer screen"
+    }
+  ],
+  "audio_description": "A male voice speaks a short phrase in what sounds like Mandarin Chinese.",
+  "emotion_description": "The man in the suit appears focused and serious, suggesting a tense or urgent situation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

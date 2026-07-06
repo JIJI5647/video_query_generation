@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking forward with his head bowed"
+      },
+      {
+        "person": "a man in a dark suit and light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "left of the first man",
+        "action": "walking forward, looking at the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a modern room with light-colored walls and a glass partition"
+    },
+    "objects": [],
+    "interactions": [
+      "The two men are walking together in a line."
+    ],
+    "key_actions": [
+      "The men are walking forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "head bowed",
+        "eyes looking down"
+      ],
+      "body_cues": [
+        "walking forward"
+      ],
+      "gaze": "looking down"
+    },
+    {
+      "person": "a man in a dark suit and light-colored shirt",
+      "facial_cues": [
+        "looking at the other man"
+      ],
+      "body_cues": [
+        "walking forward"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "There is a low, constant electronic hum in the background.",
+  "emotion_description": "The man with his head bowed appears somber and contemplative, while the other man appears concerned or questioning.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

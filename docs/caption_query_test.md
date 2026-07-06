@@ -1,12 +1,14 @@
 # Caption → Query integration test
 
-`run_caption_query_test.py` checks that a **new caption model can plug into the
-existing pipeline**. It runs a caption model on a short clip, normalizes its
-output into the pipeline's `OmniCaption` schema, and feeds those captions through
-the **real** Gemini emotion-event + query-generation stages to produce queries.
+Three independent, cacheable scripts check that a **new caption model can plug
+into the existing pipeline**. Each stage reads the prior stage's output dir, so
+any stage can be re-run on its own (e.g. iterate on query-generation without
+re-running GPU caption inference):
 
 ```
-caption model → normalized captions → Gemini emotion-event → Gemini query-generation → generated_queries.json
+run_caption_generation_test.py    caption model → normalized captions (+ segments.jsonl)
+run_query_generation_test.py      captions → Gemini emotion-event → Gemini query-generation
+run_evaluation_test.py            queries → Gemini verify/rewrite → final_queries.json
 ```
 
 ## What it checks / does not check
@@ -30,53 +32,73 @@ caption model → normalized captions → Gemini emotion-event → Gemini query-
 |---|---|---|---|
 | `qwen3_omni` | Omni AV baseline (`Qwen/Qwen3-Omni-30B-A3B-Instruct`) | `--video` | implemented (reuses the pipeline captioner) |
 | `qwen_audio_vl` | `Qwen3-Omni-Captioner` (audio, no text prompt) + `Qwen3-VL-8B` (video) | `--video --audio` | implemented (both halves) |
-| `af3_vl` | Audio Flamingo 3 (audio) + `Qwen3-VL-8B` (video) | `--video --audio` | video half implemented; **AF3 audio half raises a clear `NotImplementedError` with setup instructions** |
-| `secap_qwen` | SECap (speech/audio-emotion, used directly) + `Qwen3-VL-8B` (video) | `--video --audio` | video half implemented; **SECap audio half raises a clear `NotImplementedError`**; never calls Qwen3-Omni-Captioner |
-| `avocado` | AVoCaDO AV caption | `--video` | **`NotImplementedError`** (add the AVoCaDO repo runner) |
-| `timechat` | TimeChat AV caption (timestamps) | `--video` | **`NotImplementedError`** (add the TimeChat repo runner) |
+| `avocado` | AVoCaDO AV caption (Qwen2.5-Omni-7B fine-tune) | `--video` | implemented (shared `_run_qwen2_5_omni_av` runner, in-process) |
+| `timechat` | TimeChat-Captioner-GRPO-7B AV caption (timestamps; Qwen2.5-Omni-7B fine-tune) | `--video` | implemented (shared `_run_qwen2_5_omni_av` runner, in-process) |
+| `af3_vl` | Audio Flamingo 3 (audio) + `Qwen3-VL-8B` (video) | `--video --audio` | implemented — AF3's audio half needs a newer `transformers` than the shared env, so it runs as a **subprocess** in `conda_envs/af3_env` via `standalone_runners/af3_infer.py`; video half in-process |
+| `secap_qwen` | SECap (speech/audio-emotion, used directly) + `Qwen3-VL-8B` (video) | `--video --audio` | implemented — SECap needs a 2023 legacy torch/transformers pin, so it runs as a **subprocess** in `conda_envs/secap_env` via `third_party/SECap/scripts/standalone_inference.py`; video half in-process; never calls Qwen3-Omni-Captioner |
+
+All six runners are wired end-to-end; see `docs/progress_log.md` for which have actually
+been exercised on real GPU inference vs. still implemented-but-unverified.
 
 ## Example commands
 
+`--max-segments 1` (default) treats `--video`/`--audio` as a pre-cut clip — no real
+segmentation. `--max-segments N > 1` cuts real ffmpeg segments (`--segment-seconds`,
+default 5s) and, for audio+video models, a matching per-segment audio slice
+extracted from each cut clip — this is what actually exercises the real pipeline's
+segmentation, not just "does the model's output parse".
+
 ```bash
-# qwen3_omni (AV, single model)
-python run_caption_query_test.py --caption-model qwen3_omni \
-  --video short.mp4 --output output/caption_query_tests/qwen3_omni \
-  --max-segments 1 --generation-model gemini-2.5-flash-lite
+# qwen3_omni (AV, single model) — 3 real 5s segments
+python run_caption_generation_test.py --caption-model qwen3_omni \
+  --video short.mp4 --output output/caption_query_tests/qwen3_omni --max-segments 3
+python run_query_generation_test.py \
+  --captions-dir output/caption_query_tests/qwen3_omni \
+  --output output/caption_query_tests/qwen3_omni
 
 # qwen_audio_vl (audio + video, merged)
-python run_caption_query_test.py --caption-model qwen_audio_vl \
+python run_caption_generation_test.py --caption-model qwen_audio_vl \
   --video short.mp4 --audio short.wav \
-  --output output/caption_query_tests/qwen_audio_vl --max-segments 1
+  --output output/caption_query_tests/qwen_audio_vl --max-segments 3
+python run_query_generation_test.py \
+  --captions-dir output/caption_query_tests/qwen_audio_vl \
+  --output output/caption_query_tests/qwen_audio_vl
 
 # af3_vl (Audio Flamingo 3 audio + Qwen3-VL video) — NON-COMMERCIAL research only
-python run_caption_query_test.py --caption-model af3_vl \
+python run_caption_generation_test.py --caption-model af3_vl \
   --video short.mp4 --audio short.wav \
-  --output output/caption_query_tests/af3_vl --max-segments 1
+  --output output/caption_query_tests/af3_vl --max-segments 3
 
 # secap_qwen (SECap audio + Qwen3-VL video)
-python run_caption_query_test.py --caption-model secap_qwen \
+python run_caption_generation_test.py --caption-model secap_qwen \
   --video short.mp4 --audio short.wav \
-  --output output/caption_query_tests/secap_qwen --max-segments 1
-```
+  --output output/caption_query_tests/secap_qwen --max-segments 3
 
-`--with-verification` additionally runs the Gemini verify/rewrite loop on the
-grounded clips and writes `final_queries.json`.
+# stage 3, on any of the above once stage 2 produced queries:
+python run_evaluation_test.py \
+  --queries-dir output/caption_query_tests/qwen3_omni \
+  --output output/caption_query_tests/qwen3_omni
+```
 
 ## Output files
 
-All under `--output`:
+Written incrementally into the same `--output` dir as stages run:
 
-| File | Meaning |
-|---|---|
-| `raw_caption_output.json` | raw caption-model output(s); for audio+video models, both `audio_text` and `video_text` |
-| `normalized_captions.jsonl` | captions coerced into the pipeline `OmniCaption` schema (one per segment) |
-| `emotion_events.json` | Gemini emotion-event stage output (`EmotionEventOutput`) |
-| `generated_queries.json` | Gemini query-generation output (`GenerationOutput`) |
-| `run_metadata.json` | model, paths, counts, timings, and any warnings (e.g. **zero queries**) |
-| `final_queries.json` | only with `--with-verification`: per-query trace after verify/rewrite |
+| File | Written by | Meaning |
+|---|---|---|
+| `raw_caption_output.json` | stage 1 | raw caption-model output(s); for audio+video models, both `audio_text` and `video_text` |
+| `normalized_captions.jsonl` | stage 1 | captions coerced into the pipeline `OmniCaption` schema (one per segment) |
+| `segments.jsonl` | stage 1 (written), 2 (passthrough) | `Segment` list incl. `clip_path`, so later stages never need to re-cut |
+| `run_metadata.json` | stage 1 | model, paths, counts, timings |
+| `emotion_events.json` | stage 2 | Gemini emotion-event stage output (`EmotionEventOutput`) |
+| `generated_queries.json` | stage 2 | Gemini query-generation output (`GenerationOutput`) |
+| `generation_metadata.json` | stage 2 | counts, timings, warnings (e.g. **zero queries**) |
+| `final_queries.json` | stage 3 | per-query trace after verify/rewrite |
+| `verification_summary.json` | stage 3 | pass/revise/fail counts |
+| `evaluation_metadata.json` | stage 3 | model, counts |
 
 If Gemini returns **zero queries**, that is recorded explicitly in
-`run_metadata.json → warnings` (never hidden).
+`generation_metadata.json → warnings` (never hidden).
 
 ## Required env vars
 

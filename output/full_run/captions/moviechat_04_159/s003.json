@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and to the side"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "holding a lit cigarette"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit with a spotlight on the man in glasses"
+    },
+    "objects": [
+      "a lit cigarette"
+    ],
+    "interactions": [
+      "The man on the left is holding a cigarette near the man in glasses."
+    ],
+    "key_actions": [
+      "The man in glasses looks down.",
+      "The man on the left holds a cigarette."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "Looking down and to the side",
+        "Eyes visible behind glasses"
+      ],
+      "body_cues": [],
+      "gaze": "Downward and to the right"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, conversational tone.",
+  "emotion_description": "The man's expression appears pensive or serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

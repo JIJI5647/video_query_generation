@@ -1,0 +1,45 @@
+{
+  "total_videos": 5,
+  "total_segments": 186,
+  "total_raw_captions": 186,
+  "total_initial_queries": 85,
+  "total_accepted_queries": 37,
+  "total_discarded_queries": 48,
+  "average_accepted_queries_per_video": 7.4,
+  "emotion_distribution": {
+    "neutral": 152,
+    "fear": 24,
+    "happy": 2,
+    "angry": 3,
+    "surprised": 4,
+    "frustrated": 1
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 68,
+    "evidence_cue": 13,
+    "explicit_event": 4
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 29,
+    "evidence_cue": 5,
+    "explicit_event": 3
+  },
+  "rewrite_count_distribution": {
+    "0": 84,
+    "1": 1
+  },
+  "pass_rate_after_initial_verification": 0.8941,
+  "pass_rate_after_rewrites": 0.4353,
+  "discarded_query_count": 48,
+  "diversity_warnings": [
+    "[emostim_01_TheShining_clip_2] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_01_TheShining_clip_2] WARNING: queries 'emostim_01_TheShining_clip_2_q01' and 'emostim_01_TheShining_clip_2_q03' are semantically similar (word overlap 85%)",
+    "[emostim_04_28DaysLater_clip_6] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: 4 accepted queries start with 'at what' — repetitive phrasing",
+    "[meld_02_dia224] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_05_30] WARNING: all accepted queries have the same query_type 'emotion_state' — low diversity",
+    "[moviechat_05_30] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_05_30] WARNING: 4 accepted queries start with 'at what' — repetitive phrasing"
+  ]
+}

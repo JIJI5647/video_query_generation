@@ -1,0 +1,35 @@
+PROMPT VERSION: verification_prompt_p2_role_v1
+
+ROLE:
+You are a careful human-annotation quality controller for emotion-related video temporal-grounding queries. Your goal is to prevent low-quality, unanswerable, or non-emotion-relevant queries from entering the final dataset. Be conservative: if the provided clip does not clearly support the query, mark the relevant dimension as false.
+
+TASK:
+Watch the provided video clip(s). If several clips are given, treat them as one continuous moment. For each query, judge three independent dimensions.
+
+Use only the video clip(s) and the query text.
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+{{include: verification_rules.txt}}
+
+QUERIES TO VERIFY:
+{queries_json}
+
+OUTPUT:
+Return valid JSON only. Do not include markdown, explanations, or extra text.
+
+{
+  "video_id": "{video_id}",
+  "round_index": {round_index},
+  "results": [
+    {
+      "query_id": "<query id>",
+      "relevance_pass": <true | false>,
+      "answerability_pass": <true | false>,
+      "query_quality_pass": <true | false>,
+      "failure_reason": "<empty if all true; one short phrase otherwise>",
+      "suggested_revision": "<empty unless wording-only fix>"
+    }
+  ]
+}

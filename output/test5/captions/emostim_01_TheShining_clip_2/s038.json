@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with shaggy dark hair and a beard, wearing a red jacket over a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing in a doorway and looking down before turning his head sharply to the right and opening his mouth as if shouting"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with beige walls, a door frame on the left, and a framed picture hanging on the wall in the background."
+    },
+    "objects": [
+      {
+        "name": "door frame",
+        "description": "a light-colored wooden door frame."
+      },
+      {
+        "name": "framed picture",
+        "description": "a framed picture with a dark frame hanging on the wall."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man turns his head and opens his mouth as if shouting."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with shaggy dark hair and a beard, wearing a red jacket over a plaid shirt",
+      "facial_cues": [
+        "mouth wide open",
+        "jaw tensed",
+        "eyebrows raised",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "head turned sharply to the right"
+      ],
+      "gaze": "looking toward the right side of the frame"
+    }
+  ],
+  "audio_description": "A loud, abrupt crashing sound, like a door slamming shut, is heard, followed by a person shouting.",
+  "temporal_description": "A crashing sound occurs at the start, immediately followed by the man shouting.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

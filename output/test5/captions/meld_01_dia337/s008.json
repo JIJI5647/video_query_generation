@@ -1,0 +1,62 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking and gesturing with his hands"
+      },
+      {
+        "person": "the man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "listening and then speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "living room with a couch and a wall sconce"
+    },
+    "objects": [],
+    "interactions": [
+      "The two men are having a conversation."
+    ],
+    "key_actions": [
+      "The man in the pink plaid shirt gestures with his hands.",
+      "The man in the blue plaid shirt listens and then responds."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a pink plaid shirt",
+      "facial_cues": [
+        "speaking"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "looking at the man in the blue plaid shirt"
+    },
+    {
+      "person": "the man in a blue plaid shirt",
+      "facial_cues": [
+        "listening",
+        "speaking"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man in the pink plaid shirt"
+    }
+  ],
+  "audio_description": "Two men are having a conversation.",
+  "temporal_description": "The man in the pink plaid shirt speaks first, then the man in the blue plaid shirt responds.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

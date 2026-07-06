@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with spiky, two-toned hair wearing a black leather jacket and a red shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "Looking down, then turning his head to the right."
+      },
+      {
+        "person": "a man in a blue denim jacket",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "Looking forward with a serious expression."
+      },
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "Walking behind bars."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "A dimly lit room with a window featuring horizontal blinds, and a section of a metal-barred enclosure."
+    },
+    "objects": [
+      "window blinds",
+      "metal bars"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the leather jacket turns his head.",
+      "The man in the denim jacket looks forward."
+    ],
+    "visibility_notes": "The man in the denim jacket is partially obscured by vertical bars."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with spiky, two-toned hair wearing a black leather jacket and a red shirt",
+      "facial_cues": [
+        "Looking down",
+        "Looking to the side"
+      ],
+      "body_cues": [],
+      "gaze": "Down, then to the right."
+    },
+    {
+      "person": "a man in a blue denim jacket",
+      "facial_cues": [
+        "Serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "Forward."
+    }
+  ],
+  "audio_description": "A loud, sustained, high-pitched electronic tone sounds, similar to a siren or alarm.",
+  "emotion_description": "The man in the denim jacket appears serious and concerned, while the man in the leather jacket looks downcast and contemplative. The overall atmosphere is tense and suspenseful.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

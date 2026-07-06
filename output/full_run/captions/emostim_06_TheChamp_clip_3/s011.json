@@ -1,0 +1,68 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with short, light-colored hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "crying and leaning over a man"
+      },
+      {
+        "person": "an older man with thinning hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit"
+    },
+    "objects": [],
+    "interactions": [
+      "The boy has his hand on the man's shoulder."
+    ],
+    "key_actions": [
+      "The boy is crying and leaning over the man.",
+      "The man is sitting and looking down."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with short, light-colored hair",
+      "facial_cues": [
+        "tears are visible on his face",
+        "his eyes are red and watery",
+        "his mouth is open"
+      ],
+      "body_cues": [
+        "he is leaning forward over the man",
+        "his hand is on the man's shoulder"
+      ],
+      "gaze": "looking down at the man"
+    },
+    {
+      "person": "an older man with thinning hair",
+      "facial_cues": [
+        "his brow is furrowed",
+        "his expression is somber and weary"
+      ],
+      "body_cues": [
+        "he is sitting upright",
+        "he is looking down"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A child's voice is crying and speaking in a distressed, high-pitched tone.",
+  "emotion_description": "The boy is clearly distressed, sad, and crying. The man appears somber and weary.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

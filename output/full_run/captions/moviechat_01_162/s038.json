@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning back in a car seat, talking"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "sitting next to the first man"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dark and dimly lit"
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the black shirt is leaning back and talking to the man on the right."
+    ],
+    "key_actions": [
+      "Talking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "sweaty face"
+      ],
+      "body_cues": [
+        "leaning back in a car seat"
+      ],
+      "gaze": "looking towards the other man"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a strained, urgent, and somewhat panicked tone.",
+  "emotion_description": "The man in the black shirt appears to be panicked or extremely stressed.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

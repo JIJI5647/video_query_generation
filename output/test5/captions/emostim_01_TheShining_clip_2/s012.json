@@ -1,0 +1,80 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in front of a door, holding a knife in one hand and writing with the other."
+      },
+      {
+        "person": "a person sleeping in a bed",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "lying in bed under a blanket."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night, with a lit lamp on a nightstand."
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "held by the boy",
+        "action": "held in the boy's right hand."
+      },
+      {
+        "object": "a red marker",
+        "visibility": "clearly visible",
+        "position": "held by the boy",
+        "action": "used to write on the door."
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "in front of the boy",
+        "action": "has red writing on it."
+      },
+      {
+        "object": "a lamp",
+        "visibility": "clearly visible",
+        "position": "on a nightstand",
+        "action": "illuminating the room."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The boy is using the marker to write on the door while holding the knife."
+      }
+    ],
+    "key_actions": [
+      "Writing on the door with a marker",
+      "Holding a knife"
+    ],
+    "visibility_notes": "The boy's face is partially obscured, but his actions are clear. The person in the bed is mostly obscured by the blanket and the angle."
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "holding a knife in one hand and a marker in the other"
+      ],
+      "gaze": "looking down at the door."
+    }
+  ],
+  "audio_description": "A low, guttural growl is heard, followed by a child's voice speaking in a sing-song manner.",
+  "temporal_description": "The growl is heard at the beginning, followed by the child's voice speaking continuously.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a grey suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a bottle and then gesturing with his arms outstretched"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "facing the man in the suit, then moving away"
+      },
+      {
+        "person": "a man in a striped shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "standing and observing"
+      }
+    ],
+    "scene": {
+      "location": "alley",
+      "setting": "a narrow alley at night with dim lighting and a red and blue striped awning overhead"
+    },
+    "objects": [
+      {
+        "object": "bottle",
+        "visibility": "clearly visible",
+        "position": "held by the man in the suit"
+      },
+      {
+        "object": "neon sign",
+        "visibility": "clearly visible",
+        "position": "right side of the frame"
+      }
+    ],
+    "interactions": [
+      "The man in the suit extends his arms towards the man in the dark shirt, who then turns and walks away."
+    ],
+    "key_actions": [
+      "The man in the suit holding a bottle",
+      "The man in the suit gesturing with his arms",
+      "The man in the dark shirt turning and walking away"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a grey suit",
+      "facial_cues": [
+        "smiling",
+        "looking up"
+      ],
+      "body_cues": [
+        "extending his arms"
+      ],
+      "gaze": "looking up and forward"
+    }
+  ],
+  "audio_description": "Loud, energetic, and rhythmic traditional Chinese music plays in the background.",
+  "emotion_description": "The man in the suit appears happy and welcoming, while the man in the dark shirt's reaction is unclear as he walks away.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

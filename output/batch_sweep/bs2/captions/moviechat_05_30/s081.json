@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room, possibly a junkyard or attic"
+    },
+    "objects": [
+      {
+        "object": "a silver and black ornate tiara",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being held in a hand"
+      }
+    ],
+    "interactions": [
+      {
+        "subject": "a hand",
+        "action": "holding the tiara",
+        "object": "the tiara"
+      }
+    ],
+    "key_actions": [
+      "a hand holds the tiara"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young man with glasses",
+      "facial_cues": [
+        "looking down",
+        "thoughtful expression"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "Ethereal, echoing choral music plays, creating a mysterious atmosphere.",
+  "emotion_description": "curious",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

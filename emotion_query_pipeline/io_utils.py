@@ -29,6 +29,15 @@ def write_jsonl(path: Union[str, Path], records: Iterable[Any]) -> None:
             f.write(line + "\n")
 
 
+def read_jsonl(path: Union[str, Path]) -> list:
+    """Read a JSONL file into a list of dicts. Returns ``[]`` if the file is missing."""
+    p = Path(path)
+    if not p.is_file():
+        return []
+    with p.open("r", encoding="utf-8") as f:
+        return [json.loads(line) for line in f if line.strip()]
+
+
 def load_prompt_template(prompts_dir: Union[str, Path], filename: str) -> str:
     """Load a prompt template, expanding any ``{{include: file.txt}}`` directives.
 

@@ -1,0 +1,84 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light grey suit and turtleneck",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing with arms outstretched, holding a water bottle in one hand, then bringing the bottle to his mouth to drink"
+      },
+      {
+        "person": "a man with blonde hair and glasses",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and watching the man in the suit"
+      },
+      {
+        "person": "a man in a dark patterned shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and watching the man in the suit"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing between the man in the suit and the man on the right"
+      }
+    ],
+    "scene": {
+      "location": "an alleyway at night",
+      "setting": "dimly lit with a glowing red neon sign on the right and a striped canopy in the background"
+    },
+    "objects": [
+      "a clear plastic water bottle",
+      "a glowing red neon sign with Chinese characters"
+    ],
+    "interactions": [
+      "the man in the suit addresses the other three men"
+    ],
+    "key_actions": [
+      "the man in the suit extends his arms and then drinks from the water bottle"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light grey suit and turtleneck",
+      "facial_cues": [
+        "a slight smile"
+      ],
+      "body_cues": [
+        "standing with arms outstretched",
+        "bringing a water bottle to his mouth"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man with blonde hair and glasses",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man in the suit"
+    },
+    {
+      "person": "a man in a dark patterned shirt",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man in the suit"
+    }
+  ],
+  "audio_description": "A high-pitched, repetitive, and frantic-sounding musical loop plays continuously.",
+  "emotion_description": "The man in the suit appears calm and in control, while the other two men look on with neutral expressions. The tense music creates a suspenseful atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

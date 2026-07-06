@@ -1,0 +1,59 @@
+{
+  "total_videos": 16,
+  "total_segments": 585,
+  "total_raw_captions": 585,
+  "total_initial_queries": 179,
+  "total_accepted_queries": 125,
+  "total_discarded_queries": 54,
+  "average_accepted_queries_per_video": 7.8125,
+  "emotion_distribution": {
+    "neutral": 466,
+    "fear": 34,
+    "angry": 11,
+    "surprised": 38,
+    "sad": 7,
+    "excited": 5,
+    "happy": 20,
+    "frustrated": 4
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 88,
+    "evidence_cue": 66,
+    "explicit_event": 25
+  },
+  "query_type_distribution_final_accepted": {
+    "explicit_event": 16,
+    "evidence_cue": 57,
+    "emotion_state": 52
+  },
+  "rewrite_count_distribution": {
+    "0": 158,
+    "1": 21
+  },
+  "pass_rate_after_initial_verification": 0.8827,
+  "pass_rate_after_rewrites": 0.6983,
+  "discarded_query_count": 54,
+  "diversity_warnings": [
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: queries 'emostim_03_MrBeansHoliday_clip_4_q02' and 'emostim_03_MrBeansHoliday_clip_4_q05' are semantically similar (word overlap 73%)",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: queries 'emostim_03_MrBeansHoliday_clip_4_q03' and 'emostim_03_MrBeansHoliday_clip_4_q05' are semantically similar (word overlap 87%)",
+    "[emostim_04_28DaysLater_clip_6] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_07_TheSilenceOfTheLambs_a_clip_2] WARNING: queries 'emostim_07_TheSilenceOfTheLambs_a_clip_2_q01' and 'emostim_07_TheSilenceOfTheLambs_a_clip_2_q03' are semantically similar (word overlap 72%)",
+    "[emostim_07_TheSilenceOfTheLambs_a_clip_2] WARNING: queries 'emostim_07_TheSilenceOfTheLambs_a_clip_2_q02' and 'emostim_07_TheSilenceOfTheLambs_a_clip_2_q04' are semantically similar (word overlap 71%)",
+    "[meld_01_dia337] WARNING: 6 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: queries 'meld_01_dia337_q01' and 'meld_01_dia337_q03' are semantically similar (word overlap 78%)",
+    "[meld_02_dia224] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_03_dia572] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_03_dia572] WARNING: queries 'meld_03_dia572_q01' and 'meld_03_dia572_q03' are semantically similar (word overlap 74%)",
+    "[meld_04_dia362] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_05_dia980] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_07_dia208] WARNING: 4 accepted queries start with 'at what' — repetitive phrasing",
+    "[meld_07_dia208] WARNING: queries 'meld_07_dia208_q01' and 'meld_07_dia208_q06' are semantically similar (word overlap 73%)",
+    "[meld_07_dia208] WARNING: queries 'meld_07_dia208_q02' and 'meld_07_dia208_q06' are semantically similar (word overlap 71%)",
+    "[moviechat_01_162] WARNING: 7 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_02_154] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_02_154] WARNING: queries 'moviechat_02_154_q01' and 'moviechat_02_154_q05' are semantically similar (word overlap 80%)",
+    "[moviechat_04_159] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_05_30] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing"
+  ]
+}

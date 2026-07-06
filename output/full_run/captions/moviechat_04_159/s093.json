@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "opening a door"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing in the doorway"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dimly lit room with dark wooden walls and a red diamond-shaped decoration on the door"
+    },
+    "objects": [
+      "a dark wooden door",
+      "a red diamond-shaped decoration"
+    ],
+    "interactions": [
+      "the man in the blue shirt opens the door for the man in the black shirt"
+    ],
+    "key_actions": [
+      "opening a door",
+      "standing in a doorway"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the blue patterned shirt",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "opening the door"
+      ],
+      "gaze": "looking towards the door"
+    },
+    {
+      "person": "the man in the black shirt",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A low, ambient hum is present throughout the clip.",
+  "emotion_description": "The mood is neutral and suspenseful.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,40 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of people",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running away from an explosion"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "a stone building is on fire and exploding in the background, with smoke and fire filling the sky."
+    },
+    "objects": [
+      {
+        "object": "fire",
+        "position": "background",
+        "action": "burning intensely"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "people running from an explosion",
+      "fire burning on a building"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud explosion sound is heard, followed by shouting.",
+  "temporal_description": "The explosion occurs at the beginning of the clip, and people are seen running away from it.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

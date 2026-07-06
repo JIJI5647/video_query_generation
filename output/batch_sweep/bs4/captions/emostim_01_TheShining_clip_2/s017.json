@@ -1,0 +1,48 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "hugging a child and looking scared"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a door in the background"
+    },
+    "objects": [
+      {
+        "obj": "door",
+        "description": "a wooden door with the word 'MURDER' written in red on it"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "mouth open",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "hugging a child tightly"
+      ],
+      "gaze": "looking towards the door"
+    }
+  ],
+  "audio_description": "The audio contains a loud crash, followed by a scream and the sound of breaking glass.",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

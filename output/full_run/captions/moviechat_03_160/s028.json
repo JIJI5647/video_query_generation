@@ -1,0 +1,79 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a patterned blue shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "sitting at a desk, holding a pen, talking"
+      },
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting at a desk, listening"
+      },
+      {
+        "person": "a person in the background",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting and smoking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, cluttered room with a chalkboard and a filing cabinet"
+    },
+    "objects": [
+      "a chalkboard",
+      "a desk",
+      "a pen",
+      "a filing cabinet",
+      "a radio"
+    ],
+    "interactions": [
+      "The man in the blue shirt is speaking to the man in the leather jacket."
+    ],
+    "key_actions": [
+      "talking",
+      "listening",
+      "smoking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a patterned blue shirt",
+      "facial_cues": [
+        "smiling",
+        "talking"
+      ],
+      "body_cues": [
+        "holding a pen",
+        "leaning forward"
+      ],
+      "gaze": "looking at the man in the leather jacket"
+    },
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "listening",
+        "slightly smiling"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking at the man in the blue shirt"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a conversational tone.",
+  "emotion_description": "The man in the blue shirt appears friendly and amused. The man in the leather jacket seems relaxed and engaged in the conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with platinum blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing a wand forward"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "pointing a wand forward"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "pointing a wand forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dark room filled with various objects, including mirrors and metal bowls"
+    },
+    "objects": [
+      "wands",
+      "mirrors",
+      "metal bowls",
+      "dark suit clothing"
+    ],
+    "interactions": [
+      "three men simultaneously point their wands forward"
+    ],
+    "key_actions": [
+      "pointing wands forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with platinum blonde hair",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing with a firm posture"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, echoing shout is heard, followed by the sound of a magical spell being cast with a whooshing noise.",
+  "emotion_description": "determined",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

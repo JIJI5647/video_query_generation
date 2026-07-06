@@ -1,0 +1,69 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the woman in a white hospital gown",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting up in a hospital bed"
+      },
+      {
+        "person": "the man in a beige jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on a chair and looking at the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with medical equipment on the wall"
+    },
+    "objects": [
+      "hospital bed",
+      "pillow",
+      "pink blanket",
+      "medical equipment"
+    ],
+    "interactions": [
+      "the man is looking at the woman"
+    ],
+    "key_actions": [
+      "the woman sitting up in bed"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a white hospital gown",
+      "facial_cues": [
+        "brow furrowed",
+        "lips parted"
+      ],
+      "body_cues": [
+        "sitting up in bed"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "the man in a beige jacket",
+      "facial_cues": [
+        "eyebrows raised",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A woman speaks in a tense voice, followed by a loud, sustained, low-pitched electronic tone.",
+  "emotion_description": "The woman appears to be in pain or distress, and the man looks surprised or concerned.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

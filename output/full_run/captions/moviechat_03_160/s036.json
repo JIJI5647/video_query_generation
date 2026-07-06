@@ -1,0 +1,62 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black headphones",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and to the left"
+      },
+      {
+        "person": "a man in a dark suit and striped tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a computer monitor and a bulletin board"
+    },
+    "objects": [
+      "a computer monitor",
+      "a bulletin board",
+      "headphones"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the white shirt looking at the monitor",
+      "the man in the suit standing still"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black headphones",
+      "facial_cues": [
+        "focused expression",
+        "furrowed brow"
+      ],
+      "body_cues": [],
+      "gaze": "downward and to the left"
+    },
+    {
+      "person": "a man in a dark suit and striped tie",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a language other than English.",
+  "emotion_description": "The man in the white shirt appears to be focused and serious, while the man in the suit looks serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

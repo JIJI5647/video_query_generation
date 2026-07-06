@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with brown hair wearing a dark shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "holding and looking at a large, folded piece of paper"
+      },
+      {
+        "person": "a woman with dark hair wearing a dark jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "looking at the paper and then up"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit stone hallway or room with a window in the background."
+    },
+    "objects": [
+      {
+        "object": "a large, folded piece of paper",
+        "visibility": "clearly visible",
+        "position": "held by the man",
+        "action": "being held and examined"
+      }
+    ],
+    "interactions": [
+      "The woman looks at the paper the man is holding."
+    ],
+    "key_actions": [
+      "The man holds a paper and looks at it, then looks up and speaks to the woman.",
+      "The woman looks at the paper and then looks up."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man with brown hair",
+      "facial_cues": [
+        "eyes wide",
+        "mouth open"
+      ],
+      "body_cues": [
+        "holding a paper"
+      ],
+      "gaze": "looking at the paper, then up and to his right"
+    },
+    {
+      "person": "the woman with dark hair",
+      "facial_cues": [
+        "eyes wide",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "looking at the paper"
+      ],
+      "gaze": "looking at the paper, then up and to her left"
+    }
+  ],
+  "audio_description": "A male voice speaks in a concerned tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

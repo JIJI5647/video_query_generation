@@ -1,0 +1,76 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing with hands on his hips"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking at a monitor"
+      },
+      {
+        "person": "three men in white shirts and black ties",
+        "visibility": "clearly visible",
+        "position": "midground",
+        "action": "sitting around a conference table"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a modern office or control room with a glass partition, a large conference table, and a monitor displaying a person in a suit"
+    },
+    "objects": [
+      "conference table",
+      "chairs",
+      "monitor",
+      "papers",
+      "mugs"
+    ],
+    "interactions": [
+      "the man in the white shirt is addressing the seated men"
+    ],
+    "key_actions": [
+      "standing",
+      "sitting",
+      "looking at a monitor"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black tie",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing with hands on hips"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a light blue shirt",
+      "facial_cues": [
+        "focusing on the monitor"
+      ],
+      "body_cues": [
+        "sitting"
+      ],
+      "gaze": "looking at the monitor"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a calm, declarative tone.",
+  "emotion_description": "The man speaking sounds serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

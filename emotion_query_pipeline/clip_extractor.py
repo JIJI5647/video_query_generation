@@ -101,6 +101,40 @@ def extract_clip(
     return out_path
 
 
+def extract_audio_track(
+    clip_path: PathLike, out_path: PathLike, overwrite: bool = True
+) -> Path:
+    """Extract the audio track of a (already-cut) clip into a standalone WAV.
+
+    Used for ``audio_video``-kind caption models (a separate audio-expert model
+    + a separate video-only model) so each segment gets its own audio slice
+    aligned to the same time range as its video clip, without re-deriving
+    timestamps from the source video a second time.
+
+    Raises:
+        RuntimeError: if ffmpeg is missing or extraction fails.
+    """
+    out_path = Path(out_path)
+    if out_path.is_file() and not overwrite:
+        return out_path
+
+    _require_ffmpeg()
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+
+    cmd = [
+        "ffmpeg", "-y", "-loglevel", "error",
+        "-i", str(clip_path),
+        "-vn", "-acodec", "pcm_s16le",
+        str(out_path),
+    ]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0 or not out_path.is_file():
+        raise RuntimeError(
+            f"ffmpeg failed to extract audio from {clip_path}: {result.stderr.strip()}"
+        )
+    return out_path
+
+
 def extract_windows(
     video_path: PathLike,
     video_id: str,

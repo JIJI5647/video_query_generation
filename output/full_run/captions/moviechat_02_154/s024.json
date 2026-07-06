@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with spiky dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking around with a serious expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with window blinds in the background and a lamp in the foreground"
+    },
+    "objects": [
+      "window blinds",
+      "lamp",
+      "necklace",
+      "black jacket",
+      "earring"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "turning head",
+      "looking around"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young man with spiky dark hair",
+      "facial_cues": [
+        "frown",
+        "serious expression",
+        "furrowed brow"
+      ],
+      "body_cues": [],
+      "gaze": "looking around the room"
+    }
+  ],
+  "audio_description": "A metallic clatter and scraping sound can be heard.",
+  "emotion_description": "The man appears to be suspicious and alert, reacting to the sound.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

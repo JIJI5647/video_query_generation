@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a beige suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing a black handgun forward with his right hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with vertical bars in the background, possibly a prison cell"
+    },
+    "objects": [
+      {
+        "object": "a black handgun",
+        "position": "held in the man's right hand"
+      },
+      {
+        "object": "a pink and white object",
+        "position": "in the foreground, partially obscuring the man"
+      }
+    ],
+    "interactions": [
+      "The man is pointing the handgun forward."
+    ],
+    "key_actions": [
+      "The man is pointing a handgun."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a beige suit",
+      "facial_cues": [
+        "open mouth",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "arm extended forward",
+        "hand holding the gun"
+      ],
+      "gaze": "looking forward, in the direction of the gun"
+    }
+  ],
+  "audio_description": "The audio consists of a single, sustained, low-pitched electronic tone.",
+  "emotion_description": "The man appears to be in a state of shock, surprise, or intense fear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

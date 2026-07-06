@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of people, mostly in light-colored shirts and dark pants, viewed from behind",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and watching a television screen"
+      },
+      {
+        "person": "a man in a suit and tie",
+        "visibility": "clearly visible",
+        "position": "on the television screen",
+        "action": "speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or briefing room with a dark, textured wall and a television mounted on it"
+    },
+    "objects": [
+      "a television screen",
+      "a large overhead light fixture"
+    ],
+    "interactions": [
+      "The people in the room are collectively watching the television."
+    ],
+    "key_actions": [
+      "The people are standing still and watching."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the group of people in the room",
+      "facial_cues": [],
+      "body_cues": [
+        "standing still",
+        "facing the television"
+      ],
+      "gaze": "towards the television screen"
+    }
+  ],
+  "audio_description": "A formal-sounding announcement is being made by a male voice over background music.",
+  "emotion_description": "The people in the room appear to be serious and attentive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

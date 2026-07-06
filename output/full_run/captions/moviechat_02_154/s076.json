@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s076",
+  "time_range": [
+    375.0,
+    380.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man in a red shirt and bandana",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "walking"
+      },
+      {
+        "person": "a man in a floral shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "walking"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime, dimly lit"
+    },
+    "objects": [],
+    "interactions": [
+      "The three men in the center and left are walking together."
+    ],
+    "key_actions": [
+      "The man in the floral shirt turns his head to the right and speaks."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the floral shirt",
+      "facial_cues": [
+        "his mouth is open as if speaking",
+        "his eyes are wide"
+      ],
+      "body_cues": [
+        "he turns his head to his right"
+      ],
+      "gaze": "looking to his right"
+    }
+  ],
+  "audio_description": "A male voice speaks in a low, urgent tone, followed by a loud, distorted electronic buzzer sound.",
+  "emotion_description": "The man in the floral shirt appears to be urgently warning the others, and the overall atmosphere is tense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

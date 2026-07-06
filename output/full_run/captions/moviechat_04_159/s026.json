@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and pointing his right hand forward"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk and looking at a computer"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with glass walls, a desk with computers, and a large photo board in the background"
+    },
+    "objects": [
+      "a computer monitor",
+      "a desk",
+      "computers",
+      "a photo board"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the white shirt points forward",
+      "a computer monitor displays a video of a man in a dark room"
+    ],
+    "visibility_notes": "The scene is a brightly lit office. The man in the foreground is the main focus."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "standing upright",
+        "pointing his right hand forward"
+      ],
+      "gaze": "looking forward, in the direction of his pointing"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm tone, followed by the sound of a computer mouse clicking.",
+  "emotion_description": "The man's expression and posture suggest he is serious and focused on giving an instruction.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

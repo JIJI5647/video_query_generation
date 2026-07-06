@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white uniform shirt with epaulets and a black tie",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "speaking"
+      },
+      {
+        "person": "a man in a light blue collared shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or meeting room with a dark chair and a wall in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "the man in the uniform is speaking to the man in the blue shirt"
+    ],
+    "key_actions": [
+      "speaking",
+      "listening"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white uniform shirt with epaulets and a black tie",
+      "facial_cues": [
+        "speaking",
+        "frowning"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking at the man in the blue shirt"
+    },
+    {
+      "person": "a man in a light blue collared shirt and dark tie",
+      "facial_cues": [
+        "listening",
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "looking down and to the side"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a clear, assertive tone.",
+  "emotion_description": "The man speaking sounds serious and authoritative. The other man appears to be listening intently.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a phone to his ear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit"
+    },
+    "objects": [
+      {
+        "name": "phone",
+        "description": "a silver-colored phone"
+      },
+      {
+        "name": "computer screen",
+        "description": "displaying lines of code and a blue audio waveform"
+      }
+    ],
+    "interactions": [
+      {
+        "actor": "the man",
+        "action": "talking on the phone"
+      }
+    ],
+    "key_actions": [
+      "man talking on phone",
+      "computer screen displaying data"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "focused expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "hand holding phone to ear"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio consists of a continuous, low-frequency electronic hum or drone.",
+  "emotion_description": "The man appears to be in a state of concentration or worry.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

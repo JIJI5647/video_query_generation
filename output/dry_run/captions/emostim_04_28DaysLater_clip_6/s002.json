@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark hooded jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running and looking behind him"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a checkered floor and a large window in the background"
+    },
+    "objects": [
+      {
+        "object": "a large mirror",
+        "position": "left",
+        "action": "reflecting the man's image"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man runs through the room",
+      "the man looks behind him"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark hooded jacket",
+      "facial_cues": [
+        "intense expression",
+        "determined look"
+      ],
+      "body_cues": [
+        "running",
+        "looking behind him"
+      ],
+      "gaze": "behind him"
+    }
+  ],
+  "audio_description": "intense, suspenseful music with a driving beat",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

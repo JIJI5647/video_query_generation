@@ -1,0 +1,76 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a desk and typing on a laptop"
+      },
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a person in a blue shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing near a wall with papers"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room that appears to be an office or command center, with a desk, a laptop, and papers taped to a wall"
+    },
+    "objects": [
+      "laptop",
+      "desk",
+      "papers",
+      "wall"
+    ],
+    "interactions": [
+      "the man in the light-colored shirt is focused on his work on the laptop"
+    ],
+    "key_actions": [
+      "typing on a laptop",
+      "standing and looking forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "focused expression",
+        "eyes on the laptop screen"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "downward at the laptop"
+    },
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A person is speaking in a low tone.",
+  "emotion_description": "The man in the light-colored shirt appears focused and concentrated, while the man in the dark suit appears serious and concerned.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

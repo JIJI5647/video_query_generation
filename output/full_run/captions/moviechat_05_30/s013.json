@@ -1,0 +1,44 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a bald man in a dark robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, smoky environment with a large, glowing orange object in the background"
+    },
+    "objects": [
+      "a large, glowing orange object (possibly a fire or magical effect)"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man stands still, observing the object"
+    ],
+    "visibility_notes": "The man's back is mostly to the camera, and the background is hazy and dark."
+  },
+  "visual_expression": [
+    {
+      "person": "a bald man in a dark robe",
+      "facial_cues": [],
+      "body_cues": [
+        "standing with a still posture"
+      ],
+      "gaze": "looking forward at the glowing object"
+    }
+  ],
+  "audio_description": "A low, continuous, ominous hum plays throughout the clip.",
+  "emotion_description": "The scene evokes a sense of dread and anticipation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

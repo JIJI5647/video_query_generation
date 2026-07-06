@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a child wearing a red and grey sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "writing on a door with a red crayon"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with a bed and a lamp in the background"
+    },
+    "objects": [
+      "a door",
+      "a red crayon",
+      "a bed",
+      "a lamp"
+    ],
+    "interactions": [
+      "the child writes on the door"
+    ],
+    "key_actions": [
+      "the child writes on the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a child wearing a red and grey sweater",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "holding a red crayon",
+        "writing on the door"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A child is speaking in a soft, muffled voice.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

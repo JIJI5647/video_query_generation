@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle"
+      }
+    ],
+    "scene": {
+      "location": "road",
+      "setting": "a rural, hilly landscape with green fields under a blue sky"
+    },
+    "objects": [
+      "bicycle",
+      "white car"
+    ],
+    "interactions": [
+      "the man on the bicycle is riding next to the white car"
+    ],
+    "key_actions": [
+      "riding a bicycle",
+      "driving a car"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit and tie",
+      "facial_cues": [
+        "broad smile"
+      ],
+      "body_cues": [
+        "leaning forward on the handlebars"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "Upbeat electronic music with a driving rhythm plays.",
+  "emotion_description": "The man appears happy and amused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,76 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and looking towards the center"
+      },
+      {
+        "person": "a man in a shiny, patterned shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "shaking hands with another man and smiling"
+      },
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "shaking hands with the man in the shiny shirt"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with off-white, square tiles on the wall"
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the shiny shirt shakes hands with the man in the suit."
+    ],
+    "key_actions": [
+      "Handshaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the shiny shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "shaking hands"
+      ],
+      "gaze": "looking at the man in the suit"
+    },
+    {
+      "person": "the man in the suit",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "shaking hands"
+      ],
+      "gaze": "looking at the man in the shiny shirt"
+    },
+    {
+      "person": "the man in the black shirt",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the other two men"
+    }
+  ],
+  "audio_description": "A person speaks in a calm, conversational tone, followed by another person speaking in a similar tone.",
+  "emotion_description": "The mood is positive and amicable, indicated by the smiles and handshake.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

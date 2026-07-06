@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running forward while holding and aiming a handgun"
+      },
+      {
+        "person": "a person in dark clothing",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "lying on the ground"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "an urban alleyway with concrete ground and a building with a metal shutter in the background"
+    },
+    "objects": [
+      {
+        "object": "a handgun",
+        "position": "held by the man in the suit"
+      }
+    ],
+    "interactions": [
+      "The man in the suit is aiming the handgun forward."
+    ],
+    "key_actions": [
+      "A person is lying on the ground.",
+      "A man in a suit is running and aiming a handgun."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and white shirt",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "running",
+        "leaning forward",
+        "hands gripping a handgun"
+      ],
+      "gaze": "looking forward, down the street"
+    }
+  ],
+  "audio_description": "Dramatic, suspenseful music with a strong, driving beat and a tense, string-based melody plays.",
+  "emotion_description": "The man's expression and the music convey a strong sense of fear, panic, and high-stakes urgency.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

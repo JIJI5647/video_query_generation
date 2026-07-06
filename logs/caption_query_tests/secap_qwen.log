@@ -1,0 +1,22 @@
+[caption-query-test] model=secap_qwen video_id=emostim_07_TheSilenceOfTheLambs_a_clip_2 segments=1
+/work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:02<00:08,  2.77s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:21<00:24, 12.10s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:40<00:15, 15.27s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:52<00:00, 13.85s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:52<00:00, 13.03s/it]
+qwen-vl-utils using torchcodec to read video.
+video_reader_backend torchcodec error, use torchvision as default, msg: Could not load libtorchcodec. Likely causes:
+          1. FFmpeg is not properly installed in your environment. We support
+             versions 4, 5, 6 and 7.
+          2. The PyTorch version (2.6.0+cu124) is not compatible with
+             this version of TorchCodec. Refer to the version compatibility
+             table:
+             https://github.com/pytorch/torchcodec?tab=readme-ov-file#installing-torchcodec.
+          3. Another runtime dependency; see exceptions below.
+        The following exceptions were raised as we tried to load libtorchcodec:
+        
+[start of libtorchcodec loading traceback]
+FFmpeg version 7: libavutil.so.59: cannot open shared object file: No such file or directory
+FFmpeg version 6: /work/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/torchcodec/libtorchcodec_core6.so: undefined symbol: _ZNK3c106Device3strB5cxx11Ev
+FFmpeg version 5: libavutil.so.57: cannot open shared object file: No such file or directory
+FFmpeg version 4: libavutil.so.56: cannot open shared object file: No such file or directory
+[end of libtorchcodec loading traceback].
+Asked to sample `fps` frames per second but no video metadata was provided which is required when sampling with `fps`. Defaulting to `fps=24`. Please provide `video_metadata` for more accurate results.

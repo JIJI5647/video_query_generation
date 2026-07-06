@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and holding a large knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a vintage television, a lamp, and a cluttered table with various items including makeup and a flower vase."
+    },
+    "objects": [
+      "large knife",
+      "vintage television",
+      "table lamp",
+      "table with makeup and other items",
+      "flower vase with red flowers",
+      "curtains"
+    ],
+    "interactions": [
+      "the boy holds the knife and appears to be examining or playing with it"
+    ],
+    "key_actions": [
+      "the boy holds a knife and looks at it intently"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy in a striped sweater",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "holding a knife",
+        "leaning slightly forward"
+      ],
+      "gaze": "downward at the knife"
+    }
+  ],
+  "audio_description": "A low, suspenseful musical sting plays, followed by a muffled, distorted voice saying something unintelligible.",
+  "emotion_description": "The boy's expression appears serious and focused, possibly indicating curiosity or concentration. The audio adds a layer of suspense or unease.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

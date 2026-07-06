@@ -1,0 +1,71 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a grey sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, holding a red cup and a piece of paper, speaking"
+      },
+      {
+        "person": "a man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing, leaning forward towards the other man, speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a kitchen with cabinets and a refrigerator in the background"
+    },
+    "objects": [
+      "a red cup",
+      "a piece of paper",
+      "kitchen cabinets",
+      "a refrigerator"
+    ],
+    "interactions": [
+      "the man in the black jacket is speaking to the man in the grey sweater"
+    ],
+    "key_actions": [
+      "the man in the black jacket leans forward while speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the grey sweater",
+      "facial_cues": [
+        "looking at the other man",
+        "listening attentively"
+      ],
+      "body_cues": [
+        "holding a cup and paper",
+        "sitting upright"
+      ],
+      "gaze": "on the other man"
+    },
+    {
+      "person": "the man in the black jacket",
+      "facial_cues": [
+        "furrowed brow",
+        "serious expression"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "gesturing with his hand"
+      ],
+      "gaze": "on the other man"
+    }
+  ],
+  "audio_description": "A man is speaking with a frustrated and questioning tone.",
+  "emotion_description": "The man in the black jacket sounds frustrated and is questioning the other man.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair wearing a dark coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "reaching his hand forward with a sinister expression"
+      },
+      {
+        "person": "a man in a patterned sweater and light shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in a stone corridor with a shocked expression"
+      }
+    ],
+    "scene": {
+      "location": "an underground stone corridor",
+      "setting": "dark and dimly lit with stone arches and a single light source in the background."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "a man in a dark coat extends his hand forward",
+      "a man in a sweater looks on in shock"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair wearing a dark coat",
+      "facial_cues": [
+        "sinister smile",
+        "intense stare"
+      ],
+      "body_cues": [
+        "reaching his hand forward"
+      ],
+      "gaze": "towards the camera"
+    },
+    {
+      "person": "a man in a patterned sweater and light shirt",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The audio contains a dog barking.",
+  "emotion_description": "The first man appears to be displaying a sinister or malicious emotion, while the second man looks shocked or terrified.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

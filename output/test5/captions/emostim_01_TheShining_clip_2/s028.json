@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe carrying a child",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "carrying a child towards a window in a bathroom"
+      }
+    ],
+    "scene": {
+      "location": "bathroom",
+      "setting": "a small room with white tiled walls and a window with cracked glass, appearing to be nighttime."
+    },
+    "objects": [
+      {
+        "object": "a child",
+        "visibility": "clearly visible",
+        "position": "in the arms of the woman",
+        "action": "being carried"
+      }
+    ],
+    "interactions": [
+      "The woman carries the child towards the window."
+    ],
+    "key_actions": [
+      "The woman carries the child and looks out the window."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a blue robe carrying a child",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "carrying a child",
+        "leaning forward"
+      ],
+      "gaze": "towards the window"
+    }
+  ],
+  "audio_description": "A loud, sustained, low-pitched electronic tone, like a siren or alarm, is heard throughout the clip.",
+  "temporal_description": "The electronic tone is continuous and unchanging throughout the duration of the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

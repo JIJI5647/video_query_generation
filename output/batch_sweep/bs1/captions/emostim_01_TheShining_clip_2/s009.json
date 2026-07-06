@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young child",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "writing on a door with a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom at night with a person sleeping in a bed in the background"
+    },
+    "objects": [
+      {
+        "obj": "knife",
+        "description": "a small knife being used to write"
+      },
+      {
+        "obj": "door",
+        "description": "a white wooden door being written on"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "writing on a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young child",
+      "facial_cues": [
+        "focused",
+        "determined"
+      ],
+      "body_cues": [
+        "holding a knife",
+        "writing on a door"
+      ],
+      "gaze": "on the door"
+    }
+  ],
+  "audio_description": "a high-pitched, electronic-sounding alarm or siren is heard.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking down a set of stairs"
+      },
+      {
+        "person": "a group of men in light blue shirts",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "walking down a set of stairs behind the first man"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "walking down a set of stairs"
+      }
+    ],
+    "scene": {
+      "location": "indoor stairwell",
+      "setting": "a modern building with metal railings and overhead lighting"
+    },
+    "objects": [
+      "a set of stairs",
+      "metal railings",
+      "overhead light fixture"
+    ],
+    "interactions": [
+      "a group of men are walking down a set of stairs together in a line"
+    ],
+    "key_actions": [
+      "walking down a set of stairs"
+    ],
+    "visibility_notes": "The group of men is descending a staircase in an indoor setting."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and striped tie",
+      "facial_cues": [],
+      "body_cues": [
+        "walking with a purposeful stride"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A single, sharp gunshot is heard.",
+  "emotion_description": "Unclear, as the audio cue is a gunshot, which could indicate surprise, fear, or tension.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

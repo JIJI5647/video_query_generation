@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark uniform",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running on a rocky shore at night, then falling to the ground"
+      },
+      {
+        "person": "a group of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running after the man"
+      }
+    ],
+    "scene": {
+      "location": "shoreline",
+      "setting": "a dark, rocky shore at night with water nearby"
+    },
+    "objects": [],
+    "interactions": [
+      "the group of people are chasing the man in the dark uniform"
+    ],
+    "key_actions": [
+      "running",
+      "falling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark uniform",
+      "facial_cues": [],
+      "body_cues": [
+        "running",
+        "falling"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A male voice shouts urgently, accompanied by sounds of heavy breathing and rapid footsteps.",
+  "emotion_description": "The man being chased appears to be panicked or desperate, while the pursuers sound determined.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

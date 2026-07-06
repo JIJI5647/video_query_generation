@@ -1,0 +1,93 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with hands on hips, holding a small object"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "right, background",
+        "action": "sitting and looking down"
+      },
+      {
+        "person": "a man in a police uniform",
+        "visibility": "partially visible",
+        "position": "left, foreground",
+        "action": "sitting and looking at a monitor"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with glass partitions and a CRT monitor"
+    },
+    "objects": [
+      {
+        "object": "a CRT monitor",
+        "position": "left, foreground",
+        "action": "displaying a security camera feed of a corridor"
+      },
+      {
+        "object": "a lanyard with an ID card",
+        "position": "around the neck of the man in the white shirt",
+        "action": "hanging"
+      }
+    ],
+    "interactions": [
+      "The man in the white shirt stands beside the man in the police uniform."
+    ],
+    "key_actions": [
+      "The man in the white shirt stands with his hands on his hips.",
+      "The man in the police uniform looks at the monitor."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and dark tie",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "standing with hands on hips",
+        "holding a small object"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a light blue shirt",
+      "facial_cues": [
+        "downcast gaze"
+      ],
+      "body_cues": [
+        "sitting"
+      ],
+      "gaze": "looking down"
+    },
+    {
+      "person": "a man in a police uniform",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "sitting",
+        "leaning forward"
+      ],
+      "gaze": "looking at the monitor"
+    }
+  ],
+  "audio_description": "A male voice speaks in a serious, declarative tone.",
+  "emotion_description": "The man in the white shirt appears serious and focused. The man in the light blue shirt appears somber or dejected.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

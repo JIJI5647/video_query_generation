@@ -1,0 +1,40 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person's hand",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing at a map"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, possibly a stone room with a window in the background"
+    },
+    "objects": [
+      {
+        "object": "an old map",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being pointed at"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a hand points at a map"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "two people are having a conversation, one expressing surprise and the other confirming what they saw.",
+  "emotion_description": "surprised",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

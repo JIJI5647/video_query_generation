@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car, speaking, and smiling"
+      },
+      {
+        "person": "a man in a dark hooded jacket",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting in the passenger seat"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "a dimly lit environment, possibly at night"
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the black shirt is speaking to the other man in the car"
+    ],
+    "key_actions": [
+      "The man in the black shirt speaks, turns his head slightly, and smiles."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "Smiling",
+        "Mouth open while speaking"
+      ],
+      "body_cues": [],
+      "gaze": "Looking forward and slightly to his right"
+    }
+  ],
+  "audio_description": "A man is speaking in a conversational tone.",
+  "emotion_description": "The man in the black shirt appears to be in a lighthearted or amused mood, as indicated by his smile.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

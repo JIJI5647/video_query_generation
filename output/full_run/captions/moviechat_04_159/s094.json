@@ -1,0 +1,81 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s094",
+  "time_range": [
+    465.0,
+    470.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and turning his head"
+      },
+      {
+        "person": "a man in a dark blue shirt",
+        "visibility": "clearly visible",
+        "position": "middle ground",
+        "action": "standing with hands clasped together"
+      },
+      {
+        "person": "a man in a shiny silver jacket",
+        "visibility": "clearly visible",
+        "position": "middle ground",
+        "action": "standing and gesturing with his hands"
+      },
+      {
+        "person": "an older man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "right side",
+        "action": "standing and raising his hands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with tiled walls, a dark wooden door, and framed pictures on the wall"
+    },
+    "objects": [
+      "a dark wooden door",
+      "framed pictures on the wall",
+      "a red diamond-shaped decoration on the door"
+    ],
+    "interactions": [
+      "The man in the silver jacket gestures with his hands as if speaking to the older man."
+    ],
+    "key_actions": [
+      "The man in the black jacket turns his head to look at the others.",
+      "The man in the blue shirt clasps his hands together."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the silver jacket",
+      "facial_cues": [
+        "visible smile",
+        "open mouth"
+      ],
+      "body_cues": [
+        "gesturing with hands",
+        "standing with an open posture"
+      ],
+      "gaze": "looking towards the older man"
+    },
+    {
+      "person": "the man in the dark blue shirt",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "hands clasped together in front of him"
+      ],
+      "gaze": "looking towards the older man"
+    }
+  ],
+  "audio_description": "The audio contains multiple male voices speaking excitedly and rapidly in a non-English language.",
+  "emotion_description": "The man in the silver jacket appears excited and welcoming, while the man in the blue shirt appears serious or anxious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

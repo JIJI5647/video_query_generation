@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person with long brown hair in the center",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and holding a wand, pointing it forward"
+      },
+      {
+        "person": "a group of people in the background",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, grassy area"
+    },
+    "objects": [
+      "wands"
+    ],
+    "interactions": [
+      "the central person points a wand forward, seemingly casting a spell"
+    ],
+    "key_actions": [
+      "pointing a wand forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person with long brown hair in the center",
+      "facial_cues": [
+        "intense expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "standing firmly"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, sustained, and ominous electronic tone plays throughout the clip.",
+  "emotion_description": "The central person appears determined and focused, while the overall atmosphere is tense and ominous.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with brown hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding and looking at a large, open, old-looking book"
+      },
+      {
+        "person": "a young woman with long brown hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at the same book as the man"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dimly lit, stone-walled room, possibly a castle or old building, with a window with diamond-shaped panes in the background"
+    },
+    "objects": [
+      "a large, old-looking book with handwritten text and diagrams"
+    ],
+    "interactions": [
+      "the two people are standing close together, both intently focused on the book"
+    ],
+    "key_actions": [
+      "the man and woman are reading the book together"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the young man with brown hair",
+      "facial_cues": [
+        "concentrated expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "leaning in towards the book"
+      ],
+      "gaze": "looking down at the book"
+    },
+    {
+      "person": "the young woman with long brown hair",
+      "facial_cues": [
+        "concentrated expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "leaning in towards the book"
+      ],
+      "gaze": "looking down at the book"
+    }
+  ],
+  "audio_description": "A tense and urgent conversation between two people is heard.",
+  "emotion_description": "The two individuals appear to be anxious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

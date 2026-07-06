@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "looking intently at another person"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "being held by the other man and looking distressed"
+      }
+    ],
+    "scene": {
+      "location": "inside a vehicle",
+      "setting": "dimly lit, appears to be at night"
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the black jacket is holding the man in the black shirt by the neck."
+    ],
+    "key_actions": [
+      "A man is holding another man's neck in a threatening manner."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black jacket",
+      "facial_cues": [
+        "sweating",
+        "intense gaze",
+        "stressed expression"
+      ],
+      "body_cues": [
+        "hand gripping the other person's neck"
+      ],
+      "gaze": "looking at the man in the black shirt"
+    },
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "sweating",
+        "strained expression",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "head tilted back, being choked"
+      ],
+      "gaze": "looking up at the man holding him"
+    }
+  ],
+  "audio_description": "The audio captures a person speaking in a strained, emotional voice, accompanied by heavy breathing.",
+  "emotion_description": "The man in the black jacket appears to be angry and forceful, while the man in the black shirt appears to be scared and in distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

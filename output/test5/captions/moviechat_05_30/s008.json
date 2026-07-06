@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark, textured jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "reaching out his hand, palm open, towards the other person's hand"
+      },
+      {
+        "person": "a woman in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "reaching out her hand, palm open, towards the other person's hand"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "under a cloudy sky with a faint light source in the background, suggesting dusk or dawn"
+    },
+    "objects": [],
+    "interactions": [
+      "the two people reach towards each other, their hands almost touching"
+    ],
+    "key_actions": [
+      "reaching out hands",
+      "almost touching hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark, textured jacket",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "reaching out his hand"
+      ],
+      "gaze": "towards the other person's hand"
+    },
+    {
+      "person": "a woman in a dark jacket",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "reaching out her hand"
+      ],
+      "gaze": "towards the other person's hand"
+    }
+  ],
+  "audio_description": "A low, resonant, and ominous sound, like a deep horn or a large bell, plays in the background.",
+  "temporal_description": "The sound begins at the start of the clip and continues throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

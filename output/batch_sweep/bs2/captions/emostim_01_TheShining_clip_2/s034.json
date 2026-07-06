@@ -1,0 +1,73 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket and blue jeans",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking into a room, holding an axe"
+      },
+      {
+        "person": "a young boy in a red sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing in the snow, looking up with a scared expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room and outdoor snowy area",
+      "setting": "The man enters a room from a hallway. The scene then cuts to a dark, snowy outdoor area where the boy is standing."
+    },
+    "objects": [
+      "axe",
+      "snow",
+      "lamp",
+      "refrigerator",
+      "door"
+    ],
+    "interactions": [
+      "The man walks into the room with the axe.",
+      "The boy stands in the snow, looking up."
+    ],
+    "key_actions": [
+      "The man walks into the room",
+      "The boy stands in the snow"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red jacket and blue jeans",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "holding an axe",
+        "walking"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a young boy in a red sweater",
+      "facial_cues": [
+        "mouth open",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "standing still",
+        "hands clenched"
+      ],
+      "gaze": "looking up and to the left"
+    }
+  ],
+  "audio_description": "The audio contains a loud, high-pitched, screeching sound.",
+  "emotion_description": "The boy appears to be in a state of fear and distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

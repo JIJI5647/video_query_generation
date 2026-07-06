@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down with a serious expression"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "sitting and smoking a cigarette"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit with a focused light source"
+    },
+    "objects": [
+      "a lit cigarette",
+      "a briefcase"
+    ],
+    "interactions": [
+      "a hand reaches for a briefcase"
+    ],
+    "key_actions": [
+      "a man looks down",
+      "a man smokes a cigarette",
+      "a hand opens a briefcase"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "smoking"
+      ],
+      "body_cues": [
+        "sitting"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A man speaks in a calm, resigned tone.",
+  "emotion_description": "The man in the foreground appears serious and resolute, while the other man's expression is obscured.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a small child"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a window in the background"
+    },
+    "objects": [
+      {
+        "object": "a child",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The woman is holding the child tightly."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with dark hair",
+      "facial_cues": [
+        "mouth open",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "holding the child tightly"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud crash followed by a scream.",
+  "temporal_description": "The audio starts with a loud crash, followed by a scream.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

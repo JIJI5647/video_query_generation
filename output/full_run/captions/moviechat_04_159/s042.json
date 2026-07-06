@@ -1,0 +1,84 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit with a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking to his left"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "walking past the camera"
+      },
+      {
+        "person": "a man with glasses",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting in a car"
+      },
+      {
+        "person": "a man with a mustache",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting in a car"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway and car interior",
+      "setting": "a dimly lit hallway with reflective surfaces, followed by the interior of a car at night"
+    },
+    "objects": [
+      {
+        "object": "a car",
+        "description": "an interior view of a car at night, with a lit-up sign on the rearview mirror"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the foreground looks to his left",
+      "a man walks past the camera",
+      "men are sitting in a car at night"
+    ],
+    "visibility_notes": "The scene transitions from a hallway to the inside of a car. The lighting is dim in both settings."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit with a white shirt",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [],
+      "gaze": "to his left"
+    },
+    {
+      "person": "a man with glasses",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with a mustache",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The audio contains a male voice speaking in Chinese, followed by a low, tense musical score that creates a suspenseful atmosphere.",
+  "emotion_description": "The man in the foreground appears serious and focused. The man in the car appears serious. The overall mood is tense and suspenseful.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,65 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the blue shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on a couch and laughing heartily"
+      },
+      {
+        "person": "the man in the red shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "sitting on a couch and extending a hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded room with people and tables in the background, likely a cafe or a lounge"
+    },
+    "objects": [
+      {
+        "object": "couch",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being sat on by both men"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "the man in the red shirt extends his hand to the man in the blue shirt"
+      }
+    ],
+    "key_actions": [
+      "the man in the blue shirt is laughing",
+      "the man in the red shirt is extending his hand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the blue shirt",
+      "facial_cues": [
+        "wide smile",
+        "eyes closed in laughter",
+        "cheeks raised"
+      ],
+      "body_cues": [
+        "leaning back slightly",
+        "hand raised in a laughing gesture"
+      ],
+      "gaze": "downwards"
+    }
+  ],
+  "audio_description": "a man speaking, followed by laughter from an audience.",
+  "emotion_description": "happy",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

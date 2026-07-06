@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a grey suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking to his right with a serious expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a wall featuring a framed picture and a light-colored tiled lower section"
+    },
+    "objects": [
+      {
+        "object": "a silver Motorola flip phone",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "displaying a text message on its screen"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit looks to his right.",
+      "A close-up of a phone screen shows a new message notification."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a grey suit",
+      "facial_cues": [
+        "serious expression",
+        "frown"
+      ],
+      "body_cues": [],
+      "gaze": "to his right"
+    }
+  ],
+  "audio_description": "The audio features a male voice speaking in a foreign language.",
+  "emotion_description": "The man in the suit appears to be concerned or serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

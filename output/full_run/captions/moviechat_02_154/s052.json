@@ -1,0 +1,84 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting and looking forward"
+      },
+      {
+        "person": "a man in a blue shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting and looking forward"
+      },
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting at a desk"
+      },
+      {
+        "person": "a man in a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "entering through a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or interrogation room with wood-paneled walls and a large desk"
+    },
+    "objects": [
+      "a large black briefcase",
+      "a wooden desk",
+      "chairs",
+      "papers"
+    ],
+    "interactions": [
+      "two men are seated at a desk facing a third man",
+      "a fourth man enters the room"
+    ],
+    "key_actions": [
+      "a man enters the room"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a blue shirt",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a plaid shirt",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio contains dialogue and a dramatic musical score.",
+  "emotion_description": "The overall atmosphere is tense and suspenseful.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

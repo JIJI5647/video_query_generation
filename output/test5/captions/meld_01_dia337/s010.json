@@ -1,0 +1,65 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking and gesturing with his hands"
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "standing and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a light fixture and a framed picture on the wall"
+    },
+    "objects": [
+      {
+        "name": "light fixture",
+        "position": "left",
+        "action": "mounted on the wall"
+      },
+      {
+        "name": "framed picture",
+        "position": "background",
+        "action": "hanging on the wall"
+      }
+    ],
+    "interactions": [
+      "The man in the pink shirt is speaking to the man in the blue shirt."
+    ],
+    "key_actions": [
+      "The man in the pink shirt talks and gestures with his hands.",
+      "The man in the blue shirt listens."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "toward the man in the blue shirt"
+    }
+  ],
+  "audio_description": "A man is speaking in a conversational tone.",
+  "temporal_description": "The man in the pink shirt continues to speak throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in front of two computer monitors"
+      },
+      {
+        "person": "a person in a dark suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting and looking at a computer monitor"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with dark curtains, likely a command center or office"
+    },
+    "objects": [
+      "computer monitors",
+      "dark curtains"
+    ],
+    "interactions": [
+      "the man in the foreground is observing the monitors"
+    ],
+    "key_actions": [
+      "the man standing in front of the monitors"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [],
+      "body_cues": [
+        "standing still",
+        "leaning forward slightly"
+      ],
+      "gaze": "towards the computer monitors"
+    }
+  ],
+  "audio_description": "The audio features a loud, distorted, and suspenseful electronic sound that starts abruptly.",
+  "emotion_description": "The person's still and focused posture suggests concentration or anticipation, while the audio creates a tense and suspenseful atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

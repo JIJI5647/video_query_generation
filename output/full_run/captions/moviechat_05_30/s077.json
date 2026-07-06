@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing round glasses and a brown coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and to the right"
+      },
+      {
+        "person": "a person in a dark cloak",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "standing and reaching for an object on a table"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with cluttered furniture and various objects"
+    },
+    "objects": [
+      "an armillary sphere",
+      "ropes",
+      "a table",
+      "a lamp",
+      "a book",
+      "a leather armchair"
+    ],
+    "interactions": [
+      "the person in the cloak reaches for an object on the table"
+    ],
+    "key_actions": [
+      "the man in glasses looks down",
+      "the person in the cloak reaches for an object on the table"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing round glasses and a brown coat",
+      "facial_cues": [
+        "looking down",
+        "focused expression"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A low, somber, and dramatic orchestral score plays, creating a tense and mysterious atmosphere.",
+  "emotion_description": "The man's focused expression and the tense music suggest he is in a serious, suspenseful, or contemplative state.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

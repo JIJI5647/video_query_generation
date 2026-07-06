@@ -1,0 +1,61 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "carrying a child"
+      },
+      {
+        "person": "a child",
+        "visibility": "partially visible",
+        "position": "in the arms of the woman",
+        "action": "being carried"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with white tiled walls and a small, high window"
+    },
+    "objects": [
+      {
+        "object": "a toilet",
+        "position": "background",
+        "action": "stationary"
+      },
+      {
+        "object": "a window",
+        "position": "background",
+        "action": "stationary"
+      }
+    ],
+    "interactions": [
+      "The woman is carrying the child."
+    ],
+    "key_actions": [
+      "The woman carries the child towards the window."
+    ],
+    "visibility_notes": "The child's face is not visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [],
+      "body_cues": [
+        "carrying a child"
+      ],
+      "gaze": "looking towards the window"
+    }
+  ],
+  "audio_description": "A loud, distorted, and low-frequency electronic buzzing sound is heard.",
+  "emotion_description": "The person's posture suggests urgency and concern.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

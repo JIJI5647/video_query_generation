@@ -1,0 +1,65 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "speaking with a concerned expression"
+      },
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "listening and responding"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "hallway with a wooden door and a framed picture on the wall"
+    },
+    "objects": [],
+    "interactions": [
+      "the two men are having a conversation"
+    ],
+    "key_actions": [
+      "the man in the blue plaid shirt expresses concern",
+      "the man in the pink plaid shirt offers to help look for something"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue plaid shirt",
+      "facial_cues": [
+        "concerned",
+        "worried"
+      ],
+      "body_cues": [
+        "standing with an open posture"
+      ],
+      "gaze": "looking at the man in the pink plaid shirt"
+    },
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "calm",
+        "reassuring"
+      ],
+      "body_cues": [
+        "gesturing with his hand"
+      ],
+      "gaze": "looking at the man in the blue plaid shirt"
+    }
+  ],
+  "audio_description": "two male voices are having a conversation",
+  "emotion_description": "The man in the blue plaid shirt sounds worried, while the man in the pink plaid shirt sounds calm and reassuring.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

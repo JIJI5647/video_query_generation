@@ -1,0 +1,71 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a grey suit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking forward with a smile, looking up and to his right"
+      },
+      {
+        "person": "a man in a patterned shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "walking alongside the man in the suit, with his arm around the man in the suit"
+      },
+      {
+        "person": "two men in dark clothing",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "walking behind the other two men"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with greenish-yellow tiled walls, a dark wooden door with a red diamond-shaped decoration, and a dark wooden bench with carved details"
+    },
+    "objects": [
+      {
+        "description": "a dark wooden door with a brass handle and a red diamond-shaped decoration with Chinese characters",
+        "position": "right"
+      },
+      {
+        "description": "a dark wooden bench with carved details",
+        "position": "right"
+      },
+      {
+        "description": "framed pictures on the wall",
+        "position": "right"
+      }
+    ],
+    "interactions": [
+      "The man in the patterned shirt has his arm around the man in the suit."
+    ],
+    "key_actions": [
+      "The group of men is walking from the left side of the frame towards the right."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a grey suit",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "walking forward with a relaxed posture"
+      ],
+      "gaze": "looking up and to his right"
+    }
+  ],
+  "audio_description": "A male voice calls out a name repeatedly in a casual tone.",
+  "emotion_description": "The man in the suit appears happy and friendly, while the overall mood of the group seems casual and relaxed.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

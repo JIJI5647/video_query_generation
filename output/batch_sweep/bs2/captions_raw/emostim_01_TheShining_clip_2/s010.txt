@@ -1,0 +1,4 @@
+# parse failure: reason=salvaged_for_generation
+# segment_id=s010
+
+[{"segment_id": "s009 (40.00-45.00s)", "time_range": [40, 45], "visual_objective": {"people": [{"person": "a young boy", "visibility": "clearly visible", "position": "foreground", "action": "writing on a door with a red marker"}], "scene": {"location": "indoor room", "setting": "a bedroom at night, with a bed and a lamp visible in the background"}, "objects": ["a red marker", "a door", "a bed", "a lamp"], "interactions": ["the boy writes on the door"], "key_actions": ["the boy writes on the door"], "visibility_notes": ""}, "visual_expression": [{"person": "a young boy", "facial_cues": ["focused expression"], "body_cues": ["leaning forward", "holding a red marker"], "gaze": "looking at the door"}], "audio_description": "A child's voice is heard speaking in the background.", "emotion_description": "neutral", "confidence": "high", "evidence_strength": "clear"}]

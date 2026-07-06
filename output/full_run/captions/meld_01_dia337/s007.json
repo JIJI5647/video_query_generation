@@ -1,0 +1,71 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bending over a couch, then turning to face the other man"
+      },
+      {
+        "person": "the man in the blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and observing the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a beige couch, a side table, and a framed picture on the wall"
+    },
+    "objects": [
+      "couch",
+      "side table",
+      "framed picture",
+      "lamp"
+    ],
+    "interactions": [
+      "the man in the pink plaid shirt turns to confront the man in the blue plaid shirt"
+    ],
+    "key_actions": [
+      "the man in the pink plaid shirt bends over and then stands up to face the other man"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the pink plaid shirt",
+      "facial_cues": [
+        "brow furrowed",
+        "mouth open"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "turning sharply"
+      ],
+      "gaze": "looking directly at the other man"
+    },
+    {
+      "person": "the man in the blue plaid shirt",
+      "facial_cues": [
+        "brow furrowed",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "standing still",
+        "hands behind back"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "A male voice speaks with a questioning and slightly exasperated tone, followed by another male voice speaking defensively.",
+  "emotion_description": "The man in the pink plaid shirt sounds annoyed and confrontational, while the man in the blue plaid shirt sounds defensive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

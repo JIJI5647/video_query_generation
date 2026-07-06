@@ -1,0 +1,78 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black V-neck shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still and looking forward"
+      },
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing still and looking forward"
+      },
+      {
+        "person": "a group of people in an office",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at desks and standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor office",
+      "setting": "dimly lit with metal grilles on the windows, a TV screen, and desks with people inside"
+    },
+    "objects": [
+      "metal grilles",
+      "TV screen",
+      "desks",
+      "laptops",
+      "office chairs"
+    ],
+    "interactions": [
+      "the people in the office are gathered together"
+    ],
+    "key_actions": [
+      "standing still",
+      "sitting",
+      "looking forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black V-neck shirt",
+      "facial_cues": [
+        "serious expression",
+        "staring"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "serious expression",
+        "staring"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "a suspenseful, electronic music track plays with a synthesizer melody.",
+  "emotion_description": "The people in the scene appear serious and tense, suggesting a moment of high-stakes deliberation or anticipation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

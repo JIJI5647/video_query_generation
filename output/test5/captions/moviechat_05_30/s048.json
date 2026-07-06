@@ -1,0 +1,62 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long red hair in a striped shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing close to a man, touching his face and neck with both hands, then turning and walking away down a staircase with other students."
+      },
+      {
+        "person": "a man with dark hair and glasses in a light brown jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing close to the woman, looking at her, then looking in the direction she walks."
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a wide, stone staircase in a school-like building with many students in the background."
+    },
+    "objects": [],
+    "interactions": [
+      "The woman and the man are in a close, intimate interaction, touching each other's faces and necks."
+    ],
+    "key_actions": [
+      "The woman turns and walks down the staircase."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman with long red hair",
+      "facial_cues": [
+        "her expression is serious and her mouth is slightly open"
+      ],
+      "body_cues": [
+        "she touches the man's face and neck with both hands, then turns and walks away"
+      ],
+      "gaze": "looking at the man, then looking forward as she walks away."
+    },
+    {
+      "person": "the man with dark hair and glasses",
+      "facial_cues": [
+        "his expression is serious and he is looking intently at the woman"
+      ],
+      "body_cues": [
+        "he stands still, looking at the woman"
+      ],
+      "gaze": "looking at the woman, then looking in the direction she walks."
+    }
+  ],
+  "audio_description": "A person is speaking in a foreign language, followed by a loud, distorted, and dramatic sound effect.",
+  "temporal_description": "A person speaks, then a loud, dramatic sound effect begins.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

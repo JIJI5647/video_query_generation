@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt driving a car",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "driving and speaking"
+      },
+      {
+        "person": "a man in a dark jacket in the passenger seat",
+        "visibility": "clearly visible",
+        "position": "right side",
+        "action": "looking forward"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "a car is moving at night, with rain or fog on the windshield"
+    },
+    "objects": [
+      "a steering wheel",
+      "a car seat"
+    ],
+    "interactions": [
+      "the driver is speaking while driving"
+    ],
+    "key_actions": [
+      "driving",
+      "speaking"
+    ],
+    "visibility_notes": "The view is from inside the car, looking forward through the windshield."
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a black shirt driving a car",
+      "facial_cues": [
+        "his mouth is moving as he speaks",
+        "his eyes are wide"
+      ],
+      "body_cues": [
+        "his hands are on the steering wheel"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "the man in a dark jacket in the passenger seat",
+      "facial_cues": [
+        "his face is partially obscured by the car's interior"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, narrative tone, with a slight echo.",
+  "emotion_description": "The driver appears to be calmly explaining something, possibly with a hint of surprise or disbelief.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

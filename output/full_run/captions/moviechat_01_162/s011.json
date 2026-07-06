@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of people in an office",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and watching a television screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor office",
+      "setting": "a modern office with cubicles, glass partitions, and hanging industrial-style lights. A television screen is on in the background."
+    },
+    "objects": [
+      "television screen",
+      "office cubicles",
+      "hanging lights",
+      "glass partitions"
+    ],
+    "interactions": [
+      "The group of people are gathered together, all looking towards the television screen."
+    ],
+    "key_actions": [
+      "The people are standing still and focused on the television."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a group of people in an office",
+      "facial_cues": [],
+      "body_cues": [
+        "standing and watching a television screen"
+      ],
+      "gaze": "directed at the television screen"
+    }
+  ],
+  "audio_description": "A news report is being played, with a female narrator speaking in a formal tone.",
+  "emotion_description": "The people appear to be attentive and focused on the news report.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

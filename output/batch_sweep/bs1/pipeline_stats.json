@@ -1,0 +1,42 @@
+{
+  "total_videos": 5,
+  "total_segments": 186,
+  "total_raw_captions": 186,
+  "total_initial_queries": 81,
+  "total_accepted_queries": 39,
+  "total_discarded_queries": 42,
+  "average_accepted_queries_per_video": 7.8,
+  "emotion_distribution": {
+    "neutral": 140,
+    "fear": 31,
+    "angry": 3,
+    "excited": 3,
+    "happy": 2,
+    "surprised": 6,
+    "frustrated": 1
+  },
+  "query_type_distribution_initial": {
+    "evidence_cue": 11,
+    "emotion_state": 65,
+    "explicit_event": 5
+  },
+  "query_type_distribution_final_accepted": {
+    "evidence_cue": 7,
+    "emotion_state": 27,
+    "explicit_event": 5
+  },
+  "rewrite_count_distribution": {
+    "0": 80,
+    "1": 1
+  },
+  "pass_rate_after_initial_verification": 0.9136,
+  "pass_rate_after_rewrites": 0.4815,
+  "discarded_query_count": 42,
+  "diversity_warnings": [
+    "[emostim_01_TheShining_clip_2] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_04_28DaysLater_clip_6] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_02_dia224] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_05_30] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing"
+  ]
+}

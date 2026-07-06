@@ -1,0 +1,70 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "speaking and gesturing with his hands"
+      },
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "listening and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wooden door and a wall with a light fixture and a mirror"
+    },
+    "objects": [
+      "a wooden door",
+      "a light fixture",
+      "a mirror"
+    ],
+    "interactions": [
+      "the two men are having a conversation"
+    ],
+    "key_actions": [
+      "speaking",
+      "gesturing",
+      "listening"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue plaid shirt",
+      "facial_cues": [
+        "open mouth",
+        "raised eyebrows"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "towards the other man"
+    },
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "open mouth",
+        "raised eyebrows"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "towards the other man"
+    }
+  ],
+  "audio_description": "Two men are having a conversation with clear audio.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

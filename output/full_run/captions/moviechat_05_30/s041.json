@@ -1,0 +1,75 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running"
+      },
+      {
+        "person": "a man in a dark robe",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "running"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "casting a spell"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark, arched stone corridor with a metal walkway and chain barriers"
+    },
+    "objects": [
+      "a metal walkway",
+      "chain barriers",
+      "a metal gate"
+    ],
+    "interactions": [
+      "the man in the suit runs towards the man in the robe",
+      "the man in the robe casts a spell at the man in the suit"
+    ],
+    "key_actions": [
+      "running",
+      "casting a spell",
+      "a magical explosion"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "determined expression"
+      ],
+      "body_cues": [
+        "running with purpose"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a dark robe",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "casting a spell with his hand"
+      ],
+      "gaze": "towards the man in the suit"
+    }
+  ],
+  "audio_description": "A loud, magical spell is cast, followed by a powerful explosion and a crashing sound.",
+  "emotion_description": "Intense and dramatic",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

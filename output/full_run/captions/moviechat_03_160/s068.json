@@ -1,0 +1,83 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and pointing a device at a group of people"
+      },
+      {
+        "person": "a group of people",
+        "visibility": "clearly visible",
+        "position": "left and center",
+        "action": "sitting at desks and looking towards the man in the suit"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking away from a desk"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or classroom with desks, chairs, a television on a stand, and blinds covering the windows"
+    },
+    "objects": [
+      "desks",
+      "chairs",
+      "television",
+      "blinds",
+      "microphones",
+      "laptops"
+    ],
+    "interactions": [
+      "a man in a suit is addressing a seated group of people, pointing at them with a device"
+    ],
+    "key_actions": [
+      "a man in a suit pointing at a group of people",
+      "a man in a light blue shirt walking away from a desk"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [],
+      "body_cues": [
+        "standing upright",
+        "pointing with his right hand"
+      ],
+      "gaze": "directed at the group of people"
+    },
+    {
+      "person": "a group of people",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting",
+        "looking towards the man in the suit"
+      ],
+      "gaze": "directed at the man in the suit"
+    },
+    {
+      "person": "a man in a light blue shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "walking away from a desk",
+        "turning his back to the camera"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A tense, suspenseful electronic music track with a prominent, rhythmic beat plays in the background.",
+  "emotion_description": "The atmosphere is tense and serious, as suggested by the suspenseful music and the focused demeanor of the people in the room.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

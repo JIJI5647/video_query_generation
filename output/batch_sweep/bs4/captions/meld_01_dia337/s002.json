@@ -1,0 +1,77 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking, holding a small white object."
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and listening, then looking down and away."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hotel room or apartment with a couch, a wall sconce, and a framed picture."
+    },
+    "objects": [
+      {
+        "object": "a small white object",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "held in the hand of the man in the pink shirt."
+      },
+      {
+        "object": "a framed picture",
+        "visibility": "clearly visible",
+        "position": "wall",
+        "action": "hanging on the wall."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the pink shirt holds up a small white object while speaking."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a pink plaid shirt",
+      "facial_cues": [
+        "questioning",
+        "confident"
+      ],
+      "body_cues": [
+        "holding an object",
+        "gesturing slightly"
+      ],
+      "gaze": "looking at the man in the blue shirt."
+    },
+    {
+      "person": "the man in a blue plaid shirt",
+      "facial_cues": [
+        "unimpressed",
+        "dismissive"
+      ],
+      "body_cues": [
+        "looking down",
+        "turning his head away"
+      ],
+      "gaze": "looking down or away from the other man."
+    }
+  ],
+  "audio_description": "A man speaks in a matter-of-fact tone, followed by another man speaking in a questioning tone.",
+  "emotion_description": "Confident and dismissive",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

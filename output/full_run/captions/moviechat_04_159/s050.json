@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking on a mobile phone"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and listening"
+      }
+    ],
+    "scene": {
+      "location": "an outdoor balcony at night",
+      "setting": "an urban environment with buildings in the background"
+    },
+    "objects": [
+      "mobile phone",
+      "black railing"
+    ],
+    "interactions": [
+      "the man in the light-colored shirt is on a phone call while the man in the dark suit stands beside him"
+    ],
+    "key_actions": [
+      "talking on a phone",
+      "listening"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "looking down and to the side"
+      ],
+      "body_cues": [
+        "hand on hip"
+      ],
+      "gaze": "looking down and to the side"
+    }
+  ],
+  "audio_description": "A male voice speaks in a neutral tone.",
+  "emotion_description": "The man on the phone appears focused and possibly slightly preoccupied.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

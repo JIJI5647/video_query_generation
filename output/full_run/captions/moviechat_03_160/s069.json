@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s069",
+  "time_range": [
+    340.0,
+    345.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man with short, graying hair in a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward with a serious expression"
+      },
+      {
+        "person": "a man in a black V-neck shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward with a serious expression"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the man in the light-colored suit"
+      }
+    ],
+    "scene": {
+      "location": "an indoor location with dim, greenish lighting",
+      "setting": "a dimly lit room with a metal gate or fence in the background"
+    },
+    "objects": [
+      {
+        "object": "a metal gate or fence",
+        "position": "background"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the light-colored suit is standing still.",
+      "The man in the black shirt is standing still."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "an older man with short, graying hair in a light-colored suit jacket",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow",
+        "tense jaw"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a black V-neck shirt",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow",
+        "tense jaw"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio contains a dramatic, suspenseful musical score with a prominent, rhythmic beat.",
+  "emotion_description": "The expressions and tense music suggest a serious and suspenseful mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

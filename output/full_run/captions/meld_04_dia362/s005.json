@@ -1,0 +1,52 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white lab coat",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and talking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with a bed, medical equipment, and pink bedding"
+    },
+    "objects": [
+      "hospital bed",
+      "medical equipment",
+      "pillow",
+      "blanket"
+    ],
+    "interactions": [
+      "the woman in the lab coat is speaking"
+    ],
+    "key_actions": [
+      "the woman in the lab coat is speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white lab coat",
+      "facial_cues": [
+        "her mouth is open as she is speaking",
+        "her expression is focused"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "looking towards the left of the frame"
+    }
+  ],
+  "audio_description": "A woman is speaking in a clear and conversational tone.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

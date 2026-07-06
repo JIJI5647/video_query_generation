@@ -1,0 +1,76 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "sitting on a couch and speaking"
+      },
+      {
+        "person": "a man in a blue shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting on a couch and laughing"
+      },
+      {
+        "person": "a woman in a brown dress",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with an orange couch and other people in the background, resembling a living room or a coffee shop set"
+    },
+    "objects": [
+      "an orange couch",
+      "a green pillar"
+    ],
+    "interactions": [
+      "the man in the red shirt speaks to the man in the blue shirt, who then laughs in response"
+    ],
+    "key_actions": [
+      "speaking",
+      "laughing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red shirt",
+      "facial_cues": [
+        "raised eyebrows",
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "looking at the man in the blue shirt"
+    },
+    {
+      "person": "a man in a blue shirt",
+      "facial_cues": [
+        "wide open eyes",
+        "wide smile",
+        "laughing"
+      ],
+      "body_cues": [
+        "bending forward and shaking his head while laughing"
+      ],
+      "gaze": "looking at the man in the red shirt"
+    }
+  ],
+  "audio_description": "A male voice asks a question, followed by loud audience laughter.",
+  "emotion_description": "The man in the red shirt sounds surprised or incredulous, while the man in the blue shirt is clearly amused and laughing.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

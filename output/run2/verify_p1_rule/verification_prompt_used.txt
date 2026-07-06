@@ -1,0 +1,32 @@
+PROMPT VERSION: verification_prompt_rule_base_clean_v1
+
+TASK:
+Watch the provided video clip(s). If several clips are given, treat them as one continuous moment. For each query, judge three independent dimensions.
+
+Use only the video clip(s) and the query text.
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+{{include: verification_rules.txt}}
+
+QUERIES TO VERIFY:
+{queries_json}
+
+OUTPUT:
+Return valid JSON only. Do not include markdown, explanations, or extra text.
+
+{
+  "video_id": "{video_id}",
+  "round_index": {round_index},
+  "results": [
+    {
+      "query_id": "<query id>",
+      "relevance_pass": <true | false>,
+      "answerability_pass": <true | false>,
+      "query_quality_pass": <true | false>,
+      "failure_reason": "<empty if all true; one short phrase otherwise>",
+      "suggested_revision": "<empty unless wording-only fix>"
+    }
+  ]
+}

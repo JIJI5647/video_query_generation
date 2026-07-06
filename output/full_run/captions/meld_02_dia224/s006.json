@@ -1,0 +1,70 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the red shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch and looking forward"
+      },
+      {
+        "person": "the man in the blue shirt",
+        "visibility": "clearly visible",
+        "position": "right side of the frame",
+        "action": "bending over and reaching towards the floor"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a large, orange couch and a wooden coffee table"
+    },
+    "objects": [
+      "orange couch",
+      "wooden coffee table",
+      "vase with flowers",
+      "purple mug"
+    ],
+    "interactions": [
+      "The man in the red shirt sits next to the man in the blue shirt."
+    ],
+    "key_actions": [
+      "The man in the red shirt is sitting and looking forward.",
+      "The man in the blue shirt is bent over, reaching towards the floor."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the red shirt",
+      "facial_cues": [
+        "wide eyes",
+        "slightly open mouth"
+      ],
+      "body_cues": [
+        "sitting upright"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "the man in the blue shirt",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "bent over",
+        "reaching down"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A burst of audience laughter is heard, followed by upbeat, jazzy music.",
+  "emotion_description": "The man in the red shirt appears surprised or shocked. The audience laughter suggests a humorous context.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

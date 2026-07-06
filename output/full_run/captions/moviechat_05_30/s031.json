@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person on horseback",
+        "visibility": "not clearly visible",
+        "position": "foreground",
+        "action": "riding a horse up a dark, grassy hill"
+      }
+    ],
+    "scene": {
+      "location": "hillside at night",
+      "setting": "a dark, grassy hill with a large, illuminated building on a higher elevation in the background"
+    },
+    "objects": [
+      {
+        "object": "a horse",
+        "visibility": "not clearly visible"
+      },
+      {
+        "object": "a building",
+        "visibility": "clearly visible"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a person riding a horse up a hill"
+    ],
+    "visibility_notes": "The scene is very dark, making most details difficult to discern."
+  },
+  "visual_expression": [
+    {
+      "person": "a person on horseback",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "The audio features a loud, dramatic, and suspenseful orchestral score.",
+  "emotion_description": "The audio suggests a tense and dramatic mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

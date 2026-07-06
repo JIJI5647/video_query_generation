@@ -1,0 +1,66 @@
+{
+  "video_id": "short",
+  "queries": [
+    {
+      "video_id": "short",
+      "query_id": "short_q01",
+      "query_type": "explicit_event",
+      "query_text": "When is the woman in the red dress sitting on the floor as a loud rumbling sound begins?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        0.0,
+        5.0
+      ],
+      "segment_ids": [
+        "s001"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "sitting on the floor",
+          "gaze directed upward"
+        ],
+        "audio_evidence": [
+          "loud, low-frequency rumbling sound"
+        ]
+      },
+      "source_caption_ids": [
+        "short_s001"
+      ]
+    },
+    {
+      "video_id": "short",
+      "query_id": "short_q02",
+      "query_type": "evidence_cue",
+      "query_text": "Which moment shows the woman in the red dress gazing upward while a loud, shaking noise occurs in the dim room?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        0.0,
+        5.0
+      ],
+      "segment_ids": [
+        "s001"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "sitting on the floor",
+          "gaze directed upward",
+          "dimly lit room"
+        ],
+        "audio_evidence": [
+          "loud, low-frequency rumbling sound"
+        ]
+      },
+      "source_caption_ids": [
+        "short_s001"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with platinum blonde hair and two other men in dark robes",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in a line, pointing their wands forward and shouting"
+      },
+      {
+        "person": "a young man with dark hair and glasses wearing a brown jacket",
+        "visibility": "not clearly visible",
+        "position": "background",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dimly lit junk shop filled with old furniture, mirrors, and metalware"
+    },
+    "objects": [
+      "wands",
+      "old mirrors",
+      "metal bowls",
+      "wooden furniture"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "pointing wands forward",
+      "shouting"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young man with platinum blonde hair and two other men in dark robes",
+      "facial_cues": [
+        "intense expression",
+        "open mouth",
+        "frowning"
+      ],
+      "body_cues": [
+        "pointing wands forward",
+        "leaning forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "Multiple men shout aggressively.",
+  "emotion_description": "The men are angry and impatient.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

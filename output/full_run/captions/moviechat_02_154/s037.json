@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person wearing a white shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "reaching into a bucket with a gloved hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with several small buckets containing burning coals or embers on the floor"
+    },
+    "objects": [
+      {
+        "object": "a bucket",
+        "description": "one of several small buckets on the floor, filled with burning coals or embers"
+      }
+    ],
+    "interactions": [
+      "a person's gloved hand is seen reaching into one of the buckets with burning coals"
+    ],
+    "key_actions": [
+      "a person reaching into a bucket with burning coals"
+    ],
+    "visibility_notes": "The scene is dark, and the person's full body is not visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a person wearing a white shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "reaching into a bucket with a gloved hand"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, high-pitched screech is abruptly followed by a crashing sound.",
+  "emotion_description": "The audio suggests a sudden, alarming event.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

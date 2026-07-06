@@ -1,0 +1,24 @@
+nohup: ignoring input
+==========================================================
+[2026-06-24 20:09:17] START caption-batch-size=1
+  output: output/batch_sweep/bs1
+  log:    logs/batch_sweep/bs1/run.log
+==========================================================
+[2026-06-24 21:49:01] DONE caption-batch-size=1 (exit 0)
+==========================================================
+[2026-06-24 21:49:01] START caption-batch-size=2
+  output: output/batch_sweep/bs2
+  log:    logs/batch_sweep/bs2/run.log
+==========================================================
+[2026-06-24 23:23:29] DONE caption-batch-size=2 (exit 0)
+==========================================================
+[2026-06-24 23:23:29] START caption-batch-size=4
+  output: output/batch_sweep/bs4
+  log:    logs/batch_sweep/bs4/run.log
+==========================================================
+[2026-06-25 01:08:38] DONE caption-batch-size=4 (exit 0)
+==========================================================
+[2026-06-25 01:08:38] START caption-batch-size=8
+  output: output/batch_sweep/bs8
+  log:    logs/batch_sweep/bs8/run.log
+==========================================================

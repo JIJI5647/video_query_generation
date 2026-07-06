@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with red hair and a woman with dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking and looking at a large, old-looking map"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit stone corridor with light streaming in from a high window, casting long shadows."
+    },
+    "objects": [
+      {
+        "object": "a large, old-looking map",
+        "description": "A large, old-looking map with Latin text and intricate designs, held by the man."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The man and woman are walking together and looking at the map."
+      }
+    ],
+    "key_actions": [
+      "The man holds the map and points at a specific location.",
+      "The woman looks at the map and then at the man."
+    ],
+    "visibility_notes": "The lighting changes from dim to bright as they move."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with red hair and a woman with dark hair",
+      "facial_cues": [
+        "focused expression",
+        "serious look"
+      ],
+      "body_cues": [
+        "the man points at the map",
+        "the woman leans in to look"
+      ],
+      "gaze": "looking at the map and then at each other"
+    }
+  ],
+  "audio_description": "A male voice speaks in an agitated tone, followed by a female voice speaking in a calm tone.",
+  "emotion_description": "Agitated",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

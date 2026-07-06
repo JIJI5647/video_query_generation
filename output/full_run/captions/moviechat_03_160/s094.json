@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s094",
+  "time_range": [
+    465.0,
+    470.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking forward while speaking"
+      },
+      {
+        "person": "a man with graying hair",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a table and eating with chopsticks"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with glass partitions, possibly an office or interrogation room"
+    },
+    "objects": [
+      "chopsticks",
+      "bowl",
+      "plate"
+    ],
+    "interactions": [
+      "The man in the white shirt walks through the room."
+    ],
+    "key_actions": [
+      "A man in a white shirt walks forward while speaking.",
+      "A man with graying hair sits and eats."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and striped tie",
+      "facial_cues": [
+        "his mouth is moving as he speaks",
+        "his brow is slightly furrowed"
+      ],
+      "body_cues": [
+        "he is walking forward"
+      ],
+      "gaze": "looking ahead and slightly down"
+    },
+    {
+      "person": "a man with graying hair",
+      "facial_cues": [
+        "his eyes are closed"
+      ],
+      "body_cues": [
+        "he is sitting and holding chopsticks"
+      ],
+      "gaze": "looking down at his food"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a serious and assertive tone.",
+  "emotion_description": "The speaker appears serious and authoritative, while the man eating seems focused on his meal.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

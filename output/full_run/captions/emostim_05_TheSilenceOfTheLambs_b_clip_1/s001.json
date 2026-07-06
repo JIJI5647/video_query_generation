@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with short brown hair wearing a purple shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "interacting with another person's hand, then turning away from the camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a window and a shelf with bottles in the background"
+    },
+    "objects": [
+      "a silver bracelet on the woman's wrist",
+      "a black object that appears to be a bag or jacket"
+    ],
+    "interactions": [
+      "the woman holds another person's hand, which is covered by a glove"
+    ],
+    "key_actions": [
+      "the woman holding a hand",
+      "the woman turning away"
+    ],
+    "visibility_notes": "The interaction with the hand is in a close-up shot. The other person's hand is visible, but their body is not."
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with short brown hair wearing a purple shirt",
+      "facial_cues": [
+        "looking down",
+        "serious expression"
+      ],
+      "body_cues": [
+        "turning away from the camera"
+      ],
+      "gaze": "looking down and then away"
+    }
+  ],
+  "audio_description": "A person is speaking in a calm tone.",
+  "emotion_description": "The woman appears serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

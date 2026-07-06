@@ -1,0 +1,73 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "running across a wooden bridge while looking back in fear."
+      },
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "running across a wooden bridge with a panicked expression."
+      },
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "running across a wooden bridge."
+      },
+      {
+        "person": "a group of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running across a wooden bridge, looking panicked."
+      }
+    ],
+    "scene": {
+      "location": "outdoor bridge",
+      "setting": "dark, stormy night with heavy rain and strong winds."
+    },
+    "objects": [
+      {
+        "object": "wooden bridge",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "swaying violently due to strong winds and rain."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "running",
+      "panicking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a dark jacket",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "fearful expression"
+      ],
+      "body_cues": [
+        "running",
+        "looking back"
+      ],
+      "gaze": "backward"
+    }
+  ],
+  "audio_description": "A loud, roaring sound of rushing wind and crashing debris, followed by a man shouting in panic.",
+  "emotion_description": "Fear and panic",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

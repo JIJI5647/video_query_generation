@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket and jeans",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and holding a wooden stick"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a refrigerator on the left and a doorway leading to a bedroom in the background"
+    },
+    "objects": [
+      "wooden stick",
+      "refrigerator",
+      "doorway",
+      "bed"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man holds a stick",
+      "the man stands still"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket and jeans",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "facing away from the camera"
+    }
+  ],
+  "audio_description": "a man's voice speaks, followed by the sound of a door opening.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

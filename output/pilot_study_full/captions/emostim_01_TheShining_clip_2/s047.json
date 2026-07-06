@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair wearing a dark red shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "swinging a sledgehammer at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with a bed, a lamp, and a door"
+    },
+    "objects": [
+      "a sledgehammer",
+      "a door",
+      "a bed",
+      "a lamp",
+      "a bookshelf"
+    ],
+    "interactions": [
+      "the man is swinging the sledgehammer at the door"
+    ],
+    "key_actions": [
+      "swinging a sledgehammer",
+      "hitting a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair wearing a dark red shirt",
+      "facial_cues": [
+        "grinning"
+      ],
+      "body_cues": [
+        "swinging a sledgehammer"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A loud crash is heard, followed by a scream.",
+  "emotion_description": "Aggressive",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

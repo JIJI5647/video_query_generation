@@ -1,0 +1,93 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "queries": [
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q01",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman in the dark green cardigan show an alert posture while moving through the dimly lit corridor with a flashlight?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        0.0,
+        5.0
+      ],
+      "segment_ids": [
+        "s001"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "woman with shoulder-length dark hair, wearing a dark green cardigan over a light-colored shirt",
+          "stands in a dimly lit, narrow corridor with brick walls",
+          "holds a flashlight in her right hand, pointing it forward",
+          "looking ahead, her gaze directed slightly upward",
+          "posture is upright and alert, suggesting she is cautiously moving through the space"
+        ],
+        "audio_evidence": []
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s001"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q02",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the woman in the dark green cardigan hold a flashlight and point it forward while looking ahead?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        0.0,
+        5.0
+      ],
+      "segment_ids": [
+        "s001"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "holds a flashlight in her right hand, pointing it forward",
+          "looking ahead, her gaze directed slightly upward"
+        ],
+        "audio_evidence": []
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s001"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q03",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman in the dark green cardigan exhibit an alert gaze directed slightly upward in a dimly lit corridor?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        0.0,
+        5.0
+      ],
+      "segment_ids": [
+        "s001"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "stands in a dimly lit, narrow corridor with brick walls",
+          "looking ahead, her gaze directed slightly upward",
+          "posture is upright and alert"
+        ],
+        "audio_evidence": []
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s001"
+      ]
+    }
+  ]
+}

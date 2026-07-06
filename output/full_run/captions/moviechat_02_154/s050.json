@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a green shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a phone to his ear and smiling"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing next to a desk"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or command center with multiple desks, computers, and a large map on the wall"
+    },
+    "objects": [
+      "desk lamps",
+      "computers",
+      "a large map",
+      "a phone"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the green shirt is on the phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a green shirt",
+      "facial_cues": [
+        "smiling",
+        "raised eyebrows",
+        "eyes crinkling at the corners"
+      ],
+      "body_cues": [
+        "holding a phone to his ear"
+      ],
+      "gaze": "looking slightly to the side"
+    }
+  ],
+  "audio_description": "The audio contains a brief, high-pitched electronic tone.",
+  "emotion_description": "The man on the phone appears happy or pleased.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

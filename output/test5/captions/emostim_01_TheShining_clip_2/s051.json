@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long black hair wearing a blue robe",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "peering from behind a white pillar, holding a knife, then recoiling in fear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a white pillar or wall corner, with white tiles visible below and a large axe embedded in the wall to the left."
+    },
+    "objects": [
+      {
+        "object": "a large axe embedded in the wall",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "embedded in the wall, with its blade facing the woman."
+      },
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "in the woman's hand",
+        "action": "held by the woman, pointed forward."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "the woman is reacting to the axe embedded in the wall."
+      }
+    ],
+    "key_actions": [
+      "the woman peeks from behind the pillar",
+      "the woman holds a knife",
+      "the woman recoils in fear",
+      "the axe is embedded in the wall"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long black hair wearing a blue robe",
+      "facial_cues": [
+        "mouth open in a scream",
+        "wide eyes",
+        "visible teeth"
+      ],
+      "body_cues": [
+        "body recoiling",
+        "hands gripping the knife"
+      ],
+      "gaze": "looking at the axe"
+    }
+  ],
+  "audio_description": "A loud scream is heard, followed by a heavy thud and a final scream.",
+  "temporal_description": "The woman's scream and the thud occur simultaneously.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man with short gray hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up with a concerned expression"
+      },
+      {
+        "person": "a younger man with dark hair",
+        "visibility": "clearly visible",
+        "position": "right side of the frame",
+        "action": "looking forward with a serious expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, a metal-barred window or door is visible behind the younger man"
+    },
+    "objects": [
+      "a metal-barred window or door"
+    ],
+    "interactions": [
+      "The older man and the younger man are facing each other, seemingly in a conversation."
+    ],
+    "key_actions": [
+      "The older man looks up and to the side with a worried expression.",
+      "The younger man maintains a steady, serious gaze forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "an older man with short gray hair",
+      "facial_cues": [
+        "raised eyebrows",
+        "tense forehead",
+        "wide eyes"
+      ],
+      "body_cues": [],
+      "gaze": "looking up and to the side"
+    },
+    {
+      "person": "a younger man with dark hair",
+      "facial_cues": [
+        "stern expression",
+        "neutral mouth"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A low, somber piano melody plays in the background.",
+  "emotion_description": "The older man appears worried and concerned, while the younger man appears serious and resolute.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

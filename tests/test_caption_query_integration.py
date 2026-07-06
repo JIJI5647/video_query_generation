@@ -78,17 +78,26 @@ def test_caption_to_query_integration():
         cap.visual_objective.people,
     ]), "normalized caption is empty"
 
+    # Stage 1 (caption generation) artefacts.
+    written = cqt.save_caption_outputs(
+        output,
+        raw_records=[{"segment_id": "s001", "raw_output": str(out.raw_output)}],
+        captions=[cap], segments=[seg],
+        metadata={"caption_model": model, "non_commercial": spec.non_commercial},
+    )
+    assert "segments.jsonl" in written
+    assert "run_metadata.json" in written
+
+    # Stage 2 (query generation) artefacts.
     client = GeminiLLMClient(api_key=api_key)
     inputs = cqt.build_downstream_inputs("integration", [cap], [seg])
     downstream = cqt.run_downstream_gemini(inputs, client)
     events, generation = downstream["events"], downstream["generation"]
 
-    written = cqt.save_outputs(
-        output,
-        raw_records=[{"segment_id": "s001", "raw_output": str(out.raw_output)}],
-        captions=[cap], events=events, generation=generation,
+    written = cqt.save_generation_outputs(
+        output, events=events, generation=generation, segments=[seg],
         metadata={
-            "caption_model": model, "non_commercial": spec.non_commercial,
+            "caption_model": model,
             "num_generated_queries": len(generation.queries),
             "warnings": downstream["warnings"],
         },
@@ -105,6 +114,11 @@ def test_caption_to_query_integration():
     )
     # Zero queries must be surfaced, not hidden.
     if not generation.queries:
-        meta = json.loads((output / "run_metadata.json").read_text())
+        meta = json.loads((output / "generation_metadata.json").read_text())
         assert meta["warnings"], "0 queries but no warning recorded in metadata"
-    assert "run_metadata.json" in written
+    assert "generation_metadata.json" in written
+
+    # Round trip: stage 2 can be re-run purely from stage 1's cached output dir.
+    reloaded_segments, reloaded_captions = cqt.load_caption_outputs(output)
+    assert len(reloaded_segments) == 1
+    assert len(reloaded_captions) == 1

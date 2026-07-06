@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with dark hair wearing a robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "grabbing a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "bathroom with a sink and shower curtain"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "in the woman's hand",
+        "action": "being held"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "grabbing the knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with dark hair wearing a robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "tense expression"
+      ],
+      "body_cues": [
+        "holding knife up",
+        "arms raised"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "a loud, high-pitched screeching sound, like a door hinge or metal scraping",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

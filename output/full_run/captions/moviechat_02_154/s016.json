@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing by the open driver's side door of a black car and looking towards the right"
+      },
+      {
+        "person": "the woman in a light-colored top",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing by the open passenger side door of the same car"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a dark street at night with a black car parked in the middle of the road"
+    },
+    "objects": [
+      {
+        "object": "black car",
+        "position": "center",
+        "description": "a black car with its driver's side door open, and its headlights on"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "the two people are standing by the same car, on opposite sides, and looking in the same direction"
+      }
+    ],
+    "key_actions": [
+      "standing",
+      "looking",
+      "standing by an open car door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the light-colored shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "standing by the open car door"
+      ],
+      "gaze": "looking towards the right"
+    },
+    {
+      "person": "the woman in a light-colored top",
+      "facial_cues": [],
+      "body_cues": [
+        "standing by the open car door"
+      ],
+      "gaze": "looking towards the right"
+    }
+  ],
+  "audio_description": "A loud, continuous, and repetitive electronic alarm is sounding.",
+  "emotion_description": "The people appear to be in a state of surprise or alarm, as suggested by their posture and the urgent sound of the alarm.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

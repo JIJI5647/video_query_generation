@@ -1,0 +1,53 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark, long coat",
+        "visibility": "partially visible",
+        "position": "center",
+        "action": "kneeling and standing on a rocky surface"
+      }
+    ],
+    "scene": {
+      "location": "outdoor rocky area",
+      "setting": "dark environment with a glowing, crackling energy field in the background"
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "partially visible",
+        "position": "center",
+        "action": "held by the person"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The person kneels, then stands and raises a wand towards the glowing energy field."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark, long coat",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "kneeling",
+        "standing",
+        "raising a wand"
+      ],
+      "gaze": "towards the glowing energy field"
+    }
+  ],
+  "audio_description": "A low, ominous, and sustained electronic hum or drone sound is present throughout the clip.",
+  "temporal_description": "The person's action of standing and raising the wand occurs while the low, ominous hum continues without change.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

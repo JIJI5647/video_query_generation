@@ -1,0 +1,45 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bending forward and looking down"
+      }
+    ],
+    "scene": {
+      "location": "outdoor street",
+      "setting": "blurry urban background with lights"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man bends forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "head tilted down",
+        "eyes closed"
+      ],
+      "body_cues": [
+        "bent forward"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "The sound of a vehicle engine idling.",
+  "emotion_description": "The man appears to be sad, distressed, or in deep thought.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

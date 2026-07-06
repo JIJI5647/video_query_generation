@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s076",
+  "time_range": [
+    375.0,
+    380.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "opening a yellow envelope and looking at its contents"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing still and looking forward"
+      },
+      {
+        "person": "another man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a greenish color cast, featuring a wooden table and wall decorations in the background"
+    },
+    "objects": [
+      "a yellow envelope",
+      "a wooden table",
+      "a stack of papers on the table"
+    ],
+    "interactions": [
+      "the man in the suit is holding and opening the envelope"
+    ],
+    "key_actions": [
+      "opening an envelope",
+      "reading the contents"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "his eyes are closed as he looks down at the envelope",
+        "his brow is furrowed",
+        "his mouth is slightly open"
+      ],
+      "body_cues": [
+        "he is holding the envelope with both hands",
+        "he is leaning slightly forward"
+      ],
+      "gaze": "downward at the envelope"
+    }
+  ],
+  "audio_description": "The audio contains a male voice speaking in a conversational tone.",
+  "emotion_description": "The man in the suit appears to be concentrating or reacting with surprise to the contents of the envelope.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

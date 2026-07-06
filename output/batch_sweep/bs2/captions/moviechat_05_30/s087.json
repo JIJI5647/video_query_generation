@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with platinum blonde hair in a black school uniform",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "pointing a wand forward with a sneering expression"
+      },
+      {
+        "person": "a man with short brown hair in a black school uniform",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "pointing a wand forward"
+      },
+      {
+        "person": "a man with dark skin and short black hair in a black school uniform",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "pointing a wand forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, cluttered room filled with old artifacts and furniture, resembling a secret chamber or a storage room."
+    },
+    "objects": [
+      {
+        "name": "wands",
+        "description": "three wands held by the individuals, pointing forward."
+      }
+    ],
+    "interactions": [
+      "The three individuals stand in a line, aiming their wands forward in a threatening manner."
+    ],
+    "key_actions": [
+      "pointing wands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with platinum blonde hair",
+      "facial_cues": [
+        "sneering",
+        "intense gaze"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hand gesture with wand"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in a menacing tone.",
+  "emotion_description": "menacing",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,83 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "events": [
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "event_id": "e1",
+      "emotion_label": "surprised",
+      "event_description": "A sudden, sharp gasp is heard following a metallic click and thud, indicating a moment of alarm or surprise.",
+      "time_range": [
+        0.0,
+        5.0
+      ],
+      "target_person_or_group": "the person",
+      "visual_evidence": [
+        "a person is partially visible in the background, standing near a doorway or opening, with their silhouette faintly outlined against the light.",
+        "the person’s posture is upright, and their gaze is directed toward something out of frame"
+      ],
+      "audio_evidence": [
+        "a sharp, high-pitched metallic click is heard, followed by a brief, low-frequency thud.",
+        "A single, sharp, breathy gasp is heard. This human sound is high-pitched, strained, and slightly raspy, indicating a moment of surprise, exertion, or alarm."
+      ],
+      "confidence": "low",
+      "evidence_strength": "ambiguous",
+      "segment_ids": [
+        "s001"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "event_id": "e2",
+      "emotion_label": "frustrated",
+      "event_description": "A woman is forcefully manipulating a heavy metal object, likely a door or gate, with grunts indicating physical effort and a tense atmosphere.",
+      "time_range": [
+        5.0,
+        10.0
+      ],
+      "target_person_or_group": "A woman with shoulder-length dark hair, wearing a green jacket over a light-colored shirt",
+      "visual_evidence": [
+        "A woman with shoulder-length dark hair, wearing a green jacket over a light-colored shirt, is partially visible in a dimly lit space.",
+        "Her mouth is slightly open, suggesting she may be in mid-movement or about to speak."
+      ],
+      "audio_evidence": [
+        "a soft, breathy exhalation follows, indicating a person’s presence and exertion, though no speech is present.",
+        "a low-frequency thud is heard, implying a heavy object is being set down or shifted.",
+        "a loud, metallic scraping sound occurs, characterized by a high-pitched, abrasive quality and a rapid, rhythmic pattern, as if a heavy metal object is being dragged across a hard surface.",
+        "a brief, guttural grunt from a human, indicating physical effort.",
+        "a loud, resonant metallic clang, which is the loudest sound in the clip and suggests a heavy metal object striking a hard surface, such as a door or gate being slammed shut."
+      ],
+      "confidence": "low",
+      "evidence_strength": "ambiguous",
+      "segment_ids": [
+        "s002"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "event_id": "e3",
+      "emotion_label": "fear",
+      "event_description": "A woman aims a handgun forward with both hands in a dimly lit room.",
+      "time_range": [
+        10.0,
+        12.76
+      ],
+      "target_person_or_group": "A woman with dark hair, wearing a dark green button-up shirt",
+      "visual_evidence": [
+        "A woman with dark hair, wearing a dark green button-up shirt, is standing in a dimly lit room with peeling walls and a red light visible in the background.",
+        "She holds a handgun with both hands, aiming it forward with her arms extended.",
+        "Her body is slightly angled, and her gaze is fixed on the direction of the gun’s aim."
+      ],
+      "audio_evidence": [
+        "a sudden, sharp metallic impact, characterized by a high-frequency \"clink\" and a brief, resonant \"thud.\"",
+        "a rapid, high-pitched scraping noise, suggesting a metal object—likely a key or tool—being forcefully inserted and turned in a lock.",
+        "a low-frequency, mechanical whirring emerges, reminiscent of a motor or solenoid activating.",
+        "a single, sharp metallic click is heard, signifying the final engagement of the mechanism—such as a bolt or latch locking into place."
+      ],
+      "confidence": "low",
+      "evidence_strength": "ambiguous",
+      "segment_ids": [
+        "s003"
+      ]
+    }
+  ]
+}

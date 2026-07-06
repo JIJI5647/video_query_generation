@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a bald man with pale skin wearing a dark robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking slowly with a downward gaze"
+      }
+    ],
+    "scene": {
+      "location": "outdoor",
+      "setting": "dark environment with a large, blurry, fiery object in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "walking",
+      "gazing downward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a bald man with pale skin wearing a dark robe",
+      "facial_cues": [
+        "downward gaze",
+        "pale skin"
+      ],
+      "body_cues": [
+        "slow walking",
+        "slumped shoulders"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "a low, rumbling, ominous sound is present throughout the clip.",
+  "temporal_description": "the low rumbling sound is continuous.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

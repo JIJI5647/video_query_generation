@@ -1,0 +1,4 @@
+# parse failure: reason=salvaged_for_generation
+# segment_id=s005
+
+[{"segment_id": "s005", "time_range": [20.0, 25.0], "visual_objective": {"people": [{"person": "a man in a dark hooded jacket", "visibility": "partially visible", "position": "background", "action": "standing by a window"}], "scene": {"location": "indoor room", "setting": "dimly lit, dark interior with a window with panes in the background"}}, "objects": [{"name": "window", "position": "background", "description": "a window with multiple panes, covered in raindrops"}], "interactions": [], "key_actions": [], "visibility_notes": "The man is mostly in shadow and not clearly visible."}, "visual_expression": [], "audio_description": "The sound of heavy, strained breathing is audible.", "temporal_description": "The breathing sound continues throughout the clip.", "confidence": "high", "evidence_strength": "clear"}]

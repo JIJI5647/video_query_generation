@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white shirt and blue lanyard",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking surprised and speaking"
+      },
+      {
+        "person": "a man in a light-colored shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and then up with a focused expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office environment with computer monitors and other people in the background"
+    },
+    "objects": [
+      "a laptop computer",
+      "a computer monitor",
+      "a white telephone receiver"
+    ],
+    "interactions": [
+      "the woman is looking at the man",
+      "the man is holding a telephone receiver to his ear"
+    ],
+    "key_actions": [
+      "the woman speaking with a surprised expression",
+      "the man listening on the phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a white shirt and blue lanyard",
+      "facial_cues": [
+        "wide eyes",
+        "mouth open",
+        "surprised expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking towards the man"
+    },
+    {
+      "person": "the man in a light-colored shirt and striped tie",
+      "facial_cues": [
+        "focused expression",
+        "slightly furrowed brow"
+      ],
+      "body_cues": [],
+      "gaze": "looking down and then up"
+    }
+  ],
+  "audio_description": "A female voice speaks in a clear, urgent tone, followed by a male voice speaking in a calm, business-like tone.",
+  "emotion_description": "The woman appears surprised and urgent, while the man appears focused and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

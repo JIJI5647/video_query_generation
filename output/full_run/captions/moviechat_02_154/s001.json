@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car and looking over his shoulder"
+      },
+      {
+        "person": "a person in the background",
+        "visibility": "not clearly visible",
+        "position": "background",
+        "action": "sitting in the car"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime, city street with illuminated buildings and signs"
+    },
+    "objects": [
+      {
+        "object": "a black car",
+        "position": "center",
+        "action": "driving slowly"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit looks back over his shoulder.",
+      "The black car drives down the street."
+    ],
+    "visibility_notes": "The scene is dark, with lighting focused on the man's face and the side of the car."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow",
+        "tense jaw"
+      ],
+      "body_cues": [
+        "leaning back in the seat",
+        "looking back"
+      ],
+      "gaze": "looking over his left shoulder"
+    }
+  ],
+  "audio_description": "A loud, dramatic, and suspenseful musical sting plays.",
+  "emotion_description": "The man's expression and the tense music suggest a feeling of anxiety and suspense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

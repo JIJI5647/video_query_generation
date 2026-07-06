@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s075",
+  "time_range": [
+    370.0,
+    375.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair and a mustache",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "looking towards the left"
+      },
+      {
+        "person": "a man with short, graying hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "looking towards the right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, featuring a metal-barred window in the background"
+    },
+    "objects": [
+      "metal-barred window"
+    ],
+    "interactions": [
+      "the two men are facing each other and appear to be in a conversation"
+    ],
+    "key_actions": [
+      "facing each other",
+      "looking at one another"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair and a mustache",
+      "facial_cues": [
+        "serious expression",
+        "staring intently"
+      ],
+      "body_cues": [],
+      "gaze": "looking towards the left"
+    },
+    {
+      "person": "a man with short, graying hair",
+      "facial_cues": [
+        "serious expression",
+        "staring intently"
+      ],
+      "body_cues": [],
+      "gaze": "looking towards the right"
+    }
+  ],
+  "audio_description": "A deep, resonant, and ominous tone sounds in the background.",
+  "emotion_description": "The two men appear to be in a serious and tense conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

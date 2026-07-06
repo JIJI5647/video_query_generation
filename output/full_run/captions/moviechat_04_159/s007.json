@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit, white shirt, and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and slightly to the right"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "left background",
+        "action": "facing the first man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with dark, indistinct surroundings"
+    },
+    "objects": [],
+    "interactions": [
+      "The two men are in a conversation."
+    ],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit, white shirt, and glasses",
+      "facial_cues": [
+        "glasses",
+        "head tilted down",
+        "focusing gaze"
+      ],
+      "body_cues": [],
+      "gaze": "looking down and slightly to the right"
+    }
+  ],
+  "audio_description": "A man speaks in a calm, low-pitched voice.",
+  "emotion_description": "The man in the foreground appears serious and contemplative.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

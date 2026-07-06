@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "looking down at a silver flip phone he is holding and pressing buttons on"
+      },
+      {
+        "person": "another man in a dark suit",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "facing the first man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit room"
+    },
+    "objects": [
+      {
+        "name": "flip phone",
+        "description": "a silver flip phone being operated by the man in the center"
+      }
+    ],
+    "interactions": [
+      "The man in the center is operating the flip phone while facing the other man."
+    ],
+    "key_actions": [
+      "Pressing buttons on a flip phone",
+      "Looking down at the phone",
+      "Looking up at the other person"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "intense gaze",
+        "focused expression"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "looking down at the phone, then up at the other person"
+    }
+  ],
+  "audio_description": "A series of electronic beeps and tones are heard, similar to sounds from a phone or device.",
+  "emotion_description": "The man's expression is serious and focused, suggesting he is intently engaged in a task.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

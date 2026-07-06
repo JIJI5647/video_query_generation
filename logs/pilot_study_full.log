@@ -1,0 +1,329 @@
+nohup: ignoring input
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+'(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 71a6a2c7-db7b-440e-99ee-df531de6bff1)')' thrown while requesting HEAD https://huggingface.co/Qwen/Qwen3-Omni-30B-A3B-Instruct/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+Unrecognized keys in `rope_scaling` for 'rope_type'='default': {'mrope_interleaved', 'interleaved', 'mrope_section'}
+Unrecognized keys in `rope_scaling` for 'rope_type'='default': {'interleaved', 'mrope_section'}
+Selected 5 video(s) from data/pilot_study
+Models — caption: Qwen/Qwen3-Omni-30B-A3B-Instruct (transformers) | generation: gemini-2.5-flash-lite | verify/rewrite: Qwen/Qwen3-Omni-30B-A3B-Instruct (transformers)
+Segmentation — 5.0s window / 5.0s stride | 2 segment(s)/prompt | max_accepted 8
+
+Caption backend — qwen3_omni (Qwen/Qwen3-Omni-30B-A3B-Instruct) | engine=transformers | 2 seg/prompt | 2 prompt(s)/call | resume=True | overwrite=False
+  cache: output/pilot_study_5/captions
+Verify/rewrite backend — qwen3_omni (Qwen/Qwen3-Omni-30B-A3B-Instruct) | engine=transformers (watches local clips, no upload)
+[1/5] emostim_01_TheShining_clip_2.mp4  (id: emostim_01_TheShining_clip_2)
+  57 segments ready (cache: data/processed_segments)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s001, s002] (segments/prompt=2)
+[caption] generate: video_id=emostim_01_TheShining_clip_2 segment_ids=[s003, s004] (segments/prompt=2)
+Loading checkpoint shards:   0%|          | 0/15 [00:00<?, ?it/s]Loading checkpoint shards:   7%|▋         | 1/15 [00:20<04:50, 20.73s/it]Loading checkpoint shards:  13%|█▎        | 2/15 [00:35<03:43, 17.17s/it]Loading checkpoint shards:  20%|██        | 3/15 [00:56<03:45, 18.77s/it]Loading checkpoint shards:  27%|██▋       | 4/15 [01:07<02:55, 15.96s/it]Loading checkpoint shards:  33%|███▎      | 5/15 [01:26<02:48, 16.86s/it]Loading checkpoint shards:  40%|████      | 6/15 [01:45<02:37, 17.54s/it]Loading checkpoint shards:  47%|████▋     | 7/15 [01:59<02:11, 16.46s/it]Loading checkpoint shards:  53%|█████▎    | 8/15 [02:17<01:59, 17.06s/it]Loading checkpoint shards:  60%|██████    | 9/15 [02:33<01:39, 16.58s/it]Loading checkpoint shards:  67%|██████▋   | 10/15 [02:58<01:36, 19.27s/it]Loading checkpoint shards:  73%|███████▎  | 11/15 [03:15<01:14, 18.67s/it]Loading checkpoint shards:  80%|████████  | 12/15 [03:35<00:56, 18.95s/it]Loading checkpoint shards:  87%|████████▋ | 13/15 [04:20<00:53, 26.79s/it]Loading checkpoint shards:  93%|█████████▎| 14/15 [05:53<00:46, 46.80s/it]Loading checkpoint shards: 100%|██████████| 15/15 [05:57<00:00, 34.03s/it]Loading checkpoint shards: 100%|██████████| 15/15 [05:57<00:00, 23.84s/it]
+The image processor of type `Qwen2VLImageProcessor` is now loaded as a fast processor by default, even if the model checkpoint was saved with a slow processor. This is a breaking change and may produce slightly different outputs. To continue using the slow processor, instantiate this class with `use_fast=False`. Note that this behavior will be extended to all models in a future release.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+qwen-vl-utils using torchvision to read video.
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.
+/scratch/rds-fei-hci-aks-mer-001-rw/mzha0323/video_query_generation/conda_envs/video_env/lib/python3.10/site-packages/librosa/core/audio.py:172: FutureWarning: librosa.core.audio.__audioread_load
+	Deprecated as of librosa version 0.10.0.
+	It will be removed in librosa version 1.0.
+  y, sr_native = __audioread_load(path, offset, duration, dtype)
+Setting `pad_token_id` to `eos_token_id`:151645 for open-end generation.

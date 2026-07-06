@@ -1,0 +1,87 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating from a small bowl with chopsticks"
+      },
+      {
+        "person": "a woman in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and holding a cigarette"
+      },
+      {
+        "person": "a person in a dark jacket",
+        "visibility": "partially visible",
+        "position": "right foreground",
+        "action": "entering the frame and looking towards the man eating"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, cluttered room resembling a kitchen or a small eatery, with a chalkboard menu on the wall"
+    },
+    "objects": [
+      "bowl",
+      "chopsticks",
+      "chairs",
+      "refrigerator",
+      "chalkboard"
+    ],
+    "interactions": [
+      "The person in the dark jacket walks into the frame and observes the man eating."
+    ],
+    "key_actions": [
+      "Eating with chopsticks",
+      "Walking into the frame",
+      "Observing another person"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue patterned shirt",
+      "facial_cues": [
+        "Looking down at his bowl",
+        "Mouth open as he eats"
+      ],
+      "body_cues": [
+        "Leaning forward over the table"
+      ],
+      "gaze": "Downwards, focused on his food"
+    },
+    {
+      "person": "a woman in a dark shirt",
+      "facial_cues": [
+        "Looking towards the man eating"
+      ],
+      "body_cues": [
+        "Standing with a relaxed posture"
+      ],
+      "gaze": "Towards the man eating"
+    },
+    {
+      "person": "a person in a dark jacket",
+      "facial_cues": [
+        "Looking intently at the man eating"
+      ],
+      "body_cues": [
+        "Walking slowly into the scene"
+      ],
+      "gaze": "Towards the man eating"
+    }
+  ],
+  "audio_description": "A person is speaking in a conversational tone.",
+  "emotion_description": "The man eating appears focused on his meal. The woman and the person entering the scene seem curious or observant of the man eating.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

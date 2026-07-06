@@ -1,0 +1,48 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a small, dark, oval-shaped object with tweezers and examining it"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a plain green wall"
+    },
+    "objects": [
+      "tweezers",
+      "a dark, oval-shaped object"
+    ],
+    "interactions": [
+      "the man uses tweezers to hold the object"
+    ],
+    "key_actions": [
+      "the man holds and inspects the object"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and glasses",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [],
+      "gaze": "looking down at the object he is holding"
+    }
+  ],
+  "audio_description": "The audio contains a male voice asking a question, followed by a sustained, low-pitched musical note.",
+  "emotion_description": "The man appears curious and contemplative.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

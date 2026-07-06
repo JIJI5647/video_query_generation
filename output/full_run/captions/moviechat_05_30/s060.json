@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with blonde hair",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "peering around a stone pillar"
+      },
+      {
+        "person": "a man with dark hair",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "crouching and looking around a pillar"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, damaged stone room with pillars and debris on the floor"
+    },
+    "objects": [
+      "stone pillars"
+    ],
+    "interactions": [
+      "The two men are hiding and looking around pillars in a cautious manner."
+    ],
+    "key_actions": [
+      "Peeking around pillars",
+      "Crouching",
+      "Looking around cautiously"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with blonde hair",
+      "facial_cues": [
+        "wide eyes",
+        "tense expression"
+      ],
+      "body_cues": [
+        "peering around a pillar"
+      ],
+      "gaze": "looking forward and to the right"
+    },
+    {
+      "person": "a man with dark hair",
+      "facial_cues": [
+        "tense expression"
+      ],
+      "body_cues": [
+        "crouching",
+        "looking around a pillar"
+      ],
+      "gaze": "looking forward and to the right"
+    }
+  ],
+  "audio_description": "A loud crashing sound occurs, suggesting something has broken or fallen.",
+  "emotion_description": "The people appear to be scared and tense, reacting to the sudden loud noise.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

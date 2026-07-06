@@ -1,0 +1,73 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit jacket and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and to the side"
+      },
+      {
+        "person": "a man in a blue denim shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking towards the right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark room with cool, dim lighting"
+    },
+    "objects": [
+      {
+        "object": "a small, round, golden object",
+        "location": "held in the hands of the man in the suit"
+      }
+    ],
+    "interactions": [
+      "the man in the suit holds and examines the golden object"
+    ],
+    "key_actions": [
+      "the man in the suit holding and examining a golden object",
+      "the man in the denim shirt looking intently to the right"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit jacket and glasses",
+      "facial_cues": [
+        "glasses",
+        "serious expression",
+        "looking down"
+      ],
+      "body_cues": [
+        "hands holding an object",
+        "slightly hunched posture"
+      ],
+      "gaze": "down and to the side"
+    },
+    {
+      "person": "a man in a blue denim shirt",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "to the right"
+    }
+  ],
+  "audio_description": "A man speaks in a low, calm, and serious tone.",
+  "emotion_description": "The mood is tense and suspenseful, with the characters appearing serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

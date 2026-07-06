@@ -1,0 +1,62 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt and black jacket",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking to the woman"
+      },
+      {
+        "person": "a woman in a red shirt and dark jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and listening to the man"
+      }
+    ],
+    "scene": {
+      "location": "underground chamber",
+      "setting": "dark and wet with large, snake-like heads forming a wall in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "the man and woman are facing each other and appear to be having a conversation"
+    ],
+    "key_actions": [
+      "the man grabs the woman's shoulders"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a black shirt and black jacket",
+      "facial_cues": [
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "reaching out to grab the woman"
+      ],
+      "gaze": "at the woman"
+    },
+    {
+      "person": "the woman in a red shirt and dark jacket",
+      "facial_cues": [
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "turning to face the man"
+      ],
+      "gaze": "at the man"
+    }
+  ],
+  "audio_description": "A loud, dramatic orchestral score plays with a prominent string section.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in dark clothing",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "standing still, then looking into a mirror"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a checkered floor and a mirror on the wall"
+    },
+    "objects": [
+      {
+        "object": "mirror",
+        "position": "center",
+        "action": "reflecting the person"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "looking into the mirror"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in dark clothing",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking into the mirror"
+    }
+  ],
+  "audio_description": "a low, ominous sound is heard in the background",
+  "emotion_description": "mysterious",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous"
+}

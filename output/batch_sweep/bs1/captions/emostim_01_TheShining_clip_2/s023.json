@@ -1,0 +1,59 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing by a window and peering outside"
+      },
+      {
+        "person": "a young child in a red sweater",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "hugging the woman from behind"
+      }
+    ],
+    "scene": {
+      "location": "bathroom",
+      "setting": "a bathroom with white tiled walls and a toilet visible in the background."
+    },
+    "objects": [
+      "toilet",
+      "window",
+      "tiled walls",
+      "toilet paper holder"
+    ],
+    "interactions": [
+      "the child hugs the woman"
+    ],
+    "key_actions": [
+      "the woman looks out the window",
+      "the child hugs the woman"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the young child",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "hugging the woman tightly"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A loud, metallic, rhythmic scraping sound, like a gate being opened or closed.",
+  "emotion_description": "Fear",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

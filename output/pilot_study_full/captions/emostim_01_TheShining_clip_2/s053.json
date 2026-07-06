@@ -1,0 +1,70 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "screaming, holding a large knife, and shielding her face with her hand."
+      },
+      {
+        "person": "a man in a plaid shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "breaking through a door with an axe."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a white wall and a damaged door."
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the woman."
+      },
+      {
+        "object": "an axe",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "held by the man."
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "being broken."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a woman screams while holding a knife",
+      "a man breaks through a door with an axe"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "screaming with mouth wide open"
+      ],
+      "body_cues": [
+        "shielding her face with her hand"
+      ],
+      "gaze": "looking towards the door"
+    }
+  ],
+  "audio_description": "A woman screams, followed by the sound of an axe breaking through wood.",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

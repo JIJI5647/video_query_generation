@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of people in the background",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and interacting"
+      },
+      {
+        "person": "a person in a white shirt",
+        "visibility": "not clearly visible",
+        "position": "foreground",
+        "action": "crouching or lying on the floor"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark room, possibly a basement, with exposed brick walls, a hanging light bulb, and electrical equipment"
+    },
+    "objects": [
+      "a single hanging light bulb",
+      "exposed brick wall",
+      "electrical equipment"
+    ],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": "The scene is dark, making details difficult to discern. The person in the white shirt is mostly obscured by shadow and the foreground."
+  },
+  "visual_expression": [
+    {
+      "person": "a group of people in the background",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "not clearly visible"
+    },
+    {
+      "person": "a person in a white shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "crouching or lying on the floor"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "The audio contains sounds of heavy, labored breathing.",
+  "emotion_description": "The heavy breathing suggests the person is in distress, exhausted, or experiencing a medical emergency.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

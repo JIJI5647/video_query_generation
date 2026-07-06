@@ -1,0 +1,63 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a receding hairline wearing a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bending forward with his hands covering his face, then being hugged from behind by a child"
+      },
+      {
+        "person": "a child with messy blonde hair wearing a grey sweatshirt",
+        "visibility": "clearly visible",
+        "position": "to the right of the man",
+        "action": "running from the left to hug the man from behind"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a wooden-paneled wall and several small, framed pictures on the wall"
+    },
+    "objects": [],
+    "interactions": [
+      "the child runs into the frame and hugs the man from behind"
+    ],
+    "key_actions": [
+      "the man is hunched over",
+      "the child hugs the man"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man",
+      "facial_cues": [
+        "hands covering his face"
+      ],
+      "body_cues": [
+        "hunched over posture"
+      ],
+      "gaze": "not visible"
+    },
+    {
+      "person": "the child",
+      "facial_cues": [
+        "not visible"
+      ],
+      "body_cues": [
+        "running, hugging"
+      ],
+      "gaze": "not visible"
+    }
+  ],
+  "audio_description": "A child's voice is heard crying and speaking in a distressed manner.",
+  "emotion_description": "The man appears to be in a state of distress or sadness, while the child is crying and sounds distressed.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

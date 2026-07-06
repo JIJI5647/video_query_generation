@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down with a tense expression"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "raising a hand towards the other man's face"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a dark background"
+    },
+    "objects": [],
+    "interactions": [
+      "The man on the left raises his hand towards the face of the man on the right"
+    ],
+    "key_actions": [
+      "A hand gesture near a face"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "tight jaw",
+        "focused gaze",
+        "tense expression"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking down"
+    },
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "partially obscured"
+      ],
+      "body_cues": [
+        "hand raised"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A man speaks in a calm but firm and warning tone.",
+  "emotion_description": "The man in the foreground appears serious and tense. The man speaking sounds calm but his words carry a threatening and authoritative tone.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

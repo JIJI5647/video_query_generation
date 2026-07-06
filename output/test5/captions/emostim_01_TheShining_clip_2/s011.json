@@ -1,0 +1,73 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and writing on a door with a red marker-like object"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom at night, with a person sleeping in a bed in the background, a nightstand with a lit lamp, and a glass-paned door visible."
+    },
+    "objects": [
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being written on with red text"
+      },
+      {
+        "object": "a red marker-like object",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "being used to write on the door"
+      },
+      {
+        "object": "a bed",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "occupied by a sleeping person"
+      },
+      {
+        "object": "a nightstand with a lamp",
+        "visibility": "clearly visible",
+        "position": "between the bed and the boy",
+        "action": "illuminating the scene"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The boy is writing on the door."
+      }
+    ],
+    "key_actions": [
+      "The boy is writing on the door with a red marker-like object."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "eyes are focused on the door"
+      ],
+      "body_cues": [
+        "standing still, concentrating on the writing task"
+      ],
+      "gaze": "downward towards the door"
+    }
+  ],
+  "audio_description": "A child's voice is heard speaking slowly and clearly.",
+  "temporal_description": "The boy continues to write on the door throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

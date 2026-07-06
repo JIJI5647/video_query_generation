@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at a laptop screen"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and looking through a camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a window covered by blinds, containing a camera on a tripod and a laptop"
+    },
+    "objects": [
+      "a laptop",
+      "a camera on a tripod",
+      "a radio"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man looking at a laptop",
+      "a hand turning a knob on a radio"
+    ],
+    "visibility_notes": "The scene is dimly lit."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "focused expression",
+        "furrowed brow"
+      ],
+      "body_cues": [],
+      "gaze": "downward at the laptop screen"
+    }
+  ],
+  "audio_description": "The audio contains a person speaking, followed by a loud, low-frequency electronic buzz.",
+  "emotion_description": "The man appears focused and concentrated.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

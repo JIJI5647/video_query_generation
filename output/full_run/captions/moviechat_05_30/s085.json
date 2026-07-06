@@ -1,0 +1,103 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with glasses and brown hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still and looking forward"
+      },
+      {
+        "person": "a young man with blonde hair",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "pointing a wand forward"
+      },
+      {
+        "person": "a young man with dark skin",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "pointing a wand forward"
+      },
+      {
+        "person": "a young man with dark hair",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "pointing a wand forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dimly lit room filled with various objects, including mirrors and metal bowls"
+    },
+    "objects": [
+      "wands",
+      "mirrors",
+      "metal bowls"
+    ],
+    "interactions": [
+      "the three men in the background are pointing their wands at the man in the foreground"
+    ],
+    "key_actions": [
+      "pointing wands",
+      "standing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young man with glasses and brown hair",
+      "facial_cues": [
+        "calm",
+        "serious"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a young man with blonde hair",
+      "facial_cues": [
+        "serious",
+        "determined"
+      ],
+      "body_cues": [
+        "pointing a wand"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a young man with dark skin",
+      "facial_cues": [
+        "serious",
+        "focused"
+      ],
+      "body_cues": [
+        "pointing a wand"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a young man with dark hair",
+      "facial_cues": [
+        "serious",
+        "focused"
+      ],
+      "body_cues": [
+        "pointing a wand"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A person speaks in a calm and serious tone.",
+  "emotion_description": "The atmosphere is tense and confrontational. The man in the foreground appears calm and serious, while the three men behind him look determined and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

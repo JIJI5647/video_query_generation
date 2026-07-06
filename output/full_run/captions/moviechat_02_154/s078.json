@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on her side on a bed, holding a pillow to her head"
+      },
+      {
+        "person": "a man in a black jacket",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and pointing a gun"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a bed"
+    },
+    "objects": [
+      "pillow",
+      "gun"
+    ],
+    "interactions": [
+      "The man points the gun towards the woman."
+    ],
+    "key_actions": [
+      "The woman holds a pillow to her head.",
+      "The man points a gun."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a white shirt",
+      "facial_cues": [
+        "face partially obscured by hair and pillow"
+      ],
+      "body_cues": [
+        "hugging a pillow to her head"
+      ],
+      "gaze": "not visible"
+    },
+    {
+      "person": "the man in a black jacket",
+      "facial_cues": [
+        "stern expression"
+      ],
+      "body_cues": [
+        "holding a gun with both hands"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, sustained, high-pitched electronic tone plays continuously.",
+  "emotion_description": "The woman appears fearful and defensive, while the man appears threatening and menacing.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

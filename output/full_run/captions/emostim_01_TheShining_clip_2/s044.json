@@ -1,0 +1,69 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running, holding a knife, shouting"
+      },
+      {
+        "person": "a man with long hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing, looking surprised"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a room with a door and a framed picture on the wall"
+    },
+    "objects": [
+      "a knife"
+    ],
+    "interactions": [
+      "the woman is shouting at the man"
+    ],
+    "key_actions": [
+      "the woman runs and shouts",
+      "the man looks surprised"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman with dark hair",
+      "facial_cues": [
+        "mouth open as if shouting",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "running",
+        "holding a knife"
+      ],
+      "gaze": "looking forward, towards the man"
+    },
+    {
+      "person": "the man with long hair",
+      "facial_cues": [
+        "wide eyes",
+        "mouth slightly open",
+        "furrowed brows"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking forward, towards the woman"
+    }
+  ],
+  "audio_description": "A person is shouting in a high-pitched, panicked voice.",
+  "emotion_description": "The woman is panicked and aggressive, while the man is surprised and shocked.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

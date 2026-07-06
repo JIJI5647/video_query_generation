@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "adjusting large black headphones while looking at a computer screen"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car at night, looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room and car interior",
+      "setting": "a dimly lit room, followed by the interior of a car at night"
+    },
+    "objects": [
+      "headphones",
+      "computer screen",
+      "car"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "adjusting headphones",
+      "looking at a screen",
+      "sitting in a car"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "furrowed brow",
+        "focused expression"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "down at the computer screen"
+    },
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "neutral expression",
+        "calm"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "There is a low-level ambient hum, possibly from a computer fan, in the background.",
+  "emotion_description": "The man in the white shirt appears focused and concentrated. The man in the dark shirt appears calm.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

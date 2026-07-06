@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long hair and a beard",
+        "visibility": "partially visible",
+        "position": "behind the door",
+        "action": "peering through a hole in the door and smiling"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "dimly lit with floral wallpaper and a round mirror on the wall"
+    },
+    "objects": [
+      {
+        "object": "a wooden door with a hole in it",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being peered through"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The man peers through the hole in the door and smiles."
+      }
+    ],
+    "key_actions": [
+      "Peering through a hole in a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long hair and a beard",
+      "facial_cues": [
+        "wide smile",
+        "intense eyes"
+      ],
+      "body_cues": [],
+      "gaze": "looking through the hole in the door"
+    }
+  ],
+  "audio_description": "A man's voice is heard from behind the door.",
+  "emotion_description": "Menacing and unsettling",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,63 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue shirt and light-colored pants",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "sitting on a couch and leaning forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room or cafe with an orange couch and a green pillar in the background"
+    },
+    "objects": [
+      {
+        "name": "orange couch",
+        "position": "center",
+        "visibility": "clearly visible",
+        "description": "a large, tufted orange couch where people are sitting."
+      },
+      {
+        "name": "green pillar",
+        "position": "right",
+        "visibility": "clearly visible",
+        "description": "a decorative pillar painted green, located near the couch."
+      },
+      {
+        "name": "pink underwear",
+        "position": "center",
+        "visibility": "clearly visible",
+        "description": "a pair of pink underwear with lace detailing is visible as the man leans forward."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man leans forward, revealing his pink underwear."
+    ],
+    "visibility_notes": "The man's underwear is clearly visible due to the angle and his movement."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue shirt and light-colored pants",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A male voice speaks, followed by a loud buzzer sound.",
+  "temporal_description": "The man smiles and leans forward, then a loud buzzer sounds.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

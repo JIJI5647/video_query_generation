@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s083",
+  "time_range": [
+    410.0,
+    415.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a mobile phone to his ear and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a large chandelier in the background and a golden statue to the right"
+    },
+    "objects": [
+      "mobile phone",
+      "chandelier",
+      "golden statue"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "answering a phone call"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "smiling",
+        "closed eyes"
+      ],
+      "body_cues": [
+        "tilting his head slightly"
+      ],
+      "gaze": "looking slightly to the left"
+    }
+  ],
+  "audio_description": "A male voice is speaking on a phone call, followed by a loud, jarring buzzer.",
+  "emotion_description": "The man on the phone appears to be in a relaxed or pleased mood, but the sudden buzzer suggests a negative or jarring interruption.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

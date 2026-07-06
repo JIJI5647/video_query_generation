@@ -1,0 +1,68 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running and swinging a knife"
+      },
+      {
+        "person": "a man with messy hair and a beard",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing in a doorway, reacting with shock"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a white tiled wall and a window"
+    },
+    "objects": [
+      "a knife"
+    ],
+    "interactions": [
+      "the woman swings the knife"
+    ],
+    "key_actions": [
+      "running",
+      "swinging a knife",
+      "reacting in shock"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide open mouth",
+        "wide eyes",
+        "intense expression"
+      ],
+      "body_cues": [
+        "swinging her arm"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man with messy hair and a beard",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "raised eyebrows"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A woman screaming and a man gasping in surprise.",
+  "emotion_description": "Terrified",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

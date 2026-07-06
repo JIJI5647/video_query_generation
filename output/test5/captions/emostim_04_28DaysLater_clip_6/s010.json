@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a shirtless man with a bloody wound on his chest",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "running through a hallway"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit hallway with ornate doors and a checkered floor, with light coming from a doorway on the left."
+    },
+    "objects": [
+      {
+        "object": "ornate doors",
+        "position": "left",
+        "action": "closed"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "running"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a shirtless man with a bloody wound on his chest",
+      "facial_cues": [
+        "grimacing"
+      ],
+      "body_cues": [
+        "running",
+        "clutching his chest"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, echoing crash followed by silence.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

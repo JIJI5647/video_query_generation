@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "kneeling and clawing at the snow"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a snowy area next to a building with a door"
+    },
+    "objects": [
+      "snow",
+      "door"
+    ],
+    "interactions": [
+      "the woman is struggling to move through the snow"
+    ],
+    "key_actions": [
+      "kneeling",
+      "clawing at the snow",
+      "struggling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "open mouth",
+        "showing teeth",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "kneeling",
+        "hands clawing at the snow"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A woman is shouting in distress.",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

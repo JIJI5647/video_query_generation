@@ -1,0 +1,79 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating a meal with chopsticks while sitting at a table"
+      },
+      {
+        "person": "a man in a white shirt with a blue collar",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at the table, looking to his left"
+      },
+      {
+        "person": "a person in a dark patterned dress",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing with arms crossed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room where people are having a meal at a table"
+    },
+    "objects": [
+      "a white bowl containing rice and food",
+      "chopsticks",
+      "a white cup with a straw",
+      "a black office chair",
+      "a table"
+    ],
+    "interactions": [
+      "the two men at the table are sitting together and eating"
+    ],
+    "key_actions": [
+      "eating with chopsticks",
+      "looking to the side"
+    ],
+    "visibility_notes": "The man in the suit is in the center of the frame. The man in the white shirt is to his right. A person in the background is partially obscured."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit jacket",
+      "facial_cues": [
+        "eating",
+        "mouth open"
+      ],
+      "body_cues": [
+        "sitting",
+        "holding chopsticks"
+      ],
+      "gaze": "looking down at his food"
+    },
+    {
+      "person": "a man in a white shirt with a blue collar",
+      "facial_cues": [
+        "neutral expression",
+        "slightly furrowed brow"
+      ],
+      "body_cues": [
+        "sitting",
+        "turned slightly to his left"
+      ],
+      "gaze": "looking to his left"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm and conversational tone.",
+  "emotion_description": "The man in the suit appears focused on his meal. The man in the white shirt appears to be listening attentively.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

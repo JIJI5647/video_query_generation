@@ -1,0 +1,68 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white hospital gown lying in a bed",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "lying in bed, speaking with an anxious expression"
+      },
+      {
+        "person": "a man in a white shirt leaning over the bed",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "leaning over the woman, looking at her"
+      },
+      {
+        "person": "a woman in a white lab coat",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "leaning over the bed, holding the woman's hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with medical equipment"
+    },
+    "objects": [
+      "hospital bed",
+      "pillow",
+      "pink blanket",
+      "medical equipment on the wall"
+    ],
+    "interactions": [
+      "the woman in the lab coat is holding the hand of the woman in the bed",
+      "the man and the woman in the lab coat are both leaning over the woman in the bed"
+    ],
+    "key_actions": [
+      "the woman in the bed speaking anxiously",
+      "the woman in the lab coat holding her hand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white hospital gown lying in a bed",
+      "facial_cues": [
+        "anxious expression",
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "lying in bed",
+        "hand held by the woman in the lab coat"
+      ],
+      "gaze": "looking at the woman in the lab coat"
+    }
+  ],
+  "audio_description": "A woman is speaking in a high-pitched, anxious, and pleading voice.",
+  "emotion_description": "The woman in the bed sounds anxious and distressed.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark red plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "swinging a sledgehammer, then walking towards a damaged doorway"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with pink walls, a bed, a lit lamp, and a French door"
+    },
+    "objects": [
+      "sledgehammer",
+      "bed",
+      "lamp",
+      "French door",
+      "damaged doorway"
+    ],
+    "interactions": [
+      "The man swings the sledgehammer at the doorway"
+    ],
+    "key_actions": [
+      "Swinging a sledgehammer",
+      "Walking towards a doorway"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark red plaid shirt",
+      "facial_cues": [
+        "intense expression",
+        "mouth open"
+      ],
+      "body_cues": [
+        "swinging a sledgehammer",
+        "walking"
+      ],
+      "gaze": "towards the doorway"
+    }
+  ],
+  "audio_description": "The audio features the loud, crashing sound of wood splintering and breaking.",
+  "emotion_description": "The man appears to be in a state of intense anger or rage, as suggested by his forceful action and strained facial expression.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

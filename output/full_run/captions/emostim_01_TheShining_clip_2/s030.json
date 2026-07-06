@@ -1,0 +1,42 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sliding down a snowy slope"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "a snowy slope at night, illuminated by artificial lights"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "A person slides down a snowy slope."
+    ],
+    "visibility_notes": "The scene is dark, with visibility limited by the low light and snow."
+  },
+  "visual_expression": [
+    {
+      "person": "a person",
+      "facial_cues": [],
+      "body_cues": [
+        "sliding down a slope"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, high-pitched screeching sound, like tires on ice or metal scraping, is heard.",
+  "emotion_description": "The person's action of sliding rapidly down a slope suggests a sense of urgency or panic.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

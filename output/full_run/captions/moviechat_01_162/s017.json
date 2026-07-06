@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man sitting in the driver's seat of a car",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pressing his right hand to his forehead"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "the car appears to be parked, with trees visible outside the window"
+    },
+    "objects": [
+      "a car seat",
+      "a steering wheel"
+    ],
+    "interactions": [
+      "the man is touching his own head"
+    ],
+    "key_actions": [
+      "the man pressing his hand to his forehead"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man sitting in the driver's seat of a car",
+      "facial_cues": [
+        "eyes closed",
+        "hand pressed to his forehead"
+      ],
+      "body_cues": [
+        "head tilted slightly downward"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a conversational tone.",
+  "emotion_description": "The man appears to be in a state of distress, frustration, or deep thought.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

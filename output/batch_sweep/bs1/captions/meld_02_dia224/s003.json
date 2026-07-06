@@ -1,0 +1,67 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the red shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on the couch and speaking to the man in the blue shirt"
+      },
+      {
+        "person": "the man in the blue shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on the couch and listening to the man in the red shirt"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a brown couch and a green pillar in the background"
+    },
+    "objects": [
+      {
+        "name": "couch",
+        "position": "center",
+        "description": "a brown couch where two men are sitting"
+      }
+    ],
+    "interactions": [
+      "the man in the red shirt is talking to the man in the blue shirt"
+    ],
+    "key_actions": [
+      "the man in the red shirt is speaking",
+      "the man in the blue shirt is listening"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the red shirt",
+      "facial_cues": [
+        "speaking"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking at the man in the blue shirt"
+    },
+    {
+      "person": "the man in the blue shirt",
+      "facial_cues": [
+        "listening"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man in the red shirt"
+    }
+  ],
+  "audio_description": "an off-screen voice is heard saying 'Chase' followed by a man speaking in a conversational tone.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a patterned sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on a wooden floor with his head and arms propped up, looking forward and then up with a strained expression"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dark, dimly lit wooden floor, possibly in a basement or abandoned building"
+    },
+    "objects": [
+      {
+        "object": "a small, dark object",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on the wooden floor"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man lies on the floor, propping himself up with his arms, and makes a strained facial expression."
+    ],
+    "visibility_notes": "The scene is very dark, with only the man and the object in the immediate foreground being clearly visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a patterned sweater",
+      "facial_cues": [
+        "strained expression",
+        "clenched jaw",
+        "tightened eyes",
+        "closed mouth"
+      ],
+      "body_cues": [
+        "arms propped on the floor"
+      ],
+      "gaze": "looking forward and then up"
+    }
+  ],
+  "audio_description": "A man is heard panting heavily and then speaking in a strained, exerted voice.",
+  "temporal_description": "The man is initially panting heavily, then he speaks with a strained voice, and his facial expression becomes more intense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking down"
+      },
+      {
+        "person": "a man in a blue denim jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a wooden floor and a whiteboard in the background"
+    },
+    "objects": [
+      "whiteboard"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the denim jacket looking down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark shirt and glasses",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting posture"
+      ],
+      "gaze": "looking down"
+    },
+    {
+      "person": "a man in a blue denim jacket",
+      "facial_cues": [
+        "looking down"
+      ],
+      "body_cues": [
+        "sitting posture"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "The audio contains the sound of a horn, possibly from a train or vehicle.",
+  "emotion_description": "The man in the denim jacket appears focused or contemplative.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,130 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long blonde hair in a patterned shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and gesturing with her right hand"
+      },
+      {
+        "person": "a man in a dark gray shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing behind a couch"
+      },
+      {
+        "person": "a man in a maroon shirt with a cast on his arm",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a couch and looking down at a piece of paper"
+      },
+      {
+        "person": "a man in a dark blue shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "sitting on a couch and looking forward"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on a couch and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch, a wooden cabinet, and a kitchen in the background"
+    },
+    "objects": [
+      "a wooden cabinet",
+      "a couch",
+      "a piece of paper",
+      "a cast",
+      "a kitchen with blue cabinets and shelves"
+    ],
+    "interactions": [
+      "the woman in the patterned shirt is gesturing towards the group on the couch",
+      "the man in the dark blue shirt is looking forward, seemingly listening to the woman"
+    ],
+    "key_actions": [
+      "the woman gesturing",
+      "the man with the cast looking at a paper",
+      "the man in the dark blue shirt looking forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long blonde hair in a patterned shirt",
+      "facial_cues": [
+        "looking forward",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "gesturing with right hand",
+        "standing"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a dark gray shirt",
+      "facial_cues": [
+        "looking down",
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing behind the couch",
+        "hands on the back of the couch"
+      ],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man in a maroon shirt with a cast on his arm",
+      "facial_cues": [
+        "looking down",
+        "serious expression"
+      ],
+      "body_cues": [
+        "sitting",
+        "holding a piece of paper",
+        "arm in a cast"
+      ],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man in a dark blue shirt",
+      "facial_cues": [
+        "looking forward",
+        "serious expression"
+      ],
+      "body_cues": [
+        "sitting",
+        "hands on his lap"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a woman in a white shirt",
+      "facial_cues": [
+        "looking forward",
+        "serious expression"
+      ],
+      "body_cues": [
+        "sitting",
+        "hands on her lap"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The audio contains a conversation between multiple people, with a male voice speaking in a firm, instructive tone.",
+  "emotion_description": "The people in the scene appear to be engaged in a serious conversation. The man in the dark blue shirt and the woman in the white shirt look serious, while the man in the maroon shirt appears somber.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

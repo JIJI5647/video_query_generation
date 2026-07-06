@@ -1,0 +1,68 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red t-shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch and gesturing with his hands"
+      },
+      {
+        "person": "a man in a blue polo shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a large, orange couch"
+    },
+    "objects": [
+      "an orange couch"
+    ],
+    "interactions": [
+      "the two men are sitting close to each other and appear to be in a conversation"
+    ],
+    "key_actions": [
+      "gesturing with hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red t-shirt",
+      "facial_cues": [
+        "looking at the other man",
+        "raised eyebrows"
+      ],
+      "body_cues": [
+        "sitting on the couch",
+        "gesturing with both hands"
+      ],
+      "gaze": "on the man in the blue shirt"
+    },
+    {
+      "person": "a man in a blue polo shirt",
+      "facial_cues": [
+        "looking at the other man",
+        "slight smile"
+      ],
+      "body_cues": [
+        "sitting on the couch",
+        "hands resting on his lap"
+      ],
+      "gaze": "on the man in the red shirt"
+    }
+  ],
+  "audio_description": "The audio captures a conversation between two men.",
+  "emotion_description": "The men seem to be engaged in a friendly and casual conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

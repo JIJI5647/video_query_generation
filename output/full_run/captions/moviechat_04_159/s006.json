@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down with a serious expression"
+      },
+      {
+        "person": "a man in a dark suit smoking",
+        "visibility": "partially visible",
+        "position": "left background",
+        "action": "holding a lit cigarette"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit with a spotlight on the man in the foreground"
+    },
+    "objects": [
+      "cigarette",
+      "glasses",
+      "suit"
+    ],
+    "interactions": [
+      "the two men are in the same room, but not directly interacting"
+    ],
+    "key_actions": [
+      "the man in the background is smoking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "slightly leaning forward"
+      ],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man in a dark suit smoking",
+      "facial_cues": [
+        "visible smoke around his face"
+      ],
+      "body_cues": [
+        "hand holding a cigarette to his mouth"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "The sound of a heavy, rhythmic thumping, like a heartbeat, is heard.",
+  "emotion_description": "The men's expressions and the tense music suggest a serious, suspenseful, and tense atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

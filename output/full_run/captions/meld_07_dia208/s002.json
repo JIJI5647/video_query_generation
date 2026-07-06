@@ -1,0 +1,84 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the red plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting at a small table, listening and then speaking while gesturing with his right hand"
+      },
+      {
+        "person": "the man in the black sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting at the table, listening with a smile and resting his chin on his hand"
+      },
+      {
+        "person": "the woman in a blue top",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting on a couch and looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a coffee shop decorated for Christmas with red bows and lights in the background"
+    },
+    "objects": [
+      {
+        "object": "small round table",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "on the table are two mugs and a small metal pitcher"
+      },
+      {
+        "object": "mugs",
+        "visibility": "clearly visible",
+        "position": "on the table",
+        "action": "in front of the two men"
+      }
+    ],
+    "interactions": [
+      "The two men are having a conversation."
+    ],
+    "key_actions": [
+      "The man in the red shirt gestures with his hand while speaking.",
+      "The man in the black sweater listens with a smile."
+    ],
+    "visibility_notes": "The background is somewhat out of focus, with other people visible."
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the red plaid shirt",
+      "facial_cues": [
+        "raising his eyebrows",
+        "smiling"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking towards the man in the black sweater"
+    },
+    {
+      "person": "the man in the black sweater",
+      "facial_cues": [
+        "smiling",
+        "nodding"
+      ],
+      "body_cues": [
+        "resting his chin on his right hand"
+      ],
+      "gaze": "looking at the man in the red shirt"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a conversational tone.",
+  "emotion_description": "The man in the red shirt appears to be amused, while the man in the black sweater seems to be listening with interest and amusement.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

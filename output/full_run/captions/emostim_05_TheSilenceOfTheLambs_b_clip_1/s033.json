@@ -1,0 +1,65 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored collared shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down with a focused expression"
+      },
+      {
+        "person": "a woman in a dark purple long-sleeved shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding and examining a small glass jar"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a plain, dark-colored wall in the background"
+    },
+    "objects": [
+      "a small, clear glass jar containing a dark, winged insect and some liquid"
+    ],
+    "interactions": [
+      "the woman holds the jar up to inspect the insect inside"
+    ],
+    "key_actions": [
+      "the man looking down",
+      "the woman holding and examining the jar"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored collared shirt",
+      "facial_cues": [
+        "frowning",
+        "furrowed brow",
+        "focused expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking down"
+    },
+    {
+      "person": "a woman in a dark purple long-sleeved shirt",
+      "facial_cues": [
+        "concentrated expression"
+      ],
+      "body_cues": [
+        "holding a jar with both hands"
+      ],
+      "gaze": "looking at the jar"
+    }
+  ],
+  "audio_description": "A man speaks, followed by a woman speaking, with a low, ambient hum in the background.",
+  "emotion_description": "The man appears serious and concentrated, while the woman appears focused and attentive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

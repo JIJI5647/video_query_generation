@@ -1,0 +1,48 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bending over, looking down"
+      },
+      {
+        "person": "a person in a dark suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wall decorated with several small framed photos"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The older man bends over"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "an older man in a black shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "bending over"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A child's voice is heard speaking, followed by a loud, abrupt buzzer sound.",
+  "emotion_description": "The child sounds excited or urgent, while the adult's posture suggests distress or deep thought. The loud buzzer creates a jarring or alarming feeling.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing a handgun forward"
+      },
+      {
+        "person": "a man lying on the floor",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying still on his back"
+      }
+    ],
+    "scene": {
+      "location": "indoor street or alley",
+      "setting": "nighttime, with illuminated signs in the background"
+    },
+    "objects": [
+      "a handgun"
+    ],
+    "interactions": [
+      "The man in the suit is aiming the handgun."
+    ],
+    "key_actions": [
+      "The man in the suit points the handgun.",
+      "The man on the floor is lying still."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "calm",
+        "focused"
+      ],
+      "body_cues": [
+        "pointing a handgun forward"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man lying on the floor",
+      "facial_cues": [
+        "eyes open",
+        "staring upward"
+      ],
+      "body_cues": [
+        "lying still on his back"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "The audio consists of a loud, sharp gunshot.",
+  "emotion_description": "The man in the suit appears calm and focused, while the man on the floor appears to be in shock or is deceased.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

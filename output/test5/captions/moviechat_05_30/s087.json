@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with platinum blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing a wand forward with a smirk"
+      },
+      {
+        "person": "a man with short dark hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "pointing a wand forward"
+      },
+      {
+        "person": "a man with dark skin",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "pointing a wand forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, cluttered room with various objects in the background, resembling a storage or workshop area"
+    },
+    "objects": [
+      {
+        "object": "wands",
+        "visibility": "clearly visible",
+        "position": "in hands of the people",
+        "action": "held and pointed forward"
+      }
+    ],
+    "interactions": [
+      "three people stand side-by-side, all pointing their wands forward in unison."
+    ],
+    "key_actions": [
+      "pointing wands forward"
+    ],
+    "visibility_notes": "The individuals are clearly visible in the foreground, with the background being darker and less distinct."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with platinum blonde hair",
+      "facial_cues": [
+        "smirking",
+        "raised eyebrows"
+      ],
+      "body_cues": [
+        "pointing wand forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, deliberate tone, followed by a low, ominous musical chord.",
+  "temporal_description": "A man speaks, then a low musical chord begins and continues until the end of the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

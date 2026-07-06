@@ -1,0 +1,42 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long black hair wearing a blue bathrobe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "trying to open a door while holding a knife and a young child"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "white paneled walls, tiled lower walls"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [
+      "The woman is holding a young child close to her body."
+    ],
+    "key_actions": [
+      "The woman is struggling to turn the doorknob and push against the door."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, suspenseful musical score plays with a prominent, high-pitched string instrument.",
+  "temporal_description": "The music starts abruptly and plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

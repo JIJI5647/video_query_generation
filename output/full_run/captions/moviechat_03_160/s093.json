@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with gray hair wearing a gray suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating with chopsticks"
+      },
+      {
+        "person": "a man in a light blue shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and walking"
+      },
+      {
+        "person": "several other men in dark clothing",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and watching"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a conference room with a long table and a map on the wall"
+    },
+    "objects": [
+      "a long conference table",
+      "a map on the wall",
+      "a plate of food"
+    ],
+    "interactions": [
+      "the man in the suit is eating while other men watch him"
+    ],
+    "key_actions": [
+      "eating",
+      "walking",
+      "standing"
+    ],
+    "visibility_notes": "The man in the light blue shirt is seen from the back."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with gray hair wearing a gray suit",
+      "facial_cues": [
+        "mouth open",
+        "eyes closed"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "down at the food"
+    }
+  ],
+  "audio_description": "The audio contains a male voice speaking, followed by a short musical sting.",
+  "emotion_description": "The man eating appears focused on his meal. The speaker's tone is neutral.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

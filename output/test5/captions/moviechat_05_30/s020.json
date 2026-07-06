@@ -1,0 +1,44 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long, dark hair wearing a dark, ornate coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in a crowd with his arms outstretched, then smiling"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a large, dark crowd of people gathered in a field near a forest."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man smiles"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long, dark hair wearing a dark, ornate coat",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "arms outstretched"
+      ],
+      "gaze": "towards the camera"
+    }
+  ],
+  "audio_description": "A person breathes heavily, followed by a dog barking.",
+  "temporal_description": "The clip starts with a person breathing heavily, then a dog barks.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

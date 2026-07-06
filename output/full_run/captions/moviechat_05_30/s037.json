@@ -1,0 +1,71 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "kneeling and holding a small, lit lantern"
+      },
+      {
+        "person": "a large, hulking figure with pale skin and horns",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and roaring"
+      },
+      {
+        "person": "a large group of armored soldiers",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing in formation, holding spears and shields"
+      }
+    ],
+    "scene": {
+      "location": "outdoor battlefield",
+      "setting": "a dark, night-time battlefield with a large army and a large, monstrous creature."
+    },
+    "objects": [
+      {
+        "object": "a lit lantern",
+        "visibility": "clearly visible",
+        "position": "held by the man in the suit"
+      },
+      {
+        "object": "spears and shields",
+        "visibility": "partially visible",
+        "position": "held by the soldiers"
+      }
+    ],
+    "interactions": [
+      "The monstrous figure stands over the man in the suit, who is surrounded by the soldiers."
+    ],
+    "key_actions": [
+      "A man kneels on the ground holding a lantern.",
+      "A large, horned monster roars.",
+      "A large army of soldiers stands ready."
+    ],
+    "visibility_notes": "The scene is very dark, with only the lantern and distant fires providing illumination."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "visible face with a determined expression"
+      ],
+      "body_cues": [
+        "kneeling on the ground"
+      ],
+      "gaze": "looking up towards the monstrous figure"
+    }
+  ],
+  "audio_description": "A loud, dramatic orchestral score with a prominent brass section creates a tense and epic atmosphere.",
+  "emotion_description": "The scene conveys a sense of epic confrontation and imminent danger.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

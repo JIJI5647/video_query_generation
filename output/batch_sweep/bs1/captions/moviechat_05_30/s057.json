@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with shaggy brown hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding and looking at a large map"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit stone room with a window in the background, possibly a castle or old building"
+    },
+    "objects": [
+      {
+        "object": "a large map",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "held by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man holds a map and speaks to the woman.",
+      "The woman listens intently."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with shaggy brown hair",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "holding a map",
+        "leaning slightly forward"
+      ],
+      "gaze": "at the woman"
+    },
+    {
+      "person": "a woman with long brown hair",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "listening intently"
+      ],
+      "gaze": "at the man"
+    }
+  ],
+  "audio_description": "A man speaks, followed by a woman speaking.",
+  "emotion_description": "Serious",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

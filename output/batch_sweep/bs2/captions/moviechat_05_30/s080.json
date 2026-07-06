@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with messy hair and round glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at an object"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, cluttered with various objects."
+    },
+    "objects": [
+      {
+        "object": "a silver, ornate tiara with a large dark gem and smaller clear gems",
+        "position": "inside a black-lined box",
+        "action": "being displayed"
+      }
+    ],
+    "interactions": [
+      "the man looks at the tiara"
+    ],
+    "key_actions": [
+      "looking at an object"
+    ],
+    "visibility_notes": "The man's face is in shadow, but his gaze is clearly directed at the tiara."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with messy hair and round glasses",
+      "facial_cues": [
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "downwards at the tiara"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful orchestral score continues to play.",
+  "emotion_description": "Curiosity",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

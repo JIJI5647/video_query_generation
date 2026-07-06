@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long red hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "interacting with a man, then running up a staircase"
+      },
+      {
+        "person": "a man with glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "interacting with the woman, then moving out of the frame"
+      },
+      {
+        "person": "other students in school uniforms",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running up a staircase"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a large, dimly lit stone staircase in what appears to be a school"
+    },
+    "objects": [],
+    "interactions": [
+      "the woman and the man touch each other's faces and shoulders",
+      "the woman and the man look at each other closely",
+      "the woman turns and runs up the stairs"
+    ],
+    "key_actions": [
+      "the woman and man have a close, emotional interaction",
+      "the woman runs up the stairs"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman with long red hair",
+      "facial_cues": [
+        "serious expression",
+        "tears in her eyes"
+      ],
+      "body_cues": [
+        "places her hands on the man's face and shoulders",
+        "turns and runs"
+      ],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "the man with glasses",
+      "facial_cues": [
+        "serious expression",
+        "gazing at the woman"
+      ],
+      "body_cues": [
+        "holds the woman's hands"
+      ],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A loud, dramatic musical score plays in the background.",
+  "emotion_description": "The interaction between the two people appears to be emotionally intense and serious, suggesting a moment of farewell or a significant, possibly sad, conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

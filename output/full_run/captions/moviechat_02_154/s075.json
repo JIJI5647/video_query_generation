@@ -1,0 +1,62 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s075",
+  "time_range": [
+    370.0,
+    375.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue denim shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at someone off-screen and speaking"
+      },
+      {
+        "person": "a man in a light-colored suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking forward and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a dark background"
+    },
+    "objects": [],
+    "interactions": [
+      "The two men appear to be in a conversation."
+    ],
+    "key_actions": [
+      "The man in the denim shirt speaks.",
+      "The man in the suit speaks."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue denim shirt",
+      "facial_cues": [
+        "looking slightly to his left",
+        "speaking"
+      ],
+      "body_cues": [],
+      "gaze": "to his left"
+    },
+    {
+      "person": "a man in a light-colored suit and glasses",
+      "facial_cues": [
+        "looking forward",
+        "speaking",
+        "blinking"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, conversational tone.",
+  "emotion_description": "Calm",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

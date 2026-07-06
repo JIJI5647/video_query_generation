@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, curly hair wearing a white collared shirt and a dark cardigan",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking and gesturing with her hands"
+      },
+      {
+        "person": "a man with dark hair wearing a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a busy restaurant or cafeteria with many other people in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The woman is speaking to the man across a table."
+    ],
+    "key_actions": [
+      "The woman talking and gesturing with her hands."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde, curly hair wearing a white collared shirt and a dark cardigan",
+      "facial_cues": [
+        "her eyes are closed",
+        "her head is tilted down"
+      ],
+      "body_cues": [
+        "her hands are moving in front of her"
+      ],
+      "gaze": "downwards"
+    }
+  ],
+  "audio_description": "A woman is speaking in a conversational tone, followed by a loud, low-pitched electronic buzzer.",
+  "emotion_description": "The woman's expression suggests she is in the middle of a story or making a point. The loud buzzer suggests a negative outcome, such as being wrong or a game ending.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

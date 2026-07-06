@@ -1,0 +1,78 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on a couch with her hands clasped in her lap."
+      },
+      {
+        "person": "the man in a dark t-shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a couch, looking towards the right."
+      },
+      {
+        "person": "a man in a green shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the couch."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch, an end table, a lamp, and a framed picture on the wall."
+    },
+    "objects": [
+      "couch",
+      "end table",
+      "lamp",
+      "framed picture",
+      "pillows"
+    ],
+    "interactions": [
+      "the man in the dark t-shirt and the woman in the white shirt are sitting next to each other on the couch."
+    ],
+    "key_actions": [
+      "the man in the dark t-shirt is looking towards the right and speaking."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a dark t-shirt",
+      "facial_cues": [
+        "his mouth is open as he is speaking",
+        "his eyebrows are slightly raised"
+      ],
+      "body_cues": [
+        "he is sitting forward on the couch",
+        "his hands are on his knees"
+      ],
+      "gaze": "looking towards the right of the frame."
+    },
+    {
+      "person": "the woman in a white shirt",
+      "facial_cues": [
+        "her expression is neutral",
+        "she is looking towards the right of the frame."
+      ],
+      "body_cues": [
+        "her hands are clasped in her lap",
+        "she is sitting upright."
+      ],
+      "gaze": "looking towards the right of the frame."
+    }
+  ],
+  "audio_description": "A male voice is speaking in a conversational tone.",
+  "emotion_description": "The man appears to be engaged in a conversation, while the woman appears to be listening attentively.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

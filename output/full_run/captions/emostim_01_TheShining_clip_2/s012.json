@@ -1,0 +1,58 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and writing on a door with a red marker"
+      },
+      {
+        "person": "a person sleeping",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "lying in bed under a blanket"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night, with a lamp on a nightstand and a closed door"
+    },
+    "objects": [
+      "a red marker",
+      "a knife",
+      "a door",
+      "a bed",
+      "a lamp",
+      "a nightstand",
+      "a blanket"
+    ],
+    "interactions": [
+      "the boy holding a knife in one hand and writing on the door with a red marker in the other"
+    ],
+    "key_actions": [
+      "writing on a door with a red marker"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [],
+      "body_cues": [
+        "holding a knife in one hand and writing on the door with a red marker in the other"
+      ],
+      "gaze": "looking down at the door"
+    }
+  ],
+  "audio_description": "A child's voice is speaking in a quiet, low tone.",
+  "emotion_description": "The child appears to be in a state of fear or distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

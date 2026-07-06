@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark red leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating a meal from a steaming pot with chopsticks"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a red wall in the background and a large, steaming pot in front of the man"
+    },
+    "objects": [
+      "a large, steaming pot",
+      "chopsticks",
+      "food"
+    ],
+    "interactions": [
+      "the man uses chopsticks to pick up food from the pot and eats it"
+    ],
+    "key_actions": [
+      "eating",
+      "using chopsticks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark red leather jacket",
+      "facial_cues": [
+        "frowning",
+        "concentrating"
+      ],
+      "body_cues": [
+        "leaning forward over the pot"
+      ],
+      "gaze": "looking down into the pot"
+    }
+  ],
+  "audio_description": "A rhythmic, percussive beat plays in the background.",
+  "emotion_description": "The man appears focused and concentrated on his meal.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

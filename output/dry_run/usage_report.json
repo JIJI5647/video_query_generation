@@ -1,0 +1,37 @@
+{
+  "total_wall_seconds": 1676.7,
+  "videos_attempted": 1,
+  "videos_processed": 1,
+  "total_tokens": 7603,
+  "total_llm_calls": 1,
+  "avg_seconds_per_processed_video": 1676.6,
+  "avg_tokens_per_processed_video": 7603,
+  "by_stage": {
+    "generation": {
+      "calls": 1,
+      "prompt_tokens": 5679,
+      "candidates_tokens": 1922,
+      "total_tokens": 7603
+    }
+  },
+  "stage_seconds_total": {
+    "segment/clips": 0.4,
+    "captions": 1085.8,
+    "generation": 12.4,
+    "verify/rewrite": 578.0
+  },
+  "per_video": [
+    {
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "status": "ok",
+      "seconds": 1676.6,
+      "total_tokens": 7603,
+      "stage_seconds": {
+        "segment/clips": 0.4,
+        "captions": 1085.8,
+        "generation": 12.4,
+        "verify/rewrite": 578.0
+      }
+    }
+  ]
+}

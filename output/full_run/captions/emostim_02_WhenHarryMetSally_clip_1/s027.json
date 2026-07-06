@@ -1,0 +1,78 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a brown shawl",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table"
+      },
+      {
+        "person": "a man in a green turtleneck and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table"
+      },
+      {
+        "person": "a woman in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting at a table"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a diner or restaurant with tables, chairs, and a counter in the background"
+    },
+    "objects": [
+      "cans and bottles on a table",
+      "papers on a table"
+    ],
+    "interactions": [
+      "the people are sitting at tables"
+    ],
+    "key_actions": [
+      "the woman in the brown shawl is speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a brown shawl",
+      "facial_cues": [
+        "speaking",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "sitting"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a green turtleneck and glasses",
+      "facial_cues": [
+        "looking forward"
+      ],
+      "body_cues": [
+        "sitting"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A female voice is shouting excitedly.",
+  "emotion_description": "The woman in the brown shawl appears excited and surprised.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

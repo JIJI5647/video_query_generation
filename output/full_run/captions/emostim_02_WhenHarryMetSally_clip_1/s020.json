@@ -1,0 +1,60 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde hair in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table"
+      },
+      {
+        "person": "a man with dark hair and a beard in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a busy restaurant or diner with other patrons in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The woman and the man are sitting across from each other at a table, seemingly in conversation."
+    ],
+    "key_actions": [
+      "The woman appears to be speaking and reacting to the man."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde hair in a white shirt",
+      "facial_cues": [
+        "Her eyes are closed",
+        "She has an open mouth as if speaking or reacting"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "a man with dark hair and a beard in a striped sweater",
+      "facial_cues": [
+        "He has a serious expression",
+        "He is looking at the woman"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A woman speaks with a drawn-out, exasperated tone, followed by a loud, sustained electronic buzz.",
+  "emotion_description": "The woman sounds exasperated or frustrated, and the man appears to be listening intently.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

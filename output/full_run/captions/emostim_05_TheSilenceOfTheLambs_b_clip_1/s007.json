@@ -1,0 +1,72 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a maroon shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking to her right"
+      },
+      {
+        "person": "a man in a suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a window and a wooden door in the background"
+    },
+    "objects": [
+      {
+        "name": "glasses",
+        "position": "on the man's face"
+      },
+      {
+        "name": "suit",
+        "position": "on the man"
+      },
+      {
+        "name": "tie",
+        "position": "around the man's neck"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman turning her head to the right",
+      "the man looking forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a maroon shirt",
+      "facial_cues": [
+        "her mouth is slightly open",
+        "she is looking to her right"
+      ],
+      "body_cues": [],
+      "gaze": "to her right"
+    },
+    {
+      "person": "a man in a suit and glasses",
+      "facial_cues": [
+        "he is looking forward",
+        "his expression is neutral"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A low, sustained electronic tone sounds.",
+  "emotion_description": "The woman appears surprised or concerned, while the man appears neutral or serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a police officer in a uniform",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with arms crossed"
+      },
+      {
+        "person": "several police officers and civilians",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing near a police car and an ambulance"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a street corner with a modern building, a police car, an ambulance, and a crowd of people behind a police tape"
+    },
+    "objects": [
+      "police car",
+      "ambulance",
+      "police tape",
+      "building",
+      "overpass"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "police officers standing guard",
+      "people gathered behind police tape"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a police officer in a uniform",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing with arms crossed"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A low, ominous musical score plays in the background.",
+  "emotion_description": "The mood is tense and serious, conveyed by the somber music and the police presence.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

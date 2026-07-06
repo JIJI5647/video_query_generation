@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with brown hair in a dark red hooded cloak",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and smiling"
+      },
+      {
+        "person": "a man with brown hair in a dark cloak",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and smiling"
+      }
+    ],
+    "scene": {
+      "location": "an outdoor, rocky, and dark area",
+      "setting": "a dimly lit, natural landscape with large rocks in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The two people are facing each other and smiling."
+    ],
+    "key_actions": [
+      "The woman and the man are smiling at each other."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with brown hair in a dark red hooded cloak",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "a man with brown hair in a dark cloak",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A woman is heard laughing.",
+  "emotion_description": "The woman is happy and amused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

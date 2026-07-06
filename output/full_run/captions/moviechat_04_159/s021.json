@@ -1,0 +1,75 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking briskly through an office space"
+      },
+      {
+        "person": "the woman in a white shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk"
+      },
+      {
+        "person": "the man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking towards the man in the suit"
+      }
+    ],
+    "scene": {
+      "location": "office",
+      "setting": "an office space with cubicles, desks, and walls covered in photographs and a map"
+    },
+    "objects": [
+      "desks",
+      "laptops",
+      "photographs",
+      "map"
+    ],
+    "interactions": [
+      "the man in the suit walks past the man in the light-colored shirt"
+    ],
+    "key_actions": [
+      "walking briskly",
+      "sitting",
+      "looking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the dark suit",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "brisk walking pace"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "the man in the light-colored shirt",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking towards the man in the suit"
+    }
+  ],
+  "audio_description": "A male voice calls out a name, followed by a female voice, and then a shushing sound.",
+  "emotion_description": "The man in the suit appears serious and focused, while the man in the light-colored shirt seems attentive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

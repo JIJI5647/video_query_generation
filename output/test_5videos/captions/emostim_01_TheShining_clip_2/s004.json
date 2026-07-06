@@ -1,0 +1,71 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "holding a large knife and a small red object, turning slightly to his left"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a bookshelf, a television, and a lamp on a table."
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being held by the boy"
+      },
+      {
+        "object": "red object",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being held by the boy"
+      },
+      {
+        "object": "bookshelf",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "in the background"
+      },
+      {
+        "object": "television",
+        "visibility": "clearly visible",
+        "position": "center-right",
+        "action": "on a stand, turned on"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The boy holds the knife and the red object.",
+      "The boy turns slightly to his left."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "holding a knife and a small object",
+        "turning slightly"
+      ],
+      "gaze": "looking towards the bookshelf"
+    }
+  ],
+  "audio_description": "A child's voice speaks with a muffled quality, accompanied by a low, sustained musical tone.",
+  "emotion_description": "The boy appears to be in a state of concentration or curiosity, possibly trying to understand or mimic what he is seeing or hearing.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

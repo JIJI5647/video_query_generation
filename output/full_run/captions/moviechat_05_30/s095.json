@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark jacket",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "searching through a large pile of clutter"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark and cluttered room filled with piles of furniture, books, and debris"
+    },
+    "objects": [
+      "pile of clutter",
+      "books",
+      "furniture"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "searching through clutter"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark jacket",
+      "facial_cues": [],
+      "body_cues": [
+        "leaning forward",
+        "reaching into the pile"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "The audio contains the sound of a vehicle engine revving and tires screeching, suggesting a car is accelerating or drifting nearby.",
+  "emotion_description": "The person's focused search suggests a sense of urgency or determination.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

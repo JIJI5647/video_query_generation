@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair wearing a dark, ornate coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with hands outstretched, looking forward with a sneer."
+      },
+      {
+        "person": "a man in a patterned sweater and collared shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in a stone archway, looking forward with a shocked expression."
+      },
+      {
+        "person": "a large crowd of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing in a forest clearing at night."
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a large gathering of people in a dark, wooded area."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "standing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair wearing a dark, ornate coat",
+      "facial_cues": [
+        "sneering"
+      ],
+      "body_cues": [
+        "hands outstretched"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a patterned sweater and collared shirt",
+      "facial_cues": [
+        "shocked"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man shouts loudly and aggressively.",
+  "emotion_description": "aggressive",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

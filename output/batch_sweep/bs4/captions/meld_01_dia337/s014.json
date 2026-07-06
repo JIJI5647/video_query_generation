@@ -1,0 +1,69 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    67.9
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking and gesturing"
+      },
+      {
+        "person": "the man in the blue plaid shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wall featuring a framed picture and a light fixture"
+    },
+    "objects": [
+      "a framed picture on the wall",
+      "a wall sconce"
+    ],
+    "interactions": [
+      "the two men are having a conversation"
+    ],
+    "key_actions": [
+      "the man in the pink shirt speaks and gestures with his hands",
+      "the man in the blue shirt listens"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the pink plaid shirt",
+      "facial_cues": [
+        "raised eyebrows",
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "gesturing with his hands",
+        "moving his head"
+      ],
+      "gaze": "looking at the man in the blue shirt"
+    },
+    {
+      "person": "the man in the blue plaid shirt",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "partially visible, listening"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "a man is speaking in a slightly excited tone.",
+  "emotion_description": "surprised",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

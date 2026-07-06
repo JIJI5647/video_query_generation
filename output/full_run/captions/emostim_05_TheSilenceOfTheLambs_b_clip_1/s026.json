@@ -1,0 +1,48 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person wearing gloves",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "using tweezers to manipulate a pink, fleshy object"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a close-up shot of a surgical procedure"
+    },
+    "objects": [
+      "tweezers",
+      "gloves",
+      "pink fleshy object"
+    ],
+    "interactions": [
+      "The person is using the tweezers to work on the pink object"
+    ],
+    "key_actions": [
+      "Using tweezers on a pink fleshy object"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person wearing gloves",
+      "facial_cues": [],
+      "body_cues": [
+        "Hands are actively manipulating an object"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A high-pitched, sustained electronic tone is heard.",
+  "emotion_description": "The person's expression is focused and concentrated.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

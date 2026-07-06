@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with shaggy brown hair wearing a red and grey striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "writing on a door with a red marker"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom at night with a bed, a nightstand with a lamp, and a closed door."
+    },
+    "objects": [
+      {
+        "object": "a large knife",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "held by the boy"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "writing the word 'REDACT' on a door with a red marker",
+      "holding a knife in the other hand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with shaggy brown hair wearing a red and grey striped sweater",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "leaning forward to write"
+      ],
+      "gaze": "down at the door"
+    }
+  ],
+  "audio_description": "A child's voice is speaking in a low, repetitive tone.",
+  "emotion_description": "The child's tone is unclear, but it seems like they might be practicing or repeating something.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

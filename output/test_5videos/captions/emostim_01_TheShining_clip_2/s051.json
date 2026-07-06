@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a dark blue robe",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "shouting, holding a knife, and being attacked by a cleaver"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a white door and tiled wall, showing signs of damage."
+    },
+    "objects": [
+      {
+        "object": "a cleaver",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "being swung at the woman"
+      }
+    ],
+    "interactions": [
+      "The cleaver is swung at the woman, who is trying to defend herself with a knife."
+    ],
+    "key_actions": [
+      "The woman is shouting in fear and attempting to fend off the cleaver with a knife."
+    ],
+    "visibility_notes": "The woman's face is clearly visible, showing distress, and the cleaver is visible in motion."
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a dark blue robe",
+      "facial_cues": [
+        "mouth wide open",
+        "eyes wide with fear"
+      ],
+      "body_cues": [
+        "holding a knife defensively",
+        "shouting"
+      ],
+      "gaze": "looking at the cleaver"
+    }
+  ],
+  "audio_description": "A person is screaming in terror and a loud thud is heard, suggesting an impact.",
+  "emotion_description": "Fear",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

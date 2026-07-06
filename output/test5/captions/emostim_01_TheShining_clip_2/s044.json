@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a knife and swinging it around"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bathroom with a sink and shower curtain visible in the background"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held and swung by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman swings the knife around",
+      "the woman moves the knife towards a wall"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "swinging the knife",
+        "moving towards a wall"
+      ],
+      "gaze": "looking forward and then to the side"
+    }
+  ],
+  "audio_description": "A loud, high-pitched, sustained electronic tone, similar to a siren, is audible.",
+  "temporal_description": "The electronic tone is present throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair and a mustache",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "emerging from a hole in a wall, then moving out of view"
+      },
+      {
+        "person": "a woman with dark hair",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "holding a knife, screaming with her mouth wide open"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with white walls, one of which has a large hole in it"
+    },
+    "objects": [
+      {
+        "name": "knife",
+        "description": "a long, thin knife held by the woman"
+      },
+      {
+        "name": "hole in wall",
+        "description": "a large, jagged hole in the white wall"
+      }
+    ],
+    "interactions": [
+      "The woman holds the knife and screams."
+    ],
+    "key_actions": [
+      "The man emerges from the hole in the wall.",
+      "The woman screams and holds a knife."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair and a mustache",
+      "facial_cues": [
+        "wide smile",
+        "exposed teeth"
+      ],
+      "body_cues": [
+        "emerging from a hole in the wall"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a woman with dark hair",
+      "facial_cues": [
+        "mouth wide open",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "holding a knife"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud scream is heard, followed by a man shouting in a high-pitched, panicked voice.",
+  "emotion_description": "The man appears manic or deranged, while the woman appears terrified.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,41 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running"
+      }
+    ],
+    "scene": {
+      "location": "castle courtyard",
+      "setting": "a large, ancient stone building with arched windows and staircases, under a dark sky, with debris falling from above and some fires burning in the background."
+    },
+    "objects": [
+      {
+        "object": "a large dark creature",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being ridden by a person and running."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "A person in a dark robe runs from left to right across the courtyard.",
+      "A large dark creature, ridden by a person, runs from left to right."
+    ],
+    "visibility_notes": "The person riding the creature is not clearly visible."
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, rumbling explosion sound effect occurs, followed by a high-pitched, distorted scream.",
+  "temporal_description": "The clip begins with people and a creature running, then a large explosion erupts in the background, sending debris flying, and a scream is heard.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with brown hair wearing a dark striped shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking to the woman on the right"
+      },
+      {
+        "person": "a young woman with brown hair in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "listening to the man and then looking off to the side"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dimly lit stone corridor or dungeon with archways in the background, illuminated by a cool blue light that flashes intermittently."
+    },
+    "objects": [],
+    "interactions": [
+      "The man and woman are having a brief conversation."
+    ],
+    "key_actions": [
+      "The man speaks to the woman.",
+      "The woman turns her head and looks to her left."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young man with brown hair wearing a dark striped shirt",
+      "facial_cues": [
+        "serious expression",
+        "mouth moving as he speaks"
+      ],
+      "body_cues": [
+        "turning his head to speak to the woman"
+      ],
+      "gaze": "towards the woman on the right"
+    },
+    {
+      "person": "a young woman with brown hair in a dark jacket",
+      "facial_cues": [
+        "concerned expression",
+        "eyes wide",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "turns her head to look off-screen to her left"
+      ],
+      "gaze": "to her left"
+    }
+  ],
+  "audio_description": "A man speaks, followed by a woman speaking, with a low, ominous ambient hum in the background.",
+  "emotion_description": "The woman's expression is one of concern and alertness, reacting to something off-screen.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing on a balcony, looking over the railing"
+      },
+      {
+        "person": "a man in a suit",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "approaching from the right and placing a hand on the man's shoulder"
+      }
+    ],
+    "scene": {
+      "location": "outdoor balcony",
+      "setting": "at night in an urban residential area with buildings in the background"
+    },
+    "objects": [
+      "metal railing",
+      "plastic sheeting"
+    ],
+    "interactions": [
+      "the man in the suit places his hand on the shoulder of the man in the white shirt"
+    ],
+    "key_actions": [
+      "standing",
+      "approaching",
+      "placing a hand on a shoulder"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "back turned to the camera"
+      ],
+      "body_cues": [
+        "standing still, then turning slightly as he is touched"
+      ],
+      "gaze": "looking over the railing"
+    }
+  ],
+  "audio_description": "The audio contains a brief, sharp male exclamation, followed by a deep, resonant, and sustained musical tone.",
+  "emotion_description": "The man in the white shirt appears surprised or startled by the man in the suit's sudden approach and touch, while the man in the suit's action suggests he is trying to get the other man's attention or stop him.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

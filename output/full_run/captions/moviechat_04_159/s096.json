@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s096",
+  "time_range": [
+    475.0,
+    480.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and looking at another man"
+      },
+      {
+        "person": "a man in a silver and black patterned shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "holding a long, thin black object and speaking"
+      },
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "gesturing with his hand while talking"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "far left",
+        "action": "standing and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with tiled walls, a dark door, and framed pictures on the wall"
+    },
+    "objects": [
+      "a long, thin black object",
+      "a framed picture"
+    ],
+    "interactions": [
+      "the man in the silver shirt and the man in the suit are interacting"
+    ],
+    "key_actions": [
+      "the man in the silver shirt is holding an object and talking",
+      "the man in the suit is gesturing with his hand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a silver and black patterned shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "holding an object"
+      ],
+      "gaze": "looking at the man in the suit"
+    }
+  ],
+  "audio_description": "The audio contains a male voice speaking, followed by a loud, sustained, low-pitched electronic buzzer.",
+  "emotion_description": "The man in the silver shirt appears amused or pleased. The other man's expression is not clearly visible.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

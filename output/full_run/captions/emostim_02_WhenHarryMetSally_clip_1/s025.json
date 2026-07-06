@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, curly hair in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "shouting with her head tilted back and mouth wide open"
+      },
+      {
+        "person": "a man in a blue and grey patterned sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking forward with a surprised expression"
+      },
+      {
+        "person": "a man in a blue shirt and a dark baseball cap",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting behind the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded, brightly lit restaurant or diner"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the woman shouting",
+      "the man in the sweater looking surprised"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman with blonde, curly hair",
+      "facial_cues": [
+        "mouth wide open",
+        "eyes closed",
+        "head tilted back"
+      ],
+      "body_cues": [],
+      "gaze": "looking upwards"
+    },
+    {
+      "person": "the man in the blue and grey patterned sweater",
+      "facial_cues": [
+        "wide eyes",
+        "raised eyebrows",
+        "mouth slightly open"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A woman is shouting the word 'yes' repeatedly in an excited and high-pitched voice.",
+  "emotion_description": "The woman appears to be ecstatic or wildly excited. The man looks surprised or shocked.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white hospital gown",
+        "visibility": "clearly visible",
+        "position": "foreground, lying in a hospital bed",
+        "action": "lying in a hospital bed, wincing, and clutching her stomach"
+      },
+      {
+        "person": "a man in a beige shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, leaning over the bed",
+        "action": "leaning over the woman, looking at her with a concerned expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with pink walls and medical equipment"
+    },
+    "objects": [
+      "a hospital bed",
+      "a pink blanket",
+      "a white pillow",
+      "an IV pole",
+      "an electrical outlet"
+    ],
+    "interactions": [
+      "the man is leaning over the woman, looking at her"
+    ],
+    "key_actions": [
+      "the woman is wincing and clutching her stomach",
+      "the man is leaning over and looking at the woman"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white hospital gown",
+      "facial_cues": [
+        "her eyes are squeezed shut",
+        "her eyebrows are furrowed",
+        "her mouth is slightly open",
+        "she is wincing"
+      ],
+      "body_cues": [
+        "she is clutching her stomach with her right hand"
+      ],
+      "gaze": "her eyes are closed"
+    },
+    {
+      "person": "a man in a beige shirt",
+      "facial_cues": [
+        "his eyebrows are furrowed",
+        "his eyes are wide",
+        "he is looking down intently at the woman"
+      ],
+      "body_cues": [
+        "he is leaning forward over the woman"
+      ],
+      "gaze": "down at the woman"
+    }
+  ],
+  "audio_description": "The audio contains a female voice speaking in a strained, high-pitched, and emotional tone, followed by a loud, sustained electronic buzzer sound.",
+  "emotion_description": "The woman appears to be in pain or distress, while the man appears to be concerned and worried.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

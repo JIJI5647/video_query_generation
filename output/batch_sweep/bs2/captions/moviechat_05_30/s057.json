@@ -1,0 +1,70 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a striped shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding a large map and speaking"
+      },
+      {
+        "person": "a woman in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dimly lit stone hallway with an arched doorway in the background"
+    },
+    "objects": [
+      {
+        "name": "map",
+        "category": "paper",
+        "position": "left",
+        "visibility": "clearly visible"
+      }
+    ],
+    "interactions": [
+      "The man and the woman are having a conversation."
+    ],
+    "key_actions": [
+      "The man holds and looks at the map while talking.",
+      "The woman listens to the man."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a striped shirt",
+      "facial_cues": [
+        "looking at the woman",
+        "talking"
+      ],
+      "body_cues": [
+        "holding a map"
+      ],
+      "gaze": "at the woman"
+    },
+    {
+      "person": "a woman in a dark jacket",
+      "facial_cues": [
+        "looking at the man",
+        "listening"
+      ],
+      "body_cues": [],
+      "gaze": "at the man"
+    }
+  ],
+  "audio_description": "Two people are having a quiet conversation.",
+  "emotion_description": "calm",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

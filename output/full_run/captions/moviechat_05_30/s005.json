@@ -1,0 +1,84 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on his back on a rocky surface with his arms raised"
+      },
+      {
+        "person": "a woman in a dark dress",
+        "visibility": "clearly visible",
+        "position": "right side of the frame",
+        "action": "standing and facing the man"
+      },
+      {
+        "person": "a crowd of people in dark robes",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing on a raised rocky area"
+      },
+      {
+        "person": "a woman in a dark robe",
+        "visibility": "partially visible",
+        "position": "left side of the frame",
+        "action": "standing and facing the man"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a rocky hill or clearing with a large crowd of people gathered in the background"
+    },
+    "objects": [
+      {
+        "name": "robes",
+        "description": "dark robes worn by the people in the scene"
+      }
+    ],
+    "interactions": [
+      "The woman in the dark dress and the woman in the dark robe are both facing the man lying on the ground."
+    ],
+    "key_actions": [
+      "The man is lying on the ground with his arms raised.",
+      "The crowd is observing the scene."
+    ],
+    "visibility_notes": "The overall scene is dark, with the primary light source illuminating the man and the immediate area around him."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark robe",
+      "facial_cues": [
+        "mouth open",
+        "eyes open"
+      ],
+      "body_cues": [
+        "lying on his back",
+        "arms raised"
+      ],
+      "gaze": "looking upwards"
+    },
+    {
+      "person": "a woman in a dark dress",
+      "facial_cues": [
+        "face visible",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "standing",
+        "facing the man"
+      ],
+      "gaze": "looking towards the man"
+    }
+  ],
+  "audio_description": "A low, sustained electronic tone plays, creating a tense and ominous atmosphere.",
+  "emotion_description": "The scene conveys a sense of tension, suspense, and potential danger.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

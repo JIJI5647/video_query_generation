@@ -1,0 +1,100 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "swinging an axe at a door with force."
+      },
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "running through a room, then rushing to a frosted window and pressing her hands against it."
+      },
+      {
+        "person": "a young child in a red sweater",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "clinging to the woman's leg while she stands by the window."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a domestic setting, possibly a house or apartment, with plain walls and a window."
+    },
+    "objects": [
+      {
+        "object": "an axe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being swung by the man."
+      },
+      {
+        "object": "a frosted window",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being pressed against by the woman and child."
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being struck by the axe."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "swinging an axe",
+      "running",
+      "pressing hands against a window"
+    ],
+    "visibility_notes": "The actions are all clearly visible within the frame."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red shirt",
+      "facial_cues": [
+        "angry",
+        "strained"
+      ],
+      "body_cues": [
+        "forceful swinging motion"
+      ],
+      "gaze": "focused on the door."
+    },
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "fearful",
+        "anxious"
+      ],
+      "body_cues": [
+        "running",
+        "pressing hands against the window"
+      ],
+      "gaze": "looking through the frosted window."
+    },
+    {
+      "person": "a young child in a red sweater",
+      "facial_cues": [
+        "fearful"
+      ],
+      "body_cues": [
+        "clinging to the woman's leg"
+      ],
+      "gaze": "not clearly visible."
+    }
+  ],
+  "audio_description": "A loud, jarring, and distorted sound is heard, suggesting a violent event like breaking or crashing.",
+  "emotion_description": "Fear and anger",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

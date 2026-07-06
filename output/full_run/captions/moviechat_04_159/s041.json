@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding and displaying a photograph"
+      },
+      {
+        "person": "a man in a dark suit with arms crossed",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing with arms crossed"
+      },
+      {
+        "person": "a man in a suit with a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a dark background"
+    },
+    "objects": [
+      "a photograph of a man with grey hair"
+    ],
+    "interactions": [
+      "the man in the foreground holds and presents the photograph to others"
+    ],
+    "key_actions": [
+      "holding and displaying a photograph",
+      "standing with arms crossed"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "holding a photograph up"
+      ],
+      "gaze": "looking at the photograph"
+    },
+    {
+      "person": "a man in a dark suit with arms crossed",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing with arms crossed"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a calm, narrative tone.",
+  "emotion_description": "The man holding the photograph appears serious and focused, while the man in the background looks serious and observant.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

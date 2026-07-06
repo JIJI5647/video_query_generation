@@ -1,0 +1,102 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman lying in a hospital bed",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "lying in a hospital bed, being helped to sit up by a man and a nurse"
+      },
+      {
+        "person": "a man in a light-colored jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "leaning over the bed, holding the woman's hands and helping her sit up"
+      },
+      {
+        "person": "a nurse in a white uniform",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "bending over the bed, helping the woman sit up"
+      },
+      {
+        "person": "a woman in a blue shirt",
+        "visibility": "partially visible",
+        "position": "left background",
+        "action": "sitting in a chair, looking at the woman in the bed"
+      },
+      {
+        "person": "a woman in a yellow shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "standing and pushing the chair of the woman in the blue shirt"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with a patient bed, medical equipment, and a window with blinds"
+    },
+    "objects": [
+      "hospital bed",
+      "pink blanket",
+      "medical equipment",
+      "chair",
+      "window with blinds"
+    ],
+    "interactions": [
+      "The man and the nurse are helping the woman in the bed to sit up.",
+      "The woman in the yellow shirt is pushing the chair of the woman in the blue shirt."
+    ],
+    "key_actions": [
+      "The woman in the bed is being helped to sit up.",
+      "The man and the nurse are supporting her."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman lying in the hospital bed",
+      "facial_cues": [
+        "strained expression",
+        "mouth open"
+      ],
+      "body_cues": [
+        "hands held by the man and the nurse"
+      ],
+      "gaze": "looking up at the man"
+    },
+    {
+      "person": "the man in the light-colored jacket",
+      "facial_cues": [
+        "concerned expression",
+        "smiling"
+      ],
+      "body_cues": [
+        "leaning over the bed",
+        "holding the woman's hands"
+      ],
+      "gaze": "looking at the woman in the bed"
+    },
+    {
+      "person": "the nurse in the white uniform",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "bending over the bed",
+        "supporting the woman"
+      ],
+      "gaze": "looking at the woman in the bed"
+    }
+  ],
+  "audio_description": "A woman is heard gasping and then laughing, with another woman speaking briefly.",
+  "emotion_description": "The woman in the bed appears to be in pain or discomfort but is also laughing, suggesting a mix of stress and amusement.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

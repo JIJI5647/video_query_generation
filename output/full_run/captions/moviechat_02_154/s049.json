@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark blue shirt and jeans",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing by the open driver's door of a car, then turning his head to look to his left."
+      },
+      {
+        "person": "a man in a light-colored suit with a patterned shirt",
+        "visibility": "clearly visible",
+        "position": "left foreground",
+        "action": "walking forward while smiling and looking up."
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "right background",
+        "action": "standing next to the open rear passenger door of the car."
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "an outdoor night scene, likely in front of a building with columns, with a wet car parked in the foreground."
+    },
+    "objects": [
+      {
+        "object": "a black Mercedes-Benz sedan",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "parked with its headlights on and driver's side door open."
+      }
+    ],
+    "interactions": [
+      "The man in the dark blue shirt appears to be interacting with the man in the suit as the latter walks past him."
+    ],
+    "key_actions": [
+      "The man in the dark blue shirt turns his head to look at the man in the suit.",
+      "The man in the suit walks forward with a smile."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a light-colored suit with a patterned shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "walking forward"
+      ],
+      "gaze": "looking up and to his left."
+    },
+    {
+      "person": "the man in a dark blue shirt and jeans",
+      "facial_cues": [],
+      "body_cues": [
+        "standing by the car"
+      ],
+      "gaze": "looking to his left."
+    }
+  ],
+  "audio_description": "A loud, sustained, and distorted electronic buzzing sound is heard.",
+  "emotion_description": "The man in the suit appears happy or amused, while the other man's expression is unclear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

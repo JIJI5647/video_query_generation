@@ -1,0 +1,16 @@
+{
+  "caption_model": "timechat",
+  "model_kind": "av",
+  "non_commercial": false,
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "video": "data/pilot_study/emostim_07_TheSilenceOfTheLambs_a_clip_2.mp4",
+  "audio": null,
+  "num_segments": 3,
+  "num_normalized_captions": 3,
+  "caption_seconds": 111.9,
+  "model_paths": {
+    "caption_model_path": "yaolily/TimeChat-Captioner-GRPO-7B",
+    "audio_model_path": null,
+    "video_model_path": null
+  }
+}

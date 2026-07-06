@@ -1,0 +1,51 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    37.16
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and gesturing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "living room with purple walls and furniture"
+    },
+    "objects": [
+      {
+        "object": "suitcase",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman gestures with her hand and speaks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a white shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "gesturing with her hand"
+      ],
+      "gaze": "toward the left"
+    }
+  ],
+  "audio_description": "a woman speaking excitedly",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

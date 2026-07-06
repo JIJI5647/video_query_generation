@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on his stomach and pushing himself up"
+      }
+    ],
+    "scene": {
+      "location": "an indoor room",
+      "setting": "a dark, wooden floor with debris"
+    },
+    "objects": [
+      {
+        "object": "a piece of debris",
+        "position": "on the floor in front of the man"
+      }
+    ],
+    "interactions": [
+      "the man pushing himself up from the floor"
+    ],
+    "key_actions": [
+      "pushing up from the floor"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark sweater",
+      "facial_cues": [
+        "straining",
+        "grimacing",
+        "eyes open",
+        "mouth open"
+      ],
+      "body_cues": [
+        "pushing up with arms",
+        "tense body"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "The audio contains a person heavily panting, followed by a voice speaking and then a loud buzzer.",
+  "emotion_description": "The man appears to be in pain or exerting himself greatly.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

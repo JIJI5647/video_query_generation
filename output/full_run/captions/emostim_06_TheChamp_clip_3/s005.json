@@ -1,0 +1,49 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blond hair wearing a grey shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "crying and holding a small, dark, shiny object in his hands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark background"
+    },
+    "objects": [
+      "a small, dark, shiny object"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "crying",
+      "holding an object"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blond hair wearing a grey shirt",
+      "facial_cues": [
+        "tears",
+        "closed eyes",
+        "sniffling"
+      ],
+      "body_cues": [
+        "tense shoulders"
+      ],
+      "gaze": "looking down at the object in his hands"
+    }
+  ],
+  "audio_description": "The audio features a child crying and sniffling, with sounds of distress.",
+  "emotion_description": "The boy is distressed and sad.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

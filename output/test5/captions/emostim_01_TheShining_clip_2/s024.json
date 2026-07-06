@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "swinging a pickaxe to break through a wooden door"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "a hallway with blue walls and a wooden door being broken down"
+    },
+    "objects": [
+      {
+        "object": "pickaxe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being swung by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man swinging pickaxe",
+      "door being broken"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red jacket",
+      "facial_cues": [
+        "straining expression"
+      ],
+      "body_cues": [
+        "leaning into the swing"
+      ],
+      "gaze": "focused on the door"
+    }
+  ],
+  "audio_description": "A loud crashing sound as the door is broken through.",
+  "temporal_description": "The man swings the pickaxe, causing the door to break.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

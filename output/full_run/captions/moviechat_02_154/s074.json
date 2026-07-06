@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white collared shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking to his right with a serious expression"
+      },
+      {
+        "person": "a man in a blue denim shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "touching his chin with his right hand and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a dark, indistinct background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the white shirt looks to his right",
+      "The man in the denim shirt touches his chin"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white collared shirt and dark tie",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow"
+      ],
+      "body_cues": [],
+      "gaze": "to his right"
+    },
+    {
+      "person": "a man in a blue denim shirt",
+      "facial_cues": [
+        "pensive expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "right hand touching his chin"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A low, continuous humming or buzzing sound is present throughout the clip.",
+  "emotion_description": "The man in the white shirt appears serious and concerned, while the man in the denim shirt appears pensive and contemplative.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

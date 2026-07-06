@@ -1,0 +1,47 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table and reacting with discomfort"
+      }
+    ],
+    "scene": {
+      "location": "indoor restaurant",
+      "setting": "busy with other patrons in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the woman closes her eyes tightly",
+      "the woman places her hand on her forehead"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde hair",
+      "facial_cues": [
+        "eyes tightly closed",
+        "mouth open",
+        "hand on forehead"
+      ],
+      "body_cues": [
+        "head tilted back"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "A person is audibly groaning in discomfort.",
+  "emotion_description": "Pain",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

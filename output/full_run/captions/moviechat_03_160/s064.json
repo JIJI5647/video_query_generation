@@ -1,0 +1,78 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking into a handheld walkie-talkie"
+      },
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a phone to his ear"
+      },
+      {
+        "person": "a man with a mustache",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking to the side"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a collage of photos on the wall"
+    },
+    "objects": [
+      "walkie-talkie",
+      "phone",
+      "collage of photos"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the suit speaks into the walkie-talkie",
+      "the man in the light-colored suit holds a phone to his ear",
+      "the man with the mustache looks to the side"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "focused",
+        "serious"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "serious"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with a mustache",
+      "facial_cues": [
+        "serious",
+        "pensive"
+      ],
+      "body_cues": [],
+      "gaze": "to the side"
+    }
+  ],
+  "audio_description": "A loud, sustained, high-pitched electronic tone sounds, similar to an alarm or a siren.",
+  "emotion_description": "The overall atmosphere is tense and serious, as indicated by the characters' focused expressions and the urgent sound of the alarm.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

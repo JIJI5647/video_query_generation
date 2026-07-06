@@ -1,0 +1,84 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark blue shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding a black object and pointing it at another man"
+      },
+      {
+        "person": "a man in a shiny silver and black jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "gesturing with his right hand and then looking down at a black object"
+      },
+      {
+        "person": "a man in a light grey suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and looking at the man in the jacket"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with green tiled walls and several framed black and white photos on the wall"
+    },
+    "objects": [
+      "a black object, possibly a gun, held by the man in the blue shirt",
+      "a black object, possibly a phone, held by the man in the jacket"
+    ],
+    "interactions": [
+      "the man in the blue shirt points the black object at the man in the jacket",
+      "the man in the jacket holds a black object and gestures"
+    ],
+    "key_actions": [
+      "pointing",
+      "gesturing",
+      "holding"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark blue shirt",
+      "facial_cues": [
+        "serious"
+      ],
+      "body_cues": [
+        "pointing"
+      ],
+      "gaze": "looking at the man in the jacket"
+    },
+    {
+      "person": "a man in a shiny silver and black jacket",
+      "facial_cues": [
+        "serious",
+        "focused"
+      ],
+      "body_cues": [
+        "gesturing",
+        "holding an object"
+      ],
+      "gaze": "looking at the man in the blue shirt, then down at the object"
+    },
+    {
+      "person": "a man in a light grey suit",
+      "facial_cues": [
+        "serious"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man in the jacket"
+    }
+  ],
+  "audio_description": "The audio contains unintelligible speech, possibly from multiple people.",
+  "emotion_description": "The atmosphere appears tense and serious, suggested by the focused expressions and the act of pointing a weapon.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

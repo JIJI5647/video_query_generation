@@ -1,0 +1,80 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white lab coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking"
+      },
+      {
+        "person": "a man in a beige shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "leaning over a person in a hospital bed"
+      },
+      {
+        "person": "a person in a hospital bed",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "lying in the bed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with a patient bed and medical equipment"
+    },
+    "objects": [
+      {
+        "name": "hospital bed",
+        "position": "background"
+      },
+      {
+        "name": "medical equipment",
+        "position": "left of the bed"
+      }
+    ],
+    "interactions": [
+      "The woman in the lab coat is speaking to the man in the beige shirt."
+    ],
+    "key_actions": [
+      "The woman in the lab coat is speaking.",
+      "The man in the beige shirt is leaning over the person in the bed."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white lab coat",
+      "facial_cues": [
+        "speaking",
+        "focused expression"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "looking towards the man in the beige shirt"
+    },
+    {
+      "person": "a man in a beige shirt",
+      "facial_cues": [
+        "surprised expression",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "leaning forward over the bed"
+      ],
+      "gaze": "looking up at the woman in the lab coat"
+    }
+  ],
+  "audio_description": "The audio features a female voice speaking, followed by a male voice speaking with a surprised tone.",
+  "emotion_description": "The man in the beige shirt appears surprised or shocked by what the woman has said.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

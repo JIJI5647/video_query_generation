@@ -1,0 +1,72 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a red shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a couch and speaking"
+      },
+      {
+        "person": "the man in a blue shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on a couch and laughing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a coffee shop or lounge with an orange couch and other patrons in the background"
+    },
+    "objects": [
+      "orange couch",
+      "table",
+      "mug"
+    ],
+    "interactions": [
+      "the man in the red shirt asks the man in the blue shirt a question"
+    ],
+    "key_actions": [
+      "the man in the red shirt speaks",
+      "the man in the blue shirt laughs"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the red shirt",
+      "facial_cues": [
+        "raised eyebrows",
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "sitting upright"
+      ],
+      "gaze": "looking at the man in the blue shirt"
+    },
+    {
+      "person": "the man in the blue shirt",
+      "facial_cues": [
+        "wide smile",
+        "closed eyes",
+        "crinkled eyes"
+      ],
+      "body_cues": [
+        "leaning back slightly",
+        "shoulders shaking"
+      ],
+      "gaze": "looking down and away from the man in the red shirt"
+    }
+  ],
+  "audio_description": "A male voice asks a question, followed by the sound of a crowd laughing.",
+  "emotion_description": "The man in the red shirt seems curious or surprised, while the man in the blue shirt is amused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

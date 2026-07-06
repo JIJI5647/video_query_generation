@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "turning his head and looking around"
+      },
+      {
+        "person": "a man with headphones",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at a laptop screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark and dimly lit"
+    },
+    "objects": [
+      "earpiece",
+      "headphones",
+      "laptop"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man in suit looking around",
+      "man with headphones looking at a laptop"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "serious expression",
+        "tense jaw"
+      ],
+      "body_cues": [],
+      "gaze": "looking around"
+    },
+    {
+      "person": "a man with headphones",
+      "facial_cues": [
+        "intense gaze",
+        "focused expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking at a laptop"
+    }
+  ],
+  "audio_description": "A tense and suspenseful musical score is playing.",
+  "emotion_description": "The man in the suit appears anxious and alert, while the man with headphones looks intensely focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

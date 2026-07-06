@@ -1,0 +1,49 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy in a red and green striped sweater",
+        "visibility": "clearly visible",
+        "position": "in the foreground",
+        "action": "hugging the woman and looking around fearfully"
+      }
+    ],
+    "scene": {
+      "location": "indoor bathroom",
+      "setting": "white tiled walls"
+    },
+    "objects": [],
+    "interactions": [
+      "The boy is clinging to the woman's waist."
+    ],
+    "key_actions": [
+      "The boy is looking around with a scared expression."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the boy",
+      "facial_cues": [
+        "terrified",
+        "wide-eyed",
+        "mouth agape"
+      ],
+      "body_cues": [
+        "hugging the woman tightly",
+        "looking over his shoulder"
+      ],
+      "gaze": "over his shoulder, towards the door"
+    }
+  ],
+  "audio_description": "A loud, metallic scraping and clanking sound, like a large lock being forced.",
+  "emotion_description": "Fear and terror.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

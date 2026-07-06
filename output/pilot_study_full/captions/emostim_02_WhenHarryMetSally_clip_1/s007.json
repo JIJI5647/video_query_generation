@@ -1,0 +1,65 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, curly hair wearing a dark sweater over a white collared shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "eating a sandwich and talking"
+      },
+      {
+        "person": "a man with dark hair and a beard wearing a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "eating a sandwich and talking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded cafeteria or restaurant"
+    },
+    "objects": [
+      "sandwiches",
+      "table"
+    ],
+    "interactions": [
+      "the two people are sitting at a table, eating, and having a conversation"
+    ],
+    "key_actions": [
+      "eating, talking, gesturing with hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman",
+      "facial_cues": [
+        "talking, focused expression"
+      ],
+      "body_cues": [
+        "gesturing with her right hand"
+      ],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "the man",
+      "facial_cues": [
+        "talking, focused expression"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "Two people are having a conversation.",
+  "emotion_description": "Neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

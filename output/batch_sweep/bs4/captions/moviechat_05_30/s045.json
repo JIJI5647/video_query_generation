@@ -1,0 +1,82 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair and a beard",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "speaking and looking to the left"
+      },
+      {
+        "person": "a woman with long red hair",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man with dark hair and glasses",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and looking to the right"
+      }
+    ],
+    "scene": {
+      "location": "indoor stone hallway",
+      "setting": "dimly lit with stone walls and arches"
+    },
+    "objects": [],
+    "interactions": [
+      "the man on the right speaks to the man on the left"
+    ],
+    "key_actions": [
+      "the man on the right speaks urgently",
+      "the man on the left listens intently"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man with dark hair and a beard",
+      "facial_cues": [
+        "serious",
+        "urgent"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "to the left"
+    },
+    {
+      "person": "the woman with long red hair",
+      "facial_cues": [
+        "serious",
+        "concerned"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "the man with dark hair and glasses",
+      "facial_cues": [
+        "serious",
+        "concerned"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "to the right"
+    }
+  ],
+  "audio_description": "A man's voice speaks urgently.",
+  "emotion_description": "Urgent, concerned",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

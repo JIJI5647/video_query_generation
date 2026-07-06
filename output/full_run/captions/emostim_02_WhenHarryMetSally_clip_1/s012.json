@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, curly hair in a white shirt and dark cardigan",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking and gesturing with her hands"
+      },
+      {
+        "person": "a man with dark, curly hair in a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded dining hall or cafeteria with many other people in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The woman is speaking to the man."
+    ],
+    "key_actions": [
+      "The woman speaking and gesturing.",
+      "The man listening."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde, curly hair in a white shirt and dark cardigan",
+      "facial_cues": [
+        "Smiling",
+        "Blinking",
+        "Mouth moving while speaking"
+      ],
+      "body_cues": [
+        "Gesturing with hands"
+      ],
+      "gaze": "Looking at the man"
+    }
+  ],
+  "audio_description": "A woman speaks clearly, followed by a loud, sustained electronic buzzer.",
+  "emotion_description": "The woman sounds amused or playful, while the buzzer sound suggests a negative outcome.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black t-shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking"
+      },
+      {
+        "person": "a man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "listening"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "a dimly lit car interior at night"
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the black t-shirt is speaking to the man in the black jacket."
+    ],
+    "key_actions": [
+      "The man in the black t-shirt is speaking.",
+      "The man in the black jacket is listening."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black t-shirt",
+      "facial_cues": [
+        "sweating",
+        "wide eyes",
+        "mouth open"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking at the other man"
+    },
+    {
+      "person": "a man in a black jacket",
+      "facial_cues": [
+        "sweating",
+        "serious expression",
+        "focusing gaze"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a strained and urgent tone.",
+  "emotion_description": "The man speaking sounds anxious and urgent, while the man listening appears serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

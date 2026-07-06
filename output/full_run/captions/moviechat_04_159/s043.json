@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "touching his nose with his right hand"
+      },
+      {
+        "person": "a man in a dark blue jacket with an 'OCTB' patch",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with grey walls and a television screen in the background"
+    },
+    "objects": [
+      "television screen"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the suit touching his nose"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and white shirt",
+      "facial_cues": [
+        "touching his nose with his right hand",
+        "intense gaze"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a dark blue jacket with an 'OCTB' patch",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a serious tone.",
+  "emotion_description": "The man in the suit appears focused and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

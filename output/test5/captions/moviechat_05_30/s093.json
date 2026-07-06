@@ -1,0 +1,45 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing round glasses and a light-colored jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up with a shocked expression"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a cluttered, dark room filled with furniture and other objects."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man looks up in shock."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing round glasses and a light-colored jacket",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "looking up"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "a man shouts in alarm.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

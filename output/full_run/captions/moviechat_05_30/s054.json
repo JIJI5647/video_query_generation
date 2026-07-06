@@ -1,0 +1,70 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in dark clothing",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "walking and looking at a man"
+      },
+      {
+        "person": "a man in dark clothing",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "reading a large, open book"
+      }
+    ],
+    "scene": {
+      "location": "indoor hall",
+      "setting": "a dimly lit stone hall with a large window casting a beam of light on the floor"
+    },
+    "objects": [
+      {
+        "object": "an open book",
+        "visibility": "clearly visible",
+        "position": "held by the man",
+        "action": "being read"
+      }
+    ],
+    "interactions": [
+      "The man and woman are walking together through the hall."
+    ],
+    "key_actions": [
+      "The man holds and reads the book.",
+      "The woman looks at the man and the book."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in dark clothing",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "reading the book"
+      ],
+      "gaze": "looking down at the book"
+    },
+    {
+      "person": "the woman in dark clothing",
+      "facial_cues": [
+        "looking at the man with a concerned expression"
+      ],
+      "body_cues": [
+        "walking beside the man"
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "A tense conversation is taking place between a man and a woman.",
+  "emotion_description": "The woman appears anxious or frustrated, while the man seems focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

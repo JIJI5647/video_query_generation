@@ -1,0 +1,309 @@
+Looking in indexes: https://download.pytorch.org/whl/cu118, https://pypi.ngc.nvidia.com
+Collecting torch==2.0.0
+  Downloading https://download-r2.pytorch.org/whl/cu118/torch-2.0.0%2Bcu118-cp310-cp310-linux_x86_64.whl (2267.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 GB 1.5 MB/s eta 0:00:00
+Collecting torchaudio==2.0.1
+  Downloading https://download-r2.pytorch.org/whl/cu118/torchaudio-2.0.1%2Bcu118-cp310-cp310-linux_x86_64.whl (4.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.4/4.4 MB 3.6 MB/s eta 0:00:00
+Collecting filelock
+  Obtaining dependency information for filelock from https://files.pythonhosted.org/packages/81/47/dd9a212ef6e343a6857485ffe25bba537304f1913bdbed446a23f7f592e1/filelock-3.29.0-py3-none-any.whl.metadata
+  Downloading filelock-3.29.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting jinja2
+  Obtaining dependency information for jinja2 from https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl.metadata
+  Downloading https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl.metadata (2.9 kB)
+Discarding https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl (from https://download.pytorch.org/whl/cu118/jinja2/): Requested jinja2 from https://download.pytorch.org/whl/jinja2-3.1.6-py3-none-any.whl (from torch==2.0.0) has inconsistent Name: expected 'jinja2', but metadata has 'Jinja2'
+  Obtaining dependency information for jinja2 from https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl.metadata
+  Downloading https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Discarding https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl#sha256=bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d (from https://download.pytorch.org/whl/cu118/jinja2/): Requested jinja2 from https://download.pytorch.org/whl/Jinja2-3.1.4-py3-none-any.whl#sha256=bc5dd2abb727a5319567b7a813e6a2e7318c39f4f487cfe6c89c6f9c7d25197d (from torch==2.0.0) has inconsistent Name: expected 'jinja2', but metadata has 'Jinja2'
+  Downloading https://download.pytorch.org/whl/Jinja2-3.1.3-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.2/133.2 kB 9.7 MB/s eta 0:00:00
+Collecting networkx
+  Obtaining dependency information for networkx from https://files.pythonhosted.org/packages/b9/54/dd730b32ea14ea797530a4479b2ed46a6fb250f682a9cfb997e968bf0261/networkx-3.4.2-py3-none-any.whl.metadata
+  Downloading networkx-3.4.2-py3-none-any.whl.metadata (6.3 kB)
+Collecting sympy
+  Obtaining dependency information for sympy from https://files.pythonhosted.org/packages/a2/09/77d55d46fd61b4a135c444fc97158ef34a095e5681d0a6c10b75bf356191/sympy-1.14.0-py3-none-any.whl.metadata
+  Downloading sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting triton==2.0.0
+  Downloading https://download-r2.pytorch.org/whl/triton-2.0.0-1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (63.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.3/63.3 MB 30.4 MB/s eta 0:00:00
+Collecting typing-extensions
+  Obtaining dependency information for typing-extensions from https://download.pytorch.org/whl/typing_extensions-4.15.0-py3-none-any.whl.metadata
+  Downloading https://download.pytorch.org/whl/typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Discarding https://download.pytorch.org/whl/typing_extensions-4.15.0-py3-none-any.whl (from https://download.pytorch.org/whl/cu118/typing-extensions/): Requested typing-extensions from https://download.pytorch.org/whl/typing_extensions-4.15.0-py3-none-any.whl (from torch==2.0.0) has inconsistent Name: expected 'typing-extensions', but metadata has 'typing_extensions'
+  Obtaining dependency information for typing-extensions from https://download.pytorch.org/whl/typing_extensions-4.14.0-py3-none-any.whl.metadata
+  Downloading https://download.pytorch.org/whl/typing_extensions-4.14.0-py3-none-any.whl.metadata (3.0 kB)
+Discarding https://download.pytorch.org/whl/typing_extensions-4.14.0-py3-none-any.whl (from https://download.pytorch.org/whl/cu118/typing-extensions/): Requested typing-extensions from https://download.pytorch.org/whl/typing_extensions-4.14.0-py3-none-any.whl (from torch==2.0.0) has inconsistent Name: expected 'typing-extensions', but metadata has 'typing_extensions'
+  Obtaining dependency information for typing-extensions from https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl.metadata
+  Downloading https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl.metadata (3.0 kB)
+Discarding https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl (from https://download.pytorch.org/whl/cu118/typing-extensions/): Requested typing-extensions from https://download.pytorch.org/whl/typing_extensions-4.12.2-py3-none-any.whl (from torch==2.0.0) has inconsistent Name: expected 'typing-extensions', but metadata has 'typing_extensions'
+  Downloading https://download.pytorch.org/whl/typing_extensions-4.9.0-py3-none-any.whl (32 kB)
+Collecting lit
+  Downloading https://download.pytorch.org/whl/lit-15.0.7.tar.gz (132 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 132.3/132.3 kB 9.7 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting cmake
+  Downloading https://download.pytorch.org/whl/cmake-3.25.0-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.7/23.7 MB 75.7 MB/s eta 0:00:00
+Collecting MarkupSafe>=2.0
+  Obtaining dependency information for MarkupSafe>=2.0 from https://download.pytorch.org/whl/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata
+  Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.7 kB)
+Collecting mpmath<1.4,>=1.1.0
+  Obtaining dependency information for mpmath<1.4,>=1.1.0 from https://files.pythonhosted.org/packages/43/e3/7d92a15f894aa0c9c4b49b8ee9ac9850d6e63b03c9c32c0367a13ae62209/mpmath-1.3.0-py3-none-any.whl.metadata
+  Downloading mpmath-1.3.0-py3-none-any.whl.metadata (8.6 kB)
+Downloading filelock-3.29.0-py3-none-any.whl (39 kB)
+Downloading networkx-3.4.2-py3-none-any.whl (1.7 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 82.1 MB/s eta 0:00:00
+Downloading sympy-1.14.0-py3-none-any.whl (6.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.3/6.3 MB 152.6 MB/s eta 0:00:00
+Downloading https://download.pytorch.org/whl/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+Downloading mpmath-1.3.0-py3-none-any.whl (536 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 536.2/536.2 kB 53.9 MB/s eta 0:00:00
+Using cached filelock-3.29.0-py3-none-any.whl (39 kB)
+Using cached networkx-3.4.2-py3-none-any.whl (1.7 MB)
+Using cached sympy-1.14.0-py3-none-any.whl (6.3 MB)
+Using cached https://download.pytorch.org/whl/markupsafe-3.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (20 kB)
+Using cached mpmath-1.3.0-py3-none-any.whl (536 kB)
+Installing collected packages: mpmath, lit, cmake, typing-extensions, sympy, networkx, MarkupSafe, filelock, jinja2, triton, torch, torchaudio
+  DEPRECATION: lit is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for lit: started
+  Running setup.py install for lit: finished with status 'done'
+Successfully installed MarkupSafe-3.0.3 cmake-3.25.0 filelock-3.29.0 jinja2-3.1.3 lit-15.0.7 mpmath-1.3.0 networkx-3.4.2 sympy-1.14.0 torch-2.0.0+cu118 torchaudio-2.0.1+cu118 triton-2.0.0 typing-extensions-4.9.0
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Collecting transformers==4.29.0
+  Downloading transformers-4.29.0-py3-none-any.whl (7.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.1/7.1 MB 6.5 MB/s eta 0:00:00
+Collecting huggingface-hub==0.14.1
+  Downloading huggingface_hub-0.14.1-py3-none-any.whl (224 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 224.5/224.5 kB 23.0 MB/s eta 0:00:00
+Collecting sentencepiece
+  Downloading sentencepiece-0.2.1-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (1.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 69.7 MB/s eta 0:00:00
+Collecting soundfile
+  Downloading soundfile-0.14.0-py2.py3-none-manylinux_2_28_x86_64.whl (1.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 76.0 MB/s eta 0:00:00
+Collecting numpy
+  Downloading numpy-2.2.6-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (16.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 16.8/16.8 MB 70.7 MB/s eta 0:00:00
+Collecting lightning==2.0.2
+  Downloading lightning-2.0.2-py3-none-any.whl (1.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.8/1.8 MB 7.6 MB/s eta 0:00:00
+Collecting pytorch-lightning==2.0.2
+  Downloading pytorch_lightning-2.0.2-py3-none-any.whl (719 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 719.0/719.0 kB 49.2 MB/s eta 0:00:00
+Collecting tqdm>=4.27
+  Downloading tqdm-4.68.3-py3-none-any.whl (78 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 78.3/78.3 kB 6.2 MB/s eta 0:00:00
+Collecting regex!=2019.12.17
+  Downloading regex-2026.6.28-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (794 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 794.1/794.1 kB 60.1 MB/s eta 0:00:00
+Collecting tokenizers!=0.11.3,<0.14,>=0.11.1
+  Downloading tokenizers-0.13.3-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (7.8 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.8/7.8 MB 103.3 MB/s eta 0:00:00
+Collecting pyyaml>=5.1
+  Downloading pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (770 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 770.3/770.3 kB 47.0 MB/s eta 0:00:00
+Collecting packaging>=20.0
+  Downloading packaging-26.2-py3-none-any.whl (100 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100.2/100.2 kB 7.5 MB/s eta 0:00:00
+Collecting requests
+  Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 kB 6.4 MB/s eta 0:00:00
+Requirement already satisfied: filelock in ./conda_envs/secap_env/lib/python3.10/site-packages (from transformers==4.29.0) (3.29.0)
+Collecting fsspec
+  Downloading fsspec-2026.6.0-py3-none-any.whl (203 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 203.9/203.9 kB 16.6 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions>=3.7.4.3 in ./conda_envs/secap_env/lib/python3.10/site-packages (from huggingface-hub==0.14.1) (4.9.0)
+Collecting psutil<7.0
+  Downloading psutil-6.1.1-cp36-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (287 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 287.5/287.5 kB 22.1 MB/s eta 0:00:00
+Collecting fsspec
+  Downloading fsspec-2023.12.2-py3-none-any.whl (168 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 169.0/169.0 kB 15.3 MB/s eta 0:00:00
+Collecting inquirer<5.0,>=2.10.0
+  Downloading inquirer-3.4.1-py3-none-any.whl (18 kB)
+Collecting websockets<12.0
+  Downloading websockets-11.0.3-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.9/129.9 kB 8.4 MB/s eta 0:00:00
+Collecting packaging>=20.0
+  Downloading packaging-24.2-py3-none-any.whl (65 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 kB 5.1 MB/s eta 0:00:00
+Collecting pydantic<4.0,>=1.7.4
+  Downloading pydantic-2.13.4-py3-none-any.whl (472 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 472.3/472.3 kB 33.1 MB/s eta 0:00:00
+Collecting urllib3<3.0
+  Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 131.1/131.1 kB 13.0 MB/s eta 0:00:00
+Collecting websocket-client<3.0
+  Downloading websocket_client-1.9.0-py3-none-any.whl (82 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.6/82.6 kB 8.6 MB/s eta 0:00:00
+Requirement already satisfied: torch<4.0,>=1.11.0 in ./conda_envs/secap_env/lib/python3.10/site-packages (from lightning==2.0.2) (2.0.0+cu118)
+Requirement already satisfied: Jinja2<5.0 in ./conda_envs/secap_env/lib/python3.10/site-packages (from lightning==2.0.2) (3.1.3)
+Collecting torchmetrics<2.0,>=0.7.0
+  Downloading torchmetrics-1.9.0-py3-none-any.whl (983 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 983.4/983.4 kB 59.6 MB/s eta 0:00:00
+Collecting fastapi<0.89.0,>=0.69.0
+  Downloading fastapi-0.88.0-py3-none-any.whl (55 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 55.5/55.5 kB 5.1 MB/s eta 0:00:00
+Collecting arrow<3.0,>=1.2.0
+  Downloading arrow-1.4.0-py3-none-any.whl (68 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 68.8/68.8 kB 5.6 MB/s eta 0:00:00
+Collecting fsspec[http]<2025.0,>2021.06.0
+  Downloading fsspec-2024.12.0-py3-none-any.whl (183 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 183.9/183.9 kB 22.4 MB/s eta 0:00:00
+Collecting deepdiff<8.0,>=5.7.0
+  Downloading deepdiff-7.0.1-py3-none-any.whl (80 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 80.8/80.8 kB 7.5 MB/s eta 0:00:00
+Collecting traitlets<7.0,>=5.3.0
+  Downloading traitlets-5.15.1-py3-none-any.whl (85 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 85.9/85.9 kB 8.0 MB/s eta 0:00:00
+Collecting lightning-cloud>=0.5.34
+  Downloading lightning_cloud-0.6.0-py3-none-any.whl (2.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.3/2.3 MB 39.0 MB/s eta 0:00:00
+Collecting rich<15.0,>=12.3.0
+  Downloading rich-14.3.4-py3-none-any.whl (310 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 310.5/310.5 kB 21.0 MB/s eta 0:00:00
+Collecting starsessions<2.0,>=1.2.1
+  Downloading starsessions-1.3.0-py3-none-any.whl (10 kB)
+Collecting dateutils<2.0
+  Downloading dateutils-0.6.12-py2.py3-none-any.whl (5.7 kB)
+Collecting click<10.0
+  Downloading click-8.4.2-py3-none-any.whl (119 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 119.2/119.2 kB 9.2 MB/s eta 0:00:00
+Collecting croniter<1.4.0,>=1.3.0
+  Downloading croniter-1.3.15-py2.py3-none-any.whl (19 kB)
+Collecting beautifulsoup4<6.0,>=4.8.0
+  Downloading beautifulsoup4-4.15.0-py3-none-any.whl (109 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 109.9/109.9 kB 8.7 MB/s eta 0:00:00
+Collecting uvicorn<2.0
+  Downloading uvicorn-0.50.0-py3-none-any.whl (72 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 72.7/72.7 kB 5.2 MB/s eta 0:00:00
+Collecting lightning-utilities<2.0,>=0.7.0
+  Downloading lightning_utilities-0.15.3-py3-none-any.whl (31 kB)
+Collecting starlette
+  Downloading starlette-1.3.1-py3-none-any.whl (73 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.6/73.6 kB 6.0 MB/s eta 0:00:00
+Collecting cffi>=1.0
+  Downloading cffi-2.0.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (216 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 216.5/216.5 kB 16.5 MB/s eta 0:00:00
+Collecting python-dateutil>=2.7.0
+  Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 229.9/229.9 kB 16.6 MB/s eta 0:00:00
+Collecting tzdata
+  Downloading tzdata-2026.2-py2.py3-none-any.whl (349 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 349.3/349.3 kB 21.6 MB/s eta 0:00:00
+Collecting soupsieve>=1.6.1
+  Downloading soupsieve-2.8.4-py3-none-any.whl (37 kB)
+Collecting pycparser
+  Downloading pycparser-3.0-py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.2/48.2 kB 3.4 MB/s eta 0:00:00
+Collecting pytz
+  Downloading pytz-2026.2-py2.py3-none-any.whl (510 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 510.1/510.1 kB 38.7 MB/s eta 0:00:00
+Collecting ordered-set<4.2.0,>=4.1.0
+  Downloading ordered_set-4.1.0-py3-none-any.whl (7.6 kB)
+Collecting starlette
+  Downloading starlette-0.22.0-py3-none-any.whl (64 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 64.3/64.3 kB 6.9 MB/s eta 0:00:00
+Collecting pydantic<4.0,>=1.7.4
+  Downloading pydantic-1.10.26-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (2.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.9/2.9 MB 49.3 MB/s eta 0:00:00
+Collecting anyio<5,>=3.4.0
+  Downloading anyio-4.14.1-py3-none-any.whl (124 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.9/124.9 kB 10.2 MB/s eta 0:00:00
+Collecting fsspec[http]<2025.0,>2021.06.0
+  Downloading fsspec-2024.10.0-py3-none-any.whl (179 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 179.6/179.6 kB 15.9 MB/s eta 0:00:00
+  Downloading fsspec-2024.9.0-py3-none-any.whl (179 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 179.3/179.3 kB 18.5 MB/s eta 0:00:00
+  Downloading fsspec-2024.6.1-py3-none-any.whl (177 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 177.6/177.6 kB 20.0 MB/s eta 0:00:00
+  Downloading fsspec-2024.6.0-py3-none-any.whl (176 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 176.9/176.9 kB 17.3 MB/s eta 0:00:00
+  Downloading fsspec-2024.5.0-py3-none-any.whl (316 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 316.1/316.1 kB 29.3 MB/s eta 0:00:00
+  Downloading fsspec-2024.3.1-py3-none-any.whl (171 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 172.0/172.0 kB 17.3 MB/s eta 0:00:00
+  Downloading fsspec-2024.3.0-py3-none-any.whl (171 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 171.9/171.9 kB 13.4 MB/s eta 0:00:00
+  Downloading fsspec-2024.2.0-py3-none-any.whl (170 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 170.9/170.9 kB 14.7 MB/s eta 0:00:00
+Collecting aiohttp!=4.0.0a0,!=4.0.0a1
+  Downloading aiohttp-3.14.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (1.7 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 83.0 MB/s eta 0:00:00
+Collecting readchar>=4.2.0
+  Downloading readchar-4.2.2-py3-none-any.whl (9.4 kB)
+Collecting editor>=1.6.0
+  Downloading editor-1.8.0-py3-none-any.whl (4.0 kB)
+Collecting blessed>=1.19.0
+  Downloading blessed-1.46.0-py3-none-any.whl (130 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.8/130.8 kB 9.4 MB/s eta 0:00:00
+Requirement already satisfied: MarkupSafe>=2.0 in ./conda_envs/secap_env/lib/python3.10/site-packages (from Jinja2<5.0->lightning==2.0.2) (3.0.3)
+Collecting six
+  Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting certifi>=2023.5.7
+  Downloading certifi-2026.6.17-py3-none-any.whl (133 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 133.3/133.3 kB 9.1 MB/s eta 0:00:00
+Collecting charset_normalizer<4,>=2
+  Downloading charset_normalizer-3.4.7-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (216 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 216.9/216.9 kB 12.4 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.18-py3-none-any.whl (65 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 65.5/65.5 kB 5.0 MB/s eta 0:00:00
+Collecting markdown-it-py>=2.2.0
+  Downloading markdown_it_py-4.2.0-py3-none-any.whl (91 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 91.7/91.7 kB 7.0 MB/s eta 0:00:00
+Collecting pygments<3.0.0,>=2.13.0
+  Downloading pygments-2.20.0-py3-none-any.whl (1.2 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 48.0 MB/s eta 0:00:00
+Collecting itsdangerous<3.0.0,>=2.0.1
+  Downloading itsdangerous-2.2.0-py3-none-any.whl (16 kB)
+Requirement already satisfied: sympy in ./conda_envs/secap_env/lib/python3.10/site-packages (from torch<4.0,>=1.11.0->lightning==2.0.2) (1.14.0)
+Requirement already satisfied: networkx in ./conda_envs/secap_env/lib/python3.10/site-packages (from torch<4.0,>=1.11.0->lightning==2.0.2) (3.4.2)
+Requirement already satisfied: triton==2.0.0 in ./conda_envs/secap_env/lib/python3.10/site-packages (from torch<4.0,>=1.11.0->lightning==2.0.2) (2.0.0)
+Requirement already satisfied: lit in ./conda_envs/secap_env/lib/python3.10/site-packages (from triton==2.0.0->torch<4.0,>=1.11.0->lightning==2.0.2) (15.0.7)
+Requirement already satisfied: cmake in ./conda_envs/secap_env/lib/python3.10/site-packages (from triton==2.0.0->torch<4.0,>=1.11.0->lightning==2.0.2) (3.25.0)
+Collecting h11>=0.8
+  Downloading h11-0.16.0-py3-none-any.whl (37 kB)
+Collecting yarl<2.0,>=1.17.0
+  Downloading yarl-1.24.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (106 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 106.7/106.7 kB 7.8 MB/s eta 0:00:00
+Collecting attrs>=17.3.0
+  Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.5/67.5 kB 5.2 MB/s eta 0:00:00
+Collecting frozenlist>=1.1.1
+  Downloading frozenlist-1.8.0-cp310-cp310-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (219 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 219.5/219.5 kB 17.4 MB/s eta 0:00:00
+Collecting multidict<7.0,>=4.5
+  Downloading multidict-6.7.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (243 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 243.3/243.3 kB 21.1 MB/s eta 0:00:00
+Collecting async-timeout<6.0,>=4.0
+  Downloading async_timeout-5.0.1-py3-none-any.whl (6.2 kB)
+Collecting aiohappyeyeballs>=2.5.0
+  Downloading aiohappyeyeballs-2.7.1-py3-none-any.whl (15 kB)
+Collecting aiosignal>=1.4.0
+  Downloading aiosignal-1.4.0-py3-none-any.whl (7.5 kB)
+Collecting propcache>=0.2.0
+  Downloading propcache-0.5.2-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (60 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 60.1/60.1 kB 5.6 MB/s eta 0:00:00
+Collecting exceptiongroup>=1.0.2
+  Downloading exceptiongroup-1.3.1-py3-none-any.whl (16 kB)
+Collecting jinxed<3,>=2.1
+  Downloading jinxed-2.1.0-py2.py3-none-any.whl (104 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 105.0/105.0 kB 7.1 MB/s eta 0:00:00
+Collecting wcwidth>=0.8.1
+  Downloading wcwidth-0.8.2-py3-none-any.whl (323 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 323.2/323.2 kB 28.0 MB/s eta 0:00:00
+Collecting xmod
+  Downloading xmod-1.10.0-py3-none-any.whl (4.7 kB)
+Collecting runs
+  Downloading runs-1.3.0-py3-none-any.whl (6.4 kB)
+Collecting mdurl~=0.1
+  Downloading mdurl-0.1.2-py3-none-any.whl (10.0 kB)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in ./conda_envs/secap_env/lib/python3.10/site-packages (from sympy->torch<4.0,>=1.11.0->lightning==2.0.2) (1.3.0)
+Installing collected packages: tokenizers, pytz, jinxed, xmod, websockets, websocket-client, wcwidth, urllib3, tzdata, traitlets, tqdm, soupsieve, six, sentencepiece, regex, readchar, pyyaml, pygments, pydantic, pycparser, psutil, propcache, packaging, ordered-set, numpy, multidict, mdurl, itsdangerous, idna, h11, fsspec, frozenlist, exceptiongroup, click, charset_normalizer, certifi, attrs, async-timeout, aiohappyeyeballs, yarl, uvicorn, runs, requests, python-dateutil, markdown-it-py, lightning-utilities, deepdiff, cffi, blessed, beautifulsoup4, anyio, aiosignal, starlette, soundfile, rich, huggingface-hub, editor, dateutils, croniter, arrow, aiohttp, transformers, starsessions, inquirer, fastapi, lightning-cloud, torchmetrics, pytorch-lightning, lightning
+Successfully installed aiohappyeyeballs-2.7.1 aiohttp-3.14.1 aiosignal-1.4.0 anyio-4.14.1 arrow-1.4.0 async-timeout-5.0.1 attrs-26.1.0 beautifulsoup4-4.15.0 blessed-1.46.0 certifi-2026.6.17 cffi-2.0.0 charset_normalizer-3.4.7 click-8.4.2 croniter-1.3.15 dateutils-0.6.12 deepdiff-7.0.1 editor-1.8.0 exceptiongroup-1.3.1 fastapi-0.88.0 frozenlist-1.8.0 fsspec-2023.12.2 h11-0.16.0 huggingface-hub-0.14.1 idna-3.18 inquirer-3.4.1 itsdangerous-2.2.0 jinxed-2.1.0 lightning-2.0.2 lightning-cloud-0.6.0 lightning-utilities-0.15.3 markdown-it-py-4.2.0 mdurl-0.1.2 multidict-6.7.1 numpy-2.2.6 ordered-set-4.1.0 packaging-24.2 propcache-0.5.2 psutil-6.1.1 pycparser-3.0 pydantic-1.10.26 pygments-2.20.0 python-dateutil-2.9.0.post0 pytorch-lightning-2.0.2 pytz-2026.2 pyyaml-6.0.3 readchar-4.2.2 regex-2026.6.28 requests-2.34.2 rich-14.3.4 runs-1.3.0 sentencepiece-0.2.1 six-1.17.0 soundfile-0.14.0 soupsieve-2.8.4 starlette-0.22.0 starsessions-1.3.0 tokenizers-0.13.3 torchmetrics-1.9.0 tqdm-4.68.3 traitlets-5.15.1 transformers-4.29.0 tzdata-2026.2 urllib3-2.7.0 uvicorn-0.50.0 wcwidth-0.8.2 websocket-client-1.9.0 websockets-11.0.3 xmod-1.10.0 yarl-1.24.2
+
+[notice] A new release of pip is available: 23.0.1 -> 26.1.2
+[notice] To update, run: /work/mzha0323/video_query_generation/conda_envs/secap_env/bin/python -m pip install --upgrade pip
+SECAP_ENV_SETUP_DONE

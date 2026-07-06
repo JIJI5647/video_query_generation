@@ -1,0 +1,69 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with dark, shoulder-length hair wearing a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "sitting up in bed and grabbing a child"
+      },
+      {
+        "person": "a child with short brown hair wearing a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "standing next to the bed and being grabbed by the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night, with a bed, a nightstand, and a lamp"
+    },
+    "objects": [
+      "a bed",
+      "a nightstand",
+      "a lamp",
+      "a knife",
+      "a glass of water"
+    ],
+    "interactions": [
+      "The woman grabs the child"
+    ],
+    "key_actions": [
+      "The woman sits up and grabs the child"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with dark, shoulder-length hair wearing a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "reaching forward with her hands"
+      ],
+      "gaze": "directed at the child"
+    },
+    {
+      "person": "a child with short brown hair wearing a striped sweater",
+      "facial_cues": [
+        "back turned to the camera"
+      ],
+      "body_cues": [
+        "being grabbed by the woman"
+      ],
+      "gaze": "not visible"
+    }
+  ],
+  "audio_description": "A child is shouting repeatedly in a high-pitched, distressed voice.",
+  "emotion_description": "The child is panicked and distressed, while the woman appears shocked or alarmed.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

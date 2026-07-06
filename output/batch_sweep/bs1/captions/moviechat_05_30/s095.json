@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "searching through a pile of debris"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dark room filled with discarded furniture and items, possibly a junkyard or abandoned house."
+    },
+    "objects": [
+      "broken chairs",
+      "sofas",
+      "rugs",
+      "ladders",
+      "various debris"
+    ],
+    "interactions": [
+      "the man is actively moving and examining objects in the pile"
+    ],
+    "key_actions": [
+      "searching",
+      "sorting through items"
+    ],
+    "visibility_notes": "The scene is dimly lit, making some details difficult to discern, but the main subject is clearly visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "bent over",
+        "actively moving items"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "The audio consists of sounds of objects being moved, including scraping and clattering, suggesting someone is sorting through cluttered items.",
+  "emotion_description": "focused",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

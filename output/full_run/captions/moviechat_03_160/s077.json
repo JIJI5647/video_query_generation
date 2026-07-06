@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with grey hair in a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "turning his head from a profile view to face forward, then turning his head back to the side"
+      },
+      {
+        "person": "a man in a dark shirt with a white bandage on his arm",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing still"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, a metal security gate is visible in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the light-colored suit jacket turning his head"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with grey hair in a light-colored suit jacket",
+      "facial_cues": [
+        "neutral expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "turning his head"
+      ],
+      "gaze": "looking forward, then to the side"
+    }
+  ],
+  "audio_description": "A low, suspenseful musical score plays, creating a tense atmosphere.",
+  "emotion_description": "The man in the suit appears focused and serious, suggesting a tense situation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

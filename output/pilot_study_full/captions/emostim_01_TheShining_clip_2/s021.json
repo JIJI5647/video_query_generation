@@ -1,0 +1,72 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "trying to open a door while holding a child in a red and green sweater"
+      },
+      {
+        "person": "a man in a red shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "running toward a door with an axe"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "hallway with blue walls and a wooden staircase in the background"
+    },
+    "objects": [
+      {
+        "object": "axe",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being swung at the door"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "the man swings the axe at the door, which is being held shut by the woman and child"
+      }
+    ],
+    "key_actions": [
+      "the woman tries to open the door",
+      "the man runs and swings an axe at the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "scared expression"
+      ],
+      "body_cues": [
+        "pressing against the door"
+      ],
+      "gaze": "looking at the door"
+    },
+    {
+      "person": "a man in a red shirt",
+      "facial_cues": [
+        "angry expression"
+      ],
+      "body_cues": [
+        "swinging an axe"
+      ],
+      "gaze": "looking at the door"
+    }
+  ],
+  "audio_description": "a loud, repetitive thumping sound, like an axe hitting a door, is heard throughout.",
+  "emotion_description": "fearful and aggressive",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

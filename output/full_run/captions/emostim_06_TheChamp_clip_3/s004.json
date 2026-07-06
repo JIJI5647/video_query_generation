@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "crying and looking to his left"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the boy"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit"
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the dark suit has his hand on the boy's shoulder."
+    ],
+    "key_actions": [
+      "The boy is crying and turning his head."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "tears on his face",
+        "wrinkled nose",
+        "eyes squeezed shut"
+      ],
+      "body_cues": [
+        "trembling",
+        "turning his head"
+      ],
+      "gaze": "looking down and to his left"
+    }
+  ],
+  "audio_description": "A child's distressed and crying voice is audible.",
+  "emotion_description": "The boy is distressed and sad.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

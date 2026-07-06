@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a mobile phone"
+      },
+      {
+        "person": "a man in a striped shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking"
+      },
+      {
+        "person": "other men",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "walking"
+      }
+    ],
+    "scene": {
+      "location": "a narrow alley at night",
+      "setting": "a dimly lit outdoor market or alley with stalls on the left"
+    },
+    "objects": [
+      "a mobile phone",
+      "posters and banners on a stall wall",
+      "overhead wires"
+    ],
+    "interactions": [
+      "The man in the light-colored jacket is walking and talking on the phone while being followed by the others."
+    ],
+    "key_actions": [
+      "Talking on a phone",
+      "Walking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored jacket",
+      "facial_cues": [
+        "appears to be speaking"
+      ],
+      "body_cues": [
+        "walking forward, holding a phone to his ear"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A person is speaking on a phone in a language other than English, with the conversation sounding somewhat tense.",
+  "emotion_description": "The man on the phone seems annoyed or agitated.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

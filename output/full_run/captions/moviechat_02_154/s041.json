@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a bald man",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at fish tanks"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with multiple stacked fish tanks"
+    },
+    "objects": [
+      "fish tanks",
+      "fish"
+    ],
+    "interactions": [
+      "the man is observing the fish"
+    ],
+    "key_actions": [
+      "the man looking at the fish tanks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a bald man",
+      "facial_cues": [],
+      "body_cues": [
+        "standing still",
+        "looking forward"
+      ],
+      "gaze": "directed at the fish tanks"
+    }
+  ],
+  "audio_description": "A low, deep, and ominous ambient sound plays throughout.",
+  "emotion_description": "The man appears calm and contemplative.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

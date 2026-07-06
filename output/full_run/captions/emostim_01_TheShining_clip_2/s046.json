@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a beard and long hair, wearing a red jacket over a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in a room, turning his head and body to his right, then walking towards a door while holding a small, flat, rectangular object."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with beige walls, a wooden bookshelf filled with books, a bed with a wooden headboard, and a nightstand with a lit lamp."
+    },
+    "objects": [
+      "bookshelf",
+      "bed",
+      "nightstand",
+      "lamp",
+      "door",
+      "framed picture",
+      "rectangular object"
+    ],
+    "interactions": [
+      "The man turns his head and then walks towards the door."
+    ],
+    "key_actions": [
+      "turning",
+      "walking",
+      "holding"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a beard and long hair, wearing a red jacket over a plaid shirt",
+      "facial_cues": [
+        "mouth open",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "turning his head and body"
+      ],
+      "gaze": "looking towards the right side of the frame"
+    }
+  ],
+  "audio_description": "A man is speaking with a strained and intense voice.",
+  "emotion_description": "The man appears to be in a state of panic, fear, or extreme distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

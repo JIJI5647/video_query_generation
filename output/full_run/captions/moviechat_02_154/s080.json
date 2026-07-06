@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and talking to another man"
+      },
+      {
+        "person": "a man in a light-colored jacket and a floral shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and laughing"
+      },
+      {
+        "person": "a man in a red shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the laughing man"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a room decorated for a celebration, with red lanterns hanging from the ceiling and a table with food in the foreground"
+    },
+    "objects": [
+      "red lanterns",
+      "table",
+      "food"
+    ],
+    "interactions": [
+      "The man in the suit is talking to the laughing man."
+    ],
+    "key_actions": [
+      "The man in the suit is speaking.",
+      "The man in the light-colored jacket is laughing heartily."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored jacket and a floral shirt",
+      "facial_cues": [
+        "wide smile",
+        "laughing"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking at the man in the suit"
+    }
+  ],
+  "audio_description": "A man is laughing heartily, and another man is speaking in a conversational tone.",
+  "emotion_description": "The man in the light-colored jacket is clearly amused and happy. The other man's emotion is unclear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

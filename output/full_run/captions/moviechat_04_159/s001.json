@@ -1,0 +1,70 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lighting a cigarette"
+      },
+      {
+        "person": "a man in a suit and glasses",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "being lit up by the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark room with focused lighting on the subjects"
+    },
+    "objects": [
+      {
+        "object": "cigarette",
+        "action": "being lit"
+      },
+      {
+        "object": "lighter",
+        "action": "used to light the cigarette"
+      }
+    ],
+    "interactions": [
+      "The man in the dark jacket lights a cigarette and holds the flame to the cigarette of the man in the suit."
+    ],
+    "key_actions": [
+      "Lighting a cigarette"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "sweaty face",
+        "serious expression",
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man in a suit and glasses",
+      "facial_cues": [
+        "serious expression",
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A man speaks, followed by the sound of a lighter being flicked.",
+  "emotion_description": "The mood appears serious and tense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

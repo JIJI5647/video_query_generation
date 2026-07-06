@@ -1,0 +1,71 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with voluminous blonde hair wearing a white collared shirt and dark cardigan",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking at someone off-screen, then turning her head slightly to the right."
+      },
+      {
+        "person": "a man with dark hair and a beard wearing a striped sweater",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "sitting and holding a sandwich."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a busy diner with other patrons in the background."
+    },
+    "objects": [
+      {
+        "object": "a sandwich",
+        "position": "center",
+        "action": "held by the man."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The woman and the man are sitting at a table, seemingly engaged in a conversation."
+      }
+    ],
+    "key_actions": [
+      "The woman turns her head and speaks.",
+      "The man holds a sandwich and looks at the woman."
+    ],
+    "visibility_notes": "The focus is on the woman and the man, with the background being a typical diner setting."
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with voluminous blonde hair wearing a white collared shirt and dark cardigan",
+      "facial_cues": [
+        "Her eyes are wide and her mouth is slightly open as she speaks."
+      ],
+      "body_cues": [
+        "She turns her head to look at the man."
+      ],
+      "gaze": "Looking towards the man."
+    },
+    {
+      "person": "a man with dark hair and a beard wearing a striped sweater",
+      "facial_cues": [
+        "His eyes are wide and his eyebrows are raised, showing surprise."
+      ],
+      "body_cues": [
+        "He holds a sandwich in his hands."
+      ],
+      "gaze": "Looking at the woman."
+    }
+  ],
+  "audio_description": "A woman speaks, followed by a man asking a question.",
+  "emotion_description": "The woman appears to be expressing surprise or realization, and the man seems surprised and concerned.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

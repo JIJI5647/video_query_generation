@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue collared shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down at a plastic bag, then looking up and to the right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with window blinds in the background"
+    },
+    "objects": [
+      {
+        "name": "plastic bag",
+        "description": "a clear plastic bag containing a black ID card with a photo and text, which has red stains resembling blood"
+      }
+    ],
+    "interactions": [
+      "The man is holding and examining the plastic bag."
+    ],
+    "key_actions": [
+      "Holding and looking at an ID card in a plastic bag",
+      "Looking up and to the right"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue collared shirt and dark tie",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow"
+      ],
+      "body_cues": [],
+      "gaze": "down, then up and to the right"
+    }
+  ],
+  "audio_description": "A low, sustained, ominous musical tone plays, creating a tense and suspenseful atmosphere.",
+  "emotion_description": "The man appears to be in a state of shock, disbelief, or serious contemplation, reacting to the ID card. The overall mood of the scene is tense and suspenseful.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

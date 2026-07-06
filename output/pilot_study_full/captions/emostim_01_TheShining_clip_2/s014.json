@@ -1,0 +1,78 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the young boy",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and holding a knife, facing the woman in bed"
+      },
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting up in bed, looking at the boy with a shocked expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night with a bed, a nightstand, and a lamp."
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "held by the boy"
+      },
+      {
+        "object": "a woman",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting up in bed"
+      }
+    ],
+    "interactions": [
+      "The boy holds a knife to the woman in bed."
+    ],
+    "key_actions": [
+      "The boy holds a knife to the woman in bed",
+      "The woman sits up in bed, looking shocked"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the young boy",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "holding a knife"
+      ],
+      "gaze": "at the woman in bed"
+    },
+    {
+      "person": "the woman",
+      "facial_cues": [
+        "shocked expression",
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "sitting up in bed"
+      ],
+      "gaze": "at the boy"
+    }
+  ],
+  "audio_description": "A child's voice repeatedly says 'Redrum' in a distressed tone.",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

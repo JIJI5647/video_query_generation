@@ -1,0 +1,25 @@
+{
+  "caption_model": "timechat",
+  "model_kind": "av",
+  "non_commercial": false,
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "video": "data/pilot_study/emostim_07_TheSilenceOfTheLambs_a_clip_2.mp4",
+  "audio": null,
+  "num_segments": 1,
+  "num_normalized_captions": 1,
+  "num_emotion_events": 0,
+  "num_generated_queries": 0,
+  "caption_seconds": 105.4,
+  "generation_model": "gemini-2.5-flash-lite",
+  "emotion_event_model": "gemini-2.5-flash-lite",
+  "with_verification": false,
+  "warnings": [
+    "emotion-event stage produced 0 events; no emotion to ground queries on (generation will return 0 queries).",
+    "query-generation stage produced 0 queries for these captions."
+  ],
+  "model_paths": {
+    "caption_model_path": "yaolily/TimeChat-Captioner-GRPO-7B",
+    "audio_model_path": null,
+    "video_model_path": null
+  }
+}

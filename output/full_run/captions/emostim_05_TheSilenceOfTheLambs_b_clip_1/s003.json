@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie with round glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a dark, out-of-focus background"
+    },
+    "objects": [
+      "a dark suit jacket",
+      "a white collared shirt",
+      "a dark tie",
+      "round-framed glasses"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "sitting",
+      "looking down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie with round glasses",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow",
+        "jaw set"
+      ],
+      "body_cues": [
+        "sitting upright"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "The audio contains a low, sustained, electronic hum.",
+  "emotion_description": "The man's expression is serious and contemplative.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy wearing a red sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and turning a doorknob"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night, with a person sleeping in a bed and a lamp on a nightstand."
+    },
+    "objects": [
+      "a wooden door",
+      "a doorknob",
+      "a lamp",
+      "a bed",
+      "a person sleeping"
+    ],
+    "interactions": [
+      "the boy is turning the doorknob"
+    ],
+    "key_actions": [
+      "the boy is turning the doorknob"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy wearing a red sweater",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing",
+        "turning the doorknob"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A low, guttural voice is heard, followed by a loud, sustained, low-pitched electronic buzz.",
+  "emotion_description": "The boy's action suggests curiosity or caution, while the audio creates a suspenseful and ominous atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and gesturing emphatically with his right arm"
+      },
+      {
+        "person": "a man in a light-colored shirt and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and speaking"
+      },
+      {
+        "person": "a man in a police uniform",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with a CRT television displaying a hallway, a glass partition, and desks with chairs"
+    },
+    "objects": [
+      "a CRT television",
+      "a desk",
+      "chairs",
+      "a glass partition"
+    ],
+    "interactions": [
+      "the man in the white shirt gestures towards the seated men"
+    ],
+    "key_actions": [
+      "gesturing emphatically",
+      "speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black tie",
+      "facial_cues": [
+        "mouth open",
+        "intense expression"
+      ],
+      "body_cues": [
+        "gesturing emphatically with his right arm"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a light-colored shirt and tie",
+      "facial_cues": [
+        "mouth open",
+        "intense expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is shouting in an agitated and frustrated tone.",
+  "emotion_description": "Angry, frustrated, agitated",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

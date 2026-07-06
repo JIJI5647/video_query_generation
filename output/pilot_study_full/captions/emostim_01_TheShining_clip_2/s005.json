@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit bedroom at night with a lamp, bookshelf, and television."
+    },
+    "objects": [
+      "knife",
+      "lamp",
+      "bookshelf",
+      "television",
+      "door"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "holding a knife",
+      "standing in front of a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy in a striped sweater",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "holding a knife with both hands",
+        "standing still"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A person is heard speaking in a low, muffled voice.",
+  "emotion_description": "The person's tone is unclear, possibly tired or distressed.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

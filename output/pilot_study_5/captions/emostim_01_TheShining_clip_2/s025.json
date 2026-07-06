@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "breaking down a door with an axe"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "a hallway with light blue walls and a wooden door being smashed by a man with an axe."
+    },
+    "objects": [
+      {
+        "object": "axe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being swung by the man to break the door"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "the man is swinging the axe repeatedly at the door, causing it to splinter and break."
+      }
+    ],
+    "key_actions": [
+      "swinging an axe",
+      "breaking a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a red jacket",
+      "facial_cues": [
+        "grinning",
+        "showing teeth"
+      ],
+      "body_cues": [
+        "leaning into the swing"
+      ],
+      "gaze": "focused on the door"
+    }
+  ],
+  "audio_description": "The sound of wood splintering and cracking as an axe hits a door, accompanied by a man's voice calling out.",
+  "emotion_description": "aggressive",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

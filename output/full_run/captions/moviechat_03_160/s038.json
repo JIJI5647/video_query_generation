@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running towards the camera"
+      },
+      {
+        "person": "a person in a dark jacket",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running behind the first man"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dimly lit area with streetlights and foliage in the background"
+    },
+    "objects": [
+      {
+        "object": "a black car",
+        "position": "foreground, partially visible"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the foreground runs towards the camera."
+    ],
+    "visibility_notes": "The scene is dark, with visibility provided by ambient light and streetlights."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "determined expression",
+        "visible brow furrow"
+      ],
+      "body_cues": [
+        "running with arms swinging"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud, sustained, low-pitched electronic tone sounds, accompanied by a low-level ambient hum.",
+  "emotion_description": "The man's expression and action suggest he is determined and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

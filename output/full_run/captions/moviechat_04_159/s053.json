@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "leaning on a railing, gesturing with his hands, and smiling."
+      },
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and smiling in conversation with the other man."
+      }
+    ],
+    "scene": {
+      "location": "outdoor balcony",
+      "setting": "a dimly lit balcony at night with a building in the background."
+    },
+    "objects": [
+      "railing",
+      "plastic sheeting"
+    ],
+    "interactions": [
+      "The two men are having a conversation."
+    ],
+    "key_actions": [
+      "The man in the white shirt gestures with his hands.",
+      "The man in the white shirt leans on the railing."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "leaning on the railing",
+        "gesturing with his hands"
+      ],
+      "gaze": "looking at the man in the suit"
+    },
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man in the white shirt"
+    }
+  ],
+  "audio_description": "A male voice is speaking in Mandarin Chinese.",
+  "emotion_description": "The man in the white shirt appears to be amused and happy, while the man in the suit seems to be enjoying the conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

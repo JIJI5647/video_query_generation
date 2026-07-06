@@ -1,0 +1,98 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "queries": [
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q01",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman with dark hair and a green star-patterned cardigan appear fearful?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        5.0,
+        10.0
+      ],
+      "segment_ids": [
+        "s002"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "eyes wide",
+          "mouth slightly open",
+          "head turning sharply"
+        ],
+        "audio_evidence": [
+          "a loud, distorted electronic sound plays"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s002"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q02",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman with dark hair wearing a green cardigan turn her head sharply to the right with wide eyes and a slightly open mouth?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        5.0,
+        10.0
+      ],
+      "segment_ids": [
+        "s002"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "eyes wide",
+          "mouth slightly open",
+          "head turning sharply"
+        ],
+        "audio_evidence": [
+          "a loud, distorted electronic sound plays"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s002"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q03",
+      "query_type": "explicit_event",
+      "query_text": "What moment shows the woman with dark hair and a green cardigan reacting to a loud, distorted electronic sound?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        5.0,
+        10.0
+      ],
+      "segment_ids": [
+        "s002"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "eyes wide",
+          "mouth slightly open",
+          "head turning sharply"
+        ],
+        "audio_evidence": [
+          "a loud, distorted electronic sound plays"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s002"
+      ]
+    }
+  ]
+}

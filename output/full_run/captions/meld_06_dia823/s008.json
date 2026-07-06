@@ -1,0 +1,66 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and gesturing with her right hand"
+      },
+      {
+        "person": "a man in a dark blue t-shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting on a couch"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting on a couch next to the man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch, a wooden cabinet, and a television in the background"
+    },
+    "objects": [
+      "a couch",
+      "a wooden cabinet",
+      "a television",
+      "a lamp"
+    ],
+    "interactions": [
+      "the woman in the foreground is speaking to the two people sitting on the couch"
+    ],
+    "key_actions": [
+      "gesturing with her right hand",
+      "sitting on the couch",
+      "listening"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long blonde hair",
+      "facial_cues": [
+        "a slight smile",
+        "a nod of the head"
+      ],
+      "body_cues": [
+        "gesturing with her right hand"
+      ],
+      "gaze": "looking towards the two people on the couch"
+    }
+  ],
+  "audio_description": "A woman speaks, followed by a brief, upbeat musical jingle.",
+  "emotion_description": "The woman in the foreground sounds friendly and helpful, and the musical jingle adds a positive, conclusive tone.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wooden door and a framed picture on the wall"
+    },
+    "objects": [
+      {
+        "object": "door",
+        "position": "right",
+        "action": "closed"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "speaking",
+      "gesturing with hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the blue plaid shirt",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "towards the camera"
+    }
+  ],
+  "audio_description": "A male voice speaking in a conversational tone.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

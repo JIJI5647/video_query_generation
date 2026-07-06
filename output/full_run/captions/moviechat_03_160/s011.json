@@ -1,0 +1,76 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and patterned tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a mobile phone to his ear"
+      },
+      {
+        "person": "people in the background",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and sitting"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room, possibly a control center, with multiple computer monitors and a bulletin board with photos"
+    },
+    "objects": [
+      "mobile phone",
+      "computer monitors",
+      "bulletin board"
+    ],
+    "interactions": [
+      "the man in the suit is standing still",
+      "the man in the light-colored shirt is on a phone call"
+    ],
+    "key_actions": [
+      "a man is on a phone call",
+      "a man in a suit is observing"
+    ],
+    "visibility_notes": "The man in the suit is the main focus, while the man on the phone is also clearly visible. The background is dark and somewhat out of focus."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and patterned tie",
+      "facial_cues": [
+        "serious expression",
+        "staring forward"
+      ],
+      "body_cues": [
+        "standing upright"
+      ],
+      "gaze": "directly forward"
+    },
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "focused expression",
+        "looking slightly to the side"
+      ],
+      "body_cues": [
+        "holding a phone to his ear"
+      ],
+      "gaze": "slightly to the side"
+    }
+  ],
+  "audio_description": "The audio features a male voice speaking in an urgent and demanding tone.",
+  "emotion_description": "The man in the suit appears serious and authoritative. The man on the phone appears focused and serious. The urgent tone of the voice suggests a high-stakes situation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

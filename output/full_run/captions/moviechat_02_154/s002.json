@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person driving a car",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "driving a car"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a city street at night, with illuminated storefronts and other vehicles"
+    },
+    "objects": [
+      "a black car",
+      "a red car",
+      "a building",
+      "a street sign",
+      "traffic lights"
+    ],
+    "interactions": [
+      "the driver is operating the car"
+    ],
+    "key_actions": [
+      "the black car is driving down the street"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person driving a car",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, dramatic musical score with a strong brass section plays in the background.",
+  "emotion_description": "The music creates a tense and dramatic atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

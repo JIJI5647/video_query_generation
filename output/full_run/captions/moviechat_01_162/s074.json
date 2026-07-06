@@ -1,0 +1,81 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "swings his right arm forward and then retracts it."
+      },
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "stands still, facing the other man, with his hands on his hips."
+      },
+      {
+        "person": "a person in the foreground",
+        "visibility": "partially visible",
+        "position": "bottom left",
+        "action": "sitting down, looking towards the other two men."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with glass partitions in the background and a computer monitor to the left."
+    },
+    "objects": [
+      {
+        "object": "computer monitor",
+        "position": "left"
+      },
+      {
+        "object": "lanyard",
+        "position": "around the neck of the man in the white shirt"
+      }
+    ],
+    "interactions": [
+      "The man in the light blue shirt performs a motion directed at the man in the white shirt."
+    ],
+    "key_actions": [
+      "The man in the light blue shirt swings his right arm forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and striped tie",
+      "facial_cues": [
+        "his mouth is open as if shouting",
+        "his eyebrows are furrowed"
+      ],
+      "body_cues": [
+        "his right arm is extended forward in a punching motion",
+        "he is leaning forward"
+      ],
+      "gaze": "looking forward, towards the other man"
+    },
+    {
+      "person": "a man in a white shirt and black tie",
+      "facial_cues": [
+        "his mouth is slightly open",
+        "his eyebrows are raised"
+      ],
+      "body_cues": [
+        "his hands are on his hips",
+        "his body is turned slightly towards the other man"
+      ],
+      "gaze": "looking forward, towards the other man"
+    }
+  ],
+  "audio_description": "A loud, sharp, and forceful exhalation, like a grunt of exertion, is heard.",
+  "emotion_description": "The man in the light blue shirt appears angry or aggressive, while the man in the white shirt appears surprised or shocked by the other man's action.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

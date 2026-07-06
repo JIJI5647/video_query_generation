@@ -1,0 +1,49 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person with their back to the camera",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a window in the background"
+    },
+    "objects": [
+      {
+        "object": "window",
+        "description": "a window with multiple panes, showing raindrops on the glass"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "standing still"
+    ],
+    "visibility_notes": "The person's face is not visible, and the lighting is dim, making details hard to discern."
+  },
+  "visual_expression": [
+    {
+      "person": "a person with their back to the camera",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "Heavy breathing is audible, suggesting exertion or distress.",
+  "emotion_description": "The heavy breathing suggests a state of distress or exertion.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

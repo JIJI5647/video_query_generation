@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with graying hair, wearing a light-colored suit jacket over a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a mobile phone, holding it to his right ear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a wooden shelf holding various bowls and containers in the background"
+    },
+    "objects": [
+      "mobile phone",
+      "shelf",
+      "bowls"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "talking on the phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with graying hair, wearing a light-colored suit jacket over a white shirt",
+      "facial_cues": [
+        "furrowed brow",
+        "closed eyes",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "head tilted slightly down",
+        "hand holding the phone to his ear"
+      ],
+      "gaze": "looking down and to his left"
+    }
+  ],
+  "audio_description": "A male voice is heard speaking in a low, serious tone.",
+  "emotion_description": "The man appears focused and serious, possibly concerned.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

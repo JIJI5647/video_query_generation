@@ -1,0 +1,16 @@
+{
+  "caption_model": "af3_vl",
+  "model_kind": "audio_video",
+  "non_commercial": true,
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "video": "data/pilot_study/emostim_07_TheSilenceOfTheLambs_a_clip_2.mp4",
+  "audio": "/tmp/claude-2047855/-work-mzha0323-video-query-generation/00953a2a-150a-4fce-a68f-0d7785159bbb/scratchpad/test_clip.wav",
+  "num_segments": 3,
+  "num_normalized_captions": 3,
+  "caption_seconds": 368.4,
+  "model_paths": {
+    "caption_model_path": null,
+    "audio_model_path": "nvidia/audio-flamingo-3-hf",
+    "video_model_path": "Qwen/Qwen3-VL-8B-Instruct"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "crying and shouting"
+      },
+      {
+        "person": "a man",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "interacting with the boy"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit"
+    },
+    "objects": [],
+    "interactions": [
+      "The man is next to the boy."
+    ],
+    "key_actions": [
+      "The boy is crying and shouting."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "crying",
+        "tears on his face",
+        "mouth open"
+      ],
+      "body_cues": [
+        "shouting"
+      ],
+      "gaze": "looking towards the man"
+    }
+  ],
+  "audio_description": "A child is shouting and crying, and a man speaks in a calm, pleading tone.",
+  "emotion_description": "The boy is distressed and crying, while the man sounds calm and is trying to soothe him.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

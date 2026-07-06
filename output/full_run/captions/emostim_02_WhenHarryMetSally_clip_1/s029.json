@@ -1,0 +1,64 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, curly hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, then leaning back in her chair"
+      },
+      {
+        "person": "a man with a beard",
+        "visibility": "clearly visible",
+        "position": "right, foreground",
+        "action": "sitting at the table, looking at the woman"
+      },
+      {
+        "person": "other people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a table"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a diner with a counter and stools in the background"
+    },
+    "objects": [
+      "a wooden table",
+      "plates with food",
+      "glasses",
+      "a green neon sign that says 'SODA 80¢'"
+    ],
+    "interactions": [
+      "the woman and the man are sitting at the same table"
+    ],
+    "key_actions": [
+      "the woman leans back in her chair"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde, curly hair",
+      "facial_cues": [
+        "eyes closed",
+        "mouth open"
+      ],
+      "body_cues": [
+        "leaning back in her chair"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A woman exclaims in a pained and strained voice.",
+  "emotion_description": "The woman appears to be in pain or distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

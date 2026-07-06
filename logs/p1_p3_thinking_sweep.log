@@ -1,0 +1,13 @@
+==========================================================
+[2026-07-04 13:21:53] verify p1_rule  (per-dimension) -> output/verify_p1_rule
+==========================================================
+[2026-07-04 16:38:43] done p1_rule (exit 0)  log: logs/verify_sweep/p1_rule.log
+==========================================================
+[2026-07-04 16:38:43] verify p2_role  (per-dimension) -> output/verify_p2_role
+==========================================================
+[2026-07-04 21:15:40] done p2_role (exit 0)  log: logs/verify_sweep/p2_role.log
+==========================================================
+[2026-07-04 21:15:40] verify p3_fewshot  (per-dimension) -> output/verify_p3_fewshot
+==========================================================
+[2026-07-05 02:39:57] done p3_fewshot (exit 0)  log: logs/verify_sweep/p3_fewshot.log
+p1-p3 thinking sweep (parallel=1) finished.

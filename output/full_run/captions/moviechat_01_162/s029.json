@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting in a car, holding his hand to his nose, then turning his head to his left"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "background, left",
+        "action": "sitting in a car, looking forward"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "the interior of a car at night, with green foliage visible through the window"
+    },
+    "objects": [
+      {
+        "object": "a white bandage",
+        "position": "on the man's hand",
+        "action": "held to his nose"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "the two men are sitting next to each other in a car"
+      }
+    ],
+    "key_actions": [
+      "The man in the leather jacket holds his hand to his nose",
+      "The man in the black shirt turns his head to the left"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a black leather jacket",
+      "facial_cues": [
+        "his hand is pressed to his nose",
+        "his mouth is slightly open",
+        "his eyes are open and looking forward"
+      ],
+      "body_cues": [
+        "he is sitting in the passenger seat"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "the man in a black shirt",
+      "facial_cues": [
+        "his mouth is slightly open",
+        "his eyes are open and looking forward"
+      ],
+      "body_cues": [
+        "he is sitting in the driver's seat, turning his head to the left"
+      ],
+      "gaze": "forward, then towards the left"
+    }
+  ],
+  "audio_description": "A male voice speaks in a strained, urgent tone, followed by a loud, jarring, distorted electronic sound.",
+  "emotion_description": "The man in the leather jacket appears to be in pain or distress, while the man in the black shirt seems surprised or alarmed by the sudden sound.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

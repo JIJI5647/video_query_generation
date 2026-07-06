@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in the driver's seat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "driving a car"
+      },
+      {
+        "person": "a man in the passenger seat",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting in the passenger seat"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "The car is in motion, with a blurry green landscape visible through the windows."
+    },
+    "objects": [],
+    "interactions": [
+      "The two men are sitting together in the car."
+    ],
+    "key_actions": [
+      "The man in the driver's seat is driving.",
+      "The man in the passenger seat is talking."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the driver's seat",
+      "facial_cues": [
+        "looking forward",
+        "mouth slightly open",
+        "expressive"
+      ],
+      "body_cues": [
+        "hand on the steering wheel"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "the man in the passenger seat",
+      "facial_cues": [
+        "looking forward",
+        "mouth moving as if speaking"
+      ],
+      "body_cues": [
+        "talking"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in a serious and questioning tone.",
+  "emotion_description": "The man in the passenger seat sounds serious and questioning. The man in the driver's seat appears to be listening intently.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

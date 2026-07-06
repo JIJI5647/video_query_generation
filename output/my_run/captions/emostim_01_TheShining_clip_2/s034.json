@@ -1,0 +1,58 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking into a room from a hallway, seen from behind, holding an axe."
+      },
+      {
+        "person": "a young boy in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing in the snow, looking up with a terrified expression."
+      }
+    ],
+    "scene": {
+      "location": "indoor room and outdoor snowy area",
+      "setting": "The first scene is an indoor room with a refrigerator and a bed. The second scene is a dark, snowy outdoor area with a house in the background."
+    },
+    "objects": [
+      {
+        "object": "axe",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being carried"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "walking",
+      "standing",
+      "looking up"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red jacket",
+      "facial_cues": [],
+      "body_cues": [
+        "walking purposefully",
+        "carrying an axe"
+      ],
+      "gaze": "not visible"
+    }
+  ],
+  "audio_description": "The sound of a loud, heavy vehicle engine, like a truck or bus, is prominent.",
+  "emotion_description": "Terrified",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

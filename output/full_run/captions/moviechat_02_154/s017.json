@@ -1,0 +1,76 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking forward"
+      },
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "walking behind the man in the light suit"
+      },
+      {
+        "person": "a group of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing around a silver car"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime, in a city with tall buildings and streetlights"
+    },
+    "objects": [
+      {
+        "object": "a silver car",
+        "position": "center",
+        "action": "parked"
+      },
+      {
+        "object": "a black car",
+        "position": "left",
+        "action": "parked"
+      }
+    ],
+    "interactions": [
+      "The man in the light suit is walking forward, followed by the man in the dark suit."
+    ],
+    "key_actions": [
+      "Walking",
+      "Standing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit jacket",
+      "facial_cues": [],
+      "body_cues": [
+        "Walking purposefully forward"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [],
+      "body_cues": [
+        "Walking behind the other man"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio contains a series of urgent shouts from a male voice.",
+  "emotion_description": "The shouts suggest a state of high alert or panic.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

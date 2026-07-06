@@ -1,0 +1,61 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the red shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "sitting on a couch, partially visible"
+      },
+      {
+        "person": "the man in a blue shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on a couch, laughing, and extending his hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a coffee shop or lounge with an orange couch and other patrons in the background"
+    },
+    "objects": [
+      "orange couch",
+      "table",
+      "mug"
+    ],
+    "interactions": [
+      "the man in the blue shirt laughs and extends his hand, possibly for a handshake"
+    ],
+    "key_actions": [
+      "the man in the blue shirt laughs and extends his hand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the blue shirt",
+      "facial_cues": [
+        "wide smile",
+        "closed eyes",
+        "crinkled eyes",
+        "showing teeth"
+      ],
+      "body_cues": [
+        "leaning back slightly",
+        "shoulders shaking",
+        "hand extended forward"
+      ],
+      "gaze": "looking down and away from the man in the red shirt"
+    }
+  ],
+  "audio_description": "A male voice repeatedly says a name, followed by the sound of a crowd laughing.",
+  "emotion_description": "The man in the blue shirt is amused and laughing.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue button-down shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking into the room, adjusting his shirt, and moving towards the back"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk and looking at a laptop"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or command center with maps on the wall, a desk with a laptop, and a window with blinds"
+    },
+    "objects": [
+      "maps",
+      "desk",
+      "laptop",
+      "window blinds"
+    ],
+    "interactions": [
+      "The man in the light blue shirt walks across the room towards the back."
+    ],
+    "key_actions": [
+      "The man in the light blue shirt walks into the room and adjusts his shirt."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue button-down shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "adjusting his shirt"
+      ],
+      "gaze": "looking down and forward"
+    },
+    {
+      "person": "a woman in a white shirt",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "looking at the laptop screen"
+    }
+  ],
+  "audio_description": "A continuous, low-frequency hum or drone is audible in the background.",
+  "emotion_description": "The man appears focused and serious. The woman appears concentrated on her work.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

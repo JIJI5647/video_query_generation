@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young child",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and turning a doorknob"
+      },
+      {
+        "person": "a woman",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "lying in bed and sleeping"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom at night"
+    },
+    "objects": [
+      "a bed",
+      "a lamp",
+      "a door",
+      "a doorknob"
+    ],
+    "interactions": [
+      "the child is attempting to open the door"
+    ],
+    "key_actions": [
+      "the child turning the doorknob"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young child",
+      "facial_cues": [],
+      "body_cues": [
+        "turning a doorknob"
+      ],
+      "gaze": "looking at the door"
+    }
+  ],
+  "audio_description": "A person is speaking in a low, raspy voice.",
+  "emotion_description": "The person speaking sounds weak or unwell.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

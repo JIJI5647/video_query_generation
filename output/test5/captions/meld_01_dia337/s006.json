@@ -1,0 +1,42 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and turning to look at the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "living room with beige walls and furniture"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a blue plaid shirt",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "turning his head"
+      ],
+      "gaze": "to the left"
+    }
+  ],
+  "audio_description": "a man is asking a question, followed by another man asking the same question in a confused tone.",
+  "temporal_description": "the first man asks a question, then the second man asks the same question in a confused tone.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

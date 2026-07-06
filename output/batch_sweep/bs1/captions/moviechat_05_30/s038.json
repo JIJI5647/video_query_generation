@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a large, muscular man",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running and shouting aggressively"
+      },
+      {
+        "person": "a group of soldiers",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "fighting with spears and shields"
+      }
+    ],
+    "scene": {
+      "location": "battlefield",
+      "setting": "dark and chaotic, with smoke and dust in the air"
+    },
+    "objects": [
+      {
+        "obj": "spears and shields",
+        "position": "held by soldiers in the background"
+      }
+    ],
+    "interactions": [
+      "the large man runs towards the soldiers",
+      "soldiers engage in combat with each other"
+    ],
+    "key_actions": [
+      "the large man shouts and runs",
+      "soldiers fight with spears and shields",
+      "a soldier lies on the ground, seemingly dead"
+    ],
+    "visibility_notes": "The scene is dark, with low visibility, making some details hard to discern."
+  },
+  "visual_expression": [
+    {
+      "person": "the large, muscular man",
+      "facial_cues": [
+        "shouting aggressively"
+      ],
+      "body_cues": [
+        "running forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The audio contains the sounds of battle, including clashing metal, shouts, and general chaos.",
+  "emotion_description": "Aggressive and panicked",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running away from a burning building"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "a large, old stone building, possibly a church or castle, is engulfed in flames and smoke at night. Debris is flying through the air."
+    },
+    "objects": [
+      "a large, burning building",
+      "fire and smoke",
+      "flying debris"
+    ],
+    "interactions": [
+      "people are running away from the explosion"
+    ],
+    "key_actions": [
+      "people running",
+      "building on fire",
+      "explosion"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a group of people",
+      "facial_cues": [],
+      "body_cues": [
+        "running",
+        "leaning forward"
+      ],
+      "gaze": "forward, away from the building"
+    }
+  ],
+  "audio_description": "A loud explosion is heard, followed by the sound of debris falling.",
+  "emotion_description": "The people appear to be in a state of panic and fear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

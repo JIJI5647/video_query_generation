@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking forward"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "walking behind the first man"
+      }
+    ],
+    "scene": {
+      "location": "indoor office hallway",
+      "setting": "a modern office hallway with glass walls, dim lighting, and other people in the background"
+    },
+    "objects": [
+      {
+        "name": "lanyard",
+        "visibility": "clearly visible",
+        "position": "around the neck of the man in the foreground"
+      }
+    ],
+    "interactions": [
+      "The man in the foreground is walking forward, followed by the man in the dark shirt."
+    ],
+    "key_actions": [
+      "Walking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt and striped tie",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brows"
+      ],
+      "body_cues": [
+        "walking with a purposeful stride"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The sound of footsteps on a hard surface can be heard.",
+  "emotion_description": "The man appears serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

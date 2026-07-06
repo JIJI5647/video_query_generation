@@ -1,0 +1,290 @@
+[
+  {
+    "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+    "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q01",
+    "initial_query": {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q01",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman with dark hair and a green jacket dart her eyes around in anxiety?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        5.0,
+        9.0
+      ],
+      "segment_ids": [
+        "s002"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "eyes dart around in fear and anxiety"
+        ],
+        "audio_evidence": [
+          "faint, high-pitched ringing sound"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s002"
+      ]
+    },
+    "current_query_text": "When does the woman with dark hair and a green jacket dart her eyes around in anxiety?",
+    "final_query_text": "When does the woman with dark hair and a green jacket dart her eyes around in anxiety?",
+    "query_type": "evidence_cue",
+    "grounding_event_description": "",
+    "approximate_grounding_time": null,
+    "target_person_or_group": "",
+    "expected_evidence": [],
+    "time_range": [
+      5.0,
+      9.0
+    ],
+    "segment_ids": [
+      "s002"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "eyes dart around in fear and anxiety"
+      ],
+      "audio_evidence": [
+        "faint, high-pitched ringing sound"
+      ]
+    },
+    "source_caption_ids": [
+      "emostim_07_TheSilenceOfTheLambs_a_clip_2_s002"
+    ],
+    "rewrite_count": 0,
+    "verification_rounds": [
+      {
+        "round_index": 1,
+        "decision": "fail",
+        "failure_reason": "Query focuses on a non-target state (anxiety) and describes observable behavior"
+      }
+    ],
+    "final_status": "discarded"
+  },
+  {
+    "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+    "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q02",
+    "initial_query": {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q02",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the woman's eyes widen with terror as a red light flashes?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        5.0,
+        9.0
+      ],
+      "segment_ids": [
+        "s002"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "eyes wide with terror",
+          "gasps in shock and fear"
+        ],
+        "audio_evidence": [
+          "loud, startling sound effect",
+          "high-pitched, tense musical sting"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s002"
+      ]
+    },
+    "current_query_text": "When do the woman's eyes widen with terror as a red light flashes?",
+    "final_query_text": "When do the woman's eyes widen with terror as a red light flashes?",
+    "query_type": "evidence_cue",
+    "grounding_event_description": "",
+    "approximate_grounding_time": null,
+    "target_person_or_group": "",
+    "expected_evidence": [],
+    "time_range": [
+      5.0,
+      9.0
+    ],
+    "segment_ids": [
+      "s002"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "eyes wide with terror",
+        "gasps in shock and fear"
+      ],
+      "audio_evidence": [
+        "loud, startling sound effect",
+        "high-pitched, tense musical sting"
+      ]
+    },
+    "source_caption_ids": [
+      "emostim_07_TheSilenceOfTheLambs_a_clip_2_s002"
+    ],
+    "rewrite_count": 1,
+    "verification_rounds": [
+      {
+        "round_index": 1,
+        "decision": "revise",
+        "failure_reason": "Contains a forbidden identifier (timestamp-like)"
+      },
+      {
+        "round_index": 2,
+        "decision": "fail",
+        "failure_reason": "The query describes events not present in the video clip, and it contains an unanswerable, false premise."
+      }
+    ],
+    "final_status": "discarded"
+  },
+  {
+    "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+    "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q03",
+    "initial_query": {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q03",
+      "query_type": "explicit_event",
+      "query_text": "When is a man violently thrown backward into a wall?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        10.0,
+        12.76
+      ],
+      "segment_ids": [
+        "s003"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "violently thrown backward",
+          "crashes into a wall"
+        ],
+        "audio_evidence": [
+          "loud thud",
+          "grunt"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s003"
+      ]
+    },
+    "current_query_text": "When is a man violently thrown backward into a wall?",
+    "final_query_text": "When is a man violently thrown backward into a wall?",
+    "query_type": "explicit_event",
+    "grounding_event_description": "",
+    "approximate_grounding_time": null,
+    "target_person_or_group": "",
+    "expected_evidence": [],
+    "time_range": [
+      10.0,
+      12.76
+    ],
+    "segment_ids": [
+      "s003"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "violently thrown backward",
+        "crashes into a wall"
+      ],
+      "audio_evidence": [
+        "loud thud",
+        "grunt"
+      ]
+    },
+    "source_caption_ids": [
+      "emostim_07_TheSilenceOfTheLambs_a_clip_2_s003"
+    ],
+    "rewrite_count": 0,
+    "verification_rounds": [
+      {
+        "round_index": 1,
+        "decision": "fail",
+        "failure_reason": "The query is not about a target emotion, and the video does not show a man being thrown into a wall."
+      }
+    ],
+    "final_status": "discarded"
+  },
+  {
+    "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+    "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q04",
+    "initial_query": {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q04",
+      "query_type": "evidence_cue",
+      "query_text": "What moment shows the woman's face filled with shock and determination while pointing a handgun?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        10.0,
+        12.76
+      ],
+      "segment_ids": [
+        "s003"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "face is filled with shock and determination",
+          "eyes wide with alarm"
+        ],
+        "audio_evidence": [
+          "low, tense, and ominous musical score begins to play"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s003"
+      ]
+    },
+    "current_query_text": "Does the person pointing a handgun display a face filled with shock and determination?",
+    "final_query_text": "Does the person pointing a handgun display a face filled with shock and determination?",
+    "query_type": "evidence_cue",
+    "grounding_event_description": "",
+    "approximate_grounding_time": null,
+    "target_person_or_group": "",
+    "expected_evidence": [],
+    "time_range": [
+      10.0,
+      12.76
+    ],
+    "segment_ids": [
+      "s003"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "face is filled with shock and determination",
+        "eyes wide with alarm"
+      ],
+      "audio_evidence": [
+        "low, tense, and ominous musical score begins to play"
+      ]
+    },
+    "source_caption_ids": [
+      "emostim_07_TheSilenceOfTheLambs_a_clip_2_s003"
+    ],
+    "rewrite_count": 1,
+    "verification_rounds": [
+      {
+        "round_index": 1,
+        "decision": "revise",
+        "failure_reason": "Contains a temporal identifier 'What moment shows'"
+      },
+      {
+        "round_index": 2,
+        "decision": "pass",
+        "failure_reason": ""
+      }
+    ],
+    "final_status": "accepted"
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "queries": [
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q01",
+      "query_type": "evidence_cue",
+      "query_text": "When does a person gasp sharply and breathily in response to a metallic click and thud?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        0.0,
+        5.0
+      ],
+      "segment_ids": [
+        "s001"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "a person is partially visible in the background, standing near a doorway or opening, with their silhouette faintly outlined against the light.",
+          "the person’s posture is upright, and their gaze is directed toward something out of frame"
+        ],
+        "audio_evidence": [
+          "a sharp, high-pitched metallic click is heard, followed by a brief, low-frequency thud.",
+          "A single, sharp, breathy gasp is heard. This human sound is high-pitched, strained, and slightly raspy, indicating a moment of surprise, exertion, or alarm."
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s001"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q02",
+      "query_type": "explicit_event",
+      "query_text": "What moment shows a woman forcefully manipulating a heavy metal object, accompanied by grunts and a loud clang?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        5.0,
+        10.0
+      ],
+      "segment_ids": [
+        "s002"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "A woman with shoulder-length dark hair, wearing a green jacket over a light-colored shirt, is partially visible in a dimly lit space.",
+          "Her mouth is slightly open, suggesting she may be in mid-movement or about to speak."
+        ],
+        "audio_evidence": [
+          "a soft, breathy exhalation follows, indicating a person’s presence and exertion, though no speech is present.",
+          "a low-frequency thud is heard, implying a heavy object is being set down or shifted.",
+          "a loud, metallic scraping sound occurs, characterized by a high-pitched, abrasive quality and a rapid, rhythmic pattern, as if a heavy metal object is being dragged across a hard surface.",
+          "a brief, guttural grunt from a human, indicating physical effort.",
+          "a loud, resonant metallic clang, which is the loudest sound in the clip and suggests a heavy metal object striking a hard surface, such as a door or gate being slammed shut."
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s002"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q03",
+      "query_type": "evidence_cue",
+      "query_text": "When does a woman with dark hair, wearing a green shirt, aim a handgun forward with both hands, arms extended?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        10.0,
+        12.76
+      ],
+      "segment_ids": [
+        "s003"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "A woman with dark hair, wearing a dark green button-up shirt, is standing in a dimly lit room with peeling walls and a red light visible in the background.",
+          "She holds a handgun with both hands, aiming it forward with her arms extended.",
+          "Her body is slightly angled, and her gaze is fixed on the direction of the gun’s aim."
+        ],
+        "audio_evidence": [
+          "a sudden, sharp metallic impact, characterized by a high-frequency \"clink\" and a brief, resonant \"thud.\"",
+          "a rapid, high-pitched scraping noise, suggesting a metal object—likely a key or tool—being forcefully inserted and turned in a lock.",
+          "a low-frequency, mechanical whirring emerges, reminiscent of a motor or solenoid activating.",
+          "a single, sharp metallic click is heard, signifying the final engagement of the mechanism—such as a bolt or latch locking into place."
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s003"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q04",
+      "query_type": "explicit_event",
+      "query_text": "What moment shows the operation of a modern electronic lock, including insertion of a key, mechanical whirring, and a final click?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        10.0,
+        12.76
+      ],
+      "segment_ids": [
+        "s003"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "A woman with dark hair, wearing a dark green button-up shirt, is standing in a dimly lit room with peeling walls and a red light visible in the background.",
+          "She holds a handgun with both hands, aiming it forward with her arms extended.",
+          "Her body is slightly angled, and her gaze is fixed on the direction of the gun’s aim."
+        ],
+        "audio_evidence": [
+          "a sudden, sharp metallic impact, characterized by a high-frequency \"clink\" and a brief, resonant \"thud.\"",
+          "a rapid, high-pitched scraping noise, suggesting a metal object—likely a key or tool—being forcefully inserted and turned in a lock.",
+          "a low-frequency, mechanical whirring emerges, reminiscent of a motor or solenoid activating.",
+          "a single, sharp metallic click is heard, signifying the final engagement of the mechanism—such as a bolt or latch locking into place."
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s003"
+      ]
+    }
+  ]
+}

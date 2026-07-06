@@ -1,0 +1,53 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark, patterned sweater",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "lying on a wooden floor, looking up and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark, wooden-floored room, possibly a basement or cabin, with dim lighting and a dark, indistinct background."
+    },
+    "objects": [
+      {
+        "object": "a dark, key-like object",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "lying on the floor near the man's head"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man lifts his head and speaks."
+    ],
+    "visibility_notes": "The man's face is illuminated by a single, dim light source, creating a high-contrast, dramatic effect. The background is mostly in shadow, obscuring details of the room."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark, patterned sweater",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "grimacing"
+      ],
+      "body_cues": [
+        "hands clasped together"
+      ],
+      "gaze": "looking up and forward"
+    }
+  ],
+  "audio_description": "The man is speaking in a strained, urgent tone.",
+  "emotion_description": "The man appears to be in a state of panic or distress, suggesting a sense of urgency and fear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

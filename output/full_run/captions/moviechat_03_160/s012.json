@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking forward with a serious expression"
+      },
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and talking on a phone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room, possibly an office or a living room"
+    },
+    "objects": [
+      "a phone",
+      "a light-colored suit jacket"
+    ],
+    "interactions": [
+      "the man in the light-colored suit is on the phone"
+    ],
+    "key_actions": [
+      "the man in the dark suit is looking forward",
+      "the man in the light-colored suit is talking on the phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "concentrated expression",
+        "talking"
+      ],
+      "body_cues": [
+        "holding a phone to his ear"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in Mandarin Chinese.",
+  "emotion_description": "The man in the dark suit appears serious and focused, while the man on the phone seems concentrated.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

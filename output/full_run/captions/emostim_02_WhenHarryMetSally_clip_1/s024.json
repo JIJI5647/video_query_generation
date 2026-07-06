@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, curly hair in a white collared shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking and moving her head"
+      },
+      {
+        "person": "a man in a blue shirt and a black baseball cap",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded room with other people in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The woman in the foreground is speaking with an expressive face."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde, curly hair in a white collared shirt",
+      "facial_cues": [
+        "Her eyes are closed",
+        "Her mouth is open as if singing or shouting"
+      ],
+      "body_cues": [
+        "She is tilting her head back"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "A woman is shouting and exclaiming with a strained, high-pitched voice.",
+  "emotion_description": "The woman appears to be in a state of panic or distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s072",
+  "time_range": [
+    355.0,
+    360.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with short black hair in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in front of a metal security gate, looking forward"
+      },
+      {
+        "person": "a man with short grey hair in a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking to the right with a surprised expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with beige tiled walls and a large metal security gate"
+    },
+    "objects": [
+      "metal security gate"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit looks towards the right with a surprised expression."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with short grey hair in a light-colored suit jacket",
+      "facial_cues": [
+        "wide eyes",
+        "raised eyebrows",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking to the right"
+    }
+  ],
+  "audio_description": "A loud, low-frequency electronic tone sounds, accompanied by a high-pitched, sustained electronic sound.",
+  "emotion_description": "The man in the suit appears surprised or shocked.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

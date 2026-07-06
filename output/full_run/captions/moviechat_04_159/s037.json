@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit and tie",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and speaking"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "partially visible",
+        "position": "left foreground",
+        "action": "standing, mostly with her back to the camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or briefing room with several large maps or documents taped to a wall behind the man"
+    },
+    "objects": [
+      "large maps/documents on the wall",
+      "a name badge on the man's suit"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man is speaking while holding a folder."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit and tie",
+      "facial_cues": [
+        "mouth open as if speaking",
+        "focusing gaze forward"
+      ],
+      "body_cues": [
+        "standing straight",
+        "holding a folder"
+      ],
+      "gaze": "forward, towards an unseen audience"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a narrative tone over faint background music.",
+  "emotion_description": "The man's expression is serious and focused, suggesting he is engaged in a formal briefing or presentation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "struggling to open a door while holding a young child"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a tiled hallway or room with a white door"
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "in the woman's hand",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [
+      "The woman is holding the child close to her back."
+    ],
+    "key_actions": [
+      "The woman is trying to open the door."
+    ],
+    "visibility_notes": "The child is partially visible, mostly obscured by the woman."
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "focused",
+        "strained"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "straining"
+      ],
+      "gaze": "at the door"
+    }
+  ],
+  "audio_description": "A loud, heavy thud is heard, followed by the sound of a door being forced open.",
+  "emotion_description": "Fear",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

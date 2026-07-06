@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair and a dark jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with a group of people, extending his hand forward with a menacing expression"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, wooded area with a group of people gathered"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man extending his hand forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair and a dark jacket",
+      "facial_cues": [
+        "menacing expression",
+        "narrowed eyes",
+        "smirk"
+      ],
+      "body_cues": [
+        "extending his hand forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A low, ominous hum is present.",
+  "emotion_description": "The man's expression and gesture suggest menace and control.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

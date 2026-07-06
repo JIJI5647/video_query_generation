@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark, patterned shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "bending over and eating from a bowl with chopsticks"
+      },
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "chewing food and looking towards the left"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, suggesting a casual dining setting like a restaurant"
+    },
+    "objects": [
+      "bowl",
+      "chopsticks"
+    ],
+    "interactions": [
+      "The two men are sitting next to each other at a table, eating."
+    ],
+    "key_actions": [
+      "Eating",
+      "Chewing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark, patterned shirt",
+      "facial_cues": [
+        "Looking down at the bowl"
+      ],
+      "body_cues": [
+        "Bending forward"
+      ],
+      "gaze": "Downwards"
+    },
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "Smiling"
+      ],
+      "body_cues": [
+        "Chewing"
+      ],
+      "gaze": "To the left"
+    }
+  ],
+  "audio_description": "A loud, dramatic musical sting plays, featuring a brass section.",
+  "emotion_description": "The man in the black jacket appears to be in a happy or amused mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

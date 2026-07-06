@@ -1,0 +1,77 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and tie",
+        "visibility": "clearly visible",
+        "position": "background, center",
+        "action": "sitting at a desk"
+      },
+      {
+        "person": "a man in a denim shirt",
+        "visibility": "clearly visible",
+        "position": "background, right",
+        "action": "sitting at a desk"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "foreground, left",
+        "action": "sitting at a desk"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a wooden parquet floor, furnished with a large dark desk and chairs. A briefcase containing a large amount of cash is open on the desk."
+    },
+    "objects": [
+      "an open briefcase filled with stacks of cash",
+      "a closed black briefcase",
+      "a white paper on the desk",
+      "a mobile phone on the desk",
+      "a desk lamp"
+    ],
+    "interactions": [
+      "The three men are sitting around the desk, facing each other in what appears to be a tense meeting or interrogation."
+    ],
+    "key_actions": [
+      "The man in the denim shirt is looking down and fiddling with his hands.",
+      "The man in the white shirt is sitting upright and looking forward."
+    ],
+    "visibility_notes": "The man in the dark shirt is mostly seen from behind."
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the denim shirt",
+      "facial_cues": [
+        "looking down",
+        "fiddling with his hands"
+      ],
+      "body_cues": [
+        "sitting upright"
+      ],
+      "gaze": "downward"
+    },
+    {
+      "person": "the man in the white shirt",
+      "facial_cues": [
+        "serious expression",
+        "looking forward"
+      ],
+      "body_cues": [
+        "sitting upright"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a calm, narrative tone.",
+  "emotion_description": "The atmosphere is tense and serious, with the man in the denim shirt appearing anxious or nervous.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

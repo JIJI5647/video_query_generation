@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a large, muscular humanoid creature",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "charging forward, swinging a weapon"
+      },
+      {
+        "person": "a group of smaller humanoid creatures",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running, being trampled"
+      }
+    ],
+    "scene": {
+      "location": "a dark, cavernous area",
+      "setting": "a dimly lit, chaotic battle scene with a stone floor"
+    },
+    "objects": [],
+    "interactions": [
+      "The large creature is trampling and attacking the smaller creatures."
+    ],
+    "key_actions": [
+      "The large creature charging and attacking",
+      "The smaller creatures running and being trampled"
+    ],
+    "visibility_notes": "The scene is very dark, with only limited areas illuminated."
+  },
+  "visual_expression": [
+    {
+      "person": "the large, muscular humanoid creature",
+      "facial_cues": [
+        "aggressive expression"
+      ],
+      "body_cues": [
+        "charging forward",
+        "swinging a weapon"
+      ],
+      "gaze": "forward, towards the smaller creatures"
+    }
+  ],
+  "audio_description": "Loud, dramatic orchestral music with a driving rhythm plays, creating a sense of intense action and chaos.",
+  "emotion_description": "The scene depicts a violent and chaotic battle, suggesting feelings of fear and aggression.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

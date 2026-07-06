@@ -1,0 +1,45 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s073",
+  "time_range": [
+    360.0,
+    365.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair and glasses wearing a corduroy jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "turns his head to the right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark, cluttered room with indistinct objects in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "turning head"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair and glasses wearing a corduroy jacket",
+      "facial_cues": [
+        "turning head",
+        "looking to the right"
+      ],
+      "body_cues": [
+        "turning head"
+      ],
+      "gaze": "to the right"
+    }
+  ],
+  "audio_description": "A low, sustained musical note plays in the background.",
+  "emotion_description": "curious",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

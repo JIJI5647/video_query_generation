@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long black hair wearing a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "trying to open a window while holding a child behind her"
+      }
+    ],
+    "scene": {
+      "location": "indoor bathroom",
+      "setting": "a bathroom with white tiled walls and a window with frosted glass"
+    },
+    "objects": [
+      {
+        "object": "a young child wearing a red and green striped sweater",
+        "visibility": "partially visible",
+        "position": "behind the woman",
+        "action": "hanging onto the woman's robe"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman attempts to open the frosted window",
+      "the child holds onto the woman's back"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long black hair wearing a blue robe",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "reaching for the window",
+        "struggling to open it"
+      ],
+      "gaze": "looking at the window"
+    }
+  ],
+  "audio_description": "A loud, sustained buzzing or humming sound is heard.",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

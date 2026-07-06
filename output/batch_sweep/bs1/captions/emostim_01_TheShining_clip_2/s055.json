@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark robe",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "swings an axe"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with pink walls and a lamp on a nightstand"
+    },
+    "objects": [
+      {
+        "object": "axe",
+        "position": "left",
+        "action": "being swung"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "swinging an axe"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark robe",
+      "facial_cues": [
+        "angry"
+      ],
+      "body_cues": [
+        "swinging an axe"
+      ],
+      "gaze": "towards the right"
+    }
+  ],
+  "audio_description": "a loud, high-pitched scream is heard.",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

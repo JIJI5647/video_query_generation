@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding and looking at a large scroll or map"
+      },
+      {
+        "person": "a woman in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "looking at the scroll and then at the man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit stone corridor or hall with a window on the left and a pillar in the center, illuminated by a greenish-blue light from the right."
+    },
+    "objects": [
+      {
+        "object": "scroll/map",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being held by the man and examined by both individuals"
+      }
+    ],
+    "interactions": [
+      "The man and woman are examining the scroll together."
+    ],
+    "key_actions": [
+      "Looking at the scroll",
+      "Looking at each other"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "looking up from the scroll",
+        "surprised expression"
+      ],
+      "body_cues": [
+        "turning to look at the woman"
+      ],
+      "gaze": "at the woman"
+    },
+    {
+      "person": "a woman in a dark jacket",
+      "facial_cues": [
+        "looking up from the scroll",
+        "surprised expression"
+      ],
+      "body_cues": [
+        "turning to look at the man"
+      ],
+      "gaze": "at the man"
+    }
+  ],
+  "audio_description": "A male voice speaks in a concerned tone, followed by a deep, ominous sound effect.",
+  "emotion_description": "Surprised",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

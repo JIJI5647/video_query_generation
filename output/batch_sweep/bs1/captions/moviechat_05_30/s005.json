@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "screaming with his head tilted back, then falling to the ground"
+      }
+    ],
+    "scene": {
+      "location": "rocky area",
+      "setting": "dark and shadowy with a bright, glowing light source in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "screaming",
+      "falling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black robe",
+      "facial_cues": [
+        "wide open mouth",
+        "exposed teeth",
+        "agony"
+      ],
+      "body_cues": [
+        "head tilted back",
+        "arms raised"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A loud scream is heard.",
+  "emotion_description": "Agony",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

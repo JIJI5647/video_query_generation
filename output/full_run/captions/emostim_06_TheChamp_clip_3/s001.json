@@ -1,0 +1,79 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a shirtless man with boxing gloves",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on his back on a table"
+      },
+      {
+        "person": "a man in a suit and glasses",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and looking down"
+      },
+      {
+        "person": "a man with blonde hair",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "leaning over the man on the table"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, utilitarian room with a single overhead light fixture"
+    },
+    "objects": [
+      "a table",
+      "a boxing glove",
+      "a hat",
+      "a light fixture"
+    ],
+    "interactions": [
+      "The man with blonde hair is attending to the man on the table."
+    ],
+    "key_actions": [
+      "The man on the table is lying still.",
+      "The man in the suit is observing the situation."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit and glasses",
+      "facial_cues": [
+        "concerned expression",
+        "furrowed brow"
+      ],
+      "body_cues": [],
+      "gaze": "looking down at the man on the table"
+    },
+    {
+      "person": "a man with blonde hair",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "leaning over the man on the table"
+      ],
+      "gaze": "looking down at the man on the table"
+    }
+  ],
+  "audio_description": "A continuous, low-frequency electronic tone plays.",
+  "emotion_description": "The people in the scene appear to be in a tense or somber situation, showing concern and focus.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

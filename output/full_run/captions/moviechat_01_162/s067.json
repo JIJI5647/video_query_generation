@@ -1,0 +1,88 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s067",
+  "time_range": [
+    330.0,
+    335.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking"
+      },
+      {
+        "person": "a man in a police uniform",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting and listening"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting and looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or briefing room with a television displaying security camera footage"
+    },
+    "objects": [
+      "a television screen"
+    ],
+    "interactions": [
+      "the man in the white shirt is addressing the two men in the background"
+    ],
+    "key_actions": [
+      "speaking",
+      "sitting",
+      "looking down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black tie",
+      "facial_cues": [
+        "open mouth",
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing upright",
+        "gesturing with hands"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a police uniform",
+      "facial_cues": [
+        "wide eyes",
+        "raised eyebrows",
+        "serious expression"
+      ],
+      "body_cues": [
+        "sitting upright"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "downcast eyes",
+        "serious expression"
+      ],
+      "body_cues": [
+        "sitting",
+        "slumped posture"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A man is speaking in a loud, agitated, and confrontational tone.",
+  "emotion_description": "The man speaking sounds angry and confrontational, while the man in the police uniform appears shocked and surprised, and the other man looks downcast and dejected.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

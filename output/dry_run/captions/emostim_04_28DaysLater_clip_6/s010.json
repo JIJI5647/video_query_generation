@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a bloody wound on his side",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "running"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a checkered floor and ornate mirrors on the wall"
+    },
+    "objects": [
+      {
+        "object": "a mirror",
+        "position": "left",
+        "action": "hanging on the wall"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man runs into the room."
+    ],
+    "visibility_notes": "The man is partially obscured by shadows and the low lighting."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a bloody wound on his side",
+      "facial_cues": [
+        "pained expression"
+      ],
+      "body_cues": [
+        "running",
+        "wounded"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The audio contains the sound of a door slamming shut, followed by a man's heavy breathing.",
+  "emotion_description": "pain",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

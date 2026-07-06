@@ -1,0 +1,48 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark hooded jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking through a room"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a checkered floor and a mirror on the wall"
+    },
+    "objects": [
+      "a mirror",
+      "a bed with white sheets",
+      "a doorway"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man walks across the room",
+      "the man looks at his reflection in the mirror"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark hooded jacket",
+      "facial_cues": [],
+      "body_cues": [
+        "walking",
+        "looking at the mirror"
+      ],
+      "gaze": "at the mirror"
+    }
+  ],
+  "audio_description": "A loud, low-pitched, sustained electronic buzzing sound begins and continues.",
+  "emotion_description": "The man's expression is obscured, but his action of walking towards the mirror suggests he is searching or investigating something.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

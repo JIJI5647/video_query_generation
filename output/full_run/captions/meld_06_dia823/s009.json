@@ -1,0 +1,101 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a cast on his left arm",
+        "visibility": "clearly visible",
+        "position": "left, foreground",
+        "action": "sitting on a couch, holding a piece of paper, and gesturing with his right hand"
+      },
+      {
+        "person": "a man in a dark blue shirt",
+        "visibility": "clearly visible",
+        "position": "center, foreground",
+        "action": "sitting on a couch, looking towards the woman on the right"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right, foreground",
+        "action": "sitting on a couch, gesturing with both hands, then looking towards the man on the left"
+      },
+      {
+        "person": "a man in a grey shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing behind the couch, leaning forward with his hands on the backrest, looking down at the others"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch, a kitchen area in the background, and various household items"
+    },
+    "objects": [
+      "a couch",
+      "a piece of paper",
+      "a cast on the man's left arm"
+    ],
+    "interactions": [
+      "The woman on the right gestures while speaking to the man on the left."
+    ],
+    "key_actions": [
+      "The man with the cast gestures with his right hand.",
+      "The woman on the right gestures with both hands."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a cast on his left arm",
+      "facial_cues": [
+        "confused expression",
+        "brow furrowed"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking towards the woman on the right"
+    },
+    {
+      "person": "a man in a dark blue shirt",
+      "facial_cues": [
+        "attentive expression",
+        "brow slightly furrowed"
+      ],
+      "body_cues": [],
+      "gaze": "looking towards the woman on the right"
+    },
+    {
+      "person": "a woman in a white shirt",
+      "facial_cues": [
+        "expressive expression",
+        "brow slightly furrowed"
+      ],
+      "body_cues": [
+        "gesturing with both hands"
+      ],
+      "gaze": "looking towards the man on the left"
+    },
+    {
+      "person": "a man in a grey shirt",
+      "facial_cues": [
+        "attentive expression",
+        "brow slightly furrowed"
+      ],
+      "body_cues": [
+        "leaning forward with hands on the back of the couch"
+      ],
+      "gaze": "looking down at the people on the couch"
+    }
+  ],
+  "audio_description": "A female voice speaks, followed by a male voice, and then a low-pitched, sustained musical note begins.",
+  "emotion_description": "The man with the cast appears confused or uncertain, while the woman in the white shirt sounds assertive or decisive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

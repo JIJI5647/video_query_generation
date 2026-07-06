@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark coat and light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running"
+      },
+      {
+        "person": "a group of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running"
+      }
+    ],
+    "scene": {
+      "location": "a bridge",
+      "setting": "dark and rainy at night"
+    },
+    "objects": [
+      "a wooden bridge",
+      "a bright light source"
+    ],
+    "interactions": [
+      "the people are running together"
+    ],
+    "key_actions": [
+      "running",
+      "escaping"
+    ],
+    "visibility_notes": "The scene is dark and the people are in motion, making some details unclear."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark coat and light-colored shirt",
+      "facial_cues": [
+        "his mouth is open",
+        "he appears to be shouting or yelling"
+      ],
+      "body_cues": [
+        "running"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The audio contains the sound of a loud, deep, and distorted roar, accompanied by the sound of a crowd shouting and screaming in panic.",
+  "emotion_description": "The people appear to be in a state of panic and fear, as they are running away from an unseen threat.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

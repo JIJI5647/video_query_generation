@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a mobile phone to his ear, then lowering it and gesturing with his hand"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "dark with blurred lights in the background"
+    },
+    "objects": [
+      {
+        "name": "mobile phone",
+        "position": "held to the man's right ear"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man is on a phone call and then gestures with his hand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "showing signs of distress",
+        "mouth open as if shouting",
+        "sweating",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "gesturing with his hand"
+      ],
+      "gaze": "looking upwards and to his right"
+    }
+  ],
+  "audio_description": "A man is shouting loudly and urgently.",
+  "emotion_description": "The man is expressing intense distress and urgency.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

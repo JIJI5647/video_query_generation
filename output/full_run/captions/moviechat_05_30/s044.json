@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long, reddish-brown hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running down a stone staircase"
+      },
+      {
+        "person": "a man in a dark robe",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "running down a stone staircase"
+      },
+      {
+        "person": "a crowd of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running down a stone staircase"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a large, dimly lit stone staircase within a building, possibly a castle"
+    },
+    "objects": [],
+    "interactions": [
+      "The people in the crowd are all running down the staircase in the same direction."
+    ],
+    "key_actions": [
+      "Running down a stone staircase"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long, reddish-brown hair",
+      "facial_cues": [
+        "mouth open",
+        "wide eyes",
+        "exhausted expression"
+      ],
+      "body_cues": [
+        "running",
+        "leaning forward"
+      ],
+      "gaze": "looking forward and slightly to the side"
+    }
+  ],
+  "audio_description": "The audio is filled with the sound of panicked shouting and a loud, dramatic musical score.",
+  "emotion_description": "The people in the scene appear to be panicked and terrified.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

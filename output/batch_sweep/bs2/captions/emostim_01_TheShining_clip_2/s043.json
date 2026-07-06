@@ -1,0 +1,49 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with messy hair and a beard",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in a doorway, smiling and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hallway or room with a door and a framed picture on the wall"
+    },
+    "objects": [
+      "a framed picture"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "speaking",
+      "smiling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with messy hair and a beard",
+      "facial_cues": [
+        "wide smile",
+        "raised eyebrows",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking to the right"
+    }
+  ],
+  "audio_description": "A male voice speaking in a menacing tone.",
+  "emotion_description": "Menacing",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

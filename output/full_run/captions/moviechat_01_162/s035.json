@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "leaning forward and speaking intensely"
+      },
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting and listening, then looking down"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit interior with a visible car window"
+    },
+    "objects": [],
+    "interactions": [
+      "The man on the left is speaking intensely to the man on the right."
+    ],
+    "key_actions": [
+      "The man on the left leaning in close and speaking",
+      "The man on the right listening and then looking down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "his mouth is open as he speaks",
+        "his expression is intense and focused"
+      ],
+      "body_cues": [
+        "he is leaning forward aggressively"
+      ],
+      "gaze": "looking directly at the other man"
+    },
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "his head is tilted down",
+        "his eyes are looking down, avoiding direct eye contact"
+      ],
+      "body_cues": [
+        "his body is slightly turned away"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A man is speaking in a low, urgent tone, with audible heavy breathing.",
+  "emotion_description": "The man on the left appears to be angry or demanding, while the man on the right appears to be afraid or intimidated.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

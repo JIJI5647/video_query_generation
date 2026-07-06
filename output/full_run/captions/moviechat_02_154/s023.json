@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket with a necklace",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a police officer",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "walking"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a dark city street at night, in front of a building with illuminated signs and a police vehicle"
+    },
+    "objects": [
+      {
+        "object": "a police vehicle",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "parked with headlights on"
+      },
+      {
+        "object": "a building",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "stationary"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man stands still.",
+      "The police officer walks past the building."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket with a necklace",
+      "facial_cues": [
+        "serious expression",
+        "staring"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, high-pitched electronic siren sounds, indicating the presence of an emergency vehicle.",
+  "emotion_description": "The man appears serious and focused, possibly tense or concerned.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

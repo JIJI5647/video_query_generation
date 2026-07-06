@@ -1,0 +1,77 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long black hair in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "trying to open a door"
+      },
+      {
+        "person": "a young child in a red and green striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "hanging onto the woman's robe"
+      },
+      {
+        "person": "a man with long dark hair in a red robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running and swinging an axe at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway and room",
+      "setting": "a hallway with blue walls and a staircase, and a room with a white tiled wall"
+    },
+    "objects": [
+      "a large knife",
+      "a door",
+      "an axe"
+    ],
+    "interactions": [
+      "the woman and the child are together, with the child clinging to the woman",
+      "the man is swinging an axe at the door"
+    ],
+    "key_actions": [
+      "the woman attempts to open the door",
+      "the man aggressively swings an axe at the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman",
+      "facial_cues": [
+        "panicked"
+      ],
+      "body_cues": [
+        "straining to open the door",
+        "holding the child tightly"
+      ],
+      "gaze": "on the door"
+    },
+    {
+      "person": "the man",
+      "facial_cues": [
+        "angry",
+        "intense",
+        "yelling"
+      ],
+      "body_cues": [
+        "swinging the axe with force"
+      ],
+      "gaze": "on the door"
+    }
+  ],
+  "audio_description": "The audio features the sound of a door being smashed, accompanied by a man shouting aggressively.",
+  "emotion_description": "The man is angry and aggressive, while the woman is panicked and scared.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -2,8 +2,6 @@
 data/
 temp_clips/
 temp_images/
-output/
-logs/
 
 # Python
 __pycache__/
@@ -14,6 +12,21 @@ venv/
 
 # Env / secrets
 .env
+env.sh
+
+# Local caches / heavy non-source dirs (many GB — never commit)
+hf_cache/
+pip_cache/
+models/
+conda_envs/
+third_party/
+
+# Runtime artefacts
+*.pid
+.ipynb_checkpoints/
+
+# Local tool config
+.claude/
 
 # OS
 .DS_Store

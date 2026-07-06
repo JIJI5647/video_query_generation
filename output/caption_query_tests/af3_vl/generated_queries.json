@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "queries": [
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q01",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman with dark hair, partially obscured by bars in a dimly lit room, exhibit a low-pitched, slow, and deliberate voice conveying fear and urgency?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        0.0,
+        5.0
+      ],
+      "segment_ids": [
+        "s001"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "woman standing in a dimly lit room",
+          "partially obscured by vertical bars or a metal gate",
+          "gaze directed toward something off-camera"
+        ],
+        "audio_evidence": [
+          "male voice with a low pitch and a slow, deliberate pace",
+          "conveying a sense of fear and urgency"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s001"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q02",
+      "query_type": "evidence_cue",
+      "query_text": "What moment shows the woman with dark hair looking off-camera to her right, while a male voice with a low, slow, and urgent tone is heard?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        0.0,
+        5.0
+      ],
+      "segment_ids": [
+        "s001"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "gaze directed toward something off-camera to her right"
+        ],
+        "audio_evidence": [
+          "male voice with a low pitch and a slow, deliberate pace",
+          "conveying a sense of fear and urgency"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s001"
+      ]
+    }
+  ]
+}

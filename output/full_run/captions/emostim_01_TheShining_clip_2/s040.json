@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying in deep snow, struggling and reaching forward with her hands"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, snowy environment with a building and a window in the background"
+    },
+    "objects": [
+      "deep snow",
+      "a building",
+      "a window"
+    ],
+    "interactions": [
+      "The woman is struggling within the snow."
+    ],
+    "key_actions": [
+      "The woman is lying in the snow and reaching forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "struggling posture",
+        "reaching hands"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A person is heard speaking in a strained, panicked tone.",
+  "emotion_description": "Fear and panic",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

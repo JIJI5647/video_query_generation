@@ -1,0 +1,4 @@
+# parse failure: reason=salvaged_for_generation
+# segment_id=s050
+
+[{"segment_id": "s050", "time_range": [245.0, 250.0], "visual_objective": {"people": [{"person": "a woman in a blue jacket", "visibility": "clearly visible", "position": "right", "action": "holding a knife and screaming"}], "scene": {"location": "indoor room", "setting": "a room with a white paneled wall and a doorway"}}, "objects": [{"object": "knife", "position": "in the woman's hand", "action": "held up"}], "interactions": [], "key_actions": ["screaming", "holding a knife"], "visibility_notes": "The woman is partially obscured by the doorway."}, "visual_expression": [{"person": "a woman in a blue jacket", "facial_cues": ["screaming", "mouth open", "tears"], "body_cues": ["shaking", "holding knife tightly"], "gaze": "upwards"}], "audio_description": "A woman is screaming loudly and frantically.", "emotion_description": "terror", "confidence": "high", "evidence_strength": "clear"}]

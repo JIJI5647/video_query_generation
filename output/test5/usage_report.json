@@ -1,0 +1,96 @@
+{
+  "total_wall_seconds": 5797.0,
+  "videos_attempted": 5,
+  "videos_processed": 4,
+  "total_tokens": 238399,
+  "total_llm_calls": 10,
+  "avg_seconds_per_processed_video": 851.1,
+  "avg_tokens_per_processed_video": 59600,
+  "by_stage": {
+    "emotion_event": {
+      "calls": 5,
+      "prompt_tokens": 73587,
+      "candidates_tokens": 25424,
+      "total_tokens": 99011
+    },
+    "generation": {
+      "calls": 5,
+      "prompt_tokens": 101582,
+      "candidates_tokens": 37802,
+      "total_tokens": 139388
+    }
+  },
+  "stage_seconds_total": {
+    "segment/clips": 3.0,
+    "captions": 4236.9,
+    "emotion_events": 572.8,
+    "generation": 287.9,
+    "verify/rewrite": 696.2
+  },
+  "per_video": [
+    {
+      "video_id": "emostim_01_TheShining_clip_2",
+      "status": "ok",
+      "seconds": 2028.5,
+      "total_tokens": 70825,
+      "stage_seconds": {
+        "segment/clips": 2.4,
+        "captions": 1377.6,
+        "emotion_events": 165.2,
+        "generation": 29.8,
+        "verify/rewrite": 453.4
+      }
+    },
+    {
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "status": "ok",
+      "seconds": 457.1,
+      "total_tokens": 14917,
+      "stage_seconds": {
+        "segment/clips": 0.1,
+        "captions": 190.3,
+        "emotion_events": 144.6,
+        "generation": 10.4,
+        "verify/rewrite": 111.6
+      }
+    },
+    {
+      "video_id": "meld_01_dia337",
+      "status": "ok",
+      "seconds": 429.4,
+      "total_tokens": 16531,
+      "stage_seconds": {
+        "segment/clips": 0.1,
+        "captions": 369.7,
+        "emotion_events": 4.4,
+        "generation": 6.2,
+        "verify/rewrite": 49.0
+      }
+    },
+    {
+      "video_id": "meld_02_dia224",
+      "status": "ok",
+      "seconds": 489.5,
+      "total_tokens": 12520,
+      "stage_seconds": {
+        "segment/clips": 0.1,
+        "captions": 226.5,
+        "emotion_events": 17.8,
+        "generation": 162.9,
+        "verify/rewrite": 82.2
+      }
+    },
+    {
+      "video_id": "moviechat_05_30",
+      "status": "skipped",
+      "seconds": 2392.5,
+      "total_tokens": 123606,
+      "stage_seconds": {
+        "segment/clips": 0.2,
+        "captions": 2072.8,
+        "emotion_events": 240.8,
+        "generation": 78.7
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "eating a sandwich, looking up to talk to the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor",
+      "setting": "a crowded restaurant or cafeteria with many people in the background"
+    },
+    "objects": [
+      {
+        "obj_id": "1",
+        "name": "sandwich",
+        "position": "right",
+        "action": "being eaten by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man eats a sandwich and then looks up to speak."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man",
+      "facial_cues": [
+        "looking at the woman",
+        "mouth moving while speaking"
+      ],
+      "body_cues": [
+        "holding a sandwich with both hands"
+      ],
+      "gaze": "at the woman"
+    }
+  ],
+  "audio_description": "A person speaks, followed by a short musical sting.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

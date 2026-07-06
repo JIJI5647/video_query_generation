@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a black handgun with both hands and aiming it forward"
+      },
+      {
+        "person": "a person with a bloody head wound",
+        "visibility": "partially visible",
+        "position": "right side of the frame, behind the man",
+        "action": "lying on the ground with blood on their head"
+      }
+    ],
+    "scene": {
+      "location": "urban street",
+      "setting": "outdoor setting with buildings in the background"
+    },
+    "objects": [
+      "a black handgun"
+    ],
+    "interactions": [
+      "the man in the suit is aiming the gun forward"
+    ],
+    "key_actions": [
+      "aiming a gun"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "intense gaze",
+        "focused expression"
+      ],
+      "body_cues": [
+        "holding a gun with both hands",
+        "leaning forward"
+      ],
+      "gaze": "focused forward"
+    }
+  ],
+  "audio_description": "A dramatic orchestral music piece with a tense and suspenseful mood plays in the background.",
+  "emotion_description": "The man in the suit appears to be in a state of high tension, focus, and determination.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

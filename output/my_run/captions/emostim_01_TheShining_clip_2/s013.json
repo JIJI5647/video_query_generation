@@ -1,0 +1,64 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with short brown hair wearing a red and green striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in front of a door and writing on it with a red marker"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom at night with a bed, a nightstand, and a lamp."
+    },
+    "objects": [
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "has the word 'MURDER' written on it in red marker."
+      },
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "held by the boy."
+      },
+      {
+        "object": "a bed",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by a sleeping person."
+      },
+      {
+        "object": "a nightstand",
+        "visibility": "clearly visible",
+        "position": "next to the bed",
+        "action": "has a lamp on it."
+      },
+      {
+        "object": "a lamp",
+        "visibility": "clearly visible",
+        "position": "on the nightstand",
+        "action": "illuminating the room."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The boy writes on the door with a red marker."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A distorted, echoing voice is repeating the same phrase.",
+  "emotion_description": "The audio suggests a sense of menace or threat.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

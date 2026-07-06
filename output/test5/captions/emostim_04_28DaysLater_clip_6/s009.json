@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pressing her head against a wall"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a wall and a wooden door visible in the background"
+    },
+    "objects": [
+      {
+        "object": "wall",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "being pressed against by the woman"
+      }
+    ],
+    "interactions": [
+      "the woman presses her head against the wall"
+    ],
+    "key_actions": [
+      "the woman presses her head against the wall"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman",
+      "facial_cues": [
+        "head tilted down"
+      ],
+      "body_cues": [
+        "pressing head against wall"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A low, rumbling sound, like a heavy door or mechanism moving.",
+  "temporal_description": "The rumbling sound starts at the beginning of the clip and continues throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

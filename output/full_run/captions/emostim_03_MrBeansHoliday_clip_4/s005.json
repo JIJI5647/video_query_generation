@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown suit and red tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle alongside a moving vehicle"
+      }
+    ],
+    "scene": {
+      "location": "outdoor road",
+      "setting": "a rural road with fields and a clear sky"
+    },
+    "objects": [
+      "a bicycle",
+      "a white vehicle"
+    ],
+    "interactions": [
+      "the man is holding onto the side of the moving vehicle with his right hand while pedaling"
+    ],
+    "key_actions": [
+      "riding a bicycle",
+      "holding onto a moving car"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown suit and red tie",
+      "facial_cues": [
+        "mouth is open",
+        "eyebrows are raised"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "arms are outstretched"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio contains loud, upbeat rock music with a prominent electric guitar riff and energetic drumming.",
+  "emotion_description": "The man's expression and the energetic music suggest a sense of panic, exertion, or frantic urgency.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

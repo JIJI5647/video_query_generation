@@ -1,0 +1,73 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "talking and gesturing with his hands"
+      },
+      {
+        "person": "the man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "listening to the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a light-colored wall, a framed picture, and a wall sconce lamp"
+    },
+    "objects": [
+      {
+        "name": "framed picture",
+        "description": "a gold-framed picture hanging on the wall"
+      },
+      {
+        "name": "wall sconce lamp",
+        "description": "a lamp with a white shade mounted on the wall"
+      }
+    ],
+    "interactions": [
+      "The man in the pink shirt is speaking and gesturing towards the man in the blue shirt."
+    ],
+    "key_actions": [
+      "The man in the pink shirt is talking and gesturing with his hands."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the pink plaid shirt",
+      "facial_cues": [
+        "looking at the other man",
+        "mouth open as if speaking"
+      ],
+      "body_cues": [
+        "gesturing with both hands"
+      ],
+      "gaze": "looking at the man in the blue shirt"
+    },
+    {
+      "person": "the man in a blue plaid shirt",
+      "facial_cues": [
+        "looking at the other man",
+        "listening"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking at the man in the pink shirt"
+    }
+  ],
+  "audio_description": "Two men are having a conversation, with one man speaking and the other man listening.",
+  "emotion_description": "The man in the pink shirt appears to be earnestly explaining something, while the other man listens attentively.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

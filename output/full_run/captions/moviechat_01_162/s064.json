@@ -1,0 +1,80 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with hands on hips, then crossing his arms"
+      },
+      {
+        "person": "a man in a police uniform",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting and speaking"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with glass partitions and a monitor"
+    },
+    "objects": [
+      {
+        "object": "a monitor",
+        "position": "left side",
+        "action": "displaying a video feed"
+      },
+      {
+        "object": "a name badge",
+        "position": "around the neck of the man in the white shirt",
+        "action": "hanging"
+      }
+    ],
+    "interactions": [
+      "The man in the police uniform is speaking to the man in the white shirt."
+    ],
+    "key_actions": [
+      "The man in the white shirt stands with his hands on his hips, then crosses his arms.",
+      "The man in the police uniform speaks while sitting."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a police uniform",
+      "facial_cues": [
+        "speaking",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a white shirt and dark tie",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "hands on hips",
+        "arms crossed"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in Mandarin Chinese.",
+  "emotion_description": "The man in the white shirt appears serious and contemplative. The man in the police uniform appears serious and authoritative.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

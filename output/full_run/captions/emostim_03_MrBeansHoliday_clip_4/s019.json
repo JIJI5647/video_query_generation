@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a rural or village setting with buildings and dry grass"
+    },
+    "objects": [
+      {
+        "object": "a bicycle",
+        "visibility": "clearly visible",
+        "position": "foreground"
+      },
+      {
+        "object": "a white car",
+        "visibility": "clearly visible",
+        "position": "background"
+      }
+    ],
+    "interactions": [
+      "The man is running past the bicycle, which is lying on the ground."
+    ],
+    "key_actions": [
+      "The man runs past the bicycle and towards a white car."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit",
+      "facial_cues": [],
+      "body_cues": [
+        "running",
+        "arms swinging"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "Upbeat, rhythmic music with a male voice singing in a repetitive, chant-like style.",
+  "emotion_description": "The man's hurried action suggests urgency, but his facial expression is not clearly visible. The energetic music creates a sense of suspense or anticipation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

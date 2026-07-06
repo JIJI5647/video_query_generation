@@ -1,0 +1,70 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking forward while speaking"
+      },
+      {
+        "person": "a man in a dark suit and light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "walking forward while looking down"
+      },
+      {
+        "person": "a woman in a light-colored top",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "walking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "dimly lit with a single light source visible in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The three individuals are walking together in a group."
+    ],
+    "key_actions": [
+      "The men are walking down a hallway while talking."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and light-colored shirt",
+      "facial_cues": [
+        "serious expression",
+        "mouth moving as if speaking"
+      ],
+      "body_cues": [
+        "walking forward"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a dark suit and light-colored shirt",
+      "facial_cues": [
+        "serious expression",
+        "looking down"
+      ],
+      "body_cues": [
+        "walking forward"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A man is speaking in a serious, narrative tone.",
+  "emotion_description": "The men appear serious and focused on their conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

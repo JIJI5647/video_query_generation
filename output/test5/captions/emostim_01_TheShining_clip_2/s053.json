@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long dark hair in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "screaming, holding a knife, leaning against a wall, and raising a hand to her face"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a white wall and a damaged wooden door frame."
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman screams and holds a knife",
+      "a door is broken down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long dark hair in a blue robe",
+      "facial_cues": [
+        "mouth wide open",
+        "eyes closed"
+      ],
+      "body_cues": [
+        "hand raised to face"
+      ],
+      "gaze": "unclear"
+    }
+  ],
+  "audio_description": "A woman screams, followed by the sound of a door breaking down.",
+  "temporal_description": "The clip begins with a woman screaming, followed by the sound of a door breaking down.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

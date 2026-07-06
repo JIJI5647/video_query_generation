@@ -1,0 +1,60 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark, medium-length hair wearing a dark red robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "peering through a damaged doorway, then moving away from the door."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a damaged doorway and a lamp on a table."
+    },
+    "objects": [
+      {
+        "object": "a damaged doorway",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being looked through by the man."
+      },
+      {
+        "object": "a lamp",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "illuminating the room."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man peeks through the damaged doorway, then turns and walks away from it."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark, medium-length hair wearing a dark red robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "frowning"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "turning away"
+      ],
+      "gaze": "looking through the doorway, then looking away from it."
+    }
+  ],
+  "audio_description": "A loud crash is heard, followed by a man shouting in distress.",
+  "temporal_description": "A loud crash occurs at the beginning, followed by a man shouting.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

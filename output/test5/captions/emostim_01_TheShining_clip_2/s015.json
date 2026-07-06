@@ -1,0 +1,76 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a bed, reaching out, grabbing a child's arm, and then embracing them"
+      },
+      {
+        "person": "a child in a red and green striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing, holding a knife, then being grabbed and hugged by the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night with a bed, a nightstand, and a lit lamp."
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held by the child"
+      },
+      {
+        "object": "a bed",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by the woman"
+      },
+      {
+        "object": "a nightstand",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "on which a lamp and a book are placed"
+      }
+    ],
+    "interactions": [
+      "The woman grabs the child's arm and then embraces them."
+    ],
+    "key_actions": [
+      "The woman reaches out and grabs the child.",
+      "The woman embraces the child."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "angry expression"
+      ],
+      "body_cues": [
+        "reaching out",
+        "grabbing",
+        "embracing"
+      ],
+      "gaze": "at the child"
+    }
+  ],
+  "audio_description": "A child is shouting in a panicked voice, followed by a loud, low-pitched electronic buzz.",
+  "temporal_description": "The child shouts repeatedly, then the sound cuts to a continuous buzz.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

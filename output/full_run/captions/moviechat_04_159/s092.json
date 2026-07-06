@@ -1,0 +1,62 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still and looking down with a somber expression"
+      },
+      {
+        "person": "a group of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing under umbrellas"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dimly lit room with a wall covered in photos or film negatives"
+    },
+    "objects": [
+      {
+        "object": "photos/film negatives",
+        "visibility": "clearly visible",
+        "position": "wall",
+        "action": "displayed on the wall"
+      },
+      {
+        "object": "umbrellas",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "held by people"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit stands still."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "frowning",
+        "eyes looking down"
+      ],
+      "body_cues": [],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A loud, suspenseful, and dramatic musical score with a strong brass section plays in the background.",
+  "emotion_description": "The man's expression and the dramatic music suggest a mood of somberness, tension, or concern.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "breaks through a door with an axe"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a bed and a lamp"
+    },
+    "objects": [
+      {
+        "object": "axe",
+        "position": "center",
+        "action": "being swung by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "breaking through a door",
+      "swinging an axe"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red plaid shirt",
+      "facial_cues": [
+        "manic smile",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "aggressive stance",
+        "swinging the axe"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A man is shouting aggressively, followed by a loud crashing sound.",
+  "emotion_description": "Manic and aggressive",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

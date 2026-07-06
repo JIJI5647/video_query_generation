@@ -1,0 +1,85 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with blonde hair wearing a black coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and pointing his wand forward"
+      },
+      {
+        "person": "a man in a black suit and tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and pointing his wand forward"
+      },
+      {
+        "person": "a woman with glasses and dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and pointing her wand forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark, cluttered room filled with various objects, including mirrors and metal bowls"
+    },
+    "objects": [
+      "wands",
+      "mirrors",
+      "metal bowls",
+      "metal shelves"
+    ],
+    "interactions": [
+      "all three individuals are pointing their wands forward in a confrontational manner"
+    ],
+    "key_actions": [
+      "pointing wands forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with blonde hair wearing a black coat",
+      "facial_cues": [
+        "serious expression",
+        "frowning"
+      ],
+      "body_cues": [
+        "standing in a confrontational stance"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a black suit and tie",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing in a confrontational stance"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a woman with glasses and dark hair",
+      "facial_cues": [
+        "intense expression",
+        "frowning"
+      ],
+      "body_cues": [
+        "standing in a confrontational stance"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio contains a combination of shouting, whooshing sounds, and crashing noises.",
+  "emotion_description": "The individuals appear to be in a state of intense confrontation and aggression.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair in a red robe",
+        "visibility": "clearly visible",
+        "position": "in the foreground",
+        "action": "pounding a door with a pickaxe"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "blue walls and a white door"
+    },
+    "objects": [
+      {
+        "name": "pickaxe",
+        "position": "in the man's hands",
+        "action": "being used to break the door"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man is swinging the pickaxe at the door."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man",
+      "facial_cues": [
+        "angry",
+        "intense",
+        "mouth open as if shouting"
+      ],
+      "body_cues": [
+        "swinging the pickaxe with force"
+      ],
+      "gaze": "at the door"
+    }
+  ],
+  "audio_description": "A loud, metallic scraping and clanking sound, like a large lock being forced.",
+  "emotion_description": "Anger and aggression.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,73 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "swinging an axe and hitting a door"
+      },
+      {
+        "person": "a woman in a blue robe holding a young boy",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing in a room, looking towards the door with a frightened expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with light-colored walls and a closed door, with a bed visible in the background"
+    },
+    "objects": [
+      "axe",
+      "door",
+      "bed",
+      "pillows"
+    ],
+    "interactions": [
+      "The man swings the axe at the door.",
+      "The woman holds the boy protectively."
+    ],
+    "key_actions": [
+      "Swinging an axe",
+      "Holding a child"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red robe",
+      "facial_cues": [
+        "frowning",
+        "mouth open",
+        "intense expression"
+      ],
+      "body_cues": [
+        "swinging the axe"
+      ],
+      "gaze": "towards the door"
+    },
+    {
+      "person": "a woman in a blue robe holding a young boy",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "frightened expression"
+      ],
+      "body_cues": [
+        "hugging the boy tightly"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A loud crashing sound, as if a door is being broken down.",
+  "emotion_description": "The man appears angry and aggressive, while the woman and the boy appear scared and frightened.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

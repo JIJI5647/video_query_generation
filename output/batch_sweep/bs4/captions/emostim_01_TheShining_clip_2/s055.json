@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair wearing a plaid shirt and a dark robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in a room, turning his head"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a bed, a lamp, and a door leading to a hallway with a damaged door frame"
+    },
+    "objects": [
+      {
+        "object": "a lamp",
+        "position": "on a table next to a bed",
+        "action": "illuminating the room"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "standing",
+      "turning head",
+      "walking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair wearing a plaid shirt and a dark robe",
+      "facial_cues": [
+        "intense and focused expression"
+      ],
+      "body_cues": [
+        "turning head",
+        "walking"
+      ],
+      "gaze": "looking towards the damaged door"
+    }
+  ],
+  "audio_description": "The man is breathing heavily, indicating physical exertion.",
+  "emotion_description": "intense",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy in a red and green striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "writing the word 'RECRUIT' in red marker on a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night, with a bed and a lamp in the background, and a person sleeping in the bed."
+    },
+    "objects": [
+      {
+        "object": "a red marker",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "being used to write on the door"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "writing on the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy in a red and green striped sweater",
+      "facial_cues": [
+        "serious expression",
+        "frowning"
+      ],
+      "body_cues": [
+        "focused posture",
+        "holding marker with concentration"
+      ],
+      "gaze": "looking at the door"
+    }
+  ],
+  "audio_description": "A child's voice is speaking slowly and deliberately.",
+  "emotion_description": "focused",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

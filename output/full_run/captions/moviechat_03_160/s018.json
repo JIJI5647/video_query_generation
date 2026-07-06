@@ -1,0 +1,44 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored collared shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking directly forward, then turning his head to his right and raising his right hand to his right ear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark room with a vertical metal grate or window visible in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man turns his head",
+      "The man raises his hand to his ear"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored collared shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "turning his head",
+        "raising his right hand to his right ear"
+      ],
+      "gaze": "initially forward, then looking to his right"
+    }
+  ],
+  "audio_description": "A loud, sustained, low-pitched electronic buzz sounds.",
+  "emotion_description": "The man's actions suggest he is reacting with focus or curiosity to the sound.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

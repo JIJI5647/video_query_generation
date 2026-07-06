@@ -1,0 +1,80 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue patterned short-sleeve shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "leaning forward, smiling, and gesturing with a cigarette"
+      },
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting and listening to the other man"
+      },
+      {
+        "person": "a person in a dark shirt",
+        "visibility": "partially visible",
+        "position": "background, center",
+        "action": "standing and moving their hands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a chalkboard on the wall"
+    },
+    "objects": [
+      {
+        "name": "cigarette",
+        "position": "held by the man in the blue shirt"
+      },
+      {
+        "name": "chalkboard",
+        "position": "on the left wall"
+      }
+    ],
+    "interactions": [
+      "The man in the blue shirt is speaking and gesturing towards the man in the black jacket."
+    ],
+    "key_actions": [
+      "The man in the blue shirt is talking and gesturing with a cigarette."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue patterned short-sleeve shirt",
+      "facial_cues": [
+        "smiling",
+        "eyes narrowed"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hand gesture"
+      ],
+      "gaze": "towards the man in the black jacket"
+    },
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "focused",
+        "neutral expression"
+      ],
+      "body_cues": [
+        "sitting upright"
+      ],
+      "gaze": "towards the man in the blue shirt"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a calm and conversational tone.",
+  "emotion_description": "The man in the blue shirt appears to be in a relaxed and casual mood, while the man in the black jacket appears to be listening attentively.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

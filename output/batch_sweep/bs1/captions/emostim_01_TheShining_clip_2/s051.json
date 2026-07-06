@@ -1,0 +1,61 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long black hair wearing a purple robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "peering around a corner, holding a knife, screaming, and being struck by an axe"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with white walls and a wooden door frame"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "position": "in the woman's hand",
+        "action": "held by the woman"
+      },
+      {
+        "object": "axe",
+        "position": "on the left",
+        "action": "striking the woman"
+      }
+    ],
+    "interactions": [
+      "The woman is attacked by an axe."
+    ],
+    "key_actions": [
+      "The woman screams and is struck by an axe."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long black hair wearing a purple robe",
+      "facial_cues": [
+        "mouth wide open",
+        "eyes wide open",
+        "scared expression"
+      ],
+      "body_cues": [
+        "screaming",
+        "holding a knife",
+        "being struck by an axe"
+      ],
+      "gaze": "towards the axe"
+    }
+  ],
+  "audio_description": "A woman is screaming in terror, followed by the sound of an axe hitting wood.",
+  "emotion_description": "terror",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

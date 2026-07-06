@@ -1,0 +1,85 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "hugging a child tightly"
+      },
+      {
+        "person": "a man in a red jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "swinging an axe at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a door, seen from a low angle"
+    },
+    "objects": [
+      {
+        "object": "an axe",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being swung"
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "in front of the man",
+        "action": "being hit by the axe"
+      },
+      {
+        "object": "a child",
+        "visibility": "partially visible",
+        "position": "in the woman's arms",
+        "action": "being held"
+      }
+    ],
+    "interactions": [
+      "The man swings the axe at the door",
+      "The woman hugs the child"
+    ],
+    "key_actions": [
+      "Swinging an axe",
+      "Hugging a child"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue sweater",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "tight grip on the child"
+      ],
+      "gaze": "directed towards the man"
+    },
+    {
+      "person": "a man in a red jacket",
+      "facial_cues": [
+        "angry expression",
+        "gritted teeth"
+      ],
+      "body_cues": [
+        "swinging the axe with force"
+      ],
+      "gaze": "directed towards the door"
+    }
+  ],
+  "audio_description": "The audio features the loud, sharp sound of a door being broken down, accompanied by a scream.",
+  "emotion_description": "The woman appears terrified and shocked, while the man appears enraged and violent.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,64 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with brown hair and blue eyes",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking to her right with a surprised expression"
+      },
+      {
+        "person": "a man with short dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down with a concerned expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a plain, dimly lit room"
+    },
+    "objects": [
+      "a clear glass bottle"
+    ],
+    "interactions": [
+      "the woman holds the bottle up"
+    ],
+    "key_actions": [
+      "the woman holding a bottle",
+      "the man looking down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with brown hair and blue eyes",
+      "facial_cues": [
+        "wide eyes",
+        "slightly parted lips",
+        "surprised expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking to her right"
+    },
+    {
+      "person": "a man with short dark hair",
+      "facial_cues": [
+        "furrowed brow",
+        "concerned expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A woman speaks with a concerned and surprised tone, followed by a low-pitched electronic hum.",
+  "emotion_description": "The woman appears surprised and concerned, while the man appears worried.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

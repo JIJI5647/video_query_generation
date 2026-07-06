@@ -1,0 +1,58 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning forward and looking out of a window"
+      },
+      {
+        "person": "a young boy in a red sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "hugging the woman from behind"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bathroom with white and black tiled walls"
+    },
+    "objects": [
+      "a window",
+      "a toilet",
+      "a toilet paper holder"
+    ],
+    "interactions": [
+      "The boy is hugging the woman."
+    ],
+    "key_actions": [
+      "The woman looks out the window.",
+      "The boy hugs the woman."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the young boy in a red sweater",
+      "facial_cues": [
+        "mouth open",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "hugging the woman tightly"
+      ],
+      "gaze": "looking forward, away from the woman"
+    }
+  ],
+  "audio_description": "A loud, continuous, and jarring electronic buzzing or alarm sound is heard.",
+  "emotion_description": "The boy appears to be scared or shocked by the sound.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

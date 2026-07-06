@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe lying in bed",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting up in bed, looking at the child, and moving her hands"
+      },
+      {
+        "person": "a child in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and holding a large knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a bedside table, a lamp, and a door"
+    },
+    "objects": [
+      "a large knife",
+      "a bedside table",
+      "a lamp",
+      "a bed",
+      "a door with red writing"
+    ],
+    "interactions": [
+      "The child stands over the bed, holding a knife towards the woman."
+    ],
+    "key_actions": [
+      "The child raises a knife and points it at the woman in bed."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe lying in bed",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "sitting up abruptly"
+      ],
+      "gaze": "looking at the child"
+    },
+    {
+      "person": "a child in a striped sweater",
+      "facial_cues": [],
+      "body_cues": [
+        "holding a knife in a threatening manner"
+      ],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A child's voice is shouting in a high-pitched, frantic tone.",
+  "emotion_description": "The child appears to be in a state of panic or hysteria. The woman in the bed appears frightened and shocked.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

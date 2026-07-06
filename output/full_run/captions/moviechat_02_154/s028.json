@@ -1,0 +1,123 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking away from the camera"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "walking towards a door"
+      },
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "bending over"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting at a desk"
+      },
+      {
+        "person": "a man in a blue shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting at a desk"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a desk with his back to the camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or interrogation room with desks, chairs, and bookshelves"
+    },
+    "objects": [
+      "a desk",
+      "chairs",
+      "bookshelves",
+      "files",
+      "a briefcase",
+      "a laptop"
+    ],
+    "interactions": [
+      "the man in the dark shirt is sitting opposite the two men in shirts at the desk"
+    ],
+    "key_actions": [
+      "walking",
+      "sitting",
+      "bending over"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "walking away from the camera"
+      ],
+      "gaze": "not visible"
+    },
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "walking towards a door"
+      ],
+      "gaze": "not visible"
+    },
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [],
+      "body_cues": [
+        "bending over"
+      ],
+      "gaze": "not visible"
+    },
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting at a desk"
+      ],
+      "gaze": "not visible"
+    },
+    {
+      "person": "a man in a blue shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting at a desk"
+      ],
+      "gaze": "not visible"
+    },
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting at a desk with his back to the camera"
+      ],
+      "gaze": "not visible"
+    }
+  ],
+  "audio_description": "A low, sustained, and ominous electronic tone plays continuously.",
+  "emotion_description": "The scene feels tense and mysterious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

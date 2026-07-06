@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s067",
+  "time_range": [
+    330.0,
+    335.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a walkie-talkie to his mouth and speaking into it"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a bulletin board covered in photos in the background"
+    },
+    "objects": [
+      "walkie-talkie",
+      "earpiece",
+      "bulletin board with photos"
+    ],
+    "interactions": [
+      "the man is speaking into the walkie-talkie"
+    ],
+    "key_actions": [
+      "speaking into a walkie-talkie"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "focused expression",
+        "tense",
+        "mouth open as if speaking"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "directed forward and slightly to the right"
+    }
+  ],
+  "audio_description": "A man speaks urgently into a radio, followed by a loud, jarring electronic buzz.",
+  "emotion_description": "The man's urgent tone and tense expression suggest he is panicked and distressed.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

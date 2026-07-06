@@ -27,14 +27,35 @@ rather than guessing a broken API.
 from __future__ import annotations
 
 import json
+import os
+import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
-from .io_utils import load_prompt_template, write_jsonl
-from .models import OmniCaption, Segment
+from .io_utils import load_prompt_template, read_jsonl, write_jsonl
+from .models import GenerationOutput, OmniCaption, Segment
 
 _PROMPTS_DIR = Path(__file__).parent.parent / "prompts"
+_PROJECT_ROOT = Path(__file__).parent.parent
+
+# Audio Flamingo 3 and SECap need dependency versions that conflict with the
+# shared pipeline env (AF3: a newer transformers than this repo is pinned to;
+# SECap: a 2023-era torch==2.0.0/transformers==4.29.0 legacy pin plus a
+# repo-specific model tree), so each runs as a SUBPROCESS in its own venv
+# rather than being imported in-process. See standalone_runners/af3_infer.py
+# and third_party/SECap/scripts/standalone_inference.py. Overridable via env
+# vars for a different server layout.
+_AF3_ENV_PYTHON = os.environ.get(
+    "AF3_ENV_PYTHON", str(_PROJECT_ROOT / "conda_envs" / "af3_env" / "bin" / "python")
+)
+_AF3_SCRIPT = str(_PROJECT_ROOT / "standalone_runners" / "af3_infer.py")
+_SECAP_ENV_PYTHON = os.environ.get(
+    "SECAP_ENV_PYTHON", str(_PROJECT_ROOT / "conda_envs" / "secap_env" / "bin" / "python")
+)
+_SECAP_REPO_DIR = Path(
+    os.environ.get("SECAP_REPO_DIR", str(_PROJECT_ROOT / "third_party" / "SECap"))
+)
 
 _CONFIDENCE_VALUES = ("high", "medium", "low")
 _EVIDENCE_VALUES = ("clear", "ambiguous", "weak")
@@ -123,7 +144,7 @@ CAPTION_MODEL_SPECS: Dict[str, ModelSpec] = {
         kind="audio_video",
         requires_video=True,
         requires_audio=True,
-        default_audio_model_path="nvidia/audio-flamingo-3",
+        default_audio_model_path="nvidia/audio-flamingo-3-hf",
         default_video_model_path="Qwen/Qwen3-VL-8B-Instruct",
         non_commercial=True,
         note="Audio Flamingo 3 audio caption + Qwen3-VL video. "
@@ -280,6 +301,7 @@ def normalize_to_omni_caption(
     modality: str = "av",
     audio_source_model: Optional[str] = None,
     video_source_model: Optional[str] = None,
+    default_confidence: str = "low",
 ) -> OmniCaption:
     """Coerce any caption-model output into a valid ``OmniCaption``.
 
@@ -289,6 +311,12 @@ def normalize_to_omni_caption(
     trusted ``video_id`` / ``segment_id`` / ``time_range`` are always forced from
     ``segment``; a model-echoed ``segment_id`` / ``time_range`` is discarded.
     Extra provenance/debug fields are attached (``OmniCaption`` allows extras).
+
+    ``default_confidence`` sets the confidence for a genuinely-parsed plain-text
+    caption that didn't declare its own (e.g. AVoCaDO's fused AV narrative, which
+    is deliberately trusted higher than a naive free-text fallback since it's a
+    model purpose-built/GRPO-optimized for cross-modal alignment). It never
+    applies to the ``salvaged`` path (empty/malformed output stays "low"/"weak").
     """
     tr = [round(segment.start_time, 2), round(segment.end_time, 2)]
     raw_text = _raw_to_text(raw)
@@ -347,7 +375,7 @@ def normalize_to_omni_caption(
         data["confidence"] = "low"
         data["evidence_strength"] = "weak"
     else:
-        data.setdefault("confidence", "low")
+        data.setdefault("confidence", default_confidence)
         data.setdefault("evidence_strength", "ambiguous")
     data["confidence"] = _valid_enum(data.get("confidence"), _CONFIDENCE_VALUES, "low")
     data["evidence_strength"] = _valid_enum(
@@ -494,54 +522,159 @@ def run_downstream_gemini(
 
 
 # ---------------------------------------------------------------------------
-# Output writers
+# Output writers / loaders — one pair per independent stage (caption generation
+# / query generation / evaluation) so each stage can be run, cached and re-run
+# on its own. Every stage also writes/passes through ``segments.jsonl`` so the
+# next stage never needs to re-cut clips to know a segment's ``clip_path``.
 # ---------------------------------------------------------------------------
-def save_outputs(
+def _dump_json(output_dir: Path, written: Dict[str, str], name: str, obj: Any) -> None:
+    path = output_dir / name
+    path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+    written[name] = str(path)
+
+
+def save_caption_outputs(
     output_dir: Path,
     *,
     raw_records: List[dict],
     captions: List[OmniCaption],
-    events,
-    generation,
+    segments: List[Segment],
     metadata: dict,
-    final_queries: Optional[list] = None,
 ) -> Dict[str, str]:
-    """Write every intermediate + final artefact under ``output_dir``.
+    """Write stage-1 (caption generation) artefacts under ``output_dir``.
 
-    Returns a map of logical name -> written path (as str). Files:
-    ``raw_caption_output.json``, ``normalized_captions.jsonl``,
-    ``emotion_events.json``, ``generated_queries.json``, ``run_metadata.json`` and
-    (optionally) ``final_queries.json``.
+    Files: ``raw_caption_output.json``, ``normalized_captions.jsonl``,
+    ``segments.jsonl``, ``run_metadata.json``.
     """
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
     written: Dict[str, str] = {}
 
-    def _dump_json(name: str, obj: Any) -> None:
-        path = output_dir / name
-        path.write_text(
-            json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
-        written[name] = str(path)
-
-    _dump_json("raw_caption_output.json", {"segments": raw_records})
+    _dump_json(output_dir, written, "raw_caption_output.json", {"segments": raw_records})
 
     norm_path = output_dir / "normalized_captions.jsonl"
     write_jsonl(norm_path, captions)
     written["normalized_captions.jsonl"] = str(norm_path)
 
+    seg_path = output_dir / "segments.jsonl"
+    write_jsonl(seg_path, segments)
+    written["segments.jsonl"] = str(seg_path)
+
+    _dump_json(output_dir, written, "run_metadata.json", metadata)
+    return written
+
+
+def load_caption_outputs(captions_dir: Path) -> Tuple[List[Segment], List[OmniCaption]]:
+    """Reload a stage-1 output dir's ``segments.jsonl`` + ``normalized_captions.jsonl``."""
+    captions_dir = Path(captions_dir)
+    segments = [Segment.model_validate(r) for r in read_jsonl(captions_dir / "segments.jsonl")]
+    captions = [
+        OmniCaption.model_validate(r)
+        for r in read_jsonl(captions_dir / "normalized_captions.jsonl")
+    ]
+    return segments, captions
+
+
+def save_generation_outputs(
+    output_dir: Path,
+    *,
+    events,
+    generation,
+    segments: List[Segment],
+    metadata: dict,
+) -> Dict[str, str]:
+    """Write stage-2 (query generation) artefacts under ``output_dir``.
+
+    Files: ``emotion_events.json``, ``generated_queries.json``,
+    ``segments.jsonl`` (passthrough, so stage 3 only needs ``--queries-dir``),
+    ``generation_metadata.json``.
+    """
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    written: Dict[str, str] = {}
+
     _dump_json(
-        "emotion_events.json",
+        output_dir, written, "emotion_events.json",
         events.model_dump() if hasattr(events, "model_dump") else events,
     )
     _dump_json(
-        "generated_queries.json",
+        output_dir, written, "generated_queries.json",
         generation.model_dump() if hasattr(generation, "model_dump") else generation,
     )
-    _dump_json("run_metadata.json", metadata)
-    if final_queries is not None:
-        _dump_json("final_queries.json", final_queries)
+
+    seg_path = output_dir / "segments.jsonl"
+    write_jsonl(seg_path, segments)
+    written["segments.jsonl"] = str(seg_path)
+
+    _dump_json(output_dir, written, "generation_metadata.json", metadata)
     return written
+
+
+def load_generation_outputs(queries_dir: Path) -> Tuple[List[Segment], GenerationOutput]:
+    """Reload a stage-2 output dir's ``segments.jsonl`` + ``generated_queries.json``."""
+    queries_dir = Path(queries_dir)
+    segments = [Segment.model_validate(r) for r in read_jsonl(queries_dir / "segments.jsonl")]
+    raw = json.loads((queries_dir / "generated_queries.json").read_text(encoding="utf-8"))
+    generation = GenerationOutput.model_validate(raw)
+    return segments, generation
+
+
+def save_evaluation_outputs(
+    output_dir: Path,
+    *,
+    final_queries: list,
+    summary: dict,
+    metadata: dict,
+) -> Dict[str, str]:
+    """Write stage-3 (evaluation/verification) artefacts under ``output_dir``.
+
+    Files: ``final_queries.json``, ``verification_summary.json``,
+    ``evaluation_metadata.json``.
+    """
+    output_dir = Path(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    written: Dict[str, str] = {}
+
+    _dump_json(output_dir, written, "final_queries.json", final_queries)
+    _dump_json(output_dir, written, "verification_summary.json", summary)
+    _dump_json(output_dir, written, "evaluation_metadata.json", metadata)
+    return written
+
+
+def run_verification_stage(
+    video_id: str, gen_output: GenerationOutput, segments: List[Segment], api_key: str,
+    verification_model: Optional[str] = None, rewrite_model: Optional[str] = None,
+) -> list:
+    """Upload each query's grounded clip(s) and run the verify/rewrite loop on Gemini.
+
+    Returns a list of ``QueryTrace`` dicts (one per query that was checked).
+    """
+    from .captioning import GeminiUploader
+    from .llm_client import GeminiLLMClient
+    from .workflow import run_query_pipeline
+
+    client_kwargs: Dict[str, Any] = {"api_key": api_key}
+    if verification_model:
+        client_kwargs["verification_model"] = verification_model
+    if rewrite_model:
+        client_kwargs["rewrite_model"] = rewrite_model
+    client = GeminiLLMClient(**client_kwargs)
+    uploader = GeminiUploader(api_key=api_key)
+    seg_by_id = {s.segment_id: s for s in segments}
+    uploaded, segment_uris = [], {}
+    try:
+        for sid in sorted({sid for q in gen_output.queries for sid in q.segment_ids}):
+            seg = seg_by_id.get(sid)
+            if seg is None or not seg.clip_path:
+                continue
+            f = uploader.upload(seg.clip_path)
+            uploaded.append(f)
+            segment_uris[sid] = f.uri
+        traces, _, _ = run_query_pipeline(video_id, gen_output, client, segment_uris)
+    finally:
+        for f in uploaded:
+            uploader.delete(f)
+    return [t.model_dump() for t in traces.values()]
 
 
 # ---------------------------------------------------------------------------
@@ -676,6 +809,97 @@ def _run_qwen3_vl_video(
     return (out[0] if out else "").strip()
 
 
+def _run_subprocess_caption(
+    cmd: List[str], cwd: Optional[str] = None, timeout: int = 900
+) -> str:
+    """Run a caption-model inference script in a SEPARATE Python env/process.
+
+    Used for model families whose dependencies conflict with the shared pipeline
+    env (Audio Flamingo 3 needs a newer ``transformers``; SECap needs a 2023
+    legacy torch/transformers pin) — they run as a subprocess in their own venv,
+    communicating the caption back over stdout between ``###CAPTION_START###`` /
+    ``###CAPTION_END###`` markers, rather than being imported in-process.
+    """
+    result = subprocess.run(
+        cmd, cwd=cwd, capture_output=True, text=True, timeout=timeout,
+    )
+    out = result.stdout
+    start = out.find("###CAPTION_START###")
+    end = out.find("###CAPTION_END###")
+    if result.returncode != 0 or start == -1 or end == -1:
+        raise RuntimeError(
+            f"subprocess caption runner failed (exit {result.returncode}): "
+            f"{' '.join(cmd)}\n"
+            f"--- stdout (tail) ---\n{out[-2000:]}\n"
+            f"--- stderr (tail) ---\n{result.stderr[-4000:]}"
+        )
+    return out[start + len("###CAPTION_START###"):end].strip()
+
+
+def _run_qwen2_5_omni_av(
+    video_path: str,
+    model_path: str,
+    prompt: str,
+    config: RunnerConfig,
+    system_prompt: Optional[str] = None,
+) -> str:
+    """Caption a video clip (audio+video) with a Qwen2.5-Omni-based AV captioner.
+
+    Shared by AVoCaDO and TimeChat-Captioner-GRPO — both are fine-tunes of
+    Qwen2.5-Omni-7B (``Qwen2_5OmniForConditionalGeneration``) and are called the
+    same way per their own reference inference scripts (talker disabled,
+    ``process_mm_info`` with ``use_audio_in_video=True``). Only the prompt (and
+    optionally a system message) differs per model. Returns plain caption text.
+    """
+    import torch  # lazy
+    from transformers import (  # lazy
+        Qwen2_5OmniForConditionalGeneration,
+        Qwen2_5OmniProcessor,
+    )
+    from qwen_omni_utils import process_mm_info  # lazy
+
+    load_kwargs: Dict[str, Any] = {
+        "dtype": "auto",
+        "device_map": config.device_map,
+    }
+    if config.attn_impl:
+        load_kwargs["attn_implementation"] = config.attn_impl
+    model = Qwen2_5OmniForConditionalGeneration.from_pretrained(model_path, **load_kwargs)
+    if hasattr(model, "disable_talker"):
+        model.disable_talker()
+    processor = Qwen2_5OmniProcessor.from_pretrained(model_path)
+
+    messages = []
+    if system_prompt:
+        messages.append({"role": "system", "content": [{"type": "text", "text": system_prompt}]})
+    messages.append({
+        "role": "user",
+        "content": [
+            {"type": "video", "video": video_path},
+            {"type": "text", "text": prompt},
+        ],
+    })
+    text = processor.apply_chat_template(messages, add_generation_prompt=True, tokenize=False)
+    audios, images, videos = process_mm_info(messages, use_audio_in_video=True)
+    inputs = processor(
+        text=text, audio=audios, images=images, videos=videos,
+        return_tensors="pt", padding=True, use_audio_in_video=True,
+    )
+    inputs = inputs.to(model.device).to(model.dtype)
+    with torch.no_grad():
+        gen = model.generate(
+            **inputs, use_audio_in_video=True, return_audio=False,
+            thinker_max_new_tokens=config.max_new_tokens,
+        )
+    text_ids = gen[0] if isinstance(gen, (tuple, list)) else gen
+    seq = getattr(text_ids, "sequences", text_ids)
+    out = processor.batch_decode(
+        seq[:, inputs["input_ids"].shape[1]:],
+        skip_special_tokens=True, clean_up_tokenization_spaces=False,
+    )
+    return (out[0] if out else "").strip()
+
+
 def _run_qwen_omni_captioner_audio(audio_path: str, model_path: str) -> str:
     """Caption audio ONLY with Qwen3-Omni-Captioner — NO text prompt.
 
@@ -702,7 +926,7 @@ def _run_qwen_omni_captioner_audio(audio_path: str, model_path: str) -> str:
     inputs = processor(
         text=text, audio=audios, images=images, videos=videos,
         return_tensors="pt", padding=True,
-    ).to(model.device)
+    ).to(model.device).to(model.dtype)
     with torch.no_grad():
         gen = model.generate(
             **inputs, return_audio=False, thinker_max_new_tokens=1024
@@ -747,24 +971,21 @@ def _run_af3_vl(
 ) -> CaptionModelOutput:
     """Audio Flamingo 3 (audio) + Qwen3-VL (video) -> merge.
 
-    The Qwen3-VL video half is implemented; the AF3 audio half needs the NVIDIA
-    ``audio-flamingo-3`` research repo (non-commercial only) whose inference API is
-    not a plain ``transformers`` call, so it is left as a clear
-    ``NotImplementedError`` rather than a guessed/broken call.
+    AF3's ``transformers`` HF integration needs a newer version than this repo's
+    shared env is pinned to, so its audio half runs as a subprocess in
+    ``conda_envs/af3_env`` (see ``standalone_runners/af3_infer.py``).
+    NON-COMMERCIAL research use only (NVIDIA audio-flamingo-3 license).
     """
     audio_model = config.audio_model_path or spec.default_audio_model_path
     video_model = config.video_model_path or spec.default_video_model_path
-    # Run the well-defined half first so the failure message is specific.
     video_text = _run_qwen3_vl_video(video_path or "", video_model, config)
-    _ = video_text  # computed but the merge can't complete without AF3 audio.
-    raise NotImplementedError(
-        "af3_vl audio half not wired: Audio Flamingo 3 "
-        f"({audio_model}) is NON-COMMERCIAL research only and ships its own "
-        "inference repo (not a plain transformers pipeline). Add an AF3 runner "
-        "that loads the model per NVIDIA's audio-flamingo-3 instructions and "
-        "returns an audio caption for --audio, then merge it with the Qwen3-VL "
-        "video caption via merge_audio_video_caption(). See "
-        "https://huggingface.co/nvidia/audio-flamingo-3"
+    audio_text = _run_subprocess_caption(
+        [_AF3_ENV_PYTHON, _AF3_SCRIPT, audio_path or "", audio_model]
+    )
+    return CaptionModelOutput(
+        modality="audio_video", audio_text=audio_text, video_text=video_text,
+        source_caption_model=spec.name, audio_source_model=audio_model,
+        video_source_model=video_model,
     )
 
 
@@ -777,22 +998,47 @@ def _run_secap_qwen(
 ) -> CaptionModelOutput:
     """SECap (speech/audio-emotion, used directly) + Qwen3-VL (video) -> merge.
 
-    Must NOT call Qwen3-Omni-Captioner. The Qwen3-VL video half is implemented;
-    SECap needs its repo-specific checkpoint setup, so its runner is a clear
-    ``NotImplementedError`` with instructions instead of a guessed API.
+    SECap needs a 2023 legacy torch==2.0.0/transformers==4.29.0 pin plus its own
+    repo-specific model tree (``third_party/SECap``), so it runs as a subprocess
+    in ``conda_envs/secap_env`` (see
+    ``third_party/SECap/scripts/standalone_inference.py``). Never calls
+    Qwen3-Omni-Captioner — SECap's own output IS the audio evidence.
+
+    Note: SECap is a MANDARIN speech-emotion captioner (chinese-hubert +
+    chinese-llama-7b, Chinese prompt/output); on non-Chinese audio (e.g. this
+    pipeline's English pilot-study clips) its captions are expected to be
+    unreliable — a language-domain mismatch, not a wiring bug.
     """
     audio_model = config.audio_model_path or spec.default_audio_model_path
     video_model = config.video_model_path or spec.default_video_model_path
     video_text = _run_qwen3_vl_video(video_path or "", video_model, config)
-    _ = video_text
-    raise NotImplementedError(
-        "secap_qwen audio half not wired: SECap "
-        f"({audio_model}) needs repo-specific checkpoint setup (yaoxunxu/SECaps). "
-        "Add a SECap runner that produces a speech/audio-emotion caption for "
-        "--audio and use its output DIRECTLY as the audio evidence (do NOT call "
-        "Qwen3-Omni-Captioner here), then merge with the Qwen3-VL video caption "
-        "via merge_audio_video_caption(). See https://huggingface.co/yaoxunxu/SECaps"
+    audio_text = _run_subprocess_caption(
+        [
+            _SECAP_ENV_PYTHON, "standalone_inference.py",
+            "--wavdir", audio_path or "",
+        ],
+        cwd=str(_SECAP_REPO_DIR / "scripts"),
     )
+    return CaptionModelOutput(
+        modality="audio_video", audio_text=audio_text, video_text=video_text,
+        source_caption_model=spec.name, audio_source_model=audio_model,
+        video_source_model=video_model,
+    )
+
+
+# One of AVoCaDO's own 7 paraphrased instructions (its inference.py picks one at
+# random; pinned here for reproducibility). All 7 are semantically identical.
+_AVOCADO_PROMPT = (
+    "Provide a comprehensive description of all the content in the video, "
+    "leaving out no details. Be sure to include as much of the audio "
+    "information as possible, and ensure that your descriptions of the audio "
+    "and video are closely aligned."
+)
+_AVOCADO_SYSTEM_PROMPT = (
+    "You are Qwen, a virtual human developed by the Qwen Team, Alibaba Group, "
+    "capable of perceiving auditory and visual inputs, as well as generating "
+    "text and speech."
+)
 
 
 def _run_avocado(
@@ -801,14 +1047,90 @@ def _run_avocado(
     video_path: Optional[str],
     config: RunnerConfig,
 ) -> CaptionModelOutput:
-    """AVoCaDO AV captioner — needs the repo-specific runner."""
+    """AVoCaDO AV captioner (Qwen2.5-Omni-7B fine-tune; github.com/AVoCaDO-Captioner/AVoCaDO)."""
     model_path = config.caption_model_path or spec.default_model_path
-    raise NotImplementedError(
-        f"avocado runner not wired: AVoCaDO ({model_path}) needs its repo-specific "
-        "inference code. Add a runner that captions --video and returns text/JSON, "
-        "then normalize via normalize_to_omni_caption(..., modality='av'). See "
-        "https://huggingface.co/AVoCaDO-Captioner/AVoCaDO"
+    raw = _run_qwen2_5_omni_av(
+        video_path or "", model_path, _AVOCADO_PROMPT, config,
+        system_prompt=_AVOCADO_SYSTEM_PROMPT,
     )
+    return CaptionModelOutput(modality="av", raw_output=raw, source_caption_model=model_path)
+
+
+# TimeChat-Captioner-GRPO-7B's own reference prompt (its HF model card example).
+_TIMECHAT_PROMPT = (
+    "Thoroughly describe everything in the video, capturing every detail. "
+    "Include as much information from the audio as possible, and ensure that "
+    "the descriptions of both audio and video are well-coordinated."
+)
+
+
+def _try_parse_json_array(raw: str) -> Optional[list]:
+    """Return a list if ``raw`` is (or contains) a top-level JSON array, else ``None``.
+
+    Only treats ``raw`` as array-shaped when a ``[`` occurs before any ``{`` (a
+    top-level object containing an incidental list value doesn't count). Tolerates
+    ```json fences and leading/trailing prose, same as ``_try_parse_json_object``.
+    """
+    if not isinstance(raw, str):
+        return None
+    text = raw.strip()
+    if not text:
+        return None
+    if "```" in text:
+        fence = text.find("```")
+        rest = text[fence + 3:]
+        if "\n" in rest:
+            rest = rest.split("\n", 1)[1]
+        end = rest.rfind("```")
+        if end != -1:
+            rest = rest[:end]
+        text = rest.strip()
+    bracket = text.find("[")
+    brace = text.find("{")
+    if bracket == -1 or (brace != -1 and brace < bracket):
+        return None
+    try:
+        obj, _ = json.JSONDecoder().raw_decode(text[bracket:])
+    except json.JSONDecodeError:
+        return None
+    return obj if isinstance(obj, list) else None
+
+
+def _fold_timechat_scenes(scenes: list) -> Optional[str]:
+    """Fold TimeChat's per-timestamp scene dicts into one plain-text description.
+
+    Keeps ``segment_detail_caption`` (core visual/action content), ``storyline``
+    (the model's own emotion/narrative reading) and ``acoustics_content`` (audio
+    evidence — legitimate here since TimeChat is a combined AV model). Drops
+    ``camera_state``/``shooting_style`` (cinematography, not useful signal) and
+    ``video_background`` (redundant with the detail caption). Also drops
+    ``speech_content`` — the real pipeline already has its own dedicated
+    transcript source, so a second, model-specific transcription is unwanted
+    here. Returns ``None`` if no scene has usable content (caller falls back to
+    the existing salvage behaviour).
+    """
+    lines = []
+    for scene in scenes:
+        if not isinstance(scene, dict):
+            continue
+        detail = scene.get("segment_detail_caption")
+        if not isinstance(detail, str) or not detail.strip():
+            continue
+        # No "[" / "{" in the folded text: normalize_to_omni_caption's salvage
+        # heuristic treats either as a sign of failed-to-parse JSON, so a
+        # bracketed timestamp prefix would get this genuinely-parsed content
+        # salvaged right back into the bug this fold exists to avoid.
+        timestamp = scene.get("timestamp")
+        prefix = f"({timestamp}) " if isinstance(timestamp, str) and timestamp.strip() else ""
+        line = f"{prefix}{detail.strip()}"
+        storyline = scene.get("storyline")
+        if isinstance(storyline, str) and storyline.strip():
+            line += f" (Storyline: {storyline.strip()})"
+        acoustics = scene.get("acoustics_content")
+        if isinstance(acoustics, str) and acoustics.strip():
+            line += f" (Audio: {acoustics.strip()})"
+        lines.append(line)
+    return "\n".join(lines) if lines else None
 
 
 def _run_timechat(
@@ -817,12 +1139,21 @@ def _run_timechat(
     video_path: Optional[str],
     config: RunnerConfig,
 ) -> CaptionModelOutput:
-    """TimeChat AV captioner (timestamp behaviour) — needs the repo-specific runner."""
+    """TimeChat-Captioner-GRPO-7B AV captioner (timestamp behaviour; Qwen2.5-Omni-7B fine-tune).
+
+    The model card notes it targets clips up to ~1 minute for its time-aware,
+    multi-scene captions; our 5s pipeline segments are well within that range.
+    TimeChat's own selling point is returning a JSON ARRAY of per-timestamp scene
+    dicts rather than one flat caption, so its raw output is folded into one
+    plain-text string (``_fold_timechat_scenes``) before being handed to the
+    generic normalizer — otherwise ``normalize_to_omni_caption`` would only see
+    the first scene and truncate the rest (see docs/progress_log.md).
+    """
     model_path = config.caption_model_path or spec.default_model_path
-    raise NotImplementedError(
-        f"timechat runner not wired: TimeChat ({model_path}) needs its "
-        "repo-specific inference code. Add a runner that captions --video and "
-        "returns text/JSON, then normalize via "
-        "normalize_to_omni_caption(..., modality='av'). See "
-        "https://huggingface.co/yaolily/TimeChat-Captioner-GRPO-7B"
-    )
+    raw = _run_qwen2_5_omni_av(video_path or "", model_path, _TIMECHAT_PROMPT, config)
+    scenes = _try_parse_json_array(raw)
+    if scenes is not None:
+        folded = _fold_timechat_scenes(scenes)
+        if folded is not None:
+            raw = folded
+    return CaptionModelOutput(modality="av", raw_output=raw, source_caption_model=model_path)

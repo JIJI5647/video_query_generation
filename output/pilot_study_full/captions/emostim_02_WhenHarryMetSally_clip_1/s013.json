@@ -1,0 +1,72 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "eating a sandwich and talking"
+      },
+      {
+        "person": "a woman with blonde hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "listening and talking"
+      }
+    ],
+    "scene": {
+      "location": "indoor",
+      "setting": "busy diner with other patrons in the background"
+    },
+    "objects": [
+      {
+        "object": "sandwich",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being eaten by the man"
+      }
+    ],
+    "interactions": [
+      "The man and woman are sitting at a table and having a conversation."
+    ],
+    "key_actions": [
+      "The man eats a sandwich and speaks.",
+      "The woman speaks and gestures."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a striped sweater",
+      "facial_cues": [
+        "frowning",
+        "pursed lips"
+      ],
+      "body_cues": [
+        "gesturing with his left hand"
+      ],
+      "gaze": "towards the woman"
+    },
+    {
+      "person": "a woman with blonde hair",
+      "facial_cues": [
+        "serious",
+        "frowning"
+      ],
+      "body_cues": [
+        "gesturing with her hands"
+      ],
+      "gaze": "towards the man"
+    }
+  ],
+  "audio_description": "A woman is speaking, followed by a man speaking.",
+  "emotion_description": "The man appears defensive or annoyed, while the woman sounds serious and matter-of-fact.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

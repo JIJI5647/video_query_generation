@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long black hair wearing a blue robe",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "hiding behind a wall, holding a knife, screaming, and looking around fearfully"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with white walls and a white tiled section, appearing distressed and chaotic"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "position": "right",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "screaming",
+      "hiding",
+      "holding knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long black hair wearing a blue robe",
+      "facial_cues": [
+        "screaming",
+        "tears"
+      ],
+      "body_cues": [
+        "hiding behind a wall",
+        "holding a knife tightly"
+      ],
+      "gaze": "looking around fearfully"
+    }
+  ],
+  "audio_description": "The audio contains a series of loud, high-pitched screams, suggesting distress or fear.",
+  "emotion_description": "Fear",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

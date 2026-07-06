@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down at a silver flip phone he is holding"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit"
+    },
+    "objects": [
+      "a silver flip phone"
+    ],
+    "interactions": [
+      "the man holds and looks at the phone"
+    ],
+    "key_actions": [
+      "the man's hand moves the phone slightly"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "downward at the phone"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, low tone.",
+  "emotion_description": "The man appears to be in a serious and focused state.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

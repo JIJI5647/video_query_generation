@@ -1,0 +1,85 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "carrying two black bags and walking into the room, then stopping and gesturing with her right hand."
+      },
+      {
+        "person": "a man in a blue sweater",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting in an armchair, looking up at the woman."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with purple walls, a window, a desk, and a couch."
+    },
+    "objects": [
+      {
+        "object": "two black bags",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being carried by the woman."
+      },
+      {
+        "object": "an armchair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by the man."
+      },
+      {
+        "object": "a desk",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "in the background."
+      }
+    ],
+    "interactions": [
+      "The woman gestures towards the man while holding the bags."
+    ],
+    "key_actions": [
+      "The woman enters the room carrying bags.",
+      "The woman gestures towards the man.",
+      "The man looks up at the woman."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white shirt",
+      "facial_cues": [
+        "smiling",
+        "cheerful expression"
+      ],
+      "body_cues": [
+        "gesturing with right hand"
+      ],
+      "gaze": "looking at the man."
+    },
+    {
+      "person": "a man in a blue sweater",
+      "facial_cues": [
+        "curious expression"
+      ],
+      "body_cues": [
+        "sitting in armchair",
+        "head tilted"
+      ],
+      "gaze": "looking up at the woman."
+    }
+  ],
+  "audio_description": "A woman speaks, followed by a man speaking, then the woman speaks again.",
+  "emotion_description": "The woman appears excited and happy, while the man appears curious and slightly surprised.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

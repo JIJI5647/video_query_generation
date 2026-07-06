@@ -1,0 +1,70 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long dark hair in a blue robe",
+        "visibility": "clearly visible",
+        "position": "in the foreground",
+        "action": "running and then climbing out of a window"
+      },
+      {
+        "person": "a young boy in a red and green striped sweater",
+        "visibility": "clearly visible",
+        "position": "next to the woman",
+        "action": "clinging to the woman's waist"
+      }
+    ],
+    "scene": {
+      "location": "indoor bathroom",
+      "setting": "white tiled walls and a window"
+    },
+    "objects": [
+      {
+        "name": "window",
+        "position": "on the wall",
+        "action": "being used as an exit"
+      }
+    ],
+    "interactions": [
+      "The boy is holding onto the woman as she escapes through the window."
+    ],
+    "key_actions": [
+      "The woman is climbing out of the window."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman",
+      "facial_cues": [
+        "panicked",
+        "desperate"
+      ],
+      "body_cues": [
+        "moving quickly",
+        "reaching for the window frame"
+      ],
+      "gaze": "up at the window"
+    },
+    {
+      "person": "the boy",
+      "facial_cues": [
+        "terrified"
+      ],
+      "body_cues": [
+        "hugging the woman tightly"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The sound of a door being shattered, followed by a loud crash.",
+  "emotion_description": "Fear and panic.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark, patterned sweater",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "crawling on a wooden surface with his head and arms raised"
+      }
+    ],
+    "scene": {
+      "location": "an indoor location, possibly a cabin or shed",
+      "setting": "a dark, low-light room with wooden plank flooring"
+    },
+    "objects": [
+      {
+        "object": "wooden floor",
+        "description": "dark wooden planks that the man is crawling on"
+      }
+    ],
+    "interactions": [
+      "The man is crawling on the wooden floor."
+    ],
+    "key_actions": [
+      "The man is crawling on the floor."
+    ],
+    "visibility_notes": "The scene is very dark, with only the man's upper body and the immediate floor illuminated."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark, patterned sweater",
+      "facial_cues": [
+        "mouth open in a grimace",
+        "teeth bared",
+        "wrinkled nose"
+      ],
+      "body_cues": [
+        "body low to the ground",
+        "arms extended forward"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud, continuous electronic buzzing or humming sound is heard.",
+  "emotion_description": "The man's expression suggests he is in pain or is straining with effort.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

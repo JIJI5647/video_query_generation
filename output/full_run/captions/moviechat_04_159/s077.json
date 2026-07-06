@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "A man in a light grey suit with white hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "He is speaking and gesturing with his hands."
+      },
+      {
+        "person": "A man in a black shirt with dark hair",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "He is standing still and looking at the man in the suit."
+      },
+      {
+        "person": "A man in a black shirt with dark hair",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "He is standing still and looking at the man in the suit."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "The room has wooden paneling and a dark, greenish lighting scheme."
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the grey suit is addressing the other two men."
+    ],
+    "key_actions": [
+      "The man in the grey suit is speaking and gesturing with his hands."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "A man in a light grey suit with white hair",
+      "facial_cues": [
+        "Looking towards the other men",
+        "Speaking"
+      ],
+      "body_cues": [
+        "Gesturing with his hands"
+      ],
+      "gaze": "Looking at the other two men"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, conversational tone.",
+  "emotion_description": "The man in the grey suit appears to be giving instructions or making a calm, decisive statement.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

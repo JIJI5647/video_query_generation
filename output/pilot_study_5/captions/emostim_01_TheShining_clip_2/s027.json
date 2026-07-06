@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man",
+        "visibility": "partially visible",
+        "position": "through a hole in a door",
+        "action": "peering through a hole in a door, smiling, then breaking a lock with a piece of wood"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wooden door that has a hole in it and a chain lock."
+    },
+    "objects": [
+      "a wooden door",
+      "a hole",
+      "a chain lock",
+      "a piece of wood"
+    ],
+    "interactions": [
+      "the man breaks the lock with a piece of wood"
+    ],
+    "key_actions": [
+      "the man peeks through the door",
+      "the man breaks the lock"
+    ],
+    "visibility_notes": "The man's face is visible through a hole in the door, but his body is not clearly visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a man",
+      "facial_cues": [
+        "smiling",
+        "grinning"
+      ],
+      "body_cues": [
+        "breaking a lock with a piece of wood"
+      ],
+      "gaze": "towards the camera"
+    }
+  ],
+  "audio_description": "A man's voice is heard saying 'I'm home,' followed by a loud, metallic grinding and scraping sound.",
+  "emotion_description": "menacing",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

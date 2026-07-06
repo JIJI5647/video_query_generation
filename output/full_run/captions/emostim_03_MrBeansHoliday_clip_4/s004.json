@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the brown suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle on a paved road"
+      },
+      {
+        "person": "the driver",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting in a white Jeep"
+      }
+    ],
+    "scene": {
+      "location": "road",
+      "setting": "a paved road in a hilly, rural area under a clear blue sky"
+    },
+    "objects": [
+      "a white Jeep",
+      "a bicycle",
+      "a black backpack"
+    ],
+    "interactions": [
+      "The man in the brown suit is riding the bicycle next to the moving Jeep."
+    ],
+    "key_actions": [
+      "The man in the brown suit is cycling on the road."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the brown suit",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "leaning forward on the handlebars",
+        "arms extended forward"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio features upbeat, rhythmic music with a prominent drum beat and a male voice singing in a non-English language.",
+  "emotion_description": "The man on the bicycle appears happy and amused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

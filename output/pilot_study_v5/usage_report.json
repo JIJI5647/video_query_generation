@@ -1,0 +1,25 @@
+{
+  "total_wall_seconds": 493.1,
+  "videos_attempted": 1,
+  "videos_processed": 1,
+  "total_tokens": 4934,
+  "total_llm_calls": 1,
+  "avg_seconds_per_processed_video": 493.1,
+  "avg_tokens_per_processed_video": 4934,
+  "by_stage": {
+    "generation": {
+      "calls": 1,
+      "prompt_tokens": 3479,
+      "candidates_tokens": 1455,
+      "total_tokens": 4934
+    }
+  },
+  "per_video": [
+    {
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "status": "ok",
+      "seconds": 493.1,
+      "total_tokens": 4934
+    }
+  ]
+}

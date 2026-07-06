@@ -1,0 +1,76 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a woman in a red and black patterned dress",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "kneeling on a bed over another person"
+      },
+      {
+        "person": "a person lying on the bed",
+        "visibility": "partially visible",
+        "position": "center",
+        "action": "lying on their back"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a large, round bed, white sheets, and a brown padded headboard"
+    },
+    "objects": [
+      {
+        "object": "a bed",
+        "visibility": "clearly visible",
+        "position": "center"
+      },
+      {
+        "object": "a small table",
+        "visibility": "clearly visible",
+        "position": "right"
+      },
+      {
+        "object": "a bottle",
+        "visibility": "clearly visible",
+        "position": "left"
+      }
+    ],
+    "interactions": [
+      "The woman is on top of the person lying on the bed."
+    ],
+    "key_actions": [
+      "The man stands still.",
+      "The woman is on top of the person on the bed."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "neutral expression",
+        "staring forward"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, rhythmic, and chaotic percussion track is playing.",
+  "emotion_description": "The man's expression is serious and stoic. The audio is intense and driving.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

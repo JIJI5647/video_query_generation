@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long hair wearing a dark shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "swinging an axe at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a bed and a lamp"
+    },
+    "objects": [
+      {
+        "object": "axe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being swung by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man swings the axe at the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long hair wearing a dark shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "swinging the axe"
+      ],
+      "gaze": "at the door"
+    }
+  ],
+  "audio_description": "A loud crashing sound followed by a scream.",
+  "emotion_description": "The man appears to be in a state of rage or intense determination, possibly with a hint of mania. The scream suggests fear or distress from an unseen person.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

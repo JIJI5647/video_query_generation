@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking through a broken door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a lamp and a bed visible in the background"
+    },
+    "objects": [
+      {
+        "object": "broken door",
+        "position": "center",
+        "action": "being looked through by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man looks through the broken door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red robe",
+      "facial_cues": [
+        "angry",
+        "intense gaze"
+      ],
+      "body_cues": [
+        "standing",
+        "looking through the door"
+      ],
+      "gaze": "through the broken door"
+    }
+  ],
+  "audio_description": "a loud crash is heard, followed by silence",
+  "emotion_description": "anger",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

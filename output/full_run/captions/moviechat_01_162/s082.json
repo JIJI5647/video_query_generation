@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s082",
+  "time_range": [
+    405.0,
+    410.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man with white hair wearing a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "turning his head to look directly at the camera with a slight smile"
+      },
+      {
+        "person": "a younger man in a grey shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking down at a seated person"
+      },
+      {
+        "person": "a person with their back to the camera",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with dark, textured walls, a large ornate golden statue in the background, and a desk with a computer monitor"
+    },
+    "objects": [
+      "a large golden statue",
+      "a computer monitor",
+      "a desk",
+      "dark curtains"
+    ],
+    "interactions": [
+      "the younger man is looking down at the seated person"
+    ],
+    "key_actions": [
+      "the older man turning his head to face the camera"
+    ],
+    "visibility_notes": "The scene is viewed through a glass partition, with a golden object partially obscuring the foreground."
+  },
+  "visual_expression": [
+    {
+      "person": "an older man with white hair wearing a black shirt",
+      "facial_cues": [
+        "slight smile",
+        "eyes crinkling at the corners"
+      ],
+      "body_cues": [
+        "turning his head"
+      ],
+      "gaze": "directly at the camera"
+    }
+  ],
+  "audio_description": "A low, sustained musical note plays, followed by a short, high-pitched electronic chime.",
+  "emotion_description": "The older man's expression is calm and subtly amused, suggesting he is observing something with quiet satisfaction.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

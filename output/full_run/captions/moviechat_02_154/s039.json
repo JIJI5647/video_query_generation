@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing a shiny dark red jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bending over a table, scooping food from a large pot into small white bowls"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, cluttered room with posters on the wall, a refrigerator, and a table with food containers"
+    },
+    "objects": [
+      "small white bowls",
+      "large metal pot",
+      "refrigerator",
+      "posters",
+      "table"
+    ],
+    "interactions": [
+      "The man is scooping food from a pot into bowls."
+    ],
+    "key_actions": [
+      "Scooping food into bowls",
+      "Bending over the table"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing a shiny dark red jacket",
+      "facial_cues": [],
+      "body_cues": [
+        "Bending over a table",
+        "Holding a bowl and a spoon"
+      ],
+      "gaze": "Looking down at the bowls and the pot"
+    }
+  ],
+  "audio_description": "The audio consists of a low, continuous, electronic hum or drone.",
+  "emotion_description": "The man's focused and neutral expression suggests concentration on his task. The overall atmosphere is tense and somber due to the dim lighting and ominous background sound.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

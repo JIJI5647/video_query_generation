@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a wand that emits a blue and white magical energy"
+      }
+    ],
+    "scene": {
+      "location": "an outdoor, rocky location at night",
+      "setting": "a dark, rocky landscape with a large, bright magical energy field behind the person"
+    },
+    "objects": [
+      "a wand"
+    ],
+    "interactions": [
+      "the person is holding the wand, which is the source of the energy field"
+    ],
+    "key_actions": [
+      "a person holding a wand, creating a large magical energy field"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark robe",
+      "facial_cues": [],
+      "body_cues": [
+        "holding a wand"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud, sustained, low-frequency electronic hum or drone, creating a tense and ominous atmosphere.",
+  "emotion_description": "The audio creates a feeling of tension and anticipation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

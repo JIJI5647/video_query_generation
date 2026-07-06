@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark hooded outfit",
+        "visibility": "partially visible",
+        "position": "center",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a checkered floor and a large mirror on the wall."
+    },
+    "objects": [
+      {
+        "object": "mirror",
+        "position": "center",
+        "action": "reflecting the person and the room"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The person stands still, facing the mirror."
+    ],
+    "visibility_notes": "The lighting is low, making details difficult to discern."
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark hooded outfit",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, sudden scream is heard.",
+  "emotion_description": "fear or shock",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

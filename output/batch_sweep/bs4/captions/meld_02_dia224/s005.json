@@ -1,0 +1,75 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a blue sweater",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a couch and holding his head with his left hand"
+      },
+      {
+        "person": "the woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "walking into the room carrying a black suitcase"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with purple walls, a window, and a television set."
+    },
+    "objects": [
+      {
+        "object": "suitcase",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being carried by the woman"
+      },
+      {
+        "object": "couch",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man sits on the couch",
+      "the woman walks into the room carrying a suitcase"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a blue sweater",
+      "facial_cues": [
+        "hand on head",
+        "pensive expression"
+      ],
+      "body_cues": [
+        "sitting on the couch"
+      ],
+      "gaze": "towards the woman"
+    },
+    {
+      "person": "the woman in a white shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "carrying a suitcase"
+      ],
+      "gaze": "towards the man"
+    }
+  ],
+  "audio_description": "A woman speaks, followed by a man's voice.",
+  "emotion_description": "The woman appears cheerful and the man seems thoughtful.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

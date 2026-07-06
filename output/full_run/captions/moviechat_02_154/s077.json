@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark red leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, holding chopsticks, and looking down with a pensive expression"
+      },
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the first man, holding a can"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room, possibly a restaurant or a back room, with a red sign and a control panel on the wall"
+    },
+    "objects": [
+      "chopsticks",
+      "a can",
+      "a table",
+      "a control panel"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the leather jacket is holding chopsticks and looking down.",
+      "The man in the suit is standing and holding a can."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark red leather jacket",
+      "facial_cues": [
+        "Looking down",
+        "Pensive expression"
+      ],
+      "body_cues": [
+        "Sitting at a table",
+        "Holding chopsticks"
+      ],
+      "gaze": "Looking down"
+    }
+  ],
+  "audio_description": "A person speaks in a calm tone, followed by a sharp metallic sound.",
+  "emotion_description": "The man in the foreground appears pensive or thoughtful, while the emotion of the man in the background is unclear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

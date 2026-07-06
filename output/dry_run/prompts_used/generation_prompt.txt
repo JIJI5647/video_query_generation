@@ -1,0 +1,137 @@
+PROMPT VERSION: generation_prompt_caption_v9
+
+TASK:
+You are given TWO signals extracted from one video:
+  (1) structured segment-level captions (multimodal evidence per time range), and
+  (2) the spoken-dialogue transcript (sentence-level text with timestamps).
+Read both to understand the whole video, then write a few high-precision,
+emotion-related temporal grounding queries for human annotation. Each query is
+grounded on a ``time_range`` (in seconds) and must be answerable from the
+observable evidence in the video at that time. Aim for 8 queries; produce fewer
+rather than inventing evidence.
+
+You do NOT see the video. Treat the captions and transcript as the ground truth
+of what is observable and what is said.
+
+VIDEO ID: {video_id}
+
+SIGNAL A — STRUCTURED CAPTIONS (segment-level multimodal evidence). Each caption:
+- ``time_range``: [start, end] seconds.
+- ``visual_objective``: objective visual facts — { people:[{person, visibility,
+  position, action}], scene:{location, setting}, objects, interactions,
+  key_actions, visibility_notes }. No emotion words here.
+- ``visual_expression``: observable affective cues per person — [{ person,
+  facial_cues, body_cues, gaze }].
+- ``audio_description``: NON-VERBAL audio (tone of voice, shouting, crying,
+  laughing, silence). This is NOT a transcript and must NOT be quoted as speech.
+- ``emotion_description``: a CANDIDATE emotion reading (free text) — NOT a gold label.
+- ``confidence`` (high/medium/low) and ``evidence_strength`` (clear/weak/ambiguous):
+  how reliable the caption is.
+Captions are UNFILTERED: many are emotion "neutral"/"unrelevant" or low
+confidence / weak / ambiguous evidence — ignore those, do not ground queries on
+them.
+{captions_json}
+
+SIGNAL B — SPOKEN-DIALOGUE TRANSCRIPT (the ONLY source of quotable speech; each
+line is the transcribed words for a time range, aligned to the caption ranges):
+{transcript_json}
+
+GENERATION RULES:
+
+1. EMOTION IS A CANDIDATE, NOT A GOLD LABEL. Do NOT generate an emotion_state
+   query just because ``emotion_description`` names an emotion (fear, anger,
+   surprise, frustration, ...). Ground every query in OBSERVABLE evidence —
+   ``visual_objective`` (people/actions/scene), ``visual_expression`` (facial/body/
+   gaze cues), ``audio_description``, and the transcript. If ``emotion_description``
+   conflicts with the observable evidence,
+   trust the observable evidence and choose a more fitting wording (or a pure
+   behavior/cue query).
+
+2. EVIDENCE STRENGTH DECIDES QUERY TYPE.
+   - If ``evidence_strength`` is "clear" OR ``confidence`` is "high", you MAY
+     write an emotion_state query, e.g.
+       "At what point does the woman appear surprised while speaking with an excited voice?"
+   - If ``evidence_strength`` is "weak"/"ambiguous", do NOT force an emotion_state
+     query. Prefer an evidence_cue query naming only the observable cue, or skip
+     the caption, e.g.
+       "When does the woman widen her eyes and open her mouth while talking to the man?"
+
+3. QUOTED SPEECH MUST COME FROM THE TRANSCRIPT. Only write a query that quotes
+   spoken words if those exact words appear in the transcript (Signal B). Never
+   build a quoted-speech query from ``audio_description`` or from guessing.
+   Good (only if the transcript contains "Oh my"):
+       "At what point does the woman say \"Oh my\" while opening her mouth widely?"
+   Bad (no transcript support for the quote):
+       "At what point does the woman say \"Oh my\"?"
+
+4. DO NOT INVENT events, people, cues, objects, or speech that are not present in
+   the captions or transcript.
+
+5. QUERY_TEXT MUST BE SELF-CONTAINED. It must carry enough natural-language
+   information to locate the moment on its own: a natural description of the
+   target person (clothing, role, position), the action, the facial/expression
+   cue, the voice cue, and the interaction partner when needed.
+   Good: "When does the woman in a white shirt widen her eyes and speak with an excited voice?"
+   Bad:  "When does the person in s022 appear surprised?"   (depends on internal id)
+   Bad:  "When does person_1 feel shocked?"                  (internal id, not observable)
+
+6. NEVER EXPOSE INTERNAL ANNOTATION in query_text. query_text must NOT contain:
+   any segment id (e.g. "s009"), any person id (e.g. "person_1"), any timestamp
+   or time range (e.g. "[105, 110]", "at 1:23", "in the first 10 seconds"), or
+   any other internal metadata. The ``time_range`` field carries the timing.
+
+7. Spread queries across explicit_event, emotion_state, and evidence_cue. When
+   two queries cover the same moment, give them different query_types. Use varied
+   question starters ("When does...", "At what point...", "Which moment shows...",
+   "Where in the video...", "How does the video show...").
+
+8. Language & anonymization: write query_text entirely in English; use visual
+   descriptions, never character/actor/place/brand names. Role words (doctor,
+   judge) and visually grounded kinship terms (mother, husband) are allowed.
+
+QUERY TYPE DEFINITIONS:
+- explicit_event: an observable emotional action, interaction, or audio event.
+- emotion_state: a person's perceived emotional state (only when evidence is
+  clear/high per rule 2; hedging like "appears"/"looks"/"seems"/"sounds" is fine
+  but optional).
+- evidence_cue: an observable cue supporting emotion reasoning (facial
+  expression, voice, gaze, posture, hesitation, silence, interactional response).
+
+GROUNDING METADATA (you provide ``time_range`` and ``grounding_evidence``; the
+system fills the internal ``segment_ids`` and ``source_caption_ids`` from your
+time_range — do NOT output those):
+- ``time_range``: the [start, end] in seconds that covers the caption evidence
+  the query relies on. Use only ranges supported by the captions above.
+  - If the evidence is a single moment, use that one caption's range.
+  - If the query is about ONE continuous event/exchange that spans several
+    CONSECUTIVE captions (adjacent time ranges describing the same ongoing
+    action), set time_range to the UNION [earliest start, latest end] covering
+    all of those captions, so the grounding spans every segment the event runs
+    across. Do NOT merge captions that describe separate/unrelated moments.
+- ``grounding_evidence``: the concrete observable cues you grounded on:
+  - ``visual_evidence``: e.g. ["eyes widened", "mouth open"]
+  - ``audio_evidence``: e.g. ["excited voice"]
+  - ``transcript_evidence``: exact quoted words ONLY if they appear in the
+    transcript; otherwise leave this empty.
+
+OUTPUT REQUIREMENTS:
+Return valid JSON only. No markdown, no comments, no text outside the JSON object.
+
+The output JSON must match this schema exactly:
+{
+"video_id": "{video_id}",
+"queries": [
+{
+"video_id": "{video_id}",
+"query_id": "<{video_id}_q01, {video_id}_q02, ...>",
+"query_type": "<explicit_event | emotion_state | evidence_cue>",
+"query_text": "<natural English query; no proper nouns, no segment ids, no person ids, no timestamps>",
+"time_range": [<start_seconds>, <end_seconds>],
+"grounding_evidence": {
+"visual_evidence": ["<observable visual cue>", "..."],
+"audio_evidence": ["<observable non-verbal audio cue>", "..."],
+"transcript_evidence": ["<exact quoted words from the transcript, if any>"]
+}
+}
+]
+}

@@ -1,0 +1,85 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying motionless on a car"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking towards the camera with a shocked expression"
+      },
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking towards the camera with a shocked expression"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and looking towards the camera"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "an urban environment with buildings and a car"
+    },
+    "objects": [
+      "a car",
+      "a small tree"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man in a black suit lies on a car",
+      "three other men look on with shocked expressions"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "shocked expression"
+      ],
+      "body_cues": [],
+      "gaze": "towards the camera"
+    },
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "shocked expression"
+      ],
+      "body_cues": [],
+      "gaze": "towards the camera"
+    },
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "wide eyes",
+        "shocked expression"
+      ],
+      "body_cues": [],
+      "gaze": "towards the camera"
+    }
+  ],
+  "audio_description": "The audio features a dramatic and suspenseful musical score with a strong, percussive beat.",
+  "emotion_description": "The men in the background appear shocked and alarmed by the scene before them.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark red sweater and blue jeans",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "swinging a pickaxe at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a bed, a lamp, and a bookshelf"
+    },
+    "objects": [
+      {
+        "object": "pickaxe",
+        "position": "center",
+        "action": "being swung"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "swinging a pickaxe at a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark red sweater and blue jeans",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "swinging a pickaxe"
+      ],
+      "gaze": "toward the door"
+    }
+  ],
+  "audio_description": "A loud crashing sound is heard.",
+  "emotion_description": "happy",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

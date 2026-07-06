@@ -1,0 +1,86 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a beige turtleneck sweater",
+        "visibility": "clearly visible",
+        "position": "foreground, center",
+        "action": "gesturing with his hands while speaking"
+      },
+      {
+        "person": "a woman in a blue long-sleeved shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "wiping her hands with a white napkin"
+      },
+      {
+        "person": "a woman in a red long-sleeved shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "listening and looking at the man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a brown couch and a coffee table"
+    },
+    "objects": [
+      "a white napkin",
+      "a coffee table",
+      "a mug"
+    ],
+    "interactions": [
+      "the woman in the blue shirt wipes her hands while the other two people talk"
+    ],
+    "key_actions": [
+      "the man gestures with his hands",
+      "the woman wipes her hands",
+      "the woman listens attentively"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a beige turtleneck sweater",
+      "facial_cues": [
+        "speaking",
+        "gesturing with hands"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "looking at the woman in the red shirt"
+    },
+    {
+      "person": "a woman in a blue long-sleeved shirt",
+      "facial_cues": [
+        "frowning slightly"
+      ],
+      "body_cues": [
+        "wiping her hands with a napkin"
+      ],
+      "gaze": "looking down at her hands"
+    },
+    {
+      "person": "a woman in a red long-sleeved shirt",
+      "facial_cues": [
+        "listening intently",
+        "frowning slightly"
+      ],
+      "body_cues": [
+        "hands clasped in her lap"
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "A man speaks in a casual tone, followed by a woman who sounds matter-of-fact.",
+  "emotion_description": "The group appears to be having a casual conversation, with the woman in blue possibly feeling a bit annoyed or concerned about something she did.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,22 @@
+{
+  "caption_model": "qwen_audio_vl",
+  "model_kind": "audio_video",
+  "non_commercial": false,
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "video": "data/pilot_study/emostim_07_TheSilenceOfTheLambs_a_clip_2.mp4",
+  "audio": "/tmp/claude-2047855/-work-mzha0323-video-query-generation/40001322-a413-4125-a89c-b99199977984/scratchpad/test_clip.wav",
+  "num_segments": 1,
+  "num_normalized_captions": 1,
+  "num_emotion_events": 1,
+  "num_generated_queries": 3,
+  "caption_seconds": 423.5,
+  "generation_model": "gemini-2.5-flash-lite",
+  "emotion_event_model": "gemini-2.5-flash-lite",
+  "with_verification": false,
+  "warnings": [],
+  "model_paths": {
+    "caption_model_path": null,
+    "audio_model_path": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+    "video_model_path": "Qwen/Qwen3-VL-8B-Instruct"
+  }
+}

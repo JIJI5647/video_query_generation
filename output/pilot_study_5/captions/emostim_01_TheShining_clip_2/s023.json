@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "pressing her hands against a frosted window from the inside"
+      }
+    ],
+    "scene": {
+      "location": "bathroom",
+      "setting": "a bathroom with white tiled walls and a dark horizontal stripe"
+    },
+    "objects": [
+      {
+        "object": "a frosted window",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being pressed on from inside"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman presses her hands against the frosted window"
+    ],
+    "visibility_notes": "The woman is seen from behind, looking out the window."
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "hands pressed against the window"
+      ],
+      "body_cues": [
+        "pressing hands against window"
+      ],
+      "gaze": "out the window"
+    }
+  ],
+  "audio_description": "A loud, echoing thud is heard, followed by a metallic scraping sound.",
+  "emotion_description": "anxious",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

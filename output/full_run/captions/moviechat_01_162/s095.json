@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue collared shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a chair, tilting his head back and then slowly turning it to his right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with closed horizontal blinds in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "tilting head back",
+      "turning head"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue collared shirt and dark tie",
+      "facial_cues": [
+        "eyes closed",
+        "sweating"
+      ],
+      "body_cues": [
+        "sitting in a chair"
+      ],
+      "gaze": "looking upwards and then to his right"
+    }
+  ],
+  "audio_description": "A dramatic and suspenseful musical score plays in the background.",
+  "emotion_description": "The man's closed eyes and sweating suggest he is experiencing a moment of intense contemplation, exhaustion, or stress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s096",
+  "time_range": [
+    475.0,
+    480.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on the ground, moving his arms and legs as if struggling"
+      },
+      {
+        "person": "a person in a dark coat",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and looking down at the man on the ground"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered room filled with overturned and scattered furniture, including chairs, a sofa, and a rug"
+    },
+    "objects": [
+      "overturned chairs",
+      "sofa",
+      "rug",
+      "various pieces of furniture"
+    ],
+    "interactions": [
+      "The person in the dark coat is observing the man on the ground"
+    ],
+    "key_actions": [
+      "The man on the ground is moving his limbs as if trying to get up or defend himself",
+      "The other person is standing and watching"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a dark coat",
+      "facial_cues": [],
+      "body_cues": [
+        "struggling",
+        "moving limbs"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, distorted, and aggressive sound is heard, creating a sense of chaos and violence.",
+  "emotion_description": "The man on the ground appears to be in distress or pain, struggling against an unseen force.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

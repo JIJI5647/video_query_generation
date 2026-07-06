@@ -1,0 +1,82 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s086",
+  "time_range": [
+    425.0,
+    430.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with platinum blonde hair in the center",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a wand and pointing it forward"
+      },
+      {
+        "person": "a man with short brown hair on the left",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a wand and pointing it forward"
+      },
+      {
+        "person": "a man with dark skin on the right",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a wand and pointing it forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, cluttered room with various objects"
+    },
+    "objects": [
+      "wands",
+      "a large metal object on a table"
+    ],
+    "interactions": [
+      "all three men are pointing their wands in the same direction"
+    ],
+    "key_actions": [
+      "pointing wands forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with platinum blonde hair in the center",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "pointing a wand"
+      ],
+      "gaze": "directly forward"
+    },
+    {
+      "person": "a man with short brown hair on the left",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "pointing a wand"
+      ],
+      "gaze": "directly forward"
+    },
+    {
+      "person": "a man with dark skin on the right",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "pointing a wand"
+      ],
+      "gaze": "directly forward"
+    }
+  ],
+  "audio_description": "A person is speaking in a quiet and contemplative tone.",
+  "emotion_description": "The men appear serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

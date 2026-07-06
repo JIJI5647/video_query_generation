@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of people in armor",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "running and fighting in a chaotic battle scene"
+      }
+    ],
+    "scene": {
+      "location": "outdoor battlefield",
+      "setting": "dark and chaotic with fire and smoke in the background"
+    },
+    "objects": [
+      {
+        "object": "a large armored figure",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running and fighting with a weapon"
+      }
+    ],
+    "interactions": [
+      "the armored figures are fighting against each other"
+    ],
+    "key_actions": [
+      "fighting",
+      "running",
+      "falling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a large armored figure",
+      "facial_cues": [
+        "angry expression"
+      ],
+      "body_cues": [
+        "running",
+        "fighting"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The audio features sounds of battle, including clashing weapons, shouts, and explosions.",
+  "temporal_description": "The scene starts with a close-up of a large armored figure running, then transitions to a wider view showing a chaotic battle with many people fighting and running, ending with an explosion in the background.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

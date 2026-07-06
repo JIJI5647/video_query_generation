@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking on a white telephone"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting and looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with a computer monitor and a wall with photos in the background"
+    },
+    "objects": [
+      "a white telephone receiver",
+      "a computer monitor",
+      "a wall with multiple photos"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the foreground is on the phone and then hangs up.",
+      "The man in the background looks down."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "intense expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "holding the phone receiver to his ear"
+      ],
+      "gaze": "forward and slightly to the side"
+    }
+  ],
+  "audio_description": "A man is speaking on the phone with a serious tone.",
+  "emotion_description": "The man on the phone appears focused and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

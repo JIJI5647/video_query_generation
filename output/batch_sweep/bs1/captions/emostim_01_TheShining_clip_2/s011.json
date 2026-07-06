@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and writing on a door with a red marker"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night, with a bed and a lamp visible in the background"
+    },
+    "objects": [
+      {
+        "object": "a red marker",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "being used to write on the door"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "writing on the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "holding a toy knife in his other hand"
+      ],
+      "gaze": "down at the door"
+    }
+  ],
+  "audio_description": "a child's voice is heard saying a word.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

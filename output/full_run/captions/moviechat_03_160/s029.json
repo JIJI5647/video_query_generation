@@ -1,0 +1,76 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "sitting and eating with chopsticks"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting, smiling, and looking at the other man"
+      },
+      {
+        "person": "a person in the background",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, appears to be a restaurant or a small office with a chalkboard on the wall"
+    },
+    "objects": [
+      "chopsticks",
+      "bowl",
+      "chalkboard with writing"
+    ],
+    "interactions": [
+      "the man in the black shirt is smiling at the man in the blue shirt, who is eating"
+    ],
+    "key_actions": [
+      "eating with chopsticks",
+      "smiling",
+      "looking at another person"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue patterned shirt",
+      "facial_cues": [
+        "smiling",
+        "eyes crinkled"
+      ],
+      "body_cues": [
+        "leaning forward to eat"
+      ],
+      "gaze": "looking down at his bowl"
+    },
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "smiling",
+        "eyes crinkled"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "A man speaks in a friendly, lighthearted tone.",
+  "emotion_description": "The man in the black shirt is happy and amused, and the man in the blue shirt appears to be happy and enjoying the food.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

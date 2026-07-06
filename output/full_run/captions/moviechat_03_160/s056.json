@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a walkie-talkie to his mouth and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit control room with multiple computer monitors displaying data"
+    },
+    "objects": [
+      "walkie-talkie",
+      "computer monitors"
+    ],
+    "interactions": [
+      "the man speaking into the walkie-talkie"
+    ],
+    "key_actions": [
+      "the man speaking into the walkie-talkie"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man speaks in a tense, urgent tone in what sounds like Mandarin Chinese.",
+  "emotion_description": "Urgent",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

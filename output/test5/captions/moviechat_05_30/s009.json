@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person holding a wand",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding a wand"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "dark, misty environment with a castle in the background"
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being held"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a hand holds a wand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person holding a wand",
+      "facial_cues": [
+        "pale hand"
+      ],
+      "body_cues": [
+        "hand holding a wand"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, deep rumbling sound, like thunder or a large explosion, is heard.",
+  "temporal_description": "The rumbling sound starts at the beginning of the clip and continues throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

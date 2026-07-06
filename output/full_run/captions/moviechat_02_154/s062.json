@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking forward"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "indoor corridor",
+      "setting": "a long corridor with shops on the left and a door on the right, illuminated by overhead lights"
+    },
+    "objects": [
+      {
+        "name": "door",
+        "position": "right"
+      },
+      {
+        "name": "signs",
+        "position": "right"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the light-colored suit walks forward from the background towards the camera."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [],
+      "body_cues": [
+        "walking forward"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud, rhythmic electronic beat with a high-pitched, repetitive melody plays continuously.",
+  "emotion_description": "The driving electronic music creates an intense and energetic atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

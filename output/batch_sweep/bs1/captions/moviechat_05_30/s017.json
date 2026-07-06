@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark, ornate coat with long hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a wand and pointing it forward with a determined expression"
+      }
+    ],
+    "scene": {
+      "location": "outdoor area at night",
+      "setting": "a group of people gathered in a dark, forest-like setting, with dim, greenish lighting and a few sparks visible in the background."
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "held by the man in the foreground",
+        "action": "being pointed forward"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man holds the wand and points it forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark, ornate coat with long hair",
+      "facial_cues": [
+        "intense expression",
+        "furrowed brows",
+        "tense jaw"
+      ],
+      "body_cues": [
+        "holding a wand",
+        "pointing forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A deep, resonant, and ominous sound effect plays in the background.",
+  "emotion_description": "determined",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

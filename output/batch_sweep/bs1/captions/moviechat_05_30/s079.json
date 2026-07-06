@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing glasses and a dark coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a wooden box"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit study or office filled with antique objects and ropes on a patterned rug."
+    },
+    "objects": [
+      {
+        "object": "a wooden box",
+        "position": "center",
+        "action": "being held by the man"
+      },
+      {
+        "object": "ropes",
+        "position": "foreground",
+        "action": "lying on the floor"
+      }
+    ],
+    "interactions": [
+      "The man is holding the wooden box."
+    ],
+    "key_actions": [
+      "The man is holding a wooden box."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing glasses and a dark coat",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "hands gripping the box"
+      ],
+      "gaze": "downward at the box"
+    }
+  ],
+  "audio_description": "Dramatic, suspenseful music with a slow tempo and low, ominous tones.",
+  "emotion_description": "Suspenseful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

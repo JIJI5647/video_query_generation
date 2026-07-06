@@ -1,0 +1,58 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    39.62
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark green jacket over a white t-shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking with a surprised expression and gesturing with his right hand"
+      },
+      {
+        "person": "a man in a grey sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "listening and holding a red plastic cup"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a kitchen with cabinets and a refrigerator in the background"
+    },
+    "objects": [
+      "a red plastic cup"
+    ],
+    "interactions": [
+      "the man in the green jacket is talking to the man in the grey sweater"
+    ],
+    "key_actions": [
+      "the man in the green jacket speaking and gesturing",
+      "the man in the grey sweater listening"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark green jacket over a white t-shirt",
+      "facial_cues": [
+        "wide eyes",
+        "raised eyebrows",
+        "open mouth",
+        "surprised expression"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "A man's voice speaks in a surprised tone, followed by the sound of an audience laughing.",
+  "emotion_description": "The man in the green jacket appears surprised and is making a humorous remark, which is met with audience laughter.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

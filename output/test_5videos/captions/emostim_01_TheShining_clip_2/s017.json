@@ -1,0 +1,47 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "screaming in terror, clutching a small child"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dimly lit room with a paneled wall"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "screaming",
+      "clutching"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue sweater",
+      "facial_cues": [
+        "wide open mouth",
+        "wide eyes",
+        "terrified expression"
+      ],
+      "body_cues": [
+        "clutching a child tightly"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A woman screams in terror, followed by a loud crashing sound.",
+  "emotion_description": "terror",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

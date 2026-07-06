@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person",
+        "visibility": "not clearly visible",
+        "position": "background",
+        "action": "emerging from a dark hole in the floor"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark wooden floor with a hole in the center"
+    },
+    "objects": [
+      {
+        "object": "a hole",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "emerging from the floor"
+      },
+      {
+        "object": "a hand",
+        "visibility": "partially visible",
+        "position": "center",
+        "action": "reaching out from the hole"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a hand emerges from a hole in the floor"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person",
+      "facial_cues": [],
+      "body_cues": [
+        "a hand reaching out from a hole"
+      ],
+      "gaze": "unclear"
+    }
+  ],
+  "audio_description": "A low, ominous, and suspenseful musical score plays.",
+  "emotion_description": "tense, suspenseful, mysterious",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

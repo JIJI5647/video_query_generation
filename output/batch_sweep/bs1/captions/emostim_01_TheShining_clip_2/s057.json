@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bursting through a door, yelling, and holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hallway with a white door that is being broken through"
+    },
+    "objects": [
+      {
+        "name": "knife",
+        "position": "foreground",
+        "action": "held by the man in a red plaid shirt"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "bursting through a door",
+      "yelling",
+      "holding a knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red plaid shirt",
+      "facial_cues": [
+        "yelling",
+        "wide eyes",
+        "grimacing"
+      ],
+      "body_cues": [
+        "lunging forward"
+      ],
+      "gaze": "towards the camera"
+    }
+  ],
+  "audio_description": "A man is yelling loudly and aggressively.",
+  "emotion_description": "anger",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

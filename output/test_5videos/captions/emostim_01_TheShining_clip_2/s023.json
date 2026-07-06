@@ -1,0 +1,60 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "leaning on a window, looking outside"
+      },
+      {
+        "person": "a young child",
+        "visibility": "partially visible",
+        "position": "lower center",
+        "action": "standing behind the woman, holding onto her robe"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bathroom with white tiled walls and a window looking out at a snowy landscape at night."
+    },
+    "objects": [
+      {
+        "object": "window",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being looked out of by the woman and child"
+      }
+    ],
+    "interactions": [
+      "The child holds onto the woman's robe."
+    ],
+    "key_actions": [
+      "The woman looks out the window at a snowy scene, while the child stands behind her."
+    ],
+    "visibility_notes": "The child is mostly obscured by the woman, and the view outside the window is partially blocked by snow."
+  },
+  "visual_expression": [
+    {
+      "person": "the young child",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "holding onto the woman's robe"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A loud, continuous, high-pitched electronic tone is heard.",
+  "emotion_description": "Fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

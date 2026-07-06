@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "grabbing a knife from a child and then hugging the child"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night with a bed and a lit lamp on a nightstand"
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being handed to the woman and then held by her"
+      }
+    ],
+    "interactions": [
+      "the woman grabs the knife from the child"
+    ],
+    "key_actions": [
+      "the woman grabs the knife from the child",
+      "the woman hugs the child"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "mouth open",
+        "wide eyes",
+        "showing teeth"
+      ],
+      "body_cues": [
+        "hugging the child tightly",
+        "holding the knife"
+      ],
+      "gaze": "towards the child"
+    }
+  ],
+  "audio_description": "A child is shouting, followed by a scream.",
+  "emotion_description": "The woman appears to be in a state of panic or distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

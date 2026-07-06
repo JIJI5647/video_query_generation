@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding and looking at a large, old book"
+      },
+      {
+        "person": "a young woman",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing beside the man and looking at the book"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit stone room with a window with diamond-shaped panes in the background"
+    },
+    "objects": [
+      {
+        "object": "a large, old book",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man and being examined by both people"
+      }
+    ],
+    "interactions": [
+      "The man and woman are standing close together, both focused on the book."
+    ],
+    "key_actions": [
+      "The man holds the book open.",
+      "The woman looks over the man's shoulder at the book."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the young man",
+      "facial_cues": [
+        "serious expression",
+        "frowning"
+      ],
+      "body_cues": [
+        "leaning in to read the book"
+      ],
+      "gaze": "down at the book"
+    },
+    {
+      "person": "the young woman",
+      "facial_cues": [
+        "concerned expression",
+        "frowning"
+      ],
+      "body_cues": [
+        "leaning in to read the book"
+      ],
+      "gaze": "down at the book"
+    }
+  ],
+  "audio_description": "A female voice speaks in a tense, urgent tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

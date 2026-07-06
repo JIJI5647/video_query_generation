@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white collared shirt and dark cardigan",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating a sandwich"
+      },
+      {
+        "person": "a man in a striped sweater",
+        "visibility": "partially visible",
+        "position": "right side of frame",
+        "action": "eating a sandwich"
+      }
+    ],
+    "scene": {
+      "location": "indoor restaurant",
+      "setting": "a crowded restaurant with other patrons in the background"
+    },
+    "objects": [
+      "sandwiches",
+      "glasses"
+    ],
+    "interactions": [
+      "the two people are sitting across from each other at a table, eating"
+    ],
+    "key_actions": [
+      "eating sandwiches"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white collared shirt and dark cardigan",
+      "facial_cues": [
+        "neutral expression",
+        "looking down at her food"
+      ],
+      "body_cues": [
+        "eating"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "The audio contains a conversation between a man and a woman.",
+  "emotion_description": "The woman's emotion is unclear; she appears neutral and focused on her meal.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

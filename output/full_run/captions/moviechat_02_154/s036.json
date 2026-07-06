@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark collared shirt and glasses",
+        "visibility": "clearly visible",
+        "position": "left foreground",
+        "action": "holding a gold wristwatch in his hands and looking at it"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a cool, bluish-green tint"
+    },
+    "objects": [
+      {
+        "description": "a gold wristwatch",
+        "position": "held in the man's hands"
+      }
+    ],
+    "interactions": [
+      "The man is holding and examining the wristwatch."
+    ],
+    "key_actions": [
+      "The man holding a wristwatch"
+    ],
+    "visibility_notes": "The man's face is in profile. The watch is shown in a close-up."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark collared shirt and glasses",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "hands holding a watch"
+      ],
+      "gaze": "looking down at the watch"
+    }
+  ],
+  "audio_description": "A male voice speaks in a low, serious tone.",
+  "emotion_description": "The man's expression and tone of voice suggest he is serious and contemplative.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,65 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a beard wearing a grey and black striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and talking to a woman across a table"
+      },
+      {
+        "person": "a woman with blonde, wavy hair wearing a dark, ribbed sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and listening to the man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a busy restaurant or cafeteria with other people in the background"
+    },
+    "objects": [
+      "a sandwich"
+    ],
+    "interactions": [
+      "the man and the woman are engaged in a conversation"
+    ],
+    "key_actions": [
+      "the man is holding a sandwich while talking",
+      "the woman is holding a sandwich and looking at the man"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a beard wearing a grey and black striped sweater",
+      "facial_cues": [
+        "his mouth is open as he speaks"
+      ],
+      "body_cues": [
+        "he is holding a sandwich in both hands"
+      ],
+      "gaze": "looking at the woman"
+    },
+    {
+      "person": "a woman with blonde, wavy hair wearing a dark, ribbed sweater",
+      "facial_cues": [
+        "she has a questioning expression"
+      ],
+      "body_cues": [
+        "she is holding a sandwich in her left hand"
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "A man and a woman are having a conversation.",
+  "emotion_description": "The man sounds confident and matter-of-fact, while the woman sounds inquisitive and slightly skeptical.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

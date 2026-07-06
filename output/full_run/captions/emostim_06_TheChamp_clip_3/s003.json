@@ -1,0 +1,60 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young child with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held by an adult"
+      },
+      {
+        "person": "an adult",
+        "visibility": "partially visible",
+        "position": "behind the child",
+        "action": "holding the child"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark room with a red wheel-like object on the left"
+    },
+    "objects": [
+      {
+        "name": "red wheel-like object",
+        "position": "left background"
+      }
+    ],
+    "interactions": [
+      "The adult has their arms around the child in a hug-like manner."
+    ],
+    "key_actions": [
+      "The child is crying and being held."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young child with blonde hair",
+      "facial_cues": [
+        "crying",
+        "tears on face",
+        "wrinkled nose",
+        "pursed lips"
+      ],
+      "body_cues": [
+        "hands clenched into fists"
+      ],
+      "gaze": "looking slightly to the right"
+    }
+  ],
+  "audio_description": "The audio captures the sound of a child crying and sobbing.",
+  "emotion_description": "The child is sad and distressed.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

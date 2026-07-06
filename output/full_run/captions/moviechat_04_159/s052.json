@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking to another man"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and talking to another man"
+      }
+    ],
+    "scene": {
+      "location": "outdoors on a balcony",
+      "setting": "a balcony with a metal railing, with buildings in the background at night"
+    },
+    "objects": [],
+    "interactions": [
+      "The two men are having a conversation."
+    ],
+    "key_actions": [
+      "The man in the light-colored shirt gestures with his hand while speaking."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "gesturing with his hand"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "A male voice is heard speaking in a casual tone.",
+  "emotion_description": "The man in the light-colored shirt appears to be in a relaxed and friendly mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

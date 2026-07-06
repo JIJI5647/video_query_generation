@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking into an earpiece"
+      },
+      {
+        "person": "a person in a dark jacket with 'OCTB' on the back",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and facing away"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with multiple computer monitors displaying blue screens and a whiteboard in the background"
+    },
+    "objects": [
+      "earpiece",
+      "computer monitors",
+      "whiteboard"
+    ],
+    "interactions": [
+      "the man in the suit is communicating via the earpiece"
+    ],
+    "key_actions": [
+      "the man in the suit is speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "mouth is open",
+        "jaw is tense"
+      ],
+      "body_cues": [
+        "head is turned slightly to the side"
+      ],
+      "gaze": "looking forward and to the side"
+    }
+  ],
+  "audio_description": "The audio contains a low, continuous hum or drone.",
+  "emotion_description": "The man's tense jaw and focused expression suggest he is concentrating intently or is concerned.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

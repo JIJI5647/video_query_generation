@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning back and looking up with a distressed expression"
+      },
+      {
+        "person": "a person with short dark hair",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "holding the man's head with their left hand"
+      }
+    ],
+    "scene": {
+      "location": "inside a vehicle",
+      "setting": "dimly lit interior, likely a car"
+    },
+    "objects": [
+      "a car headrest"
+    ],
+    "interactions": [
+      "the person on the right is holding the man's head"
+    ],
+    "key_actions": [
+      "the man in the black shirt is being held and appears distressed"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "sweating",
+        "eyes wide open",
+        "mouth slightly open",
+        "tear on his cheek"
+      ],
+      "body_cues": [
+        "leaning back into the car seat",
+        "head being held by another person"
+      ],
+      "gaze": "looking up and to the right"
+    }
+  ],
+  "audio_description": "The audio contains heavy, labored breathing and a man speaking in a strained voice.",
+  "emotion_description": "The man in the black shirt appears to be in a state of extreme distress, fear, or panic.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

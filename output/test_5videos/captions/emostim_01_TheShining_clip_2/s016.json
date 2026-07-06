@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "hugging a child and holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a lamp and nightstand"
+    },
+    "objects": [
+      "knife",
+      "lamp",
+      "nightstand",
+      "child"
+    ],
+    "interactions": [
+      "the woman is hugging the child"
+    ],
+    "key_actions": [
+      "the woman is hugging the child and holding a knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with dark hair",
+      "facial_cues": [
+        "intense expression",
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "hugging a child tightly",
+        "holding a knife"
+      ],
+      "gaze": "directly at the child"
+    }
+  ],
+  "audio_description": "a loud, distorted scream is heard, followed by a low, rumbling sound.",
+  "emotion_description": "terrified",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

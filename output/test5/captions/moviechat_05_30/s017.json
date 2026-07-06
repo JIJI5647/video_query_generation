@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long, dark hair wearing a dark, double-breasted coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing forward with her right hand, holding a wand"
+      }
+    ],
+    "scene": {
+      "location": "outdoor",
+      "setting": "dark and crowded with many people in the background, dim lighting, possibly at night"
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "in the woman's hand",
+        "action": "being held and pointed forward"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman points the wand forward",
+      "people in the background stand still"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman with long, dark hair",
+      "facial_cues": [
+        "wide eyes",
+        "frowning",
+        "open mouth"
+      ],
+      "body_cues": [
+        "pointing forward with her right hand"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A deep, resonant, choral sound plays, creating a dramatic and suspenseful atmosphere.",
+  "temporal_description": "The choral sound begins and sustains throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

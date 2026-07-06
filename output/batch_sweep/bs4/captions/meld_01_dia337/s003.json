@@ -1,0 +1,77 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "standing and talking, holding a small white object."
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing, looking down at a small object in his hand, then looking up and speaking."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hotel room or apartment with a couch, a wall sconce, and a framed picture."
+    },
+    "objects": [
+      {
+        "object": "a small white object",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "held in the hand of the man in the pink shirt."
+      },
+      {
+        "object": "a small silver object",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held in the hand of the man in the blue shirt."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the blue shirt picks up a small silver object from a surface and examines it."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a pink plaid shirt",
+      "facial_cues": [
+        "questioning",
+        "confused"
+      ],
+      "body_cues": [
+        "holding an object",
+        "gesturing"
+      ],
+      "gaze": "looking at the man in the blue shirt."
+    },
+    {
+      "person": "the man in a blue plaid shirt",
+      "facial_cues": [
+        "confused",
+        "questioning"
+      ],
+      "body_cues": [
+        "looking down at the object",
+        "looking up to speak"
+      ],
+      "gaze": "looking at the object, then at the other man."
+    }
+  ],
+  "audio_description": "A man speaks in a matter-of-fact tone, followed by another man speaking in a questioning tone.",
+  "emotion_description": "Confused and questioning",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

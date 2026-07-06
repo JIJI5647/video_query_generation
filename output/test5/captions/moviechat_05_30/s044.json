@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long red hair wearing a dark purple top",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running down a stone staircase in a large hall, looking back and calling out"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a large, dimly lit stone hall or castle interior with high ceilings and arched doorways, filled with people running in panic."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "running down a staircase",
+      "looking back over shoulder",
+      "calling out"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long red hair wearing a dark purple top",
+      "facial_cues": [
+        "mouth open as if shouting"
+      ],
+      "body_cues": [
+        "running",
+        "looking back over shoulder"
+      ],
+      "gaze": "over her shoulder towards the background"
+    }
+  ],
+  "audio_description": "A loud, urgent male voice shouts over background noise of a crowd running and panicked chatter.",
+  "temporal_description": "The woman runs down the stairs, looking back and shouting. The camera follows her movement.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

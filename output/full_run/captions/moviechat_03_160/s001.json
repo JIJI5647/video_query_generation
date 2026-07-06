@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored collared shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down at a laptop, then looking up with a stressed expression and putting his hands on his head"
+      },
+      {
+        "person": "another man in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk, seemingly working on a computer"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or workspace at night, with dim lighting"
+    },
+    "objects": [
+      "a laptop",
+      "a wristwatch"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the foreground checks his watch",
+      "the man in the foreground looks at his laptop",
+      "the man in the foreground rubs his head with both hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored collared shirt",
+      "facial_cues": [
+        "furrowed brow",
+        "tightened jaw",
+        "strained expression"
+      ],
+      "body_cues": [
+        "rubbing his head with both hands",
+        "slumped posture"
+      ],
+      "gaze": "looking down at the laptop, then looking up"
+    }
+  ],
+  "audio_description": "A rhythmic, percussive beat plays in the background.",
+  "emotion_description": "The man in the foreground appears to be feeling stressed and frustrated.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

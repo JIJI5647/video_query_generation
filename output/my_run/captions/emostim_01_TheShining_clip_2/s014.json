@@ -1,0 +1,81 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the young boy with short brown hair wearing a red and green striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "stands holding a knife and turns towards the bed."
+      },
+      {
+        "person": "a woman with dark hair wearing a blue robe",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sits up in bed, startled."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom at night with a bed, a nightstand, and a lamp."
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "held by the boy."
+      },
+      {
+        "object": "a bed",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by the woman."
+      },
+      {
+        "object": "a nightstand",
+        "visibility": "clearly visible",
+        "position": "next to the bed",
+        "action": "has a lamp on it."
+      },
+      {
+        "object": "a lamp",
+        "visibility": "clearly visible",
+        "position": "on the nightstand",
+        "action": "illuminating the room."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The boy holds a knife up to the woman, who is sitting up in bed, appearing shocked."
+      }
+    ],
+    "key_actions": [
+      "The woman in the bed suddenly sits up in shock.",
+      "The boy turns to face her, holding the knife."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman with dark hair wearing a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "sitting up quickly from lying down"
+      ],
+      "gaze": "looking at the boy."
+    }
+  ],
+  "audio_description": "A distorted, echoing voice is shouting the same phrase repeatedly.",
+  "emotion_description": "The woman appears frightened and surprised, while the boy's action is threatening.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

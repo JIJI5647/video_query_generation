@@ -1,0 +1,67 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue polo shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch and speaking"
+      },
+      {
+        "person": "a man in a red shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room setting with a large orange couch"
+    },
+    "objects": [
+      "an orange couch"
+    ],
+    "interactions": [
+      "The man in the blue shirt and the man in the red shirt are having a conversation."
+    ],
+    "key_actions": [
+      "The man in the blue shirt speaks.",
+      "The man in the red shirt speaks."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue polo shirt",
+      "facial_cues": [
+        "smiling",
+        "mouth open as if speaking"
+      ],
+      "body_cues": [
+        "sitting on the couch"
+      ],
+      "gaze": "looking towards the man in the red shirt"
+    },
+    {
+      "person": "a man in a red shirt",
+      "facial_cues": [
+        "mouth open as if speaking"
+      ],
+      "body_cues": [
+        "sitting on the couch",
+        "hands gesturing"
+      ],
+      "gaze": "looking towards the man in the blue shirt"
+    }
+  ],
+  "audio_description": "Two men are having a casual conversation, followed by a loud, sustained electronic buzz.",
+  "emotion_description": "The men sound friendly and engaged in a casual conversation. The loud buzz at the end is jarring.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

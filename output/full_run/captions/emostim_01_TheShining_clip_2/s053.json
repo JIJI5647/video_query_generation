@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning against a wall, screaming, and holding a knife"
+      },
+      {
+        "person": "a man in a plaid shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "looking through a damaged wooden door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a damaged wooden door and a tiled wall"
+    },
+    "objects": [
+      "knife",
+      "damaged door"
+    ],
+    "interactions": [
+      "The woman is screaming while the man looks through the door."
+    ],
+    "key_actions": [
+      "The woman is screaming and holding a knife.",
+      "The man is looking through the damaged door."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "mouth wide open in a scream",
+        "eyes squeezed shut"
+      ],
+      "body_cues": [
+        "leaning against the wall"
+      ],
+      "gaze": "looking upwards"
+    },
+    {
+      "person": "a man in a plaid shirt",
+      "facial_cues": [
+        "mouth open"
+      ],
+      "body_cues": [
+        "looking through the damaged door"
+      ],
+      "gaze": "through the door"
+    }
+  ],
+  "audio_description": "A woman screams loudly, followed by a crashing sound.",
+  "emotion_description": "The woman is terrified and in pain.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,22 @@
+{
+  "caption_model": "qwen3_omni",
+  "model_kind": "av",
+  "non_commercial": false,
+  "video_id": "short",
+  "video": "/tmp/claude-2047855/-work-mzha0323-video-query-generation/0fc626f1-7ef4-4834-9408-0ec4d611aae0/scratchpad/caption_test/short.mp4",
+  "audio": null,
+  "num_segments": 1,
+  "num_normalized_captions": 1,
+  "num_emotion_events": 1,
+  "num_generated_queries": 2,
+  "caption_seconds": 118.5,
+  "generation_model": "gemini-3.1-flash-lite",
+  "emotion_event_model": "gemini-3.1-flash-lite",
+  "with_verification": false,
+  "warnings": [],
+  "model_paths": {
+    "caption_model_path": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "audio_model_path": null,
+    "video_model_path": null
+  }
+}

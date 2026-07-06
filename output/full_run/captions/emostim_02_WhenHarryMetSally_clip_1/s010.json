@@ -1,0 +1,68 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, curly hair wearing a white collared shirt under a dark sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, looking at the man and speaking"
+      },
+      {
+        "person": "a man with dark, wavy hair and a mustache wearing a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, holding a sandwich and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded cafeteria or restaurant with many other people in the background"
+    },
+    "objects": [
+      "a sandwich",
+      "a table",
+      "a glass"
+    ],
+    "interactions": [
+      "The woman and the man are having a conversation while sitting at a table."
+    ],
+    "key_actions": [
+      "The woman speaking and gesturing with her hand.",
+      "The man speaking and gesturing with his hand while holding a sandwich."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde, curly hair wearing a white collared shirt under a dark sweater",
+      "facial_cues": [
+        "her mouth is open as she speaks"
+      ],
+      "body_cues": [
+        "she gestures with her right hand"
+      ],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "a man with dark, wavy hair and a mustache wearing a striped sweater",
+      "facial_cues": [
+        "his mouth is open as he speaks",
+        "his eyebrows are raised"
+      ],
+      "body_cues": [
+        "he gestures with his right hand while holding a sandwich in his left"
+      ],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "The audio captures a dialogue between a woman and a man, with their voices clear and conversational.",
+  "emotion_description": "The interaction appears to be a serious or argumentative discussion.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,49 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blond hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a long, dark object, possibly a knife, and looking at it intently"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with curtains, a television, a lamp, and a table with various items"
+    },
+    "objects": [
+      "a long, dark object (possibly a knife) held by the boy",
+      "a table with a lamp, a vase with a red flower, and other small objects",
+      "a television set on the left",
+      "a framed picture on the wall"
+    ],
+    "interactions": [
+      "the boy is holding and examining the long, dark object"
+    ],
+    "key_actions": [
+      "the boy is holding and examining the long, dark object"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blond hair",
+      "facial_cues": [],
+      "body_cues": [
+        "holding a long, dark object"
+      ],
+      "gaze": "looking down at the object in his hands"
+    }
+  ],
+  "audio_description": "A musical chord plays, creating a suspenseful and ominous atmosphere.",
+  "emotion_description": "The atmosphere is tense and ominous, created by the music.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

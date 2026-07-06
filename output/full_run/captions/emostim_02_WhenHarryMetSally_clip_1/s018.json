@@ -1,0 +1,66 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking down"
+      },
+      {
+        "person": "the man in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and holding a sandwich"
+      }
+    ],
+    "scene": {
+      "location": "indoor restaurant",
+      "setting": "a busy restaurant with other patrons in the background"
+    },
+    "objects": [
+      "sandwich",
+      "table"
+    ],
+    "interactions": [
+      "the two people are sitting opposite each other at a table"
+    ],
+    "key_actions": [
+      "the woman looks down",
+      "the man looks at the woman"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a white shirt",
+      "facial_cues": [
+        "looking down",
+        "eyes closed"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    },
+    {
+      "person": "the man in a striped sweater",
+      "facial_cues": [
+        "eyes wide",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "holding a sandwich"
+      ],
+      "gaze": "at the woman"
+    }
+  ],
+  "audio_description": "A woman makes a soft 'ooh' sound, followed by a man asking a question in a concerned tone.",
+  "emotion_description": "The woman appears to be in discomfort or experiencing a sudden sensation. The man appears surprised and concerned.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

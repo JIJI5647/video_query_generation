@@ -1,0 +1,38 @@
+==========================================================
+[2026-07-01 10:28:36] verify p0_norule  (per-dimension) -> output/run4/verify_p0_norule
+==========================================================
+[2026-07-01 10:41:58] done p0_norule (exit 0)  log: logs/verify_sweep/p0_norule.log
+==========================================================
+[2026-07-01 10:41:58] verify p1_rule  (per-dimension) -> output/run4/verify_p1_rule
+==========================================================
+[2026-07-01 10:54:55] done p1_rule (exit 0)  log: logs/verify_sweep/p1_rule.log
+==========================================================
+[2026-07-01 10:54:55] verify p2_role  (per-dimension) -> output/run4/verify_p2_role
+==========================================================
+[2026-07-01 11:08:01] done p2_role (exit 0)  log: logs/verify_sweep/p2_role.log
+==========================================================
+[2026-07-01 11:08:01] verify p3_fewshot  (per-dimension) -> output/run4/verify_p3_fewshot
+==========================================================
+[2026-07-01 11:21:21] done p3_fewshot (exit 0)  log: logs/verify_sweep/p3_fewshot.log
+==========================================================
+[2026-07-01 11:21:21] verify p4_zscot  (per-dimension) -> output/run4/verify_p4_zscot
+==========================================================
+[2026-07-01 11:59:11] done p4_zscot (exit 0)  log: logs/verify_sweep/p4_zscot.log
+==========================================================
+[2026-07-01 11:59:11] verify p5_fewshotcot  (per-dimension) -> output/run4/verify_p5_fewshotcot
+==========================================================
+[2026-07-01 12:37:46] done p5_fewshotcot (exit 0)  log: logs/verify_sweep/p5_fewshotcot.log
+==========================================================
+[2026-07-01 12:37:46] verify p6_rolefewshot  (per-dimension) -> output/run4/verify_p6_rolefewshot
+==========================================================
+[2026-07-01 12:51:53] done p6_rolefewshot (exit 0)  log: logs/verify_sweep/p6_rolefewshot.log
+==========================================================
+[2026-07-01 12:51:53] verify p7_rolecot  (per-dimension) -> output/run4/verify_p7_rolecot
+==========================================================
+[2026-07-01 13:34:04] done p7_rolecot (exit 0)  log: logs/verify_sweep/p7_rolecot.log
+==========================================================
+[2026-07-01 13:34:04] verify p8_rawcot  (per-dimension) -> output/run4/verify_p8_rawcot
+==========================================================
+[2026-07-01 14:19:05] done p8_rawcot (exit 0)  log: logs/verify_sweep/p8_rawcot.log
+All variants done. Score with:
+  python eval_verification.py --gold data/test5_eval/gold.jsonl --results output/run4/verify_*/verification_results.jsonl --csv output/run4/verify_metrics.csv

@@ -1,0 +1,48 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with brown hair sitting in a chair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a white chair and a pink armchair"
+    },
+    "objects": [
+      "a white chair",
+      "a pink armchair",
+      "a green blanket"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman is sitting and talking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with brown hair sitting in a chair",
+      "facial_cues": [
+        "her mouth is open as if speaking"
+      ],
+      "body_cues": [
+        "her hands are moving as she talks"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A person is speaking, followed by a loud, sustained electronic tone.",
+  "emotion_description": "The woman appears to be engaged in a conversation. The electronic tone suggests a technical interruption.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

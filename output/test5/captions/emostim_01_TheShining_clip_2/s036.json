@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue bathrobe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "leans out of a bathroom window and then falls forward."
+      }
+    ],
+    "scene": {
+      "location": "bathroom",
+      "setting": "a small, tiled bathroom at night with a frosted window."
+    },
+    "objects": [
+      {
+        "object": "a frosted window",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "the woman leans out of it."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "leaning out of a window",
+      "falling forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue bathrobe",
+      "facial_cues": [
+        "shock",
+        "fear"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "arms outstretched"
+      ],
+      "gaze": "looking out the window, then forward"
+    }
+  ],
+  "audio_description": "The audio contains the sound of a train horn and the screeching of train wheels on the tracks.",
+  "temporal_description": "The woman leans out of the window with a shocked expression, then falls forward as if pulled by something outside.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

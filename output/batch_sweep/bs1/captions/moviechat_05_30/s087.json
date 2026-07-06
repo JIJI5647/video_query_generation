@@ -1,0 +1,91 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with platinum blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing a wand forward with a smirk"
+      },
+      {
+        "person": "a man with short dark hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "pointing a wand forward with a serious expression"
+      },
+      {
+        "person": "a man with dark skin and short hair",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "pointing a wand forward with a serious expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit and cluttered with various objects and equipment in the background"
+    },
+    "objects": [
+      {
+        "object": "wands",
+        "visibility": "clearly visible",
+        "position": "held by the men",
+        "action": "pointed forward"
+      }
+    ],
+    "interactions": [
+      "the three men stand side-by-side, all pointing their wands forward in unison"
+    ],
+    "key_actions": [
+      "pointing wands forward",
+      "smirking",
+      "looking forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with platinum blonde hair",
+      "facial_cues": [
+        "smirking",
+        "pointing forward"
+      ],
+      "body_cues": [
+        "standing straight",
+        "holding wand"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with short dark hair",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing straight",
+        "holding wand"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with dark skin and short hair",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing straight",
+        "holding wand"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks with a calm, slightly menacing tone.",
+  "emotion_description": "menacing",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

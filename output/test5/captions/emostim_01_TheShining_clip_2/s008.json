@@ -1,0 +1,62 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and turning a doorknob"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night with warm lighting"
+    },
+    "objects": [
+      {
+        "object": "a bed",
+        "position": "background",
+        "action": "occupied by a sleeping person"
+      },
+      {
+        "object": "a lamp",
+        "position": "background",
+        "action": "on a nightstand next to the bed"
+      },
+      {
+        "object": "a door",
+        "position": "right",
+        "action": "being turned by the boy"
+      }
+    ],
+    "interactions": [
+      "the boy turns the doorknob"
+    ],
+    "key_actions": [
+      "the boy turning the doorknob"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "turning a doorknob"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A person is heard groaning or making soft, guttural sounds.",
+  "temporal_description": "The groaning sound is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

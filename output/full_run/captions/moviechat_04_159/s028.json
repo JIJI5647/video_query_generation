@@ -1,0 +1,71 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "eating a sandwich"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and watching the other man eat"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with glass partitions"
+    },
+    "objects": [
+      "a sandwich",
+      "a cup",
+      "a desk",
+      "a laptop"
+    ],
+    "interactions": [
+      "the man on the left watches the man on the right eat"
+    ],
+    "key_actions": [
+      "eating",
+      "watching"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "eating"
+      ],
+      "body_cues": [],
+      "gaze": "on the sandwich"
+    },
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "neutral",
+        "watching"
+      ],
+      "body_cues": [],
+      "gaze": "on the other man"
+    }
+  ],
+  "audio_description": "A man is speaking in a conversational tone.",
+  "emotion_description": "The man eating appears focused on his food, while the other man looks on with a neutral expression, suggesting a casual or observant mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

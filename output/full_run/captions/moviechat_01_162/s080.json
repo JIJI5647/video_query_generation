@@ -1,0 +1,123 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a white shirt standing",
+        "visibility": "clearly visible",
+        "position": "background, left",
+        "action": "standing with arms crossed, looking at the others"
+      },
+      {
+        "person": "the man in a light blue shirt sitting on the right",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting and gesturing with his hands on the table"
+      },
+      {
+        "person": "the man in a white shirt with a pilot's uniform sitting in the center",
+        "visibility": "clearly visible",
+        "position": "foreground, center",
+        "action": "sitting and writing on a notepad"
+      },
+      {
+        "person": "the man in a white shirt with a pilot's uniform sitting on the left",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "sitting and writing on a notepad"
+      },
+      {
+        "person": "the man in a light blue shirt sitting on the far left",
+        "visibility": "partially visible",
+        "position": "foreground, far left",
+        "action": "sitting and writing on a notepad"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or briefing room with a large, dark conference table, several chairs, a television screen on a stand, and glass partitions in the background"
+    },
+    "objects": [
+      "conference table",
+      "chairs",
+      "notepads",
+      "mugs",
+      "a black pilot's cap",
+      "television screen",
+      "glass partitions"
+    ],
+    "interactions": [
+      "The standing man is addressing the four men sitting at the table."
+    ],
+    "key_actions": [
+      "The standing man is giving instructions to the seated group.",
+      "The seated men are listening and taking notes."
+    ],
+    "visibility_notes": "The people are in a well-lit room. The camera is positioned at a high angle, looking down on the scene."
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a white shirt standing",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "arms crossed",
+        "standing upright"
+      ],
+      "gaze": "facing the seated men"
+    },
+    {
+      "person": "the man in a light blue shirt sitting on the right",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "gesturing with his hands on the table"
+      ],
+      "gaze": "looking at the standing man"
+    },
+    {
+      "person": "the man in a white shirt with a pilot's uniform sitting in the center",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "writing"
+      ],
+      "gaze": "looking down at his notepad"
+    },
+    {
+      "person": "the man in a white shirt with a pilot's uniform sitting on the left",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "writing"
+      ],
+      "gaze": "looking down at his notepad"
+    },
+    {
+      "person": "the man in a light blue shirt sitting on the far left",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "writing"
+      ],
+      "gaze": "looking down at his notepad"
+    }
+  ],
+  "audio_description": "A man speaks in a stern and authoritative tone, followed by a group of men responding in unison with a formal, respectful tone.",
+  "emotion_description": "The atmosphere is serious and formal. The standing man appears authoritative and the seated men appear attentive and respectful.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

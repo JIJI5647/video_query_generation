@@ -1,0 +1,73 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a beard peeking through a hole in a door",
+        "visibility": "partially visible",
+        "position": "center",
+        "action": "peering through a hole in a door"
+      },
+      {
+        "person": "a woman in a blue jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "holding a large knife and looking up in fear"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a room with a white paneled wall"
+    },
+    "objects": [
+      {
+        "object": "a large knife",
+        "location": "held by the woman"
+      },
+      {
+        "object": "a hole in a door",
+        "location": "center"
+      }
+    ],
+    "interactions": [
+      "the man peering through the hole at the woman"
+    ],
+    "key_actions": [
+      "the man looking through the hole",
+      "the woman holding a knife and looking up in fear"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a beard peeking through a hole in a door",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [],
+      "gaze": "looking towards the woman"
+    },
+    {
+      "person": "a woman in a blue jacket",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "upward gaze"
+      ],
+      "body_cues": [
+        "holding a large knife"
+      ],
+      "gaze": "looking up"
+    }
+  ],
+  "audio_description": "The audio contains a male voice shouting, followed by a high-pitched scream.",
+  "emotion_description": "Fear and terror.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running forward"
+      }
+    ],
+    "scene": {
+      "location": "a dark, narrow bridge",
+      "setting": "The bridge is constructed of dark metal beams and has a wooden walkway. The scene is dark and appears to be at night or in a poorly lit area."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man runs forward with a determined expression."
+    ],
+    "visibility_notes": "The man is clearly visible in the foreground. The background is dark and details are not visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair",
+      "facial_cues": [
+        "intense expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "running",
+        "leaning forward"
+      ],
+      "gaze": "straight ahead"
+    }
+  ],
+  "audio_description": "Loud, chaotic sounds of shattering and crashing, suggesting a large structure is collapsing.",
+  "emotion_description": "determined",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

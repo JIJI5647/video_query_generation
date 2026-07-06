@@ -1,0 +1,98 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the woman in a white hospital gown",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying in a hospital bed, holding her stomach"
+      },
+      {
+        "person": "the man in a light-colored jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "kneeling beside the bed, leaning over the woman"
+      },
+      {
+        "person": "the man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing beside a hospital bed, looking into a bag"
+      },
+      {
+        "person": "the woman in a white hospital gown",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "lying in a hospital bed"
+      },
+      {
+        "person": "the man in a white shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "leaning over the woman in the background bed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital ward with multiple beds and medical equipment"
+    },
+    "objects": [
+      "hospital beds",
+      "medical equipment",
+      "a brown bag"
+    ],
+    "interactions": [
+      "the man in the light-colored jacket interacts with the woman in the foreground bed",
+      "the man in the blue plaid shirt interacts with the bag"
+    ],
+    "key_actions": [
+      "the woman in the foreground lies in bed holding her stomach",
+      "the man in the light-colored jacket leans over her",
+      "the man in the blue plaid shirt looks into a bag"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a white hospital gown",
+      "facial_cues": [
+        "grimacing",
+        "mouth open"
+      ],
+      "body_cues": [
+        "gripping her stomach"
+      ],
+      "gaze": "looking upwards"
+    },
+    {
+      "person": "the man in a light-colored jacket",
+      "facial_cues": [
+        "concerned"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking at the woman"
+    },
+    {
+      "person": "the man in a blue plaid shirt",
+      "facial_cues": [
+        "focused"
+      ],
+      "body_cues": [
+        "reaching into a bag"
+      ],
+      "gaze": "looking into the bag"
+    }
+  ],
+  "audio_description": "The audio features a woman groaning in pain, followed by a man speaking in a calm, reassuring tone.",
+  "emotion_description": "The woman appears to be in pain, while the man is concerned and trying to be reassuring.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

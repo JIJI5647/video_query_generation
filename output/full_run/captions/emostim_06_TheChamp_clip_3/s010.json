@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "crying and pressing his hands against another person's face"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark background"
+    },
+    "objects": [],
+    "interactions": [
+      "the boy is pressing his hands against the face of another person"
+    ],
+    "key_actions": [
+      "crying",
+      "pressing hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "tears on his face",
+        "red, watery eyes",
+        "distressed expression",
+        "mouth open as if shouting"
+      ],
+      "body_cues": [
+        "pressing his hands against another person's face"
+      ],
+      "gaze": "looking down at the person he is touching"
+    }
+  ],
+  "audio_description": "A child's voice is heard shouting in a distressed manner.",
+  "emotion_description": "The boy is extremely distressed and upset, shouting as if trying to wake someone.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

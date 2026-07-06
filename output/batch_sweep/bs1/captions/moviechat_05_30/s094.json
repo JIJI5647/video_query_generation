@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s094",
+  "time_range": [
+    465.0,
+    470.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "running and then crouching behind furniture"
+      },
+      {
+        "person": "a woman in a denim jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking around"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark, cluttered room filled with various objects and furniture, appearing messy and chaotic"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a denim jacket",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing with hands slightly raised"
+      ],
+      "gaze": "looking towards the man"
+    }
+  ],
+  "audio_description": "a man is shouting in an agitated tone.",
+  "emotion_description": "agitated",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,75 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with glasses wearing a brown jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "gesturing with his hand while talking to another man"
+      },
+      {
+        "person": "a woman in a dark top",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and looking at the man in the jacket"
+      },
+      {
+        "person": "a man in a patterned sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and talking to the man with glasses"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a stone hallway with a staircase in the background, under dim lighting"
+    },
+    "objects": [],
+    "interactions": [
+      "The man with glasses is talking to the man in the sweater while gesturing towards the woman."
+    ],
+    "key_actions": [
+      "Talking, gesturing, looking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with glasses wearing a brown jacket",
+      "facial_cues": [
+        "speaking",
+        "intense expression"
+      ],
+      "body_cues": [
+        "gesturing with his hand"
+      ],
+      "gaze": "looking at the man in the sweater"
+    },
+    {
+      "person": "a woman in a dark top",
+      "facial_cues": [
+        "concerned expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man with glasses"
+    },
+    {
+      "person": "a man in a patterned sweater",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man with glasses"
+    }
+  ],
+  "audio_description": "A male voice speaks with a sense of urgency and desperation.",
+  "emotion_description": "Urgent, desperate, and concerned.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

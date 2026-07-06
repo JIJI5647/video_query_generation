@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing in a room, holding a large knife, and moving towards a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with a bed, nightstand, and lamp."
+    },
+    "objects": [
+      "knife",
+      "bed",
+      "nightstand",
+      "lamp",
+      "door",
+      "bookshelf"
+    ],
+    "interactions": [
+      "the boy moves the knife in his hand",
+      "the boy walks toward the door"
+    ],
+    "key_actions": [
+      "holding a knife",
+      "walking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "holding a knife",
+        "walking"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A high-pitched, electronic beeping sound, like an alarm, is heard.",
+  "emotion_description": "The boy's emotion is unclear, but his actions suggest caution or determination.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

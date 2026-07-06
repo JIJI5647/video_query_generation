@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "casting a spell with a wand"
+      },
+      {
+        "person": "a bald man",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "being hit by a spell and thrown backward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark, gothic-style room with stone walls and metal railings"
+    },
+    "objects": [
+      {
+        "object": "wand",
+        "visibility": "clearly visible",
+        "position": "in the hand of the man in the dark robe",
+        "action": "emitting a spell"
+      }
+    ],
+    "interactions": [
+      "the man in the dark robe casts a spell that hits the bald man"
+    ],
+    "key_actions": [
+      "casting a spell",
+      "being hit by a spell",
+      "being thrown backward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark robe",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "pointing wand forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud magical spell sound is heard, followed by a loud crashing sound.",
+  "emotion_description": "intense",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

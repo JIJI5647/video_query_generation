@@ -1,0 +1,71 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with blonde hair in a black coat",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "pointing a wand forward"
+      },
+      {
+        "person": "a man in a black suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and pointing a wand forward"
+      },
+      {
+        "person": "a man in a black suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and pointing a wand forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark, cluttered room filled with mirrors, frames, and metal objects, resembling a junk shop or a magical storage room"
+    },
+    "objects": [
+      {
+        "name": "wands",
+        "description": "pointed by the three men, indicating a confrontation"
+      },
+      {
+        "name": "mirror",
+        "description": "large, ornate mirror in the background"
+      },
+      {
+        "name": "metal bowls",
+        "description": "stacked on a table to the right"
+      }
+    ],
+    "interactions": [
+      "three men are in a standoff, pointing their wands at an unseen target"
+    ],
+    "key_actions": [
+      "three men pointing their wands forward in a confrontational stance"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with blonde hair in a black coat",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "pointing a wand forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "Shouting and a loud crash sound are heard.",
+  "temporal_description": "The clip begins with the three men pointing their wands, followed by a shout and a crash.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

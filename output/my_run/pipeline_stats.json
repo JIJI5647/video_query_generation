@@ -1,0 +1,23 @@
+{
+  "total_videos": 5,
+  "total_segments": 186,
+  "total_raw_captions": 0,
+  "total_initial_queries": 0,
+  "total_accepted_queries": 0,
+  "total_discarded_queries": 0,
+  "average_accepted_queries_per_video": 0.0,
+  "emotion_distribution": {},
+  "query_type_distribution_initial": {},
+  "query_type_distribution_final_accepted": {},
+  "rewrite_count_distribution": {},
+  "pass_rate_after_initial_verification": 0.0,
+  "pass_rate_after_rewrites": 0.0,
+  "discarded_query_count": 0,
+  "diversity_warnings": [
+    "[emostim_01_TheShining_clip_2] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[emostim_04_28DaysLater_clip_6] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[meld_01_dia337] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[meld_02_dia224] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[moviechat_05_30] WARNING: only 0 accepted queries (recommended minimum: 3)"
+  ]
+}

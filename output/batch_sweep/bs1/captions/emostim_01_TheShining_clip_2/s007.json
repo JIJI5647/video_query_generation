@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and attempting to open a door with a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom at night with a person sleeping in a bed in the background, a lit lamp on a nightstand, and a closed door in the foreground."
+    },
+    "objects": [
+      "a knife",
+      "a closed door",
+      "a bed",
+      "a person sleeping",
+      "a lamp",
+      "a nightstand"
+    ],
+    "interactions": [
+      "the boy is using the knife to try and open the door"
+    ],
+    "key_actions": [
+      "the boy is using a knife to open a door"
+    ],
+    "visibility_notes": "The sleeping person is partially visible in the background."
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy in a striped sweater",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "the boy is standing and using a knife to open a door"
+      ],
+      "gaze": "looking at the door"
+    }
+  ],
+  "audio_description": "A high-pitched, continuous, electronic buzzing sound is audible.",
+  "emotion_description": "The boy's expression is not clearly visible, but the use of a knife on a door suggests a sense of urgency or mischief.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

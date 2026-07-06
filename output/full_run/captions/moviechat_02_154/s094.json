@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s094",
+  "time_range": [
+    465.0,
+    470.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing by a car and looking down at an object in his hands"
+      },
+      {
+        "person": "a person in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "bending over near the front of the car"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "next to a dark-colored car, with tall grass on the side"
+    },
+    "objects": [
+      "a dark-colored car",
+      "a long, thin object held by the man in the suit"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit is examining an object he is holding.",
+      "The other person is bent over near the car."
+    ],
+    "visibility_notes": "The scene is dark, illuminated by a light source from the right, casting shadows."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "serious expression",
+        "looking down"
+      ],
+      "body_cues": [
+        "standing still",
+        "focused on the object in his hands"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A low, continuous humming sound is present throughout the clip.",
+  "emotion_description": "The man's expression appears serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "crying and being held by an adult"
+      },
+      {
+        "person": "an adult man",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding the boy and speaking to him"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit"
+    },
+    "objects": [],
+    "interactions": [
+      "The adult man is holding the boy closely."
+    ],
+    "key_actions": [
+      "The boy is crying with his mouth open and eyes closed.",
+      "The man is looking at the boy and appears to be speaking."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "mouth wide open",
+        "eyes tightly closed",
+        "tears on the face"
+      ],
+      "body_cues": [
+        "being held by an adult"
+      ],
+      "gaze": "not clearly visible due to closed eyes"
+    },
+    {
+      "person": "an adult man",
+      "facial_cues": [
+        "frowning",
+        "mouth slightly open as if speaking",
+        "looking down at the boy"
+      ],
+      "body_cues": [
+        "holding the boy"
+      ],
+      "gaze": "looking down at the boy"
+    }
+  ],
+  "audio_description": "An adult male voice speaks gently and repeatedly, while a young child cries and speaks in a distressed, high-pitched voice.",
+  "emotion_description": "The boy is distressed and crying, while the man appears to be trying to comfort him.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

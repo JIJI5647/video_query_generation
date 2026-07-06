@@ -1,0 +1,50 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long blonde hair wearing a black and brown patterned top",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and gesturing with her hands while talking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wooden dresser, a television, and a purple wall in the background"
+    },
+    "objects": [
+      "wooden dresser",
+      "television",
+      "purple wall"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman is speaking and gesturing with her hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long blonde hair wearing a black and brown patterned top",
+      "facial_cues": [
+        "smiling",
+        "mouth moving"
+      ],
+      "body_cues": [
+        "gesturing with both hands",
+        "standing"
+      ],
+      "gaze": "looking forward and slightly to her left"
+    }
+  ],
+  "audio_description": "A female voice is speaking in a light and conversational tone.",
+  "emotion_description": "The woman appears to be in a positive and friendly mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

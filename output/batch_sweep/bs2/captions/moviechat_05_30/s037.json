@@ -1,0 +1,70 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a soldier in armor",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "kneeling on the ground, looking up fearfully at a giant humanoid creature."
+      },
+      {
+        "person": "a giant humanoid creature",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "charging forward and swinging a large weapon, causing soldiers to fall."
+      },
+      {
+        "person": "a group of soldiers",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing in formation, holding shields and weapons, then being overrun and falling in battle."
+      }
+    ],
+    "scene": {
+      "location": "battlefield",
+      "setting": "dark and chaotic, with soldiers and a giant creature engaged in combat."
+    },
+    "objects": [],
+    "interactions": [
+      "The giant creature attacks the soldiers, knocking them down."
+    ],
+    "key_actions": [
+      "Kneeling, charging, swinging, falling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the soldier in armor",
+      "facial_cues": [
+        "fearful expression"
+      ],
+      "body_cues": [
+        "kneeling",
+        "arms raised defensively"
+      ],
+      "gaze": "looking up at the giant creature."
+    },
+    {
+      "person": "the giant humanoid creature",
+      "facial_cues": [
+        "angry expression"
+      ],
+      "body_cues": [
+        "charging forward",
+        "swinging a weapon"
+      ],
+      "gaze": "forward, targeting the soldiers."
+    }
+  ],
+  "audio_description": "A dramatic and intense orchestral score with powerful percussion and string instruments plays, creating a sense of epic conflict and urgency.",
+  "emotion_description": "Fear and aggression",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

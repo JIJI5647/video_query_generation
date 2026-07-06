@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket and plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "swinging a hatchet at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hallway with blue walls and a staircase in the background"
+    },
+    "objects": [
+      {
+        "object": "a hatchet",
+        "position": "center",
+        "action": "being swung by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man swings the hatchet at the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red jacket and plaid shirt",
+      "facial_cues": [
+        "angry",
+        "intense",
+        "determined"
+      ],
+      "body_cues": [
+        "swinging the hatchet with force"
+      ],
+      "gaze": "focused on the door"
+    }
+  ],
+  "audio_description": "The sound of a door being forcefully broken down.",
+  "emotion_description": "angry",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

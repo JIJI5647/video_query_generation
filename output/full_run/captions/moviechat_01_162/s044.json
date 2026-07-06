@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair wearing a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held by the neck by another person, with his head tilted back."
+      },
+      {
+        "person": "the arm and hand of another person",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding the first man's neck."
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit interior of a car at night."
+    },
+    "objects": [],
+    "interactions": [
+      "One person is choking or holding another person by the neck."
+    ],
+    "key_actions": [
+      "A person is being choked."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the black leather jacket",
+      "facial_cues": [
+        "wide eyes",
+        "sweating",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "head tilted back",
+        "neck being held"
+      ],
+      "gaze": "looking upward at the person holding him."
+    }
+  ],
+  "audio_description": "A male voice speaks in a strained and urgent tone.",
+  "emotion_description": "The man being held appears to be scared and in distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a tan jacket with a floral shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking and talking on a mobile phone"
+      },
+      {
+        "person": "a bald man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "background, to the right",
+        "action": "walking behind the first man"
+      },
+      {
+        "person": "another man in an orange shirt and head covering",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "walking behind the first man"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a dimly lit street at night with industrial-looking buildings in the background"
+    },
+    "objects": [
+      {
+        "name": "mobile phone",
+        "description": "a black mobile phone being held to the man's ear"
+      }
+    ],
+    "interactions": [
+      "The man in the tan jacket walks while talking on his phone."
+    ],
+    "key_actions": [
+      "Walking, talking on a phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a tan jacket with a floral shirt",
+      "facial_cues": [
+        "smiling",
+        "laughing"
+      ],
+      "body_cues": [
+        "walking"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A man speaks on a mobile phone, followed by a loud, jarring electronic sound.",
+  "emotion_description": "The man on the phone sounds amused and happy. The sudden loud sound is jarring and startling.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

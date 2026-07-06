@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a grey robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a knife, swinging it, and shouting"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "bathroom"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman swings the knife",
+      "the woman shouts"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a grey robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "angry expression"
+      ],
+      "body_cues": [
+        "swinging the knife",
+        "shouting"
+      ],
+      "gaze": "toward the camera"
+    }
+  ],
+  "audio_description": "a woman is shouting with a high-pitched and agitated voice.",
+  "emotion_description": "anger",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

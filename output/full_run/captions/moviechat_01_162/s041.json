@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car and talking"
+      },
+      {
+        "person": "a man in a black t-shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car and talking"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "the interior of a car with visible seats and a steering wheel"
+    },
+    "objects": [
+      "car interior",
+      "steering wheel"
+    ],
+    "interactions": [
+      "The two men are facing each other and engaged in a conversation."
+    ],
+    "key_actions": [
+      "Talking",
+      "Looking at each other"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "Sweaty face",
+        "Visible stubble",
+        "Focused expression"
+      ],
+      "body_cues": [],
+      "gaze": "Looking at the other man"
+    },
+    {
+      "person": "a man in a black t-shirt",
+      "facial_cues": [
+        "Sweaty face",
+        "Visible stubble",
+        "Focused expression"
+      ],
+      "body_cues": [],
+      "gaze": "Looking at the other man"
+    }
+  ],
+  "audio_description": "A person is speaking in a tense, emotional voice.",
+  "emotion_description": "The man in the black leather jacket appears to be in distress or under great stress, possibly pleading or trying to convince the other man of something important.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

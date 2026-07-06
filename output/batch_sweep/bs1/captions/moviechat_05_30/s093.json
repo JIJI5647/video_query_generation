@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on a patterned rug"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "cluttered and dimly lit, filled with furniture and artifacts, resembling a junk shop or a secret room"
+    },
+    "objects": [
+      {
+        "name": "statue",
+        "category": "sculpture",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "standing on a pedestal"
+      },
+      {
+        "name": "chairs",
+        "category": "furniture",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "scattered and overturned"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the brown jacket stands up and moves away"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a brown jacket",
+      "facial_cues": [
+        "determined",
+        "angry"
+      ],
+      "body_cues": [
+        "running away"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "a man shouts in anger.",
+  "emotion_description": "angry",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

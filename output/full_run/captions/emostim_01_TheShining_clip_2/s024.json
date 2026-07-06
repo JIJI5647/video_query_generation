@@ -1,0 +1,69 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing a red velvet jacket",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "swinging a sledgehammer at a wooden door"
+      },
+      {
+        "person": "a woman in a blue hooded sweatshirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "lying in the snow, partially buried, reaching a hand forward"
+      }
+    ],
+    "scene": {
+      "location": "a hallway",
+      "setting": "a man is breaking down a wooden door with a sledgehammer, while another person is seen in a separate scene lying in deep snow next to a door, partially buried."
+    },
+    "objects": [
+      "sledgehammer",
+      "wooden door",
+      "snow"
+    ],
+    "interactions": [
+      "The man is using the sledgehammer to strike the door."
+    ],
+    "key_actions": [
+      "swinging a sledgehammer",
+      "lying in the snow",
+      "reaching a hand forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing a red velvet jacket",
+      "facial_cues": [
+        "straining"
+      ],
+      "body_cues": [
+        "swinging a sledgehammer"
+      ],
+      "gaze": "looking at the door"
+    },
+    {
+      "person": "a woman in a blue hooded sweatshirt",
+      "facial_cues": [
+        "straining"
+      ],
+      "body_cues": [
+        "lying in the snow",
+        "reaching a hand forward"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud crash is heard as the sledgehammer hits the door.",
+  "emotion_description": "The man appears to be exerting himself with a strained expression, and the woman appears to be struggling.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

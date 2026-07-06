@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long black hair wearing a blue robe and a beige turtleneck",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "hiding behind a wall, peering around the corner, holding a knife, and reacting in fear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with peeling wallpaper and a white tiled wall, possibly a bathroom or hallway."
+    },
+    "objects": [
+      {
+        "name": "knife",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman hides behind a wall",
+      "the woman peeks around the corner",
+      "the woman holds a knife",
+      "the woman reacts with fear"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long black hair wearing a blue robe and a beige turtleneck",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "tears"
+      ],
+      "body_cues": [
+        "hands raised to face",
+        "body tense"
+      ],
+      "gaze": "towards the left"
+    }
+  ],
+  "audio_description": "The audio contains sounds of a woman screaming and crying, along with a loud crashing sound.",
+  "temporal_description": "The woman is initially seen hiding and screaming in terror, then she is seen holding a knife and screaming again, and finally she is seen hiding behind the wall again, looking scared.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

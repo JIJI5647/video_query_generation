@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking forward"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "walking forward"
+      },
+      {
+        "person": "a man in a dark blue jacket with 'OCTB' on the back",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "standing and looking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a busy office or command center with multiple computer monitors and a large whiteboard in the background"
+    },
+    "objects": [
+      "an orange briefcase",
+      "computer monitors",
+      "a whiteboard with writing"
+    ],
+    "interactions": [
+      "people are moving around in a busy environment"
+    ],
+    "key_actions": [
+      "a man in a suit walks purposefully forward",
+      "a man in a light-colored shirt walks forward and looks down"
+    ],
+    "visibility_notes": "The scene is filled with several people, creating a busy atmosphere."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "looking down",
+        "frowning slightly"
+      ],
+      "body_cues": [
+        "walking forward"
+      ],
+      "gaze": "looking down at the floor"
+    }
+  ],
+  "audio_description": "The audio features dramatic, orchestral music with a tense and urgent tone.",
+  "emotion_description": "The music creates a tense and urgent atmosphere, suggesting a high-stakes situation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

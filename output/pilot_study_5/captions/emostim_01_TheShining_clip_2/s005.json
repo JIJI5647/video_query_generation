@@ -1,0 +1,52 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing still, holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a bookshelf and a door in the background"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "position": "in the boy's hand",
+        "action": "held by the boy"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the boy stands holding a knife",
+      "the boy is seen from behind"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "not visible"
+      ],
+      "body_cues": [
+        "standing still",
+        "holding a knife"
+      ],
+      "gaze": "facing away from the camera"
+    }
+  ],
+  "audio_description": "an off-screen voice speaks in a low, distorted tone.",
+  "emotion_description": "The low, distorted tone of the voice suggests a sinister or threatening emotion.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

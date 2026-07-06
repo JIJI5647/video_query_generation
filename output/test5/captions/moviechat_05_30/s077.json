@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with messy brown hair and round glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking intently forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, cluttered space with various objects on a table, including an armillary sphere and ropes."
+    },
+    "objects": [
+      "armillary sphere",
+      "ropes",
+      "table",
+      "books",
+      "lantern"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man looks forward with a serious expression"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with messy brown hair and round glasses",
+      "facial_cues": [
+        "intense gaze",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "Dramatic, suspenseful orchestral music plays.",
+  "temporal_description": "The music builds in intensity throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

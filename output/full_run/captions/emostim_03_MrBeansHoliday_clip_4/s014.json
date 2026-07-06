@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing a black cap and a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating a piece of fried chicken"
+      }
+    ],
+    "scene": {
+      "location": "inside a vehicle",
+      "setting": "the interior of a van or truck, with a window showing a blurry green landscape outside"
+    },
+    "objects": [
+      "a piece of fried chicken",
+      "a black cap",
+      "a plaid shirt"
+    ],
+    "interactions": [
+      "the man is eating the chicken"
+    ],
+    "key_actions": [
+      "eating"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing a black cap and a plaid shirt",
+      "facial_cues": [
+        "his mouth is open as he takes a bite",
+        "his eyes are squinted"
+      ],
+      "body_cues": [
+        "he is holding the chicken in his hand"
+      ],
+      "gaze": "looking towards his left"
+    }
+  ],
+  "audio_description": "The audio contains music with a strong, repetitive vocal chant.",
+  "emotion_description": "The man appears to be enjoying his meal, possibly with a look of satisfaction.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

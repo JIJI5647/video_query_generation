@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long brown hair, wearing a dark jacket over a vest",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with a group, holding a wand and looking forward with a tense expression"
+      },
+      {
+        "person": "a group of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the woman, looking forward"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, outdoor setting with a group of people gathered"
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "held by the woman in the foreground"
+      }
+    ],
+    "interactions": [
+      "The woman in the foreground stands before the group."
+    ],
+    "key_actions": [
+      "The woman holds a wand and points it forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long brown hair, wearing a dark jacket over a vest",
+      "facial_cues": [
+        "furrowed brow",
+        "tense mouth",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "standing rigidly",
+        "holding a wand forward"
+      ],
+      "gaze": "looking forward, focused"
+    }
+  ],
+  "audio_description": "A low, ominous, and suspenseful musical score plays.",
+  "emotion_description": "The woman appears to be in a state of fear or high alert.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,70 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young woman with brown hair wearing a dark jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and pointing her wand forward"
+      },
+      {
+        "person": "a young man with platinum blonde hair and two other men in dark robes",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing in a line and pointing their wands forward"
+      },
+      {
+        "person": "a young man with dark hair and glasses wearing a brown jacket",
+        "visibility": "not clearly visible",
+        "position": "background",
+        "action": "standing and pointing his wand forward"
+      },
+      {
+        "person": "a young man with dark hair and glasses wearing a brown jacket",
+        "visibility": "not clearly visible",
+        "position": "background",
+        "action": "standing and pointing his wand forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dimly lit junk shop filled with old furniture, mirrors, and metalware"
+    },
+    "objects": [
+      "wands",
+      "old mirrors",
+      "metal bowls",
+      "wooden furniture"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "pointing wands forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young woman with brown hair wearing a dark jacket",
+      "facial_cues": [
+        "intense expression",
+        "open mouth",
+        "frowning"
+      ],
+      "body_cues": [
+        "pointing wand forward",
+        "leaning forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, echoing voice shouts in a commanding tone, followed by a series of loud magical sounds and impacts.",
+  "emotion_description": "The characters are in a state of intense action and confrontation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

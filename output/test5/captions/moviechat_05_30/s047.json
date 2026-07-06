@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in glasses and a brown jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running and then embracing the woman"
+      },
+      {
+        "person": "the woman with long red hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running and then embracing the man"
+      }
+    ],
+    "scene": {
+      "location": "indoor staircase",
+      "setting": "a large, dimly lit stone staircase with other people in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "the man and the woman run towards each other and embrace"
+    ],
+    "key_actions": [
+      "the man and the woman run towards each other"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in glasses and a brown jacket",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "running"
+      ],
+      "gaze": "towards the woman"
+    }
+  ],
+  "audio_description": "A male voice shouts urgently, followed by a loud, dramatic musical score.",
+  "temporal_description": "The clip starts with the man shouting, then the music swells as the two characters run towards each other.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

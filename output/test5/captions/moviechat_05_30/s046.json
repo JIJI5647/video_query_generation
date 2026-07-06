@@ -1,0 +1,80 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "reaching out his hand and speaking to another person"
+      },
+      {
+        "person": "a young woman with long hair",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and looking at the man with glasses, listening"
+      },
+      {
+        "person": "a man in a patterned sweater",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "standing and listening to the man with glasses"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "dimly lit, stone walls, staircase in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "the man with glasses speaks to the woman and the man in the sweater"
+    ],
+    "key_actions": [
+      "the man with glasses speaks and gestures with his hand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young man with glasses",
+      "facial_cues": [
+        "mouth open",
+        "expressive eyes"
+      ],
+      "body_cues": [
+        "reaching out his hand",
+        "leaning forward"
+      ],
+      "gaze": "towards the woman and the man in the sweater"
+    },
+    {
+      "person": "a young woman with long hair",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "towards the man with glasses"
+    },
+    {
+      "person": "a man in a patterned sweater",
+      "facial_cues": [
+        "partially visible",
+        "looking at the man with glasses"
+      ],
+      "body_cues": [],
+      "gaze": "towards the man with glasses"
+    }
+  ],
+  "audio_description": "A man is speaking with a sense of urgency.",
+  "temporal_description": "The man with glasses speaks and gestures throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

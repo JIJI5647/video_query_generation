@@ -1,0 +1,4 @@
+# parse failure: reason=missing_or_invalid_in_batch
+# segment_id=s024
+
+[{"segment_id": "s023", "time_range": [110.0, 115.0], "visual_objective": {"people": [{"person": "a woman with blonde curly hair", "visibility": "clearly visible", "position": "foreground", "action": "sitting and speaking"}], "scene": {"location": "indoor", "setting": "restaurant or diner with other patrons in the background"}, "objects": [], "interactions": [], "key_actions": ["speaking", "looking up"], "visibility_notes": ""}, "visual_expression": [{"person": "a woman with blonde curly hair", "facial_cues": ["mouth open", "eyes closed", "head tilted back"], "body_cues": [], "gaze": "upward"}], "audio_description": "A woman is speaking with a strained and surprised tone, followed by a loud, sustained electronic buzzer sound.", "emotion_description": "Surprise and frustration", "confidence": "high", "evidence_strength": "clear"}]

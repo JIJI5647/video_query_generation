@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with shaggy blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing at a wooden vanity, holding a large knife in his right hand and a tube of red lipstick in his left hand, looking down at the items on the vanity"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with patterned curtains, a lit table lamp, and a small television"
+    },
+    "objects": [
+      "a large knife",
+      "a tube of red lipstick",
+      "a wooden vanity",
+      "a lit table lamp",
+      "a small television",
+      "a framed picture on the wall"
+    ],
+    "interactions": [
+      "the boy holds the knife and lipstick simultaneously, positioning the lipstick near the blade"
+    ],
+    "key_actions": [
+      "the boy is carefully applying red lipstick to the blade of the knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with shaggy blonde hair",
+      "facial_cues": [
+        "his eyes are focused downward on the vanity"
+      ],
+      "body_cues": [
+        "he is standing still, leaning slightly over the vanity"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A low, ominous musical swell plays in the background.",
+  "emotion_description": "The boy's expression is serious and intent, suggesting a sense of gravity or concentration.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

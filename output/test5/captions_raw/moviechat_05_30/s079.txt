@@ -1,0 +1,4 @@
+# parse failure: reason=salvaged_for_generation
+# segment_id=s079
+
+[{"segment_id": "s079", "time_range": [390.0, 395.0], "visual_objective": {"people": [{"person": "a man in a dark coat", "visibility": "partially visible", "position": "right", "action": "holding a wooden box"}], "scene": {"location": "indoor room", "setting": "dimly lit study or office with antique items"}}, "objects": [{"object": "a wooden box", "visibility": "clearly visible", "position": "center", "action": "being held by the man"}], "interactions": [{"interaction": "the man holds the wooden box"}], "key_actions": ["holding a wooden box"], "visibility_notes": ""}, "visual_expression": [], "audio_description": "A dramatic, orchestral music piece with a somber and suspenseful tone plays.", "temporal_description": "", "confidence": "high", "evidence_strength": "clear"}]

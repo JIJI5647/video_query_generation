@@ -1,0 +1,81 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s088",
+  "time_range": [
+    435.0,
+    440.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and facing the camera"
+      },
+      {
+        "person": "a bald man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing with his back to the camera"
+      },
+      {
+        "person": "a man in a blue shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a table"
+      },
+      {
+        "person": "a man in a black t-shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and looking towards the center"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with fluorescent lights, a table, and a wall with a painting"
+    },
+    "objects": [
+      "table",
+      "painting",
+      "fluorescent lights",
+      "potted plant"
+    ],
+    "interactions": [
+      "the man in the dark suit appears to be addressing the group"
+    ],
+    "key_actions": [
+      "standing",
+      "sitting",
+      "facing forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a dark suit",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing upright"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "the bald man in a light-colored shirt",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "facing away from the camera"
+    }
+  ],
+  "audio_description": "A low, suspenseful musical score plays in the background.",
+  "emotion_description": "The atmosphere is tense and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

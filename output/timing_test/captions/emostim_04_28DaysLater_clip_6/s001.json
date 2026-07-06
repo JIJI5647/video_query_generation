@@ -1,0 +1,44 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in dark clothing",
+        "visibility": "not clearly visible",
+        "position": "foreground",
+        "action": "moving quickly"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "dimly lit room with dark, indistinct surroundings"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "a person in dark clothing moves rapidly in a dark, cluttered space"
+    ],
+    "visibility_notes": "The person is mostly obscured by shadows and motion blur, making details difficult to discern."
+  },
+  "visual_expression": [
+    {
+      "person": "a person in dark clothing",
+      "facial_cues": [
+        "unclear due to darkness and motion"
+      ],
+      "body_cues": [
+        "rapid movement"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud crashing sound is followed by a male shout, then a series of thuds and scraping noises.",
+  "emotion_description": "Fear or panic",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

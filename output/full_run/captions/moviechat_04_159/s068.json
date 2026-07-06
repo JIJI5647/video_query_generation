@@ -1,0 +1,73 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and headphones",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "speaking into a microphone"
+      },
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking forward with a serious expression"
+      },
+      {
+        "person": "a man in a white shirt and headphones",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "sitting and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room, possibly a control room or radio station, with a dark green wall"
+    },
+    "objects": [
+      "headphones",
+      "microphones",
+      "a dark green wall"
+    ],
+    "interactions": [
+      "the man in the white shirt speaks into a microphone"
+    ],
+    "key_actions": [
+      "speaking into a microphone",
+      "listening"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a white shirt and headphones",
+      "facial_cues": [
+        "focused expression",
+        "serious expression"
+      ],
+      "body_cues": [
+        "speaking into a microphone"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks urgently, followed by a loud, sustained, low-pitched electronic tone.",
+  "emotion_description": "The individuals appear focused and serious, with the speaker conveying urgency.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

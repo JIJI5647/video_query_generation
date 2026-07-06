@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a large, muscular, humanoid creature",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "running forward, roaring"
+      }
+    ],
+    "scene": {
+      "location": "dark, outdoor area",
+      "setting": "a chaotic battlefield at night with indistinct figures in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the creature runs forward",
+      "the creature roars"
+    ],
+    "visibility_notes": "The scene is very dark, with only the creature partially illuminated by ambient light."
+  },
+  "visual_expression": [
+    {
+      "person": "a large, muscular, humanoid creature",
+      "facial_cues": [
+        "roaring with open mouth",
+        "visible teeth",
+        "angry expression"
+      ],
+      "body_cues": [
+        "running forward with arms swinging",
+        "broad shoulders",
+        "muscular build"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A deep, guttural roar from the creature is heard, accompanied by the sound of a large crowd cheering and chanting in a foreign language.",
+  "emotion_description": "Anger and aggression",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

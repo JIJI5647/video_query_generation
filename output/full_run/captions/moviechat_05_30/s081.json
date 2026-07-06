@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with messy dark hair and round glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down at a brooch with a focused expression"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dark, cluttered room"
+    },
+    "objects": [
+      "a silver brooch shaped like a phoenix with a large dark gemstone",
+      "a small wooden box with a black velvet interior"
+    ],
+    "interactions": [
+      "the man's hand is holding the brooch over the open box"
+    ],
+    "key_actions": [
+      "the man is holding and examining the brooch"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with messy dark hair and round glasses",
+      "facial_cues": [
+        "focused expression",
+        "mouth slightly open",
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A dramatic and suspenseful orchestral score plays, featuring prominent strings.",
+  "emotion_description": "The man appears to be in a state of serious contemplation or concern, possibly sadness, as he examines the brooch. The tense music supports this somber mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

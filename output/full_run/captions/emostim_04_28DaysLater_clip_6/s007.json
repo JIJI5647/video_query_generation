@@ -1,0 +1,45 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up with a fearful expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit with a large dark object in the foreground"
+    },
+    "objects": [
+      "a large, dark, vertical object"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman looking up"
+    ],
+    "visibility_notes": "The woman's face is partially obscured by a dark object in the foreground."
+  },
+  "visual_expression": [
+    {
+      "person": "a woman",
+      "facial_cues": [
+        "wide eyes",
+        "visible fear"
+      ],
+      "body_cues": [],
+      "gaze": "looking up"
+    }
+  ],
+  "audio_description": "The audio consists of a continuous, low-frequency electronic hum.",
+  "emotion_description": "The woman appears to be scared or afraid.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

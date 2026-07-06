@@ -1,0 +1,74 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "writing on a door with a red marker while holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night, with a person sleeping in a bed in the background."
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held in the boy's hand"
+      },
+      {
+        "object": "a red marker",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "used by the boy to write on the door"
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "on which the boy is writing"
+      },
+      {
+        "object": "a person",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sleeping in a bed"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "the boy is writing on the door with the marker"
+      }
+    ],
+    "key_actions": [
+      "writing on the door",
+      "holding a knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "focused posture"
+      ],
+      "gaze": "downward at the door"
+    }
+  ],
+  "audio_description": "A child's voice is heard speaking in a low, unclear tone.",
+  "emotion_description": "The boy's expression and the audio suggest a tense or unsettling mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

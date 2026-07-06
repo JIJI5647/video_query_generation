@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "sitting at a table and talking"
+      },
+      {
+        "person": "a man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting at a table and talking"
+      },
+      {
+        "person": "a man in a dark patterned shirt",
+        "visibility": "partially visible",
+        "position": "background, left",
+        "action": "sitting and smoking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, crowded room that appears to be a restaurant or bar"
+    },
+    "objects": [
+      "a table",
+      "a pen",
+      "a blackboard with writing",
+      "a radio"
+    ],
+    "interactions": [
+      "The man in the blue shirt is talking and gesturing with a pen towards the man in the black jacket."
+    ],
+    "key_actions": [
+      "The man in the blue shirt is speaking and making a gesture with his hand."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue patterned shirt",
+      "facial_cues": [
+        "smiling",
+        "talking"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "gesturing with a pen"
+      ],
+      "gaze": "looking at the man in the black jacket"
+    }
+  ],
+  "audio_description": "A man speaks in a calm and conversational tone.",
+  "emotion_description": "The man in the blue shirt appears to be calm and amused, while the other man listens intently.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

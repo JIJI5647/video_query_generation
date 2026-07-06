@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting at a desk and typing on a laptop"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting at a desk, wearing headphones, and looking at a laptop"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with maps and papers on the wall, and desks with laptops and equipment"
+    },
+    "objects": [
+      "laptops",
+      "headphones",
+      "desk lamps",
+      "tripod",
+      "maps",
+      "papers"
+    ],
+    "interactions": [
+      "The two people are sitting at adjacent desks, both focused on their work."
+    ],
+    "key_actions": [
+      "The man types on his laptop.",
+      "The woman looks at her laptop while wearing headphones."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "leaning forward over the desk",
+        "hands on the keyboard"
+      ],
+      "gaze": "down at the laptop screen"
+    },
+    {
+      "person": "a woman in a white shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting upright",
+        "headphones on"
+      ],
+      "gaze": "down at the laptop screen"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, clear tone.",
+  "emotion_description": "Calm",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

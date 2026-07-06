@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car seat and looking upwards"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "the interior of a vehicle at night, with city lights visible through the windows"
+    },
+    "objects": [
+      "car seats",
+      "car windows"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man looking upwards"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "eyes open",
+        "looking upwards"
+      ],
+      "body_cues": [
+        "sitting upright"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A dramatic and suspenseful orchestral score with a strong, building string melody plays in the background.",
+  "emotion_description": "The man's expression is serious and contemplative, and the tense music creates a suspenseful mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

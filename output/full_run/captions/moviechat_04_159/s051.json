@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking on a cell phone"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "sitting in the car"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "nighttime, with blurred city lights visible through the windows"
+    },
+    "objects": [
+      "a cell phone",
+      "car seats"
+    ],
+    "interactions": [
+      "the man in the suit is on a phone call"
+    ],
+    "key_actions": [
+      "a man talking on a phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit jacket",
+      "facial_cues": [
+        "talking on the phone",
+        "his mouth is moving",
+        "his eyes are looking up and to the side"
+      ],
+      "body_cues": [
+        "holding a phone to his right ear"
+      ],
+      "gaze": "up and to the side"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, conversational tone.",
+  "emotion_description": "The man on the phone sounds calm and matter-of-fact.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,32 @@
+{
+  "total_videos": 1,
+  "total_segments": 11,
+  "total_raw_captions": 11,
+  "total_initial_queries": 8,
+  "total_accepted_queries": 8,
+  "total_discarded_queries": 0,
+  "average_accepted_queries_per_video": 8.0,
+  "emotion_distribution": {
+    "fear": 3,
+    "neutral": 8
+  },
+  "query_type_distribution_initial": {
+    "evidence_cue": 3,
+    "explicit_event": 3,
+    "emotion_state": 2
+  },
+  "query_type_distribution_final_accepted": {
+    "evidence_cue": 3,
+    "explicit_event": 3,
+    "emotion_state": 2
+  },
+  "rewrite_count_distribution": {
+    "0": 8
+  },
+  "pass_rate_after_initial_verification": 1.0,
+  "pass_rate_after_rewrites": 1.0,
+  "discarded_query_count": 0,
+  "diversity_warnings": [
+    "[emostim_04_28DaysLater_clip_6] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing"
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark robe",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "dark, rocky terrain with a glowing, crackling blue and white energy field in the background"
+    },
+    "objects": [
+      {
+        "object": "a dark, slender wand",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the person"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a person stands before a glowing energy field",
+      "the person holds a wand"
+    ],
+    "visibility_notes": "The person's face is obscured by the dark robe and the low light."
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark robe",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing with a raised wand"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, sustained electronic buzzing and humming sound is present.",
+  "emotion_description": "unclear",
+  "confidence": "low",
+  "evidence_strength": "weak"
+}

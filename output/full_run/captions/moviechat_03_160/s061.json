@@ -1,0 +1,79 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a sparkly jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being guided by another man"
+      },
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "holding the arm of the man in the sparkly jacket"
+      },
+      {
+        "person": "a woman in a dark top",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "standing near a doorway"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a narrow hallway or room with old, tiled walls"
+    },
+    "objects": [
+      {
+        "object": "a red diamond-shaped decoration",
+        "position": "left",
+        "action": "hanging on the wall"
+      },
+      {
+        "object": "a framed picture",
+        "position": "background",
+        "action": "hanging on the wall"
+      }
+    ],
+    "interactions": [
+      "The man in the light-colored suit is guiding or escorting the man in the sparkly jacket."
+    ],
+    "key_actions": [
+      "The man in the light-colored suit is holding the arm of the man in the sparkly jacket."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a sparkly jacket",
+      "facial_cues": [
+        "head turned to the side"
+      ],
+      "body_cues": [
+        "being guided by another man"
+      ],
+      "gaze": "looking towards the left"
+    },
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "looking down"
+      ],
+      "body_cues": [
+        "guiding another man by the arm"
+      ],
+      "gaze": "looking down at the person he is guiding"
+    }
+  ],
+  "audio_description": "A tense, low-pitched male voice speaks in Mandarin, followed by a loud, suspenseful musical sting.",
+  "emotion_description": "The scene feels tense and suspenseful. The man being guided appears cautious or apprehensive, while the man guiding him seems serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

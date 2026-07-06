@@ -1,0 +1,60 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "carrying a child and looking back at the door with fear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a bed, a nightstand with a lamp, and a bookshelf"
+    },
+    "objects": [
+      {
+        "object": "a child",
+        "position": "center",
+        "action": "being held by the woman"
+      },
+      {
+        "object": "a door",
+        "position": "right",
+        "action": "with the word 'REDAUM' written on it in red"
+      }
+    ],
+    "interactions": [
+      "the woman is holding the child tightly"
+    ],
+    "key_actions": [
+      "the woman turns to look at the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "showing fear"
+      ],
+      "body_cues": [
+        "body is tense",
+        "moving backward"
+      ],
+      "gaze": "looking at the door"
+    }
+  ],
+  "audio_description": "a loud crashing sound is heard, followed by a man shouting in distress.",
+  "emotion_description": "fear",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,4 @@
+# parse failure: reason=salvaged_for_generation
+# segment_id=s079
+
+[{"segment_id": "s077", "time_range": [380.0, 385.0], "visual_objective": {"people": [{"person": "a young man with messy brown hair and round glasses", "visibility": "clearly visible", "position": "foreground", "action": "looking down with a serious expression"}], "scene": {"location": "indoor room", "setting": "dimly lit, with a cluttered table in the background containing a brass armillary sphere, ropes, and a lantern."}, "objects": ["brass armillary sphere", "ropes", "lantern", "table"], "interactions": [], "key_actions": [], "visibility_notes": ""}, "visual_expression": [{"person": "a young man with messy brown hair and round glasses", "facial_cues": ["serious expression", "focused gaze"], "body_cues": [], "gaze": "downwards"}], "audio_description": "A low, sustained, and ominous musical note plays.", "emotion_description": "serious", "confidence": "high", "evidence_strength": "clear"}]

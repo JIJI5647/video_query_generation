@@ -1,0 +1,87 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a dark red top",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pushing a gurney with a body on it"
+      },
+      {
+        "person": "a man in a white shirt and apron",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "pushing a gurney with a body on it"
+      },
+      {
+        "person": "a man in a white shirt and tie",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and observing"
+      },
+      {
+        "person": "a man in a black suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and observing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with pale green walls, a wooden door, and a metal cabinet, resembling a morgue or examination room"
+    },
+    "objects": [
+      "a body on a gurney",
+      "a gurney",
+      "a metal cabinet"
+    ],
+    "interactions": [
+      "The woman and the man in the apron are moving the gurney together."
+    ],
+    "key_actions": [
+      "Pushing a gurney",
+      "Observing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a dark red top",
+      "facial_cues": [],
+      "body_cues": [
+        "pushing the gurney with effort"
+      ],
+      "gaze": "downward, focused on the gurney"
+    },
+    {
+      "person": "a man in a white shirt and apron",
+      "facial_cues": [],
+      "body_cues": [
+        "pushing the gurney with effort"
+      ],
+      "gaze": "forward, focused on the gurney"
+    },
+    {
+      "person": "a man in a white shirt and tie",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "forward, focused on the body"
+    },
+    {
+      "person": "a man in a black suit",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "forward, focused on the body"
+    }
+  ],
+  "audio_description": "A male voice asks a question, another male voice replies, and a third male voice gives a short instruction. A low, ominous musical score plays in the background.",
+  "emotion_description": "The atmosphere is tense and somber.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person wearing a black jacket",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "lying down with their hands pressed against their torso"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dark and indistinct space"
+    },
+    "objects": [
+      {
+        "description": "the person's hands and chest, which are covered in blood",
+        "visibility": "clearly visible"
+      }
+    ],
+    "interactions": [
+      "the person's hands are pressing against their chest, seemingly to stop bleeding"
+    ],
+    "key_actions": [
+      "pressing hands against torso",
+      "lying down"
+    ],
+    "visibility_notes": "The person's face is not visible; the focus is on their hands and chest."
+  },
+  "visual_expression": [
+    {
+      "person": "a person wearing a black jacket",
+      "facial_cues": [],
+      "body_cues": [
+        "hands pressed firmly against torso",
+        "body lying down"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, low-pitched, sustained electronic tone is playing.",
+  "emotion_description": "The person appears to be in pain or distress, indicated by the action of pressing their hands against a bloody torso.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

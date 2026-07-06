@@ -1,0 +1,64 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking forward"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "adjusting his tie"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a light-colored wall"
+    },
+    "objects": [
+      "a dark tie",
+      "a pair of glasses"
+    ],
+    "interactions": [
+      "the man in the light-colored shirt adjusts his tie with his hands"
+    ],
+    "key_actions": [
+      "the man in the light-colored shirt adjusting his tie"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "serious expression",
+        "frowning"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "frowning"
+      ],
+      "body_cues": [
+        "adjusting tie"
+      ],
+      "gaze": "looking down at his tie"
+    }
+  ],
+  "audio_description": "A man speaks, followed by silence.",
+  "emotion_description": "The man in the suit appears serious and concerned, while the man adjusting his tie looks focused and slightly anxious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

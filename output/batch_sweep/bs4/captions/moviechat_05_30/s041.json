@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a black cloak",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running forward"
+      },
+      {
+        "person": "a man in a dark robe",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "casting a spell"
+      }
+    ],
+    "scene": {
+      "location": "indoor bridge",
+      "setting": "dark, stone structure"
+    },
+    "objects": [
+      "a glowing green spell",
+      "a stone bridge"
+    ],
+    "interactions": [
+      "the man in the dark robe casts a spell at the person in the cloak"
+    ],
+    "key_actions": [
+      "casting a spell",
+      "running"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark robe",
+      "facial_cues": [
+        "frowning",
+        "concentrating"
+      ],
+      "body_cues": [
+        "pointing his wand",
+        "leaning forward"
+      ],
+      "gaze": "focused on the person in the cloak"
+    }
+  ],
+  "audio_description": "The audio features a loud, magical sound effect followed by a crash.",
+  "emotion_description": "intense",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

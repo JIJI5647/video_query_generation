@@ -1,0 +1,52 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "holding a pen and gesturing with his right hand while speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wooden door, a framed picture, and a potted plant in the background."
+    },
+    "objects": [
+      {
+        "object": "a pen",
+        "position": "center",
+        "action": "held by the man in the blue plaid shirt"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "gesturing with a pen",
+      "speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue plaid shirt",
+      "facial_cues": [
+        "smiling",
+        "nodding"
+      ],
+      "body_cues": [
+        "gesturing with a pen"
+      ],
+      "gaze": "towards the person on the left"
+    }
+  ],
+  "audio_description": "A man is speaking, followed by a loud buzzer sound.",
+  "emotion_description": "The man sounds excited or pleased.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,78 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a blue shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking down"
+      },
+      {
+        "person": "the woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking down"
+      },
+      {
+        "person": "the man in a light blue shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "inside a vehicle",
+      "setting": "passengers sitting in seats, looking forward"
+    },
+    "objects": [
+      {
+        "object": "a television screen",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "displaying a news report"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "passengers sitting in a vehicle",
+      "watching a news report on a screen"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a blue shirt",
+      "facial_cues": [
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "looking down"
+    },
+    {
+      "person": "the woman in a white shirt",
+      "facial_cues": [
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "looking down"
+    },
+    {
+      "person": "the man in a light blue shirt",
+      "facial_cues": [
+        "looking forward"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A news report is being broadcast on a television screen.",
+  "emotion_description": "The passengers appear calm and are focused on the news report.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

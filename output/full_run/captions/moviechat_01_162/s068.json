@@ -1,0 +1,85 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking with a distressed expression"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "right side of the table",
+        "action": "sitting at a table and listening"
+      },
+      {
+        "person": "a man in a white shirt with epaulets",
+        "visibility": "clearly visible",
+        "position": "right side of the table",
+        "action": "sitting at a table and listening"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "left side of the table",
+        "action": "sitting at a table and listening"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "partially visible",
+        "position": "left side of the table",
+        "action": "sitting at a table and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a conference room with a large table, chairs, and a television displaying a security camera feed"
+    },
+    "objects": [
+      "television",
+      "table",
+      "chairs",
+      "mugs",
+      "papers",
+      "police cap",
+      "lanyard"
+    ],
+    "interactions": [
+      "a man stands and speaks to a group of men sitting at a table"
+    ],
+    "key_actions": [
+      "standing",
+      "speaking",
+      "sitting",
+      "listening",
+      "watching a monitor"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black tie",
+      "facial_cues": [
+        "distressed",
+        "angry",
+        "tense"
+      ],
+      "body_cues": [
+        "standing",
+        "gesturing with his hand"
+      ],
+      "gaze": "towards the people sitting at the table"
+    }
+  ],
+  "audio_description": "A man is shouting aggressively.",
+  "emotion_description": "The man in the white shirt and black tie sounds angry and distressed.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

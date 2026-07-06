@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair and a beard, wearing a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking while holding a sandwich"
+      },
+      {
+        "person": "a woman with blonde hair, wearing a white shirt under a dark sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "listening and holding a sandwich"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded restaurant or cafeteria"
+    },
+    "objects": [
+      "sandwiches"
+    ],
+    "interactions": [
+      "the man and the woman are sitting across from each other and having a conversation."
+    ],
+    "key_actions": [
+      "talking",
+      "holding sandwiches"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man with dark hair and a beard",
+      "facial_cues": [
+        "speaking",
+        "looking at the woman"
+      ],
+      "body_cues": [
+        "holding a sandwich"
+      ],
+      "gaze": "looking at the woman"
+    },
+    {
+      "person": "the woman with blonde hair",
+      "facial_cues": [
+        "listening",
+        "looking at the man"
+      ],
+      "body_cues": [
+        "holding a sandwich"
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "A person is speaking, followed by a loud, sustained, low-pitched electronic buzz.",
+  "emotion_description": "The man appears to be making a point in a conversational manner, and the woman appears to be listening. The subsequent buzzer sound suggests a negative outcome, like an incorrect answer.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

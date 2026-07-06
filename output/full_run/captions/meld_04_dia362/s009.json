@@ -1,0 +1,46 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with short brown hair wearing a white lab coat and a name tag",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with a bed and medical equipment in the background"
+    },
+    "objects": [
+      "a name tag on the woman's lab coat",
+      "medical equipment"
+    ],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with short brown hair wearing a white lab coat and a name tag",
+      "facial_cues": [
+        "serious expression",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "standing straight"
+      ],
+      "gaze": "looking towards the left of the frame"
+    }
+  ],
+  "audio_description": "A woman's voice is speaking in a neutral, informative tone.",
+  "emotion_description": "The woman appears to be speaking in a serious and professional manner.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

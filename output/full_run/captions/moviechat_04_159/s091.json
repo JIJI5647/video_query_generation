@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s091",
+  "time_range": [
+    450.0,
+    455.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing a white shirt and headphones",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting at a desk and speaking into a headset microphone"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "sitting at a desk, out of focus"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or operations center with a laptop, papers, and a world map on the wall"
+    },
+    "objects": [
+      "laptop",
+      "headphones",
+      "desk",
+      "map"
+    ],
+    "interactions": [
+      "the man in the background is speaking into his headset"
+    ],
+    "key_actions": [
+      "the man in the background speaking into his headset"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing a white shirt and headphones",
+      "facial_cues": [
+        "focused expression",
+        "mouth moving"
+      ],
+      "body_cues": [
+        "hand holding the headset microphone"
+      ],
+      "gaze": "looking down at the laptop"
+    }
+  ],
+  "audio_description": "A man speaks in a calm, clear voice.",
+  "emotion_description": "Calm and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

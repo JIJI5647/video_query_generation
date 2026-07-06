@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with glasses and messy dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking and talking to a woman beside him"
+      },
+      {
+        "person": "a woman with long red hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking and talking to the man beside her"
+      }
+    ],
+    "scene": {
+      "location": "indoor stone corridor",
+      "setting": "a large, dimly lit hall with stone architecture and stairs in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man and the woman stop walking and face each other.",
+      "The man gently places his hand on the woman's neck.",
+      "They lean in and kiss."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man with glasses and messy dark hair",
+      "facial_cues": [
+        "wearing round glasses",
+        "showing a focused and slightly anxious expression",
+        "kissing the woman"
+      ],
+      "body_cues": [
+        "places his hand on the woman's neck"
+      ],
+      "gaze": "looking at the woman"
+    },
+    {
+      "person": "the woman with long red hair",
+      "facial_cues": [
+        "showing a focused expression",
+        "kissing the man"
+      ],
+      "body_cues": [
+        "places her hand on the man's neck"
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "A man shouts urgently in the background, followed by a loud crash and a woman screaming in distress.",
+  "emotion_description": "Urgent and distressed",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

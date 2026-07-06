@@ -1,0 +1,63 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking, gesturing with his hands"
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room or apartment with a couch and a wall sconce lamp"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the pink plaid shirt speaks and gestures.",
+      "The man in the blue plaid shirt listens and responds."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "speaking",
+        "gesturing"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "towards the other man"
+    },
+    {
+      "person": "a man in a blue plaid shirt",
+      "facial_cues": [
+        "listening",
+        "responding"
+      ],
+      "body_cues": [
+        "nodding"
+      ],
+      "gaze": "towards the other man"
+    }
+  ],
+  "audio_description": "Two people are having a conversation.",
+  "emotion_description": "Neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

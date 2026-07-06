@@ -1,0 +1,76 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long dark hair in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "trying to open a white door with a knife in her hand"
+      },
+      {
+        "person": "a young boy in a red and green striped sweater",
+        "visibility": "clearly visible",
+        "position": "in front of the woman",
+        "action": "hugging the woman's waist"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "white paneled walls and a white door"
+    },
+    "objects": [
+      {
+        "name": "knife",
+        "position": "in the woman's hand",
+        "action": "used to pick the lock"
+      },
+      {
+        "name": "door",
+        "position": "in front of the woman",
+        "action": "being picked"
+      }
+    ],
+    "interactions": [
+      "The boy is clinging to the woman as she tries to open the door."
+    ],
+    "key_actions": [
+      "The woman is using a knife to pick the lock of the door."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman",
+      "facial_cues": [
+        "focused",
+        "intense"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hands gripping the knife and door handle"
+      ],
+      "gaze": "down at the door lock"
+    },
+    {
+      "person": "the boy",
+      "facial_cues": [
+        "scared",
+        "anxious"
+      ],
+      "body_cues": [
+        "hugging the woman tightly"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, metallic scraping and clanking sound, like a large lock being forced.",
+  "emotion_description": "Fear and desperation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

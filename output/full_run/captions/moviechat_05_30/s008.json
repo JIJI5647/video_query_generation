@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a knight in full armor",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in formation with other knights"
+      },
+      {
+        "person": "other knights in armor",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing in formation"
+      }
+    ],
+    "scene": {
+      "location": "outdoor area",
+      "setting": "a large group of knights in dark, medieval-style armor stand in formation. The background is dark and appears to be a forest or a castle courtyard at night or dusk."
+    },
+    "objects": [
+      {
+        "object": "knight's helmet",
+        "position": "on the knight in the foreground",
+        "visibility": "clearly visible"
+      },
+      {
+        "object": "knight's armor",
+        "position": "on all knights",
+        "visibility": "clearly visible"
+      },
+      {
+        "object": "spear",
+        "position": "held by the knights",
+        "visibility": "clearly visible"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "standing in formation"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a knight in full armor",
+      "facial_cues": [],
+      "body_cues": [
+        "standing rigidly"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "There is a continuous, low-frequency humming or drone sound.",
+  "emotion_description": "The scene conveys a sense of tension, anticipation, and solemnity.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of men in dark uniforms",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "descending a staircase"
+      },
+      {
+        "person": "a man in a light-colored collared shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking down the staircase"
+      }
+    ],
+    "scene": {
+      "location": "indoor staircase",
+      "setting": "a dimly lit building interior with metal railings"
+    },
+    "objects": [],
+    "interactions": [
+      "The men in uniform are walking down the stairs behind the man in the light-colored shirt."
+    ],
+    "key_actions": [
+      "A group of men in dark uniforms walks down a flight of stairs, following a man in a light-colored shirt."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored collared shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "walking down the stairs"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The sound of many footsteps running down a staircase is heard.",
+  "emotion_description": "The situation appears tense and urgent.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

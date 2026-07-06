@@ -1,0 +1,65 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a beige sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch, then getting up and walking away"
+      },
+      {
+        "person": "a woman in a red top",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch, giving a thumbs-up gesture"
+      },
+      {
+        "person": "a man in a black sweater",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and interacting with someone off-screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch, a coffee table, and a bar area in the background"
+    },
+    "objects": [
+      "a brown couch",
+      "a coffee table",
+      "a bar with bottles and glasses"
+    ],
+    "interactions": [
+      "the man in the beige sweater gets up and walks away from the couch"
+    ],
+    "key_actions": [
+      "the man in the beige sweater getting up and walking away",
+      "the woman in the red top giving a thumbs-up"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a red top",
+      "facial_cues": [
+        "smiling",
+        "giving a thumbs-up gesture"
+      ],
+      "body_cues": [
+        "sitting on a couch",
+        "giving a thumbs-up gesture"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The audio contains overlapping speech from multiple people.",
+  "emotion_description": "The woman in the red top appears to be happy and supportive, while the other people's emotions are unclear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

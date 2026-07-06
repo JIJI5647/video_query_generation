@@ -1,0 +1,83 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting in a chair and looking down"
+      },
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "background, left",
+        "action": "standing and looking at a monitor"
+      },
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "background, center",
+        "action": "sitting at a table and looking at papers"
+      },
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "background, right",
+        "action": "sitting at a table and looking down"
+      },
+      {
+        "person": "a man in a dark uniform shirt",
+        "visibility": "clearly visible",
+        "position": "background, left",
+        "action": "sitting at a table and looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office meeting room with a large table, chairs, and a monitor on a stand."
+    },
+    "objects": [
+      "a large dark table",
+      "black office chairs",
+      "a monitor on a stand",
+      "pink papers",
+      "white mugs",
+      "a black hat"
+    ],
+    "interactions": [
+      "The man in the background on the left is standing and observing the monitor."
+    ],
+    "key_actions": [
+      "The man in the foreground is sitting and looking down."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and dark tie",
+      "facial_cues": [],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man in a white shirt and dark tie",
+      "facial_cues": [],
+      "body_cues": [
+        "standing with hands on hips"
+      ],
+      "gaze": "towards the monitor"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, clear voice.",
+  "emotion_description": "The man speaking sounds serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

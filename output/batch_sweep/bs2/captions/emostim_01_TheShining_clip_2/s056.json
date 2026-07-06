@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark red shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "poking his head through a broken door and grinning maniacally"
+      },
+      {
+        "person": "a woman in a blue sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing against a wall, holding a large knife and screaming"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hallway or room with a damaged door and white walls"
+    },
+    "objects": [
+      "large knife",
+      "broken door"
+    ],
+    "interactions": [
+      "the man peers through the broken door at the woman"
+    ],
+    "key_actions": [
+      "the man grins maniacally",
+      "the woman screams and holds a knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark red shirt",
+      "facial_cues": [
+        "wide, toothy grin",
+        "manic expression"
+      ],
+      "body_cues": [
+        "poking head through the door"
+      ],
+      "gaze": "towards the woman"
+    }
+  ],
+  "audio_description": "a man's voice says, 'Here's Johnny,' followed by a woman screaming in terror.",
+  "emotion_description": "terrified",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

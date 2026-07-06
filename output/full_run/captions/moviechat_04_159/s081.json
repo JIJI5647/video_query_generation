@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and looking towards the right"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "looking down at a computer screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark room with computer monitors"
+    },
+    "objects": [
+      "computer monitor",
+      "headphones"
+    ],
+    "interactions": [
+      "the man in the suit looks towards the man in the white shirt"
+    ],
+    "key_actions": [
+      "the man in the suit turning his head to look at the other man",
+      "the man in the white shirt looking intently at a computer screen"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "frowning",
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking towards the right"
+    },
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "frowning",
+        "concentrated expression"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking down at a computer screen"
+    }
+  ],
+  "audio_description": "A man is speaking in a tense and urgent tone.",
+  "emotion_description": "The men appear to be in a serious and tense situation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

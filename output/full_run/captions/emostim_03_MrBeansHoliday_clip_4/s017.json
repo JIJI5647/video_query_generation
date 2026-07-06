@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown suit and red tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle"
+      }
+    ],
+    "scene": {
+      "location": "outdoor road",
+      "setting": "a paved road in a dry, hilly landscape with sparse vegetation and power lines under a clear sky"
+    },
+    "objects": [
+      {
+        "object": "bicycle",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being ridden"
+      },
+      {
+        "object": "white car",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "parked on the side of the road"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The man rides his bicycle on the road.",
+        "participants": [
+          "a man in a brown suit and red tie",
+          "bicycle"
+        ]
+      }
+    ],
+    "key_actions": [
+      "a man riding a bicycle"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown suit and red tie",
+      "facial_cues": [
+        "staring straight ahead",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "holding the handlebars",
+        "leaning forward"
+      ],
+      "gaze": "straight ahead"
+    }
+  ],
+  "audio_description": "An upbeat, rhythmic instrumental music with a strong drum beat and a prominent electric guitar riff plays.",
+  "emotion_description": "The man appears focused and determined.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

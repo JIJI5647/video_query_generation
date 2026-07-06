@@ -1,0 +1,73 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in dark robes",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being propelled backward through a stone wall, arms flailing, as debris flies around him."
+      },
+      {
+        "person": "students",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running down stone stairs"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark, stone-walled corridor or tower interior."
+    },
+    "objects": [
+      {
+        "object": "stone wall",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being shattered by a forceful impact."
+      },
+      {
+        "object": "debris",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "flying through the air."
+      },
+      {
+        "object": "stone stairs",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "being run down by students."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "A man is violently thrown backward through a wall.",
+      "Students run down stairs in panic."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in dark robes",
+      "facial_cues": [
+        "screaming",
+        "mouth open",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "arms flailing",
+        "body contorted"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, dramatic crash is followed by a deep, echoing roar.",
+  "temporal_description": "The audio begins with a loud crash, immediately followed by a deep, echoing roar.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

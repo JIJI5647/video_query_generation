@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pressing his hands to his head"
+      },
+      {
+        "person": "a person in a dark suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room"
+    },
+    "objects": [
+      "a computer monitor"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man pressing his hands to his head",
+      "the person in the dark suit standing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "furrowed brow",
+        "strained expression"
+      ],
+      "body_cues": [
+        "pressing hands to head"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud, sustained, low-pitched electronic tone is heard.",
+  "emotion_description": "The man in the white shirt appears to be in distress or experiencing intense pain.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

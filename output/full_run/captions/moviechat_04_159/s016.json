@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and holding a lit cigarette to his mouth"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "left foreground",
+        "action": "sitting and holding a lit cigarette"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit, with a focused light on the people"
+    },
+    "objects": [
+      {
+        "object": "cigarette",
+        "position": "held in the hands of both men"
+      }
+    ],
+    "interactions": [
+      "The two men are sitting close to each other, facing one another."
+    ],
+    "key_actions": [
+      "The man in glasses brings a cigarette to his mouth.",
+      "The man on the left brings a cigarette to his mouth."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "He is looking forward with a neutral expression."
+      ],
+      "body_cues": [
+        "He is sitting and holding a cigarette."
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "He is looking forward with a neutral expression."
+      ],
+      "body_cues": [
+        "He is sitting and holding a cigarette."
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man shouts urgently in Mandarin.",
+  "emotion_description": "The shouting man sounds urgent and panicked.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

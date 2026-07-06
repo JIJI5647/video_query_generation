@@ -1,0 +1,61 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "bending down and picking something up from the floor"
+      },
+      {
+        "person": "the man in the blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and watching the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a furnished room with a beige couch and a wall sconce"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the pink shirt picks something up from the floor."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the pink plaid shirt",
+      "facial_cues": [
+        "bending over"
+      ],
+      "body_cues": [
+        "bending down",
+        "picking something up"
+      ],
+      "gaze": "downwards"
+    },
+    {
+      "person": "the man in the blue plaid shirt",
+      "facial_cues": [
+        "watching"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "at the other man"
+    }
+  ],
+  "audio_description": "A male voice is heard speaking.",
+  "temporal_description": "A male voice speaks at the beginning of the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

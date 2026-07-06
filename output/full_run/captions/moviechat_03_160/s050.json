@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a walkie-talkie to his mouth and speaking into it"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a computer monitor and a framed picture in the background"
+    },
+    "objects": [
+      "walkie-talkie",
+      "earpiece",
+      "computer monitor",
+      "framed picture"
+    ],
+    "interactions": [
+      "the man speaking into the walkie-talkie"
+    ],
+    "key_actions": [
+      "speaking into a walkie-talkie"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "focused expression",
+        "mouth open as if speaking"
+      ],
+      "body_cues": [
+        "holding a walkie-talkie"
+      ],
+      "gaze": "looking slightly to the side"
+    }
+  ],
+  "audio_description": "A man's voice speaks clearly over a radio transmission.",
+  "emotion_description": "The man's tone is serious and focused, suggesting a sense of urgency or command.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

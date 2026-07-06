@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue shirt and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a walkie-talkie to his ear and speaking into it"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a window covered by blinds in the background"
+    },
+    "objects": [
+      "walkie-talkie",
+      "microphone stand"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "speaking into the walkie-talkie"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue shirt and tie",
+      "facial_cues": [
+        "focused expression",
+        "mouth moving as he speaks"
+      ],
+      "body_cues": [
+        "holding the walkie-talkie to his ear with his right hand"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a clear, direct, and commanding tone over a communication device.",
+  "emotion_description": "The man's expression and tone suggest he is giving an order or delivering urgent information with a sense of authority.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

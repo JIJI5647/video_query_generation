@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a maroon shirt and dark pants",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking into a room, holding a large axe over his shoulder"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with pink walls, a refrigerator, a desk, and a bed in an adjoining space"
+    },
+    "objects": [
+      "axe",
+      "refrigerator",
+      "desk",
+      "bed",
+      "lamp"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man walking",
+      "man holding axe"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a maroon shirt and dark pants",
+      "facial_cues": [],
+      "body_cues": [
+        "walking with a purposeful stride",
+        "holding an axe over his shoulder"
+      ],
+      "gaze": "straight ahead"
+    }
+  ],
+  "audio_description": "The audio contains the sound of a vehicle, possibly a truck, passing by.",
+  "emotion_description": "The man's expression is not clearly visible, but his determined posture and the weapon he carries suggest a threatening or menacing demeanor.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

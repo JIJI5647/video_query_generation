@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning forward and speaking urgently"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning in and speaking urgently"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "The interior of a car at night, with the seats visible."
+    },
+    "objects": [
+      "car seats"
+    ],
+    "interactions": [
+      "The two men are leaning towards each other, speaking urgently in a confrontational manner."
+    ],
+    "key_actions": [
+      "Speaking urgently",
+      "Leaning forward and in"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "Sweating",
+        "Intense expression",
+        "Mouth open as if shouting"
+      ],
+      "body_cues": [
+        "Leaning forward aggressively"
+      ],
+      "gaze": "Looking at the other man"
+    },
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "Mouth open as if shouting"
+      ],
+      "body_cues": [
+        "Leaning in aggressively"
+      ],
+      "gaze": "Looking at the other man"
+    }
+  ],
+  "audio_description": "A loud, sustained, low-pitched horn sound, like a train or large vehicle, is heard, followed by a male voice speaking urgently in a tense tone.",
+  "emotion_description": "The two men are in a state of panic and extreme urgency, as indicated by their shouting and intense facial expressions.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

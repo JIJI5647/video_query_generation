@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with short, gray hair wearing a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking on a silver flip phone held to his right ear"
+      },
+      {
+        "person": "a man with dark hair wearing a dark shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking on a black flip phone held to his right ear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a blurred background that includes a sign with Chinese characters"
+    },
+    "objects": [
+      "a silver flip phone",
+      "a black flip phone"
+    ],
+    "interactions": [
+      "Each man is independently on a phone call"
+    ],
+    "key_actions": [
+      "talking on a flip phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with short, gray hair wearing a light-colored suit jacket",
+      "facial_cues": [
+        "focusing gaze",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with dark hair wearing a dark shirt",
+      "facial_cues": [
+        "focusing gaze",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man speaks in a serious, tense tone over a radio or phone transmission.",
+  "emotion_description": "The man's tone of voice suggests he is serious and tense, as if giving an important report.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

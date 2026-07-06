@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "answering a phone call"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a window in the background"
+    },
+    "objects": [
+      "a mobile phone"
+    ],
+    "interactions": [
+      "the man is holding the phone to his ear"
+    ],
+    "key_actions": [
+      "answering a phone call"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "hand holding the phone to his ear"
+      ],
+      "gaze": "looking to the side"
+    }
+  ],
+  "audio_description": "A phone rings, followed by a male voice speaking.",
+  "emotion_description": "The man appears serious and focused, suggesting a tense or important conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

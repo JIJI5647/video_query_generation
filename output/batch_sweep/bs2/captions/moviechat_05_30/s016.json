@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in the center with long brown hair and a dark, ornate jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing still, holding a wand, looking forward with a tense expression."
+      },
+      {
+        "person": "a group of people surrounding the man",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing in a line, some holding wands."
+      }
+    ],
+    "scene": {
+      "location": "outdoor",
+      "setting": "a dark, open field at night."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": "The scene is very dark, making details hard to discern."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in the center with long brown hair and a dark, ornate jacket",
+      "facial_cues": [
+        "tense expression"
+      ],
+      "body_cues": [
+        "holding a wand"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "a low, ominous, sustained musical drone.",
+  "emotion_description": "tension",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

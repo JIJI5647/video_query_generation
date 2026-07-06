@@ -1,0 +1,80 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking forward with a serious expression"
+      },
+      {
+        "person": "a man in a dark suit and striped tie",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "handing a paper to another man"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "receiving a paper from the man in the suit"
+      },
+      {
+        "person": "other men",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and observing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or briefing room with a large map on a board in the background"
+    },
+    "objects": [
+      "a paper",
+      "a large map on a board"
+    ],
+    "interactions": [
+      "the man in the suit hands a paper to the man in the light-colored shirt"
+    ],
+    "key_actions": [
+      "handing over a paper",
+      "observing the interaction"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt and dark tie",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a dark suit and striped tie",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "handing over a paper"
+      ],
+      "gaze": "looking at the person receiving the paper"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, narrative tone.",
+  "emotion_description": "The mood appears serious and focused, consistent with a briefing or strategic discussion.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,64 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "grabbing the boy and pulling him towards her"
+      },
+      {
+        "person": "a young boy in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being hugged by the woman, still holding the knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor bedroom",
+      "setting": "dimly lit with a lamp on a nightstand"
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held by the boy"
+      }
+    ],
+    "interactions": [
+      "the woman grabs the boy",
+      "the woman hugs the boy"
+    ],
+    "key_actions": [
+      "the woman grabbing the boy",
+      "the woman hugging the boy"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth",
+        "scared expression"
+      ],
+      "body_cues": [
+        "grabbing the boy",
+        "hugging the boy"
+      ],
+      "gaze": "at the boy"
+    }
+  ],
+  "audio_description": "The woman is shouting in a panicked and distressed tone.",
+  "emotion_description": "Panicked",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

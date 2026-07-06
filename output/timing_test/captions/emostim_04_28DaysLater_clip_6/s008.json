@@ -1,0 +1,42 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person with a blood-covered face",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "looking up"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark and dimly lit, with a greenish wall in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person with a blood-covered face",
+      "facial_cues": [
+        "blood on face",
+        "closed eyes",
+        "head tilted upward"
+      ],
+      "body_cues": [],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "A loud scream is heard.",
+  "emotion_description": "fear",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

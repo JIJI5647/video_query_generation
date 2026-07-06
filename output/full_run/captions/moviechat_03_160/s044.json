@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking upwards with his mouth open"
+      },
+      {
+        "person": "a bald man",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark environment with only a small light source"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the dark jacket looks up with his mouth open."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "mouth open",
+        "eyes looking up"
+      ],
+      "body_cues": [],
+      "gaze": "looking upwards"
+    },
+    {
+      "person": "a bald man",
+      "facial_cues": [
+        "calm expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A man shouts, followed by a loud, low-pitched, sustained electronic tone.",
+  "emotion_description": "The shouting man appears to be surprised or alarmed.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

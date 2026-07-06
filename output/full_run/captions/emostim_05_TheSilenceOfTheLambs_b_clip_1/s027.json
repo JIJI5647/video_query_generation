@@ -1,0 +1,71 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing glasses and a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down"
+      },
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down"
+      },
+      {
+        "person": "a person wearing gloves",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "using tweezers on a wound"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a medical or surgical procedure is taking place"
+    },
+    "objects": [
+      "glasses",
+      "tweezers",
+      "wound",
+      "gloves"
+    ],
+    "interactions": [
+      "a person uses tweezers to extract something from a wound"
+    ],
+    "key_actions": [
+      "extracting material from a wound"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing glasses and a white shirt",
+      "facial_cues": [
+        "serious expression",
+        "frowning"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "focused expression",
+        "frowning"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A continuous, high-pitched, electronic tone plays in the background.",
+  "emotion_description": "The individuals' expressions suggest they are focused and serious about the medical procedure.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the black shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and talking"
+      },
+      {
+        "person": "the man in the grey sweater",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a kitchen with cabinets, a stove, and a counter"
+    },
+    "objects": [
+      "kitchen counter",
+      "white stove",
+      "kitchen cabinets",
+      "red cup",
+      "black phone",
+      "microwave"
+    ],
+    "interactions": [
+      "the two men are facing each other and having a conversation"
+    ],
+    "key_actions": [
+      "talking",
+      "gesturing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the black shirt",
+      "facial_cues": [
+        "brow furrowed",
+        "mouth open",
+        "intense expression"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "looking at the man in the grey sweater"
+    },
+    {
+      "person": "the man in the grey sweater",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised",
+        "intense expression"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking at the man in the black shirt"
+    }
+  ],
+  "audio_description": "Two male voices are speaking in an argumentative tone.",
+  "emotion_description": "The two men sound angry and are arguing.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s073",
+  "time_range": [
+    360.0,
+    365.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and then slowly turning his head to the right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a dark, indistinct background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man slowly turns his head to the right"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt and dark tie",
+      "facial_cues": [
+        "Looking down with a somber expression"
+      ],
+      "body_cues": [
+        "Slow, deliberate head movement"
+      ],
+      "gaze": "Looking down, then towards the right"
+    }
+  ],
+  "audio_description": "A male voice speaks in a serious and apologetic tone.",
+  "emotion_description": "The man appears somber and apologetic.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

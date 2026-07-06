@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a beard and messy hair wearing a red jacket over a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "shouting and turning away from the camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with beige walls, a lamp, a bed, and a bookshelf"
+    },
+    "objects": [
+      "lamp",
+      "bed",
+      "bookshelf",
+      "door",
+      "framed picture"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "shouting",
+      "turning away",
+      "holding a piece of paper"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a beard and messy hair wearing a red jacket over a plaid shirt",
+      "facial_cues": [
+        "mouth open",
+        "eyes wide",
+        "intense expression"
+      ],
+      "body_cues": [
+        "turning away from the camera",
+        "holding a piece of paper"
+      ],
+      "gaze": "to the side"
+    }
+  ],
+  "audio_description": "A man is shouting with a strained and intense voice.",
+  "emotion_description": "Angry",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

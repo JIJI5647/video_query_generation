@@ -1,0 +1,45 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking into a walkie-talkie"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with shelves in the background"
+    },
+    "objects": [
+      "walkie-talkie",
+      "earpiece"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man speaking into walkie-talkie"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking to the side"
+    }
+  ],
+  "audio_description": "A male voice is shouting urgently in a foreign language.",
+  "emotion_description": "The man appears focused and serious, suggesting a tense or urgent situation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,4 @@
+# parse failure: reason=missing_or_invalid_in_batch
+# segment_id=s038
+
+[{"segment_id": "s037", "time_range": [180.0, 185.0], "visual_objective": {"people": [{"person": "a woman in a purple jacket", "visibility": "clearly visible", "position": "foreground", "action": "lying in the snow, struggling to get up"}], "scene": {"location": "outdoors", "setting": "a snowy area next to a wooden structure at night"}, "objects": [], "interactions": [], "key_actions": ["struggling to get up"], "visibility_notes": ""}, "visual_expression": [{"person": "a woman in a purple jacket", "facial_cues": ["struggling"], "body_cues": ["lying on back", "hands pushing against snow"], "gaze": "upwards"}], "audio_description": "a low, continuous hum or drone, possibly from machinery or electronics, is audible in the background.", "emotion_description": "struggling", "confidence": "high", "evidence_strength": "clear"}]

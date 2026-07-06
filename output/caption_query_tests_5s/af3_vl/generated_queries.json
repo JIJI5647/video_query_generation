@@ -1,0 +1,67 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "queries": [
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q01",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman with shoulder-length dark hair, wearing a green jacket, have her mouth slightly open and look off-screen?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        5.0,
+        10.0
+      ],
+      "segment_ids": [
+        "s002"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "head turned slightly to her right, looking toward something or someone off-screen",
+          "mouth slightly open"
+        ],
+        "audio_evidence": [
+          "male voice singing in a low pitch, with a slow tempo and a sad tone"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s002"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_q02",
+      "query_type": "explicit_event",
+      "query_text": "When does the woman with shoulder-length dark hair appear to be in a dimly lit space with brick walls, looking off-screen while a sad male voice sings?",
+      "grounding_event_description": "",
+      "approximate_grounding_time": null,
+      "target_person_or_group": "",
+      "expected_evidence": [],
+      "why_grounded": "",
+      "time_range": [
+        5.0,
+        10.0
+      ],
+      "segment_ids": [
+        "s002"
+      ],
+      "grounding_evidence": {
+        "visual_evidence": [
+          "woman partially visible in a dimly lit, narrow space with brick walls",
+          "head turned slightly to her right, looking toward something or someone off-screen",
+          "gaze is directed forward",
+          "mouth slightly open"
+        ],
+        "audio_evidence": [
+          "male voice singing in a low pitch, with a slow tempo and a sad tone"
+        ]
+      },
+      "source_caption_ids": [
+        "emostim_07_TheSilenceOfTheLambs_a_clip_2_s002"
+      ]
+    }
+  ]
+}

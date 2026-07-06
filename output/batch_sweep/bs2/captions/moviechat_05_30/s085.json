@@ -1,0 +1,91 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man with blonde hair",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "holding a wand and pointing it forward"
+      },
+      {
+        "person": "two other men",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing behind the blonde-haired man, holding wands and pointing them forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered and dimly lit room, possibly a junk shop or storage area, filled with various objects and furniture."
+    },
+    "objects": [
+      {
+        "object": "wands",
+        "visibility": "clearly visible",
+        "position": "in the hands of the men in the background",
+        "action": "being held and pointed forward"
+      }
+    ],
+    "interactions": [
+      "The three men in the background are standing together, all pointing their wands forward at the man in the foreground."
+    ],
+    "key_actions": [
+      "The blonde-haired man and the two men behind him are pointing their wands forward at the man with dark hair and glasses."
+    ],
+    "visibility_notes": "The man with dark hair and glasses is clearly visible in the foreground, while the three men in the background are also clearly visible. The room is dark, making some details harder to discern, but the main subjects are clearly visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair and glasses",
+      "facial_cues": [
+        "neutral expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "standing upright",
+        "arms at sides"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man with blonde hair",
+      "facial_cues": [
+        "focused expression",
+        "serious gaze"
+      ],
+      "body_cues": [
+        "standing straight",
+        "arm extended"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "two other men",
+      "facial_cues": [
+        "focused expression",
+        "serious gaze"
+      ],
+      "body_cues": [
+        "standing straight",
+        "arms extended"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking, followed by a female voice, in what sounds like a tense conversation.",
+  "emotion_description": "The man with dark hair and glasses appears to be serious and focused. The men in the background appear to be tense and confrontational.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with glasses and brown hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking, then stopping to embrace and kiss a woman"
+      },
+      {
+        "person": "a woman with long red hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking, then stopping to embrace and kiss a man"
+      }
+    ],
+    "scene": {
+      "location": "indoor hall",
+      "setting": "a large, stone-walled hall with a wide staircase in the background, where other people are running."
+    },
+    "objects": [],
+    "interactions": [
+      "the man and the woman embrace and kiss."
+    ],
+    "key_actions": [
+      "the man and woman walking towards each other, embracing, and kissing."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man with glasses and brown hair",
+      "facial_cues": [
+        "his mouth is open as if speaking or shouting",
+        "his eyes are wide with urgency"
+      ],
+      "body_cues": [
+        "he grabs the woman's face with his hand",
+        "his posture is tense and urgent"
+      ],
+      "gaze": "looking directly at the woman"
+    },
+    {
+      "person": "the woman with long red hair",
+      "facial_cues": [
+        "her eyes are closed as she kisses the man"
+      ],
+      "body_cues": [
+        "she places her hand on the man's neck"
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "A man is shouting urgently in a tense, dramatic scene.",
+  "emotion_description": "The man appears to be in a state of high urgency and fear, while the woman seems to be in a moment of passionate intimacy.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

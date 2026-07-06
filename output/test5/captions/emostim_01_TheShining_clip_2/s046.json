@@ -1,0 +1,47 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long hair and a beard, wearing a red jacket and a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking around with a shocked expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with beige walls and a door in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man looks around with a shocked expression, then turns and walks towards a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long hair and a beard, wearing a red jacket and a plaid shirt",
+      "facial_cues": [
+        "wide open mouth",
+        "wide eyes",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "turned away from the camera",
+        "walking towards the door"
+      ],
+      "gaze": "looking around the room"
+    }
+  ],
+  "audio_description": "a male voice speaking with a strained and forceful tone",
+  "temporal_description": "the audio begins with a deep breath, followed by the man speaking in a strained voice.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

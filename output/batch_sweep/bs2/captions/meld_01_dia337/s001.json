@@ -1,0 +1,86 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "bending over and looking into a suitcase on the couch."
+      },
+      {
+        "person": "the man in the blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and gesturing with his hands while talking to the other man."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hotel room with a couch, a side table, and a door with the number 232."
+    },
+    "objects": [
+      {
+        "object": "suitcase",
+        "visibility": "clearly visible",
+        "position": "on the couch",
+        "action": "open and being packed by the man in the pink shirt."
+      },
+      {
+        "object": "couch",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "serving as a surface for the suitcase."
+      },
+      {
+        "object": "door",
+        "visibility": "clearly visible",
+        "position": "right background",
+        "action": "closed with the number 232 on it."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The man in the blue shirt questions the man in the pink shirt about packing items."
+      }
+    ],
+    "key_actions": [
+      "The man in the pink shirt packs items into a suitcase.",
+      "The man in the blue shirt questions him about it."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the pink plaid shirt",
+      "facial_cues": [
+        "surprised expression",
+        "raised eyebrows",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "bent over the suitcase"
+      ],
+      "gaze": "looking at the man in the blue shirt."
+    },
+    {
+      "person": "the man in the blue plaid shirt",
+      "facial_cues": [
+        "inquisitive expression"
+      ],
+      "body_cues": [
+        "gesturing with his hands"
+      ],
+      "gaze": "looking at the man in the pink shirt."
+    }
+  ],
+  "audio_description": "A male voice questions another male voice in a casual, indoor setting.",
+  "emotion_description": "Inquisitive",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

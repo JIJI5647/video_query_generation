@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with shaggy blond hair wearing a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and holding a large knife in one hand and a small red object in the other."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a television, a lamp, and a desk."
+    },
+    "objects": [
+      "a large knife",
+      "a small red object",
+      "a television",
+      "a lamp",
+      "a desk"
+    ],
+    "interactions": [
+      "the boy is holding the knife and the small red object."
+    ],
+    "key_actions": [
+      "the boy is holding a knife and a small red object, looking at them."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with shaggy blond hair wearing a striped sweater",
+      "facial_cues": [
+        "focused expression",
+        "neutral facial expression"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking at the knife and the small red object."
+    }
+  ],
+  "audio_description": "A child's voice is heard speaking in a low, soft tone.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

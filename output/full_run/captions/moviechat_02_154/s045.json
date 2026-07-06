@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and holding his hand to his face"
+      },
+      {
+        "person": "a man in a white and black striped shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing with his arm extended"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, grassy area"
+    },
+    "objects": [
+      "a black car"
+    ],
+    "interactions": [
+      "The two men are standing near the black car"
+    ],
+    "key_actions": [
+      "The man in the dark shirt holds his hand to his face",
+      "The man in the striped shirt extends his arm"
+    ],
+    "visibility_notes": "The scene is dark, and the people are only partially visible in the dim light."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "Holding his hand to his face"
+      ],
+      "gaze": "Unclear"
+    },
+    {
+      "person": "a man in a white and black striped shirt",
+      "facial_cues": [],
+      "body_cues": [
+        "Standing with his arm extended"
+      ],
+      "gaze": "Unclear"
+    }
+  ],
+  "audio_description": "A low, somber, and dramatic orchestral music piece plays, creating a tense and suspenseful atmosphere.",
+  "emotion_description": "The overall mood is tense and suspenseful, likely due to the dramatic music and the mysterious nighttime setting.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,79 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "entering a room and walking towards a couch"
+      },
+      {
+        "person": "a man in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and observing the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch, a side table, and a wooden door"
+    },
+    "objects": [
+      {
+        "object": "a couch",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "being approached by the man in the pink shirt"
+      },
+      {
+        "object": "a suitcase",
+        "visibility": "clearly visible",
+        "position": "on the couch",
+        "action": "being opened by the man in the pink shirt"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "the man in the pink shirt is opening a suitcase while the man in the blue shirt watches him"
+      }
+    ],
+    "key_actions": [
+      "entering a room",
+      "opening a suitcase",
+      "standing and observing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "surprised expression"
+      ],
+      "body_cues": [
+        "leaning forward to look inside the suitcase"
+      ],
+      "gaze": "looking into the suitcase"
+    },
+    {
+      "person": "a man in a blue patterned shirt",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "standing still, hands at sides"
+      ],
+      "gaze": "looking at the man in the pink shirt"
+    }
+  ],
+  "audio_description": "A man is speaking, followed by a buzzer sound.",
+  "emotion_description": "The man in the pink shirt seems surprised or concerned, while the man in the blue shirt appears neutral or slightly curious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

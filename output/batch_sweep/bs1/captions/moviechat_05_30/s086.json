@@ -1,0 +1,83 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s086",
+  "time_range": [
+    425.0,
+    430.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with platinum blonde hair in a black robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing a wand forward"
+      },
+      {
+        "person": "a man with short dark hair in a black robe",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "pointing a wand forward"
+      },
+      {
+        "person": "a man with short dark hair in a black robe",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "pointing a wand forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, cluttered room with various objects and equipment in the background, possibly a laboratory or workshop."
+    },
+    "objects": [
+      {
+        "object": "wands",
+        "visibility": "clearly visible",
+        "position": "held by the people",
+        "action": "pointed forward"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "three men pointing wands forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with platinum blonde hair in a black robe",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "arm extended",
+        "hand gripping wand"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with short dark hair in a black robe",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "",
+      "visibility": "clearly visible",
+      "position": "left",
+      "action": "pointing a wand forward"
+    },
+    {
+      "person": "a man with short dark hair in a black robe",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "",
+      "visibility": "clearly visible",
+      "position": "right",
+      "action": "pointing a wand forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in a low, serious tone.",
+  "emotion_description": "serious",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

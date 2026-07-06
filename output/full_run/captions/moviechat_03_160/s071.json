@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in an office, turning his head from looking down at a desk to looking forward with a serious expression."
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "interacting with an older man, adjusting something on his chest."
+      },
+      {
+        "person": "an older man with white hair",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "being interacted with by the man in the black shirt."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or briefing room with desks, computers, and a bulletin board."
+    },
+    "objects": [
+      "bulletin board",
+      "desk",
+      "computer"
+    ],
+    "interactions": [
+      "The man in the black shirt is interacting with the older man."
+    ],
+    "key_actions": [
+      "The man in the suit turns his head and looks forward.",
+      "The man in the black shirt adjusts something on the older man's chest."
+    ],
+    "visibility_notes": "The scene is dimly lit, giving it a tense atmosphere."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression",
+        "staring"
+      ],
+      "body_cues": [
+        "standing with a rigid posture"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "concentrated expression"
+      ],
+      "body_cues": [
+        "leaning in towards the older man"
+      ],
+      "gaze": "looking down at the older man"
+    }
+  ],
+  "audio_description": "A male voice speaks in a commanding tone, followed by the sound of a door or object being slammed shut.",
+  "emotion_description": "The man in the suit appears stern and authoritative, while the interaction in the background seems tense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating a sandwich"
+      },
+      {
+        "person": "a woman with blonde hair in a dark sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking and gesturing with her hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a busy restaurant or cafeteria with other people in the background"
+    },
+    "objects": [
+      {
+        "object": "a sandwich",
+        "location": "in the man's hands"
+      },
+      {
+        "object": "a glass",
+        "location": "on the table"
+      }
+    ],
+    "interactions": [
+      "The man and the woman are sitting at a table and appear to be having a conversation."
+    ],
+    "key_actions": [
+      "The man takes a bite of his sandwich and then looks at the woman.",
+      "The woman speaks and gestures with her right hand."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a striped sweater",
+      "facial_cues": [
+        "He looks up from his sandwich towards the woman.",
+        "He has a neutral expression."
+      ],
+      "body_cues": [
+        "He is holding a sandwich with both hands."
+      ],
+      "gaze": "looking at the woman"
+    },
+    {
+      "person": "a woman with blonde hair in a dark sweater",
+      "facial_cues": [
+        "She is looking at the man and speaking.",
+        "Her mouth is open as she talks."
+      ],
+      "body_cues": [
+        "She raises her right hand and gestures while talking."
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "A person speaks, followed by the sound of a buzzer.",
+  "emotion_description": "The woman seems engaged in a casual conversation, and the man appears to be listening.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,52 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red short-sleeved shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch and talking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a large orange couch and a bar in the background"
+    },
+    "objects": [
+      {
+        "name": "couch",
+        "position": "center",
+        "type": "furniture"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "talking",
+      "gesturing with hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red short-sleeved shirt",
+      "facial_cues": [
+        "neutral expression",
+        "raised eyebrows"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "to the right"
+    }
+  ],
+  "audio_description": "A person is speaking in a conversational tone.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

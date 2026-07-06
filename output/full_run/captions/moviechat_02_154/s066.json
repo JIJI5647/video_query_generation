@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking upwards"
+      },
+      {
+        "person": "a man lying on his back",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on a dark surface with his mouth taped and hands tied"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark and dimly lit"
+    },
+    "objects": [
+      "masking tape over the man's mouth",
+      "ropes binding the man's hands"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the suit looking up",
+      "the tied man lying still"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "mouth slightly open",
+        "head tilted back"
+      ],
+      "body_cues": [],
+      "gaze": "upwards"
+    },
+    {
+      "person": "a man lying on his back",
+      "facial_cues": [
+        "wide eyes",
+        "mouth covered with tape"
+      ],
+      "body_cues": [
+        "hands bound with rope"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A loud, chaotic, and frantic musical score with a fast tempo plays.",
+  "emotion_description": "The scene suggests a tense and suspenseful situation, with the tied man appearing scared and the man in the suit looking tense.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

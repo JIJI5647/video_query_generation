@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket and plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking down a hallway, looking around with a smile, holding a tool"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "dimly lit with patterned wallpaper and a door on the left"
+    },
+    "objects": [
+      {
+        "object": "tool",
+        "position": "in man's hand",
+        "action": "being held"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man walking",
+      "man looking around",
+      "man holding tool"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red jacket and plaid shirt",
+      "facial_cues": [
+        "smiling",
+        "looking around"
+      ],
+      "body_cues": [
+        "walking"
+      ],
+      "gaze": "around the hallway"
+    }
+  ],
+  "audio_description": "A loud, sustained, high-pitched electronic tone is heard.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

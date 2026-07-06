@@ -1,0 +1,77 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with curly blonde hair in a dark sweater",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "eating a sandwich and speaking"
+      },
+      {
+        "person": "a man with dark hair and a striped sweater",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "eating a sandwich and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded restaurant or cafeteria with other people in the background"
+    },
+    "objects": [
+      {
+        "object": "sandwich",
+        "location": "in the hands of both people"
+      },
+      {
+        "object": "table",
+        "location": "in front of both people"
+      }
+    ],
+    "interactions": [
+      "The two people are sitting across from each other at a table and having a conversation."
+    ],
+    "key_actions": [
+      "Eating",
+      "Speaking",
+      "Gesturing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with curly blonde hair in a dark sweater",
+      "facial_cues": [
+        "speaking",
+        "looking at the man"
+      ],
+      "body_cues": [
+        "eating a sandwich",
+        "hand gesture"
+      ],
+      "gaze": "at the man"
+    },
+    {
+      "person": "a man with dark hair and a striped sweater",
+      "facial_cues": [
+        "speaking",
+        "looking at the woman"
+      ],
+      "body_cues": [
+        "eating a sandwich",
+        "hand gesture"
+      ],
+      "gaze": "at the woman"
+    }
+  ],
+  "audio_description": "A conversation is taking place between two people.",
+  "emotion_description": "The interaction appears to be a neutral and casual conversation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

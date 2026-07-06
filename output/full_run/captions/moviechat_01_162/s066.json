@@ -1,0 +1,88 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the light blue shirt and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and speaking"
+      },
+      {
+        "person": "the man in the police uniform",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting and listening"
+      },
+      {
+        "person": "the man in the white shirt and tie",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing with arms crossed, then turning and walking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or briefing room with a television displaying security camera footage"
+    },
+    "objects": [
+      "television",
+      "security camera footage",
+      "chairs",
+      "wall charts"
+    ],
+    "interactions": [
+      "The man in the light blue shirt is speaking to the man in the police uniform.",
+      "The man in the white shirt turns and walks away from the television."
+    ],
+    "key_actions": [
+      "The man in the light blue shirt speaks.",
+      "The man in the white shirt turns and walks away."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the light blue shirt and tie",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "towards the man in the police uniform"
+    },
+    {
+      "person": "the man in the police uniform",
+      "facial_cues": [
+        "serious expression",
+        "listening"
+      ],
+      "body_cues": [],
+      "gaze": "towards the man in the light blue shirt"
+    },
+    {
+      "person": "the man in the white shirt and tie",
+      "facial_cues": [
+        "serious expression",
+        "frowning"
+      ],
+      "body_cues": [
+        "arms crossed",
+        "turning away",
+        "walking"
+      ],
+      "gaze": "initially at the television, then forward"
+    }
+  ],
+  "audio_description": "A man speaks in a serious tone.",
+  "emotion_description": "The men appear to be in a tense and serious situation, with the speaker sounding confrontational.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

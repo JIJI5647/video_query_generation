@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young child with blond hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held by an adult and looking down with a sad expression"
+      },
+      {
+        "person": "an adult",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "holding the child"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dark room"
+    },
+    "objects": [],
+    "interactions": [
+      "The adult is holding the child."
+    ],
+    "key_actions": [
+      "The adult holds the child."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young child with blond hair",
+      "facial_cues": [
+        "sad expression",
+        "tears in eyes"
+      ],
+      "body_cues": [
+        "looking down"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "An adult female voice speaks in a gentle and caring tone.",
+  "emotion_description": "The child appears to be sad, while the adult's tone is nurturing.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

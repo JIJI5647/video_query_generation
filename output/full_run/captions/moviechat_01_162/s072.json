@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s072",
+  "time_range": [
+    355.0,
+    360.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored collared shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking down with a somber expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a modern office or control room with a large conference table and a glass wall in the background"
+    },
+    "objects": [
+      "a large conference table",
+      "a black hat",
+      "mugs",
+      "papers",
+      "a television screen"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the shirt stands in the room"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored collared shirt and dark tie",
+      "facial_cues": [
+        "downcast eyes",
+        "a somber expression"
+      ],
+      "body_cues": [
+        "head bowed"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A man speaks in a low, somber tone.",
+  "emotion_description": "The man appears to be expressing sadness or regret.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

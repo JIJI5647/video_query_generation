@@ -1,0 +1,76 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "carrying two black bags and walking into the room"
+      },
+      {
+        "person": "a man in a blue shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a couch, holding his head"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with purple walls and a window showing an urban scene outside"
+    },
+    "objects": [
+      {
+        "object": "black bags",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being carried by the woman"
+      },
+      {
+        "object": "couch",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The woman enters the room carrying two black bags.",
+      "The man sits on the couch, holding his head."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "carrying two black bags",
+        "walking"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a blue shirt",
+      "facial_cues": [
+        "appears to be in discomfort or stress"
+      ],
+      "body_cues": [
+        "sitting on the couch",
+        "holding his head"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "A person speaks, followed by a musical sting.",
+  "emotion_description": "The woman appears happy or amused, while the man appears to be in distress or discomfort.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s096",
+  "time_range": [
+    475.0,
+    480.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with glasses and dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on the ground, struggling to get up from a pile of furniture"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark, cluttered, with overturned and scattered furniture, including chairs and a couch, on a patterned rug"
+    },
+    "objects": [
+      "overturned and scattered furniture",
+      "patterned rug"
+    ],
+    "interactions": [
+      "the man is moving through a pile of overturned furniture"
+    ],
+    "key_actions": [
+      "struggling to get up"
+    ],
+    "visibility_notes": "The scene is dark, and the man is partially obscured by furniture at times."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with glasses and dark hair",
+      "facial_cues": [
+        "struggling expression"
+      ],
+      "body_cues": [
+        "lying on the ground, pushing himself up with his arms"
+      ],
+      "gaze": "downwards"
+    }
+  ],
+  "audio_description": "The audio contains the sound of a struggle, including heavy breathing and the rustling of fabric.",
+  "emotion_description": "Struggle",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

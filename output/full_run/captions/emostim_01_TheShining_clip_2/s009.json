@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young child",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and drawing on a door with a red crayon"
+      },
+      {
+        "person": "a woman",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sleeping in a bed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with a bed, a nightstand, and a lamp"
+    },
+    "objects": [
+      "a door",
+      "a red crayon",
+      "a bed",
+      "a nightstand",
+      "a lamp",
+      "a patterned blanket"
+    ],
+    "interactions": [
+      "the child is drawing on the door"
+    ],
+    "key_actions": [
+      "the child drawing on the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young child",
+      "facial_cues": [],
+      "body_cues": [
+        "the child is standing and focused on drawing"
+      ],
+      "gaze": "looking down at the door"
+    }
+  ],
+  "audio_description": "A high-pitched, sustained electronic tone is audible.",
+  "emotion_description": "The child appears calm and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

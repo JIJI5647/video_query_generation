@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating from a steaming bowl with chopsticks"
+      },
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "drinking from a bottle and then turning to look at the first man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered and dimly lit room with a refrigerator and a striped tarp in the background"
+    },
+    "objects": [
+      "a steaming bowl",
+      "chopsticks",
+      "a clear bottle"
+    ],
+    "interactions": [
+      "The man in the suit turns to look at the man eating"
+    ],
+    "key_actions": [
+      "The man in the leather jacket eats",
+      "The man in the suit drinks and then turns his head"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark leather jacket",
+      "facial_cues": [
+        "focused on his meal"
+      ],
+      "body_cues": [
+        "leaning over the bowl"
+      ],
+      "gaze": "looking down at his food"
+    },
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "calm expression"
+      ],
+      "body_cues": [
+        "standing still, then turning his head"
+      ],
+      "gaze": "looking towards the man in the leather jacket"
+    }
+  ],
+  "audio_description": "A loud, rhythmic, percussive sound plays, possibly from a drum or a machine.",
+  "emotion_description": "The man in the suit appears calm and observant. The man eating appears focused on his meal.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

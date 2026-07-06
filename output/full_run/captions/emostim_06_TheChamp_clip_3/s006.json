@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blond hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "crying with his head down, holding his hands together"
+      },
+      {
+        "person": "an adult",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "reaching towards the boy's head"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark background, dim lighting"
+    },
+    "objects": [],
+    "interactions": [
+      "the adult's hand is near the boy's head"
+    ],
+    "key_actions": [
+      "the boy is crying",
+      "the adult is reaching towards the boy"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blond hair",
+      "facial_cues": [
+        "tears on his face",
+        "distressed expression",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "head bent down",
+        "hands held together"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A child's voice is heard crying and whimpering, with audible sobs and gasps for air.",
+  "emotion_description": "The boy is experiencing intense distress and sadness.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

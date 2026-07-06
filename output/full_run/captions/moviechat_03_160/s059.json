@@ -1,0 +1,80 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing headphones and a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking intently at a computer screen"
+      },
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking toward the left"
+      },
+      {
+        "person": "a man wearing a white baseball cap with a red 'B' logo",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down at a plastic bottle"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with computer screens and a bulletin board"
+    },
+    "objects": [
+      "a computer monitor displaying text and a map",
+      "headphones",
+      "a baseball cap",
+      "a plastic bottle"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man with headphones stares at the screen",
+      "the man in the suit stands and looks left",
+      "the man in the cap looks down at his bottle"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing headphones and a white shirt",
+      "facial_cues": [
+        "intense stare",
+        "focused expression"
+      ],
+      "body_cues": [],
+      "gaze": "at the computer screen"
+    },
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression",
+        "frowning"
+      ],
+      "body_cues": [],
+      "gaze": "toward the left"
+    },
+    {
+      "person": "a man wearing a white baseball cap with a red 'B' logo",
+      "facial_cues": [
+        "downcast eyes",
+        "focused expression"
+      ],
+      "body_cues": [],
+      "gaze": "down at the bottle"
+    }
+  ],
+  "audio_description": "A low, ominous, and suspenseful musical score plays throughout the clip.",
+  "emotion_description": "The individuals' focused expressions and the tense music create a suspenseful and serious atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

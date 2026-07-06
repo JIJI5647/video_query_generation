@@ -1,0 +1,64 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy wearing a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing in front of a door with a knife in hand, then turning to look at a woman in bed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night with a bed, a nightstand, and a lamp."
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "held by the boy"
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "has red writing on it"
+      },
+      {
+        "object": "a woman",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "lying in bed"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The boy writes on the door with a red crayon",
+      "The boy turns to face the woman in bed"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the young boy",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "holding a knife"
+      ],
+      "gaze": "at the door, then at the woman"
+    }
+  ],
+  "audio_description": "A child's voice repeatedly says 'Redrum' in a distressed tone.",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

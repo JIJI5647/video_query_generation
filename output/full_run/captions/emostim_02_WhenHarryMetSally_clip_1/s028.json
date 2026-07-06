@@ -1,0 +1,69 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde hair in a dark sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, leaning back, and then forward, with her hands on the table"
+      },
+      {
+        "person": "a man with a beard in a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, looking at the woman"
+      },
+      {
+        "person": "other people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at tables"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a diner with tables, chairs, and a counter"
+    },
+    "objects": [
+      {
+        "name": "table",
+        "description": "a wooden table with plates of food and drinks"
+      },
+      {
+        "name": "neon sign",
+        "description": "a green neon sign that says 'SODA 80¢'"
+      }
+    ],
+    "interactions": [
+      "The woman and the man are sitting at a table together."
+    ],
+    "key_actions": [
+      "The woman leans back in her chair with her head tilted up, then brings her hands to her head, and then leans forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde hair in a dark sweater",
+      "facial_cues": [
+        "her mouth is open",
+        "her head is tilted back"
+      ],
+      "body_cues": [
+        "leaning back in her chair",
+        "placing her hands on her head"
+      ],
+      "gaze": "looking upwards"
+    }
+  ],
+  "audio_description": "A woman is shouting excitedly and then moaning.",
+  "emotion_description": "The woman appears to be experiencing a strong, positive, and excited reaction.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s075",
+  "time_range": [
+    370.0,
+    375.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt with police epaulets",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or meeting room with a large screen in the background"
+    },
+    "objects": [
+      "a screen in the background",
+      "shoulder epaulets on a white shirt"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man is speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt with police epaulets",
+      "facial_cues": [
+        "his mouth is open as he speaks",
+        "his brow is slightly furrowed"
+      ],
+      "body_cues": [],
+      "gaze": "looking to his right (screen left)"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a clear, narrative tone.",
+  "emotion_description": "The man appears to be focused and serious as he delivers information.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

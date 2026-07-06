@@ -1,0 +1,73 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "enters the room carrying a black duffel bag and a black laptop bag, then stands and speaks."
+      },
+      {
+        "person": "the man in a blue sweater",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting in an armchair, looking up from his book and reaching his hand towards his head."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a furnished living room with purple walls, a window, a desk, and a television."
+    },
+    "objects": [
+      "a black duffel bag",
+      "a black laptop bag",
+      "an armchair",
+      "a book",
+      "a desk",
+      "a television"
+    ],
+    "interactions": [
+      "The woman speaks to the man."
+    ],
+    "key_actions": [
+      "The woman walks into the room and stops.",
+      "The man looks up from his book."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a white shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "standing upright",
+        "holding bags"
+      ],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "the man in a blue sweater",
+      "facial_cues": [
+        "surprised expression",
+        "looking up"
+      ],
+      "body_cues": [
+        "sitting in armchair",
+        "reaching hand to head"
+      ],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A woman speaks, followed by a man speaking, in a quiet indoor environment.",
+  "emotion_description": "The woman appears friendly and the man appears surprised.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

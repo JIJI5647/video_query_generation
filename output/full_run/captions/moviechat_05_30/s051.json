@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in dark clothing",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running away from the camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor corridor",
+      "setting": "a long, dark stone corridor with arched openings"
+    },
+    "objects": [
+      "falling rocks and debris"
+    ],
+    "interactions": [
+      "the person is running through the corridor as rocks fall around them"
+    ],
+    "key_actions": [
+      "a person running",
+      "rocks and debris falling from above"
+    ],
+    "visibility_notes": "The person is mostly silhouetted in the dim light and is briefly obscured by dust and falling debris."
+  },
+  "visual_expression": [
+    {
+      "person": "a person in dark clothing",
+      "facial_cues": [],
+      "body_cues": [
+        "running away from the camera",
+        "body leaning forward"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, deep rumbling sound, like a large structure collapsing, is heard throughout the clip.",
+  "emotion_description": "The person appears to be in a state of panic or fear, indicated by their urgent running away from the collapsing structure.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

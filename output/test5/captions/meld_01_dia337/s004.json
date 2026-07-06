@@ -1,0 +1,52 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "holding a small object and speaking to another man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a door, a picture frame, and a plant in the background."
+    },
+    "objects": [
+      {
+        "object": "a small object",
+        "position": "center",
+        "action": "held by the man in the blue plaid shirt"
+      }
+    ],
+    "interactions": [
+      "The man in the blue plaid shirt is talking to another man."
+    ],
+    "key_actions": [
+      "The man in the blue plaid shirt is holding a small object and speaking."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue plaid shirt",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "gesturing with his hand"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "A man is speaking, followed by a buzzer sound.",
+  "temporal_description": "The man speaks, then a buzzer sound is heard.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair wearing a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a silver flip phone to his right ear and speaking into it"
+      },
+      {
+        "person": "an older man with short gray hair wearing a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a silver flip phone to his left ear and speaking into it"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "the first man is in a room with horizontal blinds in the background, the second man is in a room with a chandelier and a golden statue in the background"
+    },
+    "objects": [
+      "a silver flip phone",
+      "horizontal blinds",
+      "a chandelier",
+      "a golden statue"
+    ],
+    "interactions": [
+      "two men are each having a phone conversation"
+    ],
+    "key_actions": [
+      "talking on a phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair wearing a light-colored shirt",
+      "facial_cues": [
+        "frowning",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking down and to the left"
+    },
+    {
+      "person": "an older man with short gray hair wearing a black shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A man is speaking on a phone with a clear and steady voice.",
+  "emotion_description": "The first man sounds serious and focused, while the second man sounds pleased or satisfied.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

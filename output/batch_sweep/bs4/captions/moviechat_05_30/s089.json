@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with dark hair and glasses wearing a brown jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still and looking forward"
+      },
+      {
+        "person": "a young man with platinum blonde hair and two other men in dark robes",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing in a line and pointing their wands forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dimly lit junk shop filled with old furniture, mirrors, and metalware"
+    },
+    "objects": [
+      "wands",
+      "old mirrors",
+      "metal bowls",
+      "wooden furniture"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "pointing wands forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young man with dark hair and glasses wearing a brown jacket",
+      "facial_cues": [
+        "calm expression",
+        "direct gaze"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a young man with platinum blonde hair and two other men in dark robes",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "pointing wands forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man's voice speaks in a calm, almost taunting tone.",
+  "emotion_description": "The man in the foreground appears calm and defiant, while the group in the background looks serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

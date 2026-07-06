@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying down and coughing up blood"
+      },
+      {
+        "person": "another person",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "leaning over the man in the leather jacket"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit"
+    },
+    "objects": [
+      "blood",
+      "a white cloth"
+    ],
+    "interactions": [
+      "the second person is leaning over the first person, who is coughing blood"
+    ],
+    "key_actions": [
+      "coughing up blood",
+      "leaning over"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "coughing",
+        "blood on his face and hand"
+      ],
+      "body_cues": [
+        "lying down"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "another person",
+      "facial_cues": [
+        "leaning over"
+      ],
+      "body_cues": [
+        "leaning over"
+      ],
+      "gaze": "looking down at the man in the leather jacket"
+    }
+  ],
+  "audio_description": "The audio contains a person coughing heavily and then speaking in a strained voice.",
+  "emotion_description": "The man in the leather jacket appears to be in pain and distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

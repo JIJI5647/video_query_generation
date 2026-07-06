@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red velour tracksuit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running down a hallway and swinging a long wooden stick to break a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "a long hallway with light blue walls and a dark floor"
+    },
+    "objects": [
+      {
+        "object": "a wooden stick",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being swung by the man to break a door"
+      }
+    ],
+    "interactions": [
+      "the man swings the stick at the door"
+    ],
+    "key_actions": [
+      "running",
+      "swinging a stick",
+      "breaking a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red velour tracksuit",
+      "facial_cues": [
+        "frowning",
+        "showing teeth"
+      ],
+      "body_cues": [
+        "swinging a stick",
+        "running"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, crashing sound as the door breaks, accompanied by a deep, ominous musical score.",
+  "emotion_description": "determined",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

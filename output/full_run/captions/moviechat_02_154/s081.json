@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bending over"
+      },
+      {
+        "person": "a man in a beige suit with a floral shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "laughing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a table, a floral arrangement, and candles in the background"
+    },
+    "objects": [
+      "a table with a floral arrangement",
+      "candles"
+    ],
+    "interactions": [
+      "the man in the dark suit bends over in front of the man in the floral shirt"
+    ],
+    "key_actions": [
+      "bending over"
+    ],
+    "visibility_notes": "The man in the dark suit is in the foreground and is the main focus. The man in the floral shirt is in the background and partially obscured."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "bent over"
+      ],
+      "body_cues": [
+        "bending over"
+      ],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man in a beige suit with a floral shirt",
+      "facial_cues": [
+        "laughing"
+      ],
+      "body_cues": [],
+      "gaze": "towards the man in the dark suit"
+    }
+  ],
+  "audio_description": "A man laughs, followed by a loud crash.",
+  "emotion_description": "The man in the floral shirt appears amused or is laughing. The emotion of the man in the dark suit is unclear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

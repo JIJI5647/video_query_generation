@@ -14,6 +14,7 @@
 # --- transformers inference engine ---
 transformers          # Qwen3-Omni model + processor
 qwen-omni-utils       # process_mm_info (video/audio preprocessing)
+qwen-vl-utils         # process_vision_info (Qwen3-VL video-only captioning)
 torch                 # install the CUDA build that matches your GPU driver
 accelerate            # device_map="auto" sharding
 

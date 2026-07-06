@@ -1,0 +1,66 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket and jeans",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still, holding an axe, facing away from the camera"
+      },
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing in a bathroom, wiping a fogged window"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a house with a hallway and a bathroom"
+    },
+    "objects": [
+      "axe",
+      "white refrigerator",
+      "window",
+      "toilet",
+      "towel rack",
+      "radiator"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man stands with an axe.",
+      "The woman wipes a fogged window."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket and jeans",
+      "facial_cues": [],
+      "body_cues": [
+        "standing still",
+        "holding an axe"
+      ],
+      "gaze": "facing away from the camera"
+    },
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [],
+      "body_cues": [
+        "standing",
+        "wiping a window"
+      ],
+      "gaze": "looking at the window"
+    }
+  ],
+  "audio_description": "A man speaks, followed by the sound of a car engine starting and revving.",
+  "emotion_description": "The man's voice sounds menacing, and the woman's action suggests fear or anxiety.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

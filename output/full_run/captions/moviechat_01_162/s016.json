@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person driving a car",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "driving"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "a view from inside the car, looking forward through the windshield at a road lined with trees."
+    },
+    "objects": [
+      "car interior",
+      "windshield",
+      "trees"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "driving",
+      "wipers moving"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person driving a car",
+      "facial_cues": [],
+      "body_cues": [
+        "hands on the steering wheel"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A person speaks in an excited and relieved tone.",
+  "emotion_description": "The speaker sounds excited and relieved.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

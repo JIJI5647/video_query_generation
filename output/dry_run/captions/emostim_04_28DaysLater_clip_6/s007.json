@@ -1,0 +1,47 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a hooded jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and yelling"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dimly lit hallway or room with a door in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man is yelling with his mouth wide open, showing blood and teeth"
+    ],
+    "visibility_notes": "The man's face is partially obscured by the hood of his jacket, and the lighting is dim, making some details difficult to see."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a hooded jacket",
+      "facial_cues": [
+        "mouth wide open",
+        "blood on face",
+        "teeth visible"
+      ],
+      "body_cues": [
+        "standing",
+        "hood up"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, strained yell is heard, followed by heavy breathing.",
+  "emotion_description": "The man appears to be in extreme pain or rage.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

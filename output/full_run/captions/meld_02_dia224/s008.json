@@ -1,0 +1,50 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    37.16
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and smiling"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with purple walls, a large window, and various pieces of furniture"
+    },
+    "objects": [
+      "a black suitcase",
+      "a black duffel bag",
+      "a framed picture",
+      "a vase with yellow flowers"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman in the white shirt stands next to a suitcase and duffel bag, smiling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a white shirt",
+      "facial_cues": [
+        "smiling",
+        "showing teeth"
+      ],
+      "body_cues": [
+        "standing with hands on the suitcases"
+      ],
+      "gaze": "looking towards the left of the frame"
+    }
+  ],
+  "audio_description": "A person speaks excitedly and quickly.",
+  "emotion_description": "The woman appears to be happy and excited.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

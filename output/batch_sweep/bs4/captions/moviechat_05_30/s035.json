@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a large, muscular, humanoid creature",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on the ground, struggling to get up"
+      }
+    ],
+    "scene": {
+      "location": "dark, outdoor area",
+      "setting": "a battlefield at night, with a large army of armored figures in the background holding torches and weapons"
+    },
+    "objects": [
+      {
+        "object": "torches",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "held by the army, providing light"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the creature struggles on the ground"
+    ],
+    "visibility_notes": "The scene is dark, with the army in the background illuminated by torchlight."
+  },
+  "visual_expression": [
+    {
+      "person": "a large, muscular, humanoid creature",
+      "facial_cues": [
+        "straining expression",
+        "visible teeth",
+        "open mouth"
+      ],
+      "body_cues": [
+        "lying on the ground",
+        "struggling to push up"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "The sound of a large, powerful creature roaring and grunting as it struggles to move, mixed with the ambient noise of a large crowd and a dramatic, epic musical score.",
+  "emotion_description": "Struggle and pain",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

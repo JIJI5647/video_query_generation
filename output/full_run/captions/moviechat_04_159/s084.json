@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at a laptop screen with a focused expression"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting and looking towards the left"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or command center with computer monitors"
+    },
+    "objects": [
+      "laptop",
+      "headphones",
+      "computer monitors",
+      "dark curtains"
+    ],
+    "interactions": [
+      "the man in the white shirt is working on his laptop"
+    ],
+    "key_actions": [
+      "the man in the white shirt looks intently at his laptop"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "focused expression",
+        "furrowed brow",
+        "tense jaw"
+      ],
+      "body_cues": [],
+      "gaze": "down at the laptop screen"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a determined and focused tone.",
+  "emotion_description": "The man in the white shirt appears focused and tense, suggesting he is under pressure to complete a task.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

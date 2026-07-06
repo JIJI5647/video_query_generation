@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running and looking out a window"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bathroom with white tiles and a window"
+    },
+    "objects": [
+      {
+        "object": "a young child",
+        "visibility": "partially visible",
+        "position": "behind the woman",
+        "action": "being held by the woman"
+      }
+    ],
+    "interactions": [
+      "The woman is holding the child."
+    ],
+    "key_actions": [
+      "The woman is running and looking out the window."
+    ],
+    "visibility_notes": "The child is mostly obscured by the woman's body."
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "panicked",
+        "fearful"
+      ],
+      "body_cues": [
+        "running",
+        "leaning forward"
+      ],
+      "gaze": "out the window"
+    }
+  ],
+  "audio_description": "The sound of a door being broken down is heard.",
+  "emotion_description": "Fear",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

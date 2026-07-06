@@ -1,0 +1,60 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "holding a knife and peering around a wall corner, then recoiling in shock."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a white paneled wall and white tiles on the lower wall."
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "description": "a large knife with a dark handle, held by the woman."
+      },
+      {
+        "object": "wall",
+        "description": "a white wall with vertical paneling, partially damaged."
+      }
+    ],
+    "interactions": [
+      "The woman holds a knife in one hand while her other hand covers her face in fear."
+    ],
+    "key_actions": [
+      "The woman peeks around the corner of the wall, holding a knife.",
+      "She recoils and covers her face in terror."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide open mouth",
+        "wide eyes",
+        "tears",
+        "scared expression"
+      ],
+      "body_cues": [
+        "hand covering face",
+        "body recoiling against the wall"
+      ],
+      "gaze": "looking towards the left, outside the frame."
+    }
+  ],
+  "audio_description": "A woman is screaming loudly and repeatedly.",
+  "emotion_description": "terror",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

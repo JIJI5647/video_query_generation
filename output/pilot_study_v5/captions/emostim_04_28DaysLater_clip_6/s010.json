@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a bloody cut on his chest",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running through a doorway and into the room"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dimly lit room with checkered floor tiles and ornate mirrors"
+    },
+    "objects": [
+      "a bathtub",
+      "a large mirror",
+      "a small lamp on the floor",
+      "a doorway"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man runs into the room"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a bloody cut on his chest",
+      "facial_cues": [
+        "pained expression",
+        "visible blood on his chest"
+      ],
+      "body_cues": [
+        "running",
+        "injured"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, deep, booming sound, like a gong or a large bell, is heard.",
+  "emotion_description": "The man appears to be in pain and distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

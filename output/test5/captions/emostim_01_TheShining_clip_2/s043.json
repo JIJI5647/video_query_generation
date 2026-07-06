@@ -1,0 +1,47 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a beard and a cut on his forehead",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a room with a yellow door and a framed picture on the wall"
+    },
+    "objects": [
+      {
+        "object": "a framed picture",
+        "position": "background"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a beard and a cut on his forehead",
+      "facial_cues": [
+        "cut on forehead",
+        "wide smile",
+        "raised eyebrows"
+      ],
+      "body_cues": [],
+      "gaze": "looking to his left"
+    }
+  ],
+  "audio_description": "a man is speaking in a calm tone.",
+  "temporal_description": "the man is speaking throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

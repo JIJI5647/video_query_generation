@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long red hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking back"
+      },
+      {
+        "person": "a man in a dark sweater",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "running down stairs"
+      },
+      {
+        "person": "a crowd of students",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running down stairs"
+      }
+    ],
+    "scene": {
+      "location": "indoor staircase",
+      "setting": "dimly lit, stone architecture"
+    },
+    "objects": [
+      "a staircase",
+      "stone walls"
+    ],
+    "interactions": [
+      "the crowd is running down the stairs in panic"
+    ],
+    "key_actions": [
+      "running",
+      "looking back",
+      "panicking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long red hair",
+      "facial_cues": [
+        "concerned",
+        "fearful"
+      ],
+      "body_cues": [
+        "looking back",
+        "running"
+      ],
+      "gaze": "over her shoulder"
+    }
+  ],
+  "audio_description": "The audio contains panicked shouting and screaming.",
+  "emotion_description": "fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

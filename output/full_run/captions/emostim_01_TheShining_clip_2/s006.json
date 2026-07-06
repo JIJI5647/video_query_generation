@@ -1,0 +1,65 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person sleeping under a green patterned blanket",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "lying in bed"
+      },
+      {
+        "person": "a child in a red and green sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with a bed, a nightstand with a lamp, and a bookshelf"
+    },
+    "objects": [
+      "a knife",
+      "a lamp",
+      "a bed",
+      "a bookshelf"
+    ],
+    "interactions": [
+      "the child is standing near the sleeping person"
+    ],
+    "key_actions": [
+      "the child is holding a knife and standing still"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person sleeping under a green patterned blanket",
+      "facial_cues": [
+        "face is partially visible, eyes are closed"
+      ],
+      "body_cues": [],
+      "gaze": "not applicable"
+    },
+    {
+      "person": "a child in a red and green sweater",
+      "facial_cues": [
+        "back is to the camera, face not visible"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "A high-pitched, sustained electronic tone is audible.",
+  "emotion_description": "The child's stillness and the high-pitched tone create a tense and suspenseful atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

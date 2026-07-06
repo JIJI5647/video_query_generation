@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a large, monstrous figure",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "crawling forward on the ground"
+      },
+      {
+        "person": "a large group of people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "marching across a bridge at night"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark landscape with a large bridge and a castle-like building in the background"
+    },
+    "objects": [
+      {
+        "object": "torches",
+        "visibility": "visible",
+        "position": "held by the marching people"
+      },
+      {
+        "object": "a large green fog or smoke",
+        "visibility": "visible",
+        "position": "in the background, near the marching people"
+      }
+    ],
+    "interactions": [
+      "the monstrous figure is crawling towards the camera, while the group of people marches away from the camera across a bridge"
+    ],
+    "key_actions": [
+      "crawling",
+      "marching"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a large, monstrous figure",
+      "facial_cues": [
+        "snarling",
+        "exposing teeth"
+      ],
+      "body_cues": [
+        "crawling on hands and knees"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "Loud, dramatic orchestral music with heavy percussion and a low, ominous tone, creating a tense and epic atmosphere.",
+  "emotion_description": "The monstrous figure displays aggression and menace. The marching group appears determined and unified.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

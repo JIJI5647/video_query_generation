@@ -1,0 +1,47 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown tweed jacket and red tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking down"
+      }
+    ],
+    "scene": {
+      "location": "outdoors on a farm",
+      "setting": "in front of a wooden chicken coop"
+    },
+    "objects": [
+      "a wooden chicken coop",
+      "a chicken"
+    ],
+    "interactions": [
+      "the man is looking at the chicken"
+    ],
+    "key_actions": [
+      "the chicken is pecking at the ground"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown tweed jacket and red tie",
+      "facial_cues": [
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "looking down at the chicken"
+    }
+  ],
+  "audio_description": "Upbeat, rhythmic music with a strong beat and vocalizations is playing.",
+  "emotion_description": "The man appears calm and curious, while the music creates an energetic atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

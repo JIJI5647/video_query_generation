@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a red and black patterned dress",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning over and massaging the back of a man lying on a bed"
+      },
+      {
+        "person": "a man lying face down on a bed",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on his stomach, receiving a back massage"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a large circular bed covered in white sheets and pillows, a small table with a drink and snacks is visible on the right"
+    },
+    "objects": [
+      "white pillows",
+      "white sheets",
+      "small round table",
+      "glass with dark liquid",
+      "small white bowl"
+    ],
+    "interactions": [
+      "The woman is massaging the man's back with her hands"
+    ],
+    "key_actions": [
+      "The woman massaging the man's back"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man lying face down on a bed",
+      "facial_cues": [
+        "eyes closed",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "muscles tensed"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "The audio contains a sudden, loud, and jarring noise.",
+  "emotion_description": "The man appears to be in discomfort or pain.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

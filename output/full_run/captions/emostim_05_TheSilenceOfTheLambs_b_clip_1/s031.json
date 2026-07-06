@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up with a surprised expression"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a classroom or lecture hall with a green chalkboard"
+    },
+    "objects": [
+      "a glass jar",
+      "tweezers"
+    ],
+    "interactions": [
+      "a hand holding tweezers places a dark, elongated object into a glass jar"
+    ],
+    "key_actions": [
+      "placing an object into a jar"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "wide eyes",
+        "raised eyebrows",
+        "slightly open mouth"
+      ],
+      "body_cues": [],
+      "gaze": "upwards and to the right"
+    }
+  ],
+  "audio_description": "A man speaks in a surprised and incredulous tone.",
+  "emotion_description": "The man appears surprised and disbelieving.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,91 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with curly dark hair wearing a blue shirt and jeans",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pointing at a slice of cake on a white plate"
+      },
+      {
+        "person": "a man in a beige turtleneck sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch with his eyes closed and head tilted back"
+      },
+      {
+        "person": "a woman with long brown hair wearing a red shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch with her arm around the man in the turtleneck"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a large, brown, tufted couch and a Christmas tree decorated with red poinsettias in the background"
+    },
+    "objects": [
+      "a slice of chocolate cake on a white plate",
+      "a brown couch",
+      "a Christmas tree",
+      "red poinsettia flowers"
+    ],
+    "interactions": [
+      "the woman in blue points at the cake towards the man in the turtleneck",
+      "the woman in red has her arm around the man in the turtleneck"
+    ],
+    "key_actions": [
+      "pointing",
+      "sitting",
+      "resting"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with curly dark hair wearing a blue shirt and jeans",
+      "facial_cues": [
+        "pointing",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hand raised"
+      ],
+      "gaze": "looking at the man in the turtleneck"
+    },
+    {
+      "person": "a man in a beige turtleneck sweater",
+      "facial_cues": [
+        "eyes closed",
+        "head tilted back"
+      ],
+      "body_cues": [
+        "sitting upright",
+        "arm resting on the back of the couch"
+      ],
+      "gaze": "not clearly visible"
+    },
+    {
+      "person": "a woman with long brown hair wearing a red shirt",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "arm around the man",
+        "sitting upright"
+      ],
+      "gaze": "looking at the man in the turtleneck"
+    }
+  ],
+  "audio_description": "A person is speaking with an excited and persuasive tone.",
+  "emotion_description": "The speaker appears enthusiastic and eager to share something she thinks is very good.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

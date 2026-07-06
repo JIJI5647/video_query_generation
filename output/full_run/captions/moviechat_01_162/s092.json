@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a plastic bag containing a blood-stained ID card"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office setting with a desk and blinds in the background"
+    },
+    "objects": [
+      "a plastic bag",
+      "an ID card",
+      "a desk",
+      "blinds"
+    ],
+    "interactions": [
+      "the man holds the plastic bag with the ID card inside"
+    ],
+    "key_actions": [
+      "holding an ID card in a plastic bag"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and dark tie",
+      "facial_cues": [
+        "serious expression",
+        "staring forward"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the ID card"
+    }
+  ],
+  "audio_description": "a dramatic orchestral score plays in the background.",
+  "emotion_description": "The man's expression is serious and contemplative. The dramatic music suggests a tense or somber situation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

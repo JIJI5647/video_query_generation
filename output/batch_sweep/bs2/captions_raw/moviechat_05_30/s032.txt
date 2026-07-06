@@ -1,0 +1,4 @@
+# parse failure: reason=salvaged_for_generation
+# segment_id=s032
+
+[{"segment_id": "s031", "time_range": [150.0, 155.0], "visual_objective": {"people": [{"person": "a group of people", "visibility": "partially visible", "position": "foreground", "action": "running up a hill"}], "scene": {"location": "hillside at night", "setting": "a large, illuminated castle-like building is visible on a hill in the background, with lights along a path leading up to it."}, "objects": [], "interactions": [], "key_actions": ["a group of people are running up a hill at night."], "visibility_notes": "The scene is very dark, making it difficult to see details of the people and their clothing."}, "visual_expression": [], "audio_description": "A dramatic, swelling orchestral score with a sense of urgency and impending doom.", "emotion_description": "Tense, urgent, and ominous", "confidence": "high", "evidence_strength": "clear"}]

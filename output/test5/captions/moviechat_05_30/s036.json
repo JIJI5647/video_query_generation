@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a white shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "running away from the camera, holding a torch"
+      }
+    ],
+    "scene": {
+      "location": "dark bridge",
+      "setting": "dark and foggy, with a single lit window in the background"
+    },
+    "objects": [
+      {
+        "object": "torch",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "held by the person in the white shirt, providing light"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a person in a white shirt runs away from the camera, holding a torch"
+    ],
+    "visibility_notes": "The scene is dark, and the person's face is not clearly visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a white shirt",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "running away from the camera"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A dramatic, orchestral score plays, creating a tense atmosphere.",
+  "temporal_description": "The person in the white shirt runs away from the camera throughout the clip, while the dramatic music continues in the background.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

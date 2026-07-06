@@ -1,0 +1,72 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "speaking and gesturing with his right hand"
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "facing the other man and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a beige wall, a dark-framed picture, and a wall sconce with a lamp"
+    },
+    "objects": [
+      {
+        "name": "wall sconce",
+        "location": "left side of the scene"
+      },
+      {
+        "name": "framed picture",
+        "location": "center background"
+      }
+    ],
+    "interactions": [
+      "The man in the pink shirt is speaking to the man in the blue shirt."
+    ],
+    "key_actions": [
+      "The man in the pink shirt is gesturing with his hand while speaking."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "his mouth is open as if speaking",
+        "his eyebrows are slightly raised"
+      ],
+      "body_cues": [
+        "he is gesturing with his right hand"
+      ],
+      "gaze": "looking towards the other man"
+    },
+    {
+      "person": "a man in a blue plaid shirt",
+      "facial_cues": [
+        "his head is turned towards the other man"
+      ],
+      "body_cues": [
+        "his arms are crossed"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a conversational tone.",
+  "emotion_description": "neutral",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

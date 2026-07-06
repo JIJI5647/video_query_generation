@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in dark clothing",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running"
+      }
+    ],
+    "scene": {
+      "location": "on a bridge",
+      "setting": "dark, wooden structure with a train on it"
+    },
+    "objects": [
+      {
+        "object": "a train",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "moving along the bridge"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man runs forward",
+      "the train moves along the bridge"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in dark clothing",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "running"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "a loud crashing and rumbling sound, like a train derailment",
+  "temporal_description": "the sound of the crash and rumbling is constant throughout the clip",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

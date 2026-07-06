@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and leaning over the shoulder of a seated man to look at his laptop screen"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a desk and looking at a laptop screen"
+      },
+      {
+        "person": "a woman in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting at a desk and typing on a laptop"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with multiple desks, computers, and a large map on the wall"
+    },
+    "objects": [
+      "laptops",
+      "desks",
+      "office chairs",
+      "a large map on the wall"
+    ],
+    "interactions": [
+      "The man in the suit leans over the man in the white shirt to view his computer screen."
+    ],
+    "key_actions": [
+      "The man in the suit is observing the seated man's computer screen.",
+      "The man in the white shirt is focused on his laptop."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "has a focused expression"
+      ],
+      "body_cues": [
+        "leaning forward over the seated man's shoulder"
+      ],
+      "gaze": "looking intently at the laptop screen"
+    },
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "has a focused expression"
+      ],
+      "body_cues": [
+        "sitting upright at his desk"
+      ],
+      "gaze": "looking at the laptop screen"
+    }
+  ],
+  "audio_description": "A male voice speaks, followed by a series of electronic beeps.",
+  "emotion_description": "The man in the suit appears serious and focused, while the man in the white shirt seems concentrated on his work.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

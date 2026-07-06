@@ -1,0 +1,72 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a red plaid shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "breaking through a door and screaming"
+      },
+      {
+        "person": "the woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "screaming and holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a hallway with white walls and a door being broken through"
+    },
+    "objects": [
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man breaks through the door",
+      "the woman screams and holds a knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a red plaid shirt",
+      "facial_cues": [
+        "screaming",
+        "bared teeth",
+        "angry expression"
+      ],
+      "body_cues": [
+        "breaking through the door"
+      ],
+      "gaze": "not clearly visible"
+    },
+    {
+      "person": "the woman in a blue robe",
+      "facial_cues": [
+        "screaming",
+        "wide open mouth",
+        "fearful expression"
+      ],
+      "body_cues": [
+        "holding a knife"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A woman is screaming in terror, followed by a man yelling and a loud thud.",
+  "emotion_description": "Fear and aggression",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

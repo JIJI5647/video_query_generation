@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of people",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running urgently"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark, narrow corridor or staircase with wooden railings and stone walls."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "running",
+      "escaping"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a group of people",
+      "facial_cues": [
+        "showing fear",
+        "showing panic"
+      ],
+      "body_cues": [
+        "running in a hurry",
+        "looking back"
+      ],
+      "gaze": "looking forward and back"
+    }
+  ],
+  "audio_description": "Intense, chaotic sounds of a large structure collapsing, with loud crashing, cracking, and rumbling noises, suggesting a catastrophic event like a building falling in on itself.",
+  "emotion_description": "Fear and panic",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

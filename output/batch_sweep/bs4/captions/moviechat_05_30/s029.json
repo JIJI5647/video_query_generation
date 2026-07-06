@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a patterned sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on a wooden floor, pushing himself up, and looking around in fear."
+      }
+    ],
+    "scene": {
+      "location": "indoors",
+      "setting": "a dark, wooden floor, possibly a basement or cellar."
+    },
+    "objects": [
+      {
+        "object": "a dark object on the floor",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on the floor."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "pushing himself up",
+      "looking around"
+    ],
+    "visibility_notes": "The scene is dimly lit, with only a faint light source highlighting the man's face and the immediate area."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a patterned sweater",
+      "facial_cues": [
+        "tense expression",
+        "wide eyes",
+        "strained mouth"
+      ],
+      "body_cues": [
+        "pushing himself up from the floor",
+        "hands gripping the edge of the floor"
+      ],
+      "gaze": "looking around in fear."
+    }
+  ],
+  "audio_description": "A man is breathing heavily and then gasps, followed by a loud, distorted sound effect.",
+  "emotion_description": "Fear",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

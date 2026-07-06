@@ -1,0 +1,113 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in a white shirt and tie standing at the head of the table",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking down at the people seated at the table"
+      },
+      {
+        "person": "the man in a white shirt with epaulets seated on the right side of the table",
+        "visibility": "clearly visible",
+        "position": "right side of the table",
+        "action": "sitting and looking at the man who is standing"
+      },
+      {
+        "person": "the man in a light blue shirt seated on the right side of the table",
+        "visibility": "clearly visible",
+        "position": "right side of the table",
+        "action": "sitting and looking at the man who is standing"
+      },
+      {
+        "person": "the man in a white shirt seated on the left side of the table",
+        "visibility": "clearly visible",
+        "position": "left side of the table",
+        "action": "sitting and looking at the man who is standing"
+      },
+      {
+        "person": "the man in a light blue shirt seated on the left side of the table",
+        "visibility": "clearly visible",
+        "position": "left side of the table",
+        "action": "sitting and looking at the man who is standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a modern office or briefing room with a large table, glass partitions, and a staircase in the background"
+    },
+    "objects": [
+      "a large conference table",
+      "chairs",
+      "papers",
+      "mugs",
+      "a television screen on the left",
+      "a black hat on the table",
+      "a black office chair"
+    ],
+    "interactions": [
+      "The man standing appears to be addressing the four men who are seated around the table."
+    ],
+    "key_actions": [
+      "The man in the white shirt and tie is standing and addressing the others.",
+      "The four seated men are listening to the standing man."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a white shirt and tie standing at the head of the table",
+      "facial_cues": [],
+      "body_cues": [
+        "standing upright"
+      ],
+      "gaze": "looking down at the people seated at the table"
+    },
+    {
+      "person": "the man in a white shirt with epaulets seated on the right side of the table",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting upright",
+        "leaning forward slightly"
+      ],
+      "gaze": "looking at the man who is standing"
+    },
+    {
+      "person": "the man in a light blue shirt seated on the right side of the table",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting upright",
+        "leaning forward slightly"
+      ],
+      "gaze": "looking at the man who is standing"
+    },
+    {
+      "person": "the man in a white shirt seated on the left side of the table",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting upright",
+        "leaning forward slightly"
+      ],
+      "gaze": "looking at the man who is standing"
+    },
+    {
+      "person": "the man in a light blue shirt seated on the left side of the table",
+      "facial_cues": [],
+      "body_cues": [
+        "sitting upright",
+        "leaning forward slightly"
+      ],
+      "gaze": "looking at the man who is standing"
+    }
+  ],
+  "audio_description": "A person is speaking in a formal tone.",
+  "emotion_description": "The people appear to be in a serious or formal meeting. Their attentive postures suggest they are listening intently.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with reddish-brown hair in a dark coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "hugging and kissing a woman"
+      },
+      {
+        "person": "a woman with brown hair in a dark top",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "hugging and kissing the man"
+      }
+    ],
+    "scene": {
+      "location": "an underground chamber",
+      "setting": "a dark, cavernous space with wet stone walls and a large, carved stone face in the background, flanked by multiple stone heads with open mouths"
+    },
+    "objects": [],
+    "interactions": [
+      "The man and the woman are embracing and kissing passionately."
+    ],
+    "key_actions": [
+      "Hugging",
+      "Kissing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with reddish-brown hair in a dark coat",
+      "facial_cues": [
+        "His face is turned towards the woman as they kiss."
+      ],
+      "body_cues": [
+        "He is holding the woman tightly."
+      ],
+      "gaze": "Looking at the woman"
+    },
+    {
+      "person": "a woman with brown hair in a dark top",
+      "facial_cues": [
+        "Her eyes are closed as they kiss."
+      ],
+      "body_cues": [
+        "She is holding the man tightly."
+      ],
+      "gaze": "Looking at the man"
+    }
+  ],
+  "audio_description": "A low, ominous, and suspenseful musical score plays in the background.",
+  "emotion_description": "The couple appears to be experiencing a moment of intense passion and intimacy.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and holding a black mobile phone to his right ear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with shelves holding bowls in the background"
+    },
+    "objects": [
+      "a black mobile phone"
+    ],
+    "interactions": [
+      "the man is talking on the phone"
+    ],
+    "key_actions": [
+      "answering a phone call"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "eyes closed",
+        "eyebrows slightly furrowed"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "downwards"
+    }
+  ],
+  "audio_description": "A low, sustained, and tense musical note plays in the background.",
+  "emotion_description": "The man appears to be listening intently and with concern.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

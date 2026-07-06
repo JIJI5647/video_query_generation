@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown jacket and red shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "riding a bicycle"
+      }
+    ],
+    "scene": {
+      "location": "roadside",
+      "setting": "a paved road winding through a hilly, green landscape under a partly cloudy sky"
+    },
+    "objects": [
+      {
+        "object": "a bicycle",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being ridden"
+      },
+      {
+        "object": "a car",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "driving ahead on the road"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "A man rides a bicycle on a road."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown jacket and red shirt",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "riding a bicycle"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "Upbeat rock music with a male vocalist singing is playing.",
+  "emotion_description": "The music sounds energetic and positive.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

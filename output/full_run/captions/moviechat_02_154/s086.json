@@ -1,0 +1,90 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s086",
+  "time_range": [
+    425.0,
+    430.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a beige jacket and floral shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a gun and pointing it forward"
+      },
+      {
+        "person": "a man with a shaved head in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a gun with both hands and aiming forward"
+      },
+      {
+        "person": "a man in a striped shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "being held from behind by the man in the beige jacket"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a barred window or door in the background"
+    },
+    "objects": [
+      {
+        "object": "a black handgun",
+        "visibility": "clearly visible",
+        "position": "held by the man in the beige jacket and the man with the shaved head"
+      }
+    ],
+    "interactions": [
+      "The man in the beige jacket is holding the man in the striped shirt in a chokehold."
+    ],
+    "key_actions": [
+      "Pointing a gun",
+      "Holding someone in a chokehold"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a beige jacket and floral shirt",
+      "facial_cues": [
+        "mouth open",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "arms extended",
+        "holding a gun"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man with a shaved head in a dark shirt",
+      "facial_cues": [
+        "mouth open",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "arms extended",
+        "holding a gun with both hands"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a striped shirt",
+      "facial_cues": [
+        "mouth open",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "being held from behind"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud, distorted sound effect, like an explosion or a very loud crash, is heard.",
+  "emotion_description": "The people in the scene appear to be in a state of high tension and alarm.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

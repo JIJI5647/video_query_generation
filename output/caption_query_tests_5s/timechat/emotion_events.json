@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "events": [
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "event_id": "0",
+      "emotion_label": "fear",
+      "event_description": "A woman peeks around a corner, her eyes darting around in anxiety, and then gasps in shock and fear as a bright red light flashes, her eyes wide with terror.",
+      "time_range": [
+        5.0,
+        9.0
+      ],
+      "target_person_or_group": "A woman with dark hair, wearing a green jacket over a grey shirt",
+      "visual_evidence": [
+        "eyes dart around in fear and anxiety",
+        "eyes wide with terror",
+        "gasps in shock and fear"
+      ],
+      "audio_evidence": [
+        "faint, high-pitched ringing sound",
+        "loud, startling sound effect",
+        "high-pitched, tense musical sting"
+      ],
+      "confidence": "high",
+      "evidence_strength": "clear",
+      "segment_ids": [
+        "s002"
+      ]
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "event_id": "1",
+      "emotion_label": "fear",
+      "event_description": "A man is violently thrown backward and crashes into a wall. A woman appears with her face filled with shock and determination, pointing a handgun directly at the camera, her eyes wide with alarm.",
+      "time_range": [
+        10.0,
+        12.76
+      ],
+      "target_person_or_group": "A woman with dark hair, wearing a dark green shirt",
+      "visual_evidence": [
+        "face is filled with shock and determination",
+        "eyes wide with alarm"
+      ],
+      "audio_evidence": [
+        "loud thud",
+        "grunt",
+        "low, tense, and ominous musical score begins to play"
+      ],
+      "confidence": "medium",
+      "evidence_strength": "ambiguous",
+      "segment_ids": [
+        "s003"
+      ]
+    }
+  ]
+}

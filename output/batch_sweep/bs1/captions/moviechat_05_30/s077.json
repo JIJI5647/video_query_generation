@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with round glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking intently at something off-screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, cluttered with old objects"
+    },
+    "objects": [
+      {
+        "object": "a table with ropes, books, and a brass armillary sphere",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being interacted with"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man's hand reaches for something on the table"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with round glasses",
+      "facial_cues": [
+        "serious expression",
+        "focused eyes"
+      ],
+      "body_cues": [],
+      "gaze": "looking down and to the right"
+    }
+  ],
+  "audio_description": "the audio is silent.",
+  "emotion_description": "serious",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

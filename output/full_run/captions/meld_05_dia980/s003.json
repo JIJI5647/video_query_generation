@@ -1,0 +1,65 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a grey long-sleeved shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "sitting and speaking animatedly, holding a piece of paper"
+      },
+      {
+        "person": "a man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a kitchen or living area with a counter, cabinets, and a television in the background"
+    },
+    "objects": [
+      {
+        "name": "red cup",
+        "position": "on the counter in front of the man in the grey shirt"
+      },
+      {
+        "name": "paper",
+        "position": "held by the man in the grey shirt"
+      }
+    ],
+    "interactions": [
+      "The man in the grey shirt is speaking to the man in the black jacket, gesturing with the paper."
+    ],
+    "key_actions": [
+      "The man in the grey shirt speaks and gestures with a paper.",
+      "The man in the black jacket listens."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a grey long-sleeved shirt",
+      "facial_cues": [
+        "speaking with an open mouth",
+        "raised eyebrows",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "gesturing with the hand holding the paper"
+      ],
+      "gaze": "towards the man in the black jacket"
+    }
+  ],
+  "audio_description": "A person is speaking in a questioning and slightly exasperated tone.",
+  "emotion_description": "The man in the grey shirt appears to be inquisitive and slightly exasperated.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

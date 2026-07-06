@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of people in dark robes",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running away from an explosion."
+      },
+      {
+        "person": "a large, furry creature",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running."
+      }
+    ],
+    "scene": {
+      "location": "an open courtyard",
+      "setting": "a large, old stone building with gothic architecture is on fire and collapsing."
+    },
+    "objects": [
+      {
+        "object": "a large building",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "exploding and collapsing."
+      },
+      {
+        "object": "fire and smoke",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "engulfing the building."
+      }
+    ],
+    "interactions": [
+      "The people and the creature are fleeing from the collapsing building."
+    ],
+    "key_actions": [
+      "A large building explodes violently, sending debris flying as people and a creature run away from the destruction."
+    ],
+    "visibility_notes": "The scene is chaotic and the camera is shaky."
+  },
+  "visual_expression": [],
+  "audio_description": "Loud, chaotic sounds of explosions, crumbling stone, and people screaming in panic.",
+  "emotion_description": "Terrified",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

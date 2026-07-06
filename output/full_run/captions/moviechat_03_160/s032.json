@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at the camera"
+      },
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down, touching his ear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a metallic grate in the foreground of the first shot"
+    },
+    "objects": [
+      "metallic grate",
+      "earpiece"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man looks at the camera through a grate",
+      "a man in a suit touches his ear"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "intense gaze",
+        "slight frown"
+      ],
+      "body_cues": [],
+      "gaze": "directly at the camera"
+    },
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "frown",
+        "focused expression"
+      ],
+      "body_cues": [
+        "hand touching ear"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A loud, sustained, and high-pitched electronic tone plays.",
+  "emotion_description": "The first man's expression is intense and focused, while the second man appears serious and concentrated.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

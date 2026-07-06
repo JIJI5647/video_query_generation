@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long hair wearing a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "pounding on a door with an axe, then peering through the broken doorframe."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a bed and a lamp."
+    },
+    "objects": [
+      {
+        "object": "axe",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "held by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "pounding on door",
+      "peering through doorframe"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long hair wearing a plaid shirt",
+      "facial_cues": [
+        "angry expression",
+        "mouth open"
+      ],
+      "body_cues": [
+        "swinging axe",
+        "peering through doorframe"
+      ],
+      "gaze": "through the broken doorframe"
+    }
+  ],
+  "audio_description": "A man screams and pounds loudly on a door, accompanied by the sounds of breaking wood.",
+  "emotion_description": "anger",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

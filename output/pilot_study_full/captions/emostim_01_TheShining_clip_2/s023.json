@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "partially visible",
+        "position": "center",
+        "action": "looking out of a window and then climbing out of a window buried in snow."
+      },
+      {
+        "person": "a young boy in a red sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "hugging the woman's leg."
+      }
+    ],
+    "scene": {
+      "location": "indoor bathroom",
+      "setting": "white tiled walls with a black stripe."
+    },
+    "objects": [],
+    "interactions": [
+      "The boy hugs the woman's leg as she climbs out the window."
+    ],
+    "key_actions": [
+      "The woman climbs out of the window.",
+      "The boy hugs the woman's leg."
+    ],
+    "visibility_notes": "The woman's upper body is visible inside the bathroom, but her head and hands are visible as she climbs out the window."
+  },
+  "visual_expression": [
+    {
+      "person": "the young boy in a red sweater",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "hugging the woman's leg tightly"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "A loud, continuous mechanical sound, possibly from a train, is heard in the background.",
+  "emotion_description": "Fearful",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

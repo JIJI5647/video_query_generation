@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing, leaning over a desk, and putting a white object into his mouth"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing, holding a cup and a paper bag, and looking at the other man"
+      },
+      {
+        "person": "a person with dark hair",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with glass partitions and desks"
+    },
+    "objects": [
+      "a desk",
+      "a laptop",
+      "a cup",
+      "a paper bag",
+      "a white object"
+    ],
+    "interactions": [
+      "The man in the white shirt puts a white object into his mouth while the man in the light blue shirt watches him."
+    ],
+    "key_actions": [
+      "The man in the white shirt puts a white object into his mouth."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "putting an object into his mouth"
+      ],
+      "body_cues": [
+        "leaning over a desk"
+      ],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "a man in a light blue shirt",
+      "facial_cues": [
+        "looking at the other man"
+      ],
+      "body_cues": [
+        "standing upright"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "A telephone rings, followed by a male voice speaking.",
+  "emotion_description": "The man in the white shirt appears focused on the action of putting the object in his mouth. The man in the light blue shirt appears to be observing with curiosity.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

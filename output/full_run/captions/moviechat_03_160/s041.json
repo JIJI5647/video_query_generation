@@ -1,0 +1,85 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing next to a car and talking on a phone"
+      },
+      {
+        "person": "a man with graying hair in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a phone"
+      },
+      {
+        "person": "a man with dark hair and a mustache",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing behind metal bars and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a scene that appears to be a parking lot or roadside with trees and a streetlight"
+    },
+    "objects": [
+      "a car",
+      "a mobile phone",
+      "metal bars"
+    ],
+    "interactions": [
+      "a man is talking on a phone"
+    ],
+    "key_actions": [
+      "talking on a phone",
+      "standing",
+      "looking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "talking on the phone",
+        "looking to the side"
+      ],
+      "body_cues": [
+        "standing by a car"
+      ],
+      "gaze": "to the side"
+    },
+    {
+      "person": "a man with graying hair in a light-colored suit",
+      "facial_cues": [
+        "talking on the phone",
+        "smiling"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with dark hair and a mustache",
+      "facial_cues": [
+        "tired expression",
+        "looking forward"
+      ],
+      "body_cues": [
+        "standing behind bars"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man speaks in a low, calm voice.",
+  "emotion_description": "The man in the dark jacket sounds calm and observant, while the man on the phone appears pleased or amused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

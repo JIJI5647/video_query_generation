@@ -1,0 +1,66 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running down a hallway and swinging an axe"
+      },
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing in front of a door, holding a knife"
+      },
+      {
+        "person": "a child",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "a hallway with blue walls and a white door"
+    },
+    "objects": [
+      "axe",
+      "knife",
+      "door"
+    ],
+    "interactions": [
+      "the man swings the axe towards the door"
+    ],
+    "key_actions": [
+      "the man running",
+      "the man swinging the axe",
+      "the woman holding a knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red robe",
+      "facial_cues": [
+        "grinning widely",
+        "intense expression"
+      ],
+      "body_cues": [
+        "running",
+        "swinging axe"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud crashing sound occurs as the axe hits the door.",
+  "emotion_description": "The man appears to be in a state of manic excitement or rage.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "reaching out the window and then falling backwards out of it"
+      }
+    ],
+    "scene": {
+      "location": "bathroom",
+      "setting": "a small bathroom with white tiles and a frosted window."
+    },
+    "objects": [
+      "window",
+      "toilet",
+      "towel rack"
+    ],
+    "interactions": [
+      "the woman reaches out the window"
+    ],
+    "key_actions": [
+      "the woman reaches out the window",
+      "the woman falls backwards out of it"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "shocked",
+        "terrified"
+      ],
+      "body_cues": [
+        "reaching out",
+        "falling"
+      ],
+      "gaze": "out the window"
+    }
+  ],
+  "audio_description": "A loud, low-frequency mechanical rumbling sound is heard.",
+  "emotion_description": "Terrified",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

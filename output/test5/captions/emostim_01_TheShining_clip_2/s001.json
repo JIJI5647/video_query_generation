@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a large knife in his right hand and a red lipstick in his left hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a vintage television, a lit lamp, and a vanity table with various items."
+    },
+    "objects": [
+      "a large knife",
+      "a red lipstick",
+      "a vintage television",
+      "a lit lamp",
+      "a vanity table",
+      "a framed picture"
+    ],
+    "interactions": [
+      "the boy holds both the knife and the lipstick simultaneously"
+    ],
+    "key_actions": [
+      "the boy holds a knife and a lipstick"
+    ],
+    "visibility_notes": "The boy is the central figure, clearly visible in the foreground. The room is dimly lit, with the primary light source being the lamp behind him."
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy",
+      "facial_cues": [
+        "looking down at the objects in his hands"
+      ],
+      "body_cues": [],
+      "gaze": "downwards",
+      "body cues": [
+        "holding a knife and a lipstick"
+      ]
+    }
+  ],
+  "audio_description": "A child's voice speaks, followed by a loud, deep, sustained musical note.",
+  "temporal_description": "The child speaks at the beginning, then a loud, low-pitched musical note begins and continues to the end of the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

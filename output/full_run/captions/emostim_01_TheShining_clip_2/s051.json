@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing behind a partially destroyed white door frame, holding a knife, and screaming"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a white door frame and tiled walls"
+    },
+    "objects": [
+      "knife",
+      "destroyed door frame"
+    ],
+    "interactions": [
+      "the woman is screaming and holding a knife defensively"
+    ],
+    "key_actions": [
+      "the woman is screaming"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "mouth wide open",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "clutching a knife",
+        "leaning back against the wall"
+      ],
+      "gaze": "directed forward, towards the viewer"
+    }
+  ],
+  "audio_description": "The woman is screaming in a high-pitched and distressed manner.",
+  "emotion_description": "The woman is terrified and in a state of panic.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

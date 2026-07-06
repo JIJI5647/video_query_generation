@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark coat and light shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running, then smiling"
+      }
+    ],
+    "scene": {
+      "location": "wooden bridge",
+      "setting": "dark, nighttime, rainy, with a forest in the background"
+    },
+    "objects": [
+      {
+        "object": "wooden bridge",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being run on"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man runs across a bridge"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark coat and light shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "running"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, chaotic crash with multiple people shouting in panic.",
+  "temporal_description": "The sound of a crash and shouting occurs at the beginning, followed by the man running.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

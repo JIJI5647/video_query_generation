@@ -1,0 +1,76 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "kneeling and looking at a woman"
+      },
+      {
+        "person": "a woman in a black outfit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "kneeling and looking at the man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with dark, textured walls and a large, ornate painting in a golden frame behind the two people"
+    },
+    "objects": [
+      {
+        "object": "a large ornate painting",
+        "position": "background",
+        "description": "depicting a multi-armed, fierce-looking deity, possibly a guardian figure"
+      },
+      {
+        "object": "dark curtains",
+        "position": "background",
+        "description": "framing the painting"
+      },
+      {
+        "object": "a golden railing",
+        "position": "foreground",
+        "description": "partially obscuring the view"
+      }
+    ],
+    "interactions": [
+      "The man and the woman are facing each other, both kneeling on the floor."
+    ],
+    "key_actions": [
+      "The man and the woman are kneeling and facing each other."
+    ],
+    "visibility_notes": "The people are visible through a reflection in a glass surface, such as a window or mirror. A small, dark television screen is visible on the left wall."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [],
+      "body_cues": [
+        "kneeling on the floor",
+        "leaning forward towards the woman"
+      ],
+      "gaze": "looking at the woman"
+    },
+    {
+      "person": "a woman in a black outfit",
+      "facial_cues": [],
+      "body_cues": [
+        "kneeling on the floor",
+        "leaning forward towards the man"
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "A low, sustained, and ominous musical chord plays, creating a tense and suspenseful atmosphere.",
+  "emotion_description": "The scene is tense and suspenseful, suggesting a serious or dramatic confrontation.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

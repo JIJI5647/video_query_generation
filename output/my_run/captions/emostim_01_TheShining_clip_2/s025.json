@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair and a mustache, wearing a red jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running down a hallway and swinging an axe at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "a hallway with light blue walls and a wooden door."
+    },
+    "objects": [
+      {
+        "object": "an axe",
+        "visibility": "clearly visible",
+        "position": "in the man's hands",
+        "action": "being swung at the door"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "the man swings the axe at the door, breaking a hole in it."
+      }
+    ],
+    "key_actions": [
+      "running",
+      "swinging an axe",
+      "breaking a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair and a mustache, wearing a red jacket",
+      "facial_cues": [
+        "a wide, manic smile"
+      ],
+      "body_cues": [
+        "swinging an axe with force"
+      ],
+      "gaze": "looking at the door"
+    }
+  ],
+  "audio_description": "A loud, booming sound is heard, followed by a man yelling in an excited and manic tone.",
+  "emotion_description": "Manic excitement",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

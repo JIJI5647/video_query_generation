@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking and gesturing with his right hand"
+      },
+      {
+        "person": "a man in a dark leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "reaching forward with his right hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit, with a greenish tint in the first shot and a brighter, blurred background with lights in the second."
+    },
+    "objects": [
+      "chopsticks"
+    ],
+    "interactions": [
+      "The man in the suit speaks and gestures as if in a conversation."
+    ],
+    "key_actions": [
+      "The man in the suit gestures with his hand.",
+      "The man in the leather jacket holds chopsticks and moves them forward."
+    ],
+    "visibility_notes": "The video cuts from a close-up of one man to a different man in a different setting."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit and glasses",
+      "facial_cues": [
+        "speaking"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking forward and slightly to his right"
+    },
+    {
+      "person": "a man in a dark leather jacket",
+      "facial_cues": [
+        "focusing intently"
+      ],
+      "body_cues": [
+        "reaching forward with his right hand"
+      ],
+      "gaze": "looking down and forward"
+    }
+  ],
+  "audio_description": "The audio contains a loud, jarring electronic sound, similar to a record scratch or a digital glitch.",
+  "emotion_description": "The man in the suit appears serious and focused. The man in the leather jacket appears concentrated on his action.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

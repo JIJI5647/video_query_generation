@@ -1,0 +1,69 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe holding a child",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "hugging the child tightly, then opening a door and peeking out"
+      },
+      {
+        "person": "a child in a red shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being held by the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit bedroom with a bed, a nightstand with a lamp, and a bookshelf"
+    },
+    "objects": [
+      "a door with the word 'REDAUM' written on it in red",
+      "a lamp on a nightstand",
+      "a bed",
+      "a bookshelf"
+    ],
+    "interactions": [
+      "The woman is holding the child in her arms."
+    ],
+    "key_actions": [
+      "The woman opens the door and looks out."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "tight embrace",
+        "hesitant posture"
+      ],
+      "gaze": "looking out the doorway"
+    },
+    {
+      "person": "the child in a red shirt",
+      "facial_cues": [
+        "hidden"
+      ],
+      "body_cues": [
+        "being held"
+      ],
+      "gaze": "not visible"
+    }
+  ],
+  "audio_description": "A loud, sustained, and distorted buzzing sound is heard.",
+  "emotion_description": "Fearful or shocked.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

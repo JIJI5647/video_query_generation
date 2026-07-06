@@ -1,0 +1,63 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person lying on their back with a pale face",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying still"
+      },
+      {
+        "person": "a person wearing gloves, whose hands are on the other person's face",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "examining the person on their back"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with indistinct background elements"
+    },
+    "objects": [
+      "gloves"
+    ],
+    "interactions": [
+      "The person in gloves is touching the face of the person lying down."
+    ],
+    "key_actions": [
+      "A person is lying still while another person wearing gloves examines them."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person lying on their back with a pale face",
+      "facial_cues": [
+        "eyes closed",
+        "pale skin"
+      ],
+      "body_cues": [
+        "lying on their back"
+      ],
+      "gaze": "not clearly visible"
+    },
+    {
+      "person": "a person wearing gloves, whose hands are on the other person's face",
+      "facial_cues": [],
+      "body_cues": [
+        "hands on the other person's face"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A person speaks, followed by the sound of shuffling papers and a low, sustained electronic tone.",
+  "emotion_description": "The person lying down appears unconscious or unresponsive. The overall atmosphere is tense and somber.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

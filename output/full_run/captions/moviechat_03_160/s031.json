@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking through a barred window"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a window secured by metal bars"
+    },
+    "objects": [
+      {
+        "object": "metal bars",
+        "position": "in front of the window"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man peers through the window"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing a black shirt",
+      "facial_cues": [
+        "intense gaze",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking directly forward"
+    }
+  ],
+  "audio_description": "The audio features a loud, fast-paced, and dramatic electronic music track.",
+  "emotion_description": "The man's intense gaze and the dramatic music suggest a tense and suspenseful mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

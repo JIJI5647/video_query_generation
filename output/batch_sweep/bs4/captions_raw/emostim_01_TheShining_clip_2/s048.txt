@@ -1,0 +1,4 @@
+# parse failure: reason=salvaged_for_generation
+# segment_id=s048
+
+[{"segment_id": "s045", "time_range": [220.0, 225.0], "visual_objective": {"people": [{"person": "a man with long hair and a beard wearing a red jacket", "visibility": "clearly visible", "position": "foreground", "action": "shouting with his mouth wide open"}], "scene": {"location": "indoor room", "setting": "a room with a door and a framed picture on the wall"}}, "visual_expression": [{"person": "a man with long hair and a beard wearing a red jacket", "facial_cues": ["wide-open mouth", "squinted eyes", "furrowed brow"], "body_cues": ["leaning forward"], "gaze": "towards the camera"}], "audio_description": "A man is shouting in an aggressive manner.", "emotion_description": "Angry", "confidence": "high", "evidence_strength": "clear"}]

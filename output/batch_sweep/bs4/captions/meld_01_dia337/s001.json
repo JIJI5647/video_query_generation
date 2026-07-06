@@ -1,0 +1,84 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "bending over to pack items into a suitcase or bag, then turning to face another man."
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing in the doorway, watching the other man, then entering the room and turning to face him."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hotel room or apartment with a door marked '232', a framed picture of a chalice, a couch, and a side table."
+    },
+    "objects": [
+      {
+        "object": "a suitcase or bag",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "being packed with items."
+      },
+      {
+        "object": "a framed picture",
+        "visibility": "clearly visible",
+        "position": "wall",
+        "action": "hanging on the wall."
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "the man in the blue shirt walks through it."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the pink shirt packs items into a bag.",
+      "The man in the blue shirt enters the room and observes him."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a pink plaid shirt",
+      "facial_cues": [
+        "surprised",
+        "questioning"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "turning to face the other man"
+      ],
+      "gaze": "looking at the man in the blue shirt."
+    },
+    {
+      "person": "the man in a blue plaid shirt",
+      "facial_cues": [
+        "questioning",
+        "inquisitive"
+      ],
+      "body_cues": [
+        "standing with hands on hips",
+        "turning to face the other man"
+      ],
+      "gaze": "looking at the man in the pink shirt."
+    }
+  ],
+  "audio_description": "A man speaks in a questioning tone, followed by another man speaking in a matter-of-fact tone.",
+  "emotion_description": "Curious and inquisitive",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

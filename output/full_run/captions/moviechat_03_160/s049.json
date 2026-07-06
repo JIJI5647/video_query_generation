@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with short, graying hair wearing a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a flip phone to his right ear and smiling"
+      },
+      {
+        "person": "a man with dark hair and a mustache",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "looking towards the man on the phone with a concerned expression"
+      },
+      {
+        "person": "a man with dark hair and a beard",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a metal roll-up door or gate in the background, under dim, greenish lighting"
+    },
+    "objects": [
+      {
+        "name": "flip phone",
+        "description": "a black flip phone being held to the man's ear"
+      }
+    ],
+    "interactions": [
+      "The man in the suit is on a phone call while the other two men look on."
+    ],
+    "key_actions": [
+      "A man is smiling and talking on a flip phone."
+    ],
+    "visibility_notes": "The man on the phone is the primary focus. The other two men are in the background."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with short, graying hair wearing a dark suit",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "holding a flip phone to his ear"
+      ],
+      "gaze": "looking forward and slightly to the right"
+    },
+    {
+      "person": "a man with dark hair and a mustache",
+      "facial_cues": [
+        "concerned expression",
+        "wide eyes"
+      ],
+      "body_cues": [],
+      "gaze": "looking towards the man on the phone"
+    }
+  ],
+  "audio_description": "A male voice speaks, followed by a loud, suspenseful musical sting.",
+  "emotion_description": "The man on the phone appears happy or amused, while the other man appears concerned or anxious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

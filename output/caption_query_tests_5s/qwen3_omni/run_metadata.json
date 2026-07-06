@@ -1,0 +1,16 @@
+{
+  "caption_model": "qwen3_omni",
+  "model_kind": "av",
+  "non_commercial": false,
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "video": "data/pilot_study/emostim_07_TheSilenceOfTheLambs_a_clip_2.mp4",
+  "audio": null,
+  "num_segments": 3,
+  "num_normalized_captions": 3,
+  "caption_seconds": 241.3,
+  "model_paths": {
+    "caption_model_path": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+    "audio_model_path": null,
+    "video_model_path": null
+  }
+}

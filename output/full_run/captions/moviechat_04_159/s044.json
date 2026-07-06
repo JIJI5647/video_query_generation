@@ -1,0 +1,79 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and listening"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and listening"
+      },
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and speaking"
+      },
+      {
+        "person": "a man in a dark jacket with 'OCTB' on the back",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a briefing room with a whiteboard covered in photos and notes"
+    },
+    "objects": [
+      "a whiteboard",
+      "photos on the whiteboard",
+      "a silver case on a table"
+    ],
+    "interactions": [
+      "the man in the suit is speaking to a group of people"
+    ],
+    "key_actions": [
+      "people are gathered in a briefing room",
+      "a man is giving a presentation"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the light blue shirt",
+      "facial_cues": [
+        "intense gaze",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    },
+    {
+      "person": "the man in the suit",
+      "facial_cues": [
+        "focused",
+        "serious"
+      ],
+      "body_cues": [
+        "gesturing with his hands"
+      ],
+      "gaze": "looking at the group"
+    }
+  ],
+  "audio_description": "A male voice gives a command in a tense and authoritative tone, followed by a loud, deep explosion.",
+  "emotion_description": "Tense, focused, and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

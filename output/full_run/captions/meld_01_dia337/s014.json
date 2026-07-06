@@ -1,0 +1,61 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    67.9
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink and white plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking and looking at the other man"
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "talking and looking at the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an apartment hallway with light-colored walls and a framed picture"
+    },
+    "objects": [
+      {
+        "name": "framed picture",
+        "description": "a large, ornate, gold-framed picture hanging on the wall"
+      },
+      {
+        "name": "wall sconce",
+        "description": "a dark, decorative wall sconce with a white lampshade"
+      }
+    ],
+    "interactions": [
+      "The two men are having a conversation, facing each other."
+    ],
+    "key_actions": [
+      "The man in the pink shirt is speaking and gesturing with his right hand."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink and white plaid shirt",
+      "facial_cues": [
+        "his eyes are wide and his eyebrows are raised in surprise"
+      ],
+      "body_cues": [
+        "he is gesturing with his right hand"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "Two men are having a conversation with clear and casual voices.",
+  "emotion_description": "The man in the pink shirt appears surprised or taken aback by what the other man is saying.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

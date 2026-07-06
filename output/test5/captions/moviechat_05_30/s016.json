@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long brown hair, wearing a dark green coat and patterned trousers",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and holding a wand that is emitting a bright, fiery light"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, grassy field with a group of people behind the central figure"
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "in the hand of the man in the foreground",
+        "action": "emitting a bright, fiery light"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the foreground holds a wand that is emitting a bright, fiery light",
+      "a group of people stand behind him, looking forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long brown hair, wearing a dark green coat and patterned trousers",
+      "facial_cues": [
+        "wide eyes",
+        "focused expression"
+      ],
+      "body_cues": [
+        "standing still",
+        "holding a wand"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The audio contains a low, ominous drone or hum.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

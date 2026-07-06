@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "adjusting his jacket and looking down at a small object in his hands"
+      },
+      {
+        "person": "a person in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "bending over on the ground"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, grassy area next to a dirt path"
+    },
+    "objects": [
+      "a small object (possibly a phone or lighter) held by the man in the suit"
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit adjusts his jacket and then looks at the object in his hands."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue suit",
+      "facial_cues": [
+        "serious expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "adjusting jacket",
+        "looking down"
+      ],
+      "gaze": "downward at the object in his hands"
+    }
+  ],
+  "audio_description": "A low, sustained, and tense musical tone plays in the background.",
+  "emotion_description": "The man in the suit appears serious and focused.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

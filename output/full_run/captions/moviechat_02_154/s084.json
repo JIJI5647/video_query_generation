@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on her back on a bed, being held by a man who is partially visible above her"
+      },
+      {
+        "person": "a man",
+        "visibility": "partially visible",
+        "position": "above the woman",
+        "action": "holding the woman down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a brown, tufted headboard and a bed with white sheets"
+    },
+    "objects": [
+      "bed",
+      "pillow",
+      "headboard"
+    ],
+    "interactions": [
+      "the man is holding the woman down on the bed"
+    ],
+    "key_actions": [
+      "the man holding the woman down",
+      "the woman lying on her back"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman",
+      "facial_cues": [
+        "her eyes are closed"
+      ],
+      "body_cues": [
+        "her arms are raised above her head"
+      ],
+      "gaze": "closed eyes"
+    }
+  ],
+  "audio_description": "A loud, fast-paced, and intense orchestral music track is playing.",
+  "emotion_description": "The woman's closed eyes and raised arms suggest she is either experiencing intense pleasure or is in a state of distress.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

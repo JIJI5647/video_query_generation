@@ -1,0 +1,65 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit jacket and white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding and comforting a young child"
+      },
+      {
+        "person": "a young child with blond hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held and clinging to the man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with curtains in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The man is holding the young child in a comforting embrace."
+    ],
+    "key_actions": [
+      "The man leans down towards the child, placing his hand on the child's back."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit jacket and white shirt",
+      "facial_cues": [
+        "leaning down",
+        "gentle expression"
+      ],
+      "body_cues": [
+        "holding the child close",
+        "placing a hand on the child's back"
+      ],
+      "gaze": "looking down at the child"
+    },
+    {
+      "person": "a young child with blond hair",
+      "facial_cues": [
+        "hugging the man tightly",
+        "head resting on the man's chest"
+      ],
+      "body_cues": [
+        "clinging to the man"
+      ],
+      "gaze": "not visible"
+    }
+  ],
+  "audio_description": "A child is shouting excitedly in the background.",
+  "emotion_description": "The man appears to be comforting the child, who seems excited.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

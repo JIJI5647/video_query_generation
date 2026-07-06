@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "swinging an axe at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "hallway with blue walls and a staircase in the background"
+    },
+    "objects": [
+      {
+        "object": "axe",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being swung at a door"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The man swings the axe at the door"
+      }
+    ],
+    "key_actions": [
+      "The man swings the axe at the door repeatedly."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red jacket",
+      "facial_cues": [
+        "strained expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "forceful swinging motion"
+      ],
+      "gaze": "at the door"
+    }
+  ],
+  "audio_description": "The audio features the loud, sharp sound of an axe striking wood, repeated multiple times.",
+  "emotion_description": "Anger",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

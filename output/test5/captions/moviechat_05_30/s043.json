@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being grabbed and pulled by someone behind her"
+      },
+      {
+        "person": "a group of people in dark robes",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running and scrambling down a staircase"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark, stone staircase in a castle-like building with ornate railings and wall sconces"
+    },
+    "objects": [],
+    "interactions": [
+      "the woman in the white shirt is being pulled by someone behind her"
+    ],
+    "key_actions": [
+      "people are running and scrambling down the staircase"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white shirt",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "being pulled by someone behind her"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "Shouting and screaming can be heard in the background.",
+  "temporal_description": "The people continue to run and scramble down the stairs, and the shouting and screaming continue.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

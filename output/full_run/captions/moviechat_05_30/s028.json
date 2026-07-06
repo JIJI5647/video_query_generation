@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a grey cardigan and jeans",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking forward"
+      },
+      {
+        "person": "a group of young people",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "indoor bridge",
+      "setting": "a dark, long wooden bridge with ornate railings and stone arches in the background"
+    },
+    "objects": [
+      {
+        "description": "a wooden bridge",
+        "position": "underfoot"
+      },
+      {
+        "description": "a wand",
+        "position": "held by the woman in the foreground"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The woman in the foreground walks forward.",
+      "The group of young people in the background stands still."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in the grey cardigan",
+      "facial_cues": [
+        "serious expression",
+        "fixed gaze"
+      ],
+      "body_cues": [
+        "walking forward with a purposeful stride"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "The audio features a dramatic, suspenseful musical score.",
+  "emotion_description": "The woman's expression and the tense music suggest she is feeling determined and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

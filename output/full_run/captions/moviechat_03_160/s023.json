@@ -1,0 +1,78 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a mobile phone to his ear and speaking"
+      },
+      {
+        "person": "a man in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table and eating from a bowl with chopsticks"
+      },
+      {
+        "person": "a woman in a black dress",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the man who is eating"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, cluttered room with shelves holding bowls and a table with a plate of food"
+    },
+    "objects": [
+      "mobile phone",
+      "bowl",
+      "chopsticks",
+      "plate",
+      "table",
+      "shelves"
+    ],
+    "interactions": [
+      "the man in the suit is on a phone call",
+      "the man in the patterned shirt is eating at a table"
+    ],
+    "key_actions": [
+      "speaking on the phone",
+      "eating"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit jacket",
+      "facial_cues": [
+        "smiling",
+        "nodding"
+      ],
+      "body_cues": [
+        "holding a phone to his ear"
+      ],
+      "gaze": "looking slightly to his right"
+    },
+    {
+      "person": "a man in a blue patterned shirt",
+      "facial_cues": [
+        "eating"
+      ],
+      "body_cues": [
+        "bent over a bowl"
+      ],
+      "gaze": "looking down at his food"
+    }
+  ],
+  "audio_description": "A man speaks on a mobile phone in a quiet environment.",
+  "emotion_description": "The man on the phone appears to be in a pleasant or positive mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

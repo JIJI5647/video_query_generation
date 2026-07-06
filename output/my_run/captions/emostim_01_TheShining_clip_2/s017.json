@@ -1,0 +1,61 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a child and screaming in fear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a bed and a door with red writing on it"
+    },
+    "objects": [
+      {
+        "object": "a child",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held by the woman"
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "with the word 'MURDER' written in red"
+      }
+    ],
+    "interactions": [
+      "the woman is holding the child tightly"
+    ],
+    "key_actions": [
+      "the woman is screaming in fear"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "tense body",
+        "clutching the child"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "a woman is screaming in fear",
+  "emotion_description": "fear",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

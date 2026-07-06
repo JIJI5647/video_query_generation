@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown suit and red tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle"
+      }
+    ],
+    "scene": {
+      "location": "outdoor road",
+      "setting": "a paved road with white lane markings, bordered by dry grass and trees under a clear blue sky"
+    },
+    "objects": [
+      {
+        "object": "a bicycle",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being ridden"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man is pedaling the bicycle"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown suit and red tie",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hands on handlebars"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "Loud, distorted, and fast-paced rock music with prominent electric guitars and drums is playing.",
+  "emotion_description": "The man appears to be in a state of shock or panic, which is supported by the frantic music.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

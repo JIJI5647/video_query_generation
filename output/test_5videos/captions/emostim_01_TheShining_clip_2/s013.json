@@ -1,0 +1,66 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy in a red and grey sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and writing on a door with a red marker"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night with a bed and a lamp visible in the background"
+    },
+    "objects": [
+      {
+        "object": "a red marker",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "being used to write on the door"
+      },
+      {
+        "object": "a knife",
+        "visibility": "clearly visible",
+        "position": "in the boy's hand",
+        "action": "held in the boy's hand"
+      },
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "right side",
+        "action": "being written on by the boy"
+      }
+    ],
+    "interactions": [
+      "the boy is writing on the door with the marker"
+    ],
+    "key_actions": [
+      "the boy is writing on the door with a red marker"
+    ],
+    "visibility_notes": "The boy's face is partially visible, but his full expression is not clear."
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy in a red and grey sweater",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "holding a knife",
+        "writing on a door"
+      ],
+      "gaze": "on the door"
+    }
+  ],
+  "audio_description": "A child's voice is heard saying words that sound like 'redrum' and 'bad', followed by a loud, ominous musical chord.",
+  "emotion_description": "The boy appears to be in a playful or mischievous mood, but the ominous music adds a sense of tension or fear.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,71 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "walking into the room and placing a black bag on the floor"
+      },
+      {
+        "person": "the man in a blue shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting in an armchair with his hand on his head"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with purple walls, a window, and furniture"
+    },
+    "objects": [
+      "black bag",
+      "armchair",
+      "table",
+      "window"
+    ],
+    "interactions": [
+      "the woman places the bag on the floor near the man"
+    ],
+    "key_actions": [
+      "walking",
+      "placing an object",
+      "sitting"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the woman in a white shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "walking",
+        "carrying bags"
+      ],
+      "gaze": "towards the man"
+    },
+    {
+      "person": "the man in a blue shirt",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "sitting",
+        "hand on head"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A female voice speaks, followed by a male voice.",
+  "temporal_description": "The woman walks into the room and places a bag on the floor while speaking, then the man responds.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

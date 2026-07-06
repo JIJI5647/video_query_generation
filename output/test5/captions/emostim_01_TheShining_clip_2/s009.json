@@ -1,0 +1,58 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a child in a red and grey sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and writing on a door with a knife"
+      },
+      {
+        "person": "an adult in a blue shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sleeping in a bed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a bed, a lamp, and a door"
+    },
+    "objects": [
+      "knife",
+      "door",
+      "bed",
+      "lamp"
+    ],
+    "interactions": [
+      "the child is writing on the door with the knife"
+    ],
+    "key_actions": [
+      "the child is writing on the door with the knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a child in a red and grey sweater",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "holding a knife",
+        "writing on a door"
+      ],
+      "gaze": "on the door"
+    }
+  ],
+  "audio_description": "a loud, high-pitched ringing sound, like a telephone, is heard throughout the clip.",
+  "temporal_description": "The ringing sound starts at the beginning of the clip and continues without interruption.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,46 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark hooded sweatshirt",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "moving from left to right, then turning towards the camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a window showing rain or snow outside"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "walking",
+      "turning"
+    ],
+    "visibility_notes": "The person's face is partially obscured by the hood and shadows."
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark hooded sweatshirt",
+      "facial_cues": [
+        "mouth open",
+        "showing teeth"
+      ],
+      "body_cues": [
+        "turning towards the camera"
+      ],
+      "gaze": "towards the camera"
+    }
+  ],
+  "audio_description": "A loud, distorted, and aggressive electronic sound begins abruptly.",
+  "emotion_description": "Aggressive or menacing",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

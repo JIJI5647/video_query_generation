@@ -1,0 +1,4 @@
+# parse failure: reason=salvaged_for_generation
+# segment_id=s008
+
+[{"segment_id": "s007", "time_range": [30.0, 35.0], "visual_objective": {"people": [{"person": "a woman with wet hair", "visibility": "clearly visible", "position": "foreground", "action": "screaming"}], "scene": {"location": "indoor room", "setting": "dimly lit with a dark background"}}, "visual_expression": [{"person": "a woman with wet hair", "facial_cues": ["wide eyes", "open mouth", "sweat on forehead"], "body_cues": [], "gaze": "upward"}], "audio_description": "A woman is screaming in terror.", "emotion_description": "terror", "confidence": "high", "evidence_strength": "clear"}]

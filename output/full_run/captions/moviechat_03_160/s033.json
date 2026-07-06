@@ -1,0 +1,85 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down with a serious expression"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a phone to his ear and looking intently at a laptop screen"
+      },
+      {
+        "person": "a person in a dark suit",
+        "visibility": "partially visible",
+        "position": "center",
+        "action": "clenching a fist"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit environment"
+    },
+    "objects": [
+      "phone",
+      "laptop",
+      "ring",
+      "earpiece"
+    ],
+    "interactions": [
+      "the man in the light-colored shirt is on a phone call"
+    ],
+    "key_actions": [
+      "clenching a fist",
+      "holding a phone to the ear",
+      "looking intently at a screen"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious",
+        "concentrated"
+      ],
+      "body_cues": [
+        "looking down"
+      ],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "serious",
+        "focused"
+      ],
+      "body_cues": [
+        "holding a phone to his ear"
+      ],
+      "gaze": "at the laptop screen"
+    },
+    {
+      "person": "a person in a dark suit",
+      "facial_cues": [],
+      "body_cues": [
+        "clenching a fist"
+      ],
+      "gaze": "not visible"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, conversational tone.",
+  "emotion_description": "The individuals appear to be in a serious and focused state.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

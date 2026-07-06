@@ -1,0 +1,73 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting and looking at another man"
+      },
+      {
+        "person": "a man in a shiny, patterned shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting and talking on a cell phone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a wall covered in light-colored, possibly peeling, tiles"
+    },
+    "objects": [
+      {
+        "description": "a cell phone",
+        "visibility": "clearly visible",
+        "position": "held to the ear of the man in the shiny shirt"
+      }
+    ],
+    "interactions": [
+      {
+        "participants": [
+          "the man in a dark shirt",
+          "the man in a shiny, patterned shirt"
+        ],
+        "action": "sitting next to each other, with one talking on the phone and the other watching him"
+      }
+    ],
+    "key_actions": [
+      "talking on a cell phone",
+      "sitting",
+      "looking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in a dark shirt",
+      "facial_cues": [
+        "looking intently"
+      ],
+      "body_cues": [],
+      "gaze": "towards the man on the phone"
+    },
+    {
+      "person": "the man in a shiny, patterned shirt",
+      "facial_cues": [
+        "focused",
+        "serious"
+      ],
+      "body_cues": [],
+      "gaze": "straight ahead"
+    }
+  ],
+  "audio_description": "A single male voice speaks in a calm, conversational tone.",
+  "emotion_description": "The man on the phone appears focused and serious, while the other man appears to be intently listening.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "leaning towards another man, speaking with a strained expression"
+      },
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "leaning forward, listening intently to the other man"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit interior, suggesting nighttime"
+    },
+    "objects": [
+      {
+        "object": "a white handkerchief",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "held in the hand of the man in the leather jacket"
+      }
+    ],
+    "interactions": [
+      "The man in the black shirt leans in and speaks to the man in the leather jacket."
+    ],
+    "key_actions": [
+      "The man in the black shirt speaking to the other man",
+      "The man in the leather jacket holding a handkerchief and listening"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the black shirt",
+      "facial_cues": [
+        "strained facial expression",
+        "tense mouth",
+        "visible sweat on his forehead"
+      ],
+      "body_cues": [
+        "leaning forward aggressively"
+      ],
+      "gaze": "looking directly at the other man"
+    },
+    {
+      "person": "the man in the black leather jacket",
+      "facial_cues": [
+        "concentrated expression",
+        "furrowed brow",
+        "gaze fixed on the other man"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking directly at the other man"
+    }
+  ],
+  "audio_description": "A male voice speaks in a strained, tense tone.",
+  "emotion_description": "Tension and stress",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

@@ -1,0 +1,77 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light grey suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking, then gesturing with his right hand"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "right of the man in the suit",
+        "action": "standing and looking towards the man in the suit"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "partially visible",
+        "position": "left of the man in the suit",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background, right",
+        "action": "standing in a room with a red diamond-shaped decoration on a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a dark door featuring a red diamond-shaped decoration, and shelves in the background"
+    },
+    "objects": [
+      "a red diamond-shaped decoration on a door"
+    ],
+    "interactions": [
+      "the man in the light grey suit speaks and gestures towards the other men"
+    ],
+    "key_actions": [
+      "the man in the light grey suit speaking and gesturing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light grey suit",
+      "facial_cues": [
+        "speaking with a serious expression",
+        "mouth open"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking towards the men on his right"
+    },
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking towards the man in the light grey suit"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, clear tone.",
+  "emotion_description": "The man in the light grey suit appears to be giving a serious command, while the other men appear attentive and serious.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}

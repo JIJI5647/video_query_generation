@@ -1,0 +1,66 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle"
+      },
+      {
+        "person": "a person driving",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "driving a white jeep"
+      }
+    ],
+    "scene": {
+      "location": "road",
+      "setting": "a winding road on a sunny day with mountains in the background"
+    },
+    "objects": [
+      {
+        "name": "bicycle",
+        "position": "foreground",
+        "visibility": "clearly visible"
+      },
+      {
+        "name": "jeep",
+        "position": "background",
+        "visibility": "clearly visible"
+      }
+    ],
+    "interactions": [
+      "The jeep is driving behind the man on the bicycle"
+    ],
+    "key_actions": [
+      "The man is pedaling the bicycle",
+      "The jeep is approaching the man from behind"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "focused expression",
+        "eyes looking forward"
+      ],
+      "body_cues": [
+        "leaning forward over the handlebars",
+        "hands gripping the handlebars"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "Upbeat rock music with a male vocalist is playing.",
+  "emotion_description": "The man on the bicycle appears focused on his task, while the music suggests a lighthearted and energetic mood.",
+  "confidence": "high",
+  "evidence_strength": "clear"
+}
