@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s096",
+  "time_range": [
+    475.0,
+    480.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person's hand",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "picking up a silver flip phone from a plastic evidence bag"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a desk with evidence items, including a photo ID and a phone in a plastic bag, under cool, blue-toned lighting."
+    },
+    "objects": [
+      {
+        "object": "a silver flip phone",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being picked up from a plastic evidence bag"
+      },
+      {
+        "object": "a photo ID",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "lying on the desk next to the phone"
+      },
+      {
+        "object": "a plastic evidence bag",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "containing the phone and being handled"
+      }
+    ],
+    "interactions": [
+      "a hand picks up the phone from the evidence bag"
+    ],
+    "key_actions": [
+      "a hand picks up a silver flip phone from a plastic evidence bag"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A dramatic, suspenseful musical score with a prominent string instrument plays in the background.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s096\", \"time_range\": [475.0, 480.0], \"visual_objective\": {\"people\": [{\"person\": \"a person's hand\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"picking up a silver flip phone from a plastic evidence bag\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a desk with evidence items, including a photo ID and a phone in a plastic bag, under cool, blue-toned lighting.\"}, \"objects\": [{\"object\": \"a silver flip phone\", \"visibility\": \"clearly visible\", \"positio"
+}

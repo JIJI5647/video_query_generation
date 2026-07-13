@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, reverberant indoor space, likely a small to medium-sized room with hard surfaces such as wood or tile. A faint, high-pitched electronic whine, characteristic of a digital device’s standby or idle state, is present throughout, accompanied by a subtle, low-frequency hum. The environment is otherwise silent, with no speech, music, or other ambient sounds. Shortly after the start, a soft, low-frequency thud is heard, suggesting the gentle placement of a heavy object—possibly a book or box—onto a hard surface. This is followed by a brief, low-pitched creak, indicating the object’s weight causing a floorboard or furniture to flex. Next, a sharp, high-pitched click occurs, likely from a plastic or metal latch being engaged, such as a drawer or cabinet being closed. Immediately after, a short, high-frequency rustling sound is detected, resembling the movement of a thin, flexible material like paper or plastic. The sequence concludes with a loud, sustained, low-pitched electronic buzz, which is harsh and synthetic, reminiscent of a digital error tone or system alert. This buzz dominates the final moments of the recording, masking all other sounds, and ends abruptly, leaving the audio in silence.\n\nThe recording is of moderate fidelity, with a clear signal and a low noise floor, though a persistent electronic whine and hum are present. The sounds are spatially close and centered, with no stereo movement, and the room’s acoustics are evident in the reverberation of each event. The sequence of sounds—object placement, creak, latch engagement, material rustling, and electronic buzz—suggests a deliberate, methodical interaction with a digital device or piece of furniture, possibly in a domestic or office setting. The absence of speech, music, or cultural markers, combined with the generic nature of the sounds, indicates a universal, everyday scenario. The electronic buzz at the end implies a system error or alert, reinforcing the impression of a routine task interrupted by a technical malfunction.\n\nIn summary, the audio captures a brief, methodical sequence of object handling and device interaction in a quiet, reverberant indoor environment, culminating in a loud electronic error tone. The sounds are generic and universal, with no speech or music, and the recording’s fidelity and acoustic properties suggest a modern, everyday context.",
+  "temporal_description": "A person wearing a dark hooded jacket and a beanie stands in a dimly lit room, partially illuminated by light coming through a window with raindrops on the glass. They are holding an object in their right hand and appear to be moving slightly, shifting their weight and turning their head. The room has a sink and mirror visible in the background, and the person’s face is mostly obscured by shadows and the hood. As the scene progresses, the lighting dims significantly, making the person’s features nearly indiscernible, and they seem to move closer to the camera before the frame becomes almost entirely dark.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a dark hooded jacket and a beanie stands in a dimly lit room, partially illuminated by light coming through a window with raindrops on the glass. They are holding an object in their right hand and appear to be moving slightly, shifting their weight and turning their head. The room has a sink and mirror visible in the background, and the person’s face is mostly obscured by shadows and the hood. As the scene progresses, the lighting dims significantly, making the person’s features",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

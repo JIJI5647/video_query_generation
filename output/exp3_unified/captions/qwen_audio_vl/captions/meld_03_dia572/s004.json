@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a plaid shirt stands in a hospital room, gesturing with his arms spread wide, while looking toward another person off-screen. In the background, a medical professional leans over a patient in a hospital bed, and another patient sits upright in a separate bed, partially obscured by curtains. The room contains typical hospital furnishings, including beds, medical equipment, and patterned curtains.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, and forceful female voice exclaiming, “No!” The word is delivered with sharp, strained energy, immediately establishing a confrontational tone. This is followed by a second female voice, lower in pitch and marked by a rapid, accusatory cadence, who shouts, “Don’t you look at her, you sick bastard!” Her speech is clipped and intense, with the word “sick” delivered in a guttural, almost growling manner, and “bastard” ending in a harsh, descending pitch. The charge is palpable, suggesting a moment of crisis or outrage. As the second speaker finishes, a third female voice, softer and more measured, interjects with, “Honey, I swear—” Her tone is calm and soothing, attempting to de-escalate the situation. However, her statement is abruptly cut off mid-word, leaving the resolution unresolved and heightening the sense of tension. Throughout the exchange, the recording is marked by low fidelity, with a persistent background hiss and a compressed, boxy sound. The voices are close-miked, resulting in a dry, intimate acoustic environment with no reverberation or ambient noise. The audio is monoph",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a plaid shirt stands in a hospital room, gesturing with his arms spread wide, while looking toward another person off-screen. In the background, a medical professional leans over a patient in a hospital bed, and another patient sits upright in a separate bed, partially obscured by curtains. The room contains typical hospital furnishings, including beds, medical equipment, and patterned curtains.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

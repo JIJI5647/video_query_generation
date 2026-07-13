@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_description": "A man in a blue jacket walks away from the camera down a dim hallway with shelves of files and other people in the background. The view then shifts to a high-angle shot of a courtroom where three men sit at a table illuminated by a single light.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s028\", \"time_range\": [135.0, 140.0], \"visual\": \"A man in a blue jacket walks away from the camera down a dim hallway with shelves of files and other people in the background. The view then shifts to a high-angle shot of a courtroom where three men sit at a table illuminated by a single light.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

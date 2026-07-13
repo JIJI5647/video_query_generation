@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_description": "A man in a dark jacket holds a steaming container close to his face, partially obscuring his features. In a dimly lit alleyway, two men stand facing each other—one holds a bottle, the other a lit sign with red characters—under a striped tarp and surrounded by cluttered walls and stacked items. The man with the bottle looks toward the other, who gazes back with a neutral posture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with an abrupt, high-energy burst of music, immediately immersing the listener in a dense, fast-paced rhythm. The primary instrument is a tabla, played with virtuosic precision and speed, producing a rapid-fire sequence of sharp, metallic \"dha\" and \"ge\" strokes, interspersed with deep, resonant \"dha\" and \"ge\" tones. The tabla’s sound is bright, metallic, and percussive, with a pronounced attack and short decay, and is accompanied by a faint, high-frequency hiss that suggests analog tape or low-fidelity digital recording. The stereo image is narrow, with the tabla centered and no spatial movement, and the recording is monophonic, lacking any sense of width or depth. The music is entirely instrumental, with no speech, vocals, or environmental sounds present. The tempo is extremely fast, estimated at 200–220 BPM, and the rhythm is tightly structured in a repeating 16-beat cycle (Tintal), with each cycle divided into four equal sections. The tabla’s performance is marked by intricate, syncopated patterns, rapid alternations between high and low tones, and a relentless drive that creates a sense of urgency and.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark jacket holds a steaming container close to his face, partially obscuring his features. In a dimly lit alleyway, two men stand facing each other—one holds a bottle, the other a lit sign with red characters—under a striped tarp and surrounded by cluttered walls and stacked items. The man with the bottle looks toward the other, who gazes back with a neutral posture.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

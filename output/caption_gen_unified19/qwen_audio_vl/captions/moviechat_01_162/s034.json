@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_description": "Two men are inside a car, one seated in the driver’s seat and the other leaning in close, their faces nearly touching. The man in the driver’s seat looks forward with a focused gaze, while the other leans in, his face partially obscured by the car’s interior and his own hair. The scene is dimly lit, with visible reflections on the car windows and a faint watermark in the upper left corner.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, loud, and harsh metallic impact, characterized by a deep, resonant thud and a high-frequency metallic scrape. This sound is heavily distorted due to digital clipping, suggesting the recording device was overwhelmed by the force of the event. The impact is followed by a brief, chaotic metallic rattle, indicating loose or broken components, and is accompanied by a faint, high-pitched squeal, likely from metal-on-metal friction. The reverberation is short and dense, implying the event occurred in a small, enclosed, and acoustically reflective space, such as a garage or workshop. Immediately after the impact, a powerful, multi-tone air horn blares, its sound rich in harmonics and marked by a slightly dissonant, brassy timbre. The horn is sustained for several seconds, with a steady pitch and volume, and is also heavily clipped, resulting in a harsh, distorted quality. The horn’s reverberation is dense and short, consistent with the same enclosed environment as the initial impact. The horn’s tone is reminiscent of those used on large vehicles like trucks or buses, and its sustained, urgent character suggests a warning or alarm. As the horn fades, a male voice, strained and breathless, urgently",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are inside a car, one seated in the driver’s seat and the other leaning in close, their faces nearly touching. The man in the driver’s seat looks forward with a focused gaze, while the other leans in, his face partially obscured by the car’s interior and his own hair. The scene is dimly lit, with visible reflections on the car windows and a faint watermark in the upper left corner.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

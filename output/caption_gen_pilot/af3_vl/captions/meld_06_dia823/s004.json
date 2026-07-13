@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with a steady pace and moderate pitch, conveying a sense of calmness and reassurance.",
+  "temporal_description": "A woman with brown hair styled in a bun is seated on a striped couch, wearing a blue patterned sleeveless dress and a necklace. Her hands are clasped or gesturing as she speaks, and she occasionally shifts her gaze slightly. Behind her, the room is furnished with a pink tufted chair, a wooden shelf, and various items including a blue box and a small figurine on a table. The setting appears to be a casual, lived-in living room.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with brown hair styled in a bun is seated on a striped couch, wearing a blue patterned sleeveless dress and a necklace. Her hands are clasped or gesturing as she speaks, and she occasionally shifts her gaze slightly. Behind her, the room is furnished with a pink tufted chair, a wooden shelf, and various items including a blue box and a small figurine on a table. The setting appears to be a casual, lived-in living room.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

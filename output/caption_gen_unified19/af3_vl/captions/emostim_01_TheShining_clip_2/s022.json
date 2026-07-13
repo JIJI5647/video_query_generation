@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A man in a maroon jacket swings a broomstick toward a doorframe, his face contorted in exertion. A woman in a blue jacket stands at a tiled window, her back to the camera, touching the glass as a child in a red sweater clings to her waist. The scene is indoors, with white tiled walls and a radiator visible, and the woman’s hair is dark and loose.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable sigh at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a maroon jacket swings a broomstick toward a doorframe, his face contorted in exertion. A woman in a blue jacket stands at a tiled window, her back to the camera, touching the glass as a child in a red sweater clings to her waist. The scene is indoors, with white tiled walls and a radiator visible, and the woman’s hair is dark and loose.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

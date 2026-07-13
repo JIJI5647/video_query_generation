@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A person with long dark hair, wearing a blue robe, is seen from behind, standing in a bathroom and wiping a window with a cloth. The bathroom has white tiled walls with black trim, a toilet, and a toilet paper holder. The person is focused on cleaning the window, moving their hands back and forth across the glass. The window has a view of a dark, snowy outdoor scene.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a blue robe, is seen from behind, standing in a bathroom and wiping a window with a cloth. The bathroom has white tiled walls with black trim, a toilet, and a toilet paper holder. The person is focused on cleaning the window, moving their hands back and forth across the glass. The window has a view of a dark, snowy outdoor scene.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_description": "A man in dark clothing on a boat sprays water from a hose, creating a mist, then is grabbed by another person; the scene shifts to a nighttime shoreline where several individuals in dark uniforms with the number 678 on their backs chase and push a person into the water, causing a large splash.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sound of water spraying and splashing dominates, with faint ambient noise in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s066\", \"time_range\": [325.0, 330.0], \"visual\": \"A man in dark clothing on a boat sprays water from a hose, creating a mist, then is grabbed by another person; the scene shifts to a nighttime shoreline where several individuals in dark uniforms with the number 678 on their backs chase and push a person into the water, causing a large splash.\", \"audio\": \"The sound of water spraying and splashing dominates, with faint ambient noise in the background.\", \"confidence\": \"high\", \"evidenc"
+}

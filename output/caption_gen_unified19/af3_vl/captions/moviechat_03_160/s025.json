@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_description": "Two men sit at a table in a dimly lit, crowded indoor space; one wears a patterned shirt and holds chopsticks, the other wears a dark jacket and looks toward him. The man in the patterned shirt gestures with his chopsticks while leaning forward, and the other man gazes at him attentively. Background figures are partially visible, blurred and out of focus, suggesting a busy environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a clear and steady voice, speaking in a neutral tone without any noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men sit at a table in a dimly lit, crowded indoor space; one wears a patterned shirt and holds chopsticks, the other wears a dark jacket and looks toward him. The man in the patterned shirt gestures with his chopsticks while leaning forward, and the other man gazes at him attentively. Background figures are partially visible, blurred and out of focus, suggesting a busy environment.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

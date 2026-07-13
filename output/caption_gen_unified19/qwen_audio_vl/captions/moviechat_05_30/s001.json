@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "Two individuals stand facing each other in a dimly lit, cavernous space with dark, textured walls. The person on the left turns and embraces the person on the right, who remains still. Both are dressed in dark clothing, and their faces are partially illuminated, showing neutral expressions as they interact.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency electronic hum, reminiscent of a synthesizer pad or a distant engine, establishing a subtle, anticipatory atmosphere. This is immediately followed by a sharp, high-pitched metallic \"shing\" sound, evocative of a sword being drawn from its scabbard, which is quickly succeeded by a brief, low-frequency \"whoosh\" suggesting rapid movement through air. These sounds are rendered with high clarity and are centrally placed in the stereo field, with no environmental reverb or background noise, indicating a studio-produced, cinematic context. A dramatic orchestral swell then erupts, featuring a full string section—violins, violas, cellos, and double basses—playing a fast, ascending, and descending motif in a minor key. The strings are joined by a powerful brass section, including trumpets and trombones, which deliver a bold, heroic fanfare. The percussion section, comprised of timpani and cymbals, adds a thunderous, cinematic impact, while a choir of mixed male and female voices sings wordless, sustained \"ah\" and \"oh\" syllables, enhancing the epic and intensity. The music is meticulously mixed, with each instrument occupying a distinct position in the stereo field",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two individuals stand facing each other in a dimly lit, cavernous space with dark, textured walls. The person on the left turns and embraces the person on the right, who remains still. Both are dressed in dark clothing, and their faces are partially illuminated, showing neutral expressions as they interact.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

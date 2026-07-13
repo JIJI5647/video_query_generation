@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_description": "A hand rests on a white rectangular box placed on a dark surface. The camera cuts to a man in a white shirt looking off‑screen with a neutral expression. Then a man in a denim jacket holds his hand near his chin while looking forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks in a calm, questioning tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s074\", \"time_range\": [365.0, 370.0], \"visual\": \"A hand rests on a white rectangular box placed on a dark surface. The camera cuts to a man in a white shirt looking off‑screen with a neutral expression. Then a man in a denim jacket holds his hand near his chin while looking forward.\", \"audio\": \"A male voice speaks in a calm, questioning tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a clear and steady prosody, and no noticeable background noise or emotional inflection.",
+  "temporal_description": "A man in a suit and glasses is seated, facing slightly away from the camera, holding a small object in his hands. Another man, wearing a denim shirt, is seated facing forward, looking ahead with a neutral expression. The scene is dimly lit with a greenish hue, and both individuals are positioned in a confined, dark space. The man in the suit appears to be examining the object closely, while the man in the denim shirt remains still and attentive.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses is seated, facing slightly away from the camera, holding a small object in his hands. Another man, wearing a denim shirt, is seated facing forward, looking ahead with a neutral expression. The scene is dimly lit with a greenish hue, and both individuals are positioned in a confined, dark space. The man in the suit appears to be examining the object closely, while the man in the denim shirt remains still and attentive.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

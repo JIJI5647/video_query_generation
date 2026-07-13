@@ -1,0 +1,89 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white shirt and blue jeans",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "enters the room carrying two black bags, then places one on the floor and gestures with her hand."
+      },
+      {
+        "person": "a man in a blue shirt and light-colored pants",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting in an armchair, looking at the woman."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with purple walls, a window, a desk, and a television."
+    },
+    "objects": [
+      {
+        "object": "a black duffel bag",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "carried by the woman and then placed on the floor."
+      },
+      {
+        "object": "a black briefcase",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "carried by the woman."
+      },
+      {
+        "object": "an armchair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by the man."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The woman places a bag on the floor and gestures towards the man."
+      }
+    ],
+    "key_actions": [
+      "The woman enters the room carrying two bags.",
+      "The woman places one bag on the floor.",
+      "The woman gestures with her hand."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white shirt and blue jeans",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "gesturing with her hand"
+      ],
+      "gaze": "looking at the man."
+    },
+    {
+      "person": "a man in a blue shirt and light-colored pants",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "sitting in an armchair",
+        "looking at the woman"
+      ],
+      "gaze": "looking at the woman."
+    }
+  ],
+  "audio_description": "A woman speaks, followed by a man speaking.",
+  "temporal_description": "The woman speaks first, then the man speaks.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a white shirt and blue jeans\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"enters the room carrying two black bags, then places one on the floor and gestures with her hand.\"}, {\"person\": \"a man in a blue shirt and light-colored pants\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting in an armchair, looking at the woman.\"}], \"scene\": {\"location\": "
+}

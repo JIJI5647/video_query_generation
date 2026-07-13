@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_description": "A man in a light-colored shirt and tie walks down a dimly lit office hallway, his gaze forward, hands clasped in front. In the background, other individuals are seated at desks or walking, with one person visible near a staircase. A monitor displays a security camera feed of a hallway, and the scene is framed from a high vantage point with metal railings and fluorescent lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a brief, high-pitched electronic chime, reminiscent of a notification or system alert, immediately followed by a low-frequency electronic hum that persists throughout the recording. This hum, likely originating from a computer or recording device, is accompanied by a faint, steady hiss, indicating the use of consumer-grade equipment. The overall sound quality is clear but not studio-grade, with a limited frequency range and a slightly muffled character, suggesting the recording was made in a small, acoustically treated room such as a police interrogation or evidence review room. A single male voice, speaking in standard Mandarin Chinese, enters with a calm, measured, and authoritative tone. His delivery is slow and deliberate, with each phrase separated by distinct pauses, and his voice is centered in the stereo field, indicating close microphone placement. The speaker’s accent is standard Putonghua, with no regional inflections, and his manner is formal and professional, consistent with a police officer or investigator presenting evidence. He states: “根据闭路电视的录像，黄景斯四点十五分进入大厦。” (“Based on the closed-circuit television footage, Huang Jingsi entered the building at 4:15.”) The speech is clear and intelligible, with no",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt and tie walks down a dimly lit office hallway, his gaze forward, hands clasped in front. In the background, other individuals are seated at desks or walking, with one person visible near a staircase. A monitor displays a security camera feed of a hallway, and the scene is framed from a high vantage point with metal railings and fluorescent lighting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

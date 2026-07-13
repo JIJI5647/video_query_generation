@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_description": "An older man with gray hair wearing a suit looks forward with a serious expression in a dimly lit room. The camera then shows a younger man with dark hair in a black shirt standing near metal bars, looking toward the older man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with faint background sounds and no clear speech.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "weak",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s074\", \"time_range\": [365.0, 370.0], \"visual\": \"An older man with gray hair wearing a suit looks forward with a serious expression in a dimly lit room. The camera then shows a younger man with dark hair in a black shirt standing near metal bars, looking toward the older man.\", \"audio\": \"The audio is quiet with faint background sounds and no clear speech.\", \"confidence\": \"medium\", \"evidence_strength\": \"weak\"}"
+}

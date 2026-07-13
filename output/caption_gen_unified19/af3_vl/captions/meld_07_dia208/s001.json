@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "In a warmly lit, crowded bar with festive decorations, several people are seated on couches and chairs around a central coffee table, some leaning forward, others reclining with legs crossed. A woman in a blue top sits with her hands clasped, looking toward the right, while a man beside her leans back, holding a cup; others nearby are engaged in conversation or observing their surroundings. Behind them, patrons move about the bar area, and a person in a striped sweater walks past, partially obscuring the view.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by background music.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a warmly lit, crowded bar with festive decorations, several people are seated on couches and chairs around a central coffee table, some leaning forward, others reclining with legs crossed. A woman in a blue top sits with her hands clasped, looking toward the right, while a man beside her leans back, holding a cup; others nearby are engaged in conversation or observing their surroundings. Behind them, patrons move about the bar area, and a person in a striped sweater walks past, partially obsc",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

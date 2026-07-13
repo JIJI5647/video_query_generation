@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_description": "A person in light-colored clothing walks down a narrow, dimly lit corridor flanked by dark, cluttered machinery and twisted, vine-like structures. The individual moves steadily forward, their posture upright and gaze directed ahead, with minimal visible gestures. The scene is shadowy, with sparse illumination highlighting only the path and the person’s silhouette against the industrial backdrop.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, sustained, and ominous synthesized drone, characterized by a deep, resonant timbre that evokes a sense of vastness and foreboding. This drone is enveloped in a lush, artificial reverb, creating a cavernous, immersive atmosphere. Shortly after, a high-pitched, metallic, and crystalline synthesized sound emerges, shimmering and glimmering with a slow, undulating vibrato. This sound is spatially panned to the right, adding a sense of movement and tension. The drone remains centered, while the shimmering element gradually increases in volume and intensity, building suspense and anticipation. The shimmering sound is further enhanced by a subtle, high-frequency hiss, reminiscent of a digital noise floor, and a faint, low-frequency rumble that adds depth and weight to the soundscape. The overall effect is one of mounting tension, as if preparing for a significant event. Abruptly, the shimmering sound ceases, and a new, powerful synthesized chord enters, marked by a bright, metallic timbre and a rapid, tremolo-like modulation. This chord is panned to the left and is accompanied by a sharp, percussive click, likely a digital artifact or a deliberate sound effect.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in light-colored clothing walks down a narrow, dimly lit corridor flanked by dark, cluttered machinery and twisted, vine-like structures. The individual moves steadily forward, their posture upright and gaze directed ahead, with minimal visible gestures. The scene is shadowy, with sparse illumination highlighting only the path and the person’s silhouette against the industrial backdrop.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

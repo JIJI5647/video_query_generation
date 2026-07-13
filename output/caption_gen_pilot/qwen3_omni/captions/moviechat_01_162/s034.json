@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "leaning forward and speaking"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit, with a hazy atmosphere"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man leans forward and speaks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black jacket",
+      "facial_cues": [
+        "sweating",
+        "mouth open",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud, sustained horn sound is heard, followed by a male voice speaking in a strained tone.",
+  "temporal_description": "The horn sound starts abruptly and continues throughout the clip, while the man's speech occurs at the beginning.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s034\", \"time_range\": [165.0, 170.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black jacket\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"leaning forward and speaking\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"dimly lit, with a hazy atmosphere\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"the man leans forward and speaks\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man in a black jacket\", \"facial_cues\": [\"s"
+}

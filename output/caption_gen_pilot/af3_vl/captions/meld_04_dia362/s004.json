@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation, accompanied by a brief pause before the speech begins.",
+  "temporal_description": "A man and a woman are in a hospital room. The woman is lying in a hospital bed, propped up with pillows, wearing a hospital gown and covered with a pink blanket. The man is standing beside the bed, leaning slightly forward, with his hand resting on the woman’s abdomen. He is wearing a light-colored jacket over a collared shirt. Medical equipment, including an IV stand and wall-mounted outlets, is visible in the background. The man’s gaze is directed at the woman, and his hand remains in contact with her abdomen throughout the scene. The woman’s gaze is directed upward toward the man, and her posture remains still.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man and a woman are in a hospital room. The woman is lying in a hospital bed, propped up with pillows, wearing a hospital gown and covered with a pink blanket. The man is standing beside the bed, leaning slightly forward, with his hand resting on the woman’s abdomen. He is wearing a light-colored jacket over a collared shirt. Medical equipment, including an IV stand and wall-mounted outlets, is visible in the background. The man’s gaze is directed at the woman, and his hand remains in contact ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

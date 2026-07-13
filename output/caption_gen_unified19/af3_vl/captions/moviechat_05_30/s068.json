@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_description": "A person's face is partially visible in dim lighting, with their gaze directed toward something off-screen. Another figure is seen in close proximity, their face obscured and mostly out of focus. The scene is dark and blurry, with indistinct shapes and motion suggesting a confined or chaotic environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person's face is partially visible in dim lighting, with their gaze directed toward something off-screen. Another figure is seen in close proximity, their face obscured and mostly out of focus. The scene is dark and blurry, with indistinct shapes and motion suggesting a confined or chaotic environment.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

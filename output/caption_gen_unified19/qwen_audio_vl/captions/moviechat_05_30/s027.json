@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "A group of people walks down a dimly lit wooden corridor with stone walls and arched architecture, their figures partially illuminated from ahead. They are walking forward in a line, with the person in front slightly ahead of the others. The camera is positioned low on the wooden floor, looking up toward the group as they approach, with shadows cast across the surface.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a deep, resonant rumble that immediately establishes a sense of immense scale and tension. This low-frequency sound, reminiscent of a massive stone or metal object shifting, is accompanied by a faint, high-frequency hiss, likely from the recording equipment. The rumble is enveloped in a long, natural reverberation, suggesting the event takes place in a vast, enclosed space such as a cavern, cathedral, or industrial hall. As the rumble continues, a sharp, metallic scraping emerges, characterized by a high-pitched, grating timbre that evokes the sound of a heavy metal object being dragged across a rough surface. The scraping is irregular, with fluctuating intensity and pitch, indicating uneven resistance and a slow, deliberate movement. The reverberation persists, reinforcing the impression of a large, hard-walled environment. The scraping abruptly ceases, replaced by a brief, silence. This pause heightens anticipation, as if the object has reached its destination or is being prepared for a decisive action. Suddenly, a loud, sharp metallic impact occurs—a high-pitched clang with a bright, ringing quality, followed by a rapid decay. This sound is consistent with a heavy metal object, such as a bolt, latch, or gate",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people walks down a dimly lit wooden corridor with stone walls and arched architecture, their figures partially illuminated from ahead. They are walking forward in a line, with the person in front slightly ahead of the others. The camera is positioned low on the wooden floor, looking up toward the group as they approach, with shadows cast across the surface.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

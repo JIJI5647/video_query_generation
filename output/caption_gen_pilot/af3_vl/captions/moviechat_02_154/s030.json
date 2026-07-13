@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a clear and steady prosody. There are no significant non-speech sounds or background noise.",
+  "temporal_description": "A man with short dark hair, wearing a denim jacket over a dark shirt, is seated and looking downward. His head is slightly bowed, and his gaze is directed toward something in front of him, possibly a table or surface out of frame. The background is dimly lit and mostly obscured, with a faint outline of another person partially visible to the left. His posture remains still throughout, with minimal movement, suggesting he is focused on something in front of him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a denim jacket over a dark shirt, is seated and looking downward. His head is slightly bowed, and his gaze is directed toward something in front of him, possibly a table or surface out of frame. The background is dimly lit and mostly obscured, with a faint outline of another person partially visible to the left. His posture remains still throughout, with minimal movement, suggesting he is focused on something in front of him.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

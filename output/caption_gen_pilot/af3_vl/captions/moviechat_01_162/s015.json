@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice delivering a somber statement with a slow and mournful tone, accompanied by a quiet background.",
+  "temporal_description": "The video shows a group of people, mostly in uniform, standing in a room with glass partitions and looking at a television screen mounted on a dark wall. The screen displays a news report with a split image: one side shows a person in a white coat working near a body covered with a pink sheet, while the other side features a news anchor. The individuals are mostly facing the screen, with some standing still and others slightly shifting their posture. One person in the foreground has their hand near their face, while others stand with their arms at their sides or behind their backs. The room is lit by overhead lamps, and the television screen is the central focus of attention.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a group of people, mostly in uniform, standing in a room with glass partitions and looking at a television screen mounted on a dark wall. The screen displays a news report with a split image: one side shows a person in a white coat working near a body covered with a pink sheet, while the other side features a news anchor. The individuals are mostly facing the screen, with some standing still and others slightly shifting their posture. One person in the foreground has their hand n",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

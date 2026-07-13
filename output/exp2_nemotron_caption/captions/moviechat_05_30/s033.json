@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_description": "A bald man with a mustache in a black suit and white shirt stands in a narrow, dimly lit corridor. He is flanked on both sides by armored soldiers holding large shields with winged emblems. The man holds a cane in his right hand and looks straight ahead.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s033\", \"time_range\": [160.0, 165.0], \"visual\": \"A bald man with a mustache in a black suit and white shirt stands in a narrow, dimly lit corridor. He is flanked on both sides by armored soldiers holding large shields with winged emblems. The man holds a cane in his right hand and looks straight ahead.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

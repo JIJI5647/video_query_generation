@@ -1,0 +1,62 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a paved road in a hilly, rural area under a clear sky"
+    },
+    "objects": [
+      {
+        "object": "a bicycle",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being ridden by the man"
+      },
+      {
+        "object": "a white jeep",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "driving on the road behind the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit rides a bicycle on a paved road.",
+      "A white jeep drives behind him."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "pedaling"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "Upbeat rock music with a male vocalist is playing.",
+  "temporal_description": "The man continues to pedal the bicycle as the jeep approaches from behind.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"riding a bicycle\"}], \"scene\": {\"location\": \"street\", \"setting\": \"a paved road in a hilly, rural area under a clear sky\"}, \"objects\": [{\"object\": \"a bicycle\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being ridden by the man\"}, {\"object\": \"a white jeep\", \"visibility\": \"clearly visible\", \"p"
+}

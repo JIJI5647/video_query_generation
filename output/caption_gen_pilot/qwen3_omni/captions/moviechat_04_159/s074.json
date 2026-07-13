@@ -1,0 +1,77 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking into a room and looking around"
+      },
+      {
+        "person": "a man in a patterned shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "walking into a room and being guided by the man in the suit"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with greenish walls and a wooden door with a red diamond-shaped decoration."
+    },
+    "objects": [
+      {
+        "object": "a wooden door",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being opened by a hand."
+      },
+      {
+        "object": "a red diamond-shaped decoration",
+        "visibility": "clearly visible",
+        "position": "on the door",
+        "action": "hanging on the door."
+      },
+      {
+        "object": "a framed picture",
+        "visibility": "clearly visible",
+        "position": "on the wall",
+        "action": "hanging on the wall."
+      }
+    ],
+    "interactions": [
+      "The man in the suit places his hand on the shoulder of the man in the patterned shirt as they walk into the room."
+    ],
+    "key_actions": [
+      "A hand opens a door.",
+      "The man in the suit and the man in the patterned shirt enter the room.",
+      "The man in the suit looks around the room."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "walking",
+        "looking around"
+      ],
+      "gaze": "around the room"
+    }
+  ],
+  "audio_description": "A male voice is heard speaking in a foreign language.",
+  "temporal_description": "The audio is present throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s074\", \"time_range\": [365.0, 370.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a suit\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"walking into a room and looking around\"}, {\"person\": \"a man in a patterned shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"walking into a room and being guided by the man in the suit\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with greenish walls and a wooden door with "
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "The woman in a white coat with a name badge and pink scarf adjusts a pink blanket over a patient lying in a hospital bed. A man with dark curly hair leans over the bed, speaking to the patient, while the woman in the white coat looks on and continues to attend to the patient. The scene takes place in a hospital room with pink walls, medical equipment, and a bedside monitor visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features calm, conversational speech between the man and the woman in the white coat. The patient responds quietly, and there is no audible shouting or crying.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"The woman in a white coat with a name badge and pink scarf adjusts a pink blanket over a patient lying in a hospital bed. A man with dark curly hair leans over the bed, speaking to the patient, while the woman in the white coat looks on and continues to attend to the patient. The scene takes place in a hospital room with pink walls, medical equipment, and a bedside monitor visible.\", \"audio\": \"The audio features calm, conversational s"
+}

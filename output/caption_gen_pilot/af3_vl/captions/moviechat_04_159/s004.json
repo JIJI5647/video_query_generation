@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation. There are no significant background noises or emotional inflections.",
+  "temporal_description": "A man in a dark suit and glasses is seated, looking downward with a cigarette held in his hand, emitting smoke. Another person, partially visible and out of focus, is positioned in front of him, also holding a cigarette. The scene shifts to a person in a white shirt and headphones, seated in front of multiple computer monitors displaying various images, and they are seen pointing at one of the screens.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and glasses is seated, looking downward with a cigarette held in his hand, emitting smoke. Another person, partially visible and out of focus, is positioned in front of him, also holding a cigarette. The scene shifts to a person in a white shirt and headphones, seated in front of multiple computer monitors displaying various images, and they are seen pointing at one of the screens.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

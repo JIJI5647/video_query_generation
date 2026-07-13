@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A man in a light-colored shirt stands with his back to the camera, looking upward at a dark cityscape with illuminated buildings. A black sedan with headlights on drives past on a wet street, reflecting light, while another car is parked nearby. Several indistinct figures are visible standing near the parked car, partially obscured by shadows and distance.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, piercing electronic siren, its high-pitched tone rapidly oscillating between two frequencies in a classic “wail” pattern. This siren is immediately accompanied by a deep, resonant engine rumble, suggesting the presence of a large emergency vehicle such as a fire truck or ambulance. The siren’s volume and pitch increase steadily, indicating the vehicle is approaching the recording location. The environment is acoustically reflective, with the siren’s sound bouncing off nearby buildings, creating a dense, reverberant urban soundscape. No other ambient noises—such as voices, traffic, or weather—are present, and the recording is free from hiss, static, or distortion, indicating high fidelity and a close proximity to the source. As the vehicle nears, the siren’s pitch and volume peak, and a sharp, high-frequency tire squeal emerges, signaling a sudden, forceful braking maneuver. The siren’s pattern shifts to a rapid, urgent “yelp” or “phaser,” heightening the sense of emergency. The engine’s rumble intensifies, and the tire squeal continues, implying the vehicle is executing a hard stop or evasive action. The reverberation remains strong, reinforcing the impression of",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt stands with his back to the camera, looking upward at a dark cityscape with illuminated buildings. A black sedan with headlights on drives past on a wet street, reflecting light, while another car is parked nearby. Several indistinct figures are visible standing near the parked car, partially obscured by shadows and distance.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

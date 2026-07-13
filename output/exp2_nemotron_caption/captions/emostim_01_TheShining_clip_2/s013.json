@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "A young boy in a striped sweater holds a large knife and stands before a white door marked with red letters. He turns and walks into a dimly lit bedroom where a person lies in bed under a blanket. The boy approaches a nightstand with a lamp and a cup while the camera follows his back.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible sound is present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s013\", \"time_range\": [60.0, 65.0], \"visual\": \"A young boy in a striped sweater holds a large knife and stands before a white door marked with red letters. He turns and walks into a dimly lit bedroom where a person lies in bed under a blanket. The boy approaches a nightstand with a lamp and a cup while the camera follows his back.\", \"audio\": \"No audible sound is present.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

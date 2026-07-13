@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A woman in a white shirt and blue jeans walks into a purple-walled living room carrying a black bag. She approaches a man in a blue sweater who is reclining on a patterned couch reading a book. The room includes a small wooden table with framed items and a potted plant near a wooden cabinet.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "the sound of her footsteps and a faint spoken phrase are audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"A woman in a white shirt and blue jeans walks into a purple-walled living room carrying a black bag. She approaches a man in a blue sweater who is reclining on a patterned couch reading a book. The room includes a small wooden table with framed items and a potted plant near a wooden cabinet.\", \"audio\": \"the sound of her footsteps and a faint spoken phrase are audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

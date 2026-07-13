@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A hooded figure in dark clothing moves across a checkered floor in a dimly lit room, approaching a large ornate mirror. The figure raises a handgun and looks into the mirror, its reflection showing the weapon and tense posture. Bright light from a doorway illuminates the scene as the figure stands in the doorway holding the gun.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s003\", \"time_range\": [10, 15], \"visual\": \"A hooded figure in dark clothing moves across a checkered floor in a dimly lit room, approaching a large ornate mirror. The figure raises a handgun and looks into the mirror, its reflection showing the weapon and tense posture. Bright light from a doorway illuminates the scene as the figure stands in the doorway holding the gun.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

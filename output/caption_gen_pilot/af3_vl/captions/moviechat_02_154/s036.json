@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man with glasses and short hair is seated at a table, holding a small object in his hands. He is wearing a dark-colored shirt and appears to be focused on the object. In front of him, there is an open briefcase containing stacks of money. The camera slowly pans to show a gold watch placed on the table, with the man’s hand partially obscuring it. The setting is dimly lit, with a dark background and a greenish hue.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with glasses and short hair is seated at a table, holding a small object in his hands. He is wearing a dark-colored shirt and appears to be focused on the object. In front of him, there is an open briefcase containing stacks of money. The camera slowly pans to show a gold watch placed on the table, with the man’s hand partially obscuring it. The setting is dimly lit, with a dark background and a greenish hue.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

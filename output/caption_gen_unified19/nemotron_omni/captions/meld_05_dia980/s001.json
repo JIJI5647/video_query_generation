@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a gray sweater sits on a stool holding a card while a man in a black jacket leans over a kitchen counter, gesturing as he speaks; the scene includes a red cup, a foosball table in the foreground, and kitchen cabinets in the background. The camera then cuts to a closer view where the two men face each other, the man in the black jacket looking intently at the card held by the seated man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear, with indistinct speech between the two men.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"A man in a gray sweater sits on a stool holding a card while a man in a black jacket leans over a kitchen counter, gesturing as he speaks; the scene includes a red cup, a foosball table in the foreground, and kitchen cabinets in the background. The camera then cuts to a closer view where the two men face each other, the man in the black jacket looking intently at the card held by the seated man.\", \"audio\": \"The audio is unclear, with in"
+}

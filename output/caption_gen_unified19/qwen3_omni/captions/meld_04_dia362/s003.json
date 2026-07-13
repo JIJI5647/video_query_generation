@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A woman lies in a hospital bed, wearing a white gown, with her eyes closed and a pained expression. A man in a light-colored jacket leans over her, looking down with a concerned expression and placing his hand on her stomach. The scene is set in a hospital room with medical equipment visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man speaks in a calm, reassuring tone, followed by a loud, sustained electronic beep, likely from a medical monitor.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual\": \"A woman lies in a hospital bed, wearing a white gown, with her eyes closed and a pained expression. A man in a light-colored jacket leans over her, looking down with a concerned expression and placing his hand on her stomach. The scene is set in a hospital room with medical equipment visible in the background.\", \"audio\": \"A man speaks in a calm, reassuring tone, followed by a loud, sustained electronic beep, likely from a medical mon"
+}

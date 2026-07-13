@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with gray hair in a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at a phone, then bringing it to his ear to answer a call"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, a red decorative item on the wall in the background"
+    },
+    "objects": [
+      {
+        "object": "a flip phone",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "displaying a text message in Chinese characters"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "answering a phone call"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with gray hair in a light-colored suit jacket",
+      "facial_cues": [
+        "eyes closed",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "holding phone to ear"
+      ],
+      "gaze": "looking down, then forward"
+    }
+  ],
+  "audio_description": "A phone rings, followed by a man speaking in a calm, conversational tone.",
+  "temporal_description": "The clip begins with a phone ringing, then the man answers the call and speaks.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s062\", \"time_range\": [305.0, 310.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with gray hair in a light-colored suit jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking at a phone, then bringing it to his ear to answer a call\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a greenish tint, a red decorative item on the wall in the background\"}, \"objects\": [{\"object\": \"a flip phone\", \"visibility\": \"clearly visible\", \""
+}

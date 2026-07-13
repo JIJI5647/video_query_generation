@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins with a sudden, high-pitched, and urgent shout of \"Wake up!\" delivered by a young child, whose voice is strained and breathless, indicating a state of panic or alarm. The child’s speech is clear and intelligible, with a General American English accent, and is accompanied by a faint, low-frequency hum and a persistent high-frequency hiss, both characteristic of a consumer-grade recording device in a quiet, enclosed indoor space. Immediately following the first shout, there is a brief pause filled with subtle rustling sounds, likely from the child shifting position or adjusting clothing, and a soft, low-pitched exhalation or grunt, suggesting physical effort or distress. The child then emits a sharp, involuntary gasp or cough, further emphasizing their agitation. This is followed by a second, even more forceful and desperate \"Wake up!\"—the voice is louder, higher in pitch, and more strained, with a slight echo indicating the room’s hard surfaces. The urgency and emotional intensity peak here, with the child’s voice nearly breaking under the strain. Abruptly, the vocalization is cut off mid-syllable by a sudden, loud, low-frequency electronic buzz, which is harsh, synthetic, and unmistakably artificial, resembling a digital error tone or system alert. This buzz dominates the final moment, masking all other sounds and ending the recording with a jarring sense of interruption.\n\nIn summary, the audio captures a brief, emotionally charged scene in which a young child urgently tries to wake someone, their escalating panic and physical distress evident in both vocal and non-vocal sounds. The recording’s technical imperfections and abrupt digital interruption suggest a spontaneous, unedited capture, likely on a mobile device, and evoke a sense of crisis and unresolved tension.",
+  "temporal_description": "A young boy with light-colored hair is shown in close-up, wearing a gray shirt. He is holding something in his hands, which appears to be a piece of meat or a similar object, and is looking down at it. His face is partially illuminated, and his eyes are visible, with a tear running down his cheek. The background is dark, and the focus remains on the boy and his hands.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored hair is shown in close-up, wearing a gray shirt. He is holding something in his hands, which appears to be a piece of meat or a similar object, and is looking down at it. His face is partially illuminated, and his eyes are visible, with a tear running down his cheek. The background is dark, and the focus remains on the boy and his hands.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

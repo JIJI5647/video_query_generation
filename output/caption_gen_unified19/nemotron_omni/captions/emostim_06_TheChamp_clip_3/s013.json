@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "A balding man with long hair, dressed in dark clothing, sits with his hands covering his face. A child with short blonde hair, wearing a light-colored top, approaches from behind and wraps their arms around the man's torso in a hug.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is mostly quiet, with faint rustling from the child's hug and indistinct sounds that may be the man's heavy breathing or quiet sobs.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s013\", \"time_range\": [60.0, 65.0], \"visual\": \"A balding man with long hair, dressed in dark clothing, sits with his hands covering his face. A child with short blonde hair, wearing a light-colored top, approaches from behind and wraps their arms around the man's torso in a hug.\", \"audio\": \"The audio is mostly quiet, with faint rustling from the child's hug and indistinct sounds that may be the man's heavy breathing or quiet sobs.\", \"confidence\": \"high\", \"evidence_strength\": \"clea"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "Two men are seated inside a vehicle, with the man in the foreground positioned on the left side of the frame and the other man slightly behind him on the right. The man in the foreground is facing forward, his head turned slightly to his right, while the man in the background is also facing forward with his hand near his face. Both appear to be wearing dark clothing, and the interior of the car is dimly lit, with greenish ambient lighting visible through the windows. The man in the foreground occasionally blinks and shifts his gaze slightly, while the man in the background remains relatively still, with his hand near his face.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a vehicle, with the man in the foreground positioned on the left side of the frame and the other man slightly behind him on the right. The man in the foreground is facing forward, his head turned slightly to his right, while the man in the background is also facing forward with his hand near his face. Both appear to be wearing dark clothing, and the interior of the car is dimly lit, with greenish ambient lighting visible through the windows. The man in the foreground oc",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation, accompanied by the sound of footsteps on a hard surface.",
+  "temporal_description": "A man in a dark suit is seated at a table, holding a cigarette and exhaling smoke in a dimly lit room. Another person, also in a dark suit, stands nearby, partially visible, holding a briefcase. The standing person slowly moves away, revealing more of the room’s dark background. The seated man turns his head slightly, looking toward the standing person as they exit the frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit is seated at a table, holding a cigarette and exhaling smoke in a dimly lit room. Another person, also in a dark suit, stands nearby, partially visible, holding a briefcase. The standing person slowly moves away, revealing more of the room’s dark background. The seated man turns his head slightly, looking toward the standing person as they exit the frame.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

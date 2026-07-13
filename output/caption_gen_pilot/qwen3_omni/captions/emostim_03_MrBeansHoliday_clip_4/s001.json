@@ -1,0 +1,46 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "street",
+      "setting": "a city street lined with trees and buildings, with a van driving away from the camera."
+    },
+    "objects": [
+      {
+        "object": "van",
+        "description": "a vintage van with a surfboard and luggage on its roof, driving down the street."
+      },
+      {
+        "object": "car",
+        "description": "a red car is visible in the foreground, partially obscuring the view of the van."
+      },
+      {
+        "object": "trees",
+        "description": "trees line the street, providing a green canopy over the road."
+      },
+      {
+        "object": "buildings",
+        "description": "buildings with storefronts and signs are visible along the street."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The van drives down the street, moving away from the camera."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Upbeat rock music with a male vocalist singing.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual_objective\": {\"people\": [], \"scene\": {\"location\": \"street\", \"setting\": \"a city street lined with trees and buildings, with a van driving away from the camera.\"}, \"objects\": [{\"object\": \"van\", \"description\": \"a vintage van with a surfboard and luggage on its roof, driving down the street.\"}, {\"object\": \"car\", \"description\": \"a red car is visible in the foreground, partially obscuring the view of the van.\"}, {\"object\": \"trees\", \"description\""
+}

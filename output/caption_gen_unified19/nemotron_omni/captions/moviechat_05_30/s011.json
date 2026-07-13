@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "The camera glides over a dark, undulating ridge in a black environment, revealing a faint, curved edge illuminated by a subtle blue glow. The view shifts to show a massive, shadowy form with textured skin, possibly a large creature, as a bright vertical streak of light cuts through the darkness. A sudden burst of intense blue light appears at the top of the frame.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual\": \"The camera glides over a dark, undulating ridge in a black environment, revealing a faint, curved edge illuminated by a subtle blue glow. The view shifts to show a massive, shadowy form with textured skin, possibly a large creature, as a bright vertical streak of light cuts through the darkness. A sudden burst of intense blue light appears at the top of the frame.\", \"audio\": \"\", \"confidence\": \"low\", \"evidence_strength\": \"ambiguous\"}"
+}

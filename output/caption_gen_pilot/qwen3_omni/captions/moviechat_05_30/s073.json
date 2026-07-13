@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s073",
+  "time_range": [
+    360.0,
+    365.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a corduroy jacket and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still, looking to the right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, dark background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a corduroy jacket and glasses",
+      "facial_cues": [
+        "glasses",
+        "side profile"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "to the right"
+    }
+  ],
+  "audio_description": "A low, sustained, and ominous musical tone plays.",
+  "temporal_description": "The musical tone is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s073\", \"time_range\": [360.0, 365.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a corduroy jacket and glasses\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing still, looking to the right\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, dark background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man in a corduroy jacket and glasses\", \"facial_cues\": [\""
+}

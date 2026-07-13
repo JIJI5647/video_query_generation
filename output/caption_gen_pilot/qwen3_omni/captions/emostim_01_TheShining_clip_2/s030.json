@@ -1,0 +1,36 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in dark clothing",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sliding down a snow-covered slope"
+      }
+    ],
+    "scene": {
+      "location": "outdoor snowy area",
+      "setting": "a large pile of snow next to a building at night, illuminated by artificial lights."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "sliding down a slope"
+    ],
+    "visibility_notes": "The person is a dark silhouette against the snow, partially obscured by the distance and lighting."
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, high-pitched, screeching sound, like tires on ice or a vehicle braking hard.",
+  "temporal_description": "The screeching sound is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s030\", \"time_range\": [145.0, 150.0], \"visual_objective\": {\"people\": [{\"person\": \"a person in dark clothing\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"sliding down a snow-covered slope\"}], \"scene\": {\"location\": \"outdoor snowy area\", \"setting\": \"a large pile of snow next to a building at night, illuminated by artificial lights.\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"sliding down a slope\"], \"visibility_notes\": \"The person is a dark sil"
+}

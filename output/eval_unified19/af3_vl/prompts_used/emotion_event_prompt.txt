@@ -1,0 +1,71 @@
+PROMPT VERSION: emotion_event_prompt_v1
+
+TASK:
+You are given OBSERVATION captions for every short segment of one video, in time
+order. Each caption describes only what is visible and audible (people, actions,
+scene, facial/body cues, gaze, how the audio sounds, temporal progression) — it
+contains NO emotion. Your job is to infer the EMOTION EVENTS in this video: the
+specific moments where one of the eight target emotions is clearly enough
+supported by the observable evidence.
+
+VIDEO ID: {video_id}
+
+THE EIGHT EMOTION LABELS (you may use ONLY these — no others):
+angry, excited, fear, sad, surprised, frustrated, happy, disappointed
+
+OBSERVATION CAPTIONS (one per segment, with time ranges). Each caption:
+- ``time_range``: [start, end] seconds.
+- ``caption``: unstructured observation prose in two labelled parts — "Visual:
+  <what is visible: people, actions, scene, objects, observable facial/body
+  cues, gaze>" and, only when there is audio evidence, "Audio: <NON-VERBAL
+  audio — tone of voice, shouting, crying, laughing, silence; NOT a
+  transcript>". The Audio part is omitted when there is no audio evidence.
+- ``confidence`` / ``evidence_strength``: how reliable the caption is.
+{captions_json}
+
+RULES:
+- Emit an event ONLY when the observable evidence (facial cues, body cues, gaze,
+  actions, how the audio sounds) supports one of the eight emotions. If a moment
+  shows no clear emotion-relevant evidence, do NOT emit an event for it. Never use
+  "neutral" or "unrelevant" — simply omit such moments.
+- Ground every event on a time_range [start, end] in seconds, taken from the
+  caption time ranges it draws on. An event may span one or several contiguous
+  segments.
+- MERGE CONTINUATIONS OF THE SAME EMOTION. If two or more adjacent/contiguous
+  segments show the SAME target person/group continuing to display the SAME
+  emotion (not a new emotional beat), you MUST emit ONE event spanning the
+  union of their time ranges — NOT one event per segment. Only split into
+  separate events when the emotion label changes, the target person/group
+  changes, or there is a clear gap/break in the emotional moment. Example: if
+  segment s004 (10.0-15.0s) shows "the man in the blue jacket clenches his
+  jaw and glares" and segment s005 (15.0-20.0s) shows "the man in the blue
+  jacket continues glaring and raises his voice" — both angry, same person,
+  contiguous — emit ONE event with time_range [10.0, 20.0], not two events at
+  [10.0, 15.0] and [15.0, 20.0].
+- Cite the concrete observable cues you used in visual_evidence / audio_evidence.
+  Do not invent evidence that is not in the captions.
+- Set confidence and evidence_strength honestly: weak/ambiguous cues -> low
+  confidence and "weak"/"ambiguous" evidence_strength.
+- target_person_or_group: a natural visual description (e.g. "the man in the dark
+  jacket"); never a proper name.
+
+OUTPUT:
+Return ONLY valid JSON, no markdown fences or extra text, matching exactly:
+{
+  "video_id": "<string>",
+  "events": [
+    {
+      "video_id": "<string>",
+      "event_id": "<string>",
+      "emotion_label": "<angry | excited | fear | sad | surprised | frustrated | happy | disappointed>",
+      "event_description": "<what happens, in observable terms>",
+      "time_range": [<start_seconds>, <end_seconds>],
+      "target_person_or_group": "<visual description>",
+      "visual_evidence": ["<observable visual cue>"],
+      "audio_evidence": ["<observable audio cue>"],
+      "confidence": "<high | medium | low>",
+      "evidence_strength": "<clear | ambiguous | weak>"
+    }
+  ]
+}
+If no moment has clear emotion-relevant evidence, return {"video_id": "...", "events": []}.

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "The woman has wet, light brown hair pulled back, and water droplets are visible on her skin and hair. She is positioned with her head tilted upward, eyes closed, and her arms raised as if holding a shower head. The scene is dimly lit, focusing on her upper body and face.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains the sound of running water and heavy breathing.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"The woman has wet, light brown hair pulled back, and water droplets are visible on her skin and hair. She is positioned with her head tilted upward, eyes closed, and her arms raised as if holding a shower head. The scene is dimly lit, focusing on her upper body and face.\", \"audio\": \"The audio contains the sound of running water and heavy breathing.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

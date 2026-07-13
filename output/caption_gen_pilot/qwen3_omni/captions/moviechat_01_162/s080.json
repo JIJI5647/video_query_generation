@@ -1,0 +1,149 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black pants",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing with arms crossed, speaking to a group of men sitting at a table."
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "right foreground",
+        "action": "sitting at a table, listening and looking at the man standing."
+      },
+      {
+        "person": "a man in a white shirt with epaulets",
+        "visibility": "clearly visible",
+        "position": "center foreground",
+        "action": "sitting at a table, writing on a pink notepad."
+      },
+      {
+        "person": "a man in a white shirt with suspenders",
+        "visibility": "clearly visible",
+        "position": "left foreground",
+        "action": "sitting at a table, writing on a pink notepad."
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "left foreground",
+        "action": "sitting at a table, writing on a pink notepad."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a modern office or briefing room with glass partitions and a large table."
+    },
+    "objects": [
+      {
+        "object": "a long dark table",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "on which several people are sitting."
+      },
+      {
+        "object": "a pink notepad",
+        "visibility": "clearly visible",
+        "position": "on the table",
+        "action": "being used by the men to write."
+      },
+      {
+        "object": "a white mug",
+        "visibility": "clearly visible",
+        "position": "on the table",
+        "action": "in front of each person."
+      },
+      {
+        "object": "a black cap",
+        "visibility": "clearly visible",
+        "position": "on the table",
+        "action": "in front of the man in suspenders."
+      },
+      {
+        "object": "a television screen",
+        "visibility": "clearly visible",
+        "position": "left background",
+        "action": "displaying a blue and white image."
+      }
+    ],
+    "interactions": [
+      "The man standing speaks to the group of men sitting at the table."
+    ],
+    "key_actions": [
+      "The man standing speaks.",
+      "The men sitting at the table listen and write."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black pants",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "standing with arms crossed"
+      ],
+      "gaze": "towards the men at the table."
+    },
+    {
+      "person": "a man in a light blue shirt",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "sitting",
+        "looking at the man standing"
+      ],
+      "gaze": "towards the man standing."
+    },
+    {
+      "person": "a man in a white shirt with epaulets",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "sitting",
+        "writing"
+      ],
+      "gaze": "down at the notepad."
+    },
+    {
+      "person": "a man in a white shirt with suspenders",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "sitting",
+        "writing"
+      ],
+      "gaze": "down at the notepad."
+    },
+    {
+      "person": "a man in a light blue shirt",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "sitting",
+        "writing"
+      ],
+      "gaze": "down at the notepad."
+    }
+  ],
+  "audio_description": "A man is speaking in a commanding tone, followed by a chorus of men responding in unison.",
+  "temporal_description": "A man speaks, and then multiple men respond in unison.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s080\", \"time_range\": [395.0, 400.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and black pants\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing with arms crossed, speaking to a group of men sitting at a table.\"}, {\"person\": \"a man in a light blue shirt\", \"visibility\": \"clearly visible\", \"position\": \"right foreground\", \"action\": \"sitting at a table, listening and looking at the man standing.\"}, {\"person\": \"a man in a white "
+}

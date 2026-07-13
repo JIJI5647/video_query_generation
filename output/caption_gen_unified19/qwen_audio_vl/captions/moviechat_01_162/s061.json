@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands near a table with four seated men in uniforms, all appearing to be in a conference room with glass partitions and a TV displaying a security feed. The standing man has his hands on his hips and looks toward the seated group, while the seated men are focused on papers or the TV screen. The room is lit with overhead fluorescent lights, and a hat rests on the table.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a large, reverberant indoor space, likely a hall or atrium, with a faint, steady electronic hum and a subtle hiss from the recording equipment. A single male speaker, using standard Mandarin Chinese, delivers a formal, narrative statement in a clear, measured, and emotionally neutral tone. He says, “我们到达大厦八分钟前，有人堕楼。” (“Eight minutes before we arrived at the building, someone fell from a building.”) His speech is precise and deliberate, with no inflection, and is accompanied by a slight echo, indicating the acoustics of the room. After a brief pause, the speaker starts to say, “那个…” (“That…”), but the word is abruptly cut off mid-syllable, leaving the sentence unfinished and the context unresolved. Immediately following this interruption, a loud, synthetic electronic tone—characterized by a low pitch, harsh timbre, and a buzzy, sawtooth-like quality—bursts into the audio. This tone is much louder than the preceding speech, completely masks the ambient hum and hiss, and persists until the end of the clip, with no fade-out or change in pitch. The recording is of moderate fidelity, with a limited frequency range",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands near a table with four seated men in uniforms, all appearing to be in a conference room with glass partitions and a TV displaying a security feed. The standing man has his hands on his hips and looks toward the seated group, while the seated men are focused on papers or the TV screen. The room is lit with overhead fluorescent lights, and a hat rests on the table.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

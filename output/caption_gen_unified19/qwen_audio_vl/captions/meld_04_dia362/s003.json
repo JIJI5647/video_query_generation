@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A woman lies in a hospital bed, partially covered by a pink blanket, with medical equipment visible behind her. A man in a beige jacket leans over her, his hand resting on her abdomen as he looks down at her. Both are facing each other, with the woman’s gaze directed upward toward the man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins abruptly, capturing a brief, high-pitched, and slightly muffled exclamation from a female voice, likely a child or young woman, who says, “What?” Her tone is and questioning, delivered in a General American accent. Immediately following, a male voice, deeper and resonant, responds with a measured, calm, and gently amused tone: “You know what I think it is? I think you made such a nice home for her.” His speech is clear and deliberate, with a subtle, warm chuckle underlying his words, suggesting a sense of fondness and gentle humor. The phrase “such a nice home for her” is delivered with particular warmth, and the final word “her” is cut off abruptly, indicating the recording ends mid-sentence. Throughout, a faint, steady electronic hiss is present, characteristic of consumer-grade recording equipment, and the overall sound is slightly muffled with limited high-frequency detail. The acoustic environment is quiet and intimate, with no background noise, music, or environmental sounds, implying a small, well-furnished indoor space. The interaction is informal and affectionate, with the male speaker playfully addressing the female’s efforts, likely in the context of caring for a pet or child. The exchange",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman lies in a hospital bed, partially covered by a pink blanket, with medical equipment visible behind her. A man in a beige jacket leans over her, his hand resting on her abdomen as he looks down at her. Both are facing each other, with the woman’s gaze directed upward toward the man.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "The camera first captures the lower bodies of several individuals walking on a concrete surface, then shows a person in black clothing collapsing onto the ground and lying motionless. The scene shifts to a man in a dark suit and white shirt standing before a metal roll‑up door, holding a handgun with both hands and aiming forward while his mouth is open. A second man is partially visible behind him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Footsteps echo on the pavement followed by a heavy thud as the person falls, then a sharp gunshot sound and a man's forceful breathing or shouted command.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"The camera first captures the lower bodies of several individuals walking on a concrete surface, then shows a person in black clothing collapsing onto the ground and lying motionless. The scene shifts to a man in a dark suit and white shirt standing before a metal roll‑up door, holding a handgun with both hands and aiming forward while his mouth is open. A second man is partially visible behind him.\", \"audio\": \"Footsteps echo on the pav"
+}

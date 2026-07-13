@@ -1,0 +1,133 @@
+{
+  "caption_model": "avocado",
+  "model_kind": "av",
+  "non_commercial": false,
+  "video_dir": "data/pilot_study",
+  "num_videos": 19,
+  "num_segments": 735,
+  "num_captions": 735,
+  "total_seconds": 3027.3,
+  "segment_seconds": 5.0,
+  "stride": 5.0,
+  "per_video": [
+    {
+      "video_id": "emostim_01_TheShining_clip_2",
+      "num_segments": 57,
+      "num_cached": 0,
+      "seconds": 239.9
+    },
+    {
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "num_segments": 31,
+      "num_cached": 0,
+      "seconds": 117.5
+    },
+    {
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "num_segments": 23,
+      "num_cached": 0,
+      "seconds": 90.1
+    },
+    {
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "num_segments": 11,
+      "num_cached": 0,
+      "seconds": 44.8
+    },
+    {
+      "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+      "num_segments": 37,
+      "num_cached": 0,
+      "seconds": 138.0
+    },
+    {
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "num_segments": 23,
+      "num_cached": 0,
+      "seconds": 81.2
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "num_segments": 3,
+      "num_cached": 0,
+      "seconds": 12.2
+    },
+    {
+      "video_id": "meld_01_dia337",
+      "num_segments": 14,
+      "num_cached": 0,
+      "seconds": 59.9
+    },
+    {
+      "video_id": "meld_02_dia224",
+      "num_segments": 8,
+      "num_cached": 0,
+      "seconds": 33.9
+    },
+    {
+      "video_id": "meld_03_dia572",
+      "num_segments": 11,
+      "num_cached": 0,
+      "seconds": 45.3
+    },
+    {
+      "video_id": "meld_04_dia362",
+      "num_segments": 11,
+      "num_cached": 0,
+      "seconds": 45.4
+    },
+    {
+      "video_id": "meld_05_dia980",
+      "num_segments": 8,
+      "num_cached": 0,
+      "seconds": 33.6
+    },
+    {
+      "video_id": "meld_06_dia823",
+      "num_segments": 9,
+      "num_cached": 0,
+      "seconds": 38.4
+    },
+    {
+      "video_id": "meld_07_dia208",
+      "num_segments": 9,
+      "num_cached": 0,
+      "seconds": 38.8
+    },
+    {
+      "video_id": "moviechat_01_162",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 385.4
+    },
+    {
+      "video_id": "moviechat_02_154",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 411.3
+    },
+    {
+      "video_id": "moviechat_03_160",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 399.5
+    },
+    {
+      "video_id": "moviechat_04_159",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 400.4
+    },
+    {
+      "video_id": "moviechat_05_30",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 410.5
+    }
+  ],
+  "model_paths": {
+    "caption_model_path": "AVoCaDO-Captioner/AVoCaDO",
+    "audio_model_path": null,
+    "video_model_path": null
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a clear, close-miked male voice speaking Mandarin Chinese in a calm, conversational tone. He says, “饭做了总得吃吧” (“The meal is made, you have to eat it, right?”), using a gentle, slightly persuasive manner that suggests he is addressing someone familiar, likely a family member or close friend. The speech is delivered in a standard Putonghua accent, with no regional inflections, and is accompanied by a subtle, low-frequency hum and faint high-frequency hiss, indicating a quiet, indoor environment with minimal background noise. The room’s acoustics are dry, with no noticeable reverberation, suggesting a small, well-furnished space.\n\nImmediately following, the speaker continues, “下班打电话给我，我给你热热” (“Call me after work, I’ll reheat it for you.”), maintaining the same calm and caring tone. The phrase “我给你热热” (“I’ll reheat it for you”) is delivered with a gentle, slightly rising intonation, reinforcing the speaker’s considerate and nurturing attitude. Throughout, the background hum and hiss persist, and the recording remains free of any other voices, music, or environmental sounds.\n\nAt the end of the speech, the audio is abruptly interrupted by a loud, synthetic electronic tone. This tone is a low-frequency, buzzy, square-wave sound, centered around 110 Hz (A2), with a harsh, grating timbre and strong upper harmonics. It is much louder than the preceding speech, instantly dominating the soundscape and masking all other audio. The tone is monophonic, unmodulated, and remains constant in pitch and volume, with no fade-in or fade-out. Its abrupt onset and cessation, along with its artificial character, strongly suggest it is a system-generated alert or error signal, likely triggered by a technical malfunction or recording error. The tone is not a natural environmental sound and does not correspond to any recognizable cultural or musical context.\n\nIn summary, the audio presents a brief, intimate Mandarin exchange between a caring male speaker and a presumed family member, set in a quiet, indoor environment. The speech is clear and emotionally warm, but the recording is abruptly interrupted by a loud, synthetic electronic tone, indicating a technical issue or system alert. The clip contains no music, other voices, or environmental sounds, and the overall impression is one of domestic warmth suddenly disrupted by a technical malfunction.",
+  "temporal_description": "A man in a gray suit is seated in the back of a car, holding a phone to his ear with his right hand. He is looking forward and slightly upward, with his head tilted back. Another person, partially visible and out of focus, sits beside him, facing forward. The car’s interior is dimly lit, with blurred city lights visible through the windows, suggesting nighttime. The man’s posture remains relatively still throughout, with minor shifts in his head position.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a gray suit is seated in the back of a car, holding a phone to his ear with his right hand. He is looking forward and slightly upward, with his head tilted back. Another person, partially visible and out of focus, sits beside him, facing forward. The car’s interior is dimly lit, with blurred city lights visible through the windows, suggesting nighttime. The man’s posture remains relatively still throughout, with minor shifts in his head position.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

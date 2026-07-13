@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a clear, neutral tone and moderate pace, discussing the naming of a check versus a Yugoslavian.",
+  "temporal_description": "Two men are standing in a room, facing each other. The man on the left wears a pink plaid shirt and gestures with his right hand while speaking. The man on the right, wearing a blue plaid shirt, faces him with his arms crossed. Behind them, a framed picture hangs on the wall, flanked by two wall-mounted lamps. The man in pink occasionally shifts his stance and moves his hand, while the man in blue remains mostly still, occasionally turning his head slightly.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are standing in a room, facing each other. The man on the left wears a pink plaid shirt and gestures with his right hand while speaking. The man on the right, wearing a blue plaid shirt, faces him with his arms crossed. Behind them, a framed picture hangs on the wall, flanked by two wall-mounted lamps. The man in pink occasionally shifts his stance and moves his hand, while the man in blue remains mostly still, occasionally turning his head slightly.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

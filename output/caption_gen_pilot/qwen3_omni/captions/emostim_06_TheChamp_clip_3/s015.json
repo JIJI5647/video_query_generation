@@ -1,0 +1,51 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bending down and holding a child"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a curtain in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "the man is holding the child tightly"
+    ],
+    "key_actions": [
+      "the man is holding the child"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and white shirt",
+      "facial_cues": [
+        "glasses",
+        "serious expression"
+      ],
+      "body_cues": [
+        "bending down",
+        "holding the child tightly"
+      ],
+      "gaze": "looking down at the child"
+    }
+  ],
+  "audio_description": "a child is shouting excitedly, followed by a man speaking calmly.",
+  "temporal_description": "the child's shouting is continuous, and the man's speech is brief and calm.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and white shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"bending down and holding a child\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a curtain in the background\"}, \"objects\": [], \"interactions\": [\"the man is holding the child tightly\"], \"key_actions\": [\"the man is holding the child\"], \"visibility_notes\": \"\"}, \"visual_expressi"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s096",
+  "time_range": [
+    475.0,
+    480.0
+  ],
+  "visual_description": "A man in a dark suit stands beside a car at night, then walks through a dimly lit corridor lined with plastic sheets and a welcome sign, and finally meets a woman in a floral dress inside a room where they stand close together.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet, featuring only faint ambient sounds and indistinct speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s096\", \"time_range\": [475.0, 480.0], \"visual\": \"A man in a dark suit stands beside a car at night, then walks through a dimly lit corridor lined with plastic sheets and a welcome sign, and finally meets a woman in a floral dress inside a room where they stand close together.\", \"audio\": \"The audio is quiet, featuring only faint ambient sounds and indistinct speech.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

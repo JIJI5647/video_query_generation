@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "The man in the pink plaid shirt is talking to the man in the blue plaid shirt. The man in the pink plaid shirt is gesturing with his hands. The man in the blue plaid shirt is listening to the man in the pink plaid shirt.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The man in the pink plaid shirt is speaking. The man in the blue plaid shirt is listening.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"The man in the pink plaid shirt is talking to the man in the blue plaid shirt. The man in the pink plaid shirt is gesturing with his hands. The man in the blue plaid shirt is listening to the man in the pink plaid shirt.\", \"audio\": \"The man in the pink plaid shirt is speaking. The man in the blue plaid shirt is listening.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

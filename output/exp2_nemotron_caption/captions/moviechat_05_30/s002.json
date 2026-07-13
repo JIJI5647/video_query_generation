@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A lone figure stands at the far end of a dark, stone corridor lined with towering serpentine statues. The figure, dressed in dark clothing, faces forward and appears motionless. The camera holds a steady view, emphasizing the isolation of the figure within the ominous passage.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet, with only a faint ambient hum audible.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A lone figure stands at the far end of a dark, stone corridor lined with towering serpentine statues. The figure, dressed in dark clothing, faces forward and appears motionless. The camera holds a steady view, emphasizing the isolation of the figure within the ominous passage.\", \"audio\": \"The audio is quiet, with only a faint ambient hum audible.\", \"confidence\": \"medium\", \"evidence_strength\": \"ambiguous\"}"
+}

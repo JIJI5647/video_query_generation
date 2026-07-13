@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_description": "A silhouetted figure stands with their back to the camera, facing a cloudy sky where a bright, circular light source is partially obscured by clouds. The person remains still throughout the clip, with no discernible gestures or movement. The scene is dimly lit, emphasizing the contrast between the dark silhouette and the illuminated sky.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip is a brief, high-fidelity, 5-second excerpt of a solo cello performance. The cello plays a single, sustained note in the mid-to-high register, beginning with a clear, resonant attack and immediately swelling in volume and intensity. The note is held with unwavering pitch and a smooth, legato articulation, with no vibrato or expressive fluctuations. The sound is enveloped in a lush, natural reverberation, suggesting the recording took place in a large, acoustically reflective space such as a concert hall or cathedral. The cello’s timbre is warm, full-bodied, and slightly melancholic, with a pronounced presence in the midrange and a gentle, rounded attack. Throughout the clip, the cello’s volume steadily increases, peaking at the end of the note, which is then abruptly cut off mid-decay, leaving no lingering sound. There are no other instruments, voices, or background noises present; the recording is entirely focused on the cello. The technical quality is excellent, with a wide frequency range, no audible distortion, and a very low noise floor. The musical content is minimalistic and evocative, with the sustained note and swelling dynamics creating a sense of anticipation",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A silhouetted figure stands with their back to the camera, facing a cloudy sky where a bright, circular light source is partially obscured by clouds. The person remains still throughout the clip, with no discernible gestures or movement. The scene is dimly lit, emphasizing the contrast between the dark silhouette and the illuminated sky.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

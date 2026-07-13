@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_description": "A man in a dark jacket and red shirt holds a handgun, pointing it forward with his right hand while his left arm is extended outward. Another man in a dark shirt stands with his right arm raised, holding a handgun pointed toward the first man. The scene is dimly lit with artificial lights, and the background shows blurred signs and objects, suggesting an indoor or urban setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, loud, and abrupt sound, resembling a sudden explosion or impact, with no discernible speech or background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark jacket and red shirt holds a handgun, pointing it forward with his right hand while his left arm is extended outward. Another man in a dark shirt stands with his right arm raised, holding a handgun pointed toward the first man. The scene is dimly lit with artificial lights, and the background shows blurred signs and objects, suggesting an indoor or urban setting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

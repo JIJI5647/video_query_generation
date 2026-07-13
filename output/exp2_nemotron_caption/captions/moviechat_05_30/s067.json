@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s067",
+  "time_range": [
+    330.0,
+    335.0
+  ],
+  "visual_description": "In a dimly lit interior, a person with short hair and glasses is seen in profile, facing right. The lighting is low, casting shadows across the face and background, which includes indistinct shapes that resemble a large tree trunk and wooden furniture. The person's gaze is directed forward, and there is no obvious movement captured in the brief frames.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible, suggesting silence or low ambient noise.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s067\", \"time_range\": [330, 335], \"visual\": \"In a dimly lit interior, a person with short hair and glasses is seen in profile, facing right. The lighting is low, casting shadows across the face and background, which includes indistinct shapes that resemble a large tree trunk and wooden furniture. The person's gaze is directed forward, and there is no obvious movement captured in the brief frames.\", \"audio\": \"The audio is not clearly audible, suggesting silence or low ambient noise"
+}

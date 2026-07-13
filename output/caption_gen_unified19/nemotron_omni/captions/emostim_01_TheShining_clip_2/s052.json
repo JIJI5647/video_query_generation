@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_description": "A woman with long dark hair, wearing a blue robe over a turtleneck, peeks from behind a white wall in a tiled room. She covers her mouth with her hand, eyes wide, then bursts into laughter while gripping a large kitchen knife. She moves the knife toward the wall, still laughing.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A sharp gasp is heard, followed by a brief laugh.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s052\", \"time_range\": [255.0, 260.0], \"visual\": \"A woman with long dark hair, wearing a blue robe over a turtleneck, peeks from behind a white wall in a tiled room. She covers her mouth with her hand, eyes wide, then bursts into laughter while gripping a large kitchen knife. She moves the knife toward the wall, still laughing.\", \"audio\": \"A sharp gasp is heard, followed by a brief laugh.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

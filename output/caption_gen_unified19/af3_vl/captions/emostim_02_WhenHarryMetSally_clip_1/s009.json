@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A woman with curly blonde hair, wearing a dark sweater over a collared shirt, sits beside a man with dark hair in a plaid shirt, both seated at a crowded cafeteria-style table. The man is holding and eating a sandwich while the woman gestures with her hand and looks toward him. Both are seated, facing forward, with other people visible in the background, blurred and out of focus.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with curly blonde hair, wearing a dark sweater over a collared shirt, sits beside a man with dark hair in a plaid shirt, both seated at a crowded cafeteria-style table. The man is holding and eating a sandwich while the woman gestures with her hand and looks toward him. Both are seated, facing forward, with other people visible in the background, blurred and out of focus.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

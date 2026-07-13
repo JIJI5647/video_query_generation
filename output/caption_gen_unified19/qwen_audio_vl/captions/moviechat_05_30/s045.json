@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_description": "A group of people are gathered in a dimly lit, stone-walled interior space, with one person in the foreground gesturing toward another. A man in a brown jacket and glasses stands facing a woman with long hair, while another man in a dark sweater and tie stands nearby, looking toward them. The individuals are positioned closely together, with some partially obscured, and their postures suggest active engagement in a conversation or interaction.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, intense burst of sound: a deep, resonant metallic clang, immediately followed by a sharp, high-pitched metallic screech, both reverberating through a vast, hard-surfaced space. This is accompanied by a low-frequency rumble and a brief, high-pitched electronic whine, suggesting the activation of heavy machinery or a large vehicle. The environment is acoustically cavernous, with pronounced echoes and a sense of immense scale, likely a warehouse, hangar, or industrial facility. As the metallic sounds fade, a male voice, strained and urgent, shouts, “Are you alright?” His accent is General American English, and his tone is, indicating immediate concern for someone’s safety. The reverberation of his voice further emphasizes the size of the space. Almost simultaneously, a second male voice, also American-accented and breathless, responds with, “I’m never better.” His delivery is rapid and slightly slurred, suggesting he is either injured or under the influence of adrenaline, and his words are partially masked by the ongoing mechanical noise. The first speaker, still urgent, continues, “I feel like I can spit fire.” This hyperbolic phrase, delivered with rising intensity, con",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people are gathered in a dimly lit, stone-walled interior space, with one person in the foreground gesturing toward another. A man in a brown jacket and glasses stands facing a woman with long hair, while another man in a dark sweater and tie stands nearby, looking toward them. The individuals are positioned closely together, with some partially obscured, and their postures suggest active engagement in a conversation or interaction.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

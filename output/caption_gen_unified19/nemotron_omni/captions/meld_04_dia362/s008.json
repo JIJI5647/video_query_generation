@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A woman with short reddish hair wearing a white coat over a plaid shirt stands beside a pink hospital bed and speaks. The scene then shows a man in a beige jacket leaning over a woman lying in the bed, looking at her while speaking.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The woman's voice is audible as she talks. The man's voice is heard speaking while he leans over the patient.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"A woman with short reddish hair wearing a white coat over a plaid shirt stands beside a pink hospital bed and speaks. The scene then shows a man in a beige jacket leaning over a woman lying in the bed, looking at her while speaking.\", \"audio\": \"The woman's voice is audible as she talks. The man's voice is heard speaking while he leans over the patient.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

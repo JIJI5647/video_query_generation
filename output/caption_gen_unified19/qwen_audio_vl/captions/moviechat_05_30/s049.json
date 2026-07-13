@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_description": "A group of people in dark uniforms descend a wide staircase, moving downward in a hurried manner. In a dim, narrow passageway, figures in dark clothing are seen in motion, some appearing to push or pull others. One person with light-colored hair is partially visible, their face obscured, while others are seen from behind or in silhouette.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, overwhelming metallic screech, characterized by a high-pitched, abrasive timbre and a rapid, rhythmic oscillation. This sound, reminiscent of train wheels grinding against steel rails, is accompanied by a deep, resonant rumble and a pronounced Doppler effect, indicating the source is moving swiftly past the listener. The screech is so intense that it causes severe digital clipping and distortion, resulting in a harsh, crackling texture. The environment is acoustically vast and reverberant, with echoes suggesting a large, hard-surfaced space such as a tunnel or industrial hall. The screech and rumble are abruptly cut off, leaving a brief moment of near-silence. Immediately following, a sharp, high-frequency metallic impact occurs, marked by a brittle, ringing quality and a rapid decay. This is succeeded by a series of lower-pitched, resonant metallic clanks and rattles, each with a hollow, echoing character. These sounds suggest the collision and subsequent settling of heavy metal objects, such as train cars or industrial machinery, within the same reverberant space. The impacts are forceful and irregular, with no discernible pattern, and are accompanied by a faint, low-frequency hum that",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people in dark uniforms descend a wide staircase, moving downward in a hurried manner. In a dim, narrow passageway, figures in dark clothing are seen in motion, some appearing to push or pull others. One person with light-colored hair is partially visible, their face obscured, while others are seen from behind or in silhouette.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

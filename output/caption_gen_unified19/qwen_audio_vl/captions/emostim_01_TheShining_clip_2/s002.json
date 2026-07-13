@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A young child with short, light-colored hair stands in a dimly lit room, wearing a striped sweater. They are holding a dark, rectangular object, possibly a phone or remote, and appear to be looking down at it intently. The child is positioned near a wooden table cluttered with various items, including a vase with flowers and a small box. In the background, an old television set is visible, along with a lamp casting a warm glow, and curtains frame the scene. The child’s posture is upright, and their gaze is fixed on the object in their hands.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency hum, likely from a recording device or room tone, accompanied by a soft, breathy, and muffled vocalization. This vocalization is a single, indistinct word or phrase, delivered in a low, raspy, and weary tone, with no discernible language or accent. The voice is distant and subdued, suggesting the speaker is either very close to the microphone or the recording is of low fidelity, with the vocalization nearly lost in the background. The atmosphere is quiet and intimate, with no other ambient sounds present. Suddenly, the vocalization is interrupted by a loud, dramatic orchestral chord. This chord is played by a full string section—violins, violas, cellos, and double basses—using a forceful, sustained, and dissonant technique. The chord is rich, resonant, and enveloping, with a wide stereo image and a sense of grandeur. The orchestral sound is highly reverberant, suggesting a large concert hall or studio, and the chord is sustained for several seconds, creating a powerful impact. The chord’s dissonance and intensity evoke feelings of tension, suspense, and foreboding, reminiscent of cinematic or theatrical scoring. As",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with short, light-colored hair stands in a dimly lit room, wearing a striped sweater. They are holding a dark, rectangular object, possibly a phone or remote, and appear to be looking down at it intently. The child is positioned near a wooden table cluttered with various items, including a vase with flowers and a small box. In the background, an old television set is visible, along with a lamp casting a warm glow, and curtains frame the scene. The child’s posture is upright, and th",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and tie",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "holding a small, dark, oval-shaped object with tweezers"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "green wall background"
+    },
+    "objects": [
+      {
+        "object": "tweezers",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a small object"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man holds the object with tweezers and brings it closer to the camera."
+    ],
+    "visibility_notes": "The man's face is initially out of focus and then comes into focus."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and tie",
+      "facial_cues": [
+        "wearing glasses",
+        "mustache"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the object"
+    }
+  ],
+  "audio_description": "A man speaks in a questioning tone.",
+  "temporal_description": "The man holds the object with tweezers and brings it closer to the camera while speaking.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s030\", \"time_range\": [145.0, 150.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and tie\", \"visibility\": \"partially visible\", \"position\": \"foreground\", \"action\": \"holding a small, dark, oval-shaped object with tweezers\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"green wall background\"}, \"objects\": [{\"object\": \"tweezers\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a small object\"}], \"interactions\": [], \"key_action"
+}

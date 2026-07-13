@@ -1,0 +1,44 @@
+{
+  "total_videos": 4,
+  "total_segments": 129,
+  "total_raw_captions": 129,
+  "total_emotion_events": 37,
+  "total_initial_queries": 45,
+  "total_accepted_queries": 18,
+  "total_discarded_queries": 27,
+  "average_accepted_queries_per_video": 4.5,
+  "emotion_distribution": {
+    "fear": 19,
+    "sad": 2,
+    "surprised": 9,
+    "happy": 5,
+    "frustrated": 1,
+    "angry": 1
+  },
+  "query_type_distribution_initial": {
+    "evidence_cue": 34,
+    "emotion_state": 10,
+    "explicit_event": 1
+  },
+  "query_type_distribution_final_accepted": {
+    "evidence_cue": 13,
+    "emotion_state": 4,
+    "explicit_event": 1
+  },
+  "rewrite_count_distribution": {
+    "0": 45
+  },
+  "pass_rate_after_initial_verification": 0.7778,
+  "pass_rate_after_rewrites": 0.4,
+  "discarded_query_count": 27,
+  "diversity_warnings": [
+    "[meld_01_dia337] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: queries 'meld_01_dia337_q02' and 'meld_01_dia337_q04' are semantically similar (word overlap 71%)",
+    "[meld_01_dia337] WARNING: queries 'meld_01_dia337_q02' and 'meld_01_dia337_q06' are semantically similar (word overlap 71%)",
+    "[meld_01_dia337] WARNING: queries 'meld_01_dia337_q04' and 'meld_01_dia337_q05' are semantically similar (word overlap 71%)",
+    "[meld_01_dia337] WARNING: queries 'meld_01_dia337_q04' and 'meld_01_dia337_q06' are semantically similar (word overlap 86%)",
+    "[meld_01_dia337] WARNING: queries 'meld_01_dia337_q05' and 'meld_01_dia337_q06' are semantically similar (word overlap 86%)",
+    "[meld_02_dia224] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[moviechat_05_30] WARNING: 7 accepted queries start with 'when does' — repetitive phrasing"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a beige jacket stands beside a hospital bed, gently holding the head of a woman lying down with his gloved hand. The woman, wearing a hospital gown, has her eyes closed and appears to be resting or unconscious. Medical equipment, an IV bag, and curtains are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The man speaks in a calm, concerned tone while looking at the woman.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"A man in a beige jacket stands beside a hospital bed, gently holding the head of a woman lying down with his gloved hand. The woman, wearing a hospital gown, has her eyes closed and appears to be resting or unconscious. Medical equipment, an IV bag, and curtains are visible in the background.\", \"audio\": \"The man speaks in a calm, concerned tone while looking at the woman.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a red and black patterned dress",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "straddling a man and pulling a plastic bag over his head"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bed with white sheets and pillows"
+    },
+    "objects": [
+      {
+        "object": "a plastic bag",
+        "visibility": "clearly visible",
+        "position": "on the man's head",
+        "action": "being pulled over the man's head"
+      }
+    ],
+    "interactions": [
+      "the woman pulls the plastic bag over the man's head"
+    ],
+    "key_actions": [
+      "the woman pulls the plastic bag over the man's head"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a plastic bag over his head",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "struggling"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "a loud, distorted, and aggressive sound, possibly a scream or shout, is heard.",
+  "temporal_description": "the audio is a continuous, intense sound throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s079\", \"time_range\": [390.0, 395.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a red and black patterned dress\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"straddling a man and pulling a plastic bag over his head\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a bed with white sheets and pillows\"}, \"objects\": [{\"object\": \"a plastic bag\", \"visibility\": \"clearly visible\", \"position\": \"on the man's head\", \"action\": \"being pulled over the"
+}

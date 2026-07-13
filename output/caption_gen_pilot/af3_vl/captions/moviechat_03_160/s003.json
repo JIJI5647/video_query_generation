@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and no significant background noise.",
+  "temporal_description": "Two men are facing each other in a dimly lit, enclosed space with tiled walls and a framed sign in the background. The man on the right has short, light-colored hair and wears a gray suit jacket over a collared shirt, while the man on the left has dark hair and wears a patterned, embellished jacket. Both are standing close, maintaining eye contact, and their postures suggest a tense or serious interaction. The man on the left occasionally shifts his gaze downward, while the man on the right remains mostly still, looking directly at his counterpart.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are facing each other in a dimly lit, enclosed space with tiled walls and a framed sign in the background. The man on the right has short, light-colored hair and wears a gray suit jacket over a collared shirt, while the man on the left has dark hair and wears a patterned, embellished jacket. Both are standing close, maintaining eye contact, and their postures suggest a tense or serious interaction. The man on the left occasionally shifts his gaze downward, while the man on the right rema",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

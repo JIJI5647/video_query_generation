@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "A heavyset man in a blue patterned shirt sits at a dimly lit table, holding a pen and a cigarette while speaking to a man in a black leather jacket. The man in the leather jacket leans forward, listening and responding. In the background, other patrons are visible but out of focus.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The two men converse, with the man in the blue shirt speaking and the other replying.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s026\", \"time_range\": [125.0, 130.0], \"visual\": \"A heavyset man in a blue patterned shirt sits at a dimly lit table, holding a pen and a cigarette while speaking to a man in a black leather jacket. The man in the leather jacket leans forward, listening and responding. In the background, other patrons are visible but out of focus.\", \"audio\": \"The two men converse, with the man in the blue shirt speaking and the other replying.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

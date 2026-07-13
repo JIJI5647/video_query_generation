@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_description": "Three men in dark robes stand in a dimly lit antique shop; the central figure with platinum blonde hair points a wand forward while his companions flank him. The scene cuts to a man with glasses wearing a brown jacket, standing in the same dark environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks in Mandarin with a calm tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s089\", \"time_range\": [440.0, 445.0], \"visual\": \"Three men in dark robes stand in a dimly lit antique shop; the central figure with platinum blonde hair points a wand forward while his companions flank him. The scene cuts to a man with glasses wearing a brown jacket, standing in the same dark environment.\", \"audio\": \"A male voice speaks in Mandarin with a calm tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

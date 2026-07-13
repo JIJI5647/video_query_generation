@@ -1,0 +1,66 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with reddish-brown hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking to the woman next to him"
+      },
+      {
+        "person": "a young woman with brown hair",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and listening to the man"
+      }
+    ],
+    "scene": {
+      "location": "an underground chamber",
+      "setting": "dark and damp, with large, serpentine stone carvings on the walls resembling giant snakes or dragons with open mouths."
+    },
+    "objects": [],
+    "interactions": [
+      "The man and woman are standing close together, facing each other."
+    ],
+    "key_actions": [
+      "The man turns to face the woman and speaks.",
+      "The woman listens intently."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young man with reddish-brown hair",
+      "facial_cues": [
+        "his mouth is open as he speaks"
+      ],
+      "body_cues": [
+        "he turns his body to face the woman"
+      ],
+      "gaze": "towards the woman"
+    },
+    {
+      "person": "a young woman with brown hair",
+      "facial_cues": [
+        "her expression is serious and focused"
+      ],
+      "body_cues": [
+        "she stands still, listening"
+      ],
+      "gaze": "towards the man"
+    }
+  ],
+  "audio_description": "A loud, dramatic musical sting plays, creating a tense atmosphere.",
+  "temporal_description": "The music begins abruptly at the start of the clip and continues throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual_objective\": {\"people\": [{\"person\": \"a young man with reddish-brown hair\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and talking to the woman next to him\"}, {\"person\": \"a young woman with brown hair\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing and listening to the man\"}], \"scene\": {\"location\": \"an underground chamber\", \"setting\": \"dark and damp, with large, serpentine stone carv"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s073",
+  "time_range": [
+    360.0,
+    365.0
+  ],
+  "visual_description": "A person in a patterned shirt bends over a table in a dimly lit room, then stands and walks toward a dark door adorned with a red diamond decoration. The camera follows as they reach for the door handle and open it, revealing a glimpse of the space beyond.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with only faint ambient sounds, and no clear speech or distinct noises are heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s073\", \"time_range\": [360.0, 365.0], \"visual\": \"A person in a patterned shirt bends over a table in a dimly lit room, then stands and walks toward a dark door adorned with a red diamond decoration. The camera follows as they reach for the door handle and open it, revealing a glimpse of the space beyond.\", \"audio\": \"The audio is quiet with only faint ambient sounds, and no clear speech or distinct noises are heard.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

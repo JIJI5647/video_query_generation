@@ -1,0 +1,44 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing still and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with green walls and a wooden door in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "wearing round glasses",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "a low, sustained musical note plays.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and tie\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing still and looking forward\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with green walls and a wooden door in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man in a dark suit and tie\", \"facial_cues"
+}

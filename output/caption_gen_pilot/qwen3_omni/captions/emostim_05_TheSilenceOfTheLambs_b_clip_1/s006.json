@@ -1,0 +1,45 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with short brown hair",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "turning her head to the right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a window and a shelf with bottles in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "turning her head"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with short brown hair",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking to the right"
+    }
+  ],
+  "audio_description": "a man's voice is heard speaking.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with short brown hair\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"turning her head to the right\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with a window and a shelf with bottles in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"turning her head\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a woman with short brown "
+}

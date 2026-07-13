@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace, accompanied by a noticeable sigh at the beginning.",
+  "temporal_description": "A shirtless man lies on a table, wearing boxing gloves, with his head tilted back. An older man in a suit stands beside him, holding a hat, while another man leans over the table, appearing to attend to the man on it. In the background, other individuals are visible, some seated and others standing, in a dimly lit, industrial-looking room with exposed pipes and a single overhead light. The man on the table remains motionless, and the man leaning over appears to be adjusting or examining something near his head.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A shirtless man lies on a table, wearing boxing gloves, with his head tilted back. An older man in a suit stands beside him, holding a hat, while another man leans over the table, appearing to attend to the man on it. In the background, other individuals are visible, some seated and others standing, in a dimly lit, industrial-looking room with exposed pipes and a single overhead light. The man on the table remains motionless, and the man leaning over appears to be adjusting or examining somethin",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

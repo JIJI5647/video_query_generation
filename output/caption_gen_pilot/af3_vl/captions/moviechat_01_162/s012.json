@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with no noticeable prosody or emotional inflection. There are no background sounds or interruptions, and the speech is clear and uninterrupted.",
+  "temporal_description": "A group of people, mostly dressed in business attire, are gathered in an office environment, facing a television screen mounted on a wall. Some individuals are standing while others are seated at desks, with one person in the foreground partially obscuring the view. The people are mostly facing forward, focused on the screen, with minimal movement, and some are leaning forward or resting their hands on desks. The office has glass partitions, overhead lighting, and stacks of papers on desks, suggesting a professional setting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people, mostly dressed in business attire, are gathered in an office environment, facing a television screen mounted on a wall. Some individuals are standing while others are seated at desks, with one person in the foreground partially obscuring the view. The people are mostly facing forward, focused on the screen, with minimal movement, and some are leaning forward or resting their hands on desks. The office has glass partitions, overhead lighting, and stacks of papers on desks, sugg",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

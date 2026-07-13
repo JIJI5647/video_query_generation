@@ -1,0 +1,34 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "street",
+      "setting": "a city street at night with tall buildings in the background and wet pavement reflecting the lights."
+    },
+    "objects": [
+      {
+        "object": "car",
+        "description": "a dark-colored Rolls-Royce with the license plate 'AT 333' is driving on the street."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The car drives forward on the wet street."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A dramatic and suspenseful orchestral music piece plays, featuring prominent strings and brass instruments.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual_objective\": {\"people\": [], \"scene\": {\"location\": \"street\", \"setting\": \"a city street at night with tall buildings in the background and wet pavement reflecting the lights.\"}, \"objects\": [{\"object\": \"car\", \"description\": \"a dark-colored Rolls-Royce with the license plate 'AT 333' is driving on the street.\"}], \"interactions\": [], \"key_actions\": [\"The car drives forward on the wet street.\"], \"visibility_notes\": \"\"}, \"visual_expression\": []"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with no significant prosody or non-speech sounds.",
+  "temporal_description": "A group of people, dressed in rugged, dark clothing, stand in a dimly lit outdoor setting, gathered around a small fire. One individual in the center, wearing a dark jacket and plaid pants, holds a stick or wand and appears to be addressing the group, gesturing with their hand. The others stand in a semi-circle, some looking toward the central figure, while others gaze off into the distance. The scene is set at night, with the fire casting flickering light on their faces and the surrounding ground covered in dry leaves or grass. The group’s posture is mostly upright, suggesting attentiveness or anticipation.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people, dressed in rugged, dark clothing, stand in a dimly lit outdoor setting, gathered around a small fire. One individual in the center, wearing a dark jacket and plaid pants, holds a stick or wand and appears to be addressing the group, gesturing with their hand. The others stand in a semi-circle, some looking toward the central figure, while others gaze off into the distance. The scene is set at night, with the fire casting flickering light on their faces and the surrounding grou",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

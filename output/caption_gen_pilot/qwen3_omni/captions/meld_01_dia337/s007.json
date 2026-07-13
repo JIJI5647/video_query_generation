@@ -1,0 +1,88 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bending down and picking up a clear bowl from a table, then standing up and turning to face the other man."
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and watching the other man."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch, a side table, and a framed picture on the wall."
+    },
+    "objects": [
+      {
+        "object": "a clear bowl",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being picked up by the man in the pink shirt."
+      },
+      {
+        "object": "a couch",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "in the background."
+      },
+      {
+        "object": "a framed picture",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "hanging on the wall."
+      }
+    ],
+    "interactions": [
+      "The man in the pink shirt picks up the bowl and turns to speak to the man in the blue shirt."
+    ],
+    "key_actions": [
+      "The man in the pink shirt picks up the bowl and turns to speak to the other man."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "bending down",
+        "picking up a bowl",
+        "standing up",
+        "turning to face the other man"
+      ],
+      "gaze": "looking at the bowl, then at the other man."
+    },
+    {
+      "person": "a man in a blue plaid shirt",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "standing",
+        "watching the other man"
+      ],
+      "gaze": "looking at the other man."
+    }
+  ],
+  "audio_description": "A man is speaking in a conversational tone.",
+  "temporal_description": "The man in the pink shirt speaks while picking up the bowl and turning to face the other man.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a pink plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"bending down and picking up a clear bowl from a table, then standing up and turning to face the other man.\"}, {\"person\": \"a man in a blue plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing and watching the other man.\"}], \"scene\": {\"location\": \"indoor room\", \"set"
+}

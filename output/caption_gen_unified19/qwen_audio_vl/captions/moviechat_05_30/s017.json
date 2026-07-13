@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "A central figure with long hair and dark clothing gestures forward while surrounded by a group of people in dim, shadowy lighting. The crowd stands closely together, mostly in muted tones, with some individuals partially obscured by darkness or holding faintly glowing objects. The central figure’s gaze is directed forward, and their posture is upright, with one hand extended in a pointing motion.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, sharp metallic click, immediately followed by a brief, high-pitched squeak, both indicative of a heavy metal door or gate being unlatched and swung open. This is accompanied by a low-frequency, resonant groan, suggesting the movement of a large, aged metal object. The environment is acoustically vast and reverberant, with the sounds decaying slowly and echoing throughout a cavernous space. As the door opens, a deep, continuous mechanical hum emerges, characterized by a low-frequency drone with a subtle, cyclical pulsation, reminiscent of a large industrial machine or ventilation system. The hum is steady and unchanging, with no additional mechanical noises or human activity present. The reverberation of the space amplifies the sense of emptiness and isolation, with no speech, footsteps, or other ambient sounds. After several seconds, the mechanical hum is abruptly cut off, replaced by a single, loud, low-pitched electronic buzzer. This buzzer is harsh, synthetic, and sustained, with a square or sawtooth waveform and a fundamental frequency around 110 Hz (A2), accompanied by strong upper harmonics. The buzzer is much louder than the preceding hum and is presented in a dry",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A central figure with long hair and dark clothing gestures forward while surrounded by a group of people in dim, shadowy lighting. The crowd stands closely together, mostly in muted tones, with some individuals partially obscured by darkness or holding faintly glowing objects. The central figure’s gaze is directed forward, and their posture is upright, with one hand extended in a pointing motion.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

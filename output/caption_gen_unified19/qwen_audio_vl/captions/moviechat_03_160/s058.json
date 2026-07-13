@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_description": "The video displays close-up shots of computer screens showing text-based interfaces with Chinese characters and numerical data, including a message that reads \"有內鬼，終止交易\" and a prompt \"DETECT GSM900 52 SELECT CELL.\" The screens are filled with scrolling numbers, likely phone numbers, and technical interface elements, suggesting a surveillance or communication monitoring scenario. No people are visible in any frame.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-frequency digital click, immediately followed by a brief, descending synthesized \"whoosh\" that pans from left to right, evoking a sense of motion and anticipation. This is succeeded by a deep, resonant synthetic bass note, which is heavily processed with reverb and delay, creating a cavernous, immersive atmosphere. The bass note is punctuated by a rapid, metallic percussive sequence—reminiscent of a hi-hat or shaker—adding rhythmic complexity and a sense of urgency. A low-frequency, distorted bass pulse then enters, establishing a steady, driving rhythm. The soundscape is further enriched by a high-pitched, bell-like synth arpeggio that moves through the stereo field, contributing to the track’s spatial depth and tension. Throughout, the audio is marked by a persistent, low-level electronic hiss, characteristic of analog or digital noise, and the overall mix is dense and layered, with a wide stereo image and pronounced reverb. Suddenly, the music is interrupted by a loud, harsh, low-frequency buzzer—a synthetic, grating tone with a sawtooth or square wave timbre, heavily distorted and saturated. This buzzer is centered in the stereo field and dominates the mix",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video displays close-up shots of computer screens showing text-based interfaces with Chinese characters and numerical data, including a message that reads \"有內鬼，終止交易\" and a prompt \"DETECT GSM900 52 SELECT CELL.\" The screens are filled with scrolling numbers, likely phone numbers, and technical interface elements, suggesting a surveillance or communication monitoring scenario. No people are visible in any frame.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

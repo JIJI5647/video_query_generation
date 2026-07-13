@@ -1,0 +1,46 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and to the side"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a greenish wall in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man looks down and to the side"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black tie",
+      "facial_cues": [
+        "looking down",
+        "looking to the side"
+      ],
+      "body_cues": [],
+      "gaze": "down and to the side"
+    }
+  ],
+  "audio_description": "A person sighs, followed by a loud, sharp sound, possibly a slap or a hard object hitting a surface.",
+  "temporal_description": "The audio begins with a sigh, followed by a sudden, loud sound.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and black tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking down and to the side\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a greenish wall in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"the man looks down and to the side\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man"
+}

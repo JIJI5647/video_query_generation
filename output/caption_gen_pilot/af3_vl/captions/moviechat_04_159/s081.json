@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice, speaking in a neutral tone and moderate pace, asks about a phone call in Mandarin, with no notable background sounds.",
+  "temporal_description": "A man in a dark suit is seated in a dimly lit room, facing a computer monitor displaying a blue-toned image. He is wearing earphones and appears to be focused on the screen, occasionally shifting his gaze and slightly turning his head. Another person is partially visible in the foreground, with only the top of their head and shoulders in frame. The background is dark with curtains, and the overall setting suggests a surveillance or monitoring environment. The man’s posture remains mostly upright and attentive throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit is seated in a dimly lit room, facing a computer monitor displaying a blue-toned image. He is wearing earphones and appears to be focused on the screen, occasionally shifting his gaze and slightly turning his head. Another person is partially visible in the foreground, with only the top of their head and shoulders in frame. The background is dark with curtains, and the overall setting suggests a surveillance or monitoring environment. The man’s posture remains mostly upright",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

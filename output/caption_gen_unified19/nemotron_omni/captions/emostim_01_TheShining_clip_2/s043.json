@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_description": "A man with messy hair and a beard, wearing a red jacket over a plaid shirt, stands near a door and looks to his left while speaking. His facial expression shifts as he continues to talk.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks with a slight laugh, sounding conversational.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s043\", \"time_range\": [210.0, 215.0], \"visual\": \"A man with messy hair and a beard, wearing a red jacket over a plaid shirt, stands near a door and looks to his left while speaking. His facial expression shifts as he continues to talk.\", \"audio\": \"A male voice speaks with a slight laugh, sounding conversational.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

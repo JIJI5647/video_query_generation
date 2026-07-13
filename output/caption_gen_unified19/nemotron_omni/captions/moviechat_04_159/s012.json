@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A hand holds an open white flip phone, its keypad illuminated, while a man with a mustache in a dark suit smokes a cigarette, exhaling smoke that curls around his face. The camera then returns to the hand as a finger presses a button on the phone's keypad.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear and not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual\": \"A hand holds an open white flip phone, its keypad illuminated, while a man with a mustache in a dark suit smokes a cigarette, exhaling smoke that curls around his face. The camera then returns to the hand as a finger presses a button on the phone's keypad.\", \"audio\": \"The audio is unclear and not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

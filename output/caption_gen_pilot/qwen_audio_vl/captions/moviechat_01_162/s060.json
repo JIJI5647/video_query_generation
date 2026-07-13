@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency electronic hum, likely from a PA system or recording equipment, establishing a quiet, controlled indoor environment. Immediately, a male speaker with a clear, formal Mandarin accent delivers the phrase, “八分” (“Eight minutes”), his voice steady and measured, indicating the start of a scheduled announcement. A soft, brief rustling sound follows, suggesting the speaker adjusts his position or clothing, reinforcing the sense of a live, in-person setting. The speaker continues, “我们收到刘警官的通知” (“We have received notification from Officer Liu”), maintaining a neutral, professional tone and precise diction, with no emotional inflection or background noise. The delivery is deliberate, with each word clearly articulated and separated by natural pauses, reflecting a formal, procedural context. After a short pause, the speaker begins, “在—” (“At—”), but the sentence is abruptly cut off mid-word, leaving the message incomplete. The recording ends suddenly, with no fade-out or additional sounds, indicating a technical interruption or intentional truncation.\n\nThe audio is of high fidelity, with a clean, mono signal and no distortion, hiss, or environmental interference. The speaker’s voice is prominent and intelligible, with a mid-to-low pitch and a slightly nasal timbre, and the room’s acoustics suggest a medium-sized, hard-surfaced space such as a conference room or auditorium. The absence of background voices, music, or ambient noise, along with the formal language and procedural structure, points to an official setting—likely a police or government briefing, press conference, or internal meeting. The use of “刘警官” (Officer Liu) and the reference to a notification imply an authoritative, law enforcement context, and the incomplete sentence suggests the recording was cut off before the intended message could be delivered.\n\nIn summary, the audio captures a brief, formal announcement by a male Mandarin speaker in a professional setting, referencing a notification from Officer Liu and beginning to state a location or event, but the message is abruptly truncated. The recording’s clarity, procedural tone, and lack of extraneous sounds indicate an official, likely law enforcement context, with the incomplete ending suggesting a technical interruption or intentional cutoff.",
+  "temporal_description": "A man in a light blue shirt and striped tie sits in a chair, his head slightly bowed, facing away from the camera. Another person, partially visible, holds a pen near their mouth. The scene shifts to a conference room where four men sit around a table, one standing and addressing them. The room has glass walls, a television displaying a security feed, and a staircase in the background. One man wears a police uniform, while others are in business attire. A police cap rests on the table, and papers and mugs are scattered around. The standing man gestures slightly as he speaks, while the seated men listen attentively, occasionally looking at each other or the television.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt and striped tie sits in a chair, his head slightly bowed, facing away from the camera. Another person, partially visible, holds a pen near their mouth. The scene shifts to a conference room where four men sit around a table, one standing and addressing them. The room has glass walls, a television displaying a security feed, and a staircase in the background. One man wears a police uniform, while others are in business attire. A police cap rests on the table, and paper",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

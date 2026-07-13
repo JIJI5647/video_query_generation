@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A nighttime highway scene shows multiple cars with headlights on, followed by a close-up of a driver in a white shirt inside a black SUV. The view shifts to a black BMW with bright headlights and license plate HN 397 driving toward the camera past a yellow illuminated bollard. The car proceeds forward on the road under streetlights.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Engine and traffic noises are audible, with no distinct speech or music.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s021\", \"time_range\": [100.0, 105.0], \"visual\": \"A nighttime highway scene shows multiple cars with headlights on, followed by a close-up of a driver in a white shirt inside a black SUV. The view shifts to a black BMW with bright headlights and license plate HN 397 driving toward the camera past a yellow illuminated bollard. The car proceeds forward on the road under streetlights.\", \"audio\": \"Engine and traffic noises are audible, with no distinct speech or music.\", \"confidence\": "
+}

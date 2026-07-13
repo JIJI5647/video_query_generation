@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice singing a melody with a medium pitch and a moderate tempo, accompanied by a background of music.",
+  "temporal_description": "A man in a suit is riding a bicycle on a road next to a white pickup truck. The truck has a chicken coop in the back, and a chicken is visible inside. The man looks at the chicken, and the chicken pecks at the ground inside the coop. The chicken has a red comb and yellow beak, and its feet are visible as it walks on straw. The man is wearing a red tie and has dark hair. The background shows a field with trees and a blue sky with clouds.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit is riding a bicycle on a road next to a white pickup truck. The truck has a chicken coop in the back, and a chicken is visible inside. The man looks at the chicken, and the chicken pecks at the ground inside the coop. The chicken has a red comb and yellow beak, and its feet are visible as it walks on straw. The man is wearing a red tie and has dark hair. The background shows a field with trees and a blue sky with clouds.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

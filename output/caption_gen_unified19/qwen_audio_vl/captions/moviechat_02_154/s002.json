@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A black sedan drives down a dimly lit city street at night, passing storefronts with illuminated signs. Inside the car, a driver is visible behind the wheel, and another person sits in the front passenger seat. The street is lined with other vehicles and streetlights, with pedestrians barely visible near a red railing on the sidewalk.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful entrance of a full symphonic orchestra, immediately immersing the listener in a dense, cinematic soundscape. The strings, led by violins, deliver a rapid, ascending arpeggio that sweeps upward in pitch, creating a sense of urgency and anticipation. This is accompanied by a powerful, sustained brass chord—likely trumpets and horns—providing a heroic, triumphant foundation. The percussion, including timpani and cymbals, adds dramatic punctuation, with a sharp cymbal crash accentuating the opening. The overall dynamic is loud and intense, with the music building in both volume and weight. As the orchestral texture thickens, the strings continue their ascending motion, now joined by woodwinds such as flutes and oboes, which introduce a soaring, high-pitched melody. The brass section sustains its chord, while the percussion maintains a driving, rhythmic pulse. The music reaches a peak of tension and, with the strings and brass intertwining in a climactic, heroic gesture. The stereo field is wide and immersive, with instruments distributed across the left and right channels, and the sound is enveloped in lush, artificial reverb, evoking the ac",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A black sedan drives down a dimly lit city street at night, passing storefronts with illuminated signs. Inside the car, a driver is visible behind the wheel, and another person sits in the front passenger seat. The street is lined with other vehicles and streetlights, with pedestrians barely visible near a red railing on the sidewalk.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

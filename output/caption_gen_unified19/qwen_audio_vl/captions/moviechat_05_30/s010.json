@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A person in a dark robe is seen from above, leaning forward with their hands gripping a surface. Their face is partially illuminated by a blue glow, and their gaze is directed downward. A hand holding a wand is visible against a blurred background of fiery orange and blue hues.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, guttural scream from a male voice, delivered in a strained, tone that. This vocalization is immediately followed by a deep, resonant, and heavily reverberant metallic impact, characterized by a low-frequency rumble and a sharp, high-frequency clang. The impact is so forceful that it causes the recording to clip, resulting in a harsh, distorted sound. The reverberation is pronounced, suggesting the event occurs in a vast, enclosed, and acoustically reflective space, such as a warehouse, hangar, or industrial facility. As the reverberation from the impact fades, a continuous, low-frequency mechanical rumble emerges, accompanied by a rhythmic, metallic clatter. This clatter, reminiscent of train wheels passing over track joints, is layered with a persistent high-frequency hiss, likely from the recording equipment or the environment. The mechanical sounds are steady and unchanging, indicating a large, heavy object in motion—most plausibly a train or subway car—moving through the cavernous space. The overall soundscape is dominated by these mechanical noises, with no other human voices, music, or ambient sounds present. The audio ends abruptly",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark robe is seen from above, leaning forward with their hands gripping a surface. Their face is partially illuminated by a blue glow, and their gaze is directed downward. A hand holding a wand is visible against a blurred background of fiery orange and blue hues.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

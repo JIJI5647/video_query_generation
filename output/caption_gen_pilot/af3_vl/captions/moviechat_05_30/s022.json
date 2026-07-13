@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A group of people are running across a dimly lit, narrow bridge with metal railings. The lead person, wearing a dark jacket and patterned pants, runs forward with urgency, followed closely by others in similar attire. Behind them, another individual in a patterned sweater and dark pants is seen running while occasionally looking back, appearing to be in a hurry. The bridge is surrounded by darkness, with faint lights visible in the distance, and the scene is shrouded in a misty or smoky atmosphere. The individuals maintain a forward-facing posture, with their arms swinging as they run, and their gazes directed ahead, indicating a sense of purposeful movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people are running across a dimly lit, narrow bridge with metal railings. The lead person, wearing a dark jacket and patterned pants, runs forward with urgency, followed closely by others in similar attire. Behind them, another individual in a patterned sweater and dark pants is seen running while occasionally looking back, appearing to be in a hurry. The bridge is surrounded by darkness, with faint lights visible in the distance, and the scene is shrouded in a misty or smoky atmosphe",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

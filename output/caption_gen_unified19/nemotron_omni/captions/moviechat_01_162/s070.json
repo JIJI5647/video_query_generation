@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands beside a television displaying a hallway surveillance feed, pointing at the screen. The camera then cuts to two men seated, one in a police uniform and another in a light blue shirt, both looking forward. Finally, a wide view shows the standing man addressing a group of men seated around a conference table in a glass-walled room.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man speaks while pointing at a TV screen. The audio then shows a quiet conversation among several men seated around a table.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s070\", \"time_range\": [345.0, 350.0], \"visual\": \"A man in a white shirt and tie stands beside a television displaying a hallway surveillance feed, pointing at the screen. The camera then cuts to two men seated, one in a police uniform and another in a light blue shirt, both looking forward. Finally, a wide view shows the standing man addressing a group of men seated around a conference table in a glass-walled room.\", \"audio\": \"A man speaks while pointing at a TV screen. The audio "
+}

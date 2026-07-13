@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "An elderly woman with light-colored eyes and dark hair, wearing a dark garment, is shown in close-up, her gaze directed forward. The scene cuts to a wide shot of a castle silhouette against a dark sky filled with bright, branching electrical discharges. The woman’s posture is upright, and her facial features are clearly visible under dim lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate pace, accompanied by a noticeable sigh at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "An elderly woman with light-colored eyes and dark hair, wearing a dark garment, is shown in close-up, her gaze directed forward. The scene cuts to a wide shot of a castle silhouette against a dark sky filled with bright, branching electrical discharges. The woman’s posture is upright, and her facial features are clearly visible under dim lighting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

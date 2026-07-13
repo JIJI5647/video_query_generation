@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "The scene is a dimly lit, industrial interior with metal railings and arches. A man in dark robes stands on a metal walkway, casting a bright blue light from his hand toward an unseen target, while debris and sparks fly around him. Another figure in dark clothing is visible in the background, observing the confrontation.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a sudden burst of magical energy crackling followed by ambient reverberations.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s041\", \"time_range\": [200.0, 205.0], \"visual\": \"The scene is a dimly lit, industrial interior with metal railings and arches. A man in dark robes stands on a metal walkway, casting a bright blue light from his hand toward an unseen target, while debris and sparks fly around him. Another figure in dark clothing is visible in the background, observing the confrontation.\", \"audio\": \"The audio features a sudden burst of magical energy crackling followed by ambient reverberations.\", \""
+}

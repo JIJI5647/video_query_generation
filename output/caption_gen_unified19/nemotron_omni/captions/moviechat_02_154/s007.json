@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A dimly lit interior shows a man in profile with dark hair looking forward, while another person is partially visible in the foreground. The camera then cuts to a clock on a wall, its face illuminated against the darkness, before shifting to an outdoor night scene where two men descend a staircase under a covered walkway. One man wears a dark suit and the other has white hair; they walk side by side past a metal railing, with streetlights visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s007\", \"time_range\": [30, 35], \"visual\": \"A dimly lit interior shows a man in profile with dark hair looking forward, while another person is partially visible in the foreground. The camera then cuts to a clock on a wall, its face illuminated against the darkness, before shifting to an outdoor night scene where two men descend a staircase under a covered walkway. One man wears a dark suit and the other has white hair; they walk side by side past a metal railing, with streetlights"
+}

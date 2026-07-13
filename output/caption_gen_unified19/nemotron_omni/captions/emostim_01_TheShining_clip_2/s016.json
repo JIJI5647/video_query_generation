@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "A woman with dark hair, wearing a blue top, sits on a bed and embraces a child in a red and green striped sweater, her right hand gripping a knife. The child faces away from the camera while the woman looks forward with a neutral expression. A warm lamp on a nightstand illuminates the dim bedroom, where a wooden headboard and patterned blanket are visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible sound is detected.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual\": \"A woman with dark hair, wearing a blue top, sits on a bed and embraces a child in a red and green striped sweater, her right hand gripping a knife. The child faces away from the camera while the woman looks forward with a neutral expression. A warm lamp on a nightstand illuminates the dim bedroom, where a wooden headboard and patterned blanket are visible.\", \"audio\": \"No audible sound is detected.\", \"confidence\": \"medium\", \"evidence_s"
+}

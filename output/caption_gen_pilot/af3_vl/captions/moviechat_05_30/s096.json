@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s096",
+  "time_range": [
+    475.0,
+    480.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace, accompanied by the sound of a door opening and closing, and a faint background hum.",
+  "temporal_description": "A person wearing glasses and a jacket is seen in a dimly lit, cluttered room filled with furniture and debris. They are holding a small, dark-colored creature, possibly a bird or bat, and appear to be examining or interacting with it. The person’s movements are deliberate, and they occasionally shift their gaze and posture while handling the creature. The room is disorganized, with chairs, cushions, and other items scattered around, suggesting a state of disarray or aftermath of some event.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing glasses and a jacket is seen in a dimly lit, cluttered room filled with furniture and debris. They are holding a small, dark-colored creature, possibly a bird or bat, and appear to be examining or interacting with it. The person’s movements are deliberate, and they occasionally shift their gaze and posture while handling the creature. The room is disorganized, with chairs, cushions, and other items scattered around, suggesting a state of disarray or aftermath of some event.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

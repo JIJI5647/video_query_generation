@@ -1,0 +1,59 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red velvet jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running down a hallway and swinging an axe at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor hallway",
+      "setting": "a building with light blue walls and a wooden door"
+    },
+    "objects": [
+      {
+        "object": "an axe",
+        "visibility": "clearly visible",
+        "position": "in the man's hands",
+        "action": "being swung at a door"
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "the man swings the axe at the door"
+      }
+    ],
+    "key_actions": [
+      "running",
+      "swinging an axe"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red velvet jacket",
+      "facial_cues": [
+        "intense expression"
+      ],
+      "body_cues": [
+        "swinging an axe"
+      ],
+      "gaze": "at the door"
+    }
+  ],
+  "audio_description": "a loud, metallic crashing sound is heard.",
+  "temporal_description": "The audio begins with a loud, metallic crashing sound.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s025\", \"time_range\": [120.0, 125.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a red velvet jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"running down a hallway and swinging an axe at a door\"}], \"scene\": {\"location\": \"indoor hallway\", \"setting\": \"a building with light blue walls and a wooden door\"}, \"objects\": [{\"object\": \"an axe\", \"visibility\": \"clearly visible\", \"position\": \"in the man's hands\", \"action\": \"being swung at a door\"}], \""
+}

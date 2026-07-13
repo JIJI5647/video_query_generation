@@ -1,0 +1,65 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking on a phone and gesturing with his hand"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and talking to the other man"
+      }
+    ],
+    "scene": {
+      "location": "outdoor balcony",
+      "setting": "at night, with buildings in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the light-colored shirt is talking on a phone while the man in the dark suit speaks to him."
+    ],
+    "key_actions": [
+      "talking on a phone",
+      "gesturing",
+      "talking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "talking on the phone"
+      ],
+      "body_cues": [
+        "gesturing with his hand"
+      ],
+      "gaze": "towards the man in the dark suit"
+    },
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "talking"
+      ],
+      "body_cues": [],
+      "gaze": "towards the man in the light-colored shirt"
+    }
+  ],
+  "audio_description": "Two men are having a conversation.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s048\", \"time_range\": [235.0, 240.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light-colored shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"talking on a phone and gesturing with his hand\"}, {\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing and talking to the other man\"}], \"scene\": {\"location\": \"outdoor balcony\", \"setting\": \"at night, with buildings in the background\"}, \"objects\": [],"
+}

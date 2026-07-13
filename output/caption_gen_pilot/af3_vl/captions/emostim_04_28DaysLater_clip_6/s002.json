@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A woman in a red dress is seated on the floor in a dimly lit room, her posture upright and her gaze directed upward. She is positioned near a bathtub and a mirror, with a small light source illuminating part of the scene. A figure in a dark, hooded outfit appears, moving toward the woman, their face obscured and their hands gesturing as they approach. The figure’s movements are deliberate, and they seem to be interacting with the environment, possibly reaching toward the mirror or door. The room has a vintage aesthetic with ornate decor and checkered flooring, and the lighting shifts between dark and bright as the scene progresses.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman in a red dress is seated on the floor in a dimly lit room, her posture upright and her gaze directed upward. She is positioned near a bathtub and a mirror, with a small light source illuminating part of the scene. A figure in a dark, hooded outfit appears, moving toward the woman, their face obscured and their hands gesturing as they approach. The figure’s movements are deliberate, and they seem to be interacting with the environment, possibly reaching toward the mirror or door. The room",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "Two men are visible in a room, one in a pink plaid shirt facing the other who wears a blue plaid shirt; the second man is partially turned away. The man in pink leans forward slightly with his hands clasped, while the man in blue gestures with his hands as he speaks. Behind them, a framed picture hangs on the wall near a lamp and a door marked with the number 232.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, speaking in a neutral tone without any noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are visible in a room, one in a pink plaid shirt facing the other who wears a blue plaid shirt; the second man is partially turned away. The man in pink leans forward slightly with his hands clasped, while the man in blue gestures with his hands as he speaks. Behind them, a framed picture hangs on the wall near a lamp and a door marked with the number 232.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

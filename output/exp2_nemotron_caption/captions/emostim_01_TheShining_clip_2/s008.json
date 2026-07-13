@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A young boy with short brown hair, wearing a red and gray sweater, stands in a dim bedroom and reaches for the knob of a closed wooden door. He grasps the knob with his right hand and turns it, appearing to try to open the door. In the background, a bed with a sleeping person and a lit lamp are visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "There is little audible sound, with only a faint click when the knob is turned.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"A young boy with short brown hair, wearing a red and gray sweater, stands in a dim bedroom and reaches for the knob of a closed wooden door. He grasps the knob with his right hand and turns it, appearing to try to open the door. In the background, a bed with a sleeping person and a lit lamp are visible.\", \"audio\": \"There is little audible sound, with only a faint click when the knob is turned.\", \"confidence\": \"high\", \"evidence_strengt"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A man in a pink plaid shirt leans forward and then stands while gesturing with his hands toward a man in a blue plaid shirt whose back is to the camera. The background includes a framed picture and a wall sconce.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a conversation between the two men, with the man in pink speaking and the man in blue responding.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s008\", \"time_range\": [35, 40], \"visual\": \"A man in a pink plaid shirt leans forward and then stands while gesturing with his hands toward a man in a blue plaid shirt whose back is to the camera. The background includes a framed picture and a wall sconce.\", \"audio\": \"The audio features a conversation between the two men, with the man in pink speaking and the man in blue responding.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

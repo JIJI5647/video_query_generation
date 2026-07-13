@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A close‑up shows a man with short dark hair and a mustache, wearing a dark jacket, his face lit by blue light and surrounded by swirling smoke as he looks intently forward. The scene then cuts to a man in a suit and glasses looking down while another person's hand reaches toward his face, also enveloped in smoke.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual\": \"A close‑up shows a man with short dark hair and a mustache, wearing a dark jacket, his face lit by blue light and surrounded by swirling smoke as he looks intently forward. The scene then cuts to a man in a suit and glasses looking down while another person's hand reaches toward his face, also enveloped in smoke.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

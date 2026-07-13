@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A woman with shoulder-length brown hair lies in a hospital bed, covered by a pink blanket, while a man in a beige jacket leans over her, his hand resting on the bed. A woman in a white lab coat with a name tag stands nearby, looking toward the bed. The man’s gaze is directed upward and to the side, while the woman in the bed looks toward the man with a neutral expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically controlled indoor environment, likely a medical office or hospital room, with a subtle, steady electronic hum and faint hiss indicating the presence of medical equipment and a sensitive recording setup. A female voice, close to the microphone and speaking in a calm, neutral, and professional tone, states, “Ten centimeters.” Her delivery is clear and measured, with a slight upward inflection on “centimeters,” suggesting she is relaying a factual medical measurement. Immediately, a second female voice, positioned farther from the microphone and marked by a higher pitch and urgency, reacts with a sharp, incredulous “What?” Her tone is strained and breathy. The first speaker repeats, “Ten centimeters,” maintaining her composed and factual demeanor, reinforcing the significance of the measurement. The second voice, now more and breathless, asks, “You’re about to become a mom?” Her question is delivered with a rising, inflection. The first speaker does not respond, and the recording ends abruptly, leaving the moment suspended. This audio captures a brief, emotionally charged exchange between two women in a clinical setting, where a medical professional delivers the news that a",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair lies in a hospital bed, covered by a pink blanket, while a man in a beige jacket leans over her, his hand resting on the bed. A woman in a white lab coat with a name tag stands nearby, looking toward the bed. The man’s gaze is directed upward and to the side, while the woman in the bed looks toward the man with a neutral expression.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

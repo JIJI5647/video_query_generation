@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A woman with blonde, shoulder-length hair wearing a dark sweater over a white collared shirt sits across from a man in a plaid shirt at a restaurant table; both are partially visible and facing each other. They are seated at a wooden table with food and drinks, surrounded by other patrons and a visible soda sign in the background. The woman gestures with her hand while speaking, and the man looks toward her, his posture relaxed as he holds a utensil.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone at a moderate pace, with no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with blonde, shoulder-length hair wearing a dark sweater over a white collared shirt sits across from a man in a plaid shirt at a restaurant table; both are partially visible and facing each other. They are seated at a wooden table with food and drinks, surrounded by other patrons and a visible soda sign in the background. The woman gestures with her hand while speaking, and the man looks toward her, his posture relaxed as he holds a utensil.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

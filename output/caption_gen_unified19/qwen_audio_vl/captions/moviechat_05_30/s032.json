@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_description": "In near darkness, silhouettes of multiple people are visible scattered across a rugged, uneven terrain, some appearing to move or crouch. A faintly lit structure or pathway with glowing lights is visible in the upper right background. Most figures are too dark and indistinct to discern specific appearances, facial cues, or detailed body gestures.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, overwhelming roar that immediately fills the soundscape, characterized by a deep, low-frequency rumble and a high-frequency hiss. This initial sound is so intense that it causes severe digital clipping and distortion, resulting in a harsh, crackling texture. The roar is accompanied by a rapid, rhythmic metallic clatter, reminiscent of train wheels passing over rail joints, and a persistent, high-pitched metallic squeal that suggests friction between metal components. The overall impression is of a massive, fast-moving train or subway car, with the sound source moving rapidly from left to right across the stereo field, creating a vivid sense of motion and spatial depth. The environment is highly reverberant, with echoes and reflections indicating a large, enclosed, and hard-surfaced space such as a tunnel or underground station. As the train sound continues, the metallic clatter and squeal persist, but the intensity of the roar begins to diminish, suggesting the train is moving away from the recording point. The reverberation remains strong, reinforcing the impression of a cavernous, enclosed setting. The audio quality remains poor, with persistent distortion and a compressed dynamic range, making the sound feel overwhelming and abrasive. Suddenly, the train sound is cut off with no",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In near darkness, silhouettes of multiple people are visible scattered across a rugged, uneven terrain, some appearing to move or crouch. A faintly lit structure or pathway with glowing lights is visible in the upper right background. Most figures are too dark and indistinct to discern specific appearances, facial cues, or detailed body gestures.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

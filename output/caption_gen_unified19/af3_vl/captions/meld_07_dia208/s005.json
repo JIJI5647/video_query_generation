@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "Three individuals sit on a couch in a festive, crowded room decorated with holiday ornaments and garlands; one person in a red sweater gestures while holding a small object, another in a beige turtleneck leans back with eyes closed, and the third in a red top sits with arms crossed. A fourth person in a blue top leans forward, gesturing toward the person in beige, who appears to be eating something from a plate. The background shows other people seated and standing, with a chalkboard and various items visible on tables and shelves.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a neutral tone and moderate pace, followed by a female speaker with a neutral tone and moderate pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals sit on a couch in a festive, crowded room decorated with holiday ornaments and garlands; one person in a red sweater gestures while holding a small object, another in a beige turtleneck leans back with eyes closed, and the third in a red top sits with arms crossed. A fourth person in a blue top leans forward, gesturing toward the person in beige, who appears to be eating something from a plate. The background shows other people seated and standing, with a chalkboard and various",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

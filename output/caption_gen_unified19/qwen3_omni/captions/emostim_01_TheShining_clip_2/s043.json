@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_description": "A man with disheveled hair and a beard, wearing a red corduroy jacket over a plaid shirt, stands in a doorway. He has a cut on his forehead and is smiling widely, looking off to the side. His expression is unsettling and intense.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man's voice speaks in a low, menacing tone, saying, 'Little pigs, let me come in.'",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s043\", \"time_range\": [210.0, 215.0], \"visual\": \"A man with disheveled hair and a beard, wearing a red corduroy jacket over a plaid shirt, stands in a doorway. He has a cut on his forehead and is smiling widely, looking off to the side. His expression is unsettling and intense.\", \"audio\": \"A man's voice speaks in a low, menacing tone, saying, 'Little pigs, let me come in.'\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

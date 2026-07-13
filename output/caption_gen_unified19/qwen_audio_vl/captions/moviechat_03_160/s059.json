@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_description": "A man in a dark suit and tie is seen in profile, looking down at a handheld device with a yellow cap. Behind him, a large screen displays a digital map with glowing blue lines and numerical data, including “DETECT GSM900” and “52 SELECT CELL.” The man’s posture is upright and focused as he holds the device in his hands.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched metallic screech that immediately dominates the soundscape. This screech, reminiscent of a train’s steel wheels grinding against rails, is harsh, abrasive, and heavily distorted, with a pronounced digital clipping effect that imparts a crackling, overdriven quality. The screech is accompanied by a deep, resonant rumble, evoking the immense mass and power of a moving train. The sound is enveloped in a dense, cavernous reverb, suggesting a vast, enclosed space such as a tunnel or underground station. The screech and rumble persist for about two seconds, then abruptly cease, leaving a brief moment of near-silence. Following this, a sharp, high-frequency metallic click is heard, likely the sound of a train’s wheel passing over a track joint or a mechanical switch. This click is clean and isolated, with no lingering reverberation, indicating a close-mic’d or digitally processed effect. Immediately after, a rapid sequence of three metallic clicks occurs, each slightly lower in pitch and spaced evenly, resembling the rhythmic clatter of train wheels over track joints. These clicks are crisp and percussive, with a subtle, short reverb that suggests a",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie is seen in profile, looking down at a handheld device with a yellow cap. Behind him, a large screen displays a digital map with glowing blue lines and numerical data, including “DETECT GSM900” and “52 SELECT CELL.” The man’s posture is upright and focused as he holds the device in his hands.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

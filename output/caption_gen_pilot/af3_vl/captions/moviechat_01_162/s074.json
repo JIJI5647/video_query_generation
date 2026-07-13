@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone, accompanied by a sneeze and a smack sound, suggesting a sudden interruption in speech.",
+  "temporal_description": "Two men in business attire stand side by side in an office-like setting, with one slightly turned toward the other. The man on the left, wearing a light blue shirt and striped tie, gestures with his right hand toward the other man, who is dressed in a white shirt and dark tie with an ID badge. Both appear to be engaged in a conversation, occasionally shifting their gaze and posture. A third person’s head is partially visible in the foreground, suggesting they are part of the group. The background features glass walls and a monitor displaying a bright image, indicating a professional or surveillance environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in business attire stand side by side in an office-like setting, with one slightly turned toward the other. The man on the left, wearing a light blue shirt and striped tie, gestures with his right hand toward the other man, who is dressed in a white shirt and dark tie with an ID badge. Both appear to be engaged in a conversation, occasionally shifting their gaze and posture. A third person’s head is partially visible in the foreground, suggesting they are part of the group. The backgroun",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

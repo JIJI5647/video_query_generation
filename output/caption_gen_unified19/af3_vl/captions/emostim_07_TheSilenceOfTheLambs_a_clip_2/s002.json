@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A woman with shoulder-length dark hair, wearing a green jacket over a light-colored shirt, is partially visible in a dimly lit space with brick walls. She is looking toward the right side of the frame, her head slightly turned, and her mouth is slightly open as if mid-movement or speaking. The lighting casts shadows across her face and the surrounding environment, emphasizing the texture of the brick wall behind her.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a moderate speaking rate. The voice is clear and steady, with no noticeable background noise or interruptions.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length dark hair, wearing a green jacket over a light-colored shirt, is partially visible in a dimly lit space with brick walls. She is looking toward the right side of the frame, her head slightly turned, and her mouth is slightly open as if mid-movement or speaking. The lighting casts shadows across her face and the surrounding environment, emphasizing the texture of the brick wall behind her.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands near a TV displaying a security feed, gesturing toward it while facing another person partially visible in the foreground. In a wider shot, several men in business or uniform attire sit around a conference table, with one man standing and addressing them while others listen or look at the screen. The setting is a modern office with glass partitions, and the TV shows a person seated in a room with a window.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands near a TV displaying a security feed, gesturing toward it while facing another person partially visible in the foreground. In a wider shot, several men in business or uniform attire sit around a conference table, with one man standing and addressing them while others listen or look at the screen. The setting is a modern office with glass partitions, and the TV shows a person seated in a room with a window.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

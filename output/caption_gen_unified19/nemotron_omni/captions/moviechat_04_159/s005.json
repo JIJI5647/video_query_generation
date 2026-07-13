@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A person in a white shirt stands with their back to the camera, facing multiple monitors and raising a hand, followed by a close‑up of a wall‑mounted security camera, and then a man in a dark jacket smoking a cigarette with smoke drifting upward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with faint ambient noise, and no clear speech or distinct sounds are evident.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A person in a white shirt stands with their back to the camera, facing multiple monitors and raising a hand, followed by a close‑up of a wall‑mounted security camera, and then a man in a dark jacket smoking a cigarette with smoke drifting upward.\", \"audio\": \"The audio is quiet with faint ambient noise, and no clear speech or distinct sounds are evident.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

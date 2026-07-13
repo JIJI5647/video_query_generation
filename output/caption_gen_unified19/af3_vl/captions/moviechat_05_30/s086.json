@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s086",
+  "time_range": [
+    425.0,
+    430.0
+  ],
+  "visual_description": "Three men in dark clothing stand in a dimly lit, cluttered room, each holding a wand pointed forward. The central figure has platinum blonde hair and is flanked by two others, all maintaining a rigid, forward-facing stance. Their gazes are fixed ahead, and their postures suggest readiness or confrontation, with minimal movement observed.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow pace, speaking in a monotone manner without any noticeable prosody or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men in dark clothing stand in a dimly lit, cluttered room, each holding a wand pointed forward. The central figure has platinum blonde hair and is flanked by two others, all maintaining a rigid, forward-facing stance. Their gazes are fixed ahead, and their postures suggest readiness or confrontation, with minimal movement observed.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

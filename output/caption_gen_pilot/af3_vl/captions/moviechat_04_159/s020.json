@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A man in a dark suit and tie, wearing glasses, is shown in a dimly lit setting with a dark background. He is positioned centrally, facing forward, and at times turns his head slightly to the side. In one segment, he is seen holding a cigarette, exhaling smoke while looking upward. His posture remains upright and composed throughout, with minimal movement, and his gaze is mostly directed forward or slightly off-camera.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie, wearing glasses, is shown in a dimly lit setting with a dark background. He is positioned centrally, facing forward, and at times turns his head slightly to the side. In one segment, he is seen holding a cigarette, exhaling smoke while looking upward. His posture remains upright and composed throughout, with minimal movement, and his gaze is mostly directed forward or slightly off-camera.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

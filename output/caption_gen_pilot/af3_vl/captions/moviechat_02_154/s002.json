@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a medium pitch and moderate speed, conveying a sense of urgency and distress through its prosody and the presence of heavy breathing and occasional pauses.",
+  "temporal_description": "A black sedan is parked on a city street at night, with its driver visible inside, seated behind the wheel. The car remains stationary throughout the clip, with its headlights off and taillights not illuminated. The surrounding environment includes illuminated storefronts, street signs, and other parked vehicles, with occasional passing cars in the background. The driver appears to be looking ahead, maintaining a steady posture, while the interior of the car remains dimly lit, making details inside difficult to discern.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A black sedan is parked on a city street at night, with its driver visible inside, seated behind the wheel. The car remains stationary throughout the clip, with its headlights off and taillights not illuminated. The surrounding environment includes illuminated storefronts, street signs, and other parked vehicles, with occasional passing cars in the background. The driver appears to be looking ahead, maintaining a steady posture, while the interior of the car remains dimly lit, making details ins",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

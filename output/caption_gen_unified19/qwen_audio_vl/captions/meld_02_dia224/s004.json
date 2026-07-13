@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a red and blue polo shirt sits on an orange couch, gesturing with his hands as he speaks, facing another man in a blue shirt seated to his right. Behind them, other people are partially visible, some standing and others seated, in what appears to be a casual indoor setting with furniture and decor. The man in red maintains an upright posture, his gaze directed toward the man in blue, while the man in blue turns his head slightly toward him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a brief, low-frequency thump, likely caused by a microphone bump or handling noise, immediately followed by a faint rustle—possibly from clothing or a bag—suggesting the speakers are physically present and moving slightly. The recording is set in a quiet, indoor environment with a subtle, persistent electronic hiss and a low-frequency hum, indicating the use of a consumer-grade device such as a smartphone or portable recorder. The acoustics are dry and intimate, with no reverberation, implying a small, furnished room. Two adult male voices engage in a casual, friendly conversation. The first speaker, with a slightly higher pitch and a General American accent, asks, \"You like the Knicks?\" The second speaker, deeper and more resonant, responds affirmatively, \"Yeah, big fan.\" The first speaker, now more animated, replies, \"Me too,\" and continues, \"There's a game on Tuesday.\" The second speaker begins to respond with, \"You want to go—\" but is abruptly cut off mid-sentence by a sharp, high-frequency click, likely from the recording device being stopped or a button being pressed. The audio ends instantly, with no fade-out or trailing noise. Throughout the exchange, the speakers' voices are",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a red and blue polo shirt sits on an orange couch, gesturing with his hands as he speaks, facing another man in a blue shirt seated to his right. Behind them, other people are partially visible, some standing and others seated, in what appears to be a casual indoor setting with furniture and decor. The man in red maintains an upright posture, his gaze directed toward the man in blue, while the man in blue turns his head slightly toward him.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

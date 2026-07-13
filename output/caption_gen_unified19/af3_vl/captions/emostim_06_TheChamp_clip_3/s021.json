@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A young child with light-colored hair, wearing a gray shirt, is being held by an adult whose face is partially visible. The adult’s hand is gently touching the child’s cheek, and the child’s gaze is directed toward the adult. The scene is dimly lit, with the focus on the interaction between the two individuals.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and slow pace, accompanied by heavy breathing and a sigh, suggesting a moment of exhaustion or relief.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair, wearing a gray shirt, is being held by an adult whose face is partially visible. The adult’s hand is gently touching the child’s cheek, and the child’s gaze is directed toward the adult. The scene is dimly lit, with the focus on the interaction between the two individuals.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

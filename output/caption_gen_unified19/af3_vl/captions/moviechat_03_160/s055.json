@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_description": "A man in a light-colored shirt is shown in close-up, looking downward with his head slightly tilted. His face is partially illuminated by a cool blue light, and his gaze is directed toward something out of frame. The background is blurred and indistinct, with a faint grid-like pattern visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt is shown in close-up, looking downward with his head slightly tilted. His face is partially illuminated by a cool blue light, and his gaze is directed toward something out of frame. The background is blurred and indistinct, with a faint grid-like pattern visible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

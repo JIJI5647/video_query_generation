@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice, possibly excited or surprised, followed by a woman's voice, with a bell ringing and a crowd cheering in the background.",
+  "temporal_description": "A woman with dark hair is holding a child in a dimly lit bedroom, both seated on a bed. The woman is holding a knife and appears to be interacting with the child, who is facing away from the camera. A lamp on a bedside table casts warm light, illuminating the scene. The room contains a wooden headboard, a glass of water, and various items on the table. Later, the camera pans to a door with the word \"MURDER\" written in red on its surface, framed by a mirror and curtains.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark hair is holding a child in a dimly lit bedroom, both seated on a bed. The woman is holding a knife and appears to be interacting with the child, who is facing away from the camera. A lamp on a bedside table casts warm light, illuminating the scene. The room contains a wooden headboard, a glass of water, and various items on the table. Later, the camera pans to a door with the word \"MURDER\" written in red on its surface, framed by a mirror and curtains.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

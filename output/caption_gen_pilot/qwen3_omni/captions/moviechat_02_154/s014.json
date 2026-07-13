@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking at another man"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime, city street with streetlights and buildings in the background"
+    },
+    "objects": [
+      {
+        "object": "briefcase",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being handed over"
+      }
+    ],
+    "interactions": [
+      "the man in the light-colored suit receives a briefcase from another man"
+    ],
+    "key_actions": [
+      "handing over a briefcase"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit and glasses",
+      "facial_cues": [
+        "wearing glasses",
+        "neutral expression"
+      ],
+      "body_cues": [
+        "standing upright"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "a man says 'thank you' in a calm tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s014\", \"time_range\": [65.0, 70.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light-colored suit and glasses\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and looking at another man\"}], \"scene\": {\"location\": \"street\", \"setting\": \"nighttime, city street with streetlights and buildings in the background\"}, \"objects\": [{\"object\": \"briefcase\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"being handed over\"}], \"inter"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A young boy with blonde hair, wearing a grey shirt, is shown in a close-up. He is leaning over another person, whose hands are visible in the foreground. The boy's face is contorted as he appears to be crying or shouting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A child's voice shouts loudly, followed by a long, sustained electronic tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual\": \"A young boy with blonde hair, wearing a grey shirt, is shown in a close-up. He is leaning over another person, whose hands are visible in the foreground. The boy's face is contorted as he appears to be crying or shouting.\", \"audio\": \"A child's voice shouts loudly, followed by a long, sustained electronic tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

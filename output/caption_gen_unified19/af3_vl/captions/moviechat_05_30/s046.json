@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_description": "Three individuals are standing in a dimly lit, stone-walled corridor with stairs visible in the background. The person on the left gestures forward with their right hand while looking toward the right, the middle person stands facing forward with a neutral posture, and the person on the right faces left with a slight turn of the head. All three are partially illuminated, with the background showing blurred movement of other people passing by.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and fast pace, speaking in a tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals are standing in a dimly lit, stone-walled corridor with stairs visible in the background. The person on the left gestures forward with their right hand while looking toward the right, the middle person stands facing forward with a neutral posture, and the person on the right faces left with a slight turn of the head. All three are partially illuminated, with the background showing blurred movement of other people passing by.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

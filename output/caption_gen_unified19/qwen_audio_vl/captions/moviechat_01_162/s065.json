@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_description": "Two men in light-colored shirts and ties sit side by side in chairs, one wearing a uniform with epaulets. The man on the right turns his head slightly to his left, looking away from the camera. Both are seated upright, with the background showing framed items on a wall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, reverberant indoor environment, likely a small to medium-sized room with hard surfaces such as tile or concrete. A persistent, low-frequency hum—reminiscent of a refrigerator or HVAC system—forms the background, accompanied by a faint, high-frequency hiss typical of consumer-grade recording equipment. The room’s acoustics impart a subtle echo to all sounds, indicating a space with minimal soft furnishings. A single male voice, speaking in clear, standard Mandarin Chinese, enters the scene. His tone is calm, measured, and emotionally neutral, with a slightly gravelly timbre and a mid-to-low pitch. He speaks slowly and deliberately, each word distinctly articulated, and the delivery is marked by a sense of resignation and weariness. The speaker says, “是我” (“It’s me”), followed by a brief pause that underscores the gravity of the moment. He continues, “我叫CIP跟踪的” (“I was followed by CIP”), with the final word “跟踪的” (“followed”) delivered in a lower, more subdued tone, suggesting a sense of defeat or acceptance. The phrase “CIP” is pronounced as a sequence of individual letters, indicating it is an acronym or code rather than a word",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in light-colored shirts and ties sit side by side in chairs, one wearing a uniform with epaulets. The man on the right turns his head slightly to his left, looking away from the camera. Both are seated upright, with the background showing framed items on a wall.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

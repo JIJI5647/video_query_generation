@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone at a moderate pace, with no significant background noise or emotional inflection.",
+  "temporal_description": "In a dimly lit room resembling a medical or forensic examination space, a person lies motionless on a black examination table, their body covered in numerous dark, circular marks and scattered debris. Three individuals are present: one man in a white shirt and tie stands to the left, observing; another man in a dark suit stands near the head of the table, also watching; and a third man in a light-colored shirt and apron stands at the side of the table, interacting with the body. A woman in a dark top and skirt approaches the table, bending over to examine the body closely, her hands moving near the torso. The man in the apron gestures toward the body, then steps back, while the woman continues her inspection. The room contains a cabinet with bottles and containers, and a white curtain hangs near a door in the background. The individuals maintain a focused posture, with their gazes directed toward the body, suggesting a serious, investigative atmosphere.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit room resembling a medical or forensic examination space, a person lies motionless on a black examination table, their body covered in numerous dark, circular marks and scattered debris. Three individuals are present: one man in a white shirt and tie stands to the left, observing; another man in a dark suit stands near the head of the table, also watching; and a third man in a light-colored shirt and apron stands at the side of the table, interacting with the body. A woman in a dar",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

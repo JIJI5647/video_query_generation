@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "Two men stand facing each other across a kitchen counter, one in a gray shirt and black pants, the other in a black shirt and light pants. Both have their hands on the counter, leaning slightly forward with their gazes directed at each other. The kitchen has white appliances, wooden cabinets, and various items on the counter and shelves, including a red cup and a microwave.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand facing each other across a kitchen counter, one in a gray shirt and black pants, the other in a black shirt and light pants. Both have their hands on the counter, leaning slightly forward with their gazes directed at each other. The kitchen has white appliances, wooden cabinets, and various items on the counter and shelves, including a red cup and a microwave.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and speaking"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a dark background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man in the foreground speaks",
+      "the man in the background listens"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "wearing glasses",
+        "looking down"
+      ],
+      "body_cues": [
+        "wearing a dark suit and tie"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "a male voice speaks in a calm, low tone.",
+  "temporal_description": "the man in the foreground speaks throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and glasses\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking down and speaking\"}, {\"person\": \"a man in a dark suit\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"standing and listening\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a dark background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": ["
+}

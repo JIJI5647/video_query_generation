@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "A man with dark, tousled hair, wearing a black jacket over a patterned shirt and a necklace, stands in front of a building, his gaze directed downward. In the background, several people are visible near parked cars under dim streetlights, with a large, illuminated building and wet pavement reflecting the city lights. The scene is nighttime urban, with a sense of stillness and quiet movement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched electronic siren, its tone rapidly oscillating between two pitches in a classic \"wail\" pattern. This siren is loud, clear, and slightly distorted, indicating it is close to the recording device and likely emanates from a police car or similar emergency vehicle. The siren’s sound is accompanied by a subtle, low-frequency rumble, suggesting the vehicle is idling or moving slowly. The environment is acoustically reflective, with short, sharp echoes indicating the presence of nearby buildings or hard surfaces, typical of an urban street or alleyway. The siren’s pitch and volume remain steady, with no Doppler effect, implying the vehicle is stationary or moving very slowly relative to the microphone. At the four-second mark, the siren abruptly ceases, and the soundscape shifts to a quiet, low-level hiss, characteristic of a consumer-grade recording device’s noise floor. In this brief silence, a faint, low-frequency thump is heard, likely caused by the recording device being handled or bumped. Immediately following, a single, sharp, high-pitched electronic beep sounds, lasting about a second. This beep is clean, synthetic, and unmodulated, with a timbre and pitch consistent",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, tousled hair, wearing a black jacket over a patterned shirt and a necklace, stands in front of a building, his gaze directed downward. In the background, several people are visible near parked cars under dim streetlights, with a large, illuminated building and wet pavement reflecting the city lights. The scene is nighttime urban, with a sense of stillness and quiet movement.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

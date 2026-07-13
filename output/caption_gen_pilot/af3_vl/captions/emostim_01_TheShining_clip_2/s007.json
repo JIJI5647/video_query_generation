@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a slow pace, accompanied by a high-pitched buzzing sound.",
+  "temporal_description": "A child, wearing a striped sweater and dark pants, stands facing a closed door, holding a knife in their right hand. They are positioned near a bedside table with a lit lamp, and a person is lying in bed under a patterned blanket, seemingly asleep. The child’s back is mostly to the camera, and they appear to be focused on the door, occasionally shifting their stance slightly. The room is dimly lit, with warm lighting from the lamp casting shadows on the walls and door. The bed is to the left, and a clock is visible on the wall above the bedside table.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child, wearing a striped sweater and dark pants, stands facing a closed door, holding a knife in their right hand. They are positioned near a bedside table with a lit lamp, and a person is lying in bed under a patterned blanket, seemingly asleep. The child’s back is mostly to the camera, and they appear to be focused on the door, occasionally shifting their stance slightly. The room is dimly lit, with warm lighting from the lamp casting shadows on the walls and door. The bed is to the left, an",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

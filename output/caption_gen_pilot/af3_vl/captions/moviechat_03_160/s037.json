@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or non-speech sounds.",
+  "temporal_description": "A man wearing headphones is seated in front of a computer screen, his gaze fixed downward. The scene transitions to a nighttime setting where a black car is parked, its taillights glowing red. A man exits the vehicle, opens the door, and leans inside, appearing to interact with someone seated in the driver’s seat. The man outside then steps back, standing beside the car while looking toward the driver, who remains seated and visible through the windshield. The surroundings are dimly lit, with distant lights and vegetation visible in the background.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man wearing headphones is seated in front of a computer screen, his gaze fixed downward. The scene transitions to a nighttime setting where a black car is parked, its taillights glowing red. A man exits the vehicle, opens the door, and leans inside, appearing to interact with someone seated in the driver’s seat. The man outside then steps back, standing beside the car while looking toward the driver, who remains seated and visible through the windshield. The surroundings are dimly lit, with di",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

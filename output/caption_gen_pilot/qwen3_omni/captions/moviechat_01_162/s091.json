@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s091",
+  "time_range": [
+    450.0,
+    455.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in an office chair, looking down at a small object in his hands, then looking up and to his right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with blinds on the window and a blue filing cabinet in the background"
+    },
+    "objects": [
+      {
+        "object": "a small object in a clear plastic bag",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held in the man's hands"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "sitting",
+      "looking down",
+      "looking up",
+      "holding an object"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and striped tie",
+      "facial_cues": [
+        "neutral expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "sitting upright",
+        "hands holding an object"
+      ],
+      "gaze": "down, then up and to the right"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful musical score plays in the background.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s091\", \"time_range\": [450.0, 455.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light blue shirt and striped tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting in an office chair, looking down at a small object in his hands, then looking up and to his right\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office with blinds on the window and a blue filing cabinet in the background\"}, \"objects\": [{\"object\": \"a small object in a "
+}

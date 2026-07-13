@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, enclosed indoor space, likely a bedroom or living room, with a faint, steady electronic hum and a subtle high-frequency hiss characteristic of a consumer-grade recording device. The environment is acoustically dry, with no reverberation or external noise, suggesting a small, well-furnished room. A single individual, presumed to be an adult male based on the deep, resonant timbre, is present. The first audible event is a slow, deep inhalation through the nose, captured with close microphone placement, followed by a sharp, forceful exhalation through the nose, which is wet and congested, indicating a stuffy or runny nose. This sequence is repeated: another deep nasal inhalation, then a second, equally forceful and congested exhalation. The breathing is labored and deliberate, with no speech, music, or other vocalizations present. The individual’s emotional state is inferred as one of sadness or distress, as the breathing pattern is slow, heavy, and controlled, consistent with someone trying to suppress crying or holding back tears. The recording remains focused on these breathing sounds, with no additional environmental or contextual cues.\n\nAt the conclusion of the second exhalation, the audio is abruptly interrupted by a loud, synthetic electronic tone. This tone is a low-frequency, buzzy, sawtooth-like sound, centered around 110 Hz (A2), with a harsh, grating timbre and prominent upper harmonics. The tone is monophonic, unmodulated, and sustained at a constant volume, with no fade-in or fade-out. It is clearly a digital artifact, likely a buffer underrun or system error, and not part of the intended recording. The tone’s sudden onset and lack of environmental context suggest it is a technical malfunction rather than a deliberate sound effect. The recording ends immediately after the tone, with no further events.\n\nIn summary, the audio captures a solitary adult male in a quiet, private indoor setting, audibly struggling with congested breathing in a manner consistent with suppressed crying or emotional distress. The recording is intimate and unembellished, with no speech or music, and is abruptly terminated by a loud, synthetic electronic tone resulting from a technical error. The clip provides a raw, unfiltered glimpse into a moment of personal sadness, framed by the limitations and artifacts of consumer recording technology.",
+  "temporal_description": "A man in a dark suit and glasses is seated, holding a lit cigarette near his mouth, with smoke rising. Another person, partially visible and out of focus, is positioned in front of him, also holding a cigarette. The scene is dimly lit, with the focus on the man in the foreground, who maintains a steady posture and gazes forward. The background is dark, emphasizing the two individuals and the smoke from their cigarettes.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and glasses is seated, holding a lit cigarette near his mouth, with smoke rising. Another person, partially visible and out of focus, is positioned in front of him, also holding a cigarette. The scene is dimly lit, with the focus on the man in the foreground, who maintains a steady posture and gazes forward. The background is dark, emphasizing the two individuals and the smoke from their cigarettes.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

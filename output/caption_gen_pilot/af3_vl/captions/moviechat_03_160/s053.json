@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "Three men stand in a dimly lit, tiled room, with one in a dark shirt, another in a shiny, patterned jacket, and the third in a gray suit. The man in the suit gestures toward the man in the jacket while the others remain still. The scene shifts to a computer screen displaying a list of phone numbers and scanning options, then to a man wearing headphones focused on a screen. Later, a man is seen using binoculars in a dark setting, with another person partially visible beside him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men stand in a dimly lit, tiled room, with one in a dark shirt, another in a shiny, patterned jacket, and the third in a gray suit. The man in the suit gestures toward the man in the jacket while the others remain still. The scene shifts to a computer screen displaying a list of phone numbers and scanning options, then to a man wearing headphones focused on a screen. Later, a man is seen using binoculars in a dark setting, with another person partially visible beside him.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

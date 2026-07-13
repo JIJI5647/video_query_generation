@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "The man in a brown suit rides a bicycle along a dusty rural road, then dismounts and walks away from the bike. He proceeds down the road, passing a white pickup truck parked beside a metal‑sided building, and heads toward an open doorway.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Ambient outdoor sounds are audible, including faint bicycle and footstep noises.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual\": \"The man in a brown suit rides a bicycle along a dusty rural road, then dismounts and walks away from the bike. He proceeds down the road, passing a white pickup truck parked beside a metal‑sided building, and heads toward an open doorway.\", \"audio\": \"Ambient outdoor sounds are audible, including faint bicycle and footstep noises.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,69 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white hospital gown",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "lying in a hospital bed, looking at the man and then away with a pained expression"
+      },
+      {
+        "person": "a man in a beige jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "leaning over the woman, talking to her and then looking down at her"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with medical equipment and pink walls"
+    },
+    "objects": [
+      {
+        "object": "hospital bed",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "occupied by the woman"
+      },
+      {
+        "object": "medical equipment",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "mounted on the wall"
+      }
+    ],
+    "interactions": [
+      "The man is leaning over the woman in the hospital bed, talking to her."
+    ],
+    "key_actions": [
+      "The man talks to the woman and then looks down at her."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white hospital gown",
+      "facial_cues": [
+        "pained expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "lying in bed"
+      ],
+      "gaze": "looking at the man, then away"
+    }
+  ],
+  "audio_description": "A man is speaking, followed by a woman's groan of pain.",
+  "temporal_description": "The man speaks, then the woman groans in pain.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a white hospital gown\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"lying in a hospital bed, looking at the man and then away with a pained expression\"}, {\"person\": \"a man in a beige jacket\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"leaning over the woman, talking to her and then looking down at her\"}], \"scene\": {\"location\": \"indoor room\", \"settin"
+}

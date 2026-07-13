@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_description": "A man in a light blue shirt and dark tie is seated, looking slightly to his right with a neutral expression. A hand holds a plastic bag containing a damaged ID card with visible text and a photo. The background is blurred, suggesting an indoor setting with vertical blinds or panels.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a lush, cinematic orchestral score, dominated by a slow, descending string motif that evokes a sense of melancholy and grandeur. The music is richly layered, featuring violins, cellos, and a subtle, sustained low brass or synthesized pad, all enveloped in a wide stereo field and enhanced by a spacious, reverberant acoustic environment. This orchestral passage is reminiscent of late 20th-century film scores, particularly those associated with epic fantasy or science fiction, and is designed to establish a mood of solemnity and weight. At the same time, a persistent, low-frequency mechanical hum is present, suggesting the operation of large machinery or an HVAC system, and reinforcing the impression of a vast, industrial or institutional setting. The music is abruptly interrupted by a sharp, metallic click, which is immediately followed by a brief, high-pitched whirring sound. These mechanical noises are highly detailed and close-miked, indicating the operation of a small, precise device such as a camera shutter or a similar mechanism. The mechanical sounds are distinct and isolated, with no accompanying human speech or ambient activity. As the mechanical sequence concludes, the orchestral music is cut off mid-phrase, and a loud, synthetic electronic tone",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt and dark tie is seated, looking slightly to his right with a neutral expression. A hand holds a plastic bag containing a damaged ID card with visible text and a photo. The background is blurred, suggesting an indoor setting with vertical blinds or panels.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

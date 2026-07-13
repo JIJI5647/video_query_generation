@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A woman with shoulder-length brown hair, wearing a dark purple collared shirt, is shown in a close-up shot. She is positioned in front of a window with multiple panes, and a dark piece of furniture is partially visible behind her. Her gaze shifts slightly, and her mouth moves as if speaking, though no audio is present. Later, a man in a dark suit, white shirt, and striped tie appears, standing in front of a green wall with a wooden door frame visible behind him. He remains still, looking forward with a neutral expression, and his gaze remains steady throughout the shot.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair, wearing a dark purple collared shirt, is shown in a close-up shot. She is positioned in front of a window with multiple panes, and a dark piece of furniture is partially visible behind her. Her gaze shifts slightly, and her mouth moves as if speaking, though no audio is present. Later, a man in a dark suit, white shirt, and striped tie appears, standing in front of a green wall with a wooden door frame visible behind him. He remains still, looking forward",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

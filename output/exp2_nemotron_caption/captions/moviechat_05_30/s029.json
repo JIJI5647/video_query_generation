@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_description": "A man wearing chainmail emerges from a hole in a dark wooden floor, his torso and head visible as he pushes himself up and looks forward. A small metal object rests on the planks nearby. The scene is dimly lit, emphasizing the wooden texture and the man's posture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low, muffled voice is audible, accompanied by faint ambient sounds, suggesting a quiet environment.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s029\", \"time_range\": [140.0, 145.0], \"visual\": \"A man wearing chainmail emerges from a hole in a dark wooden floor, his torso and head visible as he pushes himself up and looks forward. A small metal object rests on the planks nearby. The scene is dimly lit, emphasizing the wooden texture and the man's posture.\", \"audio\": \"A low, muffled voice is audible, accompanied by faint ambient sounds, suggesting a quiet environment.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A woman with shoulder-length brown hair and a maroon top is shown in a close-up. She looks slightly upward and to the side, her mouth moving as she speaks, and a small white bandage is visible on her nose. The background is dim and out of focus, showing a muted wall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Her voice is audible and appears to be speaking in a calm, steady manner.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual\": \"A woman with shoulder-length brown hair and a maroon top is shown in a close-up. She looks slightly upward and to the side, her mouth moving as she speaks, and a small white bandage is visible on her nose. The background is dim and out of focus, showing a muted wall.\", \"audio\": \"Her voice is audible and appears to be speaking in a calm, steady manner.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

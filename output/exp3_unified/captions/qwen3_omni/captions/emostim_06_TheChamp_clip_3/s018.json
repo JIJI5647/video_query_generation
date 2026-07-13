@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_description": "A young boy with blonde hair is crying and being held by an adult man. The boy is visibly distressed, with tears on his face, and the man is trying to comfort him. The scene is dimly lit, suggesting an indoor setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The boy is crying and shouting, and the man is trying to calm him down. The audio is clear, capturing the emotional intensity of the moment.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s018\", \"time_range\": [85.0, 90.0], \"visual\": \"A young boy with blonde hair is crying and being held by an adult man. The boy is visibly distressed, with tears on his face, and the man is trying to comfort him. The scene is dimly lit, suggesting an indoor setting.\", \"audio\": \"The boy is crying and shouting, and the man is trying to calm him down. The audio is clear, capturing the emotional intensity of the moment.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

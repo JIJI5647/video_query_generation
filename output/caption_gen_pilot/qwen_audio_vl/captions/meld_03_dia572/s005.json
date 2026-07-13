@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins abruptly with a male voice, close to the microphone and slightly right of center, exclaiming, “I wasn’t looking at—” in a defensive, high-pitched tone. His speech is cut off mid-word, indicating a sudden interruption. Immediately, a female voice, positioned centrally and slightly left, responds with a calm, matter-of-fact statement: “She’s in labor.” Her delivery is steady and emotionally neutral, suggesting she is addressing the situation with composure. The male voice then erupts in a loud, aggressive outburst, his tone rising sharply and his words becoming slurred and distorted due to microphone overload: “You like that, you sick son of a bitch!” This phrase is delivered with intense anger and contempt, and the final word is clipped by the abrupt end of the recording. Throughout, a faint electronic hiss is present, and the audio is marked by digital clipping and distortion during the loudest moments, especially the male’s outburst. The recording is monophonic, with no spatial separation or environmental sounds, and the acoustics suggest a small, hard-surfaced room. The clip ends suddenly, with no fade or resolution.\n\nIn summary, the audio captures a tense, confrontational exchange between a male and a female, likely in a domestic or clinical setting, where the male is accused of inappropriate behavior and reacts with rage. The female’s calm statement about “labor” implies a serious, possibly medical context, and the recording’s technical flaws and abrupt ending heighten the sense of unresolved conflict and emotional intensity.",
+  "temporal_description": "A man in a plaid shirt stands beside a hospital bed, gesturing with his hands while speaking. He is positioned near a woman lying in the bed, who is wearing a hospital gown and holding a brown handbag. Another man in a light jacket stands near a second hospital bed in the background, partially obscured by a curtain. The room has typical hospital furnishings, including beds, curtains, and medical equipment. The woman in the bed looks toward the man speaking, her gaze shifting slightly as he gestures. The man in the plaid shirt leans slightly forward, his hands moving as he talks, while the woman remains seated, her posture relaxed but attentive.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a plaid shirt stands beside a hospital bed, gesturing with his hands while speaking. He is positioned near a woman lying in the bed, who is wearing a hospital gown and holding a brown handbag. Another man in a light jacket stands near a second hospital bed in the background, partially obscured by a curtain. The room has typical hospital furnishings, including beds, curtains, and medical equipment. The woman in the bed looks toward the man speaking, her gaze shifting slightly as he gestu",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_description": "Three individuals are visible in a small boat at night, with one standing at the stern and two seated, all dressed in dark clothing; the boat is illuminated against a dark water surface with distant lights on the horizon. A man in a suit is seen in profile, holding a phone to his ear, with blurred figures and dim lighting in the background suggesting an indoor or semi-indoor setting. The standing person in the boat faces forward, while the seated individuals appear to be looking ahead or slightly downward, with minimal visible gestures or facial expressions.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a high-pitched, fast-paced manner, with a noticeable gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals are visible in a small boat at night, with one standing at the stern and two seated, all dressed in dark clothing; the boat is illuminated against a dark water surface with distant lights on the horizon. A man in a suit is seen in profile, holding a phone to his ear, with blurred figures and dim lighting in the background suggesting an indoor or semi-indoor setting. The standing person in the boat faces forward, while the seated individuals appear to be looking ahead or slightl",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

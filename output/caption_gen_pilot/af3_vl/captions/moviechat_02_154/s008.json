@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow, deliberate pace, conveying a sense of urgency and distress.",
+  "temporal_description": "Two men in dark suits are walking side by side on a dimly lit rooftop at night, one carrying a briefcase. They move steadily forward, their faces partially illuminated by distant lights, with one man’s profile more visible as they pass a metal railing and a pillar. Their postures are upright and purposeful, and their gazes are directed ahead, suggesting a focused, deliberate movement through the quiet, empty space.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in dark suits are walking side by side on a dimly lit rooftop at night, one carrying a briefcase. They move steadily forward, their faces partially illuminated by distant lights, with one man’s profile more visible as they pass a metal railing and a pillar. Their postures are upright and purposeful, and their gazes are directed ahead, suggesting a focused, deliberate movement through the quiet, empty space.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

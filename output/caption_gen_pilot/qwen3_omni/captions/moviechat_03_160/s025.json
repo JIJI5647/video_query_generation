@@ -1,0 +1,84 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting and talking, holding a pen, smiling, gesturing with his hand, and pointing at the other man"
+      },
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting and talking, eating something, and listening to the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, possibly a bar or restaurant, with a chalkboard in the background"
+    },
+    "objects": [
+      {
+        "name": "pen",
+        "position": "left",
+        "action": "held by the man in the blue shirt"
+      },
+      {
+        "name": "chocolate bar",
+        "position": "right",
+        "action": "eaten by the man in the black jacket"
+      }
+    ],
+    "interactions": [
+      "the man in the blue shirt points at the man in the black jacket while talking",
+      "the man in the black jacket eats something and listens to the other man"
+    ],
+    "key_actions": [
+      "talking",
+      "eating",
+      "gesturing",
+      "pointing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue patterned shirt",
+      "facial_cues": [
+        "smiling",
+        "talking"
+      ],
+      "body_cues": [
+        "gesturing with his hand",
+        "pointing"
+      ],
+      "gaze": "towards the man in the black jacket"
+    },
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "talking",
+        "eating"
+      ],
+      "body_cues": [
+        "listening",
+        "eating"
+      ],
+      "gaze": "towards the man in the blue shirt"
+    }
+  ],
+  "audio_description": "a man speaking in a conversational tone",
+  "temporal_description": "the man in the blue shirt speaks and gestures, while the man in the black jacket eats and listens.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s025\", \"time_range\": [120.0, 125.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a blue patterned shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting and talking, holding a pen, smiling, gesturing with his hand, and pointing at the other man\"}, {\"person\": \"a man in a black leather jacket\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"sitting and talking, eating something, and listening to the other man\"}], \"scene\": {\"locat"
+}

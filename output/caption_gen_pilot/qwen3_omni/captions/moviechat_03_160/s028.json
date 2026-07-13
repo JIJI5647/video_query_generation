@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark patterned shirt",
+        "visibility": "clearly visible",
+        "position": "foreground, left",
+        "action": "sitting and talking, holding a pen, gesturing with his right hand"
+      },
+      {
+        "person": "a man in a black shirt and leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground, right",
+        "action": "sitting and listening, looking at the other man"
+      },
+      {
+        "person": "a person in the background",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting and smoking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, cluttered room with a chalkboard and a filing cabinet"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark patterned shirt",
+      "facial_cues": [
+        "smiling",
+        "talking"
+      ],
+      "body_cues": [
+        "gesturing with right hand"
+      ],
+      "gaze": "looking at the man in the black shirt"
+    }
+  ],
+  "audio_description": "A man is speaking in a conversational tone.",
+  "temporal_description": "The man on the left speaks and gestures throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s028\", \"time_range\": [135.0, 140.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark patterned shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground, left\", \"action\": \"sitting and talking, holding a pen, gesturing with his right hand\"}, {\"person\": \"a man in a black shirt and leather jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground, right\", \"action\": \"sitting and listening, looking at the other man\"}, {\"person\": \"a person in the background\""
+}

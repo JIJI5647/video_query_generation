@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s072",
+  "time_range": [
+    355.0,
+    360.0
+  ],
+  "visual_description": "A young man with round glasses and a brown jacket stands in a dimly lit room filled with shelves of bottles and equipment, looking forward with a neutral expression. He then turns and walks away, revealing the back of his greenish shirt as he moves deeper into the shadowy space.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet, with only faint ambient noise and no clear speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s072\", \"time_range\": [355.0, 360.0], \"visual\": \"A young man with round glasses and a brown jacket stands in a dimly lit room filled with shelves of bottles and equipment, looking forward with a neutral expression. He then turns and walks away, revealing the back of his greenish shirt as he moves deeper into the shadowy space.\", \"audio\": \"The audio is quiet, with only faint ambient noise and no clear speech.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "A young boy in a red and brown striped sweater and plaid shirt stands in a dim bedroom holding a large knife in his right hand while his left hand rests on a white door marked with the word 'REDRUM'. He turns away from the door and walks toward a bedside table illuminated by a lamp, where a person is sleeping under a blanket.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s013\", \"time_range\": [60, 65], \"visual\": \"A young boy in a red and brown striped sweater and plaid shirt stands in a dim bedroom holding a large knife in his right hand while his left hand rests on a white door marked with the word 'REDRUM'. He turns away from the door and walks toward a bedside table illuminated by a lamp, where a person is sleeping under a blanket.\", \"audio\": \"The audio is not audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

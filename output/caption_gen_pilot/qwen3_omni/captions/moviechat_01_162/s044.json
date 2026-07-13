@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "speaking with a distressed expression, looking at another man"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "listening intently, with his hand on the other man's neck"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit, nighttime setting"
+    },
+    "objects": [],
+    "interactions": [
+      "The man in the black shirt has his hand on the neck of the man in the black leather jacket."
+    ],
+    "key_actions": [
+      "The man in the black leather jacket is speaking with a distressed expression."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "sweating",
+        "wide eyes",
+        "distressed expression"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "A man is speaking in a strained, urgent voice.",
+  "temporal_description": "The man's expression and speech remain consistently distressed throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s044\", \"time_range\": [215.0, 220.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black leather jacket\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"speaking with a distressed expression, looking at another man\"}, {\"person\": \"a man in a black shirt\", \"visibility\": \"partially visible\", \"position\": \"left\", \"action\": \"listening intently, with his hand on the other man's neck\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"dimly lit, nighttime se"
+}

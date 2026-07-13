@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning back in a car seat, sweating, and speaking"
+      },
+      {
+        "person": "another person",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "partially visible, facing the man in the black shirt"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit, possibly at night or in a dark garage"
+    },
+    "objects": [],
+    "interactions": [
+      "the man in the black shirt is being held by the other person"
+    ],
+    "key_actions": [
+      "the man in the black shirt is sweating and speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "sweating",
+        "mouth open",
+        "eyes open"
+      ],
+      "body_cues": [
+        "leaning back in a car seat"
+      ],
+      "gaze": "looking at the other person"
+    }
+  ],
+  "audio_description": "A person is breathing heavily, followed by a male voice speaking in Chinese.",
+  "temporal_description": "The man in the black shirt is breathing heavily and then speaks.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s048\", \"time_range\": [235.0, 240.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"leaning back in a car seat, sweating, and speaking\"}, {\"person\": \"another person\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"partially visible, facing the man in the black shirt\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"dimly lit, possibly at night or in a dark garage\"}"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_description": "A hand, heavily wrapped in gauze and stained with blood, grips a white object tightly. A close-up of a person’s face shows their eyes and nose, with wet skin and dark hair partially obscuring the view. The person’s gaze is directed downward, and their posture suggests they are seated or restrained.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single female voice singing a sustained, high-pitched note in a style reminiscent of Gregorian chant or sacred polyphony. The vocalization is marked by a slow, legato delivery, a pronounced vibrato, and a reverberant, ethereal quality, suggesting the recording took place in a large, acoustically reflective space such as a cathedral or church. The singer’s pronunciation is non-native, with a marked “r” sound and a rolled “l,” indicating a Romance language background, likely Italian or Spanish. The melody is simple and unadorned, with no accompaniment or additional voices, and the performance is emotionally neutral, focused on the purity of the vocal line. The recording is of moderate fidelity, with a persistent low-level hiss and a faint hum, and the frequency range is limited, resulting in a muffled, midrange-heavy sound. The reverberation is long and natural, further emphasizing the grandeur of the setting. At the conclusion of the vocal phrase, the singer abruptly stops, and a sharp, metallic click is heard, likely from a mechanical device such as a tape recorder’s stop button. Immediately following this, a loud, harsh electronic buzz erupts, characterized by a low fundamental frequency",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A hand, heavily wrapped in gauze and stained with blood, grips a white object tightly. A close-up of a person’s face shows their eyes and nose, with wet skin and dark hair partially obscuring the view. The person’s gaze is directed downward, and their posture suggests they are seated or restrained.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

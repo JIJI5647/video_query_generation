@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice, speaking neutrally and at a moderate pace, reacts to a spill and suggests moving upstairs to avoid stains, with a brief pause between his statements.",
+  "temporal_description": "Three individuals are seated on a brown couch in a cozy, dimly lit room. The person on the left, wearing a blue top and jeans, is holding a plate with food and appears to be eating or gesturing with it. The person in the center, dressed in a beige turtleneck, is leaning forward, gesturing with their hands while speaking. The person on the right, wearing a red top, sits with their hands clasped, occasionally gesturing as well. The background includes furniture and decorations, suggesting a casual, indoor setting. The person in blue leans back and then forward, wiping their hands with a napkin, while the others remain seated and engaged in conversation.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals are seated on a brown couch in a cozy, dimly lit room. The person on the left, wearing a blue top and jeans, is holding a plate with food and appears to be eating or gesturing with it. The person in the center, dressed in a beige turtleneck, is leaning forward, gesturing with their hands while speaking. The person on the right, wearing a red top, sits with their hands clasped, occasionally gesturing as well. The background includes furniture and decorations, suggesting a casual",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

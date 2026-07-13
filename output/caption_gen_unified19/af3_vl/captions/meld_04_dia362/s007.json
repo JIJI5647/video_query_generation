@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A woman with shoulder-length brown hair lies in a hospital bed, partially covered by a pink blanket, while a man in a white lab coat leans over her, gesturing with his right hand. Another woman with long blonde hair, also in a white lab coat, stands beside the bed, looking down at the woman in the bed. Medical equipment and supplies are visible in the background, including IV bags and a wall-mounted clock.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone with moderate pitch and volume, accompanied by a brief pause before continuing.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair lies in a hospital bed, partially covered by a pink blanket, while a man in a white lab coat leans over her, gesturing with his right hand. Another woman with long blonde hair, also in a white lab coat, stands beside the bed, looking down at the woman in the bed. Medical equipment and supplies are visible in the background, including IV bags and a wall-mounted clock.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "leaning forward and looking down"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "operating a large camera"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, possibly a studio or office"
+    },
+    "objects": [
+      {
+        "object": "a large camera",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being operated by the man in the light-colored shirt"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the light-colored shirt operates the camera",
+      "the man in the dark suit leans forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "a loud, rhythmic electronic beat with a strong bassline plays throughout the clip.",
+  "temporal_description": "the music is continuous and consistent in volume and tempo.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s071\", \"time_range\": [350.0, 355.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"leaning forward and looking down\"}, {\"person\": \"a man in a light-colored shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"operating a large camera\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, possibly a studio or office\"}, \"objects\": [{\"object\": \"a large camera\", \"visibil"
+}

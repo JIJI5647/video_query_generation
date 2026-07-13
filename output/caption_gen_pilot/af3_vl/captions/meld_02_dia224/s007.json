@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A female voice, speaking neutrally and at a moderate pace, asks 'Here. What's this?' in a quiet setting with no background noise.",
+  "temporal_description": "A woman with long dark hair, wearing a white button-up shirt and blue jeans, enters a room carrying two black bags. She walks toward a man seated on a couch, who is wearing a blue shirt and light-colored pants, and appears to be reading a book. The man rests his head on his hand, looking up at the woman as she stands beside him. The room has purple walls, a floral curtain, a wooden side table with a framed picture, and a potted plant. The woman gestures with her hand while holding the bags, and the man remains seated, occasionally shifting his gaze.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with long dark hair, wearing a white button-up shirt and blue jeans, enters a room carrying two black bags. She walks toward a man seated on a couch, who is wearing a blue shirt and light-colored pants, and appears to be reading a book. The man rests his head on his hand, looking up at the woman as she stands beside him. The room has purple walls, a floral curtain, a wooden side table with a framed picture, and a potted plant. The woman gestures with her hand while holding the bags, and ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

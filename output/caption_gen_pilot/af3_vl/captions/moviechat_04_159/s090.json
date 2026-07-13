@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation.",
+  "temporal_description": "Two men are seated inside a car at night, with the driver on the left and the passenger on the right, both dressed in dark clothing. The driver appears to be focused on the road, while the passenger looks forward with a neutral expression. The scene transitions to a man in a suit holding a water bottle in a dimly lit room with multiple computer monitors and framed photographs on the wall. He stands still, looking down at the bottle, then slowly raises his head. Another man is visible in the background, seated at a desk with headphones on, focused on a computer screen.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a car at night, with the driver on the left and the passenger on the right, both dressed in dark clothing. The driver appears to be focused on the road, while the passenger looks forward with a neutral expression. The scene transitions to a man in a suit holding a water bottle in a dimly lit room with multiple computer monitors and framed photographs on the wall. He stands still, looking down at the bottle, then slowly raises his head. Another man is visible in the back",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

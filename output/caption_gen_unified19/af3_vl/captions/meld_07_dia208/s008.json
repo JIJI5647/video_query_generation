@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A woman with dark hair in a ponytail, wearing a striped sweater, sits on a couch facing right, gesturing with her right hand while holding a mug in her left. A man in a red plaid shirt sits across from her, leaning forward with his hands on the table, looking at her. The background shows a warmly lit, decorated room with other people seated and standing, some partially obscured, and festive holiday decorations including red bows and string lights.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate speed.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark hair in a ponytail, wearing a striped sweater, sits on a couch facing right, gesturing with her right hand while holding a mug in her left. A man in a red plaid shirt sits across from her, leaning forward with his hands on the table, looking at her. The background shows a warmly lit, decorated room with other people seated and standing, some partially obscured, and festive holiday decorations including red bows and string lights.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

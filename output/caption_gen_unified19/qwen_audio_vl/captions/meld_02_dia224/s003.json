@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a purple polo shirt sits on an orange couch, gesturing with his hands as he speaks to two other men seated beside him. The man to his left, wearing a red shirt, faces him, while the man to his right, in a blue shirt, turns his head toward the speaker. All three are seated closely on the couch, with the background showing a dimly lit, crowded room with other people and furniture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a lively, reverberant indoor setting, likely a bar or casual social venue, where a low-level murmur of indistinct conversations and occasional laughter creates a bustling atmosphere. A male voice, positioned close to the microphone, initiates the exchange with a friendly, slightly playful tone, saying, “Hey, Jake.” The name is delivered with a rising inflection, suggesting a familiar and informal relationship. Immediately following, the same speaker, maintaining a conversational cadence, asks, “Uh, do you like the Knicks?” The question is posed in a casual, inquisitive manner, with a subtle upward inflection at the end, indicating genuine curiosity. The word “Knicks” is pronounced with a clear, non-rhotic “-icks” ending, hinting at a New York accent or a speaker familiar with the city’s cultural context. Jake, the recipient of the question, responds with a brief, energetic affirmation: “Yeah, big f—” His reply is cut off mid-word, likely by a sudden edit or interruption, leaving the statement incomplete. The tone is enthusiastic and informal, consistent with a fan’s response. The speaker then repeats the question, “Hey, Jake. Uh, do you like the Knicks",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a purple polo shirt sits on an orange couch, gesturing with his hands as he speaks to two other men seated beside him. The man to his left, wearing a red shirt, faces him, while the man to his right, in a blue shirt, turns his head toward the speaker. All three are seated closely on the couch, with the background showing a dimly lit, crowded room with other people and furniture.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

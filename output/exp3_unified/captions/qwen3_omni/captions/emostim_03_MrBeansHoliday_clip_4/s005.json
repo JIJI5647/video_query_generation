@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man in a brown suit and red tie is riding a bicycle on a paved road. He is holding onto the side of a white car that is driving alongside him. The background consists of a rural landscape with fields and a clear blue sky.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sound of a car engine and road noise can be heard, along with a person speaking in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A man in a brown suit and red tie is riding a bicycle on a paved road. He is holding onto the side of a white car that is driving alongside him. The background consists of a rural landscape with fields and a clear blue sky.\", \"audio\": \"The sound of a car engine and road noise can be heard, along with a person speaking in the background.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

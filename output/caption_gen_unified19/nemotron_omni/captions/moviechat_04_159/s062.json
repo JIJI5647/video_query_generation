@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_description": "The man in a light blue shirt sits at a desk with a laptop showing a blue screen. He adjusts a black antenna attached to a piece of equipment before placing large over‑ear headphones on his head and focusing on the display.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The ambient sounds of a technical workspace are audible, with faint electronic hums and the rustle of the antenna being handled.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s062\", \"time_range\": [305.0, 310.0], \"visual\": \"The man in a light blue shirt sits at a desk with a laptop showing a blue screen. He adjusts a black antenna attached to a piece of equipment before placing large over‑ear headphones on his head and focusing on the display.\", \"audio\": \"The ambient sounds of a technical workspace are audible, with faint electronic hums and the rustle of the antenna being handled.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

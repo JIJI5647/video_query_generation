@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A young child with short blonde hair and a grey shirt is shown in close-up, his face wet with tears and his eyes tightly shut as he cries. His hands rest on a fleshy surface, and his mouth is open in a wail.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures the child's sobbing and crying, with audible breaths and whimpering.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual\": \"A young child with short blonde hair and a grey shirt is shown in close-up, his face wet with tears and his eyes tightly shut as he cries. His hands rest on a fleshy surface, and his mouth is open in a wail.\", \"audio\": \"The audio captures the child's sobbing and crying, with audible breaths and whimpering.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

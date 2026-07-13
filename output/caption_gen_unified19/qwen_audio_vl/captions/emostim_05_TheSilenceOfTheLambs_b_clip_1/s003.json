@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a dark suit and white shirt, wearing round-rimmed glasses, is seated and looking downward with his right hand partially obscuring his face. Another person’s bald head is visible in the foreground, slightly out of focus, suggesting they are seated in front of or beside the man. The background is a plain green wall, and the lighting is dim, casting shadows on the man’s face and clothing.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-frequency rustling sound, immediately establishing a close-miked, intimate setting. This initial noise is crisp and dry, resembling the manipulation of a stiff, synthetic fabric such as nylon or polyester, likely a jacket or bag. The sound is highly detailed, with a broad frequency range and no background noise, indicating a controlled, quiet environment. The rustling is dynamic, with rapid, irregular movements that suggest the object is being handled or adjusted by hand. The sound source is positioned slightly left of center in the stereo field, and the absence of reverberation or ambient cues points to a small, acoustically dampened space, such as a bedroom or studio. As the rustling continues, it becomes more complex, with overlapping layers of friction and crinkling, indicating the object is being turned, folded, or repositioned. The sound remains dry and close, with no evidence of other people or environmental sounds. The manipulation is deliberate and methodical, with no signs of haste or urgency. The stereo image remains stable, and the sound source does not move significantly. Abruptly, the rustling ceases, and a single, sustained electronic tone emerges. This tone is low-pitched, around 110",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and white shirt, wearing round-rimmed glasses, is seated and looking downward with his right hand partially obscuring his face. Another person’s bald head is visible in the foreground, slightly out of focus, suggesting they are seated in front of or beside the man. The background is a plain green wall, and the lighting is dim, casting shadows on the man’s face and clothing.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

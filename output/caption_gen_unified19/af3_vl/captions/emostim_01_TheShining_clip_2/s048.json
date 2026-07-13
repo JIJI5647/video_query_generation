@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_description": "A man in a dark jacket stands in a dimly lit room, wielding an axe and swinging it toward a door. A woman with dark hair, wearing a blue jacket over a turtleneck, peeks from behind a partially open door, holding a small object in her hands. The scene is indoors, with warm lighting and visible furniture, including a lamp and a framed picture on the wall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a moderate pace, accompanied by a gasp and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark jacket stands in a dimly lit room, wielding an axe and swinging it toward a door. A woman with dark hair, wearing a blue jacket over a turtleneck, peeks from behind a partially open door, holding a small object in her hands. The scene is indoors, with warm lighting and visible furniture, including a lamp and a framed picture on the wall.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

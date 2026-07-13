@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a deep, resonant, and rhythmic snoring sound, characterized by a cyclical pattern of inhalation and exhalation. The snore is low-pitched, guttural, and slightly wet, with a pronounced, throaty quality that suggests the presence of mucus or partial airway obstruction. The breathing is slow and regular, with each cycle lasting approximately 2.5 to 3 seconds, and the sound is captured in close proximity, resulting in a dry, intimate acoustic profile. The recording is monophonic, with no stereo separation, and the snoring dominates the soundscape, accompanied only by a faint, steady electronic hiss from the recording device. There are no other environmental noises, speech, or music present, and the setting is inferred to be a quiet, private indoor space, likely a bedroom.\n\nAt the 4.5-second mark, the snoring is abruptly interrupted by a sharp, high-pitched electronic beep. This beep is synthetic, with a pure, unmodulated tone and a brief, clean attack and decay, lasting about 0.2 seconds. The beep is significantly louder than the preceding snoring and is immediately followed by a short, high-frequency click, likely the result of a button press or device interaction. The beep and click are both centered in the mono field and are acoustically dry, with no reverberation or environmental coloration. After the beep, the recording ends abruptly, with no fade-out or residual sound.\n\nThroughout the clip, the audio quality is moderate, with a clear signal-to-noise ratio and no distortion or clipping. The snoring is captured with clarity, and the electronic beep is distinct and uncolored by the environment. The absence of speech, music, or other ambient sounds, combined with the close-mic technique and lack of room reflections, suggests a deliberate, controlled recording setup. The sudden, artificial interruption by the beep and click indicates the use of a digital device—most likely a smartphone or portable recorder—operated by the person recording, possibly to mark the end of the session or to signal a transition.\n\nIn summary, the audio presents a focused, intimate recording of a single individual’s deep, rhythmic snoring in a quiet, private indoor setting, interrupted by a brief, synthetic electronic beep and click from a digital device. The clip is devoid of speech, music, or environmental context, and its technical and acoustic features point to a purposeful, close-mic recording, likely for personal documentation or analysis.",
+  "temporal_description": "A person is seen in a dimly lit room, their upper body and arm visible as they lean against a wall or door frame. Their skin is glistening with moisture, possibly from sweat or water. The camera slowly pans to reveal a window with raindrops on the glass, and another person appears in the background, standing near the window, partially obscured by shadows. The second person is wearing a hooded jacket and appears to be holding something in their hand, occasionally shifting their position slightly. Both individuals remain mostly still throughout the clip, with minimal movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person is seen in a dimly lit room, their upper body and arm visible as they lean against a wall or door frame. Their skin is glistening with moisture, possibly from sweat or water. The camera slowly pans to reveal a window with raindrops on the glass, and another person appears in the background, standing near the window, partially obscured by shadows. The second person is wearing a hooded jacket and appears to be holding something in their hand, occasionally shifting their position slightly.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

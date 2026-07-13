@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "Two figures are seen in a dimly lit, cavernous space with dark, sculpted rock formations surrounding them. They are embracing closely, with one person’s head tilted slightly toward the other’s, their faces nearly touching. The scene is shadowy, with minimal lighting highlighting only their upper bodies and the immediate surroundings.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a deep, resonant, and sustained low-frequency drone, reminiscent of a large, hollow metallic object vibrating or a massive industrial machine idling. This drone is enveloped in a cavernous, reverberant acoustic space, suggesting a vast, empty, and hard-surfaced environment such as a warehouse, tunnel, or industrial hall. The drone is accompanied by a faint, high-frequency hiss, likely from the recording equipment or the environment itself, and is presented in a wide stereo field, with the drone centered and the hiss subtly spread across both channels. The overall sound is immersive and ominous, evoking a sense of anticipation and latent power. Abruptly, the drone is interrupted by a sharp, metallic impact—a high-pitched, ringing clang with a brief, bright decay. This sound is spatially centered and immediately followed by a rapid, cascading sequence of smaller metallic clinks and rattles, suggesting the dislodging or scattering of loose metal objects. The reverberation of these impacts is pronounced, reinforcing the impression of a large, empty, and reflective space. The metallic sounds are percussive and chaotic, conveying a sense of sudden, forceful action. Following this, a new, lower-pitched metallic resonance",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two figures are seen in a dimly lit, cavernous space with dark, sculpted rock formations surrounding them. They are embracing closely, with one person’s head tilted slightly toward the other’s, their faces nearly touching. The scene is shadowy, with minimal lighting highlighting only their upper bodies and the immediate surroundings.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

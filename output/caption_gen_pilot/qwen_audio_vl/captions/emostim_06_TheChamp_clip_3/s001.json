@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip is a 5-second, high-fidelity recording set in a quiet, acoustically neutral indoor environment. The first four seconds are dominated by a persistent, low-frequency hum, likely from a household appliance such as a refrigerator or HVAC system. This hum is steady and unobtrusive, with no fluctuations or additional background noises, indicating a controlled and isolated recording space.\n\nAt the 4-second mark, a single, sharp, high-pitched metallic click is heard. The sound is extremely brief, with a rapid attack and decay, and is acoustically dry—lacking any reverberation or echo. Its tonal quality and lack of resonance suggest it is produced by a small, hard object, such as a metal key or a similar item, striking a hard surface like a countertop or table. The sound is isolated and precise, with no accompanying noises, further supporting the conclusion that it was deliberately performed.\n\nImmediately after the click, the recording is abruptly cut off, with no trailing sound or fade, indicating a hard digital edit. There is no speech, music, or other environmental cues present, and the overall impression is one of a focused, intentional sound effect capture.\n\nCulturally, the recording is neutral and generic, with no regional or linguistic markers. The most plausible interpretation is that this is a sound effect recording, likely for use in media production, designed to capture a single, clean metallic impact in a controlled setting. The absence of context or narrative elements supports this, as does the technical quality and editing style.",
+  "temporal_description": "A shirtless man lies on a table, wearing boxing gloves, with his head tilted back. An older man in a suit stands beside him, holding a hat, while another man leans over the table, appearing to attend to the man on it. In the background, other individuals are visible, some seated and others standing, in a dimly lit, industrial-looking room with exposed pipes and a single overhead light. The man on the table remains motionless, and the man leaning over appears to be adjusting or examining something near his head.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A shirtless man lies on a table, wearing boxing gloves, with his head tilted back. An older man in a suit stands beside him, holding a hat, while another man leans over the table, appearing to attend to the man on it. In the background, other individuals are visible, some seated and others standing, in a dimly lit, industrial-looking room with exposed pipes and a single overhead light. The man on the table remains motionless, and the man leaning over appears to be adjusting or examining somethin",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

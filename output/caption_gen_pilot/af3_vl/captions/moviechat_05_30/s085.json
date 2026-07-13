@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and no significant background noise.",
+  "temporal_description": "Three individuals stand in a dimly lit, cluttered room filled with various metallic and glass objects. The central figure, with pale hair, holds a wand pointed forward, flanked by two others also holding wands in similar positions. The person on the left wears a dark outfit with a visible ring, while the one on the right is partially obscured. All three maintain a rigid posture, facing forward with focused gazes. Later, a fourth person, wearing a brown jacket, appears in the same room, standing still and facing the group.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals stand in a dimly lit, cluttered room filled with various metallic and glass objects. The central figure, with pale hair, holds a wand pointed forward, flanked by two others also holding wands in similar positions. The person on the left wears a dark outfit with a visible ring, while the one on the right is partially obscured. All three maintain a rigid posture, facing forward with focused gazes. Later, a fourth person, wearing a brown jacket, appears in the same room, standing ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

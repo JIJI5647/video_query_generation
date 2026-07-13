@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a slow speaking rate. The voice sounds slightly strained and emotional, with a noticeable pause between phrases. There are no other non-speech sounds present in the clip.",
+  "temporal_description": "A man with shoulder-length hair, wearing a dark red jacket over a plaid shirt and dark pants, stands in a narrow hallway. He holds a small object in his right hand and looks toward the camera, occasionally shifting his gaze slightly. The hallway has floral wallpaper, a round mirror on the left wall, and a partially open door at the far end. A light fixture hangs from the ceiling, illuminating the space. The man’s posture is upright, and he remains mostly stationary throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length hair, wearing a dark red jacket over a plaid shirt and dark pants, stands in a narrow hallway. He holds a small object in his right hand and looks toward the camera, occasionally shifting his gaze slightly. The hallway has floral wallpaper, a round mirror on the left wall, and a partially open door at the far end. A light fixture hangs from the ceiling, illuminating the space. The man’s posture is upright, and he remains mostly stationary throughout the clip.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

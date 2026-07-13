@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a woman screaming, followed by a man speaking, with a noticeable pause between their speech.",
+  "temporal_description": "A person with shoulder-length hair, wearing a dark red shirt and blue jeans, stands in a dimly lit bedroom holding a large axe. They are positioned near a closed door, swinging the axe in a circular motion before bringing it down forcefully against the door. The room contains a bed with a lamp on a nightstand, a bookshelf, and a round wall decoration. The person’s posture is upright and focused on the task, with their gaze fixed on the door as they repeatedly strike it with the axe.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with shoulder-length hair, wearing a dark red shirt and blue jeans, stands in a dimly lit bedroom holding a large axe. They are positioned near a closed door, swinging the axe in a circular motion before bringing it down forcefully against the door. The room contains a bed with a lamp on a nightstand, a bookshelf, and a round wall decoration. The person’s posture is upright and focused on the task, with their gaze fixed on the door as they repeatedly strike it with the axe.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

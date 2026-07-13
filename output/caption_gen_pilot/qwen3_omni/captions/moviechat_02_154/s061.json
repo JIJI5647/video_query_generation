@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a grey suit and light-colored turtleneck",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing with arms outstretched, then bringing a water bottle to his mouth to drink"
+      },
+      {
+        "person": "a man with blonde hair and glasses in a patterned shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and smoking a cigarette"
+      },
+      {
+        "person": "a man in a dark patterned shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and facing the man in the suit"
+      }
+    ],
+    "scene": {
+      "location": "alley",
+      "setting": "dimly lit at night, with a red and white striped awning overhead and a glowing red sign in the background"
+    },
+    "objects": [
+      {
+        "object": "a clear plastic water bottle",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "held by the man in the suit"
+      }
+    ],
+    "interactions": [
+      "the man in the suit gestures with his arms outstretched towards the other two men",
+      "the man in the suit drinks from the water bottle"
+    ],
+    "key_actions": [
+      "the man in the suit gestures and drinks water",
+      "the other two men stand and watch him"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a grey suit and light-colored turtleneck",
+      "facial_cues": [
+        "smiling",
+        "eyes looking forward"
+      ],
+      "body_cues": [
+        "arms outstretched",
+        "drinking from a bottle"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, high-pitched, and repetitive electronic melody plays in the background.",
+  "temporal_description": "The electronic music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s061\", \"time_range\": [300.0, 305.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a grey suit and light-colored turtleneck\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing with arms outstretched, then bringing a water bottle to his mouth to drink\"}, {\"person\": \"a man with blonde hair and glasses in a patterned shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and smoking a cigarette\"}, {\"person\": \"a man in a dark"
+}

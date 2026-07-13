@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "Two men are facing each other in a room; one wears a pink plaid shirt and the other a blue plaid shirt, with the latter’s back mostly to the camera. The man in the pink shirt gestures with his hands while speaking, his gaze directed at the other man. A framed picture and wall-mounted lamp are visible in the background, and credits text overlays appear on screen.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a clear, neutral tone and moderate pace, delivering a straightforward message without any notable inflection or background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are facing each other in a room; one wears a pink plaid shirt and the other a blue plaid shirt, with the latter’s back mostly to the camera. The man in the pink shirt gestures with his hands while speaking, his gaze directed at the other man. A framed picture and wall-mounted lamp are visible in the background, and credits text overlays appear on screen.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

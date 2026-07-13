@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A man in a dark suit rides a bicycle down a dirt road in a rural area. He suddenly dismounts and runs away from the bike, which falls to the ground. He continues running down the road, away from the camera.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Upbeat, rhythmic music with a strong beat and male vocals plays in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual\": \"A man in a dark suit rides a bicycle down a dirt road in a rural area. He suddenly dismounts and runs away from the bike, which falls to the ground. He continues running down the road, away from the camera.\", \"audio\": \"Upbeat, rhythmic music with a strong beat and male vocals plays in the background.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

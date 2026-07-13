@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_description": "A man in a dark suit stands beside a parked car at night, holding a device to his mouth as if speaking. He looks down and appears focused on the device. In the background, a figure in light clothing is faintly visible near some tall grass.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible. No distinct sounds are evident.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s095\", \"time_range\": [470.0, 475.0], \"visual\": \"A man in a dark suit stands beside a parked car at night, holding a device to his mouth as if speaking. He looks down and appears focused on the device. In the background, a figure in light clothing is faintly visible near some tall grass.\", \"audio\": \"The audio is not clearly audible. No distinct sounds are evident.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

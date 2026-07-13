@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and speaking, then pointing at a map on a board"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a large map on a board, possibly a briefing room or office"
+    },
+    "objects": [
+      {
+        "object": "a large map on a board",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "being pointed at by the man"
+      }
+    ],
+    "interactions": [
+      "the man in the suit points at the map on the board"
+    ],
+    "key_actions": [
+      "the man in the suit speaks and points at the map"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "mouth moving",
+        "eyes focused"
+      ],
+      "body_cues": [
+        "pointing with his right hand"
+      ],
+      "gaze": "towards the map on the board"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a clear, narrative tone.",
+  "temporal_description": "The man speaks and then points at the map.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s036\", \"time_range\": [175.0, 180.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and tie\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing and speaking, then pointing at a map on a board\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with a large map on a board, possibly a briefing room or office\"}, \"objects\": [{\"object\": \"a large map on a board\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"be"
+}

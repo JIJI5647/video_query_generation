@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_description": "A person with dark hair and a beard, wearing a dark shirt, is seen in close-up with a lamp visible in the background. A second person, wearing a blue jacket and a turtleneck, is seen holding a phone to their ear while looking upward and gesturing with their free hand. The scene appears to be indoors with a doorway and a wall visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, resonant male voice, heavily processed with reverb and echo, delivering the phrase, “Here’s Johnny!” in a slow, deliberate, and theatrical manner. The voice is deep and gravelly, reminiscent of a classic horror or thriller film introduction, and is accompanied by a faint, high-frequency hiss and a low-frequency hum, suggesting a vintage or intentionally aged recording. The phrase is presented in a manner that evokes suspense and anticipation, with the echo creating a sense of vast, empty space. Immediately following the spoken introduction, a sudden, high-pitched scream erupts, characterized by a sharp, piercing timbre and a rapid, descending pitch. This scream is heavily distorted, with digital clipping and crackling artifacts, and is layered with a dense, reverberant echo that amplifies its intensity. The scream is so loud and abrupt that it overwhelms the preceding voice, creating a jarring and alarming effect. The scream is not a single utterance but a sequence of overlapping, vocalizations, each with a descending pitch and a sense of escalating terror. The reverberation and echo suggest a large, cavernous environment, such as a hall or industrial space, and the distortion further heightens the sense of chaos",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair and a beard, wearing a dark shirt, is seen in close-up with a lamp visible in the background. A second person, wearing a blue jacket and a turtleneck, is seen holding a phone to their ear while looking upward and gesturing with their free hand. The scene appears to be indoors with a doorway and a wall visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

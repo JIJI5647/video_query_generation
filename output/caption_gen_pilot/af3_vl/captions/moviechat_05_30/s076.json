@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s076",
+  "time_range": [
+    375.0,
+    380.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by a subtle background hum.",
+  "temporal_description": "The video opens with a dimly lit, cluttered room filled with various objects, including a table covered in a patterned cloth holding a spherical device, ropes, and other items. The background is densely packed with furniture and equipment, creating a chaotic and shadowy atmosphere. Later, a close-up of a person wearing round glasses and a dark jacket appears, their face partially illuminated, with their gaze directed forward. The person remains still, with no discernible movement or gesture, maintaining a steady posture throughout the frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video opens with a dimly lit, cluttered room filled with various objects, including a table covered in a patterned cloth holding a spherical device, ropes, and other items. The background is densely packed with furniture and equipment, creating a chaotic and shadowy atmosphere. Later, a close-up of a person wearing round glasses and a dark jacket appears, their face partially illuminated, with their gaze directed forward. The person remains still, with no discernible movement or gesture, mai",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

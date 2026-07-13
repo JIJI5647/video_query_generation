@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s072",
+  "time_range": [
+    355.0,
+    360.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a floral shirt and light-colored jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking while talking on a phone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with greenish lighting, possibly a warehouse or industrial space"
+    },
+    "objects": [
+      {
+        "object": "a black briefcase",
+        "visibility": "clearly visible",
+        "position": "on a table",
+        "action": "being placed and closed by a man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man walks and talks on a phone",
+      "a man in a suit places a briefcase on a table and closes it"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a floral shirt and light-colored jacket",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "holding a phone to his ear"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud, distorted electronic sound, like a siren or alarm, is heard.",
+  "temporal_description": "The audio starts with a loud, distorted electronic sound that fades out.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s072\", \"time_range\": [355.0, 360.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a floral shirt and light-colored jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"walking while talking on a phone\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with greenish lighting, possibly a warehouse or industrial space\"}, \"objects\": [{\"object\": \"a black briefcase\", \"visibility\": \"clearly visible\", \"position\": \"on a table\", \"action\": \"bei"
+}

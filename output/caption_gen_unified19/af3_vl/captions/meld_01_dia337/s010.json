@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "Two men stand facing each other in a warmly lit indoor room; one wears a pink plaid shirt and gestures with his hands, while the other, in a blue plaid shirt, has his arms crossed and turns slightly away. The man in pink looks toward the other, who is partially turned with his back to the camera, and both appear to be engaged in a conversation. The background includes wall-mounted lamps and framed artwork on the wall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio sounds like a man speaking in a neutral tone with a clear voice and moderate pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand facing each other in a warmly lit indoor room; one wears a pink plaid shirt and gestures with his hands, while the other, in a blue plaid shirt, has his arms crossed and turns slightly away. The man in pink looks toward the other, who is partially turned with his back to the camera, and both appear to be engaged in a conversation. The background includes wall-mounted lamps and framed artwork on the wall.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

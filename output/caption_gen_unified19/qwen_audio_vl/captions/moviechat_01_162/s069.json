@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s069",
+  "time_range": [
+    340.0,
+    345.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands at the head of a conference table, gesturing with his right hand while addressing seated individuals. Four men are seated around the table, some in uniform, appearing attentive and looking toward the standing man; one man in uniform is visible in the background. The room is an office space with glass partitions, a television displaying a hallway, and scattered papers and mugs on the table.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens abruptly with a male voice, speaking Mandarin Chinese in a highly and accusatory tone. He shouts, “不找你管，现在你的人做错了，不然的话黄警司不会死。” (“I don’t need you to handle this. Now your people made a mistake, otherwise Superintendent Wong wouldn’t have died.”) His delivery is loud, rapid, and strained, with a high pitch and a sense of urgency that borders on desperation. The intensity is palpable, and the speaker’s voice is slightly distorted due to digital clipping, indicating the recording device was overwhelmed by the volume. The room’s acoustics are dry and close, with no echo or background noise, suggesting a small, well-furnished indoor space. Immediately after the first speaker finishes, a second male voice interjects, speaking in a calm, measured, and authoritative manner. He says, “现在我跟你谈公事。” (“Now I’m talking to you about official business.”) His tone is controlled and deliberate, with a lower pitch and a clear, professional cadence. The contrast between the two voices is stark: the first is emotionally charged and confrontational, while the second is composed and businesslike. The second speaker’s delivery is free",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands at the head of a conference table, gesturing with his right hand while addressing seated individuals. Four men are seated around the table, some in uniform, appearing attentive and looking toward the standing man; one man in uniform is visible in the background. The room is an office space with glass partitions, a television displaying a hallway, and scattered papers and mugs on the table.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

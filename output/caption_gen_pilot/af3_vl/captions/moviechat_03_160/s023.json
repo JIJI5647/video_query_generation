@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation.",
+  "temporal_description": "A man with gray hair, wearing a light-colored suit, is seated indoors, holding a phone to his ear with his right hand. Behind him, shelves hold several bowls and other items, and the lighting is dim, casting shadows on the walls. The scene shifts to two men sitting on a bench in a dimly lit, narrow hallway with tiled walls and shelves in the background. One man, wearing a dark shirt, faces the other, who is in a patterned shirt, and they appear to be engaged in conversation. The camera pans to reveal another man seated at a table, leaning forward with his head down, eating from a plate. In the background, two other individuals are visible—one seated and smoking, the other standing and leaning against a counter. The room has a cluttered appearance with various objects, including a refrigerator, a radio, and a chalkboard with writing on it. The seated man at the table occasionally lifts his head slightly while eating, and the two individuals in the background remain relatively still, with the standing person holding a cigarette.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair, wearing a light-colored suit, is seated indoors, holding a phone to his ear with his right hand. Behind him, shelves hold several bowls and other items, and the lighting is dim, casting shadows on the walls. The scene shifts to two men sitting on a bench in a dimly lit, narrow hallway with tiled walls and shelves in the background. One man, wearing a dark shirt, faces the other, who is in a patterned shirt, and they appear to be engaged in conversation. The camera pans to r",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

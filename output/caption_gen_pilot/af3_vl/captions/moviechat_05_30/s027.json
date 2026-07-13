@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by the sound of wind blowing and a distant explosion.",
+  "temporal_description": "A group of four individuals stands in a dimly lit, narrow wooden corridor with stone walls and arched architecture. The central figure, a woman with long hair, is flanked by three others, all dressed in dark clothing. They remain motionless, facing forward with their bodies upright and hands at their sides. The camera slowly zooms out, revealing the empty wooden floor and the dark, shadowy background, eventually focusing on a small object lying on the floor.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of four individuals stands in a dimly lit, narrow wooden corridor with stone walls and arched architecture. The central figure, a woman with long hair, is flanked by three others, all dressed in dark clothing. They remain motionless, facing forward with their bodies upright and hands at their sides. The camera slowly zooms out, revealing the empty wooden floor and the dark, shadowy background, eventually focusing on a small object lying on the floor.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

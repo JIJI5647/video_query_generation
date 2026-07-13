@@ -1,0 +1,44 @@
+{
+  "total_videos": 5,
+  "total_segments": 102,
+  "total_raw_captions": 102,
+  "total_emotion_events": 27,
+  "total_initial_queries": 33,
+  "total_accepted_queries": 18,
+  "total_discarded_queries": 15,
+  "average_accepted_queries_per_video": 3.6,
+  "emotion_distribution": {
+    "surprised": 6,
+    "sad": 7,
+    "excited": 1,
+    "fear": 2,
+    "happy": 8,
+    "frustrated": 2,
+    "angry": 1
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 14,
+    "evidence_cue": 14,
+    "explicit_event": 5
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 7,
+    "explicit_event": 3,
+    "evidence_cue": 8
+  },
+  "rewrite_count_distribution": {
+    "0": 33
+  },
+  "pass_rate_after_initial_verification": 0.6667,
+  "pass_rate_after_rewrites": 0.5455,
+  "discarded_query_count": 15,
+  "diversity_warnings": [
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: all accepted queries have the same query_type 'emotion_state' — low diversity",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[emostim_06_TheChamp_clip_3] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing"
+  ],
+  "regrounding_changed_count": 7,
+  "regrounding_fallback_count": 2
+}

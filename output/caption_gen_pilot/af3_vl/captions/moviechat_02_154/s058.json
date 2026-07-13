@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a single, high-pitched voice with a fast, urgent tone, accompanied by heavy breathing and occasional pauses, suggesting a sense of distress or excitement.",
+  "temporal_description": "A man with short dark hair, wearing a dark leather jacket, is seated at a table in a dimly lit, possibly indoor, setting. He is holding chopsticks and brings a green leafy vegetable to his mouth, chewing slowly. Steam rises from a container or pot in front of him, partially obscuring his view. His gaze is directed downward toward his food, and his posture remains relatively still throughout the sequence.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a dark leather jacket, is seated at a table in a dimly lit, possibly indoor, setting. He is holding chopsticks and brings a green leafy vegetable to his mouth, chewing slowly. Steam rises from a container or pot in front of him, partially obscuring his view. His gaze is directed downward toward his food, and his posture remains relatively still throughout the sequence.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

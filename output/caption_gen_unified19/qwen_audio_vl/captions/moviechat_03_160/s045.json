@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_description": "In a dimly lit indoor setting, a man in a suit holds a phone to his ear while looking toward the side, with several other people blurred in the background. In another scene, three individuals are seated in a small boat at night, with one standing and facing forward while the others sit facing slightly inward. The boat is illuminated faintly against a dark water surface, with distant lights visible on the horizon.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a loud, high-pitched male voice shouting in Mandarin Chinese, “可卡因数量没错！” (“The quantity of cocaine is correct!”), his words echoing slightly in a large, reverberant space. The delivery is urgent and strained. Immediately following, a second male voice, lower in pitch and more controlled, interjects with “阿强，你疯了！” (“Ah Qiang, you’re crazy!”), his tone conveying alarm and disbelief. The first speaker, now quieter and more subdued, responds with “军哥。” (“Brother Jun.”), a respectful address that signals deference and a shift in the power dynamic. Throughout, a continuous, low-frequency rumble—reminiscent of a large engine or heavy machinery—forms the background, accompanied by a persistent hiss and occasional crackling, indicative of a low-fidelity recording. The voices are clear and intelligible, with no distortion or clipping, and the reverberation suggests a spacious, hard-surfaced environment such as a warehouse or industrial hall. The tone is and confrontational, with the first speaker’s initial bravado giving way to deference, and the second’s concern reflecting the gravity of the situation.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit indoor setting, a man in a suit holds a phone to his ear while looking toward the side, with several other people blurred in the background. In another scene, three individuals are seated in a small boat at night, with one standing and facing forward while the others sit facing slightly inward. The boat is illuminated faintly against a dark water surface, with distant lights visible on the horizon.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

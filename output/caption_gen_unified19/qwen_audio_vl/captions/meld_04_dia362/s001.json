@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a beige jacket leans over a woman lying in a hospital bed, his hand resting on her head. The woman, wearing a hospital gown, lies still with her eyes closed. Medical equipment, including an IV stand and wall outlets, is visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, sharp intake of breath from a female speaker, immediately followed by a high-pitched, exasperated exclamation: “Oh, that’s five, Ross.” Her voice is clear, close-mic’d, and delivered with a tone of weary disbelief, marked by a descending pitch on “five” and a slight upward inflection on “Ross.” The room’s acoustics are dry and intimate, with no background noise or reverberation, indicating a controlled studio environment. The speaker then continues, “Five women have had five babies,” her delivery shifting to a more measured, declarative cadence. The phrase “Five women” is spoken with a rising inflection, while “have had five babies” is delivered with a descending, resigned tone, emphasizing the cumulative weight of the statement. The final word, “babies,” is cut off abruptly, leaving the sentence unfinished and the tension unresolved. Throughout, the audio remains pristine, with no distortion, artifacts, or ambient sounds, and the speaker’s voice is consistently prominent and intelligible. This excerpt is a direct, unedited segment from the iconic American sitcom *Friends*, specifically from the episode “The One with Ross’s Sandwich” (Season 4, Episode",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a beige jacket leans over a woman lying in a hospital bed, his hand resting on her head. The woman, wearing a hospital gown, lies still with her eyes closed. Medical equipment, including an IV stand and wall outlets, is visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

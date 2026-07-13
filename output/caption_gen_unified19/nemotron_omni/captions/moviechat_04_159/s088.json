@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s088",
+  "time_range": [
+    435.0,
+    440.0
+  ],
+  "visual_description": "Two men sit inside a dimly lit car at night, the driver looking ahead while the passenger turns to speak. The scene then cuts to a brightly lit convenience store where a man and a woman embrace near shelves and a Marlboro sign.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio includes the low hum of the car engine and faint conversation between the men. It then transitions to the ambient noise of a busy store.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s088\", \"time_range\": [435.0, 440.0], \"visual\": \"Two men sit inside a dimly lit car at night, the driver looking ahead while the passenger turns to speak. The scene then cuts to a brightly lit convenience store where a man and a woman embrace near shelves and a Marlboro sign.\", \"audio\": \"The audio includes the low hum of the car engine and faint conversation between the men. It then transitions to the ambient noise of a busy store.\", \"confidence\": \"high\", \"evidence_strength\": \"cle"
+}

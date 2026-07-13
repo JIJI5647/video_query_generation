@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation.",
+  "temporal_description": "A man in a dark suit and tie is shown in close-up, looking downward with a focused expression. Another man in a light-colored shirt is seated, gazing intently at a computer screen while holding a phone to his ear. A third individual, dressed in dark clothing, is seen clasping their hands together, with a ring visible on one finger. The setting appears to be dimly lit, suggesting an indoor, possibly office or interrogation room environment. The camera remains static throughout, focusing on each person’s face or hands without movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie is shown in close-up, looking downward with a focused expression. Another man in a light-colored shirt is seated, gazing intently at a computer screen while holding a phone to his ear. A third individual, dressed in dark clothing, is seen clasping their hands together, with a ring visible on one finger. The setting appears to be dimly lit, suggesting an indoor, possibly office or interrogation room environment. The camera remains static throughout, focusing on each p",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

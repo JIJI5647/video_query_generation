@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_description": "A young man with glasses and dark hair stands centered in a dimly lit, cluttered room. Two other men, one with blond hair and the other with dark hair, are positioned to his left, both extending their arms forward with hands visible. The blond man’s gaze is directed forward, while the dark-haired man looks slightly to his right; the central figure’s gaze is forward, and his posture is upright.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens in a quiet, reverberant indoor space, likely a large, sparsely furnished room with hard surfaces. A low-frequency hum, possibly from HVAC or electrical equipment, underpins the scene, accompanied by a faint, high-frequency hiss from the recording device. The first sound is a male voice, speaking in a low, gravelly, and weary tone, with a General American accent: “He didn’t say anything.” His delivery is slow and resigned. The room’s acoustics impart a subtle echo to his words, and the ambient hum and hiss remain unobtrusive. A brief pause follows, during which the background hum and hiss persist, and the room’s reverberation lingers. The second male voice then enters, much closer to the microphone and more urgent. He speaks in a low, raspy, and strained whisper: “Come on, Draco. Tell me.” His tone is insistent and emotionally charged, with a sense of desperation and authority, as if trying to coax or pressure someone named Draco into revealing information. The whisper is intimate and intense, with the room’s echo still present but less pronounced due to the proximity of the speaker. After a short pause, the",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man with glasses and dark hair stands centered in a dimly lit, cluttered room. Two other men, one with blond hair and the other with dark hair, are positioned to his left, both extending their arms forward with hands visible. The blond man’s gaze is directed forward, while the dark-haired man looks slightly to his right; the central figure’s gaze is forward, and his posture is upright.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

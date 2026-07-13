@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s069",
+  "time_range": [
+    340.0,
+    345.0
+  ],
+  "visual_description": "A man with gray hair in a gray suit stands in the foreground, looking slightly to his right; behind him, two blurred figures are visible in the background. In the first frame, several people are seated at desks in an office with blinds and a whiteboard, while one person stands near a laptop. In the second frame, the man’s posture is upright, and his gaze is directed off-camera, with no discernible facial expression or gesture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a moderate pace, accompanied by a slight breathiness and a sigh at the end.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair in a gray suit stands in the foreground, looking slightly to his right; behind him, two blurred figures are visible in the background. In the first frame, several people are seated at desks in an office with blinds and a whiteboard, while one person stands near a laptop. In the second frame, the man’s posture is upright, and his gaze is directed off-camera, with no discernible facial expression or gesture.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

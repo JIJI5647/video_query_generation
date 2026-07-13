@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "The bald man in dark robes stands with his back to the camera, gazing at a swirling mass of orange fire or magical energy that fills the background. The scene is dark and atmospheric, with the light from the fire illuminating his silhouette. No other characters are visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is mostly silent with a faint low rumble, and no clear speech is heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s013\", \"time_range\": [60.0, 65.0], \"visual\": \"The bald man in dark robes stands with his back to the camera, gazing at a swirling mass of orange fire or magical energy that fills the background. The scene is dark and atmospheric, with the light from the fire illuminating his silhouette. No other characters are visible.\", \"audio\": \"The audio is mostly silent with a faint low rumble, and no clear speech is heard.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_description": "A man in a dark suit stands in a dimly lit, ornately decorated room with red lanterns and traditional decor, smiling slightly while facing forward. Another man in a light-colored suit with a floral scarf laughs heartily, leaning back and looking toward the first man. The scene is framed with blurred foreground elements, suggesting a shallow depth of field and a focus on the interaction between the two men.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone at a moderate pace, with no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit stands in a dimly lit, ornately decorated room with red lanterns and traditional decor, smiling slightly while facing forward. Another man in a light-colored suit with a floral scarf laughs heartily, leaning back and looking toward the first man. The scene is framed with blurred foreground elements, suggesting a shallow depth of field and a focus on the interaction between the two men.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

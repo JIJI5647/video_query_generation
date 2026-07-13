@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_description": "A woman with long dark hair, wearing a blue robe, is partially buried in deep snow. She is on her hands and knees, struggling to move forward, her face contorted in an expression of distress. Behind her is a dark wooden structure with a frosted window.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The woman is panting heavily and crying out in distress, her voice strained and panicked.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s040\", \"time_range\": [195.0, 200.0], \"visual\": \"A woman with long dark hair, wearing a blue robe, is partially buried in deep snow. She is on her hands and knees, struggling to move forward, her face contorted in an expression of distress. Behind her is a dark wooden structure with a frosted window.\", \"audio\": \"The woman is panting heavily and crying out in distress, her voice strained and panicked.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

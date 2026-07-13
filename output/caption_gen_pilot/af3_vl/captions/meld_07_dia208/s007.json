@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man and woman are having a conversation, with the man speaking in a neutral tone and the woman responding happily.",
+  "temporal_description": "A man in a beige turtleneck sweater is seated on a brown couch, leaning forward with his arms extended, appearing to be in motion or gesturing. To his left, a woman in a blue top is seated, her body turned slightly away, and she appears to be moving her hands. To his right, another woman in a red top is seated, facing forward with her hands clasped. The background shows a decorated room with Christmas lights, a bar area, and other people moving around. The man in the beige sweater stands up and turns, continuing to gesture with his hands while speaking. The woman in red remains seated, occasionally moving her hands and looking toward the man. The scene shifts to another man in a black sweater standing near a table, gesturing with his right arm raised, while another man in a red shirt sits at the table, looking toward him. The background remains consistent with the festive decor and other patrons in the room.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a beige turtleneck sweater is seated on a brown couch, leaning forward with his arms extended, appearing to be in motion or gesturing. To his left, a woman in a blue top is seated, her body turned slightly away, and she appears to be moving her hands. To his right, another woman in a red top is seated, facing forward with her hands clasped. The background shows a decorated room with Christmas lights, a bar area, and other people moving around. The man in the beige sweater stands up and ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

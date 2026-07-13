@@ -1,0 +1,105 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark blue t-shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch and speaking"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch and listening"
+      },
+      {
+        "person": "a woman with blonde hair",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch, a wooden cabinet, and a television in the background."
+    },
+    "objects": [
+      {
+        "object": "a couch",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being sat on by two people."
+      },
+      {
+        "object": "a wooden cabinet",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing behind the woman with blonde hair."
+      },
+      {
+        "object": "a television",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "placed on top of the wooden cabinet."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the dark blue t-shirt speaks.",
+      "The woman with blonde hair speaks and gestures with her hands.",
+      "The woman in the white shirt listens."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark blue t-shirt",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "sitting on a couch"
+      ],
+      "gaze": "towards the woman with blonde hair."
+    },
+    {
+      "person": "a woman in a white shirt",
+      "facial_cues": [
+        "mouth closed",
+        "eyebrows slightly furrowed"
+      ],
+      "body_cues": [
+        "sitting on a couch",
+        "hands clasped"
+      ],
+      "gaze": "towards the woman with blonde hair."
+    },
+    {
+      "person": "a woman with blonde hair",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "standing",
+        "gesturing with hands"
+      ],
+      "gaze": "towards the people on the couch."
+    }
+  ],
+  "audio_description": "A woman speaks in a surprised and incredulous tone, followed by a loud, sustained electronic buzz.",
+  "temporal_description": "The woman with blonde hair speaks, then a loud buzzing sound begins and continues until the end of the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark blue t-shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting on a couch and speaking\"}, {\"person\": \"a woman in a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting on a couch and listening\"}, {\"person\": \"a woman with blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing and s"
+}

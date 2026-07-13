@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s067",
+  "time_range": [
+    330.0,
+    335.0
+  ],
+  "visual_description": "The man in the white shirt and black tie stands beside a television displaying CCTV footage of a person in an elevator, speaking and gesturing with his right hand. Two seated men are shown, one in a police uniform with shoulder insignia looking forward with a surprised expression, and another in a light blue shirt and tie looking downward. The scene takes place in a dimly lit office environment with glass partitions in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The standing man's voice is audible as he speaks and gestures, while the seated men remain quiet. No other distinct sounds are present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s067\", \"time_range\": [330, 335], \"visual\": \"The man in the white shirt and black tie stands beside a television displaying CCTV footage of a person in an elevator, speaking and gesturing with his right hand. Two seated men are shown, one in a police uniform with shoulder insignia looking forward with a surprised expression, and another in a light blue shirt and tie looking downward. The scene takes place in a dimly lit office environment with glass partitions in the background.\","
+}

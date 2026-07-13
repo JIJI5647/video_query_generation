@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s096",
+  "time_range": [
+    475.0,
+    480.0
+  ],
+  "visual_description": "A man with gray hair, wearing a light-colored suit and tie, sits at a table eating noodles with chopsticks while looking toward another person. The second person, also a man with dark hair, is seated across, facing the first man, with his head slightly turned. The scene appears to be a dimly lit dining setting with other people partially visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair, wearing a light-colored suit and tie, sits at a table eating noodles with chopsticks while looking toward another person. The second person, also a man with dark hair, is seated across, facing the first man, with his head slightly turned. The scene appears to be a dimly lit dining setting with other people partially visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

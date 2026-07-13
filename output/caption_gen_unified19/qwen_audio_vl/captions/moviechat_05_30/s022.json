@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A person in a patterned sweater walks away from the camera along a dimly lit wooden bridge, while another person in a dark coat is partially visible ahead, facing forward. Snowflakes drift through the air as the bridge’s railings and supporting beams are silhouetted against a dark, forested background. The person in the sweater has their back mostly turned, and the other person’s face is not clearly visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins with a sudden, high-pitched metallic screech, immediately followed by a deep, resonant thud that reverberates through a vast, hard-surfaced space. This initial impact is accompanied by a sharp, high-frequency crack, suggesting the violent fracturing of a brittle material such as glass or ceramic. The environment is acoustically reflective, with echoes and reverberation indicating a large, empty, and industrial setting—likely a warehouse, garage, or similar structure. As the reverberation fades, a male voice erupts in a loud, guttural scream, “Aaaah!” The scream is raw, strained, and filled with pain or terror, its pitch and timbre distorted by the recording’s severe clipping and digital compression. The scream is abruptly cut off, leaving only the lingering echoes of the initial crash. A second, even more intense metallic screech follows, this time with a lower pitch and a more prolonged, grinding quality. This sound is accompanied by a series of rapid, sharp impacts—metallic clatters and rattles—suggesting the scattering of debris or the collapse of a metal structure. The reverberation is dense and chaotic, reinforcing the impression of a large, empty, and industrial space",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a patterned sweater walks away from the camera along a dimly lit wooden bridge, while another person in a dark coat is partially visible ahead, facing forward. Snowflakes drift through the air as the bridge’s railings and supporting beams are silhouetted against a dark, forested background. The person in the sweater has their back mostly turned, and the other person’s face is not clearly visible.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

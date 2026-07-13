@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_description": "A man with shoulder-length dark hair, wearing a plaid shirt under a dark jacket and jeans, stands in a dimly lit bedroom, holding a piece of paper and a small object in his right hand. He turns his head to look toward the left side of the frame, then shifts his gaze toward the door as he reaches for the doorknob with his left hand. The room contains a bed, a nightstand with a lamp, a bookshelf, and a framed picture on the wall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate pace, speaking in a neutral tone without any noticeable prosody or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length dark hair, wearing a plaid shirt under a dark jacket and jeans, stands in a dimly lit bedroom, holding a piece of paper and a small object in his right hand. He turns his head to look toward the left side of the frame, then shifts his gaze toward the door as he reaches for the doorknob with his left hand. The room contains a bed, a nightstand with a lamp, a bookshelf, and a framed picture on the wall.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

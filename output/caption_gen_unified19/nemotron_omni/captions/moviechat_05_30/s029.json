@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_description": "A man in chainmail lies on a dark wooden floor, raising his head and clasping his hands near his chest while looking upward. The dim lighting highlights his strained facial expression and the texture of the wood.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A faint, low-pitched voice is audible, followed by a brief, sharp exclamation. The tone is low and urgent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s029\", \"time_range\": [140.0, 145.0], \"visual\": \"A man in chainmail lies on a dark wooden floor, raising his head and clasping his hands near his chest while looking upward. The dim lighting highlights his strained facial expression and the texture of the wood.\", \"audio\": \"A faint, low-pitched voice is audible, followed by a brief, sharp exclamation. The tone is low and urgent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

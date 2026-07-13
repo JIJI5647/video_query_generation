@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_description": "In a dimly lit, nighttime outdoor setting, a group of indistinct human figures are scattered across a rugged terrain, some appearing to move or stand in clusters. A faintly illuminated structure or pathway is visible in the distance, casting minimal light on the scene. Due to low visibility and darkness, facial expressions, detailed body cues, and specific gestures are not discernible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable non-speech sounds or prosodic variations.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, nighttime outdoor setting, a group of indistinct human figures are scattered across a rugged terrain, some appearing to move or stand in clusters. A faintly illuminated structure or pathway is visible in the distance, casting minimal light on the scene. Due to low visibility and darkness, facial expressions, detailed body cues, and specific gestures are not discernible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_description": "A dimly lit scene with faint orange flames illuminating indistinct figures in the background; the foreground is obscured by darkness. People are barely visible as blurred silhouettes, standing or moving in a crowd, with no clear facial or body details discernible. The overall scene is dark and hazy, with minimal visibility beyond scattered light sources.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable prosodic variations or non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A dimly lit scene with faint orange flames illuminating indistinct figures in the background; the foreground is obscured by darkness. People are barely visible as blurred silhouettes, standing or moving in a crowd, with no clear facial or body details discernible. The overall scene is dark and hazy, with minimal visibility beyond scattered light sources.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

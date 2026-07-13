@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a slow speaking rate. The voice has a slightly nasal quality and is accompanied by heavy breathing. There are no other non-speech sounds present.",
+  "temporal_description": "The scene is set in a dimly lit office with multiple individuals seated at desks, each illuminated by individual desk lamps. One person, wearing a white shirt and blue pants, stands near a whiteboard, holding papers and gesturing as if explaining something. Another person, seated and wearing a striped shirt, rests their chin on their hand, appearing to listen. A third person, in a dark shirt, is seated with their back to the camera, focused on their work. The room features blinds covering windows, framed pictures on the walls, and a visible air conditioning unit. The standing person moves slightly while holding the papers, occasionally shifting their stance. The seated individuals remain mostly still, with minimal movement, maintaining their focus on their tasks or the person speaking.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene is set in a dimly lit office with multiple individuals seated at desks, each illuminated by individual desk lamps. One person, wearing a white shirt and blue pants, stands near a whiteboard, holding papers and gesturing as if explaining something. Another person, seated and wearing a striped shirt, rests their chin on their hand, appearing to listen. A third person, in a dark shirt, is seated with their back to the camera, focused on their work. The room features blinds covering window",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

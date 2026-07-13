@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A man in a suit and glasses is seen in profile, looking forward with a neutral expression. In the background, several people stand near parked cars on a wet city street at night, illuminated by streetlights and building lights. Tall buildings, including one labeled \"MANDARIN ORIENTAL,\" dominate the urban skyline under a dark sky.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, high-frequency hiss, characteristic of analog tape or a low-fidelity microphone, establishing a quiet, reverberant environment. A single, resonant bell strike follows, its deep, metallic tone rich in overtones and marked by a slow, natural decay. The bell’s sound is centered in the stereo field, with a pronounced reverberation that suggests a large, stone-walled space such as a cathedral or church tower. The bell’s attack is forceful, and its decay is smooth and sustained, filling the space with a sense of solemnity and grandeur. After a brief pause, a second bell strike occurs, nearly identical in pitch, timbre, and reverberation, reinforcing the impression of a ceremonial or ritualistic setting. The bell’s resonance continues to dominate the soundscape, with no other sounds present—no speech, footsteps, or ambient noise—emphasizing the isolation and focus on the bell. Suddenly, the bell’s reverberation is cut off by a hard, digital edit, and a loud, synthetic electronic tone replaces it. This tone is a low-frequency, buzzy square wave at approximately 110 Hz (A2), with a harsh, grating timbre and no modulation",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses is seen in profile, looking forward with a neutral expression. In the background, several people stand near parked cars on a wet city street at night, illuminated by streetlights and building lights. Tall buildings, including one labeled \"MANDARIN ORIENTAL,\" dominate the urban skyline under a dark sky.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

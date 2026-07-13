@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_description": "A man with shoulder-length hair, wearing a red jacket over a plaid shirt and jeans, walks down a narrow hallway with patterned wallpaper. He holds a dark object in his right hand and looks upward as he moves forward, his gaze shifting slightly. The hallway features multiple doors, a round mirror on the wall, and a ceiling light fixture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, intense burst of mechanical sound, immediately immersing the listener in a high-energy environment. The dominant feature is a rapid, metallic, high-pitched whirring, reminiscent of a small electric motor spinning at high speed. This whirring is accompanied by a continuous, abrasive, high-frequency grinding or scraping noise, suggesting the friction of metal against metal or a hard surface. The sound is harsh, with pronounced digital clipping and distortion, resulting in a compressed, buzzy texture that lacks clarity and dynamic range. The recording is monophonic, with no spatial cues or stereo imaging, and the sound source is perceived as extremely close to the microphone, likely within inches. Throughout the clip, the mechanical noise remains constant in both volume and character, with no variation or modulation, and no other sounds—such as speech, music, or environmental noise—are present. The recording ends abruptly, with the mechanical sound ceasing instantly, indicating a hard digital cut rather than a natural fade. The audio is of low fidelity, marked by heavy distortion, a limited frequency range, and a lack of background ambience, suggesting it was captured with a basic consumer device in a small, acoustically neutral indoor space. The absence of any human",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length hair, wearing a red jacket over a plaid shirt and jeans, walks down a narrow hallway with patterned wallpaper. He holds a dark object in his right hand and looks upward as he moves forward, his gaze shifting slightly. The hallway features multiple doors, a round mirror on the wall, and a ceiling light fixture.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

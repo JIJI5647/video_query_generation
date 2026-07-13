@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A person in camouflage gear with visible blood on their face and mouth is shown in a close-up, appearing to be in a distressed or aggressive state. Another individual, partially obscured, peers through a vertical barrier with their eye visible, suggesting they are hiding or observing. The scene takes place indoors with dim lighting and a wooden door or panel in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate loudness, speaking at a moderate pace with a slightly breathy quality.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in camouflage gear with visible blood on their face and mouth is shown in a close-up, appearing to be in a distressed or aggressive state. Another individual, partially obscured, peers through a vertical barrier with their eye visible, suggesting they are hiding or observing. The scene takes place indoors with dim lighting and a wooden door or panel in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

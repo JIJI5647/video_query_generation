@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, intense burst of mechanical sound, immediately immersing the listener in a high-energy environment. The dominant feature is a rapid, metallic, high-pitched whirring, reminiscent of a small electric motor spinning at high speed. This whirring is accompanied by a continuous, abrasive, high-frequency grinding or scraping noise, suggesting the friction of metal against metal or a hard surface. The sound is harsh, with pronounced digital clipping and distortion, resulting in a compressed, buzzy texture that lacks clarity and dynamic range. The recording is monophonic, with no spatial cues or stereo imaging, and the sound source is perceived as extremely close to the microphone, likely within inches. Throughout the clip, the mechanical noise remains constant in both volume and character, with no variation or modulation, and no other sounds—such as speech, music, or environmental noise—are present. The recording ends abruptly, with the mechanical sound ceasing instantly, indicating a hard digital cut rather than a natural fade.\n\nThe audio is of low fidelity, marked by heavy distortion, a limited frequency range, and a lack of background ambience, suggesting it was captured with a basic consumer device in a small, acoustically neutral indoor space. The absence of any human or environmental cues, combined with the mechanical nature of the sound, points to a utilitarian context, such as a workshop, garage, or home setting. The most plausible scenario is that the recording documents the operation of a handheld power tool—such as a rotary tool, angle grinder, or electric sander—being used on a metal surface, with the tool’s motor and abrasive action dominating the soundscape. The abrupt start and end, along with the lack of contextual clues, suggest the recording was made for technical or diagnostic purposes, rather than as part of a broader narrative or artistic composition.\n\nIn summary, the audio presents a brief, intense, and distorted recording of a high-speed electric motor and abrasive grinding, likely from a handheld power tool operating on metal in a small indoor space. The clip is devoid of speech, music, or environmental context, and its technical characteristics indicate a utilitarian, possibly diagnostic intent.",
+  "temporal_description": "A man with shoulder-length dark hair, wearing a maroon jacket over a plaid shirt and dark pants, walks down a narrow hallway. He holds a dark object in his right hand and looks upward as he moves forward. The hallway has yellow patterned wallpaper, a round mirror on the left wall, and several doors lining both sides. He maintains a steady gait, his gaze directed upward and slightly ahead, and his posture is upright as he walks toward the camera.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length dark hair, wearing a maroon jacket over a plaid shirt and dark pants, walks down a narrow hallway. He holds a dark object in his right hand and looks upward as he moves forward. The hallway has yellow patterned wallpaper, a round mirror on the left wall, and several doors lining both sides. He maintains a steady gait, his gaze directed upward and slightly ahead, and his posture is upright as he walks toward the camera.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

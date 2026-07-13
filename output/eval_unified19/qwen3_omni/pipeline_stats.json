@@ -1,0 +1,67 @@
+{
+  "total_videos": 19,
+  "total_segments": 735,
+  "total_raw_captions": 735,
+  "total_emotion_events": 248,
+  "total_initial_queries": 289,
+  "total_accepted_queries": 108,
+  "total_discarded_queries": 181,
+  "average_accepted_queries_per_video": 5.6842,
+  "emotion_distribution": {
+    "fear": 127,
+    "surprised": 21,
+    "angry": 15,
+    "sad": 52,
+    "excited": 5,
+    "frustrated": 12,
+    "happy": 13,
+    "disappointed": 3
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 106,
+    "evidence_cue": 122,
+    "explicit_event": 61
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 52,
+    "explicit_event": 15,
+    "evidence_cue": 41
+  },
+  "rewrite_count_distribution": {
+    "0": 289
+  },
+  "pass_rate_after_initial_verification": 0.6194,
+  "pass_rate_after_rewrites": 0.3737,
+  "discarded_query_count": 181,
+  "diversity_warnings": [
+    "[emostim_01_TheShining_clip_2] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: 7 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q06' and 'emostim_02_WhenHarryMetSally_clip_1_q07' are semantically similar (word overlap 82%)",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: all accepted queries have the same query_type 'emotion_state' — low diversity",
+    "[emostim_05_TheSilenceOfTheLambs_b_clip_1] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_05_TheSilenceOfTheLambs_b_clip_1] WARNING: queries 'emostim_05_TheSilenceOfTheLambs_b_clip_1_q05' and 'emostim_05_TheSilenceOfTheLambs_b_clip_1_q07' are semantically similar (word overlap 74%)",
+    "[emostim_06_TheChamp_clip_3] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_07_TheSilenceOfTheLambs_a_clip_2] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[meld_01_dia337] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: queries 'meld_01_dia337_q01' and 'meld_01_dia337_q03' are semantically similar (word overlap 78%)",
+    "[meld_02_dia224] WARNING: 6 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_02_dia224] WARNING: queries 'meld_02_dia224_q01' and 'meld_02_dia224_q03' are semantically similar (word overlap 82%)",
+    "[meld_03_dia572] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_04_dia362] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_04_dia362] WARNING: queries 'meld_04_dia362_q01' and 'meld_04_dia362_q11' are semantically similar (word overlap 75%)",
+    "[meld_04_dia362] WARNING: queries 'meld_04_dia362_q02' and 'meld_04_dia362_q06' are semantically similar (word overlap 71%)",
+    "[meld_05_dia980] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[meld_07_dia208] WARNING: 6 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_01_162] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_01_162] WARNING: queries 'moviechat_01_162_q05' and 'moviechat_01_162_q06' are semantically similar (word overlap 82%)",
+    "[moviechat_02_154] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[moviechat_02_154] WARNING: 7 accepted queries start with 'what moment' — repetitive phrasing",
+    "[moviechat_03_160] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_04_159] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_05_30] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_05_30] WARNING: queries 'moviechat_05_30_q04' and 'moviechat_05_30_q06' are semantically similar (word overlap 71%)"
+  ],
+  "regrounding_changed_count": 0,
+  "regrounding_fallback_count": 0
+}

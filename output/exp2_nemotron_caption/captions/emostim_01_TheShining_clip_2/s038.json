@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_description": "A man with dark hair and a beard, wearing a maroon jacket over a plaid shirt, stands beside a pale yellow door in a dimly lit room. He looks down initially, then turns his head to the side while appearing to speak.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear and not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s038\", \"time_range\": [185.0, 190.0], \"visual\": \"A man with dark hair and a beard, wearing a maroon jacket over a plaid shirt, stands beside a pale yellow door in a dimly lit room. He looks down initially, then turns his head to the side while appearing to speak.\", \"audio\": \"The audio is unclear and not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

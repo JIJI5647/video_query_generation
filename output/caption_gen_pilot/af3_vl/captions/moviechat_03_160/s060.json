@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace, accompanied by a consistent background noise.",
+  "temporal_description": "A man wearing a white cap with a red \"B\" and a black vest is standing on a city street at night, looking down at his phone. The background is blurred with bright lights and indistinct figures moving around. The phone screen displays a message in Chinese: \"訊息: 有內鬼終止交易\" with options to delete or confirm. The scene then shifts to a digital map with glowing blue lines and labels, showing various locations like \"金都大廈\" and \"Macpherson Playground,\" with dots indicating points of interest. Later, another man in glasses and a light-colored shirt is seen standing in front of a convenience store, looking at his phone while holding it with both hands. The store has bright lights and shelves stocked with products, and there are other people visible in the background. The digital map continues to display different areas, including \"SHANTUNG\" and \"SAYEE'S,\" with the camera zooming in and out on specific locations.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man wearing a white cap with a red \"B\" and a black vest is standing on a city street at night, looking down at his phone. The background is blurred with bright lights and indistinct figures moving around. The phone screen displays a message in Chinese: \"訊息: 有內鬼終止交易\" with options to delete or confirm. The scene then shifts to a digital map with glowing blue lines and labels, showing various locations like \"金都大廈\" and \"Macpherson Playground,\" with dots indicating points of interest. Later, anothe",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

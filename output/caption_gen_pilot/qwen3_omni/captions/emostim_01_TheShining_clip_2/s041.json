@@ -1,0 +1,34 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a small figure",
+        "visibility": "not clearly visible",
+        "position": "foreground",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "a large, snow-covered building at night, illuminated by a few lights and a bright moon in a foggy sky"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": "The figure is a dark silhouette against the snow."
+  },
+  "visual_expression": [],
+  "audio_description": "A person is crying and gasping for air.",
+  "temporal_description": "The crying and gasping sounds continue throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s041\", \"time_range\": [200.0, 205.0], \"visual_objective\": {\"people\": [{\"person\": \"a small figure\", \"visibility\": \"not clearly visible\", \"position\": \"foreground\", \"action\": \"standing still\"}], \"scene\": {\"location\": \"outdoors\", \"setting\": \"a large, snow-covered building at night, illuminated by a few lights and a bright moon in a foggy sky\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [], \"visibility_notes\": \"The figure is a dark silhouette against the snow.\"}, \"visual_expre"
+}

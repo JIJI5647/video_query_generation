@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    12.76
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, sharp metallic impact, characterized by a high-frequency \"clink\" and a brief, resonant \"thud.\" This sound is immediately followed by a rapid, high-pitched scraping noise, suggesting a metal object—likely a key or tool—being forcefully inserted and turned in a lock. The scraping is accompanied by a faint, low-frequency rustle, possibly from clothing or a bag, indicating the presence of a person. The metallic sounds are dry and close, with no reverberation, implying the action occurs in a small, acoustically dampened space.\n\nAs the scraping ceases, a low-frequency, mechanical whirring emerges, reminiscent of a motor or solenoid activating. This whirring is steady and consistent, with a subtle, rhythmic pulsing that suggests the operation of a locking mechanism. The whirring is accompanied by a faint, high-frequency hiss, likely from the motor or the environment, and a barely perceptible, low-frequency hum, possibly from nearby electrical equipment. The mechanical sounds are clear and well-defined, with no distortion or clipping, and the background remains quiet except for a faint, broadband hiss.\n\nThe whirring continues for a brief period, then stops abruptly, indicating the completion of the locking or unlocking process. Immediately after, a single, sharp metallic click is heard, signifying the final engagement of the mechanism—such as a bolt or latch locking into place. The audio ends with a clean, abrupt cutoff, with no lingering reverberation or environmental noise.\n\nThroughout the recording, there is no speech, music, or vocalization. The sequence of sounds—metallic impact, scraping, mechanical whirring, and final click—clearly depicts the operation of a modern, electromechanical lock, such as those found in hotel rooms, office buildings, or secure facilities. The absence of ambient noise, the close-mic'd clarity, and the lack of environmental cues suggest the recording was made in a controlled, indoor setting, likely for documentation or demonstration purposes.\n\nIn summary, the audio captures the precise, close-up operation of a modern electronic lock: a key or tool is inserted and turned, a motorized mechanism engages, and the lock completes its cycle with a definitive click. The recording is technically clean, devoid of speech or music, and provides a focused, unambiguous depiction of a secure locking process in a quiet, controlled environment.",
+  "temporal_description": "A person with shoulder-length dark hair, wearing a dark green long-sleeved shirt, is seen from behind and then in profile, holding a handgun. They are standing in a dimly lit room with patterned wallpaper and a red light fixture visible in the background. The person aims the gun forward, maintaining a steady posture with both hands gripping the weapon, and their gaze is fixed ahead. Their head is slightly tilted as they hold the gun, and their body remains mostly still throughout the sequence.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with shoulder-length dark hair, wearing a dark green long-sleeved shirt, is seen from behind and then in profile, holding a handgun. They are standing in a dimly lit room with patterned wallpaper and a red light fixture visible in the background. The person aims the gun forward, maintaining a steady posture with both hands gripping the weapon, and their gaze is fixed ahead. Their head is slightly tilted as they hold the gun, and their body remains mostly still throughout the sequence.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

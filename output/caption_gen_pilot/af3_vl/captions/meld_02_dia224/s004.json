@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features two male voices with neutral tones and moderate pacing, discussing their mutual interest in the Knicks and an upcoming game, with no notable background sounds.",
+  "temporal_description": "Two men are seated on a brown couch in what appears to be a living room or café setting. The man on the left, wearing a red short-sleeved shirt with a dark collar, gestures with his hands while speaking and occasionally looks toward the other man. The man on the right, wearing a light blue polo shirt, listens attentively, occasionally nodding and gesturing back with his hands. In the background, other people are partially visible, including someone standing near a table with a vase of yellow flowers. The setting includes furniture and decor typical of a casual indoor space.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated on a brown couch in what appears to be a living room or café setting. The man on the left, wearing a red short-sleeved shirt with a dark collar, gestures with his hands while speaking and occasionally looks toward the other man. The man on the right, wearing a light blue polo shirt, listens attentively, occasionally nodding and gesturing back with his hands. In the background, other people are partially visible, including someone standing near a table with a vase of yellow flo",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

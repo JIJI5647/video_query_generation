@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A woman with blonde, shoulder-length hair wearing a dark pinstripe blazer over a white collared shirt sits beside a man with dark hair and a beard, dressed in a striped sweater. Both are seated at a table in a crowded, bustling indoor setting, with the woman looking down at her hands and the man gesturing with his hands while looking toward her. The background is filled with other people seated at tables, suggesting a busy café or restaurant environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens in a quiet, acoustically controlled indoor setting, likely a small office or private room, with a faint electronic hiss and subtle room tone indicating a professional recording environment. A female voice, positioned slightly left of center and close to the microphone, speaks with a clear, mid-to-high pitch and a General American accent. Her tone is measured and slightly defensive as she says, “Not that I would know this.” The delivery is calm but carries an undercurrent of tension, suggesting she is responding to an unspoken accusation or challenge. Immediately following, a male voice, slightly right of center and more distant, interjects with a lower, resonant pitch and a General American accent. His tone is calm and measured, yet carries a hint of exasperation as he asks, “Why are you getting so? This is not about you.” The phrasing and delivery imply he is attempting to de-escalate the situation, but his words are met with a sharp, rising inflection from the female speaker. The female voice then responds with a clipped, high-pitched, and emotionally charged “Yes, it is,” delivered forcefully and with a sense of urgency. This response is marked by a rapid, staccato rhythm and a strained",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with blonde, shoulder-length hair wearing a dark pinstripe blazer over a white collared shirt sits beside a man with dark hair and a beard, dressed in a striped sweater. Both are seated at a table in a crowded, bustling indoor setting, with the woman looking down at her hands and the man gesturing with his hands while looking toward her. The background is filled with other people seated at tables, suggesting a busy café or restaurant environment.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

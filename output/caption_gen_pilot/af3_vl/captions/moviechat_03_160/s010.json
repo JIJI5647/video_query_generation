@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and a clear, uninterrupted sound.",
+  "temporal_description": "A man in a light-colored shirt and lanyard is seen in a dimly lit, industrial-looking room, initially standing and then bending over. He picks up a small, silver flip phone from a box filled with similar devices, examines it, and then holds it to his ear as if making or receiving a call. His posture is upright but slightly hunched, and he appears focused on the phone. The scene shifts to a different location where another man in a dark suit and tie stands in a control room with multiple monitors and personnel working around him, suggesting a surveillance or security setting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt and lanyard is seen in a dimly lit, industrial-looking room, initially standing and then bending over. He picks up a small, silver flip phone from a box filled with similar devices, examines it, and then holds it to his ear as if making or receiving a call. His posture is upright but slightly hunched, and he appears focused on the phone. The scene shifts to a different location where another man in a dark suit and tie stands in a control room with multiple monitors",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

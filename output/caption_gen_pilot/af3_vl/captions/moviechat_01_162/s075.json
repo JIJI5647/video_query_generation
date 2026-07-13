@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s075",
+  "time_range": [
+    370.0,
+    375.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a clear and steady pace, and no noticeable background noise or emotional inflection.",
+  "temporal_description": "Two men in formal attire stand facing each other in an indoor setting with glass doors and a monitor in the background. The man on the left, wearing a light-colored shirt and tie, has his head slightly lowered and remains mostly still. The man on the right, dressed in a white shirt with a lanyard and dark tie, stands upright and appears to be speaking, occasionally shifting his gaze. A third person is partially visible in the foreground, looking downward. The scene is dimly lit, with reflections visible on the glass doors behind them.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in formal attire stand facing each other in an indoor setting with glass doors and a monitor in the background. The man on the left, wearing a light-colored shirt and tie, has his head slightly lowered and remains mostly still. The man on the right, dressed in a white shirt with a lanyard and dark tie, stands upright and appears to be speaking, occasionally shifting his gaze. A third person is partially visible in the foreground, looking downward. The scene is dimly lit, with reflections",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

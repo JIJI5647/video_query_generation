@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "A man in a white shirt and dark tie stands near a glass wall, looking to his left before turning and walking down a hallway. Another man in a blue denim jacket walks past a desk holding papers while a uniformed person is visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s027\", \"time_range\": [130.0, 135.0], \"visual\": \"A man in a white shirt and dark tie stands near a glass wall, looking to his left before turning and walking down a hallway. Another man in a blue denim jacket walks past a desk holding papers while a uniformed person is visible in the background.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

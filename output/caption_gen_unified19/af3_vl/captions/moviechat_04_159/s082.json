@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s082",
+  "time_range": [
+    405.0,
+    410.0
+  ],
+  "visual_description": "A man in a white shirt and dark collar is seen in close-up, looking downward at a screen or document. The scene shifts to a digital interface displaying radio scanner data with fields like \"Licensee,\" \"City,\" and \"Lat/Lon\" coordinates. The man’s gaze remains fixed downward, his posture still and focused on the screen.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable prosody or background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and dark collar is seen in close-up, looking downward at a screen or document. The scene shifts to a digital interface displaying radio scanner data with fields like \"Licensee,\" \"City,\" and \"Lat/Lon\" coordinates. The man’s gaze remains fixed downward, his posture still and focused on the screen.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

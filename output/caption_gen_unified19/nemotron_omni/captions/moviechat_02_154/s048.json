@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_description": "At night, a dark sedan with bright headlights drives down a wet, narrow street lined with buildings and a golden temple spire in the distance. A man in a light-colored shirt runs across the street and then approaches the driver’s side of the stopped car, while another person in dark clothing stands nearby on the left.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear, with only the faint hum of the car engine audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s048\", \"time_range\": [235.0, 240.0], \"visual\": \"At night, a dark sedan with bright headlights drives down a wet, narrow street lined with buildings and a golden temple spire in the distance. A man in a light-colored shirt runs across the street and then approaches the driver’s side of the stopped car, while another person in dark clothing stands nearby on the left.\", \"audio\": \"The audio is unclear, with only the faint hum of the car engine audible.\", \"confidence\": \"high\", \"eviden"
+}

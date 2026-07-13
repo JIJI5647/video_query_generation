@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and a moderate speaking rate, accompanied by background music.",
+  "temporal_description": "A person with a balding head and dark hair, wearing a dark shirt, is seated with their head bowed and hands covering their face. A child with light-colored, curly hair, wearing a gray long-sleeved shirt, approaches from behind and places their arms around the seated person's shoulders, then leans in to embrace them. The child's back is mostly to the camera, and the seated person remains still with their head down. The background features a wall with several framed photographs and a hanging cloth.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with a balding head and dark hair, wearing a dark shirt, is seated with their head bowed and hands covering their face. A child with light-colored, curly hair, wearing a gray long-sleeved shirt, approaches from behind and places their arms around the seated person's shoulders, then leans in to embrace them. The child's back is mostly to the camera, and the seated person remains still with their head down. The background features a wall with several framed photographs and a hanging cloth",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

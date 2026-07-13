@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, followed by a sudden loud explosion, creating a dramatic and intense atmosphere.",
+  "temporal_description": "Two individuals are seated inside a vehicle, with the person in the foreground visible in profile, wearing a dark shirt and looking forward. The second person, slightly out of focus, is seated behind and appears to be holding an object near their face. The car is shown driving up a steep, grassy incline, with the front wheels lifting off the ground as it ascends. The vehicle’s license plate is visible, and the surrounding environment includes trees and a stone marker. The person in the foreground remains seated and focused ahead, while the car’s motion suggests a challenging ascent.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two individuals are seated inside a vehicle, with the person in the foreground visible in profile, wearing a dark shirt and looking forward. The second person, slightly out of focus, is seated behind and appears to be holding an object near their face. The car is shown driving up a steep, grassy incline, with the front wheels lifting off the ground as it ascends. The vehicle’s license plate is visible, and the surrounding environment includes trees and a stone marker. The person in the foregroun",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

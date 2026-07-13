@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "The woman in a red ball gown sits on the floor of a dimly lit room, her back near a mirror and a bathtub with a small light glowing nearby. The scene shifts to a man in dark clothing standing on a checkered floor, moving energetically with his arms raised in a room that contains a bed and an open doorway.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible sound is present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"The woman in a red ball gown sits on the floor of a dimly lit room, her back near a mirror and a bathtub with a small light glowing nearby. The scene shifts to a man in dark clothing standing on a checkered floor, moving energetically with his arms raised in a room that contains a bed and an open doorway.\", \"audio\": \"No audible sound is present.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

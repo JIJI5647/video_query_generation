@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, delivering a heartfelt message to Mariangela, with no noticeable background noise or emotional inflection.",
+  "temporal_description": "Two men are in a kitchen setting. One is seated on a stool, holding a piece of paper, while the other leans over the counter, hands clasped, looking at the paper. The seated man is wearing a gray sweater and black pants, while the other wears a dark jacket over a light shirt. The kitchen has a stove, refrigerator, microwave, and a foosball table in the foreground. The man leaning over gestures with his hands while looking at the paper, and the seated man occasionally looks up and gestures with his hand. Both are focused on the paper, and their gazes shift between the paper and each other.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are in a kitchen setting. One is seated on a stool, holding a piece of paper, while the other leans over the counter, hands clasped, looking at the paper. The seated man is wearing a gray sweater and black pants, while the other wears a dark jacket over a light shirt. The kitchen has a stove, refrigerator, microwave, and a foosball table in the foreground. The man leaning over gestures with his hands while looking at the paper, and the seated man occasionally looks up and gestures with h",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

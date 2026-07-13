@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_description": "A man in a white shirt and black tie stands in an office, looking angry and shouting. He is in front of a television screen displaying a security camera feed of an empty hallway. Other people are seated at a conference table in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man is shouting in an agitated tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s068\", \"time_range\": [335.0, 340.0], \"visual\": \"A man in a white shirt and black tie stands in an office, looking angry and shouting. He is in front of a television screen displaying a security camera feed of an empty hallway. Other people are seated at a conference table in the background.\", \"audio\": \"A man is shouting in an agitated tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a phone to his ear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a blue-green hue"
+    },
+    "objects": [
+      {
+        "object": "phone",
+        "position": "in hand",
+        "action": "held to ear"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man holding phone to ear"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man",
+      "facial_cues": [
+        "sweating",
+        "closed eyes",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "hand holding phone to ear"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "a man speaking in a low, calm voice.",
+  "temporal_description": "the man's expression changes from looking forward to looking down as the clip progresses.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s051\", \"time_range\": [250.0, 255.0], \"visual_objective\": {\"people\": [{\"person\": \"a man\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a phone to his ear\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a blue-green hue\"}, \"objects\": [{\"object\": \"phone\", \"position\": \"in hand\", \"action\": \"held to ear\"}], \"interactions\": [], \"key_actions\": [\"man holding phone to ear\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a m"
+}

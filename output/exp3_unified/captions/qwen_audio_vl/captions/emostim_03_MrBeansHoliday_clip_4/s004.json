@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a suit rides a bicycle on a dusty road, passing a parked silver SUV with its door open; another man in a suit is visible inside the SUV, looking toward the cyclist. The cyclist leans forward, gripping the handlebars, while the SUV’s driver-side door remains open, revealing the interior. The scene is set outdoors under bright sunlight, with rolling hills and sparse vegetation in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a burst of high-energy, professionally produced pop-punk music, immediately immersing the listener in a dense, layered soundscape. The instrumentation features a driving drum kit with a punchy kick, snare, and crisp hi-hats, a distorted electric guitar playing a fast, palm-muted riff, a melodic bass guitar, and a bright, sustained synthesizer pad. The mix is wide and immersive, with the drums and bass centered and guitars and synths panned to the sides, creating a sense of space and depth. The overall sound is loud, compressed, and polished, with a modern, digital production style that emphasizes clarity and impact. A female vocalist enters, singing in a clear, high-pitched, and energetic tone. Her delivery is bright and assertive, with a slight reverb effect that adds a sense of space. She sings the phrase, \"Na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na na",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit rides a bicycle on a dusty road, passing a parked silver SUV with its door open; another man in a suit is visible inside the SUV, looking toward the cyclist. The cyclist leans forward, gripping the handlebars, while the SUV’s driver-side door remains open, revealing the interior. The scene is set outdoors under bright sunlight, with rolling hills and sparse vegetation in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

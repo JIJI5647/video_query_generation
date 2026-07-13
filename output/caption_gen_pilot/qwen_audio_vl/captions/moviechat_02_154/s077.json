@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a latch or switch being engaged, immediately followed by a brief, low-frequency thud as a heavy object is set down on a hard surface. A faint rustling sound suggests the movement of clothing or a bag, indicating the presence of a person. The environment is acoustically dry, with minimal reverberation, pointing to a small, enclosed space such as a room or office. A male voice, speaking in a clear, neutral tone with a General American English accent, calmly says, “I’ll make a call.” His speech is unhurried and matter-of-fact, with no emotional inflection, and is accompanied by a subtle, low-level electronic hiss typical of consumer-grade recording equipment.\n\nAfter the speech, a series of soft, muffled thuds and rustling noises occur, consistent with the handling of a small, dense object—possibly a phone or device—being placed on a desk or table. The sounds are close to the microphone, reinforcing the sense of proximity and intimacy. The background remains quiet, with no other voices or environmental noises present.\n\nSuddenly, a loud, high-frequency electronic tone erupts, characterized by a harsh, buzzy timbre and a rapid, stuttering rhythm. This synthetic sound, reminiscent of a digital error alert or system malfunction, is significantly louder than previous sounds and dominates the audio, masking all other noises. The tone is abruptly cut off, ending the recording with no fade-out or lingering echo.\n\nIn summary, the audio captures a brief, focused sequence in a quiet, enclosed setting: a man calmly announces his intention to make a call, followed by the handling of an object, and culminating in a sudden, jarring electronic alert. The recording’s moderate fidelity, lack of extraneous noise, and abrupt ending suggest a candid, unscripted moment, possibly documenting a technical mishap or system error in a private or professional environment.",
+  "temporal_description": "A man in a dark leather jacket sits at a table, holding chopsticks and occasionally stirring or gesturing toward a steaming pot. Behind him, another man in a gray suit stands holding a bottle, observing. The setting appears to be a dimly lit, cluttered eatery with visible electrical panels and posters on the wall. The seated man’s posture is relaxed but attentive, and he occasionally looks toward the pot or the standing man.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark leather jacket sits at a table, holding chopsticks and occasionally stirring or gesturing toward a steaming pot. Behind him, another man in a gray suit stands holding a bottle, observing. The setting appears to be a dimly lit, cluttered eatery with visible electrical panels and posters on the wall. The seated man’s posture is relaxed but attentive, and he occasionally looks toward the pot or the standing man.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "The child, wearing a red and gray striped sweater over a plaid shirt, stands in a dimly lit bedroom facing a closed wooden door. He holds a red marker in his right hand and writes the letters \"PE\" on the door, then draws a heart shape beside them. In the background, a lamp casts a warm glow over a bed where a person lies under a blanket.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The faint scratching of the marker on the door is audible, while the rest of the room is quiet.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual\": \"The child, wearing a red and gray striped sweater over a plaid shirt, stands in a dimly lit bedroom facing a closed wooden door. He holds a red marker in his right hand and writes the letters \\\"PE\\\" on the door, then draws a heart shape beside them. In the background, a lamp casts a warm glow over a bed where a person lies under a blanket.\", \"audio\": \"The faint scratching of the marker on the door is audible, while the rest of the roo"
+}

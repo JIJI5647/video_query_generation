@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_description": "A man in a beige suit jacket and a floral shirt is laughing heartily while looking at another man in a dark suit. The man in the dark suit then raises his hand and strikes the laughing man in the face. The scene is chaotic, with a blurry background showing a table with food and candles.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man is laughing, followed by a loud slap sound and a scream.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s081\", \"time_range\": [400.0, 405.0], \"visual\": \"A man in a beige suit jacket and a floral shirt is laughing heartily while looking at another man in a dark suit. The man in the dark suit then raises his hand and strikes the laughing man in the face. The scene is chaotic, with a blurry background showing a table with food and candles.\", \"audio\": \"A man is laughing, followed by a loud slap sound and a scream.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

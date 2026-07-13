@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A person with light-colored, wavy hair is seen from behind, embracing another individual whose head is bowed and face is obscured. The embracing person has their arms wrapped around the other’s shoulders and back, holding them close. Both are positioned against a plain, vertically textured wall in a dimly lit setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and moderate speed, accompanied by a brief, clear utterance.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with light-colored, wavy hair is seen from behind, embracing another individual whose head is bowed and face is obscured. The embracing person has their arms wrapped around the other’s shoulders and back, holding them close. Both are positioned against a plain, vertically textured wall in a dimly lit setting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_description": "A man with shoulder-length brown hair, wearing a maroon jacket over a plaid shirt and blue jeans, walks down a narrow hallway with yellow floral wallpaper, passing a round mirror and a glass-paneled door while smiling. He holds a small object in his left hand and looks ahead as he approaches the camera.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with faint ambient hallway sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s032\", \"time_range\": [155.0, 160.0], \"visual\": \"A man with shoulder-length brown hair, wearing a maroon jacket over a plaid shirt and blue jeans, walks down a narrow hallway with yellow floral wallpaper, passing a round mirror and a glass-paneled door while smiling. He holds a small object in his left hand and looks ahead as he approaches the camera.\", \"audio\": \"The audio is quiet with faint ambient hallway sounds.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

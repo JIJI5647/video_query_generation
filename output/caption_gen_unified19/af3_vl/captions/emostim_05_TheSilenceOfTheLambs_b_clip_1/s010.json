@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A woman with brown hair is visible from the chest up, her face partially obscured by a blurred foreground object. She looks downward and slightly to her right, her mouth slightly open and her gaze focused on something out of frame. Her posture is still, with no discernible movement or gesture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with brown hair is visible from the chest up, her face partially obscured by a blurred foreground object. She looks downward and slightly to her right, her mouth slightly open and her gaze focused on something out of frame. Her posture is still, with no discernible movement or gesture.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

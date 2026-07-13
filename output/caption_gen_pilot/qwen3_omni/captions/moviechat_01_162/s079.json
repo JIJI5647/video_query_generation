@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black tie with a police rank insignia",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "speaking and looking forward"
+      },
+      {
+        "person": "a man in a light blue shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or meeting room with a large table and chairs, and a glass partition in the background."
+    },
+    "objects": [
+      {
+        "object": "a table",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "on which there are papers, mugs, and a police cap."
+      },
+      {
+        "object": "a police cap",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "placed on the table."
+      },
+      {
+        "object": "a television screen",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "displaying a blue and white image."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the white shirt speaks.",
+      "The man in the light blue shirt looks down."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black tie with a police rank insignia",
+      "facial_cues": [
+        "mouth moving",
+        "eyebrows slightly raised"
+      ],
+      "body_cues": [
+        "sitting upright"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a serious tone.",
+  "temporal_description": "The man in the white shirt speaks throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s079\", \"time_range\": [390.0, 395.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and black tie with a police rank insignia\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"speaking and looking forward\"}, {\"person\": \"a man in a light blue shirt and black tie\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"looking down\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office or meeting room with a large table and cha"
+}

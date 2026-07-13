@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a gray sweatshirt sits at a table holding a piece of paper, gesturing with his other hand while looking toward another person. The second person, wearing a black jacket and headphones, faces him, partially visible from the side. Behind them, shelves hold various items including a soccer ball, figurines, and a TV, with a third person seated in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with moderate pitch and pace, accompanied by a brief pause before the speech begins.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a gray sweatshirt sits at a table holding a piece of paper, gesturing with his other hand while looking toward another person. The second person, wearing a black jacket and headphones, faces him, partially visible from the side. Behind them, shelves hold various items including a soccer ball, figurines, and a TV, with a third person seated in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

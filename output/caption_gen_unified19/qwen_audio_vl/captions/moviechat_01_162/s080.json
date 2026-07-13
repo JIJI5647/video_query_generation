@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_description": "Five men in uniform are seated around a large table in an office, with one standing near the back; all appear to be engaged in a meeting or briefing. The seated men are writing or reviewing documents, while the standing man has his arms crossed and looks toward the group. The room has glass partitions, office equipment, and a television displaying a video feed, with other people visible in adjacent workspaces.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a brief, low-frequency thump, likely from a microphone being adjusted or a hand brushing against the device, immediately followed by a faint, high-frequency rustle—possibly from clothing or paper—suggesting the presence of multiple individuals in a small, enclosed room. The environment is characterized by a persistent, low-level hiss and a subtle, low-frequency hum, indicative of a basic recording setup in a space with hard, reflective surfaces, such as a concrete-walled office or interrogation room. The acoustics are dry, with minimal reverberation, and the overall sound quality is moderate, with a limited frequency range and some mild distortion on the loudest speech. A single male voice, authoritative and commanding, speaks in Mandarin Chinese: “你们要办得风光一点，知道吗？” (“You must make it grand and impressive, understand?”). His tone is firm, with a slightly raised pitch and a clipped, forceful delivery, conveying urgency and expectation. The speech is clear and intelligible, with no regional accent, and is delivered in a manner typical of a superior addressing subordinates. Immediately following this directive, a chorus of at least three male voices responds in unison: “是，长官！” (“Yes, sir!”",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Five men in uniform are seated around a large table in an office, with one standing near the back; all appear to be engaged in a meeting or briefing. The seated men are writing or reviewing documents, while the standing man has his arms crossed and looks toward the group. The room has glass partitions, office equipment, and a television displaying a video feed, with other people visible in adjacent workspaces.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

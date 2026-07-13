@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_description": "A small blue boat with an orange rim glides across dark water at night, illuminated by a faint light. Three people are aboard: a man stands at the bow wearing dark clothing, while a woman and another man sit near the stern. The water churns slightly as the boat moves forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "audio not clearly audible",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s048\", \"time_range\": [235.0, 240.0], \"visual\": \"A small blue boat with an orange rim glides across dark water at night, illuminated by a faint light. Three people are aboard: a man stands at the bow wearing dark clothing, while a woman and another man sit near the stern. The water churns slightly as the boat moves forward.\", \"audio\": \"audio not clearly audible\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

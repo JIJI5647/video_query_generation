@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "The man in dark clothing swings his arm, emitting bright sparks in a dark setting. The sparks strike a large wooden bridge, causing flashes on its beams. The view widens to show the bridge at night with a train crossing as a bright flash illuminates part of the structure.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "the audio is unclear",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s023\", \"time_range\": [110.0, 115.0], \"visual\": \"The man in dark clothing swings his arm, emitting bright sparks in a dark setting. The sparks strike a large wooden bridge, causing flashes on its beams. The view widens to show the bridge at night with a train crossing as a bright flash illuminates part of the structure.\", \"audio\": \"the audio is unclear\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

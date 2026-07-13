@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a clear and steady prosody, and no noticeable background noise or emotional inflection.",
+  "temporal_description": "Two men are seated at a table in a dimly lit room, facing each other. The man on the left, wearing a patterned shirt, holds a cigarette and gestures with his hand while speaking. The man on the right, dressed in a dark jacket, listens attentively, occasionally nodding. In the background, another person is seated, smoking and looking away, partially obscured. The setting includes a chalkboard with writing, a radio, and shelves with various items, suggesting a casual, possibly informal environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at a table in a dimly lit room, facing each other. The man on the left, wearing a patterned shirt, holds a cigarette and gestures with his hand while speaking. The man on the right, dressed in a dark jacket, listens attentively, occasionally nodding. In the background, another person is seated, smoking and looking away, partially obscured. The setting includes a chalkboard with writing, a radio, and shelves with various items, suggesting a casual, possibly informal environment",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

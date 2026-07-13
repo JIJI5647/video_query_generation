@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with blonde hair",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "peeking from behind a pillar, then ducking down and moving away"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with stone pillars and debris on the floor, suggesting a ruin or old building"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "peeking",
+      "ducking",
+      "moving away"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young man with blonde hair",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "ducking down",
+        "moving away"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "a loud crash is heard, followed by a male voice shouting in Chinese.",
+  "temporal_description": "The audio begins with a loud crash, immediately followed by a male voice shouting.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s060\", \"time_range\": [295.0, 300.0], \"visual_objective\": {\"people\": [{\"person\": \"a young man with blonde hair\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"peeking from behind a pillar, then ducking down and moving away\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, with stone pillars and debris on the floor, suggesting a ruin or old building\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"peeking\", \"ducking\", \"moving away\"], \"visib"
+}

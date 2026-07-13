@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands with hands on hips, facing forward, while another man in a similar shirt sits at a desk with a monitor displaying a scene. A third man in a light blue shirt sits beside the officer, looking down. The scene appears to be an office or control room with glass partitions and dim lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single male speaker, whose voice is clear, steady, and delivered in standard Mandarin Chinese. He speaks in a formal, authoritative tone, characteristic of a police officer or official reporting to a superior. The speaker states, “这是黄警司。死的和受伤的疑凶全都是韩琛的手下。” (“This is Superintendent Wong. The dead and injured suspects are all under the command of Han Chen.”) His speech is precise, with no inflection, and is delivered at a measured pace, suggesting a professional and controlled demeanor. The recording is of high fidelity, with no background noise, music, or environmental sounds, and the voice is captured in a dry, acoustically neutral setting, likely a studio or sound booth. The audio is monophonic, with no spatial cues, and the speaker’s voice is centered and close to the microphone. The clip ends abruptly, with no fade-out or trailing sound. In summary, the audio presents a concise, formal police report in Mandarin, delivered by a male officer to a superior, identifying the deceased and injured suspects as subordinates of a figure named Han Chen. The recording is technically pristine, devoid of any ambient or musical elements, and is designed to convey official information in",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands with hands on hips, facing forward, while another man in a similar shirt sits at a desk with a monitor displaying a scene. A third man in a light blue shirt sits beside the officer, looking down. The scene appears to be an office or control room with glass partitions and dim lighting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

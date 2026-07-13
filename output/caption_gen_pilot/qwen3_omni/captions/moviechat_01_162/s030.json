@@ -1,0 +1,73 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking with a distressed expression, sweating, and looking to the right"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting in the driver's seat, holding his hand to his mouth"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "daytime, with green foliage visible outside the window"
+    },
+    "objects": [
+      {
+        "object": "a bandaged hand",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held to the man's mouth"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the foreground speaks",
+      "the man in the background holds his hand to his mouth"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "sweating",
+        "distressed expression",
+        "mouth open"
+      ],
+      "body_cues": [
+        "hand raised to mouth"
+      ],
+      "gaze": "to the right"
+    },
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "bandaged hand"
+      ],
+      "body_cues": [
+        "hand held to mouth"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a distressed tone.",
+  "temporal_description": "The man in the foreground continues to speak throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s030\", \"time_range\": [145.0, 150.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"speaking with a distressed expression, sweating, and looking to the right\"}, {\"person\": \"a man in a black shirt\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"sitting in the driver's seat, holding his hand to his mouth\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"daytime"
+}

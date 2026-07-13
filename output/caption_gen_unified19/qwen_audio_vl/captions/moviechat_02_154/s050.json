@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_description": "In a dimly lit office with greenish lighting, several people are seated at desks, focused on work under individual lamps, while one person stands near a whiteboard holding papers. A close-up shows a man holding a phone to his ear, his gaze directed forward, with a watch visible on his wrist. The room has blinds covering windows, framed pictures on the walls, and cluttered desks with various items.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a dramatic, synthesized orchestral score reminiscent of late-1990s to early-2000s video game soundtracks. The music features a sweeping, high-register string section, a deep, resonant bass, and a steady, electronic drumbeat, all enveloped in lush reverb that creates a sense of grandeur and anticipation. The arrangement is entirely electronic, with no acoustic instruments, and the melody is simple, repetitive, and emotionally charged, evoking a mood of suspense and impending revelation. The music is presented in stereo, with instruments spread across the soundstage, and is accompanied by a faint, persistent electronic hiss, indicating a low-fidelity recording environment. At the same moment the music starts, a sharp, metallic click is heard, followed by a brief, high-pitched mechanical whir. This sequence is immediately succeeded by a soft, low-frequency thud, suggesting the activation of a mechanical device—most likely a camera shutter or a similar mechanism. The mechanical sounds are dry and close-miked, contrasting with the reverberant music and indicating they were recorded in a controlled, acoustically treated space. Shortly after, a series of soft, muffled rustling and crinkling noises emerge",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit office with greenish lighting, several people are seated at desks, focused on work under individual lamps, while one person stands near a whiteboard holding papers. A close-up shows a man holding a phone to his ear, his gaze directed forward, with a watch visible on his wrist. The room has blinds covering windows, framed pictures on the walls, and cluttered desks with various items.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

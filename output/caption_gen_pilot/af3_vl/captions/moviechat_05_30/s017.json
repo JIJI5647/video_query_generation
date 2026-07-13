@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a slow speaking rate. The voice sounds slightly strained and emotional, with a slight tremble in the delivery. There are no other non-speech sounds present in the clip.",
+  "temporal_description": "A central figure with long, dark hair and a dark, buttoned jacket holds a lit torch, standing in front of a group of people in dim, outdoor lighting. The surrounding individuals, dressed in varied dark and muted clothing, stand in a semi-circle behind him, mostly facing forward with neutral postures. The central figure slowly lowers the torch and shifts his gaze slightly, while the group remains still and attentive. The scene is set in a dark, possibly wooded or rugged environment, with the torch’s flame providing the only significant illumination.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A central figure with long, dark hair and a dark, buttoned jacket holds a lit torch, standing in front of a group of people in dim, outdoor lighting. The surrounding individuals, dressed in varied dark and muted clothing, stand in a semi-circle behind him, mostly facing forward with neutral postures. The central figure slowly lowers the torch and shifts his gaze slightly, while the group remains still and attentive. The scene is set in a dark, possibly wooded or rugged environment, with the torc",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

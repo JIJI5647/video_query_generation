@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "Two men are in a living room. The man on the left, wearing a pink plaid shirt, is bent over a coffee table, handling a white object and a clear glass. The man on the right, wearing a blue plaid shirt, stands with his hands on his hips, looking at the other man. The room has beige walls, a couch, a lamp, and a framed picture on the wall. The man in pink looks up at the man in blue, then back down at the table. The man in blue remains standing still, watching the other man.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are in a living room. The man on the left, wearing a pink plaid shirt, is bent over a coffee table, handling a white object and a clear glass. The man on the right, wearing a blue plaid shirt, stands with his hands on his hips, looking at the other man. The room has beige walls, a couch, a lamp, and a framed picture on the wall. The man in pink looks up at the man in blue, then back down at the table. The man in blue remains standing still, watching the other man.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

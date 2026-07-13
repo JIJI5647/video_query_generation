@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A group of armored soldiers stands in formation, their helmets obscuring faces, holding spears upright in a dim, forested environment. A hand extends forward, gripping a wooden staff, with a dark, shadowy figure partially visible behind it. The scene is dark and atmospheric, with muted lighting and blurred background elements.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, loud, and abrupt sound, likely a glass shattering, with no discernible speech or background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of armored soldiers stands in formation, their helmets obscuring faces, holding spears upright in a dim, forested environment. A hand extends forward, gripping a wooden staff, with a dark, shadowy figure partially visible behind it. The scene is dark and atmospheric, with muted lighting and blurred background elements.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

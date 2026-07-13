@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A woman with shoulder-length blonde hair, wearing a dark sweater over a white collared shirt, sits at a table facing forward. A man with dark hair and a striped sweater sits across from her, holding a sandwich and looking down at it. The background shows other people seated at tables in what appears to be a busy cafeteria or dining area.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, high-frequency hiss, characteristic of analog tape or low-fidelity digital recording, establishing a quiet, controlled environment. A female voice, positioned slightly left of center and close to the microphone, speaks in a clear, measured tone: “One time or another have faked it.” Her delivery is calm and matter-of-fact, with a subtle, low-frequency thump—likely from a hand or object—heard just before she finishes. Immediately following, a male voice, slightly right of center and more distant, responds with a lower pitch and a hint of gravelly resonance: “Well, they haven’t faked it with me.” His tone is confident and slightly defensive, with a brief, soft rustle—possibly from clothing or a shift in posture—accompanying his speech. The female voice then asks, “How do you know?” in a questioning, slightly higher pitch, her intonation rising at the end, indicating genuine curiosity and a conversational challenge. The male voice is about to reply, but the audio is abruptly cut off mid-word, leaving the exchange unresolved. Throughout, the recording maintains a narrow stereo field, with voices distinctly separated and no environmental or musical sounds present. The dialogue is clear and intelligible",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length blonde hair, wearing a dark sweater over a white collared shirt, sits at a table facing forward. A man with dark hair and a striped sweater sits across from her, holding a sandwich and looking down at it. The background shows other people seated at tables in what appears to be a busy cafeteria or dining area.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

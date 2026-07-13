@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_description": "A man with long, dark hair, wearing a dark red shirt, is in a dimly lit bedroom. He swings a long, light-colored object, possibly a bat or a stick, towards a door that has a large, jagged hole in it. He then turns and walks towards the damaged door.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, distorted, and guttural roar is heard, followed by a crashing sound.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s055\", \"time_range\": [270.0, 275.0], \"visual\": \"A man with long, dark hair, wearing a dark red shirt, is in a dimly lit bedroom. He swings a long, light-colored object, possibly a bat or a stick, towards a door that has a large, jagged hole in it. He then turns and walks towards the damaged door.\", \"audio\": \"A loud, distorted, and guttural roar is heard, followed by a crashing sound.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

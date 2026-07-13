@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A young child with light-colored hair, wearing a gray hoodie, is visible in a dimly lit setting. An adult's hands are seen near the child's shoulders, and the child is looking downward with their hands near their ears. The background is dark with faint light sources, and the child’s posture is slightly hunched.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins in a quiet, acoustically dry indoor setting, likely a small, carpeted room in a private home. A faint, low-frequency hum from an appliance or HVAC system is present, accompanied by a subtle, high-frequency hiss from the recording device. The first sound is a sharp, high-pitched gasp or cry from a young child, immediately followed by a soft, wet mouth sound, indicating the child is close to the microphone. The child then emits a brief, high-pitched whimper, which quickly transitions into a longer, strained, and breathy cry. This cry is marked by a descending pitch and a wet, gurgling quality. The tone is one of acute pain or, with the child’s voice trembling and wavering. As the crying continues, the child attempts to speak, producing a single, strained syllable: “Diao.” The pronunciation is heavily muffled and distorted, with the “D” sound barely audible and the “iao” portion sounding like a wet, nasal, and breathy “yao.” The utterance is not a clear word but rather a desperate, unintelligible cry, possibly an attempt to call for help",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair, wearing a gray hoodie, is visible in a dimly lit setting. An adult's hands are seen near the child's shoulders, and the child is looking downward with their hands near their ears. The background is dark with faint light sources, and the child’s posture is slightly hunched.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

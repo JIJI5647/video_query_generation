@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, overwhelming explosion that dominates the soundscape. This initial event is marked by a deep, concussive boom, a sharp, high-frequency crack, and a powerful low-frequency rumble, all rendered with intense digital distortion and clipping. The explosion’s force is so great that it overloads the recording equipment, resulting in a harsh, saturated sound. Immediately following the blast, a dense, metallic reverberation fills the space, with echoes and fluttering reflections that suggest a vast, hard-surfaced environment—such as a concrete tunnel, industrial hall, or canyon. The reverberation is complex and layered, with the echoes decaying gradually and creating a sense of immense scale and emptiness.\n\nAs the reverberation fades, a low-frequency, mechanical hum emerges, reminiscent of a large engine or industrial machinery. This hum is steady and unchanging, providing a constant backdrop that reinforces the impression of a massive, empty, and possibly abandoned industrial setting. The hum is accompanied by a faint, high-frequency hiss, likely a result of the recording equipment’s noise floor or environmental static. Throughout this section, there are no human voices, animal sounds, or other environmental noises; the atmosphere remains stark and isolated.\n\nSuddenly, the hum and hiss are cut off by a hard, digital edit, and a pure, synthetic electronic tone takes over. This tone is a low-frequency, monophonic square wave at approximately 110 Hz (A2), characterized by a buzzy, harmonically rich timbre. The tone is unwavering in pitch and amplitude, with no modulation or vibrato, and is presented in a dry, direct manner without any reverberation or environmental coloration. The tone persists until the end of the clip, where it is abruptly cut off, leaving no residual sound.\n\nThe recording is of high fidelity, with a wide frequency range and no analog artifacts. The initial explosion is heavily distorted due to its intensity, but the subsequent hum and electronic tone are clean and precise. The spatial impression is vast and empty, with the reverberation and hum suggesting a large, industrial, or subterranean environment. The absence of speech, music, or other environmental cues, combined with the abrupt transitions and synthetic tone, creates a mood of tension, isolation, and unresolved suspense. The structure and sound design evoke themes of disaster, technological failure, or existential threat, and the synthetic tone at the end is reminiscent of a system alert or error signal, suggesting a narrative of catastrophic event followed by technological response.\n\nIn summary, the audio clip presents a dramatic sequence: a violent explosion in a vast, reverberant industrial space, followed by a persistent mechanical hum and hiss, and concluding with a stark, synthetic electronic tone. The absence of speech or music, the high-fidelity recording, and the abrupt transitions all contribute to a tense, isolated atmosphere, evoking themes of disaster, technological failure, and unresolved suspense.",
+  "temporal_description": "The video shows a bald figure in a dark, flowing robe standing with their back to the camera, gazing at a large, fiery, glowing structure in the distance. The figure remains mostly still, occasionally shifting their posture slightly, and at one point, they hold a thin, dark object in their hand. The scene is dimly lit, with the only illumination coming from the glowing structure behind them, casting shadows and highlighting the contours of their robe and back. The figure’s head is slightly bowed, and their gaze is fixed forward, suggesting a contemplative or observant stance.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a bald figure in a dark, flowing robe standing with their back to the camera, gazing at a large, fiery, glowing structure in the distance. The figure remains mostly still, occasionally shifting their posture slightly, and at one point, they hold a thin, dark object in their hand. The scene is dimly lit, with the only illumination coming from the glowing structure behind them, casting shadows and highlighting the contours of their robe and back. The figure’s head is slightly bowed",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A young child with short brown hair, wearing a red and green sweater, stands in a dimly lit bedroom. The child is holding a small object and appears to be interacting with a door handle. In the background, a person is sleeping in a bed under a blue blanket.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low, guttural growl is heard, followed by a high-pitched electronic beep.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"A young child with short brown hair, wearing a red and green sweater, stands in a dimly lit bedroom. The child is holding a small object and appears to be interacting with a door handle. In the background, a person is sleeping in a bed under a blue blanket.\", \"audio\": \"A low, guttural growl is heard, followed by a high-pitched electronic beep.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

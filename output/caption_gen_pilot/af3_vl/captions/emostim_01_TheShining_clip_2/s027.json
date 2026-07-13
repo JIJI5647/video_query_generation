@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no noticeable prosody or background noise.",
+  "temporal_description": "A man with dark hair and a plaid shirt is partially visible through a narrow gap in a wooden door. He is holding a long wooden object, possibly a bat, and appears to be attempting to manipulate a door lock with his hand. His head is slightly tilted, and his gaze is directed toward the door handle. The door has a brass handle and chain lock, and the wall beside it features floral wallpaper. The man’s posture suggests he is focused on the task at hand, and his hand movements indicate he is trying to unlock or force the door.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark hair and a plaid shirt is partially visible through a narrow gap in a wooden door. He is holding a long wooden object, possibly a bat, and appears to be attempting to manipulate a door lock with his hand. His head is slightly tilted, and his gaze is directed toward the door handle. The door has a brass handle and chain lock, and the wall beside it features floral wallpaper. The man’s posture suggests he is focused on the task at hand, and his hand movements indicate he is trying ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

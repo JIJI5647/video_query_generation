@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_description": "A woman with shoulder-length brown hair, wearing a maroon top, is shown in a close-up, her gaze directed slightly off-camera. In another shot, a person lies supine while a gloved hand holds their chin and another hand manipulates a medical device near their mouth. The scene appears clinical, with the person on the table partially obscured and the focus on the procedure being performed.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically controlled indoor environment, likely a small office or conference room. Two adult male voices, both speaking in clear, standard American English, are present. The first speaker, positioned slightly left of center and close to the microphone, says, “Okay, so fax them for missing persons.” His tone is calm, businesslike, and slightly muffled, suggesting he is speaking from a short distance or with a slight barrier. The second speaker, positioned slightly right of center and closer to the microphone, responds with a brief, neutral “Right,” indicating agreement and readiness to proceed. The exchange is efficient and professional, with no inflection or extraneous background noise. Immediately following the conversation, a series of mechanical sounds occur. A sharp, high-pitched click is heard, consistent with the activation of a button or lever on a fax machine. This is followed by a rapid, rhythmic whirring and clicking, characteristic of a document feeder mechanism as it pulls paper into the machine. The sequence is accompanied by a faint, low-frequency hum, likely from the device’s motor or nearby electronics. The sounds are crisp and well-defined, with no distortion or background interference, and the room’s acoustics remain dry and neutral",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair, wearing a maroon top, is shown in a close-up, her gaze directed slightly off-camera. In another shot, a person lies supine while a gloved hand holds their chin and another hand manipulates a medical device near their mouth. The scene appears clinical, with the person on the table partially obscured and the focus on the procedure being performed.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

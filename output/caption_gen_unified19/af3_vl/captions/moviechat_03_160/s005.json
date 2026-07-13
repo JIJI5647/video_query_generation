@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man with gray hair, wearing a gray suit over a white shirt, is seen in a dimly lit room with a greenish hue, looking slightly to his right. Another person in dark clothing is partially visible behind a metal-barred door, leaning forward with their head down. The man in the foreground maintains a neutral posture, his gaze fixed off-screen, while the second person’s face and upper body are mostly obscured by the door’s bars.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pitch and pace, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair, wearing a gray suit over a white shirt, is seen in a dimly lit room with a greenish hue, looking slightly to his right. Another person in dark clothing is partially visible behind a metal-barred door, leaning forward with their head down. The man in the foreground maintains a neutral posture, his gaze fixed off-screen, while the second person’s face and upper body are mostly obscured by the door’s bars.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

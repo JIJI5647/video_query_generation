@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_description": "A group of men in a dimly lit room with blinds and a fan, some seated at desks with papers and computers, one standing and gesturing toward a map on the wall while others look on. One man in the foreground turns away from the camera, while others face various directions, some with neutral expressions and focused postures. The scene appears to be an office or briefing room with fluorescent lighting and a greenish tint.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful orchestral chord, immediately establishing a dramatic and cinematic atmosphere. This chord is constructed from a full string section—violins, violas, cellos, and double basses—playing in a minor key, with a rich, resonant timbre and a wide stereo image. The strings are layered with a deep, sustained bass note, likely from a cello or double bass, and a subtle, high-frequency shimmer, possibly from a synthesizer pad or a high string section, which adds an ethereal quality. The chord is held for a brief moment, then decays naturally, with the reverb tail lingering and enveloping the listener in a vast, artificial acoustic space. The overall sound is polished and professionally produced, with no extraneous noise or artifacts. As the chord fades, a low-frequency, synthetic drone emerges, centered in the stereo field and providing a sense of tension and anticipation. This drone is smooth and unmodulated, with a subtle, slow pulsation that adds a sense of unease. The reverb continues to fill the space, maintaining the impression of a large, cinematic environment. The atmosphere remains and suspenseful, with no other sounds present. Suddenly, the drone is cut off by",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in a dimly lit room with blinds and a fan, some seated at desks with papers and computers, one standing and gesturing toward a map on the wall while others look on. One man in the foreground turns away from the camera, while others face various directions, some with neutral expressions and focused postures. The scene appears to be an office or briefing room with fluorescent lighting and a greenish tint.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

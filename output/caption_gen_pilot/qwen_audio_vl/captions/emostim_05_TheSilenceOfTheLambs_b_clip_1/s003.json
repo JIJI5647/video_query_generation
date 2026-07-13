@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-frequency rustling sound, immediately establishing a close-miked, intimate setting. This initial noise is crisp and dry, resembling the manipulation of a stiff, synthetic fabric such as nylon or polyester, likely a jacket or bag. The sound is highly detailed, with a broad frequency range and no background noise, indicating a controlled, quiet environment. The rustling is dynamic, with rapid, irregular movements that suggest the object is being handled or adjusted by hand. The sound source is positioned slightly left of center in the stereo field, and the absence of reverberation or ambient cues points to a small, acoustically dampened space, such as a bedroom or studio.\n\nAs the rustling continues, it becomes more complex, with overlapping layers of friction and crinkling, indicating the object is being turned, folded, or repositioned. The sound remains dry and close, with no evidence of other people or environmental sounds. The manipulation is deliberate and methodical, with no signs of haste or urgency. The stereo image remains stable, and the sound source does not move significantly.\n\nAbruptly, the rustling ceases, and a single, sustained electronic tone emerges. This tone is low-pitched, around 110 Hz (musical note A2), and has a buzzy, harmonically rich timbre characteristic of a sawtooth or square wave. The tone is perfectly centered in the stereo field, with no spatial movement, and is presented at a constant volume and pitch. Its onset is instantaneous, with no fade-in, and it is free from distortion or background noise. The tone is reminiscent of a digital alert, notification, or system sound, and its abrupt termination at the end of the clip suggests a deliberate, functional purpose.\n\nThroughout the recording, there is no speech, vocalization, or music. The audio is of high fidelity, with a wide frequency range and no technical artifacts. The sequence of events—fabric manipulation followed by a digital tone—suggests a scenario where a person is handling a synthetic object, possibly preparing or concluding a task, and then receives a notification or alert from a digital device. The setting is private and controlled, with no cultural or linguistic markers present.\n\nIn summary, the audio captures a close-miked sequence of synthetic fabric being handled, followed by a sudden, centered electronic tone. The recording is clean, detailed, and devoid of speech or environmental context, indicating a private, functional setting where a person interacts with a synthetic object and receives a digital alert. The clip is likely intended to document or demonstrate a specific action and its associated notification, with no broader cultural or social context implied.",
+  "temporal_description": "A man in a dark suit and white shirt is seated, his right hand resting on a dark surface. The camera slowly pans upward, revealing his face, which is partially obscured by round glasses. He appears to be looking downward, with a neutral expression and still posture. Another man, partially visible in the foreground, is seated in front of him, his head slightly tilted. The background consists of a green-tiled wall, suggesting an institutional or clinical setting. The man in the suit remains motionless throughout, maintaining a steady gaze downward.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and white shirt is seated, his right hand resting on a dark surface. The camera slowly pans upward, revealing his face, which is partially obscured by round glasses. He appears to be looking downward, with a neutral expression and still posture. Another man, partially visible in the foreground, is seated in front of him, his head slightly tilted. The background consists of a green-tiled wall, suggesting an institutional or clinical setting. The man in the suit remains motion",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

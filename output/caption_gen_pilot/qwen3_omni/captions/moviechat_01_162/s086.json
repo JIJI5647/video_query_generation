@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s086",
+  "time_range": [
+    425.0,
+    430.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man with short gray hair wearing a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a cell phone held to his right ear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a chandelier and a golden statue in the background"
+    },
+    "objects": [
+      {
+        "object": "cell phone",
+        "position": "right hand",
+        "action": "held to ear"
+      },
+      {
+        "object": "golden statue",
+        "position": "right side",
+        "action": "standing"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man talking on phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "an older man with short gray hair wearing a black shirt",
+      "facial_cues": [
+        "mouth moving",
+        "eyebrows slightly raised"
+      ],
+      "body_cues": [
+        "hand holding phone to ear"
+      ],
+      "gaze": "looking slightly to the left"
+    }
+  ],
+  "audio_description": "A man speaking in a calm, conversational tone.",
+  "temporal_description": "The man's mouth moves as he speaks throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s086\", \"time_range\": [425.0, 430.0], \"visual_objective\": {\"people\": [{\"person\": \"an older man with short gray hair wearing a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"talking on a cell phone held to his right ear\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a chandelier and a golden statue in the background\"}, \"objects\": [{\"object\": \"cell phone\", \"position\": \"right hand\", \"action\": \"held to ear\"}, {\"object\": \"golde"
+}

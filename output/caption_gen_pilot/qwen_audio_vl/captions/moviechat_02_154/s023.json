@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched electronic siren, its tone rapidly oscillating between two pitches in a classic \"wail\" pattern. This siren is loud, clear, and slightly distorted, indicating it is close to the recording device and likely emanates from a police car or similar emergency vehicle. The siren’s sound is accompanied by a subtle, low-frequency rumble, suggesting the vehicle is idling or moving slowly. The environment is acoustically reflective, with short, sharp echoes indicating the presence of nearby buildings or hard surfaces, typical of an urban street or alleyway. The siren’s pitch and volume remain steady, with no Doppler effect, implying the vehicle is stationary or moving very slowly relative to the microphone.\n\nAt the four-second mark, the siren abruptly ceases, and the soundscape shifts to a quiet, low-level hiss, characteristic of a consumer-grade recording device’s noise floor. In this brief silence, a faint, low-frequency thump is heard, likely caused by the recording device being handled or bumped. Immediately following, a single, sharp, high-pitched electronic beep sounds, lasting about a second. This beep is clean, synthetic, and unmodulated, with a timbre and pitch consistent with a digital alert or confirmation tone from a consumer electronic device, such as a mobile phone or handheld recorder. The beep is not accompanied by any other sounds, and the recording ends abruptly after it.\n\nThroughout the clip, there is no speech, music, or other human vocalizations. The only human presence is inferred from the handling noise at the end. The recording is of moderate fidelity, with clear siren and beep sounds but some distortion and a persistent hiss. The spatial cues and environmental reflections suggest an outdoor urban setting, and the sequence of events—siren, brief silence, electronic beep—implies a scenario where an emergency vehicle is present, followed by the operator of the recording device interacting with their device, possibly to stop or confirm the recording.\n\nIn summary, the audio captures a brief, urban moment: a police car’s siren wails in a city street, then falls silent, followed by a faint bump and a digital beep from a nearby recording device, with no speech or music present. The recording’s technical and environmental details point to a modern, consumer-grade device used in a city environment, documenting the presence of an emergency vehicle and the operator’s interaction with their device.",
+  "temporal_description": "The video opens with a nighttime cityscape featuring tall buildings, wet streets reflecting lights, and a group of people standing near parked cars. The scene transitions to a police station, where a vehicle with headlights on is parked outside, and several individuals, including uniformed officers, walk in and out of the building. One man, wearing a dark jacket and a patterned shirt, is shown seated indoors, looking downward with a lamp and blinds visible in the background. The overall setting is dimly lit, emphasizing the nighttime urban environment and the activity around the police station.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video opens with a nighttime cityscape featuring tall buildings, wet streets reflecting lights, and a group of people standing near parked cars. The scene transitions to a police station, where a vehicle with headlights on is parked outside, and several individuals, including uniformed officers, walk in and out of the building. One man, wearing a dark jacket and a patterned shirt, is shown seated indoors, looking downward with a lamp and blinds visible in the background. The overall setting ",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

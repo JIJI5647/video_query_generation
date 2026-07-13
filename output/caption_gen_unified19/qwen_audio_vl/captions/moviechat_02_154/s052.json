@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_description": "A man in a blue shirt sits on the left side of a table, facing two other men across from him; one in a white shirt sits facing forward, while another in a beige suit sits behind the table. A man in a checkered shirt enters the room from the doorway in the background, standing near the entrance. The man in the beige suit looks down at papers on the table, while the man in the white shirt looks toward the entering man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency hum and a subtle high-frequency hiss, indicating a quiet, enclosed indoor environment with a consumer-grade recording device. A male voice, speaking in Cantonese with a standard Hong Kong accent, is heard saying, “知啦” (“I know”), his tone neutral and slightly muffled, suggesting he is positioned away from the microphone. Immediately following, a sharp, metallic click is heard, likely from a latch or lock being operated, accompanied by a brief, high-pitched squeak from a hinge or metal-on-metal friction. This is followed by a loud, resonant thud as a heavy door or gate is closed, the sound reverberating briefly in the room and indicating a hard, reflective surface such as concrete or tile. A second male voice, closer to the microphone and speaking with a more assertive, slightly exasperated tone, interjects with, “阿秋，查到啦” (“Ah Chiu, I found it”), using informal, colloquial phrasing typical of Hong Kong. The first speaker responds with a brief, low-pitched grunt, signaling acknowledgment. The second speaker continues, “我估你唔會走” (“I guess you won’t leave”), his tone shifting",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a blue shirt sits on the left side of a table, facing two other men across from him; one in a white shirt sits facing forward, while another in a beige suit sits behind the table. A man in a checkered shirt enters the room from the doorway in the background, standing near the entrance. The man in the beige suit looks down at papers on the table, while the man in the white shirt looks toward the entering man.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

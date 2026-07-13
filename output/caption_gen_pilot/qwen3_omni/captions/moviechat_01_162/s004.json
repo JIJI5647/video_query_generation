@@ -1,0 +1,76 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a black handgun with both hands, aiming it forward, then lowering it slightly."
+      },
+      {
+        "person": "a person with blood on their face",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "head tilted back, face covered in blood."
+      },
+      {
+        "person": "a person in the background",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "out of focus."
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "urban environment with blurred buildings in the background."
+    },
+    "objects": [
+      {
+        "object": "handgun",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man in the suit."
+      },
+      {
+        "object": "blood",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "on the face of the person on the right."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit aims the handgun forward.",
+      "The man in the suit lowers the handgun slightly."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "wide eyes",
+        "tense expression",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "hands gripping the handgun",
+        "body leaning forward"
+      ],
+      "gaze": "forward, then slightly to the right."
+    }
+  ],
+  "audio_description": "A dramatic, orchestral musical score plays.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a black handgun with both hands, aiming it forward, then lowering it slightly.\"}, {\"person\": \"a person with blood on their face\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"head tilted back, face covered in blood.\"}, {\"person\": \"a person in the background\", \"visibility\": \"partia"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "A person in dark clothing slides down a large, snow-covered slope at night. The scene is illuminated by a few distant lights, creating a hazy, blue-toned atmosphere. The person reaches the bottom of the slope and stands up, looking around.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, high-pitched screeching sound, like metal on metal, is heard throughout the clip.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s030\", \"time_range\": [145.0, 150.0], \"visual\": \"A person in dark clothing slides down a large, snow-covered slope at night. The scene is illuminated by a few distant lights, creating a hazy, blue-toned atmosphere. The person reaches the bottom of the slope and stands up, looking around.\", \"audio\": \"A loud, high-pitched screeching sound, like metal on metal, is heard throughout the clip.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

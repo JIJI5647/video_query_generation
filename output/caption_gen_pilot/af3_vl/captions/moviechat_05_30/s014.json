@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and urgent voice, likely a child, speaking rapidly with a sense of distress or excitement, accompanied by a sudden loud noise and a brief moment of silence.",
+  "temporal_description": "A bald figure in a dark robe stands with their back to the camera, gazing at a glowing, fiery scene in the distance. The scene shifts to a young man with round glasses and dark hair, wearing a brown jacket over a blue shirt, seated in a dimly lit, stone-walled environment. He looks downward, then turns his head slightly to the side, appearing to be in conversation or listening. The camera pans away from him, revealing stone columns and a crowd of people moving around in the background, some in dark clothing, suggesting a busy or crowded indoor setting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A bald figure in a dark robe stands with their back to the camera, gazing at a glowing, fiery scene in the distance. The scene shifts to a young man with round glasses and dark hair, wearing a brown jacket over a blue shirt, seated in a dimly lit, stone-walled environment. He looks downward, then turns his head slightly to the side, appearing to be in conversation or listening. The camera pans away from him, revealing stone columns and a crowd of people moving around in the background, some in d",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "A bald figure in a dark robe stands with their back to the camera, gazing downward at a glowing, fiery expanse below. The figure remains still, their posture upright and their head slightly tilted forward, suggesting focused attention on the scene before them. The environment is dimly lit, with the warm glow of the fiery ground contrasting against the dark, shadowy surroundings.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable non-speech sounds or prosodic variations.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A bald figure in a dark robe stands with their back to the camera, gazing downward at a glowing, fiery expanse below. The figure remains still, their posture upright and their head slightly tilted forward, suggesting focused attention on the scene before them. The environment is dimly lit, with the warm glow of the fiery ground contrasting against the dark, shadowy surroundings.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

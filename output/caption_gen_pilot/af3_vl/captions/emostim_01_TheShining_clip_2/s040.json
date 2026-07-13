@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice, high-pitched and urgent, expressing distress and fear, with a sense of panic and urgency in the tone.",
+  "temporal_description": "A person with long dark hair, wearing a dark blue robe, is partially buried in snow, with their upper body visible and hands positioned in front of them. They are situated in front of a wooden structure with glass panes, and their head is slightly tilted downward. The scene shifts to a wide view of a snow-covered landscape at night, featuring a large building with multiple windows and lights, and a solitary figure standing in the foreground. The figure remains still, facing away from the camera, with the building illuminated by artificial lighting against a dark, snowy backdrop.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a dark blue robe, is partially buried in snow, with their upper body visible and hands positioned in front of them. They are situated in front of a wooden structure with glass panes, and their head is slightly tilted downward. The scene shifts to a wide view of a snow-covered landscape at night, featuring a large building with multiple windows and lights, and a solitary figure standing in the foreground. The figure remains still, facing away from the camera,",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

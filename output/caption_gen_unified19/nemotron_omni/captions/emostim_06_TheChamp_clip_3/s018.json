@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_description": "A young child with blond hair is held by an older man in a dark suit and glasses, his hand gripping the child's arm. The child's mouth is open and tears are visible on his face as he cries. The background shows a plain wall in dim lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features the child's loud crying and the man's low, calm voice. The crying is prominent throughout the segment.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s018\", \"time_range\": [85.0, 90.0], \"visual\": \"A young child with blond hair is held by an older man in a dark suit and glasses, his hand gripping the child's arm. The child's mouth is open and tears are visible on his face as he cries. The background shows a plain wall in dim lighting.\", \"audio\": \"The audio features the child's loud crying and the man's low, calm voice. The crying is prominent throughout the segment.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

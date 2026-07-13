@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man in a dark jacket holds a lit cigarette, exhaling smoke against a black background. The scene then shifts to a man in a suit and glasses looking downward with a serious expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Silence.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"A man in a dark jacket holds a lit cigarette, exhaling smoke against a black background. The scene then shifts to a man in a suit and glasses looking downward with a serious expression.\", \"audio\": \"Silence.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

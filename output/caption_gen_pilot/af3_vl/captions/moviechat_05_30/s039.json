@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice shouting with a high pitch and intense emotion, conveying urgency and distress.",
+  "temporal_description": "A group of people, mostly in dark robes, are seen running and moving quickly across a courtyard as large explosions and flames erupt behind them. Debris flies through the air, and smoke billows from the burning structure in the background. Some individuals are seen raising their arms, possibly casting spells, while others are in motion, either running or ducking. The scene is chaotic, with figures moving in various directions, and the camera follows their movement as they navigate the dangerous environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people, mostly in dark robes, are seen running and moving quickly across a courtyard as large explosions and flames erupt behind them. Debris flies through the air, and smoke billows from the burning structure in the background. Some individuals are seen raising their arms, possibly casting spells, while others are in motion, either running or ducking. The scene is chaotic, with figures moving in various directions, and the camera follows their movement as they navigate the dangerous ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A man wearing glasses and a dark suit sits at a table, looking down with a serious expression. Across from him, another man in a dark suit holds a lit cigarette, exhaling smoke into the dimly lit room.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with faint ambient sounds, possibly the soft hiss of a cigarette.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"A man wearing glasses and a dark suit sits at a table, looking down with a serious expression. Across from him, another man in a dark suit holds a lit cigarette, exhaling smoke into the dimly lit room.\", \"audio\": \"The audio is quiet with faint ambient sounds, possibly the soft hiss of a cigarette.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

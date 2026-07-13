@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a pink plaid shirt is seen from the side, bending forward slightly as he moves toward a doorway. Another man in a blue button-down shirt stands in the doorway, looking toward the first man. The scene is set indoors in a room with framed artwork on the walls and furniture visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-frequency click, likely from a button press or device activation, immediately followed by a faint rustling sound as a person shifts or adjusts their position. A male voice, close to the microphone and speaking in a clear, General American accent, says, “Alright.” His tone is casual and slightly weary, suggesting mild resignation. A brief pause ensues, during which a soft, low-frequency thump is heard, possibly from a hand or object making contact with a surface. The speaker then continues, “Soaps, shampoos, are you really taking all this stuff?” His delivery is slow and deliberate, with a rising inflection on “really,” conveying gentle skepticism and mild exasperation. The phrase “Soaps, shampoos” is spoken with a slight emphasis, and the final question is delivered with a descending pitch, typical of a rhetorical inquiry. Throughout, a persistent low-level hiss and a faint hum are present, indicating the use of a consumer-grade recording device in a small, acoustically dampened room. The environment is quiet, with no other voices or background noises, and the speaker’s voice remains steady and centered, suggesting a stationary microphone. The clip ends abruptly, with no fade-out",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a pink plaid shirt is seen from the side, bending forward slightly as he moves toward a doorway. Another man in a blue button-down shirt stands in the doorway, looking toward the first man. The scene is set indoors in a room with framed artwork on the walls and furniture visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

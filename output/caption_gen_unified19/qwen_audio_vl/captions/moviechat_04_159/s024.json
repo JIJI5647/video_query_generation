@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_description": "A woman with shoulder-length hair, wearing a white collared shirt, is seated and looking forward while holding a cup. A man in a suit and tie is seen in motion, walking past a wall covered in framed photos. Another man holds a phone to his ear, his gaze directed forward with a neutral expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched metallic squeal, lasting about one second, which is characteristic of a heavy metal door or gate being opened or closed. This sound is accompanied by a faint, low-frequency hum, likely from an HVAC system or electrical equipment, and a subtle, persistent hiss from the recording device. The environment is acoustically reflective, suggesting a hard-surfaced, medium-sized indoor space such as a hallway or lobby. Immediately following the squeal, a female voice, speaking Mandarin Chinese with a standard Putonghua accent, delivers a clear and concise message: “牛头角，长汇工业大厦二楼” (“Niútóujiǎo, Chánghuì Gōngyè Dàshà èr lóu”). Her tone is neutral and professional, indicating she is relaying a location or instruction, possibly to a colleague or dispatcher. The speech is free of inflection and is delivered in a manner typical of a formal, work-related context. After a brief pause, a male voice responds with a single, clipped word: “查到” (“chá dào”), meaning “Found it” or “Confirmed.” His voice is lower in pitch, slightly muffled",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length hair, wearing a white collared shirt, is seated and looking forward while holding a cup. A man in a suit and tie is seen in motion, walking past a wall covered in framed photos. Another man holds a phone to his ear, his gaze directed forward with a neutral expression.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

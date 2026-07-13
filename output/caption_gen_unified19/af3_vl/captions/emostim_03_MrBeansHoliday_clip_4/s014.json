@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A man in a suit and tie is seated on the ground amidst straw and hay, partially obscured by a wire fence, with a chicken nearby. An older man wearing a black cap and plaid shirt is seated inside a vehicle, holding a small bird in his hand and looking toward the side. The scene appears to be outdoors with natural lighting, and the man in the car is gazing forward while holding the bird.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a moderate pitch and a steady pace, accompanied by a consistent background sound.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and tie is seated on the ground amidst straw and hay, partially obscured by a wire fence, with a chicken nearby. An older man wearing a black cap and plaid shirt is seated inside a vehicle, holding a small bird in his hand and looking toward the side. The scene appears to be outdoors with natural lighting, and the man in the car is gazing forward while holding the bird.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

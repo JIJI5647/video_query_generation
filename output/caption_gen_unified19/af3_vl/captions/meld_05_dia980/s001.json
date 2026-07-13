@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "Two men are in a kitchen; one sits on a stool holding a piece of paper, while the other leans over the counter beside him, hands clasped. The seated man looks down at the paper, while the leaning man gazes intently at the paper in the other’s hands. The scene includes a foosball table in the foreground, a refrigerator, stove, and various kitchen items in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, delivering a heartfelt message to Mariangela.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are in a kitchen; one sits on a stool holding a piece of paper, while the other leans over the counter beside him, hands clasped. The seated man looks down at the paper, while the leaning man gazes intently at the paper in the other’s hands. The scene includes a foosball table in the foreground, a refrigerator, stove, and various kitchen items in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

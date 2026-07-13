@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_description": "A dimly lit room shows a man in a white shirt and tie seated at a dark table with a laptop and papers, opposite a man in a blue shirt and another man in a green sweater. The camera then cuts to a close-up of a man in a suit and glasses looking down while speaking.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks calmly in Mandarin.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s034\", \"time_range\": [165.0, 170.0], \"visual\": \"A dimly lit room shows a man in a white shirt and tie seated at a dark table with a laptop and papers, opposite a man in a blue shirt and another man in a green sweater. The camera then cuts to a close-up of a man in a suit and glasses looking down while speaking.\", \"audio\": \"A male voice speaks calmly in Mandarin.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

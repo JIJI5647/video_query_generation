@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "struggling to pull herself out of deep snow"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "a snowy area at night, in front of a building with a frosted window."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "struggling",
+      "pulling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "straining",
+        "hands digging into snow"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A woman is crying and shouting in distress.",
+  "temporal_description": "The woman's distressed vocalizations continue throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s040\", \"time_range\": [195.0, 200.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a blue robe\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"struggling to pull herself out of deep snow\"}], \"scene\": {\"location\": \"outdoors\", \"setting\": \"a snowy area at night, in front of a building with a frosted window.\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"struggling\", \"pulling\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a wom"
+}

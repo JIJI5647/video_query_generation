@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s073",
+  "time_range": [
+    360.0,
+    365.0
+  ],
+  "visual_description": "A man in a black robe stands by a metal grid window, his right arm wrapped in a white bandage that he holds with his left hand. The camera then cuts to an older man with short white hair wearing a suit, who looks forward with a concerned expression. Both men are visible in a dimly lit indoor setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with no discernible speech or distinct sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s073\", \"time_range\": [360.0, 365.0], \"visual\": \"A man in a black robe stands by a metal grid window, his right arm wrapped in a white bandage that he holds with his left hand. The camera then cuts to an older man with short white hair wearing a suit, who looks forward with a concerned expression. Both men are visible in a dimly lit indoor setting.\", \"audio\": \"The audio is quiet with no discernible speech or distinct sounds.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

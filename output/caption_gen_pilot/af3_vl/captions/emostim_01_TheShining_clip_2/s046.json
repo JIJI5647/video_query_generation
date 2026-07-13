@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low, serious tone, with a steady pace and no significant background noise.",
+  "temporal_description": "A man with shoulder-length dark hair and a beard, wearing a plaid shirt under a maroon jacket, stands in a dimly lit room. He is facing away from the camera, holding a flat object in his right hand, and appears to be moving slightly as if adjusting his stance or preparing to place the object down. The room contains a bed with a wooden headboard, a nightstand with a lamp, a bookshelf filled with books, and a framed picture on the wall. The man’s posture is upright, and his head is slightly turned toward the bookshelf as he holds the object.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length dark hair and a beard, wearing a plaid shirt under a maroon jacket, stands in a dimly lit room. He is facing away from the camera, holding a flat object in his right hand, and appears to be moving slightly as if adjusting his stance or preparing to place the object down. The room contains a bed with a wooden headboard, a nightstand with a lamp, a bookshelf filled with books, and a framed picture on the wall. The man’s posture is upright, and his head is slightly turned",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

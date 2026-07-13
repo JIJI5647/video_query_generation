@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate speed, expressing surprise and shock, accompanied by audible breathing sounds.",
+  "temporal_description": "A woman with curly blonde hair, wearing a white collared shirt and a dark sweater, is shown in a close-up, her head tilted back and eyes closed. Behind her, a man wearing a blue shirt and a dark cap with a white logo is visible, looking toward her. Other people are blurred in the background, suggesting a public or crowded setting. The woman’s mouth moves slightly, indicating she may be speaking or singing, and her posture remains mostly still throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with curly blonde hair, wearing a white collared shirt and a dark sweater, is shown in a close-up, her head tilted back and eyes closed. Behind her, a man wearing a blue shirt and a dark cap with a white logo is visible, looking toward her. Other people are blurred in the background, suggesting a public or crowded setting. The woman’s mouth moves slightly, indicating she may be speaking or singing, and her posture remains mostly still throughout the clip.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

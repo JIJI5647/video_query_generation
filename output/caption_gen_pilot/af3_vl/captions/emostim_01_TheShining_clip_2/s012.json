@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A young boy with short brown hair, wearing a red and gray sweater, stands in a dimly lit bedroom, holding a knife in his right hand and writing with a red marker on a wooden door. Behind him, another person lies asleep in bed, covered with a blue blanket and a patterned quilt, with a lit lamp beside the bed casting a warm glow. The boy is focused on writing the word \"MURDER\" in red on the door, his left hand steadying the marker as he carefully forms each letter. His posture is upright, and his gaze is fixed on the door as he writes.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with short brown hair, wearing a red and gray sweater, stands in a dimly lit bedroom, holding a knife in his right hand and writing with a red marker on a wooden door. Behind him, another person lies asleep in bed, covered with a blue blanket and a patterned quilt, with a lit lamp beside the bed casting a warm glow. The boy is focused on writing the word \"MURDER\" in red on the door, his left hand steadying the marker as he carefully forms each letter. His posture is upright, and his ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

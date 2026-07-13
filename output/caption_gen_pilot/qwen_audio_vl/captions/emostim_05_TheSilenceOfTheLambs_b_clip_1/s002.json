@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-frequency metallic click, immediately followed by a brief, low-frequency thud, both indicative of a small metal object—likely a key or latch—being manipulated. This is succeeded by a sustained, low-frequency scraping sound, characterized by a gritty, abrasive texture and a slow, deliberate rhythm, suggesting the movement of a heavy, unlubricated metal object such as a latch or bolt across a rough surface. The scraping is accompanied by a faint, high-frequency rustling, consistent with the sound of fabric or clothing brushing against the metal, indicating the presence of a human operator. The scraping sound is interrupted by a short, sharp metallic click, likely the sound of a latch or lock engaging or disengaging, followed by a brief, high-pitched metallic squeak, which may result from a spring or hinge being released. The sequence concludes with a final, sharp metallic click, marking the completion of the mechanical action.\n\nThroughout the recording, there is a persistent, low-level hiss, characteristic of analog tape or a low-fidelity microphone, and a subtle, low-frequency hum, likely from nearby electrical equipment. The soundscape is dry and acoustically neutral, with no reverberation or environmental cues, suggesting a small, enclosed, and sound-dampened space. The recording is monophonic, with all sounds centered and no spatial movement. The frequency range is limited, with a focus on mid and low frequencies, and the overall fidelity is low, with a muffled quality and a lack of high-frequency detail.\n\nNo speech, music, or other vocalizations are present; the only audible events are mechanical and incidental fabric sounds. The sequence of actions—manipulating a latch, scraping a heavy metal object, and engaging a lock—strongly suggests the operation of a secure, heavy-duty metal door or gate, such as those found in a prison cell, secure storage area, or industrial setting. The absence of environmental context, combined with the mechanical focus and analog recording artifacts, points to a utilitarian, possibly archival or surveillance context, with the intent to document the operation of a secure mechanism.\n\nIn summary, the audio captures the close-up, monophonic operation of a heavy metal latch or lock in a small, acoustically neutral space, with all sounds rendered in low fidelity and accompanied by analog hiss and hum. The sequence is purely mechanical, with no speech or music, and the context is inferred to be a secure, institutional, or industrial environment, likely recorded for documentation or surveillance purposes.",
+  "temporal_description": "A person's hands are visible, resting on a dark, textured surface with a zipper running along it. The individual is wearing a white shirt with a buttoned cuff and a dark suit jacket. Their right hand is positioned near the zipper, while the left hand rests beside it, both fingers slightly curled. The person’s posture remains still throughout, with no significant movement or gesture observed. The background is out of focus, showing a plain, light-colored wall.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person's hands are visible, resting on a dark, textured surface with a zipper running along it. The individual is wearing a white shirt with a buttoned cuff and a dark suit jacket. Their right hand is positioned near the zipper, while the left hand rests beside it, both fingers slightly curled. The person’s posture remains still throughout, with no significant movement or gesture observed. The background is out of focus, showing a plain, light-colored wall.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

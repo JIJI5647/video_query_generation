@@ -1,0 +1,55 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking and gesturing with his hands"
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "standing and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wall sconce and a framed picture in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "talking",
+      "gesturing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "smiling",
+        "talking"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "towards the man in the blue plaid shirt"
+    }
+  ],
+  "audio_description": "A man is speaking in a conversational tone.",
+  "temporal_description": "The man in the pink plaid shirt speaks and gestures throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a pink plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"talking and gesturing with his hands\"}, {\"person\": \"a man in a blue plaid shirt\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"standing and listening\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with a wall sconce and a framed picture in the background\"}, \"objects\": [], \"i"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s083",
+  "time_range": [
+    410.0,
+    415.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A man with gray hair, wearing a black shirt, is seated indoors, holding a phone to his ear. He appears to be engaged in a conversation, occasionally moving his head slightly while maintaining a steady posture. Behind him, a golden statue and a chandelier are visible, suggesting an opulent setting. The scene transitions to another man in a light blue shirt, seated in an office chair, also holding a phone to his ear, with blinds in the background filtering sunlight.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair, wearing a black shirt, is seated indoors, holding a phone to his ear. He appears to be engaged in a conversation, occasionally moving his head slightly while maintaining a steady posture. Behind him, a golden statue and a chandelier are visible, suggesting an opulent setting. The scene transitions to another man in a light blue shirt, seated in an office chair, also holding a phone to his ear, with blinds in the background filtering sunlight.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

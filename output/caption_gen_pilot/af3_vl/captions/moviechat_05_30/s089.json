@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "Three individuals stand in a dimly lit, cluttered room filled with various objects, including mirrors and metallic equipment. The person in the center, with platinum blonde hair, holds a wand pointed forward, while the person to their left, with dark hair, also holds a wand in a similar stance. The third person, partially obscured behind the others, stands with a neutral posture. The central figure maintains a steady gaze forward, while the person on the left looks slightly to the side. The room’s dark ambiance and scattered items suggest an abandoned or storage-like setting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals stand in a dimly lit, cluttered room filled with various objects, including mirrors and metallic equipment. The person in the center, with platinum blonde hair, holds a wand pointed forward, while the person to their left, with dark hair, also holds a wand in a similar stance. The third person, partially obscured behind the others, stands with a neutral posture. The central figure maintains a steady gaze forward, while the person on the left looks slightly to the side. The room",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

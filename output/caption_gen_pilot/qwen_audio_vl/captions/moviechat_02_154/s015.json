@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, piercing electronic siren, its high-pitched tone rapidly oscillating between two frequencies in a classic “wail” pattern. This siren is immediately accompanied by a deep, resonant engine rumble, suggesting the presence of a large emergency vehicle such as a fire truck or ambulance. The siren’s volume and pitch increase steadily, indicating the vehicle is approaching the recording location. The environment is acoustically reflective, with the siren’s sound bouncing off nearby buildings, creating a dense, reverberant urban soundscape. No other ambient noises—such as voices, traffic, or weather—are present, and the recording is free from hiss, static, or distortion, indicating high fidelity and a close proximity to the source.\n\nAs the vehicle nears, the siren’s pitch and volume peak, and a sharp, high-frequency tire squeal emerges, signaling a sudden, forceful braking maneuver. The siren’s pattern shifts to a rapid, urgent “yelp” or “phaser,” heightening the sense of emergency. The engine’s rumble intensifies, and the tire squeal continues, implying the vehicle is executing a hard stop or evasive action. The reverberation remains strong, reinforcing the impression of a city street lined with tall buildings.\n\nSuddenly, the siren and engine sounds are cut off mid-tone, replaced by a brief, low-frequency electronic buzz—a harsh, synthetic tone that is distinctly artificial and unrelated to the preceding sounds. This buzz is abrupt and unmodulated, suggesting a technical artifact or intentional edit. The recording ends immediately after this buzz, with no fade-out or lingering environmental noise.\n\nThroughout the clip, there is no speech, music, or other human or animal sounds. The siren’s electronic timbre and pattern are typical of North American emergency vehicles, and the tire squeal and engine rumble further support the scenario of a large vehicle in urgent motion. The urban setting is inferred from the pronounced reverberation, and the absence of other ambient sounds suggests a quiet moment in a city street. The sudden electronic buzz at the end is a clear sign of digital editing or a technical malfunction.\n\nIn summary, the audio captures a high-fidelity, close-up recording of a large emergency vehicle—likely a fire truck or ambulance—racing through a reverberant urban street, its siren escalating from a wail to a yelp as it brakes sharply, with no other environmental or human sounds present. The sequence concludes with an abrupt, artificial electronic buzz, indicating a technical interruption or edit, and the recording ends without any fade-out or residual noise.",
+  "temporal_description": "A group of men in dark suits stand near a parked car on a wet city street at night, illuminated by streetlights and building lights. One man, wearing glasses, is seen in profile, facing away from the camera. The group appears to be engaged in conversation, with one man gesturing slightly. A car with headlights on approaches, and a person runs across the street, moving away from the parked car. The scene is urban, with tall buildings in the background and reflections on the wet pavement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in dark suits stand near a parked car on a wet city street at night, illuminated by streetlights and building lights. One man, wearing glasses, is seen in profile, facing away from the camera. The group appears to be engaged in conversation, with one man gesturing slightly. A car with headlights on approaches, and a person runs across the street, moving away from the parked car. The scene is urban, with tall buildings in the background and reflections on the wet pavement.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

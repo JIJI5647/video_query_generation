@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, repeatedly asking about disposable cameras, with no notable background sounds.",
+  "temporal_description": "A man in a blue plaid shirt stands near a wooden door, facing left, with a framed picture and a lamp visible behind him. Another man in a pink plaid shirt enters the frame, moving toward the center of the room, and then bends down to interact with something on a table. The second man stands near a couch, gesturing with his hands while the first man remains still, observing him. The room has beige walls, a couch, a coffee table with flowers, and wall-mounted lamps. Both men are visible in full body shots, with the second man occasionally looking down at the table.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a blue plaid shirt stands near a wooden door, facing left, with a framed picture and a lamp visible behind him. Another man in a pink plaid shirt enters the frame, moving toward the center of the room, and then bends down to interact with something on a table. The second man stands near a couch, gesturing with his hands while the first man remains still, observing him. The room has beige walls, a couch, a coffee table with flowers, and wall-mounted lamps. Both men are visible in full bo",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

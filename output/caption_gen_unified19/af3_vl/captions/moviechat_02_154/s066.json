@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_description": "A man in a suit lies on his back in darkness, illuminated by red light, his face partially visible. Another man, wearing a striped shirt, is seen from the side, holding a phone to his ear while standing in a dimly lit room with furniture and a lamp. The first man’s gaze is directed upward, and the second man’s posture is upright with his head turned slightly toward the phone.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace with a clear and steady prosody.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit lies on his back in darkness, illuminated by red light, his face partially visible. Another man, wearing a striped shirt, is seen from the side, holding a phone to his ear while standing in a dimly lit room with furniture and a lamp. The first man’s gaze is directed upward, and the second man’s posture is upright with his head turned slightly toward the phone.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

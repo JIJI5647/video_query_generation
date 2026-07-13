@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "A man in a patterned shirt eats from a bowl with chopsticks while another man in a dark jacket smiles at him in a dimly lit indoor setting. The scene then cuts to a nighttime view of a car with bright headlights approaching on a wet road lined with streetlights and trees.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Faint sounds of chewing and conversation are audible, followed by the low rumble of a car engine and tires on wet pavement.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s030\", \"time_range\": [145.0, 150.0], \"visual\": \"A man in a patterned shirt eats from a bowl with chopsticks while another man in a dark jacket smiles at him in a dimly lit indoor setting. The scene then cuts to a nighttime view of a car with bright headlights approaching on a wet road lined with streetlights and trees.\", \"audio\": \"Faint sounds of chewing and conversation are audible, followed by the low rumble of a car engine and tires on wet pavement.\", \"confidence\": \"high\", \"ev"
+}

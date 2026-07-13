@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A woman in a hospital gown lies in a bed, partially covered by a pink blanket, while a man leans over her, and a woman in a white coat stands beside them, holding the blanket. The woman in the coat gestures with her hands as she leans toward the bed, and the man looks down at the woman in bed. Medical equipment and a pink wall are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins abruptly with a male voice, positioned slightly left of center in the stereo field, calmly stating, “Hero.” His tone is neutral and measured, with a clear, mid-to-low pitch and a General American accent, suggesting a composed demeanor. Immediately following, a female voice, much closer to the microphone and panned right, erupts in a high-pitched, frantic, and emotionally charged outburst. She shouts, “Doctor, you gotta do something! I get you gotta give me drugs! Or you gotta light a fire up in there and just—” Her speech is rapid, breathless, and marked by a sense of panic and desperation, with a General American accent and a strained, almost hysterical delivery. The recording is marred by severe digital clipping and distortion, especially during her loudest moments, resulting in a harsh, crackling texture that obscures some speech details. The background is filled with a persistent, low-level hiss, and the overall frequency range is limited, with muffled highs and a lack of deep bass, indicating a low-fidelity, consumer-grade recording device. The environment is acoustically dry, with no reverberation or ambient noise, suggesting a small, enclosed, and sound-dampened room.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman in a hospital gown lies in a bed, partially covered by a pink blanket, while a man leans over her, and a woman in a white coat stands beside them, holding the blanket. The woman in the coat gestures with her hands as she leans toward the bed, and the man looks down at the woman in bed. Medical equipment and a pink wall are visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

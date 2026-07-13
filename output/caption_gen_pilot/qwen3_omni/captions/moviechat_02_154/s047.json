@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a brown jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "talking on a white corded phone, then looking at a small white object in her hands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "wood-paneled walls with posters and round porthole-like windows, dimly lit with warm light"
+    },
+    "objects": [
+      {
+        "object": "a white corded phone",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held to the woman's ear, then held in her hands"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "talking on the phone",
+      "looking at a small white object"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a brown jacket",
+      "facial_cues": [
+        "looking down",
+        "looking at the object"
+      ],
+      "body_cues": [
+        "holding the phone to her ear",
+        "holding the object with both hands"
+      ],
+      "gaze": "downwards"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful orchestral score plays in the background.",
+  "temporal_description": "The woman is on the phone, then lowers it and looks at a small object in her hands.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s047\", \"time_range\": [230.0, 235.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a brown jacket\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"talking on a white corded phone, then looking at a small white object in her hands\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"wood-paneled walls with posters and round porthole-like windows, dimly lit with warm light\"}, \"objects\": [{\"object\": \"a white corded phone\", \"visibility\": \"clearly visible\","
+}

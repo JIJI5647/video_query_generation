@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a slow speaking rate. The voice sounds slightly strained and emotional, with a slight tremble in the delivery. There are no other non-speech sounds present in the clip.",
+  "temporal_description": "The video opens with a group of armored soldiers standing in formation, their helmets and armor reflecting a dim, moody light, suggesting a somber or battle-ready atmosphere. Their spears are held upright, and they appear motionless, facing forward as if awaiting orders or observing something ahead. The scene then transitions to a close-up of a hand holding a wand, which emits faint smoke, indicating a magical or ritualistic context. Finally, a bald figure in dark robes is shown lying on the ground, their head slightly raised, with their hand extended outward, suggesting a state of collapse or surrender.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video opens with a group of armored soldiers standing in formation, their helmets and armor reflecting a dim, moody light, suggesting a somber or battle-ready atmosphere. Their spears are held upright, and they appear motionless, facing forward as if awaiting orders or observing something ahead. The scene then transitions to a close-up of a hand holding a wand, which emits faint smoke, indicating a magical or ritualistic context. Finally, a bald figure in dark robes is shown lying on the gro",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

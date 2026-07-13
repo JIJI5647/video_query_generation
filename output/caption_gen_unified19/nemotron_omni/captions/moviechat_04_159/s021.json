@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A man in a dark suit is shown in profile against a dark background, then the scene shifts to an office where a woman in a white shirt stands beside a seated man at a desk. The office contains filing cabinets, a wall of photographs, laptops, and a map, while another person in a light shirt moves past in the foreground.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s021\", \"time_range\": [100.0, 105.0], \"visual\": \"A man in a dark suit is shown in profile against a dark background, then the scene shifts to an office where a woman in a white shirt stands beside a seated man at a desk. The office contains filing cabinets, a wall of photographs, laptops, and a map, while another person in a light shirt moves past in the foreground.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

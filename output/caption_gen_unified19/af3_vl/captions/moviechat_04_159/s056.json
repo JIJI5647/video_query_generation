@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_description": "A man in a suit sits in a vehicle, his head tilted upward, gazing out the window. The vehicle moves through a nighttime urban environment, passing buildings and illuminated signs. The man’s posture is upright, and his gaze remains fixed forward, observing the passing scenery.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable non-speech sounds or prosodic variations.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit sits in a vehicle, his head tilted upward, gazing out the window. The vehicle moves through a nighttime urban environment, passing buildings and illuminated signs. The man’s posture is upright, and his gaze remains fixed forward, observing the passing scenery.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

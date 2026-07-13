@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "Two men in dark suits sit across a table in a dimly lit room; one smokes while the other looks down at his hands. The smoker leans forward slightly, exhaling smoke, while the other remains still, hands clasped. Both are partially illuminated, with the background mostly dark and the table surface visible between them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens in a quiet, acoustically controlled indoor environment, likely a small office or private room, with a faint, steady electronic hum and a subtle high-frequency hiss forming the background. A single male voice, speaking in standard Mandarin Chinese with a clear, neutral accent, delivers a brief, urgent message. His tone is calm and measured, with a low pitch and deliberate pacing, suggesting he is relaying information in a composed, professional manner. The speech is: \"现在警察正赶过去。马哥叫我来通知你。\" (\"Right now the police are rushing over. Brother Ma sent me to inform you.\"). The speaker’s words are articulated with clarity and precision, and the room’s acoustics—marked by short, natural reverberation—indicate a small, furnished space. There are no other voices, environmental sounds, or music present, reinforcing the sense of a private, focused setting. The delivery is emotionally restrained, with no signs of panic or agitation, and the speaker’s manner suggests he is acting as a messenger or subordinate, conveying information from a superior (\"Brother Ma\") to the intended recipient. Immediately after the final word, the audio is abruptly interrupted by a loud, synthetic electronic tone. This tone is a",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in dark suits sit across a table in a dimly lit room; one smokes while the other looks down at his hands. The smoker leans forward slightly, exhaling smoke, while the other remains still, hands clasped. Both are partially illuminated, with the background mostly dark and the table surface visible between them.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

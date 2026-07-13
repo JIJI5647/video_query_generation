@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "The man in a brown suit rides a bicycle ahead of a line of cyclists wearing colorful jerseys and helmets, all moving along a sunlit road. The camera follows them as they pass a field with rows of vines, then shows a wider view of the peloton stretching across the road. The cyclists are tightly grouped, leaning forward in a racing posture under a clear blue sky.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Ambient sounds of wind and bicycle wheels accompany the scene, with no clear speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual\": \"The man in a brown suit rides a bicycle ahead of a line of cyclists wearing colorful jerseys and helmets, all moving along a sunlit road. The camera follows them as they pass a field with rows of vines, then shows a wider view of the peloton stretching across the road. The cyclists are tightly grouped, leaning forward in a racing posture under a clear blue sky.\", \"audio\": \"Ambient sounds of wind and bicycle wheels accompany the scene,"
+}

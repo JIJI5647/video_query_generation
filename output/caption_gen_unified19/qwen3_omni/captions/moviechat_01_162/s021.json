@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "Two men are sitting in a car at night. The man in the foreground, wearing a black shirt, is speaking and looking forward. The man in the background is out of focus and looking forward as well.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice is speaking in a calm, conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s021\", \"time_range\": [100.0, 105.0], \"visual\": \"Two men are sitting in a car at night. The man in the foreground, wearing a black shirt, is speaking and looking forward. The man in the background is out of focus and looking forward as well.\", \"audio\": \"A male voice is speaking in a calm, conversational tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

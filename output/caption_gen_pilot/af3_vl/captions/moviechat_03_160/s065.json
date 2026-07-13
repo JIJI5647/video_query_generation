@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice shouting urgently, followed by a woman's scream, creating a tense and alarming atmosphere.",
+  "temporal_description": "A man in a suit and tie is seen holding a walkie-talkie, standing in front of a wall covered with photographs. The scene shifts to a close-up of a hand sliding a card across a keyboard, revealing a yellow card with text. Another man wearing headphones is shown in a dimly lit room, focused on something out of frame. The scene transitions to a nighttime outdoor setting where a group of people in dark clothing are gathered around a car parked on a rocky hillside. They appear to be moving around the vehicle, with some individuals holding flashlights. One person is seen pulling a large black bag while walking through a smoky area near a boat.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and tie is seen holding a walkie-talkie, standing in front of a wall covered with photographs. The scene shifts to a close-up of a hand sliding a card across a keyboard, revealing a yellow card with text. Another man wearing headphones is shown in a dimly lit room, focused on something out of frame. The scene transitions to a nighttime outdoor setting where a group of people in dark clothing are gathered around a car parked on a rocky hillside. They appear to be moving around the",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

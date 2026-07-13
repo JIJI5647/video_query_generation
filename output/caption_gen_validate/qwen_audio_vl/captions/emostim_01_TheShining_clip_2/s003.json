@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency electronic hum, likely originating from a recording device or nearby equipment, establishing a quiet, controlled indoor setting. Immediately, a young child’s voice, characterized by a high pitch and soft, breathy timbre, enters with the phrase “Redrum.” The pronunciation is slow, deliberate, and slightly slurred, with the “r” sounds pronounced and the “m” trailing off, suggesting the child is either very young or fatigued. The word is delivered in a flat, monotonous tone, lacking emotional inflection, and is accompanied by a subtle, high-frequency hiss, indicating a low-fidelity recording environment. The child repeats “Redrum” with the same measured pace and tone, maintaining the same breathy quality and lack of emotional expression. Throughout, the background hum and hiss remain constant, and the acoustic environment is dry, with no reverberation or echo, implying a small, well-furnished room. The child’s voice is close to the microphone, and the recording is monophonic, with no spatial movement or stereo effects. The clip ends abruptly, with the final syllable of “Redrum” cut off mid-sound, suggesting an intentional or technical termination of the recording.\n\nIn summary, the audio features a young child’s slow, monotonous repetition of the word “Redrum” in a quiet, indoor setting, with no other speech, music, or environmental sounds present. The recording is low-fidelity, marked by electronic hum and hiss, and ends abruptly. The phrase “Redrum” is a direct reference to Stephen King’s *The Shining*, and the child’s delivery evokes a sense of eerie repetition and psychological tension, aligning with the horror genre’s use of unsettling, childlike voices. The clip’s technical and contextual details suggest it is a deliberate, isolated recording, likely intended for dramatic or artistic effect.",
+  "temporal_description": "A young boy with shoulder-length light brown hair, wearing a red and green striped sweater over a collared shirt, stands in a dimly lit room. He holds a large knife in his right hand and a small object in his left, examining the knife as he turns slightly to his left. The room features a vintage television set, a wooden desk cluttered with items, a lamp with an orange shade, patterned curtains, and framed pictures on the walls. The boy’s gaze is directed downward at the knife, and his posture is upright but slightly hunched as he focuses on the object in his hand.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with shoulder-length light brown hair, wearing a red and green striped sweater over a collared shirt, stands in a dimly lit room. He holds a large knife in his right hand and a small object in his left, examining the knife as he turns slightly to his left. The room features a vintage television set, a wooden desk cluttered with items, a lamp with an orange shade, patterned curtains, and framed pictures on the walls. The boy’s gaze is directed downward at the knife, and his posture is",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

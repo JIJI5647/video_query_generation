@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency hum, likely from a nearby electronic device or appliance, establishing a quiet, indoor setting. A male voice, speaking in Cantonese with a Hong Kong accent, is heard close to the microphone, his tone calm and conversational. He says, “點解呀？唔係要等到師奶先至肯開呀。” (“Why? Isn’t it that you have to wait until the housewife is willing to open it?”), using informal language and colloquial expressions typical of Hong Kong. His speech is clear and unhurried, with a slight upward inflection at the end, indicating a question. The room’s acoustics are dry, with minimal reverberation, suggesting a small, furnished space.\n\nAs the speaker finishes, a sharp, metallic click is heard, likely from a latch or lock being manipulated, followed by a brief, low-frequency creak, possibly from a door or heavy object moving. These sounds are close to the microphone and indicate physical interaction with a door or similar object. Immediately after, a loud, synthetic electronic tone begins—a pure, low-frequency (approximately 110 Hz, A2) square wave, unwavering in pitch and amplitude, with a harsh, buzzy timbre. This tone is much louder than the preceding sounds and dominates the audio, masking any residual background noise. The tone persists until the end of the clip, at which point the recording is abruptly cut off, with no fade or natural decay.\n\nThroughout, the recording is of moderate fidelity, with a constant low-level hiss and a limited frequency range, typical of consumer-grade equipment. The speaker’s voice is clear and intelligible, and the electronic tone is distinct and prominent. The sequence of events—questioning, physical manipulation, and the sudden onset of the electronic tone—suggests a scenario where the speaker is waiting for a door to be opened, possibly by a housewife, and the electronic tone signals a failed attempt or an alert, such as a security system or timer. The absence of other voices or environmental sounds reinforces the impression of a private, domestic setting.\n\nIn summary, the audio captures a brief, everyday moment in a Hong Kong home: a man inquires about waiting for a housewife to open a door, physically interacts with the door, and is met with a loud electronic alert, likely indicating a security or time-based event. The recording’s technical and cultural details point to a private, informal context, with the electronic tone serving as a clear signal of interruption or failure.",
+  "temporal_description": "A man with short dark hair, wearing a denim jacket over a dark shirt, is seated and looking downward. His head is slightly bowed, and his gaze is directed toward something in front of him, possibly a table or surface out of frame. The background is dimly lit and mostly obscured, with a faint outline of another person partially visible to the left. His posture remains still throughout, with minimal movement, suggesting he is focused on something in front of him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a denim jacket over a dark shirt, is seated and looking downward. His head is slightly bowed, and his gaze is directed toward something in front of him, possibly a table or surface out of frame. The background is dimly lit and mostly obscured, with a faint outline of another person partially visible to the left. His posture remains still throughout, with minimal movement, suggesting he is focused on something in front of him.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

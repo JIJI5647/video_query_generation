@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a sad tone, speaking at a moderate pace.",
+  "temporal_description": "A bald man in a dark suit is holding a handgun, aiming it forward in a dimly lit store aisle. Later, a man in a green jacket lies on the floor, clutching his side, with a visible wound. Another man is buried in dirt, partially covered, with his face and upper body visible. A person is seen wrapped in plastic, lying on a blue surface, with a gold watch on their wrist. Finally, a man is crawling on the floor while engulfed in flames, moving forward on his hands and knees.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A bald man in a dark suit is holding a handgun, aiming it forward in a dimly lit store aisle. Later, a man in a green jacket lies on the floor, clutching his side, with a visible wound. Another man is buried in dirt, partially covered, with his face and upper body visible. A person is seen wrapped in plastic, lying on a blue surface, with a gold watch on their wrist. Finally, a man is crawling on the floor while engulfed in flames, moving forward on his hands and knees.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

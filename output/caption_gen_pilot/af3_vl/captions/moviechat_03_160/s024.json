@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a patterned shirt sits at a table, eating with chopsticks, while two other men sit behind him, one smoking and the other holding a drink. A fourth man in a dark jacket enters the frame, approaches the seated man, and leans over him, engaging in conversation. The seated man smiles and continues eating as the newcomer interacts with him. The background features a chalkboard with writing, a radio, and shelves with various items, suggesting a casual, dimly lit dining or social space.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a patterned shirt sits at a table, eating with chopsticks, while two other men sit behind him, one smoking and the other holding a drink. A fourth man in a dark jacket enters the frame, approaches the seated man, and leans over him, engaging in conversation. The seated man smiles and continues eating as the newcomer interacts with him. The background features a chalkboard with writing, a radio, and shelves with various items, suggesting a casual, dimly lit dining or social space.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

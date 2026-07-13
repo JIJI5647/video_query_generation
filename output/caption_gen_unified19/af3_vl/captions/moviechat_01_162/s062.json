@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands with his hands on his hips, facing forward in an office-like setting with glass walls and monitors displaying images. Seated nearby, another man in a white uniform with epaulets looks down, while a third person in a blue shirt is partially visible beside him. The standing man’s gaze is directed forward, and the seated men appear focused on something out of frame.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a high-pitched, neutral voice speaking at a moderate pace, with no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands with his hands on his hips, facing forward in an office-like setting with glass walls and monitors displaying images. Seated nearby, another man in a white uniform with epaulets looks down, while a third person in a blue shirt is partially visible beside him. The standing man’s gaze is directed forward, and the seated men appear focused on something out of frame.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

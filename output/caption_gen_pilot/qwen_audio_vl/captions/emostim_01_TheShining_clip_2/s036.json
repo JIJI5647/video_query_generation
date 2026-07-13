@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful mechanical sound: a high-pitched, metallic whine that rapidly increases in both pitch and volume, accompanied by a deep, resonant rumble. This intense, layered noise is characteristic of a large electric motor or turbine accelerating, with the whine likely representing the motor’s stator and the rumble the spinning rotor. The sound is so loud and close that it causes severe digital clipping and distortion, resulting in a harsh, crackling texture. The environment is acoustically reflective, with short, dense reverberation suggesting a small, hard-walled space such as a utility room or industrial chamber. Throughout this segment, there are no other audible sounds—no speech, music, or ambient noise—indicating a controlled, isolated setting.\n\nAt the peak of the mechanical whine, the sound is abruptly cut off, with no fade or deceleration. Instantly, a new sound emerges: a low-frequency, synthetic electronic tone, centered around 110 Hz (A2), with a buzzy, harmonically rich timbre reminiscent of a square or sawtooth wave. This tone is steady, unwavering, and completely devoid of environmental reverberation or background noise, indicating it is a direct digital signal rather than a physical sound. The tone persists unchanged until the end of the clip, with no modulation or variation.\n\nThe recording is of low fidelity, marked by heavy digital clipping and distortion during the mechanical segment, and a clean, pure electronic tone in the latter part. The frequency range is broad, spanning from deep bass to high-pitched whine, and the dynamic range is extreme, with the mechanical sound dominating before the sudden transition to the electronic tone. The mechanical sound is spatially centered and close, while the electronic tone is dry and direct, lacking any sense of physical space.\n\nNo speech, music, or environmental sounds are present; the clip consists solely of the mechanical whine and the electronic tone. The mechanical sound is highly evocative of a large electric motor or turbine powering up in a confined, industrial setting, while the electronic tone is reminiscent of a test signal, error alert, or system notification typical in technical or industrial contexts. The abrupt transition and lack of contextual cues suggest the clip is a technical demonstration, test recording, or sound effect, rather than a narrative or documentary excerpt.\n\nIn summary, the audio clip presents a dramatic, high-intensity mechanical whine from a large electric motor or turbine, abruptly replaced by a steady, synthetic electronic tone. The recording is technically flawed, with severe distortion and a sudden, contextless transition, and contains no speech or ambient sounds. The content and structure strongly indicate a technical or industrial purpose, such as a test signal or system alert, rather than a naturalistic or narrative scene.",
+  "temporal_description": "A person wearing a blue robe is seen from behind, leaning out of a bathroom window with their head and upper body partially outside. Their long dark hair is visible, and they appear to be struggling or pushing against something outside. The scene shifts to an exterior view showing the person partially buried in snow, with only their arms and hands visible as they move slightly in the snow. The person’s hands are seen moving in the snow, and their body remains mostly obscured by the snow and the window frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a blue robe is seen from behind, leaning out of a bathroom window with their head and upper body partially outside. Their long dark hair is visible, and they appear to be struggling or pushing against something outside. The scene shifts to an exterior view showing the person partially buried in snow, with only their arms and hands visible as they move slightly in the snow. The person’s hands are seen moving in the snow, and their body remains mostly obscured by the snow and the ",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

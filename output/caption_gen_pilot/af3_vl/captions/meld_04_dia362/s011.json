@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    53.26
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no background noise or interruptions.",
+  "temporal_description": "In a hospital room, a woman in a white hospital gown lies in a bed covered with a pink blanket, supported by a man standing beside her. A woman in a blue shirt sits in a wheelchair nearby, holding a red purse, while another woman in a yellow shirt stands beside her, holding the wheelchair’s handle. A nurse in a white uniform is bent over near the bed, and a doctor in a white coat stands beside the bed, gesturing toward a door. The room contains medical equipment, including an IV stand and a wall-mounted light fixture, with curtains and a window visible in the background. The individuals are positioned in a semi-circle around the bed, with their gazes mostly directed toward the woman in the bed or the doctor. The woman in the wheelchair occasionally shifts her posture, and the man beside the bed leans slightly forward, maintaining contact with the woman in the bed.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a hospital room, a woman in a white hospital gown lies in a bed covered with a pink blanket, supported by a man standing beside her. A woman in a blue shirt sits in a wheelchair nearby, holding a red purse, while another woman in a yellow shirt stands beside her, holding the wheelchair’s handle. A nurse in a white uniform is bent over near the bed, and a doctor in a white coat stands beside the bed, gesturing toward a door. The room contains medical equipment, including an IV stand and a wall",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

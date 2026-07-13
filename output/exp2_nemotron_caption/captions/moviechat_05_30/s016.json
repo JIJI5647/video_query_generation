@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "A massive metal truss bridge spans a dark forest at night, its structure illuminated by intense flames that cast a golden glow on the surrounding trees and a distant castle silhouette. The view then shifts to a group of people standing in the darkness, with a central figure wearing a long coat and patterned trousers standing upright while others stand around him in rugged attire.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Crackling fire sounds and low murmurs from the surrounding crowd are audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual\": \"A massive metal truss bridge spans a dark forest at night, its structure illuminated by intense flames that cast a golden glow on the surrounding trees and a distant castle silhouette. The view then shifts to a group of people standing in the darkness, with a central figure wearing a long coat and patterned trousers standing upright while others stand around him in rugged attire.\", \"audio\": \"Crackling fire sounds and low murmurs from "
+}

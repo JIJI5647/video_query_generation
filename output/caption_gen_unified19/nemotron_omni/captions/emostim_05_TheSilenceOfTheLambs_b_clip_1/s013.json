@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "A woman with shoulder‑length brown hair and a maroon top is shown in close‑up, her gaze directed forward with a neutral expression. The shot then changes to an older man with thinning gray hair, dressed in a dark suit and patterned bow tie, who appears to be speaking while looking slightly downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The woman remains silent while the man speaks in a calm, measured tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s013\", \"time_range\": [60.0, 65.0], \"visual\": \"A woman with shoulder‑length brown hair and a maroon top is shown in close‑up, her gaze directed forward with a neutral expression. The shot then changes to an older man with thinning gray hair, dressed in a dark suit and patterned bow tie, who appears to be speaking while looking slightly downward.\", \"audio\": \"The woman remains silent while the man speaks in a calm, measured tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

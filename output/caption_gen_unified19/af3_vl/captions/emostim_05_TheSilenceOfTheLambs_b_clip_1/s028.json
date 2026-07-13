@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_description": "A person wearing transparent gloves is performing a dental procedure on another person’s open mouth, using metal tweezers to manipulate something inside. The patient’s face is visible, showing skin with dark spots, and their mouth is held open by the practitioner’s gloved fingers. The practitioner’s hands are focused on the task, with precise movements inside the patient’s mouth.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing transparent gloves is performing a dental procedure on another person’s open mouth, using metal tweezers to manipulate something inside. The patient’s face is visible, showing skin with dark spots, and their mouth is held open by the practitioner’s gloved fingers. The practitioner’s hands are focused on the task, with precise movements inside the patient’s mouth.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

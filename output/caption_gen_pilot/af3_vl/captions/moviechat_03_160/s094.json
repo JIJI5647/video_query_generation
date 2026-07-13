@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s094",
+  "time_range": [
+    465.0,
+    470.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a clear and steady pace, and no significant background noise or emotional inflection.",
+  "temporal_description": "A man with gray hair, wearing a gray suit, is seated at a table eating with chopsticks, surrounded by others standing nearby. Another man in a white shirt and striped tie stands in front of a glass door, looking down and then slightly to his right, with several other men standing behind him. The scene appears to be indoors, possibly in a dining or office area, with dim lighting and a muted color palette. The man eating occasionally lifts his chopsticks to his mouth, while the standing man remains mostly still, occasionally shifting his gaze.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair, wearing a gray suit, is seated at a table eating with chopsticks, surrounded by others standing nearby. Another man in a white shirt and striped tie stands in front of a glass door, looking down and then slightly to his right, with several other men standing behind him. The scene appears to be indoors, possibly in a dining or office area, with dim lighting and a muted color palette. The man eating occasionally lifts his chopsticks to his mouth, while the standing man remain",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

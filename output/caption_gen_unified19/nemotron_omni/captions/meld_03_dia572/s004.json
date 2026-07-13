@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "In a hospital room, a man in a plaid shirt stands by a brown bag next to a bed where a woman in a patterned gown lies under a pink blanket, while another man in a white shirt tends to a patient in the background. The woman opens her mouth as if speaking or gasping, and the man turns toward her, spreading his arms in an animated gesture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The woman appears to be speaking with a distressed tone, while the man speaks with an animated, possibly exasperated tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"In a hospital room, a man in a plaid shirt stands by a brown bag next to a bed where a woman in a patterned gown lies under a pink blanket, while another man in a white shirt tends to a patient in the background. The woman opens her mouth as if speaking or gasping, and the man turns toward her, spreading his arms in an animated gesture.\", \"audio\": \"The woman appears to be speaking with a distressed tone, while the man speaks with an a"
+}

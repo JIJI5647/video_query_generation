@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "Two men are seated in a vehicle, with the man in the foreground holding a white object near his mouth and looking forward, while the man in the background is turned slightly away, gazing forward. The foreground man’s hand grips the object, and his posture is upright; the background man’s head is angled slightly toward the side. The interior of the car is dimly lit, with visible headrests and dark upholstery.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a persistent, low-frequency mechanical hum, characteristic of a large engine or industrial machinery, accompanied by a faint high-frequency hiss. This ambient noise, along with a subtle reverberation, suggests the recording takes place in a spacious, hard-surfaced environment such as a workshop, garage, or industrial facility. The sound is captured with moderate fidelity, likely using a consumer-grade device, and is marked by a limited frequency range and a slightly muffled quality. A single male voice, speaking in standard Mandarin Chinese, enters the scene. His tone is calm, measured, and narrative, with a mid-to-low pitch and a slight nasal quality. He delivers the line: “然后他就说，阿强，你跟着我五年了。” (“Then he said, Aqiang, you’ve been with me for five years.”) The speech is clear and intelligible, with no signs of or urgency. The speaker’s accent is standard, and his delivery is steady, indicating a composed and deliberate recounting of events. The mechanical hum continues unobtrusively in the background, never overpowering the voice. As the speaker finishes his sentence, the ambient hum and his voice are abruptly cut off, replaced by a sharp, high",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated in a vehicle, with the man in the foreground holding a white object near his mouth and looking forward, while the man in the background is turned slightly away, gazing forward. The foreground man’s hand grips the object, and his posture is upright; the background man’s head is angled slightly toward the side. The interior of the car is dimly lit, with visible headrests and dark upholstery.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "The video opens with a close-up of a damaged, metallic surface, possibly part of a vehicle or machinery, with visible dents and scratches under dim lighting. The scene then cuts to an exterior night shot of urban buildings, with streetlights illuminating trees and parts of the structures, showing windows with lights on. No people are visible in either shot.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a deep, resonant rumble that immediately establishes a sense of immense scale and power. This low-frequency sound, reminiscent of a massive engine or the movement of a colossal object, is accompanied by a faint, high-frequency hiss, likely from the recording equipment or the environment. The rumble is enveloped in a spacious, reverberant acoustic field, suggesting a vast, open, and hard-surfaced setting such as a cavern, industrial hall, or a large, empty space. The sound is centered and immersive, with no other environmental noises present. As the rumble continues, a sharp, metallic screech emerges, characterized by a high-pitched, abrasive timbre that evokes the sound of metal grinding against metal. This screech intensifies rapidly, growing louder and more piercing, and is layered with a deep, percussive thud that adds to the impression of a massive object in motion. The screech and thud are both enveloped in the same reverberant space, reinforcing the sense of scale and power. The metallic screech reaches its peak, dominating the soundscape with a sustained, high-frequency tone that is both intense and overwhelming, while the underlying rumble persists, providing a constant",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video opens with a close-up of a damaged, metallic surface, possibly part of a vehicle or machinery, with visible dents and scratches under dim lighting. The scene then cuts to an exterior night shot of urban buildings, with streetlights illuminating trees and parts of the structures, showing windows with lights on. No people are visible in either shot.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

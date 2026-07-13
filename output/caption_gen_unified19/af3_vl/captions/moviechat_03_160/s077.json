@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_description": "In a dimly lit, green-tinted indoor space with barred windows, several men are gathered closely; one man in a gray suit faces forward with a neutral expression, while others stand behind or beside him, partially obscured. One man with short gray hair turns his head slightly, and another man with a beard stands in the background, observing. The group appears stationary, with minimal movement, and their postures suggest a tense or serious interaction.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate loudness, speaking at a moderate pace with a neutral prosody. There are no noticeable non-speech sounds or inflections.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, green-tinted indoor space with barred windows, several men are gathered closely; one man in a gray suit faces forward with a neutral expression, while others stand behind or beside him, partially obscured. One man with short gray hair turns his head slightly, and another man with a beard stands in the background, observing. The group appears stationary, with minimal movement, and their postures suggest a tense or serious interaction.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

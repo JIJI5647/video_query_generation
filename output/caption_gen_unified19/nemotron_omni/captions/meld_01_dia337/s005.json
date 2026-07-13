@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man in a blue plaid shirt stands near a doorway holding a small object, while a man in a pink plaid shirt faces him with a surprised expression. The man in blue then raises his index finger as he speaks to the other man. The scene takes place in a living room with a framed goblet picture, a lamp, and a couch visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features spoken dialogue between the two men, with the man in blue speaking and the man in pink responding. The tone appears conversational and calm.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A man in a blue plaid shirt stands near a doorway holding a small object, while a man in a pink plaid shirt faces him with a surprised expression. The man in blue then raises his index finger as he speaks to the other man. The scene takes place in a living room with a framed goblet picture, a lamp, and a couch visible.\", \"audio\": \"The audio features spoken dialogue between the two men, with the man in blue speaking and the man in pink"
+}

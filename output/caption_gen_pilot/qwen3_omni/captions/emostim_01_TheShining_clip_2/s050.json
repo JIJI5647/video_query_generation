@@ -1,0 +1,58 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long black hair, wearing a blue jacket and a beige turtleneck sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing in a corner, holding a knife, and screaming"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a corner of a room with white walls and a white pillar"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "in the woman's hand",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "screaming",
+      "holding a knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long black hair, wearing a blue jacket and a beige turtleneck sweater",
+      "facial_cues": [
+        "mouth open wide",
+        "tears in eyes",
+        "face contorted in distress"
+      ],
+      "body_cues": [
+        "hands clenched around the knife",
+        "body tense"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "A woman is screaming in distress, followed by a loud thud.",
+  "temporal_description": "The woman screams continuously throughout the clip, with a loud thud occurring in the middle.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s050\", \"time_range\": [245.0, 250.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with long black hair, wearing a blue jacket and a beige turtleneck sweater\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing in a corner, holding a knife, and screaming\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a corner of a room with white walls and a white pillar\"}, \"objects\": [{\"object\": \"knife\", \"visibility\": \"clearly visible\", \"position\": \"in the wom"
+}

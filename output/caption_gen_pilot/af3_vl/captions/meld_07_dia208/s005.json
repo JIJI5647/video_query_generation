@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a neutral tone and moderate pace, accompanied by a female voice expressing excitement and enthusiasm, creating a lively conversational atmosphere.",
+  "temporal_description": "Three individuals are seated on a brown couch in a cozy, dimly lit room decorated with festive elements like red bows and poinsettias. The person on the left, wearing a blue top and jeans, holds a plate with a piece of cake and leans toward the center person, who is dressed in a beige turtleneck and has their arm draped over the back of the couch. The person on the right, wearing a red top and dark pants, sits with their legs crossed, looking toward the person on the left. The center person appears to be eating the cake as the person on the left feeds them. In the background, other people are seated at tables, and various items like mugs and a coffee machine are visible on a counter. The overall setting suggests a casual, social gathering.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals are seated on a brown couch in a cozy, dimly lit room decorated with festive elements like red bows and poinsettias. The person on the left, wearing a blue top and jeans, holds a plate with a piece of cake and leans toward the center person, who is dressed in a beige turtleneck and has their arm draped over the back of the couch. The person on the right, wearing a red top and dark pants, sits with their legs crossed, looking toward the person on the left. The center person appe",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

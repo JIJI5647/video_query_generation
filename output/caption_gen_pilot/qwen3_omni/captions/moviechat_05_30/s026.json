@@ -1,0 +1,36 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of people",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "walking down a long, narrow corridor"
+      }
+    ],
+    "scene": {
+      "location": "indoor corridor",
+      "setting": "dimly lit, with stone walls and wooden railings on both sides, creating a long, narrow perspective."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "a group of people walks down a corridor"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, high-pitched scream is heard, followed by a deep, rumbling sound.",
+  "temporal_description": "The scream occurs at the beginning of the clip, followed by a continuous rumbling sound.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s026\", \"time_range\": [125.0, 130.0], \"visual_objective\": {\"people\": [{\"person\": \"a group of people\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"walking down a long, narrow corridor\"}], \"scene\": {\"location\": \"indoor corridor\", \"setting\": \"dimly lit, with stone walls and wooden railings on both sides, creating a long, narrow perspective.\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"a group of people walks down a corridor\"], \"visibility_notes\": "
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "Two men are standing close together in a dimly lit, green-tinted indoor space; one wears a studded jacket and faces away, while the other, in a suit, has gray hair and looks toward the side. The man in the suit turns his head slightly, maintaining a neutral posture, while the other remains mostly stationary. The background shows blurred shelves or walls with faint markings, and the lighting casts shadows, emphasizing the confined setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful impact: a deep, resonant thud accompanied by a sharp, high-frequency metallic scrape, immediately establishing a sense of tension and anticipation. This opening sound is followed by a rapid, rhythmic sequence of metallic clanks and clicks, each with a bright, percussive quality and a short, metallic decay. These sounds are tightly clustered, creating a dense, energetic texture that suggests the operation of a complex mechanical device—such as a lever, chain, or gear system—being rapidly engaged. The rhythm is precise and relentless, with each metallic event sharply defined and separated by brief silences, evoking the impression of a machine or mechanism in motion. Throughout this section, a low-frequency, sustained drone underpins the metallic sounds, providing a sense of weight and tension. The drone is smooth and synthetic, likely produced by a synthesizer or processed bass, and remains constant in pitch and volume. The metallic elements are panned across the stereo field, with some sounds positioned to the left and others to the right, creating a dynamic, immersive spatial effect. The overall mix is clean and modern, with no audible background noise, hiss, or distortion, and the frequency range is broad, from deep sub-bass to",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are standing close together in a dimly lit, green-tinted indoor space; one wears a studded jacket and faces away, while the other, in a suit, has gray hair and looks toward the side. The man in the suit turns his head slightly, maintaining a neutral posture, while the other remains mostly stationary. The background shows blurred shelves or walls with faint markings, and the lighting casts shadows, emphasizing the confined setting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

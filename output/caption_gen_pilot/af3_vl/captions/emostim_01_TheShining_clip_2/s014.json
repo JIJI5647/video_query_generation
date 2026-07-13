@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and moderate speed, accompanied by background music and occasional shouting, creating a lively and energetic atmosphere.",
+  "temporal_description": "A child with short hair, wearing a striped sweater, stands beside a bed holding a knife. The child faces a woman lying in bed, who is partially covered by a patterned blanket. The woman is propped up on pillows, wearing a blue robe over a patterned shirt, and appears to be gesturing with her hands while looking at the child. A lamp with a beige shade sits on a nightstand next to the bed, casting a warm glow. The word \"MURDER\" is written in red on the door nearby.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short hair, wearing a striped sweater, stands beside a bed holding a knife. The child faces a woman lying in bed, who is partially covered by a patterned blanket. The woman is propped up on pillows, wearing a blue robe over a patterned shirt, and appears to be gesturing with her hands while looking at the child. A lamp with a beige shade sits on a nightstand next to the bed, casting a warm glow. The word \"MURDER\" is written in red on the door nearby.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

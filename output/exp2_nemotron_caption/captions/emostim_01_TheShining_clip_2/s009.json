@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A young boy with short hair, wearing a red and grey sweater with a plaid collar, stands in a dimly lit bedroom and writes on a light-colored door with a red marker. Behind him, a person lies asleep on a bed under a blanket, illuminated by a lit bedside lamp. The child's right hand moves across the door as he draws letters.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with no discernible speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual\": \"A young boy with short hair, wearing a red and grey sweater with a plaid collar, stands in a dimly lit bedroom and writes on a light-colored door with a red marker. Behind him, a person lies asleep on a bed under a blanket, illuminated by a lit bedside lamp. The child's right hand moves across the door as he draws letters.\", \"audio\": \"The audio is quiet with no discernible speech.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

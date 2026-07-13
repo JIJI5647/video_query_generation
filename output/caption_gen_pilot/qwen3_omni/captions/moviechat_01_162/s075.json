@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s075",
+  "time_range": [
+    370.0,
+    375.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and looking down"
+      },
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and looking at the other man"
+      },
+      {
+        "person": "a man in a police uniform",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "sitting and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with glass partitions and computer monitors in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man in the police uniform speaks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a police uniform",
+      "facial_cues": [
+        "speaking",
+        "serious expression"
+      ],
+      "body_cues": [
+        "sitting"
+      ],
+      "gaze": "looking to the left"
+    }
+  ],
+  "audio_description": "a man is speaking in a serious tone.",
+  "temporal_description": "the man in the police uniform speaks throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s075\", \"time_range\": [370.0, 375.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and dark tie\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and looking down\"}, {\"person\": \"a man in a white shirt and dark tie\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing and looking at the other man\"}, {\"person\": \"a man in a police uniform\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"sitting a"
+}

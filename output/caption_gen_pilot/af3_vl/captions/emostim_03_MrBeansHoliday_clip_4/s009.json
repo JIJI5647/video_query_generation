@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing a song with a medium pitch and a steady rhythm, accompanied by background music.",
+  "temporal_description": "A man in a suit and tie is riding a bicycle with a basket of produce on the front, pedaling along a paved road with trees and a vehicle visible in the background. He maintains a steady posture, gripping the handlebars, and appears to be moving forward at a consistent pace. Later, a group of cyclists in athletic gear and helmets are seen riding in a line, pedaling vigorously and maintaining a tight formation on the same road. The man in the suit joins them, riding alongside the group, and continues pedaling while looking ahead. The cyclists are focused on their movement, leaning forward slightly as they ride. The scene is set outdoors under a clear sky with open fields and trees in the background.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and tie is riding a bicycle with a basket of produce on the front, pedaling along a paved road with trees and a vehicle visible in the background. He maintains a steady posture, gripping the handlebars, and appears to be moving forward at a consistent pace. Later, a group of cyclists in athletic gear and helmets are seen riding in a line, pedaling vigorously and maintaining a tight formation on the same road. The man in the suit joins them, riding alongside the group, and continu",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

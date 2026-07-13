@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_description": "A person wearing a red sleeve is seen attempting to unlock a door with a key, their hand moving back and forth as they try to turn the key in the lock. The scene then shifts to a bathroom where a person in a blue robe is holding another person, who is wearing a red and green striped sweater, in front of a window. The person in the robe is supporting the other person as they reach out with their legs, attempting to climb out of the window. The window has snow on it, and the bathroom walls are tiled with white tiles and a black stripe. The scene then transitions to an outdoor snowy area at night, illuminated by streetlights, with a large pile of snow in front of a building. The snow is piled high, and the area appears to be deserted. The camera remains stationary throughout the outdoor scene, capturing the stillness of the snowy environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched metallic squeal, immediately establishing a and urgent atmosphere. This sound, reminiscent of a train’s steel wheels grinding against rails, is accompanied by a deep, resonant rumble and a rhythmic, percussive clatter, evoking the sensation of a train moving at speed. The metallic squeal fluctuates in pitch and intensity, suggesting the train is negotiating a curve or braking, while the underlying rumble and clatter maintain a steady, mechanical pulse. The soundscape is enveloped in a dense, reverberant echo, indicating the train is traveling through a large, enclosed space such as a tunnel or underground station. The recording is of moderate fidelity, with a persistent background hiss and a slightly muffled quality, likely due to analog tape or low-grade digital equipment. The stereo field is narrow, with all sounds centered and no sense of spatial movement. Abruptly, the train sounds are cut off mid-action, with no natural fade or decay, replaced instantly by a loud, synthetic electronic tone. This tone is a pure, low-frequency sawtooth wave at approximately 110 Hz (A2), characterized by a harsh, buzzy timbre and a static, unwavering",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a red sleeve is seen attempting to unlock a door with a key, their hand moving back and forth as they try to turn the key in the lock. The scene then shifts to a bathroom where a person in a blue robe is holding another person, who is wearing a red and green striped sweater, in front of a window. The person in the robe is supporting the other person as they reach out with their legs, attempting to climb out of the window. The window has snow on it, and the bathroom walls are til",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

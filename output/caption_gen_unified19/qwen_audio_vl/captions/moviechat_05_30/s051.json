@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_description": "A figure is seen moving quickly through a dim, arched stone corridor, partially obscured by dust and debris. The scene is dark and atmospheric, with gothic architecture and scattered rubble visible as the figure progresses. The figure’s posture suggests urgency, with limbs in motion, but facial features and specific gestures are not discernible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful orchestral impact, immediately immersing the listener in a dense, cinematic soundscape. A deep, resonant bass note from a low brass instrument—likely a tuba or trombone—serves as the foundation, accompanied by a sharp, metallic crash from a cymbal or gong. This opening is marked by a brief, high-frequency digital artifact, likely a transient pop or click, which is quickly absorbed into the swelling orchestral texture. The brass section, featuring trumpets and trombones, delivers a powerful, dissonant chord, while the strings—violins, violas, and cellos—play a rapid, ascending ostinato, creating a sense of urgency and tension. Percussion, including timpani and snare drums, adds a driving, militaristic rhythm, and the overall mix is enveloped in a lush, artificial reverb that simulates a vast concert hall or cathedral. As the music progresses, the brass and strings intensify, with the brass sustaining a dissonant chord and the strings continuing their urgent, ascending motif. The percussion maintains a relentless, militaristic drive, and the orchestral layers build in density and volume, reaching a dramatic crescendo. The",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A figure is seen moving quickly through a dim, arched stone corridor, partially obscured by dust and debris. The scene is dark and atmospheric, with gothic architecture and scattered rubble visible as the figure progresses. The figure’s posture suggests urgency, with limbs in motion, but facial features and specific gestures are not discernible.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A person in a dark hoodie stands in a dimly lit room, partially obscured by shadows. They are positioned near a window with multiple panes, through which rain is visible. The person appears to be looking down at something in their hands.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is dominated by a loud, sustained, low-frequency electronic tone, similar to a synthesizer drone or a test signal.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A person in a dark hoodie stands in a dimly lit room, partially obscured by shadows. They are positioned near a window with multiple panes, through which rain is visible. The person appears to be looking down at something in their hands.\", \"audio\": \"The audio is dominated by a loud, sustained, low-frequency electronic tone, similar to a synthesizer drone or a test signal.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A group of cyclists in colorful jerseys and helmets are riding bicycles in a line on a paved road, with some leaning forward in an aerodynamic posture. The scene is set outdoors under a clear blue sky, with rolling fields and trees visible in the background. One cyclist in the foreground looks toward the camera while others focus ahead, maintaining steady pedaling motions.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a medium pitch and moderate pace, speaking in a neutral tone without any noticeable prosody or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of cyclists in colorful jerseys and helmets are riding bicycles in a line on a paved road, with some leaning forward in an aerodynamic posture. The scene is set outdoors under a clear blue sky, with rolling fields and trees visible in the background. One cyclist in the foreground looks toward the camera while others focus ahead, maintaining steady pedaling motions.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

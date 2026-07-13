@@ -1,0 +1,74 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking to another man"
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and talking to another man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wooden door and a framed picture on the wall"
+    },
+    "objects": [
+      {
+        "object": "a framed picture",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "hanging on the wall"
+      }
+    ],
+    "interactions": [
+      "the two men are having a conversation"
+    ],
+    "key_actions": [
+      "talking",
+      "standing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "talking"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "towards the man in the blue plaid shirt"
+    },
+    {
+      "person": "a man in a blue plaid shirt",
+      "facial_cues": [
+        "talking",
+        "surprised"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "towards the man in the pink plaid shirt"
+    }
+  ],
+  "audio_description": "two men are having a conversation, one sounds surprised and the other is calm.",
+  "temporal_description": "the conversation continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a pink plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and talking to another man\"}, {\"person\": \"a man in a blue plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing and talking to another man\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with a wooden door and a framed picture on the wall\"}, \"objects\": [{"
+}

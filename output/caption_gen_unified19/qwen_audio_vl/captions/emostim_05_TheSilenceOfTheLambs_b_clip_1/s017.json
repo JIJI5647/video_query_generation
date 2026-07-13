@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "A woman with brown hair and light skin is shown in close-up, her face partially obscured by her own arm as she looks upward. A second shot reveals a person’s arm covered in wires and what appears to be dried blood or bodily fluids, lying on a dark, textured surface. The woman’s gaze is directed upward, and her mouth is slightly open, with her arm positioned in front of her face.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins in a quiet, acoustically dampened indoor setting, likely a small room with soft furnishings. A faint, low-frequency hum, probably from a computer fan or HVAC system, is present in the background. A single adult female voice, speaking in a soft, breathy, and intimate tone, says, “I only have one.” Her speech is clear and close to the microphone, with a General American accent and a gentle, slightly melancholic quality. Immediately after she finishes, a sharp, high-pitched click is heard, consistent with a computer mouse being clicked, followed by a brief, low-frequency thump, possibly from a hand or object contacting a desk. These sounds are close-miked and indicate focused, deliberate computer interaction. The ambient hum continues, and the environment remains still and undisturbed. Suddenly, a loud, synthetic electronic tone erupts, characterized by a harsh, buzzy timbre typical of a square or sawtooth wave. This tone is much louder than previous sounds, with a fundamental frequency around 110 Hz (A2) and strong harmonics, and it is sustained without variation until the recording ends. The tone is likely a system alert or error signal, possibly from a computer or device",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with brown hair and light skin is shown in close-up, her face partially obscured by her own arm as she looks upward. A second shot reveals a person’s arm covered in wires and what appears to be dried blood or bodily fluids, lying on a dark, textured surface. The woman’s gaze is directed upward, and her mouth is slightly open, with her arm positioned in front of her face.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

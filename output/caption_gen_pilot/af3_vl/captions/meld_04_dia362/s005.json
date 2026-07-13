@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate speed, expressing anger and frustration, with no noticeable background noise.",
+  "temporal_description": "A woman with shoulder-length brown hair lies in a hospital bed, covered with a pink blanket, her head resting on a white pillow. A man with dark hair, wearing a light-colored shirt, leans over her, his hand resting on her chest. He gestures with his hand while looking down at her. The scene shifts to a nurse in a white coat and gloves, standing beside another hospital bed, adjusting a pink blanket. She looks down at the bed, then gestures with her hands as if speaking. The room has pink walls, medical equipment, and outlets along the wall.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair lies in a hospital bed, covered with a pink blanket, her head resting on a white pillow. A man with dark hair, wearing a light-colored shirt, leans over her, his hand resting on her chest. He gestures with his hand while looking down at her. The scene shifts to a nurse in a white coat and gloves, standing beside another hospital bed, adjusting a pink blanket. She looks down at the bed, then gestures with her hands as if speaking. The room has pink walls, m",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

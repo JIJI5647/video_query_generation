@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a rich, cinematic orchestral score, dominated by a slow, mournful string section—likely violins and cellos—playing a descending, legato melody. The music is enveloped in a wide stereo field and heavy reverb, creating a vast, immersive atmosphere reminiscent of a grand concert hall or cathedral. The emotional tone is somber and suspenseful, evoking a sense of loss or impending tragedy. No speech, vocals, or environmental sounds are present; the music is the sole focus.\n\nAt approximately four seconds, a sharp, high-frequency metallic click is heard, panned slightly to the right, suggesting the manipulation of a small metal object such as a latch, key, or switch. This is immediately followed by a brief, low-frequency rustling sound, likely fabric or paper, indicating a person’s movement or handling of an object. The orchestral music continues uninterrupted, maintaining its emotional intensity and spatial depth.\n\nSuddenly, the music is cut off mid-phrase with a hard, digital edit, leaving no fade or natural decay. In its place, a loud, synthetic electronic tone emerges, centered in the stereo field. This tone is a harsh, low-frequency buzz with a square or sawtooth waveform, characterized by a strong fundamental around 100 Hz and prominent upper harmonics. The sound is abrasive, static, and unmodulated, evoking the sensation of a system error, alarm, or censorship bleep. The tone persists until the clip ends, with no further sounds or transitions.\n\nThroughout the recording, there is no speech, dialogue, or environmental noise. The audio quality is high, with a wide frequency range and no distortion or artifacts, except for the abrupt digital cut. The orchestral segment is immersive and emotionally charged, while the electronic tone is jarring and disruptive. The sequence suggests a narrative arc: a dramatic, tragic scene is interrupted by a sudden, artificial event—possibly a system failure, censorship, or a narrative twist—leaving the listener in unresolved tension.\n\nIn summary, the audio presents a cinematic orchestral introduction that is abruptly replaced by a harsh electronic tone, with no speech or environmental sounds. The transition is marked by a hard digital edit, and the overall effect is one of emotional disruption and unresolved tension, likely intended to signal a dramatic or narrative shift.",
+  "temporal_description": "A man in a light blue shirt and dark tie is seated in an office chair, facing slightly away from the camera. He rests his chin on his hand, then lowers it and begins typing on a keyboard. His hands move rhythmically over the keys, and his posture remains upright throughout. The background features horizontal blinds, and office items like a phone and papers are visible on the desk.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt and dark tie is seated in an office chair, facing slightly away from the camera. He rests his chin on his hand, then lowers it and begins typing on a keyboard. His hands move rhythmically over the keys, and his posture remains upright throughout. The background features horizontal blinds, and office items like a phone and papers are visible on the desk.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

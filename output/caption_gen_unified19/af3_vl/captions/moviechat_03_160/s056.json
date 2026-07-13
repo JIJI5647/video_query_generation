@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_description": "A man in a suit is seen in profile, holding a phone to his ear, with glowing blue stock ticker numbers in the background. In a dimly lit hallway, three men are visible; one is raising his hand to a wall, another holds a firearm pointed upward, and the third stands behind with a gun aimed forward. All figures are partially obscured by shadows, with their gazes directed forward or upward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable prosody or non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit is seen in profile, holding a phone to his ear, with glowing blue stock ticker numbers in the background. In a dimly lit hallway, three men are visible; one is raising his hand to a wall, another holds a firearm pointed upward, and the third stands behind with a gun aimed forward. All figures are partially obscured by shadows, with their gazes directed forward or upward.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

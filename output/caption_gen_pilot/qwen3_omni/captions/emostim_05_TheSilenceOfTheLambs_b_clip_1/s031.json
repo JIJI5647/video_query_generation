@@ -1,0 +1,45 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and glasses",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "green wall background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and glasses",
+      "facial_cues": [
+        "speaking"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a clear voice.",
+  "temporal_description": "The man speaks continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s031\", \"time_range\": [150.0, 155.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and glasses\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"speaking\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"green wall background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"speaking\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man in a white shirt and glasses\", \"facial_cues\": [\"speaking\"], \"body_cues\": [], \"gaze\""
+}

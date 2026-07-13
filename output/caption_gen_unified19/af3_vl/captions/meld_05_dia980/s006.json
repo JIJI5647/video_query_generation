@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "Two men stand facing each other in a kitchen, one in a gray sweater gesturing with his hands while speaking, the other in a dark jacket listening with his back partially turned. The man in gray leans slightly forward, his gaze directed at the other, who has his hands resting on the counter. The kitchen features wooden cabinets, a microwave, a stove, and various items on shelves and countertops, with a window and curtains visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a steady pace and moderate pitch, and no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand facing each other in a kitchen, one in a gray sweater gesturing with his hands while speaking, the other in a dark jacket listening with his back partially turned. The man in gray leans slightly forward, his gaze directed at the other, who has his hands resting on the counter. The kitchen features wooden cabinets, a microwave, a stove, and various items on shelves and countertops, with a window and curtains visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

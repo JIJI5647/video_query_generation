@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a powerful, cinematic orchestral swell, immediately immersing the listener in a grand, emotionally charged atmosphere. The ensemble features a full string section—violins, violas, cellos, and double basses—playing a slow, descending melodic line in a minor key, supported by a deep, resonant bass that anchors the harmony. The strings are arranged in a wide stereo field, with violins panned left and cellos and basses right, creating a sense of spatial depth. A subtle, high-frequency shimmer, likely from a synthesized pad or high strings, adds an ethereal quality. The music is marked by a slow, deliberate tempo and a gradual crescendo, with the volume and intensity steadily increasing. The overall mood is somber and epic, evoking feelings of loss, tragedy, or solemnity, and is reminiscent of dramatic film scores or video game cutscenes.\n\nAt the climax of the swell, the music is abruptly and completely cut off, with no fade or transition. This sudden silence is immediately replaced by a loud, harsh, low-frequency electronic buzz. The buzz is a static, monophonic tone with a fundamental frequency around 50–60 Hz, rich in upper harmonics, and is characterized by a square or sawtooth waveform. It is dry, centered in the stereo field, and devoid of any reverberation or environmental context. The buzz is jarring and disruptive, evoking the sensation of a technical malfunction, such as a power line hum, digital error, or system crash. Its abrupt onset and sustained presence create a stark contrast to the preceding orchestral music, heightening the sense of shock and unease.\n\nThroughout the clip, there is no speech, dialogue, or vocalization; the audio consists solely of instrumental music and electronic noise. The orchestral segment is of high fidelity, with a wide frequency range and immersive stereo imaging, while the electronic buzz is low-fidelity, mono, and acoustically dry. The transition between the two is instantaneous and unmediated, with no overlap or blending.\n\nIn summary, the audio presents a dramatic orchestral swell that is abruptly interrupted by a harsh electronic buzz, creating a stark emotional and sonic contrast. The absence of speech and the deliberate juxtaposition of cinematic music with technical error sound suggest a narrative of disruption, loss, or malfunction, likely intended for use in media such as film, television, or video games to evoke tension, shock, or a sense of catastrophic failure.",
+  "temporal_description": "A man in a white shirt stands on a dimly lit balcony, leaning on the railing with his left hand while his right hand is raised toward a bright light source. He is positioned near a translucent plastic sheet hanging from above, which partially obscures the view behind him. The hallway behind him is narrow and lined with green doors, with occasional figures walking in the distance. The camera slowly pans left, revealing more of the building’s structure and the darkened windows of adjacent floors. The man remains still, occasionally shifting his gaze slightly, and his posture remains upright and attentive throughout the scene.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt stands on a dimly lit balcony, leaning on the railing with his left hand while his right hand is raised toward a bright light source. He is positioned near a translucent plastic sheet hanging from above, which partially obscures the view behind him. The hallway behind him is narrow and lined with green doors, with occasional figures walking in the distance. The camera slowly pans left, revealing more of the building’s structure and the darkened windows of adjacent floors. ",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

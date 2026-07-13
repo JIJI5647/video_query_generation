@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_description": "A group of men in business attire descend a dimly lit staircase inside a building, with some holding phones or looking down. One man in the foreground walks with his gaze lowered, while others follow behind, some glancing around. The scene is framed by metal railings and overhead lighting, with a few individuals visible on an upper level.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a moderate pace, accompanied by a slight breathiness and a sigh at the end.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in business attire descend a dimly lit staircase inside a building, with some holding phones or looking down. One man in the foreground walks with his gaze lowered, while others follow behind, some glancing around. The scene is framed by metal railings and overhead lighting, with a few individuals visible on an upper level.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A person is seen in a dimly lit room, their upper body and arm visible as they lean against a wall or door frame. Their skin is glistening with moisture, possibly from sweat or water. The camera slowly pans to reveal a window with raindrops on the glass, and another person appears in the background, standing near the window, partially obscured by shadows. The second person is wearing a hooded jacket and appears to be holding something in their hand, occasionally shifting their position slightly. Both individuals remain mostly still throughout the clip, with minimal movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person is seen in a dimly lit room, their upper body and arm visible as they lean against a wall or door frame. Their skin is glistening with moisture, possibly from sweat or water. The camera slowly pans to reveal a window with raindrops on the glass, and another person appears in the background, standing near the window, partially obscured by shadows. The second person is wearing a hooded jacket and appears to be holding something in their hand, occasionally shifting their position slightly.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

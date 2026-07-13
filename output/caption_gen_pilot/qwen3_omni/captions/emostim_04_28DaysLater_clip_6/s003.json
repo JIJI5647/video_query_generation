@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark hooded jacket and pants",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking slowly and cautiously across a checkered floor"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a large mirror and a bed in the background"
+    },
+    "objects": [
+      {
+        "object": "a large ornate mirror",
+        "position": "background",
+        "action": "reflecting the man's image"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "walking",
+      "looking around"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark hooded jacket and pants",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "walking slowly",
+        "looking around"
+      ],
+      "gaze": "around the room"
+    }
+  ],
+  "audio_description": "a low, ominous musical tone plays in the background.",
+  "temporal_description": "The man walks slowly across the room, and the camera follows his movement.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark hooded jacket and pants\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"walking slowly and cautiously across a checkered floor\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a large mirror and a bed in the background\"}, \"objects\": [{\"object\": \"a large ornate mirror\", \"position\": \"background\", \"action\": \"reflecting the man's image\"}], \"intera"
+}

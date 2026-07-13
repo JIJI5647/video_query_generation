@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A group of people in business attire are standing in an office hallway, facing toward a television screen mounted on the wall. Some individuals are partially obscured by others or office furniture, and their postures suggest they are attentively watching the screen. The scene is lit by overhead pendant lights, with visible office cubicles and glass partitions lining the corridor.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with a moderate pace and pitch, and no significant non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people in business attire are standing in an office hallway, facing toward a television screen mounted on the wall. Some individuals are partially obscured by others or office furniture, and their postures suggest they are attentively watching the screen. The scene is lit by overhead pendant lights, with visible office cubicles and glass partitions lining the corridor.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

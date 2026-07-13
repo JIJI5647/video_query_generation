@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins with a sudden, sharp metallic impact, characterized by a high-frequency \"clank\" and a brief, resonant echo, suggesting a heavy metal object—such as a gate, door, or industrial component—being forcefully struck or closed in a large, reverberant space. Immediately following this, a high-pitched, strained human vocalization is heard, likely a cry of pain or distress, which is abruptly cut off by a second, even more forceful metallic impact. This second event is louder and more complex, featuring a deep, resonant \"thud\" and a cascade of metallic rattling and scraping, indicating the collision of a large, heavy object with a hard surface and subsequent movement or settling. The reverberation from both impacts is pronounced, with echoes lingering and decaying, reinforcing the impression of a vast, hard-surfaced environment such as a warehouse, industrial hall, or empty parking garage.\n\nAfter the second impact, a brief, low-frequency mechanical hum emerges, reminiscent of a large electric motor or industrial machinery powering up, and persists for the remainder of the recording. The hum is steady and unchanging, with no additional sounds or voices present. The audio is marked by low fidelity, with significant clipping and distortion during the loudest moments, a persistent background hiss, and a compressed dynamic range. The frequency spectrum is dominated by mid and low frequencies, with high frequencies attenuated, and the overall sound is muffled and lacking in clarity.\n\nNo intelligible speech or language is present; the only vocalization is a brief, non-verbal cry of distress. The sequence of events—forceful metallic impacts, a human cry, and the activation of machinery—suggests a scenario of physical violence or an industrial accident, possibly involving the use of heavy equipment or machinery. The absence of other human sounds, environmental cues, or cultural markers leaves the context ambiguous, but the setting is clearly industrial or utilitarian, with no evidence of music, alarms, or public activity.\n\nIn summary, the recording captures a brief, intense episode in a large, reverberant industrial space, featuring two violent metallic impacts, a human cry of distress, and the subsequent activation of machinery. The audio is low-fidelity, with pronounced distortion and reverberation, and contains no speech or cultural identifiers, strongly suggesting a scene of industrial violence or accident.",
+  "temporal_description": "A man with dark, shoulder-length hair and wearing a dark red jacket is seen peering through a torn wall, his face partially obscured by the peeling material. He then moves into a dimly lit room, wielding an axe with both hands, swinging it forcefully toward a door. He continues to swing the axe at the door, then pauses, standing still and looking toward the door with a focused expression. The room has pink walls, a lit lamp, and a framed picture on the wall.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, shoulder-length hair and wearing a dark red jacket is seen peering through a torn wall, his face partially obscured by the peeling material. He then moves into a dimly lit room, wielding an axe with both hands, swinging it forcefully toward a door. He continues to swing the axe at the door, then pauses, standing still and looking toward the door with a focused expression. The room has pink walls, a lit lamp, and a framed picture on the wall.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_description": "A woman in a white shirt and brown shorts leans over a blue pool table while another woman in a patterned dress stands nearby. The room features brown padded walls, a row of hanging lights, and a tufted leather wall in the foreground. The pool table has balls arranged for a game.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s093\", \"time_range\": [460.0, 465.0], \"visual\": \"A woman in a white shirt and brown shorts leans over a blue pool table while another woman in a patterned dress stands nearby. The room features brown padded walls, a row of hanging lights, and a tufted leather wall in the foreground. The pool table has balls arranged for a game.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

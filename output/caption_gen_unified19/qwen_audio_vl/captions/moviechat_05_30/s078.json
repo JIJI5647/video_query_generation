@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_description": "A person in a dark, hooded garment is seated at a cluttered table, their back mostly to the camera, manipulating a wooden box and thick ropes. The table is strewn with various objects, including a large metal armillary sphere and other mechanical or nautical tools, under dim, focused lighting. The person’s hands are actively engaged with the box, while their posture remains hunched and concentrated on the task.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a lush, cinematic orchestral score, immediately immersing the listener in a grand, emotionally charged atmosphere. The music is led by a solo cello, its warm, resonant timbre delivering a slow, legato melody that is both mournful and introspective. The cello’s expressive phrasing, marked by subtle vibrato and dynamic swells, is supported by a string section—violins and violas—playing sustained, high-register chords that create a shimmering, ethereal backdrop. The harmony is rich and chromatic, with a slow, descending bass line that evokes a sense of longing and unresolved tension. The overall sound is enveloping and spacious, enhanced by a wide stereo field and a lush, artificial reverb that suggests a large concert hall or studio setting. The music is entirely instrumental, with no speech, vocals, or environmental sounds, and is presented in pristine, high-fidelity quality, free from any noise or distortion. At a precise moment, the music is abruptly and completely cut off, with no fade or transition. This sudden silence is immediately replaced by a loud, harsh electronic buzzer. The buzzer is a low-frequency, synthetic tone with a grating, sawtooth-like timbre",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark, hooded garment is seated at a cluttered table, their back mostly to the camera, manipulating a wooden box and thick ropes. The table is strewn with various objects, including a large metal armillary sphere and other mechanical or nautical tools, under dim, focused lighting. The person’s hands are actively engaged with the box, while their posture remains hunched and concentrated on the task.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

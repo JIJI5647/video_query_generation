@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_description": "A person with wet, dark hair and a light-colored turtleneck is visible in a bathroom, holding a black object. Another person, partially seen, is holding a knife and peering around a doorframe. The scene is indoors, with tiled walls and a shower curtain in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with wet, dark hair and a light-colored turtleneck is visible in a bathroom, holding a black object. Another person, partially seen, is holding a knife and peering around a doorframe. The scene is indoors, with tiled walls and a shower curtain in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

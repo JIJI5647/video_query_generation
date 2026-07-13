@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_description": "A man in a white shirt stands in profile facing left while another man is partially visible on the right, both set against a dark background. The view then cuts to a dark screen before revealing a man in a suit and glasses in profile, looking downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s056\", \"time_range\": [275.0, 280.0], \"visual\": \"A man in a white shirt stands in profile facing left while another man is partially visible on the right, both set against a dark background. The view then cuts to a dark screen before revealing a man in a suit and glasses in profile, looking downward.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

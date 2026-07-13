@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "Two men stand facing each other in a warmly lit indoor setting; one wears a pink plaid shirt and the other a blue plaid shirt over a white tee. The man in pink is partially turned, while the man in blue stands with his body angled slightly away, both appearing to be in mid-conversation. Behind them, a framed picture hangs on the wall, and a doorway is visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, sounding and concerned.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand facing each other in a warmly lit indoor setting; one wears a pink plaid shirt and the other a blue plaid shirt over a white tee. The man in pink is partially turned, while the man in blue stands with his body angled slightly away, both appearing to be in mid-conversation. Behind them, a framed picture hangs on the wall, and a doorway is visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

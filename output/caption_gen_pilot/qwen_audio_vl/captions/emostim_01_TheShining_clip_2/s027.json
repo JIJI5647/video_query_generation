@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single male voice, speaking in a calm, neutral, and slightly weary tone, saying, “I’m home.” The voice is clear and close to the microphone, with a subtle reverberation that suggests the speaker is in a medium-sized, hard-surfaced room—likely a kitchen or hallway. The delivery is unhurried and natural, with a slight downward inflection at the end, indicating a sense of relief or routine. The recording is of high fidelity, with no distortion or background noise, and the voice is centered in the stereo field.\n\nImmediately following the spoken phrase, a mechanical sequence commences. The first sound is a sharp, metallic click, likely from a key being inserted into a lock or a latch being disengaged. This is followed by a brief, high-pitched whirring or grinding noise, characteristic of a motorized mechanism such as a garage door opener or an automated gate. The mechanical sounds are spatially dynamic, moving from the left to the right side of the stereo field, suggesting the device is traversing a distance or the recording perspective shifts. The sequence continues with a series of rapid, rhythmic metallic clacks, resembling the operation of a chain drive or a ratcheting mechanism, and is accompanied by a low-frequency rumble and a persistent high-frequency whine, indicating the presence of a running motor. The mechanical sounds are loud and clear, with a slight digital clipping at their peak, and are enveloped in the same reverberant room acoustics as the voice.\n\nAs the mechanical sequence concludes, a sudden, harsh electronic tone erupts. This tone is a low-frequency, buzzy, and distorted sound, reminiscent of a square or sawtooth wave, and is significantly louder than the preceding sounds. It is monophonic and centered in the stereo field, with no spatial movement. The tone is static and unmodulated, and its abrupt onset and sustained presence suggest a system error, alert, or malfunction. The recording ends abruptly while the tone is still active, with no fade-out or additional sounds.\n\nIn summary, the audio clip presents a concise narrative: a man enters a reverberant, hard-surfaced room and announces his arrival, immediately followed by the operation of a motorized mechanism—likely a garage door or automated gate—moving from left to right in the stereo field. The sequence is interrupted by a loud, distorted electronic error tone, indicating a malfunction or system alert. The recording is high-fidelity, with clear spatial cues and no extraneous background noise, and the events unfold in a logical, sequential manner, suggesting a modern, automated home environment.",
+  "temporal_description": "A man with dark hair and a plaid shirt is partially visible through a narrow gap in a wooden door. He is holding a long wooden object, possibly a bat, and appears to be attempting to manipulate a door lock with his hand. His head is slightly tilted, and his gaze is directed toward the door handle. The door has a brass handle and chain lock, and the wall beside it features floral wallpaper. The man’s posture suggests he is focused on the task at hand, and his hand movements indicate he is trying to unlock or force the door.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark hair and a plaid shirt is partially visible through a narrow gap in a wooden door. He is holding a long wooden object, possibly a bat, and appears to be attempting to manipulate a door lock with his hand. His head is slightly tilted, and his gaze is directed toward the door handle. The door has a brass handle and chain lock, and the wall beside it features floral wallpaper. The man’s posture suggests he is focused on the task at hand, and his hand movements indicate he is trying ",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

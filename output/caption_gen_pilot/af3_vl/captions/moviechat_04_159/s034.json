@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a clear and steady delivery. There are no significant background sounds or emotional inflections.",
+  "temporal_description": "The video shows a group of men walking down a dimly lit hallway, with two men in the foreground wearing dark suits and white shirts. Their faces are partially visible as they walk, and they appear to be engaged in conversation. The camera then shifts to a man in a light blue shirt and tie standing in what looks like a control room or office, surrounded by other people and computer monitors. The background figures are out of focus, but they appear to be observing or working at their stations. The man in the foreground maintains a steady gaze forward, while others in the background are either standing or seated, with some looking at screens.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a group of men walking down a dimly lit hallway, with two men in the foreground wearing dark suits and white shirts. Their faces are partially visible as they walk, and they appear to be engaged in conversation. The camera then shifts to a man in a light blue shirt and tie standing in what looks like a control room or office, surrounded by other people and computer monitors. The background figures are out of focus, but they appear to be observing or working at their stations. The",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

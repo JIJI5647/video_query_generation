@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_description": "A man in a suit and tie rides a bicycle down a rural dirt road, passing by dry grass and a distant tower. He maintains a steady posture, looking forward as he pedals, with the camera following his movement from behind. The scene is bright and sunlit, with sparse vegetation and a few scattered buildings visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-energy burst of instrumental music, immediately immersing the listener in a dense, fast-paced rock arrangement. The sound is dominated by a heavily distorted electric guitar playing a rapid, palm-muted riff in the lower register, supported by a driving bass guitar that mirrors the riff’s rhythm and adds depth. The drums establish a relentless, four-on-the-floor beat at approximately 180 BPM, with snare hits on beats two and four, and a continuous, tightly played hi-hat pattern. The overall mix is loud, compressed, and highly saturated, with a gritty, overdriven character and a wide stereo image—guitars panned left and right, bass and drums centered, and cymbals spread across the field. The recording is of low fidelity, marked by digital clipping and a persistent high-frequency hiss, suggesting a compressed, lo-fi production style. There is no speech, vocalization, or ambient noise; the music is the sole focus. At the four-second mark, the music is abruptly cut off mid-phrase, with no fade or transition, creating a jarring interruption. Instantly, a harsh, synthetic electronic tone replaces the music. This tone is a low-frequency, buzzy",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and tie rides a bicycle down a rural dirt road, passing by dry grass and a distant tower. He maintains a steady posture, looking forward as he pedals, with the camera following his movement from behind. The scene is bright and sunlit, with sparse vegetation and a few scattered buildings visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

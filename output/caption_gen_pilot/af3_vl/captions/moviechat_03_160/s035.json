@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A man with short dark hair, wearing a white shirt and black headphones, is seated in front of a computer screen, his gaze fixed downward. Another man, dressed in a dark suit with a light blue shirt and tie, is shown in profile, wearing an earpiece and looking forward. A close-up of a hand clasped in front of a dark suit reveals a ring on the ring finger. A computer monitor displays multiple audio waveforms and numerical data, with a cursor moving across the screen.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a white shirt and black headphones, is seated in front of a computer screen, his gaze fixed downward. Another man, dressed in a dark suit with a light blue shirt and tie, is shown in profile, wearing an earpiece and looking forward. A close-up of a hand clasped in front of a dark suit reveals a ring on the ring finger. A computer monitor displays multiple audio waveforms and numerical data, with a cursor moving across the screen.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

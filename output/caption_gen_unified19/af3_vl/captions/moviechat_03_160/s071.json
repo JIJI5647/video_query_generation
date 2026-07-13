@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_description": "A group of men in an office setting, some seated at desks with computers, others standing or moving about; one man in a suit walks away from the camera toward a door. A man in a dark suit is seen from behind, walking through a dimly lit corridor with tiled walls. Another man in a suit is visible in the background, looking toward the camera with a neutral expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate pace, speaking in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in an office setting, some seated at desks with computers, others standing or moving about; one man in a suit walks away from the camera toward a door. A man in a dark suit is seen from behind, walking through a dimly lit corridor with tiled walls. Another man in a suit is visible in the background, looking toward the camera with a neutral expression.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

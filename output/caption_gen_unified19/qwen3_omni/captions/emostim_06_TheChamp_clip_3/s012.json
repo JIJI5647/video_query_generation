@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A man with light-colored hair, wearing a black shirt, is shown in a dimly lit room. He appears distressed, covering his face with his hands. A young boy with blonde hair, wearing a gray shirt, is visible in the background, looking on with a sad expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A child's voice is heard speaking, followed by a loud, jarring electronic buzzer sound.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual\": \"A man with light-colored hair, wearing a black shirt, is shown in a dimly lit room. He appears distressed, covering his face with his hands. A young boy with blonde hair, wearing a gray shirt, is visible in the background, looking on with a sad expression.\", \"audio\": \"A child's voice is heard speaking, followed by a loud, jarring electronic buzzer sound.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

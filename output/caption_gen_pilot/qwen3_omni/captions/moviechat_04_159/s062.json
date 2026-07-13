@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "operating a laptop and a walkie-talkie"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with electronic equipment"
+    },
+    "objects": [
+      {
+        "object": "laptop",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "displaying a blue screen"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man operating a laptop and a walkie-talkie"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "adjusting headphones"
+      ],
+      "gaze": "down at the laptop screen"
+    }
+  ],
+  "audio_description": "A rhythmic, mechanical clicking sound is heard.",
+  "temporal_description": "The clicking sound is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s062\", \"time_range\": [305.0, 310.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light-colored shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"operating a laptop and a walkie-talkie\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with electronic equipment\"}, \"objects\": [{\"object\": \"laptop\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"displaying a blue screen\"}], \"interactions\": [], \"key_action"
+}

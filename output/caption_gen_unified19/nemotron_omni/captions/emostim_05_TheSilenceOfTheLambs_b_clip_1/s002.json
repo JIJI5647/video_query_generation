@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A pair of hands, one wearing a white shirt cuff, manipulates a zipper on a dark piece of clothing, sliding the zipper up and down. The camera stays focused on the hands and the zipper against a blurred background. No face or other body parts are visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures the metallic sliding sound of the zipper and a soft rustle of fabric.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A pair of hands, one wearing a white shirt cuff, manipulates a zipper on a dark piece of clothing, sliding the zipper up and down. The camera stays focused on the hands and the zipper against a blurred background. No face or other body parts are visible.\", \"audio\": \"The audio captures the metallic sliding sound of the zipper and a soft rustle of fabric.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,77 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with brown hair wearing a dark shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding and looking at a large, folded piece of parchment or a map"
+      },
+      {
+        "person": "a woman with dark hair wearing a dark jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "looking at the man and the parchment"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit stone corridor with a window in the background, illuminated by a blueish light from the side."
+    },
+    "objects": [
+      {
+        "object": "a large, folded piece of parchment or a map",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being held and examined by the man"
+      }
+    ],
+    "interactions": [
+      "The man and the woman are standing close together, looking at the parchment and then at each other."
+    ],
+    "key_actions": [
+      "The man holds the parchment and speaks.",
+      "The woman looks at the man and then up towards the ceiling."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with brown hair wearing a dark shirt",
+      "facial_cues": [
+        "his mouth is open as he speaks",
+        "his eyes are wide with surprise"
+      ],
+      "body_cues": [
+        "he is holding the parchment with both hands",
+        "he turns his head to look at the woman"
+      ],
+      "gaze": "first at the parchment, then at the woman, then up towards the ceiling"
+    },
+    {
+      "person": "a woman with dark hair wearing a dark jacket",
+      "facial_cues": [
+        "her eyes are wide with surprise",
+        "her mouth is slightly open"
+      ],
+      "body_cues": [
+        "she is standing close to the man",
+        "she turns her head to look at the man and then up towards the ceiling"
+      ],
+      "gaze": "first at the man, then up towards the ceiling"
+    }
+  ],
+  "audio_description": "A male voice speaks in a concerned tone.",
+  "temporal_description": "The man speaks while looking at the parchment, then looks at the woman and then up. The woman looks at the man and then up.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s056\", \"time_range\": [275.0, 280.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with brown hair wearing a dark shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"holding and looking at a large, folded piece of parchment or a map\"}, {\"person\": \"a woman with dark hair wearing a dark jacket\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"looking at the man and the parchment\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dimly l"
+}

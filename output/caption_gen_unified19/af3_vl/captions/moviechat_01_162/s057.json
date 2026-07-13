@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_description": "A silhouetted figure stands facing away from the camera, gazing toward a cloudy sky with a bright patch of light breaking through. The person’s posture is upright and still, with no discernible gestures or movement. The scene is dominated by the expansive, dimly lit sky and the dark outline of the individual against it.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and breathy voice with a slow pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A silhouetted figure stands facing away from the camera, gazing toward a cloudy sky with a bright patch of light breaking through. The person’s posture is upright and still, with no discernible gestures or movement. The scene is dominated by the expansive, dimly lit sky and the dark outline of the individual against it.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

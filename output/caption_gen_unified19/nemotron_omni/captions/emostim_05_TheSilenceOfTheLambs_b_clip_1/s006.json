@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "The scene shows a woman seen through a glass pane, her face partially obscured. A man in a white shirt and tie wearing glasses looks forward. A woman with short brown hair is seen from behind facing a window, and a man in a white coat looks down at papers.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"The scene shows a woman seen through a glass pane, her face partially obscured. A man in a white shirt and tie wearing glasses looks forward. A woman with short brown hair is seen from behind facing a window, and a man in a white coat looks down at papers.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"medium\", \"evidence_strength\": \"ambiguous\"}"
+}

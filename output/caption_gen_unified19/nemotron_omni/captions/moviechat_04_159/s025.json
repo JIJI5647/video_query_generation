@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_description": "A man with short dark hair holds a white telephone receiver to his ear in a dimly lit office, his expression focused. He then stands in a light-colored shirt, looking forward while another man sits nearby on a phone. He moves across the room, passing a woman at a desk and another seated man, gesturing with his arms.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The man speaks into the telephone with a serious tone. Faint office ambient sounds are audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s025\", \"time_range\": [120.0, 125.0], \"visual\": \"A man with short dark hair holds a white telephone receiver to his ear in a dimly lit office, his expression focused. He then stands in a light-colored shirt, looking forward while another man sits nearby on a phone. He moves across the room, passing a woman at a desk and another seated man, gesturing with his arms.\", \"audio\": \"The man speaks into the telephone with a serious tone. Faint office ambient sounds are audible.\", \"confide"
+}

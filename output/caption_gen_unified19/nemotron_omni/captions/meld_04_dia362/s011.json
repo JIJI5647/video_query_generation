@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    53.26
+  ],
+  "visual_description": "The woman in a yellow top stands on the left holding a wheelchair where a woman in a blue shirt sits with her hands on her stomach. A doctor in a white coat bends over equipment while a woman in a hospital gown sits up in a bed covered by a pink blanket, appearing distressed, and a man in a beige jacket stands beside the bed looking toward her.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s011\", \"time_range\": [50.0, 53.26], \"visual\": \"The woman in a yellow top stands on the left holding a wheelchair where a woman in a blue shirt sits with her hands on her stomach. A doctor in a white coat bends over equipment while a woman in a hospital gown sits up in a bed covered by a pink blanket, appearing distressed, and a man in a beige jacket stands beside the bed looking toward her.\", \"audio\": \"Audio is not clearly audible.\", \"confidence\": \"medium\", \"evidence_strength\": \""
+}

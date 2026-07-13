@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a red shirt sits on an orange couch, looking toward another person partially visible on the right. The second man, wearing a blue polo, is seated beside him, smiling and gesturing with his hand while looking down. In the background, other people are standing or seated, with shelves and furniture visible in the room.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice asking a question, followed by laughter.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a red shirt sits on an orange couch, looking toward another person partially visible on the right. The second man, wearing a blue polo, is seated beside him, smiling and gesturing with his hand while looking down. In the background, other people are standing or seated, with shelves and furniture visible in the room.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

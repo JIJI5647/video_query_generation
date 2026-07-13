@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A person lies on their back with their head tilted back, partially obscured by a gloved hand holding a medical device near their mouth. A man in a white shirt and tie leans over, looking down at the person with his head slightly tilted. The scene is clinical, with the focus on the medical procedure being performed.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins in a quiet, acoustically neutral indoor environment, marked only by a faint, steady electronic hiss and a subtle low-frequency hum, likely from a nearby appliance or the recording device itself. The space is small and dry, with no reverberation or background noise, suggesting a controlled setting such as a kitchen or utility room. A soft, low-frequency thud is heard, indicating a heavy object—possibly a bag or box—being placed on a hard surface. Immediately following, a sharp, high-pitched metallic click is audible, resembling the sound of a latch or clasp being released, which is typical of a metal zipper or a similar fastener. Next, a brief, high-frequency rustling sound emerges, consistent with the manipulation of a stiff, synthetic material like nylon or polyester. This is followed by a sustained, textured rustling and crinkling, characteristic of a large, flexible bag or pouch being handled. The sound is rich in mid-to-high frequencies, with a dry, fibrous quality, and is accompanied by a faint, low-frequency thump as the object is shifted or adjusted. The manipulation is deliberate and controlled, with no signs of haste or urgency. Suddenly, a loud, harsh electronic buzzer tone erupts",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person lies on their back with their head tilted back, partially obscured by a gloved hand holding a medical device near their mouth. A man in a white shirt and tie leans over, looking down at the person with his head slightly tilted. The scene is clinical, with the focus on the medical procedure being performed.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

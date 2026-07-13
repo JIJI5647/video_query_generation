@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s083",
+  "time_range": [
+    410.0,
+    415.0
+  ],
+  "visual_description": "In a dimly lit setting, a pair of hands adjusts an ornate metal artifact with a large blue gem and wing-like extensions inside a wooden box. The scene cuts to a young man with messy hair wearing a brown jacket, who looks forward with a neutral expression. Then, three men in black robes stand in a cluttered room, each pointing a wand directly at the camera, before the young man stands calmly and speaks.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low, inquisitive voice asks a question, followed by a calm response from the young man. The ambient sounds are minimal, with only the dialogue audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s083\", \"time_range\": [410.0, 415.0], \"visual\": \"In a dimly lit setting, a pair of hands adjusts an ornate metal artifact with a large blue gem and wing-like extensions inside a wooden box. The scene cuts to a young man with messy hair wearing a brown jacket, who looks forward with a neutral expression. Then, three men in black robes stand in a cluttered room, each pointing a wand directly at the camera, before the young man stands calmly and speaks.\", \"audio\": \"A low, inquisitive"
+}

@@ -1,0 +1,75 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting and looking at the other man"
+      },
+      {
+        "person": "a man in a shiny silver and black patterned shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting and talking on a mobile phone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with greenish-tinted, tiled walls and a dark metal bench or railing in the background."
+    },
+    "objects": [
+      {
+        "object": "mobile phone",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held to the man's ear"
+      }
+    ],
+    "interactions": [
+      "The man on the right is on a phone call while the man on the left watches him."
+    ],
+    "key_actions": [
+      "The man on the right talks on the phone.",
+      "The man on the left watches the other man."
+    ],
+    "visibility_notes": "The scene is dark, with a greenish tint, making some details less distinct."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "sitting",
+        "leaning forward"
+      ],
+      "gaze": "looking at the other man"
+    },
+    {
+      "person": "a man in a shiny silver and black patterned shirt",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "sitting",
+        "holding phone to ear"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm tone.",
+  "temporal_description": "The audio begins with a male voice speaking.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s039\", \"time_range\": [190.0, 195.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting and looking at the other man\"}, {\"person\": \"a man in a shiny silver and black patterned shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"sitting and talking on a mobile phone\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with greenish-tinted, tiled walls and a"
+}

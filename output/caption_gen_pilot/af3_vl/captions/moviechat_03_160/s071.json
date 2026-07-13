@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a commanding tone, with a sense of urgency and authority.",
+  "temporal_description": "The scene opens in a dimly lit, cluttered office with several individuals seated at desks, working on computers or engaged in conversation. One man in a dark suit stands near the back, facing away from the camera, appearing to observe or listen intently. Another man in a suit is shown in close-up, looking downward with a serious expression, his gaze shifting slightly as if tracking something unseen. Later, two men are seen in a narrow, tiled corridor; one, with gray hair, faces the other, who is wearing a black shirt and holding a small object. The younger man gestures with his hands while speaking, then leans in closer, bringing the object near the older man’s face, who responds by leaning in as well. The lighting is subdued, casting shadows and emphasizing the confined, tense atmosphere of the space.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene opens in a dimly lit, cluttered office with several individuals seated at desks, working on computers or engaged in conversation. One man in a dark suit stands near the back, facing away from the camera, appearing to observe or listen intently. Another man in a suit is shown in close-up, looking downward with a serious expression, his gaze shifting slightly as if tracking something unseen. Later, two men are seen in a narrow, tiled corridor; one, with gray hair, faces the other, who is",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

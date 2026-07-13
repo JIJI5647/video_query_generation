@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_description": "A man with shoulder‑length hair, dressed in a maroon jacket over a plaid shirt and blue jeans, walks down a hallway lined with yellow patterned wallpaper. He smiles and looks ahead while holding a small object in his left hand, passing a doorway on his right and a window with blinds on his left.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s032\", \"time_range\": [155.0, 160.0], \"visual\": \"A man with shoulder‑length hair, dressed in a maroon jacket over a plaid shirt and blue jeans, walks down a hallway lined with yellow patterned wallpaper. He smiles and looks ahead while holding a small object in his left hand, passing a doorway on his right and a window with blinds on his left.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

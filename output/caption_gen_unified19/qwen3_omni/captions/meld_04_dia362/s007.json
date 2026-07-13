@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A woman with long brown hair lies in a hospital bed, wearing a white gown and looking distressed. A man with dark hair, wearing a light-colored shirt, leans over her, speaking with a concerned expression. A woman in a white lab coat stands nearby, observing the interaction.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A woman speaks, followed by a man speaking. The audio is clear and intelligible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"A woman with long brown hair lies in a hospital bed, wearing a white gown and looking distressed. A man with dark hair, wearing a light-colored shirt, leans over her, speaking with a concerned expression. A woman in a white lab coat stands nearby, observing the interaction.\", \"audio\": \"A woman speaks, followed by a man speaking. The audio is clear and intelligible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

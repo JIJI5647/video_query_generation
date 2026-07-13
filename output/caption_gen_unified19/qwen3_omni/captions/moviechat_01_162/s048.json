@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_description": "A man in a black shirt is sitting in a car, visibly distressed with sweat on his face. He is being held by another person whose hand is on his neck. The man's expression is one of fear and desperation as he looks at the person holding him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Heavy, labored breathing is audible, suggesting the man is in distress or exertion.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s048\", \"time_range\": [235.0, 240.0], \"visual\": \"A man in a black shirt is sitting in a car, visibly distressed with sweat on his face. He is being held by another person whose hand is on his neck. The man's expression is one of fear and desperation as he looks at the person holding him.\", \"audio\": \"Heavy, labored breathing is audible, suggesting the man is in distress or exertion.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

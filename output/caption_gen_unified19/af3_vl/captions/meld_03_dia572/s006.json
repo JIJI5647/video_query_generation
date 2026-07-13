@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "In a hospital room, a woman lies in a bed covered with a pink blanket, holding a brown purse, while two men stand beside her—one in a plaid shirt and the other in a beige jacket—both facing her. A third man in a plaid shirt stands near a second hospital bed in the background, looking toward the woman in the foreground. The woman’s gaze is directed upward, and the men appear to be engaged in a conversation with her, with one gesturing slightly.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, speaking in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a hospital room, a woman lies in a bed covered with a pink blanket, holding a brown purse, while two men stand beside her—one in a plaid shirt and the other in a beige jacket—both facing her. A third man in a plaid shirt stands near a second hospital bed in the background, looking toward the woman in the foreground. The woman’s gaze is directed upward, and the men appear to be engaged in a conversation with her, with one gesturing slightly.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

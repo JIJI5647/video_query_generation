@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_description": "In a dimly lit, cluttered room filled with pots and mirrors, several figures in dark robes stand in a tense standoff, pointing wands forward. One person in the foreground leans over a counter, holding a wand raised, while others behind them also aim their wands in a unified stance. The scene is viewed from an overhead angle, showing the chaotic arrangement of objects and the figures’ positions within the space.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and fast pace, shouting and screaming in a tone, accompanied by the sound of glass shattering.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, cluttered room filled with pots and mirrors, several figures in dark robes stand in a tense standoff, pointing wands forward. One person in the foreground leans over a counter, holding a wand raised, while others behind them also aim their wands in a unified stance. The scene is viewed from an overhead angle, showing the chaotic arrangement of objects and the figures’ positions within the space.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

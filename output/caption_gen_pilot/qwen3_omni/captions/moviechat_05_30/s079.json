@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark robe",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "holding a wooden box"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with antique objects and a patterned rug"
+    },
+    "objects": [
+      {
+        "object": "wooden box",
+        "position": "center",
+        "action": "being held and opened"
+      }
+    ],
+    "interactions": [
+      "the person opens the wooden box"
+    ],
+    "key_actions": [
+      "opening a wooden box"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark robe",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "hands holding a box"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "dramatic orchestral music with a suspenseful tone",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s079\", \"time_range\": [390.0, 395.0], \"visual_objective\": {\"people\": [{\"person\": \"a person in a dark robe\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"holding a wooden box\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with antique objects and a patterned rug\"}, \"objects\": [{\"object\": \"wooden box\", \"position\": \"center\", \"action\": \"being held and opened\"}], \"interactions\": [\"the person opens the wooden box\"], \"key_actions\": [\"opening a "
+}

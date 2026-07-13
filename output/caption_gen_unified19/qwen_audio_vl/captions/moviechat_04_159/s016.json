@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "A man in a dark suit and glasses holds a flip phone, his face illuminated by its screen as he looks intently at it. Another person’s shoulder and arm are partially visible in the foreground, suggesting a close interaction or confrontation. The scene is dimly lit with a cool blue tone, emphasizing the phone’s glow and the man’s focused posture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful shout from a single adult male, whose voice is high-pitched, strained, and urgent, conveying a sense of panic and alarm. He exclaims, “快點走啊！” (“Hurry up and go!”), with the final particle “啊” (a) drawn out and rising in pitch, amplifying the intensity. The delivery is loud and clipped, causing the recording to distort and crackle at the peak, while a persistent low-level hiss and a faint, low-frequency hum are present throughout, indicating a noisy, reverberant environment. The reverberation is pronounced, suggesting the speaker is in a large, hard-surfaced indoor space such as a warehouse, garage, or empty hall. Immediately after the shout, the speaker’s voice ceases, and the ambient hiss and hum become more prominent. A brief, sharp mechanical click is heard, likely from a button or switch being pressed, followed by a soft rustling sound, as if the speaker is adjusting clothing or handling a device. These sounds are close to the microphone, with no evidence of movement or additional voices. The environment remains quiet and empty, with no other people or background activity. Suddenly, a loud, synthetic electronic",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and glasses holds a flip phone, his face illuminated by its screen as he looks intently at it. Another person’s shoulder and arm are partially visible in the foreground, suggesting a close interaction or confrontation. The scene is dimly lit with a cool blue tone, emphasizing the phone’s glow and the man’s focused posture.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

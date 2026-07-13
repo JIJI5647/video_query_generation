@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "A person in a dark blue outfit is partially buried in snow, crawling forward with hands and arms visible, positioned near a wooden structure with glass panes. Another person in a red jacket and plaid shirt stands in a doorway, smiling and looking toward the camera. The scene is dimly lit, with snow covering the ground and walls, and the person in the doorway appears to be holding something in their hand.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate loudness, speaking at a moderate pace with a neutral prosody.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark blue outfit is partially buried in snow, crawling forward with hands and arms visible, positioned near a wooden structure with glass panes. Another person in a red jacket and plaid shirt stands in a doorway, smiling and looking toward the camera. The scene is dimly lit, with snow covering the ground and walls, and the person in the doorway appears to be holding something in their hand.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

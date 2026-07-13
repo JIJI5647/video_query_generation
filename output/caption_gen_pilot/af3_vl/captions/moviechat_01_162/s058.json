@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a clear and steady delivery. There are no significant non-speech sounds or background noise.",
+  "temporal_description": "The scene is set in a modern, multi-level office space with glass partitions and metal railings. Several individuals are visible, including a man in a white shirt and tie standing near a monitor displaying a security camera feed, another man in a white shirt walking down a staircase, and others seated or moving around the area. The man near the monitor has his hands on his hips and is looking toward the screen, while the man descending the stairs is walking with a steady pace. The environment is well-lit with overhead lighting and features potted plants and office furniture.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene is set in a modern, multi-level office space with glass partitions and metal railings. Several individuals are visible, including a man in a white shirt and tie standing near a monitor displaying a security camera feed, another man in a white shirt walking down a staircase, and others seated or moving around the area. The man near the monitor has his hands on his hips and is looking toward the screen, while the man descending the stairs is walking with a steady pace. The environment is",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

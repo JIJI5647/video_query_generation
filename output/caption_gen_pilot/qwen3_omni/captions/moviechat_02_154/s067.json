@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s067",
+  "time_range": [
+    330.0,
+    335.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with dark hair in a ponytail, wearing a brown jacket and a light-colored top",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a white corded telephone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with wooden walls and a lamp on the left, a window with blinds and a bookshelf in the background"
+    },
+    "objects": [
+      {
+        "object": "a white corded telephone",
+        "visibility": "clearly visible",
+        "position": "in the woman's hand",
+        "action": "being held to her ear"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman is on the phone",
+      "she turns her head slightly to her right"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with dark hair in a ponytail, wearing a brown jacket and a light-colored top",
+      "facial_cues": [
+        "her mouth is moving as she speaks",
+        "her expression is focused"
+      ],
+      "body_cues": [
+        "she holds the phone to her ear with her right hand",
+        "her left hand is on her hip"
+      ],
+      "gaze": "looking towards her right"
+    }
+  ],
+  "audio_description": "A woman is speaking on a telephone.",
+  "temporal_description": "The woman is on the phone throughout the clip, turning her head slightly.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s067\", \"time_range\": [330.0, 335.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with dark hair in a ponytail, wearing a brown jacket and a light-colored top\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"talking on a white corded telephone\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with wooden walls and a lamp on the left, a window with blinds and a bookshelf in the background\"}, \"objects\": [{\"object\": \"a white corded te"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "The man in a dark knitted sweater leans over a wooden surface, his hands clasped and his face showing distress. In the surrounding darkness, faint lights appear in the distance, suggesting a settlement or camp. A large, indistinct silhouette moves across the scene, its shape barely visible against the night.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent or indistinct.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s030\", \"time_range\": [145.0, 150.0], \"visual\": \"The man in a dark knitted sweater leans over a wooden surface, his hands clasped and his face showing distress. In the surrounding darkness, faint lights appear in the distance, suggesting a settlement or camp. A large, indistinct silhouette moves across the scene, its shape barely visible against the night.\", \"audio\": \"The audio is silent or indistinct.\", \"confidence\": \"medium\", \"evidence_strength\": \"ambiguous\"}"
+}

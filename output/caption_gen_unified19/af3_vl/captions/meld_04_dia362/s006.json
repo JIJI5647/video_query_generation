@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A woman in a hospital gown lies in bed, partially covered by a pink blanket, while a man leans over her, and a woman in a white coat stands beside the bed, her hand on the patient’s abdomen. The woman in the coat is looking down at the patient, while the man gazes at her with his head slightly tilted. Medical equipment and a pink wall are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a woman speaking with a high-pitched, urgent tone, her voice marked by a gasp and a trembling, breathy quality.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman in a hospital gown lies in bed, partially covered by a pink blanket, while a man leans over her, and a woman in a white coat stands beside the bed, her hand on the patient’s abdomen. The woman in the coat is looking down at the patient, while the man gazes at her with his head slightly tilted. Medical equipment and a pink wall are visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

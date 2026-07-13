@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a single, clear voice with a neutral tone and moderate pace, with no noticeable background noise or emotional inflection.",
+  "temporal_description": "Two men in dark suits are walking side by side on a wet pavement at night, one carrying a briefcase. Their lower bodies and feet are visible as they move forward, with streetlights casting reflections on the ground. The scene transitions to a wider view where they stand beside a parked luxury car, facing each other, with a cityscape of tall buildings in the background. One man is slightly ahead, and both appear to be engaged in a conversation, occasionally gesturing with their hands. Their faces are partially visible, showing neutral expressions, and they maintain upright postures.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in dark suits are walking side by side on a wet pavement at night, one carrying a briefcase. Their lower bodies and feet are visible as they move forward, with streetlights casting reflections on the ground. The scene transitions to a wider view where they stand beside a parked luxury car, facing each other, with a cityscape of tall buildings in the background. One man is slightly ahead, and both appear to be engaged in a conversation, occasionally gesturing with their hands. Their faces",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

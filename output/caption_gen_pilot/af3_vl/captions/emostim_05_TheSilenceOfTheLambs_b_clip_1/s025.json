@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation, accompanied by a quiet background.",
+  "temporal_description": "A man in a white shirt and tie, with a white substance on his nose, is seated and adjusting his tie with both hands. The camera slowly pans down to reveal he is wearing transparent gloves and is holding a small tool, possibly tweezers. He is positioned over another person’s hands, which are visible in the lower frame, and appears to be performing a precise task on them. The background is a plain, muted-colored wall with a small dark square feature.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie, with a white substance on his nose, is seated and adjusting his tie with both hands. The camera slowly pans down to reveal he is wearing transparent gloves and is holding a small tool, possibly tweezers. He is positioned over another person’s hands, which are visible in the lower frame, and appears to be performing a precise task on them. The background is a plain, muted-colored wall with a small dark square feature.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

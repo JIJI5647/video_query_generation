@@ -1,0 +1,63 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with short brown hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding a glass jar and pouring liquid into it"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a white wall and a dark object in the background"
+    },
+    "objects": [
+      {
+        "object": "a glass jar",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being held and filled with liquid"
+      },
+      {
+        "object": "a white plastic bottle",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "pouring liquid into the jar"
+      }
+    ],
+    "interactions": [
+      "the woman holds the jar while another person pours liquid from a bottle into it"
+    ],
+    "key_actions": [
+      "pouring liquid into a jar"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with short brown hair",
+      "facial_cues": [
+        "focused expression",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "holding a jar with one hand and a bottle with the other"
+      ],
+      "gaze": "looking at the jar"
+    }
+  ],
+  "audio_description": "A male voice speaks, followed by a musical chord.",
+  "temporal_description": "The woman pours liquid into the jar while the male voice speaks and a musical chord plays.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s034\", \"time_range\": [165.0, 170.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with short brown hair\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"holding a glass jar and pouring liquid into it\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with a white wall and a dark object in the background\"}, \"objects\": [{\"object\": \"a glass jar\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"being held and filled with liquid\"}, {"
+}

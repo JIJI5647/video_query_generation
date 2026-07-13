@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a pink plaid shirt opens a brown door and steps into a living room where another man in a blue shirt and light trousers stands in the doorway. The man in pink walks toward a beige couch, leans forward with his hands on his knees, and looks at the other man while speaking. The man in blue gestures with his right hand and watches him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains spoken dialogue between the two men in a conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"A man in a pink plaid shirt opens a brown door and steps into a living room where another man in a blue shirt and light trousers stands in the doorway. The man in pink walks toward a beige couch, leans forward with his hands on his knees, and looks at the other man while speaking. The man in blue gestures with his right hand and watches him.\", \"audio\": \"The audio contains spoken dialogue between the two men in a conversational tone.\", \""
+}

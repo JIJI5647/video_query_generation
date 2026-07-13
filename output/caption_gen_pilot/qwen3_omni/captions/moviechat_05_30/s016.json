@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long brown hair wearing a dark jacket and plaid pants",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and holding a wand"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, grassy field with a group of people behind him"
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "held by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man holds a wand and looks forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long brown hair wearing a dark jacket and plaid pants",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "holding a wand"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A low, ominous, and echoing sound plays in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with long brown hair wearing a dark jacket and plaid pants\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and holding a wand\"}], \"scene\": {\"location\": \"outdoors at night\", \"setting\": \"a dark, grassy field with a group of people behind him\"}, \"objects\": [{\"object\": \"a wand\", \"visibility\": \"clearly visible\", \"position\": \"in the man's hand\", \"action\": \"held by the "
+}

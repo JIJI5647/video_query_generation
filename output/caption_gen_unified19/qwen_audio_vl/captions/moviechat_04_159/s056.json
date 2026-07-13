@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_description": "A man in a suit sits in a vehicle, looking forward with his head slightly tilted upward. The scene outside the window shows a nighttime cityscape with illuminated buildings and streetlights, viewed through a slightly blurred glass pane. The man’s posture is upright, and his gaze remains fixed ahead, with no discernible movement or gesture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful entrance of a full orchestra, immediately immersing the listener in a dense, cinematic soundscape. The string section, led by violins and violas, delivers a rapid, ascending arpeggio that sweeps upward in pitch, creating a sense of urgency and tension. This is accompanied by a deep, sustained bass note from cellos and double basses, anchoring the harmony and adding gravity. The brass section, featuring French horns and trombones, enters with a powerful, sustained chord, reinforcing the dramatic atmosphere. The overall dynamic is loud and forceful, with a wide stereo image: strings are spread across the field, brass are centered, and percussion is subtly present in the background. The orchestration is lush and immersive, with a moderate reverb that evokes the acoustics of a concert hall or large studio, and the recording is of high fidelity, capturing the full frequency range and subtle details. As the music progresses, the strings transition from the initial arpeggio to a sustained, high-pitched, dissonant chord, intensifying the tension. The brass section maintains its powerful presence, and the percussion—likely timpani—adds a low, resonant pulse that drives the rhythm forward.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit sits in a vehicle, looking forward with his head slightly tilted upward. The scene outside the window shows a nighttime cityscape with illuminated buildings and streetlights, viewed through a slightly blurred glass pane. The man’s posture is upright, and his gaze remains fixed ahead, with no discernible movement or gesture.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

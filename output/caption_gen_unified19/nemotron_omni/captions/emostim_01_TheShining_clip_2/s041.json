@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "In a dark, foggy night, a solitary person stands on a snow-covered slope in front of a large wooden building illuminated by a bright overhead light. The figure is dressed in dark winter clothing and remains motionless, with the surrounding area blanketed in deep snow. The moonlight casts a blue hue over the scene, and distant streetlights add faint illumination to the building's façade.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s041\", \"time_range\": [200.0, 205.0], \"visual\": \"In a dark, foggy night, a solitary person stands on a snow-covered slope in front of a large wooden building illuminated by a bright overhead light. The figure is dressed in dark winter clothing and remains motionless, with the surrounding area blanketed in deep snow. The moonlight casts a blue hue over the scene, and distant streetlights add faint illumination to the building's façade.\", \"audio\": \"The audio is silent.\", \"confidence"
+}

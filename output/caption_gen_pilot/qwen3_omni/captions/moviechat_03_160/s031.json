@@ -1,0 +1,53 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "behind a metal gate",
+        "action": "looking through the gate"
+      }
+    ],
+    "scene": {
+      "location": "outdoor at night",
+      "setting": "a dark area with a metal gate and a streetlight in the background"
+    },
+    "objects": [
+      {
+        "object": "a black car",
+        "visibility": "partially visible",
+        "position": "in the background",
+        "action": "parked with its red taillights on"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man looks through the gate"
+    ],
+    "visibility_notes": "The man's face is partially obscured by the metal bars of the gate."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "eyes",
+        "mouth"
+      ],
+      "body_cues": [],
+      "gaze": "towards the camera"
+    }
+  ],
+  "audio_description": "A loud crash is heard, followed by upbeat electronic music.",
+  "temporal_description": "The crash sound occurs at the beginning, then the music starts and plays throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s031\", \"time_range\": [150.0, 155.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark shirt\", \"visibility\": \"partially visible\", \"position\": \"behind a metal gate\", \"action\": \"looking through the gate\"}], \"scene\": {\"location\": \"outdoor at night\", \"setting\": \"a dark area with a metal gate and a streetlight in the background\"}, \"objects\": [{\"object\": \"a black car\", \"visibility\": \"partially visible\", \"position\": \"in the background\", \"action\": \"parked with its red tailligh"
+}

@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held by an adult, struggling, and crying"
+      },
+      {
+        "person": "an adult in a dark suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "holding the boy"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with wood-paneled walls"
+    },
+    "objects": [],
+    "interactions": [
+      "The adult is holding the boy, who is struggling and crying."
+    ],
+    "key_actions": [
+      "The boy is crying and struggling in the adult's arms."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "crying",
+        "tears on face"
+      ],
+      "body_cues": [
+        "struggling",
+        "arms flailing"
+      ],
+      "gaze": "looking towards the adult"
+    }
+  ],
+  "audio_description": "A child is crying and shouting in distress.",
+  "temporal_description": "The child's crying and shouting are continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s017\", \"time_range\": [80.0, 85.0], \"visual_objective\": {\"people\": [{\"person\": \"a young boy with blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being held by an adult, struggling, and crying\"}, {\"person\": \"an adult in a dark suit\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"holding the boy\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with wood-paneled walls\"}, \"objects\": [], \"interactions\": ["
+}

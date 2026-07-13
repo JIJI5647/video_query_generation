@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a neutral tone, speaking at a moderate pace. There are no significant non-speech sounds or background noise.",
+  "temporal_description": "The scene is dark, with only faint lights visible in the distance, illuminating a distant structure or settlement. Silhouettes of people are barely discernible, moving slowly across a rugged, uneven terrain. Their forms are mostly obscured by darkness, making detailed appearances or gestures impossible to identify. The overall setting appears to be a nighttime outdoor environment, possibly a hillside or rocky area, with minimal visibility beyond the distant lights.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene is dark, with only faint lights visible in the distance, illuminating a distant structure or settlement. Silhouettes of people are barely discernible, moving slowly across a rugged, uneven terrain. Their forms are mostly obscured by darkness, making detailed appearances or gestures impossible to identify. The overall setting appears to be a nighttime outdoor environment, possibly a hillside or rocky area, with minimal visibility beyond the distant lights.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

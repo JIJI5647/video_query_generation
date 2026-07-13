@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone at a moderate pace, with no notable background sounds or emotional inflection.",
+  "temporal_description": "A child with short brown hair, wearing a red and gray striped sweater, stands in a dimly lit bedroom holding a knife in their right hand and a red marker in their left. They are facing a closed wooden door with the word \"MURDER\" written in red on it. Behind them, another child lies asleep in bed, covered with a blue blanket and a patterned quilt, with a lamp on a nightstand beside the bed casting a warm glow. The child in front appears to be looking at the door, then turns slightly to their left, moving toward the bed, and eventually turns their back to the camera, facing the bed. The room has a clock on the wall and a window with curtains in the background.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short brown hair, wearing a red and gray striped sweater, stands in a dimly lit bedroom holding a knife in their right hand and a red marker in their left. They are facing a closed wooden door with the word \"MURDER\" written in red on it. Behind them, another child lies asleep in bed, covered with a blue blanket and a patterned quilt, with a lamp on a nightstand beside the bed casting a warm glow. The child in front appears to be looking at the door, then turns slightly to their left",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

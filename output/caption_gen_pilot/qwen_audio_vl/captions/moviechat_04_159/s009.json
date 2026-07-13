@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens in a quiet, acoustically controlled indoor environment, likely a small office or private room, with a faint, steady electronic hum and a subtle high-frequency hiss forming the background. A single male voice, speaking in standard Mandarin Chinese with a clear, neutral accent, delivers a brief, urgent message. His tone is calm and measured, with a low pitch and deliberate pacing, suggesting he is relaying information in a composed, professional manner. The speech is: \"现在警察正赶过去。马哥叫我来通知你。\" (\"Right now the police are rushing over. Brother Ma sent me to inform you.\").\n\nThe speaker’s words are articulated with clarity and precision, and the room’s acoustics—marked by short, natural reverberation—indicate a small, furnished space. There are no other voices, environmental sounds, or music present, reinforcing the sense of a private, focused setting. The delivery is emotionally restrained, with no signs of panic or agitation, and the speaker’s manner suggests he is acting as a messenger or subordinate, conveying information from a superior (\"Brother Ma\") to the intended recipient.\n\nImmediately after the final word, the audio is abruptly interrupted by a loud, synthetic electronic tone. This tone is a harsh, low-frequency buzz, approximately 110 Hz (A2), with a square or sawtooth waveform that produces a grating, buzzy timbre. The tone is much louder than the preceding speech, with a sharp attack and no fade-in, and it continues at full volume until the clip ends. The suddenness and intensity of the tone, along with its artificial quality, strongly suggest it is a deliberate post-production effect—possibly a censorship bleep, a dramatic interruption, or a signal of narrative transition.\n\nThroughout the clip, the recording quality is high, with no distortion, clipping, or artifacts, and the dynamic range is well preserved. The speech is intelligible and natural, while the electronic tone is distinctly artificial and jarring. The overall structure and content point to a scene from a Chinese-language drama or film, likely set in a crime or gangster context, where the speaker is a subordinate relaying urgent news about police activity to a superior. The abrupt electronic tone at the end serves as a narrative device, heightening tension and signaling a dramatic shift or interruption.\n\nIn summary, the audio presents a professionally recorded, Mandarin-language scene in which a calm male messenger informs someone of an imminent police arrival, sent by a figure referred to as \"Brother Ma.\" The setting is intimate and controlled, and the clip concludes with a loud, synthetic electronic tone that dramatically interrupts the narrative, suggesting a purposeful editorial choice to heighten suspense or mark a transition.",
+  "temporal_description": "Two men are seated across from each other at a dark table in a dimly lit room. The man on the left, wearing a dark suit, holds a cigarette and occasionally exhales smoke, while the man on the right, also in a dark suit and wearing glasses, sits with his hands clasped on the table. The camera focuses on the man on the left, showing his face in close-up as he looks downward and then slightly upward, with smoke drifting around him. Both appear to be engaged in a still, quiet interaction, with minimal movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated across from each other at a dark table in a dimly lit room. The man on the left, wearing a dark suit, holds a cigarette and occasionally exhales smoke, while the man on the right, also in a dark suit and wearing glasses, sits with his hands clasped on the table. The camera focuses on the man on the left, showing his face in close-up as he looks downward and then slightly upward, with smoke drifting around him. Both appear to be engaged in a still, quiet interaction, with minim",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_description": "A man with long dark hair and a plaid shirt forces his way through a shattered white door into a bedroom. He raises a large wooden bat and swings it forcefully near a lit lamp and a globe on the wall. He then turns and looks toward a doorway, his back partially turned to the camera.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "He shouts loudly with a strained voice. The sound of the wooden bat striking is audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s054\", \"time_range\": [265.0, 270.0], \"visual\": \"A man with long dark hair and a plaid shirt forces his way through a shattered white door into a bedroom. He raises a large wooden bat and swings it forcefully near a lit lamp and a globe on the wall. He then turns and looks toward a doorway, his back partially turned to the camera.\", \"audio\": \"He shouts loudly with a strained voice. The sound of the wooden bat striking is audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear"
+}

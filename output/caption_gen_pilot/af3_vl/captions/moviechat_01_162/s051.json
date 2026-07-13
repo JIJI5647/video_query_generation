@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a single voice with a clear and steady tone, conveying a sense of calm and focus.",
+  "temporal_description": "A person wearing a black leather jacket is shown with blood dripping down their chest and onto their clothing. Their hand is gripping the zipper of the jacket, fingers covered in blood, and the zipper is partially open, revealing a glimpse of their inner clothing. The scene is dimly lit, with a focused light source illuminating the blood and hand. The person’s head is not visible, and their posture is static, suggesting they are lying down or seated with their upper body exposed.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a black leather jacket is shown with blood dripping down their chest and onto their clothing. Their hand is gripping the zipper of the jacket, fingers covered in blood, and the zipper is partially open, revealing a glimpse of their inner clothing. The scene is dimly lit, with a focused light source illuminating the blood and hand. The person’s head is not visible, and their posture is static, suggesting they are lying down or seated with their upper body exposed.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

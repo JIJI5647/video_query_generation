@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation, accompanied by a brief pause before the speech begins.",
+  "temporal_description": "Three individuals are standing in a dimly lit, cluttered room filled with various objects and furniture. The central figure, with platinum blonde hair, holds a wand extended forward, flanked by two others who also hold wands pointed in the same direction. The person on the left wears a ring on their finger, while the one on the right has a more serious expression. All three are dressed in dark clothing and appear to be focused on something or someone out of frame. The background contains shelves, glassware, and other miscellaneous items, contributing to the room’s cluttered and somewhat industrial atmosphere. The central figure’s posture is upright and assertive, while the others stand slightly behind, maintaining a steady stance.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals are standing in a dimly lit, cluttered room filled with various objects and furniture. The central figure, with platinum blonde hair, holds a wand extended forward, flanked by two others who also hold wands pointed in the same direction. The person on the left wears a ring on their finger, while the one on the right has a more serious expression. All three are dressed in dark clothing and appear to be focused on something or someone out of frame. The background contains shelves",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

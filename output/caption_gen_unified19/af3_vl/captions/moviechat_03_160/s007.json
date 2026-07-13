@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man with short dark hair, wearing a white shirt and tie, is seen in a dimly lit room, holding a phone to his ear with his right hand while his left hand is raised to his head. He appears to be seated, leaning slightly forward, with his gaze directed downward. The background is out of focus, showing indistinct shapes and muted colors, suggesting an indoor setting with minimal lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a white shirt and tie, is seen in a dimly lit room, holding a phone to his ear with his right hand while his left hand is raised to his head. He appears to be seated, leaning slightly forward, with his gaze directed downward. The background is out of focus, showing indistinct shapes and muted colors, suggesting an indoor setting with minimal lighting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

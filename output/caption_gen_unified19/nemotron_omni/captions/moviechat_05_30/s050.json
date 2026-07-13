@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_description": "In a dim stone corridor with arched doorways, three men in black robes move quickly, the central figure with white hair pushing the man to his left. The scene is shadowy with limited visibility as they head toward a brighter area at the far end of the passage.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s050\", \"time_range\": [245.0, 250.0], \"visual\": \"In a dim stone corridor with arched doorways, three men in black robes move quickly, the central figure with white hair pushing the man to his left. The scene is shadowy with limited visibility as they head toward a brighter area at the far end of the passage.\", \"audio\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

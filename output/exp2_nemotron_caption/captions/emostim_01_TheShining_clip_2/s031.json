@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "A person in a blue garment lies in deep snow near a wooden frame with frosted glass, reaching forward with both hands. The scene then cuts to a man in a maroon jacket and plaid shirt standing in a hallway with yellow floral wallpaper, smiling as he walks forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s031\", \"time_range\": [150.0, 155.0], \"visual\": \"A person in a blue garment lies in deep snow near a wooden frame with frosted glass, reaching forward with both hands. The scene then cuts to a man in a maroon jacket and plaid shirt standing in a hallway with yellow floral wallpaper, smiling as he walks forward.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

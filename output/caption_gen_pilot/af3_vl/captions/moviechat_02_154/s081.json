@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking, followed by a sudden loud noise, and then a woman's voice.",
+  "temporal_description": "Two men are seated at a table in a dimly lit, ornately decorated room. The man on the right, wearing a beige jacket with a floral collar, is facing the other man, who is dressed in a dark suit and has his back mostly to the camera. The man in the suit leans forward and then bows deeply toward the other man, who responds by clasping his hands together. In the background, another person in a red jacket is partially visible, standing and facing away. The table is adorned with decorative items, including a stack of white, round objects and a small figurine. The camera briefly shifts focus to the table’s decorations before returning to the two men.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at a table in a dimly lit, ornately decorated room. The man on the right, wearing a beige jacket with a floral collar, is facing the other man, who is dressed in a dark suit and has his back mostly to the camera. The man in the suit leans forward and then bows deeply toward the other man, who responds by clasping his hands together. In the background, another person in a red jacket is partially visible, standing and facing away. The table is adorned with decorative items, incl",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

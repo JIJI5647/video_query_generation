@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, accompanied by a moderate pace and a neutral prosody. There are no significant non-speech sounds present.",
+  "temporal_description": "A man in a dark suit holds a handgun with both hands, aiming it forward. Behind him, another person is visible but out of focus, and to his right, a person’s head is seen with blood running down their face. The man’s gaze is fixed ahead, and his posture is steady and tense. The background is blurred, suggesting an urban setting with indistinct structures and wires.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit holds a handgun with both hands, aiming it forward. Behind him, another person is visible but out of focus, and to his right, a person’s head is seen with blood running down their face. The man’s gaze is fixed ahead, and his posture is steady and tense. The background is blurred, suggesting an urban setting with indistinct structures and wires.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

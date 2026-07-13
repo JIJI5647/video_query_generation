@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_description": "A person in dark clothing is seen bending over near a parked car at night, appearing to interact with the vehicle’s open door or trunk. The scene is dimly lit, with reflections and artificial lights visible on the wet pavement and car surfaces. The person’s face is not clearly visible, and their posture suggests focused physical engagement with the car.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful entrance: a distorted electric guitar, panned hard left, delivers a rapid, palm-muted riff in a low register, its aggressive tone immediately establishing a sense of urgency. Simultaneously, a snare drum, positioned slightly right of center, strikes a sharp, accented backbeat, while a crash cymbal on the far right explodes with a bright, metallic shimmer. The bass guitar, centered in the mix, locks tightly with the drums, reinforcing the rhythm and anchoring the low end. The kick drum, also centered, provides a steady, driving pulse, and the hi-hat, panned right, maintains a crisp, consistent eighth-note pattern. The overall sound is dense, with all instruments tightly interlocked and no extraneous noise, creating a wall of sound that is both powerful and precise. As the riff continues, the guitar shifts to a higher-pitched, sustained note, still heavily distorted and panned left, while the drums and bass maintain their relentless groove. The snare’s backbeat remains prominent, and the hi-hat’s rhythmic drive persists, with the crash cymbal punctuating the phrase. The bass follows the guitar’s melodic contour, and the kick drum continues its",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in dark clothing is seen bending over near a parked car at night, appearing to interact with the vehicle’s open door or trunk. The scene is dimly lit, with reflections and artificial lights visible on the wet pavement and car surfaces. The person’s face is not clearly visible, and their posture suggests focused physical engagement with the car.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

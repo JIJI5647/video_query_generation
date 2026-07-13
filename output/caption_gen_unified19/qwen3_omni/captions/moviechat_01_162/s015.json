@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A television screen displays a news report about a police officer's death. The screen shows a man in a suit speaking, with a photo of the deceased officer and a crime scene in the background. The camera then pulls back to reveal a group of police officers in uniform standing in a room, watching the report on the screen.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A female news reporter speaks in a serious tone, delivering a statement about the death of a police officer. The audio is clear and professional, typical of a news broadcast.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual\": \"A television screen displays a news report about a police officer's death. The screen shows a man in a suit speaking, with a photo of the deceased officer and a crime scene in the background. The camera then pulls back to reveal a group of police officers in uniform standing in a room, watching the report on the screen.\", \"audio\": \"A female news reporter speaks in a serious tone, delivering a statement about the death of a police off"
+}

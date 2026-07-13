@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A lone figure stands in the center of a dark, cavernous chamber, viewed from a distance. The chamber is lined with large, serpentine heads with open mouths, creating a corridor-like effect. At the far end of the chamber, a large, carved face is visible in the wall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low, ominous, and sustained musical tone plays, creating a suspenseful and foreboding atmosphere.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A lone figure stands in the center of a dark, cavernous chamber, viewed from a distance. The chamber is lined with large, serpentine heads with open mouths, creating a corridor-like effect. At the far end of the chamber, a large, carved face is visible in the wall.\", \"audio\": \"A low, ominous, and sustained musical tone plays, creating a suspenseful and foreboding atmosphere.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

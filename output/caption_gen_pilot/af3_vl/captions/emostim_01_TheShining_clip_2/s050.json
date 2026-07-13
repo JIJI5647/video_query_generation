@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a woman screaming, followed by a man screaming, with a noticeable pause in between.",
+  "temporal_description": "A person with long dark hair, wearing a dark blue jacket over a light-colored turtleneck, is partially visible peeking from behind a white, weathered door frame. They are holding a knife in their right hand, gripping it with their fingers, and their head is tilted slightly as they look toward the camera. Their left hand is occasionally raised to their face or the knife. The background shows a plain wall with some visible wear and a tiled section near the bottom. The person’s posture remains mostly static, with slight movements of the head and hand.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a dark blue jacket over a light-colored turtleneck, is partially visible peeking from behind a white, weathered door frame. They are holding a knife in their right hand, gripping it with their fingers, and their head is tilted slightly as they look toward the camera. Their left hand is occasionally raised to their face or the knife. The background shows a plain wall with some visible wear and a tiled section near the bottom. The person’s posture remains most",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with short, graying hair wearing a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "turns his head to the right, then turns back to face forward."
+      },
+      {
+        "person": "a man in a dark suit standing behind the man in the suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "stands still."
+      },
+      {
+        "person": "a man with a bandaged arm wearing a dark shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "stands still."
+      }
+    ],
+    "scene": {
+      "location": "outdoor area at night",
+      "setting": "a metal security gate is visible behind the men."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit turns his head."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with short, graying hair wearing a light-colored suit jacket",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "turns his head to the right, then turns back to face forward."
+      ],
+      "gaze": "looks to the right, then forward."
+    }
+  ],
+  "audio_description": "A low, sustained, ominous musical tone plays throughout the clip.",
+  "temporal_description": "The low musical tone is constant from start to finish.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s077\", \"time_range\": [380.0, 385.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with short, graying hair wearing a light-colored suit jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"turns his head to the right, then turns back to face forward.\"}, {\"person\": \"a man in a dark suit standing behind the man in the suit\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"stands still.\"}, {\"person\": \"a man with a bandaged arm "
+}

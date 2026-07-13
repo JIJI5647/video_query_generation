@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_description": "A person in dark clothing is seen bending over near a black car at night, appearing to interact with the vehicle's front area. The scene is dimly lit with reflections on wet pavement, and the person’s face is not clearly visible. The person’s posture suggests focused movement, possibly retrieving or placing something near the car’s hood or windshield.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in dark clothing is seen bending over near a black car at night, appearing to interact with the vehicle's front area. The scene is dimly lit with reflections on wet pavement, and the person’s face is not clearly visible. The person’s posture suggests focused movement, possibly retrieving or placing something near the car’s hood or windshield.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A man in a light-colored shirt is seated at a desk, looking intently at a computer screen with his hands near his face. Another man in a white shirt walks past him, carrying a white object, while a third person is partially visible in the foreground. The scene takes place in a dimly lit room with maps and papers pinned to the walls behind them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt is seated at a desk, looking intently at a computer screen with his hands near his face. Another man in a white shirt walks past him, carrying a white object, while a third person is partially visible in the foreground. The scene takes place in a dimly lit room with maps and papers pinned to the walls behind them.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

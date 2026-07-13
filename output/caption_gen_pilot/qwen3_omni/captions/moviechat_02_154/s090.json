@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a head wound",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "lying on his back on the floor"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a cool, bluish tone"
+    },
+    "objects": [
+      {
+        "object": "a gold chain necklace",
+        "visibility": "clearly visible",
+        "position": "around the man's neck",
+        "action": "worn by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "lying still"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a head wound",
+      "facial_cues": [
+        "head wound",
+        "closed eyes",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "lying on back"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "A loud, distorted, and echoing sound, possibly a scream or a mechanical noise, is heard.",
+  "temporal_description": "The audio starts with a low rumble, followed by a sudden, loud, and distorted sound that fades out.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s090\", \"time_range\": [445.0, 450.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with a head wound\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"lying on his back on the floor\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a cool, bluish tone\"}, \"objects\": [{\"object\": \"a gold chain necklace\", \"visibility\": \"clearly visible\", \"position\": \"around the man's neck\", \"action\": \"worn by the man\"}], \"interactions\": [], \"key_actions\": [\"ly"
+}

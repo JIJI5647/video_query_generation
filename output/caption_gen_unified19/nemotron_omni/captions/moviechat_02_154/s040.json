@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_description": "The man in a dark brown leather jacket walks across the room holding a small plate of food, then approaches a round table and sits down, placing the plate on the surface. He rests his hand against his head while looking toward the table. The setting appears to be a modest eatery with simple tables, chairs, and wall posters.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s040\", \"time_range\": [195.0, 200.0], \"visual\": \"The man in a dark brown leather jacket walks across the room holding a small plate of food, then approaches a round table and sits down, placing the plate on the surface. He rests his hand against his head while looking toward the table. The setting appears to be a modest eatery with simple tables, chairs, and wall posters.\", \"audio\": \"The audio is unclear.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

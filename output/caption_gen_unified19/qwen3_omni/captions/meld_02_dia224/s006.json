@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man in a red t-shirt sits on a brown couch, looking down with a surprised expression. Another man in a blue shirt is bent over, searching for something on the floor. The scene is set in a living room with a coffee table and other people in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains the sound of a crowd laughing, followed by upbeat music.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"A man in a red t-shirt sits on a brown couch, looking down with a surprised expression. Another man in a blue shirt is bent over, searching for something on the floor. The scene is set in a living room with a coffee table and other people in the background.\", \"audio\": \"The audio contains the sound of a crowd laughing, followed by upbeat music.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

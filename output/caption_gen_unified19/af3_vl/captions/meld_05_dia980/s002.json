@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "Three men are seated around a kitchen table, one in a gray sweatshirt facing right, another in a black jacket holding a piece of paper and looking toward the third man, who is partially turned away. The man in the black jacket gestures with his free hand while holding the paper, and the man in gray leans forward slightly with his hands clasped. The background shows kitchen shelves with various items, a stove, and a refrigerator, with the men positioned in a casual, conversational arrangement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, speaking in a neutral tone without any noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men are seated around a kitchen table, one in a gray sweatshirt facing right, another in a black jacket holding a piece of paper and looking toward the third man, who is partially turned away. The man in the black jacket gestures with his free hand while holding the paper, and the man in gray leans forward slightly with his hands clasped. The background shows kitchen shelves with various items, a stove, and a refrigerator, with the men positioned in a casual, conversational arrangement.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

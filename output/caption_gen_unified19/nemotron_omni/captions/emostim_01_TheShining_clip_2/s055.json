@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_description": "A man with dark hair wearing a red sweater stands in a dimly lit bedroom holding a wooden baseball bat. He swings the bat and then turns to walk toward a white door with glass panes.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear, with no distinct sounds audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s055\", \"time_range\": [270.0, 275.0], \"visual\": \"A man with dark hair wearing a red sweater stands in a dimly lit bedroom holding a wooden baseball bat. He swings the bat and then turns to walk toward a white door with glass panes.\", \"audio\": \"The audio is unclear, with no distinct sounds audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

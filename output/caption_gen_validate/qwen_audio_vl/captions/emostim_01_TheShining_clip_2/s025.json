@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a powerful, low-frequency mechanical rumble, characterized by a deep, resonant, and metallic timbre. This sound is continuous and enveloping, suggesting the operation of a massive, heavy-duty machine—likely a train or industrial elevator—within a vast, reverberant space such as a warehouse, subway tunnel, or industrial hall. The environment is acoustically reflective, with the sound decaying slowly and creating a sense of immense scale and emptiness. The rumble is accompanied by a faint, high-frequency hiss, indicative of analog tape or low-fidelity digital recording, and the overall sound is muffled, lacking crisp high-frequency detail.\n\nAbruptly, the rumble ceases, leaving a brief moment of near-silence. This pause is filled only by the persistent hiss and the lingering reverberation of the previous sound, heightening the tension and anticipation. The silence is then shattered by a sudden, extremely loud metallic impact—a sharp, percussive clang with a complex, multi-layered attack. The sound is so intense that it causes severe digital clipping, resulting in a harsh, distorted, and crackling texture. The impact is followed by a rapid, metallic ringing and a cascade of high-frequency echoes, which decay quickly but leave a lingering sense of violence and finality. The reverberation is dense and complex, reinforcing the impression of a large, hard-surfaced enclosure.\n\nImmediately after the impact, a pure, low-frequency electronic tone emerges. This tone is unwavering, synthetic, and reminiscent of a sine wave, with a fundamental pitch around 55 Hz (A1). It is clean and devoid of harmonics, suggesting a digital or electronic origin. The tone is steady and unmodulated, with no vibrato or dynamic change, and it persists until the end of the recording. Its presence is stark and clinical, contrasting sharply with the preceding mechanical and metallic sounds.\n\nThroughout the clip, there is no speech, music, or human vocalization. The sequence of sounds—mechanical rumble, abrupt silence, violent metallic impact, and electronic tone—suggests a deliberate, staged event rather than a random occurrence. The recording’s technical characteristics, including analog hiss, digital clipping, and limited frequency range, point to a mid-to-late 20th-century analog or early digital source, likely captured in a large, industrial setting. The absence of environmental or cultural cues, combined with the dramatic progression of sounds, evokes a sense of industrial power, sudden catastrophe, and technological finality, reminiscent of cinematic or documentary sound design from the era of analog tape and early digital recording.\n\nIn summary, the audio presents a meticulously constructed sequence: a massive machine’s rumble, a tense pause, a violent metallic impact, and a stark electronic tone. The recording’s technical flaws and environmental acoustics reinforce its industrial and analog origins, while the absence of speech or music focuses attention on the dramatic interplay of mechanical and electronic sounds. The clip conveys a powerful narrative of industrial force, abrupt disaster, and technological aftermath, leaving a lasting impression of scale, tension, and finality.",
+  "temporal_description": "The scene opens on a snowy, dimly lit exterior of a large, old building at night, with snow piled high and sparse lights illuminating the structure. The camera then cuts abruptly to an interior hallway with light blue walls and wooden trim, where a man in a red jacket and striped shirt is running toward the camera. He is holding a long, wooden-handled object, possibly a broom or mop, and his face is partially visible as he moves quickly, his gaze directed forward. His posture is hunched and hurried, suggesting urgency in his movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene opens on a snowy, dimly lit exterior of a large, old building at night, with snow piled high and sparse lights illuminating the structure. The camera then cuts abruptly to an interior hallway with light blue walls and wooden trim, where a man in a red jacket and striped shirt is running toward the camera. He is holding a long, wooden-handled object, possibly a broom or mop, and his face is partially visible as he moves quickly, his gaze directed forward. His posture is hunched and hurr",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

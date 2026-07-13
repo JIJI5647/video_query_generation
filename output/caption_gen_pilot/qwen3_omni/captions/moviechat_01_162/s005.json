@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of police officers",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and observing the scene"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "an urban street scene with a building, an overpass, and emergency vehicles."
+    },
+    "objects": [
+      {
+        "object": "police tape",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "strung across the street to cordon off an area"
+      },
+      {
+        "object": "police car",
+        "visibility": "clearly visible",
+        "position": "middle ground",
+        "action": "parked on the street"
+      },
+      {
+        "object": "ambulance",
+        "visibility": "clearly visible",
+        "position": "middle ground",
+        "action": "parked on the street"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "police officers standing guard",
+      "emergency vehicles parked on the street"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A dramatic and suspenseful musical score plays in the background.",
+  "temporal_description": "The music builds in intensity throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual_objective\": {\"people\": [{\"person\": \"a group of police officers\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and observing the scene\"}], \"scene\": {\"location\": \"street\", \"setting\": \"an urban street scene with a building, an overpass, and emergency vehicles.\"}, \"objects\": [{\"object\": \"police tape\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"strung across the street to cordon of"
+}

@@ -1,0 +1,64 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table and talking"
+      },
+      {
+        "person": "a man with dark hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table and eating"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded restaurant or cafeteria with other people in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the woman speaks",
+      "the man looks at the woman and speaks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde hair",
+      "facial_cues": [
+        "blinks",
+        "mouth moving"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "a man with dark hair",
+      "facial_cues": [
+        "blinks",
+        "mouth moving"
+      ],
+      "body_cues": [
+        "holding food"
+      ],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A woman speaks, followed by a man speaking.",
+  "temporal_description": "The woman speaks first, then the man responds.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s018\", \"time_range\": [85.0, 90.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting at a table and talking\"}, {\"person\": \"a man with dark hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting at a table and eating\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a crowded restaurant or cafeteria with other people in the background\"}, \"objects\": ["
+}

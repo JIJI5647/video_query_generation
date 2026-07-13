@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a blue plaid shirt stands in a room, looking down and to his left. He is partially visible, with his back mostly to the camera. The room has a wooden door with the number 232 on it.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man is speaking, followed by a loud, sustained electronic buzz.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual\": \"A man in a blue plaid shirt stands in a room, looking down and to his left. He is partially visible, with his back mostly to the camera. The room has a wooden door with the number 232 on it.\", \"audio\": \"A man is speaking, followed by a loud, sustained electronic buzz.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

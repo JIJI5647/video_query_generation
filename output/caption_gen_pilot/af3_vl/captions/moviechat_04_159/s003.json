@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A man in a dark suit and glasses is seated, looking downward with a cigarette held in his right hand, smoke rising from it. Another man, partially visible and out of focus, is positioned to the left, also holding a lit cigarette. The scene is dimly lit with a blueish hue, emphasizing the smoke and the men’s faces. Both men remain still, with the foreground man’s gaze fixed downward and the other’s face turned slightly away.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and glasses is seated, looking downward with a cigarette held in his right hand, smoke rising from it. Another man, partially visible and out of focus, is positioned to the left, also holding a lit cigarette. The scene is dimly lit with a blueish hue, emphasizing the smoke and the men’s faces. Both men remain still, with the foreground man’s gaze fixed downward and the other’s face turned slightly away.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

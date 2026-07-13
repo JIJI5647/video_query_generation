@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single, resonant piano chord played softly and with a slow, deliberate attack. The chord is voiced in a minor key, featuring a low bass note and a high, dissonant upper note, creating a tense and unresolved atmosphere. The piano’s timbre is warm and slightly muffled, with a subtle, persistent analog hiss and a faint low-frequency hum, suggesting the use of vintage recording equipment or a deliberate lo-fi aesthetic. The sound is enveloped in a lush, natural reverb, evoking the acoustics of a large, empty hall or cathedral, and the chord is allowed to decay slowly, filling the space with lingering resonance.\n\nAs the piano chord fades, a high-pitched, metallic scraping sound emerges, reminiscent of a violin bow drawn across a cymbal or a similar metallic object. This sound is sustained and gliding, with a slow, expressive vibrato that intensifies the sense of suspense and unease. The scraping is dry and close-mic’d, contrasting with the piano’s reverberant space, and is accompanied by a faint, high-frequency whine that adds to the tension. The scraping’s pitch rises and falls, and its timbre is abrasive and metallic, further heightening the atmosphere of anxiety.\n\nSuddenly, both the piano and scraping sounds are cut off mid-decay by a hard, digital edit, leaving no natural fade. Immediately following this abrupt transition, a loud, synthetic electronic tone bursts in. This tone is a low-frequency, buzzy square wave, centered around 110 Hz (A2), with a harsh, grating timbre and prominent upper harmonics. The tone is dry, with no reverb or spatial effects, and is presented at a much higher volume than the preceding sounds. It is sustained at a constant pitch and amplitude, with no modulation or variation, and is abruptly cut off at the end of the clip, leaving no lingering resonance.\n\nThroughout the clip, there is no speech, singing, or vocalization. The recording is monophonic, with all sounds centered and no stereo imaging. The dynamic range is wide, with the initial piano and scraping sounds at a moderate level, followed by a sudden, jarring increase in volume with the electronic tone. The frequency content spans from the low bass of the piano and electronic tone to the high frequencies of the scraping and hiss. The overall mood is suspenseful, tense, and unsettling, with a clear narrative arc: the piano sets a somber, mysterious tone; the scraping intensifies the suspense; and the electronic tone delivers a shocking, disruptive conclusion. The production style, with its analog hiss, vintage reverb, and abrupt digital edits, suggests a deliberate fusion of lo-fi and modern electronic techniques, likely intended for a cinematic, experimental, or horror context. The absence of speech and the use of evocative, non-musical sounds reinforce the clip’s role as a sound design element, designed to evoke anxiety and surprise in the listener.",
+  "temporal_description": "A man with gray hair and a light-colored shirt is shown in close-up, his gaze directed slightly upward and to the side. Behind him, a blurred figure is partially visible. The scene shifts to show another man with dark hair and a dark shirt, standing in front of a metal-barred window, facing the first man. Both men remain still, maintaining their positions throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair and a light-colored shirt is shown in close-up, his gaze directed slightly upward and to the side. Behind him, a blurred figure is partially visible. The scene shifts to show another man with dark hair and a dark shirt, standing in front of a metal-barred window, facing the first man. Both men remain still, maintaining their positions throughout the clip.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands in an office, gesturing toward a monitor displaying a hallway. Other individuals in similar attire are seated at desks or standing nearby, some looking toward the monitor or at each other. The man’s posture is upright and animated, with his arm extended as if directing attention to the screen.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful male shout in Mandarin Chinese, delivered in a high-pitched, strained, and emotionally charged tone. The speaker exclaims, “我跟你谈事实!” (“I’m talking to you about the facts!”), his voice reverberating through a large, hard-surfaced indoor space, such as a hall or auditorium. The delivery is loud and aggressive, with a clipped, distorted quality due to the microphone’s inability to handle the volume, resulting in harsh digital artifacts. Immediately following, the same male voice, now lower and more controlled, continues with, “谁也想不到会这样, OK?” (“No one could have imagined it would turn out this way, OK?”). This second phrase is spoken with a tone of exasperation and resignation, and the “OK?” is delivered with a rising inflection, seeking acknowledgment or agreement. The reverberation remains prominent, and the audio quality is marred by persistent hiss and digital clipping, especially on the initial shout. After the speech, the environment falls silent except for a faint, low-frequency hum and the ongoing hiss, with no other voices or background sounds present. The acoustic space is large and empty, amplifying the sense of isolation. Suddenly",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands in an office, gesturing toward a monitor displaying a hallway. Other individuals in similar attire are seated at desks or standing nearby, some looking toward the monitor or at each other. The man’s posture is upright and animated, with his arm extended as if directing attention to the screen.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

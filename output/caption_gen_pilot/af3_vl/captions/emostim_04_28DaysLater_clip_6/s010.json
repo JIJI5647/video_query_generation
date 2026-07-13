@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A shirtless man with dark hair and visible injuries, including a cut on his chest, is seen in a dimly lit hallway. He moves cautiously, gripping a wall for support, and appears to be in pain as he leans against it. His body is tense, and he occasionally looks around, suggesting he is navigating a confined, possibly dangerous space. The hallway is narrow, with ornate wooden doors and walls casting long shadows, enhancing the sense of confinement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A shirtless man with dark hair and visible injuries, including a cut on his chest, is seen in a dimly lit hallway. He moves cautiously, gripping a wall for support, and appears to be in pain as he leans against it. His body is tense, and he occasionally looks around, suggesting he is navigating a confined, possibly dangerous space. The hallway is narrow, with ornate wooden doors and walls casting long shadows, enhancing the sense of confinement.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

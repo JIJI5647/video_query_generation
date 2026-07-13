@@ -1,0 +1,44 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark hooded garment",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "standing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a dark door in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark hooded garment",
+      "facial_cues": [
+        "mouth open",
+        "face covered in blood"
+      ],
+      "body_cues": [],
+      "gaze": "unclear"
+    }
+  ],
+  "audio_description": "A person is breathing heavily and making strained sounds.",
+  "temporal_description": "The person's heavy breathing and strained sounds continue throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual_objective\": {\"people\": [{\"person\": \"a person in a dark hooded garment\", \"visibility\": \"partially visible\", \"position\": \"foreground\", \"action\": \"standing\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, with a dark door in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a person in a dark hooded garment\", \"facial_cues\": [\"mouth open\", \"face "
+}

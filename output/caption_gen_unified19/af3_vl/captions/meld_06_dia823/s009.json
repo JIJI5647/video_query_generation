@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A woman with blonde hair, wearing a patterned top and a necklace, stands in a kitchen, looking toward the right. In a separate scene, three people sit on a couch in a living room, with a fourth person standing behind them, all facing forward. The woman in the foreground holds a white object, while the others appear to be listening or observing.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a neutral tone and moderate pace, speaking clearly in English.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with blonde hair, wearing a patterned top and a necklace, stands in a kitchen, looking toward the right. In a separate scene, three people sit on a couch in a living room, with a fourth person standing behind them, all facing forward. The woman in the foreground holds a white object, while the others appear to be listening or observing.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

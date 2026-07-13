@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a clear and steady voice, speaking in a neutral tone without any noticeable emotional inflection or background noise.",
+  "temporal_description": "A man in a light blue shirt and striped tie sits in a chair, his head slightly bowed, facing away from the camera. Another person, partially visible, holds a pen near their mouth. The scene shifts to a conference room where four men sit around a table, one standing and addressing them. The room has glass walls, a television displaying a security feed, and a staircase in the background. One man wears a police uniform, while others are in business attire. A police cap rests on the table, and papers and mugs are scattered around. The standing man gestures slightly as he speaks, while the seated men listen attentively, occasionally looking at each other or the television.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt and striped tie sits in a chair, his head slightly bowed, facing away from the camera. Another person, partially visible, holds a pen near their mouth. The scene shifts to a conference room where four men sit around a table, one standing and addressing them. The room has glass walls, a television displaying a security feed, and a staircase in the background. One man wears a police uniform, while others are in business attire. A police cap rests on the table, and paper",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

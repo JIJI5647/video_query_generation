@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "A group of people walks toward the camera down a dimly lit wooden corridor with stone walls. They are visible as silhouettes or faintly illuminated figures, appearing to move steadily forward. The camera angle is low, focusing on the wooden floor, with the group gradually approaching the foreground.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a neutral tone, speaking at a moderate pace with no noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people walks toward the camera down a dimly lit wooden corridor with stone walls. They are visible as silhouettes or faintly illuminated figures, appearing to move steadily forward. The camera angle is low, focusing on the wooden floor, with the group gradually approaching the foreground.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

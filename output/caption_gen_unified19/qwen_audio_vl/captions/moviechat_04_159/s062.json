@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_description": "A man in a light-colored shirt sits at a desk, focused on a laptop screen displaying a blue interface, while another person in a gray shirt is partially visible behind him. The man in the foreground holds a pen and appears to be writing or pointing at the screen, with his gaze fixed on the display. The scene is dimly lit, suggesting an indoor workspace or office environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, immediately followed by a brief, high-frequency rustling sound, both indicative of a small metal object being manipulated—likely a key or latch—on a hard surface. This is succeeded by a low, resonant thud, suggesting the object is set down or a door is closed. The environment is acoustically dry, with no reverberation, indicating a small, enclosed space such as a room or office. A mechanical whirring sound then emerges, characterized by a low-frequency hum and a higher-pitched, rhythmic whir, consistent with the operation of a small electric motor or a mechanical device like a cash register or vending machine. The whirring is steady and unchanging, with no evidence of acceleration or deceleration, and is accompanied by a faint, high-frequency hiss, likely from the recording equipment or the device itself. The mechanical sound is centrally positioned in the stereo field, with no spatial movement. Suddenly, the mechanical whirring is interrupted by a loud, synthetic electronic tone—a harsh, buzzy, low-frequency sound with a square or sawtooth waveform. This tone is immediately recognizable as a \"wrong answer\" or \"fail\" buzzer, commonly used in game",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt sits at a desk, focused on a laptop screen displaying a blue interface, while another person in a gray shirt is partially visible behind him. The man in the foreground holds a pen and appears to be writing or pointing at the screen, with his gaze fixed on the display. The scene is dimly lit, suggesting an indoor workspace or office environment.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

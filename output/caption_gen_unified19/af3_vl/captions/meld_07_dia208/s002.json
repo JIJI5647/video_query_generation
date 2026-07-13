@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "In a warmly lit, crowded café with festive decorations, several people are seated on couches and chairs around tables, some holding mugs. Two men sit at a small table, one in a red plaid shirt leaning forward with his arm on the table, the other in a black shirt resting his hand near his chin, both looking toward each other. Others are visible in the background, some seated, some standing, with varied postures and gazes directed around the room.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a clear, neutral tone and moderate pace, speaking in English.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a warmly lit, crowded café with festive decorations, several people are seated on couches and chairs around tables, some holding mugs. Two men sit at a small table, one in a red plaid shirt leaning forward with his arm on the table, the other in a black shirt resting his hand near his chin, both looking toward each other. Others are visible in the background, some seated, some standing, with varied postures and gazes directed around the room.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

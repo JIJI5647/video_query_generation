@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a high-pitched, angry tone, with a noticeable pause between phrases.",
+  "temporal_description": "A man in a dark shirt stands beside a parked car at night, illuminated by distant streetlights, and later holds a phone to his ear. In another scene, an older man in a light-colored suit is seated indoors, holding a phone to his ear, with other people visible in the background. In a third scene, three individuals are seated in a small boat at night, with one standing at the front and the others seated, all dressed in dark clothing, as the boat moves through dark water with faint lights visible in the distance.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark shirt stands beside a parked car at night, illuminated by distant streetlights, and later holds a phone to his ear. In another scene, an older man in a light-colored suit is seated indoors, holding a phone to his ear, with other people visible in the background. In a third scene, three individuals are seated in a small boat at night, with one standing at the front and the others seated, all dressed in dark clothing, as the boat moves through dark water with faint lights visible i",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

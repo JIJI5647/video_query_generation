@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A blonde woman with a tattooed arm gestures while holding an object, standing in front of a wooden cabinet with decorative items. In another shot, four people are in a living room: one man with a cast on his arm sits on a couch, another man stands behind the couch, and a woman sits beside him, all facing forward. The woman on the couch looks up at the standing man, while the others appear attentive to the conversation.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a neutral tone and moderate pace, discussing concerns about someone following another person and referencing a restraining order.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A blonde woman with a tattooed arm gestures while holding an object, standing in front of a wooden cabinet with decorative items. In another shot, four people are in a living room: one man with a cast on his arm sits on a couch, another man stands behind the couch, and a woman sits beside him, all facing forward. The woman on the couch looks up at the standing man, while the others appear attentive to the conversation.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

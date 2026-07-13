@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A woman with brown hair in a blue dress sits on a white couch looking surprised. The scene cuts to a blonde woman in a patterned top holding a bag and a camera. Then a man in a dark shirt and a woman in a white shirt sit together on a couch.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "There is audible dialogue among the characters with a conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A woman with brown hair in a blue dress sits on a white couch looking surprised. The scene cuts to a blonde woman in a patterned top holding a bag and a camera. Then a man in a dark shirt and a woman in a white shirt sit together on a couch.\", \"audio\": \"There is audible dialogue among the characters with a conversational tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

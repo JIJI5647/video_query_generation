@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "screaming and holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a white door and tiled wall, possibly a bathroom or hallway"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "screaming",
+      "holding a knife"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "mouth wide open",
+        "tears in eyes"
+      ],
+      "body_cues": [
+        "hand raised to face",
+        "body leaning against wall"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "A woman is screaming loudly, followed by a loud crash.",
+  "temporal_description": "The woman screams, then a loud crash is heard.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s053\", \"time_range\": [260.0, 265.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a blue robe\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"screaming and holding a knife\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with a white door and tiled wall, possibly a bathroom or hallway\"}, \"objects\": [{\"object\": \"knife\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"held by the woman\"}], \"interactions\": [], \"key_"
+}

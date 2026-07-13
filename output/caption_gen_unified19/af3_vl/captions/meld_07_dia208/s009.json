@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    41.05
+  ],
+  "visual_description": "Three individuals are seated in a cozy, dimly lit café setting; a man in a black sweater and jeans sits on a brown couch gesturing with his right hand, a woman in a red top sits beside him with her legs crossed, and another woman in a striped sweater sits in a chair to their right holding a mug. The man and the woman in red are facing each other, while the woman in the striped sweater looks toward them, and the background shows other patrons seated at tables. The man’s posture is relaxed but engaged, the woman in red leans slightly forward, and the woman in stripes holds her mug with both hands, her body angled toward the conversation.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, speaking in a neutral tone without any noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals are seated in a cozy, dimly lit café setting; a man in a black sweater and jeans sits on a brown couch gesturing with his right hand, a woman in a red top sits beside him with her legs crossed, and another woman in a striped sweater sits in a chair to their right holding a mug. The man and the woman in red are facing each other, while the woman in the striped sweater looks toward them, and the background shows other patrons seated at tables. The man’s posture is relaxed but eng",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

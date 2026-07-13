@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A small child with light-colored hair, wearing a gray shirt, is held by an adult whose arms are wrapped around the child’s shoulders; the adult wears a white shirt over a dark garment. The child looks forward with their mouth slightly open and hands resting near their chest. The scene is dimly lit, with a red wheel-like object partially visible in the background on the left.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a high-pitched, wavering voice with a gasp and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A small child with light-colored hair, wearing a gray shirt, is held by an adult whose arms are wrapped around the child’s shoulders; the adult wears a white shirt over a dark garment. The child looks forward with their mouth slightly open and hands resting near their chest. The scene is dimly lit, with a red wheel-like object partially visible in the background on the left.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

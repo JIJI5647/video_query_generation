@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a black jacket over a striped shirt stands opposite a woman wearing a dark jacket over a red shirt; they are in a dark, cavernous area lined with large, serpentine structures; the man steps forward, places his hands on the woman's shoulders, and they embrace.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "There is no audible speech; only a faint ambient hum can be heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"A man in a black jacket over a striped shirt stands opposite a woman wearing a dark jacket over a red shirt; they are in a dark, cavernous area lined with large, serpentine structures; the man steps forward, places his hands on the woman's shoulders, and they embrace.\", \"audio\": \"There is no audible speech; only a faint ambient hum can be heard.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

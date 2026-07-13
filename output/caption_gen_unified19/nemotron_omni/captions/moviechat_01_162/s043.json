@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_description": "A man in a black leather jacket leans over another person, holding a blood‑stained hand with a white cloth pressed against a wound. His eyes are wide and his face is wet, while the other person's mouth is open as if gasping. The scene is dim, suggesting an interior space such as a vehicle.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains heavy breathing and faint sobbing.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s043\", \"time_range\": [210.0, 215.0], \"visual\": \"A man in a black leather jacket leans over another person, holding a blood‑stained hand with a white cloth pressed against a wound. His eyes are wide and his face is wet, while the other person's mouth is open as if gasping. The scene is dim, suggesting an interior space such as a vehicle.\", \"audio\": \"The audio contains heavy breathing and faint sobbing.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A man in a dark suit lies motionless on the hood of a car, while another man in a suit stands beside him looking forward. Behind them, three other men in suits approach cautiously, their gazes directed toward the man on the car. The scene is set outdoors in front of a modern building with a small evergreen tree nearby.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a synthesized orchestral arrangement, immediately immersing the listener in a lush, cinematic soundscape. A sustained, high-pitched string pad, likely emulating violins or violas, forms the harmonic foundation, while a lower string section—resembling cellos and double basses—provides a slow, descending melodic line. The harmony is built on a minor chord, imparting a somber and reflective mood. A gentle, arpeggiated piano or harp-like synthesizer adds a shimmering texture, and a soft, sustained bass note anchors the low end. The overall timbre is smooth and polished, with a wide stereo image and subtle reverb that evokes a vast, resonant space. The music is entirely instrumental, with no speech, vocals, or environmental sounds, and is presented in high-fidelity digital quality, free from noise or artifacts. At the four-second mark, the music is abruptly and completely cut off, with no fade or transition. This sudden silence is immediately followed by a loud, harsh, low-frequency electronic buzz. The buzz is a square or sawtooth wave, centered around 110 Hz (A2), with strong upper harmonics that give it a grating, buz",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit lies motionless on the hood of a car, while another man in a suit stands beside him looking forward. Behind them, three other men in suits approach cautiously, their gazes directed toward the man on the car. The scene is set outdoors in front of a modern building with a small evergreen tree nearby.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

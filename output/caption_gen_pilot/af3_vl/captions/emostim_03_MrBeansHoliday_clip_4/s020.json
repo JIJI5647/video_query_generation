@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice singing a pop song with a medium tempo, accompanied by keyboard, bass, and acoustic guitar.",
+  "temporal_description": "A man in a dark suit walks away from the camera toward a white pickup truck parked beside a building. He moves with a steady gait, his back to the viewer, and his arms slightly swinging as he walks. The scene shifts to a dimly lit, cluttered interior space filled with various objects and tools, where a person is briefly visible in the background, moving around. The person’s movements are partially obscured by shadows and the cluttered environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit walks away from the camera toward a white pickup truck parked beside a building. He moves with a steady gait, his back to the viewer, and his arms slightly swinging as he walks. The scene shifts to a dimly lit, cluttered interior space filled with various objects and tools, where a person is briefly visible in the background, moving around. The person’s movements are partially obscured by shadows and the cluttered environment.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

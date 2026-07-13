@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "In a dimly lit night setting, a man with long hair wearing a dark, buttoned coat stands centrally, holding a torch that casts a flickering flame. He is surrounded by a crowd of people in rugged, dark clothing, some holding sticks or weapons, all facing forward. The background is shadowy, with limited visibility emphasizing a tense atmosphere.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The faint crackle of the torch flame is audible, accompanied by low murmuring from the surrounding crowd. No distinct speech is discernible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s017\", \"time_range\": [80.0, 85.0], \"visual\": \"In a dimly lit night setting, a man with long hair wearing a dark, buttoned coat stands centrally, holding a torch that casts a flickering flame. He is surrounded by a crowd of people in rugged, dark clothing, some holding sticks or weapons, all facing forward. The background is shadowy, with limited visibility emphasizing a tense atmosphere.\", \"audio\": \"The faint crackle of the torch flame is audible, accompanied by low murmuring fro"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A close-up shot shows a person's hands, wearing a white shirt and a dark suit jacket, unzipping a black garment bag. The hands move along the zipper, pulling it down to open the bag. The person's wrists are visible, with a watch on the left wrist.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sound of a zipper being pulled open is clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A close-up shot shows a person's hands, wearing a white shirt and a dark suit jacket, unzipping a black garment bag. The hands move along the zipper, pulling it down to open the bag. The person's wrists are visible, with a watch on the left wrist.\", \"audio\": \"The sound of a zipper being pulled open is clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

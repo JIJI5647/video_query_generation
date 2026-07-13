@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a sad tone, speaking at a moderate pace. There are no significant non-speech sounds, and the overall atmosphere is somber.",
+  "temporal_description": "In a dimly lit, gothic-style corridor with stone arches and metal railings, two figures in dark robes are engaged in a magical duel. One figure, seen from behind, casts a bright green spell that erupts into a glowing burst, while the other, facing forward, counters with a red spell that emits sparks. The scene shifts to a bridge-like structure where a third figure, also in dark robes, casts a spell that creates a bright, explosive magical effect, causing debris to fly. A fourth figure appears, seemingly emerging from a magical portal or explosion, standing amidst the chaos with arms outstretched, as the others continue to cast spells and react to the unfolding magical battle.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, gothic-style corridor with stone arches and metal railings, two figures in dark robes are engaged in a magical duel. One figure, seen from behind, casts a bright green spell that erupts into a glowing burst, while the other, facing forward, counters with a red spell that emits sparks. The scene shifts to a bridge-like structure where a third figure, also in dark robes, casts a spell that creates a bright, explosive magical effect, causing debris to fly. A fourth figure appears, s",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_description": "A young man with glasses and a brown jacket stands in a dimly lit, cluttered room filled with shelves of metallic objects and statues. He looks forward with a neutral expression, his posture upright and hands slightly apart at his sides. The background is densely packed with various metallic artifacts, including armor, figurines, and ornate items, creating a shadowy, enclosed atmosphere.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man with glasses and a brown jacket stands in a dimly lit, cluttered room filled with shelves of metallic objects and statues. He looks forward with a neutral expression, his posture upright and hands slightly apart at his sides. The background is densely packed with various metallic artifacts, including armor, figurines, and ornate items, creating a shadowy, enclosed atmosphere.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

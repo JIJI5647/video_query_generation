@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A woman with shoulder-length brown hair, wearing a white hospital gown and covered with a pink blanket, is seated upright in a hospital bed. A man with dark hair is partially visible to her right, facing her. The woman’s gaze is directed toward the man, and her mouth is slightly open as if mid-sentence.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency thump, likely caused by a microphone bump or handling noise, immediately followed by a brief, sharp rustling sound—possibly from clothing or paper—suggesting the speaker is adjusting their position or preparing to speak. The recording environment is quiet, with a subtle, steady electronic hiss and a low-frequency hum, indicating a small, acoustically treated room such as a home studio or office. The speaker, a woman with a clear, mid-to-high pitched voice and a General American accent, delivers her lines in a measured, conversational tone, free from strong inflection. She says, “Well, they have uh some unusual pet names for each other, including uh—” Her speech is marked by natural pauses and filler words (“uh”), and she enunciates “pet names” with a slight emphasis, highlighting the topic. The delivery is smooth and professional, with no background music, additional voices, or environmental sounds present. The recording ends abruptly mid-sentence, with no fade-out or trailing noise, indicating a hard edit or sudden stop. In summary, the audio features a single female speaker in a quiet, controlled indoor setting, discussing “unusual pet names” in a neutral, conversational manner",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair, wearing a white hospital gown and covered with a pink blanket, is seated upright in a hospital bed. A man with dark hair is partially visible to her right, facing her. The woman’s gaze is directed toward the man, and her mouth is slightly open as if mid-sentence.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

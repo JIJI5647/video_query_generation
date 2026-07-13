@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    67.9
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation, accompanied by a steady background hum.",
+  "temporal_description": "Two men are standing in a room, facing each other. The man on the left wears a pink and white plaid shirt with rolled-up sleeves and a watch on his left wrist, while the man on the right wears a blue checkered shirt. The man in pink gestures with his hands while speaking, occasionally pointing or clasping his hands together, and at times looks down or to the side. The man in blue listens, mostly facing the other man, occasionally looking down or shifting his stance slightly. Behind them, a framed picture hangs on the wall, and wall-mounted lamps are visible on either side. The lighting is warm and even, and the room appears to be indoors with neutral-colored walls.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are standing in a room, facing each other. The man on the left wears a pink and white plaid shirt with rolled-up sleeves and a watch on his left wrist, while the man on the right wears a blue checkered shirt. The man in pink gestures with his hands while speaking, occasionally pointing or clasping his hands together, and at times looks down or to the side. The man in blue listens, mostly facing the other man, occasionally looking down or shifting his stance slightly. Behind them, a frame",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

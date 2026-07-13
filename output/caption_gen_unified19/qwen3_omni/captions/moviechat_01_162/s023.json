@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "Two men are inside a car at night. The man in the foreground has a bandaged hand and is holding it up to his mouth, while the man in the background looks forward. The scene is dimly lit, with the focus on the man with the bandaged hand.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice is speaking in a calm tone, with some background noise that sounds like a vehicle.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s023\", \"time_range\": [110.0, 115.0], \"visual\": \"Two men are inside a car at night. The man in the foreground has a bandaged hand and is holding it up to his mouth, while the man in the background looks forward. The scene is dimly lit, with the focus on the man with the bandaged hand.\", \"audio\": \"A male voice is speaking in a calm tone, with some background noise that sounds like a vehicle.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

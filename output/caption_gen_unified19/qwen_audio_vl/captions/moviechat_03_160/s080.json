@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_description": "A young man in a black shirt stands in front of a metal-barred window, his gaze directed slightly downward. Behind him, an older man in a light-colored suit is partially visible, looking forward with a neutral expression. Both are illuminated by dim, greenish lighting, suggesting an enclosed, possibly industrial or institutional setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a deep, resonant, and rhythmic mechanical sound, characterized by a cyclical \"whoosh\" and \"thump\" that evokes the operation of a large, heavy machine—such as a train, industrial engine, or hydraulic system. This sound is accompanied by a persistent, low-frequency hum, likely from an electric motor or generator, and a faint, high-frequency hiss, suggesting the use of analog or low-fidelity recording equipment. The mechanical rhythm is steady and deliberate, with each cycle lasting about one second, and the overall timbre is metallic and slightly gritty, indicating the presence of moving parts and friction. The environment is acoustically dry, with no reverberation or echo, implying a small, enclosed, or heavily dampened space. The recording is monophonic, with all sounds centered and no spatial movement. At the four-second mark, the mechanical rhythm is abruptly interrupted by a sudden, loud, and harsh electronic tone. This tone is a low-frequency, buzzy, and distorted sound, reminiscent of a square or sawtooth wave, and is immediately recognizable as a \"wrong answer\" or error buzzer commonly used in game shows or electronic devices. The tone is much louder than the preceding mechanical sounds",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man in a black shirt stands in front of a metal-barred window, his gaze directed slightly downward. Behind him, an older man in a light-colored suit is partially visible, looking forward with a neutral expression. Both are illuminated by dim, greenish lighting, suggesting an enclosed, possibly industrial or institutional setting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

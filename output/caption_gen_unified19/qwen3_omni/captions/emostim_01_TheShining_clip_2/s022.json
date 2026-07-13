@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A man in a red shirt swings an axe at a door, breaking it open. A woman in a blue robe runs into a bathroom, followed by a young child. The woman pushes the child behind her and looks out a frosted window.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sound of a door being broken down is followed by a woman's panicked breathing and a child's whimpering.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual\": \"A man in a red shirt swings an axe at a door, breaking it open. A woman in a blue robe runs into a bathroom, followed by a young child. The woman pushes the child behind her and looks out a frosted window.\", \"audio\": \"The sound of a door being broken down is followed by a woman's panicked breathing and a child's whimpering.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

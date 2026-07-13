@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_description": "Two men are seated in a car; the man in the foreground has his right hand wrapped in a white bandage and holds it near his mouth, while the man in the background is in the driver’s seat, looking forward. Both are dressed in dark clothing, and the interior of the car is dimly lit with greenish ambient light visible through the windows. The foreground man’s gaze is directed slightly to his right, and his posture is upright but still.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency thump, likely caused by the microphone being handled or bumped, immediately followed by a persistent, low-frequency hum and a subtle high-frequency hiss. These background noises suggest the recording was made in a large, reverberant indoor space, such as a warehouse, factory, or industrial hall, with the microphone positioned some distance from the speaker. The hum is steady and mechanical, possibly from a large HVAC system or industrial machinery, while the hiss is characteristic of a consumer-grade recording device. A single male voice, speaking in standard Mandarin Chinese, enters with a calm, measured, and slightly formal tone. He begins with the phrase, “来了。” (“Lái le.”), which translates to “(You) have arrived.” His delivery is deliberate, with a mid-to-low pitch and a gentle, slightly raspy timbre, indicating a mature adult, likely middle-aged or older. The speaker continues, “你在这几年里头呢，都很能干。” (“Nǐ zài zhè jǐ nián lǐ tóu ne, dōu hěn néng gàn.”), meaning “In these past few years, you have been very capable.” The speech is clear and intelligible",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated in a car; the man in the foreground has his right hand wrapped in a white bandage and holds it near his mouth, while the man in the background is in the driver’s seat, looking forward. Both are dressed in dark clothing, and the interior of the car is dimly lit with greenish ambient light visible through the windows. The foreground man’s gaze is directed slightly to his right, and his posture is upright but still.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

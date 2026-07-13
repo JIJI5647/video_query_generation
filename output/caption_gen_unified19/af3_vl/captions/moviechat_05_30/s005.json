@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A figure in dark robes stands on a rocky outcrop, facing away, while another robed figure kneels before them, both silhouetted against a dim, watery backdrop. A third figure, partially visible, stands nearby, holding a glowing wand that casts a beam of light across the scene. The kneeling figure’s head is bowed, and the standing figure’s posture suggests confrontation or solemnity.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and rapid exclamation, followed by a sudden silence.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A figure in dark robes stands on a rocky outcrop, facing away, while another robed figure kneels before them, both silhouetted against a dim, watery backdrop. A third figure, partially visible, stands nearby, holding a glowing wand that casts a beam of light across the scene. The kneeling figure’s head is bowed, and the standing figure’s posture suggests confrontation or solemnity.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

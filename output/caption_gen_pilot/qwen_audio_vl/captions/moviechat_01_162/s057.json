@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip is a brief, high-fidelity, 5-second excerpt of a solo cello performance. The cello plays a single, sustained note in the mid-to-high register, beginning with a clear, resonant attack and immediately swelling in volume and intensity. The note is held with unwavering pitch and a smooth, legato articulation, with no vibrato or expressive fluctuations. The sound is enveloped in a lush, natural reverberation, suggesting the recording took place in a large, acoustically reflective space such as a concert hall or cathedral. The cello’s timbre is warm, full-bodied, and slightly melancholic, with a pronounced presence in the midrange and a gentle, rounded attack.\n\nThroughout the clip, the cello’s volume steadily increases, peaking at the end of the note, which is then abruptly cut off mid-decay, leaving no lingering sound. There are no other instruments, voices, or background noises present; the recording is entirely focused on the cello. The technical quality is excellent, with a wide frequency range, no audible distortion, and a very low noise floor.\n\nThe musical content is minimalistic and evocative, with the sustained note and swelling dynamics creating a sense of anticipation and emotional tension. The style and performance technique are consistent with Western classical music, and the absence of any other musical or environmental cues suggests the clip is either a studio recording or a carefully isolated excerpt from a larger work. The overall effect is one of solemnity, introspection, and unresolved emotion, with the abrupt ending leaving the listener in a state of suspense.",
+  "temporal_description": "A person is seen in silhouette, standing still and facing away from the camera, looking toward a sky filled with clouds. The sky transitions from a lighter hue to darker tones as the scene progresses, eventually fading to black. The person remains motionless throughout, with no discernible facial expressions or gestures visible due to the silhouette effect. The scene is static, with no other people or objects in view.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person is seen in silhouette, standing still and facing away from the camera, looking toward a sky filled with clouds. The sky transitions from a lighter hue to darker tones as the scene progresses, eventually fading to black. The person remains motionless throughout, with no discernible facial expressions or gestures visible due to the silhouette effect. The scene is static, with no other people or objects in view.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

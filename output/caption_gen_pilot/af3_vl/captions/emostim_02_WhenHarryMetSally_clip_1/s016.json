@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A woman with voluminous blonde hair, wearing a white collared shirt under a dark ribbed cardigan, is seated and looking downward, her head slightly tilted. Behind her, a man in a teal shirt and a dark cap is seated with his back to the camera, partially out of focus. Other indistinct figures are visible in the blurred background, suggesting a public or crowded setting. The woman’s posture remains relatively still, with minimal movement, and her gaze is directed downward throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with voluminous blonde hair, wearing a white collared shirt under a dark ribbed cardigan, is seated and looking downward, her head slightly tilted. Behind her, a man in a teal shirt and a dark cap is seated with his back to the camera, partially out of focus. Other indistinct figures are visible in the blurred background, suggesting a public or crowded setting. The woman’s posture remains relatively still, with minimal movement, and her gaze is directed downward throughout the clip.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

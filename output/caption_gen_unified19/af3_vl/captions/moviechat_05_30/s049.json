@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_description": "A group of people in dark uniforms are running down a dimly lit staircase, some holding hands or moving in a coordinated manner. The scene transitions to a darker, tunnel-like setting where figures are seen moving quickly, their forms partially obscured by shadows and motion blur. One person with light-colored hair is visible in the foreground, appearing to move forward while others surround them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace and pitch, accompanied by background music.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people in dark uniforms are running down a dimly lit staircase, some holding hands or moving in a coordinated manner. The scene transitions to a darker, tunnel-like setting where figures are seen moving quickly, their forms partially obscured by shadows and motion blur. One person with light-colored hair is visible in the foreground, appearing to move forward while others surround them.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

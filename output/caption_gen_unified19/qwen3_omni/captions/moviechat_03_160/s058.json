@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_description": "A computer screen displays a series of technical interfaces. The first screen shows a message in Chinese characters, followed by a map with a highlighted area, and then a list of numbers with a central box displaying the text 'DETECT GSM900 52 SELECT CELL'.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Electronic beeps and a low hum are audible, suggesting a computer or technical device is in operation.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s058\", \"time_range\": [285.0, 290.0], \"visual\": \"A computer screen displays a series of technical interfaces. The first screen shows a message in Chinese characters, followed by a map with a highlighted area, and then a list of numbers with a central box displaying the text 'DETECT GSM900 52 SELECT CELL'.\", \"audio\": \"Electronic beeps and a low hum are audible, suggesting a computer or technical device is in operation.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

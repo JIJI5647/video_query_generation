@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice, speaking in a neutral tone and moderate pace, asks 'What's your name?' followed by laughter, creating a lighthearted atmosphere.",
+  "temporal_description": "A man in a red shirt with a black collar sits on an orange couch, facing right, with his arms crossed. He looks toward another man in a blue polo shirt, who is seated to his right and smiling broadly, his head slightly tilted. The man in blue gestures with his hands while speaking, occasionally leaning forward. In the background, other people are partially visible, seated at tables, with a green decorative column and a vase of yellow flowers on a table behind them. The setting appears to be a casual indoor lounge or café.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a red shirt with a black collar sits on an orange couch, facing right, with his arms crossed. He looks toward another man in a blue polo shirt, who is seated to his right and smiling broadly, his head slightly tilted. The man in blue gestures with his hands while speaking, occasionally leaning forward. In the background, other people are partially visible, seated at tables, with a green decorative column and a vase of yellow flowers on a table behind them. The setting appears to be a ca",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

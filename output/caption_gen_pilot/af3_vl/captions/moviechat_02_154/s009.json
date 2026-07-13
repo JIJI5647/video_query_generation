@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, conveying a sense of calm and neutrality.",
+  "temporal_description": "A man in a dark suit is seen in profile, standing in a dimly lit environment. He slowly turns his head slightly, then begins to walk away, his silhouette gradually fading into darkness. The camera follows his movement downward, focusing on his hands as he opens a briefcase, revealing its contents. The scene shifts to a nighttime setting where two individuals are seated inside a car, with the driver’s side door open and the car parked on a wet street illuminated by distant streetlights.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit is seen in profile, standing in a dimly lit environment. He slowly turns his head slightly, then begins to walk away, his silhouette gradually fading into darkness. The camera follows his movement downward, focusing on his hands as he opens a briefcase, revealing its contents. The scene shifts to a nighttime setting where two individuals are seated inside a car, with the driver’s side door open and the car parked on a wet street illuminated by distant streetlights.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

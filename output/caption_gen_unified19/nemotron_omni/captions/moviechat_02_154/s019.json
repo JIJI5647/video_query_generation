@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A man with long dark wavy hair stands in a dimly lit setting, his face illuminated by faint light as he looks intently at someone off-screen. The view then changes to a man with short dark hair, also in low light, who looks forward with a neutral expression. The background shows out-of-focus greenish lights, indicating a nighttime urban scene.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with only faint ambient sounds, and no clear speech is audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual\": \"A man with long dark wavy hair stands in a dimly lit setting, his face illuminated by faint light as he looks intently at someone off-screen. The view then changes to a man with short dark hair, also in low light, who looks forward with a neutral expression. The background shows out-of-focus greenish lights, indicating a nighttime urban scene.\", \"audio\": \"The audio is quiet with only faint ambient sounds, and no clear speech is audibl"
+}

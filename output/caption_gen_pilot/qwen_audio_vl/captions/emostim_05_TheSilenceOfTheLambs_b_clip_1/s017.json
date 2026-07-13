@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins in a quiet, acoustically dampened indoor setting, likely a small room with soft furnishings. A faint, low-frequency hum, probably from a computer fan or HVAC system, is present in the background. A single adult female voice, speaking in a soft, breathy, and intimate tone, says, “I only have one.” Her speech is clear and close to the microphone, with a General American accent and a gentle, slightly melancholic emotional quality. Immediately after she finishes, a sharp, high-pitched click is heard, consistent with a computer mouse being clicked, followed by a brief, low-frequency thump, possibly from a hand or object contacting a desk. These sounds are close-miked and indicate focused, deliberate computer interaction. The ambient hum continues, and the environment remains still and undisturbed. Suddenly, a loud, synthetic electronic tone erupts, characterized by a harsh, buzzy timbre typical of a square or sawtooth wave. This tone is much louder than previous sounds, with a fundamental frequency around 110 Hz (A2) and strong harmonics, and it is sustained without variation until the recording ends. The tone is likely a system alert or error signal, possibly from a computer or device, and its abrupt onset and intensity suggest a technical malfunction or notification.\n\nIn summary, the recording captures a solitary moment in a quiet, modern indoor environment where a woman quietly states, “I only have one,” followed by deliberate computer mouse clicks and a desk thump. The scene is abruptly interrupted by a loud, synthetic electronic alert, indicating a technical event or error. The audio’s clarity, close-miking, and lack of extraneous noise suggest a controlled, personal setting, with the emotional and technical elements combining to portray a brief, focused interaction culminating in a system notification.",
+  "temporal_description": "A woman with brown hair and blue eyes is shown in a close-up, her gaze directed upward. Her facial expression is neutral, and her head is slightly tilted. The background is out of focus, suggesting an indoor setting. The scene then shifts to a close-up of a person's legs and hands, covered in dirt and leaves, with wires and a small object attached to the leg. The hands are open, fingers slightly curled, and the person appears to be lying down.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with brown hair and blue eyes is shown in a close-up, her gaze directed upward. Her facial expression is neutral, and her head is slightly tilted. The background is out of focus, suggesting an indoor setting. The scene then shifts to a close-up of a person's legs and hands, covered in dirt and leaves, with wires and a small object attached to the leg. The hands are open, fingers slightly curled, and the person appears to be lying down.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

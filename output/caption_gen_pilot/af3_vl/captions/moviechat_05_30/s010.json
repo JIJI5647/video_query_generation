@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a sad tone, accompanied by heavy breathing and a sudden gasp, creating an intense and emotional atmosphere.",
+  "temporal_description": "A bald figure in a dark robe is seen lying on the ground, then slowly rising to stand before a glowing, turbulent magical energy field. The figure holds a wand in their right hand, and the camera slowly zooms in on the wand’s textured grip. The figure’s posture is upright and still, facing away from the camera, with their gaze directed toward the magical energy. The scene is dimly lit, with the energy field casting an ethereal blue and orange glow.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A bald figure in a dark robe is seen lying on the ground, then slowly rising to stand before a glowing, turbulent magical energy field. The figure holds a wand in their right hand, and the camera slowly zooms in on the wand’s textured grip. The figure’s posture is upright and still, facing away from the camera, with their gaze directed toward the magical energy. The scene is dimly lit, with the energy field casting an ethereal blue and orange glow.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

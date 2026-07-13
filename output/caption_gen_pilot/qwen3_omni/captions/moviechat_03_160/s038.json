@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running towards the camera, then stopping and looking around with a concerned expression"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime, with streetlights and trees in the background"
+    },
+    "objects": [
+      {
+        "object": "a black car",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "parked on the side of the road"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "running",
+      "stopping",
+      "looking around"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black jacket",
+      "facial_cues": [
+        "wide eyes",
+        "concerned expression"
+      ],
+      "body_cues": [
+        "running",
+        "stopping",
+        "looking around"
+      ],
+      "gaze": "around the area"
+    }
+  ],
+  "audio_description": "A loud crash sound is heard, followed by silence.",
+  "temporal_description": "The clip begins with the sound of a car crash, then the man runs into view and stops, looking around cautiously.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s038\", \"time_range\": [185.0, 190.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"running towards the camera, then stopping and looking around with a concerned expression\"}], \"scene\": {\"location\": \"street\", \"setting\": \"nighttime, with streetlights and trees in the background\"}, \"objects\": [{\"object\": \"a black car\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"parked "
+}

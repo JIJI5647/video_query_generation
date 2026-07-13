@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "A group of individuals in dark attire walks down a dimly lit, narrow corridor with wooden railings on both sides. They are positioned in a line, moving forward with steady steps, their faces partially illuminated by faint ambient light. Their postures are upright and their gazes directed ahead, with no discernible gestures or interactions among them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched scream from a female voice, delivered in a tone of acute terror and panic. The scream is so intense that it causes severe digital clipping, resulting in a harsh, distorted sound that is both shrill and emotionally overwhelming. Immediately following the scream, a massive, low-frequency impact erupts, characterized by a deep, resonant boom that reverberates through the space. This impact is accompanied by a complex array of secondary sounds: a sharp, high-frequency crackling and tearing, reminiscent of shattering glass or metal, and a prolonged, grinding scrape that suggests a large object—such as a vehicle or heavy machinery—being dragged or crushed. The reverberation of these sounds is dense and prolonged, indicating the event occurs within a vast, enclosed environment with hard, reflective surfaces, such as a concrete parking garage or industrial warehouse. As the initial chaos subsides, the audio transitions into a quieter phase dominated by a deep, continuous rumble and a persistent, high-frequency hiss. The rumble, likely the result of settling debris or the aftermath of the impact, is accompanied by a faint, metallic clatter, suggesting smaller fragments or objects settling. The hiss, which persists throughout, is a byproduct of",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of individuals in dark attire walks down a dimly lit, narrow corridor with wooden railings on both sides. They are positioned in a line, moving forward with steady steps, their faces partially illuminated by faint ambient light. Their postures are upright and their gazes directed ahead, with no discernible gestures or interactions among them.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

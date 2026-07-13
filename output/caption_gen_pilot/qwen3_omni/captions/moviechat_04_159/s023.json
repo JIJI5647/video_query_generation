@@ -1,0 +1,42 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a person is using a flip phone and a laptop computer."
+    },
+    "objects": [
+      {
+        "name": "flip phone",
+        "description": "a silver Motorola flip phone displaying a list of missed calls on its screen."
+      },
+      {
+        "name": "laptop",
+        "description": "a laptop computer with a black keyboard and a blue screen."
+      },
+      {
+        "name": "cup",
+        "description": "a white cup with a colorful design, possibly a beverage cup."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "A person holds a flip phone and then uses a laptop computer."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sound of a keyboard being typed on.",
+  "temporal_description": "The typing sound continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s023\", \"time_range\": [110.0, 115.0], \"visual_objective\": {\"people\": [], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a person is using a flip phone and a laptop computer.\"}, \"objects\": [{\"name\": \"flip phone\", \"description\": \"a silver Motorola flip phone displaying a list of missed calls on its screen.\"}, {\"name\": \"laptop\", \"description\": \"a laptop computer with a black keyboard and a blue screen.\"}, {\"name\": \"cup\", \"description\": \"a white cup with a colorful design, possibly"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A man in a pink plaid shirt is talking to another man in a blue plaid shirt. The man in the pink shirt is gesturing with his hands as he speaks. The scene takes place indoors, with a framed picture and a wall sconce visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice is speaking in a conversational tone. The audio is clear and easy to understand.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual\": \"A man in a pink plaid shirt is talking to another man in a blue plaid shirt. The man in the pink shirt is gesturing with his hands as he speaks. The scene takes place indoors, with a framed picture and a wall sconce visible in the background.\", \"audio\": \"A male voice is speaking in a conversational tone. The audio is clear and easy to understand.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

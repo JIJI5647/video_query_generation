@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "A man in a red jacket swings an axe at a wooden door, breaking a hole in it. He then peers through the hole with a wide, unsettling smile. The scene is set in a hallway with floral wallpaper and a round mirror on the wall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud crash is heard as the door breaks. The man then speaks in a calm, conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s026\", \"time_range\": [125.0, 130.0], \"visual\": \"A man in a red jacket swings an axe at a wooden door, breaking a hole in it. He then peers through the hole with a wide, unsettling smile. The scene is set in a hallway with floral wallpaper and a round mirror on the wall.\", \"audio\": \"A loud crash is heard as the door breaks. The man then speaks in a calm, conversational tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

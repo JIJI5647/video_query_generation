@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking into a walkie-talkie"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with shelves in the background"
+    },
+    "objects": [
+      {
+        "object": "walkie-talkie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man speaking into walkie-talkie"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "holding a walkie-talkie"
+      ],
+      "gaze": "looking to the side"
+    }
+  ],
+  "audio_description": "A man is speaking into a walkie-talkie.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s065\", \"time_range\": [320.0, 325.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"speaking into a walkie-talkie\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with shelves in the background\"}, \"objects\": [{\"object\": \"walkie-talkie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"held by the man\"}], \"interactions\": [], \"key_actions\": [\"ma"
+}

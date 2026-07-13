@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a suit and glasses looks down, while another person holds a lit cigarette near his face. The second person is partially visible, with only their hand and the cigarette in focus. The scene is dimly lit, with monitors and equipment in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically controlled indoor environment, likely a private office or interrogation room, with a faint electronic hiss and a subtle low-frequency hum indicating the presence of recording equipment and possibly HVAC. A single male voice, speaking Mandarin Chinese in a calm, measured, and authoritative tone, addresses an unseen audience or another person. He states, “不用到处看” (“No need to look around”), immediately followed by a brief rustling sound, likely from paper or clothing, suggesting the speaker is handling documents or adjusting his position. The speaker continues, “律师在这儿” (“The lawyer is here”), emphasizing the presence of legal representation, and then asserts, “警察不可以录像” (“The police cannot record”), with a firm and deliberate delivery that conveys authority and control. He concludes with, “录下来也没用” (“Even if it’s recorded, it’s useless”), reinforcing his position and implying that any recording would be invalid or irrelevant. Throughout, the speaker’s voice remains clear and steady, with no inflection, and the background remains free of other voices or environmental sounds. The recording ends abruptly, with a sharp digital click, indicating a manual stop or edit. In summary, the audio captures a brief, formal exchange in",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses looks down, while another person holds a lit cigarette near his face. The second person is partially visible, with only their hand and the cigarette in focus. The scene is dimly lit, with monitors and equipment in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

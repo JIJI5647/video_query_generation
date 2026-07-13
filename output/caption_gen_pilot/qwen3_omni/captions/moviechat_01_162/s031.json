@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair and a mustache",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car and holding his hand to his mouth"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "interior of a car with a leather seat and a window showing greenery outside"
+    },
+    "objects": [
+      {
+        "object": "a white bandage",
+        "visibility": "clearly visible",
+        "position": "on the man's hand",
+        "action": "wrapped around the man's hand"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man holds his hand to his mouth"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair and a mustache",
+      "facial_cues": [
+        "sweating",
+        "tense expression"
+      ],
+      "body_cues": [
+        "hand held to mouth"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "a male voice speaking in a strained tone.",
+  "temporal_description": "the man holds his hand to his mouth throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s031\", \"time_range\": [150.0, 155.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with dark hair and a mustache\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting in a car and holding his hand to his mouth\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"interior of a car with a leather seat and a window showing greenery outside\"}, \"objects\": [{\"object\": \"a white bandage\", \"visibility\": \"clearly visible\", \"position\": \"on the man's hand\", \"a"
+}

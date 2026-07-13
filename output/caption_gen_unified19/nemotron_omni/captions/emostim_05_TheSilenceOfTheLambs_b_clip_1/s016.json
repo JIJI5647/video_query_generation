@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "A woman with long brown hair is shown in a close‑up, her face partially hidden by a blurred foreground. She looks to the side with a neutral expression and then turns her head slightly upward, revealing her eyes and mouth.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "There is no audible sound.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual\": \"A woman with long brown hair is shown in a close‑up, her face partially hidden by a blurred foreground. She looks to the side with a neutral expression and then turns her head slightly upward, revealing her eyes and mouth.\", \"audio\": \"There is no audible sound.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

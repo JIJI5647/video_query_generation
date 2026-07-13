@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins in a quiet, acoustically dry indoor setting, likely a small, carpeted room in a private home. A faint, low-frequency hum from an appliance or HVAC system is present, accompanied by a subtle, high-frequency hiss from the recording device. The first sound is a sharp, high-pitched gasp or cry from a young child, immediately followed by a soft, wet mouth sound, indicating the child is close to the microphone. The child then emits a brief, high-pitched whimper, which quickly transitions into a longer, strained, and breathy cry. This cry is marked by a descending pitch and a wet, gurgling quality, suggesting the child is struggling to breathe and is in significant distress. The emotional tone is one of acute pain or fear, with the child’s voice trembling and wavering. As the crying continues, the child attempts to speak, producing a single, strained syllable: “Diao.” The pronunciation is heavily muffled and distorted, with the “D” sound barely audible and the “iao” portion sounding like a wet, nasal, and breathy “yao.” The utterance is not a clear word but rather a desperate, unintelligible cry, possibly an attempt to call for help or express pain. The child’s voice remains high-pitched and breathy, with the cry trailing off into a final, wet, gurgling sound. Throughout, the background hum and hiss persist, and the recording ends abruptly, with no further sounds or environmental cues.\n\nIn summary, the audio captures a brief, intense episode of a young child’s distress in a quiet, private indoor setting. The child’s cries and a single, muffled utterance—“Diao”—are rendered with low-fidelity, marked by distortion and background noise. The emotional content is one of acute pain or fear, and the recording provides no evidence of other people or external events, focusing solely on the child’s immediate, desperate vocalizations.",
+  "temporal_description": "A young child with light-colored hair, wearing a gray long-sleeved shirt, is seated and appears to be looking downward or slightly to the side. Behind the child, an adult's hands are visible, resting on the child's shoulders or back, suggesting a supportive or comforting presence. The background is dark, with minimal visible details, and the child's posture is relatively still, with slight movements of the head and hands. The child's gaze shifts slightly, and their hands are occasionally raised or moved near their ears or shoulders.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair, wearing a gray long-sleeved shirt, is seated and appears to be looking downward or slightly to the side. Behind the child, an adult's hands are visible, resting on the child's shoulders or back, suggesting a supportive or comforting presence. The background is dark, with minimal visible details, and the child's posture is relatively still, with slight movements of the head and hands. The child's gaze shifts slightly, and their hands are occasionally raised ",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

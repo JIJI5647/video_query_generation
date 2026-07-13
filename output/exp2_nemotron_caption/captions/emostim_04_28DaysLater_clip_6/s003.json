@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A person dressed in dark clothing walks across a dimly lit room with a checkered floor, passing a covered chair and a doorway illuminated by a small lamp. The lighting shifts from bright daylight near a window to deep shadows, casting the person as a silhouette as they move toward a large ornate mirror. In the final view, the person's reflection is seen in the mirror, wearing a mask and holding a light source.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with only faint ambient sounds, possibly footsteps echoing in the empty room.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual\": \"A person dressed in dark clothing walks across a dimly lit room with a checkered floor, passing a covered chair and a doorway illuminated by a small lamp. The lighting shifts from bright daylight near a window to deep shadows, casting the person as a silhouette as they move toward a large ornate mirror. In the final view, the person's reflection is seen in the mirror, wearing a mask and holding a light source.\", \"audio\": \"The audio is"
+}

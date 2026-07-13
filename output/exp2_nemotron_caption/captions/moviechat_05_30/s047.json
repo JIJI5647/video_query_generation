@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_description": "The man in a brown jacket and glasses walks beside a woman with long red hair in a stone hallway with a staircase behind them. They stop, face each other, and she places her hand on his neck before they kiss. Other students move in the background on the stairs.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks urgently with a serious tone. The ambient crowd noise is faint.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s047\", \"time_range\": [230.0, 235.0], \"visual\": \"The man in a brown jacket and glasses walks beside a woman with long red hair in a stone hallway with a staircase behind them. They stop, face each other, and she places her hand on his neck before they kiss. Other students move in the background on the stairs.\", \"audio\": \"A male voice speaks urgently with a serious tone. The ambient crowd noise is faint.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

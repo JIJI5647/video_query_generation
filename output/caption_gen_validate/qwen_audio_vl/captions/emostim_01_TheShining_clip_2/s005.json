@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a faint, low-frequency electronic hum, immediately establishing a sterile, clinical atmosphere. A single, high-pitched, metallic electronic tone—reminiscent of a hospital heart monitor or medical device—begins, its unwavering pitch and volume suggesting a state of alert or monitoring. Over this, a barely audible, low-pitched male voice, heavily muffled and distant, utters the phrase \"Red cross.\" The voice is slow, breathy, and slurred, with a flat, emotionless delivery that conveys exhaustion or sedation. The words are indistinct, with the \"r\" sounds softened and the \"x\" in \"cross\" nearly lost, making the phrase difficult to discern without close listening. The voice is accompanied by a subtle, low-frequency rumble, likely from the speaker’s own body or the recording device, and is enveloped in a soft, short reverberation, indicating a small, enclosed space.\n\nAs the clip progresses, the electronic tone continues uninterrupted, maintaining its clinical, unchanging presence. The voice fades into the background, becoming even more muffled and indistinct, with no further speech or vocalization. The ambient hum and reverberation persist, reinforcing the sense of a confined, medical environment. Suddenly, the audio is cut off mid-tone, with no fade or transition, leaving the scene unresolved and the listener suspended in tension.\n\nThe recording is of low fidelity, with a persistent electronic hiss and hum, and a limited frequency range that emphasizes mid and high frequencies while muting deep bass. The voice is heavily masked by the electronic tone, and the overall sound is compressed and muffled, suggesting a distant or poorly positioned microphone. The spatial impression is of a small, hard-walled room, such as a hospital room or medical bay, with the voice and tone both close to the listener but the voice more distant and reverberant.\n\nSemantically, the clip presents a stark, clinical moment: a single, exhausted male voice utters \"Red cross\" over a continuous medical alert tone, with no other sounds or context provided. The phrase is likely a reference to the Red Cross, but its meaning is ambiguous—possibly a patient’s last words, a code, or a miscommunication. The absence of other voices, environmental cues, or narrative context heightens the sense of isolation and unresolved tension.\n\nCulturally, the audio evokes the conventions of medical dramas and horror films, where the combination of a flatline tone, muffled voice, and abrupt silence is used to signal crisis, death, or suspense. The lack of language, accent, or specific cultural markers makes the scene universally recognizable as a moment of medical emergency or existential uncertainty.\n\nIn summary, the audio clip is a brief, low-fidelity recording set in a sterile, clinical environment, featuring a muffled male voice saying \"Red cross\" over a continuous electronic tone, with no other sounds or context. The abrupt ending and lack of resolution create a tense, ambiguous atmosphere, evoking themes of medical crisis, isolation, and unresolved fate.",
+  "temporal_description": "A child with short, light-colored hair, wearing a red and green striped sweater, stands in a dimly lit room, holding a long knife in their right hand. They are facing away from the camera, positioned near a closed door, and appear to be moving slowly toward it. To the left, a lit lamp on a side table casts a warm glow, and to the right, a bookshelf and an old television set are partially visible. The child’s posture is upright, and their head is slightly tilted as they look toward the door.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short, light-colored hair, wearing a red and green striped sweater, stands in a dimly lit room, holding a long knife in their right hand. They are facing away from the camera, positioned near a closed door, and appear to be moving slowly toward it. To the left, a lit lamp on a side table casts a warm glow, and to the right, a bookshelf and an old television set are partially visible. The child’s posture is upright, and their head is slightly tilted as they look toward the door.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

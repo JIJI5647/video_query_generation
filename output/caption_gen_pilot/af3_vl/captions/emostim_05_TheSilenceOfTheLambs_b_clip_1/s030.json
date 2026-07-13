@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low, slow, and sad tone, with a noticeable pause between words, creating a somber and reflective atmosphere.",
+  "temporal_description": "A person wearing a white shirt and tie is holding a small, dark object with tweezers. The object appears to be a cockroach, held steadily in the tweezers. The person’s face is partially visible, with a focused gaze directed toward the object. The background is a plain green wall, and the person’s posture is upright, suggesting a controlled, deliberate action. The person’s hand is steady, and the object is held at a consistent angle, indicating careful handling.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a white shirt and tie is holding a small, dark object with tweezers. The object appears to be a cockroach, held steadily in the tweezers. The person’s face is partially visible, with a focused gaze directed toward the object. The background is a plain green wall, and the person’s posture is upright, suggesting a controlled, deliberate action. The person’s hand is steady, and the object is held at a consistent angle, indicating careful handling.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

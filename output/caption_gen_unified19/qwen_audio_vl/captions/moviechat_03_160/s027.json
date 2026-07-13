@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "Two men sit at a table in a dimly lit, cluttered room; one wears a patterned shirt and holds a cigarette, the other wears a dark jacket and leans toward him. The man in the patterned shirt looks up at the other, who gazes back with his head slightly tilted. In the background, another person is partially visible, seated and smoking, with a chalkboard covered in writing behind them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a lighter or similar object, immediately followed by a faint rustling sound, possibly from clothing or a bag. A low-level electronic hiss and a subtle hum are present throughout, indicating a recording made in a small, enclosed, and acoustically dampened space, such as a private room or office. The first speaker, a middle-aged man with a clear, standard Mandarin accent, calmly asks, “干嘛发这么大脾气？” (“Why are you so?”), his tone measured and slightly inquisitive, suggesting familiarity and a desire to de-escalate tension. The second speaker, a younger man with a slightly higher pitch and a regional accent, responds with a rapid, and exasperated tone: “这些泰国人啊，在龙骨滩，就快冻死了。” (“These Thais, at Longgutan, are almost freezing to death.”) His speech is marked by a rising pitch and a sense of urgency. The audio ends abruptly after this statement, with no further dialogue or ambient sounds. The recording is of moderate fidelity, with clear speech and intelligible background noises, but is affected by a persistent hiss and hum, likely from",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men sit at a table in a dimly lit, cluttered room; one wears a patterned shirt and holds a cigarette, the other wears a dark jacket and leans toward him. The man in the patterned shirt looks up at the other, who gazes back with his head slightly tilted. In the background, another person is partially visible, seated and smoking, with a chalkboard covered in writing behind them.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

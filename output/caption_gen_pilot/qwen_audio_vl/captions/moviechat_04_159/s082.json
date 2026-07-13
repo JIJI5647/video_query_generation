@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s082",
+  "time_range": [
+    405.0,
+    410.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a sharp, high-pitched electronic beep, immediately followed by a male voice speaking Mandarin Chinese in a clipped, urgent tone: “电话” (“telephone”). This is quickly succeeded by a second male voice, deeper and more authoritative, who delivers a rapid, technical statement: “不是随机搜索这一区打出的电话” (“Not a randomly searched phone call from this area”). The first voice responds with a brief, clipped reply: “正在搜索” (“Searching”), indicating a procedural update. Throughout, a persistent, low-frequency electronic hum underpins the dialogue, suggesting the presence of active electronic equipment or machinery in the background. The voices are clear and intelligible, with a dry, close-mic’d quality and no reverberation, implying a small, acoustically treated room. The speech is delivered in a fast, businesslike manner, with no emotional inflection, and the overall sound is marked by a slightly compressed, midrange-heavy fidelity typical of digital radio or field recording equipment. The clip ends abruptly with a hard cut, leaving the search process unresolved.\n\nIn summary, the audio captures a tense, focused exchange between two Mandarin-speaking men in a technical or operational setting, likely a police or security command center, as they conduct a targeted phone search. The dialogue is precise and procedural, supported by electronic hum and beeps, and the recording’s technical characteristics reinforce the impression of a real-time, high-stakes investigation.",
+  "temporal_description": "A man with short dark hair, wearing a light-colored shirt, is seated and focused on a screen in a dimly lit room. He occasionally glances up and shifts his gaze, maintaining a steady posture. Later, he stands near a window with blinds, peering outside while holding a device to his eye, possibly a camera or binoculars. The screen displays technical data, including coordinates and a license identifier, suggesting he is monitoring or tracking something. The scene is dark, with minimal lighting, emphasizing the man’s actions and the screen’s glow.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a light-colored shirt, is seated and focused on a screen in a dimly lit room. He occasionally glances up and shifts his gaze, maintaining a steady posture. Later, he stands near a window with blinds, peering outside while holding a device to his eye, possibly a camera or binoculars. The screen displays technical data, including coordinates and a license identifier, suggesting he is monitoring or tracking something. The scene is dark, with minimal lighting, emp",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

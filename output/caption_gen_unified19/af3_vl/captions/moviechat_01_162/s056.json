@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_description": "A silhouetted figure stands facing away from the camera, gazing toward a cloudy sky with a bright light source behind them. The person’s posture is upright and still, with no discernible gestures or facial expressions visible due to the silhouette effect. The scene is set against a dramatic sky with swirling clouds and a glowing horizon.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a low pitch and a slow pace, accompanied by a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A silhouetted figure stands facing away from the camera, gazing toward a cloudy sky with a bright light source behind them. The person’s posture is upright and still, with no discernible gestures or facial expressions visible due to the silhouette effect. The scene is set against a dramatic sky with swirling clouds and a glowing horizon.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

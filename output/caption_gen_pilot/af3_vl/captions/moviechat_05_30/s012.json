@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a sad tone, speaking at a moderate pace.",
+  "temporal_description": "The video shows a bald figure in a dark, flowing robe standing with their back to the camera, gazing at a large, fiery, glowing structure in the distance. The figure remains mostly still, occasionally shifting their posture slightly, and at one point, they hold a thin, dark object in their hand. The scene is dimly lit, with the only illumination coming from the glowing structure behind them, casting shadows and highlighting the contours of their robe and back. The figure’s head is slightly bowed, and their gaze is fixed forward, suggesting a contemplative or observant stance.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a bald figure in a dark, flowing robe standing with their back to the camera, gazing at a large, fiery, glowing structure in the distance. The figure remains mostly still, occasionally shifting their posture slightly, and at one point, they hold a thin, dark object in their hand. The scene is dimly lit, with the only illumination coming from the glowing structure behind them, casting shadows and highlighting the contours of their robe and back. The figure’s head is slightly bowed",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

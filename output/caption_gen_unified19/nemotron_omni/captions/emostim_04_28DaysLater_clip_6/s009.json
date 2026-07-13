@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "The scene is a dimly lit bathroom with a checkered floor, a clawfoot bathtub, and an ornate mirror. A person in camouflage clothing enters through a doorway, holding a firearm and moving toward the mirror. A woman with dark hair pulled back is seen in close-up, her arm raised near her face as she looks into the mirror.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "the audio is unclear",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual\": \"The scene is a dimly lit bathroom with a checkered floor, a clawfoot bathtub, and an ornate mirror. A person in camouflage clothing enters through a doorway, holding a firearm and moving toward the mirror. A woman with dark hair pulled back is seen in close-up, her arm raised near her face as she looks into the mirror.\", \"audio\": \"the audio is unclear\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

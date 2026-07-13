@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A person wearing a white-cuffed shirt and dark pants is zipping up a black leather jacket. Their hands move methodically to fasten the zipper, with one hand guiding the zipper pull while the other steadies the fabric. The scene is tightly framed on the torso and hands, with a blurred background suggesting an indoor setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate loudness, speaking at a moderate pace with a neutral prosody. There are no significant non-speech sounds or cues present.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a white-cuffed shirt and dark pants is zipping up a black leather jacket. Their hands move methodically to fasten the zipper, with one hand guiding the zipper pull while the other steadies the fabric. The scene is tightly framed on the torso and hands, with a blurred background suggesting an indoor setting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

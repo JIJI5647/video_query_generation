@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_description": "Two men are in a car at night. The man in the foreground, wearing a black jacket, has a sweaty face and is looking intently at the other man. The other man, in a black shirt, is leaning back in his seat, looking distressed and speaking.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man is speaking in a strained, emotional voice. Heavy breathing is audible in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s046\", \"time_range\": [225.0, 230.0], \"visual\": \"Two men are in a car at night. The man in the foreground, wearing a black jacket, has a sweaty face and is looking intently at the other man. The other man, in a black shirt, is leaning back in his seat, looking distressed and speaking.\", \"audio\": \"A man is speaking in a strained, emotional voice. Heavy breathing is audible in the background.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

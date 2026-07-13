@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "Two men in dark suits walk side-by-side on a wet, reflective pavement at night. The man on the left carries a briefcase. They walk towards a parked dark-colored luxury sedan in a city street, with tall buildings and streetlights in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The rhythmic sound of footsteps on pavement is heard, accompanied by a low, ambient hum.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual\": \"Two men in dark suits walk side-by-side on a wet, reflective pavement at night. The man on the left carries a briefcase. They walk towards a parked dark-colored luxury sedan in a city street, with tall buildings and streetlights in the background.\", \"audio\": \"The rhythmic sound of footsteps on pavement is heard, accompanied by a low, ambient hum.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

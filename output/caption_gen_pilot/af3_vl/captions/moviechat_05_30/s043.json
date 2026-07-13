@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and urgent voice, likely a child, shouting in distress, with no other background sounds.",
+  "temporal_description": "A group of people dressed in dark school uniforms are seen descending a grand, stone staircase in a dimly lit, gothic-style corridor. Many are crouched or moving quickly, some holding wands, while others appear to be shielding themselves or assisting others. A few individuals are standing upright, looking ahead or scanning the surroundings, while others are partially obscured by the crowd. A glowing, ethereal figure appears in the distance, hovering above the stairs, drawing attention from those below. The scene is chaotic, with people moving in various directions, some falling or stumbling, and others reaching out to help or brace themselves. The architecture features tall columns and ornate railings, with lanterns casting a soft, ambient light along the hallway.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people dressed in dark school uniforms are seen descending a grand, stone staircase in a dimly lit, gothic-style corridor. Many are crouched or moving quickly, some holding wands, while others appear to be shielding themselves or assisting others. A few individuals are standing upright, looking ahead or scanning the surroundings, while others are partially obscured by the crowd. A glowing, ethereal figure appears in the distance, hovering above the stairs, drawing attention from those",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

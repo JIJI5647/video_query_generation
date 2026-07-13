@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "a sky with clouds at sunset or sunrise"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "standing still"
+    ],
+    "visibility_notes": "The person is a silhouette against the bright sky."
+  },
+  "visual_expression": [
+    {
+      "person": "a person",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A sustained, high-pitched, and ethereal musical note is playing.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s057\", \"time_range\": [280.0, 285.0], \"visual_objective\": {\"people\": [{\"person\": \"a person\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"standing still\"}], \"scene\": {\"location\": \"outdoors\", \"setting\": \"a sky with clouds at sunset or sunrise\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"standing still\"], \"visibility_notes\": \"The person is a silhouette against the bright sky.\"}, \"visual_expression\": [{\"person\": \"a person\", \"facial_cues\": [\"not clearl"
+}

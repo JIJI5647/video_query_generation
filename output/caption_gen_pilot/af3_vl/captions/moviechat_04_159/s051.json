@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A man in a gray suit is seated in the back of a car, holding a phone to his ear with his right hand. He is looking forward and slightly upward, with his head tilted back. Another person, partially visible and out of focus, sits beside him, facing forward. The car’s interior is dimly lit, with blurred city lights visible through the windows, suggesting nighttime. The man’s posture remains relatively still throughout, with minor shifts in his head position.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a gray suit is seated in the back of a car, holding a phone to his ear with his right hand. He is looking forward and slightly upward, with his head tilted back. Another person, partially visible and out of focus, sits beside him, facing forward. The car’s interior is dimly lit, with blurred city lights visible through the windows, suggesting nighttime. The man’s posture remains relatively still throughout, with minor shifts in his head position.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

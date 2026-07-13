@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s091",
+  "time_range": [
+    450.0,
+    455.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by background music.",
+  "temporal_description": "A man wearing headphones sits at a desk in a dimly lit room, focused on a computer screen. He occasionally moves his hand, adjusting his position or gesturing slightly. In the background, another person is partially visible, out of focus, also seated at a desk. The scene shifts to a view through a window, showing people walking outside in the rain, holding umbrellas, and moving in various directions. The overall setting appears to be an office or control room with maps and papers on the walls.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man wearing headphones sits at a desk in a dimly lit room, focused on a computer screen. He occasionally moves his hand, adjusting his position or gesturing slightly. In the background, another person is partially visible, out of focus, also seated at a desk. The scene shifts to a view through a window, showing people walking outside in the rain, holding umbrellas, and moving in various directions. The overall setting appears to be an office or control room with maps and papers on the walls.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

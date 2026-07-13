@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a single male voice with a clear and steady tone, speaking at a moderate pace. There are no noticeable background sounds or emotional inflections, suggesting a calm and neutral delivery.",
+  "temporal_description": "The scene shows a group of police officers and civilians gathered around a cordoned-off area with police tape, near parked police vehicles including a van and a taxi. Officers stand in formation, some with arms crossed, while others appear to be conversing or observing the scene. Two men in suits are seen in a close-up, standing side by side, one looking down while the other looks forward, with occasional movement from people passing behind them. The background features urban architecture, including a building with signage and an elevated roadway, suggesting a city setting during dusk or early evening.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene shows a group of police officers and civilians gathered around a cordoned-off area with police tape, near parked police vehicles including a van and a taxi. Officers stand in formation, some with arms crossed, while others appear to be conversing or observing the scene. Two men in suits are seen in a close-up, standing side by side, one looking down while the other looks forward, with occasional movement from people passing behind them. The background features urban architecture, inclu",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

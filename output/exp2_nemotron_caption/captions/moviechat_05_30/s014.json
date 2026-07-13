@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A bald, pale-skinned figure in a dark robe stands with his back to the camera, gazing at a swirling mass of fire or magical energy. The scene cuts to a young man with round glasses and a brown jacket looking downward with a concerned expression. He then turns and walks away through a crowd of people in dark clothing.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible audio is present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s014\", \"time_range\": [65.0, 70.0], \"visual\": \"A bald, pale-skinned figure in a dark robe stands with his back to the camera, gazing at a swirling mass of fire or magical energy. The scene cuts to a young man with round glasses and a brown jacket looking downward with a concerned expression. He then turns and walks away through a crowd of people in dark clothing.\", \"audio\": \"No audible audio is present.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

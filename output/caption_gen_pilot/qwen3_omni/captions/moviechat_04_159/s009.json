@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black suit with a mustache",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting at a table, smoking a cigarette, and looking down at the table"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit room with a table"
+    },
+    "objects": [
+      {
+        "object": "cigarette",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "being smoked by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "smoking",
+      "sitting",
+      "looking down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black suit with a mustache",
+      "facial_cues": [
+        "mustache",
+        "smoking"
+      ],
+      "body_cues": [
+        "sitting",
+        "leaning forward"
+      ],
+      "gaze": "down at the table"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a calm tone.",
+  "temporal_description": "The man continues to smoke and look down at the table throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black suit with a mustache\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting at a table, smoking a cigarette, and looking down at the table\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"darkly lit room with a table\"}, \"objects\": [{\"object\": \"cigarette\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"being smoked by the man\"}], \"interactions\": "
+}

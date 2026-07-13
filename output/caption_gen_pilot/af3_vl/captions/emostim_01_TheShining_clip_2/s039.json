@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a clear, uninterrupted voice with a neutral tone and moderate pace, with no noticeable background noise or emotional inflection.",
+  "temporal_description": "A person with dark hair, wearing a dark blue robe, is partially submerged in snow, with only their upper body and arms visible. They are positioned near a wooden structure, possibly a fence or gate, with snow piled around them. Their hands are clasped together in front of them, and they appear to be leaning forward slightly, with their head lowered. The scene is dimly lit, suggesting nighttime or low light conditions, and the snow appears undisturbed except for the area around the person’s hands.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair, wearing a dark blue robe, is partially submerged in snow, with only their upper body and arms visible. They are positioned near a wooden structure, possibly a fence or gate, with snow piled around them. Their hands are clasped together in front of them, and they appear to be leaning forward slightly, with their head lowered. The scene is dimly lit, suggesting nighttime or low light conditions, and the snow appears undisturbed except for the area around the person’s hands",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

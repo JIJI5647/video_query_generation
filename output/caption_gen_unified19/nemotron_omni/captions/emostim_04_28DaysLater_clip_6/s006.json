@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A figure in dark clothing and a hat stands near a rain‑spattered window with sheer curtains, looking outward. The figure then turns and walks toward a doorway in the dimly lit room. In the final moment, the figure's face is visible, showing blood and an open mouth as if shouting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio includes a sudden, loud shout.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"A figure in dark clothing and a hat stands near a rain‑spattered window with sheer curtains, looking outward. The figure then turns and walks toward a doorway in the dimly lit room. In the final moment, the figure's face is visible, showing blood and an open mouth as if shouting.\", \"audio\": \"The audio includes a sudden, loud shout.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a fearful tone, speaking at a moderate pace.",
+  "temporal_description": "A young person with light-colored hair peeks from behind a stone column in a dimly lit, ancient-looking structure with arched windows. They are partially obscured, holding a wand, and appear to be cautiously observing their surroundings. Later, three individuals in dark clothing are seen crouched or hiding behind pillars, with one gesturing urgently while the others remain still, suggesting they are in a tense or secretive situation. The environment is dark, dusty, and appears to be an abandoned or ruined building with stone walls and debris on the floor.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young person with light-colored hair peeks from behind a stone column in a dimly lit, ancient-looking structure with arched windows. They are partially obscured, holding a wand, and appear to be cautiously observing their surroundings. Later, three individuals in dark clothing are seen crouched or hiding behind pillars, with one gesturing urgently while the others remain still, suggesting they are in a tense or secretive situation. The environment is dark, dusty, and appears to be an abandoned",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

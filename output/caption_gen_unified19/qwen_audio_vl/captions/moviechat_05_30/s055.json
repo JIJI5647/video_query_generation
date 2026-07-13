@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_description": "A hand traces a detailed, handwritten map with names and symbols, illuminated by warm light. Two individuals stand in a dim, stone-walled corridor, jointly holding and examining the map, their gazes fixed downward on its contents. The person on the left holds the map open while the other leans in closely, both maintaining a focused posture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, sharp metallic click, likely the sound of a latch or switch being engaged, immediately followed by a low-frequency mechanical hum that persists throughout the recording. This hum, reminiscent of a large engine or industrial machinery, establishes a enclosed atmosphere. The setting is acoustically dry, with no reverberation, suggesting a small, hard-walled space such as a vehicle cabin or industrial compartment. A young adult female, speaking in a General American accent, delivers the line, “Just now,” in a breathless, urgent tone, her voice slightly muffled and distant, indicating she is not facing the microphone directly. Her speech is marked by a rapid, delivery, and the intensity is heightened by the persistent mechanical hum. Immediately after, a young adult male, also in a General American accent, responds with a calm, low-pitched, and slightly amused “Pretty?” His tone is measured and detached, contrasting sharply with the female’s urgency. The female continues, “He just finished,” her voice rising in pitch and volume, conveying heightened alarm and a sense of urgency. The mechanical hum remains constant, and the recording’s fidelity is moderate, with a faint electronic hiss and some digital clipping on louder syllables, especially",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A hand traces a detailed, handwritten map with names and symbols, illuminated by warm light. Two individuals stand in a dim, stone-walled corridor, jointly holding and examining the map, their gazes fixed downward on its contents. The person on the left holds the map open while the other leans in closely, both maintaining a focused posture.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

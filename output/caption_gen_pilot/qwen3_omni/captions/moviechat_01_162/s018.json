@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair and a mustache",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car, holding his head with his left hand, which is wrapped in a white bandage"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit, possibly at night or in a dark area"
+    },
+    "objects": [
+      {
+        "object": "car seat",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "being sat on by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man holds his head with his bandaged left hand",
+      "the man turns his head to the right"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair and a mustache",
+      "facial_cues": [
+        "sweating",
+        "closed eyes",
+        "furrowed brow"
+      ],
+      "body_cues": [
+        "holding his head with his bandaged left hand",
+        "turning his head to the right"
+      ],
+      "gaze": "looking down, then to the right"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a low, serious tone.",
+  "temporal_description": "The man holds his head, then slowly turns his head to the right while the audio continues.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s018\", \"time_range\": [85.0, 90.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with dark hair and a mustache\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting in a car, holding his head with his left hand, which is wrapped in a white bandage\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"dimly lit, possibly at night or in a dark area\"}, \"objects\": [{\"object\": \"car seat\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action"
+}

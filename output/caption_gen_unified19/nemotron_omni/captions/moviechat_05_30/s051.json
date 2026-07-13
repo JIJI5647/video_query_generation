@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_description": "A dimly lit stone corridor with vaulted arches shows a lone figure standing at the far end. Suddenly, a burst of debris and a cloud of dust erupts, causing the figure to tumble and disappear into the haze. The scene remains obscured by the lingering dust and yellowish glow.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is unclear, featuring a sudden loud impact followed by rustling dust.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s051\", \"time_range\": [250.0, 255.0], \"visual\": \"A dimly lit stone corridor with vaulted arches shows a lone figure standing at the far end. Suddenly, a burst of debris and a cloud of dust erupts, causing the figure to tumble and disappear into the haze. The scene remains obscured by the lingering dust and yellowish glow.\", \"audio\": \"Audio is unclear, featuring a sudden loud impact followed by rustling dust.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

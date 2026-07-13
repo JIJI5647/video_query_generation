@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a grey suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting in the back seat of a car, looking up and to the right with a smile on his face"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "sitting in the back seat of a car, looking forward"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "nighttime, with city lights visible through the windows"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man in the suit smiles and looks up",
+      "the man in the dark shirt sits still"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a grey suit",
+      "facial_cues": [
+        "smiling",
+        "eyes looking up and to the right"
+      ],
+      "body_cues": [
+        "sitting back in the seat"
+      ],
+      "gaze": "up and to the right"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful musical score plays in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s057\", \"time_range\": [280.0, 285.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a grey suit\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting in the back seat of a car, looking up and to the right with a smile on his face\"}, {\"person\": \"a man in a dark shirt\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"sitting in the back seat of a car, looking forward\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"nighttime, with "
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_description": "A person in a dark red shirt and blue jeans is seen from behind, holding a hammer and swinging it toward a door in a dimly lit bedroom. The person’s face is partially visible as they swing the hammer, with their gaze directed toward the door. The room contains a bed, a nightstand with a lamp, and a bookshelf, with warm lighting casting shadows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, continuous mechanical hum, reminiscent of a large industrial motor or HVAC system, establishing a sterile, institutional atmosphere. This hum is accompanied by a faint, high-frequency hiss, likely from the recording equipment, and subtle reverberation that suggests a large, hard-surfaced room such as a warehouse, garage, or institutional corridor. The environment is devoid of any human presence or activity, with no speech, footsteps, or incidental noises. Suddenly, a sharp, metallic impact erupts—a loud, high-pitched clang with a brief, ringing resonance, indicating a forceful collision between metal objects. The impact is so intense that it causes the recording device to clip, resulting in harsh distortion and a brief, crackling artifact. Immediately following this, a high-pitched, piercing scream from a young female voice is heard. The scream is raw, uncontrolled, and filled with terror, lasting about a second and a half before abruptly cutting off, suggesting the person is either incapacitated or silenced by the event. After the scream, the mechanical hum resumes prominence, now joined by a faint, rhythmic metallic clatter. This clatter, likely produced by a chain or cable being dragged or dropped, is irregular and decelerates, implying",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark red shirt and blue jeans is seen from behind, holding a hammer and swinging it toward a door in a dimly lit bedroom. The person’s face is partially visible as they swing the hammer, with their gaze directed toward the door. The room contains a bed, a nightstand with a lamp, and a bookshelf, with warm lighting casting shadows.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A person in a white shirt is seen from behind, adjusting a camera mounted on a wall. A second person, wearing a dark suit, is shown in close-up, holding a lit cigarette near their mouth. The scene includes multiple computer monitors displaying images, and a third person is partially visible in the background, seated at a desk.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a moderate pace, accompanied by a sigh at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a white shirt is seen from behind, adjusting a camera mounted on a wall. A second person, wearing a dark suit, is shown in close-up, holding a lit cigarette near their mouth. The scene includes multiple computer monitors displaying images, and a third person is partially visible in the background, seated at a desk.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

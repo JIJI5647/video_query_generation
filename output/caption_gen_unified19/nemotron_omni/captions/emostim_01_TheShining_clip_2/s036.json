@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_description": "In a tiled bathroom, a woman wearing a blue robe stands before a frosted window, reaching toward it. She turns her head toward the camera with a surprised expression, then leans forward against the glass. The view shifts to outside, where her hand emerges from deep snow and then collapses back into the white drifts.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s036\", \"time_range\": [175.0, 180.0], \"visual\": \"In a tiled bathroom, a woman wearing a blue robe stands before a frosted window, reaching toward it. She turns her head toward the camera with a surprised expression, then leans forward against the glass. The view shifts to outside, where her hand emerges from deep snow and then collapses back into the white drifts.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

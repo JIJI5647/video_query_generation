@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "The scene is a nighttime city street with illuminated buildings and moving vehicles, including red taxis, under streetlights. No people are clearly visible or identifiable in the frame. The camera pans across the urban environment, capturing the glow of lights and the flow of traffic.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, full-volume entrance of a large pipe organ, immediately presenting a powerful, sustained chord. The organ’s sound is rich and resonant, with a timbre that is both bright and warm, featuring a wide stereo image and a pronounced sense of space, as if performed in a vast cathedral or concert hall. The initial chord is harmonically complex, with a strong, low bass foundation and upper voices that shimmer and blend, creating a majestic and solemn atmosphere. The organist then transitions smoothly into a flowing, legato melody, played in the upper registers, which is both lyrical and expressive. The melody is supported by a steady, arpeggiated accompaniment in the lower registers, maintaining a sense of grandeur and continuity. Throughout this passage, the organ’s sound remains enveloping and immersive, with no other instruments, voices, or environmental noises present. The recording is of high fidelity, capturing the full frequency range and dynamic nuances, and is free from distortion, hiss, or any extraneous sounds. At the peak of the musical intensity, the organ sound is abruptly and completely cut off, with no natural decay or fade. This sudden silence is immediately followed by a loud, harsh, low-frequency electronic buzz, characterized",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene is a nighttime city street with illuminated buildings and moving vehicles, including red taxis, under streetlights. No people are clearly visible or identifiable in the frame. The camera pans across the urban environment, capturing the glow of lights and the flow of traffic.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

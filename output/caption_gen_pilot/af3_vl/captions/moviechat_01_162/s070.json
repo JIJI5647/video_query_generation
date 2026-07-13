@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a high-pitched, angry tone, with a noticeable pause between phrases.",
+  "temporal_description": "A man in a white shirt and tie stands in front of a monitor displaying a surveillance feed, gesturing with his hand while speaking. He is positioned in a room with glass walls and fluorescent lighting, with other individuals seated around a table in the background. The monitor shows a dimly lit corridor with a timestamp visible. Another man in a similar uniform sits nearby, looking toward the speaker, while others are seated at the table, some writing or looking at papers. The room appears to be a security or command center with multiple workstations and monitors.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands in front of a monitor displaying a surveillance feed, gesturing with his hand while speaking. He is positioned in a room with glass walls and fluorescent lighting, with other individuals seated around a table in the background. The monitor shows a dimly lit corridor with a timestamp visible. Another man in a similar uniform sits nearby, looking toward the speaker, while others are seated at the table, some writing or looking at papers. The room appears to be",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by background music.",
+  "temporal_description": "A man in a suit is riding a bicycle on a road, with a white Jeep driving alongside him. The Jeep has a driver visible inside, and the man on the bike is looking ahead while pedaling. The scene takes place on a sunny day with rolling hills and trees in the background. The man on the bike maintains a steady posture, gripping the handlebars as he rides.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit is riding a bicycle on a road, with a white Jeep driving alongside him. The Jeep has a driver visible inside, and the man on the bike is looking ahead while pedaling. The scene takes place on a sunny day with rolling hills and trees in the background. The man on the bike maintains a steady posture, gripping the handlebars as he rides.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

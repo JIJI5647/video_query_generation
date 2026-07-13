@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_description": "Two men are inside a car; one is leaning toward the other who is seated in the driver’s seat. The man leaning in is partially visible from the side, while the seated man faces forward with his head slightly turned. Both appear to be in close proximity, with the leaning man’s hand near the seated man’s shoulder or neck area.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a slow pace, accompanied by heavy breathing and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are inside a car; one is leaning toward the other who is seated in the driver’s seat. The man leaning in is partially visible from the side, while the seated man faces forward with his head slightly turned. Both appear to be in close proximity, with the leaning man’s hand near the seated man’s shoulder or neck area.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by background music and occasional non-speech sounds.",
+  "temporal_description": "A person wearing a dark jacket with visible buttons is shown from behind, standing in front of a metal security gate with wavy bars. Their hands are clasped together in front of them, with a ring visible on one finger. The scene shifts to a close-up of a hand gripping the metal bars, suggesting the person is holding on or leaning against them. The lighting is dim, casting shadows and giving the scene a somber, enclosed atmosphere. The person’s posture is still and stationary, indicating they are observing or waiting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a dark jacket with visible buttons is shown from behind, standing in front of a metal security gate with wavy bars. Their hands are clasped together in front of them, with a ring visible on one finger. The scene shifts to a close-up of a hand gripping the metal bars, suggesting the person is holding on or leaning against them. The lighting is dim, casting shadows and giving the scene a somber, enclosed atmosphere. The person’s posture is still and stationary, indicating they are",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

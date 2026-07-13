@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by the sound of footsteps and a door opening, suggesting someone is entering a room.",
+  "temporal_description": "A person wearing a dark hooded jacket and a beanie stands in a dimly lit room, partially illuminated by light coming through a window with raindrops on the glass. They are holding an object in their right hand and appear to be moving slightly, shifting their weight and turning their head. The room has a sink and mirror visible in the background, and the person’s face is mostly obscured by shadows and the hood. As the scene progresses, the lighting dims significantly, making the person’s features nearly indiscernible, and they seem to move closer to the camera before the frame becomes almost entirely dark.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a dark hooded jacket and a beanie stands in a dimly lit room, partially illuminated by light coming through a window with raindrops on the glass. They are holding an object in their right hand and appear to be moving slightly, shifting their weight and turning their head. The room has a sink and mirror visible in the background, and the person’s face is mostly obscured by shadows and the hood. As the scene progresses, the lighting dims significantly, making the person’s features",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

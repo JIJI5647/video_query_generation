@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by occasional background noise and a brief pause.",
+  "temporal_description": "A person wearing a dark jacket and black shirt is seen in a dimly lit, confined space with a metal-barred window in the background. Their hands are covered in white material, possibly paper or cloth, as they move them in a repetitive motion over a surface. The person’s head is slightly bowed, and their gaze is directed downward, occasionally shifting slightly. Their posture remains mostly static, with minimal movement aside from hand gestures and slight head tilts.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a dark jacket and black shirt is seen in a dimly lit, confined space with a metal-barred window in the background. Their hands are covered in white material, possibly paper or cloth, as they move them in a repetitive motion over a surface. The person’s head is slightly bowed, and their gaze is directed downward, occasionally shifting slightly. Their posture remains mostly static, with minimal movement aside from hand gestures and slight head tilts.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice shouting, indicating a sense of urgency or distress.",
+  "temporal_description": "A man in a suit and glasses is seated, holding a lit cigarette near his mouth, with smoke rising. Another man, partially visible, is seated across from him, holding a lit cigarette as well. The second man is shown in close-up, holding a cigarette near his ear, with his gaze directed toward the first man. The scene is dimly lit, with a focus on the two men and their cigarettes, and a hand is seen operating a flip phone, typing on its keypad before placing it down.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses is seated, holding a lit cigarette near his mouth, with smoke rising. Another man, partially visible, is seated across from him, holding a lit cigarette as well. The second man is shown in close-up, holding a cigarette near his ear, with his gaze directed toward the first man. The scene is dimly lit, with a focus on the two men and their cigarettes, and a hand is seen operating a flip phone, typing on its keypad before placing it down.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

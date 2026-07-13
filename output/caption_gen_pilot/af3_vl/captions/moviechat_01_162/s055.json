@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a neutral tone and moderate pace, accompanied by a choir singing in the background.",
+  "temporal_description": "A silhouette of a person is visible standing in profile, facing right, with their head slightly turned. The figure appears to be wearing a dark jacket and is positioned in front of a structure with pillars, against a backdrop of a cloudy sky with a faint light source near the horizon. The person remains still throughout the clip, with no discernible movement or gesture. The scene is static, with the person’s outline clearly defined against the dim, atmospheric background.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A silhouette of a person is visible standing in profile, facing right, with their head slightly turned. The figure appears to be wearing a dark jacket and is positioned in front of a structure with pillars, against a backdrop of a cloudy sky with a faint light source near the horizon. The person remains still throughout the clip, with no discernible movement or gesture. The scene is static, with the person’s outline clearly defined against the dim, atmospheric background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

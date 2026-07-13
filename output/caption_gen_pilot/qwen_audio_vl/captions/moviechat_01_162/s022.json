@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single male voice, speaking in Mandarin Chinese with a distinct Taiwanese accent, immediately establishing a conversational and informal tone. The speaker, likely in his late 20s to early 40s, narrates a personal anecdote: “里头, 他问我, 阿强啊, 你跟我多久了? 我哪记得呀.” (“Inside, he asked me, 'Ah Qiang, how long have you been with me?' I don't remember.”) His delivery is relaxed and natural, marked by a slight upward inflection on “Ah Qiang” and a casual, dismissive tone on “I don't remember.” The speech is clear and intelligible, with no background noise or music, and is recorded in a dry, acoustically neutral environment, suggesting a studio or treated room.\n\nAs the speaker finishes his sentence, a sudden, loud, low-frequency electronic buzz erupts, completely dominating the soundscape. This synthetic tone is harsh, abrasive, and unmistakably artificial, resembling a sawtooth or square wave with a fundamental frequency around 110 Hz (A2) and strong harmonics. The buzz is unwavering in pitch and volume, with no modulation or fade, and is so intense that it overwhelms the recording equipment, causing severe digital clipping and distortion. The effect is jarring and disruptive, abruptly ending the narrative and leaving the listener with a sense of unresolved tension.\n\nThroughout the clip, the audio quality is high for the speech portion, with no hiss, hum, or environmental interference, but the electronic buzz is heavily distorted due to overloading. The frequency range is broad, with the speech occupying the midrange and the buzz extending into the low and high frequencies. The spatial impression is close and intimate for the voice, while the buzz is presented as a direct, unmodulated signal. The narrative is delivered in a colloquial, informal style, and the abrupt transition to the electronic tone is clearly intentional, serving as a dramatic or comedic interruption.\n\nIn summary, the audio presents a brief, informal Mandarin anecdote delivered by a Taiwanese male, abruptly interrupted by a loud, synthetic electronic buzz. The clip is characterized by high speech clarity, a dry recording environment, and a jarring, intentionally disruptive sound effect, suggesting a purposeful editorial choice to create a comedic or dramatic impact. The absence of music, ambient noise, or other voices, along with the specific linguistic and cultural cues, point to a modern, digitally produced context, likely intended for entertainment or social media.",
+  "temporal_description": "Two men are seated inside a vehicle, with the man in the foreground facing right and the other slightly behind him. The man in the foreground has his hand wrapped in white bandages and is holding it near his mouth, while the other man is seen in profile, occasionally moving his hand to his face. The interior of the car is dimly lit, with faint greenish light visible through the windows, and both appear to be looking forward, possibly at something outside the vehicle. Their postures are relatively still, with minimal movement aside from slight head turns and hand gestures.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a vehicle, with the man in the foreground facing right and the other slightly behind him. The man in the foreground has his hand wrapped in white bandages and is holding it near his mouth, while the other man is seen in profile, occasionally moving his hand to his face. The interior of the car is dimly lit, with faint greenish light visible through the windows, and both appear to be looking forward, possibly at something outside the vehicle. Their postures are relativel",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

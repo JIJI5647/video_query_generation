@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by the sound of footsteps and a faint background hum.",
+  "temporal_description": "A person with short dark hair, wearing a white shirt and headphones, is seated at a desk facing multiple computer monitors, their right hand raised as if interacting with one of the screens. Another person, partially visible, enters the frame from the left side and stands beside the seated individual. The scene shifts to a close-up of a white security camera mounted on a dark wall, with a shadow cast across its surface. The final shot shows a man in a dark jacket holding a lit cigarette near his mouth, with smoke rising from it, his gaze directed slightly upward and to the side.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with short dark hair, wearing a white shirt and headphones, is seated at a desk facing multiple computer monitors, their right hand raised as if interacting with one of the screens. Another person, partially visible, enters the frame from the left side and stands beside the seated individual. The scene shifts to a close-up of a white security camera mounted on a dark wall, with a shadow cast across its surface. The final shot shows a man in a dark jacket holding a lit cigarette near his",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

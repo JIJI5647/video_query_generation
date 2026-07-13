@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A person with light-colored hair, partially visible from the side, raises their arm toward the ceiling in a dimly lit room with ornate furniture and checkered flooring. The scene is dark, illuminated by a small light source on the floor and a mirror reflecting part of the room. The person’s posture suggests upward movement, and their gaze is directed upward, following their raised arm.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and breathy gasp, followed by a brief silence.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with light-colored hair, partially visible from the side, raises their arm toward the ceiling in a dimly lit room with ornate furniture and checkered flooring. The scene is dark, illuminated by a small light source on the floor and a mirror reflecting part of the room. The person’s posture suggests upward movement, and their gaze is directed upward, following their raised arm.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

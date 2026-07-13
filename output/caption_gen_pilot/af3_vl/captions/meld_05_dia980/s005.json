@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a clear, neutral tone and moderate pace, delivering a straightforward message without any notable background noise or emotional inflection.",
+  "temporal_description": "Two men are standing in a kitchen, facing each other across a counter. The man on the left, wearing a gray shirt, is leaning slightly forward with his hands on the counter, occasionally gesturing with his right hand. The man on the right, wearing a black jacket over a white shirt, stands with his hands resting on the counter, leaning slightly forward and looking at the other man. Behind them, kitchen appliances, cabinets, and various items are visible, including a microwave, a stove, and a refrigerator with magnets and papers attached. A foosball table is partially visible in the foreground. The man on the left turns his head slightly to the side at one point, while the man on the right maintains steady eye contact.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are standing in a kitchen, facing each other across a counter. The man on the left, wearing a gray shirt, is leaning slightly forward with his hands on the counter, occasionally gesturing with his right hand. The man on the right, wearing a black jacket over a white shirt, stands with his hands resting on the counter, leaning slightly forward and looking at the other man. Behind them, kitchen appliances, cabinets, and various items are visible, including a microwave, a stove, and a refri",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

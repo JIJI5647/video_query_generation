@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "A black sports car with glowing red taillights is parked at night. A man with a mustache, wearing a dark shirt, is seen through a metal-barred window, looking directly at the camera with a serious expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud crash is heard, followed by upbeat, rhythmic music with a strong bassline.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s031\", \"time_range\": [150.0, 155.0], \"visual\": \"A black sports car with glowing red taillights is parked at night. A man with a mustache, wearing a dark shirt, is seen through a metal-barred window, looking directly at the camera with a serious expression.\", \"audio\": \"A loud crash is heard, followed by upbeat, rhythmic music with a strong bassline.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

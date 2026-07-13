@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A person with long dark hair, wearing a blue jacket, is seen from behind, holding a knife and attempting to manipulate a door handle while another person, wearing a red and green striped sweater, stands close by with their back to the camera. The scene shifts to a man in a red jacket wielding an axe, striking a door repeatedly with force in a hallway with blue walls and a staircase visible in the background. He is focused on the door, his body tensed with effort as he swings the axe, and his gaze is fixed on the door throughout the action.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a blue jacket, is seen from behind, holding a knife and attempting to manipulate a door handle while another person, wearing a red and green striped sweater, stands close by with their back to the camera. The scene shifts to a man in a red jacket wielding an axe, striking a door repeatedly with force in a hallway with blue walls and a staircase visible in the background. He is focused on the door, his body tensed with effort as he swings the axe, and his gaz",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

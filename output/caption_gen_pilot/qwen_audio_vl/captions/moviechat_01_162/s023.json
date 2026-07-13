@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a persistent, low-frequency mechanical hum, characteristic of a large engine or industrial machinery, accompanied by a faint high-frequency hiss. This ambient noise, along with a subtle reverberation, suggests the recording takes place in a spacious, hard-surfaced environment such as a workshop, garage, or industrial facility. The sound is captured with moderate fidelity, likely using a consumer-grade device, and is marked by a limited frequency range and a slightly muffled quality.\n\nA single male voice, speaking in standard Mandarin Chinese, enters the scene. His tone is calm, measured, and narrative, with a mid-to-low pitch and a slight nasal quality. He delivers the line: “然后他就说，阿强，你跟着我五年了。” (“Then he said, Aqiang, you’ve been with me for five years.”) The speech is clear and intelligible, with no signs of emotional distress or urgency. The speaker’s accent is standard, and his delivery is steady, indicating a composed and deliberate recounting of events. The mechanical hum continues unobtrusively in the background, never overpowering the voice.\n\nAs the speaker finishes his sentence, the ambient hum and his voice are abruptly cut off, replaced by a sharp, high-pitched electronic beep. This beep is synthetic, loud, and distinctly digital, with a pure, unmodulated tone that stands out against the previous soundscape. The beep is likely a system notification or a recording device alert, and its sudden onset and cessation suggest a deliberate, technical interruption rather than a natural event.\n\nThroughout the clip, there are no other voices, music, or environmental sounds. The setting remains static, with no movement or change in the background noise. The narrative is presented in a straightforward, factual manner, and the technical interruption at the end implies the recording was stopped or marked for review.\n\nIn summary, the audio captures a brief, focused moment in which a Mandarin-speaking man calmly recounts a significant personal or professional milestone—being with someone for five years—within an industrial or workshop environment. The mechanical ambiance and technical beep frame the narrative, highlighting the utilitarian and documentary nature of the recording, which is likely intended for personal, work-related, or archival purposes.",
+  "temporal_description": "Two individuals are seated inside a vehicle, with the person in the foreground holding a white object near their mouth. The person in the background is slightly out of focus, facing forward, and appears to be looking ahead. Both are seated in the front seats, with the foreground person’s hand gripping the object tightly. The interior of the car is dimly lit, and the background outside the window is dark with faint greenish hues, suggesting nighttime or low-light conditions.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two individuals are seated inside a vehicle, with the person in the foreground holding a white object near their mouth. The person in the background is slightly out of focus, facing forward, and appears to be looking ahead. Both are seated in the front seats, with the foreground person’s hand gripping the object tightly. The interior of the car is dimly lit, and the background outside the window is dark with faint greenish hues, suggesting nighttime or low-light conditions.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

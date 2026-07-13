@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "Two men stand facing each other across a kitchen counter, one in a gray shirt and the other in a black shirt, both gesturing with their hands while leaning slightly forward. The man in gray has his left hand raised mid-gesture, while the man in black holds a pen in his right hand and rests his left hand on the counter. Behind them, a microwave, stove, and various kitchen items are visible, with a clown figurine on top of the microwave and a window with blinds to the left.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a brief, low-frequency thump, likely from a microphone being handled or bumped, immediately followed by a sharp, high-pitched click—possibly a pen or object being set down. A male voice, speaking in a calm, measured, and slightly weary tone, says, “I’ll be in Cuba.” His delivery is clear and deliberate, with a General American accent, and the phrase is spoken in a manner that suggests it is a rehearsed or scripted line, possibly from a television or film scene. The room’s acoustics are dry and intimate, indicating a small, well-furnished indoor space. As the first speaker finishes, a second male voice, slightly higher in pitch and more urgent, interjects with, “Look, look, you’ve got to do this yourself, okay?” His tone is insistent and persuasive, with a rising inflection on “look” and a clipped, authoritative delivery. The phrase “do this yourself” is emphasized, and the word “okay” is delivered with a downward inflection, signaling a demand for compliance. The second speaker’s voice is also clear and close-mic’d, with no background noise or reverberation. Immediately after the second speaker finishes, a large audience erupts",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand facing each other across a kitchen counter, one in a gray shirt and the other in a black shirt, both gesturing with their hands while leaning slightly forward. The man in gray has his left hand raised mid-gesture, while the man in black holds a pen in his right hand and rests his left hand on the counter. Behind them, a microwave, stove, and various kitchen items are visible, with a clown figurine on top of the microwave and a window with blinds to the left.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace. There are no noticeable prosodic variations or non-speech sounds.",
+  "temporal_description": "A group of men in dark uniforms, some with visible ID badges, are descending a staircase in a dimly lit indoor setting. One man in a light-colored shirt walks ahead, his back to the camera, while others follow closely behind. The men maintain a steady, purposeful pace, with their gazes mostly forward or slightly downward. A few individuals stand on an upper level, observing the group as they pass. The staircase has metal railings and is surrounded by white walls, with overhead lighting casting shadows.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in dark uniforms, some with visible ID badges, are descending a staircase in a dimly lit indoor setting. One man in a light-colored shirt walks ahead, his back to the camera, while others follow closely behind. The men maintain a steady, purposeful pace, with their gazes mostly forward or slightly downward. A few individuals stand on an upper level, observing the group as they pass. The staircase has metal railings and is surrounded by white walls, with overhead lighting casting s",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

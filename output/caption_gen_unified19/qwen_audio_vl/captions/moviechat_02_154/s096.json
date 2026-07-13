@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s096",
+  "time_range": [
+    475.0,
+    480.0
+  ],
+  "visual_description": "A man in a dark jacket stands near a car outside at night, holding an object to his mouth. Inside a warmly lit doorway, a woman in a patterned dress and a man in a floral shirt are embracing and smiling. The woman’s gaze is downcast, while the man’s face is partially obscured as he leans into her.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a solo diatonic button accordion performing the iconic opening phrase of \"La Cucaracha,\" a well-known Spanish folk song. The melody is played in a bright, major key, with a clear, slightly nasal timbre and a steady, moderate tempo. The performance is marked by a simple, repetitive structure: the first note is held, followed by a descending run, a brief pause, and then a return to the initial note, all rendered with a mechanical, staccato rhythm. The sound is dry and close-miked, with no ambient noise, reverb, or background sounds, and the recording is monophonic, centered in the stereo field. The audio quality is low-fidelity, with a persistent high-frequency hiss and a faint low-frequency hum, likely from analog tape or a low-quality microphone. The accordion’s sound is slightly muffled, lacking high-end clarity, and the dynamic range is compressed, resulting in a flat, consistent volume. The performance is technically competent but lacks expressive nuance, suggesting a casual or amateur setting. At the conclusion of the accordion phrase, the music is abruptly cut off mid-note, with no fade or natural decay. Instantly, a loud, synthetic electronic buzzer replaces the music",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark jacket stands near a car outside at night, holding an object to his mouth. Inside a warmly lit doorway, a woman in a patterned dress and a man in a floral shirt are embracing and smiling. The woman’s gaze is downcast, while the man’s face is partially obscured as he leans into her.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

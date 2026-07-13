@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_description": "A woman with long dark hair, wearing a blue robe, stands behind a partially opened white door, holding a large kitchen knife in her right hand and covering her face with her left hand, appearing distressed. She looks through a jagged opening in the door, her mouth open as if shouting or crying. The scene is a dimly lit interior with white tiled walls, and the door frame is broken, revealing a glimpse of a room beyond.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A high-pitched, strained vocalization is audible, suggesting shouting or crying, and a faint male voice can be heard in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s053\", \"time_range\": [260.0, 265.0], \"visual\": \"A woman with long dark hair, wearing a blue robe, stands behind a partially opened white door, holding a large kitchen knife in her right hand and covering her face with her left hand, appearing distressed. She looks through a jagged opening in the door, her mouth open as if shouting or crying. The scene is a dimly lit interior with white tiled walls, and the door frame is broken, revealing a glimpse of a room beyond.\", \"audio\": \"A "
+}

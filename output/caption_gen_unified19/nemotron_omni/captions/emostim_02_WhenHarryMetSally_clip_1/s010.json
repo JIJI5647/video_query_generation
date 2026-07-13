@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "In a bustling cafeteria, a blonde woman in a black sweater and white collared shirt sits across from a man in a plaid sweater. She gestures with her right hand while speaking, and he listens before taking a bite of a sandwich and gesturing with his left hand.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures a conversational exchange, with the woman speaking and the man responding while eating.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual\": \"In a bustling cafeteria, a blonde woman in a black sweater and white collared shirt sits across from a man in a plaid sweater. She gestures with her right hand while speaking, and he listens before taking a bite of a sandwich and gesturing with his left hand.\", \"audio\": \"The audio captures a conversational exchange, with the woman speaking and the man responding while eating.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

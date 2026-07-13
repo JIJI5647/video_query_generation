@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing with a medium pitch and a moderate tempo, accompanied by the sound of a car engine revving and accelerating.",
+  "temporal_description": "A man dressed in a suit is riding a bicycle while holding onto the side of a moving vehicle. He is positioned in front of the vehicle, with his body leaning forward and his gaze directed ahead. The vehicle appears to be moving along a rural road, with fields and power lines visible in the background. The man’s posture suggests he is maintaining balance while riding the bicycle, and his hands are gripping the handlebars and the side of the vehicle.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man dressed in a suit is riding a bicycle while holding onto the side of a moving vehicle. He is positioned in front of the vehicle, with his body leaning forward and his gaze directed ahead. The vehicle appears to be moving along a rural road, with fields and power lines visible in the background. The man’s posture suggests he is maintaining balance while riding the bicycle, and his hands are gripping the handlebars and the side of the vehicle.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

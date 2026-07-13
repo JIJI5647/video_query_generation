@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_description": "The scene is dimly lit, showing a narrow passage flanked by a large twisted tree trunk and cluttered structures. A figure wearing a light-colored shirt walks away from the camera toward the illuminated area ahead. The surroundings appear to be an outdoor or semi-outdoor space with scattered objects.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet, with only faint ambient noise audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s066\", \"time_range\": [325.0, 330.0], \"visual\": \"The scene is dimly lit, showing a narrow passage flanked by a large twisted tree trunk and cluttered structures. A figure wearing a light-colored shirt walks away from the camera toward the illuminated area ahead. The surroundings appear to be an outdoor or semi-outdoor space with scattered objects.\", \"audio\": \"The audio is quiet, with only faint ambient noise audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

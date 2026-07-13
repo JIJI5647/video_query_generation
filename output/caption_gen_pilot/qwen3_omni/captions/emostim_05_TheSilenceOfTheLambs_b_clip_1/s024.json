@@ -1,0 +1,78 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with brown hair and blue eyes",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up and to the side with a concerned expression"
+      },
+      {
+        "person": "a man with glasses and a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up and to the side with a concerned expression"
+      },
+      {
+        "person": "a man with glasses and a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up and to the side with a concerned expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a green wall and a window in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the woman looks up and to the side",
+      "the man in the white shirt looks up and to the side",
+      "the man in the dark suit looks up and to the side"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with brown hair and blue eyes",
+      "facial_cues": [
+        "wide eyes",
+        "slightly parted lips"
+      ],
+      "body_cues": [],
+      "gaze": "up and to the side"
+    },
+    {
+      "person": "a man with glasses and a white shirt",
+      "facial_cues": [
+        "wide eyes",
+        "slightly furrowed brow"
+      ],
+      "body_cues": [],
+      "gaze": "up and to the side"
+    },
+    {
+      "person": "a man with glasses and a dark suit",
+      "facial_cues": [
+        "wide eyes",
+        "slightly furrowed brow"
+      ],
+      "body_cues": [],
+      "gaze": "up and to the side"
+    }
+  ],
+  "audio_description": "a woman speaks, followed by a man speaking",
+  "temporal_description": "the woman speaks first, then the man speaks",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s024\", \"time_range\": [115.0, 120.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with brown hair and blue eyes\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking up and to the side with a concerned expression\"}, {\"person\": \"a man with glasses and a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking up and to the side with a concerned expression\"}, {\"person\": \"a man with glasses and a dark suit\", \"visib"
+}

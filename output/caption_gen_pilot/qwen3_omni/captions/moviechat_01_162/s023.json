@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in the foreground",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a white object to his mouth, looking forward with a distressed expression"
+      },
+      {
+        "person": "a man in the background",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting in a car, looking forward"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dark, nighttime setting with green foliage visible outside the window"
+    },
+    "objects": [
+      {
+        "object": "a white object",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held to the man's mouth"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the foreground holds a white object to his mouth."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in the foreground",
+      "facial_cues": [
+        "tears in his eyes",
+        "sweat on his face"
+      ],
+      "body_cues": [
+        "holding a white object to his mouth"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a serious tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s023\", \"time_range\": [110.0, 115.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in the foreground\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a white object to his mouth, looking forward with a distressed expression\"}, {\"person\": \"a man in the background\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"sitting in a car, looking forward\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"dark, nighttime setting"
+}

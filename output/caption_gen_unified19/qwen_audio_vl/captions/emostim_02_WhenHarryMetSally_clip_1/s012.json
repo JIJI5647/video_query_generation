@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A woman with shoulder-length blonde hair, wearing a dark cardigan over a white collared shirt, is seated and appears to be handling or folding a small object in her hands. Across from her, a man with dark, curly hair, wearing a plaid shirt, is seated and facing her, his hands also engaged with a small object. The setting is a crowded indoor space with other people seated in the background, suggesting a public or communal environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-frequency rustling sound, likely from a plastic bag or paper being handled, immediately followed by a soft thud as an object is placed on a hard surface. These sounds are captured with close-mic clarity, indicating the microphone is positioned near the action. A faint, steady electronic hiss is present throughout, characteristic of a consumer-grade recording device, and the environment is acoustically dry, suggesting a small, furnished room with minimal reverberation. A female voice, speaking in a General American accent, enters with a calm, matter-of-fact tone: “Right. That’s right.” Her speech is clear and unhurried, with a slight downward inflection on “right,” indicating acknowledgment or agreement. The rustling continues softly in the background, reinforcing the sense of ongoing physical activity. She then shifts to a more self-deprecating and slightly exasperated tone, saying, “I forgot.” Her delivery is marked by a subtle sigh and a brief pause, conveying mild embarrassment or self-reproach. The rustling persists, and the room remains quiet aside from the persistent hiss. The speaker’s tone becomes more pointed and sarcastic as she delivers, “You’re a man.” This line is spoken",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length blonde hair, wearing a dark cardigan over a white collared shirt, is seated and appears to be handling or folding a small object in her hands. Across from her, a man with dark, curly hair, wearing a plaid shirt, is seated and facing her, his hands also engaged with a small object. The setting is a crowded indoor space with other people seated in the background, suggesting a public or communal environment.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

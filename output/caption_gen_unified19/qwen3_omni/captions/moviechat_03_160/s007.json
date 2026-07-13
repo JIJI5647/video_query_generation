@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man with short, graying hair, wearing a light-colored suit jacket, sits in a dimly lit room. He brings a black telephone receiver to his ear and speaks into it, his expression serious and focused.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low, sustained musical note plays in the background, creating a tense and suspenseful atmosphere.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"A man with short, graying hair, wearing a light-colored suit jacket, sits in a dimly lit room. He brings a black telephone receiver to his ear and speaks into it, his expression serious and focused.\", \"audio\": \"A low, sustained musical note plays in the background, creating a tense and suspenseful atmosphere.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

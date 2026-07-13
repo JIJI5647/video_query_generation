@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "Two men are seated inside a moving vehicle, with the front passenger visible in profile and the driver partially obscured. The passenger is looking forward with his mouth slightly open, while the driver’s hand is on the steering wheel. The scene is dimly lit with natural light filtering through the windows, and both appear focused on the road ahead.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip is a 5-second, low-fidelity recording featuring a single male speaker delivering a short, emotionally charged statement in Mandarin Chinese. The speaker’s voice is deep, slightly raspy, and marked by a sense of urgency and agitation. He speaks in a rapid, clipped manner, with a tone that, as if recounting a traumatic or violent event. The content of the speech is: “把他抓了上去。他们把他抓了上去，足足打了十分钟。” (“They took him up. They took him up, and beat him for a full ten minutes.”) The repetition and emphasis on the duration of the beating highlight the speaker’s involvement and the severity of the incident. The recording is marred by significant audio artifacts: a persistent, low-frequency hum (likely from a vehicle engine or nearby machinery), a high-frequency hiss, and pronounced clipping/distortion on the loudest syllables, all of which point to a low-quality recording device, possibly a mobile phone or handheld recorder. The acoustic environment is reverberant, suggesting a large, hard-surfaced indoor space such as a garage, warehouse, or industrial hall. There are no other voices, background conversations, or environmental sounds, indicating the speaker is",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a moving vehicle, with the front passenger visible in profile and the driver partially obscured. The passenger is looking forward with his mouth slightly open, while the driver’s hand is on the steering wheel. The scene is dimly lit with natural light filtering through the windows, and both appear focused on the road ahead.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

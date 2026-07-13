@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s069",
+  "time_range": [
+    340.0,
+    345.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a sad tone, speaking at a moderate pace.",
+  "temporal_description": "A small child is seen walking slowly across a dimly lit, cluttered room filled with various objects, including furniture, metal items, and a large statue. The child moves cautiously, occasionally stopping and looking around, while the camera remains stationary, capturing the scene from a high vantage point. The room appears to be a storage or workshop area, with items scattered across the floor and shelves. The child’s posture is upright, and they seem to be exploring the space with curiosity.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A small child is seen walking slowly across a dimly lit, cluttered room filled with various objects, including furniture, metal items, and a large statue. The child moves cautiously, occasionally stopping and looking around, while the camera remains stationary, capturing the scene from a high vantage point. The room appears to be a storage or workshop area, with items scattered across the floor and shelves. The child’s posture is upright, and they seem to be exploring the space with curiosity.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

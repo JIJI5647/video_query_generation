@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A bald, pale‑skinned man in a dark robe stands with his back to the camera, looking down at a fiery scene while holding a wand. The view shifts to a close‑up of his profile, revealing a sharp nose and a serious expression. The scene ends with a figure in a red cloak seen from behind, raising a wand that emits a bright beam of light.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual\": \"A bald, pale‑skinned man in a dark robe stands with his back to the camera, looking down at a fiery scene while holding a wand. The view shifts to a close‑up of his profile, revealing a sharp nose and a serious expression. The scene ends with a figure in a red cloak seen from behind, raising a wand that emits a bright beam of light.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

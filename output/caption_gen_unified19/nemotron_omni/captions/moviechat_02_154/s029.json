@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_description": "In a dimly lit room with large blinds, three men sit around a dark table. The man in a white shirt and tie faces a man in a blue denim shirt who looks down at papers, while a third man with his back to the camera watches them. A laptop and scattered documents lie on the table, and the lighting highlights the central figures.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible sound is present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s029\", \"time_range\": [140.0, 145.0], \"visual\": \"In a dimly lit room with large blinds, three men sit around a dark table. The man in a white shirt and tie faces a man in a blue denim shirt who looks down at papers, while a third man with his back to the camera watches them. A laptop and scattered documents lie on the table, and the lighting highlights the central figures.\", \"audio\": \"No audible sound is present.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

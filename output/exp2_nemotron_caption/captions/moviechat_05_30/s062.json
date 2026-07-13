@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_description": "Three silhouetted figures walk away through a towering gothic archway amid rubble. The scene cuts to a close-up of a young man with round glasses looking forward. The view shifts to a dimly lit library filled with towering shelves and then to a dark corridor where a lone figure walks toward a distant light.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s062\", \"time_range\": [305.0, 310.0], \"visual\": \"Three silhouetted figures walk away through a towering gothic archway amid rubble. The scene cuts to a close-up of a young man with round glasses looking forward. The view shifts to a dimly lit library filled with towering shelves and then to a dark corridor where a lone figure walks toward a distant light.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

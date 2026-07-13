@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_description": "A person with short dark hair is seen in motion, partially obscured by foreground elements, looking toward the camera. Another person with light-colored hair peeks from behind a stone column, their face partially illuminated, gazing outward. The scene is set in a dim, ruined interior with Gothic architectural elements and scattered debris.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful metallic impact, characterized by a deep, resonant thud and a sharp, high-frequency scrape. This sound is immediately followed by a brief, high-pitched metallic squeal, reminiscent of a heavy metal object being dragged or shifted across a hard surface. The impact is so intense that it causes the recording to clip, resulting in a harsh, distorted quality. The environment is acoustically reflective, with the sound reverberating off hard surfaces, suggesting a large, enclosed space such as a warehouse, industrial hall, or concrete tunnel. After the initial impact, a low-frequency rumble emerges, layered with a continuous, high-pitched metallic screech. The screech fluctuates in pitch and intensity, evoking the sensation of a massive metal object—such as a train car, industrial door, or heavy machinery—being dragged or forced across a rough, metallic surface. The rumble and screech are accompanied by a subtle, persistent background hiss, likely from the recording equipment, and the reverberation continues to reinforce the impression of a vast, empty, and industrial setting. As the dragging sound persists, a new element is introduced: a deep, resonant, and sustained low-frequency tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with short dark hair is seen in motion, partially obscured by foreground elements, looking toward the camera. Another person with light-colored hair peeks from behind a stone column, their face partially illuminated, gazing outward. The scene is set in a dim, ruined interior with Gothic architectural elements and scattered debris.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

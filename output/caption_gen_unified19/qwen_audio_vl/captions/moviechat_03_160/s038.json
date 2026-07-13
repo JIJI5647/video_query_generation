@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_description": "A man in a dark jacket stands beside a car at night, illuminated by streetlights, while another person is partially visible in the background. The man looks toward the side with a neutral expression, his gaze directed away from the camera. The scene is dimly lit, with trees and foliage visible behind him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, immediately followed by a resonant thud, indicating the forceful closure of a heavy, metal-framed door. This sound is accompanied by a brief, high-frequency squeak, likely from a hinge or latch, and is captured with close-mic clarity, suggesting the microphone is positioned near the door. The environment is acoustically dry, with no reverberation or echo, implying a small, enclosed space such as a vehicle or a compact room. Following the door closure, a low-frequency rumble emerges, characteristic of a large diesel engine starting and idling. The engine’s sound is deep and steady, with a subtle, rhythmic chug, and is accompanied by a faint, high-pitched whine, likely from a turbocharger or auxiliary system. The engine’s volume and pitch remain constant, indicating the vehicle is stationary and not accelerating. The recording’s fidelity is moderate, with a persistent background hiss and a limited frequency range, suggesting the use of a consumer-grade device. As the engine idles, a distinct, high-pitched electronic beep is heard, repeating at regular intervals. This beep is sharp, synthetic, and consistent with a vehicle’s turn signal indicator or a warning chime",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark jacket stands beside a car at night, illuminated by streetlights, while another person is partially visible in the background. The man looks toward the side with a neutral expression, his gaze directed away from the camera. The scene is dimly lit, with trees and foliage visible behind him.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

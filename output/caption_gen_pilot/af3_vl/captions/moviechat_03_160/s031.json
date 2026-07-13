@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or non-speech sounds.",
+  "temporal_description": "A man with short dark hair and a black shirt is seen behind a metal-barred window, his face partially obscured by the bars. He is looking forward with a neutral expression, his gaze steady and focused. The scene is dimly lit, with a greenish hue, and the background is out of focus, suggesting an indoor setting. The man remains still throughout, with no noticeable movement or gesture.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair and a black shirt is seen behind a metal-barred window, his face partially obscured by the bars. He is looking forward with a neutral expression, his gaze steady and focused. The scene is dimly lit, with a greenish hue, and the background is out of focus, suggesting an indoor setting. The man remains still throughout, with no noticeable movement or gesture.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

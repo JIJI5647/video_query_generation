@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_description": "A man in a red robe swings an axe at a door, then runs down a hallway. A woman in a blue robe holds a child in a bedroom, looking back at the door with a worried expression. The man in the red robe is seen again, running down the hallway.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud crash is heard, followed by a man shouting and a woman screaming.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s018\", \"time_range\": [85.0, 90.0], \"visual\": \"A man in a red robe swings an axe at a door, then runs down a hallway. A woman in a blue robe holds a child in a bedroom, looking back at the door with a worried expression. The man in the red robe is seen again, running down the hallway.\", \"audio\": \"A loud crash is heard, followed by a man shouting and a woman screaming.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

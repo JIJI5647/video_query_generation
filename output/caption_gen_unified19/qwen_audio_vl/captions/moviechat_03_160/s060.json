@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_description": "A man wearing a white cap and dark shirt is seen in a dimly lit, bustling urban setting, holding a small bottle and looking down at it. Another man in a light-colored shirt and glasses is standing at a brightly lit convenience store shelf, reaching for an item. The scene is filled with glowing neon signs and digital displays, with blurred background figures moving through the crowded street.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched metallic chime, reminiscent of a small bell or chime bar, which rings out with a bright, crystalline timbre and a rapid, descending glissando. This chime is immediately followed by a soft, low-frequency thud, suggesting the gentle placement of a small object onto a hard surface. The environment is acoustically dry, with no ambient noise or reverberation, indicating a controlled, close-mic’d studio setting. A second, more complex chime sequence follows, featuring a rapid cascade of metallic notes that descend in pitch, each with a clear, bell-like resonance and a short decay. This sequence is accompanied by a faint, high-frequency rustling sound, likely from fabric or paper, and a subtle, low-frequency thump, possibly from a hand or object making contact with a surface. The overall sonic texture remains clean and precise, with no extraneous background noise. The third chime sequence is the most elaborate, presenting a rapid, ascending arpeggio of metallic notes that create a shimmering, crystalline effect. This is followed by a brief, high-pitched metallic scrape, as if a small object is being dragged across a hard surface. The sequence concludes with a final",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man wearing a white cap and dark shirt is seen in a dimly lit, bustling urban setting, holding a small bottle and looking down at it. Another man in a light-colored shirt and glasses is standing at a brightly lit convenience store shelf, reaching for an item. The scene is filled with glowing neon signs and digital displays, with blurred background figures moving through the crowded street.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_description": "A man with short dark hair in a light button‑up shirt over a white undershirt stands indoors, looking downward with a serious expression. The background is blurred, showing a window and some furniture in dim lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The ambient indoor environment is quiet with only a faint hum audible. No distinct speech or sound events are clearly heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s046\", \"time_range\": [225.0, 230.0], \"visual\": \"A man with short dark hair in a light button‑up shirt over a white undershirt stands indoors, looking downward with a serious expression. The background is blurred, showing a window and some furniture in dim lighting.\", \"audio\": \"The ambient indoor environment is quiet with only a faint hum audible. No distinct speech or sound events are clearly heard.\", \"confidence\": \"high\", \"evidence_strength\": \"ambiguous\"}"
+}

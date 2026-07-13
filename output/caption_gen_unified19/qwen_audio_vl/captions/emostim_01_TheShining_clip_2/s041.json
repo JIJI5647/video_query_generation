@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "A solitary figure stands at the base of a snow-covered slope in front of a large, dimly lit building complex under a bright moon. The person remains stationary, appearing small against the vast, snowy landscape. The scene is enveloped in mist, with scattered lights illuminating portions of the building and snow drifts.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, breathy gasp from a young female voice, immediately followed by a sharp, involuntary intake of breath. This is accompanied by a low-frequency, mechanical rumble and a faint, high-pitched whine, both indicative of a large, moving vehicle—likely a train or subway car—traveling at speed. The reverberant acoustics and persistent hiss suggest the recording was made in a hard-surfaced, enclosed space, such as a tunnel or underground station, with the microphone positioned close to the speaker. As the mechanical sounds continue, the young woman emits a strained, high-pitched cry of \"Mama!\"—the word is delivered with urgency and panic, its pitch rising and falling in a manner typical of a child or adolescent. The intensity is heightened by the reverberation and the mechanical backdrop, which further amplify the sense of. The cry is abruptly cut off, leaving only the ongoing rumble and whine. A brief, sharp inhalation follows, signaling the speaker’s attempt to regain composure or prepare for another vocalization. The mechanical sounds remain unchanged, maintaining the atmosphere of tension and urgency. The young woman then lets out a second, even more desperate",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A solitary figure stands at the base of a snow-covered slope in front of a large, dimly lit building complex under a bright moon. The person remains stationary, appearing small against the vast, snowy landscape. The scene is enveloped in mist, with scattered lights illuminating portions of the building and snow drifts.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

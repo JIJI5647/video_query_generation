@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_description": "In a dimly lit room with a pool table, a woman in a patterned dress stands beside a man lying face-down on the table, while another person in a suit is partially visible in the foreground. Outside at night, a man in a suit stands near a vehicle, holding a phone, while another person bends over nearby in the dark. The scene shifts between an indoor setting with artificial lighting and an outdoor nighttime environment with minimal illumination.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable sigh at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit room with a pool table, a woman in a patterned dress stands beside a man lying face-down on the table, while another person in a suit is partially visible in the foreground. Outside at night, a man in a suit stands near a vehicle, holding a phone, while another person bends over nearby in the dark. The scene shifts between an indoor setting with artificial lighting and an outdoor nighttime environment with minimal illumination.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

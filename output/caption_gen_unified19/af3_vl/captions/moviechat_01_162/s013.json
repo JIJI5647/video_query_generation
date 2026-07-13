@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "Several individuals in business attire are visible in an office-like setting, with some standing near a railing and others moving through the space. One man in a dark shirt stands with his hand near his mouth, while another in a light shirt stands facing forward; their postures suggest attentiveness or waiting. The scene is dimly lit with overhead lights, and people are partially obscured by foreground figures or positioned in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Several individuals in business attire are visible in an office-like setting, with some standing near a railing and others moving through the space. One man in a dark shirt stands with his hand near his mouth, while another in a light shirt stands facing forward; their postures suggest attentiveness or waiting. The scene is dimly lit with overhead lights, and people are partially obscured by foreground figures or positioned in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

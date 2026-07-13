@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A young boy with light brown hair, wearing a striped sweater, stands in a dimly lit room holding a large knife in his right hand and a small object in his left. He is positioned near a wooden desk cluttered with various items, including a vase with red flowers, and a vintage television set is visible to his left. The room has warm lighting from two table lamps, and the background includes patterned curtains, framed pictures on the wall, and a bookshelf. The boy slowly turns his head slightly to the left, maintaining a steady posture while holding the knife upright.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency electronic hum, likely originating from a recording device or nearby equipment, establishing a quiet, controlled indoor setting. Immediately, a young child’s voice, characterized by a high pitch and soft, breathy timbre, enters with the phrase “Redrum.” The pronunciation is slow, deliberate, and slightly slurred, with the “r” sounds pronounced and the “m” trailing off, suggesting the child is either very young or fatigued. The word is delivered in a flat, monotonous tone, lacking inflection, and is accompanied by a subtle, high-frequency hiss, indicating a low-fidelity recording environment. The child repeats “Redrum” with the same measured pace and tone, maintaining the same breathy quality and lack of expression. Throughout, the background hum and hiss remain constant, and the acoustic environment is dry, with no reverberation or echo, implying a small, well-furnished room. The child’s voice is close to the microphone, and the recording is monophonic, with no spatial movement or stereo effects. The clip ends abruptly, with the final syllable of “Redrum” cut off mid-sound, suggesting an intentional or technical termination of the recording.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light brown hair, wearing a striped sweater, stands in a dimly lit room holding a large knife in his right hand and a small object in his left. He is positioned near a wooden desk cluttered with various items, including a vase with red flowers, and a vintage television set is visible to his left. The room has warm lighting from two table lamps, and the background includes patterned curtains, framed pictures on the wall, and a bookshelf. The boy slowly turns his head slightly to ",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

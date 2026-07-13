@@ -1,0 +1,48 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "bending forward and looking at the camera"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "a road with a vineyard in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "a man in a brown suit bends forward and looks at the camera"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown suit",
+      "facial_cues": [
+        "smiling",
+        "squinting"
+      ],
+      "body_cues": [
+        "bending forward"
+      ],
+      "gaze": "at the camera"
+    }
+  ],
+  "audio_description": "a rock song with a male vocalist is playing",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a brown suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"bending forward and looking at the camera\"}], \"scene\": {\"location\": \"outdoors\", \"setting\": \"a road with a vineyard in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"a man in a brown suit bends forward and looks at the camera\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \""
+}

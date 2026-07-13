@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A man in a dark suit stands with his back to the camera, his head slightly turned, as he looks toward a parked car. In the background, three other figures stand near a vehicle, partially obscured by darkness and streetlights. The scene is a nighttime urban street with wet pavement reflecting lights, and a car with headlights on approaches from the left.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and urgent voice, speaking rapidly.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit stands with his back to the camera, his head slightly turned, as he looks toward a parked car. In the background, three other figures stand near a vehicle, partially obscured by darkness and streetlights. The scene is a nighttime urban street with wet pavement reflecting lights, and a car with headlights on approaches from the left.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

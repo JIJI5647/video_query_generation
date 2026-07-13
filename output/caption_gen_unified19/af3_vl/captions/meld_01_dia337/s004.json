@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a blue plaid shirt stands facing another man in a pink plaid shirt, who is gesturing with his hands while speaking. The man in blue holds a small object in his hand and looks down at it briefly before turning his gaze back to the other man. They are positioned indoors near a wooden door with a number plaque and framed artwork on the wall behind them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, sounding and confused as he repeatedly asks 'What is this?'",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a blue plaid shirt stands facing another man in a pink plaid shirt, who is gesturing with his hands while speaking. The man in blue holds a small object in his hand and looks down at it briefly before turning his gaze back to the other man. They are positioned indoors near a wooden door with a number plaque and framed artwork on the wall behind them.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

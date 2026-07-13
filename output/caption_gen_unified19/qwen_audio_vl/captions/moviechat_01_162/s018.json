@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_description": "A man with dark hair and a mustache sits in a car, his right hand raised to his forehead, partially obscuring his face; his left arm is not visible. He looks forward with a neutral expression, his gaze steady and his posture upright but slightly tense. The car interior is dimly lit, with blurred greenery visible through the windows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a single male voice, speaking in Mandarin Chinese with a clear, standard accent. The speaker’s tone is low, slow, and marked by a sense of resignation and weariness, as if he is recounting a familiar, perhaps frustrating, experience. He says, “我真是怕。你知道我一向来真格的，溜在最后的嘛。” (“I’m really scared. You know I always get serious, and I’m always the last to slip away, right?”) His delivery is measured and deliberate, with a slight upward inflection at the end, suggesting he is seeking agreement or understanding from an unseen listener. Throughout the speech, a persistent, low-frequency mechanical rumble forms the background, evoking the sound of a large engine or heavy machinery in operation. This rumble is accompanied by a faint, high-frequency hiss, likely from the recording equipment or the environment. The overall sound quality is moderate: the voice is clear and intelligible, but the background noise and hiss are noticeable, and the frequency range is somewhat limited, with a lack of deep bass and crisp treble. The recording is in mono, with no spatial separation between the voice and the background sounds. At the conclusion of the speech, the voice",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark hair and a mustache sits in a car, his right hand raised to his forehead, partially obscuring his face; his left arm is not visible. He looks forward with a neutral expression, his gaze steady and his posture upright but slightly tense. The car interior is dimly lit, with blurred greenery visible through the windows.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    12.76
+  ],
+  "visual_description": "A woman with long dark hair, wearing a dark green shirt, stands in a dimly lit hallway with brick walls and a red light visible in the background. She raises a handgun with both hands, pointing it forward with a focused expression. Her posture is tense as she aims the weapon directly ahead.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible sound is present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s003\", \"time_range\": [10.0, 12.76], \"visual\": \"A woman with long dark hair, wearing a dark green shirt, stands in a dimly lit hallway with brick walls and a red light visible in the background. She raises a handgun with both hands, pointing it forward with a focused expression. Her posture is tense as she aims the weapon directly ahead.\", \"audio\": \"No audible sound is present.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

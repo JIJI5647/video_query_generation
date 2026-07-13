@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a neutral tone, speaking at a moderate pace. There are no significant non-speech sounds present.",
+  "temporal_description": "A hand holds a plastic-wrapped ID badge with a photo and text, showing a person’s name and title. The scene shifts to a man in a light blue shirt and tie, seated indoors, looking down at the badge in his hand. He slowly turns his head to the side, maintaining focus on the object, while the background features horizontal blinds.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A hand holds a plastic-wrapped ID badge with a photo and text, showing a person’s name and title. The scene shifts to a man in a light blue shirt and tie, seated indoors, looking down at the badge in his hand. He slowly turns his head to the side, maintaining focus on the object, while the background features horizontal blinds.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and brown shorts",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "lying face down on a pool table with arms outstretched"
+      },
+      {
+        "person": "a woman in a floral dress",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing next to the man, leaning over him"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit pool hall with a blue pool table, brown padded walls, and a tufted leather chair in the foreground"
+    },
+    "objects": [
+      {
+        "object": "pool table",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "stationary with a set of pool balls on it"
+      }
+    ],
+    "interactions": [
+      "The woman is leaning over the man on the pool table."
+    ],
+    "key_actions": [
+      "The man is lying on the pool table.",
+      "The woman is standing next to him, leaning over."
+    ],
+    "visibility_notes": "The scene is dimly lit, but the main subjects are clearly visible."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and brown shorts",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "lying face down on the pool table",
+        "arms outstretched"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A low, sustained, and ominous musical tone plays throughout the clip.",
+  "temporal_description": "The music is constant and does not change.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s093\", \"time_range\": [460.0, 465.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and brown shorts\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"lying face down on a pool table with arms outstretched\"}, {\"person\": \"a woman in a floral dress\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing next to the man, leaning over him\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dimly lit pool hall with a blue "
+}

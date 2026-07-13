@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by the sound of a door opening and closing, and a brief moment of silence.",
+  "temporal_description": "A man with shoulder-length hair, wearing a dark red shirt, is seen in a dimly lit room, repeatedly striking a door with an axe. He is positioned to the left of the door, facing it, and his movements are forceful and repetitive. The room has a lamp on a bedside table, a bed, and a round decorative item on the wall. Later, a woman with long dark hair, wearing a blue robe over a turtleneck, peeks from behind a doorframe, holding a knife in her right hand. She is partially obscured by the doorframe, and her gaze is directed toward the viewer. Her posture is tense, and she appears to be holding the knife close to her body.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length hair, wearing a dark red shirt, is seen in a dimly lit room, repeatedly striking a door with an axe. He is positioned to the left of the door, facing it, and his movements are forceful and repetitive. The room has a lamp on a bedside table, a bed, and a round decorative item on the wall. Later, a woman with long dark hair, wearing a blue robe over a turtleneck, peeks from behind a doorframe, holding a knife in her right hand. She is partially obscured by the doorframe,",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

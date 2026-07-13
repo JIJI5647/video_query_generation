@@ -1,0 +1,45 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "wearing headphones and looking at a computer screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a computer screen and headphones"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "wearing headphones"
+      ],
+      "gaze": "at the computer screen"
+    }
+  ],
+  "audio_description": "intense, dramatic music with a strong beat and orchestral elements",
+  "temporal_description": "the music starts abruptly and continues with a driving rhythm throughout the clip",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s064\", \"time_range\": [315.0, 320.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"wearing headphones and looking at a computer screen\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a computer screen and headphones\"}}, \"visual_expression\": [{\"person\": \"a man in a white shirt\", \"facial_cues\": [\"focused expression\"], \"body_cues\": [\"wearing headphones\"], \"gaze\": \"a"
+}

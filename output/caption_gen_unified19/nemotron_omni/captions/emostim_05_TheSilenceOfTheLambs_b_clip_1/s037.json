@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    181.28
+  ],
+  "visual_description": "A man in a white shirt and tie with glasses looks down at a table while a man in a dark suit stands behind him with his hand on his stomach. The back of a woman's head with brown hair is visible in the foreground, and a cake sits on the table in front of them. The room has a wooden door and green walls.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s037\", \"time_range\": [180.0, 181.28], \"visual\": \"A man in a white shirt and tie with glasses looks down at a table while a man in a dark suit stands behind him with his hand on his stomach. The back of a woman's head with brown hair is visible in the foreground, and a cake sits on the table in front of them. The room has a wooden door and green walls.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

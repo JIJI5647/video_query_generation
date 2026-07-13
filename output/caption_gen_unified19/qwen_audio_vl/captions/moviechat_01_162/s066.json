@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_description": "Two men in white shirts and ties sit side by side in an office, one with arms crossed, both looking toward the right. A monitor in front of them displays a surveillance image of a person walking down a hallway. A woman in a light-colored uniform stands behind them, looking toward the right with her hands clasped.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-frequency click, likely from a recording device being activated, immediately followed by a faint electronic hiss that persists throughout. The setting is a large, reverberant indoor space, such as a police station or government office, with hard surfaces and minimal sound absorption. The first male speaker, positioned close to the microphone, delivers a forceful, accusatory question in Mandarin: “你们CIB为什么跟踪黄警司？” (“Why is your CIB following Superintendent Wong?”). His tone is urgent and confrontational, with a slightly higher pitch and a clipped, assertive delivery, suggesting he is a senior officer or someone in a position of authority. A brief pause follows, during which the ambient hiss and room reverberation become more noticeable. The second male speaker, slightly more distant and with a lower, more measured tone, responds: “这是内务部的事。” (“This is an Internal Affairs matter.”). His speech is calm and authoritative, indicating a formal, procedural stance and a clear assertion of jurisdiction. The exchange is marked by a adversarial atmosphere, with both speakers maintaining a professional demeanor despite the underlying conflict. After the second speaker finishes, a soft rustling sound is heard, likely from clothing",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in white shirts and ties sit side by side in an office, one with arms crossed, both looking toward the right. A monitor in front of them displays a surveillance image of a person walking down a hallway. A woman in a light-colored uniform stands behind them, looking toward the right with her hands clasped.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

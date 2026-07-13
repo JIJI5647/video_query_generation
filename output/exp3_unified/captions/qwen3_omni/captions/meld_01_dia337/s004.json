@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a blue plaid shirt stands in a room, holding a small, clear object. He looks down at the object with a confused expression, then looks up and speaks to another man who is partially visible. The man in the blue shirt then looks back down at the object in his hand.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man speaks in a questioning tone, followed by a loud, sustained electronic buzz.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"A man in a blue plaid shirt stands in a room, holding a small, clear object. He looks down at the object with a confused expression, then looks up and speaks to another man who is partially visible. The man in the blue shirt then looks back down at the object in his hand.\", \"audio\": \"A man speaks in a questioning tone, followed by a loud, sustained electronic buzz.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

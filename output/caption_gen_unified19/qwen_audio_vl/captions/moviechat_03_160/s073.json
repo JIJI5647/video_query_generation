@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s073",
+  "time_range": [
+    360.0,
+    365.0
+  ],
+  "visual_description": "A man in a dark jacket stands in front of a barred window, his gaze directed forward. Another man with gray hair and a suit appears in a dimly lit interior space, looking toward the right. Both figures are partially obscured or in shadow, with muted lighting and a greenish tint dominating the scene.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a deep, resonant, and slightly distorted low-frequency rumble, reminiscent of a large engine or heavy machinery idling. This rumble is accompanied by a faint, high-frequency hiss, likely from the recording equipment or the environment. The sound is enveloped in a spacious, reverberant acoustic, suggesting a large, hard-surfaced indoor space such as a garage, warehouse, or industrial hall. The rumble is steady and unchanging, with no evidence of movement or variation, and is centrally positioned in the stereo field. Shortly after the rumble starts, a sharp, metallic click is heard, followed by a brief, high-pitched squeak. These sounds are consistent with the operation of a heavy mechanical latch or door mechanism, such as a car door or industrial gate being opened or closed. The click and squeak are clear and distinct, with the squeak indicating friction between metal parts, and both are spatially centered, reinforcing the impression of a single, stationary source. As the mechanical sounds fade, a new, high-pitched electronic tone emerges. This tone is pure, synthetic, and unwavering, with a frequency around 1 kHz, and is reminiscent of a digital alert or notification commonly found in modern vehicles",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark jacket stands in front of a barred window, his gaze directed forward. Another man with gray hair and a suit appears in a dimly lit interior space, looking toward the right. Both figures are partially obscured or in shadow, with muted lighting and a greenish tint dominating the scene.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

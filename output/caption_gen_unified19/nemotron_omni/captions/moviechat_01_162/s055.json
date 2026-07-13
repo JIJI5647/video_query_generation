@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_description": "A dark silhouette of a car is shown against a cloudy sky with the sun low on the horizon, and a person stands in profile in the foreground. The scene includes the silhouette of a building on the left and the sky dominates the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent or indistinct, with no clear sounds audible. There is no discernible voice or ambient noise.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s055\", \"time_range\": [270.0, 275.0], \"visual\": \"A dark silhouette of a car is shown against a cloudy sky with the sun low on the horizon, and a person stands in profile in the foreground. The scene includes the silhouette of a building on the left and the sky dominates the background.\", \"audio\": \"The audio is silent or indistinct, with no clear sounds audible. There is no discernible voice or ambient noise.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

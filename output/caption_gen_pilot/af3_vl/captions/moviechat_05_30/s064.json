@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a clear, uninterrupted voice with a neutral tone and moderate pace, with no background noise or interruptions.",
+  "temporal_description": "A person with glasses and short hair is seen in a dimly lit, cluttered room filled with machinery and equipment. They are standing and appear to be looking around, occasionally turning their head. The room has a high, arched ceiling and is filled with various mechanical parts and tools, creating a dense and industrial atmosphere. The person’s face is partially illuminated, showing their focused gaze as they survey their surroundings.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with glasses and short hair is seen in a dimly lit, cluttered room filled with machinery and equipment. They are standing and appear to be looking around, occasionally turning their head. The room has a high, arched ceiling and is filled with various mechanical parts and tools, creating a dense and industrial atmosphere. The person’s face is partially illuminated, showing their focused gaze as they survey their surroundings.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

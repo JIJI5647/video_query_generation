@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and a moderate speaking rate, conveying a sense of urgency and distress.",
+  "temporal_description": "A young boy with light-colored hair, wearing a gray shirt, is shown in close-up, leaning over and holding a person's hand. The person's hand is covered in a reddish-brown substance, possibly blood or mud. The boy's face is visible, and he appears to be looking down at the hand with a focused expression. The background is dark, and the lighting is dim, highlighting the boy and the hand. The boy's posture is slightly hunched as he holds the hand, and his gaze remains fixed on it throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored hair, wearing a gray shirt, is shown in close-up, leaning over and holding a person's hand. The person's hand is covered in a reddish-brown substance, possibly blood or mud. The boy's face is visible, and he appears to be looking down at the hand with a focused expression. The background is dark, and the lighting is dim, highlighting the boy and the hand. The boy's posture is slightly hunched as he holds the hand, and his gaze remains fixed on it throughout the cli",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

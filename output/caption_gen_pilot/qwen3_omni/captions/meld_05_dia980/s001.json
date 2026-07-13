@@ -1,0 +1,90 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a grey sweater",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a stool and reading a piece of paper"
+      },
+      {
+        "person": "a man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "leaning on a counter and looking at the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a kitchen and living room area with a foosball table, stove, and books on a shelf"
+    },
+    "objects": [
+      {
+        "object": "a piece of paper",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "being held and read by the man in the grey sweater"
+      },
+      {
+        "object": "a red cup",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on the counter"
+      },
+      {
+        "object": "a foosball table",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "stationary"
+      }
+    ],
+    "interactions": [
+      "the man in the black jacket leans in to look at the paper the other man is reading"
+    ],
+    "key_actions": [
+      "reading",
+      "leaning",
+      "looking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a grey sweater",
+      "facial_cues": [
+        "focusing",
+        "reading"
+      ],
+      "body_cues": [
+        "sitting",
+        "holding paper"
+      ],
+      "gaze": "down at the paper"
+    },
+    {
+      "person": "a man in a black jacket",
+      "facial_cues": [
+        "focusing",
+        "curious"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hands on counter"
+      ],
+      "gaze": "at the man in the grey sweater"
+    }
+  ],
+  "audio_description": "A man is speaking in a conversational tone.",
+  "temporal_description": "The man in the grey sweater reads the paper aloud, and the man in the black jacket listens intently.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a grey sweater\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting on a stool and reading a piece of paper\"}, {\"person\": \"a man in a black jacket\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"leaning on a counter and looking at the other man\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a kitchen and living room area with a foosball table, stove"
+}

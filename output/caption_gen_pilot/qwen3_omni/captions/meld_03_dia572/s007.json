@@ -1,0 +1,52 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pulling back a curtain and speaking"
+      },
+      {
+        "person": "a woman in a hospital gown",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "lying in a hospital bed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "hospital room with medical equipment and a bed"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored jacket",
+      "facial_cues": [
+        "talking",
+        "gesturing with hand"
+      ],
+      "body_cues": [
+        "pulling back curtain"
+      ],
+      "gaze": "towards the woman"
+    }
+  ],
+  "audio_description": "A man speaking, followed by a woman speaking.",
+  "temporal_description": "The man speaks first, then the woman speaks.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light-colored jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"pulling back a curtain and speaking\"}, {\"person\": \"a woman in a hospital gown\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"lying in a hospital bed\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"hospital room with medical equipment and a bed\"}}, \"visual_expression\": ["
+}

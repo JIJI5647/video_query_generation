@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s069",
+  "time_range": [
+    340.0,
+    345.0
+  ],
+  "visual_description": "In a dimly lit office, several people are seated at desks with computers, while others stand or move around; one man in a suit walks toward the camera. A man with gray hair and a suit stands in the foreground, looking forward, with blurred figures behind him. The room has fluorescent lighting, blinds, and whiteboards, with some individuals appearing engaged in work or conversation.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful entrance into a high-energy electronic dance music segment, immediately immersing the listener in a dense, meticulously produced soundscape. The foundation is a four-on-the-floor kick drum, tightly compressed and centered, providing a relentless pulse. A syncopated, percussive bassline—synthesized and slightly left of center—adds rhythmic complexity, while a bright, metallic hi-hat or shaker, panned right, delivers crisp, rapid sixteenth notes. A sustained, high-pitched synth pad, rich in reverb and occupying the stereo field, creates a shimmering, atmospheric backdrop. The overall mix is clean, with no ambient noise or environmental sounds, and the stereo image is wide and immersive. Shortly after the start, a new melodic element emerges: a bright, bell-like arpeggiated synth, panned right, introduces a rapid, ascending sequence of notes. This arpeggio, with its crystalline timbre and pronounced reverb, adds a sense of urgency and anticipation. The arrangement remains tightly controlled, with no extraneous sounds or vocalizations. As the music progresses, a dramatic build-up occurs. The arpeggiated synth accelerates, and a sweeping, filtered synth pad",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit office, several people are seated at desks with computers, while others stand or move around; one man in a suit walks toward the camera. A man with gray hair and a suit stands in the foreground, looking forward, with blurred figures behind him. The room has fluorescent lighting, blinds, and whiteboards, with some individuals appearing engaged in work or conversation.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

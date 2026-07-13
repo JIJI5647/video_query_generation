@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black suit",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "lying on the ground, motionless"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "standing, walking away"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "urban alleyway with concrete ground and a metal shutter in the background"
+    },
+    "objects": [
+      {
+        "object": "a gun",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "lying on the ground near the man in the black suit"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man in a black suit is lying on the ground, seemingly injured or unconscious, with a gun nearby",
+      "a man in a dark suit walks past him"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "holding a gun"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "Dramatic, suspenseful music with a strong, rhythmic beat plays in the background.",
+  "temporal_description": "The music starts at the beginning of the clip and continues throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black suit\", \"visibility\": \"partially visible\", \"position\": \"left\", \"action\": \"lying on the ground, motionless\"}, {\"person\": \"a man in a dark suit\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"standing, walking away\"}], \"scene\": {\"location\": \"street\", \"setting\": \"urban alleyway with concrete ground and a metal shutter in the background\"}, \"objects\": [{\"object\": \"a gun\","
+}

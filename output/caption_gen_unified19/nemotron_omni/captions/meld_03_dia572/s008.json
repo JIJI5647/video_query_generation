@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "The man in a beige jacket stands beside a woman in a hospital gown lying in a bed, while she raises her hands to her head. He leans over the bed, gesturing and reaching toward her as she looks at him with a surprised expression. The scene is a hospital room with curtains, medical equipment, and a bedside table holding a pink cup.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Silence is audible throughout the clip.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "weak",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"The man in a beige jacket stands beside a woman in a hospital gown lying in a bed, while she raises her hands to her head. He leans over the bed, gesturing and reaching toward her as she looks at him with a surprised expression. The scene is a hospital room with curtains, medical equipment, and a bedside table holding a pink cup.\", \"audio\": \"Silence is audible throughout the clip.\", \"confidence\": \"medium\", \"evidence_strength\": \"weak\"}"
+}

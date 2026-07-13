@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by the sound of a door opening and closing.",
+  "temporal_description": "A woman with long dark hair, wearing a blue jacket over a green patterned shirt, is holding a child in her arms while standing in a bathroom. She is holding a large knife in her right hand and appears to be looking toward the left side of the frame. The child, wearing a red and beige striped sweater, is tucked against her body, facing away from the camera. The bathroom has white tiled walls with a black border, a sink, a mirror, and a window with a partially open lower pane. The woman moves toward the window, places the knife down on the sink, and begins to interact with the window, possibly trying to open or clean it, while the child remains close to her. The woman’s posture is slightly bent forward as she focuses on the window, and her left hand is extended toward the window frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with long dark hair, wearing a blue jacket over a green patterned shirt, is holding a child in her arms while standing in a bathroom. She is holding a large knife in her right hand and appears to be looking toward the left side of the frame. The child, wearing a red and beige striped sweater, is tucked against her body, facing away from the camera. The bathroom has white tiled walls with a black border, a sink, a mirror, and a window with a partially open lower pane. The woman moves towa",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

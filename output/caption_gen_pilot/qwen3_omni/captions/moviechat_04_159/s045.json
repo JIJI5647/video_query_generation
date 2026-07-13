@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking through a room, looking down at a device in his hand"
+      },
+      {
+        "person": "a man in a light blue shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "walking and looking around the room"
+      },
+      {
+        "person": "a man in a dark blue jacket with 'OCTB' on the back",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "walking and carrying an orange case"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a busy office or command center with multiple computer monitors and a whiteboard in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, dramatic orchestral score with a strong, percussive beat plays in the background.",
+  "temporal_description": "The music is continuous and intense throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s045\", \"time_range\": [220.0, 225.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"walking through a room, looking down at a device in his hand\"}, {\"person\": \"a man in a light blue shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"walking and looking around the room\"}, {\"person\": \"a man in a dark blue jacket with 'OCTB' on the back\", \"visibility\": \"clearly visible\", \"posi"
+}

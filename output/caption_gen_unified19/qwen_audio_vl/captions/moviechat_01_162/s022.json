@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "Two men are seated inside a vehicle, one in the driver’s seat facing forward and the other in the passenger seat, both partially illuminated. The passenger is holding a white cloth or bandage near their mouth, and their gaze is directed toward the driver. The driver’s head is turned slightly, and their facial features are visible under dim lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single male voice, speaking in Mandarin Chinese with a distinct Taiwanese accent, immediately establishing a conversational and informal tone. The speaker, likely in his late 20s to early 40s, narrates a personal anecdote: “里头, 他问我, 阿强啊, 你跟我多久了? 我哪记得呀.” (“Inside, he asked me, 'Ah Qiang, how long have you been with me?' I don't remember.”) His delivery is relaxed and natural, marked by a slight upward inflection on “Ah Qiang” and a casual, dismissive tone on “I don't remember.” The speech is clear and intelligible, with no background noise or music, and is recorded in a dry, acoustically neutral environment, suggesting a studio or treated room. As the speaker finishes his sentence, a sudden, loud, low-frequency electronic buzz erupts, completely dominating the soundscape. This synthetic tone is harsh, abrasive, and unmistakably artificial, resembling a sawtooth or square wave with a fundamental frequency around 110 Hz (A2) and strong harmonics. The buzz is unwavering in pitch and volume, with no modulation or fade",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a vehicle, one in the driver’s seat facing forward and the other in the passenger seat, both partially illuminated. The passenger is holding a white cloth or bandage near their mouth, and their gaze is directed toward the driver. The driver’s head is turned slightly, and their facial features are visible under dim lighting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

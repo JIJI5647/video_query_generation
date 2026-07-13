@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_description": "Two men in white shirts are sitting at a desk in an office. The man on the right is eating a sandwich while the man on the left looks at him and speaks. The man on the right then looks up and responds.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man speaks in a conversational tone, followed by a short, high-pitched electronic beep.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s028\", \"time_range\": [135.0, 140.0], \"visual\": \"Two men in white shirts are sitting at a desk in an office. The man on the right is eating a sandwich while the man on the left looks at him and speaks. The man on the right then looks up and responds.\", \"audio\": \"A man speaks in a conversational tone, followed by a short, high-pitched electronic beep.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

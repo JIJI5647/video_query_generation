@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_description": "A woman with short dark hair, wearing a metallic jacket and a watch, holds a phone to her ear while seated indoors near a lamp; behind her, a dimly lit room with furniture is visible. A man in a light-colored suit with a floral scarf holds a phone to his ear, standing outdoors at night with two other men nearby, one partially obscured behind him. The woman’s gaze is directed forward, and the man’s gaze is slightly downward, both appearing engaged in phone conversations.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, followed by a sudden, loud, and high-pitched scream.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with short dark hair, wearing a metallic jacket and a watch, holds a phone to her ear while seated indoors near a lamp; behind her, a dimly lit room with furniture is visible. A man in a light-colored suit with a floral scarf holds a phone to his ear, standing outdoors at night with two other men nearby, one partially obscured behind him. The woman’s gaze is directed forward, and the man’s gaze is slightly downward, both appearing engaged in phone conversations.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

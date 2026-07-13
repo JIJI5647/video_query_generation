@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A young boy with shoulder-length hair stands in a dimly lit room, wearing a striped sweater over a plaid shirt, and holds a long dark object while looking into a mirror. He manipulates the object with both hands near a table cluttered with various items, under the glow of a lamp.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet, with only faint ambient room noise. No distinct speech or music is audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A young boy with shoulder-length hair stands in a dimly lit room, wearing a striped sweater over a plaid shirt, and holds a long dark object while looking into a mirror. He manipulates the object with both hands near a table cluttered with various items, under the glow of a lamp.\", \"audio\": \"The audio is quiet, with only faint ambient room noise. No distinct speech or music is audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clea"
+}

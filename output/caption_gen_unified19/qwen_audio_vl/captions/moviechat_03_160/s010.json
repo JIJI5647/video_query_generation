@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A man in a white shirt and lanyard walks through a dimly lit corridor, holding a phone to his ear. In a separate scene, a man in a suit and tie stands in an office with multiple monitors and people working around him. Another man in a dark jacket with “OCTO” on the back stands near a whiteboard covered with photos and notes.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched electronic ringtone, characterized by a rapid, descending arpeggio of synthesized notes. This sound is distinctly digital, reminiscent of a mobile phone or landline from the late 1990s to early 2000s, and is presented in mono with a faint, persistent hiss and a subtle low-frequency hum, indicating a low-fidelity recording environment. The ringtone is abruptly cut off, and a male voice, speaking Mandarin Chinese, answers the call with a single, clear syllable: “喂” (wèi), the standard telephone greeting. His tone is neutral and businesslike, with no inflection, and the voice is slightly muffled, suggesting it is transmitted through a phone line or recorded in a small, untreated room. Immediately following the greeting, a brief silence occurs, during which the background hiss and hum become more noticeable, and the room’s acoustics reveal a short, natural reverberation, implying a modestly sized, hard-surfaced space. The male speaker then resumes, asking, “为什么又不” (wèi shén me yòu bù), which translates to “Why again not.” or “Why is",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and lanyard walks through a dimly lit corridor, holding a phone to his ear. In a separate scene, a man in a suit and tie stands in an office with multiple monitors and people working around him. Another man in a dark jacket with “OCTO” on the back stands near a whiteboard covered with photos and notes.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a neutral tone, speaking at a moderate pace. There are no significant non-speech sounds or background noise.",
+  "temporal_description": "A man with glasses and a suit is shown in a dimly lit environment, his face partially illuminated. He holds an object in his hand and gestures with his fingers while looking forward. The scene transitions to another man in a leather jacket seated at a table, holding chopsticks over a steaming bowl, with his gaze directed downward. The background features blurred lights and a window, suggesting an indoor setting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with glasses and a suit is shown in a dimly lit environment, his face partially illuminated. He holds an object in his hand and gestures with his fingers while looking forward. The scene transitions to another man in a leather jacket seated at a table, holding chopsticks over a steaming bowl, with his gaze directed downward. The background features blurred lights and a window, suggesting an indoor setting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A man in a dark suit and patterned tie stands in the center of a dimly lit control room, wearing a headset microphone. Behind him, several men work at computers and examine a wall of photographs, while one man in a blue jacket with 'OCTB' on the back faces away. The central man looks straight ahead with a neutral expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low, steady voice speaks into a telephone, accompanied by the ambient hum of the control room.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual\": \"A man in a dark suit and patterned tie stands in the center of a dimly lit control room, wearing a headset microphone. Behind him, several men work at computers and examine a wall of photographs, while one man in a blue jacket with 'OCTB' on the back faces away. The central man looks straight ahead with a neutral expression.\", \"audio\": \"A low, steady voice speaks into a telephone, accompanied by the ambient hum of the control room.\", "
+}

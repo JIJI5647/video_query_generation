@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and a moderate speaking rate, accompanied by a noticeable gasp and a sigh, suggesting a moment of surprise or disappointment.",
+  "temporal_description": "A young child with light-colored hair, wearing a gray long-sleeved shirt, is seated and appears to be looking downward or slightly to the side. Behind the child, an adult's hands are visible, resting on the child's shoulders or back, suggesting a supportive or comforting presence. The background is dark, with minimal visible details, and the child's posture is relatively still, with slight movements of the head and hands. The child's gaze shifts slightly, and their hands are occasionally raised or moved near their ears or shoulders.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair, wearing a gray long-sleeved shirt, is seated and appears to be looking downward or slightly to the side. Behind the child, an adult's hands are visible, resting on the child's shoulders or back, suggesting a supportive or comforting presence. The background is dark, with minimal visible details, and the child's posture is relatively still, with slight movements of the head and hands. The child's gaze shifts slightly, and their hands are occasionally raised ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

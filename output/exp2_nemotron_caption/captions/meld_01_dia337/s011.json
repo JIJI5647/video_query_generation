@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A man in a pink plaid shirt stands with his back to the camera, facing a man in a blue plaid shirt who has his arms crossed and looks surprised. The scene takes place indoors near a wooden door marked 220, with a framed picture and lamp visible in the background. The man in pink appears to be speaking while the man in blue listens with a tense posture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual\": \"A man in a pink plaid shirt stands with his back to the camera, facing a man in a blue plaid shirt who has his arms crossed and looks surprised. The scene takes place indoors near a wooden door marked 220, with a framed picture and lamp visible in the background. The man in pink appears to be speaking while the man in blue listens with a tense posture.\", \"audio\": \"Audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strengt"
+}

@@ -1,0 +1,53 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car, sweating, looking forward and to the side, speaking"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting in a car, looking forward"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit, possibly at night or in a dark area"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man in the foreground speaks",
+      "the man in the foreground sweats"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "sweating",
+        "mouth open"
+      ],
+      "body_cues": [],
+      "gaze": "forward and to the side"
+    }
+  ],
+  "audio_description": "A male voice speaks in a strained tone, followed by a loud, distorted electronic sound.",
+  "temporal_description": "A man speaks, then a loud sound effect begins.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s033\", \"time_range\": [160.0, 165.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting in a car, sweating, looking forward and to the side, speaking\"}, {\"person\": \"a man in a dark shirt\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"sitting in a car, looking forward\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"dimly lit, possibly at night or in a d"
+}

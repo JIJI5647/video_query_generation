@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "kneeling and looking up with a fearful expression"
+      },
+      {
+        "person": "a large, muscular man with a beard",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and roaring aggressively"
+      }
+    ],
+    "scene": {
+      "location": "dark, cavernous area",
+      "setting": "a large group of armored soldiers surrounds the kneeling man, with a greenish glow in the background."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit kneels in fear.",
+      "The large man roars at him.",
+      "The soldiers stand in formation, holding spears."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "kneeling",
+        "hands raised slightly"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A dramatic, orchestral score with a strong, percussive beat and a sense of impending doom.",
+  "temporal_description": "The music swells in intensity, matching the rising tension of the scene.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s037\", \"time_range\": [180.0, 185.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"kneeling and looking up with a fearful expression\"}, {\"person\": \"a large, muscular man with a beard\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing and roaring aggressively\"}], \"scene\": {\"location\": \"dark, cavernous area\", \"setting\": \"a large group of armored soldiers surroun"
+}

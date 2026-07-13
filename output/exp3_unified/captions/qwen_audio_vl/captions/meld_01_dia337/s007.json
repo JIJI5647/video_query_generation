@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "Two men stand in a living room; one in a pink plaid shirt faces the camera while the other in a blue plaid shirt faces away. The man in pink gestures with his hands and leans slightly forward, while the other stands still with his hands in his pockets. A framed picture, wall sconces, and furniture are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a camera shutter or a similar device, immediately followed by a low-frequency thud as an object is set down on a hard surface. A faint rustling sound suggests movement of clothing or paper, and a subtle, continuous electronic hiss is present throughout, indicating a low-fidelity recording environment. The first male voice, speaking in a calm, mid-to-low pitch with a General American accent, says, “Disposable cameras.” His tone is matter-of-fact, and the room’s acoustics reveal a small, hard-surfaced space with minimal reverberation. A second male voice, higher-pitched and more animated, responds with, “The cameras. Remember last night I asked you to take them?” His delivery is slightly faster and more insistent. The first speaker, now more defensive, replies, “No, you didn’t.” The exchange is marked by a brief, sharp intake of breath. The second speaker, still insistent, repeats, “No, you—” but is abruptly cut off mid-word by a sudden, loud, low-frequency electronic buzz. This harsh, synthetic tone, reminiscent of a censor beep",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand in a living room; one in a pink plaid shirt faces the camera while the other in a blue plaid shirt faces away. The man in pink gestures with his hands and leans slightly forward, while the other stands still with his hands in his pockets. A framed picture, wall sconces, and furniture are visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

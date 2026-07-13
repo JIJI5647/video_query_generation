@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A woman speaks in a sad tone, followed by a man speaking in a neutral tone.",
+  "temporal_description": "A hand is tracing over an old, detailed map with labeled rooms and pathways, illuminated by dim, warm light. The scene shifts to two individuals standing close together in a dimly lit stone corridor, examining the same map. One person holds the map open while the other points at specific areas, both leaning in closely to study the details. Their postures suggest focused attention, and their gazes are fixed on the map as they move their fingers along its surface.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A hand is tracing over an old, detailed map with labeled rooms and pathways, illuminated by dim, warm light. The scene shifts to two individuals standing close together in a dimly lit stone corridor, examining the same map. One person holds the map open while the other points at specific areas, both leaning in closely to study the details. Their postures suggest focused attention, and their gazes are fixed on the map as they move their fingers along its surface.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

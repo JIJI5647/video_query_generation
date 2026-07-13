@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace. There are no significant prosodic variations or non-speech sounds present.",
+  "temporal_description": "A man in a light blue shirt and striped tie walks through a dimly lit office corridor, flanked by other similarly dressed individuals. He pauses briefly, looking ahead with a neutral expression, while others behind him move or stand still. In another scene, an older man in a gray suit sits at a table, eating from multiple takeout containers with chopsticks, while several people stand around him, leaning on chairs or observing. The setting appears to be a modern office or conference room with glass partitions and muted lighting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt and striped tie walks through a dimly lit office corridor, flanked by other similarly dressed individuals. He pauses briefly, looking ahead with a neutral expression, while others behind him move or stand still. In another scene, an older man in a gray suit sits at a table, eating from multiple takeout containers with chopsticks, while several people stand around him, leaning on chairs or observing. The setting appears to be a modern office or conference room with gla",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

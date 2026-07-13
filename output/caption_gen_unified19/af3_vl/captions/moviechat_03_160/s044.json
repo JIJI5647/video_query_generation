@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_description": "A person in a dark setting holds a camera up to their eye, partially obscuring their face, while another person is visible in the foreground. In a separate nighttime scene, figures are seen in a small boat on water, with one person standing at the back and others seated, appearing to move across the water. The overall scene is dimly lit, with limited visibility of facial expressions or detailed body cues.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice, speaking quickly and with a high pitch, exclaims 'What?' in a neutral tone, with no background sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark setting holds a camera up to their eye, partially obscuring their face, while another person is visible in the foreground. In a separate nighttime scene, figures are seen in a small boat on water, with one person standing at the back and others seated, appearing to move across the water. The overall scene is dimly lit, with limited visibility of facial expressions or detailed body cues.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

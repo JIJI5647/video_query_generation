@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_description": "A young child with light hair, wearing a red jacket and plaid shirt, clings to an adult’s leg while looking upward. In another scene, a person in a dark hooded jacket is partially buried in snow, pressing their hands against a snow-covered door. The adult’s torso and arm are visible, clad in a gray coat, as the child grips them tightly.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, loud, and abrupt sound, likely a door slamming shut, followed by a brief silence.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light hair, wearing a red jacket and plaid shirt, clings to an adult’s leg while looking upward. In another scene, a person in a dark hooded jacket is partially buried in snow, pressing their hands against a snow-covered door. The adult’s torso and arm are visible, clad in a gray coat, as the child grips them tightly.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

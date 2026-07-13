@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "driving a car"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dark, possibly at night or in a dimly lit area"
+    },
+    "objects": [
+      {
+        "object": "steering wheel",
+        "visibility": "clearly visible",
+        "position": "foreground"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "driving",
+      "talking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "sweating",
+        "mouth open",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "hands on steering wheel"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a tense tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"driving a car\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"dark, possibly at night or in a dimly lit area\"}, \"objects\": [{\"object\": \"steering wheel\", \"visibility\": \"clearly visible\", \"position\": \"foreground\"}], \"interactions\": [], \"key_actions\": [\"driving\", \"talking\"], \"visibility_notes\": \"\"}, \"visu"
+}

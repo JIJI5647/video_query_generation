@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a neutral tone and moderate pace, delivering a clear and uninterrupted speech without any noticeable background noise or emotional inflection.",
+  "temporal_description": "A woman with shoulder-length brown hair and a dark top is shown in a close-up, her gaze directed slightly off-camera. The scene then shifts to a person lying supine, their face and upper chest covered in a soapy or foamy substance. Hands are seen gently manipulating the person’s mouth and chin area, while a medical or surgical instrument is brought into view and positioned near the person’s mouth. The background is out of focus, suggesting an indoor setting with muted colors.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair and a dark top is shown in a close-up, her gaze directed slightly off-camera. The scene then shifts to a person lying supine, their face and upper chest covered in a soapy or foamy substance. Hands are seen gently manipulating the person’s mouth and chin area, while a medical or surgical instrument is brought into view and positioned near the person’s mouth. The background is out of focus, suggesting an indoor setting with muted colors.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

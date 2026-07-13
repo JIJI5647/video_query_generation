@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    37.16
+  ],
+  "visual_description": "A man in a blue shirt sits reclined in a patterned armchair, holding a book and resting his head on his hand. A woman in a white button-up shirt stands beside him, gesturing with her right hand while holding a black suitcase in her left hand. The scene is set in a warmly lit living room with purple walls, furniture, and decorative items visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking at a moderate pace with a neutral tone, accompanied by a brief pause before she continues.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a blue shirt sits reclined in a patterned armchair, holding a book and resting his head on his hand. A woman in a white button-up shirt stands beside him, gesturing with her right hand while holding a black suitcase in her left hand. The scene is set in a warmly lit living room with purple walls, furniture, and decorative items visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

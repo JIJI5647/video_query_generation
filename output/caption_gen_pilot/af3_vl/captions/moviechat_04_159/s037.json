@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a dark suit and tie stands in front of a wall covered with maps and documents, holding a folder and gesturing with his hand as he speaks. His face is visible in close-up, showing his eyes and mouth as he looks slightly upward and to the side. The background includes a dimly lit room with papers pinned to the wall, some covered in markings and lines. Another person, partially visible, stands to the left, facing the man, but their face and full body are not clearly seen.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie stands in front of a wall covered with maps and documents, holding a folder and gesturing with his hand as he speaks. His face is visible in close-up, showing his eyes and mouth as he looks slightly upward and to the side. The background includes a dimly lit room with papers pinned to the wall, some covered in markings and lines. Another person, partially visible, stands to the left, facing the man, but their face and full body are not clearly seen.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

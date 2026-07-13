@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely the sound of a latch or lock being engaged, immediately followed by a low-frequency mechanical hum that persists throughout the recording. This hum, reminiscent of a large engine or industrial machinery, establishes a tense and oppressive atmosphere. Shortly after, a young woman’s voice emerges, strained and breathless, as she gasps for air. Her speech is rapid and panicked, marked by a high-pitched, urgent tone. She exclaims, “I can’t get out!”—her words delivered with escalating desperation and a sense of immediate peril. The emotional intensity of her voice is heightened by the reverberant acoustics of the space, which suggest a hard-walled, enclosed environment such as a vehicle, industrial chamber, or similar setting. The recording is of moderate fidelity, with a persistent background hiss and a limited frequency range, and the woman’s voice is slightly muffled, indicating she is not directly facing the microphone. The clip ends abruptly, with the mechanical hum and ambient hiss continuing, leaving the listener with a lingering sense of unresolved tension and fear.\n\nIn summary, the audio captures a moment of acute distress as a young woman, trapped in a confined, reverberant space, desperately cries for help amid the relentless hum of machinery. The combination of mechanical sounds, urgent speech, and environmental acoustics creates a vivid, suspenseful scene that evokes feelings of claustrophobia and imminent danger, with the unresolved ending amplifying the emotional impact.",
+  "temporal_description": "A person with dark hair, wearing a blue jacket, is partially submerged in snow, positioned on their hands and knees. Their hands are moving through the snow, and their head is tilted downward, with their face partially obscured by snow and hair. Behind them, a dark wooden structure with a window is visible, and snow covers the ground around them. The scene is dimly lit, casting shadows and giving the snow a bluish tint.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair, wearing a blue jacket, is partially submerged in snow, positioned on their hands and knees. Their hands are moving through the snow, and their head is tilted downward, with their face partially obscured by snow and hair. Behind them, a dark wooden structure with a window is visible, and snow covers the ground around them. The scene is dimly lit, casting shadows and giving the snow a bluish tint.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A young child with light-colored, wavy hair is seen in close proximity to an older adult with curly hair, both facing each other. The child is wearing a light-colored shirt and appears to be leaning slightly toward the adult, while the adult has their hand placed gently on the child’s shoulder or back. The adult’s face is partially visible, and they are looking down at the child. The background is dimly lit and out of focus, suggesting an indoor setting. The child’s gaze is directed upward toward the adult, and their posture is slightly hunched, indicating closeness or dependence. The adult’s posture is upright, and their hand gesture suggests a comforting or supportive action.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored, wavy hair is seen in close proximity to an older adult with curly hair, both facing each other. The child is wearing a light-colored shirt and appears to be leaning slightly toward the adult, while the adult has their hand placed gently on the child’s shoulder or back. The adult’s face is partially visible, and they are looking down at the child. The background is dimly lit and out of focus, suggesting an indoor setting. The child’s gaze is directed upward towar",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

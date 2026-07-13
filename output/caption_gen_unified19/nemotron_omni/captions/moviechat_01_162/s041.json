@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "A man with short dark hair and a mustache in a black jacket leans toward another man whose face is partially visible inside a vehicle, their faces close together as they appear to converse. The view then shifts to show the driver seated at the steering wheel, looking toward the passenger while holding the wheel.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains spoken dialogue between the individuals with a steady conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s041\", \"time_range\": [200.0, 205.0], \"visual\": \"A man with short dark hair and a mustache in a black jacket leans toward another man whose face is partially visible inside a vehicle, their faces close together as they appear to converse. The view then shifts to show the driver seated at the steering wheel, looking toward the passenger while holding the wheel.\", \"audio\": \"The audio contains spoken dialogue between the individuals with a steady conversational tone.\", \"confidence\": "
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice, speaking in a neutral tone and moderate pace, introduces the main characters for tonight in Mandarin, with no notable background sounds.",
+  "temporal_description": "A man with dark hair is seen in profile, holding and examining a black-and-white photograph. His hands move slowly as he adjusts the photo, revealing a portrait of an older man with a balding head. The background is dimly lit and out of focus, with another photograph partially visible behind the one being held. Later, another man in a suit is seen standing in an office-like setting, looking intently at something out of frame, with other people partially visible behind him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark hair is seen in profile, holding and examining a black-and-white photograph. His hands move slowly as he adjusts the photo, revealing a portrait of an older man with a balding head. The background is dimly lit and out of focus, with another photograph partially visible behind the one being held. Later, another man in a suit is seen standing in an office-like setting, looking intently at something out of frame, with other people partially visible behind him.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

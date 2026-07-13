@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A blonde woman in a patterned blouse stands in a living room, smiling and holding a strap, then kneels beside a coffee table while addressing a group seated on couches. She gestures with both hands as she speaks, looking toward the people around her. The background includes a vintage TV, a wooden cabinet, and a colorful rug.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio consists of the woman speaking in a conversational tone, with the group responding quietly in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A blonde woman in a patterned blouse stands in a living room, smiling and holding a strap, then kneels beside a coffee table while addressing a group seated on couches. She gestures with both hands as she speaks, looking toward the people around her. The background includes a vintage TV, a wooden cabinet, and a colorful rug.\", \"audio\": \"The audio consists of the woman speaking in a conversational tone, with the group responding quietly"
+}

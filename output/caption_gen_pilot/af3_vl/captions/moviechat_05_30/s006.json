@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a low pitch with a slow pace, accompanied by a background sound effect.",
+  "temporal_description": "A woman with light-colored hair pulled back, wearing a dark, high-collared garment, is shown in close-up, her face centered in the frame. Her gaze is directed forward, and her facial features remain still throughout the sequence. The background is dimly lit and textured, shifting from dark to a blue-tinged hue, suggesting a change in lighting or environment. Later, the scene transitions to a wide shot of a large, dark castle silhouette against a night sky filled with glowing, electric-blue magical energy and lightning-like patterns.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with light-colored hair pulled back, wearing a dark, high-collared garment, is shown in close-up, her face centered in the frame. Her gaze is directed forward, and her facial features remain still throughout the sequence. The background is dimly lit and textured, shifting from dark to a blue-tinged hue, suggesting a change in lighting or environment. Later, the scene transitions to a wide shot of a large, dark castle silhouette against a night sky filled with glowing, electric-blue magic",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

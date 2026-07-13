@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_description": "A woman with long black hair, wearing a blue robe over a turtleneck, peeks from behind a white wall while gripping a knife with both hands. Her mouth is wide open and her eyes are closed as she appears to be shouting. The setting is a simple room with white tiles visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, high‑pitched scream is audible, accompanied by rapid breathing.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s049\", \"time_range\": [240.0, 245.0], \"visual\": \"A woman with long black hair, wearing a blue robe over a turtleneck, peeks from behind a white wall while gripping a knife with both hands. Her mouth is wide open and her eyes are closed as she appears to be shouting. The setting is a simple room with white tiles visible.\", \"audio\": \"A loud, high‑pitched scream is audible, accompanied by rapid breathing.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

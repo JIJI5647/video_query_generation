@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_description": "Two men in light blue shirts and ties sit side by side in an office, one with arms crossed, both looking toward the right. A woman in a beige uniform stands behind them, facing forward with her hands clasped. A monitor in front of the men displays a security camera feed of a hallway, with a timestamp reading \"16:15\".",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a steady pace and moderate pitch, in a quiet environment with no background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in light blue shirts and ties sit side by side in an office, one with arms crossed, both looking toward the right. A woman in a beige uniform stands behind them, facing forward with her hands clasped. A monitor in front of the men displays a security camera feed of a hallway, with a timestamp reading \"16:15\".",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

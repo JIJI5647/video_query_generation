@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A man in a brown suit rides a bicycle with a basket of food on the front, leaning forward as he pedals along a rural road. Behind him, a white pickup truck with a wooden crate on its bed drives in the same direction, partially obscuring the view. The scene is set under a bright blue sky with scattered clouds and open fields in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a medium pitch and moderate pace, speaking in a neutral tone without any noticeable prosody or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a brown suit rides a bicycle with a basket of food on the front, leaning forward as he pedals along a rural road. Behind him, a white pickup truck with a wooden crate on its bed drives in the same direction, partially obscuring the view. The scene is set under a bright blue sky with scattered clouds and open fields in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

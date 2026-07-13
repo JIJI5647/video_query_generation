@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or emotional inflection.",
+  "temporal_description": "A man in a blue polo shirt and light gray pants is seated on an orange couch, leaning forward with his head down, revealing pink lace underwear peeking from the back of his pants. Another man in a red shirt sits beside him, looking toward the man in blue. In the background, a person in a blue shirt and white apron walks past, while another person in a blue top sits at a table with a vase of flowers. The setting appears to be a casual, indoor lounge or café with shelves of items and a green pole visible.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a blue polo shirt and light gray pants is seated on an orange couch, leaning forward with his head down, revealing pink lace underwear peeking from the back of his pants. Another man in a red shirt sits beside him, looking toward the man in blue. In the background, a person in a blue shirt and white apron walks past, while another person in a blue top sits at a table with a vase of flowers. The setting appears to be a casual, indoor lounge or café with shelves of items and a green pole ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

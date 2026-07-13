@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a medium pitch and a moderate speaking rate, accompanied by a sigh and a shout.",
+  "temporal_description": "A man with long, dark hair and a dark, layered outfit stands in the foreground, facing forward with his right arm extended outward and his left hand slightly raised. Behind him, a group of people in dark, rugged clothing stand in a semi-circle, mostly facing forward, with some partially obscured by shadows. The scene shifts to a young man in a patterned sweater and collared shirt standing in a dimly lit stone corridor, looking straight ahead. The final shot shows a vast crowd gathered in a dark, forested area, with a single figure standing in the center, facing them. The crowd is densely packed and mostly motionless, with the figure in the center appearing to address them.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with long, dark hair and a dark, layered outfit stands in the foreground, facing forward with his right arm extended outward and his left hand slightly raised. Behind him, a group of people in dark, rugged clothing stand in a semi-circle, mostly facing forward, with some partially obscured by shadows. The scene shifts to a young man in a patterned sweater and collared shirt standing in a dimly lit stone corridor, looking straight ahead. The final shot shows a vast crowd gathered in a dark,",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

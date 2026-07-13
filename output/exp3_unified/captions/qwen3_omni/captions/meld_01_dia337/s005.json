@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man in a blue plaid shirt stands in a room, holding a small object and gesturing with his right hand. He looks towards another man in a pink plaid shirt who is partially visible on the left. The background includes a wooden door with the number 1232 and a framed picture on the wall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks, followed by a loud buzzer sound.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A man in a blue plaid shirt stands in a room, holding a small object and gesturing with his right hand. He looks towards another man in a pink plaid shirt who is partially visible on the left. The background includes a wooden door with the number 1232 and a framed picture on the wall.\", \"audio\": \"A male voice speaks, followed by a loud buzzer sound.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

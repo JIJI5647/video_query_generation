@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a slow, deliberate pace, conveying a sense of urgency and distress.",
+  "temporal_description": "A man with gray hair and a light-colored shirt is shown in close-up, his gaze directed slightly upward and to the side. Behind him, a blurred figure is partially visible. The scene shifts to show another man with dark hair and a dark shirt, standing in front of a metal-barred window, facing the first man. Both men remain still, maintaining their positions throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair and a light-colored shirt is shown in close-up, his gaze directed slightly upward and to the side. Behind him, a blurred figure is partially visible. The scene shifts to show another man with dark hair and a dark shirt, standing in front of a metal-barred window, facing the first man. Both men remain still, maintaining their positions throughout the clip.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

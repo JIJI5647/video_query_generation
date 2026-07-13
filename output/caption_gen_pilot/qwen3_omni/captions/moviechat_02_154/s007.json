@@ -1,0 +1,40 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "walking down stairs"
+      },
+      {
+        "person": "a man with white hair in a dark suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "walking down stairs"
+      }
+    ],
+    "scene": {
+      "location": "outdoor staircase",
+      "setting": "nighttime, under a covered walkway with artificial lighting"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low, sustained, and ominous musical tone plays.",
+  "temporal_description": "The music begins at the start of the clip and continues throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"walking down stairs\"}, {\"person\": \"a man with white hair in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"walking down stairs\"}], \"scene\": {\"location\": \"outdoor staircase\", \"setting\": \"nighttime, under a covered walkway with artificial lighting\"}}, \"visual_expression\": [], \"audio_des"
+}

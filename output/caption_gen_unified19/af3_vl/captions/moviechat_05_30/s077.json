@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_description": "A man with round glasses and dark hair is shown in a dimly lit room, his face partially illuminated. He is seen from behind, bending over a cluttered table filled with ropes, mechanical devices, and an armillary sphere. His gaze is directed downward toward the objects on the table.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable sigh at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with round glasses and dark hair is shown in a dimly lit room, his face partially illuminated. He is seen from behind, bending over a cluttered table filled with ropes, mechanical devices, and an armillary sphere. His gaze is directed downward toward the objects on the table.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

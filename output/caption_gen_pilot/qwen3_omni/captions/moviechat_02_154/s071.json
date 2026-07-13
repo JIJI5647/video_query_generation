@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a brown leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a white corded telephone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with wooden walls and a lamp in the background"
+    },
+    "objects": [
+      {
+        "object": "a white corded telephone",
+        "position": "in the woman's hand",
+        "action": "being held to her ear"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman is on a phone call"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a brown leather jacket",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "holding the phone to her ear"
+      ],
+      "gaze": "looking slightly to her left"
+    }
+  ],
+  "audio_description": "a woman is speaking in a calm, serious tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s071\", \"time_range\": [350.0, 355.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a brown leather jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"talking on a white corded telephone\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with wooden walls and a lamp in the background\"}, \"objects\": [{\"object\": \"a white corded telephone\", \"position\": \"in the woman's hand\", \"action\": \"being held to her ear\"}], \"interactions\": [], \"key"
+}

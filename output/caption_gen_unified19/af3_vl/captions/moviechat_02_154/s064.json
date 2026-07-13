@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_description": "A bald man with a gray beard, wearing a dark jacket, stands in a dimly lit room, gazing intently at a row of aquariums. In another scene, a person in a patterned shirt sits on a bed beside another person lying down, with a tray of food and drinks on a nearby table. The man’s posture is upright and focused, while the seated person’s head is turned slightly away from the camera.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace and clear enunciation.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A bald man with a gray beard, wearing a dark jacket, stands in a dimly lit room, gazing intently at a row of aquariums. In another scene, a person in a patterned shirt sits on a bed beside another person lying down, with a tray of food and drinks on a nearby table. The man’s posture is upright and focused, while the seated person’s head is turned slightly away from the camera.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

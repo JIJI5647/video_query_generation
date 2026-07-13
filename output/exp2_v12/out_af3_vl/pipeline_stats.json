@@ -1,0 +1,41 @@
+{
+  "total_videos": 5,
+  "total_segments": 102,
+  "total_raw_captions": 102,
+  "total_emotion_events": 32,
+  "total_initial_queries": 34,
+  "total_accepted_queries": 23,
+  "total_discarded_queries": 11,
+  "average_accepted_queries_per_video": 4.6,
+  "emotion_distribution": {
+    "surprised": 5,
+    "excited": 3,
+    "sad": 20,
+    "disappointed": 1,
+    "angry": 3
+  },
+  "query_type_distribution_initial": {
+    "evidence_cue": 17,
+    "emotion_state": 13,
+    "explicit_event": 4
+  },
+  "query_type_distribution_final_accepted": {
+    "evidence_cue": 12,
+    "emotion_state": 8,
+    "explicit_event": 3
+  },
+  "rewrite_count_distribution": {
+    "0": 34
+  },
+  "pass_rate_after_initial_verification": 0.6765,
+  "pass_rate_after_rewrites": 0.6765,
+  "discarded_query_count": 11,
+  "diversity_warnings": [
+    "[emostim_06_TheChamp_clip_3] WARNING: 14 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_06_TheChamp_clip_3] WARNING: queries 'emostim_06_TheChamp_clip_3_q18' and 'emostim_06_TheChamp_clip_3_q20' are semantically similar (word overlap 90%)",
+    "[meld_01_dia337] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[meld_01_dia337] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[meld_03_dia572] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[meld_03_dia572] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity"
+  ]
+}

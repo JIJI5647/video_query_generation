@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man in profile is visible in a dimly lit interior, his gaze directed forward. Outside, two men in suits descend a metal staircase at night under artificial lighting, one carrying a briefcase. The scene is dark and urban, with a clock visible in the background and wet pavement reflecting lights.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a slightly breathy quality, speaking at a moderate pace with a neutral prosody.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in profile is visible in a dimly lit interior, his gaze directed forward. Outside, two men in suits descend a metal staircase at night under artificial lighting, one carrying a briefcase. The scene is dark and urban, with a clock visible in the background and wet pavement reflecting lights.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

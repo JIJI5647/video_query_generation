@@ -1,0 +1,44 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking forward with a serious expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a dark background, creating a tense atmosphere"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and dark tie",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, distorted, and echoing sound, possibly a horn or alarm, is heard.",
+  "temporal_description": "The audio starts with a distorted sound and then fades out.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s053\", \"time_range\": [260.0, 265.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and dark tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting and looking forward with a serious expression\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a dark background, creating a tense atmosphere\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man in "
+}

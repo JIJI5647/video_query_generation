@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s088",
+  "time_range": [
+    435.0,
+    440.0
+  ],
+  "visual_description": "A young man with round glasses and a brown jacket stands in a dimly lit, cluttered room filled with glassware and wooden furniture. Behind him, two men in dark clothing stand with their wands pointed forward, one slightly ahead of the other. The man in front looks directly ahead with a neutral expression, while the two behind him maintain a rigid posture with focused gazes.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a large, reverberant indoor space, likely a stone hall or chamber, with a faint, low-frequency hum and a subtle high-frequency hiss forming the ambient background. A male voice, close to the microphone and marked by a refined, upper-class British accent, speaks with a controlled, measured tone: “Why didn’t you tell her?” His delivery is calm and deliberate, with a slight downward inflection at the end, suggesting a rhetorical question or a challenge. The acoustics of the room are evident, as his words are followed by a short, natural reverberation. After a brief pause, the same male voice, now slightly more distant and resonant, calls out, “Bellatrix.” The name is delivered with a clipped, authoritative tone, and the reverberation is more pronounced, indicating the speaker’s position further from the microphone. The ambient hum and hiss persist, and the room’s echo continues to shape the sound. Suddenly, a loud, synthetic electronic tone erupts, sharply cutting off the reverberation and masking all other sounds. This tone is a pure, low-frequency square wave at approximately 110 Hz (A2), characterized by a harsh, buzzy timbre and a static",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man with round glasses and a brown jacket stands in a dimly lit, cluttered room filled with glassware and wooden furniture. Behind him, two men in dark clothing stand with their wands pointed forward, one slightly ahead of the other. The man in front looks directly ahead with a neutral expression, while the two behind him maintain a rigid posture with focused gazes.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

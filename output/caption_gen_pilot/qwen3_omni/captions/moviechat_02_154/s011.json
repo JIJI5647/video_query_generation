@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "getting out of a car and walking away"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "night, dimly lit with streetlights and reflections on the car's surface"
+    },
+    "objects": [
+      {
+        "object": "a dark-colored car",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "parked with its door open"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man gets out of the car",
+      "the man walks away from the car"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "walking"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful musical score with a strong brass section plays.",
+  "temporal_description": "The music starts abruptly and continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"getting out of a car and walking away\"}], \"scene\": {\"location\": \"street\", \"setting\": \"night, dimly lit with streetlights and reflections on the car's surface\"}, \"objects\": [{\"object\": \"a dark-colored car\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"parked with its door open\"}], \"interactions\":"
+}

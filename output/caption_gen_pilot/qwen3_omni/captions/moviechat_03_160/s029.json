@@ -1,0 +1,77 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting and eating with chopsticks"
+      },
+      {
+        "person": "a man in a black jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting and smiling at the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, possibly a restaurant or office with a chalkboard in the background"
+    },
+    "objects": [
+      {
+        "object": "chopsticks",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being used to eat"
+      }
+    ],
+    "interactions": [
+      "the man in the black jacket smiles and looks at the man in the blue shirt"
+    ],
+    "key_actions": [
+      "eating",
+      "smiling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue patterned shirt",
+      "facial_cues": [
+        "smiling",
+        "eating"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "down at the bowl"
+    },
+    {
+      "person": "a man in a black jacket",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "at the man in the blue shirt",
+      "visibility": "clearly visible",
+      "position": "right",
+      "action": "sitting and smiling at the other man"
+    }
+  ],
+  "audio_description": "A male voice speaks in Mandarin, followed by a short, sharp electronic beep.",
+  "temporal_description": "The man in the black jacket smiles and speaks, then the man in the blue shirt smiles and continues eating.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s029\", \"time_range\": [140.0, 145.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a blue patterned shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting and eating with chopsticks\"}, {\"person\": \"a man in a black jacket\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"sitting and smiling at the other man\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, possibly a restaurant or office with a chalkboard in the backg"
+}

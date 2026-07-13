@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_description": "The first shot shows a computer monitor with multiple audio waveform tracks displayed in blue against a dark background. The view then shifts to a man in a light shirt wearing black headphones, intently watching the screen. Finally, a man in a dark suit with a white earpiece is seen standing in a dim room, looking off to the side.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is dominated by a low electronic hum and intermittent clicks, with no clear speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s036\", \"time_range\": [175.0, 180.0], \"visual\": \"The first shot shows a computer monitor with multiple audio waveform tracks displayed in blue against a dark background. The view then shifts to a man in a light shirt wearing black headphones, intently watching the screen. Finally, a man in a dark suit with a white earpiece is seen standing in a dim room, looking off to the side.\", \"audio\": \"The audio is dominated by a low electronic hum and intermittent clicks, with no clear speec"
+}

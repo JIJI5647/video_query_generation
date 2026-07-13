@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_description": "A person with dark hair, wearing a blue jacket, is partially submerged in snow, reaching forward with both hands as if grasping or pulling something. Behind them, a dark wooden structure with glass panes is visible, and the scene is dimly lit with a bluish tint. Their head is tilted downward, and their hands are actively moving through the snow near their chest.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate speed.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair, wearing a blue jacket, is partially submerged in snow, reaching forward with both hands as if grasping or pulling something. Behind them, a dark wooden structure with glass panes is visible, and the scene is dimly lit with a bluish tint. Their head is tilted downward, and their hands are actively moving through the snow near their chest.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

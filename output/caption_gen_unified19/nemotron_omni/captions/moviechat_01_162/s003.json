@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a dark suit lies prone on the hood of a car while another suited man stands behind him and a third man in a light suit kneels nearby. The view shifts to a close‑up of a man in a dark suit gripping a handgun with both hands and aiming it forward with a focused expression. A blurred figure with blood on his face appears in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent, with no discernible speech or ambient noise.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual\": \"A man in a dark suit lies prone on the hood of a car while another suited man stands behind him and a third man in a light suit kneels nearby. The view shifts to a close‑up of a man in a dark suit gripping a handgun with both hands and aiming it forward with a focused expression. A blurred figure with blood on his face appears in the background.\", \"audio\": \"The audio is silent, with no discernible speech or ambient noise.\", \"confidenc"
+}

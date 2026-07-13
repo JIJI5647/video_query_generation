@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_description": "A black car is parked on a wet street at night, its headlights on. A man in a dark jacket gets out of the car and walks away. The scene is dark and rainy, with reflections on the wet pavement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains the sound of a car engine and the sound of rain.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s070\", \"time_range\": [345.0, 350.0], \"visual\": \"A black car is parked on a wet street at night, its headlights on. A man in a dark jacket gets out of the car and walks away. The scene is dark and rainy, with reflections on the wet pavement.\", \"audio\": \"The audio contains the sound of a car engine and the sound of rain.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

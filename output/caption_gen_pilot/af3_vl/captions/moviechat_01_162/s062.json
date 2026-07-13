@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a neutral tone and moderate pace, speaking in Mandarin. The voice quality is clear and steady, with no noticeable background noise or emotional inflection.",
+  "temporal_description": "A man in a white shirt and tie stands with one hand on his hip, facing another person whose back is to the camera. The second person is seated and appears to be looking at a monitor displaying a grainy, black-and-white video feed. The setting is an office or surveillance room with glass partitions and dim lighting. The standing man occasionally shifts his gaze slightly, while the seated person remains focused on the monitor.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands with one hand on his hip, facing another person whose back is to the camera. The second person is seated and appears to be looking at a monitor displaying a grainy, black-and-white video feed. The setting is an office or surveillance room with glass partitions and dim lighting. The standing man occasionally shifts his gaze slightly, while the seated person remains focused on the monitor.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

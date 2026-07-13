@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_description": "Two silhouetted figures walk across a snow-covered courtyard in front of a large, dimly lit building under a bright moon. A man with dark hair, wearing a maroon jacket over a plaid shirt, leans against a doorframe with a visible cut on his forehead. His gaze is directed toward the camera, and his mouth is slightly open.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a slow pace, accompanied by a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two silhouetted figures walk across a snow-covered courtyard in front of a large, dimly lit building under a bright moon. A man with dark hair, wearing a maroon jacket over a plaid shirt, leans against a doorframe with a visible cut on his forehead. His gaze is directed toward the camera, and his mouth is slightly open.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

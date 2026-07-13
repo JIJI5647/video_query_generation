@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing a song with a medium pitch and a moderate tempo.",
+  "temporal_description": "A man in a suit is riding a bicycle on a road next to a white jeep. He is holding onto the side of the jeep with one hand while pedaling with the other. The driver of the jeep is visible, wearing sunglasses and looking ahead. The background shows a rural landscape with hills and open fields under a clear sky. The man on the bike occasionally glances toward the driver and adjusts his grip on the jeep.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit is riding a bicycle on a road next to a white jeep. He is holding onto the side of the jeep with one hand while pedaling with the other. The driver of the jeep is visible, wearing sunglasses and looking ahead. The background shows a rural landscape with hills and open fields under a clear sky. The man on the bike occasionally glances toward the driver and adjusts his grip on the jeep.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

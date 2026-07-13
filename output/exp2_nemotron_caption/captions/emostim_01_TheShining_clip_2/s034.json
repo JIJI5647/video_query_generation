@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_description": "The video opens with a person in a blue jacket lying in deep snow, reaching up through a frosted window pane at night. Then a young boy in a patterned sweater stands in the snowy yard, gazing upward toward the sky. Finally, a man with long hair walks through a warmly lit interior, carrying a wooden bat over his shoulder.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s034\", \"time_range\": [165.0, 170.0], \"visual\": \"The video opens with a person in a blue jacket lying in deep snow, reaching up through a frosted window pane at night. Then a young boy in a patterned sweater stands in the snowy yard, gazing upward toward the sky. Finally, a man with long hair walks through a warmly lit interior, carrying a wooden bat over his shoulder.\", \"audio\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

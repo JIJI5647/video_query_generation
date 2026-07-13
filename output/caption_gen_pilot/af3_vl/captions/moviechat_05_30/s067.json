@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s067",
+  "time_range": [
+    330.0,
+    335.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a neutral tone, speaking at a moderate pace. There are no significant non-speech sounds or emotional cues present.",
+  "temporal_description": "The scene is dimly lit, showing a cluttered, shadowy interior with various objects and furniture barely visible. A person wearing glasses is seen in profile, their head slightly turned, with their gaze directed off-screen. Their posture is still, and their facial features are partially illuminated, revealing a calm, neutral expression. The background remains mostly obscured by darkness, with faint outlines of furniture and possibly a large tree-like structure in the center.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene is dimly lit, showing a cluttered, shadowy interior with various objects and furniture barely visible. A person wearing glasses is seen in profile, their head slightly turned, with their gaze directed off-screen. Their posture is still, and their facial features are partially illuminated, revealing a calm, neutral expression. The background remains mostly obscured by darkness, with faint outlines of furniture and possibly a large tree-like structure in the center.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

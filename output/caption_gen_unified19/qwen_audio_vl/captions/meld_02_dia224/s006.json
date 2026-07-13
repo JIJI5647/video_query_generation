@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man in a red shirt sits upright on a couch, while another man in a blue shirt leans forward, resting his head on his arms on the couch’s armrest. In the background, several other people are visible, some standing and some seated, in a room with patterned furniture and a coffee table holding a vase of flowers and mugs. The man in red looks forward with a neutral expression, while the man in blue appears to be resting or slumped over.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, loud burst of laughter from a large, mixed-gender audience, filling a spacious, reverberant venue such as a theater or auditorium. The laughter is dense, overlapping, and energetic, with no individual voices distinguishable, and is accompanied by a faint, low-frequency hum and a subtle high-frequency hiss, likely from the recording equipment. The laughter is abruptly cut off, with no fade-out, indicating a hard edit. Immediately following, a brief, high-pitched, non-verbal vocalization—possibly a squeal or exclamation—emerges, suggesting a spontaneous reaction from a member of the audience. This is quickly overtaken by the onset of a funk-rock instrumental track, which features a tight, syncopated groove: a punchy electric bass, crisp drums with a prominent snare and hi-hat, and a clean, rhythmic electric guitar. The music is energetic and upbeat, with a clear, studio-quality mix and no vocals or speech. The instrumental section is abruptly truncated mid-phrase, ending the clip without a natural resolution. Throughout, the recording is of moderate fidelity, with a limited frequency range and some digital clipping during the loudest moments. The audience laughter is the loudest element",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a red shirt sits upright on a couch, while another man in a blue shirt leans forward, resting his head on his arms on the couch’s armrest. In the background, several other people are visible, some standing and some seated, in a room with patterned furniture and a coffee table holding a vase of flowers and mugs. The man in red looks forward with a neutral expression, while the man in blue appears to be resting or slumped over.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

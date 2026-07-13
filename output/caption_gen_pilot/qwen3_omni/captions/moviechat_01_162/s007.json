@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking forward, then looking up and to the side with a surprised expression"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "walking behind the first man"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "an urban street with a building and a police officer in the background, during the day."
+    },
+    "objects": [
+      {
+        "object": "a police officer",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing still"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "walking",
+      "looking up"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "eyes wide",
+        "mouth slightly open"
+      ],
+      "body_cues": [],
+      "gaze": "upward and to the side",
+      "body cues": [
+        "head tilted up",
+        "body in motion"
+      ]
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful musical score plays.",
+  "temporal_description": "The music swells in intensity as the man looks up.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"walking forward, then looking up and to the side with a surprised expression\"}, {\"person\": \"a man in a dark suit\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"walking behind the first man\"}], \"scene\": {\"location\": \"street\", \"setting\": \"an urban street with a building and a p"
+}

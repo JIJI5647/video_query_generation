@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_description": "A man wearing a suit and headphones is seated, looking intently at a screen displaying multiple waveform graphs. His gaze is fixed downward on the screen, and his posture is upright and attentive. The background is dimly lit with visible equipment and framed items on the wall behind him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man wearing a suit and headphones is seated, looking intently at a screen displaying multiple waveform graphs. His gaze is fixed downward on the screen, and his posture is upright and attentive. The background is dimly lit with visible equipment and framed items on the wall behind him.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

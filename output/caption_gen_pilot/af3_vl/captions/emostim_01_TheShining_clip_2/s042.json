@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone at a moderate pace, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man with dark, slightly messy hair and a beard, wearing a plaid shirt under a maroon corduroy jacket, is partially visible in a doorway. He is looking toward the camera with his head slightly tilted, his gaze directed forward. His facial expression is neutral, with his mouth slightly open. The background includes a framed picture on the wall and a light-colored door frame. The lighting is warm and indoor, casting soft shadows.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, slightly messy hair and a beard, wearing a plaid shirt under a maroon corduroy jacket, is partially visible in a doorway. He is looking toward the camera with his head slightly tilted, his gaze directed forward. His facial expression is neutral, with his mouth slightly open. The background includes a framed picture on the wall and a light-colored door frame. The lighting is warm and indoor, casting soft shadows.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

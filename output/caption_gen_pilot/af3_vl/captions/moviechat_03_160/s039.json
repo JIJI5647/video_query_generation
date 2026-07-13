@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and no significant background noise.",
+  "temporal_description": "Two men are seated on a bench against a tiled wall. One man, wearing a dark shirt, looks toward the other, who is holding a phone to his ear and speaking. The second man, dressed in a patterned jacket, gestures with his free hand while talking. A third person, wearing a suit, enters the frame and begins talking on a phone, partially obscuring the view of the first two men. The man in the suit turns his head slightly as he speaks, and the camera focuses on his profile.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated on a bench against a tiled wall. One man, wearing a dark shirt, looks toward the other, who is holding a phone to his ear and speaking. The second man, dressed in a patterned jacket, gestures with his free hand while talking. A third person, wearing a suit, enters the frame and begins talking on a phone, partially obscuring the view of the first two men. The man in the suit turns his head slightly as he speaks, and the camera focuses on his profile.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

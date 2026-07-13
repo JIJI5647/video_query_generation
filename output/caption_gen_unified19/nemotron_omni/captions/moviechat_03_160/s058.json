@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_description": "A computer screen shows a blue interface with Chinese text '有内鬼, 终止交易' and a button labeled 'SEND MESSAGE ALL GSM900'. The view then shifts to a digital map with grid coordinates and a scrolling column of phone numbers, before a black overlay reads 'DETECT GSM900 52 SELECT CELL'.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s058\", \"time_range\": [285.0, 290.0], \"visual\": \"A computer screen shows a blue interface with Chinese text '有内鬼, 终止交易' and a button labeled 'SEND MESSAGE ALL GSM900'. The view then shifts to a digital map with grid coordinates and a scrolling column of phone numbers, before a black overlay reads 'DETECT GSM900 52 SELECT CELL'.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,81 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "holding a gun and pointing it forward, then lowering it slightly."
+      },
+      {
+        "person": "a woman in a floral dress",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind a man who is bent over a pool table."
+      },
+      {
+        "person": "a man in brown shorts",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "bent over a pool table with his back to the camera."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with a pool table, brown padded walls, and a patterned carpet."
+    },
+    "objects": [
+      {
+        "object": "a pool table",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "a man is bent over it."
+      },
+      {
+        "object": "a gun",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "held by the man in the suit."
+      },
+      {
+        "object": "a pool cue",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "leaning against the wall."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit points a gun forward.",
+      "The woman in the floral dress stands behind the man bent over the pool table."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "serious expression",
+        "staring forward"
+      ],
+      "body_cues": [
+        "holding a gun",
+        "standing still"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, low-frequency rumbling sound, like a large engine or explosion, is heard.",
+  "temporal_description": "The rumbling sound starts abruptly and continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s092\", \"time_range\": [455.0, 460.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"holding a gun and pointing it forward, then lowering it slightly.\"}, {\"person\": \"a woman in a floral dress\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"standing behind a man who is bent over a pool table.\"}, {\"person\": \"a man in brown shorts\", \"visibility\": \"partially visible\", \"posi"
+}

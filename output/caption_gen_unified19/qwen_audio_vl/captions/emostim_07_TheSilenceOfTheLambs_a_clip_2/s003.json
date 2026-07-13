@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    12.76
+  ],
+  "visual_description": "A woman with dark hair, wearing a dark green shirt, is visible in a dimly lit, textured-walled interior space. She holds a handgun with both hands, aiming it forward with a steady posture, her gaze fixed in that direction. A sliver of bright light casts diagonal shadows across the wall behind her, and a red light glows faintly in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, sharp metallic impact, characterized by a high-frequency \"clink\" and a brief, resonant \"thud.\" This sound is immediately followed by a rapid, high-pitched scraping noise, suggesting a metal object—likely a key or tool—being forcefully inserted and turned in a lock. The scraping is accompanied by a faint, low-frequency rustle, possibly from clothing or a bag, indicating the presence of a person. The metallic sounds are dry and close, with no reverberation, implying the action occurs in a small, acoustically dampened space. As the scraping ceases, a low-frequency, mechanical whirring emerges, reminiscent of a motor or solenoid activating. This whirring is steady and consistent, with a subtle, rhythmic pulsing that suggests the operation of a locking mechanism. The whirring is accompanied by a faint, high-frequency hiss, likely from the motor or the environment, and a barely perceptible, low-frequency hum, possibly from nearby electrical equipment. The mechanical sounds are clear and well-defined, with no distortion or clipping, and the background remains quiet except for a faint, broadband hiss. The whirring continues for a brief period, then stops abruptly",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark hair, wearing a dark green shirt, is visible in a dimly lit, textured-walled interior space. She holds a handgun with both hands, aiming it forward with a steady posture, her gaze fixed in that direction. A sliver of bright light casts diagonal shadows across the wall behind her, and a red light glows faintly in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

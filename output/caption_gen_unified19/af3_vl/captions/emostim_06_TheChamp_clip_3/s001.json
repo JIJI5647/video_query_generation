@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A shirtless man lies supine on a table, wearing boxing gloves, while several men stand around him; one older man in a suit holds a hat and looks down, another man leans over the table, and others are partially visible in the background. The man on the table appears motionless, with his head tilted back under a single overhead light, and the surrounding men are mostly still, with one hand resting on the table near the man’s leg. The scene is dimly lit, confined, and appears to be an industrial or utilitarian room with exposed pipes and a ceiling fan.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a moderate pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A shirtless man lies supine on a table, wearing boxing gloves, while several men stand around him; one older man in a suit holds a hat and looks down, another man leans over the table, and others are partially visible in the background. The man on the table appears motionless, with his head tilted back under a single overhead light, and the surrounding men are mostly still, with one hand resting on the table near the man’s leg. The scene is dimly lit, confined, and appears to be an industrial or",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

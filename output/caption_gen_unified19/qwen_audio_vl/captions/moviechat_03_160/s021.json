@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A black sports car with license plate HN 397 drives forward on a nighttime urban road, headlights illuminating the wet pavement. Other vehicles, including a white van and several cars, are visible in adjacent lanes or nearby intersections. The scene is dimly lit by streetlights, with blurred motion indicating traffic movement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a male voice, speaking Mandarin Chinese in a clear, urgent tone, stating, “不打麻雀了，先回公司” (“No more shooting sparrows, let’s go back to the company first”). His speech is rapid and forceful, indicating a sense of urgency and command, and is delivered in a standard, unaccented Mandarin. The voice is slightly muffled and reverberant, suggesting it is transmitted through a radio or intercom system, with a faint electronic hiss and a low-frequency hum in the background. Immediately following the command, a second male voice, also in Mandarin, responds with a single, clipped word: “收到” (“Received”). This reply is delivered in a calm, professional, and businesslike manner, confirming the order without hesitation. As the second voice finishes, a sharp, metallic click is heard, resembling the sound of a firearm’s safety being engaged or a magazine being inserted. This is immediately followed by a rapid, mechanical sequence of metallic clicks and clacks, characteristic of a firearm’s action being cycled—likely a pump-action shotgun or a semi-automatic rifle. The mechanical sounds are crisp and close, indicating the microphone is positioned near the firearm, and the action is performed with practiced efficiency",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A black sports car with license plate HN 397 drives forward on a nighttime urban road, headlights illuminating the wet pavement. Other vehicles, including a white van and several cars, are visible in adjacent lanes or nearby intersections. The scene is dimly lit by streetlights, with blurred motion indicating traffic movement.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

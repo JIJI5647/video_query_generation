@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "A lone, small human figure stands at the base of a snow-covered slope in front of a large, dimly lit building complex under a bright moon. The figure remains stationary, facing the structure, with no discernible gestures or movement. The scene is enveloped in mist and blue-toned lighting, with faint illumination from streetlights casting shadows across snow-laden rooftops and walls.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a woman's voice with a high pitch and a gasp, followed by a scream, indicating a sudden and intense reaction.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A lone, small human figure stands at the base of a snow-covered slope in front of a large, dimly lit building complex under a bright moon. The figure remains stationary, facing the structure, with no discernible gestures or movement. The scene is enveloped in mist and blue-toned lighting, with faint illumination from streetlights casting shadows across snow-laden rooftops and walls.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

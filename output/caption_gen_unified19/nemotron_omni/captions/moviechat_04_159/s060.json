@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_description": "Two men in light-colored shirts sit at desks with laptops and headphones, one looking at a phone while the other works on a computer. The view shifts to show a window with blinds, a glowing laptop screen, and a tripod-mounted camera as a man in a suit adjusts the equipment and another person sits nearby.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s060\", \"time_range\": [295.0, 300.0], \"visual\": \"Two men in light-colored shirts sit at desks with laptops and headphones, one looking at a phone while the other works on a computer. The view shifts to show a window with blinds, a glowing laptop screen, and a tripod-mounted camera as a man in a suit adjusts the equipment and another person sits nearby.\", \"audio\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

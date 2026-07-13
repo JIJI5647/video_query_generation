@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A person with long dark hair, wearing a blue top, is seen from behind holding a knife and pressing against a door, partially obscuring another person in a red garment. The second person, wearing a red garment and a plaid scarf, is bent over and appears to be struggling or being held back. The scene takes place in a tiled hallway with a door and wall-mounted light switch visible, and the person in red is moving quickly, possibly attempting to push or pull the door.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a moderate pace, accompanied by a gasp and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a blue top, is seen from behind holding a knife and pressing against a door, partially obscuring another person in a red garment. The second person, wearing a red garment and a plaid scarf, is bent over and appears to be struggling or being held back. The scene takes place in a tiled hallway with a door and wall-mounted light switch visible, and the person in red is moving quickly, possibly attempting to push or pull the door.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

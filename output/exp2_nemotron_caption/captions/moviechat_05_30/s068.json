@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_description": "In a dark setting, a person wearing glasses is shown in profile, their face partially visible. The camera focuses on the side of their head and ear while blurred lights appear in the background. The scene remains low‑contrast and details are difficult to discern.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "weak",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s068\", \"time_range\": [335.0, 340.0], \"visual\": \"In a dark setting, a person wearing glasses is shown in profile, their face partially visible. The camera focuses on the side of their head and ear while blurred lights appear in the background. The scene remains low‑contrast and details are difficult to discern.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"low\", \"evidence_strength\": \"weak\"}"
+}

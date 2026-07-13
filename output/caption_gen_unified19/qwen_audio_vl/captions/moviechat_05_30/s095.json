@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_description": "In a dim, cluttered space filled with debris and overturned furniture, a person in a dark jacket stands on the left, while another person in a light-colored shirt is bent over amidst the wreckage, appearing to search or handle something. The standing person’s gaze is directed toward the other individual, who is focused downward on their task. The scene is shadowy, with limited visibility of facial features and details, emphasizing the chaotic, disordered environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, immediately followed by a low-frequency mechanical whirring and a high-pitched, rhythmic metallic clatter. These sounds suggest the operation of a heavy, spring-loaded mechanism, such as a cash register drawer or a large metal gate, with the whirring indicating a motor or spring-driven action and the clatter resembling a ratchet or chain mechanism. The environment is acoustically dry, with no reverberation or ambient noise, implying a small, enclosed, and well-dampened space. Suddenly, a loud, complex metallic crash erupts, characterized by a deep, resonant thud and a cascade of high-frequency clattering and scraping. This event is forceful and chaotic, with the sound of multiple metal objects colliding and scattering across a hard surface, likely concrete or stone. The impact is so intense that the recording device overloads, resulting in digital clipping and harsh distortion. The crash is followed by a brief, high-pitched metallic squeak, possibly from a hinge or lever under stress, and then a rapid series of lighter metallic clatters as smaller components settle. The sequence ends with a final, sharp metallic click, suggesting the mechanism has come to rest or locked into place. Throughout the",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dim, cluttered space filled with debris and overturned furniture, a person in a dark jacket stands on the left, while another person in a light-colored shirt is bent over amidst the wreckage, appearing to search or handle something. The standing person’s gaze is directed toward the other individual, who is focused downward on their task. The scene is shadowy, with limited visibility of facial features and details, emphasizing the chaotic, disordered environment.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

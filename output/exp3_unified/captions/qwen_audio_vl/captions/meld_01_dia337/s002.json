@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A man in a pink plaid shirt sits on a couch, facing another man in a blue plaid shirt who stands near a doorway marked \"232.\" The standing man looks down briefly before turning his head slightly, while the seated man gestures with his hand as he speaks. A framed picture and a lamp are visible on the wall behind the seated man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a male speaker, positioned close to the microphone, delivering a calm and matter-of-fact statement: “Why not? It’s it’s built into the price of the room.” His voice is clear, mid-to-low in pitch, and carries a slightly nasal, conversational tone, with a subtle room reverberation indicating a medium-sized, acoustically reflective space. The delivery is steady and unhurried, with a brief, natural hesitation on the repeated word “it’s.” Immediately following this, a second male speaker, slightly more distant and with a higher pitch, interjects with a more energetic and incredulous tone: “Yeah, but you don’t need—” His speech is cut off abruptly, mid-word, as the audio ends. The background throughout is marked by a low-level electronic hiss and a faint, continuous hum, typical of a live recording in a public venue. At the moment the first speaker finishes, a large audience—estimated at 100 to 300 people—erupts in laughter, which is broad, sustained, and layered, with individual chuckles and guffaws blending into a collective response. The laughter is lively and genuine, suggesting a shared sense of humor and engagement",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a pink plaid shirt sits on a couch, facing another man in a blue plaid shirt who stands near a doorway marked \"232.\" The standing man looks down briefly before turning his head slightly, while the seated man gestures with his hand as he speaks. A framed picture and a lamp are visible on the wall behind the seated man.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

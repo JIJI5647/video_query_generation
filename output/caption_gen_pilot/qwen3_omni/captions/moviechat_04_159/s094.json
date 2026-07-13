@@ -1,0 +1,87 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s094",
+  "time_range": [
+    465.0,
+    470.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking to the right"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the man in the leather jacket"
+      },
+      {
+        "person": "a man in a shiny, studded silver jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "opening a door and gesturing welcomingly"
+      },
+      {
+        "person": "an older man with white hair",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "entering the room and shaking hands with the man in the silver jacket"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with tiled walls and a dark door with a red diamond-shaped decoration"
+    },
+    "objects": [
+      {
+        "object": "a dark wooden door",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being opened by the man in the silver jacket"
+      }
+    ],
+    "interactions": [
+      "the man in the silver jacket opens the door for the older man",
+      "the man in the silver jacket shakes hands with the older man"
+    ],
+    "key_actions": [
+      "opening a door",
+      "shaking hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking to the right"
+    },
+    {
+      "person": "a man in a shiny, studded silver jacket",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "gesturing with open hands",
+        "shaking hands"
+      ],
+      "gaze": "looking at the older man"
+    }
+  ],
+  "audio_description": "A male voice speaks in a foreign language, followed by a loud, excited shout from another male voice.",
+  "temporal_description": "The audio begins with a male voice speaking, which is immediately followed by a loud, excited shout.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s094\", \"time_range\": [465.0, 470.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black leather jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and looking to the right\"}, {\"person\": \"a man in a dark shirt\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"standing behind the man in the leather jacket\"}, {\"person\": \"a man in a shiny, studded silver jacket\", \"visibility\": \"clearly visible\", \"position\": \"righ"
+}

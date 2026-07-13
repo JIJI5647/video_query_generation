@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A line of police officers stands behind blue and white tape on a city street, with several police cars and a white ambulance parked nearby. The scene then shifts to two men in suits standing close together, appearing to converse while looking downward. The background shows a building with a sign and a blurred figure walking past.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible audio is present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"A line of police officers stands behind blue and white tape on a city street, with several police cars and a white ambulance parked nearby. The scene then shifts to two men in suits standing close together, appearing to converse while looking downward. The background shows a building with a sign and a blurred figure walking past.\", \"audio\": \"No audible audio is present.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

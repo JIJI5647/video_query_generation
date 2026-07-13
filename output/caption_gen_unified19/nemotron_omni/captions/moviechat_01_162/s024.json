@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_description": "The man in the front passenger seat holds a white bandage to his mouth while looking forward, his face glistening with sweat. The driver sits beside him, focused on the road ahead. The car interior is dimly lit with green foliage visible through the windows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible sound is present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s024\", \"time_range\": [115.0, 120.0], \"visual\": \"The man in the front passenger seat holds a white bandage to his mouth while looking forward, his face glistening with sweat. The driver sits beside him, focused on the road ahead. The car interior is dimly lit with green foliage visible through the windows.\", \"audio\": \"No audible sound is present.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

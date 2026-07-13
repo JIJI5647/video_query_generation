@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "adjusting a headset"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with blinds in the background"
+    },
+    "objects": [
+      {
+        "object": "headset",
+        "visibility": "clearly visible",
+        "position": "on the man's head",
+        "action": "being adjusted"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "adjusting headset"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "adjusting headset"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "a male voice speaking in a determined tone",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s084\", \"time_range\": [415.0, 420.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light-colored shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"adjusting a headset\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with blinds in the background\"}, \"objects\": [{\"object\": \"headset\", \"visibility\": \"clearly visible\", \"position\": \"on the man's head\", \"action\": \"being adjusted\"}], \"interactions\": [], \"key_actions\": [\"adjusting h"
+}

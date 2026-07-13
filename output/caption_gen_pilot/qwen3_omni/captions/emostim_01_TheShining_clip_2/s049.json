@@ -1,0 +1,59 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long black hair wearing a blue robe and a beige turtleneck sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "hiding behind a white pillar, holding a knife, and screaming"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with white walls and a white pillar, possibly a bathroom or hallway"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "in the woman's hand",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "screaming",
+      "holding a knife",
+      "hiding behind a pillar"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long black hair wearing a blue robe and a beige turtleneck sweater",
+      "facial_cues": [
+        "mouth wide open",
+        "tears in eyes",
+        "face contorted in distress"
+      ],
+      "body_cues": [
+        "hands gripping the knife tightly",
+        "body pressed against the pillar"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A woman is screaming in distress, with sounds of impact or breaking in the background.",
+  "temporal_description": "The woman screams repeatedly throughout the clip, with the sound of impact occurring at intervals.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s049\", \"time_range\": [240.0, 245.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with long black hair wearing a blue robe and a beige turtleneck sweater\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"hiding behind a white pillar, holding a knife, and screaming\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with white walls and a white pillar, possibly a bathroom or hallway\"}, \"objects\": [{\"object\": \"knife\", \"visibility\": \"clearly visible\""
+}

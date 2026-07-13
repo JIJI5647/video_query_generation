@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "Inside a moving car, a man in the driver’s seat grips the steering wheel with his left hand while his right hand is wrapped in white bandages, partially obscuring his face; another man sits in the passenger seat, looking forward. Both appear focused on the road ahead, with the driver’s gaze directed straight ahead and the passenger’s head slightly turned toward the driver. The car’s interior and blurred greenery outside suggest motion through a natural landscape.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable prosody or background sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Inside a moving car, a man in the driver’s seat grips the steering wheel with his left hand while his right hand is wrapped in white bandages, partially obscuring his face; another man sits in the passenger seat, looking forward. Both appear focused on the road ahead, with the driver’s gaze directed straight ahead and the passenger’s head slightly turned toward the driver. The car’s interior and blurred greenery outside suggest motion through a natural landscape.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

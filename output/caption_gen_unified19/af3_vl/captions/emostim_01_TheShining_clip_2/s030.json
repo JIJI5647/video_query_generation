@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "Two silhouetted figures are visible on a snow-covered slope at night, illuminated by distant artificial lights. One figure is mid-motion, appearing to fall or slide down the slope, while the other stands near the bottom, facing away from the camera. The scene is framed by dark, snow-dusted buildings on either side, with the snow-covered ground stretching upward into a hazy, dimly lit environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace and pitch, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two silhouetted figures are visible on a snow-covered slope at night, illuminated by distant artificial lights. One figure is mid-motion, appearing to fall or slide down the slope, while the other stands near the bottom, facing away from the camera. The scene is framed by dark, snow-dusted buildings on either side, with the snow-covered ground stretching upward into a hazy, dimly lit environment.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

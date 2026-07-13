@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s069",
+  "time_range": [
+    340.0,
+    345.0
+  ],
+  "visual_description": "A woman in a brown leather jacket stands in a dimly lit room with wooden walls, holding a corded phone to her ear and listening intently. The view shifts to a heavier-set man in a light jacket and patterned shirt, smiling while talking on his phone in a dark alleyway with other people behind him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The woman's voice sounds urgent and serious as she speaks into the phone. The man's voice sounds calm and reassuring, with background ambient noise audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s069\", \"time_range\": [340, 345], \"visual\": \"A woman in a brown leather jacket stands in a dimly lit room with wooden walls, holding a corded phone to her ear and listening intently. The view shifts to a heavier-set man in a light jacket and patterned shirt, smiling while talking on his phone in a dark alleyway with other people behind him.\", \"audio\": \"The woman's voice sounds urgent and serious as she speaks into the phone. The man's voice sounds calm and reassuring, with backgro"
+}

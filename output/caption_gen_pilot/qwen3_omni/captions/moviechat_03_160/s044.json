@@ -1,0 +1,67 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "looking through binoculars"
+      },
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "looking forward"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, grassy area next to a road with a car and a streetlight in the background"
+    },
+    "objects": [
+      {
+        "object": "binoculars",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being held by the man on the right"
+      },
+      {
+        "object": "car",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "parked with red taillights on"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man looks through binoculars",
+      "a man looks forward"
+    ],
+    "visibility_notes": "The scene is very dark, making details difficult to discern."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "mouth open"
+      ],
+      "body_cues": [
+        "hand holding binoculars"
+      ],
+      "gaze": "through binoculars"
+    }
+  ],
+  "audio_description": "A man shouts, followed by a loud, sustained electronic tone.",
+  "temporal_description": "A man shouts at the beginning, then a loud, sustained electronic tone begins and continues.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s044\", \"time_range\": [215.0, 220.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark jacket\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"looking through binoculars\"}, {\"person\": \"a man in a dark jacket\", \"visibility\": \"partially visible\", \"position\": \"left\", \"action\": \"looking forward\"}], \"scene\": {\"location\": \"outdoors at night\", \"setting\": \"a dark, grassy area next to a road with a car and a streetlight in the background\"}, \"objects\": [{\"obj"
+}

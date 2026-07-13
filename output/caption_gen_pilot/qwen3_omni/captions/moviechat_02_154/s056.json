@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and tie",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting and looking forward with a serious expression"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "sitting and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit, with a greenish tint to the lighting"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man in the white shirt remains still and focused"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and tie",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "sitting upright"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "a rhythmic, mechanical clicking sound is heard.",
+  "temporal_description": "the clicking sound is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s056\", \"time_range\": [275.0, 280.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and tie\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting and looking forward with a serious expression\"}, {\"person\": \"a man in a dark shirt\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"sitting and looking forward\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"darkly lit, with a greenish tint to the lighting\"}, \"objects\": ["
+}

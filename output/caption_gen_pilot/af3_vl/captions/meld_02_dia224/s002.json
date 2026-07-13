@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, repeating the name 'Joey' in a clear and steady manner.",
+  "temporal_description": "A man with short brown hair, wearing a light blue polo shirt, is seated on a brown couch. He is facing slightly to his left, gesturing with his right hand while his left hand rests on his lap. Another person, partially visible and wearing a red top, is seated to his left, with their hand briefly touching his right hand. The background shows a café-like setting with tables, chairs, and a green decorative post. The man’s posture is relaxed, and he occasionally shifts his gaze toward the person beside him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short brown hair, wearing a light blue polo shirt, is seated on a brown couch. He is facing slightly to his left, gesturing with his right hand while his left hand rests on his lap. Another person, partially visible and wearing a red top, is seated to his left, with their hand briefly touching his right hand. The background shows a café-like setting with tables, chairs, and a green decorative post. The man’s posture is relaxed, and he occasionally shifts his gaze toward the person bes",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

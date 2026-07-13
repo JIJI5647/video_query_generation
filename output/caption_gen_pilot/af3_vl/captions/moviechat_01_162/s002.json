@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a clear and articulate voice with a moderate pace, accompanied by a soft and soothing instrumental background.",
+  "temporal_description": "A man in a black suit is seen holding a handgun, aiming it forward while seated behind a counter with an ATM machine in the background. Another man in a white shirt appears beside him, partially obscuring the view. Later, a different scene shows a man lying motionless on the hood of a car, with two other men standing nearby—one in a dark suit and another in a light gray suit—both appearing to be in a state of alertness or concern. The setting is an urban street with a modern building and a small tree nearby.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a black suit is seen holding a handgun, aiming it forward while seated behind a counter with an ATM machine in the background. Another man in a white shirt appears beside him, partially obscuring the view. Later, a different scene shows a man lying motionless on the hood of a car, with two other men standing nearby—one in a dark suit and another in a light gray suit—both appearing to be in a state of alertness or concern. The setting is an urban street with a modern building and a small",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

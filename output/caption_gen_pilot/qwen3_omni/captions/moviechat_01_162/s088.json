@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s088",
+  "time_range": [
+    435.0,
+    440.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in an office chair, turning his head, and rubbing his face with his hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with blinds on the window in the background"
+    },
+    "objects": [
+      {
+        "object": "office chair",
+        "position": "right",
+        "action": "being sat on"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "turning head",
+      "rubbing face"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and dark tie",
+      "facial_cues": [
+        "rubbing his face with his hand"
+      ],
+      "body_cues": [
+        "sitting in an office chair",
+        "turning his head"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A low, sustained, and ominous musical tone plays in the background.",
+  "temporal_description": "The man turns his head and rubs his face while the low musical tone continues.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s088\", \"time_range\": [435.0, 440.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light blue shirt and dark tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting in an office chair, turning his head, and rubbing his face with his hand\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office with blinds on the window in the background\"}, \"objects\": [{\"object\": \"office chair\", \"position\": \"right\", \"action\": \"being sat on\"}], \"interacti"
+}

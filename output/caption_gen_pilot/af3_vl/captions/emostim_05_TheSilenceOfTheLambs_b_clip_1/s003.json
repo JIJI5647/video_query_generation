@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a clear, uninterrupted voice with a neutral tone and moderate pace, with no noticeable background noise or emotional inflection.",
+  "temporal_description": "A man in a dark suit and white shirt is seated, his right hand resting on a dark surface. The camera slowly pans upward, revealing his face, which is partially obscured by round glasses. He appears to be looking downward, with a neutral expression and still posture. Another man, partially visible in the foreground, is seated in front of him, his head slightly tilted. The background consists of a green-tiled wall, suggesting an institutional or clinical setting. The man in the suit remains motionless throughout, maintaining a steady gaze downward.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and white shirt is seated, his right hand resting on a dark surface. The camera slowly pans upward, revealing his face, which is partially obscured by round glasses. He appears to be looking downward, with a neutral expression and still posture. Another man, partially visible in the foreground, is seated in front of him, his head slightly tilted. The background consists of a green-tiled wall, suggesting an institutional or clinical setting. The man in the suit remains motion",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

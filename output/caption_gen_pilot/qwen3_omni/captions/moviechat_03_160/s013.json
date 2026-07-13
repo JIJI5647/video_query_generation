@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man with gray hair wearing a light-colored suit jacket and a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a mobile phone held to his right ear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with wooden shelves in the background holding bowls and jars, resembling a kitchen or pantry."
+    },
+    "objects": [
+      {
+        "object": "mobile phone",
+        "position": "right hand of the man",
+        "action": "held to ear"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man talking on phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "an older man with gray hair wearing a light-colored suit jacket and a white shirt",
+      "facial_cues": [
+        "eyes closed",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "head slightly tilted",
+        "hand holding phone to ear"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a calm, conversational tone.",
+  "temporal_description": "The man remains on the phone throughout the clip, with his expression and posture consistent.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s013\", \"time_range\": [60.0, 65.0], \"visual_objective\": {\"people\": [{\"person\": \"an older man with gray hair wearing a light-colored suit jacket and a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"talking on a mobile phone held to his right ear\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with wooden shelves in the background holding bowls and jars, resembling a kitchen or pantry.\"}, \"objects\": [{\"object\": \"mobile phone\""
+}

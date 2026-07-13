@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch, with a slow and deliberate pace, accompanied by a soft and gentle background music.",
+  "temporal_description": "A young child with light-colored, tousled hair is shown in close-up, wearing a gray shirt with a collar. An adult, partially visible and wearing a dark shirt, is positioned to the child’s right, with their hand gently resting on the child’s cheek. The adult’s face is mostly turned away, showing only the side of their profile. The child’s gaze is directed toward the adult, and their mouth is slightly open. The background is dark and indistinct, focusing attention on the two individuals. The adult’s hand remains steady on the child’s cheek throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored, tousled hair is shown in close-up, wearing a gray shirt with a collar. An adult, partially visible and wearing a dark shirt, is positioned to the child’s right, with their hand gently resting on the child’s cheek. The adult’s face is mostly turned away, showing only the side of their profile. The child’s gaze is directed toward the adult, and their mouth is slightly open. The background is dark and indistinct, focusing attention on the two individuals. The adult",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

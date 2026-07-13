@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A woman with shoulder‑length dark hair stands in a dimly lit brick corridor, wearing a dark green cardigan with embroidered details over a light shirt. She leans against the wall, turning her head to look around with a cautious expression. A faint red light glows in the background, suggesting an emergency indicator.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "weak",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A woman with shoulder‑length dark hair stands in a dimly lit brick corridor, wearing a dark green cardigan with embroidered details over a light shirt. She leans against the wall, turning her head to look around with a cautious expression. A faint red light glows in the background, suggesting an emergency indicator.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"low\", \"evidence_strength\": \"weak\"}"
+}

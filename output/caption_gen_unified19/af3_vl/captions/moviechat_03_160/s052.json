@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_description": "Three individuals stand in a dimly lit, narrow hallway with Chinese characters on the wall; one person is partially obscured by a doorframe. A man in a patterned shirt stands facing another man in a gray jacket, while a third person in dark clothing stands beside them, all appearing to be engaged in a conversation or confrontation. The man in the gray jacket gestures with his hand, and the man in the patterned shirt looks toward him, while the third person gazes forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable prosody or non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals stand in a dimly lit, narrow hallway with Chinese characters on the wall; one person is partially obscured by a doorframe. A man in a patterned shirt stands facing another man in a gray jacket, while a third person in dark clothing stands beside them, all appearing to be engaged in a conversation or confrontation. The man in the gray jacket gestures with his hand, and the man in the patterned shirt looks toward him, while the third person gazes forward.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

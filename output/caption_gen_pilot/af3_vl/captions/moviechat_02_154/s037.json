@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a sad tone, speaking at a moderate pace.",
+  "temporal_description": "A person wearing gloves is seen tending to several small, glowing charcoal fires in metal containers, adjusting the coals with their hands. The scene is dimly lit, emphasizing the warm orange glow of the flames and sparks. The person’s upper body and arms are visible, but their face and lower body are out of frame. The containers are arranged on a tiled floor, and the person moves methodically between them, occasionally shifting or adding material to the fires.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing gloves is seen tending to several small, glowing charcoal fires in metal containers, adjusting the coals with their hands. The scene is dimly lit, emphasizing the warm orange glow of the flames and sparks. The person’s upper body and arms are visible, but their face and lower body are out of frame. The containers are arranged on a tiled floor, and the person moves methodically between them, occasionally shifting or adding material to the fires.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

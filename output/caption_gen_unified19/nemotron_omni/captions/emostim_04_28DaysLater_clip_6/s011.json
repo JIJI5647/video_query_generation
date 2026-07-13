@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    54.4
+  ],
+  "visual_description": "A shirtless man in dark pants stands in a dimly lit doorway, his back to the camera, and opens a wooden door. He steps into a narrow, dim hallway with brick walls and continues walking forward. He approaches another door at the end of the hallway.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s011\", \"time_range\": [50.0, 54.4], \"visual\": \"A shirtless man in dark pants stands in a dimly lit doorway, his back to the camera, and opens a wooden door. He steps into a narrow, dim hallway with brick walls and continues walking forward. He approaches another door at the end of the hallway.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

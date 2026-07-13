@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a slow speaking rate, conveying a sense of sadness and distress.",
+  "temporal_description": "A person with dark hair and a dark top is seen running through a dimly lit, stone-walled corridor with arched doorways. The camera follows their movement as they pass by, then the scene shifts to a static shot of a damaged, ornate wooden door surrounded by rubble and debris. Later, a young person with light-colored hair peeks out from behind a stone pillar, holding a wand, and looks toward the camera with a focused gaze.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair and a dark top is seen running through a dimly lit, stone-walled corridor with arched doorways. The camera follows their movement as they pass by, then the scene shifts to a static shot of a damaged, ornate wooden door surrounded by rubble and debris. Later, a young person with light-colored hair peeks out from behind a stone pillar, holding a wand, and looks toward the camera with a focused gaze.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

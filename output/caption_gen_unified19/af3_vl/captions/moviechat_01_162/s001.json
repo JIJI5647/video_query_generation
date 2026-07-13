@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a suit holds a handgun, crouched and aiming forward in a narrow alleyway. Another person, partially visible, stands nearby with their legs and feet in frame, appearing to move or shift position. The scene is dimly lit with concrete ground and metal structures in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable non-speech sounds or prosodic variations.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit holds a handgun, crouched and aiming forward in a narrow alleyway. Another person, partially visible, stands nearby with their legs and feet in frame, appearing to move or shift position. The scene is dimly lit with concrete ground and metal structures in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "Two men sit at a small round table in a café, one in a red plaid shirt gesturing with his hands while speaking, the other in a black sweater leaning back with his hand near his chin, listening. Behind them, people move about in the background, and festive decorations hang on the brick wall. The man in red has a mug and small container on the table, while the man in black has his legs crossed and rests his arm on his knee.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a male speaker, whose voice is clear, resonant, and mid-to-low in pitch, delivering the line, “What happened to you?” in a conversational, slightly amused tone. The delivery is marked by a subtle upward inflection on “you,” suggesting a rhetorical or gently teasing question. The room’s acoustics—marked by a short, natural reverberation—imply a medium-sized, hard-surfaced space, such as a theater or auditorium, and the absence of background noise or music further supports this setting. Immediately following the speaker’s line, a large audience responds with a wave of laughter, which is lively, spontaneous, and distributed across the stereo field, indicating a substantial crowd. The laughter is genuine and sustained, with no signs of artificiality or canned effects. As the laughter fades, the speaker continues with, “Don’t you remember we were jogging in the park?” His tone remains light and conversational, with a slight rise in pitch on “park,” reinforcing the teasing, familiar nature of the exchange. The audience’s laughter intensifies in response, peaking in volume and energy, and is joined by a distinct, high-pitched giggle from a female audience member, adding to the sense of",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men sit at a small round table in a café, one in a red plaid shirt gesturing with his hands while speaking, the other in a black sweater leaning back with his hand near his chin, listening. Behind them, people move about in the background, and festive decorations hang on the brick wall. The man in red has a mug and small container on the table, while the man in black has his legs crossed and rests his arm on his knee.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

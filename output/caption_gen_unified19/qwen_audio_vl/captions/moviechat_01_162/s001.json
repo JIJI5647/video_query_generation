@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a suit holds a handgun, aiming forward with a focused posture. Another person in dark pants and shoes is seen from behind, stepping over a fallen object on the pavement. The scene takes place outdoors on a paved surface near a building with a metal shutter.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a gentle, high-fidelity instrumental introduction, featuring a synthesized piano or keyboard playing a slow, arpeggiated chord progression in a major key. The melody is simple and repetitive, with a soft, bell-like timbre and a subtle, wide stereo reverb that creates a spacious, dreamy atmosphere. The music is entirely instrumental, with no vocals or environmental sounds, and is mixed with a low, consistent hiss typical of digital recordings. The mood is calm, soothing, and slightly melancholic, evoking a sense of nostalgia and gentle reflection. The arrangement is sparse, with no percussion or additional instruments, and the sound is clean and polished, suggesting a modern digital production. At the four-second mark, the music is abruptly and completely cut off, with no fade or transition. Instantly, a loud, harsh electronic buzzer replaces the music. This buzzer is a low-frequency, monophonic tone with a square or sawtooth waveform, characterized by a grating, synthetic timbre and a strong presence of upper harmonics. The buzzer is much louder than the preceding music, with a static amplitude and no modulation or variation. Its sound is reminiscent of a game show \"wrong answer\" buzzer or a digital error",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit holds a handgun, aiming forward with a focused posture. Another person in dark pants and shoes is seen from behind, stepping over a fallen object on the pavement. The scene takes place outdoors on a paved surface near a building with a metal shutter.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

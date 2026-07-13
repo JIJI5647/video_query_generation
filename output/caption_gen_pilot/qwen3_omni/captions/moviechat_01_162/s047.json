@@ -1,0 +1,58 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning his head back and speaking"
+      },
+      {
+        "person": "another man",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "holding the first man's neck"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit interior"
+    },
+    "objects": [],
+    "interactions": [
+      "the second man is holding the first man's neck"
+    ],
+    "key_actions": [
+      "the first man is speaking",
+      "the second man is holding the first man's neck"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "sweating",
+        "mouth open",
+        "eyes open"
+      ],
+      "body_cues": [
+        "leaning his head back"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a strained tone.",
+  "temporal_description": "The man in the black shirt is speaking throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s047\", \"time_range\": [230.0, 235.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"leaning his head back and speaking\"}, {\"person\": \"another man\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"holding the first man's neck\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"dimly lit interior\"}, \"objects\": [], \"interactions\": [\"the second man is holding the first ma"
+}

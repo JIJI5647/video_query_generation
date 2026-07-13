@@ -1,0 +1,67 @@
+{
+  "total_videos": 19,
+  "total_segments": 735,
+  "total_raw_captions": 735,
+  "total_emotion_events": 392,
+  "total_initial_queries": 446,
+  "total_accepted_queries": 101,
+  "total_discarded_queries": 345,
+  "average_accepted_queries_per_video": 5.3158,
+  "emotion_distribution": {
+    "fear": 88,
+    "angry": 27,
+    "sad": 184,
+    "frustrated": 37,
+    "surprised": 7,
+    "excited": 22,
+    "happy": 17,
+    "disappointed": 10
+  },
+  "query_type_distribution_initial": {
+    "evidence_cue": 323,
+    "emotion_state": 100,
+    "explicit_event": 23
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 34,
+    "evidence_cue": 61,
+    "explicit_event": 6
+  },
+  "rewrite_count_distribution": {
+    "0": 446
+  },
+  "pass_rate_after_initial_verification": 0.3969,
+  "pass_rate_after_rewrites": 0.2265,
+  "discarded_query_count": 345,
+  "diversity_warnings": [
+    "[emostim_01_TheShining_clip_2] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: 5 accepted queries start with 'at what' — repetitive phrasing",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: queries 'emostim_03_MrBeansHoliday_clip_4_q03' and 'emostim_03_MrBeansHoliday_clip_4_q12' are semantically similar (word overlap 71%)",
+    "[emostim_05_TheSilenceOfTheLambs_b_clip_1] WARNING: 6 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_05_TheSilenceOfTheLambs_b_clip_1] WARNING: queries 'emostim_05_TheSilenceOfTheLambs_b_clip_1_q05' and 'emostim_05_TheSilenceOfTheLambs_b_clip_1_q11' are semantically similar (word overlap 75%)",
+    "[emostim_06_TheChamp_clip_3] WARNING: 7 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[meld_01_dia337] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_02_dia224] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_03_dia572] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[meld_03_dia572] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[meld_04_dia362] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[meld_04_dia362] WARNING: all accepted queries have the same query_type 'emotion_state' — low diversity",
+    "[meld_04_dia362] WARNING: queries 'meld_04_dia362_q01' and 'meld_04_dia362_q04' are semantically similar (word overlap 73%)",
+    "[meld_05_dia980] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_07_dia208] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[moviechat_01_162] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_02_154] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_03_160] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[moviechat_03_160] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_04_159] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[moviechat_04_159] WARNING: 7 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_04_159] WARNING: queries 'moviechat_04_159_q008' and 'moviechat_04_159_q013' are semantically similar (word overlap 72%)",
+    "[moviechat_04_159] WARNING: queries 'moviechat_04_159_q022' and 'moviechat_04_159_q032' are semantically similar (word overlap 76%)",
+    "[moviechat_05_30] WARNING: 7 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_05_30] WARNING: queries 'moviechat_05_30_q06' and 'moviechat_05_30_q08' are semantically similar (word overlap 79%)"
+  ],
+  "regrounding_changed_count": 0,
+  "regrounding_fallback_count": 0
+}

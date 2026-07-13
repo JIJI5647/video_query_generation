@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    51.81
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate speed, expressing anger through shouting and a harsh tone.",
+  "temporal_description": "A woman with dark, shoulder-length hair is seated upright in a hospital bed, wearing a light-colored hospital gown with a pattern. Her hands rest on her lap, and she is looking slightly to her left. The bed has a white sheet draped over the headboard, and a brown leather object is partially visible to her left. Her posture remains relatively still throughout the clip, with minimal movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark, shoulder-length hair is seated upright in a hospital bed, wearing a light-colored hospital gown with a pattern. Her hands rest on her lap, and she is looking slightly to her left. The bed has a white sheet draped over the headboard, and a brown leather object is partially visible to her left. Her posture remains relatively still throughout the clip, with minimal movement.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

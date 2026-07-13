@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands in a dimly lit hallway, partially obscured by vertical bars, looking toward the right. Another man in a denim jacket walks past him, his gaze directed downward as he moves forward. The background shows a cluttered indoor space with shelves, office equipment, and another person seated at a desk.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a neutral tone, speaking at a moderate pace with a slight breathiness and a sigh at the end.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands in a dimly lit hallway, partially obscured by vertical bars, looking toward the right. Another man in a denim jacket walks past him, his gaze directed downward as he moves forward. The background shows a cluttered indoor space with shelves, office equipment, and another person seated at a desk.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

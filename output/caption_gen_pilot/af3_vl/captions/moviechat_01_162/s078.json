@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a clear and steady prosody. There are no significant non-speech sounds present.",
+  "temporal_description": "Two men are seated side by side in what appears to be an office or interrogation room. The man on the left wears a white uniform with epaulets and a tie, while the man on the right wears a light blue shirt and tie. Both are looking downward, with the man on the left occasionally turning his head slightly to the side. The background includes a framed picture on the wall and a dark chair behind them. Their postures are upright but relaxed, and their hands are not visible.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated side by side in what appears to be an office or interrogation room. The man on the left wears a white uniform with epaulets and a tie, while the man on the right wears a light blue shirt and tie. Both are looking downward, with the man on the left occasionally turning his head slightly to the side. The background includes a framed picture on the wall and a dark chair behind them. Their postures are upright but relaxed, and their hands are not visible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

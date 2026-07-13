@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_description": "Two individuals stand side by side in a dimly lit, stone-walled corridor with a diamond-paned window casting light; one holds a large, folded map while the other looks on. The person holding the map gestures slightly with their hand while looking at it, and the other person gazes upward and to the side. Both are dressed in dark, hooded outerwear, and their postures suggest focused attention on something off-screen.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable prosody or non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two individuals stand side by side in a dimly lit, stone-walled corridor with a diamond-paned window casting light; one holds a large, folded map while the other looks on. The person holding the map gestures slightly with their hand while looking at it, and the other person gazes upward and to the side. Both are dressed in dark, hooded outerwear, and their postures suggest focused attention on something off-screen.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins with a sudden, high-pitched, and forceful shout from a young child, likely a girl, who exclaims \"Mom!\" The voice is strained and urgent, suggesting a moment of alarm or distress. Immediately following this, a second, even higher-pitched and more frantic cry is heard, though the words are indistinct and possibly a repetition or a different exclamation. Both vocalizations are marked by a sense of panic and are delivered in a reverberant indoor space, likely a kitchen or similar room with hard surfaces.\n\nAs the child's cries fade, a loud, metallic, high-frequency grinding sound erupts, dominating the soundscape. This mechanical noise is harsh, abrasive, and continuous, with a rapid, rhythmic, and percussive quality. The grinding is so intense that it causes severe digital clipping and distortion, overwhelming the recording device and resulting in a harsh, crackling texture. The sound is consistent with a powerful kitchen appliance—most likely a garbage disposal or blender—being activated, with the blade or impeller spinning at high speed and processing hard, brittle material. The acoustic environment remains reverberant, with the grinding sound reflecting off hard surfaces, and there are no other background noises, voices, or ambient sounds present.\n\nThe mechanical grinding continues uninterrupted until the audio is abruptly cut off, with no fade-out or resolution, indicating a sudden end to the recording.\n\nIn summary, the audio captures a brief, intense domestic incident: a young child urgently calls for her mother in a kitchen, immediately followed by the activation of a powerful, metallic appliance—likely a garbage disposal or blender—processing hard material. The recording is marked by severe distortion and a lack of ambient context, focusing solely on the child's distress and the overwhelming mechanical noise, with no further resolution or background activity.",
+  "temporal_description": "A woman with dark hair, wearing a blue robe, is seated on a bed holding a small child in a red and green outfit. The child is facing away from the camera, partially obscured by the woman’s body. The woman is looking down at the child, her head slightly tilted. The scene is a dimly lit bedroom with a wooden headboard, a nightstand with a lit lamp, a glass of water, and various small objects. A second lamp is visible on a side table, casting a warm glow. The camera pans to reveal a closed door with the word “MURDER” written in red on it, and a mirror reflecting the room’s cluttered interior.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark hair, wearing a blue robe, is seated on a bed holding a small child in a red and green outfit. The child is facing away from the camera, partially obscured by the woman’s body. The woman is looking down at the child, her head slightly tilted. The scene is a dimly lit bedroom with a wooden headboard, a nightstand with a lit lamp, a glass of water, and various small objects. A second lamp is visible on a side table, casting a warm glow. The camera pans to reveal a closed door wit",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,48 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a large, pale-skinned creature",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running up a rocky slope"
+      }
+    ],
+    "scene": {
+      "location": "outdoor rocky slope",
+      "setting": "dark, nighttime setting with a lit castle or fortress on a hill in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the creature runs up the slope"
+    ],
+    "visibility_notes": "The scene is very dark, making details difficult to discern."
+  },
+  "visual_expression": [
+    {
+      "person": "a large, pale-skinned creature",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "running"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, rumbling, and crashing sound, like a massive object falling or collapsing, dominates the audio.",
+  "temporal_description": "The rumbling sound starts abruptly and continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s032\", \"time_range\": [155.0, 160.0], \"visual_objective\": {\"people\": [{\"person\": \"a large, pale-skinned creature\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"running up a rocky slope\"}], \"scene\": {\"location\": \"outdoor rocky slope\", \"setting\": \"dark, nighttime setting with a lit castle or fortress on a hill in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"the creature runs up the slope\"], \"visibility_notes\": \"The scene is very dar"
+}

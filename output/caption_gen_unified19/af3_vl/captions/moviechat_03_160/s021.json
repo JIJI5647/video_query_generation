@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A black sports car with license plate HN 397 drives forward at night on a multi-lane road, headlights illuminating the wet pavement. Other vehicles, including a white van and various cars, are visible in adjacent lanes and on the roadside. Streetlights and distant city lights provide ambient illumination, with no visible people or discernible facial/body cues.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A black sports car with license plate HN 397 drives forward at night on a multi-lane road, headlights illuminating the wet pavement. Other vehicles, including a white van and various cars, are visible in adjacent lanes and on the roadside. Streetlights and distant city lights provide ambient illumination, with no visible people or discernible facial/body cues.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

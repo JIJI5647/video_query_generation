@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by a consistent background noise.",
+  "temporal_description": "A man in a beige suit walks down a narrow, dimly lit hallway lined with storefronts, checking his watch repeatedly while another man in a patterned shirt follows closely behind. The hallway features glass-fronted shops displaying various items, including fish tanks with small fish swimming inside. A bald man with a goatee stands still, gazing intently at one of the fish tanks, his profile visible as he observes the fish. The scene is static, with minimal movement except for the fish swimming and the two men walking forward.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a beige suit walks down a narrow, dimly lit hallway lined with storefronts, checking his watch repeatedly while another man in a patterned shirt follows closely behind. The hallway features glass-fronted shops displaying various items, including fish tanks with small fish swimming inside. A bald man with a goatee stands still, gazing intently at one of the fish tanks, his profile visible as he observes the fish. The scene is static, with minimal movement except for the fish swimming and",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

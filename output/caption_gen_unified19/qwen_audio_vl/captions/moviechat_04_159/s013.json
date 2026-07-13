@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "A person in a suit holds a silver flip phone, pressing buttons with one hand while the other hand steadies the device. Another person, partially visible and facing the first, holds a cigarette near their mouth. The scene is dimly lit, focusing on the phone and the hands, with the second person’s face partially obscured.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sequence of four distinct, high-pitched electronic beeps, each separated by a brief pause. These beeps are sharp, clear, and slightly metallic, with a rapid attack and quick decay, and are spaced at regular intervals. Their timbre and rhythm are characteristic of a touch-tone telephone keypad, specifically the tones produced by pressing the \"1\" key four times in succession. The beeps are presented in a dry, close-mic’d manner, with no reverberation or environmental coloration, and are accompanied by a faint, persistent electronic hiss that suggests a low-fidelity recording environment. Immediately following the keypad sequence, a single, lower-pitched electronic tone sounds. This tone is sustained, smooth, and resonant, with a timbre reminiscent of a sine wave or a synthesized bell. It is notably louder and more prominent than the preceding beeps, and its pitch is lower, likely corresponding to the \"0\" key on a telephone keypad. The tone is also dry and direct, with no spatial effects, and is accompanied by the same background hiss. After the sustained tone, the audio transitions into a period of near-silence, marked only by the ongoing electronic hiss. This silence is interrupted by a brief",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a suit holds a silver flip phone, pressing buttons with one hand while the other hand steadies the device. Another person, partially visible and facing the first, holds a cigarette near their mouth. The scene is dimly lit, focusing on the phone and the hands, with the second person’s face partially obscured.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

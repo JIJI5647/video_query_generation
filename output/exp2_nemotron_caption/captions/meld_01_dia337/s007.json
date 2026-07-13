@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man in a pink plaid shirt stands next to a man in a blue plaid shirt in a living room; the pink‑shirted man bends down, then turns and walks toward a couch while the blue‑shirted man watches. He then faces the other man, appearing to speak or react, before leaning forward again.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"A man in a pink plaid shirt stands next to a man in a blue plaid shirt in a living room; the pink‑shirted man bends down, then turns and walks toward a couch while the blue‑shirted man watches. He then faces the other man, appearing to speak or react, before leaning forward again.\", \"audio\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

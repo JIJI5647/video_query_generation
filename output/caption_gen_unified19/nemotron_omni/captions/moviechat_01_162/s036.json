@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_description": "A man in a black shirt leans into the back seat of a car, speaking closely to another man wearing a black leather jacket. The seated man appears sweaty and distressed, looking down while the first man's face is near his ear.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A hushed, tense whisper is audible as the man leans in, with faint breathing sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s036\", \"time_range\": [175.0, 180.0], \"visual\": \"A man in a black shirt leans into the back seat of a car, speaking closely to another man wearing a black leather jacket. The seated man appears sweaty and distressed, looking down while the first man's face is near his ear.\", \"audio\": \"A hushed, tense whisper is audible as the man leans in, with faint breathing sounds.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

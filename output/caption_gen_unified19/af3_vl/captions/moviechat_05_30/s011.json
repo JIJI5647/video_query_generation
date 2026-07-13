@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A dark, textured surface, possibly fabric or skin, fills the frame with dim, bluish lighting. The camera slowly pans upward, revealing a large, shadowy, and indistinct form with rough, wrinkled texture. No clear facial features, gestures, or postures are visible due to the darkness and lack of detail.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a slightly breathy quality, speaking at a moderate pace with a neutral prosody.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A dark, textured surface, possibly fabric or skin, fills the frame with dim, bluish lighting. The camera slowly pans upward, revealing a large, shadowy, and indistinct form with rough, wrinkled texture. No clear facial features, gestures, or postures are visible due to the darkness and lack of detail.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

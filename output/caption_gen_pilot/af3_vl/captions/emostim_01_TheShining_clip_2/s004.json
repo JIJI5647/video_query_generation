@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A young child with light-colored hair, wearing a striped sweater, stands in a dimly lit room holding a large knife in one hand and a small object in the other. The child is positioned near a bookshelf and an old television set, with a lamp casting warm light nearby. The child’s body is mostly turned away from the camera, and they appear to be looking toward the bookshelf or television, occasionally shifting their stance slightly. Their posture is upright, and their gaze remains fixed on the area in front of them.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair, wearing a striped sweater, stands in a dimly lit room holding a large knife in one hand and a small object in the other. The child is positioned near a bookshelf and an old television set, with a lamp casting warm light nearby. The child’s body is mostly turned away from the camera, and they appear to be looking toward the bookshelf or television, occasionally shifting their stance slightly. Their posture is upright, and their gaze remains fixed on the area",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

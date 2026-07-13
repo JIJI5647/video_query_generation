@@ -1,0 +1,95 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a purple and white striped sweater",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "walking from the right side of the frame towards the left, carrying a tray with a cup and saucer"
+      },
+      {
+        "person": "a man in a beige turtleneck sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch, looking towards the woman in the striped sweater and speaking"
+      },
+      {
+        "person": "a woman in a blue sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch, looking towards the woman in the striped sweater and smiling"
+      },
+      {
+        "person": "a woman in a red sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch, looking towards the woman in the striped sweater and smiling"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded coffee shop or bar, decorated for Christmas with lights and ornaments"
+    },
+    "objects": [
+      {
+        "object": "a coffee table",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "placed in front of the couches, holding a magazine and a cup"
+      }
+    ],
+    "interactions": [
+      "The man in the beige turtleneck speaks to the woman in the striped sweater as she walks by."
+    ],
+    "key_actions": [
+      "The woman in the striped sweater walks across the background carrying a tray."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a beige turtleneck sweater",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "towards the woman in the striped sweater"
+    },
+    {
+      "person": "a woman in a blue sweater",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "leaning back on the couch"
+      ],
+      "gaze": "towards the woman in the striped sweater"
+    },
+    {
+      "person": "a woman in a red sweater",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "leaning back on the couch"
+      ],
+      "gaze": "towards the woman in the striped sweater"
+    }
+  ],
+  "audio_description": "A man's voice is speaking, followed by a loud, sustained electronic buzzer sound.",
+  "temporal_description": "The man speaks at the beginning of the clip, and the buzzer sound starts abruptly and continues until the end.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a purple and white striped sweater\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"walking from the right side of the frame towards the left, carrying a tray with a cup and saucer\"}, {\"person\": \"a man in a beige turtleneck sweater\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting on a couch, looking towards the woman in the striped sweater"
+}

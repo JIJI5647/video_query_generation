@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A group of individuals, including a woman in the foreground wearing a gray jacket and jeans, walk forward along a dimly lit wooden bridge with ornate gothic-style railings. Behind her, several others follow, dressed in dark clothing, some carrying bags. The scene transitions to a low-angle view of a wooden floor, where a person’s head and shoulders emerge from a hole in the floor, their face visible as they appear to be struggling or reaching upward. The person’s arms are extended, and their body is partially submerged beneath the floorboards.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of individuals, including a woman in the foreground wearing a gray jacket and jeans, walk forward along a dimly lit wooden bridge with ornate gothic-style railings. Behind her, several others follow, dressed in dark clothing, some carrying bags. The scene transitions to a low-angle view of a wooden floor, where a person’s head and shoulders emerge from a hole in the floor, their face visible as they appear to be struggling or reaching upward. The person’s arms are extended, and their bod",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

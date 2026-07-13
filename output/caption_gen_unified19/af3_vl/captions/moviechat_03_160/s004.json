@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man with short gray hair, wearing a gray suit and white shirt, stands facing right, his gaze directed toward another person partially visible beside him. The second individual, wearing a dark jacket with silver embellishments, is seen in profile, facing left, partially obscured by the first man. The setting appears dimly lit with greenish tones, featuring blurred background elements including wooden structures and a faint red object on the right.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable sigh at the beginning, followed by a brief pause before the speech starts.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short gray hair, wearing a gray suit and white shirt, stands facing right, his gaze directed toward another person partially visible beside him. The second individual, wearing a dark jacket with silver embellishments, is seen in profile, facing left, partially obscured by the first man. The setting appears dimly lit with greenish tones, featuring blurred background elements including wooden structures and a faint red object on the right.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

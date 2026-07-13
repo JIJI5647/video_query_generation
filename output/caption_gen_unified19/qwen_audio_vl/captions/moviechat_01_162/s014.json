@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A man in a light blue shirt is seen from behind, walking through a dimly lit, crowded indoor space with other people around him. The camera briefly shifts to show a television screen displaying a news report with Chinese characters, then returns to the man walking. His posture is upright, and he appears to be moving forward through the crowd.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a brief, high-pitched electronic beep, likely a system notification or edit marker, immediately followed by a faint, low-frequency hum that persists throughout the recording. The main content is a single, professionally delivered female voice speaking in Standard Mandarin Chinese, with a clear, formal, and neutral tone. Her speech is measured and precise, characteristic of a broadcast news anchor, and is accompanied by a subtle, continuous background hiss, indicative of analog tape or early digital recording equipment. The voice is centrally positioned in the stereo field, with no spatial movement or environmental reverberation, suggesting a controlled studio environment. The speaker delivers the following statement: \"排除有仇殺成分。現正通緝多名活躍於油尖旺區的黑社會分子。\" (\"Ruling out the element of vendetta. Currently, multiple underworld figures active in the Yau Tsim Mong district are being sought.\") The language is formal and journalistic, using terms such as \"仇殺\" (vendetta), \"通緝\" (wanted), and \"黑社會分子\" (underworld figures), which are standard in official news reporting. The reference to \"油尖旺區\" (Yau Tsim Mong district) situates the report in",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt is seen from behind, walking through a dimly lit, crowded indoor space with other people around him. The camera briefly shifts to show a television screen displaying a news report with Chinese characters, then returns to the man walking. His posture is upright, and he appears to be moving forward through the crowd.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

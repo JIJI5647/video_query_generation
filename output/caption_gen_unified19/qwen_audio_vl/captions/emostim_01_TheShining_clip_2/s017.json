@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "A woman with dark hair is holding a child close to her body, both facing away from the camera. The woman’s hand rests on the child’s head, and she is looking toward the left side of the frame. The child’s head is turned slightly downward. In another scene, a man with shoulder-length hair, wearing a red jacket over a plaid shirt, is swinging an axe at a wooden door in a hallway. He is positioned in front of the door, striking it repeatedly with force. The hallway has blue walls, a staircase to the left, and a light fixture above. The man’s posture is aggressive and focused on the door as he swings the axe.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, piercing scream from a young female, delivered in a tone of acute terror and panic. The scream is so intense that it causes severe digital clipping, resulting in a harsh, distorted sound that dominates the initial moments. Immediately following the scream, a loud, resonant metallic clang erupts, characterized by a deep, booming impact and a long, reverberant decay. This clang is accompanied by a sharp, high-frequency metallic screech, suggesting the violent collision of large metal objects, such as a heavy door or gate slamming shut. The reverberation is pronounced, indicating the event occurs in a vast, hard-surfaced indoor space, such as a warehouse, industrial hall, or empty institutional building. As the metallic clang fades, a sequence of rapid, sharp metallic impacts follows, each with a distinct, ringing quality and brief reverberation. These impacts are consistent with a metal object—possibly a chain, bar, or latch—being forcefully struck or manipulated, likely as part of a locking or securing mechanism. The rhythm is irregular and frantic, reflecting the urgency and panic of the situation. The reverberation remains prominent, reinforcing the impression of a large, empty, and acoustically reflective environment.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark hair is holding a child close to her body, both facing away from the camera. The woman’s hand rests on the child’s head, and she is looking toward the left side of the frame. The child’s head is turned slightly downward. In another scene, a man with shoulder-length hair, wearing a red jacket over a plaid shirt, is swinging an axe at a wooden door in a hallway. He is positioned in front of the door, striking it repeatedly with force. The hallway has blue walls, a staircase to th",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

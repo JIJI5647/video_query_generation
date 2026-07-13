@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by laughter and a brief pause, suggesting a light-hearted conversation.",
+  "temporal_description": "Two men are seated at a table in a room with wooden cabinets and shelves displaying various items, including a model car and a soccer ball. One man, wearing a gray sweater, holds a red plastic cup and a piece of paper, gesturing with the paper while looking at the other man. The second man, dressed in a black jacket over a white shirt, faces him, occasionally gesturing with his hands and leaning forward slightly. The scene shifts to a kitchen setting where the second man stands, leaning against a counter, continuing to gesture while speaking to the first man, who is seated and facing him. The kitchen has cabinets, a refrigerator with magnets and notes, and various food items on top. Both men maintain eye contact and appear engaged in a conversation.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at a table in a room with wooden cabinets and shelves displaying various items, including a model car and a soccer ball. One man, wearing a gray sweater, holds a red plastic cup and a piece of paper, gesturing with the paper while looking at the other man. The second man, dressed in a black jacket over a white shirt, faces him, occasionally gesturing with his hands and leaning forward slightly. The scene shifts to a kitchen setting where the second man stands, leaning against ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

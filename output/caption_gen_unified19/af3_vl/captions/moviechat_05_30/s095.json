@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_description": "In a dim, cluttered room filled with debris and overturned furniture, one person stands on the left side while another crouches or bends over near the center, seemingly searching or sorting through the wreckage. The standing person appears to be observing or moving toward the crouching individual, with both figures partially obscured by shadows and the surrounding disarray. Their postures suggest focused activity amid the chaotic environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a neutral tone, speaking at a moderate pace. There are no significant prosodic variations or background sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dim, cluttered room filled with debris and overturned furniture, one person stands on the left side while another crouches or bends over near the center, seemingly searching or sorting through the wreckage. The standing person appears to be observing or moving toward the crouching individual, with both figures partially obscured by shadows and the surrounding disarray. Their postures suggest focused activity amid the chaotic environment.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

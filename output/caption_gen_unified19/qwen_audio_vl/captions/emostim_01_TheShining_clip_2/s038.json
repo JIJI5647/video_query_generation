@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_description": "A man with dark, medium-length hair and a beard, wearing a red jacket over a plaid shirt, stands in a hallway near a door. He turns his head to the side, looking toward the camera, and his hand moves slightly near his face. The hallway has beige walls, a framed picture hanging on the wall, and a partially visible curtain on the right.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins in a quiet, enclosed space, likely a small to medium-sized room with hard, reflective surfaces such as tile or concrete. A faint, low-frequency hum, characteristic of a refrigerator or HVAC system, sets the ambient background. The first audible event is a sharp, metallic click, followed by a brief, high-pitched squeak, suggesting the manipulation of a metal latch or handle—possibly the opening of a refrigerator door or a similar appliance. Immediately after, a soft, low-frequency thud is heard, indicating the door or object has settled into place. The room remains otherwise silent, with only the persistent hum and a subtle, high-frequency hiss from the recording equipment. A second mechanical event follows: a rapid, high-pitched metallic click, likely the sound of a spring-loaded latch or a small metal part snapping into position. This is succeeded by a brief, low-pitched scraping noise, as if a metal object is being slid or adjusted. The sequence continues with a short, high-pitched squeak, reminiscent of a metal hinge or latch being moved, and then a soft, low-frequency thud, indicating the object has come to rest. Throughout these events, the ambient hum and hiss remain unchanged, and no speech, music",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, medium-length hair and a beard, wearing a red jacket over a plaid shirt, stands in a hallway near a door. He turns his head to the side, looking toward the camera, and his hand moves slightly near his face. The hallway has beige walls, a framed picture hanging on the wall, and a partially visible curtain on the right.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A man in a brown suit rides a bicycle with a basket of vegetables on a sunny road, his mouth open as if speaking. A group of cyclists in colorful racing gear pedals quickly along the same road. The man in the suit then rides past the cyclists, maintaining his upright posture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Ambient wind and bicycle sounds are audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual\": \"A man in a brown suit rides a bicycle with a basket of vegetables on a sunny road, his mouth open as if speaking. A group of cyclists in colorful racing gear pedals quickly along the same road. The man in the suit then rides past the cyclists, maintaining his upright posture.\", \"audio\": \"Ambient wind and bicycle sounds are audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

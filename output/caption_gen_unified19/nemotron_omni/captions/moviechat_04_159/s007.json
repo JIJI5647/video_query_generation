@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man with short black hair and glasses, dressed in a dark suit, white shirt, and patterned tie, looks downward while seated. Another person is partially visible on the left, out of focus, as a faint wisp of smoke drifts in the dimly lit background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A subdued, low-pitched voice speaks quietly in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"A man with short black hair and glasses, dressed in a dark suit, white shirt, and patterned tie, looks downward while seated. Another person is partially visible on the left, out of focus, as a faint wisp of smoke drifts in the dimly lit background.\", \"audio\": \"A subdued, low-pitched voice speaks quietly in the background.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

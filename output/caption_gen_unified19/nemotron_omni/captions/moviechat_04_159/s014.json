@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A man in a dark suit and glasses sits facing another man whose back is to the camera; the man in glasses raises a cigarette to his mouth, inhales, and exhales smoke while the other man's hand moves near his face. The lighting is dim, casting shadows on their faces.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "There is a faint sound of smoke being exhaled and a subtle rustle, with no clear speech audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s014\", \"time_range\": [65.0, 70.0], \"visual\": \"A man in a dark suit and glasses sits facing another man whose back is to the camera; the man in glasses raises a cigarette to his mouth, inhales, and exhales smoke while the other man's hand moves near his face. The lighting is dim, casting shadows on their faces.\", \"audio\": \"There is a faint sound of smoke being exhaled and a subtle rustle, with no clear speech audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

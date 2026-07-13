@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a shaved head and a goatee",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and looking at fish tanks"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with multiple fish tanks on display shelves, dimly lit with a cool, bluish tone."
+    },
+    "objects": [
+      {
+        "object": "fish tanks",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "displaying aquatic plants and fish"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man looks at the fish tanks",
+      "the man turns his head to look forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a shaved head and a goatee",
+      "facial_cues": [
+        "neutral expression",
+        "calm eyes"
+      ],
+      "body_cues": [
+        "standing still",
+        "turning head"
+      ],
+      "gaze": "first at the fish tanks, then forward"
+    }
+  ],
+  "audio_description": "A rhythmic, electronic music track with a driving beat plays in the background.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s064\", \"time_range\": [315.0, 320.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with a shaved head and a goatee\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and looking at fish tanks\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with multiple fish tanks on display shelves, dimly lit with a cool, bluish tone.\"}, \"objects\": [{\"object\": \"fish tanks\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"displaying aquati"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency hum, likely from a recording device or room tone, accompanied by a soft, breathy, and muffled vocalization. This vocalization is a single, indistinct word or phrase, delivered in a low, raspy, and weary tone, with no discernible language or accent. The voice is distant and subdued, suggesting the speaker is either very close to the microphone or the recording is of low fidelity, with the vocalization nearly lost in the background. The atmosphere is quiet and intimate, with no other ambient sounds present.\n\nSuddenly, the vocalization is interrupted by a loud, dramatic orchestral chord. This chord is played by a full string section—violins, violas, cellos, and double basses—using a forceful, sustained, and dissonant technique. The chord is rich, resonant, and enveloping, with a wide stereo image and a sense of grandeur. The orchestral sound is highly reverberant, suggesting a large concert hall or studio, and the chord is sustained for several seconds, creating a powerful emotional impact. The chord’s dissonance and intensity evoke feelings of tension, suspense, and foreboding, reminiscent of cinematic or theatrical scoring.\n\nAs the chord reaches its peak, it is abruptly cut off by a hard digital edit, with no natural decay or fade. Immediately following this, a loud, synthetic electronic tone begins. This tone is a pure, low-frequency square wave, centered around 110 Hz (A2), with a harsh, buzzy timbre and no modulation or variation. The tone is dry, with no reverb or spatial effects, and is presented in mono, centered in the stereo field. It is much louder than the preceding sounds and continues at a constant volume until the end of the clip, creating a jarring and unsettling effect.\n\nThroughout the recording, there is no speech, dialogue, or intelligible language. The only vocalization is the initial, muffled utterance, which is quickly overshadowed by the orchestral chord and then the electronic tone. The audio is marked by low fidelity, with a persistent background hiss and hum, and the dynamic range is compressed, resulting in a loud, clipped, and abrasive final tone. The abrupt transitions and lack of natural decay indicate deliberate digital editing, likely for dramatic or experimental effect.\n\nIn summary, the audio clip presents a sequence of three distinct sonic events: a distant, muffled vocalization; a dramatic, dissonant orchestral chord; and a sudden, harsh electronic tone. The recording is characterized by low fidelity, abrupt edits, and a stark contrast between intimate and overwhelming sounds. The absence of speech and the use of cinematic and electronic elements suggest a purposeful, experimental composition designed to evoke tension, suspense, and emotional disruption.",
+  "temporal_description": "A young child with short, light brown hair, wearing a red and green striped sweater over a collared shirt, stands in a dimly lit room. They are holding a dark, elongated object, possibly a toy or tool, and appear to be examining or manipulating it with both hands. The child is positioned near a wooden dresser cluttered with various items, including a mirror, books, and small containers. Behind them, an old-style television sits on a stand, and a lamp with a warm glow illuminates part of the room. The child’s head is slightly tilted downward, and their gaze is fixed on the object in their hands.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with short, light brown hair, wearing a red and green striped sweater over a collared shirt, stands in a dimly lit room. They are holding a dark, elongated object, possibly a toy or tool, and appear to be examining or manipulating it with both hands. The child is positioned near a wooden dresser cluttered with various items, including a mirror, books, and small containers. Behind them, an old-style television sits on a stand, and a lamp with a warm glow illuminates part of the room",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

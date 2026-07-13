@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_description": "A massive, muscular creature with horns looms over a stone platform, its body illuminated by dim torchlight. Smaller armored figures stand nearby, some brandishing weapons as the creature reaches out with a glowing green hand. The scene is chaotic, with the creature moving aggressively while the smaller figures react defensively.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "the audio is not clearly audible",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s036\", \"time_range\": [175.0, 180.0], \"visual\": \"A massive, muscular creature with horns looms over a stone platform, its body illuminated by dim torchlight. Smaller armored figures stand nearby, some brandishing weapons as the creature reaches out with a glowing green hand. The scene is chaotic, with the creature moving aggressively while the smaller figures react defensively.\", \"audio\": \"the audio is not clearly audible\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

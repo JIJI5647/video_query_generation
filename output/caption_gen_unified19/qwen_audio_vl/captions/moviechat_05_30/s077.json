@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_description": "A man with round glasses and dark hair is shown in close-up, his gaze directed slightly downward. In a dimly lit, cluttered room filled with various objects, another person in a dark coat bends over a table, reaching toward a large metal sphere and ropes. The second person’s face is not visible, and their posture suggests focused interaction with the items on the table.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a lush, cinematic orchestral arrangement, immediately immersing the listener in a grand, emotionally charged atmosphere. The music is led by a solo cello, which delivers a slow, expressive, and legato melody in the lower register, characterized by a mournful, descending contour and a sense of longing. This cello line is supported by a string ensemble—violins, violas, and cellos—playing sustained, harmonically rich chords that create a wide, enveloping stereo image. The strings are treated with a generous, natural-sounding reverb, evoking the acoustics of a large concert hall or cathedral, and the overall sound is polished and professionally mixed, with no extraneous noise or artifacts. The music is entirely instrumental, with no speech, vocals, or environmental sounds, and its style is reminiscent of modern film scores or classical concert works, designed to evoke deep and a sense of grandeur. At the precise moment the music reaches its peak, it is abruptly and completely cut off, with no fade or transition. Instantly, a loud, harsh, low-frequency electronic buzz replaces the orchestral sound. This buzz is a monophonic, static tone with a fundamental frequency of approximately 60 Hz",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with round glasses and dark hair is shown in close-up, his gaze directed slightly downward. In a dimly lit, cluttered room filled with various objects, another person in a dark coat bends over a table, reaching toward a large metal sphere and ropes. The second person’s face is not visible, and their posture suggests focused interaction with the items on the table.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a clear, neutral voice, speaking at a moderate pace with a steady prosody. There are no significant non-speech sounds or emotional inflections present.",
+  "temporal_description": "Two men are standing in a room, facing each other. The man on the left wears a pink plaid shirt and is slightly bent over, looking down at something in his hands. The man on the right wears a blue plaid shirt and is facing away from the camera, looking at the other man. Behind them is a wall with a framed picture and a lamp. At one point, the man in the blue shirt turns slightly, revealing more of his face and upper body. Text overlays appear on the screen, listing names of supervising producers. The man in the pink shirt stands up straighter and gestures with his hands while speaking. The man in the blue shirt also gestures with his hands as he speaks. The scene remains indoors, with consistent lighting and background elements.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are standing in a room, facing each other. The man on the left wears a pink plaid shirt and is slightly bent over, looking down at something in his hands. The man on the right wears a blue plaid shirt and is facing away from the camera, looking at the other man. Behind them is a wall with a framed picture and a lamp. At one point, the man in the blue shirt turns slightly, revealing more of his face and upper body. Text overlays appear on the screen, listing names of supervising producers",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

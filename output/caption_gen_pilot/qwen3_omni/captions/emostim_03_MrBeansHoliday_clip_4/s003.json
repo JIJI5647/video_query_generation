@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a sunny day on a paved road with green hills in the background"
+    },
+    "objects": [
+      {
+        "object": "a white Jeep",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "driving on the road"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit rides a bicycle on the road.",
+      "The white Jeep drives on the road behind the man."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown suit and tie",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "pedaling"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "Upbeat, energetic rock music with a driving drum beat and electric guitars plays in the background.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a brown suit and tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"riding a bicycle\"}], \"scene\": {\"location\": \"street\", \"setting\": \"a sunny day on a paved road with green hills in the background\"}, \"objects\": [{\"object\": \"a white Jeep\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"driving on the road\"}], \"interactions\": [], \"key_actions\": [\"T"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A blonde woman in a patterned blouse stands in a living room, gesturing with her hands while speaking. The camera cuts to a couch where a man with an arm sling, a man in a dark shirt, and a woman sit while another man stands behind them, leaning forward. The view returns to the woman, who looks toward someone off‑camera.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"A blonde woman in a patterned blouse stands in a living room, gesturing with her hands while speaking. The camera cuts to a couch where a man with an arm sling, a man in a dark shirt, and a woman sit while another man stands behind them, leaning forward. The view returns to the woman, who looks toward someone off‑camera.\", \"audio\": \"Audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

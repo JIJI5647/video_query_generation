@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "Several people in light-colored shirts stand with their backs to the camera in an office, looking at a wall-mounted monitor while one man holds a phone to his ear. Later, the view shifts to the inside of a vehicle, where raindrops on the windshield obscure a silhouette of a driver and green trees outside.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Ambient office chatter can be heard, followed by the sound of rain on a windshield.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual\": \"Several people in light-colored shirts stand with their backs to the camera in an office, looking at a wall-mounted monitor while one man holds a phone to his ear. Later, the view shifts to the inside of a vehicle, where raindrops on the windshield obscure a silhouette of a driver and green trees outside.\", \"audio\": \"Ambient office chatter can be heard, followed by the sound of rain on a windshield.\", \"confidence\": \"high\", \"evidence_s"
+}

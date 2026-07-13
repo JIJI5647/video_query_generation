@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "The man in the blue plaid shirt bends over a surface, then stands upright holding a small object while looking down. He turns to face another man wearing a pink plaid shirt, who appears to be speaking with his mouth open. The setting includes a wooden door, a framed picture of goblets, and a coffee maker near a couch.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"The man in the blue plaid shirt bends over a surface, then stands upright holding a small object while looking down. He turns to face another man wearing a pink plaid shirt, who appears to be speaking with his mouth open. The setting includes a wooden door, a framed picture of goblets, and a coffee maker near a couch.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

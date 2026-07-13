@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a slow, deliberate pace, conveying a sense of urgency and distress.",
+  "temporal_description": "A bald individual, seen from behind, is wearing a dark, high-collared garment and stands still, facing a distant, fiery, and smoky landscape. The person’s posture is upright and stationary, with their head slightly turned to the side, gazing toward the horizon. The background is dominated by glowing orange and yellow flames or embers, partially obscured by smoke, suggesting a large-scale fire or destruction. The scene is dimly lit, with the person’s silhouette faintly illuminated by the ambient glow.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A bald individual, seen from behind, is wearing a dark, high-collared garment and stands still, facing a distant, fiery, and smoky landscape. The person’s posture is upright and stationary, with their head slightly turned to the side, gazing toward the horizon. The background is dominated by glowing orange and yellow flames or embers, partially obscured by smoke, suggesting a large-scale fire or destruction. The scene is dimly lit, with the person’s silhouette faintly illuminated by the ambient ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

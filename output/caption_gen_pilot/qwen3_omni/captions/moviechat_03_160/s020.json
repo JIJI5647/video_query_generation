@@ -1,0 +1,34 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "adjusting his tie"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a window with blinds in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "a male voice speaks in a foreign language.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s020\", \"time_range\": [95.0, 100.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light blue shirt and dark tie\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"adjusting his tie\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a window with blinds in the background\"}}, \"visual_expression\": [], \"audio_description\": \"a male voice speaks in a foreign language.\", \"temporal_description\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"c"
+}

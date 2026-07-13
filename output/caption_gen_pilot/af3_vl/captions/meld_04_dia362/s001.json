@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a light-colored jacket stands beside a hospital bed, holding a white cloth near a woman lying in the bed. The woman, wearing a hospital gown, is partially covered by a pink blanket and appears to be resting or in discomfort. The man leans over her, occasionally adjusting the cloth near her head or shoulder. Medical equipment, including an IV stand and a wall-mounted device, is visible in the background. The room has pink walls, and the bed has a headboard with electrical outlets and a control panel. The man’s posture is attentive, and he maintains eye contact with the woman, while she looks up at him with a neutral expression.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored jacket stands beside a hospital bed, holding a white cloth near a woman lying in the bed. The woman, wearing a hospital gown, is partially covered by a pink blanket and appears to be resting or in discomfort. The man leans over her, occasionally adjusting the cloth near her head or shoulder. Medical equipment, including an IV stand and a wall-mounted device, is visible in the background. The room has pink walls, and the bed has a headboard with electrical outlets and a c",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

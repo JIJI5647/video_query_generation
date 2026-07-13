@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "resting his head on his hand, looking down and to the side"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk, facing away from the camera"
+      },
+      {
+        "person": "a man in a blue shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk, facing away from the camera"
+      },
+      {
+        "person": "a man in a suit and glasses",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at a desk, facing the other two men"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or interrogation room with wood-paneled walls and a large desk."
+    },
+    "objects": [
+      {
+        "object": "a black briefcase",
+        "visibility": "clearly visible",
+        "position": "on the desk",
+        "action": "open, with papers inside"
+      }
+    ],
+    "interactions": [
+      "The man in the suit is seated across the desk from the other two men, appearing to be in a formal meeting or interrogation."
+    ],
+    "key_actions": [
+      "The man in the suit looks down at the papers in the briefcase."
+    ],
+    "visibility_notes": "The lighting is very dim, casting most of the scene in shadow, with the main light source coming from the front, illuminating the faces of the men at the desk."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "a tear is visible on his cheek"
+      ],
+      "body_cues": [
+        "resting his head on his hand"
+      ],
+      "gaze": "looking down and to the side"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, narrative tone.",
+  "temporal_description": "The scene is static, with the men remaining in their positions throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s052\", \"time_range\": [255.0, 260.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark shirt\", \"visibility\": \"partially visible\", \"position\": \"foreground\", \"action\": \"resting his head on his hand, looking down and to the side\"}, {\"person\": \"a man in a light-colored shirt\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"sitting at a desk, facing away from the camera\"}, {\"person\": \"a man in a blue shirt\", \"visibility\": \"partially visible\", \"posit"
+}

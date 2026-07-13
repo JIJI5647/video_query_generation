@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A woman with shoulder-length brown hair, wearing a dark purple top, holds a small glass jar containing a dark object. She examines the jar closely, then slowly pours a clear liquid from a white plastic bottle into the jar, her gaze fixed on the contents. The background is out of focus, showing indistinct shapes and light. The scene then cuts to a different setting: three men in a room with wooden doors and green walls. One man in a white shirt and tie stands at a counter, another in a dark suit stands near a table, and a third man in a light-colored shirt and apron stands beside a table with a body lying on it. The body is covered in dark spots and appears to be in a state of decomposition. The men appear to be examining or preparing the body.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair, wearing a dark purple top, holds a small glass jar containing a dark object. She examines the jar closely, then slowly pours a clear liquid from a white plastic bottle into the jar, her gaze fixed on the contents. The background is out of focus, showing indistinct shapes and light. The scene then cuts to a different setting: three men in a room with wooden doors and green walls. One man in a white shirt and tie stands at a counter, another in a dark suit ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

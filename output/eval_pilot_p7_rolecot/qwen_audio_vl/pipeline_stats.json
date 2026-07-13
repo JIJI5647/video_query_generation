@@ -1,0 +1,54 @@
+{
+  "total_videos": 17,
+  "total_segments": 655,
+  "total_raw_captions": 655,
+  "total_emotion_events": 88,
+  "total_initial_queries": 170,
+  "total_accepted_queries": 50,
+  "total_discarded_queries": 120,
+  "average_accepted_queries_per_video": 2.9412,
+  "emotion_distribution": {
+    "disappointed": 5,
+    "frustrated": 20,
+    "angry": 8,
+    "happy": 21,
+    "sad": 5,
+    "fear": 15,
+    "surprised": 8,
+    "excited": 6
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 58,
+    "evidence_cue": 79,
+    "explicit_event": 33
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 25,
+    "evidence_cue": 20,
+    "explicit_event": 5
+  },
+  "rewrite_count_distribution": {
+    "0": 170
+  },
+  "pass_rate_after_initial_verification": 0.4529,
+  "pass_rate_after_rewrites": 0.2941,
+  "discarded_query_count": 120,
+  "diversity_warnings": [
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[emostim_04_28DaysLater_clip_6] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[emostim_05_TheSilenceOfTheLambs_b_clip_1] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[emostim_07_TheSilenceOfTheLambs_a_clip_2] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[meld_01_dia337] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[meld_02_dia224] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_03_dia572] WARNING: 6 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_06_dia823] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_06_dia823] WARNING: 4 accepted queries start with 'at what' — repetitive phrasing",
+    "[meld_06_dia823] WARNING: queries 'meld_06_dia823_q04' and 'meld_06_dia823_q10' are semantically similar (word overlap 85%)",
+    "[moviechat_01_162] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[moviechat_01_162] WARNING: all accepted queries have the same query_type 'emotion_state' — low diversity",
+    "[moviechat_02_154] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[moviechat_03_160] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[moviechat_04_159] WARNING: only 0 accepted queries (recommended minimum: 3)"
+  ]
+}

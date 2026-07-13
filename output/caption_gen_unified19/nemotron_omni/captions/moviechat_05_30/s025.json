@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_description": "A group of people runs through a dim stone corridor with arched ceilings, led by a woman with long hair in a dark coat. The scene cuts to a close‑up of three young people, a woman with long red hair centered between a woman with dark hair and a man in a school uniform, all looking forward with serious expressions.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s025\", \"time_range\": [120.0, 125.0], \"visual\": \"A group of people runs through a dim stone corridor with arched ceilings, led by a woman with long hair in a dark coat. The scene cuts to a close‑up of three young people, a woman with long red hair centered between a woman with dark hair and a man in a school uniform, all looking forward with serious expressions.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

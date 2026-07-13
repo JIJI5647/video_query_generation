@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_description": "A man with long dark hair in a dark red sweater sits on a bed, then stands and grabs a baseball bat. He swings the bat and then walks toward the door. He opens the door and looks outside.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear, with only faint sounds of movement and a possible thud. No distinct speech or music is heard.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s055\", \"time_range\": [270.0, 275.0], \"visual\": \"A man with long dark hair in a dark red sweater sits on a bed, then stands and grabs a baseball bat. He swings the bat and then walks toward the door. He opens the door and looks outside.\", \"audio\": \"The audio is unclear, with only faint sounds of movement and a possible thud. No distinct speech or music is heard.\", \"confidence\": \"medium\", \"evidence_strength\": \"ambiguous\"}"
+}

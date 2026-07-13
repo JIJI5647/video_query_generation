@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A dimly lit basement or attic space is illuminated only by a single hanging bulb, revealing exposed wiring and electrical panels on the walls. Through a doorway, a person in dark clothing stands beside a bed covered with a red blanket and a white pillow. The camera moves forward and pans left, showing brick walls and a wooden door before descending a hallway.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "not audible",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"A dimly lit basement or attic space is illuminated only by a single hanging bulb, revealing exposed wiring and electrical panels on the walls. Through a doorway, a person in dark clothing stands beside a bed covered with a red blanket and a white pillow. The camera moves forward and pans left, showing brick walls and a wooden door before descending a hallway.\", \"audio\": \"not audible\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

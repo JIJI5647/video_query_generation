@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A woman lies in a hospital bed, covered with a white sheet and pink blanket, her head resting on a pillow, while a man in a beige jacket leans over her, his hand resting on her abdomen. The man is looking down at her with his head slightly tilted, and she gazes up at him with her eyes open. Medical equipment and a pink wall are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The speaker's voice is clear and steady, with a moderate pace and no noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman lies in a hospital bed, covered with a white sheet and pink blanket, her head resting on a pillow, while a man in a beige jacket leans over her, his hand resting on her abdomen. The man is looking down at her with his head slightly tilted, and she gazes up at him with her eyes open. Medical equipment and a pink wall are visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

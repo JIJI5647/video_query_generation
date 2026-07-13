@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A woman with shoulder-length blonde hair, wearing a dark cardigan over a white collared shirt with a brooch, sits facing a man whose back is to the camera; he wears a plaid shirt. The woman gestures with her hands as she speaks, her gaze directed toward the man, while seated at a table in a crowded, indoor setting with other people visible in the background. Both individuals are seated, leaning slightly forward in their chairs, engaged in conversation.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a neutral tone and moderate pace, speaking clearly and without inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length blonde hair, wearing a dark cardigan over a white collared shirt with a brooch, sits facing a man whose back is to the camera; he wears a plaid shirt. The woman gestures with her hands as she speaks, her gaze directed toward the man, while seated at a table in a crowded, indoor setting with other people visible in the background. Both individuals are seated, leaning slightly forward in their chairs, engaged in conversation.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

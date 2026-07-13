@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_description": "Two men are seated inside a car at night; the man on the left is in the driver’s seat, and the man on the right is in the passenger seat, both facing forward with their heads slightly turned toward each other. The driver appears to be looking ahead while the passenger looks toward the driver, with both maintaining relatively still postures. The interior of the car is dimly lit, with faint reflections and lights visible through the windshield and windows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a car at night; the man on the left is in the driver’s seat, and the man on the right is in the passenger seat, both facing forward with their heads slightly turned toward each other. The driver appears to be looking ahead while the passenger looks toward the driver, with both maintaining relatively still postures. The interior of the car is dimly lit, with faint reflections and lights visible through the windshield and windows.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

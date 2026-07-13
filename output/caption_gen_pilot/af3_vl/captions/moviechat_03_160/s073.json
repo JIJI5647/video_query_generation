@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s073",
+  "time_range": [
+    360.0,
+    365.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone, with no significant prosody or non-speech sounds.",
+  "temporal_description": "A man in a dark robe stands with his left arm wrapped in a white bandage, holding it close to his body. He is positioned in front of a metal-barred window with a wavy pattern, and his gaze is directed slightly off-camera. Another person, partially visible in the foreground, has their head slightly tilted and appears to be looking toward the man. The background features tiled walls and dim lighting, suggesting an indoor, possibly institutional or utilitarian setting. The man’s posture is still, and his head remains mostly stationary throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark robe stands with his left arm wrapped in a white bandage, holding it close to his body. He is positioned in front of a metal-barred window with a wavy pattern, and his gaze is directed slightly off-camera. Another person, partially visible in the foreground, has their head slightly tilted and appears to be looking toward the man. The background features tiled walls and dim lighting, suggesting an indoor, possibly institutional or utilitarian setting. The man’s posture is still, a",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

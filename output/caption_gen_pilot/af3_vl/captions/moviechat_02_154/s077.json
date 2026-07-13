@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking, with a noticeable pause between words, suggesting a moment of contemplation or hesitation.",
+  "temporal_description": "A man in a dark leather jacket sits at a table, holding chopsticks and occasionally stirring or gesturing toward a steaming pot. Behind him, another man in a gray suit stands holding a bottle, observing. The setting appears to be a dimly lit, cluttered eatery with visible electrical panels and posters on the wall. The seated man’s posture is relaxed but attentive, and he occasionally looks toward the pot or the standing man.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark leather jacket sits at a table, holding chopsticks and occasionally stirring or gesturing toward a steaming pot. Behind him, another man in a gray suit stands holding a bottle, observing. The setting appears to be a dimly lit, cluttered eatery with visible electrical panels and posters on the wall. The seated man’s posture is relaxed but attentive, and he occasionally looks toward the pot or the standing man.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

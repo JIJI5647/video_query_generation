@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man in a blue plaid shirt sits in a chair facing away, while two other men stand behind him in a dimly lit room with furniture and wall sconces. The standing men appear to be conversing or observing, with one gesturing slightly while the other looks on. The seated man’s posture is relaxed, and his head is turned slightly to his right, indicating he’s engaged with something or someone off-camera.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, repeatedly asking about disposable cameras in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a blue plaid shirt sits in a chair facing away, while two other men stand behind him in a dimly lit room with furniture and wall sconces. The standing men appear to be conversing or observing, with one gesturing slightly while the other looks on. The seated man’s posture is relaxed, and his head is turned slightly to his right, indicating he’s engaged with something or someone off-camera.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

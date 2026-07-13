@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a dark suit and tie is shown in close-up, his head tilted upward and then slowly lowered. His gaze shifts upward, then downward, and he closes his eyes briefly before looking down again. The background is blurred, with soft, warm lighting suggesting an outdoor setting during dusk or dawn. Another person is partially visible to the left, but their features are indistinct.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie is shown in close-up, his head tilted upward and then slowly lowered. His gaze shifts upward, then downward, and he closes his eyes briefly before looking down again. The background is blurred, with soft, warm lighting suggesting an outdoor setting during dusk or dawn. Another person is partially visible to the left, but their features are indistinct.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

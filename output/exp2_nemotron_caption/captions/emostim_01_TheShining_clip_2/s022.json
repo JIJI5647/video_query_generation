@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A man with long hair in a red sweater forcefully swings an axe at a door in a hallway. In a bathroom, a woman with long dark hair wearing a blue robe grips a knife and rushes toward a frosted window, with a small child with blonde hair in a red sweater clinging to her back.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual\": \"A man with long hair in a red sweater forcefully swings an axe at a door in a hallway. In a bathroom, a woman with long dark hair wearing a blue robe grips a knife and rushes toward a frosted window, with a small child with blonde hair in a red sweater clinging to her back.\", \"audio\": \"The audio is unclear.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

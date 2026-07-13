@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically neutral indoor environment, likely a small to medium-sized room with hard surfaces. The first sound is a sharp, metallic click, immediately followed by a brief, high-pitched squeak, both indicative of a metal latch or lock being manipulated. This is succeeded by a low-frequency thud and a dull clack, suggesting the opening of a heavy, solid door or cabinet. The sequence continues with a soft, muffled thud and a faint rustling, as if a person is shifting their weight or adjusting their clothing, accompanied by a subtle, low-frequency creak that hints at the movement of a wooden or metal object under load. The environment remains silent, with no speech, music, or ambient noise present.\n\nSuddenly, a loud, high-pitched, abrasive metallic scraping erupts, lasting about two seconds. The sound is harsh, grating, and irregular, with a rapid, chaotic rhythm and a wide frequency range, suggesting the forceful dragging of a heavy metal object—such as a filing cabinet, toolbox, or industrial drawer—across a hard floor. The scraping is accompanied by a faint, high-frequency hiss, likely from the microphone’s noise floor, and the sound is slightly distorted at its loudest moments, indicating the recording device was pushed to its limits. The scraping ends abruptly, leaving a brief moment of silence.\n\nAt this point, a loud, synthetic electronic tone begins, characterized by a low pitch, buzzy timbre, and a harsh, grating quality. The tone is monophonic, static, and unmodulated, with a sawtooth or square wave profile, and is reminiscent of a digital error alert or system failure buzzer. It is much louder than previous sounds and dominates the audio, with no other noises present. The tone continues until the end of the recording, which concludes abruptly, suggesting the file was cut off mid-tone.\n\nThroughout the clip, the recording is of moderate fidelity, with a clear signal and a faint, persistent hiss. The dynamic range is wide, with the scraping and electronic tone being significantly louder than the initial mechanical actions. The frequency spectrum spans from low-frequency thuds to high-frequency metallic squeaks and the electronic tone’s harmonics. The spatial impression is close and direct, with no reverberation or echo, and the sounds are centered in the stereo field. The sequence of events is deliberate and sequential, with no overlap or interaction between the sounds. The absence of speech, music, or ambient noise, combined with the mechanical and electronic nature of the sounds, suggests a utilitarian, possibly industrial or institutional setting. The final electronic tone strongly implies a system error or malfunction, reinforcing the impression of a technical or procedural context.\n\nIn summary, the audio captures a sequence of mechanical actions—unlocking, opening, and dragging a heavy metal object—followed by a loud, synthetic error tone, all set in a quiet, acoustically neutral indoor environment. The recording is clear and direct, with no speech or music, and the events suggest a procedural or technical scenario, culminating in a system alert or malfunction.",
+  "temporal_description": "A hand holds a silver Motorola flip phone displaying a list of dialed calls, then moves the phone toward a laptop, where fingers type rapidly on the keyboard. The scene transitions to a nighttime aerial view of a city, with lights illuminating streets and buildings, gradually zooming in on a specific area with a dark, possibly industrial or urban structure.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A hand holds a silver Motorola flip phone displaying a list of dialed calls, then moves the phone toward a laptop, where fingers type rapidly on the keyboard. The scene transitions to a nighttime aerial view of a city, with lights illuminating streets and buildings, gradually zooming in on a specific area with a dark, possibly industrial or urban structure.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

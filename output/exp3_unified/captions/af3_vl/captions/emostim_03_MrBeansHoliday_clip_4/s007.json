@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man in a suit and tie is leaning forward, his face partially visible as he appears to be interacting with something off-camera. The camera then shifts to show the rear of a white vehicle, focusing on its red taillight and part of its black bumper. The background suggests an outdoor setting with trees and a clear sky.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing with a medium pitch and moderate tempo, accompanied by background music.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and tie is leaning forward, his face partially visible as he appears to be interacting with something off-camera. The camera then shifts to show the rear of a white vehicle, focusing on its red taillight and part of its black bumper. The background suggests an outdoor setting with trees and a clear sky.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

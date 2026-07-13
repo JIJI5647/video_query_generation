@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_description": "A disheveled man with shoulder-length hair, wearing a red jacket over a plaid shirt, stands in a doorway. He looks around with wide eyes, his mouth open as if speaking or gasping. A framed picture hangs on the wall behind him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "His voice sounds strained and urgent, possibly shouting or speaking loudly.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s045\", \"time_range\": [220.0, 225.0], \"visual\": \"A disheveled man with shoulder-length hair, wearing a red jacket over a plaid shirt, stands in a doorway. He looks around with wide eyes, his mouth open as if speaking or gasping. A framed picture hangs on the wall behind him.\", \"audio\": \"His voice sounds strained and urgent, possibly shouting or speaking loudly.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

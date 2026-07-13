@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a calm and steady manner, with no noticeable background noise or emotional inflection.",
+  "temporal_description": "A man in a white shirt stands on a dimly lit balcony, leaning on the railing with his left hand while his right hand is raised toward a bright light source. He is positioned near a translucent plastic sheet hanging from above, which partially obscures the view behind him. The hallway behind him is narrow and lined with green doors, with occasional figures walking in the distance. The camera slowly pans left, revealing more of the building’s structure and the darkened windows of adjacent floors. The man remains still, occasionally shifting his gaze slightly, and his posture remains upright and attentive throughout the scene.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt stands on a dimly lit balcony, leaning on the railing with his left hand while his right hand is raised toward a bright light source. He is positioned near a translucent plastic sheet hanging from above, which partially obscures the view behind him. The hallway behind him is narrow and lined with green doors, with occasional figures walking in the distance. The camera slowly pans left, revealing more of the building’s structure and the darkened windows of adjacent floors. ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

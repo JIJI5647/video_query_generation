@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A man in a patterned vest stands facing another man in a light suit, both in a dimly lit, tiled room with visible metal bars in the background. The man in the vest gestures slightly with his hand while looking at the other man, who stands still with a neutral expression and direct gaze. The lighting casts a greenish hue over the scene, emphasizing the gritty texture of the walls and the men’s formal attire.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a burst of energetic, synthesized music reminiscent of late 1980s to early 1990s Thai pop or dance-pop, characterized by a driving four-on-the-floor drum machine beat, a bright, arpeggiated synthesizer melody, and a pulsing synth bassline. The music is mixed in stereo, with the melody and bass centered and the drums panned for width, creating a lively, danceable atmosphere. Over this, a male voice with a clear, standard Central Thai accent speaks in a calm, conversational tone: \"ฉันก็สองคนไปไหน\" (\"I also, where are the two of us going?\"). His speech is delivered at a moderate pace, with a neutral, slightly inquisitive inflection, and is mixed slightly forward in the stereo field, making it prominent yet not overpowering the music. The recording is of high fidelity, with no background noise, distortion, or environmental sounds, and the voice is captured in a dry, studio-like setting. The music and speech are abruptly cut off mid-phrase, with no fade-out or natural conclusion, indicating a deliberate edit. Immediately following this, a loud, low-frequency electronic buzz—harsh, static, and synthetic",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a patterned vest stands facing another man in a light suit, both in a dimly lit, tiled room with visible metal bars in the background. The man in the vest gestures slightly with his hand while looking at the other man, who stands still with a neutral expression and direct gaze. The lighting casts a greenish hue over the scene, emphasizing the gritty texture of the walls and the men’s formal attire.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

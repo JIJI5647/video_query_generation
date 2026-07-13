@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_description": "A man with dark, messy hair and a beard, wearing a plaid shirt under a maroon jacket, leans against a door frame indoors, his hand near the door. He looks toward the camera with his mouth slightly open, his gaze fixed forward. The background includes a framed picture on the wall and a partially visible doorway.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a steady, low-frequency mechanical hum, characteristic of a large electric motor or industrial machinery operating in a reverberant, enclosed space. This hum is accompanied by a faint, high-frequency hiss, likely from the recording equipment or the environment. Shortly after the start, a rhythmic, metallic clatter emerges, consisting of sharp, high-pitched impacts that occur at a regular interval of about 0.8 seconds. These impacts are consistent with the sound of a metal chain or sprocket mechanism, such as those found in an elevator or escalator, and are accompanied by a subtle, higher-pitched whirring, suggesting the movement of a motor-driven system. The mechanical sounds are clear and well-defined, with the hum and clatter dominating the soundscape and no other environmental or human noises present. As the sequence progresses, the metallic clatter continues at a steady pace, maintaining its regular rhythm and intensity. The underlying hum remains constant, and the reverberant quality of the space is evident, with the sounds reflecting off hard surfaces and creating a sense of enclosure. The recording is monophonic, with all sounds centered and no spatial movement, and the overall fidelity is moderate, with a limited frequency range and a persistent background his",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, messy hair and a beard, wearing a plaid shirt under a maroon jacket, leans against a door frame indoors, his hand near the door. He looks toward the camera with his mouth slightly open, his gaze fixed forward. The background includes a framed picture on the wall and a partially visible doorway.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

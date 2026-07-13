@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful shout from a single adult male, whose voice is high-pitched, strained, and urgent, conveying a sense of panic and alarm. He exclaims, “快點走啊！” (“Hurry up and go!”), with the final particle “啊” (a) drawn out and rising in pitch, amplifying the emotional intensity. The delivery is loud and clipped, causing the recording to distort and crackle at the peak, while a persistent low-level hiss and a faint, low-frequency hum are present throughout, indicating a noisy, reverberant environment. The reverberation is pronounced, suggesting the speaker is in a large, hard-surfaced indoor space such as a warehouse, garage, or empty hall.\n\nImmediately after the shout, the speaker’s voice ceases, and the ambient hiss and hum become more prominent. A brief, sharp mechanical click is heard, likely from a button or switch being pressed, followed by a soft rustling sound, as if the speaker is adjusting clothing or handling a device. These sounds are close to the microphone, with no evidence of movement or additional voices. The environment remains quiet and empty, with no other people or background activity.\n\nSuddenly, a loud, synthetic electronic tone erupts, characterized by a harsh, buzzy timbre typical of a square or sawtooth wave. The tone is centered at approximately 110 Hz (A2), with strong harmonics extending up to 1.5 kHz, and is much louder than the preceding sounds. It is monophonic, static, and unmodulated, with no spatial movement or environmental reverberation, indicating it is a direct digital signal rather than a physical sound source. The tone continues at full volume until the recording ends abruptly, with no fade-out or additional events.\n\nIn summary, the audio captures a tense, urgent moment in a large, empty indoor space, where a male speaker shouts a command in Mandarin Chinese, followed by brief handling noises and a sudden, loud electronic tone. The recording is marked by low fidelity, distortion, and a noisy background, with no other voices or environmental sounds present. The sequence suggests a scenario of emergency or alarm, possibly related to a security or alert system, and the abrupt ending leaves the situation unresolved.",
+  "temporal_description": "A man in a suit and glasses is seated, holding a lit cigarette near his mouth, with smoke rising. Another man, partially visible, is seated across from him, holding a lit cigarette as well. The second man is shown in close-up, holding a cigarette near his ear, with his gaze directed toward the first man. The scene is dimly lit, with a focus on the two men and their cigarettes, and a hand is seen operating a flip phone, typing on its keypad before placing it down.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses is seated, holding a lit cigarette near his mouth, with smoke rising. Another man, partially visible, is seated across from him, holding a lit cigarette as well. The second man is shown in close-up, holding a cigarette near his ear, with his gaze directed toward the first man. The scene is dimly lit, with a focus on the two men and their cigarettes, and a hand is seen operating a flip phone, typing on its keypad before placing it down.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

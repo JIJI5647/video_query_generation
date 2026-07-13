@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and urgent scream, indicating a moment of intense emotion or distress.",
+  "temporal_description": "A person with long dark hair, wearing a blue jacket over a checkered shirt and a beige turtleneck, is partially visible behind a white, peeling wall or door frame. They are holding a large knife in their right hand and appear to be in a crouched or hunched position, occasionally moving their head and hand near their face. Their left hand is sometimes raised to their head or face, and they are looking out from behind the wall, occasionally shifting their gaze. The setting appears to be an indoor space with tiled flooring and a plain, worn wall.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a blue jacket over a checkered shirt and a beige turtleneck, is partially visible behind a white, peeling wall or door frame. They are holding a large knife in their right hand and appear to be in a crouched or hunched position, occasionally moving their head and hand near their face. Their left hand is sometimes raised to their head or face, and they are looking out from behind the wall, occasionally shifting their gaze. The setting appears to be an indoor ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

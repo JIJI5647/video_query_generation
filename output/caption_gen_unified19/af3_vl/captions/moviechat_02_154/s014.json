@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A man in a suit and glasses stands in a dimly lit outdoor setting, facing another man in a suit whose back is to the camera; a third man is partially visible to the left. The man in glasses looks down briefly, then up at the other man, who appears to be adjusting his tie or cufflink. The scene is nighttime, with streetlights and a parked car visible in the background, and the men are standing close together near a building.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses stands in a dimly lit outdoor setting, facing another man in a suit whose back is to the camera; a third man is partially visible to the left. The man in glasses looks down briefly, then up at the other man, who appears to be adjusting his tie or cufflink. The scene is nighttime, with streetlights and a parked car visible in the background, and the men are standing close together near a building.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

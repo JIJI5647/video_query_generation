@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s083",
+  "time_range": [
+    410.0,
+    415.0
+  ],
+  "visual_description": "A person in dark clothing is seen running through a cluttered indoor space while engulfed in flames, moving rapidly toward the right side of the frame. The background includes shelves, tables, and various objects, with another person partially visible in the distance near a doorway. The flaming figure’s posture is dynamic and urgent, suggesting swift motion through the environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace with a noticeable breathiness and a sigh-like tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in dark clothing is seen running through a cluttered indoor space while engulfed in flames, moving rapidly toward the right side of the frame. The background includes shelves, tables, and various objects, with another person partially visible in the distance near a doorway. The flaming figure’s posture is dynamic and urgent, suggesting swift motion through the environment.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

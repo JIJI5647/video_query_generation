@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "swinging an axe at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "hallway with a staircase and a door"
+    },
+    "objects": [
+      {
+        "object": "axe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being swung at a door"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "swinging an axe at a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red jacket",
+      "facial_cues": [
+        "angry expression"
+      ],
+      "body_cues": [
+        "swinging an axe"
+      ],
+      "gaze": "at the door"
+    }
+  ],
+  "audio_description": "a loud crashing sound is heard as the axe hits the door",
+  "temporal_description": "the man swings the axe at the door, causing a loud crash",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a red jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"swinging an axe at a door\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"hallway with a staircase and a door\"}, \"objects\": [{\"object\": \"axe\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being swung at a door\"}], \"interactions\": [], \"key_actions\": [\"swinging an axe at a door\"], "
+}

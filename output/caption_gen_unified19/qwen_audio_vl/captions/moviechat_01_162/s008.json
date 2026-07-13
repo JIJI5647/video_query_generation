@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A man in a dark suit and tie is shown in close-up, his head tilted back and eyes looking upward. The background is blurred with indistinct shapes and warm lighting. His posture is upright but his head is raised, suggesting he is looking at something above him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single, resonant piano chord played in the lower register, its notes sustained and enveloped in a lush, artificial reverb that creates a spacious, cinematic atmosphere. The chord is slightly dissonant, imparting a sense of tension and anticipation. As the chord fades, a subtle, low-frequency ambient hum emerges, reminiscent of distant city traffic or the mechanical drone of a large vessel, establishing a steady, atmospheric backdrop. Shortly after, a sharp, high-frequency metallic click is heard, likely the sound of a latch or mechanism being engaged, followed by a brief, low-frequency thud, suggesting the movement or settling of a heavy object. These sounds are dry and close, contrasting with the reverberant piano and ambient hum. A soft, low-frequency rustling sound then appears, evoking the movement of fabric or a heavy bag being shifted, further reinforcing the impression of physical activity. This is followed by a distinct, high-pitched metallic squeak, characteristic of a hinge or wheel under strain, which is quickly succeeded by a brief, low-frequency thud, indicating the object has come to rest. The ambient hum persists, maintaining the sense of a large, enclosed environment. The sequence concludes with a sharp, high-frequency metallic click",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie is shown in close-up, his head tilted back and eyes looking upward. The background is blurred with indistinct shapes and warm lighting. His posture is upright but his head is raised, suggesting he is looking at something above him.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

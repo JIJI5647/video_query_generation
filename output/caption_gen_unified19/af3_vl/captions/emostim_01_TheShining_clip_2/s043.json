@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_description": "A man with dark, medium-length hair and a beard, wearing a plaid shirt under a maroon jacket, is partially visible beside a doorframe, looking toward the left side of the frame. His head is slightly tilted, and his mouth is open as if speaking or reacting. Behind him, a framed picture hangs on the wall, and the interior suggests a residential hallway with warm-toned walls and door trim.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow pace, speaking in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, medium-length hair and a beard, wearing a plaid shirt under a maroon jacket, is partially visible beside a doorframe, looking toward the left side of the frame. His head is slightly tilted, and his mouth is open as if speaking or reacting. Behind him, a framed picture hangs on the wall, and the interior suggests a residential hallway with warm-toned walls and door trim.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

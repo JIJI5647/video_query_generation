@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_description": "A young man in a black shirt stands in front of a metal-barred window, his gaze directed slightly downward. A middle-aged man in a light-colored suit is shown in close-up, his face partially illuminated in dim lighting. Both appear stationary, with the young man’s posture slightly hunched and the older man’s head turned slightly to the side.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man in a black shirt stands in front of a metal-barred window, his gaze directed slightly downward. A middle-aged man in a light-colored suit is shown in close-up, his face partially illuminated in dim lighting. Both appear stationary, with the young man’s posture slightly hunched and the older man’s head turned slightly to the side.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

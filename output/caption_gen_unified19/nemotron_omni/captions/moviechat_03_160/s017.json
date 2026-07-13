@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "A close‑up shows a hand in a white sleeve gripping a metal rail in a dimly lit setting. The scene cuts to a man in a light shirt sitting with his hands clasped behind his head, staring intently at a screen. Finally, a woman with long dark hair looks at a laptop with a serious expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with no distinct sounds audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s017\", \"time_range\": [80.0, 85.0], \"visual\": \"A close‑up shows a hand in a white sleeve gripping a metal rail in a dimly lit setting. The scene cuts to a man in a light shirt sitting with his hands clasped behind his head, staring intently at a screen. Finally, a woman with long dark hair looks at a laptop with a serious expression.\", \"audio\": \"The audio is quiet with no distinct sounds audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

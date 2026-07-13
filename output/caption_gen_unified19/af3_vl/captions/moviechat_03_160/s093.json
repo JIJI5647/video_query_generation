@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_description": "A man in a light blue shirt and striped tie stands in the foreground, facing forward, while several other people in similar attire are visible behind him, some walking and others seated at a long table. One man with gray hair is seated at the table, eating, while others stand around him, some looking toward him or the table. The scene is set in a dimly lit, modern office or conference room with glass partitions and framed artwork on the walls.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking in a quiet environment with no background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt and striped tie stands in the foreground, facing forward, while several other people in similar attire are visible behind him, some walking and others seated at a long table. One man with gray hair is seated at the table, eating, while others stand around him, some looking toward him or the table. The scene is set in a dimly lit, modern office or conference room with glass partitions and framed artwork on the walls.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

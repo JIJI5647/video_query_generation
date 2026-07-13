@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A man in a dark suit and tie, with a wire earpiece, stands in a dimly lit room. He has his eyes closed and a pained expression on his face. The camera pulls back to reveal a control room with several people working at computer stations in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A high-pitched, electronic beeping sound, similar to a heart monitor, is audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"A man in a dark suit and tie, with a wire earpiece, stands in a dimly lit room. He has his eyes closed and a pained expression on his face. The camera pulls back to reveal a control room with several people working at computer stations in the background.\", \"audio\": \"A high-pitched, electronic beeping sound, similar to a heart monitor, is audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

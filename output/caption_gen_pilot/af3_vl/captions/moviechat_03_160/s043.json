@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A man in a dark suit and tie is seen in a dimly lit room, holding a phone to his ear, with multiple computer monitors displaying blue screens behind him. Another person in a dark uniform with \"OCT\" visible on the back is partially visible in the background, standing near a whiteboard. The scene shifts to a close-up of a man wearing headphones, looking downward with a focused expression. Later, a hand is shown pressing a button labeled \"ACTIVE\" on a device attached to a laptop keyboard. The final scene shows a man in darkness, holding binoculars up to his eyes, with another person partially visible beside him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie is seen in a dimly lit room, holding a phone to his ear, with multiple computer monitors displaying blue screens behind him. Another person in a dark uniform with \"OCT\" visible on the back is partially visible in the background, standing near a whiteboard. The scene shifts to a close-up of a man wearing headphones, looking downward with a focused expression. Later, a hand is shown pressing a button labeled \"ACTIVE\" on a device attached to a laptop keyboard. The final",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

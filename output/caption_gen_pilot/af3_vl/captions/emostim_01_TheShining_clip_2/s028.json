@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a single voice with a clear and steady tone, conveying a sense of calm and focus.",
+  "temporal_description": "A person wearing a red sleeve is seen attempting to unlock a door with a key, their hand moving back and forth as they try to turn the key in the lock. The scene then shifts to a bathroom where a person in a blue robe is holding another person, who is wearing a red and green striped sweater, in front of a window. The person in the robe is supporting the other person as they reach out with their legs, attempting to climb out of the window. The window has snow on it, and the bathroom walls are tiled with white tiles and a black stripe. The scene then transitions to an outdoor snowy area at night, illuminated by streetlights, with a large pile of snow in front of a building. The snow is piled high, and the area appears to be deserted. The camera remains stationary throughout the outdoor scene, capturing the stillness of the snowy environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a red sleeve is seen attempting to unlock a door with a key, their hand moving back and forth as they try to turn the key in the lock. The scene then shifts to a bathroom where a person in a blue robe is holding another person, who is wearing a red and green striped sweater, in front of a window. The person in the robe is supporting the other person as they reach out with their legs, attempting to climb out of the window. The window has snow on it, and the bathroom walls are til",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

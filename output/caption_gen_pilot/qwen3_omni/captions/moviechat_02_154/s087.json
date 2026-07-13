@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a gun and pointing it forward"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime, urban alleyway with a shop in the background"
+    },
+    "objects": [
+      {
+        "object": "gun",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man in the suit"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the suit points the gun forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "holding a gun"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "a loud, dramatic musical score with a strong percussive beat plays in the background.",
+  "temporal_description": "the man in the suit maintains his stance and points the gun forward throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s087\", \"time_range\": [430.0, 435.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a gun and pointing it forward\"}], \"scene\": {\"location\": \"street\", \"setting\": \"nighttime, urban alleyway with a shop in the background\"}, \"objects\": [{\"object\": \"gun\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"held by the man in the suit\"}], \"interactions\": [], \"key_actions"
+}

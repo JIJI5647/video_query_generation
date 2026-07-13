@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_description": "A bald man in a dark suit walks forward through a dimly lit, cluttered indoor space with plastic bags and indistinct figures in the foreground. In another scene, a person in a floral dress bends over a pool table, arranging or playing with the balls, while another person stands nearby in a warmly lit room with tufted furniture and hanging lamps. The man’s gaze is forward, his posture upright, and he appears to be moving steadily through the environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace with a clear and steady prosody.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A bald man in a dark suit walks forward through a dimly lit, cluttered indoor space with plastic bags and indistinct figures in the foreground. In another scene, a person in a floral dress bends over a pool table, arranging or playing with the balls, while another person stands nearby in a warmly lit room with tufted furniture and hanging lamps. The man’s gaze is forward, his posture upright, and he appears to be moving steadily through the environment.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

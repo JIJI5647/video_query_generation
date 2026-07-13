@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s072",
+  "time_range": [
+    355.0,
+    360.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A man in a white shirt and dark tie stands at the head of a conference table, facing seated individuals in uniform. The seated men, also in white shirts and dark ties, are positioned around the table, some looking down at papers or at the standing man. The room has glass partitions, a staircase in the background, and a television screen displaying a hallway. One man leans forward slightly, his head turned toward the standing man, while another remains seated with his hands on the table. The standing man maintains a steady posture, occasionally shifting his weight slightly.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and dark tie stands at the head of a conference table, facing seated individuals in uniform. The seated men, also in white shirts and dark ties, are positioned around the table, some looking down at papers or at the standing man. The room has glass partitions, a staircase in the background, and a television screen displaying a hallway. One man leans forward slightly, his head turned toward the standing man, while another remains seated with his hands on the table. The stan",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

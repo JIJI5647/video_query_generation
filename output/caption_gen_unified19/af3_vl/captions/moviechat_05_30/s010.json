@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A person with pale skin and dark clothing is shown in a dim, blue-lit environment, leaning forward with their head down. Their hand holds a thin, dark object resembling a wand, positioned against a blurred background of warm-toned light. The person’s posture suggests focused attention on the object in their hand.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable prosodic variations or non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with pale skin and dark clothing is shown in a dim, blue-lit environment, leaning forward with their head down. Their hand holds a thin, dark object resembling a wand, positioned against a blurred background of warm-toned light. The person’s posture suggests focused attention on the object in their hand.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

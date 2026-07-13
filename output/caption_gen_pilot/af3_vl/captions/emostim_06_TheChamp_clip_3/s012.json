@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice, likely a girl, speaking in a high-pitched, excited tone, with noticeable breathing sounds and a brief pause before the speech.",
+  "temporal_description": "An older man with thinning hair, wearing a dark shirt, is seated and has a hand placed on his shoulder by another person whose arm is partially visible. The man’s head is slightly bowed, and he brings his hand up to his face, covering his eyes. The scene shifts to a young boy with light-colored hair, wearing a gray shirt, looking forward with a neutral expression. Later, the older man is seen standing, leaning forward, and moving his hands as if handling something, with framed photos visible on the wall behind him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "An older man with thinning hair, wearing a dark shirt, is seated and has a hand placed on his shoulder by another person whose arm is partially visible. The man’s head is slightly bowed, and he brings his hand up to his face, covering his eyes. The scene shifts to a young boy with light-colored hair, wearing a gray shirt, looking forward with a neutral expression. Later, the older man is seen standing, leaning forward, and moving his hands as if handling something, with framed photos visible on ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

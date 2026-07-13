@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A close-up reveals a person with blood on their cheek and forehead, illuminated against a dark background. The individual appears to be wiping or touching their face with a hand, and the camera captures a brief glimpse of wet hair and skin. The scene is dimly lit, emphasizing the wetness of the skin and the presence of blood.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"A close-up reveals a person with blood on their cheek and forehead, illuminated against a dark background. The individual appears to be wiping or touching their face with a hand, and the camera captures a brief glimpse of wet hair and skin. The scene is dimly lit, emphasizing the wetness of the skin and the presence of blood.\", \"audio\": \"Audio is not clearly audible.\", \"confidence\": \"medium\", \"evidence_strength\": \"clear\"}"
+}

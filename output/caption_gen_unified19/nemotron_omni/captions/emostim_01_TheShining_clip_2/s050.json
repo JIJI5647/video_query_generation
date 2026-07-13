@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_description": "A woman with long dark hair, wearing a blue coat over a beige turtleneck, peeks from behind a white door frame while holding a knife in her right hand. She smiles broadly, raises the knife, and looks toward the left side of the frame. The background shows a white wall with vertical lines and a piece of fabric attached to the door.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains a rapid, high-pitched vocalization. No other sounds are clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s050\", \"time_range\": [245.0, 250.0], \"visual\": \"A woman with long dark hair, wearing a blue coat over a beige turtleneck, peeks from behind a white door frame while holding a knife in her right hand. She smiles broadly, raises the knife, and looks toward the left side of the frame. The background shows a white wall with vertical lines and a piece of fabric attached to the door.\", \"audio\": \"The audio contains a rapid, high-pitched vocalization. No other sounds are clearly audible."
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_description": "A man with dark hair, wearing a maroon shirt and blue jeans, stands in a dimly lit bedroom. He lifts a large axe and swings it forcefully at a white door with glass panels. His face is turned toward the camera, showing a broad smile as he repeatedly strikes the door.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures the thudding impact of the axe on the door and the man's audible laughter.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s047\", \"time_range\": [230.0, 235.0], \"visual\": \"A man with dark hair, wearing a maroon shirt and blue jeans, stands in a dimly lit bedroom. He lifts a large axe and swings it forcefully at a white door with glass panels. His face is turned toward the camera, showing a broad smile as he repeatedly strikes the door.\", \"audio\": \"The audio captures the thudding impact of the axe on the door and the man's audible laughter.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

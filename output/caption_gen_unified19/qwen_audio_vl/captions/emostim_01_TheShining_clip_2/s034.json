@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_description": "A person in a red jacket and jeans walks away from the camera down a hallway into a dimly lit room, carrying a wooden bat. In the foreground, another person is partially visible, standing near a doorway with snow on the ground outside. The scene transitions from a snowy outdoor setting to an indoor environment with vintage furniture and warm lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, intense burst of mechanical sound, dominated by a high-pitched, metallic whine that rapidly increases in both pitch and volume. This whine, reminiscent of a high-speed electric motor or turbine, is accompanied by a deep, resonant rumble and a pronounced Doppler effect, indicating the sound source is moving swiftly past the recording device. The environment is acoustically reflective, with short, sharp echoes suggesting a large, hard-surfaced space such as a tunnel, garage, or industrial hall. The recording is of low fidelity, with significant digital clipping and distortion, especially during the loudest moments, and a persistent background hiss. No other sounds—such as speech, music, or ambient noise—are present, and the mechanical whine is the sole focus. As the whine reaches its peak, it abruptly ceases, leaving a brief moment of near-silence. This sudden stop is followed by a sharp, metallic clank, likely the sound of a heavy mechanical component engaging or a latch snapping into place. Immediately after, a low-frequency, resonant hum emerges, characterized by a steady, unwavering tone with a fundamental frequency around 60 Hz and harmonics at 120 Hz",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a red jacket and jeans walks away from the camera down a hallway into a dimly lit room, carrying a wooden bat. In the foreground, another person is partially visible, standing near a doorway with snow on the ground outside. The scene transitions from a snowy outdoor setting to an indoor environment with vintage furniture and warm lighting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

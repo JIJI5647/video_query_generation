@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A group of people, mostly seen from behind, stand in a room facing a large screen displaying a news report with a man’s face and text. The individuals are mostly stationary, with some slightly shifting their weight or turning their heads, while one person near the front appears to be holding a phone to their ear. The screen shows a news broadcast with Chinese characters and a photo of a man, while the room has dim lighting and a hanging lamp overhead.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip is a 5.5-second excerpt from a professionally produced news broadcast, almost certainly originating from Taiwan and delivered in Mandarin Chinese. The recording begins with a female news anchor speaking in a formal, clear, and measured tone, characteristic of broadcast journalism. Her speech is: “警务处处长发表声明，对黄志成警司的死表示沉重的哀悼，并且表—” (“The Commissioner of Police has issued a statement, expressing solemn condolences for the death of Superintendent Wong Chi-shing, and has also—”). The sentence is abruptly cut off mid-word, indicating the clip is a fragment from a longer segment. The anchor’s voice is centrally placed in the stereo field, with a slight reverb suggesting a studio environment. Underneath her narration, a continuous, low-volume, synthesized instrumental track plays. This background music is slow, somber, and atmospheric, featuring sustained pads and a simple, descending melodic motif. The music is mixed to remain unobtrusive, supporting the gravity of the news without drawing attention to itself. The audio quality is high, with a full frequency range and no distortion, hiss, or environmental noise. The only technical artifact is a faint, high-frequency hiss, likely from the recording equipment or post",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people, mostly seen from behind, stand in a room facing a large screen displaying a news report with a man’s face and text. The individuals are mostly stationary, with some slightly shifting their weight or turning their heads, while one person near the front appears to be holding a phone to their ear. The screen shows a news broadcast with Chinese characters and a photo of a man, while the room has dim lighting and a hanging lamp overhead.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

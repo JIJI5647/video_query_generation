@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice shouting, with a high pitch and intense prosody, conveying a sense of urgency and fear.",
+  "temporal_description": "A person in dark clothing is seen moving through a smoky environment, their back mostly turned to the camera, with sparks occasionally flying from their clothing. Later, a group of individuals in dark uniforms with illuminated patches are seen running and moving through a rocky, grassy terrain at night, some holding flashlights. One person in dark clothing is seen crawling on the ground, appearing to be in distress or exhaustion, while others stand nearby. In another scene, two individuals are seen running through shallow water, splashing as they move, with one person appearing to be assisting or guiding the other. The overall setting is dark, with limited visibility, and the scenes are illuminated by artificial light sources such as flashlights or distant lights.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in dark clothing is seen moving through a smoky environment, their back mostly turned to the camera, with sparks occasionally flying from their clothing. Later, a group of individuals in dark uniforms with illuminated patches are seen running and moving through a rocky, grassy terrain at night, some holding flashlights. One person in dark clothing is seen crawling on the ground, appearing to be in distress or exhaustion, while others stand nearby. In another scene, two individuals are s",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

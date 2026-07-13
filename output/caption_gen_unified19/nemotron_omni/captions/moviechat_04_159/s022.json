@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A man in a dark suit walks past a desk where a man in a white shirt sits. The view widens to show a busy office with a man in a white shirt, a woman in a light pink blouse, and another man in a black suit standing behind them, all focused on their computers.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Ambient office sounds, including typing and low murmurs, are audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual\": \"A man in a dark suit walks past a desk where a man in a white shirt sits. The view widens to show a busy office with a man in a white shirt, a woman in a light pink blouse, and another man in a black suit standing behind them, all focused on their computers.\", \"audio\": \"Ambient office sounds, including typing and low murmurs, are audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

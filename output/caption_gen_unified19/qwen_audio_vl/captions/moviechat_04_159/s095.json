@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_description": "In a dimly lit room with tiled walls and framed pictures, a group of men stand facing each other; one in a patterned jacket gestures while speaking, another in a suit leans forward, and others observe. One man holds a cigarette near his mouth, while another raises his hand in a defensive or explanatory motion. Their postures suggest an intense interaction, with focused gazes and tense body language.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched metallic click, likely from a lighter or small metal object, immediately followed by a brief, low-frequency thud, suggesting a hand or object making contact with a hard surface. A male voice, speaking in clear, standard Mandarin with a neutral accent, says, “你好，你好” (“Hello, hello”), his tone calm and polite, indicating a greeting. This is immediately followed by a second male voice, also in Mandarin, who says, “是的” (“Yes”), in a neutral, matter-of-fact manner, confirming the greeting. Both voices are close to the microphone, with the first voice slightly left of center and the second slightly right, both exhibiting a subtle room reverberation that suggests a small, hard-surfaced indoor space. As the conversation ends, a rapid, rhythmic metallic rattling begins, characterized by a bright, high-frequency timbre and a steady tempo of about 120 beats per minute. The sound is consistent with a metal shaker or maraca being shaken vigorously, and is panned slightly right of center, indicating the instrument is being played by the second speaker. The rattling is dry and percussive, with no background noise or environmental interference",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit room with tiled walls and framed pictures, a group of men stand facing each other; one in a patterned jacket gestures while speaking, another in a suit leans forward, and others observe. One man holds a cigarette near his mouth, while another raises his hand in a defensive or explanatory motion. Their postures suggest an intense interaction, with focused gazes and tense body language.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

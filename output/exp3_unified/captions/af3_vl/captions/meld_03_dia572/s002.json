@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A woman with shoulder-length brown hair sits upright in a hospital bed, covered by a pink blanket and wearing a white hospital gown, looking toward a man seated beside her. The man, partially visible, faces her and appears to be leaning slightly forward. Medical equipment and a wall-mounted panel with outlets are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate speed, expressing strong negative emotions through words like 'evil bitch' and 'sick bastard'.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair sits upright in a hospital bed, covered by a pink blanket and wearing a white hospital gown, looking toward a man seated beside her. The man, partially visible, faces her and appears to be leaning slightly forward. Medical equipment and a wall-mounted panel with outlets are visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

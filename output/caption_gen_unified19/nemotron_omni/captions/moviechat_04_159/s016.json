@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "A man in a dark suit and glasses holds a lit cigarette to his lips while looking at another man in a suit. The second man, also in a suit, holds a flip phone to his ear and appears to be speaking. The scene is dimly lit with blue lighting, focusing on their faces and the phone.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man's voice is audible as he speaks into the phone, with a calm, steady tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual\": \"A man in a dark suit and glasses holds a lit cigarette to his lips while looking at another man in a suit. The second man, also in a suit, holds a flip phone to his ear and appears to be speaking. The scene is dimly lit with blue lighting, focusing on their faces and the phone.\", \"audio\": \"A man's voice is audible as he speaks into the phone, with a calm, steady tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

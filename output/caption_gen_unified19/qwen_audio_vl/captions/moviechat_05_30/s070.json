@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_description": "A person in a white head covering and light-colored coat stands at a cluttered workbench filled with metallic objects and tools. The scene is dimly lit, revealing a complex, industrial interior with multiple workstations, machinery, and scattered equipment. Another figure is partially visible in the background, moving among the machinery, while the foreground person gestures toward the workbench.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in complete silence, immediately establishing a sense of anticipation. A low, sustained, and ominous synthesized drone emerges, characterized by a deep, resonant bass and a shimmering, high-frequency texture. This drone is enveloped in a vast, artificial reverb, creating a cavernous, otherworldly atmosphere. The sound is static and unchanging, with no movement or variation, and is presented in pristine, high-fidelity stereo, free from any background noise or artifacts. Abruptly, the drone is interrupted by a sharp, metallic impact—a high-pitched, resonant clang with a long, metallic decay. This sound is spatially centered and reverberates through the same expansive, artificial space, suggesting the activation of a massive, mechanical device. The impact is followed by a rapid, rhythmic sequence of metallic clicks and clacks, reminiscent of a complex mechanism such as a gear, ratchet, or locking system engaging. These sounds are tightly clustered in the center of the stereo field, with subtle variations in pitch and timbre, and are accompanied by a faint, high-frequency whirring, evoking the operation of a motor or turbine. The mechanical sequence is precise and deliberate, with no extraneous noise, and the overall effect is",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a white head covering and light-colored coat stands at a cluttered workbench filled with metallic objects and tools. The scene is dimly lit, revealing a complex, industrial interior with multiple workstations, machinery, and scattered equipment. Another figure is partially visible in the background, moving among the machinery, while the foreground person gestures toward the workbench.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

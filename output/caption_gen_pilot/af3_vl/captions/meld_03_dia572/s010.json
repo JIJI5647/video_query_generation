@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a woman speaking angrily, with a high-pitched, fast-paced voice, shouting and yelling, creating a tense and confrontational atmosphere.",
+  "temporal_description": "A woman with dark, shoulder-length hair is seated upright in a hospital bed, wearing a light-colored hospital gown with a pattern of small, dark shapes. Her hands rest on her lap, and she is looking slightly to her left, with her head turned in that direction. The bed has a light-colored sheet draped over the backrest, and a brown leather-like object is partially visible to her left. The background includes a wall with a horizontal metal bar and a textured surface. Her posture remains relatively still throughout the clip, with minimal movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark, shoulder-length hair is seated upright in a hospital bed, wearing a light-colored hospital gown with a pattern of small, dark shapes. Her hands rest on her lap, and she is looking slightly to her left, with her head turned in that direction. The bed has a light-colored sheet draped over the backrest, and a brown leather-like object is partially visible to her left. The background includes a wall with a horizontal metal bar and a textured surface. Her posture remains relatively",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

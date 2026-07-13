@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_description": "A man in a white shirt leans against a metal railing on a balcony at night, smiling and gesturing while speaking to a man in a dark suit standing opposite him. The balcony is dimly lit, with plastic sheeting hanging nearby and apartment windows visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear, with indistinct conversation audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s053\", \"time_range\": [260.0, 265.0], \"visual\": \"A man in a white shirt leans against a metal railing on a balcony at night, smiling and gesturing while speaking to a man in a dark suit standing opposite him. The balcony is dimly lit, with plastic sheeting hanging nearby and apartment windows visible in the background.\", \"audio\": \"The audio is unclear, with indistinct conversation audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing next to a car, adjusting his tie, then bringing a small object to his mouth and appearing to eat or drink from it."
+      },
+      {
+        "person": "a person in the background",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "walking away from the car, moving through tall grass."
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark roadside with a car and tall grass."
+    },
+    "objects": [
+      {
+        "object": "a dark car",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "parked on the side of a road."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit adjusts his tie and then brings a small object to his mouth."
+    ],
+    "visibility_notes": "The scene is dark, with the subjects illuminated by a single light source, creating strong shadows."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "his face is partially obscured by shadow and the object near his mouth"
+      ],
+      "body_cues": [
+        "standing upright, hands moving to his neck and then to his mouth"
+      ],
+      "gaze": "looking down towards the object in his hands."
+    }
+  ],
+  "audio_description": "A harmonica plays a melody, accompanied by a low, continuous hum.",
+  "temporal_description": "The harmonica music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s095\", \"time_range\": [470.0, 475.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing next to a car, adjusting his tie, then bringing a small object to his mouth and appearing to eat or drink from it.\"}, {\"person\": \"a person in the background\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"walking away from the car, moving through tall grass.\"}], \"scene\": {\""
+}

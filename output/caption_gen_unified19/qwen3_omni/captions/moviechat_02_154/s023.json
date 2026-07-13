@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "A police car with flashing blue lights is parked outside a building at night. Two uniformed officers walk past the entrance of the building. The scene is dark, illuminated by streetlights and the vehicle's emergency lights.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, wailing siren from a police car is heard, indicating an emergency response.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s023\", \"time_range\": [110.0, 115.0], \"visual\": \"A police car with flashing blue lights is parked outside a building at night. Two uniformed officers walk past the entrance of the building. The scene is dark, illuminated by streetlights and the vehicle's emergency lights.\", \"audio\": \"A loud, wailing siren from a police car is heard, indicating an emergency response.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

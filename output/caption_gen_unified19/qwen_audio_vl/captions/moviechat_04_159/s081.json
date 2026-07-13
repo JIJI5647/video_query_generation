@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_description": "A man in a dark suit and tie, seen in profile, stands near computer monitors displaying blue-toned imagery, his gaze directed toward the right side of the frame. A second man, partially visible and wearing headphones, looks downward at a screen in front of him. The scene is dimly lit with dark curtains in the background, suggesting an enclosed, tech-oriented workspace.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins abruptly with a sharp, high-pitched electronic beep, immediately followed by a brief, low-frequency thump, likely from a microphone being handled or bumped. The setting is a small, acoustically treated room, such as a police interrogation or evidence room, with a faint electronic hiss and a subtle hum from nearby equipment. The first male speaker, positioned close to the microphone, delivers a clipped, authoritative statement in Mandarin: “有，潘天和的手下的手提电话有没有打过？” (“Yes, has Pan Tianhe’s subordinate’s mobile phone been used?”). His tone is brisk and businesslike, with a slight reverberation indicating the room’s hard surfaces. A second male speaker, slightly more distant and with a lower pitch, responds in a calm, measured manner: “没有，应该换了。” (“No, it should have been changed.”). His delivery is even and factual, suggesting a subordinate or witness providing information. The exchange is clear and direct, with no inflection or background noise, reinforcing the formal, procedural nature of the interaction. As the second speaker finishes, a second electronic beep sounds, signaling the end of the recording. The audio then cuts off abruptly, with no fade-out or residual noise, indicating",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie, seen in profile, stands near computer monitors displaying blue-toned imagery, his gaze directed toward the right side of the frame. A second man, partially visible and wearing headphones, looks downward at a screen in front of him. The scene is dimly lit with dark curtains in the background, suggesting an enclosed, tech-oriented workspace.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

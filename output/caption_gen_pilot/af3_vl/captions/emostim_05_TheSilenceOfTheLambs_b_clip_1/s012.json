@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A woman with shoulder-length brown hair is visible in a close-up shot, her face partially obscured by a blurred foreground element. She is looking slightly to her right, her gaze steady and her head slightly tilted. Her posture remains still throughout, with minimal movement, and her facial features are mostly neutral, with her lips slightly parted at times. The background is out of focus, showing muted tones and indistinct shapes, suggesting an indoor setting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair is visible in a close-up shot, her face partially obscured by a blurred foreground element. She is looking slightly to her right, her gaze steady and her head slightly tilted. Her posture remains still throughout, with minimal movement, and her facial features are mostly neutral, with her lips slightly parted at times. The background is out of focus, showing muted tones and indistinct shapes, suggesting an indoor setting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

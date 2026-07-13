@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a clear and steady voice with a neutral prosody, accompanied by occasional pauses and a slight increase in volume when the speaker emphasizes certain words.",
+  "temporal_description": "A person's hands are shown holding and typing on a silver flip phone in a dimly lit environment. The scene then shifts to a man in a suit and glasses, holding a cigarette and facing another person whose back is to the camera. The man in the suit maintains a steady posture, looking forward with his gaze fixed on the other individual, while the cigarette emits smoke.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person's hands are shown holding and typing on a silver flip phone in a dimly lit environment. The scene then shifts to a man in a suit and glasses, holding a cigarette and facing another person whose back is to the camera. The man in the suit maintains a steady posture, looking forward with his gaze fixed on the other individual, while the cigarette emits smoke.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

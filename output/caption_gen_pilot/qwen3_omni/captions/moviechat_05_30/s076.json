@@ -1,0 +1,33 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s076",
+  "time_range": [
+    375.0,
+    380.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered, dimly lit room filled with various objects and furniture."
+    },
+    "objects": [
+      "a table with a patterned cloth",
+      "a metal sphere",
+      "a lantern",
+      "ropes",
+      "various pieces of furniture and equipment in the background"
+    ],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low, sustained, and ominous musical tone plays.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s076\", \"time_range\": [375.0, 380.0], \"visual_objective\": {\"people\": [], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a cluttered, dimly lit room filled with various objects and furniture.\"}, \"objects\": [\"a table with a patterned cloth\", \"a metal sphere\", \"a lantern\", \"ropes\", \"various pieces of furniture and equipment in the background\"], \"interactions\": [], \"key_actions\": [], \"visibility_notes\": \"\"}, \"visual_expression\": [], \"audio_description\": \"A low, sustained, and omino"
+}

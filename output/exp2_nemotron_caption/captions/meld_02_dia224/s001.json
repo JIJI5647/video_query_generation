@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "The man in a red short‑sleeved shirt sits on an orange couch, facing a partially visible person to his right. At around the three‑second mark, the view shifts to a man in a light blue polo shirt sitting on the same couch, smiling broadly and gesturing with his right hand. The background shows a busy indoor setting with other patrons and tables.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures a man speaking and laughing, with a light, conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"The man in a red short‑sleeved shirt sits on an orange couch, facing a partially visible person to his right. At around the three‑second mark, the view shifts to a man in a light blue polo shirt sitting on the same couch, smiling broadly and gesturing with his right hand. The background shows a busy indoor setting with other patrons and tables.\", \"audio\": \"The audio captures a man speaking and laughing, with a light, conversational tone"
+}

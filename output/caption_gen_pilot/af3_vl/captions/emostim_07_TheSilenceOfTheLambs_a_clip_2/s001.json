@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone, with no significant prosody or emotional inflection. There are no non-speech sounds present.",
+  "temporal_description": "In a dimly lit, cluttered basement, two individuals are visible in the background, standing close together near a doorway. One person appears to be holding or adjusting something near the other’s head or shoulders. The scene is illuminated only by a single hanging bulb, casting shadows and creating a stark contrast with the surrounding darkness. The foreground is filled with boxes, pipes, and brick walls, emphasizing the confined and utilitarian nature of the space. The individuals’ faces are not clearly visible due to the lighting and distance, but their posture suggests they are engaged in a focused interaction.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, cluttered basement, two individuals are visible in the background, standing close together near a doorway. One person appears to be holding or adjusting something near the other’s head or shoulders. The scene is illuminated only by a single hanging bulb, casting shadows and creating a stark contrast with the surrounding darkness. The foreground is filled with boxes, pipes, and brick walls, emphasizing the confined and utilitarian nature of the space. The individuals’ faces are no",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man with gray hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a mobile phone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with shelves in the background"
+    },
+    "objects": [
+      {
+        "object": "mobile phone",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held to the man's ear"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man talking on phone"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "an older man with gray hair",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "holding phone to ear"
+      ],
+      "gaze": "looking slightly to the side"
+    }
+  ],
+  "audio_description": "A man speaking in a foreign language.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s023\", \"time_range\": [110.0, 115.0], \"visual_objective\": {\"people\": [{\"person\": \"an older man with gray hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"talking on a mobile phone\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with shelves in the background\"}, \"objects\": [{\"object\": \"mobile phone\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"held to the man's ear\"}], \"interactions\": [], \"key_actions\": [\"ma"
+}

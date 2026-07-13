@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency hum, likely originating from a household appliance or the recording device itself, establishing a quiet, indoor setting. Immediately, a soft, breathy inhalation is heard, followed by a single, low-pitched, raspy utterance of the word \"Redrum.\" The pronunciation is slow, deliberate, and heavily slurred, with the \"r\" sounds pronounced in a guttural, almost growling manner and the \"m\" trailing off into a breathy, nasal murmur. The word is delivered in a manner that suggests the speaker is either very young, elderly, or in a state of extreme fatigue or illness, with a tone that is both weary and ominous. The word \"Redrum\" is then repeated, this time with a slightly higher pitch and a more pronounced, drawn-out \"r\" sound, maintaining the same slow, slurred, and breathy delivery. The second utterance is followed by a brief pause, during which the underlying hum remains constant, and the room’s acoustics—marked by a short, natural reverberation—suggest a small to medium-sized, sparsely furnished space. The clip concludes with a final, faint inhalation, after which the recording ends abruptly, leaving the hum and reverberation to fade out.\n\nThroughout the clip, the audio quality is low-fidelity, with a persistent background hiss and hum, and the speech is muffled and indistinct, likely due to the speaker’s physical condition or the limitations of the recording equipment. The only sounds present are the two utterances of \"Redrum,\" the inhalations, and the ambient hum, with no other voices, music, or environmental noises. The deliberate, slow, and slurred delivery of \"Redrum\" is highly evocative of the famous phrase from Stephen King’s *The Shining*, where it is spoken by the character Grady and serves as a chilling, reversed clue to the word \"murder.\" The context, delivery, and acoustic environment all reinforce the sense of isolation and foreboding, making the clip a direct and unmistakable reference to the horror genre and its cultural legacy.\n\nIn summary, the audio clip features two slow, slurred, and breathy utterances of the word \"Redrum\" in a quiet, reverberant indoor setting, accompanied by a persistent hum and faint inhalations. The low-fidelity recording and the deliberate, ominous delivery strongly evoke the iconic phrase from *The Shining*, creating a sense of isolation and suspense that is both culturally resonant and deeply unsettling.",
+  "temporal_description": "A young boy with short brown hair, wearing a red and gray sweater with a plaid collar, stands in a dimly lit bedroom. He holds a large knife in his right hand and is writing with a red marker in his left hand on a wooden door. Behind him, a person is lying asleep in bed, partially covered by a patterned blanket. A lit lamp sits on a bedside table, casting a warm glow on the scene. The boy’s body is angled toward the door, and his gaze is focused on the writing he is doing.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with short brown hair, wearing a red and gray sweater with a plaid collar, stands in a dimly lit bedroom. He holds a large knife in his right hand and is writing with a red marker in his left hand on a wooden door. Behind him, a person is lying asleep in bed, partially covered by a patterned blanket. A lit lamp sits on a bedside table, casting a warm glow on the scene. The boy’s body is angled toward the door, and his gaze is focused on the writing he is doing.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

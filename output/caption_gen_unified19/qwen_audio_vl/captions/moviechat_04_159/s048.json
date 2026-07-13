@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_description": "Two men stand facing each other on a balcony at night; one wears a light-colored shirt with rolled sleeves and dark pants, the other wears a dark suit. The man in the light shirt holds his hand to his ear, while the man in the suit gestures with his right hand toward the other’s face. Behind them, buildings and a railing are visible, with dim lighting illuminating the scene.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a sharp, high-frequency click, likely the result of a recording device being activated or a button being pressed. Immediately, a low-level electronic hiss and a faint, steady hum become audible, indicating the presence of a powered device and a small, enclosed room with hard surfaces. The first speaker, a middle-aged man with a clear, slightly nasal voice and a standard Mandarin accent, greets the other with a casual, “这么晚来找你” (“Coming to see you so late”). His tone is relaxed and familiar, suggesting a close relationship. The second speaker, a younger man with a lower, more resonant voice and a formal, authoritative tone, responds with a polite, “黄警官” (“Officer Huang”). The use of “警官” (officer) and the respectful address indicate a professional context, likely law enforcement or security. The first speaker then chuckles softly, “哼” (“Hm”), a brief, breathy sound that conveys amusement and familiarity, reinforcing the informal nature of their relationship. The conversation continues as the first speaker, now more serious, reminds the second, “你知道啊，这样的事情要保密的嘛” (“You know, this kind of thing needs to be kept confidential",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand facing each other on a balcony at night; one wears a light-colored shirt with rolled sleeves and dark pants, the other wears a dark suit. The man in the light shirt holds his hand to his ear, while the man in the suit gestures with his right hand toward the other’s face. Behind them, buildings and a railing are visible, with dim lighting illuminating the scene.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

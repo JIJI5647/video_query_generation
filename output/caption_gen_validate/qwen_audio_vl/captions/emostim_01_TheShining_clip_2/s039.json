@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a steady, low-frequency mechanical hum, characteristic of a large electric motor or industrial machinery operating in a reverberant, enclosed space. This hum is accompanied by a faint, high-frequency hiss, likely from the recording equipment or the environment. Shortly after the start, a rhythmic, metallic clatter emerges, consisting of sharp, high-pitched impacts that occur at a regular interval of about 0.8 seconds. These impacts are consistent with the sound of a metal chain or sprocket mechanism, such as those found in an elevator or escalator, and are accompanied by a subtle, higher-pitched whirring, suggesting the movement of a motor-driven system. The mechanical sounds are clear and well-defined, with the hum and clatter dominating the soundscape and no other environmental or human noises present.\n\nAs the sequence progresses, the metallic clatter continues at a steady pace, maintaining its regular rhythm and intensity. The underlying hum remains constant, and the reverberant quality of the space is evident, with the sounds reflecting off hard surfaces and creating a sense of enclosure. The recording is monophonic, with all sounds centered and no spatial movement, and the overall fidelity is moderate, with a limited frequency range and a persistent background hiss. The mechanical sounds are prominent, and the environment is devoid of speech, music, or any other human activity.\n\nSuddenly, the mechanical sounds are cut off with an abrupt, unnatural silence, indicating a hard edit or digital truncation rather than a natural cessation. Immediately following this, a loud, synthetic electronic tone begins. This tone is a pure, low-frequency square wave at approximately 110 Hz (A2), with a harsh, buzzy timbre and no modulation or variation. The tone is much louder than the preceding mechanical sounds and is presented in a dry, direct manner, lacking any reverberation or environmental context. It continues at a constant volume and pitch until the end of the recording, with no fade-out or additional sounds.\n\nIn summary, the audio clip presents a clear progression from the operation of a mechanical system—likely an elevator or escalator—within a reverberant, industrial setting, to an abrupt transition into a loud, synthetic electronic tone. The recording is monophonic, moderately clear, and devoid of speech or music, with the mechanical sounds dominating the first four seconds and the electronic tone taking over for the remainder. The abrupt edit and the nature of the electronic tone suggest a technical or experimental purpose, possibly serving as a test signal, alert, or demonstration of audio editing techniques.",
+  "temporal_description": "A man with dark, slightly messy hair and a beard, wearing a plaid shirt under a maroon jacket, is partially visible beside a door, his hand touching the door frame. He is looking toward the camera with his mouth slightly open, and his gaze is directed forward. Behind him, a framed picture hangs on the wall. The scene transitions to a snowy outdoor setting where a person wearing a dark hooded jacket is seen from behind, walking through deep snow, their hands partially visible as they move forward.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, slightly messy hair and a beard, wearing a plaid shirt under a maroon jacket, is partially visible beside a door, his hand touching the door frame. He is looking toward the camera with his mouth slightly open, and his gaze is directed forward. Behind him, a framed picture hangs on the wall. The scene transitions to a snowy outdoor setting where a person wearing a dark hooded jacket is seen from behind, walking through deep snow, their hands partially visible as they move forward",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

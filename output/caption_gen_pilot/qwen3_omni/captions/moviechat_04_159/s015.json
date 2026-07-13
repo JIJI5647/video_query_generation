@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a cigarette to his mouth and gesturing with his hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit, with a focus on the man's face and hand."
+    },
+    "objects": [
+      {
+        "object": "cigarette",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being held and gestured with"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man holds a cigarette to his mouth and gestures with his hand."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit and glasses",
+      "facial_cues": [
+        "wearing glasses",
+        "holding a cigarette to his mouth"
+      ],
+      "body_cues": [
+        "gesturing with his hand"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is shouting in an agitated tone.",
+  "temporal_description": "The man's hand gesture and cigarette-holding action are consistent throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a suit and glasses\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a cigarette to his mouth and gesturing with his hand\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"darkly lit, with a focus on the man's face and hand.\"}, \"objects\": [{\"object\": \"cigarette\", \"visibility\": \"clearly visible\", \"position\": \"in the man's hand\", \"action\": \"being held and gestur"
+}

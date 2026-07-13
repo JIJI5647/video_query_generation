@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black pants",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing with arms crossed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or briefing room with a large table, chairs, and a television displaying a security camera feed."
+    },
+    "objects": [
+      {
+        "object": "a large table",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being used by several people to sit and write."
+      },
+      {
+        "object": "a television",
+        "visibility": "clearly visible",
+        "position": "left background",
+        "action": "displaying a security camera feed."
+      },
+      {
+        "object": "a black cap",
+        "visibility": "clearly visible",
+        "position": "center foreground",
+        "action": "placed on the table."
+      },
+      {
+        "object": "a white mug",
+        "visibility": "clearly visible",
+        "position": "on the table",
+        "action": "placed in front of each person."
+      },
+      {
+        "object": "a pink paper",
+        "visibility": "clearly visible",
+        "position": "on the table",
+        "action": "being written on by several people."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the white shirt stands with his arms crossed.",
+      "Three men are seated at the table, writing on pink papers."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low, sustained, and ominous musical tone plays throughout the clip.",
+  "temporal_description": "The scene is static, with the music playing continuously.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s081\", \"time_range\": [400.0, 405.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and black pants\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing with arms crossed\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office or briefing room with a large table, chairs, and a television displaying a security camera feed.\"}, \"objects\": [{\"object\": \"a large table\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"actio"
+}

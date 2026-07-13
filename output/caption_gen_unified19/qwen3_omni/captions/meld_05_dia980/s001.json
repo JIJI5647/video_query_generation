@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "In a kitchen setting, a man in a gray sweater sits on a stool, reading a piece of paper. Another man in a black jacket leans over a counter, looking at the paper with a concerned expression. A red cup and a telephone are on the counter between them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man is speaking in a calm, conversational tone, reading from a letter.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"In a kitchen setting, a man in a gray sweater sits on a stool, reading a piece of paper. Another man in a black jacket leans over a counter, looking at the paper with a concerned expression. A red cup and a telephone are on the counter between them.\", \"audio\": \"A man is speaking in a calm, conversational tone, reading from a letter.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

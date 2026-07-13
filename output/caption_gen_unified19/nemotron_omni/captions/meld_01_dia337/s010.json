@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A man in a pink plaid shirt stands facing a man in a blue checkered shirt, gesturing with his right hand while speaking. The man in the blue shirt listens with his arms crossed, then opens his mouth in a surprised expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a conversational exchange with the pink‑shirted man speaking expressively and the blue‑shirted man responding. The tone is casual and engaged.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual\": \"A man in a pink plaid shirt stands facing a man in a blue checkered shirt, gesturing with his right hand while speaking. The man in the blue shirt listens with his arms crossed, then opens his mouth in a surprised expression.\", \"audio\": \"The audio features a conversational exchange with the pink‑shirted man speaking expressively and the blue‑shirted man responding. The tone is casual and engaged.\", \"confidence\": \"high\", \"evidence_stre"
+}

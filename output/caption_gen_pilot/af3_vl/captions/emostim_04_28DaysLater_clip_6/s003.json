@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a medium pitch and a moderate speaking rate, accompanied by heavy breathing and a sigh, suggesting a moment of emotional intensity or exertion.",
+  "temporal_description": "A person dressed in camouflage clothing and a red mask stands in a dimly lit room with a checkered floor, holding a firearm. They are positioned near a window with curtains and a chair draped in a white cloth. The person moves slightly, shifting their stance and occasionally glancing around the room. A mirror on the wall reflects their silhouette, and the lighting creates strong shadows, emphasizing their cautious posture. The scene is static, with the person remaining mostly in place, occasionally adjusting their grip on the weapon.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person dressed in camouflage clothing and a red mask stands in a dimly lit room with a checkered floor, holding a firearm. They are positioned near a window with curtains and a chair draped in a white cloth. The person moves slightly, shifting their stance and occasionally glancing around the room. A mirror on the wall reflects their silhouette, and the lighting creates strong shadows, emphasizing their cautious posture. The scene is static, with the person remaining mostly in place, occasiona",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

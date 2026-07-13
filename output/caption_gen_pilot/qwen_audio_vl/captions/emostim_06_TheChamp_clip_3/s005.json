@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins with a sharp, high-pitched inhalation, immediately followed by a strained, breathy vocalization that sounds like a child’s attempt to say “Yeah.” The child’s voice is high-pitched, nasal, and slightly raspy, with a tone that conveys both effort and mild distress. The utterance is delivered in a single, forceful burst, and the recording captures the sound with clarity, though a faint electronic hiss is present in the background. The acoustic environment is quiet and dry, with no reverberation or ambient noise, indicating a small, well-furnished indoor space.\n\nAfter a brief pause, the child repeats the vocalization, again producing a strained, breathy “Yeah” with similar effort and emotional tone. The second utterance is slightly longer and more drawn out, with a subtle rise in pitch and a more pronounced rasp, suggesting increasing exertion or frustration. The recording remains free of any other sounds, maintaining its focus on the child’s vocalizations.\n\nA third, identical vocalization follows, matching the previous two in pitch, timbre, and emotional quality. The child’s voice remains the sole focus, with no additional speech, movement, or environmental cues. The recording’s technical quality is consistent throughout, with no distortion or clipping, and the background hiss remains unobtrusive.\n\nAbruptly, the child’s vocalizations are cut off mid-sound by a sudden, loud, low-frequency electronic buzz. This synthetic tone is harsh, static, and unmodulated, resembling a square or sawtooth wave. It is significantly louder than the preceding sounds and dominates the audio, masking any residual noise or reverberation. The buzz persists for a brief moment before the recording ends, with no fade-out or further events.\n\nIn summary, the audio captures a young child’s repeated, strained attempts to say “Yeah” in a quiet, acoustically neutral indoor setting, with no other speech or environmental sounds present. The recording is technically clean, with only a faint electronic hiss in the background. The sequence concludes with an abrupt, loud electronic buzz that interrupts the child’s vocalizations, suggesting a deliberate or accidental termination of the recording. The overall impression is one of focused, isolated effort, with the final buzz serving as a stark, artificial conclusion.",
+  "temporal_description": "A young boy with light-colored hair, wearing a gray shirt, is seated and looking downward, his hands clasped together in front of him. An adult’s hand, partially visible, holds a black and white shoe near the boy’s face. The boy’s head turns slightly to the side, and his gaze remains focused downward or toward the shoe. The background is dark, emphasizing the boy and the shoe as the central elements in the frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored hair, wearing a gray shirt, is seated and looking downward, his hands clasped together in front of him. An adult’s hand, partially visible, holds a black and white shoe near the boy’s face. The boy’s head turns slightly to the side, and his gaze remains focused downward or toward the shoe. The background is dark, emphasizing the boy and the shoe as the central elements in the frame.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

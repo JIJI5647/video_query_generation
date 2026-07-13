@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man in a gray sweater is talking to another man in a dark green jacket. The man in the gray sweater is gesturing with his right hand while speaking. The man in the green jacket is listening and then responds with a questioning expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks in a conversational tone, followed by another male voice asking a question.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"A man in a gray sweater is talking to another man in a dark green jacket. The man in the gray sweater is gesturing with his right hand while speaking. The man in the green jacket is listening and then responds with a questioning expression.\", \"audio\": \"A male voice speaks in a conversational tone, followed by another male voice asking a question.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

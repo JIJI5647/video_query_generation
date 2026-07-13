@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a neutral tone, speaking at a moderate pace. There are no significant prosodic variations or non-speech sounds present.",
+  "temporal_description": "The video shows a person with dark hair and glasses, seen mostly in profile or from behind, seated in a dimly lit environment. Their head is often turned slightly, and they appear to be looking forward or downward, with minimal movement. The background is blurred and indistinct, with faint light sources creating bokeh effects. The person’s posture remains relatively still throughout, with occasional slight shifts in head position or gaze direction.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a person with dark hair and glasses, seen mostly in profile or from behind, seated in a dimly lit environment. Their head is often turned slightly, and they appear to be looking forward or downward, with minimal movement. The background is blurred and indistinct, with faint light sources creating bokeh effects. The person’s posture remains relatively still throughout, with occasional slight shifts in head position or gaze direction.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

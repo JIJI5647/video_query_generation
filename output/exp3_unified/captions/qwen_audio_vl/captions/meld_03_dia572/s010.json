@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A woman with dark, shoulder-length hair sits upright in a hospital bed, wearing a light-colored patterned gown and a wristband, her hands resting on her abdomen. She is looking slightly to her left with her mouth slightly open, as if mid-sentence or reacting to something. The bed has a white sheet draped over the headboard, and a brown leather bag rests partially visible at the bottom left of the frame.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins abruptly with a female voice, positioned close to the microphone, delivering a forceful and emotionally charged outburst: “Don’t you talk to my husband like that, you stupid bastard!” Her speech is rapid, loud, and marked by a high pitch and strained, raspy timbre. The phrase “you stupid bastard” is delivered with particular emphasis, the word “bastard” especially harsh and guttural, and the entire utterance is clipped at the end, suggesting the recording was cut off mid-word. The acoustic environment is dry and intimate, with no background noise or reverberation, and the recording quality is low-fidelity, featuring noticeable digital clipping and distortion that further accentuate the speaker’s intensity. Immediately following the outburst, a brief, low-pitched male chuckle is heard, likely from a nearby audience member. This is quickly succeeded by a short, high-pitched female laugh, both of which are genuine and spontaneous, indicating the presence of a live audience reacting to the speaker’s dramatic performance. The laughter is clear and unprocessed, reinforcing the sense of a real-time, in-person setting. The female speaker then repeats her phrase, “Don’t you talk to my husband—,”",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark, shoulder-length hair sits upright in a hospital bed, wearing a light-colored patterned gown and a wristband, her hands resting on her abdomen. She is looking slightly to her left with her mouth slightly open, as if mid-sentence or reacting to something. The bed has a white sheet draped over the headboard, and a brown leather bag rests partially visible at the bottom left of the frame.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

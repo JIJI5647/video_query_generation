@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_description": "A child in a red sweater clings to an adult wrapped in a blue towel in a tiled bathroom, looking back with wide eyes. A man in a red jacket smashes a door with an axe in a hallway, while a woman in a denim jacket crawls out of a snow‑covered opening and later walks down a blue‑walled hallway. A night view shows a large snow‑laden building with a figure sitting on the slope.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio features a child's gasp, a man's exertion grunt, the thud of an axe striking wood, and ambient wind or snow sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s024\", \"time_range\": [115.0, 120.0], \"visual\": \"A child in a red sweater clings to an adult wrapped in a blue towel in a tiled bathroom, looking back with wide eyes. A man in a red jacket smashes a door with an axe in a hallway, while a woman in a denim jacket crawls out of a snow‑covered opening and later walks down a blue‑walled hallway. A night view shows a large snow‑laden building with a figure sitting on the slope.\", \"audio\": \"Audio features a child's gasp, a man's exertion"
+}

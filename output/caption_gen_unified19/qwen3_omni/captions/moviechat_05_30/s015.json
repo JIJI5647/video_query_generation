@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A man in a brown coat is seen from behind, walking through a crowded, dimly lit hall. Other people, including students in school uniforms, are moving around him. The scene is chaotic, with people gesturing and moving quickly.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains the sound of a crowd, with people talking and shouting. The overall atmosphere is noisy and chaotic.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual\": \"A man in a brown coat is seen from behind, walking through a crowded, dimly lit hall. Other people, including students in school uniforms, are moving around him. The scene is chaotic, with people gesturing and moving quickly.\", \"audio\": \"The audio contains the sound of a crowd, with people talking and shouting. The overall atmosphere is noisy and chaotic.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins in a quiet, enclosed space, likely a small to medium-sized room with hard, reflective surfaces such as tile or concrete. A faint, low-frequency hum, characteristic of a refrigerator or HVAC system, sets the ambient background. The first audible event is a sharp, metallic click, followed by a brief, high-pitched squeak, suggesting the manipulation of a metal latch or handle—possibly the opening of a refrigerator door or a similar appliance. Immediately after, a soft, low-frequency thud is heard, indicating the door or object has settled into place. The room remains otherwise silent, with only the persistent hum and a subtle, high-frequency hiss from the recording equipment.\n\nA second mechanical event follows: a rapid, high-pitched metallic click, likely the sound of a spring-loaded latch or a small metal part snapping into position. This is succeeded by a brief, low-pitched scraping noise, as if a metal object is being slid or adjusted. The sequence continues with a short, high-pitched squeak, reminiscent of a metal hinge or latch being moved, and then a soft, low-frequency thud, indicating the object has come to rest. Throughout these events, the ambient hum and hiss remain unchanged, and no speech, music, or other environmental sounds are present.\n\nSuddenly, a loud, harsh electronic buzzer erupts, dominating the soundscape. The buzzer is a low-pitched, grating tone with a strong, dissonant harmonic structure, reminiscent of a square or sawtooth wave. Its volume is significantly higher than previous sounds, and it is accompanied by audible digital clipping and distortion, indicating the recording device was overwhelmed by the signal. The buzzer’s timbre is abrasive and synthetic, evoking the sound of a game show “wrong answer” buzzer or a security alarm. The tone is sustained without variation until the recording ends abruptly, with no fade-out or trailing noise.\n\nIn summary, the audio captures a sequence of mechanical actions—metallic clicks, squeaks, and thuds—likely involving the opening and adjustment of a refrigerator or similar appliance in a quiet, reverberant room. The events are followed by a sudden, loud, distorted electronic buzzer, which dominates the recording and suggests a context of error, alarm, or game show feedback. The absence of speech, music, or other environmental cues, combined with the specific sound events and their acoustic characteristics, point to a setting such as a kitchen or utility room, with the buzzer serving as a clear signal of failure or alert.",
+  "temporal_description": "A man with dark, medium-length hair and a beard is standing in a hallway, partially obscured by a door frame. He is wearing a dark red jacket over a plaid shirt and is looking toward the right side of the frame. His head is slightly tilted, and his gaze remains fixed in that direction throughout the clip. The background includes a framed picture on the wall and a dark curtain to the right. His posture is relatively still, with minimal movement, suggesting he is observing something out of frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, medium-length hair and a beard is standing in a hallway, partially obscured by a door frame. He is wearing a dark red jacket over a plaid shirt and is looking toward the right side of the frame. His head is slightly tilted, and his gaze remains fixed in that direction throughout the clip. The background includes a framed picture on the wall and a dark curtain to the right. His posture is relatively still, with minimal movement, suggesting he is observing something out of frame.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

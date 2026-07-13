@@ -1,0 +1,82 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, voluminous hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table and looking forward with a neutral expression"
+      },
+      {
+        "person": "a man with dark, curly hair and a beard",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table and looking forward with a slight smile"
+      },
+      {
+        "person": "an older woman with short, dark hair",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting at a table and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a busy restaurant or diner with other patrons in the background"
+    },
+    "objects": [
+      {
+        "object": "a glass",
+        "visibility": "clearly visible",
+        "position": "on the table",
+        "action": "sitting on the table"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman looks forward",
+      "the man looks forward and smiles",
+      "the older woman looks forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde, voluminous hair",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man with dark, curly hair and a beard",
+      "facial_cues": [
+        "slight smile"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "an older woman with short, dark hair",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A person speaks in a conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s031\", \"time_range\": [150.0, 155.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with blonde, voluminous hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting at a table and looking forward with a neutral expression\"}, {\"person\": \"a man with dark, curly hair and a beard\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting at a table and looking forward with a slight smile\"}, {\"person\": \"an older woman with short, "
+}

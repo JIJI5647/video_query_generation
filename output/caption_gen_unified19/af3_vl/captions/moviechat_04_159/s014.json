@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A man in a suit and glasses holds a cigarette near his mouth while facing another man whose back is to the camera. The second man, partially visible, holds a handgun pointed toward the first man’s face. Both are in a dimly lit, dark environment with focused lighting on their faces and hands.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow pace, accompanied by heavy breathing and a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses holds a cigarette near his mouth while facing another man whose back is to the camera. The second man, partially visible, holds a handgun pointed toward the first man’s face. Both are in a dimly lit, dark environment with focused lighting on their faces and hands.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A young boy with short blonde hair and a grey shirt is shown in close‑up, his eyes filled with tears as he looks down. He cradles a blood‑stained hand or face, his hands trembling while his mouth is slightly open.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains the boy's audible sobbing and crying.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual\": \"A young boy with short blonde hair and a grey shirt is shown in close‑up, his eyes filled with tears as he looks down. He cradles a blood‑stained hand or face, his hands trembling while his mouth is slightly open.\", \"audio\": \"The audio contains the boy's audible sobbing and crying.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

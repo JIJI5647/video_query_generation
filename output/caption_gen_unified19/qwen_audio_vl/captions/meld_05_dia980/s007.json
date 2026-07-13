@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man in a gray sweatshirt faces another man in a black jacket, gesturing with his right hand while speaking. The second man, seen from behind, holds a red plastic cup and looks toward the first man. The setting appears to be an indoor room with shelves holding various items and framed pictures in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a mature male voice, speaking in a calm, measured, and slightly gravelly tone, characteristic of a seasoned New York City police officer. He delivers a clear, step-by-step instruction: “whichever one she is, comes to the door, you take her for a walk, you let her down easy.” His speech is deliberate, with each phrase separated by brief pauses, and the delivery is marked by a subtle, weary resignation. The environment is quiet, with only a faint, steady electronic hiss and a low-frequency hum in the background, suggesting a small, acoustically treated room—likely a police station office or interview space. The recording is of moderate fidelity, with a limited frequency range and no distortion, and the speaker’s voice is close-miked, indicating a controlled, professional setting. Abruptly, the officer’s voice is cut off mid-sentence, and a second male voice enters. This new speaker is younger, with a higher pitch and a more urgent, questioning tone. He asks, “What if Mary Angela comes?”—his delivery is rapid, clipped, and marked by rising intonation. The background remains unchanged, with the same electronic hiss and hum",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a gray sweatshirt faces another man in a black jacket, gesturing with his right hand while speaking. The second man, seen from behind, holds a red plastic cup and looks toward the first man. The setting appears to be an indoor room with shelves holding various items and framed pictures in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

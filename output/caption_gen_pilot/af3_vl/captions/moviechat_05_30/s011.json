@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, accompanied by occasional non-speech sounds like heavy breathing and brief silences, creating a tense and suspenseful atmosphere.",
+  "temporal_description": "The video shows a dark, abstract, and slowly moving landscape that appears to be a textured, undulating surface, possibly resembling a fabric or geological formation. The camera glides forward and rotates, revealing subtle contours and folds in the material, with faint light highlighting its creases and ridges. There are no people, objects, or discernible features beyond the surface texture and its gradual morphing shapes. The scene remains consistently dark, with minimal illumination emphasizing the surface’s movement and depth.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a dark, abstract, and slowly moving landscape that appears to be a textured, undulating surface, possibly resembling a fabric or geological formation. The camera glides forward and rotates, revealing subtle contours and folds in the material, with faint light highlighting its creases and ridges. There are no people, objects, or discernible features beyond the surface texture and its gradual morphing shapes. The scene remains consistently dark, with minimal illumination emphasizin",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_description": "Two men in white shirts sit at desks with typewriters and microphones, one holding a microphone close to his mouth while the other types. A third man in a dark shirt stands behind them, holding a camera on a tripod, looking toward the seated men. The room has blinds, green walls, and various equipment, with the men appearing focused on their tasks.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable prosody or background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in white shirts sit at desks with typewriters and microphones, one holding a microphone close to his mouth while the other types. A third man in a dark shirt stands behind them, holding a camera on a tripod, looking toward the seated men. The room has blinds, green walls, and various equipment, with the men appearing focused on their tasks.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

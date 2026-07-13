@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_description": "A dark sedan with headlights on drives down a narrow, wet street at night, flanked by pedestrians walking on either side. The street is lined with buildings, some with visible signage and covered vehicles, under dim artificial lighting. The sedan’s license plate reads “WJ 6434,” and the scene is framed by a distant, illuminated golden temple spire in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a deep, resonant, and slightly distorted low-frequency rumble, evoking the sound of a massive engine or a large mechanical object in motion. This rumble is accompanied by a faint, high-frequency hiss, likely from the recording equipment, and is enveloped in a spacious, reverberant acoustic environment that suggests a large, hard-surfaced indoor space such as a warehouse or industrial hall. The rumble is steady and unchanging, with no indication of movement or spatial shift, and is punctuated by a subtle, rhythmic metallic clatter that hints at the operation of heavy machinery or a train. The overall atmosphere is and ominous, with the mechanical sounds dominating the soundscape. Abruptly, the rumble and hiss are cut off, and a dramatic orchestral string section enters. The strings, likely violins and violas, play a slow, descending, and dissonant motif in a minor key, creating a mood of suspense and foreboding. The music is richly layered, with a wide stereo image and pronounced reverb, further enhancing the sense of a vast, empty space. The orchestral passage is intense and cinematic, reminiscent of modern film scores used to signal danger or impending revelation.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A dark sedan with headlights on drives down a narrow, wet street at night, flanked by pedestrians walking on either side. The street is lined with buildings, some with visible signage and covered vehicles, under dim artificial lighting. The sedan’s license plate reads “WJ 6434,” and the scene is framed by a distant, illuminated golden temple spire in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

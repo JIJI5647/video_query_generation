@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A woman with shoulder‑length brown hair is seen in a close‑up, partially obscured by a blurred arm in the foreground. She looks to her right with a slightly open mouth and wide eyes, appearing attentive. The background is a muted, neutral wall, and the lighting is soft.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A faint, muffled voice is audible, but the words are not clear.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual\": \"A woman with shoulder‑length brown hair is seen in a close‑up, partially obscured by a blurred arm in the foreground. She looks to her right with a slightly open mouth and wide eyes, appearing attentive. The background is a muted, neutral wall, and the lighting is soft.\", \"audio\": \"A faint, muffled voice is audible, but the words are not clear.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_description": "A man in a maroon jacket and plaid shirt walks down a narrow, dimly lit hallway with peeling wallpaper and glass-paneled doors. In a separate scene, a person in blue clothing is lying face-down in snow near a wooden structure, arms extended outward. The person in the snow is partially obscured by the snow and the structure, with their head and upper body visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a clear, steady voice with a moderate pitch and pace, accompanied by a slight breathiness and a sigh at the end, indicating a moment of relief or contemplation.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a maroon jacket and plaid shirt walks down a narrow, dimly lit hallway with peeling wallpaper and glass-paneled doors. In a separate scene, a person in blue clothing is lying face-down in snow near a wooden structure, arms extended outward. The person in the snow is partially obscured by the snow and the structure, with their head and upper body visible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

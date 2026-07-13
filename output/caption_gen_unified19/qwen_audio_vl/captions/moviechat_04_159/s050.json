@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_description": "Two men stand on a balcony at night; one in a light shirt gestures while holding his head, the other in a dark suit faces him. Behind them, a building with lit windows and a wall with peeling paint are visible. The man in the light shirt leans slightly forward, his gaze directed toward the other man, while the suited man stands upright, facing him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely the sound of a latch or handle being operated, immediately followed by a low-frequency mechanical hum and a faint high-frequency hiss. These background noises suggest the presence of an active engine or machinery, possibly from a vehicle or industrial setting, and indicate a moderately reverberant, enclosed space. A male voice, speaking in standard Mandarin with a neutral northern accent, is heard close to the microphone. He says, “我没时间回去吃饭了” (“I don’t have time to go back for a meal”), his tone calm and matter-of-fact, with a slight downward inflection. The speech is clear and intelligible, with no or urgency. After a brief pause, the same speaker utters a short, neutral “啊” (“ah”), serving as a conversational filler. The ambient hum and hiss persist, and the acoustic environment remains consistent, reinforcing the impression of a utilitarian, enclosed space such as a vehicle cabin or industrial room. Suddenly, a loud, low-frequency mechanical impact occurs, characterized by a deep thud and a brief metallic resonance, suggesting a heavy object striking a hard surface or a large mechanical component engaging. This event is accompanied by a sharp, high-pitched metallic",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand on a balcony at night; one in a light shirt gestures while holding his head, the other in a dark suit faces him. Behind them, a building with lit windows and a wall with peeling paint are visible. The man in the light shirt leans slightly forward, his gaze directed toward the other man, while the suited man stands upright, facing him.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

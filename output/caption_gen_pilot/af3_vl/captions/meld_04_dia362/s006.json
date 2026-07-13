@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a woman speaking with a high-pitched, angry tone, her voice modulating with intensity and urgency, accompanied by heavy breathing and a moment of silence.",
+  "temporal_description": "A woman with shoulder-length brown hair, wearing a white lab coat over a patterned shirt and a name badge, is standing beside a hospital bed, holding a pink blanket. She is looking toward the bed, her body slightly turned, and appears to be adjusting or holding the blanket. In the bed, a woman with shoulder-length brown hair, wearing a white hospital gown, is lying down, partially covered by a pink blanket. A man with dark hair, wearing a light-colored shirt and tie, is seated beside the bed, leaning forward and looking at the woman in the bed. Medical equipment, including an IV stand, a monitor, and a clock, is visible on the wall and bedside. The room has pink and beige tones, with a wooden cabinet and a pink basin on top of it. The woman in the bed is gesturing with her hand while the man and the woman in the lab coat are looking at her. The woman in the lab coat is holding the blanket with both hands and appears to be speaking or listening. The man is leaning in, his gaze directed at the woman in the bed, and his hand is resting on the bed or blanket. The woman in the bed is looking at the man, her expression neutral, and her hand is raised slightly. The woman in the lab coat is leaning slightly forward, her gaze directed at the woman in the bed.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair, wearing a white lab coat over a patterned shirt and a name badge, is standing beside a hospital bed, holding a pink blanket. She is looking toward the bed, her body slightly turned, and appears to be adjusting or holding the blanket. In the bed, a woman with shoulder-length brown hair, wearing a white hospital gown, is lying down, partially covered by a pink blanket. A man with dark hair, wearing a light-colored shirt and tie, is seated beside the bed, le",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

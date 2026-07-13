@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate speed, expressing anger and frustration, with no background noise.",
+  "temporal_description": "A man in a plaid shirt stands beside a hospital bed, gesturing with his hands while speaking. He is positioned near a woman lying in the bed, who is wearing a hospital gown and holding a brown handbag. Another man in a light jacket stands near a second hospital bed in the background, partially obscured by a curtain. The room has typical hospital furnishings, including beds, curtains, and medical equipment. The woman in the bed looks toward the man speaking, her gaze shifting slightly as he gestures. The man in the plaid shirt leans slightly forward, his hands moving as he talks, while the woman remains seated, her posture relaxed but attentive.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a plaid shirt stands beside a hospital bed, gesturing with his hands while speaking. He is positioned near a woman lying in the bed, who is wearing a hospital gown and holding a brown handbag. Another man in a light jacket stands near a second hospital bed in the background, partially obscured by a curtain. The room has typical hospital furnishings, including beds, curtains, and medical equipment. The woman in the bed looks toward the man speaking, her gaze shifting slightly as he gestu",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

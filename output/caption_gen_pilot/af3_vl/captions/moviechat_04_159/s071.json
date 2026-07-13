@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a clear and steady tone, speaking at a moderate pace. There are no significant non-speech sounds, and the voice quality is neutral with no noticeable emotional inflection.",
+  "temporal_description": "The video shows a dimly lit indoor scene with two men, one in a dark suit and the other in a light-colored shirt, both focused on operating a camera. The man in the suit leans over the camera, adjusting it, while the other man stands behind, holding a device to his ear. The background is dark with a window and blinds visible. The scene then transitions to a busy street at night, where pedestrians with umbrellas walk past storefronts, including one labeled \"NATURE'S RECIPE.\" The camera then shifts to a grainy, blue-tinted security footage showing people moving inside a building, including a man in a light suit and a woman in a dark top, walking past a counter and toward a door. The individuals are mostly seen from the side or back, with limited visibility of their faces.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a dimly lit indoor scene with two men, one in a dark suit and the other in a light-colored shirt, both focused on operating a camera. The man in the suit leans over the camera, adjusting it, while the other man stands behind, holding a device to his ear. The background is dark with a window and blinds visible. The scene then transitions to a busy street at night, where pedestrians with umbrellas walk past storefronts, including one labeled \"NATURE'S RECIPE.\" The camera then shift",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

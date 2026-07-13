@@ -1,0 +1,43 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person's hand",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "pressing against a dark surface"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark and dimly lit"
+    },
+    "objects": [
+      {
+        "object": "a white cloth or bandage",
+        "visibility": "clearly visible",
+        "position": "on the hand",
+        "action": "wrapped around the hand"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a hand covered in blood presses against a surface"
+    ],
+    "visibility_notes": "The hand is the central focus, with blood clearly visible on the fingers and the white cloth."
+  },
+  "visual_expression": [],
+  "audio_description": "A person is singing a slow, melancholic melody.",
+  "temporal_description": "The singing continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s052\", \"time_range\": [255.0, 260.0], \"visual_objective\": {\"people\": [{\"person\": \"a person's hand\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"pressing against a dark surface\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dark and dimly lit\"}, \"objects\": [{\"object\": \"a white cloth or bandage\", \"visibility\": \"clearly visible\", \"position\": \"on the hand\", \"action\": \"wrapped around the hand\"}], \"interactions\": [], \"key_actions\": [\"a hand covered in bl"
+}

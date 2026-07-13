@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency electronic hum, likely emanating from a synthesizer or digital device, establishing a subtle, anticipatory atmosphere. This is immediately followed by a rapid, ascending arpeggio of synthesized notes, each note bright, metallic, and bell-like, with a short decay and a slightly dissonant, atonal quality. The arpeggio is played in a precise, mechanical rhythm, reminiscent of a digital alarm or notification, and is accompanied by a faint, high-frequency hiss that suggests either analog tape or a low-fidelity digital recording. The sound is centered in the stereo field, with no spatial movement or environmental cues, and the overall mood is tense and urgent, evoking a sense of technological alert or impending action.\n\nAs the arpeggio continues, a new synthesized sound emerges: a low, sustained, and resonant tone with a buzzy, square-wave timbre. This tone is introduced abruptly, overlapping with the arpeggio, and is characterized by a harsh, grating quality that intensifies the sense of alarm. The two elements—the arpeggio and the buzzy tone—combine to create a dense, dissonant texture, with the buzzy tone acting as a warning or error signal. The audio remains dry and direct, with no reverberation or environmental context, and the overall effect is one of escalating tension and technological urgency.\n\nSuddenly, the entire soundscape is cut off by a hard, digital edit, with no fade or transition. In its place, a loud, low-frequency electronic buzz dominates the audio. This buzz is harsh, abrasive, and heavily distorted, with a fundamental frequency around 50–60 Hz and strong harmonics, producing a grating, static-like texture. The buzz is monophonic and centered, with no spatial movement, and is reminiscent of a system crash, error signal, or censorship bleep. The sound is so intense that it causes digital clipping and distortion, and the audio ends abruptly, leaving no lingering resonance or environmental sound.\n\nThroughout the clip, there is no speech, vocalization, or human presence; all sounds are synthetic and electronic. The sequence progresses from a subtle hum and urgent arpeggio, through a dissonant alarm, to a final, overwhelming buzz, each stage increasing in intensity and conveying a narrative of technological alert, error, and abrupt termination. The audio is characterized by low fidelity, with persistent hiss and digital artifacts, and is presented in a dry, centered stereo field. The overall effect is one of tension, urgency, and abrupt finality, evoking the atmosphere of a retro video game or digital interface, and suggesting themes of technological malfunction, censorship, or system failure.",
+  "temporal_description": "A man in a dark suit and tie, with a headset, is shown in close-up, his eyes closed, then slowly opening and turning his head. The scene transitions to a dimly lit control room where he stands among several other individuals seated at computer stations, all focused on their screens. One man in the foreground is seen adjusting his glasses while looking intently at his monitor. The room is filled with multiple monitors displaying various images, and a whiteboard with photos is visible in the background. The man in the suit maintains a steady, upright posture, occasionally glancing around the room.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie, with a headset, is shown in close-up, his eyes closed, then slowly opening and turning his head. The scene transitions to a dimly lit control room where he stands among several other individuals seated at computer stations, all focused on their screens. One man in the foreground is seen adjusting his glasses while looking intently at his monitor. The room is filled with multiple monitors displaying various images, and a whiteboard with photos is visible in the backg",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

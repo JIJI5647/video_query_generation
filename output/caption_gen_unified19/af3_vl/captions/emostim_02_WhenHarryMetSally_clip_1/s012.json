@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A woman with curly blonde hair, wearing a dark cardigan over a white blouse with a brooch, sits facing a man with dark, curly hair in a plaid shirt, who is seen from behind. Both are seated at a table in a crowded indoor setting, with the woman holding and examining a small object in her hands while looking down at it. The man’s posture is upright, and his head is slightly turned toward the woman, though his face is not visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a neutral tone and moderate pace, accompanied by a brief pause and a subtle sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with curly blonde hair, wearing a dark cardigan over a white blouse with a brooch, sits facing a man with dark, curly hair in a plaid shirt, who is seen from behind. Both are seated at a table in a crowded indoor setting, with the woman holding and examining a small object in her hands while looking down at it. The man’s posture is upright, and his head is slightly turned toward the woman, though his face is not visible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

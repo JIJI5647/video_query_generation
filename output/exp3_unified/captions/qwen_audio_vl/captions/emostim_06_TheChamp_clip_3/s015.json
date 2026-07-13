@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "An older man with glasses and a dark suit leans over a younger person with light hair, who is holding onto his arms. The man’s head is close to the younger person’s, and they appear to be in a dimly lit indoor space with curtains in the background. The younger person’s face is not fully visible, and the man’s expression is obscured by his glasses and angle.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, and urgent shout from a young child, whose voice is strained and breathless. The child exclaims, “Please help him! Wake him up! Wake him!” The delivery is rapid, with the final word “him” trailing off, and the intensity is heightened by the child’s proximity to the microphone, which causes slight digital clipping and distortion. The child’s voice is clear and intelligible, though the recording is marred by a persistent low-level hiss and a faint electronic hum, suggesting a consumer-grade device in a small, hard-surfaced room. The acoustics are dry, with minimal reverberation, and the child’s voice dominates the soundscape. Immediately following the child’s plea, an adult male voice enters, speaking in a calm, measured, and reassuring tone. He says, “We’re all here,” with a gentle, steady cadence and a General American accent. The adult’s voice is more distant and reverberant, indicating he is farther from the microphone and possibly in a different part of the room. His speech is clear and deliberate, designed to comfort and reassure, and is delivered in a manner that contrasts sharply with the child’s",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "An older man with glasses and a dark suit leans over a younger person with light hair, who is holding onto his arms. The man’s head is close to the younger person’s, and they appear to be in a dimly lit indoor space with curtains in the background. The younger person’s face is not fully visible, and the man’s expression is obscured by his glasses and angle.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

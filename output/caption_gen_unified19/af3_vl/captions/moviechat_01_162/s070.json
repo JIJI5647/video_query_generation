@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands in a room, gesturing toward a monitor displaying a hallway. Several other men in similar attire sit at desks, focused on their work or screens, while one man in the foreground looks toward the standing man. The scene is set in a dimly lit, modern office or control room with multiple workstations and monitors.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and loud volume, speaking rapidly and with a sense of urgency.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands in a room, gesturing toward a monitor displaying a hallway. Several other men in similar attire sit at desks, focused on their work or screens, while one man in the foreground looks toward the standing man. The scene is set in a dimly lit, modern office or control room with multiple workstations and monitors.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

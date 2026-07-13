@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a walkie-talkie to his mouth and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with window blinds in the background"
+    },
+    "objects": [
+      {
+        "object": "walkie-talkie",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being held and used for communication"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "speaking into the walkie-talkie"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and dark tie",
+      "facial_cues": [
+        "serious expression",
+        "mouth moving"
+      ],
+      "body_cues": [
+        "holding the walkie-talkie to his mouth"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a serious tone.",
+  "temporal_description": "The man holds the walkie-talkie to his mouth and speaks throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light blue shirt and dark tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a walkie-talkie to his mouth and speaking\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with window blinds in the background\"}, \"objects\": [{\"object\": \"walkie-talkie\", \"visibility\": \"clearly visible\", \"position\": \"in the man's hand\", \"action\": \"being held and u"
+}

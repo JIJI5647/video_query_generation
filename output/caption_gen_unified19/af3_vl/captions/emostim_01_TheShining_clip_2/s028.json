@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_description": "A person with short blonde hair, wearing a light-colored robe, is seen from behind, standing in a tiled bathroom and wiping a window with a blue cloth. The scene shifts to a snowy outdoor alley at night, illuminated by distant artificial lights, with a large snowbank piled against a building. No facial cues or gestures are visible due to the person’s back-facing position and the distant, dimly lit exterior shot.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a neutral tone, speaking at a moderate pace with no noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with short blonde hair, wearing a light-colored robe, is seen from behind, standing in a tiled bathroom and wiping a window with a blue cloth. The scene shifts to a snowy outdoor alley at night, illuminated by distant artificial lights, with a large snowbank piled against a building. No facial cues or gestures are visible due to the person’s back-facing position and the distant, dimly lit exterior shot.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s069",
+  "time_range": [
+    340.0,
+    345.0
+  ],
+  "visual_description": "A dimly lit, cluttered room filled with stacked chairs, tables, and assorted objects is shown from a high angle. A woman in a dark dress walks across the floor and stops near a tall statue of a man in a coat and hat standing on a pedestal.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent with no discernible sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s069\", \"time_range\": [340.0, 345.0], \"visual\": \"A dimly lit, cluttered room filled with stacked chairs, tables, and assorted objects is shown from a high angle. A woman in a dark dress walks across the floor and stops near a tall statue of a man in a coat and hat standing on a pedestal.\", \"audio\": \"The audio is silent with no discernible sounds.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

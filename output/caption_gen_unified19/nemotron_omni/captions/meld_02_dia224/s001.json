@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man with dark hair wearing a red shirt sits on an orange couch, facing a man in a blue shirt. The man in the blue shirt smiles and extends his right hand forward while seated on the same couch. The setting includes a busy background with tables, mugs, and other people standing.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures a casual conversation with a short laugh from the man in blue.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"A man with dark hair wearing a red shirt sits on an orange couch, facing a man in a blue shirt. The man in the blue shirt smiles and extends his right hand forward while seated on the same couch. The setting includes a busy background with tables, mugs, and other people standing.\", \"audio\": \"The audio captures a casual conversation with a short laugh from the man in blue.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

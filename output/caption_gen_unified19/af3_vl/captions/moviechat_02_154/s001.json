@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a dark suit sits in the driver’s seat of a black car at night, his face partially illuminated, while another person is visible but blurred in the passenger seat. The car is parked on a city street with storefronts and neon signs in the background, and the man’s gaze is directed forward. The man’s posture is upright, and his expression is neutral with his mouth closed.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable non-speech sounds or prosodic variations.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit sits in the driver’s seat of a black car at night, his face partially illuminated, while another person is visible but blurred in the passenger seat. The car is parked on a city street with storefronts and neon signs in the background, and the man’s gaze is directed forward. The man’s posture is upright, and his expression is neutral with his mouth closed.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

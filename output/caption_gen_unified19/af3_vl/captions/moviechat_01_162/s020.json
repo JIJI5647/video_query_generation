@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_description": "A man in a black shirt is driving a car, his face sweaty and his gaze forward, with another person visible in the passenger seat. Both individuals are seated inside the vehicle, with the driver’s hand on the steering wheel and the passenger’s head turned slightly toward the driver. The scene is dimly lit, suggesting nighttime or low-light conditions, with blurred background elements visible through the car windows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate pace, accompanied by heavy breathing and a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a black shirt is driving a car, his face sweaty and his gaze forward, with another person visible in the passenger seat. Both individuals are seated inside the vehicle, with the driver’s hand on the steering wheel and the passenger’s head turned slightly toward the driver. The scene is dimly lit, suggesting nighttime or low-light conditions, with blurred background elements visible through the car windows.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

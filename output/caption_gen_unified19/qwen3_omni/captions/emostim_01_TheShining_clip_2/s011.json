@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A young boy with shaggy brown hair, wearing a red and grey striped sweater, stands in a dimly lit bedroom. He is holding a red marker and writing the word \"RECO\" on a light-colored wooden door. In the background, a person is sleeping in a bed under a patterned blanket, and a lit lamp sits on a nightstand.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A child's voice is heard speaking in a quiet, deliberate tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual\": \"A young boy with shaggy brown hair, wearing a red and grey striped sweater, stands in a dimly lit bedroom. He is holding a red marker and writing the word \\\"RECO\\\" on a light-colored wooden door. In the background, a person is sleeping in a bed under a patterned blanket, and a lit lamp sits on a nightstand.\", \"audio\": \"A child's voice is heard speaking in a quiet, deliberate tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

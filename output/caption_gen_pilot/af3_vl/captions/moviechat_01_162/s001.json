@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a clear, high-pitched voice with a neutral tone and moderate pace, accompanied by occasional pauses and subtle background noise.",
+  "temporal_description": "The video opens with a close-up of several individuals’ lower bodies, showing their legs and feet as they walk on a concrete surface. One person is seen lying motionless on the ground, dressed in dark clothing, with their arms and legs extended. The camera then shifts to a man in a dark suit and white shirt, crouched or leaning forward, holding a handgun pointed forward. Another person appears behind him, also holding a firearm. The background features urban elements such as a shuttered storefront and a weathered wall. The man in the suit maintains a steady, focused posture, his gaze directed ahead, while the second individual remains partially visible behind him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video opens with a close-up of several individuals’ lower bodies, showing their legs and feet as they walk on a concrete surface. One person is seen lying motionless on the ground, dressed in dark clothing, with their arms and legs extended. The camera then shifts to a man in a dark suit and white shirt, crouched or leaning forward, holding a handgun pointed forward. Another person appears behind him, also holding a firearm. The background features urban elements such as a shuttered storefro",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

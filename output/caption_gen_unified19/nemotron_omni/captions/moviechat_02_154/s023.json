@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "A nighttime city street with wet pavement reflects streetlights as a dark car maneuvers and people gather near a white vehicle. The scene shifts to a dimly lit building entrance marked with Chinese characters where two police officers walk past a truck. A close‑up shows a man with spiky hair in a leather jacket looking downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Ambient night sounds are audible, including distant traffic and faint murmurs.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s023\", \"time_range\": [110.0, 115.0], \"visual\": \"A nighttime city street with wet pavement reflects streetlights as a dark car maneuvers and people gather near a white vehicle. The scene shifts to a dimly lit building entrance marked with Chinese characters where two police officers walk past a truck. A close‑up shows a man with spiky hair in a leather jacket looking downward.\", \"audio\": \"Ambient night sounds are audible, including distant traffic and faint murmurs.\", \"confidence\""
+}

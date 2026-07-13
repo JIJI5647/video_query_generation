@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A woman with dark hair, wearing a blue robe, sits on a bed holding a knife and reaches toward a child in a striped sweater who is seated on a chair beside a lit lamp. The child, facing away from the camera, turns slightly toward the woman as she gestures with the knife. The woman’s gaze is fixed on the child, and her posture is tense as she leans forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice shouting and crying, with a high pitch and loud volume.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark hair, wearing a blue robe, sits on a bed holding a knife and reaches toward a child in a striped sweater who is seated on a chair beside a lit lamp. The child, facing away from the camera, turns slightly toward the woman as she gestures with the knife. The woman’s gaze is fixed on the child, and her posture is tense as she leans forward.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

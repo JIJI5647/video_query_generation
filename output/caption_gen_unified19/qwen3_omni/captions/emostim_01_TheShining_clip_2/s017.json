@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "A woman with dark hair, wearing a blue sweater, is shown in a state of shock, her mouth open and eyes wide as she holds a small child. The child is wrapped in a patterned blanket and appears to be crying. The scene is dimly lit, suggesting an indoor setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, high-pitched scream is heard, followed by a crashing sound, indicating a sudden and violent event.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s017\", \"time_range\": [80.0, 85.0], \"visual\": \"A woman with dark hair, wearing a blue sweater, is shown in a state of shock, her mouth open and eyes wide as she holds a small child. The child is wrapped in a patterned blanket and appears to be crying. The scene is dimly lit, suggesting an indoor setting.\", \"audio\": \"A loud, high-pitched scream is heard, followed by a crashing sound, indicating a sudden and violent event.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

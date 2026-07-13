@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_description": "In a dark night scene, faint lights reflect on water before cutting to two men seated against a tiled wall. The man in a shiny, sequined jacket holds a phone to his ear while the other man in dark clothing looks on. A close-up shows the man in the shiny jacket continuing his call, followed by a side view of another man in a suit also on the phone.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sound of a phone conversation is audible, with a voice speaking through the receiver.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s039\", \"time_range\": [190.0, 195.0], \"visual\": \"In a dark night scene, faint lights reflect on water before cutting to two men seated against a tiled wall. The man in a shiny, sequined jacket holds a phone to his ear while the other man in dark clothing looks on. A close-up shows the man in the shiny jacket continuing his call, followed by a side view of another man in a suit also on the phone.\", \"audio\": \"The sound of a phone conversation is audible, with a voice speaking throug"
+}

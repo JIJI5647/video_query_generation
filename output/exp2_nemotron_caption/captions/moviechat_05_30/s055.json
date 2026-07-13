@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_description": "In a dim stone hallway, a man and a woman stand side by side holding a large, unfolded parchment map that displays a detailed floor plan. The man points to a name on the map while the woman looks on attentively. A window with light streams in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains two voices speaking quietly in Mandarin, with a calm, conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s055\", \"time_range\": [270.0, 275.0], \"visual\": \"In a dim stone hallway, a man and a woman stand side by side holding a large, unfolded parchment map that displays a detailed floor plan. The man points to a name on the map while the woman looks on attentively. A window with light streams in the background.\", \"audio\": \"The audio contains two voices speaking quietly in Mandarin, with a calm, conversational tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

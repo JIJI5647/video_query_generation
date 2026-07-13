@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a neutral tone, speaking at a moderate pace.",
+  "temporal_description": "A child with short hair, wearing a red and gray sweater, stands facing a closed wooden door, holding a small object in their right hand and appearing to interact with the door’s surface. In the background, another child lies asleep in a bed, covered with a blue blanket and a patterned throw, with a lit lamp beside the bed casting a warm glow. The room has a cozy, dimly lit ambiance, with a clock on the wall and a window with curtains visible behind the sleeping child. The standing child’s posture is upright, and their gaze is directed toward the door, suggesting focused attention on the object or action they are performing.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short hair, wearing a red and gray sweater, stands facing a closed wooden door, holding a small object in their right hand and appearing to interact with the door’s surface. In the background, another child lies asleep in a bed, covered with a blue blanket and a patterned throw, with a lit lamp beside the bed casting a warm glow. The room has a cozy, dimly lit ambiance, with a clock on the wall and a window with curtains visible behind the sleeping child. The standing child’s postur",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "In a dimly lit, industrial-looking room, a shirtless man with boxing gloves lies on a table. An older man in a suit stands to the left, holding a hat, while another man with a shaved head sits on the right, looking down at the prone man. In the background, other figures are visible, including a man in a white shirt and another in a dark shirt.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"In a dimly lit, industrial-looking room, a shirtless man with boxing gloves lies on a table. An older man in a suit stands to the left, holding a hat, while another man with a shaved head sits on the right, looking down at the prone man. In the background, other figures are visible, including a man in a white shirt and another in a dark shirt.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

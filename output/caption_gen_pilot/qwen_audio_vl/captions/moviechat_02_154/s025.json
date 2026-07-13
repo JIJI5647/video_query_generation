@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, steady mechanical hum, characteristic of a large, electrically powered machine operating in a reverberant, enclosed space. The hum is slightly left-of-center in the stereo field and is accompanied by a faint, high-frequency hiss, likely from the recording equipment. The environment is acoustically reflective, suggesting a medium-sized room with hard surfaces such as concrete or tile. No human voices, footsteps, or other ambient sounds are present, indicating a solitary setting.\n\nShortly after the start, a sharp, metallic click is heard, positioned slightly right of center and close to the microphone. This click is followed by a brief, high-pitched squeak, both of which are indicative of a mechanical latch or lever being engaged, possibly as part of a machine’s operational cycle. Immediately after, a heavier, resonant metallic clank occurs, louder and more forceful than the previous sounds, suggesting the engagement of a larger component such as a door or safety mechanism. This is followed by a rapid, high-frequency metallic rattle, likely the result of a spring-loaded part or a small metal object vibrating in response to the mechanical action.\n\nThe mechanical sequence culminates in a loud, low-frequency thud, centered in the stereo field and resonant, which is consistent with a heavy object or door being closed or locked. This thud is accompanied by a brief, high-pitched metallic squeak, possibly from a hinge or latch under stress. The mechanical hum continues uninterrupted throughout, maintaining its steady pitch and volume, and the reverberant qualities of the space remain unchanged.\n\nThe recording ends abruptly, with no fade-out or lingering sound, indicating a deliberate stop to the capture.\n\nIn summary, the audio documents a sequence of mechanical actions—likely the operation of a large, industrial machine such as a vending machine, safe, or heavy-duty appliance—in a reverberant, enclosed environment. The sounds include a steady hum, a series of metallic clicks, clanks, rattles, and a final thud, all captured with moderate fidelity and clear spatial cues. The absence of speech, music, or other environmental sounds suggests a solitary, utilitarian setting, and the mechanical sequence is consistent with the activation or closure of a secure, heavy-duty device.",
+  "temporal_description": "Two men are seated side by side in a dimly lit room with blinds covering a window behind them. The man on the left has spiky hair with lighter streaks, wears a dark jacket over a patterned shirt and a necklace, and looks down before turning his head slightly to the right. The man on the right has longer, wavy dark hair, wears a dark suit with a tie, and remains mostly still, looking forward with his head slightly turned to his left. Both appear to be engaged in a conversation or listening intently, with minimal movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated side by side in a dimly lit room with blinds covering a window behind them. The man on the left has spiky hair with lighter streaks, wears a dark jacket over a patterned shirt and a necklace, and looks down before turning his head slightly to the right. The man on the right has longer, wavy dark hair, wears a dark suit with a tie, and remains mostly still, looking forward with his head slightly turned to his left. Both appear to be engaged in a conversation or listening intent",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

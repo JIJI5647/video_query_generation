@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A dimly lit bedroom shows a person sleeping under a patterned blanket on a dark wooden bed. A child wearing a striped sweater stands by a closed white door, holding a thin object and reaching for the doorknob. A lit lamp on a bedside table casts a warm glow over the scene.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with faint ambient sounds. No distinct speech or vocalizations are audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s007\", \"time_range\": [30, 35], \"visual\": \"A dimly lit bedroom shows a person sleeping under a patterned blanket on a dark wooden bed. A child wearing a striped sweater stands by a closed white door, holding a thin object and reaching for the doorknob. A lit lamp on a bedside table casts a warm glow over the scene.\", \"audio\": \"The audio is quiet with faint ambient sounds. No distinct speech or vocalizations are audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

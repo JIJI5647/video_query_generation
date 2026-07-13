@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with short, graying hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking on a silver flip phone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, possibly a warehouse or office"
+    },
+    "objects": [
+      {
+        "object": "a silver flip phone",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "held to the man's ear"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man is on a phone call"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with short, graying hair",
+      "facial_cues": [
+        "his eyes are focused",
+        "his mouth is slightly open"
+      ],
+      "body_cues": [
+        "he is holding the phone to his ear with his right hand"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "a male voice is speaking in a calm, conversational tone.",
+  "temporal_description": "the man remains on the phone throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s040\", \"time_range\": [195.0, 200.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with short, graying hair\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"talking on a silver flip phone\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a greenish tint, possibly a warehouse or office\"}, \"objects\": [{\"object\": \"a silver flip phone\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"held to the man's ear\"}], \"interactions\": [],"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man and a woman stand facing each other in a dimly lit, cavernous space with dark, textured walls. The man, wearing a dark jacket over a striped shirt, gestures toward the woman as they converse. The woman, dressed in a dark jacket over a red shirt, listens attentively. They gradually move closer, embracing and kissing, their bodies pressed together as they remain in the center of the frame. Their postures are intimate and still, with their heads tilted toward one another during the kiss.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man and a woman stand facing each other in a dimly lit, cavernous space with dark, textured walls. The man, wearing a dark jacket over a striped shirt, gestures toward the woman as they converse. The woman, dressed in a dark jacket over a red shirt, listens attentively. They gradually move closer, embracing and kissing, their bodies pressed together as they remain in the center of the frame. Their postures are intimate and still, with their heads tilted toward one another during the kiss.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

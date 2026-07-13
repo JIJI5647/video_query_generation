@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a happy tone, speaking at a moderate pace.",
+  "temporal_description": "In a dimly lit indoor setting, an older man with gray hair, wearing a gray suit, holds a flip phone to his ear with his right hand. He is seated, slightly turned to his left, with his gaze directed forward. Behind him, several other individuals are visible, some seated and others standing, all appearing to be in a waiting or observing posture. The background features metal railings and a muted, industrial-style environment. The man’s posture remains relatively still throughout, with minimal movement, suggesting he is focused on the phone conversation.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit indoor setting, an older man with gray hair, wearing a gray suit, holds a flip phone to his ear with his right hand. He is seated, slightly turned to his left, with his gaze directed forward. Behind him, several other individuals are visible, some seated and others standing, all appearing to be in a waiting or observing posture. The background features metal railings and a muted, industrial-style environment. The man’s posture remains relatively still throughout, with minimal move",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

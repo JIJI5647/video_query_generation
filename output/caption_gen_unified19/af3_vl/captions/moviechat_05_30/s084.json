@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_description": "A young man in a brown jacket stands centered in a dimly lit, cluttered room filled with shelves of glassware and metal objects. Two other individuals in dark clothing stand to the side, one pointing a wand forward while the other stands beside him. The young man looks forward with a neutral expression, his hands at his sides, while the others appear alert and focused on something ahead.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pitch and pace, and no noticeable inflection or background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man in a brown jacket stands centered in a dimly lit, cluttered room filled with shelves of glassware and metal objects. Two other individuals in dark clothing stand to the side, one pointing a wand forward while the other stands beside him. The young man looks forward with a neutral expression, his hands at his sides, while the others appear alert and focused on something ahead.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

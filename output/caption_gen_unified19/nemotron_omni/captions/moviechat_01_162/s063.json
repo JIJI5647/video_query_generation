@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_description": "A man in a white shirt and black tie stands with his hand on his hip in a dimly lit office area, wearing an ID badge around his neck. To his left, a television displays a black‑and‑white CCTV feed with a timestamp of 16:15. Earlier, a man in a light blue shirt sits beside a uniformed officer, both looking forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s063\", \"time_range\": [310.0, 315.0], \"visual\": \"A man in a white shirt and black tie stands with his hand on his hip in a dimly lit office area, wearing an ID badge around his neck. To his left, a television displays a black‑and‑white CCTV feed with a timestamp of 16:15. Earlier, a man in a light blue shirt sits beside a uniformed officer, both looking forward.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

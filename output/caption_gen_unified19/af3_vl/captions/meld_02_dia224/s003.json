@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a purple polo shirt sits on an orange couch, gesturing with his hands while speaking to two other men seated beside him. The man on his left wears a red shirt and faces away, while the man on his right, in a blue shirt, turns his head toward him. The background shows a dimly lit room with other people and furniture partially visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a clear, neutral tone and moderate pace, engaging in a brief, casual conversation about the Knicks.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a purple polo shirt sits on an orange couch, gesturing with his hands while speaking to two other men seated beside him. The man on his left wears a red shirt and faces away, while the man on his right, in a blue shirt, turns his head toward him. The background shows a dimly lit room with other people and furniture partially visible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

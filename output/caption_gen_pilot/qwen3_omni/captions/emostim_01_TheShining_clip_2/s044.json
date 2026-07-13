@@ -1,0 +1,58 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a knife and moving it around"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bathroom with a sink and a towel rack"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman holds a knife and moves it around",
+      "the woman turns her head"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a blue robe",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "holding a knife",
+        "moving it around",
+        "turning her head"
+      ],
+      "gaze": "looking around"
+    }
+  ],
+  "audio_description": "a high-pitched, sustained electronic tone is heard.",
+  "temporal_description": "the tone is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s044\", \"time_range\": [215.0, 220.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a blue robe\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a knife and moving it around\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a bathroom with a sink and a towel rack\"}, \"objects\": [{\"object\": \"knife\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"held by the woman\"}], \"interactions\": [], \"key_actions\": [\"the woman hol"
+}

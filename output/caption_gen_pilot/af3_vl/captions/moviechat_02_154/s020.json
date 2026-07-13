@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a single male voice with a clear, neutral tone and moderate pace, with no noticeable background noise or emotional inflection.",
+  "temporal_description": "The scene is set at night with dim, blurred lights in the background. A young man with spiky hair and a dark jacket is visible, standing still and looking forward. Another man, partially obscured, is in the foreground, facing away from the camera. Later, a middle-aged man in a suit is shown in close-up, looking downward and then slightly upward. The scene shifts to a group of men in suits, one wearing glasses, standing close together and facing each other, with one man slightly turning his head. The overall setting appears to be an outdoor or dimly lit urban environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene is set at night with dim, blurred lights in the background. A young man with spiky hair and a dark jacket is visible, standing still and looking forward. Another man, partially obscured, is in the foreground, facing away from the camera. Later, a middle-aged man in a suit is shown in close-up, looking downward and then slightly upward. The scene shifts to a group of men in suits, one wearing glasses, standing close together and facing each other, with one man slightly turning his head.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

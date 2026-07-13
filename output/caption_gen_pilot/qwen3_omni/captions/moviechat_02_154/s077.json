@@ -1,0 +1,78 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark red leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, holding chopsticks, and speaking."
+      },
+      {
+        "person": "a man in a grey suit",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind the first man, holding a can."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit restaurant or eatery with a greenish tint."
+    },
+    "objects": [
+      {
+        "object": "chopsticks",
+        "visibility": "clearly visible",
+        "position": "in the man's hands",
+        "action": "being held and used to pick up food."
+      },
+      {
+        "object": "a steaming pot",
+        "visibility": "clearly visible",
+        "position": "on the table",
+        "action": "sitting on the table, emitting steam."
+      },
+      {
+        "object": "a can",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being held by the man in the suit."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The man in the leather jacket uses chopsticks to pick food from the steaming pot."
+      }
+    ],
+    "key_actions": [
+      "The man in the leather jacket speaks and uses chopsticks to pick food from the pot."
+    ],
+    "visibility_notes": "The man in the leather jacket is the main focus, while the man in the suit is in the background."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark red leather jacket",
+      "facial_cues": [
+        "frowning",
+        "squinting"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "holding chopsticks"
+      ],
+      "gaze": "looking down at the food"
+    }
+  ],
+  "audio_description": "A male voice speaks in a foreign language, followed by the sound of a can being opened.",
+  "temporal_description": "The man in the leather jacket speaks, then the man in the suit opens a can.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s077\", \"time_range\": [380.0, 385.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark red leather jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting at a table, holding chopsticks, and speaking.\"}, {\"person\": \"a man in a grey suit\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"standing behind the first man, holding a can.\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dimly lit restaurant or eatery"
+}

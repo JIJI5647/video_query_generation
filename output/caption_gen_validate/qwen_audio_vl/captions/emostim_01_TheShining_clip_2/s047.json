@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, continuous mechanical hum, reminiscent of a large industrial motor or HVAC system, establishing a sterile, institutional atmosphere. This hum is accompanied by a faint, high-frequency hiss, likely from the recording equipment, and subtle reverberation that suggests a large, hard-surfaced room such as a warehouse, garage, or institutional corridor. The environment is devoid of any human presence or activity, with no speech, footsteps, or incidental noises.\n\nSuddenly, a sharp, metallic impact erupts—a loud, high-pitched clang with a brief, ringing resonance, indicating a forceful collision between metal objects. The impact is so intense that it causes the recording device to clip, resulting in harsh distortion and a brief, crackling artifact. Immediately following this, a high-pitched, piercing scream from a young female voice is heard. The scream is raw, uncontrolled, and filled with terror, lasting about a second and a half before abruptly cutting off, suggesting the person is either incapacitated or silenced by the event.\n\nAfter the scream, the mechanical hum resumes prominence, now joined by a faint, rhythmic metallic clatter. This clatter, likely produced by a chain or cable being dragged or dropped, is irregular and decelerates, implying a heavy object is being lowered or released. The reverberation remains consistent, reinforcing the impression of a large, empty, and industrial space. The recording ends abruptly, with no further sounds or resolution.\n\nIn summary, the audio captures a sudden, violent event in a large, industrial setting, characterized by a mechanical hum, a forceful metallic impact, a terrified female scream, and the subsequent dragging of a heavy object. The absence of speech, music, or other human activity, combined with the technical artifacts and environmental cues, suggests a recording made with consumer-grade equipment in a utilitarian space. The sequence conveys a sense of abrupt danger and unresolved tension, with the narrative left incomplete as the recording ends.",
+  "temporal_description": "A person wearing a dark hoodie and jeans is seen from behind, standing in a dimly lit bedroom, holding a hammer. They swing the hammer with force toward a closed door, striking it multiple times. The room contains a bed, a nightstand with a lamp, a bookshelf, and a wall-mounted mirror. The person’s head is slightly tilted forward during the swinging motion, and their body is angled toward the door as they deliver the blows.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a dark hoodie and jeans is seen from behind, standing in a dimly lit bedroom, holding a hammer. They swing the hammer with force toward a closed door, striking it multiple times. The room contains a bed, a nightstand with a lamp, a bookshelf, and a wall-mounted mirror. The person’s head is slightly tilted forward during the swinging motion, and their body is angled toward the door as they deliver the blows.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

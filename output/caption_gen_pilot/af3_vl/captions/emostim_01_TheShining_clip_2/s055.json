@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with moderate pitch and speed, accompanied by a noticeable background noise that adds a layer of ambient sound.",
+  "temporal_description": "A man with shoulder-length dark hair, wearing a dark red jacket over a plaid shirt, is standing in a dimly lit bedroom. He is positioned near a doorway, facing away from the camera, and appears to be looking into another room. A lit lamp sits on a bedside table next to a bed, casting a warm glow on the pink walls. A circular decorative item hangs on the wall, and a set of French doors with curtains is visible in the background. The man occasionally shifts his posture and turns slightly, but remains mostly still, gazing into the adjacent room.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length dark hair, wearing a dark red jacket over a plaid shirt, is standing in a dimly lit bedroom. He is positioned near a doorway, facing away from the camera, and appears to be looking into another room. A lit lamp sits on a bedside table next to a bed, casting a warm glow on the pink walls. A circular decorative item hangs on the wall, and a set of French doors with curtains is visible in the background. The man occasionally shifts his posture and turns slightly, but rema",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

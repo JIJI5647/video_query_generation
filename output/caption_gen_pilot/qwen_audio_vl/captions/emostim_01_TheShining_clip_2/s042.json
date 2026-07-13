@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched, and slightly distorted squeak, likely produced by a small animal such as a piglet or a rubber toy. This sound is brief, abrupt, and stands out against a backdrop of low-level hiss and a faint, continuous mechanical hum, suggesting the presence of an engine or ventilation system. The squeak is followed by a brief pause, during which the ambient hum persists, reinforcing the impression of a large, enclosed, and reverberant space. Next, a male voice with a deep, gravelly timbre and a General American accent speaks the phrase, “Little pigs.” His delivery is slow, deliberate, and tinged with a menacing, theatrical quality, as if he is addressing an unseen audience or character. The voice is clear and prominent, with a subtle echo that further emphasizes the size and acoustics of the environment. Immediately after the phrase, a loud, low-frequency electronic buzz erupts, characterized by a harsh, synthetic timbre and a strong presence in the bass frequencies. This buzz is sustained and abruptly cuts off, leaving only the residual hiss and hum of the background. Throughout the clip, there are no other voices, music, or environmental sounds, and the overall fidelity is moderate, with a limited frequency range and a persistent noise floor.\n\nIn summary, the audio presents a sequence of a high-pitched squeak, a menacing spoken phrase, and a dramatic electronic buzz, all set within a large, reverberant, and mechanical environment. The combination of these elements, along with the absence of other contextual cues, suggests a stylized, possibly fictional or dramatic setting, such as a scene from a film, game, or theatrical production, rather than a real-world event.",
+  "temporal_description": "A man with dark, slightly messy hair and a beard, wearing a plaid shirt under a maroon corduroy jacket, is partially visible in a doorway. He is looking toward the camera with his head slightly tilted, his gaze directed forward. His facial expression is neutral, with his mouth slightly open. The background includes a framed picture on the wall and a light-colored door frame. The lighting is warm and indoor, casting soft shadows.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, slightly messy hair and a beard, wearing a plaid shirt under a maroon corduroy jacket, is partially visible in a doorway. He is looking toward the camera with his head slightly tilted, his gaze directed forward. His facial expression is neutral, with his mouth slightly open. The background includes a framed picture on the wall and a light-colored door frame. The lighting is warm and indoor, casting soft shadows.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

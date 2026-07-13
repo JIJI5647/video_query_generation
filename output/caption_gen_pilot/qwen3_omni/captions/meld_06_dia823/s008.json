@@ -1,0 +1,56 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking, then gesturing with her right hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a wooden cabinet and a television in the background"
+    },
+    "objects": [
+      {
+        "object": "a wooden cabinet",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "stationary"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "speaking",
+      "gesturing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long blonde hair",
+      "facial_cues": [
+        "mouth moving",
+        "eyebrows slightly raised"
+      ],
+      "body_cues": [
+        "gesturing with right hand"
+      ],
+      "gaze": "towards the left"
+    }
+  ],
+  "audio_description": "A woman is speaking in a conversational tone.",
+  "temporal_description": "The woman speaks and then gestures with her hand.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with long blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and speaking, then gesturing with her right hand\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a living room with a wooden cabinet and a television in the background\"}, \"objects\": [{\"object\": \"a wooden cabinet\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"stat"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "A man with long hair wearing a maroon jacket stands in a hallway and swings a wooden bat at a pale yellow door. The impact shatters a small window in the door, leaving a jagged opening and a splintered piece of wood lodged in the frame. The man then leans into the opening, peering through the broken glass with a wide grin, his face partially visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud thud is heard as the bat strikes the door. The man then lets out a brief, amused laugh.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s026\", \"time_range\": [125.0, 130.0], \"visual\": \"A man with long hair wearing a maroon jacket stands in a hallway and swings a wooden bat at a pale yellow door. The impact shatters a small window in the door, leaving a jagged opening and a splintered piece of wood lodged in the frame. The man then leans into the opening, peering through the broken glass with a wide grin, his face partially visible.\", \"audio\": \"A loud thud is heard as the bat strikes the door. The man then lets out"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by a female voice with a similar tone and pace, both speaking in English.",
+  "temporal_description": "A woman lies in a hospital bed, covered with a pink blanket, holding a pillow, while a man in a beige jacket sits beside her, leaning forward and gesturing with his hands. The scene shifts to a wider view of the hospital room, revealing another man in a plaid shirt standing near a second bed where a woman is seated, looking toward the first bed. Medical equipment, including an IV stand and monitors, is visible in the background, and the room is lit by overhead fluorescent lights. The man in the plaid shirt appears to be rummaging through a bag on the bed beside him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman lies in a hospital bed, covered with a pink blanket, holding a pillow, while a man in a beige jacket sits beside her, leaning forward and gesturing with his hands. The scene shifts to a wider view of the hospital room, revealing another man in a plaid shirt standing near a second bed where a woman is seated, looking toward the first bed. Medical equipment, including an IV stand and monitors, is visible in the background, and the room is lit by overhead fluorescent lights. The man in the ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone, with no significant prosody or emotional inflection. There are no non-speech sounds present.",
+  "temporal_description": "Two men are seated at a table in a dimly lit indoor setting. The man on the right, wearing a black leather jacket, holds a small object and brings it to his mouth, while the man on the left, in a patterned shirt, is focused on eating from a bowl using chopsticks. The background is dark and out of focus, with indistinct shapes and furniture. The scene transitions to a nighttime outdoor shot of a car approaching with its headlights on, illuminating the wet pavement and surrounding vegetation.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at a table in a dimly lit indoor setting. The man on the right, wearing a black leather jacket, holds a small object and brings it to his mouth, while the man on the left, in a patterned shirt, is focused on eating from a bowl using chopsticks. The background is dark and out of focus, with indistinct shapes and furniture. The scene transitions to a nighttime outdoor shot of a car approaching with its headlights on, illuminating the wet pavement and surrounding vegetation.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

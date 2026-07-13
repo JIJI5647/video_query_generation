@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s076",
+  "time_range": [
+    375.0,
+    380.0
+  ],
+  "visual_description": "A police officer in a white uniform with black epaulets sits on the left, looking forward, while a man in a light blue shirt sits on the right, looking down at the table. The officer appears to be speaking, and the civilian listens attentively.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks in a calm tone, followed by a quieter response from the other man.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s076\", \"time_range\": [375.0, 380.0], \"visual\": \"A police officer in a white uniform with black epaulets sits on the left, looking forward, while a man in a light blue shirt sits on the right, looking down at the table. The officer appears to be speaking, and the civilian listens attentively.\", \"audio\": \"A male voice speaks in a calm tone, followed by a quieter response from the other man.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, sharp metallic impact, characterized by a high-frequency \"clink\" and a brief, resonant \"clank,\" suggesting the forceful engagement of a heavy metal mechanism such as a latch or bolt. This is immediately followed by a rapid, high-pitched metallic rattle, reminiscent of a chain or spring being released, which quickly decays into a low-frequency, sustained metallic groan. The groan, rich in overtones and reverberant, indicates the movement of a massive metal object—likely a door or gate—within a large, hard-surfaced enclosure. The reverberation is dense and complex, with flutter echoes and a long decay, pointing to a cavernous, industrial space such as a warehouse, prison, or factory.\n\nAs the metallic groan fades, a deep, low-frequency rumble emerges, evoking the sound of a heavy object sliding or scraping across a hard surface. This rumble is accompanied by a subtle, high-frequency hiss, possibly from air displacement or friction, and is punctuated by a sharp, high-pitched metallic \"clink\" that suggests a metal component striking a hard surface. The rumble continues, gradually diminishing in volume and intensity, with the reverberation maintaining the sense of a vast, empty space. The overall soundscape is devoid of any human presence, speech, or ambient noise, reinforcing the impression of isolation and mechanical operation.\n\nAbruptly, the rumble is cut off by a sudden, loud, low-frequency electronic buzz. This buzz is harsh, synthetic, and static, with a fundamental frequency around 60 Hz and strong harmonics, resembling a square or sawtooth wave. The buzz is much louder than previous sounds and is accompanied by digital clipping, resulting in a distorted, abrasive texture. It persists for a brief moment before the recording ends, with no fade-out or further events.\n\nIn summary, the audio presents a sequence of mechanical and electronic sounds within a large, reverberant industrial environment, likely a warehouse, prison, or factory. The events include the engagement of a heavy metal mechanism, the movement and groaning of a massive object, and a sudden electronic buzz, all rendered with high fidelity and no human or ambient noise. The clip conveys a sense of isolation, mechanical operation, and abrupt technological interruption, with no speech or music present.",
+  "temporal_description": "A man with long hair, wearing a dark jacket over a plaid shirt, is seated in a hallway with blue walls and a wooden staircase. He turns his head to the right, looking toward the staircase. The scene cuts to a woman with long dark hair, wearing a gray hoodie and jeans, standing in a dimly lit bedroom. She is facing a closed door, holding a small object in her right hand, and appears to be writing or drawing on the door with a red marker.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with long hair, wearing a dark jacket over a plaid shirt, is seated in a hallway with blue walls and a wooden staircase. He turns his head to the right, looking toward the staircase. The scene cuts to a woman with long dark hair, wearing a gray hoodie and jeans, standing in a dimly lit bedroom. She is facing a closed door, holding a small object in her right hand, and appears to be writing or drawing on the door with a red marker.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

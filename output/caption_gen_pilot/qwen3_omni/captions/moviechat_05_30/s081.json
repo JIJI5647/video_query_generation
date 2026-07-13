@@ -1,0 +1,44 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young man with round glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down with a somber expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, cluttered space with debris in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young man with round glasses",
+      "facial_cues": [
+        "downcast eyes",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful musical score plays in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s081\", \"time_range\": [400.0, 405.0], \"visual_objective\": {\"people\": [{\"person\": \"a young man with round glasses\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking down with a somber expression\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, cluttered space with debris in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a young man with round glasses\", \"f"
+}

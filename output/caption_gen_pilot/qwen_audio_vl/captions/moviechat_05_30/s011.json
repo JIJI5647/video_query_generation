@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, overwhelming surge of sound: a deep, resonant rumble and a high-frequency metallic screech, both instantly reaching maximum intensity. This initial impact is so forceful that it causes severe digital clipping, resulting in a harsh, distorted texture that masks finer details. The screech, reminiscent of steel wheels grinding against rails, is accompanied by a powerful, low-frequency roar, evoking the sensation of a massive train or subway car accelerating rapidly or braking hard. The environment is acoustically vast and enclosed, with dense, metallic reverberation and echoes that suggest a large, hard-surfaced space such as a tunnel or underground station.\n\nAs the event progresses, the screech and rumble remain dominant, with the screech fluctuating in pitch and intensity, indicating the train is negotiating a curve or applying brakes. The reverberation continues to fill the space, reinforcing the impression of a cavernous, industrial setting. The sound is overwhelmingly loud, with no other noises present—no voices, announcements, or ambient sounds—focusing the listener entirely on the mechanical event. The audio remains clipped and distorted, with the screech and rumble blending into a chaotic, overwhelming wall of sound.\n\nAbruptly, the audio cuts off mid-event, with no fade or resolution, leaving the listener suspended in the midst of the mechanical chaos.\n\nIn summary, the recording captures the intense, distorted soundscape of a large train or subway car moving through a vast, reverberant underground space, marked by metallic screeching and deep rumbling. The absence of speech, music, or other environmental cues, combined with the overwhelming volume and abrupt ending, creates a vivid, immersive experience of industrial power and mechanical force.",
+  "temporal_description": "The video shows a dark, abstract, and slowly moving landscape that appears to be a textured, undulating surface, possibly resembling a fabric or geological formation. The camera glides forward and rotates, revealing subtle contours and folds in the material, with faint light highlighting its creases and ridges. There are no people, objects, or discernible features beyond the surface texture and its gradual morphing shapes. The scene remains consistently dark, with minimal illumination emphasizing the surface’s movement and depth.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a dark, abstract, and slowly moving landscape that appears to be a textured, undulating surface, possibly resembling a fabric or geological formation. The camera glides forward and rotates, revealing subtle contours and folds in the material, with faint light highlighting its creases and ridges. There are no people, objects, or discernible features beyond the surface texture and its gradual morphing shapes. The scene remains consistently dark, with minimal illumination emphasizin",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

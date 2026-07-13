@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s086",
+  "time_range": [
+    425.0,
+    430.0
+  ],
+  "visual_description": "A man with short gray hair, wearing a black shirt, holds a phone to his ear with his right hand while seated. He looks slightly to his left, with his head tilted slightly upward, and his gaze directed away from the camera. The background features ornate golden decor and a chandelier, suggesting an opulent interior setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency thump, likely caused by a microphone bump or handling noise, immediately followed by a subtle, high-frequency hiss that persists throughout the recording. This hiss, along with a low-level hum, suggests the use of analog tape or a low-fidelity digital recorder, and the overall sound is muffled, with a restricted frequency range and a lack of crispness in the higher frequencies. The environment is acoustically dry, with no reverberation or ambient noise, indicating a small, well-dampened room or a close-mic setup. A single male voice, speaking in standard Mandarin Chinese, enters with a calm, measured, and deliberate tone. His speech is clear and intelligible, though slightly muffled, and is delivered in a manner that conveys seriousness and composure. The speaker says, “今天杀了警察的时候，那批货已经收了。” (“When the police were killed today, that batch of goods had already been received.”) His delivery is steady, with a slight downward inflection at the end, and the pacing is unhurried, suggesting a controlled and reflective mood. The content of the speech reveals a criminal context, referencing the killing of police and the receipt of a “",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short gray hair, wearing a black shirt, holds a phone to his ear with his right hand while seated. He looks slightly to his left, with his head tilted slightly upward, and his gaze directed away from the camera. The background features ornate golden decor and a chandelier, suggesting an opulent interior setting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

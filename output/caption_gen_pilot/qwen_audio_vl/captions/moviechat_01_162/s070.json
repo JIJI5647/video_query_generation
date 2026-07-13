@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful male shout in Mandarin Chinese, delivered in a high-pitched, strained, and emotionally charged tone. The speaker exclaims, “我跟你谈事实!” (“I’m talking to you about the facts!”), his voice reverberating through a large, hard-surfaced indoor space, such as a hall or auditorium. The delivery is loud and aggressive, with a clipped, distorted quality due to the microphone’s inability to handle the volume, resulting in harsh digital artifacts. Immediately following, the same male voice, now lower and more controlled, continues with, “谁也想不到会这样, OK?” (“No one could have imagined it would turn out this way, OK?”). This second phrase is spoken with a tone of exasperation and resignation, and the “OK?” is delivered with a rising inflection, seeking acknowledgment or agreement. The reverberation remains prominent, and the audio quality is marred by persistent hiss and digital clipping, especially on the initial shout.\n\nAfter the speech, the environment falls silent except for a faint, low-frequency hum and the ongoing hiss, with no other voices or background sounds present. The acoustic space is large and empty, amplifying the sense of isolation. Suddenly, a loud, synthetic electronic tone erupts, characterized by a low pitch, buzzy timbre, and a harsh, grating quality. This tone, reminiscent of a square or sawtooth wave, is sustained at full volume and is heavily clipped, producing a distorted, abrasive sound. It dominates the audio, masking all other noises, and is abruptly cut off at the end of the clip.\n\nIn summary, the audio presents a dramatic, emotionally charged exchange in Mandarin Chinese, set in a large, reverberant indoor space, followed by a stark, synthetic electronic tone. The recording’s technical flaws—clipping, hiss, and distortion—underscore the intensity of the moment. The absence of other voices or ambient sounds, combined with the abrupt electronic interruption, suggests a staged or dramatized context, likely intended for media or performance, and evokes a sense of unresolved tension and confrontation.",
+  "temporal_description": "A man in a white shirt and tie stands in front of a monitor displaying a surveillance feed, gesturing with his hand while speaking. He is positioned in a room with glass walls and fluorescent lighting, with other individuals seated around a table in the background. The monitor shows a dimly lit corridor with a timestamp visible. Another man in a similar uniform sits nearby, looking toward the speaker, while others are seated at the table, some writing or looking at papers. The room appears to be a security or command center with multiple workstations and monitors.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands in front of a monitor displaying a surveillance feed, gesturing with his hand while speaking. He is positioned in a room with glass walls and fluorescent lighting, with other individuals seated around a table in the background. The monitor shows a dimly lit corridor with a timestamp visible. Another man in a similar uniform sits nearby, looking toward the speaker, while others are seated at the table, some writing or looking at papers. The room appears to be",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

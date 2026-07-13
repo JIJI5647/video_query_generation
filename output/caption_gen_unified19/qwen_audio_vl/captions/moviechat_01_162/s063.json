@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands with one hand on his hip, facing forward in an office-like setting with glass walls and a monitor displaying a timestamp. Another person in a light-colored shirt is partially visible in the foreground, slightly out of focus, and appears to be moving. The man’s gaze is directed ahead, and his posture is upright and stationary.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely the sound of a mechanical switch or button being pressed, immediately followed by a brief, low-frequency thump as the recording device is activated. A faint, persistent hiss and a subtle low-frequency hum, characteristic of analog tape or a low-quality microphone, form the background noise floor. The environment is acoustically dry, with no reverberation or echo, indicating a small, well-dampened room. A single male voice, speaking in standard Mandarin Chinese, enters with a calm, measured, and slightly weary tone. He states, “有很多义兄跑了” (“There are many righteous brothers who have run away”), using the term “义兄” (yìxiōng), which denotes a sworn brother or close comrade, suggesting a context of organized camaraderie or a secret society. The speaker’s delivery is deliberate and emotionally neutral, with a slight downward inflection at the end of the phrase, conveying resignation or acceptance. After a brief pause, the speaker continues, “人数不知道” (“The number is unknown”), maintaining the same steady, low-pitched, and slightly raspy vocal quality. The phrase is delivered with a similar tone, reinforcing the sense of resignation and uncertainty.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands with one hand on his hip, facing forward in an office-like setting with glass walls and a monitor displaying a timestamp. Another person in a light-colored shirt is partially visible in the foreground, slightly out of focus, and appears to be moving. The man’s gaze is directed ahead, and his posture is upright and stationary.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

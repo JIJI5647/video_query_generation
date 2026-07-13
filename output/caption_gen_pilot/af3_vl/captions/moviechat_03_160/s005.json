@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man with short gray hair, wearing a gray suit jacket over a light-colored shirt, is shown in a dimly lit, green-tinted room with a wooden door and a red decorative item visible in the background. He turns his head slightly to the side, then begins to move out of the frame, revealing another man in a dark jacket standing with his back to the camera, looking through a metal security gate. The second man remains still, gazing through the gate, while the first man exits the scene.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short gray hair, wearing a gray suit jacket over a light-colored shirt, is shown in a dimly lit, green-tinted room with a wooden door and a red decorative item visible in the background. He turns his head slightly to the side, then begins to move out of the frame, revealing another man in a dark jacket standing with his back to the camera, looking through a metal security gate. The second man remains still, gazing through the gate, while the first man exits the scene.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

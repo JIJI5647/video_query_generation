@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A person in a dark, tattered outfit is seen in a dimly lit, dilapidated room with peeling walls and a checkered floor, standing near a doorway with a light source behind them. Another person, partially obscured and in shadow, is visible in the foreground, their face and upper body mostly hidden. The standing person appears to be moving forward or gesturing with their arms, while the obscured figure remains mostly still with their head turned slightly.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a moderate pace, accompanied by a whooshing sound in the background.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark, tattered outfit is seen in a dimly lit, dilapidated room with peeling walls and a checkered floor, standing near a doorway with a light source behind them. Another person, partially obscured and in shadow, is visible in the foreground, their face and upper body mostly hidden. The standing person appears to be moving forward or gesturing with their arms, while the obscured figure remains mostly still with their head turned slightly.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

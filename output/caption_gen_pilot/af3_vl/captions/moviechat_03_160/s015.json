@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone, with no significant prosody or non-speech sounds.",
+  "temporal_description": "A man in a white shirt is seen with his hands behind his head, looking downward, suggesting a seated position. Another man, dressed in a dark suit, is shown from behind, standing still in a dimly lit room, with his hands clasped in front of him. The scene transitions between these two individuals, with the first man remaining in a fixed position and the second man standing motionless, creating a contrast between the two settings.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt is seen with his hands behind his head, looking downward, suggesting a seated position. Another man, dressed in a dark suit, is shown from behind, standing still in a dimly lit room, with his hands clasped in front of him. The scene transitions between these two individuals, with the first man remaining in a fixed position and the second man standing motionless, creating a contrast between the two settings.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

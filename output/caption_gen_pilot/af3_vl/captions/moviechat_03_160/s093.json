@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a light-colored shirt and striped tie stands in a dimly lit hallway, with other individuals partially visible behind him. The scene transitions to a conference room where a group of people, mostly in business attire, are gathered around a long table. One older man with gray hair sits at the table, eating with chopsticks, while others stand or sit nearby, observing him. The room has a map on the wall and glass partitions, suggesting a professional or institutional setting. The man eating appears focused on his meal, while those around him remain still or watch him attentively.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt and striped tie stands in a dimly lit hallway, with other individuals partially visible behind him. The scene transitions to a conference room where a group of people, mostly in business attire, are gathered around a long table. One older man with gray hair sits at the table, eating with chopsticks, while others stand or sit nearby, observing him. The room has a map on the wall and glass partitions, suggesting a professional or institutional setting. The man eating",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

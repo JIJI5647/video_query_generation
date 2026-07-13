@@ -1,0 +1,47 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark hooded outfit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "running"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a checkered floor and a bed in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "running"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark hooded outfit",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "running"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "a loud, distorted, and echoing sound effect plays",
+  "temporal_description": "the sound effect is continuous throughout the clip",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark hooded outfit\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"running\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a checkered floor and a bed in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"running\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man in a dark hooded outfit\", \"facial_cues\": [\"not clearly"
+}

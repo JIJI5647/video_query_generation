@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man with shoulder-length hair, wearing a dark plaid shirt under a red jacket, peers through a torn hole in a pale yellow door. He is partially visible, with his head and upper torso seen through the gap, and his gaze is directed outward. His hand rests on the door’s edge as he leans forward slightly, appearing to observe something beyond the door. The surrounding walls are covered in floral wallpaper, and a round mirror hangs to the left of the door. The scene is static, with the man remaining in the same position throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length hair, wearing a dark plaid shirt under a red jacket, peers through a torn hole in a pale yellow door. He is partially visible, with his head and upper torso seen through the gap, and his gaze is directed outward. His hand rests on the door’s edge as he leans forward slightly, appearing to observe something beyond the door. The surrounding walls are covered in floral wallpaper, and a round mirror hangs to the left of the door. The scene is static, with the man remaining",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

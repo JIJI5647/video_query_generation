@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a high pitch and a sad tone, speaking at a moderate pace. There are no significant non-speech sounds, and the overall atmosphere is somber.",
+  "temporal_description": "A person is seen crawling on the ground in a dimly lit environment, their body partially illuminated by faint light sources. Their face is visible, showing an intense expression with their mouth open, and their hands are gripping the ground as they move forward. The scene transitions to a wide view of a large crowd gathered in darkness, illuminated by torches and green glowing lights, suggesting a ceremonial or ritualistic setting. The crowd remains mostly stationary, with some individuals moving slightly, and the overall atmosphere is one of anticipation or solemnity.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person is seen crawling on the ground in a dimly lit environment, their body partially illuminated by faint light sources. Their face is visible, showing an intense expression with their mouth open, and their hands are gripping the ground as they move forward. The scene transitions to a wide view of a large crowd gathered in darkness, illuminated by torches and green glowing lights, suggesting a ceremonial or ritualistic setting. The crowd remains mostly stationary, with some individuals movin",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

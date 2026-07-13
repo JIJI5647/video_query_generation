@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_description": "In a dimly lit room, a man in a light-colored shirt sits at a desk facing a laptop while another man stands near closed blinds, and a hand adjusts a black handheld radio whose digital display shows changing numbers. The camera then focuses on the radio screen displaying a frequency before returning to the man at the laptop.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The ambient sound is quiet with faint electronic hum, and no distinct speech is heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s061\", \"time_range\": [300.0, 305.0], \"visual\": \"In a dimly lit room, a man in a light-colored shirt sits at a desk facing a laptop while another man stands near closed blinds, and a hand adjusts a black handheld radio whose digital display shows changing numbers. The camera then focuses on the radio screen displaying a frequency before returning to the man at the laptop.\", \"audio\": \"The ambient sound is quiet with faint electronic hum, and no distinct speech is heard.\", \"confiden"
+}

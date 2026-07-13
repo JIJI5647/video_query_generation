@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched electronic chirp, immediately followed by a low, guttural, and raspy vocalization that is heavily processed and distorted. This vocalization, delivered in a slow, deliberate, and menacing manner, is the only speech present and is repeated twice with identical phrasing and timing. The first utterance is “Redrum,” and the second is “Redrum,” both pronounced with a deep, gravelly, and menacing tone, reminiscent of a monstrous or supernatural entity. The vocalizations are heavily processed with digital distortion, static, and a low-frequency hum, creating a sense of unease and artificiality. The background is filled with a persistent, low-frequency hum and a high-frequency hiss, both of which are characteristic of analog tape or low-fidelity digital recording. The overall sound is monophonic, with no spatial movement or stereo imaging, and the frequency range is limited, resulting in a muffled and compressed auditory experience. The environment is acoustically dry, with no reverberation or ambient noise, suggesting a controlled or isolated recording space. The clip ends abruptly after the second vocalization, with no fade-out or lingering sound.\n\nIn summary, the audio clip features two identical, distorted, and menacing utterances of “Redrum,” preceded by a brief electronic chirp and set against a backdrop of analog-style hum and hiss. The sound design and vocal delivery evoke a sense of horror and supernatural dread, referencing the iconic “Redrum” motif from *The Shining*. The technical and stylistic choices, including the monophonic presentation and abrupt ending, reinforce the unsettling and artificial nature of the recording, making it a clear homage to classic horror media.",
+  "temporal_description": "A child with short hair, wearing a red and gray sweater, stands facing a closed wooden door, holding a small object in their right hand and appearing to interact with the door’s surface. In the background, another child lies asleep in a bed, covered with a blue blanket and a patterned throw, with a lit lamp beside the bed casting a warm glow. The room has a cozy, dimly lit ambiance, with a clock on the wall and a window with curtains visible behind the sleeping child. The standing child’s posture is upright, and their gaze is directed toward the door, suggesting focused attention on the object or action they are performing.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short hair, wearing a red and gray sweater, stands facing a closed wooden door, holding a small object in their right hand and appearing to interact with the door’s surface. In the background, another child lies asleep in a bed, covered with a blue blanket and a patterned throw, with a lit lamp beside the bed casting a warm glow. The room has a cozy, dimly lit ambiance, with a clock on the wall and a window with curtains visible behind the sleeping child. The standing child’s postur",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

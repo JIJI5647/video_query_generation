@@ -1,0 +1,53 @@
+{
+  "total_wall_seconds": 1619.3,
+  "videos_attempted": 5,
+  "videos_processed": 4,
+  "total_tokens": 100951,
+  "total_llm_calls": 8,
+  "by_stage": {
+    "emotion_event": {
+      "calls": 5,
+      "prompt_tokens": 44172,
+      "candidates_tokens": 16295,
+      "total_tokens": 60467
+    },
+    "generation": {
+      "calls": 3,
+      "prompt_tokens": 32655,
+      "candidates_tokens": 7829,
+      "total_tokens": 40484
+    }
+  },
+  "per_video": [
+    {
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "status": "skipped",
+      "seconds": 130.2,
+      "total_tokens": 20026
+    },
+    {
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "status": "ok",
+      "seconds": 1.2,
+      "total_tokens": 9778
+    },
+    {
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "status": "ok",
+      "seconds": 963.3,
+      "total_tokens": 39662
+    },
+    {
+      "video_id": "meld_01_dia337",
+      "status": "ok",
+      "seconds": 276.9,
+      "total_tokens": 16170
+    },
+    {
+      "video_id": "meld_03_dia572",
+      "status": "ok",
+      "seconds": 247.6,
+      "total_tokens": 15315
+    }
+  ]
+}

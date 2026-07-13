@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "A person in dark clothing runs across a metal bridge, dodging debris as another figure in dark attire lunges toward them. The scene is dimly lit with debris flying through the air, and the bridge’s metal structure and chains are visible. The runner’s posture is forward-leaning and urgent, while the pursuer’s arms are extended in an attacking motion.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable prosodic variations or non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in dark clothing runs across a metal bridge, dodging debris as another figure in dark attire lunges toward them. The scene is dimly lit with debris flying through the air, and the bridge’s metal structure and chains are visible. The runner’s posture is forward-leaning and urgent, while the pursuer’s arms are extended in an attacking motion.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

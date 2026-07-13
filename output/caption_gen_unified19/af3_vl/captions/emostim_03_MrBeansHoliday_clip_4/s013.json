@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "A man in a suit rides a bicycle on a road, passing a white pickup truck with a wooden crate in its bed. The truck is moving in the same direction, and the man maintains a steady posture as he pedals. The scene is outdoors under a partly cloudy sky with trees and open land visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a moderate pitch and a steady pace, accompanied by a consistent background sound.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit rides a bicycle on a road, passing a white pickup truck with a wooden crate in its bed. The truck is moving in the same direction, and the man maintains a steady posture as he pedals. The scene is outdoors under a partly cloudy sky with trees and open land visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

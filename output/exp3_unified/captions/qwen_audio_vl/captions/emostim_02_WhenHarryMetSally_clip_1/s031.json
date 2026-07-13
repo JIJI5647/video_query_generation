@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "A woman with blonde, shoulder-length hair and a dark jacket over a white shirt sits at a table, holding a glass, while a man in a striped shirt sits across from her. Behind them, another woman with short gray hair and a patterned top sits at a different table, looking toward the foreground. The scene is indoors, likely a restaurant or café, with other patrons and tables visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic clink, likely from a utensil or glass being set on a hard surface, immediately followed by a brief, low-frequency thud and a soft rustle, suggesting a person shifting in their seat. These sounds are captured with high clarity, indicating a close microphone placement in a quiet, acoustically controlled environment. A faint, continuous hiss is present throughout, characteristic of a high-quality recording device’s noise floor, but no other background noises or environmental sounds are detected. Shortly after, a female voice with a General American accent speaks in a calm, measured, and slightly weary tone: “I’ll have what she’s having.” Her delivery is deliberate, with a subtle downward inflection on “having,” and the phrase is spoken at a moderate volume, free from intensity or urgency. The voice is clear and well-articulated, with no distortion or clipping, and the acoustic environment is dry, lacking reverberation or echo, which points to a small, well-dampened room. The recording ends abruptly after the spoken phrase, with no fade-out or lingering sounds, indicating a deliberate edit or termination of the recording. In summary, the audio captures a brief, intimate moment in a quiet, controlled setting",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with blonde, shoulder-length hair and a dark jacket over a white shirt sits at a table, holding a glass, while a man in a striped shirt sits across from her. Behind them, another woman with short gray hair and a patterned top sits at a different table, looking toward the foreground. The scene is indoors, likely a restaurant or café, with other patrons and tables visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

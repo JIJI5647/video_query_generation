@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and neutral tone, speaking at a moderate pace, followed by laughter.",
+  "temporal_description": "Two men are seated at a kitchen counter, facing each other. The man on the left, wearing a gray sweater, holds a piece of paper and gestures with his hands while speaking. The man on the right, dressed in a black jacket over a white shirt, leans forward with his hands clasped, looking at the paper. Behind them, kitchen shelves hold various items, including jars and a paper towel roll, and a refrigerator is visible with magnets and photos. A red plastic cup sits on the counter near the man in the gray sweater. The scene shifts to a different angle, showing the same two men seated at a table in a living room, with a television and shelves holding decorative items in the background. The man in the gray sweater continues to hold the paper and gesture, while the man in the black jacket remains seated, facing him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at a kitchen counter, facing each other. The man on the left, wearing a gray sweater, holds a piece of paper and gestures with his hands while speaking. The man on the right, dressed in a black jacket over a white shirt, leans forward with his hands clasped, looking at the paper. Behind them, kitchen shelves hold various items, including jars and a paper towel roll, and a refrigerator is visible with magnets and photos. A red plastic cup sits on the counter near the man in the",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

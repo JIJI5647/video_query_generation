@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "The man in a blue polo shirt sits on an orange couch, extending his right hand to shake the hand of a partially visible woman seated to his left. He smiles broadly with crinkled eyes while maintaining eye contact, his posture upright and leaning slightly forward. The background shows a coffee shop environment with a green column, tables, and a person holding a white cup.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "unclear",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"The man in a blue polo shirt sits on an orange couch, extending his right hand to shake the hand of a partially visible woman seated to his left. He smiles broadly with crinkled eyes while maintaining eye contact, his posture upright and leaning slightly forward. The background shows a coffee shop environment with a green column, tables, and a person holding a white cup.\", \"audio\": \"unclear\", \"confidence\": \"high\", \"evidence_strength\": "
+}

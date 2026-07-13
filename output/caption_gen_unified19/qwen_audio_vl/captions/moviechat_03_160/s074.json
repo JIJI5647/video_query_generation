@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_description": "A man with gray hair and a light jacket is seen in close-up, looking forward with a neutral expression. Another man with dark hair and a dark shirt stands facing him, partially obscured by a metal-barred door behind him. Both are stationary, with the second man’s gaze directed toward the first.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single, resonant piano chord played softly and with a slow, deliberate attack. The chord is voiced in a minor key, featuring a low bass note and a high, dissonant upper note, creating a and unresolved atmosphere. The piano’s timbre is warm and slightly muffled, with a subtle, persistent analog hiss and a faint low-frequency hum, suggesting the use of vintage recording equipment or a deliberate lo-fi aesthetic. The sound is enveloped in a lush, natural reverb, evoking the acoustics of a large, empty hall or cathedral, and the chord is allowed to decay slowly, filling the space with lingering resonance. As the piano chord fades, a high-pitched, metallic scraping sound emerges, reminiscent of a violin bow drawn across a cymbal or a similar metallic object. This sound is sustained and gliding, with a slow, expressive vibrato that intensifies the sense of suspense and unease. The scraping is dry and close-mic’d, contrasting with the piano’s reverberant space, and is accompanied by a faint, high-frequency whine that adds to the tension. The scraping’s pitch rises and falls, and its timbre is abrasive and metallic, further heightening the atmosphere",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair and a light jacket is seen in close-up, looking forward with a neutral expression. Another man with dark hair and a dark shirt stands facing him, partially obscured by a metal-barred door behind him. Both are stationary, with the second man’s gaze directed toward the first.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

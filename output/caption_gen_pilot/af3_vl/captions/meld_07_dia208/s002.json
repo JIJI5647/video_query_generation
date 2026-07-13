@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a clear, neutral voice, speaking at a moderate pace with a steady tone and no significant background noise.",
+  "temporal_description": "In a cozy, dimly lit café setting, two men are seated at a small round table. The man on the left wears a red plaid shirt and blue jeans, resting his arms on the table with a blue mug and a small container of sugar in front of him. The man on the right, dressed in a black sweater and blue jeans, leans back with his right hand supporting his chin. Behind them, festive decorations including red and gold garlands and a chalkboard with writing are visible. Other patrons are seated in the background, some at the bar and others at tables, contributing to the bustling atmosphere. The man in red gestures with his right hand while speaking, occasionally looking toward his companion, who remains attentive and relaxed, occasionally shifting his gaze. A woman with curly hair, wearing a blue top, is partially visible in the foreground, seated nearby. The overall scene suggests a casual, social gathering in a warm, inviting café.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a cozy, dimly lit café setting, two men are seated at a small round table. The man on the left wears a red plaid shirt and blue jeans, resting his arms on the table with a blue mug and a small container of sugar in front of him. The man on the right, dressed in a black sweater and blue jeans, leans back with his right hand supporting his chin. Behind them, festive decorations including red and gold garlands and a chalkboard with writing are visible. Other patrons are seated in the background,",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

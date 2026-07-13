@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a white shirt and tie stands with arms crossed, watching a security monitor displaying a black-and-white surveillance feed. He occasionally shifts his stance and gestures slightly while speaking. Two other men, one in a police uniform and another in a light shirt, sit nearby, observing the monitor with focused attention. The setting appears to be an office or security room with glass walls and dim lighting, and the monitor shows a person walking through a corridor.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands with arms crossed, watching a security monitor displaying a black-and-white surveillance feed. He occasionally shifts his stance and gestures slightly while speaking. Two other men, one in a police uniform and another in a light shirt, sit nearby, observing the monitor with focused attention. The setting appears to be an office or security room with glass walls and dim lighting, and the monitor shows a person walking through a corridor.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

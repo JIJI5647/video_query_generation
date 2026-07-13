@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing a song with a medium pitch and a moderate tempo.",
+  "temporal_description": "A man in a dark suit and tie is standing in a dimly lit, cluttered room with wooden walls and various objects around. He is leaning forward, looking intently at a small, wire-meshed cage on a stand. His hand is resting on the cage as he examines its contents, which appear to be small, possibly live animals. The lighting casts shadows across the room, and the man’s posture suggests focused attention on the cage.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie is standing in a dimly lit, cluttered room with wooden walls and various objects around. He is leaning forward, looking intently at a small, wire-meshed cage on a stand. His hand is resting on the cage as he examines its contents, which appear to be small, possibly live animals. The lighting casts shadows across the room, and the man’s posture suggests focused attention on the cage.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

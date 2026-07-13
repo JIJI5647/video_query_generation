@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s075",
+  "time_range": [
+    370.0,
+    375.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands facing another man in a similar outfit, both appearing in an office or institutional setting with glass partitions and monitors in the background. The second man, wearing a uniform with insignia, is shown in close-up, looking slightly to his left with a neutral expression. The first man is partially visible, standing upright and facing the uniformed man, suggesting a formal interaction.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single male speaker, whose voice is clear, steady, and delivered in standard Mandarin Chinese. He speaks in a formal, narrative tone, characteristic of a professional narrator or voice actor, with no inflection or background noise. The recording environment is acoustically controlled, likely a studio, as evidenced by the absence of ambient sounds, reverberation, or any extraneous noise. The speaker states: “黄警司的电脑里面，有他派去韩琛那里做卧底的档案。不过有密…” (“Inside Superintendent Wong’s computer, there are the files of the agent he sent to work undercover at Han Chen’s place. However, there is a secret…”). The sentence is abruptly cut off mid-word, with no fade-out or natural ending, indicating the clip is an excerpt from a longer recording. The content of the speech is a direct exposition of a plot point from the 1996 Hong Kong crime film *Election*, directed by Johnnie To. The speaker references Superintendent Wong, a character in the film, and his computer files containing information about an undercover agent sent to infiltrate the organization of Han Chen, a major antagonist. The mention of a “secret” implies a critical plot twist",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands facing another man in a similar outfit, both appearing in an office or institutional setting with glass partitions and monitors in the background. The second man, wearing a uniform with insignia, is shown in close-up, looking slightly to his left with a neutral expression. The first man is partially visible, standing upright and facing the uniformed man, suggesting a formal interaction.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

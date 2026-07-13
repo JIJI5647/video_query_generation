@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, speaking at a moderate pace with a neutral prosody. There are no significant non-speech sounds or background noise.",
+  "temporal_description": "A person wearing transparent gloves is performing a medical procedure on another individual’s mouth, using a pair of tweezers to manipulate tissue. The patient’s mouth is open, revealing the inside of the mouth and teeth, while the person performing the procedure holds the patient’s lips open with one hand. The scene is focused on the mouth area, with the background blurred and indistinct. The person performing the procedure is positioned above the patient, with their hands and tools clearly visible as they work.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing transparent gloves is performing a medical procedure on another individual’s mouth, using a pair of tweezers to manipulate tissue. The patient’s mouth is open, revealing the inside of the mouth and teeth, while the person performing the procedure holds the patient’s lips open with one hand. The scene is focused on the mouth area, with the background blurred and indistinct. The person performing the procedure is positioned above the patient, with their hands and tools clearly vis",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a rural road with fields and trees in the background under a blue sky with clouds."
+    },
+    "objects": [
+      {
+        "object": "a bicycle",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being ridden by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit is riding a bicycle."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown suit",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "pedaling"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "Upbeat rock music with a male vocalist singing.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a brown suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"riding a bicycle\"}], \"scene\": {\"location\": \"street\", \"setting\": \"a rural road with fields and trees in the background under a blue sky with clouds.\"}, \"objects\": [{\"object\": \"a bicycle\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being ridden by the man\"}], \"interactions\": [], \"key_"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by occasional background noise.",
+  "temporal_description": "A person in a camouflage outfit with visible blood on their face and mouth is shown in a dimly lit indoor setting, appearing to be in a state of distress or aggression. The scene transitions to near-total darkness, with only faint light revealing a person’s face partially obscured by a hand or object, their eye visible and glistening with sweat or moisture. The camera remains focused on the eye and ear, with slight movements suggesting the person is looking around or reacting to something unseen. The lighting is minimal, casting deep shadows and emphasizing the contours of the face and the texture of the skin.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a camouflage outfit with visible blood on their face and mouth is shown in a dimly lit indoor setting, appearing to be in a state of distress or aggression. The scene transitions to near-total darkness, with only faint light revealing a person’s face partially obscured by a hand or object, their eye visible and glistening with sweat or moisture. The camera remains focused on the eye and ear, with slight movements suggesting the person is looking around or reacting to something unseen",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,87 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt wearing headphones",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting and looking forward with a serious expression"
+      },
+      {
+        "person": "a man in a white shirt wearing headphones",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting and looking down, then adjusting his headphones with both hands"
+      },
+      {
+        "person": "a man in a dark suit and tie wearing a headset",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "partially visible, seen from the back"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a green wall, possibly a control room or office"
+    },
+    "objects": [
+      {
+        "object": "headphones",
+        "visibility": "clearly visible",
+        "position": "on the heads of the men in white shirts"
+      },
+      {
+        "object": "microphone",
+        "visibility": "clearly visible",
+        "position": "in front of the man on the right"
+      },
+      {
+        "object": "bottle",
+        "visibility": "clearly visible",
+        "position": "on the table in front of the man on the left"
+      }
+    ],
+    "interactions": [
+      "the man on the right adjusts his headphones with both hands"
+    ],
+    "key_actions": [
+      "the man on the right adjusts his headphones"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt wearing headphones",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a white shirt wearing headphones",
+      "facial_cues": [
+        "focused expression",
+        "concentrated gaze"
+      ],
+      "body_cues": [
+        "adjusting headphones with both hands"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, clear tone.",
+  "temporal_description": "The man on the right adjusts his headphones while the man on the left remains still.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s068\", \"time_range\": [335.0, 340.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt wearing headphones\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting and looking forward with a serious expression\"}, {\"person\": \"a man in a white shirt wearing headphones\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"sitting and looking down, then adjusting his headphones with both hands\"}, {\"person\": \"a man in a dark suit and tie "
+}

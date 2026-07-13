@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark hair wearing a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting in a car, holding his hand to his nose"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dark, possibly at night or in a dimly lit area"
+    },
+    "objects": [
+      {
+        "object": "a white bandage",
+        "visibility": "clearly visible",
+        "position": "on the man's hand",
+        "action": "wrapped around the man's hand"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man holds his hand to his nose"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark hair wearing a black shirt",
+      "facial_cues": [
+        "sweating",
+        "tense expression"
+      ],
+      "body_cues": [
+        "hand held to nose"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice speaking in a strained tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s028\", \"time_range\": [135.0, 140.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with dark hair wearing a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting in a car, holding his hand to his nose\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"dark, possibly at night or in a dimly lit area\"}, \"objects\": [{\"object\": \"a white bandage\", \"visibility\": \"clearly visible\", \"position\": \"on the man's hand\", \"action\": \"wrapped around th"
+}

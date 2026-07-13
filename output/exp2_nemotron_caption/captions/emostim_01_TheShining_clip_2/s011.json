@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A child with shaggy hair, wearing a red sweater over a plaid shirt, stands in a dim bedroom and writes the word RECON in red on a white door. In the background, a person lies on a bed covered with a blue blanket, and a lit lamp sits on a nightstand beside French doors.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "There is no audible sound in this segment.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual\": \"A child with shaggy hair, wearing a red sweater over a plaid shirt, stands in a dim bedroom and writes the word RECON in red on a white door. In the background, a person lies on a bed covered with a blue blanket, and a lit lamp sits on a nightstand beside French doors.\", \"audio\": \"There is no audible sound in this segment.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

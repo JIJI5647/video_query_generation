@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a white shirt and dark pants stands with his back to the camera, leaning on a railing on an upper floor, looking out at a dimly lit urban scene. Another man in a dark suit approaches from behind, places his hand on the first man’s shoulder, and turns him to face him. The second man gestures with his hand while speaking, and the first man responds by touching his own face and looking at the second man. The scene is set at night, with buildings visible in the background and a plastic sheet hanging nearby.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and dark pants stands with his back to the camera, leaning on a railing on an upper floor, looking out at a dimly lit urban scene. Another man in a dark suit approaches from behind, places his hand on the first man’s shoulder, and turns him to face him. The second man gestures with his hand while speaking, and the first man responds by touching his own face and looking at the second man. The scene is set at night, with buildings visible in the background and a plastic shee",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

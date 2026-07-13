@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_description": "A group of people in dark robes are scattered across a grand, dimly lit staircase, some crouching or falling, others moving quickly with raised arms or holding objects. Many are in motion, appearing to be running or dodging, with some looking toward the stairs or upward. The scene is chaotic, with blurred movement and shadows dominating the stone architecture and lantern-lit corridor.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and fast-paced voice with a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people in dark robes are scattered across a grand, dimly lit staircase, some crouching or falling, others moving quickly with raised arms or holding objects. Many are in motion, appearing to be running or dodging, with some looking toward the stairs or upward. The scene is chaotic, with blurred movement and shadows dominating the stone architecture and lantern-lit corridor.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

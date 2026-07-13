@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A man in a light-colored shirt is seated at a desk, looking intently at a computer screen with his hands near his face. Another man in a white shirt walks past him, carrying a white object, while a third person is partially visible in the foreground. The setting appears to be an office or workspace with maps and documents pinned to a wall in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched electronic chime, reminiscent of a notification or alert from a digital device. This chime is immediately followed by a brief, low-pitched male voice speaking the Mandarin Chinese phrase “对不起” (“duìbùqǐ”), which translates to “I’m sorry.” The voice is clear, neutral, and slightly reverberant, suggesting it was recorded in a small, hard-surfaced room. The speaker’s tone is calm and unemotional, and the phrase is delivered in a standard, unaccented Mandarin, indicating a native speaker from a northern region of China. The chime and voice are both centered in the stereo field, with no spatial movement. As the voice fades, a synthesized musical sequence begins, featuring a bright, bell-like timbre with a rapid, arpeggiated melody. The music is reminiscent of early video game soundtracks, specifically the “Item Get” or “Coin” jingle from the Super Nintendo Entertainment System’s *Super Mario World*. The melody is playful, energetic, and looped, with a steady, upbeat rhythm and no additional instrumentation or vocals. The music is clean and digitally produced, with no background noise or environmental sounds, and is presented in a wide",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt is seated at a desk, looking intently at a computer screen with his hands near his face. Another man in a white shirt walks past him, carrying a white object, while a third person is partially visible in the foreground. The setting appears to be an office or workspace with maps and documents pinned to a wall in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "At night, a man in dark clothing stands beside a parked car, holding a phone to his ear while looking into the distance. The scene shifts to an older man in a suit talking on a phone, smiling faintly against a tiled wall. Finally, a younger man with a mustache looks through metal bars with a solemn expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A phone conversation is audible, with the man's voice faintly heard, followed by the older man's voice in an indoor setting, and then muted background sound. No other distinct sounds are clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s041\", \"time_range\": [200, 205], \"visual\": \"At night, a man in dark clothing stands beside a parked car, holding a phone to his ear while looking into the distance. The scene shifts to an older man in a suit talking on a phone, smiling faintly against a tiled wall. Finally, a younger man with a mustache looks through metal bars with a solemn expression.\", \"audio\": \"A phone conversation is audible, with the man's voice faintly heard, followed by the older man's voice in an indoor "
+}

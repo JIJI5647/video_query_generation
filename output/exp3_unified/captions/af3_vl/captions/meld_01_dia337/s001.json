@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a pink plaid shirt is seen from the side, moving toward a doorway while looking back. Another man in a blue shirt stands in the doorway, facing the first man with his hands slightly out. The scene takes place in a warmly lit interior room with framed artwork on the walls and furniture visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, discussing soaps and shampoos in a straightforward manner.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a pink plaid shirt is seen from the side, moving toward a doorway while looking back. Another man in a blue shirt stands in the doorway, facing the first man with his hands slightly out. The scene takes place in a warmly lit interior room with framed artwork on the walls and furniture visible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

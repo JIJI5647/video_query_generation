@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a dark suit aims a handgun forward with both hands, his gaze fixed ahead. Behind him, another man in a suit stands alert near a building entrance, while a third man in a light jacket crouches beside a car with a person lying motionless on the ground nearby. The scene takes place outdoors in an urban setting with muted tones and blurred background figures.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a slightly breathy quality, speaking at a moderate pace with a neutral prosody.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit aims a handgun forward with both hands, his gaze fixed ahead. Behind him, another man in a suit stands alert near a building entrance, while a third man in a light jacket crouches beside a car with a person lying motionless on the ground nearby. The scene takes place outdoors in an urban setting with muted tones and blurred background figures.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

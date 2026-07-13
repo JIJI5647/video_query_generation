@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking, followed by a sudden loud noise, and then a woman's voice.",
+  "temporal_description": "A man with short dark hair and a beard, wearing a dark jacket, is seen holding a phone to his ear in a dimly lit outdoor setting. He turns his head slightly, then lowers the phone and begins walking away. The scene shifts to a wet road at night, illuminated by streetlights and approaching emergency vehicle lights. Another man, also in dark clothing and with short hair, appears, walking toward the camera with a slight smile and gesturing with his hands before raising them in a wide, open motion. The background is dark with distant lights, suggesting an urban or suburban environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair and a beard, wearing a dark jacket, is seen holding a phone to his ear in a dimly lit outdoor setting. He turns his head slightly, then lowers the phone and begins walking away. The scene shifts to a wet road at night, illuminated by streetlights and approaching emergency vehicle lights. Another man, also in dark clothing and with short hair, appears, walking toward the camera with a slight smile and gesturing with his hands before raising them in a wide, open motion. ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

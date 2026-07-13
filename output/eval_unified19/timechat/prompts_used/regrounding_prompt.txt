@@ -1,0 +1,48 @@
+PROMPT VERSION: regrounding_prompt_v1
+
+TASK:
+You are given a list of already-written temporal-grounding QUERIES for one video,
+each paired with its own CANDIDATE SEGMENTS (observation captions with time
+ranges). For EACH query, choose which candidate segment(s) an annotator should
+watch to answer/locate that query — i.e. pick the FINAL grounding. This is a
+PURE GROUNDING SELECTION task: you are not judging emotion, not rewriting the
+query, and not inventing evidence. Just read the query text and match it to the
+segment(s) whose observable evidence best supports it.
+
+You do NOT see the video. Treat each query's candidate captions as the ground
+truth of what is observable at that time.
+
+VIDEO ID: {video_id}
+
+RULES:
+1. For each query, choose ONLY from that query's own ``candidate_segments`` list
+   — never a segment_id not listed for that query.
+2. Choose 1 segment, or several CONTIGUOUS segments (consecutive in time, no
+   gaps), whichever best covers the evidence the query text describes. Prefer
+   the SMALLEST contiguous span that fully covers the evidence — do not pad
+   with unrelated segments.
+3. Base your choice ONLY on the candidate captions' ``caption`` text (and
+   ``confidence``/``evidence_strength`` as a tie-breaker toward clearer
+   evidence). Do not use any outside knowledge of the video.
+4. If a query's candidates contain no segment whose evidence plausibly matches
+   the query, return an EMPTY ``segment_ids`` list for that query rather than
+   guessing — a bad guess is worse than an admitted miss (the pipeline falls
+   back to the query's original grounding when you return empty/invalid).
+5. Every query in the input MUST appear exactly once in the output.
+
+QUERIES (each with its own candidate segments):
+{queries_json}
+
+OUTPUT REQUIREMENTS:
+Return valid JSON only. No markdown, no comments, no text outside the JSON object.
+
+The output JSON must match this schema exactly:
+{
+"video_id": "{video_id}",
+"groundings": [
+{
+"query_id": "<query_id, copied exactly from the input>",
+"segment_ids": ["<segment_id from that query's candidate_segments>", "..."]
+}
+]
+}

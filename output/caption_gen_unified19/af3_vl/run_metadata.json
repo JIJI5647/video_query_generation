@@ -1,0 +1,133 @@
+{
+  "caption_model": "af3_vl",
+  "model_kind": "audio_video",
+  "non_commercial": true,
+  "video_dir": "data/pilot_study",
+  "num_videos": 19,
+  "num_segments": 735,
+  "num_captions": 735,
+  "total_seconds": 1583.0,
+  "segment_seconds": 5.0,
+  "stride": 5.0,
+  "per_video": [
+    {
+      "video_id": "emostim_01_TheShining_clip_2",
+      "num_segments": 57,
+      "num_cached": 0,
+      "seconds": 138.7
+    },
+    {
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "num_segments": 31,
+      "num_cached": 0,
+      "seconds": 66.0
+    },
+    {
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "num_segments": 23,
+      "num_cached": 0,
+      "seconds": 42.7
+    },
+    {
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "num_segments": 11,
+      "num_cached": 0,
+      "seconds": 23.5
+    },
+    {
+      "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+      "num_segments": 37,
+      "num_cached": 0,
+      "seconds": 74.5
+    },
+    {
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "num_segments": 23,
+      "num_cached": 0,
+      "seconds": 46.5
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "num_segments": 3,
+      "num_cached": 0,
+      "seconds": 6.5
+    },
+    {
+      "video_id": "meld_01_dia337",
+      "num_segments": 14,
+      "num_cached": 0,
+      "seconds": 31.8
+    },
+    {
+      "video_id": "meld_02_dia224",
+      "num_segments": 8,
+      "num_cached": 0,
+      "seconds": 17.7
+    },
+    {
+      "video_id": "meld_03_dia572",
+      "num_segments": 11,
+      "num_cached": 0,
+      "seconds": 24.3
+    },
+    {
+      "video_id": "meld_04_dia362",
+      "num_segments": 11,
+      "num_cached": 0,
+      "seconds": 24.7
+    },
+    {
+      "video_id": "meld_05_dia980",
+      "num_segments": 8,
+      "num_cached": 0,
+      "seconds": 18.3
+    },
+    {
+      "video_id": "meld_06_dia823",
+      "num_segments": 9,
+      "num_cached": 0,
+      "seconds": 19.8
+    },
+    {
+      "video_id": "meld_07_dia208",
+      "num_segments": 9,
+      "num_cached": 0,
+      "seconds": 24.3
+    },
+    {
+      "video_id": "moviechat_01_162",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 198.7
+    },
+    {
+      "video_id": "moviechat_02_154",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 213.8
+    },
+    {
+      "video_id": "moviechat_03_160",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 199.9
+    },
+    {
+      "video_id": "moviechat_04_159",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 197.2
+    },
+    {
+      "video_id": "moviechat_05_30",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 209.3
+    }
+  ],
+  "model_paths": {
+    "caption_model_path": null,
+    "audio_model_path": "nvidia/audio-flamingo-3-hf",
+    "video_model_path": "Qwen/Qwen3-VL-8B-Instruct"
+  }
+}

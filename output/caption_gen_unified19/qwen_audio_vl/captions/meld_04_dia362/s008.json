@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A woman with short brown hair, wearing a white lab coat over a striped shirt and a name badge, is seated beside a hospital bed. She looks toward the side, her gaze directed off-camera, with her hands clasped in her lap. In the background, medical equipment and a pink basin are visible on a cart, and a hospital bed with a patient covered by a pink blanket is partially seen.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a clear, professionally recorded female voice, speaking in a calm, measured, and reassuring tone: “You’re ready to go to the delivery room.” Her delivery is precise and slightly formal, with a gentle, upward inflection at the end, suggesting a supportive and encouraging demeanor. The recording is high-fidelity, with no background noise, music, or environmental sounds, and the voice is centered in the stereo field, indicating a studio or controlled setting. Immediately following this, a second female voice responds with a soft, breathy, and slightly amused chuckle, signaling a relaxed and informal atmosphere. She then speaks in a more casual, conversational manner, repeating the phrase: “Actually, I think you’re ready to go to the delivery room.” Her tone is playful and self-aware, with a subtle upward inflection and a hint of irony, as if she is gently correcting or playfully echoing the first speaker. The delivery is marked by a slight hesitation and a more natural, less formal cadence, reinforcing the impression of a friendly, familiar exchange. The clip concludes with a brief, low-frequency electronic tone—a pure sine wave at approximately 1000 Hz—serving as a technical marker or end-of-file signal. This tone",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with short brown hair, wearing a white lab coat over a striped shirt and a name badge, is seated beside a hospital bed. She looks toward the side, her gaze directed off-camera, with her hands clasped in her lap. In the background, medical equipment and a pink basin are visible on a cart, and a hospital bed with a patient covered by a pink blanket is partially seen.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

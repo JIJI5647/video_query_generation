@@ -1,0 +1,27 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with tiled walls and a red paper decoration on a door"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks, followed by a loud, sustained electronic tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s061\", \"time_range\": [300.0, 305.0], \"visual_objective\": {\"people\": [], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with tiled walls and a red paper decoration on a door\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [], \"visibility_notes\": \"\"}, \"visual_expression\": [], \"audio_description\": \"A male voice speaks, followed by a loud, sustained electronic tone.\", \"temporal_description\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

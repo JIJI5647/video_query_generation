@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or emotional inflection.",
+  "temporal_description": "A woman with blonde, shoulder-length hair, wearing a dark cardigan over a white collared shirt with a brooch, sits across from a man with dark hair and a beard, who is wearing a plaid shirt. They are seated at a table in a busy, crowded indoor setting, likely a cafeteria or dining area, with other people visible in the background. The woman is holding a small object in her hands and appears to be examining or manipulating it while looking at the man. The man is holding a piece of food, possibly a sandwich or pastry, and is gesturing with his free hand as he speaks, occasionally looking down at his food. Both individuals are seated and facing each other, maintaining eye contact during their interaction. The woman’s posture is upright, and she occasionally shifts her gaze slightly while speaking or listening. The man’s posture is relaxed, and he leans slightly forward while talking, indicating engagement in the conversation.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with blonde, shoulder-length hair, wearing a dark cardigan over a white collared shirt with a brooch, sits across from a man with dark hair and a beard, who is wearing a plaid shirt. They are seated at a table in a busy, crowded indoor setting, likely a cafeteria or dining area, with other people visible in the background. The woman is holding a small object in her hands and appears to be examining or manipulating it while looking at the man. The man is holding a piece of food, possibly ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

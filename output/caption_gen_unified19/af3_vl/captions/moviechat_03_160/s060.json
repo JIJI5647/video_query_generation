@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_description": "A man wearing a cap and dark shirt stands in a dimly lit, neon-lit urban setting, looking down at a handheld device. Another man in a light-colored shirt and glasses is seen from the side, reaching toward a brightly lit vending machine or shelf stocked with products. The scene is characterized by glowing signs, reflections, and a bustling nighttime street atmosphere with blurred background figures.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a consistent background hum.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man wearing a cap and dark shirt stands in a dimly lit, neon-lit urban setting, looking down at a handheld device. Another man in a light-colored shirt and glasses is seen from the side, reaching toward a brightly lit vending machine or shelf stocked with products. The scene is characterized by glowing signs, reflections, and a bustling nighttime street atmosphere with blurred background figures.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

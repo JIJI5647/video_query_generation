@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A woman with brown hair is visible in a close-up shot, her face partially obscured by a blurred foreground element. She is looking downward and slightly to her right, her gaze fixed on something out of frame. Her posture is still, and her facial features are neutral, with no discernible expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency rustling sound, likely caused by the movement of clothing or a soft object near the microphone, accompanied by a persistent, low-level electronic hiss characteristic of a consumer-grade recording device. Immediately following, a single adult female voice, speaking in a clear, neutral General American English accent, delivers the phrase: “Star-shaped contact entrance wound over the.” Her speech is measured and precise, with a slightly breathy timbre and a subtle upward inflection at the end, indicating she is mid-sentence and about to continue. The delivery is calm and professional, suggesting she is reading from a prepared document or report, possibly in a forensic or medical context. The room’s acoustics are dry and intimate, with no reverberation or background noise, implying a small, well-furnished space such as a private office or home study. As she begins to say the next word, her voice is abruptly cut off by a sharp, high-pitched electronic beep—a pure sine wave tone typical of a censor bleep or recording device alert. This beep is loud, clear, and digitally clipped, dominating the final moment of the recording and masking any further speech or ambient sound. The recording ends immediately after the beep, with no",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with brown hair is visible in a close-up shot, her face partially obscured by a blurred foreground element. She is looking downward and slightly to her right, her gaze fixed on something out of frame. Her posture is still, and her facial features are neutral, with no discernible expression.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

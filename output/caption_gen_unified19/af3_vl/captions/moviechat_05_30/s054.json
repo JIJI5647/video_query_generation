@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_description": "A person with glasses and a jacket stands in a dim, stone-walled corridor with arched windows, looking downward. Two figures in dark clothing stand in the background, one holding a large map, illuminated by a blue glow on the floor. The foreground hand holds a book open to a detailed map, with visible text and symbols.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a tone, speaking at a moderate pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with glasses and a jacket stands in a dim, stone-walled corridor with arched windows, looking downward. Two figures in dark clothing stand in the background, one holding a large map, illuminated by a blue glow on the floor. The foreground hand holds a book open to a detailed map, with visible text and symbols.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A young boy with shaggy hair stands in a dimly lit room, wearing a striped sweater over a plaid shirt. He holds a large knife, turning it in his hands and examining its blade. The background includes an old television, a warm lamp, and a mirror reflecting the scene.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent with no discernible sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual\": \"A young boy with shaggy hair stands in a dimly lit room, wearing a striped sweater over a plaid shirt. He holds a large knife, turning it in his hands and examining its blade. The background includes an old television, a warm lamp, and a mirror reflecting the scene.\", \"audio\": \"The audio is silent with no discernible sounds.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

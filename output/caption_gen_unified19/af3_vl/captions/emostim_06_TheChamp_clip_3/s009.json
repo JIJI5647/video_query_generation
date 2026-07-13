@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A young boy with light-colored hair, wearing a gray shirt, is shown in close-up, his face and hands visibly wet, as he holds something in his hands. His gaze is directed downward toward his hands, and his facial expression appears distressed, with tears visible on his cheeks. The background is dark, and the lighting highlights his face and hands, emphasizing the wetness and the object he is holding.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and moderate loudness, speaking at a moderate pace with a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored hair, wearing a gray shirt, is shown in close-up, his face and hands visibly wet, as he holds something in his hands. His gaze is directed downward toward his hands, and his facial expression appears distressed, with tears visible on his cheeks. The background is dark, and the lighting highlights his face and hands, emphasizing the wetness and the object he is holding.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

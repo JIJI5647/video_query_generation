@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A woman with dark hair, wearing a blue robe, sits up in bed and grabs a young child who is standing beside her. The child, wearing a striped sweater, holds a knife and turns to face the woman. The woman takes the knife from the child and pulls them into a hug.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A child is shouting repeatedly, and an adult female voice is heard speaking in a calm, reassuring tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual\": \"A woman with dark hair, wearing a blue robe, sits up in bed and grabs a young child who is standing beside her. The child, wearing a striped sweater, holds a knife and turns to face the woman. The woman takes the knife from the child and pulls them into a hug.\", \"audio\": \"A child is shouting repeatedly, and an adult female voice is heard speaking in a calm, reassuring tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

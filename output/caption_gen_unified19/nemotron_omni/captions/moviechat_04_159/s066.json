@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_description": "A man in a suit sits in the back seat of a car at night, looking forward with a neutral expression while another person is partially visible in the foreground. The car interior is dimly lit and blurred city lights are visible through the windows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The ambient sound is unclear, with no distinct speech or noise audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s066\", \"time_range\": [325, 330], \"visual\": \"A man in a suit sits in the back seat of a car at night, looking forward with a neutral expression while another person is partially visible in the foreground. The car interior is dimly lit and blurred city lights are visible through the windows.\", \"audio\": \"The ambient sound is unclear, with no distinct speech or noise audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

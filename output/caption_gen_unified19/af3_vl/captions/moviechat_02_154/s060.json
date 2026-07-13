@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_description": "Three men stand in a dimly lit alleyway; one in a striped shirt faces left, another in a dark jacket holds a glass bottle, and the third, in a dark suit, faces right. The man in the suit holds a glass bottle and appears to be engaged in conversation, while the others stand facing him. The alley is cluttered with hanging fabrics and a glowing sign with Chinese characters, and the lighting casts shadows on the walls and figures.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace and pitch, accompanied by a consistent background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men stand in a dimly lit alleyway; one in a striped shirt faces left, another in a dark jacket holds a glass bottle, and the third, in a dark suit, faces right. The man in the suit holds a glass bottle and appears to be engaged in conversation, while the others stand facing him. The alley is cluttered with hanging fabrics and a glowing sign with Chinese characters, and the lighting casts shadows on the walls and figures.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long, dark, wavy hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking intently at someone off-screen to the right"
+      },
+      {
+        "person": "a man with short, dark hair",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "night scene with out-of-focus city lights in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long, dark, wavy hair",
+      "facial_cues": [
+        "intense gaze",
+        "neutral expression"
+      ],
+      "body_cues": [],
+      "gaze": "to the right"
+    }
+  ],
+  "audio_description": "A rhythmic, electronic beat plays in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with long, dark, wavy hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking intently at someone off-screen to the right\"}, {\"person\": \"a man with short, dark hair\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"standing still\"}], \"scene\": {\"location\": \"street\", \"setting\": \"night scene with out-of-focus city lights in the background\"}, \"obj"
+}

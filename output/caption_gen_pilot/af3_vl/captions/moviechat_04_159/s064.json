@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace, accompanied by a consistent background hum.",
+  "temporal_description": "A man wearing headphones is seated in front of a laptop, his gaze fixed on the screen. The scene shifts to another man in a dark suit, standing in a dimly lit room with computer monitors displaying blue data. A third person, wearing a light-colored shirt, walks past him while holding a water bottle. The man in the suit turns his head slightly as the person passes, then looks down. The first man remains still, focused on his screen throughout.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man wearing headphones is seated in front of a laptop, his gaze fixed on the screen. The scene shifts to another man in a dark suit, standing in a dimly lit room with computer monitors displaying blue data. A third person, wearing a light-colored shirt, walks past him while holding a water bottle. The man in the suit turns his head slightly as the person passes, then looks down. The first man remains still, focused on his screen throughout.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

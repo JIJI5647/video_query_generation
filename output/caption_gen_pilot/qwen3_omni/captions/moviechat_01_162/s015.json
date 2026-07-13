@@ -1,0 +1,34 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person with long hair",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "watching a television screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark room with a television mounted on a wall"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "a female voice is speaking in a formal tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual_objective\": {\"people\": [{\"person\": \"a person with long hair\", \"visibility\": \"partially visible\", \"position\": \"foreground\", \"action\": \"watching a television screen\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dark room with a television mounted on a wall\"}}, \"visual_expression\": [], \"audio_description\": \"a female voice is speaking in a formal tone.\", \"temporal_description\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

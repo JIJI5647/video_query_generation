@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing a pop song with a medium pitch and a moderate tempo.",
+  "temporal_description": "A person in a dark room, partially obscured by a metal cage, is seen adjusting or interacting with the cage. The cage contains small objects, possibly food or materials, and is positioned on a stand. The person moves around the cage, occasionally reaching in or adjusting its position. The room is dimly lit, with shadows and a cluttered background, suggesting an industrial or storage setting. The person’s face is not clearly visible, and their movements are deliberate and focused on the cage.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark room, partially obscured by a metal cage, is seen adjusting or interacting with the cage. The cage contains small objects, possibly food or materials, and is positioned on a stand. The person moves around the cage, occasionally reaching in or adjusting its position. The room is dimly lit, with shadows and a cluttered background, suggesting an industrial or storage setting. The person’s face is not clearly visible, and their movements are deliberate and focused on the cage.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

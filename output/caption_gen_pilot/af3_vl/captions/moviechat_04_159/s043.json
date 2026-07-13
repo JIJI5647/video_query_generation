@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a steady pace and moderate pitch, accompanied by background music.",
+  "temporal_description": "Inside a car at night, three men are seated: the driver in a black jacket, the front passenger in a dark suit with glasses, and a third man in a light suit in the back. The car’s interior is dimly lit, with city lights visible through the windows. The driver maintains a steady gaze forward, while the front passenger looks ahead with a neutral expression. The backseat passenger appears to be looking slightly to the side. The scene transitions to an indoor setting where a man in a dark jacket with a lanyard stands, and another man in a dark shirt sits nearby, both appearing attentive. The background includes other individuals and plain walls, suggesting an institutional or office-like environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Inside a car at night, three men are seated: the driver in a black jacket, the front passenger in a dark suit with glasses, and a third man in a light suit in the back. The car’s interior is dimly lit, with city lights visible through the windows. The driver maintains a steady gaze forward, while the front passenger looks ahead with a neutral expression. The backseat passenger appears to be looking slightly to the side. The scene transitions to an indoor setting where a man in a dark jacket with",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

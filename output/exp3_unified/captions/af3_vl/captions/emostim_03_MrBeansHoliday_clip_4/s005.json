@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man in a suit and tie is standing beside a vehicle on a rural road, holding onto the open door with one hand and gesturing with the other. He is positioned on the side of the road, facing slightly toward the camera, with his body angled as if in mid-motion. The background shows open fields, power lines, and a clear sky, with the man’s posture suggesting he is either stepping out or preparing to move.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing with a medium pitch and moderate tempo, accompanied by the sound of a car engine revving and accelerating.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and tie is standing beside a vehicle on a rural road, holding onto the open door with one hand and gesturing with the other. He is positioned on the side of the road, facing slightly toward the camera, with his body angled as if in mid-motion. The background shows open fields, power lines, and a clear sky, with the man’s posture suggesting he is either stepping out or preparing to move.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

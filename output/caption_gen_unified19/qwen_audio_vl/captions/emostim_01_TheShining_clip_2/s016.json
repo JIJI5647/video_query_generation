@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "A woman with dark hair is holding a child in a dimly lit bedroom, both seated on a bed. The woman is holding a knife and appears to be interacting with the child, who is facing away from the camera. A lamp on a bedside table casts warm light, illuminating the scene. The room contains a wooden headboard, a glass of water, and various items on the table. Later, the camera pans to a door with the word \"MURDER\" written in red on its surface, framed by a mirror and curtains.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins with a sudden, high-pitched, and forceful shout from a young child, likely a girl, who exclaims \"Mom!\" The voice is strained and urgent. Immediately following this, a second, even higher-pitched and more frantic cry is heard, though the words are indistinct and possibly a repetition or a different exclamation. Both vocalizations are marked by a sense of panic and are delivered in a reverberant indoor space, likely a kitchen or similar room with hard surfaces. As the child's cries fade, a loud, metallic, high-frequency grinding sound erupts, dominating the soundscape. This mechanical noise is harsh, abrasive, and continuous, with a rapid, rhythmic, and percussive quality. The grinding is so intense that it causes severe digital clipping and distortion, overwhelming the recording device and resulting in a harsh, crackling texture. The sound is consistent with a powerful kitchen appliance—most likely a garbage disposal or blender—being activated, with the blade or impeller spinning at high speed and processing hard, brittle material. The acoustic environment remains reverberant, with the grinding sound reflecting off hard surfaces, and there are no other background noises, voices, or ambient sounds present",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark hair is holding a child in a dimly lit bedroom, both seated on a bed. The woman is holding a knife and appears to be interacting with the child, who is facing away from the camera. A lamp on a bedside table casts warm light, illuminating the scene. The room contains a wooden headboard, a glass of water, and various items on the table. Later, the camera pans to a door with the word \"MURDER\" written in red on its surface, framed by a mirror and curtains.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

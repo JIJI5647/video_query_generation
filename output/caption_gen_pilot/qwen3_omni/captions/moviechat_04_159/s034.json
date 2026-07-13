@@ -1,0 +1,74 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and white shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "walking down a dimly lit corridor, looking forward and then turning his head to speak to the man next to him."
+      },
+      {
+        "person": "a man in a dark suit and white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "walking down a dimly lit corridor, looking forward and then turning his head to speak to the man next to him."
+      },
+      {
+        "person": "a woman with dark hair",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "walking in front of the two men, her back to the camera."
+      }
+    ],
+    "scene": {
+      "location": "indoor corridor",
+      "setting": "dimly lit with green walls and overhead lights."
+    },
+    "objects": [],
+    "interactions": [
+      "The two men walk side-by-side and appear to be having a conversation."
+    ],
+    "key_actions": [
+      "Walking",
+      "Talking"
+    ],
+    "visibility_notes": "The woman in the foreground is partially obscured by the men."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and white shirt",
+      "facial_cues": [
+        "serious expression",
+        "mouth moving"
+      ],
+      "body_cues": [
+        "turning his head to speak"
+      ],
+      "gaze": "looking forward, then towards the other man."
+    },
+    {
+      "person": "a man in a dark suit and white shirt",
+      "facial_cues": [
+        "serious expression",
+        "mouth moving"
+      ],
+      "body_cues": [
+        "turning his head to speak"
+      ],
+      "gaze": "looking forward, then towards the other man."
+    }
+  ],
+  "audio_description": "A male voice is speaking in a serious tone.",
+  "temporal_description": "The audio is a continuous monologue throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s034\", \"time_range\": [165.0, 170.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and white shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"walking down a dimly lit corridor, looking forward and then turning his head to speak to the man next to him.\"}, {\"person\": \"a man in a dark suit and white shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"walking down a dimly lit corridor, looking forward and then turning hi"
+}

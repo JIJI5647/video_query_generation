@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man with gray hair wearing a light-colored suit jacket and a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting and smiling"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a shelf in the background holding bowls and other items"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "an older man with gray hair wearing a light-colored suit jacket and a white shirt",
+      "facial_cues": [
+        "smiling",
+        "eyes closed"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A loud, low-frequency rumbling sound, like a large engine or heavy machinery, is heard.",
+  "temporal_description": "The rumbling sound starts abruptly and continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual_objective\": {\"people\": [{\"person\": \"an older man with gray hair wearing a light-colored suit jacket and a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"sitting and smiling\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a shelf in the background holding bowls and other items\"}}, \"visual_expression\": [{\"person\": \"an older man with gray hair wearing a light-colored suit jacket an"
+}

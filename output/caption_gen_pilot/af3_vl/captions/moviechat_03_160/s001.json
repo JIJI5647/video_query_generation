@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a clear, high-pitched voice with a neutral tone and moderate pace, accompanied by occasional pauses and subtle background noise.",
+  "temporal_description": "A man in a light-colored shirt is seated at a desk, focused on a laptop screen, with a watch visible on his wrist. Behind him, another person wearing headphones is also seated, partially out of focus. The man in the foreground occasionally raises his hands to his head, adjusting his hair or rubbing his face, while maintaining his gaze on the screen. The scene shifts to a dimly lit room with greenish-tinted walls, where a different man in a patterned jacket sits on a bench, looking up as someone walks past him.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt is seated at a desk, focused on a laptop screen, with a watch visible on his wrist. Behind him, another person wearing headphones is also seated, partially out of focus. The man in the foreground occasionally raises his hands to his head, adjusting his hair or rubbing his face, while maintaining his gaze on the screen. The scene shifts to a dimly lit room with greenish-tinted walls, where a different man in a patterned jacket sits on a bench, looking up as someone ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

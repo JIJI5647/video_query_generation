@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, speaking at a moderate pace with a neutral prosody. There are no significant non-speech sounds present.",
+  "temporal_description": "A solitary figure, dressed in dark clothing, walks slowly through a dimly lit, cluttered interior space filled with furniture and objects. The person moves steadily forward along a narrow path, their silhouette visible against the faint ambient light. The environment is shadowy, with a large, leafless tree-like structure dominating the center, surrounded by various pieces of furniture and decor. The individual’s posture is upright, and their gaze is directed forward as they navigate the space.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A solitary figure, dressed in dark clothing, walks slowly through a dimly lit, cluttered interior space filled with furniture and objects. The person moves steadily forward along a narrow path, their silhouette visible against the faint ambient light. The environment is shadowy, with a large, leafless tree-like structure dominating the center, surrounded by various pieces of furniture and decor. The individual’s posture is upright, and their gaze is directed forward as they navigate the space.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

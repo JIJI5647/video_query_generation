@@ -1,0 +1,81 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with glasses and messy dark hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "speaking and gesturing with his hand"
+      },
+      {
+        "person": "a woman with long brown hair",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and listening"
+      },
+      {
+        "person": "a man with a mustache and a patterned sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor hall",
+      "setting": "dimly lit with stone architecture and a staircase in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "the man on the left speaks to the other two people"
+    ],
+    "key_actions": [
+      "the man on the left speaks and gestures",
+      "the other two people listen"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with glasses and messy dark hair",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "hand extended forward"
+      ],
+      "gaze": "towards the man on the right"
+    },
+    {
+      "person": "a woman with long brown hair",
+      "facial_cues": [
+        "mouth slightly open",
+        "eyebrows raised"
+      ],
+      "body_cues": [],
+      "gaze": "towards the man on the left"
+    },
+    {
+      "person": "a man with a mustache and a patterned sweater",
+      "facial_cues": [
+        "mouth slightly open",
+        "eyebrows raised"
+      ],
+      "body_cues": [],
+      "gaze": "towards the man on the left"
+    }
+  ],
+  "audio_description": "a man is speaking in a hurried and urgent tone.",
+  "temporal_description": "the man on the left speaks with increasing urgency.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s046\", \"time_range\": [225.0, 230.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with glasses and messy dark hair\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"speaking and gesturing with his hand\"}, {\"person\": \"a woman with long brown hair\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing and listening\"}, {\"person\": \"a man with a mustache and a patterned sweater\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\""
+}

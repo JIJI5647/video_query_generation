@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "Two men are seated facing each other in a dimly lit setting. One man, wearing glasses and a suit, holds a cigarette near his mouth, while the other, in a dark jacket, holds a cigarette near his ear. Both appear to be engaged in a conversation, with their gazes fixed on each other. The man in the suit occasionally exhales smoke, and the man in the jacket maintains a steady posture, his expression neutral.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated facing each other in a dimly lit setting. One man, wearing glasses and a suit, holds a cigarette near his mouth, while the other, in a dark jacket, holds a cigarette near his ear. Both appear to be engaged in a conversation, with their gazes fixed on each other. The man in the suit occasionally exhales smoke, and the man in the jacket maintains a steady posture, his expression neutral.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

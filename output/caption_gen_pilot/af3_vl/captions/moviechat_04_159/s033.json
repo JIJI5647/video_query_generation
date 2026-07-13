@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by a background of music.",
+  "temporal_description": "A group of people, mostly seen from behind, walk down a dimly lit corridor at night. They are dressed in dark suits and appear to be moving forward in a line, with some individuals partially obscured by others. The corridor has walls with pipes and occasional lighting fixtures, and a railing is visible on one side. The scene is framed to focus on their movement, with no clear facial expressions or gestures visible due to the angle and lighting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people, mostly seen from behind, walk down a dimly lit corridor at night. They are dressed in dark suits and appear to be moving forward in a line, with some individuals partially obscured by others. The corridor has walls with pipes and occasional lighting fixtures, and a railing is visible on one side. The scene is framed to focus on their movement, with no clear facial expressions or gestures visible due to the angle and lighting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

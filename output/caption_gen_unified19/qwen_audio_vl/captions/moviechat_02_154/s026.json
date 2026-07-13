@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "A man with spiky hair, wearing a dark jacket over a patterned shirt and a necklace, stands in a dimly lit room with blinds in the background. Another man in a white shirt and tie stands behind bars, looking toward the left, while a third person in a dark jacket is partially visible on the left side of the frame. The man in the center looks down and slightly to his right, his posture relaxed but still.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a large, reverberant indoor space, likely a hall or gallery, where a single, sustained, low-pitched note is played on a bowed string instrument—most probably a cello or double bass. The note is produced with a slow, deliberate bow stroke, resulting in a rich, resonant timbre with a slightly rough, gritty texture. The sound is enveloped in natural reverb, suggesting the instrument is positioned some distance from the microphone, and the performance is marked by a slow, expressive vibrato that adds depth. The note is held steadily, with no other sounds present, and the recording is of high fidelity, capturing the full frequency range and subtle nuances of the instrument. Abruptly, the sustained note is cut off mid-decay, with no fade or natural resolution, indicating a hard digital edit. Immediately following this, a sharp, metallic click is heard, likely from a mechanical device such as a camera shutter or a button press, signifying a deliberate action by the performer or a technician. This is followed by a brief, low-frequency rustling sound, consistent with the movement of fabric or paper, suggesting the performer is adjusting their position or handling an object. A second, much shorter and higher-pitched",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with spiky hair, wearing a dark jacket over a patterned shirt and a necklace, stands in a dimly lit room with blinds in the background. Another man in a white shirt and tie stands behind bars, looking toward the left, while a third person in a dark jacket is partially visible on the left side of the frame. The man in the center looks down and slightly to his right, his posture relaxed but still.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

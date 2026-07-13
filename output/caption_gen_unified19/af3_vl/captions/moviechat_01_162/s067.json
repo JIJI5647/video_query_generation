@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s067",
+  "time_range": [
+    330.0,
+    335.0
+  ],
+  "visual_description": "A man in a white shirt and tie stands beside a monitor displaying security footage, while another man in a similar outfit sits nearby, both facing the screen. The standing man gestures toward the monitor, which shows a hallway scene with timestamped footage, while the seated man looks intently at the screen. The scene takes place indoors in a dimly lit room with glass partitions and framed artwork on the walls.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a high-pitched, tone, speaking at a moderate pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands beside a monitor displaying security footage, while another man in a similar outfit sits nearby, both facing the screen. The standing man gestures toward the monitor, which shows a hallway scene with timestamped footage, while the seated man looks intently at the screen. The scene takes place indoors in a dimly lit room with glass partitions and framed artwork on the walls.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

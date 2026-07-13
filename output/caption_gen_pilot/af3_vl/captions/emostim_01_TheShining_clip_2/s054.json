@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man with dark, shoulder-length hair and wearing a dark red jacket is seen peering through a torn wall, his face partially obscured by the peeling material. He then moves into a dimly lit room, wielding an axe with both hands, swinging it forcefully toward a door. He continues to swing the axe at the door, then pauses, standing still and looking toward the door with a focused expression. The room has pink walls, a lit lamp, and a framed picture on the wall.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, shoulder-length hair and wearing a dark red jacket is seen peering through a torn wall, his face partially obscured by the peeling material. He then moves into a dimly lit room, wielding an axe with both hands, swinging it forcefully toward a door. He continues to swing the axe at the door, then pauses, standing still and looking toward the door with a focused expression. The room has pink walls, a lit lamp, and a framed picture on the wall.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A bald, pale-skinned figure in dark robes stands with his back to the camera, gazing at a massive, glowing orange fireball behind him. He slowly turns, revealing a side profile of his angular face and pointed ears. The scene is dimly lit, emphasizing the contrast between the dark figure and the bright flames.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent, with no discernible sound.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual\": \"A bald, pale-skinned figure in dark robes stands with his back to the camera, gazing at a massive, glowing orange fireball behind him. He slowly turns, revealing a side profile of his angular face and pointed ears. The scene is dimly lit, emphasizing the contrast between the dark figure and the bright flames.\", \"audio\": \"The audio is silent, with no discernible sound.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

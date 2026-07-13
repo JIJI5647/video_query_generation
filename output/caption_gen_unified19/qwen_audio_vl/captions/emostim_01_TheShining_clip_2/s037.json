@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_description": "A person lies partially buried in snow, visible through a window, with hands and arms extended outward. Inside a warmly lit room, a man in a red jacket and plaid shirt stands near a doorway, looking down and slightly to his left. The man’s head is tilted downward, and his gaze is directed toward the ground or the doorway.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched, non-verbal exclamation from a young woman, delivered in a tone of sudden pain or. This vocalization is brief, strained, and slightly distorted due to digital clipping, indicating the recording device was overwhelmed by the volume. Immediately following this, a deep, resonant, low-frequency rumble emerges, characterized by a powerful, mechanical quality that suggests the presence of a large, heavy object in motion. The rumble is accompanied by a persistent, high-frequency hiss, likely from the recording device’s noise floor, and a subtle, continuous background hum, possibly from electrical or environmental sources. The acoustic environment is highly reverberant, with the sound reflecting off hard surfaces, creating a sense of vastness and isolation, as if the event is occurring in a large, empty, industrial space such as a warehouse, tunnel, or underground station. As the rumble continues, it grows in intensity and complexity, with a rhythmic, metallic clatter layered atop the low-frequency base. This clatter evokes the sound of wheels or machinery moving over tracks or a rough surface, reinforcing the impression of a large, heavy vehicle or object in motion. The reverberation remains pronounced, further emphasizing the emptiness",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person lies partially buried in snow, visible through a window, with hands and arms extended outward. Inside a warmly lit room, a man in a red jacket and plaid shirt stands near a doorway, looking down and slightly to his left. The man’s head is tilted downward, and his gaze is directed toward the ground or the doorway.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

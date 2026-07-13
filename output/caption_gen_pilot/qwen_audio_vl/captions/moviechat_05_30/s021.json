@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, and distorted scream, likely from a female or adolescent, which is immediately overwhelmed by a massive, low-frequency rumble. This rumble is accompanied by a sharp, metallic screech, evoking the sound of a train’s steel wheels grinding against rails at high speed. The scream is abruptly cut off, suggesting the onset of a catastrophic event. As the rumble intensifies, it is joined by a cacophony of metallic impacts, grinding, and tearing, all rendered with extreme distortion and digital clipping. The soundscape is dense and chaotic, with no discernible speech or music, and the overwhelming noise suggests a violent collision or derailment. The recording is monophonic, with all sounds centered and no spatial movement, and the frequency range is broad, from deep sub-bass to piercing highs, though heavily compromised by distortion. The environment is acoustically neutral, lacking any reverberation or ambient cues, indicating either a direct digital source or a heavily processed recording. The audio ends abruptly, with no fade-out or lingering sound, leaving the impression of a sudden, unresolved disaster.\n\nIn summary, the audio presents a brief, intense, and highly distorted depiction of a catastrophic train accident, characterized by a panicked scream, overwhelming mechanical noise, and abrupt termination. The absence of speech, music, or environmental context, combined with the technical flaws and abrupt ending, suggests the clip is a stylized sound effect or a heavily edited segment from a larger disaster recording, designed to evoke shock and alarm.",
+  "temporal_description": "A large group of people, mostly men, are gathered in a dimly lit, outdoor setting, possibly a forest or cavernous area. They are dressed in dark, rugged clothing, and many appear to be in a crouched or kneeling position, facing forward. One individual in the foreground is prominently visible, with long hair and a dark jacket, appearing to be in motion or gesturing. The scene transitions to a person running through a narrow, stone-walled corridor, suggesting urgency or escape. The final shot shows a vast, dark landscape with a long, illuminated bridge or structure in the distance, surrounded by dense trees or cliffs, creating a sense of isolation and scale.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A large group of people, mostly men, are gathered in a dimly lit, outdoor setting, possibly a forest or cavernous area. They are dressed in dark, rugged clothing, and many appear to be in a crouched or kneeling position, facing forward. One individual in the foreground is prominently visible, with long hair and a dark jacket, appearing to be in motion or gesturing. The scene transitions to a person running through a narrow, stone-walled corridor, suggesting urgency or escape. The final shot show",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

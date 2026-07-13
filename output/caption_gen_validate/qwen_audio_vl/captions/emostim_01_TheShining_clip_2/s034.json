@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, intense burst of mechanical sound, dominated by a high-pitched, metallic whine that rapidly increases in both pitch and volume. This whine, reminiscent of a high-speed electric motor or turbine, is accompanied by a deep, resonant rumble and a pronounced Doppler effect, indicating the sound source is moving swiftly past the recording device. The environment is acoustically reflective, with short, sharp echoes suggesting a large, hard-surfaced space such as a tunnel, garage, or industrial hall. The recording is of low fidelity, with significant digital clipping and distortion, especially during the loudest moments, and a persistent background hiss. No other sounds—such as speech, music, or ambient noise—are present, and the mechanical whine is the sole focus.\n\nAs the whine reaches its peak, it abruptly ceases, leaving a brief moment of near-silence. This sudden stop is followed by a sharp, metallic clank, likely the sound of a heavy mechanical component engaging or a latch snapping into place. Immediately after, a low-frequency, resonant hum emerges, characterized by a steady, unwavering tone with a fundamental frequency around 60 Hz and harmonics at 120 Hz and 180 Hz. This hum is consistent with the operation of a large electric motor or industrial machinery, and its presence suggests the device has settled into a stable running state. The hum continues until the end of the recording, with no further changes or additional sounds.\n\nThroughout the clip, there is no speech, music, or other human or environmental cues. The mechanical sounds are the only elements present, and the recording’s technical limitations—clipping, distortion, and hiss—underscore the intensity and proximity of the sound source. The sequence of events—rapidly accelerating whine, abrupt stop, metallic clank, and steady hum—suggests a process typical of industrial or transportation machinery, such as a train or subway car entering a tunnel, or a large electric motor powering up and stabilizing. The absence of any human or cultural markers means the recording is contextually neutral, focusing solely on the mechanical process.\n\nIn summary, the audio captures the dynamic operation of a large electrically powered machine in a reverberant, industrial setting. It features a high-speed mechanical whine, a sudden stop with a metallic clank, and a steady motor hum, all rendered with low-fidelity recording artifacts. No speech, music, or environmental sounds are present, and the sequence reflects a typical industrial or transportation process, with the recording’s technical flaws emphasizing the raw intensity of the mechanical event.",
+  "temporal_description": "A person wearing a red jacket and dark pants walks away from the camera into a warmly lit interior, carrying a wooden bat over their shoulder. They move through a hallway toward a doorway, passing a vintage refrigerator and a lamp on a side table. The scene transitions to an outdoor snowy area where another person, dressed in a patterned sweater and dark pants, stands near a wooden gate, brushing snow from their hair with one hand while holding a blue blanket or cloth in the other. Their gaze is directed upward, away from the camera.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a red jacket and dark pants walks away from the camera into a warmly lit interior, carrying a wooden bat over their shoulder. They move through a hallway toward a doorway, passing a vintage refrigerator and a lamp on a side table. The scene transitions to an outdoor snowy area where another person, dressed in a patterned sweater and dark pants, stands near a wooden gate, brushing snow from their hair with one hand while holding a blue blanket or cloth in the other. Their gaze is",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

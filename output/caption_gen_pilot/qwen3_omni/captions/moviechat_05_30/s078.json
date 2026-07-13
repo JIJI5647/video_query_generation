@@ -1,0 +1,44 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark jacket",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "reaching for and picking up a small, dark wooden box from a cluttered table"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, cluttered with various objects including a brass armillary sphere, a lantern, and coiled ropes on a table covered with a patterned cloth."
+    },
+    "objects": [
+      "brass armillary sphere",
+      "dark wooden box",
+      "coiled ropes",
+      "lantern",
+      "table with patterned cloth"
+    ],
+    "interactions": [
+      "the person picks up the wooden box"
+    ],
+    "key_actions": [
+      "picking up a box"
+    ],
+    "visibility_notes": "The person's face is not visible, and the lighting is very low, making details difficult to discern."
+  },
+  "visual_expression": [],
+  "audio_description": "A low, sustained, and ominous musical tone plays in the background.",
+  "temporal_description": "The music is constant throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s078\", \"time_range\": [385.0, 390.0], \"visual_objective\": {\"people\": [{\"person\": \"a person in a dark jacket\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"reaching for and picking up a small, dark wooden box from a cluttered table\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, cluttered with various objects including a brass armillary sphere, a lantern, and coiled ropes on a table covered with a patterned cloth.\"}, \"objects\": [\"brass armilla"
+}

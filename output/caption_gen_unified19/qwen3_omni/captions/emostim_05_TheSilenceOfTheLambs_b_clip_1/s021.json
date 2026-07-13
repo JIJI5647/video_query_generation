@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A close-up shows a person's hands, wearing transparent gloves, using a medical instrument on a newborn baby's head. The baby is lying on its back, and the scene appears to be a delivery room. The camera then cuts to a man in a white shirt and tie, looking down with a serious expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, high-pitched electronic beep sounds, similar to a medical monitor.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s021\", \"time_range\": [100.0, 105.0], \"visual\": \"A close-up shows a person's hands, wearing transparent gloves, using a medical instrument on a newborn baby's head. The baby is lying on its back, and the scene appears to be a delivery room. The camera then cuts to a man in a white shirt and tie, looking down with a serious expression.\", \"audio\": \"A loud, high-pitched electronic beep sounds, similar to a medical monitor.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

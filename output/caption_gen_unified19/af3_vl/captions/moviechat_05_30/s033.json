@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_description": "A man in a dark suit and bow tie walks forward down a narrow, dimly lit stone passage flanked by rows of armored soldiers holding shields. The soldiers stand motionless on either side, their faces obscured in shadow, while the central figure maintains a steady, upright posture with his gaze forward. The scene is dark and confined, with minimal light illuminating the man’s path and the rough texture of the stone floor.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace with a slight breathiness and a sigh-like pause, suggesting a moment of hesitation or contemplation.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and bow tie walks forward down a narrow, dimly lit stone passage flanked by rows of armored soldiers holding shields. The soldiers stand motionless on either side, their faces obscured in shadow, while the central figure maintains a steady, upright posture with his gaze forward. The scene is dark and confined, with minimal light illuminating the man’s path and the rough texture of the stone floor.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

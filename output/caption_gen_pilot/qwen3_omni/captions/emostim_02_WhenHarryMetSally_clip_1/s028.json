@@ -1,0 +1,74 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde hair in a dark sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, leaning back, then forward, and running her hand through her hair"
+      },
+      {
+        "person": "a man with dark hair and a beard in a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, looking at the woman with his arms crossed"
+      },
+      {
+        "person": "other people",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting at tables in a diner"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a busy diner with other patrons and a counter in the background"
+    },
+    "objects": [
+      {
+        "name": "table",
+        "position": "foreground",
+        "description": "a wooden table with plates of food and drinks on it"
+      },
+      {
+        "name": "neon sign",
+        "position": "background",
+        "description": "a green neon sign that says 'SODA 80¢'"
+      }
+    ],
+    "interactions": [
+      "the woman and the man are sitting across from each other at a table"
+    ],
+    "key_actions": [
+      "the woman leans back, then forward, and runs her hand through her hair"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde hair in a dark sweater",
+      "facial_cues": [
+        "mouth open",
+        "eyes closed"
+      ],
+      "body_cues": [
+        "leaning back",
+        "running hand through hair"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "A woman is shouting excitedly and making vocalizations of pleasure.",
+  "temporal_description": "The woman's excited shouting and vocalizations of pleasure continue throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s028\", \"time_range\": [135.0, 140.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with blonde hair in a dark sweater\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting at a table, leaning back, then forward, and running her hand through her hair\"}, {\"person\": \"a man with dark hair and a beard in a plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting at a table, looking at the woman with his arms crossed\"}"
+}

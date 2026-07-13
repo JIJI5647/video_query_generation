@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_description": "A man sits in the driver’s seat of a car at night, holding a water bottle near his mouth. Another man, wearing headphones, sits at a desk in a dimly lit room surrounded by framed photos. A third man, in a suit and tie, is seen in profile, looking downward with a serious expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man sits in the driver’s seat of a car at night, holding a water bottle near his mouth. Another man, wearing headphones, sits at a desk in a dimly lit room surrounded by framed photos. A third man, in a suit and tie, is seen in profile, looking downward with a serious expression.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

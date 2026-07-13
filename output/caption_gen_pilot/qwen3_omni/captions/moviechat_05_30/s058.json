@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with brown hair wearing a dark striped shirt and a dark jacket",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking to the woman on the right and gesturing with his right hand"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit stone corridor with pillars and arches, illuminated by a blueish light from the left."
+    },
+    "objects": [],
+    "interactions": [
+      "The man and the woman are having a conversation."
+    ],
+    "key_actions": [
+      "The man speaks and gestures.",
+      "The woman listens and then turns her head to look at something off-screen to her left."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with brown hair wearing a dark striped shirt and a dark jacket",
+      "facial_cues": [
+        "clearly visible face",
+        "mouth moving while speaking"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking at the woman on the right"
+    }
+  ],
+  "audio_description": "A man and a woman are speaking in a tense tone.",
+  "temporal_description": "The man speaks first, then the woman responds.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s058\", \"time_range\": [285.0, 290.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with brown hair wearing a dark striped shirt and a dark jacket\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"talking to the woman on the right and gesturing with his right hand\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dimly lit stone corridor with pillars and arches, illuminated by a blueish light from the left.\"}, \"objects\": [], \"interactions\": [\"The man and "
+}

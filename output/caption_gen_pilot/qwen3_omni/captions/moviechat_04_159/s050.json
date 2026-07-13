@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "talking on a mobile phone and looking down at his belt buckle"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and looking at the other man"
+      }
+    ],
+    "scene": {
+      "location": "outdoor balcony at night",
+      "setting": "urban area with buildings in the background"
+    },
+    "objects": [
+      {
+        "object": "mobile phone",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "held to the man's ear"
+      }
+    ],
+    "interactions": [
+      "The man in the light-colored shirt is on a phone call while the man in the suit watches him."
+    ],
+    "key_actions": [
+      "The man in the light-colored shirt is on a phone call and looking down at his belt buckle."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "looking down",
+        "talking on the phone"
+      ],
+      "body_cues": [
+        "hand on hip",
+        "hand holding phone"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A man is speaking in Mandarin Chinese.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s050\", \"time_range\": [245.0, 250.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light-colored shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"talking on a mobile phone and looking down at his belt buckle\"}, {\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing and looking at the other man\"}], \"scene\": {\"location\": \"outdoor balcony at night\", \"setting\": \"urban area with buildings in the bac"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man in a black jacket over a white shirt stands in a kitchen facing a man in a gray shirt who is initially seated at a counter writing. The man in the black jacket leans forward and speaks while the seated man looks up and gestures with his hands as he talks. The kitchen includes a refrigerator, cabinets, a stove, and a laptop on the counter.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains spoken dialogue between the two men, with a conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A man in a black jacket over a white shirt stands in a kitchen facing a man in a gray shirt who is initially seated at a counter writing. The man in the black jacket leans forward and speaks while the seated man looks up and gestures with his hands as he talks. The kitchen includes a refrigerator, cabinets, a stove, and a laptop on the counter.\", \"audio\": \"The audio contains spoken dialogue between the two men, with a conversational t"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    12.76
+  ],
+  "visual_description": "A person with dark hair, wearing a dark green button-up shirt, is standing in a dimly lit room with peeling walls and a red light visible in the background. They are holding a handgun with both hands, aiming it forward, their body slightly tensed and their gaze focused ahead. The lighting casts diagonal shadows across the wall behind them, and their posture suggests readiness or alertness.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a moderate pace, accompanied by a gasp and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair, wearing a dark green button-up shirt, is standing in a dimly lit room with peeling walls and a red light visible in the background. They are holding a handgun with both hands, aiming it forward, their body slightly tensed and their gaze focused ahead. The lighting casts diagonal shadows across the wall behind them, and their posture suggests readiness or alertness.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime, city street with streetlights and buildings in the background"
+    },
+    "objects": [
+      {
+        "object": "a gold-colored Rolls-Royce car",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "parked"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the suit speaks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown suit and glasses",
+      "facial_cues": [
+        "wearing glasses",
+        "smiling"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A man speaks in a calm tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s013\", \"time_range\": [60.0, 65.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a brown suit and glasses\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and speaking\"}], \"scene\": {\"location\": \"street\", \"setting\": \"nighttime, city street with streetlights and buildings in the background\"}, \"objects\": [{\"object\": \"a gold-colored Rolls-Royce car\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"parked\"}], \"interactions\": [], "
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A woman with long brown hair is shown in a close-up, looking down and to the side with a concerned expression. Her face is partially obscured by a blurred object in the foreground. She appears to be in a dimly lit room.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A person is speaking in a low, serious tone, with a slight echo in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual\": \"A woman with long brown hair is shown in a close-up, looking down and to the side with a concerned expression. Her face is partially obscured by a blurred object in the foreground. She appears to be in a dimly lit room.\", \"audio\": \"A person is speaking in a low, serious tone, with a slight echo in the background.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

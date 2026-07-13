@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s091",
+  "time_range": [
+    450.0,
+    455.0
+  ],
+  "visual_description": "A blond-haired man in black stands with two other men, extending his arm forward while holding a wand. He and the others point ahead in a dimly lit room filled with shelves and objects. A man in a brown jacket and glasses stands calmly in a cluttered space.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man speaks urgently and commands action, followed by a calm voice telling someone not to be nervous.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s091\", \"time_range\": [450.0, 455.0], \"visual\": \"A blond-haired man in black stands with two other men, extending his arm forward while holding a wand. He and the others point ahead in a dimly lit room filled with shelves and objects. A man in a brown jacket and glasses stands calmly in a cluttered space.\", \"audio\": \"A man speaks urgently and commands action, followed by a calm voice telling someone not to be nervous.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

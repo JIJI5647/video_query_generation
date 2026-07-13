@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and white shirt",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "zipping up a garment"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a wooden floor"
+    },
+    "objects": [
+      {
+        "object": "a dark garment with a zipper",
+        "position": "foreground",
+        "visibility": "clearly visible"
+      }
+    ],
+    "interactions": [
+      "The man's hands are zipping up the garment."
+    ],
+    "key_actions": [
+      "Zipping up a garment"
+    ],
+    "visibility_notes": "The man's hands and the garment are the main focus of the shot."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and white shirt",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "hands zipping up a garment"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A zipper is being pulled closed.",
+  "temporal_description": "The sound of the zipper being pulled is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and white shirt\", \"visibility\": \"partially visible\", \"position\": \"foreground\", \"action\": \"zipping up a garment\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a wooden floor\"}, \"objects\": [{\"object\": \"a dark garment with a zipper\", \"position\": \"foreground\", \"visibility\": \"clearly visible\"}], \"interactions\": [\"The man's hands are zipping up the garment.\"], \""
+}

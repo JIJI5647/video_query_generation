@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A short‑haired child in a striped sweater stands at a desk under a lit lamp in a dim bedroom. The child turns and walks toward a bed where a woman with dark hair in a robe sits up, covering herself with a blanket. The child raises a knife and points it at the woman, who looks startled.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with no distinct speech or sound effects audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s014\", \"time_range\": [65.0, 70.0], \"visual\": \"A short‑haired child in a striped sweater stands at a desk under a lit lamp in a dim bedroom. The child turns and walks toward a bed where a woman with dark hair in a robe sits up, covering herself with a blanket. The child raises a knife and points it at the woman, who looks startled.\", \"audio\": \"The audio is quiet with no distinct speech or sound effects audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

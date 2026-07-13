@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s094",
+  "time_range": [
+    465.0,
+    470.0
+  ],
+  "visual_description": "A man with gray hair, wearing a light-colored shirt and striped tie, sits at a table eating from a white bowl with chopsticks, while another man in a gray suit is partially visible beside him. The scene appears to be a dimly lit dining area with other people seated nearby, some blurred in the background. The man in the foreground is focused on his meal, his gaze directed downward at his food.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a lighter or a small metal object being manipulated, immediately followed by a brief, low-frequency rustle as a person shifts their weight or adjusts clothing. A faint, persistent hiss overlays the recording, indicating the use of a consumer-grade microphone in a quiet, acoustically dampened indoor environment. The main speaker, a middle-aged man with a clear, authoritative voice and a standard Mandarin accent, delivers the line: “我们查清楚了，你两个手下的沙滩那儿吹风。” (“We’ve found out. Your two subordinates are blowing wind on the beach.”) His tone is firm and controlled, with a subtle undercurrent of threat, and the speech is delivered at a measured pace, each word distinctly articulated. As he speaks, a soft, low-frequency thud is heard, suggesting a hand or object is placed on a hard surface, such as a desk or table. The phrase “吹风” (blowing wind), a colloquial term for interrogation or surveillance, is spoken with a slight emphasis, reinforcing the implied threat. After the statement, a brief pause follows, during which a faint, high-pitched rustle—possibly from paper or fabric—can be detected",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair, wearing a light-colored shirt and striped tie, sits at a table eating from a white bowl with chopsticks, while another man in a gray suit is partially visible beside him. The scene appears to be a dimly lit dining area with other people seated nearby, some blurred in the background. The man in the foreground is focused on his meal, his gaze directed downward at his food.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

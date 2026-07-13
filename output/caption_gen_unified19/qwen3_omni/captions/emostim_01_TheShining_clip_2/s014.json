@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A young boy in a striped sweater stands in a dimly lit bedroom, facing a woman in bed. The boy holds a knife and moves it toward the woman, who sits up in alarm. The word 'REDRUM' is written in red on the door behind them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A child's voice shouts repeatedly, sounding panicked and urgent. The shouting is loud and clear, with a high-pitched, strained tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s014\", \"time_range\": [65.0, 70.0], \"visual\": \"A young boy in a striped sweater stands in a dimly lit bedroom, facing a woman in bed. The boy holds a knife and moves it toward the woman, who sits up in alarm. The word 'REDRUM' is written in red on the door behind them.\", \"audio\": \"A child's voice shouts repeatedly, sounding panicked and urgent. The shouting is loud and clear, with a high-pitched, strained tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

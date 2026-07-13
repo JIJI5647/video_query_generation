@@ -1,0 +1,70 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark red leather jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking into a room, then standing at a counter and serving food into a small white bowl"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, cluttered room, possibly a small restaurant or food stall, with posters and a refrigerator in the background."
+    },
+    "objects": [
+      {
+        "object": "a small white bowl",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being filled with food by the man."
+      },
+      {
+        "object": "a refrigerator",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing against the wall."
+      },
+      {
+        "object": "posters",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "pasted on the wall."
+      }
+    ],
+    "interactions": [
+      "The man serves food from a large pot into a small white bowl."
+    ],
+    "key_actions": [
+      "The man walks into the room.",
+      "The man serves food into a bowl."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark red leather jacket",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing at a counter",
+        "serving food"
+      ],
+      "gaze": "down at the bowl"
+    }
+  ],
+  "audio_description": "A low, continuous hum or drone is audible throughout the clip.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s039\", \"time_range\": [190.0, 195.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark red leather jacket\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"walking into a room, then standing at a counter and serving food into a small white bowl\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dimly lit, cluttered room, possibly a small restaurant or food stall, with posters and a refrigerator in the background.\"}, \"objects\": [{\"object\": \"a small"
+}

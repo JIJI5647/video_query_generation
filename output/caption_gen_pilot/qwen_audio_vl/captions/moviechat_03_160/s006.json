@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful entrance: a deep, resonant bass drum delivers a powerful, syncopated pulse, immediately joined by a sharp, metallic snare or rimshot that accentuates the rhythm. A high-pitched, metallic percussion instrument—likely a cimbalom or similar—interjects with rapid, shimmering arpeggios, creating a bright, crystalline texture. The ensemble is tightly synchronized, with each instrument occupying a distinct space in the stereo field, and the overall sound is dry and direct, suggesting a studio or controlled environment. The music is energetic and urgent, with a relentless, driving rhythm and no ambient noise or speech.\n\nAs the piece progresses, the bass drum maintains its deep, resonant pulse, while the metallic percussion continues its rapid, arpeggiated patterns, now more complex and interwoven with the rhythm. The snare or rimshot remains sharp and precise, reinforcing the syncopated groove. The ensemble’s interplay intensifies, with the metallic instrument’s arpeggios becoming more intricate and the bass drum’s resonance deepening. The stereo image remains wide and immersive, with each instrument clearly defined. The music sustains its high energy and urgency, with no melodic or harmonic development, and the rhythm remains relentless.\n\nSuddenly, the music is cut off mid-phrase by a hard, digital edit, with no fade or natural decay. Immediately following this abrupt silence, a loud, low-frequency electronic buzz erupts. This buzz is a harsh, synthetic tone, likely a sawtooth or square wave, centered around 110 Hz (A2), and is characterized by a dense, grating timbre with prominent harmonics. The buzz is static, unmodulated, and completely devoid of rhythm or melody, dominating the audio space with a sense of mechanical intrusion. The buzz persists unchanged until the end of the clip, with no further musical or environmental sounds.\n\nIn summary, the audio presents a tightly constructed, high-energy instrumental passage featuring deep bass drum, sharp snare, and rapid metallic arpeggios, all performed with precision and clarity in a dry, studio-like setting. The music is abruptly interrupted by a hard digital cut, replaced instantly by a loud, synthetic electronic buzz that remains static and unmodulated until the end. There is no speech, ambient noise, or melodic content; the piece is purely instrumental and electronic, with a dramatic shift from rhythmic intensity to mechanical monotony.",
+  "temporal_description": "A man with short dark hair, wearing a dark jacket, is seen in profile, standing beside a metal security gate with wavy bars. He turns his head slightly, looking over his shoulder, and remains mostly still. The scene shifts to a dimly lit interior space, revealing a narrow view of a shelf with two bowls placed on it, and a portion of a person’s arm or clothing visible at the bottom right corner. The lighting is low, casting shadows and emphasizing the confined, enclosed setting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a dark jacket, is seen in profile, standing beside a metal security gate with wavy bars. He turns his head slightly, looking over his shoulder, and remains mostly still. The scene shifts to a dimly lit interior space, revealing a narrow view of a shelf with two bowls placed on it, and a portion of a person’s arm or clothing visible at the bottom right corner. The lighting is low, casting shadows and emphasizing the confined, enclosed setting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

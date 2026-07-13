@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing headphones",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking at a computer screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a computer screen displaying data"
+    },
+    "objects": [
+      {
+        "object": "computer screen",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "displaying text and data"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man is focused on the computer screen"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing headphones",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [],
+      "gaze": "looking at the computer screen"
+    }
+  ],
+  "audio_description": "a loud, distorted electronic sound is heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s059\", \"time_range\": [290.0, 295.0], \"visual_objective\": {\"people\": [{\"person\": \"a man wearing headphones\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking at a computer screen\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a computer screen displaying data\"}, \"objects\": [{\"object\": \"computer screen\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"displaying text and data\"}], \"interactions\": [], \"key_acti"
+}

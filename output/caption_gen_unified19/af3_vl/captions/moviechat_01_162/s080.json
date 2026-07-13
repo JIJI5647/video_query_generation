@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_description": "Five men in light-colored shirts and ties are seated around a large conference table in a modern office with glass partitions; one man stands near the table with arms crossed, while others write or look at papers. The standing man faces the seated group, and the seated men appear engaged with their tasks or the standing man, with some looking down at documents and others looking up. The room has a professional setting with visible office equipment, a television screen, and a hat on the table.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a commanding tone, with a clear and steady pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Five men in light-colored shirts and ties are seated around a large conference table in a modern office with glass partitions; one man stands near the table with arms crossed, while others write or look at papers. The standing man faces the seated group, and the seated men appear engaged with their tasks or the standing man, with some looking down at documents and others looking up. The room has a professional setting with visible office equipment, a television screen, and a hat on the table.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

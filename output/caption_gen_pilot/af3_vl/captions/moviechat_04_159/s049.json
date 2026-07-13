@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a clear and steady prosody, and no significant non-speech sounds.",
+  "temporal_description": "Two men stand on a balcony at night, one in a light-colored shirt with rolled-up sleeves and the other in a dark suit. The man in the light shirt holds a phone to his ear with his right hand, occasionally gesturing with his left hand while looking at the other man. The man in the suit stands still, facing the other man, with his hands at his sides. Behind them, buildings with lit windows and a railing are visible, and the scene is dimly lit with artificial lighting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand on a balcony at night, one in a light-colored shirt with rolled-up sleeves and the other in a dark suit. The man in the light shirt holds a phone to his ear with his right hand, occasionally gesturing with his left hand while looking at the other man. The man in the suit stands still, facing the other man, with his hands at his sides. Behind them, buildings with lit windows and a railing are visible, and the scene is dimly lit with artificial lighting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

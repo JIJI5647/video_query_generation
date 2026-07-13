@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A man with shoulder-length hair, wearing a red jacket over a plaid shirt, is seen in a hallway with blue walls and a staircase. He is holding an axe and repeatedly swings it at a door, causing visible damage. The scene shifts to a dimly lit bedroom where a woman with long dark hair, wearing a blue robe, is holding a child in her arms. The woman turns her head and body slightly, looking around the room, while the child remains nestled against her. The door behind them has red writing on it.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, sharp metallic impact, characterized by a high-frequency \"clink\" and a brief, resonant \"clank,\" suggesting the forceful engagement of a heavy metal mechanism such as a latch or bolt. This is immediately followed by a rapid, high-pitched metallic rattle, reminiscent of a chain or spring being released, which quickly decays into a low-frequency, sustained metallic groan. The groan, rich in overtones and reverberant, indicates the movement of a massive metal object—likely a door or gate—within a large, hard-surfaced enclosure. The reverberation is dense and complex, with flutter echoes and a long decay, pointing to a cavernous, industrial space such as a warehouse, prison, or factory. As the metallic groan fades, a deep, low-frequency rumble emerges, evoking the sound of a heavy object sliding or scraping across a hard surface. This rumble is accompanied by a subtle, high-frequency hiss, possibly from air displacement or friction, and is punctuated by a sharp, high-pitched metallic \"clink\" that suggests a metal component striking a hard surface. The rumble continues, gradually diminishing in volume and intensity, with the reverberation maintaining",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length hair, wearing a red jacket over a plaid shirt, is seen in a hallway with blue walls and a staircase. He is holding an axe and repeatedly swings it at a door, causing visible damage. The scene shifts to a dimly lit bedroom where a woman with long dark hair, wearing a blue robe, is holding a child in her arms. The woman turns her head and body slightly, looking around the room, while the child remains nestled against her. The door behind them has red writing on it.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

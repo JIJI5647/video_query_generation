@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A black car with bright headlights drives on a road at night, its license plate reading HN 397. The scene cuts to a man in a light-colored suit seated in a dimly lit room, arms crossed and looking down. He then lifts a phone to his ear and appears to speak.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures the sound of a car engine and the man speaking into a phone. The background is otherwise quiet.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual\": \"A black car with bright headlights drives on a road at night, its license plate reading HN 397. The scene cuts to a man in a light-colored suit seated in a dimly lit room, arms crossed and looking down. He then lifts a phone to his ear and appears to speak.\", \"audio\": \"The audio captures the sound of a car engine and the man speaking into a phone. The background is otherwise quiet.\", \"confidence\": \"high\", \"evidence_strength\": \"clear"
+}

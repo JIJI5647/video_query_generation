@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_description": "A man wearing a white baseball cap looks down at his phone while standing in a bustling night market. The camera then shows a close-up of the phone screen with Chinese characters, followed by a digital map displaying coordinates and route lines. A second man in a brown jacket and glasses stands at a stall, also looking at his phone.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Ambient market sounds and faint electronic beeps are audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s060\", \"time_range\": [295.0, 300.0], \"visual\": \"A man wearing a white baseball cap looks down at his phone while standing in a bustling night market. The camera then shows a close-up of the phone screen with Chinese characters, followed by a digital map displaying coordinates and route lines. A second man in a brown jacket and glasses stands at a stall, also looking at his phone.\", \"audio\": \"Ambient market sounds and faint electronic beeps are audible.\", \"confidence\": \"high\", \"ev"
+}

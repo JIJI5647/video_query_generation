@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and moderate speed, expressing a strong emotional reaction, possibly surprise or distress, in a quiet environment.",
+  "temporal_description": "A young boy with light-colored, wavy hair is shown in close-up, wearing a gray shirt with a collar. He is facing slightly to the right, looking toward an adult whose face is partially visible on the right side of the frame. The adult, whose hair is also light-colored, has their hand placed gently on the boy’s cheek and jawline. The background is dark and out of focus, suggesting an indoor setting with dim lighting. The boy’s head is slightly tilted, and his gaze remains fixed on the adult, while the adult’s hand remains steady on his face throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored, wavy hair is shown in close-up, wearing a gray shirt with a collar. He is facing slightly to the right, looking toward an adult whose face is partially visible on the right side of the frame. The adult, whose hair is also light-colored, has their hand placed gently on the boy’s cheek and jawline. The background is dark and out of focus, suggesting an indoor setting with dim lighting. The boy’s head is slightly tilted, and his gaze remains fixed on the adult, while",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

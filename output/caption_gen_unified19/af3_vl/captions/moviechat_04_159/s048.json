@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_description": "Two men stand facing each other on a balcony at night; one wears a light shirt and dark pants, the other a dark suit. The man in the light shirt holds his hand to his ear as if adjusting something or listening, while the other gestures with his hand toward him. Behind them, buildings with lit windows and a railing are visible, and the man in the suit appears to be speaking or responding.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant prosody or non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand facing each other on a balcony at night; one wears a light shirt and dark pants, the other a dark suit. The man in the light shirt holds his hand to his ear as if adjusting something or listening, while the other gestures with his hand toward him. Behind them, buildings with lit windows and a railing are visible, and the man in the suit appears to be speaking or responding.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_description": "A young man with round glasses and dark hair, wearing a brown jacket over a gray shirt, is shown in a dimly lit, shadowy outdoor setting. A hand reaches toward an ornate silver bracelet with a central blue gemstone, resting inside a dark velvet-lined wooden box. The man’s gaze is directed downward, and his posture is upright but still, while the hand hovers over the bracelet without touching it.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a lush, cinematic orchestral score, dominated by sweeping strings and a grand, resonant brass section. The music is richly layered, with a wide stereo image and a sense of vast, reverberant space, evoking the atmosphere of a dramatic film or video game trailer. The orchestration is reminiscent of late-Romantic or modern epic film scores, with a minor-key harmonic structure that imparts a somber, mysterious, and emotionally charged mood. The music is presented at a moderate volume, with no other sounds present, and is abruptly cut off mid-phrase, leaving a sudden silence. Immediately following the silence, a single, high-pitched, synthetic chime sounds. This chime is bright, clear, and bell-like, with a short, clean attack and a brief, smooth decay. It is centrally placed in the stereo field and stands out as a distinct, non-musical event, likely serving as a notification or alert. The chime is the only sound in this segment, with no accompanying speech or ambient noise. After the chime, a low-frequency electronic buzz begins. This buzz is harsh, monotonic, and unwavering, with a fundamental pitch around 110 Hz (A2)",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man with round glasses and dark hair, wearing a brown jacket over a gray shirt, is shown in a dimly lit, shadowy outdoor setting. A hand reaches toward an ornate silver bracelet with a central blue gemstone, resting inside a dark velvet-lined wooden box. The man’s gaze is directed downward, and his posture is upright but still, while the hand hovers over the bracelet without touching it.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

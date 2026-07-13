@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A group of cyclists in colorful jerseys rides in a tight formation along a rural road bordered by vineyards. One cyclist in a red jersey is visible in the foreground, pedaling forward with focused posture, while others maintain a synchronized rhythm behind. The scene is shot from a perspective that includes a view through a window frame, suggesting a stationary observer or camera mounted on a vehicle.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and pace, accompanied by a soft, breathy quality and a slight tremor, suggesting a sense of vulnerability or hesitation.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of cyclists in colorful jerseys rides in a tight formation along a rural road bordered by vineyards. One cyclist in a red jersey is visible in the foreground, pedaling forward with focused posture, while others maintain a synchronized rhythm behind. The scene is shot from a perspective that includes a view through a window frame, suggesting a stationary observer or camera mounted on a vehicle.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

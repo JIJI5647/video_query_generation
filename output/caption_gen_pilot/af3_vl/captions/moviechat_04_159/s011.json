@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and no significant background noise.",
+  "temporal_description": "A man in a dark suit and glasses is seated, facing another person whose back is to the camera. The second person is holding a lit cigarette, and their hand is partially visible. The scene is dimly lit, with a focus on the man’s face and the cigarette smoke. Later, the camera shifts to a close-up of a hand holding a silver flip phone, which is being operated with fingers pressing buttons. The background remains dark, emphasizing the phone and hand.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and glasses is seated, facing another person whose back is to the camera. The second person is holding a lit cigarette, and their hand is partially visible. The scene is dimly lit, with a focus on the man’s face and the cigarette smoke. Later, the camera shifts to a close-up of a hand holding a silver flip phone, which is being operated with fingers pressing buttons. The background remains dark, emphasizing the phone and hand.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

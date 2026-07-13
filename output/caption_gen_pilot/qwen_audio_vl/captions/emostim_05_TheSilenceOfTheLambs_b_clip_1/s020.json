@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically controlled indoor environment, likely a small office or conference room. Two adult male voices, both speaking in clear, standard American English, are present. The first speaker, positioned slightly left of center and close to the microphone, says, “Okay, so fax them for missing persons.” His tone is calm, businesslike, and slightly muffled, suggesting he is speaking from a short distance or with a slight barrier. The second speaker, positioned slightly right of center and closer to the microphone, responds with a brief, neutral “Right,” indicating agreement and readiness to proceed. The exchange is efficient and professional, with no emotional inflection or extraneous background noise.\n\nImmediately following the conversation, a series of mechanical sounds occur. A sharp, high-pitched click is heard, consistent with the activation of a button or lever on a fax machine. This is followed by a rapid, rhythmic whirring and clicking, characteristic of a document feeder mechanism as it pulls paper into the machine. The sequence is accompanied by a faint, low-frequency hum, likely from the device’s motor or nearby electronics. The sounds are crisp and well-defined, with no distortion or background interference, and the room’s acoustics remain dry and neutral.\n\nAs the mechanical process continues, a loud, synthetic electronic tone abruptly begins. This tone is a pure, low-frequency square wave at approximately 110 Hz (A2), with a harsh, buzzy timbre and no modulation or fade. It is significantly louder than the preceding sounds and dominates the audio, masking all other noises. The tone is sustained for about a second before the recording ends, with no further speech, music, or environmental sounds present.\n\nIn summary, the audio captures a brief, professional exchange between two men in a quiet office setting, instructing the faxing of documents for missing persons. The subsequent operation of a fax machine is rendered in clear mechanical detail, culminating in a sudden, loud electronic tone that signals either a system error or the end of the process. The recording is high-fidelity, with no extraneous noise or music, and reflects a focused, task-oriented environment typical of late 20th-century office work.",
+  "temporal_description": "A woman with shoulder-length brown hair and a dark top is shown in a close-up, her gaze directed slightly off-camera. The scene then shifts to a person lying supine, their face and upper chest covered in a soapy or foamy substance. Hands are seen gently manipulating the person’s mouth and chin area, while a medical or surgical instrument is brought into view and positioned near the person’s mouth. The background is out of focus, suggesting an indoor setting with muted colors.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair and a dark top is shown in a close-up, her gaze directed slightly off-camera. The scene then shifts to a person lying supine, their face and upper chest covered in a soapy or foamy substance. Hands are seen gently manipulating the person’s mouth and chin area, while a medical or surgical instrument is brought into view and positioned near the person’s mouth. The background is out of focus, suggesting an indoor setting with muted colors.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

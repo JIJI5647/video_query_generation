@@ -1,0 +1,75 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward with a serious expression, wearing a headset with a microphone."
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "sitting and looking at computer monitors."
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning forward and looking at computer monitors."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or control room with multiple computer monitors displaying data and images."
+    },
+    "objects": [
+      {
+        "object": "computer monitors",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "displaying various data and images."
+      },
+      {
+        "object": "headset",
+        "visibility": "clearly visible",
+        "position": "on the man in the suit",
+        "action": "worn by the man in the suit."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the suit stands still, looking forward.",
+      "The man in the light-colored shirt leans forward to look at the monitors."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression",
+        "focused gaze"
+      ],
+      "body_cues": [
+        "standing still",
+        "wearing a headset"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in a calm, low tone.",
+  "temporal_description": "The audio begins with a male voice speaking, followed by a short musical sting.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and looking forward with a serious expression, wearing a headset with a microphone.\"}, {\"person\": \"a man in a light-colored shirt\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"sitting and looking at computer monitors.\"}, {\"person\": \"a man in a light-colored shirt\", "
+}

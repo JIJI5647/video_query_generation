@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_description": "A man with long hair wearing a maroon jacket walks down a narrow hallway with yellow patterned walls, holding a paper and glancing to his right. The scene cuts to a woman in a blue garment lying in deep snow, reaching out with her hands and then raising them upward. The clip ends with a close‑up of a man looking concerned, his gaze directed upward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "silence",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s033\", \"time_range\": [160.0, 165.0], \"visual\": \"A man with long hair wearing a maroon jacket walks down a narrow hallway with yellow patterned walls, holding a paper and glancing to his right. The scene cuts to a woman in a blue garment lying in deep snow, reaching out with her hands and then raising them upward. The clip ends with a close‑up of a man looking concerned, his gaze directed upward.\", \"audio\": \"silence\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

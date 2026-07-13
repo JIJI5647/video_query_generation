@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, accompanied by occasional non-speech sounds like heavy breathing and brief silences, creating a tense and dramatic atmosphere.",
+  "temporal_description": "A man with short dark hair and an earring is seated inside a car, his face partially illuminated by dim light, looking forward with a neutral expression. Another man wearing glasses is seated beside him, also looking forward, his face partially visible in the dim lighting. The car is parked on a wet street at night, with streetlights casting reflections on the pavement and tall buildings in the background. The interior of the car is dimly lit, with the focus on the two men seated inside.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair and an earring is seated inside a car, his face partially illuminated by dim light, looking forward with a neutral expression. Another man wearing glasses is seated beside him, also looking forward, his face partially visible in the dim lighting. The car is parked on a wet street at night, with streetlights casting reflections on the pavement and tall buildings in the background. The interior of the car is dimly lit, with the focus on the two men seated inside.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

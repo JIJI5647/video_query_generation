@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a handgun with both hands, aiming it forward"
+      },
+      {
+        "person": "a person with a bloodied face",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "lying down, head tilted back"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "urban environment with buildings in the background"
+    },
+    "objects": [
+      {
+        "object": "handgun",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man in the suit"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "man aiming a handgun",
+      "person lying down with blood on face"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "focused expression",
+        "tense jaw"
+      ],
+      "body_cues": [
+        "hands gripping a handgun",
+        "body leaning forward"
+      ],
+      "gaze": "forward, aiming the gun"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful musical score plays in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a handgun with both hands, aiming it forward\"}, {\"person\": \"a person with a bloodied face\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"lying down, head tilted back\"}], \"scene\": {\"location\": \"street\", \"setting\": \"urban environment with buildings in the background\"}, \"objects\": [{"
+}

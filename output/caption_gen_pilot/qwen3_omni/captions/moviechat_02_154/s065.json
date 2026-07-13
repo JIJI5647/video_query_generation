@@ -1,0 +1,71 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a red and black patterned dress",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "kneeling on a bed and massaging a man's back"
+      },
+      {
+        "person": "a man lying face down on a bed",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "lying on his stomach"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a large white bed and a tray with drinks on a side table"
+    },
+    "objects": [
+      {
+        "object": "a white bed",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being used by the people"
+      },
+      {
+        "object": "a tray with drinks",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "placed on a side table"
+      }
+    ],
+    "interactions": [
+      "The woman is massaging the man's back."
+    ],
+    "key_actions": [
+      "The woman is massaging the man's back.",
+      "The man is lying on his stomach on the bed."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man lying face down on a bed",
+      "facial_cues": [
+        "eyes closed",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "body relaxed",
+        "back being massaged"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A loud, distorted, and chaotic sound, possibly a scream or a burst of electronic noise, is heard.",
+  "temporal_description": "The audio starts abruptly with a loud, distorted sound and continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s065\", \"time_range\": [320.0, 325.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a red and black patterned dress\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"kneeling on a bed and massaging a man's back\"}, {\"person\": \"a man lying face down on a bed\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"lying on his stomach\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a bedroom with a large white bed and a tray with drinks on a "
+}

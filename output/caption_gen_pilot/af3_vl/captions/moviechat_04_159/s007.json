@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A man in a dark suit and glasses is seated, looking downward with his head slightly bowed, appearing focused on something in front of him. Another person, partially visible and out of focus, stands to his left, facing him. The man’s posture remains still throughout, with minimal movement, occasionally raising his hand slightly as if gesturing or adjusting something. The background is dimly lit and indistinct, with faint smoke or mist drifting in the air, adding to the subdued atmosphere.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and glasses is seated, looking downward with his head slightly bowed, appearing focused on something in front of him. Another person, partially visible and out of focus, stands to his left, facing him. The man’s posture remains still throughout, with minimal movement, occasionally raising his hand slightly as if gesturing or adjusting something. The background is dimly lit and indistinct, with faint smoke or mist drifting in the air, adding to the subdued atmosphere.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

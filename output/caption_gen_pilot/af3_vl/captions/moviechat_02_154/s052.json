@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, followed by a loud bang, suggesting a sudden, possibly alarming event.",
+  "temporal_description": "A man is seen in a dimly lit room, his face partially obscured, with his hand near his ear. The scene shifts to a formal office setting where two men sit across a desk from a third man seated behind it. The man behind the desk remains still, while the man entering the room stands near the doorway, facing the seated individuals. The seated men appear to be listening attentively, with one occasionally shifting his gaze. The room has wooden walls and a dark, serious ambiance, with minimal movement from the individuals present.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man is seen in a dimly lit room, his face partially obscured, with his hand near his ear. The scene shifts to a formal office setting where two men sit across a desk from a third man seated behind it. The man behind the desk remains still, while the man entering the room stands near the doorway, facing the seated individuals. The seated men appear to be listening attentively, with one occasionally shifting his gaze. The room has wooden walls and a dark, serious ambiance, with minimal movement ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

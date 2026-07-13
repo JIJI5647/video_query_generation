@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s069",
+  "time_range": [
+    340.0,
+    345.0
+  ],
+  "visual_description": "In a dimly lit office, several men are seated at desks with computers while another man in a white shirt leans over a desk. A man in a dark suit stands to the right, gesturing with his hands. The scene shows a busy workspace with blinds covering the windows and a ceiling fan.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "There is no audible sound.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s069\", \"time_range\": [340, 345], \"visual\": \"In a dimly lit office, several men are seated at desks with computers while another man in a white shirt leans over a desk. A man in a dark suit stands to the right, gesturing with his hands. The scene shows a busy workspace with blinds covering the windows and a ceiling fan.\", \"audio\": \"There is no audible sound.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

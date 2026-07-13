@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking to the side"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime, wet pavement, city lights in the background"
+    },
+    "objects": [
+      {
+        "object": "a black car",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "driving on the street"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man in a suit stands on the street",
+      "a black car drives on the street"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "glasses"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "to the side"
+    }
+  ],
+  "audio_description": "a loud, high-pitched siren wails in the background",
+  "temporal_description": "the siren sound is continuous throughout the clip",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and looking to the side\"}], \"scene\": {\"location\": \"street\", \"setting\": \"nighttime, wet pavement, city lights in the background\"}, \"objects\": [{\"object\": \"a black car\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"driving on the street\"}], \"interactions\": [], \"key_actions\": [\"a man in a "
+}

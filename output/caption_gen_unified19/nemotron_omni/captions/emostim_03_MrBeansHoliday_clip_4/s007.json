@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "The man in a brown suit and red tie rides a bicycle along a rural road with green fields and a blue sky, looking toward the camera and smiling. He raises his right hand to his ear while continuing to pedal, and a white van passes nearby, shown in close-up with its red rear light and the bicycle wheel.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Only faint ambient road noise is audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"The man in a brown suit and red tie rides a bicycle along a rural road with green fields and a blue sky, looking toward the camera and smiling. He raises his right hand to his ear while continuing to pedal, and a white van passes nearby, shown in close-up with its red rear light and the bicycle wheel.\", \"audio\": \"Only faint ambient road noise is audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_description": "A man in a suit with an earpiece holds a walkie-talkie in a dimly lit room with a photo board behind him; a close-up shows a hand pressing a button on a small device. A man wearing headphones looks down intently, followed by a night scene where several figures stand near a car on a rocky hill and a person runs from a blue boat on a beach.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "no audible sound is present",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s065\", \"time_range\": [320.0, 325.0], \"visual\": \"A man in a suit with an earpiece holds a walkie-talkie in a dimly lit room with a photo board behind him; a close-up shows a hand pressing a button on a small device. A man wearing headphones looks down intently, followed by a night scene where several figures stand near a car on a rocky hill and a person runs from a blue boat on a beach.\", \"audio\": \"no audible sound is present\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

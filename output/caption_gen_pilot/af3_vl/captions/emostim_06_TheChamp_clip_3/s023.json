@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A child speaks with a high-pitched, clear voice, followed by a woman speaking in a lower, more mature tone.",
+  "temporal_description": "A young boy with light-colored, wavy hair is shown in a close-up, wearing a gray shirt. He is seated and facing slightly to his right, looking toward another person who is partially visible on the right side of the frame. The boy’s head is slightly tilted, and his gaze remains fixed on the other person. His facial expression is neutral, and his posture is still, with his arms resting near his body. The background is dimly lit and out of focus, suggesting an indoor setting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored, wavy hair is shown in a close-up, wearing a gray shirt. He is seated and facing slightly to his right, looking toward another person who is partially visible on the right side of the frame. The boy’s head is slightly tilted, and his gaze remains fixed on the other person. His facial expression is neutral, and his posture is still, with his arms resting near his body. The background is dimly lit and out of focus, suggesting an indoor setting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

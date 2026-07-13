@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s075",
+  "time_range": [
+    370.0,
+    375.0
+  ],
+  "visual_description": "A man wearing round glasses and a jacket stands in a dark, arched environment, looking to his side and then forward with a neutral expression. The view changes to a dimly lit, cluttered room containing assorted equipment, a globe, and a table covered with a patterned cloth.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet and indistinct, with no clear speech or distinct sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s075\", \"time_range\": [370.0, 375.0], \"visual\": \"A man wearing round glasses and a jacket stands in a dark, arched environment, looking to his side and then forward with a neutral expression. The view changes to a dimly lit, cluttered room containing assorted equipment, a globe, and a table covered with a patterned cloth.\", \"audio\": \"The audio is quiet and indistinct, with no clear speech or distinct sounds.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

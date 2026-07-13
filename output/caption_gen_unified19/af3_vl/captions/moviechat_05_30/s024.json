@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_description": "A group of people are running through a dimly lit, industrial-looking corridor with metal scaffolding overhead. One person in the foreground is moving quickly, their hair flowing back, while others follow closely behind in a chaotic motion. The scene is dark with minimal lighting, casting deep shadows and obscuring finer details of appearances and facial expressions.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace with a noticeable breathiness and a sigh-like pause.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people are running through a dimly lit, industrial-looking corridor with metal scaffolding overhead. One person in the foreground is moving quickly, their hair flowing back, while others follow closely behind in a chaotic motion. The scene is dark with minimal lighting, casting deep shadows and obscuring finer details of appearances and facial expressions.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

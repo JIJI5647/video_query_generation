@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_description": "A young man with glasses and a brown jacket stands in a dimly lit, cluttered room filled with metallic objects and statues. He faces forward, his gaze directed slightly upward, with his hands partially visible near his torso. The background is densely packed with shelves and various metallic artifacts, creating a shadowy, enclosed atmosphere.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a rich, immersive orchestral score that immediately establishes a mood of suspense and grandeur. The music is dominated by a slow, descending motif played by low strings—cellos and double basses—supported by a deep, resonant bass drone. Above this, a high, sustained string section (violins and violas) creates a shimmering, ethereal texture, while a solo cello delivers a mournful, lyrical melody. The overall sound is enveloping, with wide stereo imaging and a sense of vast, open space, enhanced by lush, natural-sounding reverb. The orchestration is dense and cinematic, evoking the style of modern film scores, particularly those associated with epic fantasy or science fiction. The music is entirely instrumental, with no speech, vocalizations, or environmental sounds present. At a precise moment, the music is abruptly and completely cut off, with no fade or transition. This sudden silence is immediately replaced by a loud, harsh, low-frequency electronic buzz. The buzz is monophonic, centered in the stereo field, and features a fundamental frequency around 60 Hz with strong harmonics, producing a grating, distorted timbre. The buzz is static and unchanging, with no modulation or variation",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man with glasses and a brown jacket stands in a dimly lit, cluttered room filled with metallic objects and statues. He faces forward, his gaze directed slightly upward, with his hands partially visible near his torso. The background is densely packed with shelves and various metallic artifacts, creating a shadowy, enclosed atmosphere.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

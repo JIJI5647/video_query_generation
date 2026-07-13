@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace, accompanied by the sound of a car door opening and closing.",
+  "temporal_description": "A man in a dark jacket stands beside a car at night, illuminated by streetlights, while another person is partially visible inside the vehicle. The man outside gestures with his hands and turns his head, occasionally looking toward the camera. The scene transitions to a wide, dark landscape with distant lights, where a small, dimly lit object is barely visible in the center.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark jacket stands beside a car at night, illuminated by streetlights, while another person is partially visible inside the vehicle. The man outside gestures with his hands and turns his head, occasionally looking toward the camera. The scene transitions to a wide, dark landscape with distant lights, where a small, dimly lit object is barely visible in the center.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

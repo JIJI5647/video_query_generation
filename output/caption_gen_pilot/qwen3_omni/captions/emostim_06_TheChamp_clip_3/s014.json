@@ -1,0 +1,49 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person with short, light-colored hair wearing a dark top",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "hugging another person from behind"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a plain wall in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The person with light-colored hair is hugging another person."
+    ],
+    "key_actions": [
+      "Hugging"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person with short, light-colored hair wearing a dark top",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "hugging another person from behind"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A child is crying and speaking in a distressed tone.",
+  "temporal_description": "The child's crying and speech continue throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s014\", \"time_range\": [65.0, 70.0], \"visual_objective\": {\"people\": [{\"person\": \"a person with short, light-colored hair wearing a dark top\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"hugging another person from behind\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a plain wall in the background\"}, \"objects\": [], \"interactions\": [\"The person with light-colored hair is hugging another person.\"], \"key_actions\": [\"Hugging\"], \"visibilit"
+}

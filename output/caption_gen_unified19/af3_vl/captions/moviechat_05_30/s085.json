@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_description": "Three individuals stand in a dimly lit, cluttered room filled with ornate objects and mirrors; one in the center holds a wand pointed forward, flanked by two others also holding wands in similar stances. The central figure is dressed in a dark robe and has pale hair, while the others wear dark clothing and maintain rigid postures with focused gazes ahead. The room’s shelves and surfaces are densely packed with metallic bowls, glassware, and framed items, casting deep shadows across the scene.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals stand in a dimly lit, cluttered room filled with ornate objects and mirrors; one in the center holds a wand pointed forward, flanked by two others also holding wands in similar stances. The central figure is dressed in a dark robe and has pale hair, while the others wear dark clothing and maintain rigid postures with focused gazes ahead. The room’s shelves and surfaces are densely packed with metallic bowls, glassware, and framed items, casting deep shadows across the scene.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

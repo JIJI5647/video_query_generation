@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man with glasses and a suit sits in the driver’s seat of a car, his gaze directed forward. Another person with dark, wavy hair is seated in the passenger seat, looking toward the driver. Both are partially illuminated by dim, greenish light, with the car’s interior and dark surroundings visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, full-volume entrance of a synthesized orchestral arrangement, immediately immersing the listener in a dramatic, high-energy atmosphere. The music is constructed from digital samples emulating a full orchestra, with a prominent, high-pitched lead melody played by a synthesized string instrument—likely a violin or viola—delivering a rapid, ascending arpeggio. This melody is supported by a lower string section, providing sustained, harmonically rich chords, and a synthesized brass section, which adds a bright, fanfare-like accent. The rhythm is driven by a synthesized percussion section, featuring a punchy kick drum, sharp snare, and crisp hi-hats, all tightly synchronized to a four-on-the-floor beat. The overall sound is dense, layered, and highly compressed, with a wide stereo image: the lead melody is centered, strings and brass are spread across the stereo field, and percussion elements are panned for spatial effect. The music is entirely instrumental, with no speech, vocals, or environmental sounds present. The musical style is unmistakably reminiscent of late 1990s to early 2000s video game soundtracks, particularly those from Japanese RPGs, characterized by its grand, heroic, and cinematic tone",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with glasses and a suit sits in the driver’s seat of a car, his gaze directed forward. Another person with dark, wavy hair is seated in the passenger seat, looking toward the driver. Both are partially illuminated by dim, greenish light, with the car’s interior and dark surroundings visible.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

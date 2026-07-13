@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_description": "The visual content of the clip is dark and details are not clearly visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible cues are discernible.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "weak",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s038\", \"time_range\": [185.0, 190.0], \"visual\": \"The visual content of the clip is dark and details are not clearly visible.\", \"audio\": \"No audible cues are discernible.\", \"confidence\": \"low\", \"evidence_strength\": \"weak\"}"
+}

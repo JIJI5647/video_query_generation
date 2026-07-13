@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a medium pitch and moderate tempo, conveying a sense of urgency and distress.",
+  "temporal_description": "A lone figure in formal attire walks slowly down a narrow, dimly lit corridor flanked by rows of armored soldiers holding shields. The soldiers stand motionless, forming a rigid, imposing barrier on either side. The central figure moves steadily forward, maintaining a straight posture, with their gaze directed ahead. The scene is dark and shadowy, with minimal lighting highlighting the figure and the metallic sheen of the soldiers’ armor.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A lone figure in formal attire walks slowly down a narrow, dimly lit corridor flanked by rows of armored soldiers holding shields. The soldiers stand motionless, forming a rigid, imposing barrier on either side. The central figure moves steadily forward, maintaining a straight posture, with their gaze directed ahead. The scene is dark and shadowy, with minimal lighting highlighting the figure and the metallic sheen of the soldiers’ armor.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

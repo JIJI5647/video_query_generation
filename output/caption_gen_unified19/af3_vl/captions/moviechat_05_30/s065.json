@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_description": "A person with glasses is visible in a dimly lit setting, their face partially illuminated. The scene shifts to a dark, cluttered interior space with indistinct shapes and objects, and a faint light source in the distance. No clear actions or gestures are discernible due to low visibility.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with glasses is visible in a dimly lit setting, their face partially illuminated. The scene shifts to a dark, cluttered interior space with indistinct shapes and objects, and a faint light source in the distance. No clear actions or gestures are discernible due to low visibility.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

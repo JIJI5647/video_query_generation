@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A child in a red sweater with plaid cuffs stands by a closed door, holding a knife in his right hand and writing the letters 'RECOU' in red on the wood with a marker in his left hand. In the background, a lit lamp sits on a nightstand beside a bed where a person lies under a blanket.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual\": \"A child in a red sweater with plaid cuffs stands by a closed door, holding a knife in his right hand and writing the letters 'RECOU' in red on the wood with a marker in his left hand. In the background, a lit lamp sits on a nightstand beside a bed where a person lies under a blanket.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

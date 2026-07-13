@@ -1,0 +1,69 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch and speaking"
+      },
+      {
+        "person": "a man in a blue shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a couch and laughing"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch and other people in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man in the red shirt speaks",
+      "the man in the blue shirt laughs"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red shirt",
+      "facial_cues": [
+        "wide eyes",
+        "raised eyebrows",
+        "open mouth"
+      ],
+      "body_cues": [
+        "sitting on a couch"
+      ],
+      "gaze": "towards the man in the blue shirt"
+    },
+    {
+      "person": "a man in a blue shirt",
+      "facial_cues": [
+        "wide smile",
+        "closed eyes",
+        "laughing"
+      ],
+      "body_cues": [
+        "sitting on a couch",
+        "leaning forward"
+      ],
+      "gaze": "towards the man in the red shirt"
+    }
+  ],
+  "audio_description": "a man speaking followed by audience laughter",
+  "temporal_description": "a man speaks, then another man laughs, and the audience laughs",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a red shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting on a couch and speaking\"}, {\"person\": \"a man in a blue shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting on a couch and laughing\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a living room with a couch and other people in the background\"}, \"objects\": [], \"intera"
+}

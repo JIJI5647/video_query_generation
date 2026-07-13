@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "A man in a black shirt sits in the driver’s seat of a car, gripping the steering wheel while looking forward with a distressed expression. He turns his head slightly and then raises a bandaged hand to wipe his nose, his eyes appearing watery.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Heavy breathing and sobbing are audible as he wipes his nose.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s027\", \"time_range\": [130.0, 135.0], \"visual\": \"A man in a black shirt sits in the driver’s seat of a car, gripping the steering wheel while looking forward with a distressed expression. He turns his head slightly and then raises a bandaged hand to wipe his nose, his eyes appearing watery.\", \"audio\": \"Heavy breathing and sobbing are audible as he wipes his nose.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

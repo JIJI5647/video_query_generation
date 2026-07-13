@@ -1,0 +1,137 @@
+{
+  "total_wall_seconds": 2259.2,
+  "videos_attempted": 19,
+  "videos_processed": 18,
+  "total_tokens": 632643,
+  "total_llm_calls": 39,
+  "by_stage": {
+    "emotion_event": {
+      "calls": 23,
+      "prompt_tokens": 204203,
+      "candidates_tokens": 213727,
+      "total_tokens": 417934
+    },
+    "generation": {
+      "calls": 16,
+      "prompt_tokens": 173669,
+      "candidates_tokens": 41036,
+      "total_tokens": 214709
+    }
+  },
+  "per_video": [
+    {
+      "video_id": "emostim_01_TheShining_clip_2",
+      "status": "ok",
+      "seconds": 264.3,
+      "total_tokens": 48473
+    },
+    {
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "status": "ok",
+      "seconds": 52.2,
+      "total_tokens": 16869
+    },
+    {
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "status": "ok",
+      "seconds": 25.3,
+      "total_tokens": 11436
+    },
+    {
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "status": "ok",
+      "seconds": 56.9,
+      "total_tokens": 9948
+    },
+    {
+      "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+      "status": "ok",
+      "seconds": 60.9,
+      "total_tokens": 18983
+    },
+    {
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "status": "ok",
+      "seconds": 62.4,
+      "total_tokens": 16801
+    },
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "status": "ok",
+      "seconds": 29.5,
+      "total_tokens": 4986
+    },
+    {
+      "video_id": "meld_01_dia337",
+      "status": "ok",
+      "seconds": 30.1,
+      "total_tokens": 9264
+    },
+    {
+      "video_id": "meld_02_dia224",
+      "status": "ok",
+      "seconds": 23.8,
+      "total_tokens": 6916
+    },
+    {
+      "video_id": "meld_03_dia572",
+      "status": "ok",
+      "seconds": 154.7,
+      "total_tokens": 7760
+    },
+    {
+      "video_id": "meld_04_dia362",
+      "status": "ok",
+      "seconds": 49.8,
+      "total_tokens": 9994
+    },
+    {
+      "video_id": "meld_05_dia980",
+      "status": "ok",
+      "seconds": 1.2,
+      "total_tokens": 2327
+    },
+    {
+      "video_id": "meld_06_dia823",
+      "status": "ok",
+      "seconds": 23.4,
+      "total_tokens": 6692
+    },
+    {
+      "video_id": "meld_07_dia208",
+      "status": "ok",
+      "seconds": 131.1,
+      "total_tokens": 2672
+    },
+    {
+      "video_id": "moviechat_01_162",
+      "status": "ok",
+      "seconds": 185.2,
+      "total_tokens": 49882
+    },
+    {
+      "video_id": "moviechat_02_154",
+      "status": "skipped",
+      "seconds": 490.7,
+      "total_tokens": 247091
+    },
+    {
+      "video_id": "moviechat_03_160",
+      "status": "ok",
+      "seconds": 186.6,
+      "total_tokens": 50171
+    },
+    {
+      "video_id": "moviechat_04_159",
+      "status": "ok",
+      "seconds": 315.7,
+      "total_tokens": 62656
+    },
+    {
+      "video_id": "moviechat_05_30",
+      "status": "ok",
+      "seconds": 115.2,
+      "total_tokens": 49722
+    }
+  ]
+}

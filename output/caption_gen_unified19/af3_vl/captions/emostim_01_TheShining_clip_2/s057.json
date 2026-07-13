@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_description": "A person with dark, messy hair and a maroon jacket peers through a torn hole in a white door frame, their face partially visible and angled downward. Another person with dark hair, wearing a blue jacket, is seen briefly in the background, partially obscured by the door and wall. The scene takes place indoors, with tiled walls visible behind the second person, and the first person’s gaze is directed downward toward the floor.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a high-pitched, fast-paced, and breathy voice with a noticeable gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark, messy hair and a maroon jacket peers through a torn hole in a white door frame, their face partially visible and angled downward. Another person with dark hair, wearing a blue jacket, is seen briefly in the background, partially obscured by the door and wall. The scene takes place indoors, with tiled walls visible behind the second person, and the first person’s gaze is directed downward toward the floor.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

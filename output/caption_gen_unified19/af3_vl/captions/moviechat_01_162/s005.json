@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man in a suit is seen in close-up, his face partially obscured by motion blur. Outside, police officers stand near a cordoned-off area with vehicles, including a police van, parked along a street lined with buildings and an overpass. People are gathered behind police tape, some looking toward the scene, while others appear to be moving or conversing.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable sigh at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit is seen in close-up, his face partially obscured by motion blur. Outside, police officers stand near a cordoned-off area with vehicles, including a police van, parked along a street lined with buildings and an overpass. People are gathered behind police tape, some looking toward the scene, while others appear to be moving or conversing.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

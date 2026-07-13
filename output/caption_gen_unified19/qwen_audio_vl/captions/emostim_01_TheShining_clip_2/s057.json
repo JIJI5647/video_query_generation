@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_description": "A person with dark, disheveled hair and a red jacket peers through a torn doorway, their face partially obscured by the damaged frame. They move slightly, shifting their head and gaze as if observing something beyond the opening. Their posture is hunched, and their expression is tense, with their mouth slightly open.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, piercing scream from a female voice, which is immediately distorted by severe digital clipping. This scream is so loud and abrupt that it overwhelms the recording device, resulting in a harsh, crackling sound. The scream is followed by a brief, guttural exhalation, likely a gasp or grunt, which is also clipped and distorted. The background is filled with a low-frequency, continuous rumble, suggesting the presence of a large, vibrating machine or engine, and a faint, high-frequency hiss typical of analog tape or low-quality digital recording. The environment is acoustically reverberant, indicating a large, hard-surfaced indoor space such as a warehouse, garage, or industrial hall. Shortly after, a second, lower-pitched scream erupts from a male voice, equally intense and distorted by clipping. This scream is more guttural and strained, with a descending pitch and a sense of physical exertion or pain. The reverberation and background rumble persist, reinforcing the impression of a vast, echoing space. The male scream is abruptly cut off, and a sharp, metallic impact follows, characterized by a high-frequency \"clink\" and a lower \"thud.\" This",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark, disheveled hair and a red jacket peers through a torn doorway, their face partially obscured by the damaged frame. They move slightly, shifting their head and gaze as if observing something beyond the opening. Their posture is hunched, and their expression is tense, with their mouth slightly open.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

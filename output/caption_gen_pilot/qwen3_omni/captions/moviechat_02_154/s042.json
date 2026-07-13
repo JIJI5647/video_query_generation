@@ -1,0 +1,34 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and looking at fish tanks"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a pet store or aquarium shop with multiple fish tanks on shelves"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "a man speaks in a foreign language, followed by a loud, dramatic musical sting.",
+  "temporal_description": "The audio begins with a man speaking, then a loud musical sting plays.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s042\", \"time_range\": [205.0, 210.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing and looking at fish tanks\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a pet store or aquarium shop with multiple fish tanks on shelves\"}}, \"visual_expression\": [], \"audio_description\": \"a man speaks in a foreign language, followed by a loud, dramatic musical sting.\", \"temporal_description\": \"Th"
+}

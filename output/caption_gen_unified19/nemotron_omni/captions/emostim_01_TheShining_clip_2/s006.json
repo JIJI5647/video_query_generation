@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "In a dimly lit bedroom, a child with short hair wearing a striped sweater and dark pants stands facing a closed door while holding a small object. To the left, a person lies asleep in a bed covered with a patterned blanket. A lit lamp on a nightstand casts a warm glow beside the bed.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"In a dimly lit bedroom, a child with short hair wearing a striped sweater and dark pants stands facing a closed door while holding a small object. To the left, a person lies asleep in a bed covered with a patterned blanket. A lit lamp on a nightstand casts a warm glow beside the bed.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

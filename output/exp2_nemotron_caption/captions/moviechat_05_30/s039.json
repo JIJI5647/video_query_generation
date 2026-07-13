@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_description": "A massive explosion erupts in a dark, gothic courtyard as a large winged creature flies through the flames while people in dark clothing scramble and run away. Debris and smoke fill the air as the fire illuminates the stone arches.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is dominated by a deafening explosion and panicked shouts. No clear speech is audible over the chaos.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s039\", \"time_range\": [190.0, 195.0], \"visual\": \"A massive explosion erupts in a dark, gothic courtyard as a large winged creature flies through the flames while people in dark clothing scramble and run away. Debris and smoke fill the air as the fire illuminates the stone arches.\", \"audio\": \"The audio is dominated by a deafening explosion and panicked shouts. No clear speech is audible over the chaos.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown jacket and red tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle and smiling"
+      }
+    ],
+    "scene": {
+      "location": "outdoor road",
+      "setting": "a rural landscape with green fields and a blue sky with clouds"
+    },
+    "objects": [
+      {
+        "object": "a bicycle",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being ridden"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "riding a bicycle",
+      "smiling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown jacket and red tie",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "riding a bicycle",
+        "making a hand gesture"
+      ],
+      "gaze": "towards the camera"
+    }
+  ],
+  "audio_description": "Upbeat rock music with a male vocalist singing.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a brown jacket and red tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"riding a bicycle and smiling\"}], \"scene\": {\"location\": \"outdoor road\", \"setting\": \"a rural landscape with green fields and a blue sky with clouds\"}, \"objects\": [{\"object\": \"a bicycle\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being ridden\"}], \"interactions\": [], \"key"
+}

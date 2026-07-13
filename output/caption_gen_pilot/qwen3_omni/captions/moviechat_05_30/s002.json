@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in dark clothing",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing still"
+      }
+    ],
+    "scene": {
+      "location": "underground chamber",
+      "setting": "dark, stone tunnel with large serpent heads on the walls and a large face carving at the end"
+    },
+    "objects": [
+      {
+        "object": "serpent heads",
+        "visibility": "clearly visible",
+        "position": "left and right walls",
+        "action": "lining the tunnel"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "standing still"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in dark clothing",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "dramatic, suspenseful orchestral music with a low, ominous tone",
+  "temporal_description": "the music swells in intensity throughout the clip",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5, 10], \"visual_objective\": {\"people\": [{\"person\": \"a person in dark clothing\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing still\"}], \"scene\": {\"location\": \"underground chamber\", \"setting\": \"dark, stone tunnel with large serpent heads on the walls and a large face carving at the end\"}, \"objects\": [{\"object\": \"serpent heads\", \"visibility\": \"clearly visible\", \"position\": \"left and right walls\", \"action\": \"lining the tunnel\"}], \""
+}

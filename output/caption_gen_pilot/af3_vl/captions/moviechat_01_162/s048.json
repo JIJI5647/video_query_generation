@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a sad tone, speaking in Mandarin at a moderate pace.",
+  "temporal_description": "A man is seated in the driver’s seat of a car, his head tilted back and resting against the headrest, while another person leans in close, their hand placed on the man’s neck. The man’s face is visible, with sweat droplets on his skin, and he appears to be looking toward the other person. The second individual is partially visible, with their face turned toward the man, and their posture suggests they are engaged in a close interaction. The interior of the car is dimly lit, with the focus on the two individuals and their proximity.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man is seated in the driver’s seat of a car, his head tilted back and resting against the headrest, while another person leans in close, their hand placed on the man’s neck. The man’s face is visible, with sweat droplets on his skin, and he appears to be looking toward the other person. The second individual is partially visible, with their face turned toward the man, and their posture suggests they are engaged in a close interaction. The interior of the car is dimly lit, with the focus on the",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

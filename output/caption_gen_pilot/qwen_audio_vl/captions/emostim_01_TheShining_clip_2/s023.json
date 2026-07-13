@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins with a deep, resonant metallic rumble, accompanied by a high-pitched, rhythmic squeal, evoking the sound of a large, heavy train or subway car moving along steel tracks. The environment is acoustically vast and reverberant, suggesting a large, enclosed space such as a subway tunnel or underground station. The mechanical sounds are steady and consistent, with no speech, music, or other ambient noises present. Suddenly, a sharp, high-frequency metallic screech erupts, indicating the train’s wheels are braking forcefully against the rails. This is immediately followed by a loud, complex crash: a deep, low-frequency impact is joined by a cacophony of metallic clattering, grinding, and scraping, as if a train car has derailed or collided with a barrier. The crash is so intense that the recording device’s microphone overloads, resulting in severe digital clipping and distortion. Amidst the chaos, a brief, high-pitched metallic squeal—possibly a wheel or rail fragment—cuts through the noise. The reverberation of the crash is pronounced, with echoes bouncing off hard surfaces, further emphasizing the cavernous setting. As the mechanical tumult subsides, a single, sustained, low-frequency electronic tone emerges, resembling a synthesized buzzer or alarm. This tone is monophonic, unwavering, and devoid of any musical or speech content, serving as a clear signal of an emergency or system alert. The recording ends abruptly, with the electronic tone still active, suggesting a deliberate stop or the conclusion of the event.\n\nIn summary, the audio captures a dramatic sequence in a large, reverberant underground transit environment: a train or subway car approaches, brakes sharply, and crashes violently, overwhelming the recording device. The aftermath is marked by a sustained electronic alarm tone, with no speech or music present. The clip’s technical flaws—clipping and distortion—underscore the intensity of the event, while the absence of human sounds and the presence of a synthetic alert imply a modern, automated system responding to a catastrophic incident.",
+  "temporal_description": "A child with light brown hair, wearing a red and green striped sweater with a plaid shirt underneath, clings to the back of an adult dressed in a blue robe. The adult, whose face is not visible, stands near a window with frosted glass, wiping it with a cloth. The child looks upward, their face partially visible, with their mouth slightly open and eyes wide. The scene takes place in a tiled bathroom, with a toilet paper holder visible on the wall. The child’s posture is tense, gripping the adult’s robe tightly, while the adult remains focused on cleaning the window.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with light brown hair, wearing a red and green striped sweater with a plaid shirt underneath, clings to the back of an adult dressed in a blue robe. The adult, whose face is not visible, stands near a window with frosted glass, wiping it with a cloth. The child looks upward, their face partially visible, with their mouth slightly open and eyes wide. The scene takes place in a tiled bathroom, with a toilet paper holder visible on the wall. The child’s posture is tense, gripping the adult’",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

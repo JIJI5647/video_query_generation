@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking down a staircase followed by a group of men"
+      }
+    ],
+    "scene": {
+      "location": "indoor staircase",
+      "setting": "a modern building with metal railings and overhead lighting"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "a group of men, including the man in the light blue shirt, walk down a staircase together"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and striped tie",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "walking"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "a series of footsteps on a hard surface, followed by a loud, sustained electronic tone.",
+  "temporal_description": "footsteps are heard at the beginning, followed by a continuous electronic tone that starts around the 3-second mark and continues until the end.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s089\", \"time_range\": [440.0, 445.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light blue shirt and striped tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"walking down a staircase followed by a group of men\"}], \"scene\": {\"location\": \"indoor staircase\", \"setting\": \"a modern building with metal railings and overhead lighting\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"a group of men, including the man in the light blue shirt, wa"
+}

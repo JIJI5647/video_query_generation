@@ -1,0 +1,69 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with short blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "crying and leaning over a man's face"
+      },
+      {
+        "person": "an older man with a bald head",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying down with his eyes closed"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, possibly a basement or a dark room with a concrete wall in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "the boy is crying over the man's face, and the man's hand is on the boy's shoulder"
+    ],
+    "key_actions": [
+      "the boy is crying and leaning over the man",
+      "the man is lying down with his eyes closed"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with short blonde hair",
+      "facial_cues": [
+        "tears on his face",
+        "mouth open as if crying"
+      ],
+      "body_cues": [
+        "leaning over the man's face"
+      ],
+      "gaze": "looking down at the man"
+    },
+    {
+      "person": "an older man with a bald head",
+      "facial_cues": [
+        "eyes closed",
+        "face relaxed"
+      ],
+      "body_cues": [
+        "lying down",
+        "hand on the boy's shoulder"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A child's voice is crying and speaking in a distressed tone.",
+  "temporal_description": "The boy is crying and speaking throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual_objective\": {\"people\": [{\"person\": \"a young boy with short blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"crying and leaning over a man's face\"}, {\"person\": \"an older man with a bald head\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"lying down with his eyes closed\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, possibly a basement or a dark room with a concr"
+}

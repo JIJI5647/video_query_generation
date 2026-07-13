@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "Three men are standing near a parked luxury car on a wet city street at night, illuminated by streetlights. One man, wearing glasses and a suit, stands facing another man whose back is to the camera, while a third man stands slightly behind them. The man in the suit appears to be speaking, gesturing slightly with his hand, while the other two remain mostly still. The scene is dimly lit, with reflections on the wet pavement and tall buildings in the background.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men are standing near a parked luxury car on a wet city street at night, illuminated by streetlights. One man, wearing glasses and a suit, stands facing another man whose back is to the camera, while a third man stands slightly behind them. The man in the suit appears to be speaking, gesturing slightly with his hand, while the other two remain mostly still. The scene is dimly lit, with reflections on the wet pavement and tall buildings in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

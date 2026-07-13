@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing in a neutral tone, with no noticeable prosody or emotional inflection.",
+  "temporal_description": "A man in a suit is riding a bicycle on a rural road, leaning forward with his hands on the handlebars, and appears to be pedaling. He is wearing a brown jacket, white shirt, and dark pants, and has dark hair. The bicycle has a basket in the front containing several eggs. The background shows a field with tall grass and trees under a clear blue sky. A white pickup truck with an open cargo area, containing several animals, is driving alongside the cyclist on the same road. The truck's cargo area has multiple compartments, and the animals are visible inside. The truck is moving at a steady pace, and the cyclist is maintaining a consistent speed, staying close to the truck. The scene is set in a rural area with open fields and a clear sky.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit is riding a bicycle on a rural road, leaning forward with his hands on the handlebars, and appears to be pedaling. He is wearing a brown jacket, white shirt, and dark pants, and has dark hair. The bicycle has a basket in the front containing several eggs. The background shows a field with tall grass and trees under a clear blue sky. A white pickup truck with an open cargo area, containing several animals, is driving alongside the cyclist on the same road. The truck's cargo area h",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

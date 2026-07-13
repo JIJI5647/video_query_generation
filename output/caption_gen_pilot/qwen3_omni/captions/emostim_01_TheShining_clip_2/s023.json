@@ -1,0 +1,63 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a blue robe",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "leaning out of a window, looking outside"
+      },
+      {
+        "person": "a young child in a red sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing behind the woman, holding onto her robe"
+      }
+    ],
+    "scene": {
+      "location": "bathroom",
+      "setting": "a bathroom with white tiled walls and a window."
+    },
+    "objects": [
+      {
+        "object": "window",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being looked out of by the woman"
+      }
+    ],
+    "interactions": [
+      "The child is holding onto the woman's robe."
+    ],
+    "key_actions": [
+      "The woman leans out of the window."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the young child",
+      "facial_cues": [
+        "mouth open",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "holding onto the woman's robe"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A loud, metallic scraping sound is heard.",
+  "temporal_description": "The scraping sound starts abruptly and continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s023\", \"time_range\": [110.0, 115.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a blue robe\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"leaning out of a window, looking outside\"}, {\"person\": \"a young child in a red sweater\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing behind the woman, holding onto her robe\"}], \"scene\": {\"location\": \"bathroom\", \"setting\": \"a bathroom with white tiled walls and a window.\"}, \"o"
+}

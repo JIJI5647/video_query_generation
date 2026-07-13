@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "A man with dark hair, wearing a black jacket, is seated in the driver’s seat of a car, his right hand raised to his forehead. The car’s windshield is heavily obscured by water droplets, and the view outside is blurry with greenery visible through the wet glass. The man’s head is slightly tilted, and his gaze is directed forward, with his eyes partially closed.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a male speaker, whose voice is clear, close-miked, and delivered in standard Mandarin Chinese. He narrates in a conversational, slightly incredulous tone: “一说去按摩啊，都不到十分钟，陈哥就说要做事了。” (“As soon as it was said to go for a massage, in less than ten minutes, Brother Chen said he was going to do something.”) The narration is set against a persistent, low-frequency mechanical hum, likely from a large engine or industrial machinery, which is present throughout the recording. This hum is accompanied by a faint, high-frequency hiss, indicating the use of a consumer-grade recording device. The speaker’s voice is dry and intimate, suggesting he is in a small, acoustically treated space, such as a recording booth or a quiet room. As the narration concludes, the mechanical hum continues, and a new sound emerges: a sharp, metallic click, followed by a brief, high-pitched whirring noise. This sequence is characteristic of a mechanical device being activated, such as a camera shutter or a small motorized mechanism. The whirring is short-lived and quickly fades, after which the mechanical hum resumes its dominance. The audio ends abruptly, with no fade",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark hair, wearing a black jacket, is seated in the driver’s seat of a car, his right hand raised to his forehead. The car’s windshield is heavily obscured by water droplets, and the view outside is blurry with greenery visible through the wet glass. The man’s head is slightly tilted, and his gaze is directed forward, with his eyes partially closed.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

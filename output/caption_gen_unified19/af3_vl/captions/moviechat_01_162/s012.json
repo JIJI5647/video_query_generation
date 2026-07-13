@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A group of people in business attire are gathered in an office, some standing and others seated at desks, all facing toward a television screen mounted on a wall. Several individuals are visible in the foreground and background, with one man in a dark shirt walking past the camera while holding a phone to his ear. Most are looking forward toward the screen, with some appearing to be engaged in conversation or focused on their work.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people in business attire are gathered in an office, some standing and others seated at desks, all facing toward a television screen mounted on a wall. Several individuals are visible in the foreground and background, with one man in a dark shirt walking past the camera while holding a phone to his ear. Most are looking forward toward the screen, with some appearing to be engaged in conversation or focused on their work.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

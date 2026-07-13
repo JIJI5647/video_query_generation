@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_description": "A man in a beige jacket with a floral scarf laughs while facing another man in a dark suit; both are seated at a table in a dimly lit, crowded room. The camera briefly blurs and shifts focus to a decorated table with cakes and colorful balloons before returning to the two men. The man in the beige jacket gestures with his hands while speaking, and the man in the suit turns slightly toward him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate pace, followed by a loud, sudden noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a beige jacket with a floral scarf laughs while facing another man in a dark suit; both are seated at a table in a dimly lit, crowded room. The camera briefly blurs and shifts focus to a decorated table with cakes and colorful balloons before returning to the two men. The man in the beige jacket gestures with his hands while speaking, and the man in the suit turns slightly toward him.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

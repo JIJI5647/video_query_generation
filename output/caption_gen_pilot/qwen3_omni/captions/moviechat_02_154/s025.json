@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with spiky hair wearing a black leather jacket and a red shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and to the side with a serious expression"
+      },
+      {
+        "person": "a man with long black hair wearing a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "looking to the side with a serious expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a window covered by horizontal blinds, dim lighting with a greenish hue"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with spiky hair wearing a black leather jacket and a red shirt",
+      "facial_cues": [
+        "serious expression",
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "down and to the side"
+    },
+    {
+      "person": "a man with long black hair wearing a dark suit and tie",
+      "facial_cues": [
+        "serious expression",
+        "looking to the side"
+      ],
+      "body_cues": [],
+      "gaze": "to the side"
+    }
+  ],
+  "audio_description": "A low, continuous hum or drone is audible in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s025\", \"time_range\": [120.0, 125.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with spiky hair wearing a black leather jacket and a red shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking down and to the side with a serious expression\"}, {\"person\": \"a man with long black hair wearing a dark suit and tie\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"looking to the side with a serious expression\"}], \"scene\": {\"loc"
+}

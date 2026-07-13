@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice, likely a girl, speaking with a high pitch and moderate speed, accompanied by background music and occasional impact sounds.",
+  "temporal_description": "An older man with glasses and white hair, wearing a dark jacket over a white collared shirt, is holding a young child with light-colored hair and a gray shirt. The child is facing away from the camera, gripping the man’s jacket with both hands, while the man leans down toward the child, his head close to the child’s head. The scene is dimly lit, and they appear to be standing near a wall or door frame. The man’s posture is slightly bent, and the child’s arms are wrapped around the man’s torso.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "An older man with glasses and white hair, wearing a dark jacket over a white collared shirt, is holding a young child with light-colored hair and a gray shirt. The child is facing away from the camera, gripping the man’s jacket with both hands, while the man leans down toward the child, his head close to the child’s head. The scene is dimly lit, and they appear to be standing near a wall or door frame. The man’s posture is slightly bent, and the child’s arms are wrapped around the man’s torso.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

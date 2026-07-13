@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A person in dark clothing moves quickly through a dimly lit, cluttered interior space. They pass by a metal-framed object with mesh sides containing small items, partially obscuring their form. Their posture is hurried, and they appear to be walking away from the camera’s perspective.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a medium pitch and moderate pace, accompanied by background music.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in dark clothing moves quickly through a dimly lit, cluttered interior space. They pass by a metal-framed object with mesh sides containing small items, partially obscuring their form. Their posture is hurried, and they appear to be walking away from the camera’s perspective.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

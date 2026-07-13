@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, full-volume entrance of a large pipe organ, immediately presenting a powerful, sustained chord. The organ’s sound is rich and resonant, with a timbre that is both bright and warm, featuring a wide stereo image and a pronounced sense of space, as if performed in a vast cathedral or concert hall. The initial chord is harmonically complex, with a strong, low bass foundation and upper voices that shimmer and blend, creating a majestic and solemn atmosphere. The organist then transitions smoothly into a flowing, legato melody, played in the upper registers, which is both lyrical and expressive. The melody is supported by a steady, arpeggiated accompaniment in the lower registers, maintaining a sense of grandeur and continuity. Throughout this passage, the organ’s sound remains enveloping and immersive, with no other instruments, voices, or environmental noises present. The recording is of high fidelity, capturing the full frequency range and dynamic nuances, and is free from distortion, hiss, or any extraneous sounds.\n\nAt the peak of the musical intensity, the organ sound is abruptly and completely cut off, with no natural decay or fade. This sudden silence is immediately followed by a loud, harsh, low-frequency electronic buzz, characterized by a square or sawtooth waveform. The buzz is static, unwavering, and completely devoid of musical or environmental context, dominating the audio space with a jarring, abrasive quality. The buzz persists unchanged until the end of the clip, with no further musical or ambient elements introduced.\n\nIn summary, the audio presents a dramatic contrast between the grandeur and emotional depth of a pipe organ performance in a reverberant, sacred setting and the abrupt intrusion of a synthetic, disruptive electronic buzz. The recording is pristine and immersive, with no speech or extraneous sounds, and the transition from music to noise is sudden and intentional, likely serving as a technical marker or editorial cue. The clip’s structure and sonic elements suggest a purposeful juxtaposition of tradition and modernity, evoking both awe and disruption.",
+  "temporal_description": "The video shows a nighttime urban street scene with cars moving along a road, illuminated by streetlights and vehicle headlights. Buildings with lit windows and signage, including one labeled \"MANDARIN ORIENTAL,\" line the street. A few pedestrians are visible near the sidewalks, but they are mostly indistinct due to the low light and distance. The camera remains stationary, capturing the flow of traffic and the glowing cityscape.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a nighttime urban street scene with cars moving along a road, illuminated by streetlights and vehicle headlights. Buildings with lit windows and signage, including one labeled \"MANDARIN ORIENTAL,\" line the street. A few pedestrians are visible near the sidewalks, but they are mostly indistinct due to the low light and distance. The camera remains stationary, capturing the flow of traffic and the glowing cityscape.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

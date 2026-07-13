@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    39.62
+  ],
+  "visual_description": "In a kitchen, a man in a black jacket over a white shirt stands facing a man in a grey sweater who holds a red cup. The man in the black jacket speaks with his mouth open, while the man in the grey sweater looks at him and brings the cup to his lips. Kitchen cabinets and shelves stocked with food items are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures a casual spoken exchange between the two men.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s008\", \"time_range\": [35.0, 39.62], \"visual\": \"In a kitchen, a man in a black jacket over a white shirt stands facing a man in a grey sweater who holds a red cup. The man in the black jacket speaks with his mouth open, while the man in the grey sweater looks at him and brings the cup to his lips. Kitchen cabinets and shelves stocked with food items are visible in the background.\", \"audio\": \"The audio captures a casual spoken exchange between the two men.\", \"confidence\": \"high\", \""
+}

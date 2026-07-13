@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "The child with short blonde hair leans over a blood‑covered person, pressing their face close to the other's head. The child's eyes are closed and then open, showing a distressed expression. An older man in a dark shirt sits with a hand placed on his shoulder, looking downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains a child's sobbing and a man's quiet breathing.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual\": \"The child with short blonde hair leans over a blood‑covered person, pressing their face close to the other's head. The child's eyes are closed and then open, showing a distressed expression. An older man in a dark shirt sits with a hand placed on his shoulder, looking downward.\", \"audio\": \"The audio contains a child's sobbing and a man's quiet breathing.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

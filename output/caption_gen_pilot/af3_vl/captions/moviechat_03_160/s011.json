@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man speaks in a neutral tone, followed by a woman speaking in a neutral tone, both at a moderate pace, with no background noise or emotional inflection.",
+  "temporal_description": "A man in a dark suit and tie stands in a dimly lit room, holding a phone to his ear. Behind him, several other individuals are visible, some seated at desks with computer monitors, while others stand or move around. One person in a blue shirt is seen near a wall with photos displayed, and another in a dark jacket with “OCTB” on the back is partially visible. The man in the foreground remains mostly still, occasionally shifting his gaze slightly, while others in the background continue their tasks or walk past.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie stands in a dimly lit room, holding a phone to his ear. Behind him, several other individuals are visible, some seated at desks with computer monitors, while others stand or move around. One person in a blue shirt is seen near a wall with photos displayed, and another in a dark jacket with “OCTB” on the back is partially visible. The man in the foreground remains mostly still, occasionally shifting his gaze slightly, while others in the background continue their task",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

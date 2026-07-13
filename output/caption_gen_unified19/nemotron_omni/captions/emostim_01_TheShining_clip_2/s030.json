@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "A lone figure in dark winter clothing slides down a steep, snow‑covered slope at night, illuminated by distant streetlights. The figure loses balance, falls onto the snow, then regains footing and stands upright. The scene is set beside a building with a staircase on the right, enveloped in fog.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet, with only faint ambient wind audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s030\", \"time_range\": [145.0, 150.0], \"visual\": \"A lone figure in dark winter clothing slides down a steep, snow‑covered slope at night, illuminated by distant streetlights. The figure loses balance, falls onto the snow, then regains footing and stands upright. The scene is set beside a building with a staircase on the right, enveloped in fog.\", \"audio\": \"The audio is quiet, with only faint ambient wind audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

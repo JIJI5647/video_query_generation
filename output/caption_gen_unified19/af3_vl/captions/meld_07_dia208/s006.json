@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "Four individuals are seated closely on a couch in a dimly lit, cozy indoor setting; a woman in a blue top sits to the left, a man in a beige turtleneck is in the center, and a woman in a red top is on the right, with another person partially visible behind them. The woman in blue holds a small object and gestures with her hands while looking at the man in beige, who is also gesturing and looking toward her; the woman in red watches them with her hands clasped. All are seated in relaxed postures, with their gazes directed toward each other, indicating active engagement in a shared activity or conversation.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, speaking neutrally and clearly, with no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Four individuals are seated closely on a couch in a dimly lit, cozy indoor setting; a woman in a blue top sits to the left, a man in a beige turtleneck is in the center, and a woman in a red top is on the right, with another person partially visible behind them. The woman in blue holds a small object and gestures with her hands while looking at the man in beige, who is also gesturing and looking toward her; the woman in red watches them with her hands clasped. All are seated in relaxed postures,",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

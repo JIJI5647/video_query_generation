@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "The man in the gray sweater is talking to the man in the black jacket. The man in the gray sweater is gesturing with his hands. The man in the black jacket is listening.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man is speaking in a calm and explanatory tone. The audio is clear and easy to understand.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"The man in the gray sweater is talking to the man in the black jacket. The man in the gray sweater is gesturing with his hands. The man in the black jacket is listening.\", \"audio\": \"A man is speaking in a calm and explanatory tone. The audio is clear and easy to understand.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

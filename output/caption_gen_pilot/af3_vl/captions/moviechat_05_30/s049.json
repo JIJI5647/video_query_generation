@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A group of people in dark robes are seen running down a staircase, then entering a dimly lit, arched tunnel. Their faces are mostly obscured by shadows, but some have visible hair colors like red and blonde. They move quickly, with some raising their hands or gesturing as they proceed. The tunnel is narrow and stone-walled, with faint light visible at the far end, and the group appears to be moving in a tight formation, occasionally turning or adjusting their positions as they advance.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people in dark robes are seen running down a staircase, then entering a dimly lit, arched tunnel. Their faces are mostly obscured by shadows, but some have visible hair colors like red and blonde. They move quickly, with some raising their hands or gesturing as they proceed. The tunnel is narrow and stone-walled, with faint light visible at the far end, and the group appears to be moving in a tight formation, occasionally turning or adjusting their positions as they advance.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

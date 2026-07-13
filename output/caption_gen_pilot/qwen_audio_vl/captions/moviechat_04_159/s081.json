@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins abruptly with a sharp, high-pitched electronic beep, immediately followed by a brief, low-frequency thump, likely from a microphone being handled or bumped. The setting is a small, acoustically treated room, such as a police interrogation or evidence room, with a faint electronic hiss and a subtle hum from nearby equipment. The first male speaker, positioned close to the microphone, delivers a clipped, authoritative statement in Mandarin: “有，潘天和的手下的手提电话有没有打过？” (“Yes, has Pan Tianhe’s subordinate’s mobile phone been used?”). His tone is brisk and businesslike, with a slight reverberation indicating the room’s hard surfaces.\n\nA second male speaker, slightly more distant and with a lower pitch, responds in a calm, measured manner: “没有，应该换了。” (“No, it should have been changed.”). His delivery is even and factual, suggesting a subordinate or witness providing information. The exchange is clear and direct, with no emotional inflection or background noise, reinforcing the formal, procedural nature of the interaction.\n\nAs the second speaker finishes, a second electronic beep sounds, signaling the end of the recording. The audio then cuts off abruptly, with no fade-out or residual noise, indicating a deliberate stop by the recording device.\n\nIn summary, the audio captures a concise, formal exchange between two Mandarin-speaking men in a professional, likely law enforcement setting. The dialogue centers on the status of a mobile phone linked to a person named Pan Tianhe, with the second speaker confirming the device has not been used and likely replaced. The technical characteristics—electronic beeps, room acoustics, and abrupt ending—suggest a controlled, official environment, such as an interrogation or evidence review, with the speakers maintaining a neutral, procedural tone throughout.",
+  "temporal_description": "A man in a dark suit is seated in a dimly lit room, facing a computer monitor displaying a blue-toned image. He is wearing earphones and appears to be focused on the screen, occasionally shifting his gaze and slightly turning his head. Another person is partially visible in the foreground, with only the top of their head and shoulders in frame. The background is dark with curtains, and the overall setting suggests a surveillance or monitoring environment. The man’s posture remains mostly upright and attentive throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit is seated in a dimly lit room, facing a computer monitor displaying a blue-toned image. He is wearing earphones and appears to be focused on the screen, occasionally shifting his gaze and slightly turning his head. Another person is partially visible in the foreground, with only the top of their head and shoulders in frame. The background is dark with curtains, and the overall setting suggests a surveillance or monitoring environment. The man’s posture remains mostly upright",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

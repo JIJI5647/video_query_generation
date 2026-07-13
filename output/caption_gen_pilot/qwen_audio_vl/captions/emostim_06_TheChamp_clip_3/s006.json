@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins with a sharp, high-pitched inhalation, immediately followed by a brief, wet, congested sniffle, indicating the child is physically distressed and possibly crying. The child then speaks in a strained, high-pitched voice, saying, “Oh, what a random job,” with a pronounced Southern British English accent. The phrase is delivered with a rising, questioning intonation, suggesting confusion or frustration. The child’s speech is slow and labored, marked by a noticeable stutter and a drawn-out “Oh,” further emphasizing emotional distress. After a short pause, the child utters a second, softer “Oh,” which is quieter and more breathy, reflecting a shift from active speech to a moment of quiet reflection or resignation. The recording ends abruptly, with no fade-out or additional sounds, leaving the child’s emotional state unresolved.\n\nThe recording is of low fidelity, with a constant background hiss and a faint hum, likely from a consumer-grade device such as a smartphone or laptop microphone. The child’s voice is close to the microphone, resulting in a dry, intimate sound with minimal room reverberation. The frequency range is limited, with muffled high frequencies and a lack of deep bass, and the audio is monophonic. The child’s speech is clear and intelligible, though the accent and emotional delivery are prominent. The setting is inferred to be a quiet, private indoor space, such as a bedroom or living room, with no other people or environmental sounds present.\n\nThe child’s words and emotional tone suggest a moment of personal frustration or confusion, possibly in response to an unexpected or difficult task. The use of “Oh, what a random job” and the stuttered delivery indicate a child grappling with a challenging situation, likely alone. The absence of other voices or background noise reinforces the impression of solitude and introspection. The recording captures a candid, unfiltered moment of childhood vulnerability, with the child’s accent and speech patterns situating the scene in Southern England.\n\nIn summary, the audio presents a solitary, emotionally charged moment of a young child in Southern England, expressing confusion and frustration through a stuttered, high-pitched utterance. The low-fidelity recording, intimate setting, and absence of other sounds highlight the child’s vulnerability and the authenticity of the experience, leaving the listener with a sense of unresolved emotional tension.",
+  "temporal_description": "A young boy with light-colored hair, wearing a gray shirt, is seated and holding a small object in his hands. He is looking down at the object, occasionally moving his fingers around it. An adult’s hand is visible near his shoulder, gently touching or steadying him. The background is dark, focusing attention on the boy and his actions. His posture is slightly hunched as he concentrates on the object in his hands.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored hair, wearing a gray shirt, is seated and holding a small object in his hands. He is looking down at the object, occasionally moving his fingers around it. An adult’s hand is visible near his shoulder, gently touching or steadying him. The background is dark, focusing attention on the boy and his actions. His posture is slightly hunched as he concentrates on the object in his hands.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

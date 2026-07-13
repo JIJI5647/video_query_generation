@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man with short dark hair, wearing glasses, a white shirt, and a dark tie stands against a green tiled wall. He looks downward with his eyes closed, his expression serious and his mouth slightly moving as if speaking. He remains stationary, facing forward, with minimal body movement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice delivers a speech in a steady, neutral tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"A man with short dark hair, wearing glasses, a white shirt, and a dark tie stands against a green tiled wall. He looks downward with his eyes closed, his expression serious and his mouth slightly moving as if speaking. He remains stationary, facing forward, with minimal body movement.\", \"audio\": \"A male voice delivers a speech in a steady, neutral tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

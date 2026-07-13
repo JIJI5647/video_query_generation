@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A person in a camouflage jacket is shown in a dimly lit environment, their face partially illuminated with visible blood around the mouth and nose. Their head is tilted downward, and their gaze is directed toward the ground. The background is dark and indistinct, with faint vertical lines suggesting a confined or narrow space.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and breathy gasp, followed by a brief silence.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a camouflage jacket is shown in a dimly lit environment, their face partially illuminated with visible blood around the mouth and nose. Their head is tilted downward, and their gaze is directed toward the ground. The background is dark and indistinct, with faint vertical lines suggesting a confined or narrow space.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a sad tone, speaking at a moderate pace. There are no significant non-speech sounds, and the overall atmosphere is somber.",
+  "temporal_description": "A solitary figure in dark clothing is seen walking down a long, dimly lit stone corridor with arched ceilings and pillars. As they proceed, the walls begin to crumble and collapse around them, sending debris and dust flying into the air. The person continues moving forward, seemingly unaffected by the destruction, eventually disappearing into the growing cloud of dust and rubble. The scene is framed by the arches and pillars, which remain intact while the surrounding walls disintegrate.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A solitary figure in dark clothing is seen walking down a long, dimly lit stone corridor with arched ceilings and pillars. As they proceed, the walls begin to crumble and collapse around them, sending debris and dust flying into the air. The person continues moving forward, seemingly unaffected by the destruction, eventually disappearing into the growing cloud of dust and rubble. The scene is framed by the arches and pillars, which remain intact while the surrounding walls disintegrate.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

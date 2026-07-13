@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man in a blue plaid shirt stands beside a hospital bed, holding a brown leather bag. A woman with dark hair lies in the bed, wearing a hospital gown and looking at the man. The man gestures with his hand as he speaks to her.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A woman speaks in an agitated tone, followed by a man's voice.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"A man in a blue plaid shirt stands beside a hospital bed, holding a brown leather bag. A woman with dark hair lies in the bed, wearing a hospital gown and looking at the man. The man gestures with his hand as he speaks to her.\", \"audio\": \"A woman speaks in an agitated tone, followed by a man's voice.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

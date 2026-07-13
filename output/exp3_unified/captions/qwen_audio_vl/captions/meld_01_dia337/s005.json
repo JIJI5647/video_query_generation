@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man in a blue plaid shirt stands facing another person whose back is to the camera, gesturing with his right hand. The second person, wearing a red plaid shirt, is partially visible and appears to be listening. The scene takes place indoors, with framed artwork and a wooden door visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a large, reverberant indoor space, likely a theater or auditorium, with a subtle, persistent hiss and a low-frequency hum suggesting the presence of a PA system or HVAC. The environment is filled with the soft, indistinct murmur of a sizable audience, indicating anticipation and engagement. A male voice, positioned close to the microphone and amplified through a public address system, delivers the word “Thread” with a clear, declarative tone and a rising inflection, as if posing a question or prompting a response. The audience reacts immediately with a wave of laughter, which is diffuse and reverberant, reflecting the size and acoustics of the venue. Following this, the same male speaker, maintaining a steady and confident delivery, says “Score” in a flat, declarative manner, signaling a punchline or conclusion. The audience’s laughter intensifies, becoming louder and more sustained, with a pronounced reverberant tail that fills the space. The laughter is layered, with individual chuckles and guffaws blending into a collective, communal response, and the room’s acoustics amplify the sense of shared amusement. The clip ends abruptly, with the laughter still in progress, leaving the audience’s reaction unresolved. Throughout",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a blue plaid shirt stands facing another person whose back is to the camera, gesturing with his right hand. The second person, wearing a red plaid shirt, is partially visible and appears to be listening. The scene takes place indoors, with framed artwork and a wooden door visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

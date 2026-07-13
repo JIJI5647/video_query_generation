@@ -1,0 +1,77 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sits at a desk and types on a laptop computer"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sits at a desk, wearing headphones, and looks at a computer monitor"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office or command center with maps on the wall and equipment on the desk"
+    },
+    "objects": [
+      "laptop computer",
+      "desk",
+      "headphones",
+      "microphone",
+      "tripod",
+      "computer monitor",
+      "maps"
+    ],
+    "interactions": [
+      "the man types on the laptop",
+      "the woman looks at the monitor"
+    ],
+    "key_actions": [
+      "typing",
+      "monitoring"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "typing"
+      ],
+      "gaze": "down at the laptop screen"
+    },
+    {
+      "person": "a woman in a white shirt",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "sitting upright",
+        "wearing headphones"
+      ],
+      "gaze": "at the computer monitor"
+    }
+  ],
+  "audio_description": "A male voice speaks in Mandarin Chinese.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s059\", \"time_range\": [290.0, 295.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"sits at a desk and types on a laptop computer\"}, {\"person\": \"a woman in a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sits at a desk, wearing headphones, and looks at a computer monitor\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dimly lit office or command center wi"
+}

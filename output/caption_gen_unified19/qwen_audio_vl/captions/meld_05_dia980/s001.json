@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "Two men are in a kitchen; one sits on a stool holding a piece of paper, while the other leans over the counter beside him, hands clasped, looking at the paper. The seated man looks down at the paper, while the standing man leans in closely, his gaze fixed on the paper. The scene includes a refrigerator, stove, microwave, and a foosball table in the foreground.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically controlled indoor environment, likely a home studio or office, with a faint, steady electronic hiss and a subtle low-frequency hum in the background. A male speaker, positioned close to the microphone, addresses the listener with a clear, mid-to-high pitched voice and a General American accent. He starts with a formal, slightly theatrical tone: “Dear Mary Angela.” After a brief pause, he shifts to a more casual and friendly register, saying, “Hi. How’s it going?” The delivery is warm and conversational, with natural inflection and a gentle, unhurried pace. He then transitions into a more serious and emotionally weighted tone, stating, “This is the hardest letter I’ve ever—” The phrase is abruptly cut off mid-word, leaving the sentence unfinished and the tension unresolved. Throughout, the recording remains free of any background noise, music, or other voices, and the speaker’s voice is captured with high fidelity, indicating professional-grade equipment and close microphone placement. The overall atmosphere is intimate and focused, with the speaker’s progression—from formality to warmth to gravity—suggesting a personal and significant message, likely intended for a private letter or audio recording. In summary, the audio presents",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are in a kitchen; one sits on a stool holding a piece of paper, while the other leans over the counter beside him, hands clasped, looking at the paper. The seated man looks down at the paper, while the standing man leans in closely, his gaze fixed on the paper. The scene includes a refrigerator, stove, microwave, and a foosball table in the foreground.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

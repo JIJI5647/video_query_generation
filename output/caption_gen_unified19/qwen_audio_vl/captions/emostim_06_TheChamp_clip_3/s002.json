@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A young child with light-colored hair, wearing a gray shirt, is held by an adult whose arms are wrapped around the child’s shoulders; the adult wears a white shirt over a dark garment. The child’s head is slightly tilted, and their hands are clasped together in front of their chest. The scene is dimly lit, with a partially visible red wheel or gear-like object in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically dry indoor setting, likely a small room with soft furnishings such as carpeting or curtains. The only audible elements are a young child’s vocalizations and a faint, steady electronic hiss from the recording device. The child, estimated to be between 18 months and 3 years old, emits a high-pitched, wavering cry that is raw and unfiltered. This initial cry is followed by a brief pause, then a sharp, gasping inhalation, and a second, more intense cry that is louder and more strained, with a strained, breathy timbre. The child’s voice is thin and unmodulated, lacking the resonance of older children or adults. After another short pause, the child produces a third, even more forceful cry, which is abruptly cut off mid-sound by a sudden, loud, low-frequency electronic buzz. This buzz, which resembles a square or sawtooth wave, is harsh, synthetic, and completely masks the child’s voice, persisting until the recording ends. Throughout, there are no other voices, background noises, or environmental sounds, and the recording is monophonic with no spatial cues. In summary, the",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair, wearing a gray shirt, is held by an adult whose arms are wrapped around the child’s shoulders; the adult wears a white shirt over a dark garment. The child’s head is slightly tilted, and their hands are clasped together in front of their chest. The scene is dimly lit, with a partially visible red wheel or gear-like object in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

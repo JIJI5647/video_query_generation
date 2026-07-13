@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A dark sedan drives slowly on a wet city street at night, its headlights illuminating the road. Tall buildings with lit windows line the background, and streetlights cast reflections on the damp pavement. No people are visible in or around the vehicle.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-fidelity burst of orchestral music, immediately immersing the listener in a dramatic, cinematic atmosphere. The ensemble features a full string section—violins, violas, cellos, and double basses—playing a rapid, ascending arpeggio that sweeps upward in pitch, creating a sense of urgency and anticipation. This is accompanied by a powerful, sustained brass chord, likely from French horns or trombones, which adds a heroic and epic quality. The music is richly layered, with a wide stereo image: strings are spread across the field, and the brass is centered, enveloped in lush, natural-sounding reverb that evokes a grand concert hall or cathedral. The overall dynamic is loud and forceful, with a tempo that is moderately fast and a minor key harmony that imparts a somber, mood. The orchestration is dense and cinematic, reminiscent of late-Romantic or early-20th-century film scores, and the recording is pristine, with no background noise or artifacts. At the peak of this musical crescendo, the orchestral passage is abruptly and completely cut off, with no fade or transition. Instantly, a harsh, synthetic electronic tone replaces the music. This tone",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A dark sedan drives slowly on a wet city street at night, its headlights illuminating the road. Tall buildings with lit windows line the background, and streetlights cast reflections on the damp pavement. No people are visible in or around the vehicle.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

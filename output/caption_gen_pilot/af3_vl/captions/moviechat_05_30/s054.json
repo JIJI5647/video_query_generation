@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by background music and occasional sound effects.",
+  "temporal_description": "Two individuals are seen walking through a dimly lit, stone-walled corridor. The person on the left holds a large, unfolded map and appears to be studying it, occasionally pointing at specific areas. The person on the right walks beside them, looking at the map and occasionally gesturing toward it. The corridor is illuminated by a single window casting a narrow beam of light, creating shadows on the walls and floor. The camera remains mostly stationary, focusing on their movement and interaction with the map.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two individuals are seen walking through a dimly lit, stone-walled corridor. The person on the left holds a large, unfolded map and appears to be studying it, occasionally pointing at specific areas. The person on the right walks beside them, looking at the map and occasionally gesturing toward it. The corridor is illuminated by a single window casting a narrow beam of light, creating shadows on the walls and floor. The camera remains mostly stationary, focusing on their movement and interaction",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

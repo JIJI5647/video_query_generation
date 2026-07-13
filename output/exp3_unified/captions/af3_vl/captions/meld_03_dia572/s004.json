@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a plaid shirt stands in a hospital room, gesturing with his arms while looking upward. Two patients lie in separate hospital beds, one covered with a pink blanket, while a medical professional leans over the other. The room contains medical equipment, curtains, and a clock on the wall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate speed.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a plaid shirt stands in a hospital room, gesturing with his arms while looking upward. Two patients lie in separate hospital beds, one covered with a pink blanket, while a medical professional leans over the other. The room contains medical equipment, curtains, and a clock on the wall.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

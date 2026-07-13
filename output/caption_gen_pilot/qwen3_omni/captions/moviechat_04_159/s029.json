@@ -1,0 +1,86 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "leaning forward and eating a white cube-shaped food item from his hand"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and holding a cup and a white paper bag, looking at the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with desks and computers in the background"
+    },
+    "objects": [
+      {
+        "object": "a cup",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held by the man on the right"
+      },
+      {
+        "object": "a white paper bag",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "held by the man on the right"
+      },
+      {
+        "object": "a white cube-shaped food item",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "eaten by the man on the left"
+      }
+    ],
+    "interactions": [
+      "The man on the right watches the man on the left eat."
+    ],
+    "key_actions": [
+      "The man on the left eats a white cube-shaped food item.",
+      "The man on the right holds a cup and a paper bag and observes the other man."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "mouth open",
+        "chewing"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "down at the food in his hand"
+    },
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "looking at the other man"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "at the other man"
+    }
+  ],
+  "audio_description": "A series of beeps, followed by a male voice speaking in Mandarin Chinese.",
+  "temporal_description": "The beeping sound occurs at the beginning, followed by the man speaking.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s029\", \"time_range\": [140.0, 145.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"leaning forward and eating a white cube-shaped food item from his hand\"}, {\"person\": \"a man in a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing and holding a cup and a white paper bag, looking at the other man\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office"
+}

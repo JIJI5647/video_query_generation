@@ -1,0 +1,60 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying down, holding his chest, coughing up blood, speaking to another person"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "dark and dimly lit, possibly a street or alley"
+    },
+    "objects": [
+      {
+        "object": "a white cloth or tissue",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man, stained with blood"
+      }
+    ],
+    "interactions": [
+      "The man in the black leather jacket is speaking to another person who is partially visible on the left."
+    ],
+    "key_actions": [
+      "The man coughs up blood onto his hand and a white cloth.",
+      "The man speaks to the other person."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black leather jacket",
+      "facial_cues": [
+        "coughing",
+        "blood on his hand and mouth",
+        "sweating",
+        "pained expression"
+      ],
+      "body_cues": [
+        "holding his chest"
+      ],
+      "gaze": "looking at the other person"
+    }
+  ],
+  "audio_description": "A man is coughing and speaking in a strained voice.",
+  "temporal_description": "The man coughs and speaks throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s043\", \"time_range\": [210.0, 215.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black leather jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"lying down, holding his chest, coughing up blood, speaking to another person\"}], \"scene\": {\"location\": \"outdoors at night\", \"setting\": \"dark and dimly lit, possibly a street or alley\"}, \"objects\": [{\"object\": \"a white cloth or tissue\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"ac"
+}

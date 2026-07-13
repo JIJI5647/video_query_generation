@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a light blue shirt and dark tie is seen adjusting his tie while standing near a window with blinds, with a camera on a tripod positioned in front of him. Another man, older with gray hair and wearing a light-colored suit, sits with his arms crossed, looking forward in a dimly lit room with shelves holding bowls in the background. The scene shifts to a nighttime highway with multiple cars driving, their headlights illuminating the road, and the camera follows a black car as it moves along the road.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt and dark tie is seen adjusting his tie while standing near a window with blinds, with a camera on a tripod positioned in front of him. Another man, older with gray hair and wearing a light-colored suit, sits with his arms crossed, looking forward in a dimly lit room with shelves holding bowls in the background. The scene shifts to a nighttime highway with multiple cars driving, their headlights illuminating the road, and the camera follows a black car as it moves alon",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

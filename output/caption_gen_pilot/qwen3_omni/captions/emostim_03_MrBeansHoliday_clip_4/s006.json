@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown suit, white shirt, and red tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "riding a bicycle"
+      }
+    ],
+    "scene": {
+      "location": "outdoor rural area",
+      "setting": "a dirt road with green vegetation and a blue sky with clouds in the background"
+    },
+    "objects": [
+      {
+        "object": "a white vehicle",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "being passed by the man on the bicycle"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "riding a bicycle",
+      "passing a vehicle"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown suit, white shirt, and red tie",
+      "facial_cues": [
+        "smiling",
+        "mouth open"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "arms extended"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "Upbeat rock music with a male vocalist singing.",
+  "temporal_description": "The man continues to ride the bicycle, passing the vehicle.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a brown suit, white shirt, and red tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"riding a bicycle\"}], \"scene\": {\"location\": \"outdoor rural area\", \"setting\": \"a dirt road with green vegetation and a blue sky with clouds in the background\"}, \"objects\": [{\"object\": \"a white vehicle\", \"visibility\": \"partially visible\", \"position\": \"left\", \"action\": \"being passed by t"
+}

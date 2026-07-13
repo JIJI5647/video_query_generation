@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_description": "A group of people, including a woman with long hair in a dark coat and two men, sprint across a dark wooden trestle bridge at night, with a bright fire and smoke visible on the left side. The scene shifts to an interior stone corridor where the same individuals continue running, with the woman reaching out while the men follow closely behind.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features rapid footsteps echoing on the wooden bridge and a low rumble of distant fire, followed by hurried breathing and muffled shouts as the characters move through the stone hallway.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s024\", \"time_range\": [115.0, 120.0], \"visual\": \"A group of people, including a woman with long hair in a dark coat and two men, sprint across a dark wooden trestle bridge at night, with a bright fire and smoke visible on the left side. The scene shifts to an interior stone corridor where the same individuals continue running, with the woman reaching out while the men follow closely behind.\", \"audio\": \"The audio features rapid footsteps echoing on the wooden bridge and a low rumbl"
+}

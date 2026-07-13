@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, forceful inhalation, captured in close proximity to the microphone, revealing the presence of a single adult male. This breath is deep and deliberate, suggesting the individual is preparing for a physically demanding task. Immediately following, a low, guttural grunt is heard, indicating the onset of exertion. The recording then transitions into a sequence of heavy, rhythmic breathing—each inhale and exhale is labored and resonant, with the inhale being slightly longer and more forceful than the exhale. These breaths are accompanied by subtle rustling sounds, likely from the movement of clothing or the shifting of the body against a soft surface, such as a bed or couch. The breathing pattern remains steady and controlled, with no signs of panic or distress, and the environment is acoustically dry, with no reverberation or background noise, suggesting a small, well-furnished room.\n\nAs the exertion continues, the breathing becomes more pronounced, with each breath producing a distinct, low-frequency rumble. The rustling intensifies, indicating increased movement, possibly as the individual adjusts their position or applies greater effort. The audio remains focused on the physical sounds of breathing and movement, with no speech, music, or other environmental cues present. Suddenly, the breathing and movement are cut off mid-effort by a hard, abrupt edit, leaving no natural fade or resolution.\n\nImmediately following this interruption, a loud, synthetic electronic tone begins. This tone is a pure, low-frequency square wave at approximately 110 Hz (A2), characterized by a harsh, buzzy timbre and a static, unwavering pitch. The tone is digitally generated, with no modulation or environmental context, and is presented at a much higher volume than the preceding sounds. It persists for the remainder of the clip, dominating the audio landscape and creating a stark contrast to the organic, human sounds that preceded it.\n\nIn summary, the audio presents a detailed, close-miked recording of a single adult male performing strenuous physical activity in a quiet, private indoor setting, with no speech or external sounds. The sequence is abruptly interrupted by a loud, synthetic electronic tone, which replaces the human sounds and remains until the end. The recording’s technical clarity and abrupt transition suggest a deliberate, possibly experimental or artistic intent, highlighting the contrast between organic human effort and artificial sound.",
+  "temporal_description": "A person in a camouflage outfit with visible blood on their face and mouth is shown in a dimly lit indoor setting, appearing to be in a state of distress or aggression. The scene transitions to near-total darkness, with only faint light revealing a person’s face partially obscured by a hand or object, their eye visible and glistening with sweat or moisture. The camera remains focused on the eye and ear, with slight movements suggesting the person is looking around or reacting to something unseen. The lighting is minimal, casting deep shadows and emphasizing the contours of the face and the texture of the skin.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a camouflage outfit with visible blood on their face and mouth is shown in a dimly lit indoor setting, appearing to be in a state of distress or aggression. The scene transitions to near-total darkness, with only faint light revealing a person’s face partially obscured by a hand or object, their eye visible and glistening with sweat or moisture. The camera remains focused on the eye and ear, with slight movements suggesting the person is looking around or reacting to something unseen",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

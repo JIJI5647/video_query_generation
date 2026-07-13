@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A woman with shoulder-length brown hair, wearing a white hospital gown, sits upright in a hospital bed, partially covered by a pink blanket. A man with dark hair is partially visible to her right, turned toward her. The woman’s gaze is directed toward the man, and her mouth is slightly open as if mid-sentence.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair, wearing a white hospital gown, sits upright in a hospital bed, partially covered by a pink blanket. A man with dark hair is partially visible to her right, turned toward her. The woman’s gaze is directed toward the man, and her mouth is slightly open as if mid-sentence.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

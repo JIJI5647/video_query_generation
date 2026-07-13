@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_description": "A blond-haired man in a dark coat peeks from behind a stone column, eyes wide and looking forward. He then turns and runs as two men in dark suits crouch and move stealthily through a dimly lit stone corridor. The camera follows a cloaked figure slipping past a wall in the shadows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s060\", \"time_range\": [295.0, 300.0], \"visual\": \"A blond-haired man in a dark coat peeks from behind a stone column, eyes wide and looking forward. He then turns and runs as two men in dark suits crouch and move stealthily through a dimly lit stone corridor. The camera follows a cloaked figure slipping past a wall in the shadows.\", \"audio\": \"Audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

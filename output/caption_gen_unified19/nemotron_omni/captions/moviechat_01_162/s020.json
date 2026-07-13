@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_description": "A man wearing a black shirt and an earring sits in the driver's seat of a car, sweating and moving his mouth as if speaking or singing. He smiles and looks to his right, where another person is partially visible in the background. The interior of the car is dimly lit and the background outside the window is blurred.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear and muffled, making it difficult to discern any specific sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s020\", \"time_range\": [95.0, 100.0], \"visual\": \"A man wearing a black shirt and an earring sits in the driver's seat of a car, sweating and moving his mouth as if speaking or singing. He smiles and looks to his right, where another person is partially visible in the background. The interior of the car is dimly lit and the background outside the window is blurred.\", \"audio\": \"The audio is unclear and muffled, making it difficult to discern any specific sounds.\", \"confidence\": \"high"
+}

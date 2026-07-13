@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark blue shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking on a phone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with cubicles and other people in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man is on a phone call"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark blue shirt",
+      "facial_cues": [
+        "hand near mouth"
+      ],
+      "body_cues": [
+        "holding phone to ear"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "a person is speaking in a foreign language, possibly narrating or reporting.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s013\", \"time_range\": [60.0, 65.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark blue shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and talking on a phone\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office with cubicles and other people in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"the man is on a phone call\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man in a dark blue sh"
+}

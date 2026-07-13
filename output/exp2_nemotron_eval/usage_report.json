@@ -1,0 +1,53 @@
+{
+  "total_wall_seconds": 2060.0,
+  "videos_attempted": 5,
+  "videos_processed": 5,
+  "total_tokens": 92532,
+  "total_llm_calls": 10,
+  "by_stage": {
+    "emotion_event": {
+      "calls": 5,
+      "prompt_tokens": 30205,
+      "candidates_tokens": 9360,
+      "total_tokens": 39565
+    },
+    "generation": {
+      "calls": 5,
+      "prompt_tokens": 43532,
+      "candidates_tokens": 9435,
+      "total_tokens": 52967
+    }
+  },
+  "per_video": [
+    {
+      "video_id": "emostim_01_TheShining_clip_2",
+      "status": "ok",
+      "seconds": 492.5,
+      "total_tokens": 25294
+    },
+    {
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "status": "ok",
+      "seconds": 331.8,
+      "total_tokens": 7826
+    },
+    {
+      "video_id": "meld_01_dia337",
+      "status": "ok",
+      "seconds": 112.1,
+      "total_tokens": 8018
+    },
+    {
+      "video_id": "meld_02_dia224",
+      "status": "ok",
+      "seconds": 117.0,
+      "total_tokens": 6347
+    },
+    {
+      "video_id": "moviechat_05_30",
+      "status": "ok",
+      "seconds": 1006.5,
+      "total_tokens": 45047
+    }
+  ]
+}

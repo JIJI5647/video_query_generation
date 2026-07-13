@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "An elderly woman with pale skin and dark hair, dressed in black, looks upward with a worried expression. The view shifts to a night sky filled with bright blue magical lightning surrounding a dark castle silhouette.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"An elderly woman with pale skin and dark hair, dressed in black, looks upward with a worried expression. The view shifts to a night sky filled with bright blue magical lightning surrounding a dark castle silhouette.\", \"audio\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

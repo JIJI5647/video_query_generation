@@ -1,0 +1,48 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in dark clothing",
+        "visibility": "not clearly visible",
+        "position": "foreground",
+        "action": "struggling or being restrained"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, dark environment"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "struggling"
+    ],
+    "visibility_notes": "The scene is very dark, making details difficult to discern."
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long dark hair",
+      "facial_cues": [
+        "mouth open",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "head tilted back"
+      ],
+      "gaze": "upwards"
+    }
+  ],
+  "audio_description": "A person is shouting, followed by a loud thud and a scream.",
+  "temporal_description": "The audio begins with shouting, then a thud occurs, followed by a scream.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual_objective\": {\"people\": [{\"person\": \"a person in dark clothing\", \"visibility\": \"not clearly visible\", \"position\": \"foreground\", \"action\": \"struggling or being restrained\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, dark environment\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"struggling\"], \"visibility_notes\": \"The scene is very dark, making details difficult to discern.\"}, \"visual_expression\": [{\"person\": \"a wo"
+}

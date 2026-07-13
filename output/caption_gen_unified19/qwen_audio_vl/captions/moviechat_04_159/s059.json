@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_description": "Two men in white shirts sit at a cluttered desk with laptops and headphones; one is seated, typing and looking at his screen, while the other stands beside him, gesturing with his hand. The room is dimly lit, with maps and equipment visible in the background, and both individuals are focused on their tasks. The standing man leans slightly forward, his gaze directed toward the seated man’s laptop screen.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a clear, authoritative male voice speaking Mandarin Chinese in a formal, professional tone. He states, “电话和无线电波全部进入监听状态” (“All telephone and radio waves have entered the monitoring state”), indicating the activation of a surveillance operation. The voice is recorded in a controlled, acoustically treated environment, likely a studio or sound booth, with no background noise or reverberation, and is delivered in a neutral, standard accent. Immediately following the speech, a sharp, metallic click is heard, resembling the sound of a mechanical switch or button being pressed, which is closely synchronized with the spoken command. This is followed by a brief, low-frequency thud, suggesting the placement of a heavy object—such as a briefcase or equipment case—onto a hard surface, accompanied by a faint rustling noise that implies the handling of paper or a thin plastic bag. The sequence concludes with a sustained, low-pitched electronic tone, reminiscent of a dial tone or system alert, which is abruptly cut off, indicating the end of the recording. Throughout the clip, the audio quality is high, with a wide frequency range and no distortion or artifacts. The speech is crisp and intelligible, and the mechanical and electronic sounds are distinct and well-defined",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in white shirts sit at a cluttered desk with laptops and headphones; one is seated, typing and looking at his screen, while the other stands beside him, gesturing with his hand. The room is dimly lit, with maps and equipment visible in the background, and both individuals are focused on their tasks. The standing man leans slightly forward, his gaze directed toward the seated man’s laptop screen.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

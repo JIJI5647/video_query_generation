@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    41.05
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with clear and steady prosody, and no noticeable background noise or emotional inflection.",
+  "temporal_description": "Three individuals are seated in a cozy, dimly lit room resembling a café or lounge. A man in a black sweater and blue jeans sits on a brown couch, gesturing with his right hand while facing the woman next to him. The woman beside him, wearing a red top, is turned toward him, her left hand resting on his leg. The third person, a woman in a striped sweater, sits in a chair to their right, holding a cup and looking toward the man. In the background, other patrons are seated at tables, some partially visible, contributing to the casual, social atmosphere. The man’s posture is relaxed but engaged, while the woman in the striped sweater leans slightly forward, indicating attentiveness. The couch has a decorative pillow with a coffee cup design, and a coffee mug and magazine rest on a wooden table in front of them.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals are seated in a cozy, dimly lit room resembling a café or lounge. A man in a black sweater and blue jeans sits on a brown couch, gesturing with his right hand while facing the woman next to him. The woman beside him, wearing a red top, is turned toward him, her left hand resting on his leg. The third person, a woman in a striped sweater, sits in a chair to their right, holding a cup and looking toward the man. In the background, other patrons are seated at tables, some partiall",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

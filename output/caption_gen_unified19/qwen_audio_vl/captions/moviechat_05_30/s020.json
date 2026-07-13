@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_description": "A man in a patterned sweater stands in a dim, stone-walled corridor, facing forward with a neutral expression. Behind him, a large crowd of people in dark, varied clothing fills the space, mostly standing still and looking toward the front. The scene is dimly lit, with shadows dominating the background and the crowd’s faces partially obscured.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically reflective indoor environment, likely a small to medium-sized room with hard surfaces such as tile or wood. The recording is of moderate fidelity, with a persistent low-level hiss and a faint, steady hum, possibly from an appliance or HVAC system. The first sound is a single, deep, and forceful human sigh, captured with clarity and a slight breathiness, indicating the microphone is positioned close to the subject. This sigh is followed by a brief, soft rustling noise, consistent with the movement of clothing or a hand brushing against fabric, suggesting the person is shifting or preparing to act. After a short pause, a sharp, high-pitched bark or yelp is emitted by a small dog. The bark is brief, loud, and slightly clipped at its peak, with a rapid attack and decay, and is accompanied by a short, bright reverberation that reflects the room’s hard surfaces. The bark is not aggressive or playful but rather a startled or attention-seeking vocalization, likely in response to the preceding human sigh or movement. Immediately after the bark, the recording ends abruptly, with no further sounds or environmental cues. In summary, the audio captures a brief, intimate moment in a domestic setting: a person",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a patterned sweater stands in a dim, stone-walled corridor, facing forward with a neutral expression. Behind him, a large crowd of people in dark, varied clothing fills the space, mostly standing still and looking toward the front. The scene is dimly lit, with shadows dominating the background and the crowd’s faces partially obscured.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

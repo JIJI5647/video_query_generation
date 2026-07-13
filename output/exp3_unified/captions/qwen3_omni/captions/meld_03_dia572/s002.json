@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A woman in a white hospital gown sits up in a hospital bed, looking down at her stomach with a pained expression. A man in a light-colored jacket sits beside her, looking at her with a concerned expression. The hospital room is equipped with medical monitors and an IV stand.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A woman is speaking, followed by a loud, sustained electronic tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A woman in a white hospital gown sits up in a hospital bed, looking down at her stomach with a pained expression. A man in a light-colored jacket sits beside her, looking at her with a concerned expression. The hospital room is equipped with medical monitors and an IV stand.\", \"audio\": \"A woman is speaking, followed by a loud, sustained electronic tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

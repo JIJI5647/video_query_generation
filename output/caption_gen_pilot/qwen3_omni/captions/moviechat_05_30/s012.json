@@ -1,0 +1,51 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a bald man in a dark robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing still, looking down"
+      }
+    ],
+    "scene": {
+      "location": "outdoors",
+      "setting": "a dark, smoky environment with a large, fiery explosion in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "standing still",
+      "looking down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a bald man in a dark robe",
+      "facial_cues": [
+        "pale skin",
+        "bald head",
+        "downward gaze"
+      ],
+      "body_cues": [
+        "standing still",
+        "head bowed"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "a loud, deep, and resonant sound, like a powerful explosion or a deep horn, is heard.",
+  "temporal_description": "The loud, deep sound begins at the start of the clip and fades out towards the end.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual_objective\": {\"people\": [{\"person\": \"a bald man in a dark robe\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing still, looking down\"}], \"scene\": {\"location\": \"outdoors\", \"setting\": \"a dark, smoky environment with a large, fiery explosion in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"standing still\", \"looking down\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a bal"
+}

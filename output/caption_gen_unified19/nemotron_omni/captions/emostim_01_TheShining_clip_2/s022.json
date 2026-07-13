@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A man in a red sweater swings an axe at a wooden door in a hallway with blue walls. The scene cuts to a bathroom where a woman in a blue robe holds a small child and looks toward a frosted window. She reaches toward the window while the child clings to her.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features the loud impact of the axe hitting the door. A brief hush follows, with faint sounds of movement in the bathroom.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual\": \"A man in a red sweater swings an axe at a wooden door in a hallway with blue walls. The scene cuts to a bathroom where a woman in a blue robe holds a small child and looks toward a frosted window. She reaches toward the window while the child clings to her.\", \"audio\": \"The audio features the loud impact of the axe hitting the door. A brief hush follows, with faint sounds of movement in the bathroom.\", \"confidence\": \"high\", \"evidence"
+}

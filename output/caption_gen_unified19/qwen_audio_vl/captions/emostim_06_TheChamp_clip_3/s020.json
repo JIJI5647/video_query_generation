@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_description": "Two individuals are in close proximity, one with short, light-colored hair and the other with darker, curly hair, both facing each other. The person with light hair appears to be leaning slightly toward the other, who is looking back with their head tilted. Their faces are partially illuminated, and their postures suggest a direct, intimate interaction.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, somber piano melody, its slow, minor-key notes creating a mournful atmosphere. The music is soft and reverberant, suggesting a large, empty room, and is accompanied by a faint, persistent hiss and low-frequency hum, indicating a low-fidelity recording. A male voice, mature and gentle, speaks with a Southern American accent, his tone marked by deep and empathy: “Please, TJ, listen to me.” His words are delivered slowly and with a slight tremor. As he speaks, a young male voice, TJ, responds with a sharp, high-pitched gasp, immediately followed by a series of rapid, wet, and strained sobs. These sobs are uncontrolled and intense, with audible inhalations and a raw, breathy quality. The piano continues to play softly beneath the exchange, its melancholic chords underscoring the gravity of the moment. The adult male continues, his voice breaking slightly as he says, “He’s gone.” The phrase is delivered with a sense of finality and sorrow, and the piano melody subtly shifts, reinforcing the impact. He then adds, “He’s",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two individuals are in close proximity, one with short, light-colored hair and the other with darker, curly hair, both facing each other. The person with light hair appears to be leaning slightly toward the other, who is looking back with their head tilted. Their faces are partially illuminated, and their postures suggest a direct, intimate interaction.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

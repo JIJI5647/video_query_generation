@@ -1,0 +1,58 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with brown hair in a messy bun, wearing a light blue spaghetti strap dress and a silver necklace",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting on a striped armchair and gesturing with her hands while speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a cluttered living room with furniture and various items in the background"
+    },
+    "objects": [
+      {
+        "object": "a striped armchair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being sat on by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman is talking and gesturing with her hands",
+      "the woman is sitting on the armchair"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with brown hair in a messy bun, wearing a light blue spaghetti strap dress and a silver necklace",
+      "facial_cues": [
+        "her mouth is moving as she speaks",
+        "her eyebrows are slightly raised",
+        "her eyes are focused forward"
+      ],
+      "body_cues": [
+        "her hands are moving as she gestures",
+        "her body is leaning slightly forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "a woman is speaking in a conversational tone.",
+  "temporal_description": "The woman continues to speak and gesture throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with brown hair in a messy bun, wearing a light blue spaghetti strap dress and a silver necklace\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting on a striped armchair and gesturing with her hands while speaking\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a cluttered living room with furniture and various items in the background\"}, \"objects\": [{\"object\":"
+}

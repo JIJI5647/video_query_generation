@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically dry indoor setting, likely a small room with soft furnishings such as carpeting or curtains. The only audible elements are a young child’s distressed vocalizations and a faint, steady electronic hiss from the recording device. The child, estimated to be between 18 months and 3 years old, emits a high-pitched, wavering cry that is raw and unfiltered, indicating genuine emotional pain or fear. This initial cry is followed by a brief pause, then a sharp, gasping inhalation, and a second, more intense cry that is louder and more strained, with a strained, breathy timbre. The child’s voice is thin and unmodulated, lacking the resonance of older children or adults. After another short pause, the child produces a third, even more forceful cry, which is abruptly cut off mid-sound by a sudden, loud, low-frequency electronic buzz. This buzz, which resembles a square or sawtooth wave, is harsh, synthetic, and completely masks the child’s voice, persisting until the recording ends. Throughout, there are no other voices, background noises, or environmental sounds, and the recording is monophonic with no spatial cues.\n\nIn summary, the audio captures a brief, emotionally charged moment of a young child crying in a quiet, private indoor space, with the distress abruptly interrupted by a loud electronic buzz. The recording is low-fidelity, monophonic, and contains no speech, music, or other contextual clues, suggesting a candid, unedited capture of a private moment, possibly for personal documentation or as a result of technical malfunction.",
+  "temporal_description": "A young child with blonde hair, wearing a gray shirt, is seated and held by an adult whose arms are wrapped around the child's shoulders. The adult is wearing a white shirt with dark sleeves and is partially visible behind the child. The child’s hands are resting on their own chest, and their head is slightly tilted downward. The background is dark, with a red wheel-like object visible to the left. The child’s gaze is directed forward, and their facial expression is neutral. The adult remains still, maintaining a steady hold on the child.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with blonde hair, wearing a gray shirt, is seated and held by an adult whose arms are wrapped around the child's shoulders. The adult is wearing a white shirt with dark sleeves and is partially visible behind the child. The child’s hands are resting on their own chest, and their head is slightly tilted downward. The background is dark, with a red wheel-like object visible to the left. The child’s gaze is directed forward, and their facial expression is neutral. The adult remains st",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

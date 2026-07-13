@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A man in a dark suit and tie stands in a dimly lit office, holding a phone to his ear, with a lanyard and ID badge visible. Behind him, several people in business attire are seated or standing around computer monitors and a bulletin board with photos, some walking or looking at screens. The man’s gaze is directed slightly off-camera, and his posture is upright, with his other hand partially visible near his chest.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable prosody or background sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie stands in a dimly lit office, holding a phone to his ear, with a lanyard and ID badge visible. Behind him, several people in business attire are seated or standing around computer monitors and a bulletin board with photos, some walking or looking at screens. The man’s gaze is directed slightly off-camera, and his posture is upright, with his other hand partially visible near his chest.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_description": "A man with short dark hair, wearing a black shirt, is seated in the driver’s seat of a car, his right hand wrapped in white bandages and gripping the steering wheel. Behind him, another man with short dark hair, also in a dark shirt, sits in the passenger seat, his right hand raised to his mouth. Both are facing forward, with the driver’s gaze directed ahead and the passenger’s gaze slightly angled toward the driver.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow pace, accompanied by a sigh and a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a black shirt, is seated in the driver’s seat of a car, his right hand wrapped in white bandages and gripping the steering wheel. Behind him, another man with short dark hair, also in a dark shirt, sits in the passenger seat, his right hand raised to his mouth. Both are facing forward, with the driver’s gaze directed ahead and the passenger’s gaze slightly angled toward the driver.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

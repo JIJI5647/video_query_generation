@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_description": "Two men in light-colored shirts stand in an office-like setting with equipment on a desk; one holds a cup and a bag, the other leans over the desk. The man on the left appears to be eating something while looking at the other man, who is holding a cup and looking down at the bag. The background is blurred with vertical lines, suggesting a window or partition.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a moderate pace, speaking in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in light-colored shirts stand in an office-like setting with equipment on a desk; one holds a cup and a bag, the other leans over the desk. The man on the left appears to be eating something while looking at the other man, who is holding a cup and looking down at the bag. The background is blurred with vertical lines, suggesting a window or partition.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

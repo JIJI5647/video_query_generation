@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_description": "In a dimly lit room, a man in a dark shirt is bent over a table near a large ornate screen displaying a deity-like figure, with a golden spherical object on the table in front of him. In another scene, four men in uniforms sit around a conference table with papers and mugs, while one stands with arms crossed near a glass partition, observing them. The standing man’s gaze is directed toward the seated group, and the seated men are focused on their papers or the standing man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable sigh at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit room, a man in a dark shirt is bent over a table near a large ornate screen displaying a deity-like figure, with a golden spherical object on the table in front of him. In another scene, four men in uniforms sit around a conference table with papers and mugs, while one stands with arms crossed near a glass partition, observing them. The standing man’s gaze is directed toward the seated group, and the seated men are focused on their papers or the standing man.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

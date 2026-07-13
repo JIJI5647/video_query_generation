@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "exiting a black car and closing the door"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a grassy area next to a road with city lights in the background and a pink container-like structure to the right"
+    },
+    "objects": [
+      {
+        "object": "a black car",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "parked with its door open"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man exits the car and closes the door."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "standing upright",
+        "closing the car door"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A car door closes, followed by a low, suspenseful musical score.",
+  "temporal_description": "The car door closes at the beginning of the clip, and the music plays throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s046\", \"time_range\": [225.0, 230.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"exiting a black car and closing the door\"}], \"scene\": {\"location\": \"outdoors at night\", \"setting\": \"a grassy area next to a road with city lights in the background and a pink container-like structure to the right\"}, \"objects\": [{\"object\": \"a black car\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"actio"
+}

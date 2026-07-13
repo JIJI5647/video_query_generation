@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a loud, high-pitched, metallic ringing that immediately fills the soundscape. This sound is reminiscent of a bicycle bell or a small, hand-held bell, characterized by a bright, resonant tone with a rapid attack and a long, shimmering decay. The ringing is continuous and unbroken, with no discernible rhythm or pattern, and is accompanied by a faint, persistent background hiss, likely from the recording equipment. The bell’s sound is centered in the stereo field, with no spatial movement, and the environment is acoustically dry, suggesting a small, enclosed space with little reverberation.\n\nShortly after the bell begins, a single male voice enters, speaking in a low, breathy, and slightly raspy tone. The speaker, who sounds like a young adult or middle-aged man with a General American accent, utters the phrase “Red Rock” in a slow, deliberate, and weary manner. The delivery is flat and emotionally neutral, with no inflection or emphasis, and the words are slightly muffled, as if spoken from a distance or with the mouth partially covered. The voice is also centered in the stereo field and is accompanied by the same background hiss, with no additional environmental sounds present.\n\nAs the bell continues to ring, the voice fades out, and the bell’s sound remains uninterrupted. The recording ends abruptly, with the bell’s decay cut off mid-resonance, indicating a hard edit or sudden stop in the recording process.\n\nIn summary, the audio clip features a continuous, high-pitched metallic bell and a single, weary utterance of “Red Rock” by a male speaker, both set in a dry, acoustically neutral environment. The recording is of low fidelity, with persistent hiss and abrupt editing, and contains no other speech, music, or environmental sounds. The overall mood is somber and introspective, with the bell’s persistent ringing and the speaker’s subdued delivery suggesting a moment of reflection or ritual.",
+  "temporal_description": "A young child with short, light brown hair, wearing a red and gray striped sweater, stands with their back to the camera, reaching for a doorknob on a light-colored wooden door. To the left, a person is lying in bed under a patterned blanket, partially visible, with their head resting on a pillow. A lamp with a beige shade sits on a small wooden nightstand beside the bed, casting a warm glow. The child’s posture is upright and focused on the door, and their right hand is extended toward the doorknob. The room appears to be a bedroom with soft lighting and a window with curtains in the background.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with short, light brown hair, wearing a red and gray striped sweater, stands with their back to the camera, reaching for a doorknob on a light-colored wooden door. To the left, a person is lying in bed under a patterned blanket, partially visible, with their head resting on a pillow. A lamp with a beige shade sits on a small wooden nightstand beside the bed, casting a warm glow. The child’s posture is upright and focused on the door, and their right hand is extended toward the door",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

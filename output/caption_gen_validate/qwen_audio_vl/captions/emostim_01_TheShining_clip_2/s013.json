@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a child’s voice, high-pitched and slightly nasal, clearly enunciating the word “Red.” The delivery is slow and deliberate, with a rising intonation that suggests the child is either reading aloud or responding to a prompt. The voice is centered in the stereo field, and the recording is marked by a low-level hiss and a faint hum, indicating a consumer-grade microphone in a quiet, untreated room. Immediately following the word “Red,” a dramatic orchestral sting erupts, featuring a full string section and brass. The music is rich, cinematic, and suspenseful, with a descending motif that evokes the style of classic film scores. The orchestral swell is so loud that it causes digital clipping, resulting in a harsh, distorted sound. This musical cue is reminiscent of a “wrong answer” or “failure” effect from game shows or children’s television, and it is abruptly cut off, leaving a brief moment of silence.\n\nAfter the orchestral sting, the child’s voice returns, now more energetic and playful, saying “Red, wrong.” The phrase is delivered with a sing-song cadence, and the word “wrong” is pronounced with a clear, childlike accent. The child’s tone is lighthearted and slightly triumphant, as if announcing a playful mistake or a humorous outcome. The voice remains centered and close-miked, with no background noise or environmental sounds present. The clip ends abruptly, with no fade-out or additional audio.\n\nIn summary, the audio presents a short, staged scene in which a child announces “Red,” is immediately met with a dramatic orchestral sting, and then cheerfully declares “Red, wrong.” The recording is characterized by low-fidelity artifacts, abrupt transitions, and a playful, performative tone. The orchestral sting and the child’s delivery evoke the conventions of children’s educational media or game shows, suggesting a context of playful learning or entertainment. The clip is a concise, humorous vignette that blends childlike speech with cinematic sound design, likely intended for a young audience or as a comedic effect.",
+  "temporal_description": "A young boy with short brown hair, wearing a plaid shirt, stands in a dimly lit bedroom. He holds a large knife in his right hand and is turning a doorknob with his left hand. The word \"MURDER\" is written in red on the door. In the background, a person is lying in bed, partially covered by a patterned blanket, with a lamp glowing beside the bed. The boy’s body is angled toward the door, and his gaze is directed at the doorknob as he turns it.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with short brown hair, wearing a plaid shirt, stands in a dimly lit bedroom. He holds a large knife in his right hand and is turning a doorknob with his left hand. The word \"MURDER\" is written in red on the door. In the background, a person is lying in bed, partially covered by a patterned blanket, with a lamp glowing beside the bed. The boy’s body is angled toward the door, and his gaze is directed at the doorknob as he turns it.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

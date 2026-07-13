@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "Two men sit at a table in a dimly lit, cluttered room; one wears a patterned shirt and holds a cigarette, the other wears a dark jacket and leans toward him. Both face each other, with the man in the patterned shirt gesturing slightly while speaking, and the other listens intently, his gaze fixed on the first. In the background, another person is partially visible, seated and smoking, with a chalkboard covered in writing behind them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, speaking in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men sit at a table in a dimly lit, cluttered room; one wears a patterned shirt and holds a cigarette, the other wears a dark jacket and leans toward him. Both face each other, with the man in the patterned shirt gesturing slightly while speaking, and the other listens intently, his gaze fixed on the first. In the background, another person is partially visible, seated and smoking, with a chalkboard covered in writing behind them.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

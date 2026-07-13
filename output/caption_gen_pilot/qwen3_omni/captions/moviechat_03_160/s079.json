@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking around"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a metal grid in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "mouth open",
+        "eyes wide"
+      ],
+      "body_cues": [
+        "head turning",
+        "body tense"
+      ],
+      "gaze": "looking around"
+    }
+  ],
+  "audio_description": "a person is breathing heavily and making sounds of exertion.",
+  "temporal_description": "The man's breathing and exertion sounds continue throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s079\", \"time_range\": [390.0, 395.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and looking around\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a metal grid in the background\"}}, \"visual_expression\": [{\"person\": \"a man in a black shirt\", \"facial_cues\": [\"mouth open\", \"eyes wide\"], \"body_cues\": [\"head turning\", \"body tense\"], \"gaze\": \"looking around\"}], "
+}

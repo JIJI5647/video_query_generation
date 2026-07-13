@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "Three people are seated on a brown couch in a warmly lit, decorated room; a woman in a blue top sits on the left, a man in a beige turtleneck is in the center, and a woman in a red top is on the right. The man gestures with his hands while speaking, and the woman in red turns her head slightly toward him. The woman in blue looks down, and the background shows festive decorations and other people moving around.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, speaking neutrally and without any noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three people are seated on a brown couch in a warmly lit, decorated room; a woman in a blue top sits on the left, a man in a beige turtleneck is in the center, and a woman in a red top is on the right. The man gestures with his hands while speaking, and the woman in red turns her head slightly toward him. The woman in blue looks down, and the background shows festive decorations and other people moving around.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

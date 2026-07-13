@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A man in a suit holds a phone to his ear, standing in a dimly lit office with other people in the background. Another man in a suit sits at a desk, also on the phone, with shelves and equipment visible behind him. The first man looks forward with a neutral expression, while the second man gazes downward with a focused posture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a soft, synthesized musical pad that establishes a somber and suspenseful atmosphere. This pad, characterized by a low, sustained drone and a higher, sustained chord, is enveloped in a spacious reverb, creating a cinematic and emotionally charged backdrop. The music is clean, with no extraneous noise, and is mixed to be present but not overpowering. Shortly after the music starts, a male voice, speaking in clear, standard Mandarin Chinese, calmly and neutrally says, “就这样” (“Just like this”). His tone is measured and deliberate, with no inflection, and the voice is recorded in a dry, close-mic style, free from environmental noise or reverberation. The speech is delivered with a sense of finality, as if marking the completion of a task or decision. Immediately following the spoken phrase, a sharp, metallic click is heard, resembling the sound of a mechanical switch or button being pressed. This click is crisp and dry, with a brief, high-frequency transient, and is closely followed by a soft, low-frequency thud, suggesting the placement of a small object onto a hard surface. These sounds are isolated and free from any ambient noise, indicating a controlled recording environment. After the mechanical sounds, a",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit holds a phone to his ear, standing in a dimly lit office with other people in the background. Another man in a suit sits at a desk, also on the phone, with shelves and equipment visible behind him. The first man looks forward with a neutral expression, while the second man gazes downward with a focused posture.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

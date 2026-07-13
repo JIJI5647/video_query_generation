@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a sad tone, speaking at a moderate pace. There are no significant non-speech sounds, and the overall atmosphere is somber.",
+  "temporal_description": "The scene is dimly lit, with a central figure in dark armor holding a shield, standing amidst a crowd of similarly armored individuals. The crowd is densely packed, with many figures standing in formation, some holding weapons, and a few in the background appear shirtless and muscular, engaged in physical labor or combat training. The central figure remains mostly stationary, while others in the crowd shift slightly, suggesting a tense or ceremonial atmosphere. The overall setting appears to be an enclosed, possibly underground or fortress-like space, with faint torchlight illuminating the scene.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene is dimly lit, with a central figure in dark armor holding a shield, standing amidst a crowd of similarly armored individuals. The crowd is densely packed, with many figures standing in formation, some holding weapons, and a few in the background appear shirtless and muscular, engaged in physical labor or combat training. The central figure remains mostly stationary, while others in the crowd shift slightly, suggesting a tense or ceremonial atmosphere. The overall setting appears to be ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

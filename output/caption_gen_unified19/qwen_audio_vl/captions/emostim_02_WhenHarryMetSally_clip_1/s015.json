@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A man and woman sit across from each other at a diner table, both with food and drinks before them; the woman has blonde hair and the man has dark hair and a beard. The man gestures with his hands while speaking, and the woman listens, her gaze directed toward him. Other patrons and staff are visible in the background, with a “SODA 80¢” sign illuminated above.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a latch or handle being operated, immediately followed by a brief, low-frequency thud as a heavy object—probably a door or gate—settles into place. This is accompanied by a faint rustling sound, suggesting the movement of fabric or a person shifting position. The environment is acoustically dry, with minimal reverberation, indicating a small, enclosed space with sound-absorbing surfaces. A low-level electronic hiss is present throughout, characteristic of a consumer-grade recording device. A male voice, close to the microphone and speaking in a calm, low-pitched, and slightly weary tone, says, “No. Get out of here.” The delivery is slow and deliberate, with a neutral, matter-of-fact inflection and a General American accent. The phrase is spoken in a manner that suggests routine or mild exasperation, as if addressing a familiar situation or individual. The speech is clear and intelligible, with no distortion or clipping. After the speech, the ambient hiss and a faint, high-frequency electronic whine become more noticeable, likely from a nearby appliance or device. The background remains quiet, with no other voices, music, or environmental sounds. The recording ends abruptly",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man and woman sit across from each other at a diner table, both with food and drinks before them; the woman has blonde hair and the man has dark hair and a beard. The man gestures with his hands while speaking, and the woman listens, her gaze directed toward him. Other patrons and staff are visible in the background, with a “SODA 80¢” sign illuminated above.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

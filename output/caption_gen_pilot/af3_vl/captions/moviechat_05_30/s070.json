@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by a consistent background hum.",
+  "temporal_description": "A small, dark room filled with cluttered shelves and various metallic objects is visible. A statue of a man in a coat stands prominently on the left side, while a small, dark figure resembling a bird or creature moves across a long, narrow metal rail in the foreground. The creature hops and flaps its wings as it travels along the rail, eventually disappearing into the background. In the distance, a person in a light-colored shirt walks slowly through the cluttered space, occasionally stopping to look at or interact with objects on the shelves. The room is dimly lit, with shadows cast across the floor and objects, creating a sense of depth and mystery. The camera remains stationary, offering a high-angle view of the scene.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A small, dark room filled with cluttered shelves and various metallic objects is visible. A statue of a man in a coat stands prominently on the left side, while a small, dark figure resembling a bird or creature moves across a long, narrow metal rail in the foreground. The creature hops and flaps its wings as it travels along the rail, eventually disappearing into the background. In the distance, a person in a light-colored shirt walks slowly through the cluttered space, occasionally stopping to",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

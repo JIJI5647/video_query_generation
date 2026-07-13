@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_description": "Students in dark robes descend a stone staircase, with a woman with long hair leading the group. Later, a pale-haired man stands in a dark corridor with a full moon behind him, and a man in a suit points a wand ahead.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No distinct audio cues are evident.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s049\", \"time_range\": [240.0, 245.0], \"visual\": \"Students in dark robes descend a stone staircase, with a woman with long hair leading the group. Later, a pale-haired man stands in a dark corridor with a full moon behind him, and a man in a suit points a wand ahead.\", \"audio\": \"No distinct audio cues are evident.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a high-fidelity, immersive soundscape evoking a vast, cavernous, and otherworldly environment. A deep, resonant, and sustained low-frequency drone forms the foundation, reminiscent of a large pipe organ or synthesized sub-bass, creating a sense of immense space and tension. Layered above this is a shimmering, high-pitched, metallic sound—possibly a synthesized pad or processed metallic texture—that glides upward in pitch, imparting a sense of anticipation and mystery. The entire soundscape is enveloped in lush, long-decay reverb, simulating a grand, empty hall or a cosmic void, and is free from any extraneous noise or artifacts.\n\nAt the four-second mark, a sharp, high-frequency metallic click or snap is heard, immediately followed by a brief, low-frequency thump. These sounds are dry and close, suggesting a physical action such as a latch, switch, or button being engaged, and they momentarily break the reverberant atmosphere, providing a tactile contrast to the ambient textures.\n\nInstantly after this, the entire soundscape is cut off with a hard, digital edit, leaving no trace of the previous environment. In its place, a loud, synthetic electronic tone emerges—a pure, unwavering square wave at approximately 110 Hz (A2), characterized by a harsh, buzzy timbre and a static, unmodulated pitch. This tone is dry, centered, and devoid of any reverb or spatial effects, and it persists until the end of the clip. The abrupt transition and the nature of the tone evoke a sense of alarm, error, or system failure, reminiscent of classic video game or computer system alerts.\n\nThroughout the clip, there is no speech, vocalization, or human presence; all sounds are either environmental or synthetic. The audio is meticulously produced, with a wide dynamic range and no perceptible noise or distortion. The sequence of events—mysterious ambient build-up, a decisive mechanical action, and a sudden, jarring electronic alert—suggests a narrative of anticipation, activation, and abrupt system response. The style and structure are strongly indicative of a sound effect or musical cue designed for a science fiction or fantasy context, such as a video game, film, or interactive media, where such transitions are used to signal dramatic or technological events.\n\nIn summary, the audio clip is a professionally crafted, high-fidelity sound design piece that transitions from an expansive, mysterious ambient environment to a sudden, harsh electronic alert, likely intended to accompany a pivotal moment in a science fiction or fantasy setting. The absence of speech and the deliberate use of synthetic and environmental sounds reinforce its role as a dramatic cue for activation, error, or system response.",
+  "temporal_description": "A person wearing transparent gloves is holding a pair of tweezers and extracting a dark, elongated object from the mouth of another individual who is lying down. The person receiving the procedure has visible skin texture and some discoloration on their face. The tweezers are used to carefully pull the object out, which is then held up for viewing. The person performing the procedure keeps their hands steady and focused on the task, while the other individual remains still with their mouth open.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing transparent gloves is holding a pair of tweezers and extracting a dark, elongated object from the mouth of another individual who is lying down. The person receiving the procedure has visible skin texture and some discoloration on their face. The tweezers are used to carefully pull the object out, which is then held up for viewing. The person performing the procedure keeps their hands steady and focused on the task, while the other individual remains still with their mouth open.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

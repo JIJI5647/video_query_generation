@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a commanding tone, with a clear and steady pace, and no noticeable background noise.",
+  "temporal_description": "In a modern office setting, four men in uniform are seated around a large table, with one man standing near a staircase in the background. The seated men are focused on papers and documents in front of them, occasionally looking up or shifting their gaze. A television screen on the left displays a video feed, and a hat rests on the table. A woman is visible in a separate glass-walled area, seated at a desk and working. The room has a professional, structured layout with glass partitions and a checkered floor.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a modern office setting, four men in uniform are seated around a large table, with one man standing near a staircase in the background. The seated men are focused on papers and documents in front of them, occasionally looking up or shifting their gaze. A television screen on the left displays a video feed, and a hat rests on the table. A woman is visible in a separate glass-walled area, seated at a desk and working. The room has a professional, structured layout with glass partitions and a ch",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

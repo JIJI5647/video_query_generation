@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "An older man with glasses and white hair leans down toward a young child with light-colored hair, who is clinging to his torso. The child’s arms are wrapped around the man’s chest, and the man’s hands are on the child’s back. The scene is dimly lit, with the focus on their upper bodies as they are close together.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A child's voice, high-pitched and urgent, pleads 'Please wake him up!' while a man's voice is faintly heard in the background, both set against a backdrop of soft music.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "An older man with glasses and white hair leans down toward a young child with light-colored hair, who is clinging to his torso. The child’s arms are wrapped around the man’s chest, and the man’s hands are on the child’s back. The scene is dimly lit, with the focus on their upper bodies as they are close together.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

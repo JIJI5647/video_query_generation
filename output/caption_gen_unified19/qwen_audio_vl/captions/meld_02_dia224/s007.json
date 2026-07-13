@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A woman with dark hair, wearing a white shirt and jeans, stands holding two black bags while looking toward a man seated in a patterned armchair. The man, wearing a blue shirt and light pants, sits with his head resting on his hand, holding an open book. The room has purple walls, floral curtains, and furniture including a wooden table, a TV cabinet, and a potted plant.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a brief, energetic burst of instrumental rock music, featuring a distorted electric guitar riff, a driving bassline, and a steady drumbeat. The music is mixed with a noticeable reverb effect, suggesting a large, reflective space, and is abruptly cut off mid-phrase, indicating a deliberate edit. Immediately following the music, a young adult female voice, speaking in a clear General American accent, says, “Here.” Her tone is neutral and matter-of-fact, and the word is delivered with a slight downward inflection. As she speaks, a sharp, high-pitched click is heard, likely the sound of a small object being placed on a hard surface such as a table or desk. This is followed by a soft, low-frequency thud, consistent with the object settling into place. A young adult male voice, also in a General American accent, responds with, “What’s this?” His tone is inquisitive and, with a rising inflection at the end. The exchange is brief and direct, with no additional speech or background noise present. The recording is of high fidelity, with clear separation between voices and sound effects, and a low noise floor. The acoustic environment is dry and intimate, with no ambient sounds",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark hair, wearing a white shirt and jeans, stands holding two black bags while looking toward a man seated in a patterned armchair. The man, wearing a blue shirt and light pants, sits with his head resting on his hand, holding an open book. The room has purple walls, floral curtains, and furniture including a wooden table, a TV cabinet, and a potted plant.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

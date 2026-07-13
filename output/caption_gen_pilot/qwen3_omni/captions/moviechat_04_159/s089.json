@@ -1,0 +1,83 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "the man in the driver's seat",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "driving and talking"
+      },
+      {
+        "person": "the man in the passenger seat",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "talking and gesturing"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "at night, with city lights visible through the windows"
+    },
+    "objects": [
+      {
+        "object": "steering wheel",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "being held by the driver"
+      },
+      {
+        "object": "rearview mirror",
+        "visibility": "clearly visible",
+        "position": "top center",
+        "action": "hanging from the windshield"
+      }
+    ],
+    "interactions": [
+      "the two men are conversing with each other"
+    ],
+    "key_actions": [
+      "the driver is talking and gesturing with his right hand",
+      "the passenger is talking and looking at the driver"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "the man in the driver's seat",
+      "facial_cues": [
+        "talking",
+        "gesturing with hand"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hand on steering wheel"
+      ],
+      "gaze": "towards the passenger"
+    },
+    {
+      "person": "the man in the passenger seat",
+      "facial_cues": [
+        "talking",
+        "wide eyes"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hand gesturing"
+      ],
+      "gaze": "towards the driver"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a conversational tone.",
+  "temporal_description": "The two men are engaged in a continuous conversation throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s089\", \"time_range\": [440.0, 445.0], \"visual_objective\": {\"people\": [{\"person\": \"the man in the driver's seat\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"driving and talking\"}, {\"person\": \"the man in the passenger seat\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"talking and gesturing\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"at night, with city lights visible through the windows\"}, \"objects\": [{\"object\": \"steering wheel\", "
+}

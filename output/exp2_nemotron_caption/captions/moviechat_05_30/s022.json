@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A woman in a dark coat runs forward along a dimly lit bridge, followed closely by two other figures. A man in a patterned sweater clutches a railing, looking back with a tense posture. Another man in a shirt and tie dashes past, his arm outstretched as he moves quickly.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio consists of hurried footsteps, distant shouts, and a low ambient rumble.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual\": \"A woman in a dark coat runs forward along a dimly lit bridge, followed closely by two other figures. A man in a patterned sweater clutches a railing, looking back with a tense posture. Another man in a shirt and tie dashes past, his arm outstretched as he moves quickly.\", \"audio\": \"The audio consists of hurried footsteps, distant shouts, and a low ambient rumble.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

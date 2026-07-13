@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A child with light brown hair, wearing a red and green striped sweater with a plaid shirt underneath, clings to the back of an adult dressed in a blue robe. The adult, whose face is not visible, stands near a window with frosted glass, wiping it with a cloth. The child looks upward, their face partially visible, with their mouth slightly open and eyes wide. The scene takes place in a tiled bathroom, with a toilet paper holder visible on the wall. The child’s posture is tense, gripping the adult’s robe tightly, while the adult remains focused on cleaning the window.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with light brown hair, wearing a red and green striped sweater with a plaid shirt underneath, clings to the back of an adult dressed in a blue robe. The adult, whose face is not visible, stands near a window with frosted glass, wiping it with a cloth. The child looks upward, their face partially visible, with their mouth slightly open and eyes wide. The scene takes place in a tiled bathroom, with a toilet paper holder visible on the wall. The child’s posture is tense, gripping the adult’",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

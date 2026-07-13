@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_description": "A woman with brown hair and a concerned expression looks down. The scene cuts to a close-up of a person's face, which appears to be covered in a pinkish substance. A gloved hand is seen manipulating the person's face, followed by the appearance of a medical instrument near the mouth.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks, followed by the sound of a zipper being opened.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s020\", \"time_range\": [95.0, 100.0], \"visual\": \"A woman with brown hair and a concerned expression looks down. The scene cuts to a close-up of a person's face, which appears to be covered in a pinkish substance. A gloved hand is seen manipulating the person's face, followed by the appearance of a medical instrument near the mouth.\", \"audio\": \"A male voice speaks, followed by the sound of a zipper being opened.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

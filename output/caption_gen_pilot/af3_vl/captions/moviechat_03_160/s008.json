@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone, with no significant prosody or emotional inflection. There are no non-speech sounds present.",
+  "temporal_description": "A man in a dark suit and tie, with a headset, is shown in close-up, his eyes closed, then slowly opening and turning his head. The scene transitions to a dimly lit control room where he stands among several other individuals seated at computer stations, all focused on their screens. One man in the foreground is seen adjusting his glasses while looking intently at his monitor. The room is filled with multiple monitors displaying various images, and a whiteboard with photos is visible in the background. The man in the suit maintains a steady, upright posture, occasionally glancing around the room.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie, with a headset, is shown in close-up, his eyes closed, then slowly opening and turning his head. The scene transitions to a dimly lit control room where he stands among several other individuals seated at computer stations, all focused on their screens. One man in the foreground is seen adjusting his glasses while looking intently at his monitor. The room is filled with multiple monitors displaying various images, and a whiteboard with photos is visible in the backg",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

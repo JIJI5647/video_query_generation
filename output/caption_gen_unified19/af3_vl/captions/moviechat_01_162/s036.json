@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_description": "Two individuals are seated inside a vehicle, one in the driver’s seat and the other in the passenger seat, both facing each other. The person in the passenger seat leans forward slightly, their gaze directed toward the driver, while the driver’s face is partially visible in profile. The interior of the car is dimly lit, with visible elements such as the window frame and seatbelt.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate pace, accompanied by heavy breathing and a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two individuals are seated inside a vehicle, one in the driver’s seat and the other in the passenger seat, both facing each other. The person in the passenger seat leans forward slightly, their gaze directed toward the driver, while the driver’s face is partially visible in profile. The interior of the car is dimly lit, with visible elements such as the window frame and seatbelt.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

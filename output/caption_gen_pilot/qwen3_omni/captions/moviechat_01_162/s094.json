@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s094",
+  "time_range": [
+    465.0,
+    470.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking up"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "office with horizontal blinds on the window behind him"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man slowly tilts his head back and looks upward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and dark tie",
+      "facial_cues": [
+        "sweat on his forehead",
+        "tense jaw"
+      ],
+      "body_cues": [
+        "head tilted back",
+        "shoulders slightly raised"
+      ],
+      "gaze": "upward"
+    }
+  ],
+  "audio_description": "A loud, sustained, high-pitched electronic tone, similar to a siren or alarm, is heard.",
+  "temporal_description": "The man slowly tilts his head back while the loud, continuous electronic tone plays.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s094\", \"time_range\": [465.0, 470.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light blue shirt and dark tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting and looking up\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"office with horizontal blinds on the window behind him\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"the man slowly tilts his head back and looks upward\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{"
+}

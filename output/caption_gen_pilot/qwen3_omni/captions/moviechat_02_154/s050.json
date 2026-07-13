@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "talking on a phone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit office with multiple desks and people working at night."
+    },
+    "objects": [
+      {
+        "object": "a phone",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held to the man's ear"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man is on a phone call",
+      "people are working at desks in the background"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "smiling",
+        "looking to the side"
+      ],
+      "body_cues": [
+        "holding a phone to his ear"
+      ],
+      "gaze": "to the side"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful musical score plays in the background.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s050\", \"time_range\": [245.0, 250.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"talking on a phone\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dimly lit office with multiple desks and people working at night.\"}, \"objects\": [{\"object\": \"a phone\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"held to the man's ear\"}], \"interactions\": [], \"key_actions\": "
+}

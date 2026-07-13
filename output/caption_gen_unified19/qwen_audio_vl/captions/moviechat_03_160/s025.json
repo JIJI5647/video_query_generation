@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_description": "Two men sit at a table in a dimly lit, crowded room; one wears a patterned blue shirt and holds chopsticks, the other wears a dark jacket and leans toward him. The man in the blue shirt gestures with his chopsticks while looking at the other man, who gazes back with his head slightly tilted. Behind them, other patrons are visible, some standing and others seated, with a chalkboard menu partially seen in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, wet mouth sound—likely a tongue click or lip smack—immediately followed by a brief, low-frequency thump, possibly from a hand or object contacting a table. These sounds are captured with high clarity, indicating close microphone placement in a quiet, acoustically treated room. A faint, continuous electronic hiss is present throughout, characteristic of a consumer-grade recording device. A male speaker, positioned close to the microphone, begins to speak in Mandarin Chinese with a distinct Taiwanese accent. His voice is clear, resonant, and delivered in a conversational, informal tone. He says, “啊，我會聽泰文的。我還知道他說什麼呢，是不是？” (“Ah, I can understand Thai. I even know what he’s saying, right?”). His speech is marked by a rising intonation on the final question, conveying a sense of friendly inquiry and seeking affirmation from an unseen listener. The delivery is relaxed and confident, with a slight upward inflection at the end, suggesting a casual, peer-to-peer interaction. Throughout the speech, subtle non-verbal sounds are audible: a soft, wet mouth click at the start, a brief inhalation before “我還知道” (“I also know”)",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men sit at a table in a dimly lit, crowded room; one wears a patterned blue shirt and holds chopsticks, the other wears a dark jacket and leans toward him. The man in the blue shirt gestures with his chopsticks while looking at the other man, who gazes back with his head slightly tilted. Behind them, other patrons are visible, some standing and others seated, with a chalkboard menu partially seen in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

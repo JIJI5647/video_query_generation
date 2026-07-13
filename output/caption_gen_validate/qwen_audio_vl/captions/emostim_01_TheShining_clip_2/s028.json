@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched metallic squeal, immediately establishing a tense and urgent atmosphere. This sound, reminiscent of a train’s steel wheels grinding against rails, is accompanied by a deep, resonant rumble and a rhythmic, percussive clatter, evoking the sensation of a train moving at speed. The metallic squeal fluctuates in pitch and intensity, suggesting the train is negotiating a curve or braking, while the underlying rumble and clatter maintain a steady, mechanical pulse. The soundscape is enveloped in a dense, reverberant echo, indicating the train is traveling through a large, enclosed space such as a tunnel or underground station. The recording is of moderate fidelity, with a persistent background hiss and a slightly muffled quality, likely due to analog tape or low-grade digital equipment. The stereo field is narrow, with all sounds centered and no sense of spatial movement.\n\nAbruptly, the train sounds are cut off mid-action, with no natural fade or decay, replaced instantly by a loud, synthetic electronic tone. This tone is a pure, low-frequency sawtooth wave at approximately 110 Hz (A2), characterized by a harsh, buzzy timbre and a static, unwavering pitch. The tone is dry and devoid of any reverberation or environmental context, suggesting it was generated electronically and inserted directly into the audio. It remains constant in volume and pitch, with no modulation or dynamic change, and is abruptly terminated at the end of the clip, leaving no residual sound.\n\nThroughout the recording, there is no speech, vocalization, or human presence; the only audible elements are the train sounds and the electronic tone. The train sounds are generic and lack any identifying features, while the electronic tone is universally recognizable as a censor beep, commonly used in media to mask sensitive or inappropriate content. The abrupt transition and the nature of the tone strongly imply that the clip is a segment from a larger broadcast or edited media file, with the beep serving as a deliberate editorial intervention.\n\nIn summary, the audio presents a brief, high-tension scene of a train in motion within a reverberant, enclosed space, which is suddenly interrupted by a synthetic censor beep. The absence of speech or environmental cues, combined with the abrupt editing and the use of a standard censorship tone, indicates the clip is a fragment from a broadcast or media production, designed to mask content for broadcast standards or privacy. The recording’s technical characteristics and editing style further reinforce its role as a segment from a larger, professionally edited audio or video work.",
+  "temporal_description": "A person with short blonde hair, wearing a light-colored robe, is seen from behind, standing in a bathroom. They are holding a green sponge and appear to be cleaning the edge of a sink or countertop. The bathroom has tiled walls with a floral-patterned wallpaper section and a window with a chain lock. The scene shifts to a nighttime exterior shot of a snow-covered alleyway, illuminated by distant streetlights, with buildings lining both sides and a large snowbank dominating the center.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with short blonde hair, wearing a light-colored robe, is seen from behind, standing in a bathroom. They are holding a green sponge and appear to be cleaning the edge of a sink or countertop. The bathroom has tiled walls with a floral-patterned wallpaper section and a window with a chain lock. The scene shifts to a nighttime exterior shot of a snow-covered alleyway, illuminated by distant streetlights, with buildings lining both sides and a large snowbank dominating the center.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

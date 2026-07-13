@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "facing and talking to another man"
+      },
+      {
+        "person": "a man in a patterned shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "facing and talking to the man in the suit"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish hue, possibly a room with a wooden wall or partition in the background"
+    },
+    "objects": [],
+    "interactions": [
+      "The two men are engaged in a conversation."
+    ],
+    "key_actions": [
+      "The man in the suit is speaking and looking at the other man."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "mouth moving",
+        "eyebrows slightly raised"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "looking at the man in the patterned shirt"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a calm tone.",
+  "temporal_description": "The man in the suit continues to speak throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a suit\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"facing and talking to another man\"}, {\"person\": \"a man in a patterned shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"facing and talking to the man in the suit\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a greenish hue, possibly a room with a wooden wall or partition in th"
+}

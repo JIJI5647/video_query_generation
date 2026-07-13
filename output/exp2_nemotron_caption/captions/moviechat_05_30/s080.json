@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_description": "A close‑up shows an ornate silver headpiece with a large blue gem resting on black velvet. The shot then cuts to a young man with round glasses and disheveled hair, wearing a brown jacket over a grey shirt, looking downward in a dimly lit setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent, with only a faint ambient sound present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s080\", \"time_range\": [395.0, 400.0], \"visual\": \"A close‑up shows an ornate silver headpiece with a large blue gem resting on black velvet. The shot then cuts to a young man with round glasses and disheveled hair, wearing a brown jacket over a grey shirt, looking downward in a dimly lit setting.\", \"audio\": \"The audio is silent, with only a faint ambient sound present.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

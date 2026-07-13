@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_description": "A man in a light-colored shirt adjusts his headphones while seated, with another person in similar attire blurred in the background. In a dimly lit, tiled corridor, two men stand near a doorway—one in a patterned shirt turns slightly, while the other in dark clothing stands still, both partially obscured by shadows and the doorframe. The man in the foreground has his gaze directed downward, while the second man’s face is partially visible and turned slightly away.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt adjusts his headphones while seated, with another person in similar attire blurred in the background. In a dimly lit, tiled corridor, two men stand near a doorway—one in a patterned shirt turns slightly, while the other in dark clothing stands still, both partially obscured by shadows and the doorframe. The man in the foreground has his gaze directed downward, while the second man’s face is partially visible and turned slightly away.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a grey sweater sits at a table holding a piece of paper, while a man in a black jacket stands opposite him in a kitchen setting. The standing man gestures with his hand and then crosses his arms, appearing to speak to the seated man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "the audio contains spoken dialogue between the two men, with a moderate volume and conversational tone. the speech is clear and intelligible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"A man in a grey sweater sits at a table holding a piece of paper, while a man in a black jacket stands opposite him in a kitchen setting. The standing man gestures with his hand and then crosses his arms, appearing to speak to the seated man.\", \"audio\": \"the audio contains spoken dialogue between the two men, with a moderate volume and conversational tone. the speech is clear and intelligible.\", \"confidence\": \"high\", \"evidence_strengt"
+}

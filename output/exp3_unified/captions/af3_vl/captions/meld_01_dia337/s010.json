@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "Two men stand facing each other in a room with wallpaper and wall sconces; one wears a pink plaid shirt and gestures with his hands while looking at the other, who wears a blue plaid shirt and has his arms crossed, turning slightly away. The man in pink appears to be speaking, while the man in blue listens with his back partially turned. A framed picture hangs on the wall behind them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio sounds like a man speaking in a neutral tone with a clear voice and moderate pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand facing each other in a room with wallpaper and wall sconces; one wears a pink plaid shirt and gestures with his hands while looking at the other, who wears a blue plaid shirt and has his arms crossed, turning slightly away. The man in pink appears to be speaking, while the man in blue listens with his back partially turned. A framed picture hangs on the wall behind them.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

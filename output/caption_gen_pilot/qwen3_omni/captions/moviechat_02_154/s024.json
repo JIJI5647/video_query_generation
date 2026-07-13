@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark, spiky hair and a silver earring",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking down, then slowly lifting his head to look to his right"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, a window with horizontal blinds in the background, and a lamp in the foreground on the left"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark, spiky hair and a silver earring",
+      "facial_cues": [
+        "looking down",
+        "lifting his head",
+        "looking to his right"
+      ],
+      "body_cues": [
+        "sitting"
+      ],
+      "gaze": "to his right"
+    }
+  ],
+  "audio_description": "A low, continuous hum or drone is audible in the background.",
+  "temporal_description": "The man slowly lifts his head and turns his gaze to the right throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s024\", \"time_range\": [115.0, 120.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with dark, spiky hair and a silver earring\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting and looking down, then slowly lifting his head to look to his right\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a greenish tint, a window with horizontal blinds in the background, and a lamp in the foreground on the left\"}}, \"visual_expression\": [{\""
+}

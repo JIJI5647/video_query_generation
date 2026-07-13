@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by the sound of a phone ringing.",
+  "temporal_description": "Two men in white shirts are seen in an office environment, one holding a phone to his ear while the other gestures with his hand. The man on the phone turns his head slightly, maintaining his posture as he speaks, while the other man moves out of frame. The background features glass partitions and framed pictures on the wall, with the camera gradually shifting focus to the man on the phone as he walks away. The scene ends with the man on the phone standing still, his back partially turned to the camera.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in white shirts are seen in an office environment, one holding a phone to his ear while the other gestures with his hand. The man on the phone turns his head slightly, maintaining his posture as he speaks, while the other man moves out of frame. The background features glass partitions and framed pictures on the wall, with the camera gradually shifting focus to the man on the phone as he walks away. The scene ends with the man on the phone standing still, his back partially turned to the",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

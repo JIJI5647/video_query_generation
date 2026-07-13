@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A person in a dark shirt is partially visible behind a metal grille, their face turned slightly away. The scene shifts to a dimly lit interior with wooden shelves holding bowls and other items, and a shadowy figure standing in the doorway. The person’s posture is upright, and their gaze is directed toward something off-screen.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a consistent background hum.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark shirt is partially visible behind a metal grille, their face turned slightly away. The scene shifts to a dimly lit interior with wooden shelves holding bowls and other items, and a shadowy figure standing in the doorway. The person’s posture is upright, and their gaze is directed toward something off-screen.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

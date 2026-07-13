@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A woman with shoulder-length blonde hair lies in a hospital bed, propped up on pillows, wearing a white hospital gown, while a man with dark hair in a beige jacket leans over her, his hand resting on her abdomen. The man is looking down at the woman, who gazes up at him with her head tilted slightly. The hospital room features medical equipment, pink walls, and a window with blinds in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace and pitch, accompanied by a brief pause and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length blonde hair lies in a hospital bed, propped up on pillows, wearing a white hospital gown, while a man with dark hair in a beige jacket leans over her, his hand resting on her abdomen. The man is looking down at the woman, who gazes up at him with her head tilted slightly. The hospital room features medical equipment, pink walls, and a window with blinds in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

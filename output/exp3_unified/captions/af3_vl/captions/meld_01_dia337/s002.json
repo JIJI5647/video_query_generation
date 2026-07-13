@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A man in a pink plaid shirt sits on a couch, facing another man in a blue plaid shirt who stands near a doorway marked \"232.\" The standing man looks down briefly, then turns slightly toward the seated man, who gestures with his hand while speaking. A framed picture and wall-mounted lamps are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a pink plaid shirt sits on a couch, facing another man in a blue plaid shirt who stands near a doorway marked \"232.\" The standing man looks down briefly, then turns slightly toward the seated man, who gestures with his hand while speaking. A framed picture and wall-mounted lamps are visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

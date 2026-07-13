@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A young boy with light-colored hair, wearing a gray shirt, is seen in close-up, leaning forward and looking down at his hands, which are covered in a reddish substance. His gaze is fixed on his hands, and his head is slightly tilted downward. The background is dark, and the lighting highlights his face and hands.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, and forceful shout from a young child, who exclaims, “Wake up!” The voice is strained and urgent, delivered with a rising intonation that. The child’s speech is clear and intelligible, though slightly distorted due to digital clipping, and is accompanied by a faint, persistent background hiss typical of consumer-grade recording equipment. Immediately following the shout, the child emits a brief, high-pitched squeal or gasp. This is succeeded by a soft, breathy exhalation. A short pause ensues, during which the only audible sounds are the child’s quiet, rhythmic breathing and subtle rustling noises, likely caused by the child shifting position on a soft surface such as a bed or blanket. The breathing is steady and calm, and the rustling is gentle, implying the child is alone and not interacting with another person. The environment is acoustically dry, with no reverberation or echo, indicating a small, well-furnished room with sound-absorbing materials. Suddenly, a loud, synthetic electronic tone interrupts the quiet.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored hair, wearing a gray shirt, is seen in close-up, leaning forward and looking down at his hands, which are covered in a reddish substance. His gaze is fixed on his hands, and his head is slightly tilted downward. The background is dark, and the lighting highlights his face and hands.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

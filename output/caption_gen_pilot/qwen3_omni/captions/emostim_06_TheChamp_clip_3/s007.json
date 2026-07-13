@@ -1,0 +1,50 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held by an adult, looking down with a sad expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, dark background"
+    },
+    "objects": [],
+    "interactions": [
+      "an adult's hands are holding the boy's hands"
+    ],
+    "key_actions": [
+      "the boy is being held and appears to be crying"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "tears in eyes",
+        "sad expression"
+      ],
+      "body_cues": [
+        "head is slightly bowed"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "a child is crying and whimpering",
+  "temporal_description": "the crying is continuous throughout the clip",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual_objective\": {\"people\": [{\"person\": \"a young boy with blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being held by an adult, looking down with a sad expression\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, dark background\"}, \"objects\": [], \"interactions\": [\"an adult's hands are holding the boy's hands\"], \"key_actions\": [\"the boy is being held and appears to be crying\"], \"visibility_n"
+}

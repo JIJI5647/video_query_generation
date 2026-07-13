@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_description": "In a dim stone hall with tall arches, a woman with long red hair in a dark dress looks around anxiously while people in dark formal attire move hurriedly around her. The camera follows her as she turns, revealing a crowd of formally dressed individuals in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A female voice shouts a concerned question, and the ambient noise of hurried movement fills the space.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s044\", \"time_range\": [215.0, 220.0], \"visual\": \"In a dim stone hall with tall arches, a woman with long red hair in a dark dress looks around anxiously while people in dark formal attire move hurriedly around her. The camera follows her as she turns, revealing a crowd of formally dressed individuals in the background.\", \"audio\": \"A female voice shouts a concerned question, and the ambient noise of hurried movement fills the space.\", \"confidence\": \"high\", \"evidence_strength\": \"cle"
+}

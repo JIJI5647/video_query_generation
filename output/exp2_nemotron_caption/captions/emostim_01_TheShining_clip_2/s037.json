@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_description": "A person wearing a blue jacket lies in deep snow near a frosted window, covering their face with one hand while reaching out with the other. The scene cuts to an indoor setting where a man with dark hair, wearing a maroon jacket over a plaid shirt, stands near a beige wall with a framed picture, turning his head and looking down. The man remains in view as he continues to look downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s037\", \"time_range\": [180.0, 185.0], \"visual\": \"A person wearing a blue jacket lies in deep snow near a frosted window, covering their face with one hand while reaching out with the other. The scene cuts to an indoor setting where a man with dark hair, wearing a maroon jacket over a plaid shirt, stands near a beige wall with a framed picture, turning his head and looking down. The man remains in view as he continues to look downward.\", \"audio\": \"The audio is not clearly audible.\""
+}

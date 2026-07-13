@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "Police officers and civilians stand behind a blue-and-white tape cordoning off a street scene with parked police vehicles, including a white van and an orange car. Two men in suits are seen in close-up, one looking down while the other gazes forward, both appearing to be in a serious conversation or observation. The setting is an urban street with buildings, overhead structures, and a hazy sky, suggesting a daytime or early evening environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable sigh at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Police officers and civilians stand behind a blue-and-white tape cordoning off a street scene with parked police vehicles, including a white van and an orange car. Two men in suits are seen in close-up, one looking down while the other gazes forward, both appearing to be in a serious conversation or observation. The setting is an urban street with buildings, overhead structures, and a hazy sky, suggesting a daytime or early evening environment.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

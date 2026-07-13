@@ -1,0 +1,86 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s082",
+  "time_range": [
+    405.0,
+    410.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark green jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "reacting with shock, then running away from the camera, and finally falling to the ground."
+      },
+      {
+        "person": "a man in a beige jacket with a floral shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "shouting and gesturing aggressively."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with red walls and a red altar with lit candles and flowers."
+    },
+    "objects": [
+      {
+        "object": "an altar",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "has lit candles and white flowers on it."
+      },
+      {
+        "object": "a gun",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man in the beige jacket."
+      }
+    ],
+    "interactions": [
+      {
+        "interaction": "The man in the beige jacket shouts at the man in the green jacket, who then runs away and falls."
+      }
+    ],
+    "key_actions": [
+      "shouting",
+      "running",
+      "falling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark green jacket",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "running",
+        "falling"
+      ],
+      "gaze": "looking at the other man, then forward."
+    },
+    {
+      "person": "a man in a beige jacket with a floral shirt",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "shouting",
+        "gesturing"
+      ],
+      "gaze": "looking at the other man."
+    }
+  ],
+  "audio_description": "A loud, high-pitched scream is heard, followed by a crashing sound.",
+  "temporal_description": "The clip begins with a scream, followed by a man shouting and gesturing, and then the other man running and falling.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s082\", \"time_range\": [405.0, 410.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark green jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"reacting with shock, then running away from the camera, and finally falling to the ground.\"}, {\"person\": \"a man in a beige jacket with a floral shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"shouting and gesturing aggressively.\"}], \"scene\": {\"location\": \"indoor room\", \""
+}

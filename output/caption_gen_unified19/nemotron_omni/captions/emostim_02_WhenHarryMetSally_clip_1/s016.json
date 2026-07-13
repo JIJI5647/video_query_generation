@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "A woman with voluminous blonde curly hair, wearing a white shirt and dark cardigan, sits in a busy indoor setting with blurred people behind her. She glances sideways, then looks down, then lifts her head and opens her mouth as if speaking.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A woman's voice is audible, speaking with a conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual\": \"A woman with voluminous blonde curly hair, wearing a white shirt and dark cardigan, sits in a busy indoor setting with blurred people behind her. She glances sideways, then looks down, then lifts her head and opens her mouth as if speaking.\", \"audio\": \"A woman's voice is audible, speaking with a conversational tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

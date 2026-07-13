@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, high-frequency hiss, indicating a low-fidelity recording environment. A male voice, speaking in standard Mandarin with a neutral accent, calmly and clearly says, “你挂机啊” (“You’re on hold.”), his tone measured and slightly exasperated. Immediately following, he continues, “你不知道转个频道” (“Don’t you know how to switch the channel?”), maintaining a steady, conversational delivery. The background features a continuous, low-volume, synthesized string pad, reminiscent of 1980s or early 1990s electronic music, which adds a somber, suspenseful atmosphere.\n\nA second male voice, deeper and more forceful, interrupts with a sharp, clipped tone: “说完了没有？” (“Are you done talking?”). His delivery is abrupt and authoritative, suggesting a position of power or urgency. The first speaker, now more hurried and anxious, responds with, “四五六八五五” (“456855”), a sequence of numbers spoken rapidly and without pause, as if reciting a code or password. The second speaker, still dominant, sharply commands, “还说！” (“Still talking!”), his voice rising in volume and intensity, conveying impatience and frustration.\n\nThe audio ends abruptly, with no fade-out or resolution, leaving the tension unresolved. Throughout, the recording is marked by a persistent hiss, limited frequency range, and occasional digital clipping, especially on the louder speech. The voices are close-miked and dry, with no environmental reverberation, and the synthesized background music remains unobtrusive but emotionally charged.\n\nThe interaction is a tense, confrontational exchange between two men, likely in a professional or institutional setting such as a call center, security office, or control room. The first speaker, possibly a subordinate, is being reprimanded for inaction or incompetence, while the second, a superior, demands compliance and immediate action. The use of Mandarin, the synthesized music, and the technical jargon suggest a late 20th-century Chinese context, possibly during a period of technological transition. The clip’s abrupt ending and unresolved tension imply a moment of crisis or high-stakes communication, with the numbers likely serving as a critical code or identifier.\n\nIn summary, the audio captures a brief, tense exchange between two Mandarin-speaking men in a professional setting, underscored by suspenseful electronic music and marked by technical imperfections. The dialogue and atmosphere evoke a late 20th-century Chinese institutional environment, with the numbers “456855” serving as a pivotal element in the unresolved confrontation.",
+  "temporal_description": "A man in a dark suit and tie stands in a dimly lit room, holding a phone to his ear. Behind him, several other individuals are visible, some seated at desks with computer monitors, while others stand or move around. One person in a blue shirt is seen near a wall with photos displayed, and another in a dark jacket with “OCTB” on the back is partially visible. The man in the foreground remains mostly still, occasionally shifting his gaze slightly, while others in the background continue their tasks or walk past.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie stands in a dimly lit room, holding a phone to his ear. Behind him, several other individuals are visible, some seated at desks with computer monitors, while others stand or move around. One person in a blue shirt is seen near a wall with photos displayed, and another in a dark jacket with “OCTB” on the back is partially visible. The man in the foreground remains mostly still, occasionally shifting his gaze slightly, while others in the background continue their task",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s056",
+  "time_range": [
+    275.0,
+    280.0
+  ],
+  "visual_description": "A silhouetted figure stands against a dramatic sky filled with clouds and a bright sun, turning slightly as the light changes. The figure is seen in profile then faces away, with the sun creating a halo effect behind them. The scene is dark, emphasizing the outline of the person.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "There is no audible sound.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s056\", \"time_range\": [275.0, 280.0], \"visual\": \"A silhouetted figure stands against a dramatic sky filled with clouds and a bright sun, turning slightly as the light changes. The figure is seen in profile then faces away, with the sun creating a halo effect behind them. The scene is dark, emphasizing the outline of the person.\", \"audio\": \"There is no audible sound.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

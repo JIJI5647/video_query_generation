@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "A woman with long dark hair wearing a blue robe stands at a bathroom window, wiping the glass while a young child in a red sweater clings to her from behind. The view briefly shifts to a frosted window covered in snow outside, then returns to a close‑up of the child hugging the woman, whose face is partially visible with an open mouth.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s023\", \"time_range\": [110.0, 115.0], \"visual\": \"A woman with long dark hair wearing a blue robe stands at a bathroom window, wiping the glass while a young child in a red sweater clings to her from behind. The view briefly shifts to a frosted window covered in snow outside, then returns to a close‑up of the child hugging the woman, whose face is partially visible with an open mouth.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\""
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_description": "Five individuals stand in a dimly lit, tiled corridor with barred windows behind them; one man in a light-colored suit walks forward while others flank him or stand still. Their postures are upright and still, with gazes directed forward or slightly off-camera, and minimal gestures are visible. The scene is characterized by muted greenish lighting and a confined, industrial-looking environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely produced by a mechanical switch or button, immediately followed by a brief, high-frequency rustle reminiscent of fabric or a small object being handled. These sounds are captured with high fidelity, indicating close microphone placement and a controlled, acoustically neutral environment. A low-frequency, resonant hum then emerges, characterized by a deep, steady drone with a slightly gritty texture, suggestive of a large, electrically powered machine or engine idling. This hum is accompanied by a faint, high-frequency hiss, likely from the recording equipment or the machine itself, and is enveloped in a subtle, short reverberation that hints at a medium-sized, hard-surfaced room. As the hum continues, a rhythmic, mechanical chugging sound develops, marked by a cyclical, percussive pattern that evokes the operation of a large engine or pump. The chugging is steady and regular, with each pulse slightly modulating in pitch and intensity, and is underpinned by a persistent, low-frequency rumble. The overall soundscape remains focused and isolated, with no speech, music, or extraneous noises present. The mechanical rhythm and hum persist until the audio is abruptly cut off, with no fade-out",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Five individuals stand in a dimly lit, tiled corridor with barred windows behind them; one man in a light-colored suit walks forward while others flank him or stand still. Their postures are upright and still, with gazes directed forward or slightly off-camera, and minimal gestures are visible. The scene is characterized by muted greenish lighting and a confined, industrial-looking environment.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

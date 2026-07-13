@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "The man in a plaid shirt stands by a brown bag, placing items into it while a woman in a hospital bed watches him. He gestures with his hand as he speaks, and the woman raises her hand in response. Another man in a beige jacket pulls back a curtain, revealing a second woman in a bed who rests her hands behind her head.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"The man in a plaid shirt stands by a brown bag, placing items into it while a woman in a hospital bed watches him. He gestures with his hand as he speaks, and the woman raises her hand in response. Another man in a beige jacket pulls back a curtain, revealing a second woman in a bed who rests her hands behind her head.\", \"audio\": \"The audio is unclear.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "An older man with thinning hair and a black shirt is seated, his head slightly bowed, as a hand rests on his shoulder from behind. Another person with long blonde hair, partially visible, stands behind him, their arm draped over his shoulder. The setting is dimly lit, with a textured wall in the background, and the man’s posture suggests he is being supported or steadied.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and moderate speed, accompanied by a gasp and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "An older man with thinning hair and a black shirt is seated, his head slightly bowed, as a hand rests on his shoulder from behind. Another person with long blonde hair, partially visible, stands behind him, their arm draped over his shoulder. The setting is dimly lit, with a textured wall in the background, and the man’s posture suggests he is being supported or steadied.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

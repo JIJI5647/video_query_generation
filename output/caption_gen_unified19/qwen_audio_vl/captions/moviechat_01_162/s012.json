@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A group of office workers in business attire stand and sit in an open-plan office, facing a television screen mounted on a wall at the far end. Some individuals are seated at desks, while others stand in clusters or walk through the space, with one man in a dark shirt walking past the camera. Most faces are turned toward the screen or downward, with neutral postures and minimal visible gestures.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip is a 5-second excerpt from a Mandarin-language news broadcast, most likely originating from Taiwan. The recording begins abruptly, mid-sentence, with a female news anchor delivering a report in clear, formal Standard Mandarin. Her tone is serious and measured, consistent with professional news reporting, and her speech is free of regional accent or inflection. The content of the report is a factual update on a violent incident: \"多名凶徒，警察和市民受伤。警方证实，其中一名死者的身份是.\" (\"Multiple assailants, police and citizens injured. The police have confirmed that the identity of one of the deceased is.\"). The report is cut off mid-word, indicating the clip is an excerpt from a longer broadcast. The audio quality is moderate, with a persistent low-level hiss and a faint, steady hum, likely from the broadcast studio’s equipment. The anchor’s voice is clear and centered, with no noticeable reverberation, suggesting a controlled studio environment. There are no background noises, music, or other voices present. The language and phrasing, including the use of \"凶徒\" (violent assailants) and the structure of the report, are typical of Taiwanese Mandarin news broadcasts. The lack of any regional accent, the formal",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of office workers in business attire stand and sit in an open-plan office, facing a television screen mounted on a wall at the far end. Some individuals are seated at desks, while others stand in clusters or walk through the space, with one man in a dark shirt walking past the camera. Most faces are turned toward the screen or downward, with neutral postures and minimal visible gestures.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

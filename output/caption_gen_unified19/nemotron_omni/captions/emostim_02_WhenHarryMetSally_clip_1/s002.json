@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A woman with curly blonde hair, wearing a dark sweater over a white collared shirt and a brooch, sits at a table facing a man in a plaid sweater whose back is to the camera. She is speaking and gesturing with her hands while looking at him. The setting appears to be a crowded cafeteria with many people in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A woman with curly blonde hair, wearing a dark sweater over a white collared shirt and a brooch, sits at a table facing a man in a plaid sweater whose back is to the camera. She is speaking and gesturing with her hands while looking at him. The setting appears to be a crowded cafeteria with many people in the background.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

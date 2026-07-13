@@ -1,0 +1,75 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde hair wearing a dark sweater over a white collared shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting at a table and talking to a man across from her"
+      },
+      {
+        "person": "a man with dark hair and a mustache wearing a striped sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting at a table, holding a sandwich, and talking to the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded cafeteria or restaurant with many other people in the background"
+    },
+    "objects": [
+      {
+        "object": "a sandwich",
+        "position": "right",
+        "action": "held by the man"
+      }
+    ],
+    "interactions": [
+      "the woman and the man are engaged in a conversation"
+    ],
+    "key_actions": [
+      "the woman speaks",
+      "the man speaks and gestures with his hand",
+      "the woman raises her hand to her head"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde hair wearing a dark sweater over a white collared shirt",
+      "facial_cues": [
+        "her mouth is open as she speaks",
+        "her eyes are focused on the man"
+      ],
+      "body_cues": [
+        "she raises her right hand to her head"
+      ],
+      "gaze": "towards the man"
+    },
+    {
+      "person": "a man with dark hair and a mustache wearing a striped sweater",
+      "facial_cues": [
+        "his mouth is open as he speaks",
+        "his eyebrows are raised"
+      ],
+      "body_cues": [
+        "he gestures with his right hand while holding a sandwich"
+      ],
+      "gaze": "towards the woman"
+    }
+  ],
+  "audio_description": "a conversation between a woman and a man is audible.",
+  "temporal_description": "The woman speaks, then the man responds while gesturing with his hand.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with blonde hair wearing a dark sweater over a white collared shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting at a table and talking to a man across from her\"}, {\"person\": \"a man with dark hair and a mustache wearing a striped sweater\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"sitting at a table, holding a sandwich, and talking to the wom"
+}

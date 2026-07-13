@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A woman with curly blonde hair and a man with dark hair sit side by side, both holding and eating food. The woman gestures with her free hand while looking toward the man, who looks down at his food. Other people are visible in the background, seated and moving around in a crowded indoor setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency hum and a subtle high-frequency hiss, establishing a quiet, indoor setting with minimal reverberation. A female voice, positioned slightly left of center and close to the microphone, speaks in a soft, breathy, and contemplative tone: “Because they…” Her delivery is hesitant, marked by a slight upward inflection and a trailing off, suggesting she is searching for the right words or is interrupted mid-thought. Immediately following her utterance, a sharp, metallic click is heard, likely from a mechanical device such as a camera shutter or a button press, indicating a physical action in the room. A male voice, slightly right of center and more distant, responds with a measured, calm, and slightly deeper tone: “Yes, because they…” His speech is deliberate and formal, with a subtle emphasis on “Yes,” and he also trails off, implying a shared, unfinished thought. The room’s acoustics remain consistent, with no additional voices or environmental sounds present. The clip concludes with a brief, low-frequency electronic buzz, reminiscent of a digital device notification or a system alert, which abruptly ends the recording. Throughout, the audio maintains moderate fidelity, with clear speech and a persistent background hiss",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with curly blonde hair and a man with dark hair sit side by side, both holding and eating food. The woman gestures with her free hand while looking toward the man, who looks down at his food. Other people are visible in the background, seated and moving around in a crowded indoor setting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

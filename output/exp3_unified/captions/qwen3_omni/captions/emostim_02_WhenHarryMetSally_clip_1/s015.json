@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A man and a woman are sitting at a table in a diner, eating a meal. The man is in a plaid shirt and the woman has blonde hair. They are both looking at each other and talking.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man is speaking in a low voice, and there is some background noise from the diner.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual\": \"A man and a woman are sitting at a table in a diner, eating a meal. The man is in a plaid shirt and the woman has blonde hair. They are both looking at each other and talking.\", \"audio\": \"A man is speaking in a low voice, and there is some background noise from the diner.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

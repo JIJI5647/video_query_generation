@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A woman with blonde, wavy hair, wearing a dark jacket over a white shirt, is seen with her eyes closed and hand on her head. A man with dark hair and a striped sweater sits beside her, looking forward with a neutral expression. The background is populated with blurred figures, suggesting a busy, public setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate loudness, accompanied by audible breathing sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with blonde, wavy hair, wearing a dark jacket over a white shirt, is seen with her eyes closed and hand on her head. A man with dark hair and a striped sweater sits beside her, looking forward with a neutral expression. The background is populated with blurred figures, suggesting a busy, public setting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "The woman in a blue sleeveless dress sits on a striped couch, gesturing with both hands while speaking. She clasps her hands together, then opens them again, maintaining eye contact with someone off‑camera. The background shows a cluttered room with a pink chair and assorted items.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Her voice is audible, speaking in a calm tone. No other sounds are clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"The woman in a blue sleeveless dress sits on a striped couch, gesturing with both hands while speaking. She clasps her hands together, then opens them again, maintaining eye contact with someone off‑camera. The background shows a cluttered room with a pink chair and assorted items.\", \"audio\": \"Her voice is audible, speaking in a calm tone. No other sounds are clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

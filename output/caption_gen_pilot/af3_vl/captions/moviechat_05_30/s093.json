@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a man speaking with a high-pitched, angry tone, followed by a loud, forceful shout.",
+  "temporal_description": "A person is seen sitting on the floor amidst a cluttered, dimly lit room filled with scattered furniture and debris. The individual appears to be in a state of stillness or contemplation, surrounded by overturned chairs, books, and other miscellaneous objects. Another person, wearing a jacket and glasses, is visible in close-up, looking upward with a startled expression. A third person, with reddish hair, is seen in motion, moving through the cluttered space while holding an object and gesturing with their hand. The environment is dark and chaotic, with furniture and items piled haphazardly, creating a sense of disarray. The person with reddish hair moves quickly, suggesting urgency or confrontation, while the seated individual remains relatively motionless.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person is seen sitting on the floor amidst a cluttered, dimly lit room filled with scattered furniture and debris. The individual appears to be in a state of stillness or contemplation, surrounded by overturned chairs, books, and other miscellaneous objects. Another person, wearing a jacket and glasses, is visible in close-up, looking upward with a startled expression. A third person, with reddish hair, is seen in motion, moving through the cluttered space while holding an object and gesturing",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

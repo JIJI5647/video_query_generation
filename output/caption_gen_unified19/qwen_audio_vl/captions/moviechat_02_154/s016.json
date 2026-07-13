@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "In a dimly lit nighttime parking lot, several people in dark clothing stand near two parked cars, one of which has its headlights on. One person is seen exiting a car with the door open, while others remain standing or moving around the vehicles. The scene is illuminated by artificial lights and car headlights, casting shadows and highlighting the wet pavement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, piercing electronic siren, its high-pitched wail modulating rapidly in a classic “yelp” pattern. The siren’s volume and pitch increase, indicating the emergency vehicle is rapidly approaching the recording location. The sound is harsh and clipped, with digital distortion and a faint underlying hiss, suggesting the recording device is overwhelmed by the siren’s intensity. The siren’s reverberation and echo imply it is bouncing off hard surfaces, such as those found in a city street or parking garage, and the absence of other ambient sounds points to a quiet, possibly deserted urban environment. As the siren reaches its peak, a sharp, metallic impact occurs, characterized by a high-frequency “clink” followed by a lower-pitched “thud.” This is immediately succeeded by a complex cascade of metallic rattling and scraping, as if a metal object—such as a chain, gate, or barrier—has been struck and is now tumbling or dragging across a hard surface. The sequence of impacts and scrapes is chaotic and irregular, with no discernible rhythm, and the reverberation continues to suggest a hard-walled, enclosed space. Following the metallic commotion, a deep, resonant thud is heard",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit nighttime parking lot, several people in dark clothing stand near two parked cars, one of which has its headlights on. One person is seen exiting a car with the door open, while others remain standing or moving around the vehicles. The scene is illuminated by artificial lights and car headlights, casting shadows and highlighting the wet pavement.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

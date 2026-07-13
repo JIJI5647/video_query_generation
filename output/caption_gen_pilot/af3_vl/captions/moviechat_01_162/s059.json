@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a steady pace and no significant background noise.",
+  "temporal_description": "A man in a white shirt and tie stands in front of a monitor displaying a surveillance feed, holding a small object in his hand. He is positioned behind a glass partition, facing another person seated in front of the monitor. The seated individual, also in a white shirt, is partially visible from behind, focused on the screen. The man standing occasionally shifts his posture and gestures slightly while looking at the seated person. The room has a dim, industrial feel with visible pipes and lighting fixtures in the background.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands in front of a monitor displaying a surveillance feed, holding a small object in his hand. He is positioned behind a glass partition, facing another person seated in front of the monitor. The seated individual, also in a white shirt, is partially visible from behind, focused on the screen. The man standing occasionally shifts his posture and gestures slightly while looking at the seated person. The room has a dim, industrial feel with visible pipes and lighti",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

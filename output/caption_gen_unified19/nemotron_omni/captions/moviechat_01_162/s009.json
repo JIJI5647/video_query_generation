@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "The man in a dark suit and light shirt stands with his head bowed, his gaze directed downward while the background blurs with out-of-focus lights and a vehicle. He remains relatively still as the camera angle shifts slightly, revealing the roof of a car in the foreground. The scene is set outdoors at dusk, with soft ambient lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual\": \"The man in a dark suit and light shirt stands with his head bowed, his gaze directed downward while the background blurs with out-of-focus lights and a vehicle. He remains relatively still as the camera angle shifts slightly, revealing the roof of a car in the foreground. The scene is set outdoors at dusk, with soft ambient lighting.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

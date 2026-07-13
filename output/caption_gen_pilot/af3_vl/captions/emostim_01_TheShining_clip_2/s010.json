@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A child with short brown hair, wearing a red and gray striped sweater, stands in a dimly lit bedroom, writing on a wooden door with a red marker. The child is focused on the task, holding the marker in their right hand and looking down at the door. In the background, another child lies in bed, covered with a blue blanket and a patterned quilt, with their head resting on a pillow. A lamp with a beige lampshade is on a nightstand beside the bed, casting a warm glow. The room has a window with curtains and a wall clock above the bed. The child’s posture is upright, and their gaze is directed at the door as they write.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short brown hair, wearing a red and gray striped sweater, stands in a dimly lit bedroom, writing on a wooden door with a red marker. The child is focused on the task, holding the marker in their right hand and looking down at the door. In the background, another child lies in bed, covered with a blue blanket and a patterned quilt, with their head resting on a pillow. A lamp with a beige lampshade is on a nightstand beside the bed, casting a warm glow. The room has a window with curt",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

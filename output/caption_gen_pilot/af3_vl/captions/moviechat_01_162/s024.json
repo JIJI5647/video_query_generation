@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a clear and steady prosody, and no noticeable background noise or emotional inflection.",
+  "temporal_description": "Two men are seated inside a vehicle, with the man in the foreground holding a white object near his mouth. The man in the background is slightly out of focus, looking forward, while the foreground man’s gaze is directed toward the side. Both appear to be wearing dark clothing, and the interior of the car is dimly lit with greenish ambient light. The foreground man’s posture is still, and his hand grips the object firmly, while the background man remains seated with minimal movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a vehicle, with the man in the foreground holding a white object near his mouth. The man in the background is slightly out of focus, looking forward, while the foreground man’s gaze is directed toward the side. Both appear to be wearing dark clothing, and the interior of the car is dimly lit with greenish ambient light. The foreground man’s posture is still, and his hand grips the object firmly, while the background man remains seated with minimal movement.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

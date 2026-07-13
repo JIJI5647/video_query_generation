@@ -1,0 +1,62 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "leaning over a pool table and playing pool"
+      },
+      {
+        "person": "a woman in a floral dress",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing next to the man and leaning over the pool table"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit pool hall with a blue pool table, brown walls, and a tufted brown chair in the foreground."
+    },
+    "objects": [
+      {
+        "object": "pool table",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "on the table are pool balls and a cue stick."
+      },
+      {
+        "object": "cue stick",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "held by the man."
+      },
+      {
+        "object": "tufted chair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "partially obscures the view."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man is playing pool.",
+      "The woman is standing next to him, watching."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains the sound of a cue ball striking other balls, followed by a loud crash and shattering glass.",
+  "temporal_description": "The clip starts with the sound of a pool game, then abruptly cuts to a loud crash.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s085\", \"time_range\": [420.0, 425.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"leaning over a pool table and playing pool\"}, {\"person\": \"a woman in a floral dress\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing next to the man and leaning over the pool table\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dimly lit pool hall with a blue pool ta"
+}

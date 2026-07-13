@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s083",
+  "time_range": [
+    410.0,
+    415.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely the sound of a phone button being pressed, immediately followed by a brief, high-pitched electronic beep. This beep is characteristic of a mobile phone dialing tone or a notification, and is accompanied by a subtle, low-frequency hum and faint hiss, indicating the use of a consumer-grade recording device. The environment is quiet, with no ambient noise or reverberation, suggesting a small, acoustically dampened room.\n\nA male voice, speaking in standard Mandarin with a neutral accent, answers the call with a clear, slightly surprised “喂?” (“Hello?”). He repeats the greeting with a rising intonation, “喂?” (“Hello?”), conveying mild surprise and a questioning tone. The voice is close to the microphone, with a mid-range frequency emphasis and a slight digital compression artifact, resulting in a “swishy” quality. The speaker then addresses the caller with a friendly, informal “陈哥” (“Chén gē”), using the honorific “哥” to indicate respect and familiarity, likely directed at an older male colleague or friend. The tone is warm and familiar, with a gentle, rising inflection.\n\nAs the speaker finishes his greeting, a loud, synthetic electronic tone abruptly begins. This tone is a harsh, low-frequency buzz with a strong, dissonant harmonic structure, reminiscent of a telephone busy signal or error alert. The tone is much louder than the preceding speech, causing noticeable digital clipping and distortion, and it completely masks the voice and any remaining background sounds. The recording ends abruptly while the tone is still active, with no fade-out or additional events.\n\nIn summary, the audio captures a brief, informal phone conversation between two Mandarin-speaking men, likely colleagues or friends, in a quiet, private setting. The exchange is marked by a friendly greeting and use of honorific language, but is suddenly interrupted by a loud, synthetic error tone, suggesting a technical malfunction or call failure. The recording’s technical imperfections and abrupt ending reinforce the impression of a candid, everyday moment disrupted by an unexpected event.",
+  "temporal_description": "A man with gray hair, wearing a black shirt, is seated indoors, holding a phone to his ear. He appears to be engaged in a conversation, occasionally moving his head slightly while maintaining a steady posture. Behind him, a golden statue and a chandelier are visible, suggesting an opulent setting. The scene transitions to another man in a light blue shirt, seated in an office chair, also holding a phone to his ear, with blinds in the background filtering sunlight.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair, wearing a black shirt, is seated indoors, holding a phone to his ear. He appears to be engaged in a conversation, occasionally moving his head slightly while maintaining a steady posture. Behind him, a golden statue and a chandelier are visible, suggesting an opulent setting. The scene transitions to another man in a light blue shirt, seated in an office chair, also holding a phone to his ear, with blinds in the background filtering sunlight.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

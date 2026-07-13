@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and a moderate speaking rate, accompanied by a man's voice with a lower pitch and a slower speaking rate. The child's voice is more prominent and expressive, while the man's voice is more subdued and supportive.",
+  "temporal_description": "A young child with light-colored hair, wearing a gray shirt, is seated and being comforted by an adult with curly hair, who is partially visible and positioned close to the child. The adult’s hand is seen gently touching the child’s head and face, while the child’s gaze shifts between looking down and toward the adult. The setting appears dimly lit, with a wooden wall in the background, and another person’s arm is partially visible on the right side of the frame. The child’s posture is slightly hunched, and their hand is extended outward at one point, suggesting movement or reaching.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair, wearing a gray shirt, is seated and being comforted by an adult with curly hair, who is partially visible and positioned close to the child. The adult’s hand is seen gently touching the child’s head and face, while the child’s gaze shifts between looking down and toward the adult. The setting appears dimly lit, with a wooden wall in the background, and another person’s arm is partially visible on the right side of the frame. The child’s posture is slightly ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

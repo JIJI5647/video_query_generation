@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_description": "A man in a dark jacket stands next to a black car at night, looking back over his shoulder with a concerned expression. Another man is visible in the background. The scene is dark, illuminated only by distant streetlights.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, low-frequency rumbling sound, like a large vehicle or machinery, is heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s038\", \"time_range\": [185.0, 190.0], \"visual\": \"A man in a dark jacket stands next to a black car at night, looking back over his shoulder with a concerned expression. Another man is visible in the background. The scene is dark, illuminated only by distant streetlights.\", \"audio\": \"A loud, low-frequency rumbling sound, like a large vehicle or machinery, is heard.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

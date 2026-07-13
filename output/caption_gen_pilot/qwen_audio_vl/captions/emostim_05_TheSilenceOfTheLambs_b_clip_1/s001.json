@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a latch or switch, immediately followed by a brief, low-frequency thud and a soft rustle, suggesting the handling of a heavy object or the adjustment of clothing. These sounds are captured with high clarity, indicating a close microphone placement in a small, acoustically dampened room. A faint, steady electronic hiss is present throughout, characteristic of a consumer-grade recording device, but does not obscure the main events.\n\nA male voice, speaking in a calm, measured, and professional tone, enters the scene. He addresses someone named \"Dr. Lamar\" with the phrase, \"Dr. Lamar, let's take a look at it.\" The voice is clear, with a General American accent and a mid-to-low pitch, and is delivered in a manner that suggests authority and composure. The speech is free of emotional inflection, indicating a routine, task-oriented interaction. The phrase is delivered in a single, uninterrupted breath, with no pauses or hesitations, and is followed by a subtle, natural exhalation.\n\nImmediately after the speech, a distinct, high-pitched electronic beep sounds, lasting about 0.2 seconds. This beep is sharp, synthetic, and consistent with the alert tone of a medical device such as a heart rate monitor or pulse oximeter, further reinforcing the clinical context. The beep is the only other prominent sound in the recording, and it is followed by a brief silence, with no additional speech or background noise.\n\nThe overall recording is of high fidelity, with a full frequency range and minimal distortion. The environment is quiet and controlled, with no evidence of other people, music, or extraneous activity. The sequence of events—handling of equipment, professional address, and device alert—strongly suggests a medical or clinical setting, likely a hospital or examination room, where a healthcare professional is preparing to examine a patient or review medical data with Dr. Lamar.\n\nIn summary, the audio captures a brief, focused moment in a clinical environment: a healthcare professional, in a calm and professional manner, addresses Dr. Lamar and initiates a medical review or examination, punctuated by the alert tone of a medical device. The recording is clear, contextually rich, and devoid of extraneous noise, providing a vivid snapshot of routine medical practice.",
+  "temporal_description": "A person wearing a dark jacket with a zipper is seated, their hand moving near the zipper area. The camera focuses closely on the jacket and hand, with the background blurred and indistinct. The person’s posture is upright, and their hand gestures suggest they are adjusting or interacting with the jacket. The scene is static, with minimal movement beyond the hand’s motion.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a dark jacket with a zipper is seated, their hand moving near the zipper area. The camera focuses closely on the jacket and hand, with the background blurred and indistinct. The person’s posture is upright, and their hand gestures suggest they are adjusting or interacting with the jacket. The scene is static, with minimal movement beyond the hand’s motion.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation, set against a quiet background.",
+  "temporal_description": "A young man with glasses stands in a dimly lit, cluttered room filled with various objects, including glassware, books, and furniture. He is wearing a brown jacket over a dark shirt and remains still, facing forward. Later, three men in dark clothing appear, standing in a line, each holding a wand pointed forward. The room is filled with shelves and tables covered in metallic and glass items, and the lighting is low, casting shadows across the scene. The men remain stationary, maintaining their positions and gaze forward.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man with glasses stands in a dimly lit, cluttered room filled with various objects, including glassware, books, and furniture. He is wearing a brown jacket over a dark shirt and remains still, facing forward. Later, three men in dark clothing appear, standing in a line, each holding a wand pointed forward. The room is filled with shelves and tables covered in metallic and glass items, and the lighting is low, casting shadows across the scene. The men remain stationary, maintaining their ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

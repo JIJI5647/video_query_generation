@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, overwhelming roar that immediately fills the soundscape, characterized by a deep, low-frequency rumble and a high-frequency hiss. This initial sound is so intense that it causes severe digital clipping and distortion, resulting in a harsh, crackling texture. The roar is accompanied by a rapid, rhythmic metallic clatter, reminiscent of train wheels passing over rail joints, and a persistent, high-pitched metallic squeal that suggests friction between metal components. The overall impression is of a massive, fast-moving train or subway car, with the sound source moving rapidly from left to right across the stereo field, creating a vivid sense of motion and spatial depth. The environment is highly reverberant, with echoes and reflections indicating a large, enclosed, and hard-surfaced space such as a tunnel or underground station.\n\nAs the train sound continues, the metallic clatter and squeal persist, but the intensity of the roar begins to diminish, suggesting the train is moving away from the recording point. The reverberation remains strong, reinforcing the impression of a cavernous, enclosed setting. The audio quality remains poor, with persistent distortion and a compressed dynamic range, making the sound feel overwhelming and abrasive.\n\nSuddenly, the train sound is cut off with no fade or transition, replaced by a loud, synthetic electronic tone. This tone is a pure, low-frequency square wave at approximately 110 Hz (A2), with a harsh, buzzy timbre and no modulation or variation. The tone is centered in the stereo field and is presented at full volume, with no reverberation or environmental context, indicating it is a direct digital signal. The tone is abruptly terminated, ending the recording with a hard cut.\n\nThroughout the clip, there is no speech, music, or human vocalization. The only sounds are the train and the electronic tone, both presented in a manner that is highly distorted and abrasive, with no attempt at clarity or fidelity. The train sound is generic and non-specific, lacking any identifying features such as announcements or regional cues. The electronic tone is a standard alert or error signal, commonly used in digital systems to indicate a fault or interruption.\n\nIn summary, the audio clip presents a dramatic, distorted soundscape of a moving train in a large, reverberant space, abruptly interrupted by a synthetic electronic tone signaling a system error or alert. The recording is of low fidelity, with severe distortion and no speech or music, and the sequence suggests a technical malfunction or system failure, likely in a public transit or industrial context.",
+  "temporal_description": "The scene is dark, with a distant illuminated structure visible on a hillside, suggesting a nighttime setting. A large, bald, muscular figure is prominently in the foreground, appearing to be in motion or crouched, with indistinct facial features. Behind and around this figure, numerous smaller, shadowy human-like figures are scattered across a grassy or uneven terrain, some appearing to be running or moving in various directions. The overall visibility is low, making precise details of the figures’ appearances and actions difficult to discern, but their silhouettes suggest movement and activity in the dim light.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene is dark, with a distant illuminated structure visible on a hillside, suggesting a nighttime setting. A large, bald, muscular figure is prominently in the foreground, appearing to be in motion or crouched, with indistinct facial features. Behind and around this figure, numerous smaller, shadowy human-like figures are scattered across a grassy or uneven terrain, some appearing to be running or moving in various directions. The overall visibility is low, making precise details of the figu",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

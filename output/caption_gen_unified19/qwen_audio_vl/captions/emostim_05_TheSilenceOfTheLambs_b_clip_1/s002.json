@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A person wearing a white-cuffed shirt and dark pants is zipping up a black leather jacket. Their hands move methodically along the zipper, pulling it closed. The background is out of focus, emphasizing the close-up of the hands and jacket.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-frequency metallic click, immediately followed by a brief, low-frequency thud, both indicative of a small metal object—likely a key or latch—being manipulated. This is succeeded by a sustained, low-frequency scraping sound, characterized by a gritty, abrasive texture and a slow, deliberate rhythm, suggesting the movement of a heavy, unlubricated metal object such as a latch or bolt across a rough surface. The scraping is accompanied by a faint, high-frequency rustling, consistent with the sound of fabric or clothing brushing against the metal, indicating the presence of a human operator. The scraping sound is interrupted by a short, sharp metallic click, likely the sound of a latch or lock engaging or disengaging, followed by a brief, high-pitched metallic squeak, which may result from a spring or hinge being released. The sequence concludes with a final, sharp metallic click, marking the completion of the mechanical action. Throughout the recording, there is a persistent, low-level hiss, characteristic of analog tape or a low-fidelity microphone, and a subtle, low-frequency hum, likely from nearby electrical equipment. The soundscape is dry and acoustically neutral, with no reverberation or environmental cues, suggesting a small",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a white-cuffed shirt and dark pants is zipping up a black leather jacket. Their hands move methodically along the zipper, pulling it closed. The background is out of focus, emphasizing the close-up of the hands and jacket.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

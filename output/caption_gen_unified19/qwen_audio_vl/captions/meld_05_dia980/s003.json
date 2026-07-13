@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a gray sweater sits at a table holding a piece of paper, gesturing with his other hand while facing another person in a black jacket who is partially visible. Behind them, shelves display various items including a soccer ball, a red toy car, and figurines, with a television and black leather chair in the background. The man’s gaze is directed toward the person in front of him, and his posture is upright as he leans slightly forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a male voice, positioned slightly left of center in the stereo field, delivering the phrase, \".matter with you.\" His tone is sharp, exasperated, and slightly raised, suggesting a confrontational or incredulous mood. The room’s acoustics—marked by a short, bright reverberation—imply a medium-sized, hard-surfaced indoor space, such as a studio set designed to resemble a living room. Immediately following this line, a large audience erupts in laughter, filling the stereo field with a dense, multi-layered response. The laughter is lively and sustained, with individual chuckles and guffaws blending into a collective, energetic reaction, indicating a well-rehearsed, professional studio audience. As the laughter fades, a second male voice, centered in the stereo image and slightly more distant, begins to speak. His delivery is measured, calm, and conversational, with a subtle, amused undertone. He asks, \"How do you think Joey's gonna react when he finds out you blew off his sister with a.\" The sentence is abruptly cut off mid-word, leaving the punchline unresolved. The audience’s laughter continues, now more subdued and overlapping with the second speaker’s words, maintaining the comedic rhythm",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a gray sweater sits at a table holding a piece of paper, gesturing with his other hand while facing another person in a black jacket who is partially visible. Behind them, shelves display various items including a soccer ball, a red toy car, and figurines, with a television and black leather chair in the background. The man’s gaze is directed toward the person in front of him, and his posture is upright as he leans slightly forward.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

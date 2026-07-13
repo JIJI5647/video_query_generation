@@ -1,0 +1,66 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white hospital gown",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying in a hospital bed and speaking"
+      },
+      {
+        "person": "a man in a light-colored shirt and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning over the woman and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "hospital room with medical equipment and a pink blanket on the bed"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the woman speaks",
+      "the man speaks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white hospital gown",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "lying in bed"
+      ],
+      "gaze": "toward the man"
+    },
+    {
+      "person": "a man in a light-colored shirt and tie",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "leaning over the woman"
+      ],
+      "gaze": "toward the woman"
+    }
+  ],
+  "audio_description": "A woman and a man are speaking in a conversational tone.",
+  "temporal_description": "The woman speaks first, followed by the man.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a white hospital gown\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"lying in a hospital bed and speaking\"}, {\"person\": \"a man in a light-colored shirt and tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"leaning over the woman and speaking\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"hospital room with medical equipment and a pink"
+}

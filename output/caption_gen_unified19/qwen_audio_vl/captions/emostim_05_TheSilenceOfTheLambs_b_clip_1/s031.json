@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "A man in a suit and glasses looks upward with a neutral expression. A person holds tweezers with a small dark object over a glass jar, while a young child watches intently. The background is a plain green wall, and the focus shifts between the man and the close-up of the object being handled.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a latch or small mechanism, immediately followed by a brief, high-pitched electronic beep. These sounds are crisp and close, indicating the microphone is positioned very near the source. A faint, low-frequency hum persists throughout, suggesting the presence of an appliance or HVAC system in the background. The acoustic environment is dry and intimate, with minimal reverberation, pointing to a small, well-furnished room. A male voice, speaking in a calm, measured, and slightly gravelly tone, addresses someone with the phrase, “No, sir.” His accent is General American, and his delivery is deliberate, with a subtle emphasis on “sir,” indicating respect and a formal, professional relationship. The speaker continues, “That’s a bug cocoon,” his tone remaining neutral and factual, as if explaining an observation to a colleague or client. The phrase is delivered with a slight upward inflection, suggesting a statement of certainty. A soft, low-frequency rustling sound follows, likely caused by the speaker shifting or handling an object, such as a tool or specimen. The speaker then adds, “There’s no way that could get way down in there,” his voice rising in pitch and volume, conveying a note",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses looks upward with a neutral expression. A person holds tweezers with a small dark object over a glass jar, while a young child watches intently. The background is a plain green wall, and the focus shifts between the man and the close-up of the object being handled.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,44 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking forward with a serious expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a green wall in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and glasses",
+      "facial_cues": [
+        "serious expression",
+        "glasses"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks, followed by silence.",
+  "temporal_description": "The man's expression remains serious throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s025\", \"time_range\": [120.0, 125.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and glasses\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking forward with a serious expression\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with a green wall in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man in a dark suit and glasses\", \"facial_"
+}

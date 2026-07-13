@@ -1,0 +1,36 @@
+{
+  "total_videos": 5,
+  "total_segments": 186,
+  "total_raw_captions": 186,
+  "total_emotion_events": 23,
+  "total_initial_queries": 31,
+  "total_accepted_queries": 22,
+  "total_discarded_queries": 9,
+  "average_accepted_queries_per_video": 4.4,
+  "emotion_distribution": {
+    "fear": 1,
+    "surprised": 14,
+    "angry": 5,
+    "sad": 1,
+    "happy": 2
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 8,
+    "evidence_cue": 15,
+    "explicit_event": 8
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 6,
+    "evidence_cue": 10,
+    "explicit_event": 6
+  },
+  "rewrite_count_distribution": {
+    "0": 31
+  },
+  "pass_rate_after_initial_verification": 0.7742,
+  "pass_rate_after_rewrites": 0.7097,
+  "discarded_query_count": 9,
+  "diversity_warnings": [
+    "[emostim_01_TheShining_clip_2] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing"
+  ]
+}

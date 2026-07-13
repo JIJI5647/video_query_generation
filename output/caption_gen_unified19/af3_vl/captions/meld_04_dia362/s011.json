@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    53.26
+  ],
+  "visual_description": "In a hospital room, a woman in a wheelchair is positioned near a hospital bed where another woman lies covered with a pink blanket; a man stands beside the bed, while a woman in a white coat gestures with her hand. A nurse in scrubs stands nearby, and another person in a blue shirt is partially visible in the background. Several individuals are oriented toward the bed, with some leaning forward or looking down, and one person’s hand is raised in motion.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and loud exclamation, followed by a brief moment of silence.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a hospital room, a woman in a wheelchair is positioned near a hospital bed where another woman lies covered with a pink blanket; a man stands beside the bed, while a woman in a white coat gestures with her hand. A nurse in scrubs stands nearby, and another person in a blue shirt is partially visible in the background. Several individuals are oriented toward the bed, with some leaning forward or looking down, and one person’s hand is raised in motion.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

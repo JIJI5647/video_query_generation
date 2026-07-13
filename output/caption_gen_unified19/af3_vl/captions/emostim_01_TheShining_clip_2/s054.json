@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_description": "A man with dark hair and a beard, wearing a dark jacket, is seen partially obscured by a damaged doorway, peering into a room. He then swings a baseball bat forcefully, striking a person lying on a bed, causing the person to fall backward. The room has warm lighting, wooden doors, and a lamp on a nightstand, with visible damage to the doorframe.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate loudness, speaking at a moderate pace with a slight breathiness and a sigh-like tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark hair and a beard, wearing a dark jacket, is seen partially obscured by a damaged doorway, peering into a room. He then swings a baseball bat forcefully, striking a person lying on a bed, causing the person to fall backward. The room has warm lighting, wooden doors, and a lamp on a nightstand, with visible damage to the doorframe.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

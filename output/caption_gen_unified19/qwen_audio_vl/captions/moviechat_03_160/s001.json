@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a light-colored shirt is seated, looking down and slightly to his right, with a watch visible on his left wrist. Behind him and out of focus, another person wearing headphones is seated at a desk, facing away from the camera. The scene appears to be indoors with dim, cool-toned lighting, and the man’s posture is upright but slightly hunched as he gazes downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharply defined, high-fidelity recording of a hand drum—most likely a darbuka or doumbek—executing a rapid, intricate rhythmic pattern. The drum’s sound is bright and metallic, with a crisp attack and a short, resonant decay, and is accompanied by a faint, high-frequency shaker or tambourine that adds a shimmering texture. The drumming is tightly centered in the stereo field, with no ambient noise or environmental cues, indicating a studio or controlled recording environment. The rhythm is complex and syncopated, featuring rapid rolls and accented strikes, and is performed with technical precision and energy, suggesting a skilled musician. The overall mood is lively and celebratory, evoking the atmosphere of a festive gathering or dance. At the three-second mark, the drumming is abruptly interrupted by a loud, harsh, low-frequency electronic buzz. This synthetic sound is heavily distorted, with a square or sawtooth waveform, and is centered in the stereo field. The buzz is static and unmodulated, with no rhythmic or melodic content, and its sudden onset and volume sharply contrast with the preceding music. The transition is jarring and disruptive, with no fade or overlap, and the buzz continues",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt is seated, looking down and slightly to his right, with a watch visible on his left wrist. Behind him and out of focus, another person wearing headphones is seated at a desk, facing away from the camera. The scene appears to be indoors with dim, cool-toned lighting, and the man’s posture is upright but slightly hunched as he gazes downward.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

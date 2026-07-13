@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice, sounding angry and speaking quickly, questions someone's actions regarding Joey's sister, with no background noise.",
+  "temporal_description": "Two men are seated at a table in a room with wooden cabinets and various decorative items, including figurines and a sports ball. The man on the left, wearing a gray sweater, holds a piece of paper and gestures with his free hand while looking at the other man. The man on the right, dressed in a black jacket over a white shirt, leans forward slightly, holding a cup and looking at the paper. The background includes a television, shelves with items, and a black leather chair. The man in gray occasionally shifts his gaze and adjusts his posture while holding the paper, while the man in black remains mostly still, focused on the paper.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at a table in a room with wooden cabinets and various decorative items, including figurines and a sports ball. The man on the left, wearing a gray sweater, holds a piece of paper and gestures with his free hand while looking at the other man. The man on the right, dressed in a black jacket over a white shirt, leans forward slightly, holding a cup and looking at the paper. The background includes a television, shelves with items, and a black leather chair. The man in gray occas",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

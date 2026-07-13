@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s083",
+  "time_range": [
+    410.0,
+    415.0
+  ],
+  "visual_description": "A person is engulfed in flames and crawls across a tiled floor before standing and running through a narrow, cluttered corridor. The fire follows the individual as they move past stacked crates and shelves. A cat is briefly visible near a doorway at the start.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sounds of crackling fire and indistinct background noise are audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s083\", \"time_range\": [410.0, 415.0], \"visual\": \"A person is engulfed in flames and crawls across a tiled floor before standing and running through a narrow, cluttered corridor. The fire follows the individual as they move past stacked crates and shelves. A cat is briefly visible near a doorway at the start.\", \"audio\": \"The sounds of crackling fire and indistinct background noise are audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

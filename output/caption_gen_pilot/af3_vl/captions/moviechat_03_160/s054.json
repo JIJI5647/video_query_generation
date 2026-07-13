@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man is seen in a dimly lit setting, holding binoculars up to his eyes, with another person partially visible beside him. Later, a group of men are aboard a small boat at night, with one standing at the bow and others seated, appearing to be in motion. A computer screen displays a map and SMS interface with phone numbers and a message field, while a man wearing headphones is shown focused on a screen. Finally, hands are seen typing on a keyboard, with the screen displaying a grid of numbers.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man is seen in a dimly lit setting, holding binoculars up to his eyes, with another person partially visible beside him. Later, a group of men are aboard a small boat at night, with one standing at the bow and others seated, appearing to be in motion. A computer screen displays a map and SMS interface with phone numbers and a message field, while a man wearing headphones is shown focused on a screen. Finally, hands are seen typing on a keyboard, with the screen displaying a grid of numbers.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

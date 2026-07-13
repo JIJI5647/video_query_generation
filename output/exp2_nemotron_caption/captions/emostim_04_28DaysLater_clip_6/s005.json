@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "In a dimly lit interior, a woman's arm glistens with sweat droplets as she raises it upward. The camera then reveals a window with sheer curtains that let in a soft glow. A figure wearing a dark outfit, a hat, and a red mask stands beside the window, partially hidden in shadow.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s005\", \"time_range\": [20, 25], \"visual\": \"In a dimly lit interior, a woman's arm glistens with sweat droplets as she raises it upward. The camera then reveals a window with sheer curtains that let in a soft glow. A figure wearing a dark outfit, a hat, and a red mask stands beside the window, partially hidden in shadow.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

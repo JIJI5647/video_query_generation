@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_description": "A man in a suit sleeps in the back seat of a car at night while another person sits nearby. The scene cuts to a man standing before several computer monitors displaying data in a dim room. Finally, two men are seen in a dark room with blinds, one operating a camera on a tripod while the other adjusts equipment near his head.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s057\", \"time_range\": [280.0, 285.0], \"visual\": \"A man in a suit sleeps in the back seat of a car at night while another person sits nearby. The scene cuts to a man standing before several computer monitors displaying data in a dim room. Finally, two men are seen in a dark room with blinds, one operating a camera on a tripod while the other adjusts equipment near his head.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

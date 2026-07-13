@@ -1,0 +1,45 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "riding a bicycle, then dismounting and running away"
+      }
+    ],
+    "scene": {
+      "location": "dirt road",
+      "setting": "rural area with stone buildings and dry vegetation"
+    },
+    "objects": [
+      {
+        "object": "bicycle",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "lying on the ground"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "riding a bicycle",
+      "dismounting",
+      "running"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Upbeat, rhythmic music with a male voice singing in a foreign language.",
+  "temporal_description": "The man rides the bicycle, then dismounts and runs away from it.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"riding a bicycle, then dismounting and running away\"}], \"scene\": {\"location\": \"dirt road\", \"setting\": \"rural area with stone buildings and dry vegetation\"}, \"objects\": [{\"object\": \"bicycle\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"lying on the ground\"}], \"interactions\": [], \"key_actions\":"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_description": "In a dimly lit car interior at night, a sweating man in a dark shirt sits in the passenger seat while another man in the driver's seat appears to be drinking from a cup. The scene then cuts to a black sedan perched precariously on a grassy hill under a bright sky, its front wheels lifted off the ground. Finally, the view returns inside the vehicle where a driver wearing glasses is focused on the road.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s033\", \"time_range\": [160.0, 165.0], \"visual\": \"In a dimly lit car interior at night, a sweating man in a dark shirt sits in the passenger seat while another man in the driver's seat appears to be drinking from a cup. The scene then cuts to a black sedan perched precariously on a grassy hill under a bright sky, its front wheels lifted off the ground. Finally, the view returns inside the vehicle where a driver wearing glasses is focused on the road.\", \"audio\": \"The audio is not cl"
+}

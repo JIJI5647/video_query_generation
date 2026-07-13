@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "adjusting headphones and looking at a computer screen"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a computer screen glowing in front of the man"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "frowning",
+        "concentrating"
+      ],
+      "body_cues": [
+        "adjusting headphones"
+      ],
+      "gaze": "down at the computer screen"
+    }
+  ],
+  "audio_description": "A male voice speaks in Mandarin, followed by upbeat, rhythmic music.",
+  "temporal_description": "The man adjusts his headphones and then looks down at the computer screen as the music begins.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s085\", \"time_range\": [420.0, 425.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"adjusting headphones and looking at a computer screen\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a computer screen glowing in front of the man\"}}, \"visual_expression\": [{\"person\": \"a man in a white shirt\", \"facial_cues\": [\"frowning\", \"concentrating\"], \"body_cues\": [\"adjusting "
+}

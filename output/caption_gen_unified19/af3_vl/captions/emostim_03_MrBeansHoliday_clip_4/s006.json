@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man in a suit is leaning forward while riding a bicycle, gripping the handlebars with both hands. He is positioned outdoors on a road with trees and utility poles visible in the background under a partly cloudy sky. His gaze is directed forward, and his posture suggests active movement as he pedals.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing in a neutral tone, with a moderate pitch and steady pace, accompanied by background music.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit is leaning forward while riding a bicycle, gripping the handlebars with both hands. He is positioned outdoors on a road with trees and utility poles visible in the background under a partly cloudy sky. His gaze is directed forward, and his posture suggests active movement as he pedals.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

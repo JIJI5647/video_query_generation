@@ -1,0 +1,54 @@
+{
+  "total_videos": 15,
+  "total_segments": 390,
+  "total_raw_captions": 390,
+  "total_emotion_events": 227,
+  "total_initial_queries": 245,
+  "total_accepted_queries": 76,
+  "total_discarded_queries": 162,
+  "average_accepted_queries_per_video": 5.0667,
+  "emotion_distribution": {
+    "disappointed": 5,
+    "surprised": 103,
+    "excited": 5,
+    "fear": 46,
+    "frustrated": 15,
+    "happy": 13,
+    "sad": 35,
+    "angry": 5
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 88,
+    "evidence_cue": 145,
+    "explicit_event": 12
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 21,
+    "evidence_cue": 48,
+    "explicit_event": 7
+  },
+  "rewrite_count_distribution": {
+    "0": 238
+  },
+  "pass_rate_after_initial_verification": 0.4118,
+  "pass_rate_after_rewrites": 0.3102,
+  "discarded_query_count": 162,
+  "diversity_warnings": [
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: 6 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_05_TheSilenceOfTheLambs_b_clip_1] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_06_TheChamp_clip_3] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[emostim_06_TheChamp_clip_3] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[meld_01_dia337] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_02_dia224] WARNING: 7 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_03_dia572] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[meld_03_dia572] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_04_dia362] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[meld_04_dia362] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_05_dia980] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_06_dia823] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_07_dia208] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[moviechat_01_162] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_04_159] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing"
+  ]
+}

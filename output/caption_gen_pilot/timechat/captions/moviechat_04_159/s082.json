@@ -1,0 +1,27 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s082",
+  "time_range": [
+    405.0,
+    410.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "[{\"timestamp\": \"00:00-00:09\", \"segment_detail_caption\": \"In a dimly lit room, a man with a serious expression, wearing a light-colored shirt, stares intently at a computer screen. The camera cuts to a close-up of the screen, revealing a license data interface. The location is identified as Hong Kong, Mong Kok, with coordinates N33°18'30.0\" and W116°50'30.0\". The man gives a command to search for a specific license.\", \"camera_state\": \"The scene starts with a close-up on the man's face, then cuts to an extreme close-up of the computer screen, and then back to a close-up of the man's face.\", \"video_background\": \"The setting is a dark, modern office or control room. Blinds are visible in the background, and the overall atmosphere is tense and focused.\", \"storyline\": \"The scene establishes a high-stakes situation where a character is using advanced technology to track a target. The specific location in Hong Kong suggests the story is international.\", \"shooting_style\": \"The scene uses intercutting between the character's face and the computer screen to connect his actions and focus with the information he is analyzing.\", \"speech_content\": \"Man: 不如随机搜索这一区打出的电话。这个搜索。\", \"acoustics_content\": \"1) Tone of speech: Authoritative, commanding. 2) Background sounds or music: A low, tense, electronic score begins to build, creating suspense.\"}, {\"timestamp\": \"00:10-00:13\", \"segment_detail_caption\": \"A close-up of the computer screen shows a search result for a license number. The text 'Licensee: HK POLICE 3.5' is highlighted, indicating the target is a police vehicle. The city is listed as 'HONG KONG' and the county as 'MONG KOK'. The service is 'Business'.\", \"camera_state\": \"The camera is fixed in an extreme close-up on the computer monitor, focusing on the details of the license data interface.\", \"video_background\": \"The background is completely black, isolating the computer screen and the information being displayed.\", \"storyline\": \"The plot thickens as it's revealed the target is not just any vehicle, but a police vehicle, escalating the stakes of the investigation.\", \"shooting_style\": \"This is a static shot focused on the screen, emphasizing the crucial information being revealed to the audience.\", \"speech_content\": \"\", \"acoustics_content\": \"1) Tone of speech: N/A. 2) Background sounds or music: The tense, electronic score continues to build.\"}]",
+  "confidence": "low",
+  "evidence_strength": "weak",
+  "source_caption_model": "yaolily/TimeChat-Captioner-GRPO-7B",
+  "caption_status": "salvaged",
+  "raw_output_preview": "[{\"timestamp\": \"00:00-00:09\", \"segment_detail_caption\": \"In a dimly lit room, a man with a serious expression, wearing a light-colored shirt, stares intently at a computer screen. The camera cuts to a close-up of the screen, revealing a license data interface. The location is identified as Hong Kong, Mong Kok, with coordinates N33°18'30.0\" and W116°50'30.0\". The man gives a command to search for a specific license.\", \"camera_state\": \"The scene starts with a close-up on the man's face, then cuts "
+}

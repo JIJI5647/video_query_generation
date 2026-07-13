@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone, with no significant prosody or emotional inflection. There are no background sounds or interruptions.",
+  "temporal_description": "A solitary figure is visible in a dimly lit, snowy outdoor setting at night, illuminated by artificial lights. The person is positioned on a snow-covered slope, initially lying down before slowly rising to a crouched position and then standing upright. They appear to be moving cautiously, taking deliberate steps down the slope, with their posture suggesting careful movement. The surrounding area includes snow-covered ground and structures with visible railings and windows, partially obscured by darkness and snow.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A solitary figure is visible in a dimly lit, snowy outdoor setting at night, illuminated by artificial lights. The person is positioned on a snow-covered slope, initially lying down before slowly rising to a crouched position and then standing upright. They appear to be moving cautiously, taking deliberate steps down the slope, with their posture suggesting careful movement. The surrounding area includes snow-covered ground and structures with visible railings and windows, partially obscured by ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

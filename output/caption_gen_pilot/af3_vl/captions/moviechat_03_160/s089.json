@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A group of men in light blue shirts and dark pants are descending a staircase inside a building, with one man in the front adjusting his tie. Behind him, others follow, some looking down or ahead, while one man on the right stands near the railing, observing. The setting is dimly lit with overhead lighting, and the staircase has metal railings. The men appear to be in a professional or institutional environment, possibly a government or corporate building, as suggested by their attire and the structured surroundings.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in light blue shirts and dark pants are descending a staircase inside a building, with one man in the front adjusting his tie. Behind him, others follow, some looking down or ahead, while one man on the right stands near the railing, observing. The setting is dimly lit with overhead lighting, and the staircase has metal railings. The men appear to be in a professional or institutional environment, possibly a government or corporate building, as suggested by their attire and the st",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

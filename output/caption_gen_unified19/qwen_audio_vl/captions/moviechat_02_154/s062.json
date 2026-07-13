@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_description": "A man in a gray suit holds a bottle to his lips while standing in a dimly lit alleyway, flanked by several other men in casual attire who observe him. One man in a beige coat walks down a narrow corridor lined with shops and signs, gesturing with his right hand toward a doorway. The scene is set at night, with artificial lighting casting shadows and illuminating the urban environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, metallic squeal that immediately dominates the soundscape. This piercing, abrasive noise is accompanied by a rapid, rhythmic clatter, evoking the sensation of metal wheels or axles grinding against rails. The initial squeal is so intense that it causes the recording to distort and clip, resulting in a harsh, crackling texture. Beneath this, a deep, low-frequency rumble persists, suggesting the immense weight and movement of a large vehicle. The environment is acoustically reverberant, with echoes and reflections indicating a hard-surfaced, enclosed space such as a tunnel or underground station. As the sequence progresses, the metallic squeal and clatter continue, but the squeal gradually fades, leaving the rhythmic clatter and rumble more prominent. The clatter maintains a steady, mechanical cadence, reminiscent of wheels passing over rail joints or switches. The reverberation remains strong, reinforcing the impression of a large, enclosed, and hard-surfaced environment. The recording’s fidelity is moderate, with a persistent background hiss and occasional distortion during the loudest moments, but the core mechanical sounds remain clear and distinct. Near the end, the rhythmic clatter and rumble persist",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a gray suit holds a bottle to his lips while standing in a dimly lit alleyway, flanked by several other men in casual attire who observe him. One man in a beige coat walks down a narrow corridor lined with shops and signs, gesturing with his right hand toward a doorway. The scene is set at night, with artificial lighting casting shadows and illuminating the urban environment.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

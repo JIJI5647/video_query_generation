@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a dark suit and patterned bow tie stands in a room with light-colored walls. He has a stern expression and is looking slightly downward. His posture is rigid and he remains mostly still throughout the clip.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low, sustained musical note plays in the background, creating a somber and tense atmosphere.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"A man in a dark suit and patterned bow tie stands in a room with light-colored walls. He has a stern expression and is looking slightly downward. His posture is rigid and he remains mostly still throughout the clip.\", \"audio\": \"A low, sustained musical note plays in the background, creating a somber and tense atmosphere.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

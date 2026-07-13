@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_description": "A man with short gray hair and a dark shirt is seen in close-up, his face partially obscured by a wavy metal-barred window. He turns his head slightly to the side, revealing more of his profile as the camera pans to show the weathered, rusted bars and the dim, greenish lighting of the interior space. His gaze remains fixed forward, and his posture is still, suggesting he is observing something beyond the bars.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a neutral tone, speaking at a moderate pace with no noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short gray hair and a dark shirt is seen in close-up, his face partially obscured by a wavy metal-barred window. He turns his head slightly to the side, revealing more of his profile as the camera pans to show the weathered, rusted bars and the dim, greenish lighting of the interior space. His gaze remains fixed forward, and his posture is still, suggesting he is observing something beyond the bars.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

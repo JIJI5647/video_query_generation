@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "A lone figure in a light-colored shirt stands on a dark, rocky hillside, facing toward a distant, illuminated structure perched atop a higher hill. The scene is dimly lit, with the background lights faintly outlining the architecture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s031\", \"time_range\": [150.0, 155.0], \"visual\": \"A lone figure in a light-colored shirt stands on a dark, rocky hillside, facing toward a distant, illuminated structure perched atop a higher hill. The scene is dimly lit, with the background lights faintly outlining the architecture.\", \"audio\": \"Audio is not clearly audible.\", \"confidence\": \"medium\", \"evidence_strength\": \"ambiguous\"}"
+}

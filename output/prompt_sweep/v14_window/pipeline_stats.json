@@ -1,0 +1,46 @@
+{
+  "total_videos": 5,
+  "total_segments": 102,
+  "total_raw_captions": 102,
+  "total_emotion_events": 29,
+  "total_initial_queries": 41,
+  "total_accepted_queries": 26,
+  "total_discarded_queries": 15,
+  "average_accepted_queries_per_video": 5.2,
+  "emotion_distribution": {
+    "frustrated": 6,
+    "surprised": 5,
+    "sad": 8,
+    "excited": 2,
+    "happy": 6,
+    "fear": 1,
+    "angry": 1
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 25,
+    "evidence_cue": 9,
+    "explicit_event": 7
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 16,
+    "explicit_event": 5,
+    "evidence_cue": 5
+  },
+  "rewrite_count_distribution": {
+    "0": 41
+  },
+  "pass_rate_after_initial_verification": 0.6585,
+  "pass_rate_after_rewrites": 0.6341,
+  "discarded_query_count": 15,
+  "diversity_warnings": [
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q06' and 'emostim_02_WhenHarryMetSally_clip_1_q08' are semantically similar (word overlap 71%)",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: 7 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: queries 'emostim_03_MrBeansHoliday_clip_4_q01' and 'emostim_03_MrBeansHoliday_clip_4_q04' are semantically similar (word overlap 79%)",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: queries 'emostim_03_MrBeansHoliday_clip_4_q01' and 'emostim_03_MrBeansHoliday_clip_4_q05' are semantically similar (word overlap 82%)",
+    "[emostim_06_TheChamp_clip_3] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_03_dia572] WARNING: 5 accepted queries start with 'when does' — repetitive phrasing"
+  ],
+  "regrounding_changed_count": 16,
+  "regrounding_fallback_count": 0
+}

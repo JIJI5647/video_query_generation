@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A blonde woman in a dark sweater over a white shirt sits across from a man with dark hair in a striped sweater, both holding sandwiches in a crowded cafeteria. She looks at him while he gestures with his hand near his face and speaks. The background shows other patrons and tables typical of a busy dining hall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features their conversation and the background chatter of the cafeteria.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"A blonde woman in a dark sweater over a white shirt sits across from a man with dark hair in a striped sweater, both holding sandwiches in a crowded cafeteria. She looks at him while he gestures with his hand near his face and speaks. The background shows other patrons and tables typical of a busy dining hall.\", \"audio\": \"The audio features their conversation and the background chatter of the cafeteria.\", \"confidence\": \"high\", \"eviden"
+}

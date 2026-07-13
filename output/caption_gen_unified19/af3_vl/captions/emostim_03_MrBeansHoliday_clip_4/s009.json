@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A group of cyclists in colorful jerseys and helmets are riding in a line on a paved road under a clear blue sky. One man in a suit and tie is riding a bicycle with a basket of fruit, positioned ahead of the cyclists and smiling as he pedals. Trees and open fields are visible in the background, with the cyclists leaning forward in an aerodynamic posture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a medium pitch and moderate pace, delivering a message with a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of cyclists in colorful jerseys and helmets are riding in a line on a paved road under a clear blue sky. One man in a suit and tie is riding a bicycle with a basket of fruit, positioned ahead of the cyclists and smiling as he pedals. Trees and open fields are visible in the background, with the cyclists leaning forward in an aerodynamic posture.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

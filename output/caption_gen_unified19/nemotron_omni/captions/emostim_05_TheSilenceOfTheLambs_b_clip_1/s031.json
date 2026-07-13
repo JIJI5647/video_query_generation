@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "The video shows a man in a white shirt and glasses with a small object on his nose, followed by an older man in a suit and glasses looking upward. A woman with dark hair watches as a gloved hand uses a spoon and tweezers to place a dark insect into a glass jar. Finally, a man in a suit looks forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s031\", \"time_range\": [150.0, 155.0], \"visual\": \"The video shows a man in a white shirt and glasses with a small object on his nose, followed by an older man in a suit and glasses looking upward. A woman with dark hair watches as a gloved hand uses a spoon and tweezers to place a dark insect into a glass jar. Finally, a man in a suit looks forward.\", \"audio\": \"The audio is not audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

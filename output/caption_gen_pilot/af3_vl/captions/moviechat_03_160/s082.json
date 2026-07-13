@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s082",
+  "time_range": [
+    405.0,
+    410.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a neutral tone and moderate pace, accompanied by a subtle background hum.",
+  "temporal_description": "The video shows a close-up of a transparent, possibly plastic or glass, structure with a yellow object inside, possibly a tool or part of machinery. The structure is framed with metal or plastic edges, and there are wires or cables running along its base. The background is dimly lit and appears to be an industrial or mechanical setting, with some indistinct shapes and surfaces visible through the transparent material. No people are visible in the scene.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a close-up of a transparent, possibly plastic or glass, structure with a yellow object inside, possibly a tool or part of machinery. The structure is framed with metal or plastic edges, and there are wires or cables running along its base. The background is dimly lit and appears to be an industrial or mechanical setting, with some indistinct shapes and surfaces visible through the transparent material. No people are visible in the scene.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

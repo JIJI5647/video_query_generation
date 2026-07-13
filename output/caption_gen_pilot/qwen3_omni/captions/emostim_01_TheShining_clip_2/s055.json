@@ -1,0 +1,55 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark red shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "swinging a sledgehammer at a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a bed, a lamp, and a door being broken down"
+    },
+    "objects": [
+      "sledgehammer",
+      "door",
+      "lamp",
+      "bed"
+    ],
+    "interactions": [
+      "the man swings the sledgehammer at the door"
+    ],
+    "key_actions": [
+      "swinging a sledgehammer",
+      "breaking a door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark red shirt",
+      "facial_cues": [
+        "angry expression"
+      ],
+      "body_cues": [
+        "swinging a sledgehammer"
+      ],
+      "gaze": "at the door"
+    }
+  ],
+  "audio_description": "a loud crashing sound as a door is broken down, followed by a man yelling in anger.",
+  "temporal_description": "The man swings the sledgehammer, causing a loud crash as the door breaks, and he yells in frustration.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s055\", \"time_range\": [270.0, 275.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark red shirt\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"swinging a sledgehammer at a door\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a bedroom with a bed, a lamp, and a door being broken down\"}, \"objects\": [\"sledgehammer\", \"door\", \"lamp\", \"bed\"], \"interactions\": [\"the man swings the sledgehammer at the door\"], \"key_actions\": [\"swinging a sledgehammer\","
+}

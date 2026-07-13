@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "The scene shows a coffee shop interior with a couch where a woman in a blue top and a man in a beige sweater sit together, while a woman in a purple striped shirt walks past them. The view then shifts to two men seated at a small round table; the man in a red plaid shirt gestures with his right hand while speaking, and the man in a black sweater rests his hand on his neck, listening. Both men have mugs and a small container on the table, and other patrons are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a conversation between the two men, with the man in the red shirt speaking and the other listening, set against ambient cafe noise. The tone is conversational.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"The scene shows a coffee shop interior with a couch where a woman in a blue top and a man in a beige sweater sit together, while a woman in a purple striped shirt walks past them. The view then shifts to two men seated at a small round table; the man in a red plaid shirt gestures with his right hand while speaking, and the man in a black sweater rests his hand on his neck, listening. Both men have mugs and a small container on the tabl"
+}

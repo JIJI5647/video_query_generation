@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace, accompanied by a consistent background sound.",
+  "temporal_description": "A man wearing headphones is seated, focused on a laptop screen, his gaze fixed downward. His hands are shown typing rapidly on a keyboard, with the screen displaying a detailed map interface. The camera zooms in on the screen, revealing a digital map with labeled locations and a grid overlay, then transitions to a close-up of pixelated text. Later, the scene shifts to a dimly lit hallway where a man in dark clothing cautiously peeks around a corner, holding a handgun pointed forward, while another person stands partially visible in the background.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man wearing headphones is seated, focused on a laptop screen, his gaze fixed downward. His hands are shown typing rapidly on a keyboard, with the screen displaying a detailed map interface. The camera zooms in on the screen, revealing a digital map with labeled locations and a grid overlay, then transitions to a close-up of pixelated text. Later, the scene shifts to a dimly lit hallway where a man in dark clothing cautiously peeks around a corner, holding a handgun pointed forward, while anoth",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

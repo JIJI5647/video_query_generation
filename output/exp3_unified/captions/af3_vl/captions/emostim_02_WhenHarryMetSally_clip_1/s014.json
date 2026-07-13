@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A woman with blonde hair, wearing a dark sweater over a white collared shirt, sits at a table facing a man in a plaid shirt; both are partially visible from the side. They are seated at a diner table with food and drinks, surrounded by other patrons and a visible soda sign in the background. The woman gestures with her hand while the man looks at her, both appearing engaged in conversation.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone at a moderate pace, with no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with blonde hair, wearing a dark sweater over a white collared shirt, sits at a table facing a man in a plaid shirt; both are partially visible from the side. They are seated at a diner table with food and drinks, surrounded by other patrons and a visible soda sign in the background. The woman gestures with her hand while the man looks at her, both appearing engaged in conversation.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

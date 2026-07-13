@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man in a light-colored suit stands in front of a blurred background, followed by a view of a tall building and an overpass under an overcast sky. The camera then shows a street where police officers and civilians are gathered behind blue tape, with multiple police vans parked nearby. The scene is illuminated by daylight with clear visibility of the vehicles and personnel.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A man in a light-colored suit stands in front of a blurred background, followed by a view of a tall building and an overpass under an overcast sky. The camera then shows a street where police officers and civilians are gathered behind blue tape, with multiple police vans parked nearby. The scene is illuminated by daylight with clear visibility of the vehicles and personnel.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\":"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_description": "A view from an upper level shows a metal staircase railing in the foreground and a hallway below where several people in light-colored shirts and dark trousers walk. A man in a white shirt and dark tie stands behind a desk, looking toward a monitor that displays a CCTV feed. The scene is illuminated by overhead lighting, and the environment appears to be an institutional building with glass partitions.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible, with no distinct sounds discernible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s058\", \"time_range\": [285.0, 290.0], \"visual\": \"A view from an upper level shows a metal staircase railing in the foreground and a hallway below where several people in light-colored shirts and dark trousers walk. A man in a white shirt and dark tie stands behind a desk, looking toward a monitor that displays a CCTV feed. The scene is illuminated by overhead lighting, and the environment appears to be an institutional building with glass partitions.\", \"audio\": \"The audio is not c"
+}

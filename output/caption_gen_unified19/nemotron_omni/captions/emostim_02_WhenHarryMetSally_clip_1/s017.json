@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "A blonde woman with curly hair, wearing a white collared shirt under a dark cardigan, sits facing forward in a busy restaurant. Across from her, a man with dark hair in a striped sweater holds a sandwich and looks toward her. Other patrons are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible audio.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s017\", \"time_range\": [80.0, 85.0], \"visual\": \"A blonde woman with curly hair, wearing a white collared shirt under a dark cardigan, sits facing forward in a busy restaurant. Across from her, a man with dark hair in a striped sweater holds a sandwich and looks toward her. Other patrons are visible in the background.\", \"audio\": \"No audible audio.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

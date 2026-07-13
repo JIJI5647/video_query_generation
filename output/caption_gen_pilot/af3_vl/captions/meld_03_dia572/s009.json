@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by laughter and a sudden sneeze, creating a lively and spontaneous atmosphere.",
+  "temporal_description": "A woman with dark, shoulder-length hair lies in a hospital bed, wearing a patterned hospital gown and covered by a pink blanket. She is positioned upright, with her hands resting on her abdomen, and her gaze is directed toward the side. A man in a light-colored jacket stands beside the bed, leaning slightly forward with his hands resting on the bed’s edge, looking down at her. In the background, another man sits in a chair, partially obscured by a curtain, wearing a plaid shirt and looking toward the standing man. The room contains medical equipment, including an IV stand and a monitor, and the walls are adorned with patterned curtains and outlets. The standing man gestures with his hand while speaking, and the seated man remains still, observing the interaction.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark, shoulder-length hair lies in a hospital bed, wearing a patterned hospital gown and covered by a pink blanket. She is positioned upright, with her hands resting on her abdomen, and her gaze is directed toward the side. A man in a light-colored jacket stands beside the bed, leaning slightly forward with his hands resting on the bed’s edge, looking down at her. In the background, another man sits in a chair, partially obscured by a curtain, wearing a plaid shirt and looking towar",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

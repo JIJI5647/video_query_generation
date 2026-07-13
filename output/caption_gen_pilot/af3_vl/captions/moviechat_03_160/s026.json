@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "Two men are seated at a table in a dimly lit, cluttered room, possibly a restaurant or bar. The man on the left, wearing a patterned shirt, holds chopsticks and gestures with his hand while speaking, occasionally touching his face. The man on the right, dressed in a black leather jacket, listens attentively, maintaining eye contact. In the background, other individuals are partially visible, some standing and moving about, with one person holding a bottle. The setting includes a chalkboard with writing on it and various objects on shelves, contributing to a casual, lived-in atmosphere.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at a table in a dimly lit, cluttered room, possibly a restaurant or bar. The man on the left, wearing a patterned shirt, holds chopsticks and gestures with his hand while speaking, occasionally touching his face. The man on the right, dressed in a black leather jacket, listens attentively, maintaining eye contact. In the background, other individuals are partially visible, some standing and moving about, with one person holding a bottle. The setting includes a chalkboard with ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

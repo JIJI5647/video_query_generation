@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s086",
+  "time_range": [
+    425.0,
+    430.0
+  ],
+  "visual_description": "A middle-aged man with gray hair, wearing a black shirt, rests his right hand against his cheek while looking slightly to his right. He is seated in a dimly lit room with a large chandelier and a blurred golden statue in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s086\", \"time_range\": [425.0, 430.0], \"visual\": \"A middle-aged man with gray hair, wearing a black shirt, rests his right hand against his cheek while looking slightly to his right. He is seated in a dimly lit room with a large chandelier and a blurred golden statue in the background.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

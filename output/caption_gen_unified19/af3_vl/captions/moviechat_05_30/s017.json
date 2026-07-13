@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "A central figure with long hair and a dark jacket stands in a dimly lit, crowded scene, surrounded by others in rugged, dark clothing. The group appears stationary, with some holding flickering light sources, and the central figure gestures forward with one hand. Most faces are partially obscured or shadowed, with neutral postures and gazes directed forward or slightly downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable non-speech sounds or cues.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A central figure with long hair and a dark jacket stands in a dimly lit, crowded scene, surrounded by others in rugged, dark clothing. The group appears stationary, with some holding flickering light sources, and the central figure gestures forward with one hand. Most faces are partially obscured or shadowed, with neutral postures and gazes directed forward or slightly downward.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

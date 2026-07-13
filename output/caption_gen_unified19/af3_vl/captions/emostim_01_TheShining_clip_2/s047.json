@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_description": "A person in a dark red top and blue jeans is seen from behind, holding a hammer and swinging it toward a door. The scene is a dimly lit bedroom with a bed, nightstand lamp, and bookshelf visible. The person’s face is not visible, and their posture suggests a forceful, deliberate motion.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a woman's voice with a high pitch and a gasp, followed by a loud bang and a scream, indicating a sudden and intense event.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark red top and blue jeans is seen from behind, holding a hammer and swinging it toward a door. The scene is a dimly lit bedroom with a bed, nightstand lamp, and bookshelf visible. The person’s face is not visible, and their posture suggests a forceful, deliberate motion.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

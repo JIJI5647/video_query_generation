@@ -1,0 +1,123 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with a sling on his left arm",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a couch, holding a piece of paper, and gesturing with his right hand"
+      },
+      {
+        "person": "a man in a dark blue shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "sitting on a couch, looking forward, and listening"
+      },
+      {
+        "person": "a woman in a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on a couch, looking forward, and gesturing with her hands"
+      },
+      {
+        "person": "a man in a grey shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing behind the couch, leaning forward, and looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch, a kitchen area in the background, and various household items on shelves and counters."
+    },
+    "objects": [
+      {
+        "object": "a couch",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being sat on by three people"
+      },
+      {
+        "object": "a piece of paper",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "held by the man with the sling"
+      },
+      {
+        "object": "a sling",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "on the man's left arm"
+      }
+    ],
+    "interactions": [
+      "The man with the sling gestures with his right hand while holding a paper.",
+      "The woman in the white shirt gestures with her hands as she speaks."
+    ],
+    "key_actions": [
+      "The man with the sling gestures with his right hand.",
+      "The woman in the white shirt gestures with her hands."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with a sling on his left arm",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "sitting on a couch",
+        "holding a piece of paper",
+        "gesturing with his right hand"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a dark blue shirt",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "sitting on a couch",
+        "looking forward"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a woman in a white shirt",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "sitting on a couch",
+        "gesturing with her hands"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a grey shirt",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "standing behind the couch",
+        "leaning forward"
+      ],
+      "gaze": "down"
+    }
+  ],
+  "audio_description": "A woman speaks, followed by a man speaking, and then a loud, sustained electronic tone.",
+  "temporal_description": "A woman speaks, then a man speaks, and finally a loud, sustained electronic tone begins and continues until the end of the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with a sling on his left arm\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting on a couch, holding a piece of paper, and gesturing with his right hand\"}, {\"person\": \"a man in a dark blue shirt\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"sitting on a couch, looking forward, and listening\"}, {\"person\": \"a woman in a white shirt\", \"visibility\": \"clear"
+}

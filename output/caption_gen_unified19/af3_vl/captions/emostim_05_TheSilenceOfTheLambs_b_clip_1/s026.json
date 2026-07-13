@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "A person wearing gloves holds a surgical instrument near a patient’s exposed body part, while another gloved hand steadies the area. A man with glasses and a white shirt looks upward, his mouth slightly open, as another person’s arm moves across the frame. The scene is clinical, with muted lighting and a focus on the medical procedure.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a slightly breathy quality, speaking at a moderate pace with a neutral prosody.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing gloves holds a surgical instrument near a patient’s exposed body part, while another gloved hand steadies the area. A man with glasses and a white shirt looks upward, his mouth slightly open, as another person’s arm moves across the frame. The scene is clinical, with muted lighting and a focus on the medical procedure.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

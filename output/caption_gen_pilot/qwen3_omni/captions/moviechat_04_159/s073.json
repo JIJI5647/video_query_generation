@@ -1,0 +1,42 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s073",
+  "time_range": [
+    360.0,
+    365.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a patterned shirt",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and moving towards a door"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit, cluttered room with tiled walls and a metal table in the foreground."
+    },
+    "objects": [
+      {
+        "object": "a metal table",
+        "position": "foreground",
+        "action": "stationary"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the patterned shirt moves towards a dark door."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A rhythmic, percussive beat plays in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s073\", \"time_range\": [360.0, 365.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a patterned shirt\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"standing and moving towards a door\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dimly lit, cluttered room with tiled walls and a metal table in the foreground.\"}, \"objects\": [{\"object\": \"a metal table\", \"position\": \"foreground\", \"action\": \"stationary\"}], \"interactions\": [], \"key_actions\": ["
+}

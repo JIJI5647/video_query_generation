@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_description": "A man with dark hair and a wet face sits in the passenger seat of a car, looking intently at another man whose profile is visible on the left. Both men appear sweaty and tense, with the passenger leaning forward slightly while the other rests his hand near the passenger's neck. The dim interior lighting highlights their strained expressions.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A tense, hushed exchange is audible, with the men speaking closely together.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s046\", \"time_range\": [225.0, 230.0], \"visual\": \"A man with dark hair and a wet face sits in the passenger seat of a car, looking intently at another man whose profile is visible on the left. Both men appear sweaty and tense, with the passenger leaning forward slightly while the other rests his hand near the passenger's neck. The dim interior lighting highlights their strained expressions.\", \"audio\": \"A tense, hushed exchange is audible, with the men speaking closely together.\", \""
+}

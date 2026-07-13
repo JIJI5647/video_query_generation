@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation, accompanied by a quiet background.",
+  "temporal_description": "A man with short dark hair and a mustache, wearing a dark suit, is seated and smoking a cigarette, exhaling smoke as he looks downward. Another man, also in a dark suit and wearing glasses, is standing and holding a briefcase, looking down at it before lifting it slightly. The scene is dimly lit with a dark background, and smoke drifts through the air. The seated man’s gaze shifts slightly, and the standing man’s posture remains mostly still as he interacts with the briefcase.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair and a mustache, wearing a dark suit, is seated and smoking a cigarette, exhaling smoke as he looks downward. Another man, also in a dark suit and wearing glasses, is standing and holding a briefcase, looking down at it before lifting it slightly. The scene is dimly lit with a dark background, and smoke drifts through the air. The seated man’s gaze shifts slightly, and the standing man’s posture remains mostly still as he interacts with the briefcase.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

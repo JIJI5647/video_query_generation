@@ -1,0 +1,58 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "being held by the neck by an adult man, looking at the man with a distressed expression"
+      },
+      {
+        "person": "an adult man",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "holding the young boy by the neck"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, dark background"
+    },
+    "objects": [],
+    "interactions": [
+      "The adult man is holding the young boy by the neck."
+    ],
+    "key_actions": [
+      "The adult man holds the young boy by the neck.",
+      "The young boy looks at the adult man with a distressed expression."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "tears are visible on his face",
+        "his mouth is slightly open",
+        "his eyes are wide"
+      ],
+      "body_cues": [
+        "his head is tilted back slightly"
+      ],
+      "gaze": "looking at the adult man"
+    }
+  ],
+  "audio_description": "A child is crying and whimpering.",
+  "temporal_description": "The child's crying and whimpering continue throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual_objective\": {\"people\": [{\"person\": \"a young boy with blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"being held by the neck by an adult man, looking at the man with a distressed expression\"}, {\"person\": \"an adult man\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"holding the young boy by the neck\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, dark background\"}, \"obje"
+}

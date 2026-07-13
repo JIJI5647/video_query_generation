@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A person with wet hair is seen from a low angle, their face partially illuminated as they raise their arm, possibly adjusting something above them. The scene is dimly lit, with shadows cast across the walls and ceiling, suggesting an enclosed space. Their gaze is directed upward, and their posture is slightly bent forward as they interact with an unseen object or surface.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a slightly breathy quality, speaking at a moderate pace with a neutral prosody.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with wet hair is seen from a low angle, their face partially illuminated as they raise their arm, possibly adjusting something above them. The scene is dimly lit, with shadows cast across the walls and ceiling, suggesting an enclosed space. Their gaze is directed upward, and their posture is slightly bent forward as they interact with an unseen object or surface.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

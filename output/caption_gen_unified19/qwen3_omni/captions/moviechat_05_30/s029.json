@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_description": "A man is lying on a dark wooden floor, his head and arms visible above a low barrier. He is wearing a dark sweater with a light-colored pattern on the sleeves. He looks up with a strained expression, his hands clasped together in front of him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The man is breathing heavily and audibly. He speaks in a strained voice.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s029\", \"time_range\": [140.0, 145.0], \"visual\": \"A man is lying on a dark wooden floor, his head and arms visible above a low barrier. He is wearing a dark sweater with a light-colored pattern on the sleeves. He looks up with a strained expression, his hands clasped together in front of him.\", \"audio\": \"The man is breathing heavily and audibly. He speaks in a strained voice.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

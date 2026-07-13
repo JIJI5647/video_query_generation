@@ -1,0 +1,101 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in dark robes",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being violently thrown backward through a wall, arms flailing, face contorted in pain or exertion."
+      },
+      {
+        "person": "a young man in a brown jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running down a stone staircase, looking back over his shoulder with a concerned expression."
+      },
+      {
+        "person": "a young woman with blonde hair",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "running down a stone staircase, looking forward."
+      },
+      {
+        "person": "a young man with dark hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "running down a stone staircase, looking forward."
+      }
+    ],
+    "scene": {
+      "location": "indoor stone corridor",
+      "setting": "a dark, ancient-looking stone corridor with arches and a staircase, filled with flying debris."
+    },
+    "objects": [
+      {
+        "object": "a stone wall",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "shattering and breaking apart."
+      },
+      {
+        "object": "debris",
+        "visibility": "clearly visible",
+        "position": "air",
+        "action": "flying through the air."
+      },
+      {
+        "object": "a metal gate",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "hanging from a chain, swaying."
+      }
+    ],
+    "interactions": [
+      "The man in dark robes is being propelled through the wall.",
+      "The people on the staircase are running away from the destruction."
+    ],
+    "key_actions": [
+      "A man is thrown through a wall.",
+      "People run down a staircase."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in dark robes",
+      "facial_cues": [
+        "face contorted",
+        "mouth open"
+      ],
+      "body_cues": [
+        "arms flailing",
+        "body thrown backward"
+      ],
+      "gaze": "unclear"
+    },
+    {
+      "person": "a young man in a brown jacket",
+      "facial_cues": [
+        "concerned expression"
+      ],
+      "body_cues": [
+        "running",
+        "looking back"
+      ],
+      "gaze": "over shoulder"
+    }
+  ],
+  "audio_description": "A loud, dramatic crash is followed by a high-pitched, sustained screech.",
+  "temporal_description": "The crash and screech occur at the beginning of the clip and continue throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s042\", \"time_range\": [205.0, 210.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in dark robes\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"being violently thrown backward through a wall, arms flailing, face contorted in pain or exertion.\"}, {\"person\": \"a young man in a brown jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"running down a stone staircase, looking back over his shoulder with a concerned expression.\"}, {\"p"
+}

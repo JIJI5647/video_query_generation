@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_description": "The scene shows a dimly lit, gothic-style interior filled with tall, crowded shelves and vaulted arches, with a narrow aisle leading deeper into the darkness. No people are clearly visible, and the lighting remains extremely low throughout.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent or contains only faint, indistinct ambient noise.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s063\", \"time_range\": [310.0, 315.0], \"visual\": \"The scene shows a dimly lit, gothic-style interior filled with tall, crowded shelves and vaulted arches, with a narrow aisle leading deeper into the darkness. No people are clearly visible, and the lighting remains extremely low throughout.\", \"audio\": \"The audio is silent or contains only faint, indistinct ambient noise.\", \"confidence\": \"medium\", \"evidence_strength\": \"ambiguous\"}"
+}

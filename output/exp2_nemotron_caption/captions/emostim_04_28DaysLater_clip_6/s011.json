@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    54.4
+  ],
+  "visual_description": "The shirtless man wearing dark trousers and a cap stands in a dimly lit hallway beside a wooden door. He turns and walks away from the camera down the narrow corridor, his back illuminated by a faint light. The walls are brick and the space is shadowy.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with only faint ambient sounds, no distinct speech or noise is audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s011\", \"time_range\": [50.0, 54.4], \"visual\": \"The shirtless man wearing dark trousers and a cap stands in a dimly lit hallway beside a wooden door. He turns and walks away from the camera down the narrow corridor, his back illuminated by a faint light. The walls are brick and the space is shadowy.\", \"audio\": \"The audio is quiet with only faint ambient sounds, no distinct speech or noise is audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

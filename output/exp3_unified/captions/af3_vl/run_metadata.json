@@ -1,0 +1,49 @@
+{
+  "caption_model": "af3_vl",
+  "model_kind": "audio_video",
+  "non_commercial": true,
+  "video_dir": "data/pilot_study",
+  "num_videos": 5,
+  "num_segments": 102,
+  "num_captions": 102,
+  "total_seconds": 328.9,
+  "segment_seconds": 5.0,
+  "stride": 5.0,
+  "per_video": [
+    {
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "num_segments": 31,
+      "num_cached": 0,
+      "seconds": 103.6
+    },
+    {
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "num_segments": 23,
+      "num_cached": 0,
+      "seconds": 80.8
+    },
+    {
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "num_segments": 23,
+      "num_cached": 0,
+      "seconds": 63.9
+    },
+    {
+      "video_id": "meld_01_dia337",
+      "num_segments": 14,
+      "num_cached": 0,
+      "seconds": 43.8
+    },
+    {
+      "video_id": "meld_03_dia572",
+      "num_segments": 11,
+      "num_cached": 0,
+      "seconds": 34.2
+    }
+  ],
+  "model_paths": {
+    "caption_model_path": null,
+    "audio_model_path": "nvidia/audio-flamingo-3-hf",
+    "video_model_path": "Qwen/Qwen3-VL-8B-Instruct"
+  }
+}

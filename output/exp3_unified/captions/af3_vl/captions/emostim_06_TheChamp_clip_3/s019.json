@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A young child with light-colored hair is held close by an older adult with curly hair, both facing each other in a dimly lit setting. The child looks up toward the adult, their head slightly tilted, while the adult leans in, their face partially visible and turned toward the child. The child’s gaze is directed at the adult, and the adult’s posture suggests closeness and attentiveness.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and moderate speed, followed by a male voice with a lower pitch and slower pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair is held close by an older adult with curly hair, both facing each other in a dimly lit setting. The child looks up toward the adult, their head slightly tilted, while the adult leans in, their face partially visible and turned toward the child. The child’s gaze is directed at the adult, and the adult’s posture suggests closeness and attentiveness.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

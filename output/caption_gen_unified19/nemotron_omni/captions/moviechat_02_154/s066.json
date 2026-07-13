@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_description": "A man in a suit appears in dim red lighting, his face partially illuminated, looking upward with a serious expression. The scene shifts to a different man lying on a couch, his mouth taped and bound with rope, eyes wide with alarm. Finally, a woman in a striped shirt stands in a dimly lit room, holding a phone to her ear near a lamp.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s066\", \"time_range\": [325.0, 330.0], \"visual\": \"A man in a suit appears in dim red lighting, his face partially illuminated, looking upward with a serious expression. The scene shifts to a different man lying on a couch, his mouth taped and bound with rope, eyes wide with alarm. Finally, a woman in a striped shirt stands in a dimly lit room, holding a phone to her ear near a lamp.\", \"audio\": \"Audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

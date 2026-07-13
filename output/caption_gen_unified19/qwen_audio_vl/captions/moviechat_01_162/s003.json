@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a dark suit aims a handgun forward, his face focused and expression neutral. Behind him, another man in a suit stands alert, while a third man in a light jacket crouches near a car, both appearing tense. The scene is set outdoors near a building with a metallic facade, and a person lies motionless on the ground nearby.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a synthesized orchestral arrangement, featuring a lush, reverberant string section that plays a slow, legato melody in a major key. The harmony is simple and consonant, with a gentle, descending melodic contour that evokes a sense of nostalgia and warmth. The music is entirely electronic, with no acoustic instruments, and is characterized by a wide stereo image, where violins are panned left and cellos right, creating a spacious, cinematic atmosphere. The sound is clean and polished, with no background noise or environmental sounds, and the music is abruptly cut off mid-phrase, leaving a sudden silence. Immediately following the cutoff, a loud, harsh electronic buzzer tone erupts. This buzzer is a low-frequency, dissonant chord composed of at least three closely spaced pitches, producing a grating, metallic timbre reminiscent of a sawtooth or square wave. The buzzer is centered in the stereo field, with no spatial effects, and is presented at a much higher volume than the preceding music. It is sustained for a brief moment before the audio ends, with no fade-out or lingering resonance. Throughout the clip, there is no speech, vocalization, or environmental sound; the only content is the synthesized orchest",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit aims a handgun forward, his face focused and expression neutral. Behind him, another man in a suit stands alert, while a third man in a light jacket crouches near a car, both appearing tense. The scene is set outdoors near a building with a metallic facade, and a person lies motionless on the ground nearby.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

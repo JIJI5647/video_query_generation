@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by background music and occasional non-speech sounds, creating a lively atmosphere.",
+  "temporal_description": "A man in a brown suit is riding a bicycle on a dirt road, then he falls off and walks away from the bike. He continues walking down the road, passing by a white pickup truck parked near a building. The man walks toward the truck, and the camera follows him as he approaches it.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a brown suit is riding a bicycle on a dirt road, then he falls off and walks away from the bike. He continues walking down the road, passing by a white pickup truck parked near a building. The man walks toward the truck, and the camera follows him as he approaches it.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

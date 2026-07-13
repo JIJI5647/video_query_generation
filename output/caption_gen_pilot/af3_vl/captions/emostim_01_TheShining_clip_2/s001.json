@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A young child with short, light-colored hair stands in a dimly lit room, holding a large knife with both hands. The child is wearing a striped sweater and is positioned in front of a wooden dresser, looking down at the knife. The room contains a vintage television set, a lamp with a warm glow, curtains, and various items on the dresser, including a vase with flowers and some small objects. The child’s posture is upright, and their gaze is fixed on the knife, suggesting focused attention on the object.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with short, light-colored hair stands in a dimly lit room, holding a large knife with both hands. The child is wearing a striped sweater and is positioned in front of a wooden dresser, looking down at the knife. The room contains a vintage television set, a lamp with a warm glow, curtains, and various items on the dresser, including a vase with flowers and some small objects. The child’s posture is upright, and their gaze is fixed on the knife, suggesting focused attention on the o",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

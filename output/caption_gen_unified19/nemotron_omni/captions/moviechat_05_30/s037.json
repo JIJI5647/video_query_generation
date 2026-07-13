@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_description": "In a dark, narrow passage, a small figure in dark clothing runs between rows of armored soldiers who stand in formation holding shields and weapons. The view widens to show a massive, muscular figure with a helmet standing among the troops while a smaller individual crouches nearby. Torches flicker in the background, casting dim light over the dense crowd of soldiers.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is dominated by faint ambient sounds with occasional metallic clanking and low murmurs.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s037\", \"time_range\": [180.0, 185.0], \"visual\": \"In a dark, narrow passage, a small figure in dark clothing runs between rows of armored soldiers who stand in formation holding shields and weapons. The view widens to show a massive, muscular figure with a helmet standing among the troops while a smaller individual crouches nearby. Torches flicker in the background, casting dim light over the dense crowd of soldiers.\", \"audio\": \"The audio is dominated by faint ambient sounds with o"
+}

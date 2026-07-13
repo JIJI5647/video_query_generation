@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_description": "A person in dark clothing stands with their back to the camera, manipulating tangled ropes and a wooden box on a table beside a large metal armillary sphere in a dimly lit room. The person's hands move deliberately as they adjust the ropes and open the box.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is mostly silent with faint rustling sounds as the person handles the objects.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s078\", \"time_range\": [385.0, 390.0], \"visual\": \"A person in dark clothing stands with their back to the camera, manipulating tangled ropes and a wooden box on a table beside a large metal armillary sphere in a dimly lit room. The person's hands move deliberately as they adjust the ropes and open the box.\", \"audio\": \"The audio is mostly silent with faint rustling sounds as the person handles the objects.\", \"confidence\": \"medium\", \"evidence_strength\": \"ambiguous\"}"
+}

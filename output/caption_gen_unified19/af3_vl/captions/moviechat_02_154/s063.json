@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_description": "A man in a beige jacket walks down a narrow hallway flanked by storefronts, glancing at his wristwatch while another man in a patterned shirt follows behind. The camera then cuts to a close-up of a man with a shaved head looking intently at fish swimming in aquariums lined up along a wall. The scene is dimly lit with artificial lighting, and the men appear focused on their respective tasks.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace and pitch, accompanied by a consistent background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a beige jacket walks down a narrow hallway flanked by storefronts, glancing at his wristwatch while another man in a patterned shirt follows behind. The camera then cuts to a close-up of a man with a shaved head looking intently at fish swimming in aquariums lined up along a wall. The scene is dimly lit with artificial lighting, and the men appear focused on their respective tasks.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

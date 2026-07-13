@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_description": "Two men are visible inside a car, one seated in the driver’s seat and the other leaning in close from the passenger side. The man in the driver’s seat is looking forward with his head slightly turned, while the other man leans in, his face close to the driver’s, appearing to speak or gesture toward him. The interior of the car is dimly lit, with visible reflections and shadows on the windows and seats.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate pace, accompanied by heavy breathing and a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are visible inside a car, one seated in the driver’s seat and the other leaning in close from the passenger side. The man in the driver’s seat is looking forward with his head slightly turned, while the other man leans in, his face close to the driver’s, appearing to speak or gesture toward him. The interior of the car is dimly lit, with visible reflections and shadows on the windows and seats.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

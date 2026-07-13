@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_description": "A man in a brown suit walks across a grassy area toward a white pickup truck parked beside a beige building with a metal gate. He passes through the open gate and enters a dimly lit interior space. Inside, the room is cluttered with chairs, tables, and various items, illuminated only by faint light from a window.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible sound is present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s020\", \"time_range\": [95.0, 100.0], \"visual\": \"A man in a brown suit walks across a grassy area toward a white pickup truck parked beside a beige building with a metal gate. He passes through the open gate and enters a dimly lit interior space. Inside, the room is cluttered with chairs, tables, and various items, illuminated only by faint light from a window.\", \"audio\": \"No audible sound is present.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

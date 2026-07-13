@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip is a 5-second excerpt from a Mandarin-language news broadcast, most likely originating from Taiwan. It features a single, professionally trained female news anchor speaking in Standard Mandarin with a clear, neutral, and formal tone. Her delivery is measured and precise, with no emotional inflection, and she is positioned centrally in the stereo field, indicating a studio or broadcast booth setting.\n\nThe content of her report is a brief, factual update on a recent violent incident: \"At 5 p.m., a shooting occurred in the Shanghuan District. Three perpetrators died. Additionally, there are...\" The sentence is abruptly cut off mid-word, suggesting the clip is an excerpt from a longer broadcast.\n\nThe audio quality is high, with a wide frequency range and minimal background noise. A subtle, low-frequency hum is present, likely from studio equipment, and a faint, high-frequency hiss is audible during pauses. The anchor’s voice is clear and well-articulated, with no distortion or clipping. The acoustic environment is dry and controlled, with no reverberation or ambient sounds, reinforcing the impression of a professional studio.\n\nNo music, sound effects, or other voices are present. The only non-speech sound is a brief, sharp, high-frequency click at the very beginning, possibly a technical artifact or a cue from the broadcast system.\n\nCulturally, the use of Standard Mandarin, the formal news delivery style, and the reference to a specific district (\"Shanghuan\") point to a Taiwanese news context. The report’s brevity and factual tone are consistent with a breaking news update, likely intended for a general audience.\n\nIn summary, the audio is a professionally produced, high-fidelity excerpt from a Taiwanese Mandarin-language news broadcast, reporting on a recent shooting incident in the Shanghuan District, with the anchor’s voice and the controlled studio environment being the defining features.",
+  "temporal_description": "A group of individuals, mostly men, are seen from behind, standing in an office environment with desks, filing cabinets, and glass partitions. They are dressed in light-colored shirts and dark pants, some with suspenders, and are facing toward a television screen mounted on the wall. Their postures are upright and attentive, suggesting they are focused on the content being displayed. The room is lit by overhead pendant lights, and the scene appears to be set during the day, with natural light coming through windows.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of individuals, mostly men, are seen from behind, standing in an office environment with desks, filing cabinets, and glass partitions. They are dressed in light-colored shirts and dark pants, some with suspenders, and are facing toward a television screen mounted on the wall. Their postures are upright and attentive, suggesting they are focused on the content being displayed. The room is lit by overhead pendant lights, and the scene appears to be set during the day, with natural light co",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man with glasses and a patterned bow tie is shown in a close-up, looking downward. A hand holds a metal tool over a tray containing various small items, including a tube with red stripes. The background includes a tiled wall and a wooden door frame.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched metallic click, immediately followed by a brief, low-frequency thud, both occurring in a quiet, acoustically dry environment. These sounds are consistent with the operation of a small mechanical device, such as a latch or switch, likely made of metal and plastic. The click is percussive and clean, while the thud is softer and more resonant, suggesting a lightweight object being set down or a mechanism engaging. The recording is of high fidelity, with no background noise or distortion, and the sounds are captured with close-mic clarity. Following this, a rapid, rhythmic scraping sound emerges, characterized by a dry, scratchy texture and a steady tempo of about 100 beats per minute. The sound is produced by a hard, fibrous object—most likely a stiff-bristled brush or a coarse cleaning tool—being moved back and forth across a hard, non-metallic surface such as wood or laminate. The scraping is consistent in rhythm and intensity, with no evidence of variation or irregularity, indicating a controlled, deliberate action. The acoustic environment remains dry and intimate, with no reverberation or ambient noise, suggesting the recording was made in a small, well-dampened room",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with glasses and a patterned bow tie is shown in a close-up, looking downward. A hand holds a metal tool over a tray containing various small items, including a tube with red stripes. The background includes a tiled wall and a wooden door frame.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

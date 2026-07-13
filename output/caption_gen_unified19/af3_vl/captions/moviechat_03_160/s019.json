@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A man in a suit stands behind a glass partition, looking toward the camera with a neutral expression. Another man in a light blue shirt and tie adjusts his lanyard while standing near a camera setup beside a window with blinds. Both are indoors under dim lighting, with the second man partially turned away, his gaze directed downward as he handles his lanyard.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate pace, speaking in a neutral tone without any noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit stands behind a glass partition, looking toward the camera with a neutral expression. Another man in a light blue shirt and tie adjusts his lanyard while standing near a camera setup beside a window with blinds. Both are indoors under dim lighting, with the second man partially turned away, his gaze directed downward as he handles his lanyard.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

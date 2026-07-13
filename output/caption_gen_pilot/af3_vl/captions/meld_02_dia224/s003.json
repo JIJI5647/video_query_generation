@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a clear, neutral tone and moderate pace, engaging in a brief conversation about the Knicks.",
+  "temporal_description": "Two men are seated on a brown couch in what appears to be a café or lounge setting. The man on the left wears a red shirt with a dark collar and gestures with his right hand while speaking, his gaze directed toward the other man. The man on the right, wearing a light blue polo shirt, listens attentively, occasionally nodding and moving his hands slightly as he responds. In the background, other patrons and furniture, including a green decorative column and a small table with a vase of yellow flowers, are visible. Both men remain seated throughout the clip, maintaining a relaxed posture.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated on a brown couch in what appears to be a café or lounge setting. The man on the left wears a red shirt with a dark collar and gestures with his right hand while speaking, his gaze directed toward the other man. The man on the right, wearing a light blue polo shirt, listens attentively, occasionally nodding and moving his hands slightly as he responds. In the background, other patrons and furniture, including a green decorative column and a small table with a vase of yellow flo",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

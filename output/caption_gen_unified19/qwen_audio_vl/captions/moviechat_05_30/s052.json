@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_description": "A person with dark hair and glasses, wearing a jacket over a collared shirt, stands in a dimly lit, arched stone corridor, looking forward with their mouth slightly open. The scene shifts to show the same person from behind, walking away down a long, narrow stone hallway flanked by tall columns. The environment is shadowy, with muted lighting and ancient architectural details visible throughout.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful orchestral chord, immediately establishing a dramatic and cinematic atmosphere. The ensemble is rich and full, featuring a powerful brass section—likely trumpets and horns—supported by a deep, resonant string section and a thunderous timpani roll. The chord is harmonically complex, with a minor tonality and a dissonant, unresolved quality that evokes tension and anticipation. The sound is enveloped in a lush, artificial reverb, simulating a grand concert hall or film scoring stage, and the stereo field is wide, with brass and strings spread across the left and right channels. The recording is pristine, with no background noise, hiss, or distortion, and the dynamic range is compressed for maximum impact. This orchestral introduction is reminiscent of classic Hollywood film scores, particularly those of John Williams, and is designed to evoke a sense of epic scale and gravity. At the climax of the chord, the orchestral sound is abruptly cut off, with no natural decay or fade. This hard edit is immediately followed by a loud, synthetic electronic tone—a low-frequency, buzzy square wave at approximately 110 Hz (A2). The tone is dry, centered in the stereo field, and completely devoid",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair and glasses, wearing a jacket over a collared shirt, stands in a dimly lit, arched stone corridor, looking forward with their mouth slightly open. The scene shifts to show the same person from behind, walking away down a long, narrow stone hallway flanked by tall columns. The environment is shadowy, with muted lighting and ancient architectural details visible throughout.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "In a dimly lit, rocky terrain, faint silhouettes of people are barely visible, moving toward a distant illuminated structure. Their forms are indistinct due to low light, making specific appearances, gestures, or facial cues unobservable. The scene is dominated by darkness with only scattered lights from the distant building providing minimal visibility.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a powerful, low-frequency synthesized bass drone that immediately establishes a sense of tension and anticipation. This drone is accompanied by a high-pitched, metallic, and shimmering synthesized pad, which adds a sense of vastness and suspense. The stereo field is wide and immersive, with the bass centered and the shimmering pad enveloping the listener. The atmosphere is dark, ominous, and cinematic, evoking a sense of impending action or revelation. Shortly after, a rapid, rhythmic synthesized arpeggio enters, panned to the left channel. This arpeggio is bright, percussive, and metallic, with a fast, repeating pattern that creates a sense of urgency and forward momentum. The bass drone and shimmering pad continue to provide a foundation, while the arpeggio intensifies the feeling of anticipation. As the clip progresses, a deep, resonant percussive hit—reminiscent of a cinematic impact or a large drum—enters, centered in the stereo field. This hit is accompanied by a sweeping, rising synthesized riser that builds tension and signals an imminent climax. The riser is layered with a high-frequency, metallic whoosh, further amplifying the sense of anticipation and scale. The tension reaches its peak",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, rocky terrain, faint silhouettes of people are barely visible, moving toward a distant illuminated structure. Their forms are indistinct due to low light, making specific appearances, gestures, or facial cues unobservable. The scene is dominated by darkness with only scattered lights from the distant building providing minimal visibility.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

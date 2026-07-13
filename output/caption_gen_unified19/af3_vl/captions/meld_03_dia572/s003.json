@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A woman lies in a hospital bed covered with a pink blanket, holding a pillow, while a man in a beige jacket kneels beside her, leaning forward with his hand on the bed. Another man in a plaid shirt stands behind the bed, leaning over and appearing to assist or interact with the woman. Medical equipment, including an IV stand and monitors, is visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, accompanied by a female voice with a low pitch and slow pace. The male voice is loud and intense, while the female voice is soft and subdued.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman lies in a hospital bed covered with a pink blanket, holding a pillow, while a man in a beige jacket kneels beside her, leaning forward with his hand on the bed. Another man in a plaid shirt stands behind the bed, leaning over and appearing to assist or interact with the woman. Medical equipment, including an IV stand and monitors, is visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

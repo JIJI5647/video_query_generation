@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a dark suit sits in the backseat of a car, looking forward with a serious expression. The car is moving through a city at night, passing by illuminated storefronts and street signs. The scene is dimly lit, with reflections visible on the car's windows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, dramatic musical sting plays, creating a tense atmosphere.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"A man in a dark suit sits in the backseat of a car, looking forward with a serious expression. The car is moving through a city at night, passing by illuminated storefronts and street signs. The scene is dimly lit, with reflections visible on the car's windows.\", \"audio\": \"A loud, dramatic musical sting plays, creating a tense atmosphere.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

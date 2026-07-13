@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_description": "A person in a dark, hooded garment is seated at a cluttered table, their back mostly to the camera, manipulating a wooden box. Surrounding them are various objects including a large armillary sphere, ropes, and other mechanical or navigational instruments. The scene is dimly lit, with shadows dominating the space, and the person’s hands are the most visible part of their body as they work.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable sigh at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark, hooded garment is seated at a cluttered table, their back mostly to the camera, manipulating a wooden box. Surrounding them are various objects including a large armillary sphere, ropes, and other mechanical or navigational instruments. The scene is dimly lit, with shadows dominating the space, and the person’s hands are the most visible part of their body as they work.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

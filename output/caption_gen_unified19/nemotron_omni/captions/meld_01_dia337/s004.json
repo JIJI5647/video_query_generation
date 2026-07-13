@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "The man in a blue plaid shirt bends over near a couch, then stands up holding a small object. He looks toward a man in a pink plaid shirt who is facing him. The two men appear to be engaged in a conversation in a living room with a framed picture and a door in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "the audio is unclear",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"The man in a blue plaid shirt bends over near a couch, then stands up holding a small object. He looks toward a man in a pink plaid shirt who is facing him. The two men appear to be engaged in a conversation in a living room with a framed picture and a door in the background.\", \"audio\": \"the audio is unclear\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

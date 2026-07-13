@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "A disheveled man with a scar on his forehead peers through a jagged opening in a pale yellow door, grinning widely with his teeth exposed. He then grips a wooden bat, raising it as if to strike, before his hand reaches for the door's brass knob and pulls the door shut.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "He laughs maniacally as he looks through the broken door. The door is then closed with a firm thud.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s027\", \"time_range\": [130.0, 135.0], \"visual\": \"A disheveled man with a scar on his forehead peers through a jagged opening in a pale yellow door, grinning widely with his teeth exposed. He then grips a wooden bat, raising it as if to strike, before his hand reaches for the door's brass knob and pulls the door shut.\", \"audio\": \"He laughs maniacally as he looks through the broken door. The door is then closed with a firm thud.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

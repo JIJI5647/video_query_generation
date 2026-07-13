@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_description": "In a dimly lit, cluttered room filled with broken furniture and stacked frames, a man with round glasses looks up with a startled expression. Another person in a dark coat reaches toward a large framed object while shouting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud male shout is heard, matching the angry subtitle displayed on screen.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s093\", \"time_range\": [460.0, 465.0], \"visual\": \"In a dimly lit, cluttered room filled with broken furniture and stacked frames, a man with round glasses looks up with a startled expression. Another person in a dark coat reaches toward a large framed object while shouting.\", \"audio\": \"A loud male shout is heard, matching the angry subtitle displayed on screen.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a clear, uninterrupted voice with a neutral tone and moderate pace, accompanied by a faint background hum.",
+  "temporal_description": "In a dimly lit, cavernous space with dark, textured walls and a wet floor, two individuals stand close together, facing each other. The person on the left has reddish-brown hair and is wearing a dark jacket, while the person on the right has darker hair and is dressed in a dark top with a red collar. They are embracing, with their heads tilted toward one another, and their eyes appear to be closed. Their posture is intimate and still, suggesting a moment of closeness or connection. The environment is shadowy and atmospheric, with no other visible objects or movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, cavernous space with dark, textured walls and a wet floor, two individuals stand close together, facing each other. The person on the left has reddish-brown hair and is wearing a dark jacket, while the person on the right has darker hair and is dressed in a dark top with a red collar. They are embracing, with their heads tilted toward one another, and their eyes appear to be closed. Their posture is intimate and still, suggesting a moment of closeness or connection. The environme",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

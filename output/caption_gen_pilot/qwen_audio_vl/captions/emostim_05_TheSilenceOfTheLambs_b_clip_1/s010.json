@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency rustling sound, likely caused by the movement of clothing or a soft object near the microphone, accompanied by a persistent, low-level electronic hiss characteristic of a consumer-grade recording device. Immediately following, a single adult female voice, speaking in a clear, neutral General American English accent, delivers the phrase: “Star-shaped contact entrance wound over the...” Her speech is measured and precise, with a slightly breathy timbre and a subtle upward inflection at the end, indicating she is mid-sentence and about to continue. The delivery is calm and professional, suggesting she is reading from a prepared document or report, possibly in a forensic or medical context. The room’s acoustics are dry and intimate, with no reverberation or background noise, implying a small, well-furnished space such as a private office or home study. As she begins to say the next word, her voice is abruptly cut off by a sharp, high-pitched electronic beep—a pure sine wave tone typical of a censor bleep or recording device alert. This beep is loud, clear, and digitally clipped, dominating the final moment of the recording and masking any further speech or ambient sound. The recording ends immediately after the beep, with no fade-out or residual noise.\n\nIn summary, the audio captures a brief, focused excerpt of a female professional—likely a forensic pathologist or medical examiner—reading a technical report in a quiet, private setting. The content centers on a star-shaped contact entrance wound, a term used in forensic pathology, and the recording is abruptly interrupted by a censor beep, suggesting intentional redaction or a technical error. The overall atmosphere is clinical and precise, with no extraneous sounds or distractions, and the clip serves as a fragment of a larger, formal documentation process.",
+  "temporal_description": "A woman with shoulder-length brown hair is visible in a close-up shot, her face partially obscured by a blurred foreground object. She is looking downward, then slowly raises her gaze, her eyes moving slightly as she appears to be observing something out of frame. Her posture remains still, and her facial expression is neutral, with her lips slightly parted at times. The background is out of focus, suggesting an indoor setting with muted tones.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair is visible in a close-up shot, her face partially obscured by a blurred foreground object. She is looking downward, then slowly raises her gaze, her eyes moving slightly as she appears to be observing something out of frame. Her posture remains still, and her facial expression is neutral, with her lips slightly parted at times. The background is out of focus, suggesting an indoor setting with muted tones.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "The scene depicts a group of individuals in dark, hooded robes running through a dimly lit, gothic-style courtyard with arched windows and stone architecture. They are moving quickly, suggesting urgency, and appear to be fleeing from something. The environment is chaotic, with flames and smoke rising from a burning structure in the background, casting an orange glow. One person is seen briefly on a bridge-like structure, looking toward the fleeing group, while others are partially obscured by smoke and shadows. The overall setting is dark and ominous, with the architecture suggesting a castle or ancient building.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene depicts a group of individuals in dark, hooded robes running through a dimly lit, gothic-style courtyard with arched windows and stone architecture. They are moving quickly, suggesting urgency, and appear to be fleeing from something. The environment is chaotic, with flames and smoke rising from a burning structure in the background, casting an orange glow. One person is seen briefly on a bridge-like structure, looking toward the fleeing group, while others are partially obscured by sm",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and a distressed tone, accompanied by intermittent crying and heavy breathing, indicating a state of distress or discomfort.",
+  "temporal_description": "A young child with blonde hair, wearing a gray shirt, is being held by an adult whose arms are wrapped around the child's shoulders. The adult is wearing a white shirt with dark sleeves and has a red wheel-like object visible behind them. The child’s hands are clasped together in front of them, and their head is slightly tilted downward. The adult’s hands remain steady on the child’s shoulders throughout the scene, and the child’s gaze is directed forward. The setting appears dimly lit, with the background mostly dark, emphasizing the two figures in the foreground.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with blonde hair, wearing a gray shirt, is being held by an adult whose arms are wrapped around the child's shoulders. The adult is wearing a white shirt with dark sleeves and has a red wheel-like object visible behind them. The child’s hands are clasped together in front of them, and their head is slightly tilted downward. The adult’s hands remain steady on the child’s shoulders throughout the scene, and the child’s gaze is directed forward. The setting appears dimly lit, with the",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a neutral tone and moderate pace, accompanied by a brief pause before the speech begins.",
+  "temporal_description": "Two figures are seen embracing in a dimly lit, cavernous space with dark, textured walls resembling organic or alien structures. They stand close, facing each other, with one’s arms wrapped around the other’s torso. The scene transitions to a wide shot showing a solitary figure standing in the center of a long, dark corridor flanked by similar grotesque, serpentine-like formations, with a faint light source illuminating the distant end. The figure remains still, facing forward, with no discernible movement or gesture.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two figures are seen embracing in a dimly lit, cavernous space with dark, textured walls resembling organic or alien structures. They stand close, facing each other, with one’s arms wrapped around the other’s torso. The scene transitions to a wide shot showing a solitary figure standing in the center of a long, dark corridor flanked by similar grotesque, serpentine-like formations, with a faint light source illuminating the distant end. The figure remains still, facing forward, with no discernib",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A man in a brown suit and red tie is riding a bicycle on a paved road. A white Jeep is driving behind him, and the man turns his head to look back at the vehicle. The scene is set in a rural area with green hills and a clear blue sky in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A rock song with a male vocalist singing in the background. The music is loud and energetic.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A man in a brown suit and red tie is riding a bicycle on a paved road. A white Jeep is driving behind him, and the man turns his head to look back at the vehicle. The scene is set in a rural area with green hills and a clear blue sky in the background.\", \"audio\": \"A rock song with a male vocalist singing in the background. The music is loud and energetic.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

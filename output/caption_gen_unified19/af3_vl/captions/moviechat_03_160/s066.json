@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s066",
+  "time_range": [
+    325.0,
+    330.0
+  ],
+  "visual_description": "In a dimly lit, smoky environment, several individuals in dark uniforms are seen moving quickly, some carrying equipment or weapons. One person is falling or being pulled into water, creating splashes, while others appear to be assisting or reacting to the fall. The scene is chaotic with limited visibility, and faces are mostly obscured or blurred by motion and darkness.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice shouting with a high pitch and loud volume, followed by a brief pause and then a series of rapid, high-pitched shouts.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, smoky environment, several individuals in dark uniforms are seen moving quickly, some carrying equipment or weapons. One person is falling or being pulled into water, creating splashes, while others appear to be assisting or reacting to the fall. The scene is chaotic with limited visibility, and faces are mostly obscured or blurred by motion and darkness.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

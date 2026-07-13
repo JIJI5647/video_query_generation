@@ -1,0 +1,71 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and looking down"
+      },
+      {
+        "person": "a man in a shiny silver and black jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and looking at the man in the black shirt"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with tiled walls and a framed picture in the background, under dim, greenish lighting"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "looking down"
+      ],
+      "body_cues": [],
+      "gaze": "downward"
+    },
+    {
+      "person": "a man in a shiny silver and black jacket",
+      "facial_cues": [
+        "looking forward"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "looking at the man in the black shirt"
+      ],
+      "body_cues": [],
+      "gaze": "at the man in the black shirt"
+    }
+  ],
+  "audio_description": "A male voice speaks in a foreign language, followed by a loud, jarring electronic sound.",
+  "temporal_description": "A man speaks, then a loud electronic sound abruptly begins.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s053\", \"time_range\": [260.0, 265.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and looking down\"}, {\"person\": \"a man in a shiny silver and black jacket\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing and looking forward\"}, {\"person\": \"a man in a light-colored suit\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing and looking a"
+}

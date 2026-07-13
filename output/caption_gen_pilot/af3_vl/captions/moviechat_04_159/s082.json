@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s082",
+  "time_range": [
+    405.0,
+    410.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with clear and steady prosody, accompanied by background music.",
+  "temporal_description": "A man with short dark hair, wearing a light-colored shirt, is seated and focused on a screen in a dimly lit room. He occasionally glances up and shifts his gaze, maintaining a steady posture. Later, he stands near a window with blinds, peering outside while holding a device to his eye, possibly a camera or binoculars. The screen displays technical data, including coordinates and a license identifier, suggesting he is monitoring or tracking something. The scene is dark, with minimal lighting, emphasizing the man’s actions and the screen’s glow.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a light-colored shirt, is seated and focused on a screen in a dimly lit room. He occasionally glances up and shifts his gaze, maintaining a steady posture. Later, he stands near a window with blinds, peering outside while holding a device to his eye, possibly a camera or binoculars. The screen displays technical data, including coordinates and a license identifier, suggesting he is monitoring or tracking something. The scene is dark, with minimal lighting, emp",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

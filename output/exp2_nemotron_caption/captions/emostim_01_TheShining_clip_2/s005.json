@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A person with short hair wearing a striped sweater stands in a dimly lit room holding a knife and facing a closed door. A lit table lamp on a side table and a television set are visible in the background. The person makes slight movements but remains stationary near the door.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is mostly silent with a faint ambient hum and the subtle sound of the person's breathing. There is no audible speech or distinct sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A person with short hair wearing a striped sweater stands in a dimly lit room holding a knife and facing a closed door. A lit table lamp on a side table and a television set are visible in the background. The person makes slight movements but remains stationary near the door.\", \"audio\": \"The audio is mostly silent with a faint ambient hum and the subtle sound of the person's breathing. There is no audible speech or distinct sounds.\", "
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A child with short brown hair, wearing a red and gray striped sweater, stands facing a closed wooden door, holding a red marker and writing on the door. Behind the child, another child lies in bed, covered with a blue blanket and a patterned throw, with their head resting on a pillow. A lamp with a beige lampshade illuminates the room, casting a warm glow. The room has a clock on the wall and a window with curtains in the background. The child writing is focused on their task, occasionally pausing to adjust their grip or position.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short brown hair, wearing a red and gray striped sweater, stands facing a closed wooden door, holding a red marker and writing on the door. Behind the child, another child lies in bed, covered with a blue blanket and a patterned throw, with their head resting on a pillow. A lamp with a beige lampshade illuminates the room, casting a warm glow. The room has a clock on the wall and a window with curtains in the background. The child writing is focused on their task, occasionally pausi",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

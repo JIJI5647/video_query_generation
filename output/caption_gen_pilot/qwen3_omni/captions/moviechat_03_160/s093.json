@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or briefing room with a long table and people gathered around it."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the light blue shirt speaks."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and striped tie",
+      "facial_cues": [
+        "mouth open"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a conversational tone.",
+  "temporal_description": "The man in the light blue shirt speaks throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s093\", \"time_range\": [460.0, 465.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light blue shirt and striped tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and speaking\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office or briefing room with a long table and people gathered around it.\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"The man in the light blue shirt speaks.\"], \"visibility_notes\": \"\"}, \"visual_expr"
+}

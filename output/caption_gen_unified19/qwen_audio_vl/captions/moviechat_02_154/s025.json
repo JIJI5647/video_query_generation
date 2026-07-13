@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_description": "A man with spiky hair, wearing a black jacket over a red shirt and a silver necklace, stands in front of a window with blinds, looking downward. Another man with shoulder-length dark hair, dressed in a dark suit and tie, stands beside him, looking slightly to his right. Both are partially obscured by the blinds, with the second man’s face turned away from the camera.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, steady mechanical hum, characteristic of a large, electrically powered machine operating in a reverberant, enclosed space. The hum is slightly left-of-center in the stereo field and is accompanied by a faint, high-frequency hiss, likely from the recording equipment. The environment is acoustically reflective, suggesting a medium-sized room with hard surfaces such as concrete or tile. No human voices, footsteps, or other ambient sounds are present, indicating a solitary setting. Shortly after the start, a sharp, metallic click is heard, positioned slightly right of center and close to the microphone. This click is followed by a brief, high-pitched squeak, both of which are indicative of a mechanical latch or lever being engaged, possibly as part of a machine’s operational cycle. Immediately after, a heavier, resonant metallic clank occurs, louder and more forceful than the previous sounds, suggesting the engagement of a larger component such as a door or safety mechanism. This is followed by a rapid, high-frequency metallic rattle, likely the result of a spring-loaded part or a small metal object vibrating in response to the mechanical action. The mechanical sequence culminates in a loud, low-frequency thud, centered in the stereo field and reson",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with spiky hair, wearing a black jacket over a red shirt and a silver necklace, stands in front of a window with blinds, looking downward. Another man with shoulder-length dark hair, dressed in a dark suit and tie, stands beside him, looking slightly to his right. Both are partially obscured by the blinds, with the second man’s face turned away from the camera.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

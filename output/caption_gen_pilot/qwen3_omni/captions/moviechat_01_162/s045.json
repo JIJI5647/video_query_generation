@@ -1,0 +1,49 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "leaning back in a car seat, sweating, and speaking"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "dimly lit, nighttime or dark interior"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "speaking",
+      "sweating"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [
+        "sweating",
+        "tense expression"
+      ],
+      "body_cues": [
+        "leaning back in a car seat"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a strained, breathless tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s045\", \"time_range\": [220.0, 225.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"leaning back in a car seat, sweating, and speaking\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"dimly lit, nighttime or dark interior\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"speaking\", \"sweating\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man in a black shirt\", \""
+}

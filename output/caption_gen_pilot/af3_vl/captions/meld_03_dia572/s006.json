@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, followed by a male voice with a neutral tone, both speaking at a moderate pace.",
+  "temporal_description": "In a hospital room, a man in a plaid shirt stands beside a hospital bed, interacting with a brown bag while a woman in a hospital gown lies in the bed, her hand resting on her abdomen. Another man in a beige jacket stands behind a curtain, partially obscuring his view, while a woman in a hospital gown lies in a bed behind him, her arms behind her head. The room contains medical equipment, a bedside table, and curtains separating the beds. The man in the plaid shirt gestures with his hand while speaking, and the woman in the bed looks at him with her hand on her stomach. The man in the beige jacket looks toward the other side of the room, his gaze shifting slightly as he holds the curtain.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a hospital room, a man in a plaid shirt stands beside a hospital bed, interacting with a brown bag while a woman in a hospital gown lies in the bed, her hand resting on her abdomen. Another man in a beige jacket stands behind a curtain, partially obscuring his view, while a woman in a hospital gown lies in a bed behind him, her arms behind her head. The room contains medical equipment, a bedside table, and curtains separating the beds. The man in the plaid shirt gestures with his hand while s",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

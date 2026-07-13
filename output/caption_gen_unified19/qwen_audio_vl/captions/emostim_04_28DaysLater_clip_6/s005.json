@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A person with light-colored hair is seen from a low angle, their face partially illuminated, arms raised and gripping something above. The camera quickly pans to a window with rain streaking down its panes, revealing a dark, snowy night outside. A second person, wearing a dark hooded garment and holding a firearm, is partially visible in the dimly lit room near the window.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a deep, resonant, and rhythmic snoring sound, characterized by a cyclical pattern of inhalation and exhalation. The snore is low-pitched, guttural, and slightly wet, with a pronounced, throaty quality that suggests the presence of mucus or partial airway obstruction. The breathing is slow and regular, with each cycle lasting approximately 2.5 to 3 seconds, and the sound is captured in close proximity, resulting in a dry, intimate acoustic profile. The recording is monophonic, with no stereo separation, and the snoring dominates the soundscape, accompanied only by a faint, steady electronic hiss from the recording device. There are no other environmental noises, speech, or music present, and the setting is inferred to be a quiet, private indoor space, likely a bedroom. At the 4.5-second mark, the snoring is abruptly interrupted by a sharp, high-pitched electronic beep. This beep is synthetic, with a pure, unmodulated tone and a brief, clean attack and decay, lasting about 0.2 seconds. The beep is significantly louder than the preceding snoring and is immediately followed by a short, high-frequency click, likely the result of a",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with light-colored hair is seen from a low angle, their face partially illuminated, arms raised and gripping something above. The camera quickly pans to a window with rain streaking down its panes, revealing a dark, snowy night outside. A second person, wearing a dark hooded garment and holding a firearm, is partially visible in the dimly lit room near the window.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, accompanied by a moderate pace and a neutral prosody, with no significant non-speech sounds.",
+  "temporal_description": "A young man with round glasses and dark hair is shown in close-up, his face partially illuminated in a dimly lit environment. He appears to be looking around cautiously, his gaze shifting slightly as if observing something unseen. The scene transitions to a wide, dark interior space filled with cluttered furniture and a large, gnarled tree-like structure in the center. A small figure, likely the same young man, is seen walking slowly down a narrow path through the cluttered room, moving toward the center of the space.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man with round glasses and dark hair is shown in close-up, his face partially illuminated in a dimly lit environment. He appears to be looking around cautiously, his gaze shifting slightly as if observing something unseen. The scene transitions to a wide, dark interior space filled with cluttered furniture and a large, gnarled tree-like structure in the center. A small figure, likely the same young man, is seen walking slowly down a narrow path through the cluttered room, moving toward t",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

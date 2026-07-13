@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "A man in a dark jacket sits at a table, eating with chopsticks, while another man in a patterned shirt leans forward, also eating. The scene shifts to a nighttime exterior with car headlights illuminating a wet road and tall grass under streetlights. Both individuals are partially lit, with the foreground man looking toward the camera while the other is focused downward on his meal.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, reminiscent of a turnstile or heavy latch, immediately followed by a brief, high-pitched squeak and a low-frequency thud. These sounds suggest the activation of a mechanical device, such as a turnstile or heavy door, and are accompanied by a faint, persistent electronic hiss, indicating a low-fidelity recording environment. The mechanical sequence is quickly overtaken by a dramatic orchestral fanfare, featuring a full brass section—trumpets, trombones, and tuba—playing a bold, ascending motif in a minor key. The brass is supported by a driving, syncopated rhythm from snare and bass drums, with cymbal crashes accentuating the fanfare’s climactic moments. The music is loud, energetic, and highly reverberant, evoking the acoustics of a large concert hall or studio, and is presented in a wide stereo field with the brass centered and percussion spread across the spectrum. The orchestral passage is abruptly cut off mid-phrase, with no natural decay, indicating a hard digital edit. Immediately following the orchestral cutoff, a harsh, low-frequency electronic buzz erupts, characterized by a distorted square or sawtooth waveform. This synthetic sound is static",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark jacket sits at a table, eating with chopsticks, while another man in a patterned shirt leans forward, also eating. The scene shifts to a nighttime exterior with car headlights illuminating a wet road and tall grass under streetlights. Both individuals are partially lit, with the foreground man looking toward the camera while the other is focused downward on his meal.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person wearing gloves",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "using tweezers to extract a dark, worm-like object from a person's mouth"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "medical or dental setting"
+    },
+    "objects": [
+      {
+        "object": "tweezers",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "used to extract an object"
+      }
+    ],
+    "interactions": [
+      "The person uses tweezers to extract a dark, worm-like object from the person's mouth."
+    ],
+    "key_actions": [
+      "Extracting a dark, worm-like object from a person's mouth using tweezers."
+    ],
+    "visibility_notes": "The person's face is partially visible, with the focus on the mouth area."
+  },
+  "visual_expression": [
+    {
+      "person": "a person wearing gloves",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "hands are visible"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A low, sustained musical note plays in the background.",
+  "temporal_description": "The action of extracting the object progresses from start to finish within the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s029\", \"time_range\": [140.0, 145.0], \"visual_objective\": {\"people\": [{\"person\": \"a person wearing gloves\", \"visibility\": \"partially visible\", \"position\": \"foreground\", \"action\": \"using tweezers to extract a dark, worm-like object from a person's mouth\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"medical or dental setting\"}, \"objects\": [{\"object\": \"tweezers\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"used to extract an object\"}], \"interactions\""
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    53.26
+  ],
+  "visual_description": "A woman in a white hospital gown sits on a hospital bed, visibly in distress and crying. A man in a light-colored jacket stands beside her, looking concerned, while a doctor in a white coat attends to her. Another woman in a blue shirt sits in a wheelchair in the foreground, observing the scene.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A woman is crying loudly and audibly, expressing distress.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s011\", \"time_range\": [50.0, 53.26], \"visual\": \"A woman in a white hospital gown sits on a hospital bed, visibly in distress and crying. A man in a light-colored jacket stands beside her, looking concerned, while a doctor in a white coat attends to her. Another woman in a blue shirt sits in a wheelchair in the foreground, observing the scene.\", \"audio\": \"A woman is crying loudly and audibly, expressing distress.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

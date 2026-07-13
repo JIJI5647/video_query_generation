@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s091",
+  "time_range": [
+    450.0,
+    455.0
+  ],
+  "visual_description": "A man in a light blue shirt and striped tie sits in an office chair, holding a blue plastic bag in his right hand. He looks down at the bag, then lifts his gaze, glances to his left, and returns his attention to the bag while adjusting it.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Silence.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s091\", \"time_range\": [450.0, 455.0], \"visual\": \"A man in a light blue shirt and striped tie sits in an office chair, holding a blue plastic bag in his right hand. He looks down at the bag, then lifts his gaze, glances to his left, and returns his attention to the bag while adjusting it.\", \"audio\": \"Silence.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A man in a gray coat stands in a dim stone corridor facing a woman in a dark jacket who extends her hand toward a distant doorway where a figure appears. The scene cuts to a close‑up of two hands reaching toward each other, one wearing a ring. Then the view shifts to a group of armored knights holding spears in a dark, misty setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"A man in a gray coat stands in a dim stone corridor facing a woman in a dark jacket who extends her hand toward a distant doorway where a figure appears. The scene cuts to a close‑up of two hands reaching toward each other, one wearing a ring. Then the view shifts to a group of armored knights holding spears in a dark, misty setting.\", \"audio\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

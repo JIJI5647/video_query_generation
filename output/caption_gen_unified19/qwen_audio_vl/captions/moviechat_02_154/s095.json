@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_description": "A man in a dark suit stands beside a car at night, illuminated by a light source, holding an object near his mouth. He is positioned slightly angled toward the camera, with his head tilted downward as he interacts with the object. The background is dark with faint vegetation visible, and the car’s shiny surface reflects the light.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, immediately followed by a brief, high-frequency rustling sound, both indicative of a small, hard object—likely a metal key or latch—being manipulated and a piece of stiff paper or thin cardboard being handled. These sounds are captured with high clarity and minimal background noise, suggesting a close-microphone setup in a quiet, acoustically neutral environment. The rustling is dry and crisp, with no reverberation, implying the use of a sound-dampened space or a close-mic technique. Following this, a solo harmonica enters, playing a slow, expressive melody in a minor key. The harmonica’s tone is warm and breathy, with a slightly raspy edge, and the performance is marked by gentle vibrato and subtle pitch bends, imparting a mournful, introspective character. The melody is simple and repetitive, consisting of a descending phrase followed by a brief ascending motif, and is performed legato with no percussive attacks. The harmonica’s sound is centered in the stereo field, with no spatial movement, and is accompanied by a faint, persistent electronic hiss, likely from the recording equipment. The harmonica’s notes are sustained and fade naturally, with no abrupt cutoff",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit stands beside a car at night, illuminated by a light source, holding an object near his mouth. He is positioned slightly angled toward the camera, with his head tilted downward as he interacts with the object. The background is dark with faint vegetation visible, and the car’s shiny surface reflects the light.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

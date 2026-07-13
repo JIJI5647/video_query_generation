@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_description": "A person with dark hair and round glasses stands centered in a dim, arched corridor with stone pillars and a misty atmosphere. They are wearing a dark jacket over a layered shirt and appear to be looking forward with a neutral posture. Their gaze is directed straight ahead, and their facial expression remains still without discernible movement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate loudness, speaking at a moderate pace with a slight breathiness and a sigh-like tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair and round glasses stands centered in a dim, arched corridor with stone pillars and a misty atmosphere. They are wearing a dark jacket over a layered shirt and appear to be looking forward with a neutral posture. Their gaze is directed straight ahead, and their facial expression remains still without discernible movement.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

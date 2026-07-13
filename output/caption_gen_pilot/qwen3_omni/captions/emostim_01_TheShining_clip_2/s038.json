@@ -1,0 +1,47 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with dark, messy hair and a beard, wearing a red jacket over a plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing in a doorway, looking down and then up with a strained expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hallway with a light-colored door and a framed picture on the wall"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with dark, messy hair and a beard, wearing a red jacket over a plaid shirt",
+      "facial_cues": [
+        "strained expression",
+        "mouth slightly open",
+        "eyes narrowed"
+      ],
+      "body_cues": [
+        "leaning forward slightly"
+      ],
+      "gaze": "downward, then upward"
+    }
+  ],
+  "audio_description": "A low, sustained, and ominous musical tone plays in the background.",
+  "temporal_description": "The man's expression changes from looking down to looking up with a strained look as the ominous tone continues.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s038\", \"time_range\": [185.0, 190.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with dark, messy hair and a beard, wearing a red jacket over a plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing in a doorway, looking down and then up with a strained expression\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a hallway with a light-colored door and a framed picture on the wall\"}}, \"visual_expression\": [{\"person\": \"a man with dark, me"
+}

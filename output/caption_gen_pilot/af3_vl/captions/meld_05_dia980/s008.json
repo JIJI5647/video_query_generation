@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    39.62
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with clear prosody and no background noise, creating a straightforward and focused auditory experience.",
+  "temporal_description": "Two men are standing in a kitchen, facing each other. The man on the left, wearing a gray sweater, holds a red plastic cup and looks toward the other man. The man on the right, wearing a black jacket over a white shirt, stands with his arms slightly outstretched, facing the other man. Behind them, kitchen cabinets and a refrigerator are visible, with various food items and containers on top of the fridge and shelves. The man in the gray sweater occasionally shifts his gaze and slightly moves the cup, while the man in the black jacket maintains a steady posture, occasionally looking up and down.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are standing in a kitchen, facing each other. The man on the left, wearing a gray sweater, holds a red plastic cup and looks toward the other man. The man on the right, wearing a black jacket over a white shirt, stands with his arms slightly outstretched, facing the other man. Behind them, kitchen cabinets and a refrigerator are visible, with various food items and containers on top of the fridge and shelves. The man in the gray sweater occasionally shifts his gaze and slightly moves the",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

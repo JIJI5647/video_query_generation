@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing a song with a medium pitch and a moderate tempo, accompanied by background music.",
+  "temporal_description": "A group of cyclists is riding in a line on a paved road, with one man in a suit riding a bicycle in the foreground, facing forward. The cyclists are wearing helmets and colorful cycling attire, leaning forward in a racing posture. The background features a clear blue sky and rolling hills with rows of crops or vines. The man in the suit maintains a steady pace, occasionally glancing to the side, while the cyclists behind him pedal vigorously, maintaining their formation.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of cyclists is riding in a line on a paved road, with one man in a suit riding a bicycle in the foreground, facing forward. The cyclists are wearing helmets and colorful cycling attire, leaning forward in a racing posture. The background features a clear blue sky and rolling hills with rows of crops or vines. The man in the suit maintains a steady pace, occasionally glancing to the side, while the cyclists behind him pedal vigorously, maintaining their formation.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

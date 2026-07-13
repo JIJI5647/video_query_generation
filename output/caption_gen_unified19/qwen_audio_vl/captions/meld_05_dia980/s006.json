@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "Two men stand facing each other in a kitchen, one in a gray sweatshirt gesturing with his hands while speaking, the other in a black shirt listening with his back partially turned. The man in gray leans slightly forward, his gaze directed at the other, while the man in black has his hands resting on the counter. The kitchen features wooden cabinets, a stove, and various items on shelves and countertops, with a red cup and a black device on the counter between them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single male voice, speaking in a clear, conversational tone with a General American accent. The speaker is positioned close to the microphone, and the recording is of high fidelity, with no background noise, music, or environmental sounds. The room is acoustically dry, suggesting a small, well-furnished space or a professional studio. The speaker’s delivery is calm, measured, and slightly instructional, with a touch of gentle exasperation. He says, “person. At least you know her name. You just go to the house and you ask for Mary Angela, okay? When—” The phrase “person” is delivered with a subtle sigh. The speaker then reassures and instructs the listener, emphasizing the importance of knowing the woman’s name and providing clear directions to find her. The final word, “When—,” is abruptly cut off mid-syllable, indicating the recording ends suddenly and mid-sentence. Throughout the clip, the speaker’s tone remains steady and controlled, with no escalation or vocal strain. The speech is free of filler words, and the pacing is deliberate, with natural pauses and a slight rise in pitch on “okay?” to signal a question. The content and delivery",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand facing each other in a kitchen, one in a gray sweatshirt gesturing with his hands while speaking, the other in a black shirt listening with his back partially turned. The man in gray leans slightly forward, his gaze directed at the other, while the man in black has his hands resting on the counter. The kitchen features wooden cabinets, a stove, and various items on shelves and countertops, with a red cup and a black device on the counter between them.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

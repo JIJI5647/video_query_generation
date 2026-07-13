@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a latch or small mechanism, immediately followed by a brief, high-pitched electronic beep. These sounds are crisp and close, indicating the microphone is positioned very near the source. A faint, low-frequency hum persists throughout, suggesting the presence of an appliance or HVAC system in the background. The acoustic environment is dry and intimate, with minimal reverberation, pointing to a small, well-furnished room.\n\nA male voice, speaking in a calm, measured, and slightly gravelly tone, addresses someone with the phrase, “No, sir.” His accent is General American, and his delivery is deliberate, with a subtle emphasis on “sir,” indicating respect and a formal, professional relationship. The speaker continues, “That’s a bug cocoon,” his tone remaining neutral and factual, as if explaining an observation to a colleague or client. The phrase is delivered with a slight upward inflection, suggesting a statement of certainty.\n\nA soft, low-frequency rustling sound follows, likely caused by the speaker shifting or handling an object, such as a tool or specimen. The speaker then adds, “There’s no way that could get way down in there,” his voice rising in pitch and volume, conveying a note of incredulity and emphasis. The phrase “way down in there” is spoken with a descending intonation, implying a physical location that is difficult to access. The audio ends abruptly, with no fade-out or additional sounds.\n\nThroughout the clip, the recording quality is high, with clear speech and minimal background noise aside from the persistent hum. The frequency range is broad, capturing both the low hum and the high-frequency click and beep. The speaker’s voice is centered and close, with no spatial movement, and the overall sound is clean and focused.\n\nIn summary, the audio captures a brief, professional exchange in a small, acoustically controlled indoor setting, likely a laboratory or office. A male speaker, using formal language and a measured tone, explains the presence of a bug cocoon and expresses skepticism about its location, suggesting a context of scientific or technical investigation. The recording’s clarity and environmental cues reinforce the impression of a focused, expert discussion in a professional environment.",
+  "temporal_description": "A person with a balding head and glasses, wearing a dark suit and white shirt, is seated and looking upward. In the background, a woman with dark hair is visible, her face out of focus, as she watches the person. The person holds a small glass jar in one hand and uses tweezers in the other to place a dark, elongated insect into the jar. The person’s gaze remains fixed upward, and their posture is upright and still throughout the action.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with a balding head and glasses, wearing a dark suit and white shirt, is seated and looking upward. In the background, a woman with dark hair is visible, her face out of focus, as she watches the person. The person holds a small glass jar in one hand and uses tweezers in the other to place a dark, elongated insect into the jar. The person’s gaze remains fixed upward, and their posture is upright and still throughout the action.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

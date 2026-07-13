@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_description": "A man with messy hair, a beard, wearing a maroon jacket over a plaid shirt and blue jeans stands near a doorway, his mouth open in surprise, then turns and walks toward a white door holding a key, opens it, and enters a bedroom with a lit lamp and bookshelf.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "the audio is unclear",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s046\", \"time_range\": [225.0, 230.0], \"visual\": \"A man with messy hair, a beard, wearing a maroon jacket over a plaid shirt and blue jeans stands near a doorway, his mouth open in surprise, then turns and walks toward a white door holding a key, opens it, and enters a bedroom with a lit lamp and bookshelf.\", \"audio\": \"the audio is unclear\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

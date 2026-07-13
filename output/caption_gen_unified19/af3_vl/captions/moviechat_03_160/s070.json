@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_description": "In a dimly lit, cluttered office with blinds and maps on the walls, several men in casual and formal attire are seated at desks or standing, some facing forward while others are turned toward each other. One man in a suit stands near the back, gesturing with his hand as if speaking, while others appear to be listening or working at their desks with papers and computers. A few individuals are partially obscured by others or by the room’s structure, with one man’s face partially visible as he looks toward the standing man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace with a slight breathiness and a sigh-like pause at the end.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, cluttered office with blinds and maps on the walls, several men in casual and formal attire are seated at desks or standing, some facing forward while others are turned toward each other. One man in a suit stands near the back, gesturing with his hand as if speaking, while others appear to be listening or working at their desks with papers and computers. A few individuals are partially obscured by others or by the room’s structure, with one man’s face partially visible as he look",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

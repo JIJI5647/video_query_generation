@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_description": "A person with long dark hair, wearing a dark jacket and jeans, walks away from the camera down a hallway, carrying a wooden object in their right hand. The scene is dimly lit, showing a vintage refrigerator on the left and a doorway leading to a bedroom with a bed and lamp. The person’s back is to the camera, and they are moving forward with a steady gait, their head slightly tilted downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a dark jacket and jeans, walks away from the camera down a hallway, carrying a wooden object in their right hand. The scene is dimly lit, showing a vintage refrigerator on the left and a doorway leading to a bedroom with a bed and lamp. The person’s back is to the camera, and they are moving forward with a steady gait, their head slightly tilted downward.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

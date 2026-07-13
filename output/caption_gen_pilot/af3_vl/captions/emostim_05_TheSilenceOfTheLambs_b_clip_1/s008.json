@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a clear, uninterrupted voice with a neutral tone and moderate pace, with no background noise or interruptions.",
+  "temporal_description": "A man in a dark suit and tie, wearing glasses, is shown in a static close-up, standing upright with his gaze directed slightly upward. The background features a green-tiled wall and a wooden door frame. The scene then shifts to a blurry, low-angle shot of a woman with brown hair, partially obscured by a blurred foreground object, her face gradually coming into focus as she looks upward. Her gaze remains fixed upward, and her posture is still, with no visible movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie, wearing glasses, is shown in a static close-up, standing upright with his gaze directed slightly upward. The background features a green-tiled wall and a wooden door frame. The scene then shifts to a blurry, low-angle shot of a woman with brown hair, partially obscured by a blurred foreground object, her face gradually coming into focus as she looks upward. Her gaze remains fixed upward, and her posture is still, with no visible movement.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

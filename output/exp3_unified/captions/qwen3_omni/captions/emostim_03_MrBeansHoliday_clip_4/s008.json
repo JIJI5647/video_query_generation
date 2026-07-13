@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A man in a brown suit and red tie is riding a bicycle on a paved road. He is smiling and gives a thumbs-up gesture to the camera. A silver Jeep is driving alongside him, and the background consists of green trees and a clear blue sky.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A rock song with a male vocalist singing in English plays in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual\": \"A man in a brown suit and red tie is riding a bicycle on a paved road. He is smiling and gives a thumbs-up gesture to the camera. A silver Jeep is driving alongside him, and the background consists of green trees and a clear blue sky.\", \"audio\": \"A rock song with a male vocalist singing in English plays in the background.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

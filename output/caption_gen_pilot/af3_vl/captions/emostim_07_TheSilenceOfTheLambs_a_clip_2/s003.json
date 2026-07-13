@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    12.76
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A person with shoulder-length dark hair, wearing a dark green long-sleeved shirt, is seen from behind and then in profile, holding a handgun. They are standing in a dimly lit room with patterned wallpaper and a red light fixture visible in the background. The person aims the gun forward, maintaining a steady posture with both hands gripping the weapon, and their gaze is fixed ahead. Their head is slightly tilted as they hold the gun, and their body remains mostly still throughout the sequence.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with shoulder-length dark hair, wearing a dark green long-sleeved shirt, is seen from behind and then in profile, holding a handgun. They are standing in a dimly lit room with patterned wallpaper and a red light fixture visible in the background. The person aims the gun forward, maintaining a steady posture with both hands gripping the weapon, and their gaze is fixed ahead. Their head is slightly tilted as they hold the gun, and their body remains mostly still throughout the sequence.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

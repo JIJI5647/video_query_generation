@@ -1,0 +1,107 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward with a serious expression"
+      },
+      {
+        "person": "a man in a black V-neck shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and looking forward with a serious expression"
+      },
+      {
+        "person": "a man in a black suit jacket",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking forward with a serious expression"
+      },
+      {
+        "person": "a man with short dark hair",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking forward with a serious expression"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and looking forward with a serious expression"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, featuring a metal security gate in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the light-colored suit jacket turns his head to look forward."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit jacket",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing straight"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a black V-neck shirt",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "",
+      "visibility": "clearly visible",
+      "position": "left",
+      "action": "standing and looking forward with a serious expression"
+    },
+    {
+      "person": "a man in a black suit jacket",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "",
+      "visibility": "clearly visible",
+      "position": "background",
+      "action": "standing and looking forward with a serious expression"
+    },
+    {
+      "person": "a man with short dark hair",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "",
+      "visibility": "clearly visible",
+      "position": "background",
+      "action": "standing and looking forward with a serious expression"
+    },
+    {
+      "person": "a man in a black shirt",
+      "facial_cues": [],
+      "body_cues": [],
+      "gaze": "",
+      "visibility": "clearly visible",
+      "position": "right",
+      "action": "standing and looking forward with a serious expression"
+    }
+  ],
+  "audio_description": "A low, continuous humming sound is present.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s085\", \"time_range\": [420.0, 425.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light-colored suit jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and looking forward with a serious expression\"}, {\"person\": \"a man in a black V-neck shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and looking forward with a serious expression\"}, {\"person\": \"a man in a black suit jacket\", \"visibility\": \"clearly vis"
+}

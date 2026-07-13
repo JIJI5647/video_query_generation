@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "The scene is very dark, with only faint outlines of a person's face and hand barely visible against a shadowy background. A close-up of a woman's eye appears briefly, followed by a hand moving near the face.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is barely audible, consisting of low-level ambient noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "weak",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s007\", \"time_range\": [30, 35], \"visual\": \"The scene is very dark, with only faint outlines of a person's face and hand barely visible against a shadowy background. A close-up of a woman's eye appears briefly, followed by a hand moving near the face.\", \"audio\": \"Audio is barely audible, consisting of low-level ambient noise.\", \"confidence\": \"low\", \"evidence_strength\": \"weak\"}"
+}

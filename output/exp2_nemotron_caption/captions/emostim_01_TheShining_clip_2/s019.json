@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A man with long hair wearing a red jacket stands in a blue-walled hallway and swings a large axe at a wooden door. Later, a woman in a blue robe holds a child in a bedroom and walks toward a door marked with the word REDRUM. The woman looks down at the child while standing near a lit lamp.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual\": \"A man with long hair wearing a red jacket stands in a blue-walled hallway and swings a large axe at a wooden door. Later, a woman in a blue robe holds a child in a bedroom and walks toward a door marked with the word REDRUM. The woman looks down at the child while standing near a lit lamp.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

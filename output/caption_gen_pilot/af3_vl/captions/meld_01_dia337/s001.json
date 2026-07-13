@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, discussing soaps and shampoos in a calm manner.",
+  "temporal_description": "A man in a pink plaid shirt is bent over a bed, appearing to search through items on it, while another man in a blue shirt and light pants stands nearby, facing him. The standing man has his hands in his pockets and occasionally gestures with his right hand. The room has beige walls, a wooden dresser with a framed picture, and a lamp. The man in the plaid shirt looks up briefly, then returns to his task. The standing man remains mostly stationary, occasionally shifting his weight.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a pink plaid shirt is bent over a bed, appearing to search through items on it, while another man in a blue shirt and light pants stands nearby, facing him. The standing man has his hands in his pockets and occasionally gestures with his right hand. The room has beige walls, a wooden dresser with a framed picture, and a lamp. The man in the plaid shirt looks up briefly, then returns to his task. The standing man remains mostly stationary, occasionally shifting his weight.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

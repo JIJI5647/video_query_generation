@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s082",
+  "time_range": [
+    405.0,
+    410.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice shouting with a high pitch and intense emotion, conveying urgency and distress.",
+  "temporal_description": "Two men are in a dimly lit, ornately decorated room with red walls and religious or ceremonial objects, including incense burners and offerings. One man, wearing a dark jacket, is facing the other, who is in a light-colored jacket with a patterned shirt. The man in the dark jacket appears to be speaking or confronting the other, who responds with animated gestures. The scene shifts to a confrontation where the man in the light jacket pulls out a handgun and points it at the other, who then raises his hands defensively. The man in the dark jacket then begins to move away, turning his body and gesturing as if to avoid or deflect. The setting includes a table with a pyramid of round, pink-topped offerings and a vase of white flowers, suggesting a ritual or ceremonial context. The man in the light jacket maintains a firm stance, holding the gun pointed forward, while the other man continues to move backward, appearing to evade or retreat.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are in a dimly lit, ornately decorated room with red walls and religious or ceremonial objects, including incense burners and offerings. One man, wearing a dark jacket, is facing the other, who is in a light-colored jacket with a patterned shirt. The man in the dark jacket appears to be speaking or confronting the other, who responds with animated gestures. The scene shifts to a confrontation where the man in the light jacket pulls out a handgun and points it at the other, who then raise",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

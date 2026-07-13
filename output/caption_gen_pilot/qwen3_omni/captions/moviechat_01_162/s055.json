@@ -1,0 +1,42 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "outdoors",
+      "setting": "a dramatic sky with clouds and a bright light source, possibly sunrise or sunset, with silhouettes of a car and a structure on the left."
+    },
+    "objects": [
+      {
+        "object": "car",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "silhouetted against the sky, appearing to be in motion or tilted."
+      },
+      {
+        "object": "structure",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "silhouetted against the sky, possibly a building or monument."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The car appears to be moving or tilted, and a person's silhouette is superimposed over it."
+    ],
+    "visibility_notes": "The scene is dark, with most elements appearing as silhouettes against a bright sky."
+  },
+  "visual_expression": [],
+  "audio_description": "A female voice is singing a slow, melodic tune.",
+  "temporal_description": "The scene is static with the car and structure in silhouette, while the person's silhouette appears and moves slightly.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s055\", \"time_range\": [270.0, 275.0], \"visual_objective\": {\"people\": [], \"scene\": {\"location\": \"outdoors\", \"setting\": \"a dramatic sky with clouds and a bright light source, possibly sunrise or sunset, with silhouettes of a car and a structure on the left.\"}, \"objects\": [{\"object\": \"car\", \"visibility\": \"partially visible\", \"position\": \"right\", \"action\": \"silhouetted against the sky, appearing to be in motion or tilted.\"}, {\"object\": \"structure\", \"visibility\": \"partially visible\", "
+}

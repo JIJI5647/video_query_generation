@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A man in a dark suit with an earpiece stands in a dim control room while other staff work at computer monitors. Another man in a light shirt leans over a desk to look at a screen displaying data, and a seated colleague watches the monitor. An older man in a beige suit sits at a desk speaking on a telephone, and a man in a white shirt stands in the doorway observing the scene.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man speaks into a telephone while low-level ambient sounds are audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual\": \"A man in a dark suit with an earpiece stands in a dim control room while other staff work at computer monitors. Another man in a light shirt leans over a desk to look at a screen displaying data, and a seated colleague watches the monitor. An older man in a beige suit sits at a desk speaking on a telephone, and a man in a white shirt stands in the doorway observing the scene.\", \"audio\": \"A man speaks into a telephone while low-level a"
+}

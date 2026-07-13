@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone, with no significant prosody or non-speech sounds.",
+  "temporal_description": "A person is seen in a dimly lit environment, holding onto a railing or structure, with their body partially obscured by shadows. The scene transitions to a close-up of a finger pressing the \"Enter\" key on a keyboard, followed by a shot of a man wearing headphones, focused on a screen. The screen displays a message interface with text in both English and Chinese, including a message that reads \"有内鬼，终止交易\" (There is a traitor, terminate transaction). The man’s gaze remains fixed on the screen, and his posture suggests concentration on the task at hand.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person is seen in a dimly lit environment, holding onto a railing or structure, with their body partially obscured by shadows. The scene transitions to a close-up of a finger pressing the \"Enter\" key on a keyboard, followed by a shot of a man wearing headphones, focused on a screen. The screen displays a message interface with text in both English and Chinese, including a message that reads \"有内鬼，终止交易\" (There is a traitor, terminate transaction). The man’s gaze remains fixed on the screen, and ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

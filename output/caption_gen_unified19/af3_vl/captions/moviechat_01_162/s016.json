@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "A group of people in uniform stand facing forward in an office-like setting, some looking at a monitor mounted on a wall while others appear to be observing something off-screen. The scene transitions to a view through a car windshield, showing trees and a road ahead as the vehicle moves forward. The people’s faces are not clearly visible, and their postures suggest attentiveness or waiting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a high-pitched, fast-paced, and tone, accompanied by background music.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people in uniform stand facing forward in an office-like setting, some looking at a monitor mounted on a wall while others appear to be observing something off-screen. The scene transitions to a view through a car windshield, showing trees and a road ahead as the vehicle moves forward. The people’s faces are not clearly visible, and their postures suggest attentiveness or waiting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

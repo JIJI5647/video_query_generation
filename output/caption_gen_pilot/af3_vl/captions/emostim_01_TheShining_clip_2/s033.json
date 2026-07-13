@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by occasional pauses and a slight increase in volume.",
+  "temporal_description": "A person with long dark hair, wearing a blue robe, is partially buried in snow, with only their upper body and arms visible. They are positioned in front of a wooden gate, with their hands moving in the snow, occasionally lifting and pressing down. Their head is lowered, and their hands are clasped together at times, suggesting movement or struggle. The scene is dimly lit, with snow covering the ground and surrounding area, and the person’s face remains mostly obscured by their hair and the snow.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a blue robe, is partially buried in snow, with only their upper body and arms visible. They are positioned in front of a wooden gate, with their hands moving in the snow, occasionally lifting and pressing down. Their head is lowered, and their hands are clasped together at times, suggesting movement or struggle. The scene is dimly lit, with snow covering the ground and surrounding area, and the person’s face remains mostly obscured by their hair and the snow",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

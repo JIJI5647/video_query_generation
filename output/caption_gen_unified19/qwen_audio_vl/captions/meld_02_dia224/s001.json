@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a red shirt sits on an orange couch, facing right with his arms crossed. Another man in a blue polo shirt sits beside him, smiling and gesturing with his hands while looking down. In the background, other people are partially visible, standing or seated, with furniture and decor suggesting a casual indoor setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a clear, close-miked male voice, speaking in a friendly, mid-to-low pitch with a General American accent. He asks, “What’s your name?” in a manner that is both inviting and slightly playful, suggesting a familiar, informal setting. The acoustics of the room are evident: a subtle, persistent hiss and a faint low-frequency hum are present, and the voice carries a short, natural reverberation, indicating a medium-sized, hard-surfaced space such as a theater or studio. Immediately following the question, a large audience—estimated at 100 to 300 people—responds with a spontaneous, hearty laugh. The laughter is layered and dynamic, with a mix of high and low pitches, and is distributed across the stereo field, creating a sense of depth and immersion. The laughter is genuine and sustained, peaking in volume and intensity, and is accompanied by a brief, sharp inhalation from one audience member, likely a woman, which adds to the realism of the moment. As the laughter begins to subside, a second male voice, higher in pitch and more distant, interjects with a single, clipped word: “It’s—” The word is abruptly cut off",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a red shirt sits on an orange couch, facing right with his arms crossed. Another man in a blue polo shirt sits beside him, smiling and gesturing with his hands while looking down. In the background, other people are partially visible, standing or seated, with furniture and decor suggesting a casual indoor setting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

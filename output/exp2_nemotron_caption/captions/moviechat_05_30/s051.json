@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_description": "In a dim stone corridor with tall arches, a person in dark clothing runs from the far end toward the camera. As they move, a wall collapses, sending debris and dust into the air. The dust obscures the view as the figure continues forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Echoing footsteps are heard as the person runs. A loud crash and settling dust follow.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s051\", \"time_range\": [250.0, 255.0], \"visual\": \"In a dim stone corridor with tall arches, a person in dark clothing runs from the far end toward the camera. As they move, a wall collapses, sending debris and dust into the air. The dust obscures the view as the figure continues forward.\", \"audio\": \"Echoing footsteps are heard as the person runs. A loud crash and settling dust follow.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

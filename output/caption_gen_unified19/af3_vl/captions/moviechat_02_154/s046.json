@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_description": "A man in a dark suit exits a black car at night, illuminated by ambient city lights and a red glow from nearby vegetation. A woman in a dark jacket stands beside the car, holding a phone to her ear, facing away from the camera. Both individuals are partially obscured by shadows and the car’s silhouette, with the background featuring blurred city lights and a pink building.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a moderate speaking rate. The voice has a slightly breathy quality and a slight tremor.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit exits a black car at night, illuminated by ambient city lights and a red glow from nearby vegetation. A woman in a dark jacket stands beside the car, holding a phone to her ear, facing away from the camera. Both individuals are partially obscured by shadows and the car’s silhouette, with the background featuring blurred city lights and a pink building.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

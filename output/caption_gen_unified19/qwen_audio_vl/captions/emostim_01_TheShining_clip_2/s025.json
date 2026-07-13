@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_description": "A man with shoulder-length hair, wearing a red jacket over a plaid shirt, is seen in a hallway with light blue walls and a staircase in the background. He is holding an axe and repeatedly swings it at a wooden door, causing visible damage to the door’s surface. His body is angled toward the door, and his gaze is fixed on the target as he continues the forceful action. The hallway is dimly lit, with framed pictures on the walls and a visible exit sign in the distance.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a powerful, low-frequency mechanical rumble, characterized by a deep, resonant, and metallic timbre. This sound is continuous and enveloping, suggesting the operation of a massive, heavy-duty machine—likely a train or industrial elevator—within a vast, reverberant space such as a warehouse, subway tunnel, or industrial hall. The environment is acoustically reflective, with the sound decaying slowly and creating a sense of immense scale and emptiness. The rumble is accompanied by a faint, high-frequency hiss, indicative of analog tape or low-fidelity digital recording, and the overall sound is muffled, lacking crisp high-frequency detail. Abruptly, the rumble ceases, leaving a brief moment of near-silence. This pause is filled only by the persistent hiss and the lingering reverberation of the previous sound, heightening the tension and anticipation. The silence is then shattered by a sudden, extremely loud metallic impact—a sharp, percussive clang with a complex, multi-layered attack. The sound is so intense that it causes severe digital clipping, resulting in a harsh, distorted, and crackling texture. The impact is followed by a rapid, metallic ringing and a cascade of high-frequency echoes",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length hair, wearing a red jacket over a plaid shirt, is seen in a hallway with light blue walls and a staircase in the background. He is holding an axe and repeatedly swings it at a wooden door, causing visible damage to the door’s surface. His body is angled toward the door, and his gaze is fixed on the target as he continues the forceful action. The hallway is dimly lit, with framed pictures on the walls and a visible exit sign in the distance.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_description": "In a conference room, several men in white shirts and ties sit around a large table, some writing on papers while others look down or at the table. One man stands near the back, arms crossed, observing the group. The room has glass partitions, office equipment, and a television displaying a monitor view, with visible office chairs and a cap on the table.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a steady pace and moderate pitch, accompanied by occasional breathing sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a conference room, several men in white shirts and ties sit around a large table, some writing on papers while others look down or at the table. One man stands near the back, arms crossed, observing the group. The room has glass partitions, office equipment, and a television displaying a monitor view, with visible office chairs and a cap on the table.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

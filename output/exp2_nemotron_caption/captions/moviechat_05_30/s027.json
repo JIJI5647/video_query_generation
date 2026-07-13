@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "A group of people walks down a dimly lit stone corridor toward the camera, their figures partially obscured by shadows. The scene then cuts to a dark, foggy area where a pale hand emerges from a crack in the wooden floor.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent with no discernible sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s027\", \"time_range\": [130.0, 135.0], \"visual\": \"A group of people walks down a dimly lit stone corridor toward the camera, their figures partially obscured by shadows. The scene then cuts to a dark, foggy area where a pale hand emerges from a crack in the wooden floor.\", \"audio\": \"The audio is silent with no discernible sounds.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

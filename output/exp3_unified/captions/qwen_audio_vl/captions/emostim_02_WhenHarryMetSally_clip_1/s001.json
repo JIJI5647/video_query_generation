@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A woman with voluminous blonde hair, wearing a dark cardigan over a white collared shirt, sits at a table, her hands engaged in an activity near her lap. In front of her, the back of a man with dark, curly hair and a plaid shirt is visible as he faces her. The background shows other people seated and moving around in what appears to be a busy indoor public space.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, high-frequency hiss, characteristic of analog tape or low-fidelity digital recording, establishing a quiet, controlled environment. A single female voice, close-miked and clear, speaks in a measured, emotionally restrained tone: “You know, I’m so glad I never got involved with you.” Her delivery is slow and deliberate, with a subtle downward inflection on “glad,”. The room’s acoustics are dry, with minimal reverberation, suggesting a small, well-dampened space such as a studio or private office. After a brief pause, the speaker continues, her voice remaining steady and controlled: “I just would have ended up being some woman you had to get—” The phrase is abruptly cut off mid-word, with the final syllable “get—” truncated and the audio ending instantly. This sudden interruption is not a natural pause but a hard edit, likely due to technical limitations or intentional censorship, leaving the sentence incomplete and the tension unresolved. Throughout the clip, there are no other voices, background noises, or environmental sounds. The only persistent audio element is the low-level hiss, which remains unobtrusive and does not interfere with speech",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with voluminous blonde hair, wearing a dark cardigan over a white collared shirt, sits at a table, her hands engaged in an activity near her lap. In front of her, the back of a man with dark, curly hair and a plaid shirt is visible as he faces her. The background shows other people seated and moving around in what appears to be a busy indoor public space.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

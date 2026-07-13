@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_description": "A man in a light blue shirt and tie sits at a table, looking down and then glancing to his right while seated in a black mesh chair. The scene shifts to a wider view of a conference room where a man in a white shirt stands at the head of a long table addressing several seated men, including one in a uniform, with papers and cups on the table.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is unclear.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s060\", \"time_range\": [295.0, 300.0], \"visual\": \"A man in a light blue shirt and tie sits at a table, looking down and then glancing to his right while seated in a black mesh chair. The scene shifts to a wider view of a conference room where a man in a white shirt stands at the head of a long table addressing several seated men, including one in a uniform, with papers and cups on the table.\", \"audio\": \"Audio is unclear.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

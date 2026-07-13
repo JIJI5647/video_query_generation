@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, speaking at a moderate pace with a neutral prosody. There are no significant non-speech sounds or background noise.",
+  "temporal_description": "A man with long, dark, wavy hair and a dark suit is seen in a dimly lit environment, his face partially illuminated by ambient light, gazing toward another person whose silhouette is mostly obscured. The second individual, with short dark hair and a visible earring, is positioned slightly in front of the first man, also looking forward with a neutral expression. Both appear stationary, with minimal movement, and the background features blurred, glowing lights suggesting an urban nighttime setting. The first man’s gaze remains fixed, while the second person’s head slightly tilts downward at one point, maintaining a still posture throughout.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with long, dark, wavy hair and a dark suit is seen in a dimly lit environment, his face partially illuminated by ambient light, gazing toward another person whose silhouette is mostly obscured. The second individual, with short dark hair and a visible earring, is positioned slightly in front of the first man, also looking forward with a neutral expression. Both appear stationary, with minimal movement, and the background features blurred, glowing lights suggesting an urban nighttime settin",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

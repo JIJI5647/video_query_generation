@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_description": "A man with dark hair and round glasses, wearing a brown jacket over a blue shirt, looks down with a focused gaze. A hand reaches into a dark wooden box and touches an ornate silver brooch with a large blue gemstone and wing-like filigree.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with faint ambient sounds and a subtle rustle as the hand moves.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s081\", \"time_range\": [400, 405], \"visual\": \"A man with dark hair and round glasses, wearing a brown jacket over a blue shirt, looks down with a focused gaze. A hand reaches into a dark wooden box and touches an ornate silver brooch with a large blue gemstone and wing-like filigree.\", \"audio\": \"The audio is quiet with faint ambient sounds and a subtle rustle as the hand moves.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

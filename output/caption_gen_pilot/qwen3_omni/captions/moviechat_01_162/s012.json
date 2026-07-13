@@ -1,0 +1,34 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of office workers",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and watching a television screen"
+      }
+    ],
+    "scene": {
+      "location": "office",
+      "setting": "a modern office with cubicles and a television screen on the wall"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A news report is being played.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s012\", \"time_range\": [55.0, 60.0], \"visual_objective\": {\"people\": [{\"person\": \"a group of office workers\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing and watching a television screen\"}], \"scene\": {\"location\": \"office\", \"setting\": \"a modern office with cubicles and a television screen on the wall\"}}, \"visual_expression\": [], \"audio_description\": \"A news report is being played.\", \"temporal_description\": \"\", \"confidence\": \"high\", \"evidence_streng"
+}

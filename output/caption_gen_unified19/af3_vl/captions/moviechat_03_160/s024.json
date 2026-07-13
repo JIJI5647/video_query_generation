@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_description": "A man in a patterned shirt sits at a table eating from a bowl with chopsticks, while another man in a dark jacket stands behind him. A third person in dark clothing is partially visible in the background near a chalkboard menu. The scene is dimly lit, with the man eating leaning forward, focused on his meal.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by occasional laughter and a brief gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a patterned shirt sits at a table eating from a bowl with chopsticks, while another man in a dark jacket stands behind him. A third person in dark clothing is partially visible in the background near a chalkboard menu. The scene is dimly lit, with the man eating leaning forward, focused on his meal.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "In a dimly lit room with blinds, a man with spiky hair wearing a dark jacket over a patterned shirt and a necklace looks downward while a suited man stands partially visible beside him; the view then shifts to a man in a denim jacket seen through vertical bars, standing in a hallway and looking around.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s026\", \"time_range\": [125, 130], \"visual\": \"In a dimly lit room with blinds, a man with spiky hair wearing a dark jacket over a patterned shirt and a necklace looks downward while a suited man stands partially visible beside him; the view then shifts to a man in a denim jacket seen through vertical bars, standing in a hallway and looking around.\", \"audio\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

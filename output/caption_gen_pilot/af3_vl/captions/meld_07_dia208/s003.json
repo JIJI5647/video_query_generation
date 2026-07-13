@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or emotional inflection.",
+  "temporal_description": "Two men are seated at a small round table in a café setting, with one wearing a red plaid shirt and the other in a black sweater. The man in the red shirt is leaning forward with his arms crossed, occasionally gesturing with his hands, while the man in black rests his chin on his hand, then crosses his arms. A woman with curly hair is partially visible in the foreground, looking down at something in her lap. Behind them, a chalkboard with writing and festive decorations, including red bows and lights, are visible, along with other patrons and café items like mugs and a small container of marshmallows on the table. The man in black shifts his posture slightly, crossing his arms and leaning back, while the man in red remains engaged, gesturing as he speaks.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at a small round table in a café setting, with one wearing a red plaid shirt and the other in a black sweater. The man in the red shirt is leaning forward with his arms crossed, occasionally gesturing with his hands, while the man in black rests his chin on his hand, then crosses his arms. A woman with curly hair is partially visible in the foreground, looking down at something in her lap. Behind them, a chalkboard with writing and festive decorations, including red bows and l",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

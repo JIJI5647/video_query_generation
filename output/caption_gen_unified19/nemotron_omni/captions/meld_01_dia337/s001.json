@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a pink plaid shirt opens a brown door marked 123 and steps into a living room where a man in a dark blue shirt and white pants greets him. The pink‑shirted man bends over a couch near a patterned blanket while the blue‑shirted man gestures toward a wooden cabinet. The scene ends with a close‑up of the pink‑shirted man's surprised expression as he leans forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio includes spoken conversation between the two men, with the pink‑shirted man speaking as he moves.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"A man in a pink plaid shirt opens a brown door marked 123 and steps into a living room where a man in a dark blue shirt and white pants greets him. The pink‑shirted man bends over a couch near a patterned blanket while the blue‑shirted man gestures toward a wooden cabinet. The scene ends with a close‑up of the pink‑shirted man's surprised expression as he leans forward.\", \"audio\": \"The audio includes spoken conversation between the two "
+}

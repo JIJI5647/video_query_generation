@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_description": "Two men stand facing each other on a balcony at night, one in a light-colored shirt and the other in a dark suit; the man in the shirt gestures with his right hand while holding a small object in his left. The man in the suit stands still, facing the other man, with his hands partially visible near his waist. Behind them, a building with windows and a translucent curtain is visible, and the lighting is dim, casting shadows on their faces and clothing.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and pace, accompanied by a brief laugh and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand facing each other on a balcony at night, one in a light-colored shirt and the other in a dark suit; the man in the shirt gestures with his right hand while holding a small object in his left. The man in the suit stands still, facing the other man, with his hands partially visible near his waist. Behind them, a building with windows and a translucent curtain is visible, and the lighting is dim, casting shadows on their faces and clothing.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

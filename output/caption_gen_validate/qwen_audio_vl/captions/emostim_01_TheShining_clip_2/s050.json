@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely the sound of a firearm’s safety being disengaged or a magazine being inserted. Immediately following, a high-pitched, strained female scream erupts, conveying acute terror and panic. The scream is abruptly cut off by a deafening, concussive gunshot, which is so loud that it causes severe digital clipping and distortion, overwhelming the recording device. The gunshot’s impact is accompanied by a brief, high-frequency metallic “ping,” suggesting the bullet struck a hard surface such as metal or glass. In the aftermath, a second, even more intense female scream is heard, this time with a lower pitch and a guttural, desperate quality, indicating extreme pain and shock. This scream is also abruptly truncated by a second gunshot, which is similarly loud and distorted, and is followed by a second metallic “ping.” The sequence concludes with a third, shorter, and more guttural scream, which is abruptly cut off by a third gunshot, again marked by severe distortion and a metallic ping. The final gunshot is followed by a brief, low-frequency thud, possibly the sound of a body or heavy object hitting the floor. Throughout the recording, a persistent low-frequency hum and faint high-frequency hiss are present, indicating a noisy, reverberant environment with hard surfaces and a lack of ambient life. The audio is monophonic, with all sounds centered and no spatial movement, and the frequency range is limited, with muffled highs and lows. The recording ends abruptly, with no fade-out or lingering sounds.\n\nIn summary, the audio captures a violent, close-quarters shooting incident in a large, empty, reverberant indoor space. Three gunshots are fired in rapid succession, each immediately followed by a female scream of escalating terror and pain, and each shot is accompanied by a metallic ping, suggesting the bullets struck hard surfaces. The recording is of low fidelity, with severe distortion and a persistent hum, and the absence of background noise or speech points to a private, isolated setting. The sequence of events and the emotional intensity of the screams indicate a traumatic, life-threatening attack, with the recording ending abruptly after the final gunshot.",
+  "temporal_description": "A person with long dark hair and wearing a dark blue jacket over a light-colored turtleneck is partially visible, peeking from behind a white door frame. They are holding a long, thin knife in their right hand, which they raise slightly as they look toward the viewer. Their left hand is near their mouth, and their head is tilted slightly forward. The background shows a plain, slightly stained white wall with a tiled section near the bottom.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair and wearing a dark blue jacket over a light-colored turtleneck is partially visible, peeking from behind a white door frame. They are holding a long, thin knife in their right hand, which they raise slightly as they look toward the viewer. Their left hand is near their mouth, and their head is tilted slightly forward. The background shows a plain, slightly stained white wall with a tiled section near the bottom.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

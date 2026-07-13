@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, accompanied by background music and occasional sound effects.",
+  "temporal_description": "Three men are visible in a dimly lit room with a metal security gate in the background. The man in the center, wearing a light gray suit, is seated and appears to be engaged in a conversation with the man on his right, who is dressed in a black jacket and has a white bandage on his right arm. The third man, standing behind the seated man, is dressed in a dark suit and has a beard. The seated man gestures with his hands while speaking, and at one point, he leans forward and begins to tear apart a white object, scattering pieces onto a table. The man with the bandage watches him closely, while the man in the background remains still and observant.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men are visible in a dimly lit room with a metal security gate in the background. The man in the center, wearing a light gray suit, is seated and appears to be engaged in a conversation with the man on his right, who is dressed in a black jacket and has a white bandage on his right arm. The third man, standing behind the seated man, is dressed in a dark suit and has a beard. The seated man gestures with his hands while speaking, and at one point, he leans forward and begins to tear apart a",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

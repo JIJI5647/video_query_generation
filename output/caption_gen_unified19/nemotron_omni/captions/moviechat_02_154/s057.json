@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_description": "A man with glasses and a light-colored suit appears in profile against a dark background, looking forward and then raising his right hand. The view switches to a man in a dark leather jacket seated at a table, holding chopsticks and reaching toward a steaming dish.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A low voice is heard while the man gestures. Ambient sounds of a restaurant are audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s057\", \"time_range\": [280.0, 285.0], \"visual\": \"A man with glasses and a light-colored suit appears in profile against a dark background, looking forward and then raising his right hand. The view switches to a man in a dark leather jacket seated at a table, holding chopsticks and reaching toward a steaming dish.\", \"audio\": \"A low voice is heard while the man gestures. Ambient sounds of a restaurant are audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

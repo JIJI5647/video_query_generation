@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_description": "A dark, snow-covered building is lit by streetlights at night, with a solitary figure walking through deep snow in front of it. A man with disheveled hair, a red jacket, and a bloodied forehead peeks from behind a yellow door, smiling unsettlingly.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s042\", \"time_range\": [205.0, 210.0], \"visual\": \"A dark, snow-covered building is lit by streetlights at night, with a solitary figure walking through deep snow in front of it. A man with disheveled hair, a red jacket, and a bloodied forehead peeks from behind a yellow door, smiling unsettlingly.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

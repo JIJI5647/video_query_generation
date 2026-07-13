@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A person with shoulder-length dark hair, wearing a maroon jacket and blue jeans, is seen from behind, holding a wooden-handled axe in their right hand. They are standing in a dimly lit room with pink walls, facing an open doorway that leads to another room with a bed and nightstand. To the left, there is a vintage white refrigerator and a wooden desk with a lamp, while to the right, a radiator and a chair are visible. The person remains stationary, looking into the adjacent room.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with shoulder-length dark hair, wearing a maroon jacket and blue jeans, is seen from behind, holding a wooden-handled axe in their right hand. They are standing in a dimly lit room with pink walls, facing an open doorway that leads to another room with a bed and nightstand. To the left, there is a vintage white refrigerator and a wooden desk with a lamp, while to the right, a radiator and a chair are visible. The person remains stationary, looking into the adjacent room.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

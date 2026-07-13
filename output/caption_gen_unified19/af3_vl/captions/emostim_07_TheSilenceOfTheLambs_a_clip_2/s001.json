@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A single bare light bulb illuminates a cluttered, dimly lit room with stacked boxes and furniture. A person is partially visible in the background, standing near a doorway, while another figure is seated on the floor in the foreground. The camera pans slightly to reveal a brick wall and a doorway leading to another dark space.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate loudness, speaking at a moderate pace with a slightly breathy quality.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A single bare light bulb illuminates a cluttered, dimly lit room with stacked boxes and furniture. A person is partially visible in the background, standing near a doorway, while another figure is seated on the floor in the foreground. The camera pans slightly to reveal a brick wall and a doorway leading to another dark space.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

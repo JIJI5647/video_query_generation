@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A woman lies in a hospital bed covered with a pink blanket, holding a pillow, while a man in a beige jacket kneels beside her, leaning forward with his hand on her arm. Behind them, another man in a plaid shirt and a white coat stand near the bed, looking down at the woman. Medical equipment, including IV stands and monitors, is visible in the background, and the room has a typical hospital setting with curtains and wall outlets.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched yelp from a small dog, immediately followed by a brief, low-frequency rustling sound, likely caused by the dog shifting on a soft surface such as a blanket or cushion. A male voice, close to the microphone and speaking in a calm, gentle tone, responds with “Oh. Yeah. Okay, okay,” his words overlapping with the dog’s vocalizations. The dog then emits a longer, higher-pitched whine, which is abruptly cut off by a sudden, loud, and harsh electronic buzz. This buzz, characterized by a low-frequency, distorted, and clipped tone, completely masks all other sounds and persists until the end of the recording, indicating a technical malfunction or abrupt stoppage of the recording device. Throughout the clip, the audio quality is low-fidelity, with a constant background hiss and a limited frequency range. The male voice is clear and close, while the dog’s sounds are slightly more distant and reverberant, suggesting a small, furnished indoor space. The tone is gentle and reassuring, with the male speaker responding calmly to the dog’s. The dog’s vocalizations are typical of a small breed experiencing mild discomfort or seeking attention, and the absence of other voices or environmental",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman lies in a hospital bed covered with a pink blanket, holding a pillow, while a man in a beige jacket kneels beside her, leaning forward with his hand on her arm. Behind them, another man in a plaid shirt and a white coat stand near the bed, looking down at the woman. Medical equipment, including IV stands and monitors, is visible in the background, and the room has a typical hospital setting with curtains and wall outlets.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

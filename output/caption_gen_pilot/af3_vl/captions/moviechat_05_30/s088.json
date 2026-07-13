@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s088",
+  "time_range": [
+    435.0,
+    440.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A young man with round glasses and dark hair, wearing a brown jacket over a dark shirt, stands in a dimly lit, cluttered room filled with various objects including glassware and wooden furniture. He remains still, facing forward with a neutral expression. Later, two other individuals appear, both dressed in dark robes, standing with their wands pointed forward, seemingly focused on something ahead. The room’s background is filled with shelves, mirrors, and metallic pots, creating a cluttered and somewhat chaotic environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man with round glasses and dark hair, wearing a brown jacket over a dark shirt, stands in a dimly lit, cluttered room filled with various objects including glassware and wooden furniture. He remains still, facing forward with a neutral expression. Later, two other individuals appear, both dressed in dark robes, standing with their wands pointed forward, seemingly focused on something ahead. The room’s background is filled with shelves, mirrors, and metallic pots, creating a cluttered and",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

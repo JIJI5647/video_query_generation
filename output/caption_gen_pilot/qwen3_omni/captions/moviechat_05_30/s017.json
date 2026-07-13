@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with long dark hair wearing a dark leather jacket and a patterned shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a wand and pointing it forward, then lowering it slightly"
+      }
+    ],
+    "scene": {
+      "location": "outdoors at night",
+      "setting": "a dark, wooded area with a group of people standing behind the man"
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "held and pointed forward"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man points the wand forward",
+      "the man lowers the wand slightly"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with long dark hair wearing a dark leather jacket and a patterned shirt",
+      "facial_cues": [
+        "furrowed brow",
+        "tense mouth"
+      ],
+      "body_cues": [
+        "hand holding wand",
+        "arm extended"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "a low, ominous, and suspenseful musical score plays in the background.",
+  "temporal_description": "the music begins at the start of the clip and continues throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s017\", \"time_range\": [80.0, 85.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with long dark hair wearing a dark leather jacket and a patterned shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a wand and pointing it forward, then lowering it slightly\"}], \"scene\": {\"location\": \"outdoors at night\", \"setting\": \"a dark, wooded area with a group of people standing behind the man\"}, \"objects\": [{\"object\": \"a wand\", \"visibility\": \"clearly vis"
+}

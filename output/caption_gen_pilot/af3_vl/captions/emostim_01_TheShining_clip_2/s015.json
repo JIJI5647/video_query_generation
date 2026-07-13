@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice, likely a girl, speaking with a high pitch and moderate speed, accompanied by a man's voice. The child's voice is clear and distinct, with no background noise or other sounds present.",
+  "temporal_description": "A woman with dark hair, wearing a blue robe over a green patterned shirt, is seated on a bed, facing a young child in a red and green striped sweater. The child, standing beside a nightstand with a lit lamp, holds a knife in their right hand. The woman reaches out with her left hand, attempting to take the knife from the child, while the child remains still, facing away from the camera. The woman’s posture shifts as she leans forward, trying to engage the child, and eventually pulls the child into a hug, holding the knife close to the child’s back. The room is dimly lit, with the lamp casting a warm glow on the scene, and a patterned blanket is draped over the bed.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with dark hair, wearing a blue robe over a green patterned shirt, is seated on a bed, facing a young child in a red and green striped sweater. The child, standing beside a nightstand with a lit lamp, holds a knife in their right hand. The woman reaches out with her left hand, attempting to take the knife from the child, while the child remains still, facing away from the camera. The woman’s posture shifts as she leans forward, trying to engage the child, and eventually pulls the child in",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

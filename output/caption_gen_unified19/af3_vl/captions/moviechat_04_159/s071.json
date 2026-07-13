@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s071",
+  "time_range": [
+    350.0,
+    355.0
+  ],
+  "visual_description": "People are walking on a city street at night, some holding umbrellas, passing by illuminated storefronts with signs in Chinese and English. A man in a light-colored suit stands near a crosswalk, while others move in various directions, some partially obscured by vehicles or structures. The scene is urban, with visible street signs, a parked car, and storefronts displaying products and advertisements under artificial lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "People are walking on a city street at night, some holding umbrellas, passing by illuminated storefronts with signs in Chinese and English. A man in a light-colored suit stands near a crosswalk, while others move in various directions, some partially obscured by vehicles or structures. The scene is urban, with visible street signs, a parked car, and storefronts displaying products and advertisements under artificial lighting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

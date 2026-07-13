@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by the sound of a bus engine in the background.",
+  "temporal_description": "A person with dark hair, wearing a blue jacket, is partially buried in snow, with their head and upper body visible near a wooden structure with glass panes. Their hands are visible, moving slightly in the snow, and their posture suggests they are either resting or struggling to move. The scene shifts to a man with dark, medium-length hair and a beard, wearing a red jacket over a plaid shirt, standing in a dimly lit indoor hallway. He is looking down and slightly to his left, with his head tilted downward, and his posture appears still and contemplative. A framed picture hangs on the wall behind him, and a door frame is visible to his left.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair, wearing a blue jacket, is partially buried in snow, with their head and upper body visible near a wooden structure with glass panes. Their hands are visible, moving slightly in the snow, and their posture suggests they are either resting or struggling to move. The scene shifts to a man with dark, medium-length hair and a beard, wearing a red jacket over a plaid shirt, standing in a dimly lit indoor hallway. He is looking down and slightly to his left, with his head tilte",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

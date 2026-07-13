@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with long red hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing close to a man, touching his face and neck, then turning and running up stairs"
+      },
+      {
+        "person": "a man with dark hair and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing close to the woman, looking at her, then turning to look at the people running up the stairs behind them"
+      },
+      {
+        "person": "a group of students in school uniforms",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "running up a large stone staircase"
+      }
+    ],
+    "scene": {
+      "location": "indoor",
+      "setting": "a large, dimly lit stone staircase, likely in a school building"
+    },
+    "objects": [],
+    "interactions": [
+      "the woman and the man are in a close, intimate interaction at the beginning of the clip"
+    ],
+    "key_actions": [
+      "the woman touches the man's face and neck",
+      "the woman turns and runs up the stairs",
+      "the man watches her and then looks at the people running up the stairs"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with long red hair",
+      "facial_cues": [
+        "her mouth is open as if speaking or shouting"
+      ],
+      "body_cues": [
+        "she places her hands on the man's face and neck",
+        "she turns and runs up the stairs"
+      ],
+      "gaze": "looking at the man, then forward/up the stairs"
+    }
+  ],
+  "audio_description": "A female voice shouts, followed by a loud, dramatic musical score.",
+  "temporal_description": "The clip begins with a close interaction between two people, then the woman turns and runs away as others run up the stairs behind her, all while dramatic music plays.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s048\", \"time_range\": [235.0, 240.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with long red hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing close to a man, touching his face and neck, then turning and running up stairs\"}, {\"person\": \"a man with dark hair and glasses\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing close to the woman, looking at her, then turning to look at the people running up the "
+}

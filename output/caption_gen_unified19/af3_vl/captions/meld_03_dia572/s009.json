@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A woman in a hospital gown sits upright in a bed, covered with a pink blanket, looking toward a man standing beside her. The man, wearing a light-colored shirt, leans slightly forward with his hand on the bed’s side rail, gazing down at her. Behind them, another man lies in a separate bed, partially obscured by curtains, while a third person stands in the background near medical equipment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, followed by a female voice with a low pitch and moderate speed.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman in a hospital gown sits upright in a bed, covered with a pink blanket, looking toward a man standing beside her. The man, wearing a light-colored shirt, leans slightly forward with his hand on the bed’s side rail, gazing down at her. Behind them, another man lies in a separate bed, partially obscured by curtains, while a third person stands in the background near medical equipment.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A man in a pink plaid shirt stands facing a man in a blue checkered shirt, gesturing with his right hand while speaking. The man in blue stands with his back to the camera, listening. Behind them is a wall with a framed picture and a wall sconce, and part of a couch is visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The man in pink speaks in a conversational tone, using hand gestures. The man in blue remains silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual\": \"A man in a pink plaid shirt stands facing a man in a blue checkered shirt, gesturing with his right hand while speaking. The man in blue stands with his back to the camera, listening. Behind them is a wall with a framed picture and a wall sconce, and part of a couch is visible.\", \"audio\": \"The man in pink speaks in a conversational tone, using hand gestures. The man in blue remains silent.\", \"confidence\": \"high\", \"evidence_strength\": "
+}

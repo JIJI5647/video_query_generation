@@ -1,0 +1,72 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "entering a room, walking towards a couch, and bending over to look into a suitcase"
+      },
+      {
+        "person": "a man in a blue button-down shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing in the room, watching the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a furnished room with a couch, a wooden cabinet, and a door with the number 1232 on it."
+    },
+    "objects": [
+      {
+        "object": "a suitcase",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "being opened by the man in the pink plaid shirt"
+      }
+    ],
+    "interactions": [
+      "The man in the blue shirt watches the man in the pink plaid shirt as he opens the suitcase."
+    ],
+    "key_actions": [
+      "The man in the pink plaid shirt enters the room and opens a suitcase."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "surprised expression"
+      ],
+      "body_cues": [
+        "bending over the suitcase"
+      ],
+      "gaze": "looking into the suitcase"
+    },
+    {
+      "person": "a man in a blue button-down shirt",
+      "facial_cues": [
+        "surprised expression"
+      ],
+      "body_cues": [
+        "standing with hands slightly raised"
+      ],
+      "gaze": "looking at the man in the pink plaid shirt"
+    }
+  ],
+  "audio_description": "A man is speaking in a questioning tone.",
+  "temporal_description": "The man in the pink plaid shirt enters the room and bends over the suitcase while the other man watches him.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a pink plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"entering a room, walking towards a couch, and bending over to look into a suitcase\"}, {\"person\": \"a man in a blue button-down shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing in the room, watching the other man\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a furnished roo"
+}

@@ -1,0 +1,64 @@
+{
+  "total_videos": 19,
+  "total_segments": 735,
+  "total_raw_captions": 735,
+  "total_emotion_events": 169,
+  "total_initial_queries": 219,
+  "total_accepted_queries": 46,
+  "total_discarded_queries": 172,
+  "average_accepted_queries_per_video": 2.4211,
+  "emotion_distribution": {
+    "fear": 32,
+    "frustrated": 17,
+    "angry": 8,
+    "happy": 34,
+    "excited": 15,
+    "sad": 57,
+    "disappointed": 4,
+    "surprised": 2
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 71,
+    "evidence_cue": 119,
+    "explicit_event": 29
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 12,
+    "evidence_cue": 21,
+    "explicit_event": 13
+  },
+  "rewrite_count_distribution": {
+    "0": 218
+  },
+  "pass_rate_after_initial_verification": 0.2385,
+  "pass_rate_after_rewrites": 0.21,
+  "discarded_query_count": 172,
+  "diversity_warnings": [
+    "[emostim_01_TheShining_clip_2] WARNING: 8 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[emostim_04_28DaysLater_clip_6] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[emostim_04_28DaysLater_clip_6] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[emostim_06_TheChamp_clip_3] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[emostim_06_TheChamp_clip_3] WARNING: 6 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_07_TheSilenceOfTheLambs_a_clip_2] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[emostim_07_TheSilenceOfTheLambs_a_clip_2] WARNING: all accepted queries have the same query_type 'explicit_event' — low diversity",
+    "[meld_01_dia337] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[meld_02_dia224] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[meld_02_dia224] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[meld_04_dia362] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[meld_04_dia362] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity",
+    "[meld_05_dia980] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[meld_07_dia208] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[meld_07_dia208] WARNING: all accepted queries have the same query_type 'explicit_event' — low diversity",
+    "[moviechat_01_162] WARNING: 7 accepted queries start with 'when does' — repetitive phrasing",
+    "[moviechat_02_154] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[moviechat_03_160] WARNING: only 0 accepted queries (recommended minimum: 3)",
+    "[moviechat_04_159] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[moviechat_04_159] WARNING: all accepted queries have the same query_type 'explicit_event' — low diversity",
+    "[moviechat_05_30] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[moviechat_05_30] WARNING: all accepted queries have the same query_type 'evidence_cue' — low diversity"
+  ],
+  "regrounding_changed_count": 0,
+  "regrounding_fallback_count": 0
+}

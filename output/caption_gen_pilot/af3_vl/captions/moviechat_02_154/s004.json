@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, conveying a sense of calm and neutrality.",
+  "temporal_description": "A dark sedan is parked on a wet city street at night, illuminated by streetlights and the glow of nearby high-rise buildings. The car’s headlights are on, casting reflections on the damp pavement. No people are visible in the scene, and the surrounding area appears empty, with no movement or activity. The buildings in the background have lit windows, suggesting some activity inside, but no individuals can be seen.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A dark sedan is parked on a wet city street at night, illuminated by streetlights and the glow of nearby high-rise buildings. The car’s headlights are on, casting reflections on the damp pavement. No people are visible in the scene, and the surrounding area appears empty, with no movement or activity. The buildings in the background have lit windows, suggesting some activity inside, but no individuals can be seen.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

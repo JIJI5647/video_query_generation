@@ -1,0 +1,110 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a maroon shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and observing a body on a gurney"
+      },
+      {
+        "person": "a man in a white shirt and tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and observing the body on the gurney"
+      },
+      {
+        "person": "a man in a black suit and tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and observing the body on the gurney"
+      },
+      {
+        "person": "a man in a white shirt",
+        "visibility": "partially visible",
+        "position": "right",
+        "action": "bending over the body on the gurney"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with wooden doors and a gurney with a body on it, possibly a morgue or examination room."
+    },
+    "objects": [
+      {
+        "object": "a body on a gurney",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "lying on its back, covered in a patterned sheet."
+      },
+      {
+        "object": "a gurney",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "supporting the body."
+      }
+    ],
+    "interactions": [
+      "The man in the white shirt on the right is bending over the body on the gurney, appearing to examine it."
+    ],
+    "key_actions": [
+      "The man in the white shirt on the right examines the body on the gurney."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a maroon shirt",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing with her back to the camera"
+      ],
+      "gaze": "looking at the body on the gurney"
+    },
+    {
+      "person": "a man in a white shirt and tie",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing with his hands clasped in front of him"
+      ],
+      "gaze": "looking at the body on the gurney"
+    },
+    {
+      "person": "a man in a black suit and tie",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "standing with his hands clasped in front of him"
+      ],
+      "gaze": "looking at the body on the gurney"
+    },
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "bending over the body on the gurney"
+      ],
+      "gaze": "looking at the body on the gurney"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a calm, informative tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s036\", \"time_range\": [175.0, 180.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a maroon shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and observing a body on a gurney\"}, {\"person\": \"a man in a white shirt and tie\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing and observing the body on the gurney\"}, {\"person\": \"a man in a black suit and tie\", \"visibility\": \"clearly visible\", \"position\": \"backg"
+}

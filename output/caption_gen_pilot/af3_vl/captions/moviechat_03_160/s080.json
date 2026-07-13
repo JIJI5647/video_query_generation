@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a single male voice with a high pitch and a sad tone, speaking at a moderate pace. There are no other non-speech sounds present.",
+  "temporal_description": "A man with short dark hair, wearing a black shirt and a necklace, is seen in a dimly lit room with a wavy metal-barred window behind him. He is looking downward, then slowly raises his head and turns his gaze slightly to the side. Later, another man with gray hair, wearing a light-colored suit, appears in a similarly dim setting, looking upward with his eyes slightly widened. Both individuals remain mostly still, with minimal movement, and their facial expressions are neutral.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a black shirt and a necklace, is seen in a dimly lit room with a wavy metal-barred window behind him. He is looking downward, then slowly raises his head and turns his gaze slightly to the side. Later, another man with gray hair, wearing a light-colored suit, appears in a similarly dim setting, looking upward with his eyes slightly widened. Both individuals remain mostly still, with minimal movement, and their facial expressions are neutral.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

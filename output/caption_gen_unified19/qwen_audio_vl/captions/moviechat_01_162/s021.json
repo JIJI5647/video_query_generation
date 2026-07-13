@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "Two men are seated inside a vehicle, with the man in the foreground turned slightly toward the camera while the second man is visible in profile behind him. Both appear to be looking forward, with the foreground man’s mouth slightly open as if mid-speech or reacting. The interior of the car is dimly lit, and the background outside the window is blurred with indistinct shapes.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely the sound of a lighter being opened or a small object being set down, immediately followed by a deep, resonant sigh from a middle-aged male speaker. This sigh is heavy and weary. The speaker then begins to speak in Mandarin Chinese, his voice low, slow, and deliberate, with a slightly gravelly timbre and a distinct northern Chinese accent. He says, “前两天，陈哥啊，他叫我去他的房间。” (“A couple of days ago, Brother Chen, he asked me to go to his room.”) His delivery is measured and reflective, with a subtle tremor in his voice that. The speech is clear and intelligible, with no background noise or distortion, and is recorded in a small, acoustically dampened room, as indicated by the lack of echo and the presence of a faint, steady electronic hum in the background. The clip ends abruptly, with the final syllable of “房间” (“room”) cut off mid-sound, indicating that the recording was truncated and not allowed to finish naturally. Throughout, the audio maintains high fidelity, with no evidence of compression, clipping",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a vehicle, with the man in the foreground turned slightly toward the camera while the second man is visible in profile behind him. Both appear to be looking forward, with the foreground man’s mouth slightly open as if mid-speech or reacting. The interior of the car is dimly lit, and the background outside the window is blurred with indistinct shapes.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

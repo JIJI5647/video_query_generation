@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_description": "Three men are seated at a desk in a dimly lit room, each wearing headphones and facing forward; one is partially visible from the side. The man on the right adjusts his headphones with both hands while looking forward, and the man in the center gazes ahead with a neutral expression. The scene appears to be an operational or monitoring setting with a dark green wall behind them and a microphone in front of the rightmost man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a moderate pace, delivering a warning in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men are seated at a desk in a dimly lit room, each wearing headphones and facing forward; one is partially visible from the side. The man on the right adjusts his headphones with both hands while looking forward, and the man in the center gazes ahead with a neutral expression. The scene appears to be an operational or monitoring setting with a dark green wall behind them and a microphone in front of the rightmost man.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

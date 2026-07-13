@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_description": "A woman in a grey top and blue jeans walks toward the camera down a narrow wooden corridor, followed by several other people in dark clothing. The scene cuts to a dimly lit wooden floor where a person's head and arm emerge from a hole, holding a small object. The final shot shows a close‑up of a man's face, partially obscured by darkness, looking forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with faint ambient sounds and no clear speech. A low hum can be heard in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s028\", \"time_range\": [135.0, 140.0], \"visual\": \"A woman in a grey top and blue jeans walks toward the camera down a narrow wooden corridor, followed by several other people in dark clothing. The scene cuts to a dimly lit wooden floor where a person's head and arm emerge from a hole, holding a small object. The final shot shows a close‑up of a man's face, partially obscured by darkness, looking forward.\", \"audio\": \"The audio is quiet with faint ambient sounds and no clear speech. "
+}

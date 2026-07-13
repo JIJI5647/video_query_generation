@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s083",
+  "time_range": [
+    410.0,
+    415.0
+  ],
+  "visual_description": "An older man with gray hair wearing a black shirt sits in a dimly lit hall with chandeliers and a golden statue. He then lifts a silver phone to his ear.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A muffled voice is audible through the phone, indicating a conversation.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s083\", \"time_range\": [410.0, 415.0], \"visual\": \"An older man with gray hair wearing a black shirt sits in a dimly lit hall with chandeliers and a golden statue. He then lifts a silver phone to his ear.\", \"audio\": \"A muffled voice is audible through the phone, indicating a conversation.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

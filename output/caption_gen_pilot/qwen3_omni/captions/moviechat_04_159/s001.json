@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "smoking a cigarette"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark background with focused lighting on the subject"
+    },
+    "objects": [
+      "cigarette",
+      "lighter"
+    ],
+    "interactions": [
+      "the man lights the cigarette with a lighter"
+    ],
+    "key_actions": [
+      "the man brings the cigarette to his mouth",
+      "the man lights the cigarette"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark jacket",
+      "facial_cues": [
+        "sweating",
+        "mustache",
+        "closed eyes"
+      ],
+      "body_cues": [
+        "holding a cigarette"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "a man speaking in a calm tone.",
+  "temporal_description": "The man lights the cigarette and begins to smoke.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"smoking a cigarette\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dark background with focused lighting on the subject\"}, \"objects\": [\"cigarette\", \"lighter\"], \"interactions\": [\"the man lights the cigarette with a lighter\"], \"key_actions\": [\"the man brings the cigarette to his mouth\", \"the man lights the"
+}

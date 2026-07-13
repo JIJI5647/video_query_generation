@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "A person in a dark jacket stands with their back to the camera, facing a metal-barred window. A close-up shows a hand gripping the bars, fingers curled around the metal. The scene is dimly lit, with muted tones and a focus on the hand’s texture and the bars’ pattern.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a consistent background hum.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark jacket stands with their back to the camera, facing a metal-barred window. A close-up shows a hand gripping the bars, fingers curled around the metal. The scene is dimly lit, with muted tones and a focus on the hand’s texture and the bars’ pattern.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

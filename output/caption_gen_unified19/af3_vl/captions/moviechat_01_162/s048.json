@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_description": "A man in a dark shirt is seated in a car, his head tilted back and his face partially illuminated, while another person's hand rests on his neck. The second person, partially visible, leans in close, their face near the man’s. The man’s eyes are open and fixed forward, with a bead of moisture visible on his cheek.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate pace, accompanied by heavy breathing and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark shirt is seated in a car, his head tilted back and his face partially illuminated, while another person's hand rests on his neck. The second person, partially visible, leans in close, their face near the man’s. The man’s eyes are open and fixed forward, with a bead of moisture visible on his cheek.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

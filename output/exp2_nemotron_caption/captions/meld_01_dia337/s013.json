@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "A man in a blue plaid shirt stands near a door marked 1232, facing a man in a pink plaid shirt. The man in blue appears surprised with his mouth open, while the man in pink gestures with his right hand while speaking. They are in a warmly lit indoor setting with a framed mirror and wall sconces visible behind them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The men engage in a conversation, with the man in pink speaking and the man in blue reacting. The tone is calm and conversational.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s013\", \"time_range\": [60.0, 65.0], \"visual\": \"A man in a blue plaid shirt stands near a door marked 1232, facing a man in a pink plaid shirt. The man in blue appears surprised with his mouth open, while the man in pink gestures with his right hand while speaking. They are in a warmly lit indoor setting with a framed mirror and wall sconces visible behind them.\", \"audio\": \"The men engage in a conversation, with the man in pink speaking and the man in blue reacting. The tone is cal"
+}

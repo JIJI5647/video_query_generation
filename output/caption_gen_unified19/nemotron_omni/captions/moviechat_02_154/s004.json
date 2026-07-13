@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A silver luxury sedan drives along a wet city street at night, illuminated by streetlights and the glow of nearby skyscrapers. The vehicle moves steadily toward the camera, its headlights reflecting on the slick pavement. Tall buildings line the background, their windows faintly lit.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"A silver luxury sedan drives along a wet city street at night, illuminated by streetlights and the glow of nearby skyscrapers. The vehicle moves steadily toward the camera, its headlights reflecting on the slick pavement. Tall buildings line the background, their windows faintly lit.\", \"audio\": \"\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

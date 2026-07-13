@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "At night, a man in a dark uniform holds a handgun and aims it forward. The scene shifts to a city street where several men, including one in a brown suit and another in a black jacket with a red shirt, stand near parked cars under streetlights. Tall buildings loom in the background as the group appears to be in a tense confrontation.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is tense and possibly includes a gunshot, but the sound is unclear.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s017\", \"time_range\": [80.0, 85.0], \"visual\": \"At night, a man in a dark uniform holds a handgun and aims it forward. The scene shifts to a city street where several men, including one in a brown suit and another in a black jacket with a red shirt, stand near parked cars under streetlights. Tall buildings loom in the background as the group appears to be in a tense confrontation.\", \"audio\": \"The audio is tense and possibly includes a gunshot, but the sound is unclear.\", \"confidenc"
+}

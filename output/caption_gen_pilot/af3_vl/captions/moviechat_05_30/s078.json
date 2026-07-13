@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a clear and steady tone, speaking at a moderate pace. There are no significant background noises or emotional fluctuations, creating a calm and neutral auditory environment.",
+  "temporal_description": "A person, seen from behind and wearing a dark jacket, is seated at a cluttered table in a dimly lit room. Their hands are actively engaged in manipulating a thick rope, occasionally adjusting or pulling it. On the table, there is a large, intricate metal armillary sphere, a small wooden box, and other indistinct objects. The person’s posture remains mostly stationary, focused on the rope and the box, with their hands moving deliberately as they work.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person, seen from behind and wearing a dark jacket, is seated at a cluttered table in a dimly lit room. Their hands are actively engaged in manipulating a thick rope, occasionally adjusting or pulling it. On the table, there is a large, intricate metal armillary sphere, a small wooden box, and other indistinct objects. The person’s posture remains mostly stationary, focused on the rope and the box, with their hands moving deliberately as they work.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

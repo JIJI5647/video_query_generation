@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A child in a red and gray sweater stands facing a door, writing with a marker on its surface. Behind them, another person lies asleep in bed, partially covered by a patterned blanket, near a lit lamp. The child’s posture is upright and focused on the task, with their gaze directed at the door.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable non-speech sounds or cues.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child in a red and gray sweater stands facing a door, writing with a marker on its surface. Behind them, another person lies asleep in bed, partially covered by a patterned blanket, near a lit lamp. The child’s posture is upright and focused on the task, with their gaze directed at the door.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

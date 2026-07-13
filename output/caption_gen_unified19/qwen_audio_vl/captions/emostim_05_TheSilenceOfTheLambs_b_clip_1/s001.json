@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A person with short brown hair, wearing a dark jacket and a silver bracelet, turns away from the camera, revealing their back as they move toward a door with glass panes. Their right hand is raised near their face, partially obscuring it, while their left hand is visible at their side. The background includes a dark-colored counter or shelf with indistinct objects and a partially visible green wall or door.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a latch or switch, immediately followed by a brief, low-frequency thud and a soft rustle, suggesting the handling of a heavy object or the adjustment of clothing. These sounds are captured with high clarity, indicating a close microphone placement in a small, acoustically dampened room. A faint, steady electronic hiss is present throughout, characteristic of a consumer-grade recording device, but does not obscure the main events. A male voice, speaking in a calm, measured, and professional tone, enters the scene. He addresses someone named \"Dr. Lamar\" with the phrase, \"Dr. Lamar, let's take a look at it.\" The voice is clear, with a General American accent and a mid-to-low pitch, and is delivered in a manner that suggests authority and composure. The speech is free of inflection, indicating a routine, task-oriented interaction. The phrase is delivered in a single, uninterrupted breath, with no pauses or hesitations, and is followed by a subtle, natural exhalation. Immediately after the speech, a distinct, high-pitched electronic beep sounds, lasting about 0.2 seconds. This beep is sharp, synthetic, and consistent with the alert tone",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with short brown hair, wearing a dark jacket and a silver bracelet, turns away from the camera, revealing their back as they move toward a door with glass panes. Their right hand is raised near their face, partially obscuring it, while their left hand is visible at their side. The background includes a dark-colored counter or shelf with indistinct objects and a partially visible green wall or door.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

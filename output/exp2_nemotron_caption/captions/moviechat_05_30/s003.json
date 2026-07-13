@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "Two people stand in a dark, arched tunnel and embrace tightly, their backs to the camera, with one person's head resting against the other's. The surrounding environment is dimly lit, with large, shadowy forms lining the sides of the passage. The scene remains low‑key as the pair hold each other close.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual\": \"Two people stand in a dark, arched tunnel and embrace tightly, their backs to the camera, with one person's head resting against the other's. The surrounding environment is dimly lit, with large, shadowy forms lining the sides of the passage. The scene remains low‑key as the pair hold each other close.\", \"audio\": \"The audio is unclear.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

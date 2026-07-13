@@ -1,0 +1,59 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red plaid shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "breaking through a door and screaming"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a white door being broken through by a man"
+    },
+    "objects": [
+      {
+        "object": "a white door",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being broken through by a man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man breaks through a door",
+      "the man screams"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red plaid shirt",
+      "facial_cues": [
+        "wide open mouth",
+        "bared teeth",
+        "wrinkled nose",
+        "squinted eyes"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hands on door"
+      ],
+      "gaze": "towards the camera"
+    }
+  ],
+  "audio_description": "a man is screaming loudly and intensely",
+  "temporal_description": "the man's scream is continuous and intense throughout the clip",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s057\", \"time_range\": [280.0, 285.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a red plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"breaking through a door and screaming\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a white door being broken through by a man\"}, \"objects\": [{\"object\": \"a white door\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"being broken through by a man\"}], \"interactions\": [], \"key_action"
+}

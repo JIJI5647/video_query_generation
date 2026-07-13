@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "Three people sit on a couch in a decorated room; a woman in a red top and jeans sits on the left, a man in a beige turtleneck is in the center, and a woman in a red top and jeans sits on the right. The woman on the left gestures with her hand while holding a small plate with food, and the man in the center looks down at the plate. The woman on the right has her arms crossed and gazes toward the center, while the man in the center slightly leans forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a male speaker, whose voice is clear, mid-to-low in pitch, and delivered in a neutral, conversational tone. He states, “girl guy is not jogging,” with a slight emphasis on “not,” suggesting a corrective or clarifying remark. The delivery is informal and slightly humorous, and the phrase is likely a reference to a well-known meme or internet joke, though the context is not fully explained within the clip. The room’s acoustics are dry and intimate, with no background noise or reverberation, indicating a small, well-furnished indoor space. Immediately following the male speaker, a female voice responds with energetic enthusiasm, exclaiming, “Oh, this is so good, you have got to try it.” Her tone is bright, high-pitched, and expressive. The phrase “you have got to try it” is delivered with particular emphasis, reinforcing the sense of recommendation. The audio quality remains consistent, with no distortion or background interference, and the room’s acoustics continue to suggest a private, comfortable setting. After the female speaker finishes, a brief silence occurs, during which the only audible sound is a faint, low-frequency electronic hum, likely",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three people sit on a couch in a decorated room; a woman in a red top and jeans sits on the left, a man in a beige turtleneck is in the center, and a woman in a red top and jeans sits on the right. The woman on the left gestures with her hand while holding a small plate with food, and the man in the center looks down at the plate. The woman on the right has her arms crossed and gazes toward the center, while the man in the center slightly leans forward.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

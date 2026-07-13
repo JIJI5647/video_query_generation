@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "Two men are seated inside a vehicle, facing each other. The man on the right, with dark hair and a mustache, is holding the other man’s neck with his hand. The man on the left, wearing a dark shirt, is leaning back slightly with his head tilted, his face partially visible. Both appear to be in close proximity, with the interior of the car visible behind them, including the headrest and window.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a vehicle, facing each other. The man on the right, with dark hair and a mustache, is holding the other man’s neck with his hand. The man on the left, wearing a dark shirt, is leaning back slightly with his head tilted, his face partially visible. Both appear to be in close proximity, with the interior of the car visible behind them, including the headrest and window.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

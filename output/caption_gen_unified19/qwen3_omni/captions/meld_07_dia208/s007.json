@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man in a beige turtleneck sweater sits on a couch between two women, one in a blue top and one in a red top. He gestures with his hands while speaking, then stands up and walks away. The woman in the red top gives a thumbs-up gesture as he leaves.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man speaks, followed by a woman's sarcastic response. The man says goodbye, and the woman exclaims in surprise.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"A man in a beige turtleneck sweater sits on a couch between two women, one in a blue top and one in a red top. He gestures with his hands while speaking, then stands up and walks away. The woman in the red top gives a thumbs-up gesture as he leaves.\", \"audio\": \"A man speaks, followed by a woman's sarcastic response. The man says goodbye, and the woman exclaims in surprise.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

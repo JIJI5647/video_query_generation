@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_description": "A man in a light blue shirt and striped tie sits in an office chair, looking down with his head slightly tilted. In a separate scene, several men in uniforms and business attire are seated around a conference table, with one standing at the head, while a television screen displays a video feed in the background. The seated individuals appear engaged in a meeting, with some writing or looking at documents, and the standing man has his hands clasped in front of him.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency electronic hum, likely from a PA system or recording equipment, establishing a quiet, controlled indoor environment. Immediately, a male speaker with a clear, formal Mandarin accent delivers the phrase, “八分” (“Eight minutes”), his voice steady and measured, indicating the start of a scheduled announcement. A soft, brief rustling sound follows, suggesting the speaker adjusts his position or clothing, reinforcing the sense of a live, in-person setting. The speaker continues, “我们收到刘警官的通知” (“We have received notification from Officer Liu”), maintaining a neutral, professional tone and precise diction, with no inflection or background noise. The delivery is deliberate, with each word clearly articulated and separated by natural pauses, reflecting a formal, procedural context. After a short pause, the speaker begins, “在—” (“At—”), but the sentence is abruptly cut off mid-word, leaving the message incomplete. The recording ends suddenly, with no fade-out or additional sounds, indicating a technical interruption or intentional truncation. The audio is of high fidelity, with a clean, mono signal and no distortion, hiss, or environmental interference. The speaker’s voice is prominent and intelligible, with a mid-to-low pitch",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt and striped tie sits in an office chair, looking down with his head slightly tilted. In a separate scene, several men in uniforms and business attire are seated around a conference table, with one standing at the head, while a television screen displays a video feed in the background. The seated individuals appear engaged in a meeting, with some writing or looking at documents, and the standing man has his hands clasped in front of him.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

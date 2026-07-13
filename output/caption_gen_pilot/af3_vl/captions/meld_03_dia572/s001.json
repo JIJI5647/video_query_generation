@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female speaker with a neutral tone and moderate pace, discussing unusual pet names, with no notable background sounds.",
+  "temporal_description": "A woman with shoulder-length brown hair, wearing a white hospital gown and a pink blanket, is seated upright in a hospital bed. She is facing slightly to her right, where a man with dark hair is partially visible, seated beside her. The woman’s gaze is directed toward the man, and her posture remains relatively still throughout the clip. The hospital bed has a light-colored sheet and a patterned pillow, and the background features a pale pink wall with electrical outlets.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair, wearing a white hospital gown and a pink blanket, is seated upright in a hospital bed. She is facing slightly to her right, where a man with dark hair is partially visible, seated beside her. The woman’s gaze is directed toward the man, and her posture remains relatively still throughout the clip. The hospital bed has a light-colored sheet and a patterned pillow, and the background features a pale pink wall with electrical outlets.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

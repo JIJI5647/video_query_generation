@@ -1,0 +1,32 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark room with a computer screen displaying technical data and text in Chinese and English."
+    },
+    "objects": [
+      {
+        "name": "computer screen",
+        "description": "A computer monitor displaying a user interface with text, numbers, and a map. The text includes '有内鬼, 終止交易' (There is a mole, terminate transaction), 'SEND MESSAGE ALL GSM900', '2way communication', and 'DETECT GSM900 52 SELECT CELL'. The screen also shows a map with a red box highlighting a specific area and a list of phone numbers."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Electronic beeps and a low, continuous hum are audible.",
+  "temporal_description": "The screen content changes, showing different text and data.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s058\", \"time_range\": [285.0, 290.0], \"visual_objective\": {\"people\": [], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dark room with a computer screen displaying technical data and text in Chinese and English.\"}, \"objects\": [{\"name\": \"computer screen\", \"description\": \"A computer monitor displaying a user interface with text, numbers, and a map. The text includes '有内鬼, 終止交易' (There is a mole, terminate transaction), 'SEND MESSAGE ALL GSM900', '2way communication', and 'DETEC"
+}

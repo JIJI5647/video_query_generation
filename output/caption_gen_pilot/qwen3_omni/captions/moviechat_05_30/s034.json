@@ -1,0 +1,59 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a large, muscular man",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "charging forward, swinging a large club, and then falling to the ground"
+      }
+    ],
+    "scene": {
+      "location": "outdoor area",
+      "setting": "dark and dimly lit, possibly a forest or jungle at night"
+    },
+    "objects": [
+      {
+        "object": "a large club",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being swung"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "charging",
+      "swinging a club",
+      "falling"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a large, muscular man",
+      "facial_cues": [
+        "angry expression",
+        "open mouth"
+      ],
+      "body_cues": [
+        "charging forward",
+        "swinging a club",
+        "falling to the ground"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, distorted, and aggressive sound, possibly a roar or scream, is heard.",
+  "temporal_description": "The audio starts with a loud, distorted sound, then the man charges forward and swings a club, followed by a thud as he falls.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s034\", \"time_range\": [165.0, 170.0], \"visual_objective\": {\"people\": [{\"person\": \"a large, muscular man\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"charging forward, swinging a large club, and then falling to the ground\"}], \"scene\": {\"location\": \"outdoor area\", \"setting\": \"dark and dimly lit, possibly a forest or jungle at night\"}, \"objects\": [{\"object\": \"a large club\", \"visibility\": \"clearly visible\", \"position\": \"in the man's hand\", \"action\": \"being "
+}

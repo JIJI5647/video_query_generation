@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a female voice speaking in a neutral tone, with no noticeable prosody or emotional inflection. There are no background sounds or other speakers present.",
+  "temporal_description": "A hand, heavily stained with blood and wrapped in white bandages, grips a dark object tightly. The scene shifts to a close-up of a man’s face, showing his eyes, nose, and forehead, with visible sweat and damp hair. His gaze is directed downward, and his head remains still, with slight movements of his eyes. The background is dimly lit and out of focus, emphasizing the man’s facial features and the hand’s gripping motion.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A hand, heavily stained with blood and wrapped in white bandages, grips a dark object tightly. The scene shifts to a close-up of a man’s face, showing his eyes, nose, and forehead, with visible sweat and damp hair. His gaze is directed downward, and his head remains still, with slight movements of his eyes. The background is dimly lit and out of focus, emphasizing the man’s facial features and the hand’s gripping motion.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

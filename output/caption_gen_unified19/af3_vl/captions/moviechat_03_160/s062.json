@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_description": "A man with gray hair, wearing a white shirt and tie, holds a phone displaying Chinese text. In a dimly lit hallway, another man in a dark jacket holds a phone to his ear while standing near others partially obscured by shadows. The scene shows a narrow corridor with Chinese characters on the wall and a faintly visible red decoration.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a moderate pace. There are no noticeable prosody or non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair, wearing a white shirt and tie, holds a phone displaying Chinese text. In a dimly lit hallway, another man in a dark jacket holds a phone to his ear while standing near others partially obscured by shadows. The scene shows a narrow corridor with Chinese characters on the wall and a faintly visible red decoration.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

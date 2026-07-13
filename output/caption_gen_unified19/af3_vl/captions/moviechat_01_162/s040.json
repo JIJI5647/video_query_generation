@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_description": "A man in a black shirt is seated inside a car, leaning toward another person partially visible on the right, with his hand near the other person’s neck. The second person, whose face is mostly obscured, faces the first man, who looks intently at them. The scene is dimly lit, with the interior of the car and blurred background visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a high-pitched, tone, with noticeable heavy breathing and a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a black shirt is seated inside a car, leaning toward another person partially visible on the right, with his hand near the other person’s neck. The second person, whose face is mostly obscured, faces the first man, who looks intently at them. The scene is dimly lit, with the interior of the car and blurred background visible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

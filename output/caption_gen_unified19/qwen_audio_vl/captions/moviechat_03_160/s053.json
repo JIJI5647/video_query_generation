@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_description": "Four individuals stand in a dimly lit, tiled room with graffiti on the walls; one person gestures with their hand while others face them. A computer screen displays a list of phone numbers and program options. The individuals’ postures suggest a focused interaction, with one person’s hand raised mid-gesture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic clink, reminiscent of a cash register drawer opening or a coin being placed on a counter, immediately followed by a brief, high-pitched electronic chime. These sounds are crisp and clear, indicating a close-mic recording in a quiet, acoustically controlled environment. A male voice, speaking in standard Central Thai with a neutral, businesslike tone, calmly states, “รับเงินกลับ” (“Receive the money back”), his words delivered with precise diction and a slight reverberation that suggests a small, hard-surfaced room. The speech is free of inflection, conveying routine professionalism. As the voice finishes, a rapid, percussive sequence of electronic drum sounds erupts, featuring a deep, resonant kick drum, a sharp snare, and a fast, metallic hi-hat pattern. This drum loop is tightly compressed, with a punchy, energetic rhythm that evokes the style of late 1980s or early 1990s electronic dance music, particularly the “Eurobeat” genre. The drum pattern is looped and unchanging, providing a driving, mechanical backdrop. Underneath, a synthesized bassline pulses in sync with the kick",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Four individuals stand in a dimly lit, tiled room with graffiti on the walls; one person gestures with their hand while others face them. A computer screen displays a list of phone numbers and program options. The individuals’ postures suggest a focused interaction, with one person’s hand raised mid-gesture.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and no significant background noise.",
+  "temporal_description": "A man with short dark hair and a mustache, wearing a dark jacket over a collared shirt, is seated in a dimly lit, smoky environment. He gazes forward with a steady, focused expression, occasionally shifting his gaze slightly. Later, another man wearing glasses and a suit appears, holding a lit cigarette, and looks downward while exhaling smoke. The setting remains dark and atmospheric, with smoke drifting around the figures, and both men maintain a still, composed posture.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair and a mustache, wearing a dark jacket over a collared shirt, is seated in a dimly lit, smoky environment. He gazes forward with a steady, focused expression, occasionally shifting his gaze slightly. Later, another man wearing glasses and a suit appears, holding a lit cigarette, and looks downward while exhaling smoke. The setting remains dark and atmospheric, with smoke drifting around the figures, and both men maintain a still, composed posture.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_description": "A close-up shows a man's face, his forehead and cheeks glistening with sweat as his eyes look downward and then close briefly. The shot then cuts to a silhouette of a car parked near a structure against a twilight sky with the sun low on the horizon.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s054\", \"time_range\": [265.0, 270.0], \"visual\": \"A close-up shows a man's face, his forehead and cheeks glistening with sweat as his eyes look downward and then close briefly. The shot then cuts to a silhouette of a car parked near a structure against a twilight sky with the sun low on the horizon.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

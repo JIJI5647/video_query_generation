@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A man in a dark suit lies motionless on the hood of a car, while another man in a suit stands beside him looking forward. Three other men in suits stand behind, appearing to be in motion, with one gesturing with his hand. The scene takes place outdoors near a modern building with a small tree and metal railings visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a soft piano melody and sustained strings. The voice is clear and articulate, with a slight breathiness and a gentle vibrato.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit lies motionless on the hood of a car, while another man in a suit stands beside him looking forward. Three other men in suits stand behind, appearing to be in motion, with one gesturing with his hand. The scene takes place outdoors near a modern building with a small tree and metal railings visible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

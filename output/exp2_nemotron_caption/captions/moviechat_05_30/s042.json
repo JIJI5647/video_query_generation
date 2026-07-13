@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_description": "In a dark, stone-walled area, a robed figure is hurled backward through an archway, scattering debris and a heavy chain. Later, a group of students and a man in a coat descend a dim staircase, where a blonde woman in a white shirt is grabbed by another person. The scene continues with other students and staff moving hurriedly under lantern light.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear, with no distinct sounds audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s042\", \"time_range\": [205.0, 210.0], \"visual\": \"In a dark, stone-walled area, a robed figure is hurled backward through an archway, scattering debris and a heavy chain. Later, a group of students and a man in a coat descend a dim staircase, where a blonde woman in a white shirt is grabbed by another person. The scene continues with other students and staff moving hurriedly under lantern light.\", \"audio\": \"The audio is unclear, with no distinct sounds audible.\", \"confidence\": \"hig"
+}

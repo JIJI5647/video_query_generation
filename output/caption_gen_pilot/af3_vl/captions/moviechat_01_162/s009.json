@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a steady pace, accompanied by the sound of a boat motor and water splashing.",
+  "temporal_description": "A man in a dark suit and tie is seen in profile, looking downward with his head slightly bowed. He remains stationary throughout the clip, with his gaze fixed downward. The background is out of focus, showing blurred vehicles and city lights, suggesting an urban nighttime setting. The camera slowly pans to the right, eventually focusing on the side of a car, leaving the man out of frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and tie is seen in profile, looking downward with his head slightly bowed. He remains stationary throughout the clip, with his gaze fixed downward. The background is out of focus, showing blurred vehicles and city lights, suggesting an urban nighttime setting. The camera slowly pans to the right, eventually focusing on the side of a car, leaving the man out of frame.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

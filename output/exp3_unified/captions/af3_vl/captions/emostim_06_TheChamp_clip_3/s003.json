@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A young child with blonde hair is held by an adult whose torso and arms are visible, wearing a white shirt and dark pants. The child’s hands are held by the adult’s hands, and the child looks forward with their mouth slightly open. The scene is dimly lit, with a red object partially visible on the left side of the frame.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a high-pitched, breathy voice with a rapid pace and a noticeable gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with blonde hair is held by an adult whose torso and arms are visible, wearing a white shirt and dark pants. The child’s hands are held by the adult’s hands, and the child looks forward with their mouth slightly open. The scene is dimly lit, with a red object partially visible on the left side of the frame.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

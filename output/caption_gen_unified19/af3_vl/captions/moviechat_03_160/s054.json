@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s054",
+  "time_range": [
+    265.0,
+    270.0
+  ],
+  "visual_description": "A person in the foreground holds a camera pointed toward others seated in the background, with faint ambient lights visible behind them. A close-up of a phone screen displays an SMS interface with a recipient number and message field, alongside technical data on the right side. The seated individuals are partially illuminated, with one person’s face visible in profile, while others remain mostly in shadow.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a moderate pace, accompanied by a slight breathiness and a sigh at the end.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in the foreground holds a camera pointed toward others seated in the background, with faint ambient lights visible behind them. A close-up of a phone screen displays an SMS interface with a recipient number and message field, alongside technical data on the right side. The seated individuals are partially illuminated, with one person’s face visible in profile, while others remain mostly in shadow.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

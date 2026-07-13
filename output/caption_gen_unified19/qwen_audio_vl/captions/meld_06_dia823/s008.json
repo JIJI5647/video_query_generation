@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A woman with blonde hair sits on a couch, facing forward, her hands clasped in her lap. Beside her, a man in a dark t-shirt and khaki pants sits with his hands resting on his knees, looking toward her. Behind them, another person in a dark shirt and jeans stands partially visible, with their hand resting on the back of the couch.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a brief, high-pitched, breathy exhalation from a female speaker, immediately followed by a soft, low-frequency thump—likely the sound of a hand or object making contact with a table or desk. This is accompanied by a faint rustling, suggesting movement of clothing or paper. The first speaker, Monica, with a clear, mid-to-high pitched voice and a General American accent, asks, “What are you saying I should do?” Her tone is inquisitive and, and the room’s acoustics reveal a small, furnished space with minimal reverberation. A second female speaker, Rachel, responds in a calm, measured, and supportive manner: “I think that if you really like this guy, you should just trust him.” Her voice is lower and more resonant, and her delivery is steady and reassuring, with a subtle emphasis on the word “trust.” The room’s ambient noise remains consistent, with a faint electronic hiss and a low-frequency hum, likely from HVAC or electrical equipment, but no other voices or environmental sounds are present. After Rachel finishes, a brief pause occurs, during which a soft, low-frequency thump is heard, possibly from a hand or object being set down.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with blonde hair sits on a couch, facing forward, her hands clasped in her lap. Beside her, a man in a dark t-shirt and khaki pants sits with his hands resting on his knees, looking toward her. Behind them, another person in a dark shirt and jeans stands partially visible, with their hand resting on the back of the couch.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s085",
+  "time_range": [
+    420.0,
+    425.0
+  ],
+  "visual_description": "In a dimly lit billiards room with brown padded walls and hanging cone lights, a shirtless man in shorts and a woman in a patterned dress lean over a blue pool table, appearing to be in an intimate or confrontational position. The scene includes a pool cue, balls, and a chair in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s085\", \"time_range\": [420, 425], \"visual\": \"In a dimly lit billiards room with brown padded walls and hanging cone lights, a shirtless man in shorts and a woman in a patterned dress lean over a blue pool table, appearing to be in an intimate or confrontational position. The scene includes a pool cue, balls, and a chair in the background.\", \"audio\": \"Audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man in a beige jacket stands near a hospital bed, holding a curtain open with one hand while looking toward the bed. A woman with short hair lies in the bed, propped up with her hands behind her head, partially obscured by the curtain. The scene is a hospital room with medical equipment visible, including an IV stand and a wall-mounted device.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking in a quiet environment with no background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a beige jacket stands near a hospital bed, holding a curtain open with one hand while looking toward the bed. A woman with short hair lies in the bed, propped up with her hands behind her head, partially obscured by the curtain. The scene is a hospital room with medical equipment visible, including an IV stand and a wall-mounted device.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

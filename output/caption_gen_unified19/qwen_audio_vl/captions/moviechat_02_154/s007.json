@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A man in profile is visible in a dimly lit interior, his face partially illuminated. Two men in suits descend a metal staircase outdoors at night, illuminated by artificial lights. One man walks ahead while the other follows closely behind, both maintaining a steady pace.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful orchestral chord, immediately establishing a dramatic and cinematic atmosphere. The ensemble features a full string section, with violins and violas delivering a high, sustained, and dissonant chord, while cellos and double basses provide a deep, resonant foundation. The harmony is and unresolved, evoking a sense of suspense and foreboding. The sound is enveloped in a lush, artificial reverb, creating a vast, cinematic space that suggests a grand hall or a virtual environment. The recording is pristine, with no background noise or artifacts, and the stereo image is wide, immersing the listener in the music. As the initial chord fades, the strings transition into a slow, descending melodic line, led by the violins and supported by lower strings. The melody is legato and mournful, with a minor key tonality and a slow, deliberate rhythm. The harmonic progression remains unresolved, maintaining a mood of tension and anticipation. The orchestration is rich and layered, with each instrument clearly defined and the reverb continuing to enhance the sense of scale and drama. The music remains entirely instrumental, with no speech, vocals, or environmental sounds present. The orchestral passage is abruptly interrupted by a",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in profile is visible in a dimly lit interior, his face partially illuminated. Two men in suits descend a metal staircase outdoors at night, illuminated by artificial lights. One man walks ahead while the other follows closely behind, both maintaining a steady pace.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

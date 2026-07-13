@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_description": "A group of people, including a woman in a dark top and a man in a white shirt and tie, surround a body on a gurney in a room with wooden doors. One man in a suit stands behind the group, while another man in a light-colored shirt leans over the body, appearing to examine it. The woman faces the body, her back to the camera, and the man in the white shirt looks down at the body with his hands clasped.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow pace, speaking in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people, including a woman in a dark top and a man in a white shirt and tie, surround a body on a gurney in a room with wooden doors. One man in a suit stands behind the group, while another man in a light-colored shirt leans over the body, appearing to examine it. The woman faces the body, her back to the camera, and the man in the white shirt looks down at the body with his hands clasped.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing a song with a medium pitch and a moderate tempo, accompanied by background music.",
+  "temporal_description": "A man in a brown suit and white shirt is riding a bicycle on a road. He is holding onto the handlebars with both hands and looking forward. The background shows a rural landscape with fields, trees, and a clear sky. The man's posture is upright as he pedals along the road.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a brown suit and white shirt is riding a bicycle on a road. He is holding onto the handlebars with both hands and looking forward. The background shows a rural landscape with fields, trees, and a clear sky. The man's posture is upright as he pedals along the road.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

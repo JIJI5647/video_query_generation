@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "Inside a car, a man with short dark hair and a black shirt sits in the driver's seat, wiping his nose with a white tissue while another man in the back seat looks out the window. The driver then places his hand on the steering wheel, his face showing a focused expression as he looks forward. He appears to speak, his mouth moving, while the background scenery blurs past the windows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains the driver speaking in a calm tone, accompanied by the low hum of the car engine.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s026\", \"time_range\": [125.0, 130.0], \"visual\": \"Inside a car, a man with short dark hair and a black shirt sits in the driver's seat, wiping his nose with a white tissue while another man in the back seat looks out the window. The driver then places his hand on the steering wheel, his face showing a focused expression as he looks forward. He appears to speak, his mouth moving, while the background scenery blurs past the windows.\", \"audio\": \"The audio contains the driver speaking "
+}

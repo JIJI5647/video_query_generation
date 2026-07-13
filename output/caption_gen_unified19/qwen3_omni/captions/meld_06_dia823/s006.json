@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man and a woman are sitting on a couch in a living room. The man is wearing a dark blue t-shirt and khaki pants, while the woman is wearing a white shirt and blue pants. They are both looking towards the left of the frame with neutral expressions.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice asks a question, followed by a female voice expressing disbelief and annoyance.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual\": \"A man and a woman are sitting on a couch in a living room. The man is wearing a dark blue t-shirt and khaki pants, while the woman is wearing a white shirt and blue pants. They are both looking towards the left of the frame with neutral expressions.\", \"audio\": \"A male voice asks a question, followed by a female voice expressing disbelief and annoyance.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

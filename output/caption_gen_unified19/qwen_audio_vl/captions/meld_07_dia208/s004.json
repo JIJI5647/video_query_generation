@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "Two men sit at a small round table in a café setting; the man on the left, wearing a red plaid shirt, gestures with his hands while speaking, and the man on the right, in a black sweater, sits with arms crossed, looking toward him. Behind them, other people are partially visible, and the background includes festive decorations and a chalkboard with writing. Both men are seated, facing each other, with mugs and a small container on the table between them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single male speaker, whose voice is clear, resonant, and delivered in a relaxed, conversational tone. He is situated in a large, reverberant indoor space, likely a hall or auditorium, as evidenced by the pronounced echo and the absence of background noise. The speaker, who has a General American accent and a mature, slightly gravelly timbre, recounts a personal anecdote: “Pretty bird and I wanted to take a picture, but I didn't have my camera.” His delivery is casual and self-deprecating, with a subtle, amused sigh following the phrase “my camera,” indicating mild regret. The room’s acoustics cause his words to linger, and the recording is of moderate fidelity, with a faint electronic hiss and a low-frequency hum present throughout. As the speaker finishes his story, a brief, low-pitched chuckle from a member of the audience is heard, followed by a soft, indistinct murmur from the crowd, suggesting a small, attentive group. The speaker then transitions to a new topic, saying, “Okay. First of all, chasing the—” but is abruptly interrupted mid-word by a sharp, high-pitched electronic beep. This beep, likely a censor tone",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men sit at a small round table in a café setting; the man on the left, wearing a red plaid shirt, gestures with his hands while speaking, and the man on the right, in a black sweater, sits with arms crossed, looking toward him. Behind them, other people are partially visible, and the background includes festive decorations and a chalkboard with writing. Both men are seated, facing each other, with mugs and a small container on the table between them.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

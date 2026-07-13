@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A child with short, light-colored hair, wearing a striped sweater and dark pants, stands with their back to the camera, facing a closed door. They hold a long, thin object, possibly a stick or wand, in their right hand. To the left, an adult lies in bed under a patterned blanket, partially visible, with their head resting on a pillow. A lit lamp sits on a bedside table next to the bed, casting a warm glow on the wall and the child. A bookshelf filled with books is visible to the right of the child. The child remains mostly still, occasionally shifting their weight or slightly moving the object in their hand. The adult in bed remains motionless throughout the clip.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a high-pitched, metallic, and resonant chime that rings out with a clear, bell-like timbre. This chime is sustained and unwavering, its sound rich in overtones and reminiscent of a large, well-tuned bell or chime bar. The chime is centrally placed in the stereo field, with a subtle, natural reverberation that suggests it is being played in a large, acoustically reflective space such as a hall or cathedral. The chime’s tone is pure and unwavering, with no modulation or vibrato, and it is accompanied by a faint, high-frequency hiss that is likely a byproduct of the recording equipment or the environment. The chime’s resonance is abruptly cut off, with no natural decay, indicating a hard digital edit. Immediately following the chime, a low, guttural, and raspy vocalization emerges. This sound is non-linguistic and heavily processed, featuring a deep, throaty timbre with a pronounced, wet, and gurgling texture. The vocalization is heavily distorted, with a gritty, saturated quality that suggests the use of a low-pass filter and distortion effects. It is delivered in a single, continuous, and un",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short, light-colored hair, wearing a striped sweater and dark pants, stands with their back to the camera, facing a closed door. They hold a long, thin object, possibly a stick or wand, in their right hand. To the left, an adult lies in bed under a patterned blanket, partially visible, with their head resting on a pillow. A lit lamp sits on a bedside table next to the bed, casting a warm glow on the wall and the child. A bookshelf filled with books is visible to the right of the chi",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

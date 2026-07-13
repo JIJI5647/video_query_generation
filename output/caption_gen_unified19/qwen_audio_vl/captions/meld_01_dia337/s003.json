@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a pink plaid shirt bends forward slightly while holding a small object, facing another man in a blue plaid shirt who stands with his back mostly turned. The scene takes place indoors, with framed artwork and a wall-mounted lamp visible in the background. The man in pink appears to be gesturing or presenting the object to the other man, who remains stationary and attentive.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a button or switch, immediately followed by a low-frequency thump, suggesting someone is settling into a chair or shifting position. A faint, continuous electronic hiss is present throughout, indicating the use of a consumer-grade recording device in a small, acoustically treated room. The first male speaker, positioned close to the microphone, delivers a calm, matter-of-fact statement: “Why not? It’s it’s built into the price of the room.” His voice is clear, mid-to-low in pitch, and carries a slightly nasal, conversational tone, with a subtle emphasis on “built into the price of the room.” The room’s acoustics are dry, with no echo or reverb, and the background hiss remains unobtrusive. Following this, a second male speaker, slightly more distant and with a higher pitch, responds with a quick, dismissive interjection: “Yeah, but you don’t—” His tone is more animated and higher in pitch, and he begins to elaborate but is abruptly cut off mid-sentence. The interruption is marked by a sharp, percussive click, likely from a button press or device activation, which instantly silences all audio.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a pink plaid shirt bends forward slightly while holding a small object, facing another man in a blue plaid shirt who stands with his back mostly turned. The scene takes place indoors, with framed artwork and a wall-mounted lamp visible in the background. The man in pink appears to be gesturing or presenting the object to the other man, who remains stationary and attentive.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

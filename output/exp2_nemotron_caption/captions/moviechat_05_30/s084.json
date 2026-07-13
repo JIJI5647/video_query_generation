@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_description": "A man in a brown jacket stands in a dimly lit, cluttered room filled with assorted items, looking forward. The scene shifts to three men in black robes, with one pointing a wand while the others stand nearby.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks calmly, followed by another voice delivering an accusation.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s084\", \"time_range\": [415.0, 420.0], \"visual\": \"A man in a brown jacket stands in a dimly lit, cluttered room filled with assorted items, looking forward. The scene shifts to three men in black robes, with one pointing a wand while the others stand nearby.\", \"audio\": \"A male voice speaks calmly, followed by another voice delivering an accusation.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

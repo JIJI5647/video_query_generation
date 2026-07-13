@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_description": "A man in a light-colored shirt and dark tie walks down a well-lit office hallway, his gaze directed forward. Several other individuals are visible in the background, some seated at desks and others walking, all appearing engaged in typical office activity. The scene is set in a modern office environment with visible staircases, fluorescent lighting, and computer monitors displaying security footage.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a steady pace and moderate pitch, accompanied by background music.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt and dark tie walks down a well-lit office hallway, his gaze directed forward. Several other individuals are visible in the background, some seated at desks and others walking, all appearing engaged in typical office activity. The scene is set in a modern office environment with visible staircases, fluorescent lighting, and computer monitors displaying security footage.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

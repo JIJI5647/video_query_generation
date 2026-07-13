@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or emotional inflection.",
+  "temporal_description": "Two men are seated at a table in a dimly lit, cluttered room with a chalkboard in the background. The man on the left, wearing a patterned shirt, is eating from a bowl with chopsticks, occasionally looking down at his food. The man on the right, dressed in a black jacket, is leaning toward the other man, gesturing with his hand while holding a chopstick, and occasionally glancing at the bowl. A third person is partially visible in the background, seated and smoking. The setting appears to be a casual, possibly informal dining or workspace environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at a table in a dimly lit, cluttered room with a chalkboard in the background. The man on the left, wearing a patterned shirt, is eating from a bowl with chopsticks, occasionally looking down at his food. The man on the right, dressed in a black jacket, is leaning toward the other man, gesturing with his hand while holding a chopstick, and occasionally glancing at the bowl. A third person is partially visible in the background, seated and smoking. The setting appears to be a c",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

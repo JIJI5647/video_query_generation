@@ -1,0 +1,69 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "crying and being held by an older man"
+      },
+      {
+        "person": "an older man with curly hair",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "holding the boy and speaking to him"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a dark background"
+    },
+    "objects": [],
+    "interactions": [
+      "The older man is holding the young boy close to him."
+    ],
+    "key_actions": [
+      "The boy is crying and looking at the man.",
+      "The man is speaking to the boy."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "tears on his face",
+        "red eyes",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "being held by the man"
+      ],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "an older man with curly hair",
+      "facial_cues": [
+        "serious expression",
+        "mouth moving"
+      ],
+      "body_cues": [
+        "holding the boy"
+      ],
+      "gaze": "looking at the boy"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, somber tone, and a child is crying.",
+  "temporal_description": "The man continues to speak to the crying boy throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s020\", \"time_range\": [95.0, 100.0], \"visual_objective\": {\"people\": [{\"person\": \"a young boy with blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"crying and being held by an older man\"}, {\"person\": \"an older man with curly hair\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"holding the boy and speaking to him\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a dark background\"}, \"objects\": [], \"interactions\""
+}

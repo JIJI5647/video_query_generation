@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s091",
+  "time_range": [
+    450.0,
+    455.0
+  ],
+  "visual_description": "A silhouetted man descends a staircase while looking down at a bustling hallway below. The view shifts to a checkered-floor corridor where men in light blue shirts and ties walk and stand near a glass partition. A close-up follows a serious-looking man in a light blue shirt and striped tie as he moves with a group through the corridor.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Ambient indoor sounds are heard, including footsteps and distant murmurs.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s091\", \"time_range\": [450.0, 455.0], \"visual\": \"A silhouetted man descends a staircase while looking down at a bustling hallway below. The view shifts to a checkered-floor corridor where men in light blue shirts and ties walk and stand near a glass partition. A close-up follows a serious-looking man in a light blue shirt and striped tie as he moves with a group through the corridor.\", \"audio\": \"Ambient indoor sounds are heard, including footsteps and distant murmurs.\", \"confidenc"
+}

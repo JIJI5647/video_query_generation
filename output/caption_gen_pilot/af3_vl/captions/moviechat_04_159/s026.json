@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a light blue shirt stands in an office, gesturing with his hands while holding a white object, possibly a piece of paper or cloth. Two other individuals are seated at a desk nearby, one focused on a laptop and the other looking up at the standing man. The background features glass walls and a wall covered with numerous photos or documents. The man in the blue shirt occasionally points and moves his arms expressively, while the seated individuals remain relatively still, with one occasionally glancing at the standing man. The scene shifts to a monitor displaying a person seated at a table under a spotlight, with the standing man observing the screen. The man in the blue shirt then turns to interact with the seated individual, handing him a glass of water.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt stands in an office, gesturing with his hands while holding a white object, possibly a piece of paper or cloth. Two other individuals are seated at a desk nearby, one focused on a laptop and the other looking up at the standing man. The background features glass walls and a wall covered with numerous photos or documents. The man in the blue shirt occasionally points and moves his arms expressively, while the seated individuals remain relatively still, with one occasio",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

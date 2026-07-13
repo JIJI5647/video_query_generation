@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s082",
+  "time_range": [
+    405.0,
+    410.0
+  ],
+  "visual_description": "The video shows a close-up of a dimly lit, industrial or mechanical setting with metallic structures, pipes, and cables. A yellow object, possibly a tool or part, is visible moving or being manipulated within the machinery. The scene is confined to mechanical components, with no people visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, metallic chime that rings out with a crystalline clarity, its attack sharp and its decay smooth and resonant. This chime, reminiscent of a music box or celesta, is immediately followed by a lush, sustained orchestral string pad, which envelops the listener in a wide stereo field. The strings, likely violins and violas, are processed with heavy reverb, creating a cavernous, ethereal atmosphere. The harmony is minor and unresolved, with a slow, descending melodic line that evokes a sense of melancholy and suspense. The music is entirely instrumental, with no speech, vocals, or environmental sounds present. As the orchestral pad continues, a low, sustained bass note emerges, adding depth and gravity to the soundscape. The overall volume remains moderate, with the chime standing out as the loudest element. The stereo image is expansive, with the chime positioned slightly left of center and the strings filling the space around it. The mood is and mysterious, with the unresolved harmony and slow tempo suggesting anticipation or foreboding. Suddenly, the music is cut off mid-phrase by a hard, digital edit, with no fade or natural decay. In the same instant",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows a close-up of a dimly lit, industrial or mechanical setting with metallic structures, pipes, and cables. A yellow object, possibly a tool or part, is visible moving or being manipulated within the machinery. The scene is confined to mechanical components, with no people visible.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

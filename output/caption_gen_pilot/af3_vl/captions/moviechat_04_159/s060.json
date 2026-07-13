@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "Two men are seated at desks in a dimly lit room, each working on laptops with microphones positioned in front of them. The man in the foreground holds a green bottle and occasionally gestures with it while looking down at his screen. The man behind him wears headphones and focuses on his own laptop. The camera pans to reveal more of the room, showing additional people seated at desks, one of whom is looking up and speaking to someone off-screen. A man in a suit stands near a tripod-mounted camera, adjusting it while others remain seated and engaged with their work. The room has blinds covering the windows and various equipment and papers scattered around the desks.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at desks in a dimly lit room, each working on laptops with microphones positioned in front of them. The man in the foreground holds a green bottle and occasionally gestures with it while looking down at his screen. The man behind him wears headphones and focuses on his own laptop. The camera pans to reveal more of the room, showing additional people seated at desks, one of whom is looking up and speaking to someone off-screen. A man in a suit stands near a tripod-mounted camer",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

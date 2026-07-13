@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a low pitch and a slow speaking rate. The voice sounds slightly strained and emotional, with a slight tremble in the delivery. There are no other non-speech sounds present in the clip.",
+  "temporal_description": "A bald man in a dark suit stands with his back to the camera, facing a row of aquariums filled with fish and aquatic plants. He remains still, observing the tanks, his posture upright and his head slightly tilted as he gazes at the water. The aquariums are arranged in multiple rows, each containing different species of fish and decorative elements. The scene is dimly lit, with a greenish hue, and the man’s face is partially obscured by out-of-focus foliage in the foreground.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A bald man in a dark suit stands with his back to the camera, facing a row of aquariums filled with fish and aquatic plants. He remains still, observing the tanks, his posture upright and his head slightly tilted as he gazes at the water. The aquariums are arranged in multiple rows, each containing different species of fish and decorative elements. The scene is dimly lit, with a greenish hue, and the man’s face is partially obscured by out-of-focus foliage in the foreground.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

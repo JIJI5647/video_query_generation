@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "The night sky above a dark castle is filled with swirling blue magical lightning. A woman with long red hair looks forward with a serious expression, standing near a stone arch. A man with a beard stands in profile while another figure appears in the background through the arch.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"The night sky above a dark castle is filled with swirling blue magical lightning. A woman with long red hair looks forward with a serious expression, standing near a stone arch. A man with a beard stands in profile while another figure appears in the background through the arch.\", \"audio\": \"The audio is unclear.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

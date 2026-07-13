@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A man in a dark shirt sits at a desk, viewed from behind, as a woman in a light-colored top leans over his shoulder, both appearing to work on documents. The scene shifts to a man in a suit walking through an office space with glass partitions, smiling slightly as he moves. A wall behind him displays numerous framed photographs in a grid pattern.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, followed by a female voice with a low pitch and moderate speed.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark shirt sits at a desk, viewed from behind, as a woman in a light-colored top leans over his shoulder, both appearing to work on documents. The scene shifts to a man in a suit walking through an office space with glass partitions, smiling slightly as he moves. A wall behind him displays numerous framed photographs in a grid pattern.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

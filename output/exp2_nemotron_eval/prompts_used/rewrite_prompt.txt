@@ -1,0 +1,57 @@
+PROMPT VERSION: rewrite_prompt_v2
+
+TASK:
+Watch the provided video carefully. Then rewrite each failing query to fix the identified issue
+while preserving its intended emotional grounding event.
+
+VIDEO ID: {video_id}
+Round Index: {round_index}
+
+REWRITING RULES:
+- Keep the same query_id.
+- Preserve the query_type where possible (only change it if the type itself was wrong).
+- Preserve the intended observable event or cue — use the video to confirm it is actually present.
+- Fix the identified issue: broad scope, vague person reference, internal mental state claim,
+  hallucination, non-English text, proper noun, or explicit timestamp in query_text.
+- Make the query clearer and more grounded in what you can see or hear in the video.
+- Use perceived-emotion wording for emotion_state queries: "appears", "looks", "seems", "sounds".
+  Never claim the person's true internal feeling or motivation.
+- Use concrete visual descriptions of people (clothing, role, position) based on what is visible.
+- Keep the wording natural and varied. Avoid template-like phrasing.
+- Avoid repeating the same structure across multiple rewrites.
+- Enforce English-only query_text; translate/paraphrase any non-English content.
+- Remove all proper nouns; use visual descriptions from what you observe in the video.
+- Remove all explicit timestamps and temporal range hints from query_text.
+- Do NOT move timestamp information into query_text from approximate_grounding_time.
+
+QUERIES TO REWRITE (with verifier feedback):
+{queries_with_feedback_json}
+
+INSTRUCTIONS:
+For each query:
+1. Re-watch the relevant part of the video to confirm the grounding event is present.
+2. Read the failure_reason and suggested_revision from the verifier.
+3. Fix the identified issue using direct video observation.
+4. Do not change query_id.
+5. Keep query_type the same unless it was the source of failure.
+6. Write a brief rewrite_reason explaining what changed and why.
+
+OUTPUT REQUIREMENTS:
+Return valid JSON only. Do not include markdown, comments, or explanation outside the JSON object.
+
+The output JSON must match this schema exactly:
+{
+  "video_id": "<string>",
+  "round_index": <integer>,
+  "rewrites": [
+    {
+      "video_id": "<string>",
+      "query_id": "<string — unchanged>",
+      "round_index": <integer>,
+      "original_query_text": "<the query text that was sent for rewriting>",
+      "rewritten_query_text": "<improved query in English, no proper nouns, no timestamps>",
+      "query_type": "<explicit_event | emotion_state | evidence_cue>",
+      "rewrite_reason": "<brief explanation of what was changed and why>"
+    }
+  ]
+}

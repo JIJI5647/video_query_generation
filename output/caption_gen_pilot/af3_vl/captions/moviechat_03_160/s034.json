@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man with short dark hair, wearing a light-colored shirt, is seated in front of a computer monitor, holding a headset to his ear. His gaze is fixed on the screen, and his posture is upright and attentive. The camera shifts to a close-up of his hand typing on a laptop keyboard, then to the monitor displaying technical data and fluctuating numerical values. The screen shows a digital interface with graphs and numerical readouts, indicating some form of signal or data analysis. The environment is dimly lit, suggesting an indoor, possibly office or lab setting.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair, wearing a light-colored shirt, is seated in front of a computer monitor, holding a headset to his ear. His gaze is fixed on the screen, and his posture is upright and attentive. The camera shifts to a close-up of his hand typing on a laptop keyboard, then to the monitor displaying technical data and fluctuating numerical values. The screen shows a digital interface with graphs and numerical readouts, indicating some form of signal or data analysis. The environment is ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

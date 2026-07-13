@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and leaning over a desk to speak to someone"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office with multiple desks, computers, and a map on the wall"
+    },
+    "objects": [
+      {
+        "object": "a laptop",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being used by a man in a white shirt"
+      }
+    ],
+    "interactions": [
+      "the man in the suit speaks to the man at the desk"
+    ],
+    "key_actions": [
+      "the man in the suit leans over the desk and speaks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "leaning forward"
+      ],
+      "gaze": "towards the man at the desk"
+    }
+  ],
+  "audio_description": "A man speaks in a calm tone, followed by a phone dialing sound.",
+  "temporal_description": "A man speaks, then a phone dialing sound begins.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing and leaning over a desk to speak to someone\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office with multiple desks, computers, and a map on the wall\"}, \"objects\": [{\"object\": \"a laptop\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being used by a man in a white "
+}

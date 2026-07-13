@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_description": "A woman with long dark hair in a blue coat holds a small child wearing a red-and-white striped sweater. She moves from a bedroom with a lit lamp and bed toward a door marked with red writing, opens it, and steps into a bathroom while still embracing the child. Her hair flies as she turns near the doorway, keeping the child close.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A door opens with a soft creak, and the woman's movement produces rustling sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s020\", \"time_range\": [95.0, 100.0], \"visual\": \"A woman with long dark hair in a blue coat holds a small child wearing a red-and-white striped sweater. She moves from a bedroom with a lit lamp and bed toward a door marked with red writing, opens it, and steps into a bathroom while still embracing the child. Her hair flies as she turns near the doorway, keeping the child close.\", \"audio\": \"A door opens with a soft creak, and the woman's movement produces rustling sounds.\", \"confide"
+}

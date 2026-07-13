@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing in a low register, accompanied by a slow tempo and a steady rhythm.",
+  "temporal_description": "A man dressed in a suit and tie is riding a bicycle on a rural road. He is positioned centrally in the frame, pedaling forward with his hands on the handlebars. The road stretches ahead, flanked by dry grass and sparse trees, with a stone building visible to the side. The man’s posture is upright, and he occasionally glances to the side as he continues cycling.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man dressed in a suit and tie is riding a bicycle on a rural road. He is positioned centrally in the frame, pedaling forward with his hands on the handlebars. The road stretches ahead, flanked by dry grass and sparse trees, with a stone building visible to the side. The man’s posture is upright, and he occasionally glances to the side as he continues cycling.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

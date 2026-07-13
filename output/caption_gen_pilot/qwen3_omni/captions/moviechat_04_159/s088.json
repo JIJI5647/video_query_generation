@@ -1,0 +1,64 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s088",
+  "time_range": [
+    435.0,
+    440.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "driving a car"
+      },
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting in the passenger seat"
+      }
+    ],
+    "scene": {
+      "location": "inside a car",
+      "setting": "at night, with city lights visible through the windows"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man on the left is driving",
+      "the man on the right is talking and gesturing with his hand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "looking forward",
+        "talking"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a dark shirt",
+      "facial_cues": [
+        "looking forward",
+        "listening"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s088\", \"time_range\": [435.0, 440.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"driving a car\"}, {\"person\": \"a man in a dark shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"sitting in the passenger seat\"}], \"scene\": {\"location\": \"inside a car\", \"setting\": \"at night, with city lights visible through the windows\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"th"
+}

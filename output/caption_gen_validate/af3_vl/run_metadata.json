@@ -1,0 +1,25 @@
+{
+  "caption_model": "af3_vl",
+  "model_kind": "audio_video",
+  "non_commercial": true,
+  "video_dir": "data/pilot_study",
+  "num_videos": 1,
+  "num_segments": 3,
+  "num_captions": 3,
+  "total_seconds": 26.4,
+  "segment_seconds": 5.0,
+  "stride": 5.0,
+  "per_video": [
+    {
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "num_segments": 3,
+      "num_cached": 0,
+      "seconds": 24.3
+    }
+  ],
+  "model_paths": {
+    "caption_model_path": null,
+    "audio_model_path": "nvidia/audio-flamingo-3-hf",
+    "video_model_path": "Qwen/Qwen3-VL-8B-Instruct"
+  }
+}

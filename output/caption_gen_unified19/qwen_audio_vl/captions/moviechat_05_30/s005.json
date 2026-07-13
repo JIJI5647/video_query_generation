@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A figure in dark robes stands on a rocky outcrop, facing away, while another figure in similar attire kneels nearby, both silhouetted against a dim, blue-tinted environment. A faint, glowing light emanates from the kneeling figure’s hand, illuminating the ground and casting long shadows. The scene is set in a cavernous, rocky area with a dark, textured ceiling and sparse vegetation.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, and strained human scream, delivered by a male voice in a state of acute terror. The scream is so intense that it causes severe digital clipping, resulting in a harsh, distorted, and crackling sound. This vocalization is abruptly cut off, with no fade or decay, indicating a hard edit. Immediately following the scream, a massive, low-frequency explosion erupts, characterized by a deep, thunderous boom that overwhelms the recording device, causing further distortion and a brief period of digital clipping. The explosion’s energy is so great that it saturates the audio spectrum, with the low end dominating and the high frequencies being partially masked. As the initial blast subsides, a chaotic sequence of metallic impacts and shattering glass takes over. The soundscape is filled with a dense, rapid-fire barrage of sharp, high-frequency cracks and tinkling noises, suggesting the violent disintegration of glass and metal objects. These sounds are layered and overlapping, creating a sense of total destruction and chaos. The reverberation is pronounced, with echoes and fluttering reflections indicating a large, hard-surfaced indoor environment—such as a warehouse, garage, or industrial hall. The reverberation is bright and metallic, further supporting",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A figure in dark robes stands on a rocky outcrop, facing away, while another figure in similar attire kneels nearby, both silhouetted against a dim, blue-tinted environment. A faint, glowing light emanates from the kneeling figure’s hand, illuminating the ground and casting long shadows. The scene is set in a cavernous, rocky area with a dark, textured ceiling and sparse vegetation.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,77 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a pink plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking to another man"
+      },
+      {
+        "person": "a man in a blue plaid shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing with arms crossed and talking to another man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a wooden door and a framed picture on the wall"
+    },
+    "objects": [
+      {
+        "object": "a wooden door",
+        "visibility": "clearly visible",
+        "position": "right background",
+        "action": "closed"
+      }
+    ],
+    "interactions": [
+      "the two men are having a conversation"
+    ],
+    "key_actions": [
+      "the man in the pink plaid shirt is talking",
+      "the man in the blue plaid shirt is listening and responding"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a pink plaid shirt",
+      "facial_cues": [
+        "open mouth",
+        "raised eyebrows"
+      ],
+      "body_cues": [
+        "standing",
+        "talking"
+      ],
+      "gaze": "towards the man in the blue plaid shirt"
+    },
+    {
+      "person": "a man in a blue plaid shirt",
+      "facial_cues": [
+        "open mouth",
+        "raised eyebrows"
+      ],
+      "body_cues": [
+        "arms crossed",
+        "standing"
+      ],
+      "gaze": "towards the man in the pink plaid shirt"
+    }
+  ],
+  "audio_description": "two men are having a conversation, with one man asking a question and the other responding with an apology.",
+  "temporal_description": "the conversation progresses with the man in the pink plaid shirt asking a question and the man in the blue plaid shirt responding with an apology.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a pink plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and talking to another man\"}, {\"person\": \"a man in a blue plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing with arms crossed and talking to another man\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with a wooden door and a framed picture on the wal"
+}

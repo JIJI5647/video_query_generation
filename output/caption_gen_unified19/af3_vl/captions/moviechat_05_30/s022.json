@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A person in a patterned poncho walks away from the camera along a dark wooden bridge, while another person in a light-colored shirt is partially visible to the left, looking toward the first person. Snowflakes drift through the air as the scene is dimly lit, with a forested background and the bridge’s railings and supports visible. The first person’s back is mostly turned, and their head is slightly tilted as they move forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable non-speech sounds or prosodic variations.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a patterned poncho walks away from the camera along a dark wooden bridge, while another person in a light-colored shirt is partially visible to the left, looking toward the first person. Snowflakes drift through the air as the scene is dimly lit, with a forested background and the bridge’s railings and supports visible. The first person’s back is mostly turned, and their head is slightly tilted as they move forward.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

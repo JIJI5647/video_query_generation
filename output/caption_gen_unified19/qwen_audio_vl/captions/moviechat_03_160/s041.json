@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "A man in a dark suit stands beside a car at night, holding a phone to his ear with his right hand. Another man in a suit is seen indoors, also holding a phone to his ear, with a blurred background. Both appear to be engaged in phone conversations, with neutral postures and focused gazes directed toward their respective phones.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, steady ambient hum, evoking the sound of distant city traffic or industrial machinery, which establishes a sense of urban isolation. Over this, a male voice with a standard Mandarin accent speaks in a low, weary, and slightly resigned tone: “这里连鬼影都没有” (“There isn’t even a ghost here”). His delivery is slow and deliberate, with a subtle sigh, conveying a mood of loneliness and emptiness. The speech is clear and intelligible, with no background noise or distortion, and is centered in the stereo field, suggesting a close-mic’d, controlled recording environment. Immediately following the spoken line, a dramatic musical sting erupts. This is a synthesized orchestral cue, featuring a deep, resonant bass note, a high, string motif, and a sharp, metallic percussive hit. The music is designed to heighten suspense and tension, with a cinematic quality that is both modern and reminiscent of classic film noir. The musical elements are layered and spatially distributed across the stereo field, with the bass and percussion centered and the strings panned wide, creating a sense of depth and immersion. The music is loud and forceful, momentarily dominating the soundscape and amplifying the impact of the preceding",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit stands beside a car at night, holding a phone to his ear with his right hand. Another man in a suit is seen indoors, also holding a phone to his ear, with a blurred background. Both appear to be engaged in phone conversations, with neutral postures and focused gazes directed toward their respective phones.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

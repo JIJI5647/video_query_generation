@@ -1,0 +1,67 @@
+PROMPT VERSION: caption_prompt_v2
+
+TASK:
+You are given a batch of short consecutive video clips cut from one longer video.
+Each clip is exactly one temporal segment of the video, given to you in order.
+Watch and listen to every clip carefully, then describe the emotion content of EVERY
+clip — one caption per clip, no skipping and no merging.
+
+VIDEO ID: {video_id}
+BATCH INDEX: {batch_index}
+
+CLIP -> SEGMENT MAPPING (the clips are provided in THIS order):
+{segment_list}
+
+The first video provided is Clip 1, the second is Clip 2, and so on. Use this mapping
+to attach the correct segment_id to every caption you produce.
+
+WHAT TO PRODUCE:
+Output EXACTLY ONE caption for EVERY clip in the mapping, in the given order. Each
+caption describes:
+- person: a concrete visual description of who shows the emotion (clothing, role,
+  position, age group, relation), not a name.
+- action: the observable action or interaction in the segment.
+- sound: the relevant audio (tone of voice, shouting, laughter, crying, silence).
+  Write "no audible cue" if there is no audible emotional signal.
+- emotion: exactly ONE label from this fixed set:
+  angry, excited, fear, sad, surprised, frustrated, happy, disappointed,
+  neutral, unrelevant
+  Use one of the eight emotions when an emotion is clearly observable. Use "neutral"
+  when a person is present but shows no clear emotion. Use "unrelevant" when the clip
+  has no relevant person/content for emotion (e.g. a title card, scenery, black frame).
+- confidence: how confident you are that this emotion is present — high, medium, or low.
+- evidence_strength: how clear the observable evidence is — clear, weak, or ambiguous.
+- observable_evidence: a short list of the concrete visual/audio cues you actually
+  observed (e.g. "furrowed brow", "raised voice", "wiping tears"). May be empty for
+  neutral/unrelevant clips.
+
+RULES:
+1. Only describe what is visible or audible. Do not guess hidden thoughts, motives, or
+   backstory.
+2. Produce one caption per clip — never skip a clip and never merge clips. If a clip
+   shows no clear emotion, still emit a caption and label it "neutral" or "unrelevant".
+3. Each caption's segment_ids must be EXACTLY the one segment_id of its clip, taken from
+   the CLIP -> SEGMENT MAPPING above (a single-element list).
+4. Do not invent segments that are not in the mapping.
+5. Keep each field concise. Write everything in English.
+
+OUTPUT REQUIREMENTS:
+Return valid JSON only. No markdown, no comments, no text outside the JSON object.
+
+The output JSON must match this schema exactly:
+{
+"video_id": "{video_id}",
+"batch_index": {batch_index},
+"captions": [
+{
+"segment_ids": ["<the single segment_id of this clip>"],
+"person": "<visual description of the person or group>",
+"action": "<observable action or interaction>",
+"sound": "<audible cue, or 'no audible cue'>",
+"emotion": "<angry | excited | fear | sad | surprised | frustrated | happy | disappointed | neutral | unrelevant>",
+"confidence": "<high | medium | low>",
+"evidence_strength": "<clear | weak | ambiguous>",
+"observable_evidence": ["<observed cue>", "..."]
+}
+]
+}

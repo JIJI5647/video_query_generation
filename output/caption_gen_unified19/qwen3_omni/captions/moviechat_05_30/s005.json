@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man with a pale, gaunt face and dark, hollow eyes, wearing a black robe, is shown in a close-up. He raises his right arm, holding a wand, and appears to be shouting or casting a spell. The scene is dark and atmospheric, with a focus on the man's intense expression and the raised wand.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, distorted scream is heard, followed by a deep, rumbling sound effect.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A man with a pale, gaunt face and dark, hollow eyes, wearing a black robe, is shown in a close-up. He raises his right arm, holding a wand, and appears to be shouting or casting a spell. The scene is dark and atmospheric, with a focus on the man's intense expression and the raised wand.\", \"audio\": \"A loud, distorted scream is heard, followed by a deep, rumbling sound effect.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

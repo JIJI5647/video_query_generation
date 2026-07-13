@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s094",
+  "time_range": [
+    465.0,
+    470.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man with gray hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating with chopsticks"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, possibly a restaurant or office"
+    },
+    "objects": [
+      {
+        "object": "chopsticks",
+        "visibility": "clearly visible",
+        "position": "in the man's hands",
+        "action": "being used to eat"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "eating"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "an older man with gray hair",
+      "facial_cues": [
+        "eyes looking down"
+      ],
+      "body_cues": [
+        "bent over a bowl"
+      ],
+      "gaze": "downwards"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a serious tone.",
+  "temporal_description": "The man continues to eat throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s094\", \"time_range\": [465.0, 470.0], \"visual_objective\": {\"people\": [{\"person\": \"an older man with gray hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"eating with chopsticks\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit, possibly a restaurant or office\"}, \"objects\": [{\"object\": \"chopsticks\", \"visibility\": \"clearly visible\", \"position\": \"in the man's hands\", \"action\": \"being used to eat\"}], \"interactions\": [], \"key_actions\": [\"eating"
+}

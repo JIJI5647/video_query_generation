@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "answering a phone call"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a computer monitor in the background"
+    },
+    "objects": [
+      {
+        "object": "a phone",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held to the ear"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "answering a phone call"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "looking down",
+        "looking to the side"
+      ],
+      "body_cues": [
+        "holding a phone to his ear"
+      ],
+      "gaze": "down and to the side"
+    }
+  ],
+  "audio_description": "A phone rings, followed by a man speaking in Mandarin.",
+  "temporal_description": "The phone rings, then the man answers and speaks.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s030\", \"time_range\": [145.0, 150.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"answering a phone call\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a computer monitor in the background\"}, \"objects\": [{\"object\": \"a phone\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being held to the ear\"}], \"interactions\": [], \"key_actions\": [\"answ"
+}

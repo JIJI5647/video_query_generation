@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "Three men are seated around a table in a kitchen setting, with one man in a gray shirt gesturing with his hands while speaking, another in a black jacket holding a piece of paper and looking toward the third man, who is partially visible and turned away. The man in the gray shirt has his mouth open mid-speech, and the man in the black jacket leans forward slightly, his gaze directed at the third man. The scene includes red plastic cups on the table, a microwave, and shelves with various items in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency thump, likely from a microphone being adjusted or a minor bump, immediately followed by a brief, high-pitched electronic whine that quickly fades. A male voice, speaking in a calm, conversational tone, says, \".ever had to write.\" His delivery is measured and slightly muffled, suggesting he is positioned away from the microphone or in a less prominent role. The room’s acoustics are immediately apparent, with a short, bright reverberation indicating a medium-sized, hard-surfaced studio space. Suddenly, a second male voice, much closer to the microphone and with a forceful, exasperated tone, interrupts: \"What the hell's the matter with you?\" This outburst is delivered with a sharp, rising inflection and a clipped, percussive quality, causing the recording to clip and distort at its loudest point. The audience, composed of adults, responds instantly with a wave of laughter, their amusement rising in volume and intensity, filling the room with a dense, reverberant sound that reflects the studio’s acoustics. As the laughter continues, the second speaker, now more composed but still, begins, \"How do you think Joey's gonna re—\"",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men are seated around a table in a kitchen setting, with one man in a gray shirt gesturing with his hands while speaking, another in a black jacket holding a piece of paper and looking toward the third man, who is partially visible and turned away. The man in the gray shirt has his mouth open mid-speech, and the man in the black jacket leans forward slightly, his gaze directed at the third man. The scene includes red plastic cups on the table, a microwave, and shelves with various items in",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

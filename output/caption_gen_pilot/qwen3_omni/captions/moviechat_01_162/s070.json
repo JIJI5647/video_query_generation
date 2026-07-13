@@ -1,0 +1,56 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "gesturing with his right hand and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with a television displaying a security camera feed"
+    },
+    "objects": [
+      {
+        "object": "television",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "displaying a security camera feed"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "gesturing",
+      "speaking"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black tie",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "gesturing with right hand"
+      ],
+      "gaze": "towards the television"
+    }
+  ],
+  "audio_description": "a man is shouting in an agitated tone.",
+  "temporal_description": "the man's shouting and gesturing are continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s070\", \"time_range\": [345.0, 350.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and black tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"gesturing with his right hand and speaking\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office or control room with a television displaying a security camera feed\"}, \"objects\": [{\"object\": \"television\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"displaying a se"
+}

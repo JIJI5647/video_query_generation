@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark room with dim lighting"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the man is sitting and looking forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit",
+      "facial_cues": [
+        "sweating",
+        "serious expression"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "a low, suspenseful musical score plays in the background.",
+  "temporal_description": "the music starts at the beginning of the clip and continues throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s063\", \"time_range\": [310.0, 315.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a suit\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting and looking forward\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dark room with dim lighting\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"the man is sitting and looking forward\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a man in a suit\", \"facial_cues\": [\"sweating\", \"serious "
+}

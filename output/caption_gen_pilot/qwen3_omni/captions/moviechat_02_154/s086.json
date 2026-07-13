@@ -1,0 +1,85 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s086",
+  "time_range": [
+    425.0,
+    430.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a beige jacket and floral shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a black handgun and pointing it forward with a shocked expression"
+      },
+      {
+        "person": "a bald man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a black handgun and pointing it forward with a focused expression"
+      },
+      {
+        "person": "a man in a striped shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "being held from behind by the man in the beige jacket"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish hue, possibly a prison or interrogation room with bars in the background"
+    },
+    "objects": [
+      {
+        "object": "a black handgun",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man in the beige jacket and the bald man"
+      }
+    ],
+    "interactions": [
+      "The man in the beige jacket holds the man in the striped shirt from behind."
+    ],
+    "key_actions": [
+      "The man in the beige jacket points a gun forward.",
+      "The bald man points a gun forward.",
+      "The man in the beige jacket holds the man in the striped shirt."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a beige jacket and floral shirt",
+      "facial_cues": [
+        "mouth open",
+        "eyes wide",
+        "shocked expression"
+      ],
+      "body_cues": [
+        "arm extended",
+        "hand holding a gun"
+      ],
+      "gaze": "forward"
+    },
+    {
+      "person": "a bald man in a dark shirt",
+      "facial_cues": [
+        "focused expression",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "arm extended",
+        "hand holding a gun"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A loud, dramatic musical score with a strong percussive beat plays in the background.",
+  "temporal_description": "The scene starts with the man in the beige jacket pointing a gun, then cuts to the bald man doing the same, and finally shows the man in the beige jacket holding another man.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s086\", \"time_range\": [425.0, 430.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a beige jacket and floral shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a black handgun and pointing it forward with a shocked expression\"}, {\"person\": \"a bald man in a dark shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a black handgun and pointing it forward with a focused expression\"}, {\"person\": \"a man in a s"
+}

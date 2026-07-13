@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_description": "A group of people in dark robes descend a stone staircase, with a woman with long red hair walking among them. The scene shifts to a dimly lit corridor where silhouetted figures move, including a close‑up of a person with white hair looking to the side. Later, two individuals appear to be restraining or guiding another person through an arched opening into a brighter area.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with faint ambient noise.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s049\", \"time_range\": [240.0, 245.0], \"visual\": \"A group of people in dark robes descend a stone staircase, with a woman with long red hair walking among them. The scene shifts to a dimly lit corridor where silhouetted figures move, including a close‑up of a person with white hair looking to the side. Later, two individuals appear to be restraining or guiding another person through an arched opening into a brighter area.\", \"audio\": \"The audio is quiet with faint ambient noise.\", \""
+}

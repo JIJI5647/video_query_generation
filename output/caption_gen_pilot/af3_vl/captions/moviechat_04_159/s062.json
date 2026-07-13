@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s062",
+  "time_range": [
+    305.0,
+    310.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a single male voice with a clear and steady tone, speaking at a moderate pace. There are no significant background noises or emotional fluctuations, creating a calm and neutral auditory environment.",
+  "temporal_description": "A man in a light-colored shirt is seated at a desk, intently focused on a laptop screen displaying a dark, abstract image. He wears a watch on his left wrist and is seen adjusting a pair of headphones over his ears. Another person, partially visible in the background, is also seated and appears to be working with equipment, possibly a microphone or similar device. The setting is dimly lit, suggesting an indoor workspace or control room, with the laptop’s screen being the primary source of illumination. The man’s posture is upright and concentrated, with his gaze fixed on the screen, occasionally shifting slightly as he interacts with the headphones or the laptop.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt is seated at a desk, intently focused on a laptop screen displaying a dark, abstract image. He wears a watch on his left wrist and is seen adjusting a pair of headphones over his ears. Another person, partially visible in the background, is also seated and appears to be working with equipment, possibly a microphone or similar device. The setting is dimly lit, suggesting an indoor workspace or control room, with the laptop’s screen being the primary source of illumi",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

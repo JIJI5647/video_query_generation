@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by occasional background noise and a brief pause.",
+  "temporal_description": "A dark sedan with headlights on is parked in a narrow alleyway at night, with a brightly lit temple visible in the distance. Two men are present: one walks past the car on the left side of the frame, while the other approaches from the right, moving toward the car. Both are partially silhouetted by the car’s headlights and ambient lighting, making their facial features and clothing details indistinct. The alley is flanked by buildings with covered vehicles and potted plants, and the wet pavement reflects the lights, suggesting recent rain.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A dark sedan with headlights on is parked in a narrow alleyway at night, with a brightly lit temple visible in the distance. Two men are present: one walks past the car on the left side of the frame, while the other approaches from the right, moving toward the car. Both are partially silhouetted by the car’s headlights and ambient lighting, making their facial features and clothing details indistinct. The alley is flanked by buildings with covered vehicles and potted plants, and the wet pavement",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

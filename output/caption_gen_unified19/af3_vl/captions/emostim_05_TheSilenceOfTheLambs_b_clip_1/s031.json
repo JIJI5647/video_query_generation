@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "A man with glasses and a suit is shown in a close-up, looking upward with his mouth slightly open. A second person, partially visible and out of focus, watches as a hand uses tweezers to place a dark, curled insect into a small glass jar. The background is a plain, muted green wall, and the focus remains tight on the insect transfer and the observer’s face.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow pace, speaking in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with glasses and a suit is shown in a close-up, looking upward with his mouth slightly open. A second person, partially visible and out of focus, watches as a hand uses tweezers to place a dark, curled insect into a small glass jar. The background is a plain, muted green wall, and the focus remains tight on the insect transfer and the observer’s face.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

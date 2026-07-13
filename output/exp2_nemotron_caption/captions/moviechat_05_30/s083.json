@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s083",
+  "time_range": [
+    410.0,
+    415.0
+  ],
+  "visual_description": "An ornate silver object with a large blue gem is held in a hand. A man in a brown jacket stands in a dim, cluttered room looking forward. Three men in dark robes point their wands at him while another man stands alone and speaks.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice asks a question, and another male voice replies.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s083\", \"time_range\": [410.0, 415.0], \"visual\": \"An ornate silver object with a large blue gem is held in a hand. A man in a brown jacket stands in a dim, cluttered room looking forward. Three men in dark robes point their wands at him while another man stands alone and speaks.\", \"audio\": \"A male voice asks a question, and another male voice replies.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

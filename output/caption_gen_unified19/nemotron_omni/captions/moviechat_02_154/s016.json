@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "The black luxury sedan with flashing blue lights pulls up on wet pavement at night. Several men in dark clothing stand beside the vehicle, and a person in a light-colored shirt steps out of the open driver's side door. A man then raises a handgun and aims it forward, with another car's headlights visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A car engine idles and a door opens. The sound of a gun being cocked is heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual\": \"The black luxury sedan with flashing blue lights pulls up on wet pavement at night. Several men in dark clothing stand beside the vehicle, and a person in a light-colored shirt steps out of the open driver's side door. A man then raises a handgun and aims it forward, with another car's headlights visible in the background.\", \"audio\": \"A car engine idles and a door opens. The sound of a gun being cocked is heard.\", \"confidence\": \"high\""
+}

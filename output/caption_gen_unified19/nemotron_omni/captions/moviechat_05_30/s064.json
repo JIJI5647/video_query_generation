@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_description": "In a dark, vaulted chamber lined with towering shelves and scattered objects, a young man with round glasses stands in profile before turning his gaze forward. His face is partially illuminated, showing a focused expression as he looks ahead.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent or contains only faint ambient sounds, with no discernible speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s064\", \"time_range\": [315.0, 320.0], \"visual\": \"In a dark, vaulted chamber lined with towering shelves and scattered objects, a young man with round glasses stands in profile before turning his gaze forward. His face is partially illuminated, showing a focused expression as he looks ahead.\", \"audio\": \"The audio is silent or contains only faint ambient sounds, with no discernible speech.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

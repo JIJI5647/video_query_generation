@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A child with short, light-colored hair, wearing a striped sweater, stands with their back to the camera, holding a knife in their right hand. They are positioned in a dimly lit room, facing a closed door, with a lamp on a side table to their left and a bookshelf to their right. The child remains mostly still, occasionally shifting their weight slightly, and their head is turned slightly to the side, looking toward the door. A bed with a blanket and a glass on the side table are visible to the left, and a framed picture hangs on the wall above the bookshelf.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a faint, low-frequency electronic hum, immediately establishing a sterile, clinical atmosphere. A single, high-pitched, metallic electronic tone—reminiscent of a hospital heart monitor or medical device—begins, its unwavering pitch and volume suggesting a state of alert or monitoring. Over this, a barely audible, low-pitched male voice, heavily muffled and distant, utters the phrase \"Red cross.\" The voice is slow, breathy, and slurred, with a flat, emotionless delivery that conveys exhaustion or sedation. The words are indistinct, with the \"r\" sounds softened and the \"x\" in \"cross\" nearly lost, making the phrase difficult to discern without close listening. The voice is accompanied by a subtle, low-frequency rumble, likely from the speaker’s own body or the recording device, and is enveloped in a soft, short reverberation, indicating a small, enclosed space. As the clip progresses, the electronic tone continues uninterrupted, maintaining its clinical, unchanging presence. The voice fades into the background, becoming even more muffled and indistinct, with no further speech or vocalization. The ambient hum and reverberation persist, reinforcing the sense of a",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short, light-colored hair, wearing a striped sweater, stands with their back to the camera, holding a knife in their right hand. They are positioned in a dimly lit room, facing a closed door, with a lamp on a side table to their left and a bookshelf to their right. The child remains mostly still, occasionally shifting their weight slightly, and their head is turned slightly to the side, looking toward the door. A bed with a blanket and a glass on the side table are visible to the le",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

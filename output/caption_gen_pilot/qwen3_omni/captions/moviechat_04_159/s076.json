@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s076",
+  "time_range": [
+    375.0,
+    380.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "holding a yellow envelope and looking at it"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, possibly a restaurant or office"
+    },
+    "objects": [
+      {
+        "object": "a yellow envelope",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "held by the man in the suit"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the suit holds and examines the yellow envelope"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "eyes looking down at the envelope",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "holding the envelope with both hands"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "a male voice speaks in a calm tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s076\", \"time_range\": [375.0, 380.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light-colored suit\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"holding a yellow envelope and looking at it\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a greenish tint, possibly a restaurant or office\"}, \"objects\": [{\"object\": \"a yellow envelope\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"held by the man in the suit\"}]"
+}

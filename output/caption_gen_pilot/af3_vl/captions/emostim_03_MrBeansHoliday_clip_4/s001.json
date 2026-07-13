@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing a tune with a medium pitch and a steady rhythm, accompanied by a background of music.",
+  "temporal_description": "A man dressed in a suit and tie is riding a bicycle on a winding road. He is wearing white gloves and has a basket of fruit on the front of the bike. The road is surrounded by trees and hills, and there is a car visible in the distance. The man is looking straight ahead as he rides.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man dressed in a suit and tie is riding a bicycle on a winding road. He is wearing white gloves and has a basket of fruit on the front of the bike. The road is surrounded by trees and hills, and there is a car visible in the distance. The man is looking straight ahead as he rides.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

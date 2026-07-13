@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone at a moderate pace, with no significant background noise or emotional inflection.",
+  "temporal_description": "In a cozy, dimly lit bar with festive decorations, several patrons are seated on couches and chairs, engaged in conversation. A woman in a striped shirt and purple pants walks past the group, holding a cup, and then bends down to interact with someone seated on the couch. The group includes a woman in a blue top and jeans, a man in a beige sweater, and another woman in a red top, all seated closely together. Other patrons are visible in the background, some at the bar and others at tables, contributing to the lively atmosphere. The woman in the blue top gestures with her hand while talking, and the man in the beige sweater leans slightly toward her, indicating active engagement in the conversation. The setting features a wooden coffee table with mugs and a magazine, and the overall ambiance suggests a casual, social gathering.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a cozy, dimly lit bar with festive decorations, several patrons are seated on couches and chairs, engaged in conversation. A woman in a striped shirt and purple pants walks past the group, holding a cup, and then bends down to interact with someone seated on the couch. The group includes a woman in a blue top and jeans, a man in a beige sweater, and another woman in a red top, all seated closely together. Other patrons are visible in the background, some at the bar and others at tables, contr",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

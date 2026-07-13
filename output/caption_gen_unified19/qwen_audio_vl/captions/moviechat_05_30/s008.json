@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "In a dim, stone-walled corridor, a man and a woman stand facing forward, the woman’s arms extended as if balancing or gesturing, while a third person is visible in the distant archway. A group of armored figures in full plate armor stand in formation, holding spears upright, their faces obscured by helmets. The scene is dark and atmospheric, with muted lighting casting shadows across the stone walls and figures.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, overwhelming surge of low-frequency rumble and deep, resonant thuds, immediately immersing the listener in a powerful, chaotic environment. The sound is heavily distorted, with pronounced clipping and a harsh, abrasive texture, suggesting the recording device was overwhelmed by the intensity of the event. The initial moments are marked by a dense, percussive roar, as if a massive object is being dragged or crushed, accompanied by a continuous, high-frequency hiss and crackle that evokes the sound of shattering glass or brittle material. The acoustic space is vast and reverberant, with echoes and decays that imply a large, hard-surfaced enclosure—such as a tunnel, cavern, or industrial hall—rather than an open outdoor setting. As the event progresses, the low-frequency rumble persists, but the intensity gradually diminishes. The percussive impacts become less frequent and more spaced out, with the sound shifting from a dense, chaotic barrage to a series of isolated, heavy thuds. The high-frequency crackling and hissing also subside, leaving behind a lingering, low-frequency resonance that slowly fades. Throughout, the audio remains monophonic and centered, with no sense of movement or spatial directionality",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dim, stone-walled corridor, a man and a woman stand facing forward, the woman’s arms extended as if balancing or gesturing, while a third person is visible in the distant archway. A group of armored figures in full plate armor stand in formation, holding spears upright, their faces obscured by helmets. The scene is dark and atmospheric, with muted lighting casting shadows across the stone walls and figures.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking down stairs"
+      },
+      {
+        "person": "a group of men in dark uniforms",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "following the man down stairs"
+      }
+    ],
+    "scene": {
+      "location": "indoor stairwell",
+      "setting": "dimly lit with metal railings and concrete steps"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the light-colored shirt walks down the stairs.",
+      "The group of men in dark uniforms follows him down the stairs."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "walking"
+      ],
+      "gaze": "downwards"
+    }
+  ],
+  "audio_description": "A rhythmic, metallic clanking sound, like a chain being dragged or a heavy object being moved across a hard surface.",
+  "temporal_description": "The clanking sound is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s090\", \"time_range\": [445.0, 450.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light-colored shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"walking down stairs\"}, {\"person\": \"a group of men in dark uniforms\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"following the man down stairs\"}], \"scene\": {\"location\": \"indoor stairwell\", \"setting\": \"dimly lit with metal railings and concrete steps\"}, \"objects\": [], \"inte"
+}

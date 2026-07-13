@@ -1,0 +1,47 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking up and then down"
+      }
+    ],
+    "scene": {
+      "location": "outdoor street",
+      "setting": "blurry background with lights, possibly at dusk or night"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "looking up",
+        "looking down"
+      ],
+      "body_cues": [
+        "head tilted back",
+        "head tilted forward"
+      ],
+      "gaze": "upward, then downward"
+    }
+  ],
+  "audio_description": "A low, continuous hum or drone is audible.",
+  "temporal_description": "The man's gaze moves from looking up to looking down throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s008\", \"time_range\": [35.0, 40.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking up and then down\"}], \"scene\": {\"location\": \"outdoor street\", \"setting\": \"blurry background with lights, possibly at dusk or night\"}}, \"visual_expression\": [{\"person\": \"a man in a dark suit and tie\", \"facial_cues\": [\"looking up\", \"looking down\"], \"body_cues\": [\"head tilted back\", \"head tilted fo"
+}

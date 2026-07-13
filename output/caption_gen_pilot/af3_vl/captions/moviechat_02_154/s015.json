@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a single, high-pitched voice with a sense of urgency and distress, accompanied by heavy breathing and occasional pauses, suggesting the speaker is in a tense or emergency situation.",
+  "temporal_description": "A group of men in dark suits stand near a parked car on a wet city street at night, illuminated by streetlights and building lights. One man, wearing glasses, is seen in profile, facing away from the camera. The group appears to be engaged in conversation, with one man gesturing slightly. A car with headlights on approaches, and a person runs across the street, moving away from the parked car. The scene is urban, with tall buildings in the background and reflections on the wet pavement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in dark suits stand near a parked car on a wet city street at night, illuminated by streetlights and building lights. One man, wearing glasses, is seen in profile, facing away from the camera. The group appears to be engaged in conversation, with one man gesturing slightly. A car with headlights on approaches, and a person runs across the street, moving away from the parked car. The scene is urban, with tall buildings in the background and reflections on the wet pavement.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

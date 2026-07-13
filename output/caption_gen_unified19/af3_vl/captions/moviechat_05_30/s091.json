@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s091",
+  "time_range": [
+    450.0,
+    455.0
+  ],
+  "visual_description": "A young man with platinum blonde hair and dark eyes is centered, flanked by two other men in dark attire; all appear to be in a dimly lit, cluttered room filled with glassware and metal pots. The central figure extends his arm forward, holding an object, while the man to his left looks toward the same direction with an open mouth. The background figures are partially obscured, with one visible behind the central figure, all appearing to focus attention on something out of frame.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate pace, speaking in a neutral tone without any noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man with platinum blonde hair and dark eyes is centered, flanked by two other men in dark attire; all appear to be in a dimly lit, cluttered room filled with glassware and metal pots. The central figure extends his arm forward, holding an object, while the man to his left looks toward the same direction with an open mouth. The background figures are partially obscured, with one visible behind the central figure, all appearing to focus attention on something out of frame.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

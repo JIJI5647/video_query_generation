@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_description": "Five individuals stand in a dimly lit, tiled corridor with metal bars visible in the background; their attire ranges from suits to dark casual wear. They appear stationary, facing forward with neutral postures, some with hands at their sides or clasped. The lighting casts shadows, and their faces are partially illuminated, with one person in the foreground slightly more visible than the others.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a moderate pace, accompanied by a soft background hum.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Five individuals stand in a dimly lit, tiled corridor with metal bars visible in the background; their attire ranges from suits to dark casual wear. They appear stationary, facing forward with neutral postures, some with hands at their sides or clasped. The lighting casts shadows, and their faces are partially illuminated, with one person in the foreground slightly more visible than the others.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

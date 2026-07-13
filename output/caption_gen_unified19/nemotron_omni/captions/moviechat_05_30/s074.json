@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_description": "A man with dark hair and round glasses, wearing a brown jacket, is shown in a dimly lit setting with arched structures behind him. He initially faces away, then turns his head to look forward with a surprised expression, his eyes wide and mouth slightly open.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with a low, indistinct ambient sound and no discernible speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s074\", \"time_range\": [365.0, 370.0], \"visual\": \"A man with dark hair and round glasses, wearing a brown jacket, is shown in a dimly lit setting with arched structures behind him. He initially faces away, then turns his head to look forward with a surprised expression, his eyes wide and mouth slightly open.\", \"audio\": \"The audio is quiet with a low, indistinct ambient sound and no discernible speech.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

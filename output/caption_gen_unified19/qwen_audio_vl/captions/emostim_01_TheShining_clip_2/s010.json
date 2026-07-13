@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A child with short brown hair, wearing a red and gray striped sweater, stands in a dimly lit bedroom, writing on a wooden door with a red marker. The child is focused on the task, holding the marker in their right hand and looking down at the door. In the background, another child lies in bed, covered with a blue blanket and a patterned quilt, with their head resting on a pillow. A lamp with a beige lampshade is on a nightstand beside the bed, casting a warm glow. The room has a window with curtains and a wall clock above the bed. The child’s posture is upright, and their gaze is directed at the door as they write.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, resonant, and slightly distorted male voice intoning the word \"Rah\" in a slow, deliberate, and breathy manner. The voice is heavily processed with reverb, creating a cavernous, echoing effect that suggests a vast, empty space. This is immediately followed by a second, nearly identical utterance of \"Rah,\" maintaining the same vocal timbre and reverberant quality. The third and final vocalization, \"Rah,\" is delivered with a subtle rise in pitch and intensity, imparting a sense of escalation. Throughout these utterances, a continuous, low-frequency drone underpins the soundscape, characterized by a synthetic, organ-like timbre and a slow, pulsating rhythm. The drone is enveloped in reverb, further enhancing the impression of a large, echoing environment. The overall audio is marked by a low-fidelity, lo-fi aesthetic, with a persistent background hiss and a muffled, compressed quality that obscures finer details. The vocalizations and drone are centrally positioned in the stereo field, with no spatial movement or panning. The clip concludes abruptly, with both the voice and drone ceasing instantly, leaving no lingering reverberation or fade-out. In summary, the",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short brown hair, wearing a red and gray striped sweater, stands in a dimly lit bedroom, writing on a wooden door with a red marker. The child is focused on the task, holding the marker in their right hand and looking down at the door. In the background, another child lies in bed, covered with a blue blanket and a patterned quilt, with their head resting on a pillow. A lamp with a beige lampshade is on a nightstand beside the bed, casting a warm glow. The room has a window with curt",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

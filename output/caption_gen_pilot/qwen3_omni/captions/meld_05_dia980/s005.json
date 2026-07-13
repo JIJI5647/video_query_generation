@@ -1,0 +1,75 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black jacket over a white t-shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and talking to another man"
+      },
+      {
+        "person": "a man in a grey long-sleeved shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and talking to the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a kitchen with cabinets, a refrigerator, and a stove in the background"
+    },
+    "objects": [
+      {
+        "object": "a red cup",
+        "visibility": "clearly visible",
+        "position": "on the counter",
+        "action": "sitting on the counter"
+      }
+    ],
+    "interactions": [
+      "the two men are having a conversation"
+    ],
+    "key_actions": [
+      "talking",
+      "gesturing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a black jacket over a white t-shirt",
+      "facial_cues": [
+        "frowning",
+        "serious expression"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "gesturing with hands"
+      ],
+      "gaze": "looking at the other man"
+    },
+    {
+      "person": "a man in a grey long-sleeved shirt",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "looking at the other man"
+    }
+  ],
+  "audio_description": "two men are having a conversation",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black jacket over a white t-shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing and talking to another man\"}, {\"person\": \"a man in a grey long-sleeved shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and talking to the other man\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a kitchen with cabinets, a refrigerator, and a st"
+}

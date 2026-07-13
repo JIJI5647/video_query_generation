@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A woman with shoulder-length brown hair lies in a hospital bed, covered with a pink blanket, wearing a white hospital gown. She is positioned on her back, with her head resting on a pillow, and her left hand is visible near her side. A man with dark hair, wearing a beige jacket over a light shirt, sits beside the bed, leaning forward and looking at her. A woman with reddish-brown hair, wearing a white coat over a striped shirt, is seated beside the bed, leaning forward with her hands resting on the bed’s edge. Medical equipment, including an IV stand with a bag, a monitor, and a pink basin on a wooden cart, is visible in the background. The woman in the white coat appears to be speaking, while the man occasionally gestures with his hand toward the woman in the bed. The woman in the bed looks at the man, then turns her head slightly to the side. The man gently touches the woman’s forehead with his hand. The woman in the white coat continues to speak, looking toward the woman in the bed.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair lies in a hospital bed, covered with a pink blanket, wearing a white hospital gown. She is positioned on her back, with her head resting on a pillow, and her left hand is visible near her side. A man with dark hair, wearing a beige jacket over a light shirt, sits beside the bed, leaning forward and looking at her. A woman with reddish-brown hair, wearing a white coat over a striped shirt, is seated beside the bed, leaning forward with her hands resting on ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

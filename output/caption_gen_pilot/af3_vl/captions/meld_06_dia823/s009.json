@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a neutral tone and moderate pace, discussing following someone and expressing a decision to forget his own actions.",
+  "temporal_description": "A woman with long blonde hair, wearing a patterned blouse and a necklace, stands in a room with a wooden cabinet and a television behind her. She gestures with her right hand while looking toward someone off-camera. The scene then shifts to a living room where four people are gathered: one man with a sling sits on a couch holding a paper, another man sits beside him, a woman sits next to him, and a fourth man stands behind the couch. The room has a kitchen area in the background with blue cabinets, various kitchen items, and a refrigerator. The people are seated or standing in a relaxed posture, with the woman on the couch gesturing with her hands while speaking. The standing man has his hands resting on the back of the couch. The woman on the couch looks toward the man with the sling, who is looking down at the paper. The man in the middle looks toward the woman on his right, and the standing man looks down at the couch.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with long blonde hair, wearing a patterned blouse and a necklace, stands in a room with a wooden cabinet and a television behind her. She gestures with her right hand while looking toward someone off-camera. The scene then shifts to a living room where four people are gathered: one man with a sling sits on a couch holding a paper, another man sits beside him, a woman sits next to him, and a fourth man stands behind the couch. The room has a kitchen area in the background with blue cabine",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

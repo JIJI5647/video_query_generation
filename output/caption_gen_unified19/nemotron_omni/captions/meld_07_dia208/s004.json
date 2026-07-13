@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a red plaid shirt sits at a small round table, gesturing with both hands while speaking. Across from him, a man in a dark sweater and jeans sits with his arms crossed, listening. On the table are two mugs, a metal container, and a small plate, with a brick wall and festive decorations behind them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The man in the red shirt speaks with animated hand gestures. The other man listens quietly.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"A man in a red plaid shirt sits at a small round table, gesturing with both hands while speaking. Across from him, a man in a dark sweater and jeans sits with his arms crossed, listening. On the table are two mugs, a metal container, and a small plate, with a brick wall and festive decorations behind them.\", \"audio\": \"The man in the red shirt speaks with animated hand gestures. The other man listens quietly.\", \"confidence\": \"high\", \"e"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A child in a striped sweater stands facing a door, writing with a marker while holding a knife in their other hand. Behind them, another person lies asleep in a bed, partially covered by a patterned blanket. The room is dimly lit by a lamp on a bedside table, and the door has red writing on it.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow pace, speaking in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child in a striped sweater stands facing a door, writing with a marker while holding a knife in their other hand. Behind them, another person lies asleep in a bed, partially covered by a patterned blanket. The room is dimly lit by a lamp on a bedside table, and the door has red writing on it.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

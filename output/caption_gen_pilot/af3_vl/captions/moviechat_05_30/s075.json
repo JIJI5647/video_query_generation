@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s075",
+  "time_range": [
+    370.0,
+    375.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, accompanied by a moderate pace and a neutral prosody.",
+  "temporal_description": "A young man with round glasses and dark hair, wearing a brown jacket over a gray shirt, is seen in a dimly lit, cluttered room filled with various objects. He is positioned facing slightly to the right, with his gaze directed forward, appearing to be in conversation or listening intently. The room contains a table covered with a patterned cloth, holding a spherical object and other items, surrounded by stacks of furniture and equipment. The background is dark and filled with indistinct shapes, suggesting a storage or workshop area.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young man with round glasses and dark hair, wearing a brown jacket over a gray shirt, is seen in a dimly lit, cluttered room filled with various objects. He is positioned facing slightly to the right, with his gaze directed forward, appearing to be in conversation or listening intently. The room contains a table covered with a patterned cloth, holding a spherical object and other items, surrounded by stacks of furniture and equipment. The background is dark and filled with indistinct shapes, s",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

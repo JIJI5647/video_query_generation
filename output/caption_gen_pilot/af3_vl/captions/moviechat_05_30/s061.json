@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice with a clear and steady tone, speaking at a moderate pace. There are no noticeable background sounds or emotional inflections, suggesting a calm and neutral delivery.",
+  "temporal_description": "Three individuals are visible in a dimly lit, ruined cathedral-like structure, standing near a large arched doorway. The person on the left is slightly bent forward, gesturing with their right hand toward the center, while the person on the right stands upright with their arms at their sides. The third person, positioned between them, is facing forward and appears to be listening or observing. Debris, including broken wood and stone, is scattered across the floor in the foreground. The background is illuminated by a warm light emanating from the doorway, casting shadows and highlighting the gothic architectural details of the arches and columns. The individuals remain mostly stationary, with slight shifts in posture and hand movements, suggesting a moment of discussion or observation.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals are visible in a dimly lit, ruined cathedral-like structure, standing near a large arched doorway. The person on the left is slightly bent forward, gesturing with their right hand toward the center, while the person on the right stands upright with their arms at their sides. The third person, positioned between them, is facing forward and appears to be listening or observing. Debris, including broken wood and stone, is scattered across the floor in the foreground. The backgroun",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

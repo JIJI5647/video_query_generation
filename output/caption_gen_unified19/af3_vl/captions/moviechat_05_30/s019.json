@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A person in plaid pants and boots walks forward on a dark, earthy ground. Behind them, a group of people in varied clothing stand in a dimly lit, shadowy outdoor setting. One individual in the foreground kneels with hands extended toward the ground, while others stand with neutral postures and gazes directed forward or downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace and pitch, accompanied by occasional pauses and a slight breathiness in the delivery.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in plaid pants and boots walks forward on a dark, earthy ground. Behind them, a group of people in varied clothing stand in a dimly lit, shadowy outdoor setting. One individual in the foreground kneels with hands extended toward the ground, while others stand with neutral postures and gazes directed forward or downward.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A woman with wet hair is in a dimly lit bathroom, leaning against a wall under a shower. Water is running down her face and body as she looks up with a strained expression. Her right arm is raised, holding onto the shower fixture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sound of running water from a shower is audible, along with a low, continuous hum in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"A woman with wet hair is in a dimly lit bathroom, leaning against a wall under a shower. Water is running down her face and body as she looks up with a strained expression. Her right arm is raised, holding onto the shower fixture.\", \"audio\": \"The sound of running water from a shower is audible, along with a low, continuous hum in the background.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

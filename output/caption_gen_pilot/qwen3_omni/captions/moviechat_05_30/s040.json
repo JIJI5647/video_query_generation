@@ -1,0 +1,36 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark cloak",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running"
+      }
+    ],
+    "scene": {
+      "location": "outdoor courtyard",
+      "setting": "a large, old stone building with arched windows and a staircase, dimly lit with a warm glow from a window."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "a person in a dark cloak runs through a courtyard, followed by others in dark cloaks."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, chaotic sound of a large object breaking and collapsing, accompanied by a high-pitched scream.",
+  "temporal_description": "The sound of destruction and screaming begins abruptly and continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s040\", \"time_range\": [195.0, 200.0], \"visual_objective\": {\"people\": [{\"person\": \"a person in a dark cloak\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"running\"}], \"scene\": {\"location\": \"outdoor courtyard\", \"setting\": \"a large, old stone building with arched windows and a staircase, dimly lit with a warm glow from a window.\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"a person in a dark cloak runs through a courtyard, followed by others in dar"
+}

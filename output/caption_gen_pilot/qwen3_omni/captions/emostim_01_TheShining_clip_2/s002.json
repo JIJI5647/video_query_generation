@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a television, a lamp, and a vanity table with various items on it."
+    },
+    "objects": [
+      "knife",
+      "television",
+      "lamp",
+      "vanity table",
+      "mirror",
+      "flowers",
+      "books"
+    ],
+    "interactions": [
+      "the boy is holding and examining the knife"
+    ],
+    "key_actions": [
+      "the boy is holding a knife and looking at it"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "focused expression"
+      ],
+      "body_cues": [
+        "holding a knife"
+      ],
+      "gaze": "looking at the knife"
+    }
+  ],
+  "audio_description": "A child's voice is heard, followed by a loud, jarring sound effect.",
+  "temporal_description": "The child's voice is heard at the beginning, followed by a loud sound effect.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual_objective\": {\"people\": [{\"person\": \"a young boy with blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and holding a knife\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a television, a lamp, and a vanity table with various items on it.\"}, \"objects\": [\"knife\", \"television\", \"lamp\", \"vanity table\", \"mirror\", \"flowers\", \"books\"], \"interactions\": [\"the boy is holding and e"
+}

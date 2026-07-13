@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "At night, a group of men gather near a vintage car on a wet city street illuminated by streetlights. A close‑up shows a man in a suit and glasses looking to the side, then the scene shifts to a dark sedan with headlights on speeding past the camera. The car’s license plate reads FD 5519 as it moves across the illuminated road.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Ambient city night sounds are audible, with faint traffic noise and the engine of the moving car.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual\": \"At night, a group of men gather near a vintage car on a wet city street illuminated by streetlights. A close‑up shows a man in a suit and glasses looking to the side, then the scene shifts to a dark sedan with headlights on speeding past the camera. The car’s license plate reads FD 5519 as it moves across the illuminated road.\", \"audio\": \"Ambient city night sounds are audible, with faint traffic noise and the engine of the moving car."
+}

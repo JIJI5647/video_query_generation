@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone, with no noticeable prosody or emotional inflection. There are no other non-speech sounds present.",
+  "temporal_description": "A man with gray hair, wearing a light-colored suit and shirt, is seated indoors, holding a phone to his ear. He appears to be engaged in a conversation, occasionally gesturing with his free hand while looking downward. The background features shelves with bowls and other items, suggesting a kitchen or dining area. The scene transitions to nighttime city streets, where a black car with headlights on drives through urban roads, passing under overpasses and alongside other vehicles, including a red taxi. The car’s license plate is visible, and the driver is seen inside, though details are obscured by the darkness and reflections. The car navigates turns and intersections, with streetlights and buildings lining the road.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair, wearing a light-colored suit and shirt, is seated indoors, holding a phone to his ear. He appears to be engaged in a conversation, occasionally gesturing with his free hand while looking downward. The background features shelves with bowls and other items, suggesting a kitchen or dining area. The scene transitions to nighttime city streets, where a black car with headlights on drives through urban roads, passing under overpasses and alongside other vehicles, including a red",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

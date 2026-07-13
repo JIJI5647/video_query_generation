@@ -1,0 +1,52 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking to the right"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime city scene with tall buildings and wet pavement reflecting lights"
+    },
+    "objects": [
+      {
+        "object": "a building with 'MANDARIN ORIENTAL' sign",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "illuminated at night"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit and glasses",
+      "facial_cues": [
+        "glasses"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "to the right"
+    }
+  ],
+  "audio_description": "A loud, deep bell tolls twice.",
+  "temporal_description": "The bell tolls twice at the beginning of the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a suit and glasses\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and looking to the right\"}], \"scene\": {\"location\": \"street\", \"setting\": \"nighttime city scene with tall buildings and wet pavement reflecting lights\"}, \"objects\": [{\"object\": \"a building with 'MANDARIN ORIENTAL' sign\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"illu"
+}

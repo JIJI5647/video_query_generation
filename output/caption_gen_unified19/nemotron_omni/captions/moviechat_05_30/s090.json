@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_description": "A man with glasses and a brown jacket stands in a dim, cluttered room, looking directly ahead. The scene cuts to a blond man in black surrounded by two companions, who points forward with his right hand while speaking.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks urgently in Chinese, urging someone named Draco to act quickly.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s090\", \"time_range\": [445, 450], \"visual\": \"A man with glasses and a brown jacket stands in a dim, cluttered room, looking directly ahead. The scene cuts to a blond man in black surrounded by two companions, who points forward with his right hand while speaking.\", \"audio\": \"A male voice speaks urgently in Chinese, urging someone named Draco to act quickly.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

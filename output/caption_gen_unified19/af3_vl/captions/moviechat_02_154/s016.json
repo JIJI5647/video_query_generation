@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "At night, several people in dark clothing stand near parked cars, with one person visible inside a car and another stepping out. The scene is dimly lit by vehicle headlights and ambient street lights, showing a wet pavement and a few blurred figures in the background. One person gestures toward the car while others stand nearby, their faces mostly obscured by shadows or angles.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and urgent voice, with a fast pace and a sense of urgency, suggesting a potentially stressful or emergency situation.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "At night, several people in dark clothing stand near parked cars, with one person visible inside a car and another stepping out. The scene is dimly lit by vehicle headlights and ambient street lights, showing a wet pavement and a few blurred figures in the background. One person gestures toward the car while others stand nearby, their faces mostly obscured by shadows or angles.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

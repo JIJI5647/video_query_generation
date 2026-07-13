@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A woman in a white lab coat stands in a hospital room. A man in a light-colored shirt leans over a woman lying in a hospital bed, holding her hand. A nurse in a white uniform attends to the woman in the bed, while another woman sits in a chair nearby.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A woman is heard speaking, followed by a man laughing.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual\": \"A woman in a white lab coat stands in a hospital room. A man in a light-colored shirt leans over a woman lying in a hospital bed, holding her hand. A nurse in a white uniform attends to the woman in the bed, while another woman sits in a chair nearby.\", \"audio\": \"A woman is heard speaking, followed by a man laughing.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "A man in a blue denim shirt sits in a dimly lit room, looking down with his mouth slightly open. A person in a white shirt is partially visible on the left edge of the frame. The background is dark and indistinct, focusing attention on the man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks in a calm, measured tone, delivering a question.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s030\", \"time_range\": [145.0, 150.0], \"visual\": \"A man in a blue denim shirt sits in a dimly lit room, looking down with his mouth slightly open. A person in a white shirt is partially visible on the left edge of the frame. The background is dark and indistinct, focusing attention on the man.\", \"audio\": \"A male voice speaks in a calm, measured tone, delivering a question.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

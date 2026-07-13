@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_description": "A man in a light blue shirt and striped tie walks down a hallway with several other men in shirts. The scene briefly cuts to a man in a grey suit eating at a table with multiple food containers, then returns to the man in the blue shirt as he looks through a glass door.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "the audio is not clearly audible",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s092\", \"time_range\": [455.0, 460.0], \"visual\": \"A man in a light blue shirt and striped tie walks down a hallway with several other men in shirts. The scene briefly cuts to a man in a grey suit eating at a table with multiple food containers, then returns to the man in the blue shirt as he looks through a glass door.\", \"audio\": \"the audio is not clearly audible\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

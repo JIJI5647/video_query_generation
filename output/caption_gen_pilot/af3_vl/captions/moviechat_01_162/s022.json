@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation.",
+  "temporal_description": "Two men are seated inside a vehicle, with the man in the foreground facing right and the other slightly behind him. The man in the foreground has his hand wrapped in white bandages and is holding it near his mouth, while the other man is seen in profile, occasionally moving his hand to his face. The interior of the car is dimly lit, with faint greenish light visible through the windows, and both appear to be looking forward, possibly at something outside the vehicle. Their postures are relatively still, with minimal movement aside from slight head turns and hand gestures.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a vehicle, with the man in the foreground facing right and the other slightly behind him. The man in the foreground has his hand wrapped in white bandages and is holding it near his mouth, while the other man is seen in profile, occasionally moving his hand to his face. The interior of the car is dimly lit, with faint greenish light visible through the windows, and both appear to be looking forward, possibly at something outside the vehicle. Their postures are relativel",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,58 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being held by an adult, crying, and moving his hands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a red wheel and white cloth in the background"
+    },
+    "objects": [
+      {
+        "object": "red wheel",
+        "position": "left background",
+        "visibility": "partially visible"
+      }
+    ],
+    "interactions": [
+      "an adult's hands are holding the boy from behind"
+    ],
+    "key_actions": [
+      "the boy is crying and moving his hands"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with blonde hair",
+      "facial_cues": [
+        "tears on face",
+        "mouth open",
+        "eyes closed"
+      ],
+      "body_cues": [
+        "hands moving",
+        "body shaking"
+      ],
+      "gaze": "unclear"
+    }
+  ],
+  "audio_description": "A child is crying and sobbing.",
+  "temporal_description": "The child's crying continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual_objective\": {\"people\": [{\"person\": \"a young boy with blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being held by an adult, crying, and moving his hands\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a red wheel and white cloth in the background\"}, \"objects\": [{\"object\": \"red wheel\", \"position\": \"left background\", \"visibility\": \"partially visible\"}], \"interactions\": [\"an adu"
+}

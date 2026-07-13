@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_description": "A person with dark hair, wearing a blue jacket over a turtleneck, is partially visible peeking from behind a white, weathered door frame. They are holding an object in both hands near their chest and looking toward the camera. Their head is tilted slightly, and their gaze is directed forward with their mouth open.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and loud volume, accompanied by heavy breathing and a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair, wearing a blue jacket over a turtleneck, is partially visible peeking from behind a white, weathered door frame. They are holding an object in both hands near their chest and looking toward the camera. Their head is tilted slightly, and their gaze is directed forward with their mouth open.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

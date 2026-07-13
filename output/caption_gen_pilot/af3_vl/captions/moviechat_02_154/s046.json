@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by background music and the sound of a door closing.",
+  "temporal_description": "A man in a dark suit exits a parked car at night, standing beside it with his hand on the open door. He looks around, then closes the door and walks away. Later, a woman in a brown jacket stands in a dimly lit room, holding a phone to her ear, facing away from the camera. She remains still, occasionally shifting her stance slightly while talking. The room has wooden walls, round porthole-style windows, and framed posters on the wall.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit exits a parked car at night, standing beside it with his hand on the open door. He looks around, then closes the door and walks away. Later, a woman in a brown jacket stands in a dimly lit room, holding a phone to her ear, facing away from the camera. She remains still, occasionally shifting her stance slightly while talking. The room has wooden walls, round porthole-style windows, and framed posters on the wall.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

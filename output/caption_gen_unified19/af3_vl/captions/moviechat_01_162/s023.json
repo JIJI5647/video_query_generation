@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "A man in the foreground holds a white cloth over his mouth and nose, his gaze directed forward; behind him, another man sits in profile, looking ahead. Both are seated inside a vehicle, with dim lighting and blurred background suggesting nighttime. The foreground man’s hand grips the cloth tightly, while the rear man remains still and silent.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in the foreground holds a white cloth over his mouth and nose, his gaze directed forward; behind him, another man sits in profile, looking ahead. Both are seated inside a vehicle, with dim lighting and blurred background suggesting nighttime. The foreground man’s hand grips the cloth tightly, while the rear man remains still and silent.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

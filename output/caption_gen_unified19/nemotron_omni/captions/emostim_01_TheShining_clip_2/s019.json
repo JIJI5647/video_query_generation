@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A disheveled man in a red robe stands in a hallway near a staircase, appearing agitated. He forcefully swings a wooden axe at a closed door. Inside a bedroom, a woman in a blue robe embraces a child, then opens the door to reveal the word \"REDRUM\" scrawled on it.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features the heavy impact of an axe striking wood and a woman's voice speaking in a low tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s019\", \"time_range\": [90, 95], \"visual\": \"A disheveled man in a red robe stands in a hallway near a staircase, appearing agitated. He forcefully swings a wooden axe at a closed door. Inside a bedroom, a woman in a blue robe embraces a child, then opens the door to reveal the word \\\"REDRUM\\\" scrawled on it.\", \"audio\": \"The audio features the heavy impact of an axe striking wood and a woman's voice speaking in a low tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

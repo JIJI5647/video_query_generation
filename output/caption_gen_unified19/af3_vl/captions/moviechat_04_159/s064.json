@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_description": "A man with dark hair, wearing headphones and a white shirt, is seated in front of a computer monitor displaying blue text. He gazes intently at the screen, his head slightly tilted forward, suggesting concentration on the task. The dimly lit environment, with reflections visible on a glass surface behind him, indicates a focused, possibly isolated workspace.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark hair, wearing headphones and a white shirt, is seated in front of a computer monitor displaying blue text. He gazes intently at the screen, his head slightly tilted forward, suggesting concentration on the task. The dimly lit environment, with reflections visible on a glass surface behind him, indicates a focused, possibly isolated workspace.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

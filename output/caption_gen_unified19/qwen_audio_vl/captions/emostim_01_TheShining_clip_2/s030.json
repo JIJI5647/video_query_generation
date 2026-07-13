@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "A solitary figure is visible in a dimly lit, snowy outdoor setting at night, illuminated by artificial lights. The person is positioned on a snow-covered slope, initially lying down before slowly rising to a crouched position and then standing upright. They appear to be moving cautiously, taking deliberate steps down the slope, with their posture suggesting careful movement. The surrounding area includes snow-covered ground and structures with visible railings and windows, partially obscured by darkness and snow.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, intense burst of mechanical sound, immediately immersing the listener in the high-speed passage of a roller coaster train. The dominant element is a piercing, high-frequency metallic screech, produced by steel wheels grinding against steel rails, which is accompanied by a deep, resonant rumble from the train’s mass and a rapid, rhythmic clatter as wheels traverse track joints. The recording is marked by severe digital clipping, resulting in a harsh, distorted texture that flattens the dynamic range and introduces a crackling overlay, especially during the loudest moments. The sound is centered in the stereo field, with no spatial movement, and the environment is acoustically dry, lacking any reverberation or ambient noise, suggesting a close-mic or isolated recording setup. As the train continues, the screech and rumble persist, but the pitch of the screech gradually descends, indicating the train is decelerating. The rhythmic clatter remains steady, and the overall volume begins to diminish, signaling the train’s approach to a stop. The mechanical soundscape remains unchanged, with no additional noises or environmental cues present. The audio maintains its clipped, abrasive quality throughout, and the absence of any human or environmental sounds",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A solitary figure is visible in a dimly lit, snowy outdoor setting at night, illuminated by artificial lights. The person is positioned on a snow-covered slope, initially lying down before slowly rising to a crouched position and then standing upright. They appear to be moving cautiously, taking deliberate steps down the slope, with their posture suggesting careful movement. The surrounding area includes snow-covered ground and structures with visible railings and windows, partially obscured by ",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

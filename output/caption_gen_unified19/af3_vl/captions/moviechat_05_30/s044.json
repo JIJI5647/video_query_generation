@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_description": "A group of people in dark clothing are seen in a dim, narrow corridor with tall pillars; some are moving quickly, while others are partially obscured or in motion blur. One person with reddish hair is visible in the foreground, appearing to move forward or be pulled along, while another person with dark hair is seen behind them. The scene is chaotic, with figures in motion, and the lighting casts deep shadows across the environment.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and loud volume, speaking rapidly and with a sense of urgency.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people in dark clothing are seen in a dim, narrow corridor with tall pillars; some are moving quickly, while others are partially obscured or in motion blur. One person with reddish hair is visible in the foreground, appearing to move forward or be pulled along, while another person with dark hair is seen behind them. The scene is chaotic, with figures in motion, and the lighting casts deep shadows across the environment.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A young boy with blonde hair, wearing a grey shirt, is shown in a close-up. He is holding a small, dark object in his hands and looking down at it intently. His hands are moving slightly as he examines the object.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains the sound of a child speaking, but the words are unclear and muffled.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A young boy with blonde hair, wearing a grey shirt, is shown in a close-up. He is holding a small, dark object in his hands and looking down at it intently. His hands are moving slightly as he examines the object.\", \"audio\": \"The audio contains the sound of a child speaking, but the words are unclear and muffled.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

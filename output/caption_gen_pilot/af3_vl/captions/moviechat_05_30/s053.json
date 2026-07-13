@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A person with short dark hair, wearing glasses, a dark jacket over a blue shirt, stands facing forward in a dimly lit, stone-walled corridor with tall arches and columns. The individual remains still, with their head slightly tilted downward, and their gaze directed straight ahead. The background is shadowy, with faint light filtering through the arches, creating a somber and enclosed atmosphere. The person’s posture is upright but relaxed, with no visible gestures or movement throughout the scene.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with short dark hair, wearing glasses, a dark jacket over a blue shirt, stands facing forward in a dimly lit, stone-walled corridor with tall arches and columns. The individual remains still, with their head slightly tilted downward, and their gaze directed straight ahead. The background is shadowy, with faint light filtering through the arches, creating a somber and enclosed atmosphere. The person’s posture is upright but relaxed, with no visible gestures or movement throughout the sce",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

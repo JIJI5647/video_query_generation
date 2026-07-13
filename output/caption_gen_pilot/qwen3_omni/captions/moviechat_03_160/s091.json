@@ -1,0 +1,37 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s091",
+  "time_range": [
+    450.0,
+    455.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking down a staircase"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a modern office building with a staircase and a large open-plan office area below, dimly lit with a cool, blueish tone."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "a man walks down a staircase",
+      "the camera pans down to reveal a busy office floor"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sound of a person running on a hard surface.",
+  "temporal_description": "The sound of running is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s091\", \"time_range\": [450.0, 455.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"walking down a staircase\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a modern office building with a staircase and a large open-plan office area below, dimly lit with a cool, blueish tone.\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"a man walks down a staircase\", \"the camera pans down to"
+}

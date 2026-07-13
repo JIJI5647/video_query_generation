@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A woman in a white hospital gown lies in a hospital bed, visibly distressed and crying. A man in a light-colored shirt leans over her, looking down at her with a concerned expression. The woman raises her hand to her face, wiping her eyes.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The woman is crying and speaking in a distressed, high-pitched voice. The man speaks to her in a calm, reassuring tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A woman in a white hospital gown lies in a hospital bed, visibly distressed and crying. A man in a light-colored shirt leans over her, looking down at her with a concerned expression. The woman raises her hand to her face, wiping her eyes.\", \"audio\": \"The woman is crying and speaking in a distressed, high-pitched voice. The man speaks to her in a calm, reassuring tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate speed, expressing frustration and confusion, possibly due to a lack of response from someone.",
+  "temporal_description": "A woman with shoulder-length brown hair lies in a hospital bed, covered with a pink blanket and wearing a white hospital gown. She is propped up on pillows, and her left hand is visible, holding a white object. A man with dark hair, wearing a light-colored button-up shirt, leans over her from the right side of the frame, his right hand resting on her shoulder. He is looking down at her, and his posture suggests he is engaged in conversation or offering comfort. The background features a pink wall with electrical outlets and medical equipment mounted on the wall, including a blue IV pole. The woman’s gaze is directed toward the man, and she occasionally moves her hand or shifts her head slightly.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair lies in a hospital bed, covered with a pink blanket and wearing a white hospital gown. She is propped up on pillows, and her left hand is visible, holding a white object. A man with dark hair, wearing a light-colored button-up shirt, leans over her from the right side of the frame, his right hand resting on her shoulder. He is looking down at her, and his posture suggests he is engaged in conversation or offering comfort. The background features a pink wal",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

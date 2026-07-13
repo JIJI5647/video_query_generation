@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a beige suit jacket and floral shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "laughing heartily and gesturing with his hands"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a table and other people in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "laughing",
+      "gesturing"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a beige suit jacket and floral shirt",
+      "facial_cues": [
+        "wide open mouth",
+        "crinkled eyes"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "hands moving near his face"
+      ],
+      "gaze": "towards the man in the dark suit"
+    }
+  ],
+  "audio_description": "A man is laughing, followed by a loud crash and a scream.",
+  "temporal_description": "The man laughs, then there is a loud crash and a scream.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s081\", \"time_range\": [400.0, 405.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a beige suit jacket and floral shirt\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"laughing heartily and gesturing with his hands\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a table and other people in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"laughing\", \"gesturing\"], \"visibility_notes\": \"\"}, \"visual_expression\":"
+}

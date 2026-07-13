@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a red shirt sits on an orange couch, gesturing with his hands while speaking to a man in a blue polo shirt seated opposite him. The background shows other people and a bar area with shelves and bottles. Both men maintain eye contact and appear engaged in conversation.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures a conversational exchange between the two men. The man in red speaks animatedly while the man in blue listens and responds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"A man in a red shirt sits on an orange couch, gesturing with his hands while speaking to a man in a blue polo shirt seated opposite him. The background shows other people and a bar area with shelves and bottles. Both men maintain eye contact and appear engaged in conversation.\", \"audio\": \"The audio captures a conversational exchange between the two men. The man in red speaks animatedly while the man in blue listens and responds.\", \"co"
+}

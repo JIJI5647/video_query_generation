@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s077",
+  "time_range": [
+    380.0,
+    385.0
+  ],
+  "visual_description": "A man in a gray suit stands facing another person with short, light-colored hair, both positioned in front of a metal-barred window. Behind them, two other men in dark clothing stand partially visible, observing the interaction. The man in the gray suit maintains a forward-facing posture with a neutral expression, while the person with light hair turns slightly away, their gaze directed downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful metallic impact—a deep, resonant clang with a long, metallic reverberation that suggests a large, hollow metal object, such as a vault door or heavy industrial gate, being struck or closed. This sound is accompanied by a faint, high-frequency metallic scrape, indicating the object is being dragged or slid across a hard surface. The impact is so loud that it causes digital clipping, resulting in a harsh, distorted edge. Immediately following the impact, a low-frequency mechanical hum emerges, reminiscent of a large industrial motor or HVAC system, and persists throughout the recording. This hum is steady, with a fundamental frequency around 60 Hz and harmonics at 120 Hz and 180 Hz, and is accompanied by a subtle, high-frequency hiss, likely from the recording equipment or the environment. As the hum continues, a faint, high-pitched electronic chime is heard, characterized by a rapid, descending glissando and a synthetic, bell-like timbre. This chime is reminiscent of a notification or alert from a digital device, such as a smartphone or computer, and is brief and non-repetitive. Shortly after, a single, low-pitched, guttural human vocalization",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a gray suit stands facing another person with short, light-colored hair, both positioned in front of a metal-barred window. Behind them, two other men in dark clothing stand partially visible, observing the interaction. The man in the gray suit maintains a forward-facing posture with a neutral expression, while the person with light hair turns slightly away, their gaze directed downward.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

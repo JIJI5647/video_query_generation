@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A young child with blond hair, wearing a gray turtleneck, is being held by an adult whose hand rests on the child's cheek. The child's eyes are wet and mouth open as they look toward the adult, whose face is partially visible in profile. The scene is dimly lit with a dark background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Loud crying and sobbing are audible, accompanied by a soft adult voice speaking nearby.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s021\", \"time_range\": [100.0, 105.0], \"visual\": \"A young child with blond hair, wearing a gray turtleneck, is being held by an adult whose hand rests on the child's cheek. The child's eyes are wet and mouth open as they look toward the adult, whose face is partially visible in profile. The scene is dimly lit with a dark background.\", \"audio\": \"Loud crying and sobbing are audible, accompanied by a soft adult voice speaking nearby.\", \"confidence\": \"high\", \"evidence_strength\": \"clear"
+}

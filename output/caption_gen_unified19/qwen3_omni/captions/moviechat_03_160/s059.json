@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_description": "A man wearing a white shirt and headphones is looking intently at a computer screen. The screen displays a map with a highlighted area and text that reads 'DETECT GSM900 52 SELECT CELL'. The man's expression is focused and serious.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, distorted electronic sound, like a malfunctioning alarm or a burst of static, plays at the beginning of the clip.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s059\", \"time_range\": [290.0, 295.0], \"visual\": \"A man wearing a white shirt and headphones is looking intently at a computer screen. The screen displays a map with a highlighted area and text that reads 'DETECT GSM900 52 SELECT CELL'. The man's expression is focused and serious.\", \"audio\": \"A loud, distorted electronic sound, like a malfunctioning alarm or a burst of static, plays at the beginning of the clip.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

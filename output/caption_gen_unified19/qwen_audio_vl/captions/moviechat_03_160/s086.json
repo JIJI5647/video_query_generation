@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s086",
+  "time_range": [
+    425.0,
+    430.0
+  ],
+  "visual_description": "A man in a dark suit and light shirt is centered in the foreground, looking forward with a neutral expression. Behind him, blurred figures are visible, some holding objects near their faces, suggesting a crowded or tense environment. The lighting is dim and greenish, casting shadows and emphasizing the man’s focused gaze.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a deep, resonant, and slightly distorted low-frequency rumble, evoking the sound of a large engine or heavy machinery idling. This rumble is accompanied by a faint, high-frequency hiss, likely from the recording equipment, and a subtle, low-frequency hum that suggests the presence of distant traffic or urban infrastructure. The environment is acoustically open, with no reverberation or echo, indicating an outdoor setting. The soundscape is dominated by the engine’s steady, mechanical presence, with no speech, music, or other distinct noises. Shortly after, a sharp, metallic clank interrupts the rumble, resembling the sound of a heavy metal object—such as a latch, chain, or gate—being struck or released. This event is followed by a brief, high-pitched squeak, likely from a metal hinge or joint under stress, and a short, low-frequency thud, suggesting the object has settled or made contact with another surface. The engine rumble continues uninterrupted, maintaining its steady, mechanical character. As the sequence progresses, the engine’s pitch and volume begin to rise, indicating acceleration or increased load. The metallic squeak persists, now more pronounced and rhythmic, as if a metal part is being stressed",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and light shirt is centered in the foreground, looking forward with a neutral expression. Behind him, blurred figures are visible, some holding objects near their faces, suggesting a crowded or tense environment. The lighting is dim and greenish, casting shadows and emphasizing the man’s focused gaze.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

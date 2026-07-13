@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_description": "A man in a suit sits in the back seat of a moving car at night, holding a phone to his ear while looking ahead with a serious expression. Another man is partially visible in the front seat, his face blurred. City lights blur past the window, indicating the vehicle is in motion.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible, with no distinct sounds discernible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s051\", \"time_range\": [250.0, 255.0], \"visual\": \"A man in a suit sits in the back seat of a moving car at night, holding a phone to his ear while looking ahead with a serious expression. Another man is partially visible in the front seat, his face blurred. City lights blur past the window, indicating the vehicle is in motion.\", \"audio\": \"The audio is not clearly audible, with no distinct sounds discernible.\", \"confidence\": \"high\", \"evidence_strength\": \"ambiguous\"}"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_description": "A person with dark hair and wearing a blue jacket is partially visible behind a door frame, holding a large knife in their right hand. They are leaning forward, their face close to the door, with their mouth open and eyes wide. Their left hand is raised near their face, and their gaze is directed toward the left side of the frame.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and loud volume, speaking rapidly and with a sense of urgency.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair and wearing a blue jacket is partially visible behind a door frame, holding a large knife in their right hand. They are leaning forward, their face close to the door, with their mouth open and eyes wide. Their left hand is raised near their face, and their gaze is directed toward the left side of the frame.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

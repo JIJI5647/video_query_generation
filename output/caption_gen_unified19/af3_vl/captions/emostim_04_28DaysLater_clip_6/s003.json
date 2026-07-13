@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A person in dark, tactical clothing stands in a dimly lit room with checkered flooring, holding a firearm and looking toward the right. Another person is partially visible on the right edge of the frame, while a third figure can be seen in the background doorway. The person in the foreground has a hood up, their face partially obscured, and they are in a cautious, alert stance with their body slightly turned.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and moderate pace, accompanied by heavy breathing and a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in dark, tactical clothing stands in a dimly lit room with checkered flooring, holding a firearm and looking toward the right. Another person is partially visible on the right edge of the frame, while a third figure can be seen in the background doorway. The person in the foreground has a hood up, their face partially obscured, and they are in a cautious, alert stance with their body slightly turned.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

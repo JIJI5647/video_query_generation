@@ -1,0 +1,89 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and light blue shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "standing and looking at the other man"
+      },
+      {
+        "person": "a man in a dark suit and tie",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and looking down"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "an urban street with police tape, a red car, and a white van in the background, suggesting a crime scene or incident."
+    },
+    "objects": [
+      {
+        "object": "police tape",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "strung across the street, blocking access."
+      },
+      {
+        "object": "red car",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "parked behind the police tape."
+      },
+      {
+        "object": "white van",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "parked on the street."
+      },
+      {
+        "object": "police officers",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing and observing the scene."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The two men stand facing each other, with the man on the right looking down and the man on the left looking at him."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and light blue shirt",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking at the other man"
+    },
+    {
+      "person": "a man in a dark suit and tie",
+      "facial_cues": [
+        "serious expression",
+        "looking down"
+      ],
+      "body_cues": [
+        "standing still"
+      ],
+      "gaze": "looking down"
+    }
+  ],
+  "audio_description": "A dramatic, orchestral music piece with a suspenseful and intense tone.",
+  "temporal_description": "The music plays continuously throughout the clip, creating a tense atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and light blue shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"standing and looking at the other man\"}, {\"person\": \"a man in a dark suit and tie\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"standing and looking down\"}], \"scene\": {\"location\": \"street\", \"setting\": \"an urban street with police tape, a red car, and a white van in the backg"
+}

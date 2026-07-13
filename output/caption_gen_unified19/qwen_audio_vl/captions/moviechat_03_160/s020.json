@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s020",
+  "time_range": [
+    95.0,
+    100.0
+  ],
+  "visual_description": "A man in a light blue shirt stands adjusting a microphone in a dimly lit room with shelves and blinds visible. Another man in a gray suit sits with arms crossed, looking forward in a darker setting. The scene shifts to a nighttime street with blurred motion of cars and lights passing by.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a burst of high-energy, synthesized electronic music, immediately immersing the listener in a dense, layered soundscape. The music features a fast, driving four-on-the-floor beat, a deep, resonant sub-bass, and a bright, arpeggiated synth melody, all rendered with a wide stereo field and heavy digital reverb. This style is characteristic of late 1990s to early 2000s Japanese arcade and rhythm games, evoking a sense of urgency and. The music is abruptly interrupted by a sharp, high-pitched digital \"ping,\" reminiscent of a notification or menu selection sound, which is quickly followed by a rapid, descending \"whoosh\" effect. This whoosh, with its sweeping filter and pitch modulation, signals a transition or dramatic shift in the audio environment. As the music fades, a male voice enters, speaking in Mandarin Chinese with a clear, energetic, and slightly theatrical tone. He delivers the phrase \"大象大象\" (\"dàxiàng dàxiàng,\" meaning \"elephant, elephant\") in a manner that is both playful and performative, suggesting a call-and-response or interactive prompt typical of game interfaces. The voice is dry and centrally placed, contrasting",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt stands adjusting a microphone in a dimly lit room with shelves and blinds visible. Another man in a gray suit sits with arms crossed, looking forward in a darker setting. The scene shifts to a nighttime street with blurred motion of cars and lights passing by.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

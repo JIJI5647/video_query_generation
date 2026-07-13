@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a police siren, followed by a brief silence, and then a man speaking in a neutral tone.",
+  "temporal_description": "A group of men in dark suits stand near a parked Rolls-Royce at night, engaged in conversation. One man holds a briefcase, while others gesture and shift their weight. A black sedan with headlights on pulls up, and two individuals exit, one male and one female, both appearing calm as they step out. The male exits first, followed by the female, who gestures with her hand. A person in the foreground, partially obscured, holds a gun pointed forward, while the male from the sedan looks toward them. The scene is dimly lit, with streetlights and car lights casting reflections on the wet pavement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in dark suits stand near a parked Rolls-Royce at night, engaged in conversation. One man holds a briefcase, while others gesture and shift their weight. A black sedan with headlights on pulls up, and two individuals exit, one male and one female, both appearing calm as they step out. The male exits first, followed by the female, who gestures with her hand. A person in the foreground, partially obscured, holds a gun pointed forward, while the male from the sedan looks toward them. ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

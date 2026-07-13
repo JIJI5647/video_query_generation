@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_description": "A person with dark hair and wearing a blue jacket and cream turtleneck is partially visible behind a white door frame, holding a knife in their right hand. Their head is tilted slightly forward, and their mouth is open as if speaking or reacting, while their left hand is raised near their face. The background shows a plain wall with some visible wear and a tiled section near the bottom.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely the sound of a firearm’s safety being disengaged or a magazine being inserted. Immediately following, a high-pitched, strained female scream erupts, conveying acute terror and panic. The scream is abruptly cut off by a deafening, concussive gunshot, which is so loud that it causes severe digital clipping and distortion, overwhelming the recording device. The gunshot’s impact is accompanied by a brief, high-frequency metallic “ping,” suggesting the bullet struck a hard surface such as metal or glass. In the aftermath, a second, even more intense female scream is heard, this time with a lower pitch and a guttural, desperate quality. This scream is also abruptly truncated by a second gunshot, which is similarly loud and distorted, and is followed by a second metallic “ping.” The sequence concludes with a third, shorter, and more guttural scream, which is abruptly cut off by a third gunshot, again marked by severe distortion and a metallic ping. The final gunshot is followed by a brief, low-frequency thud, possibly the sound of a body or heavy object hitting the floor. Throughout the recording, a persistent low-frequency hum and faint high-frequency hiss are present",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark hair and wearing a blue jacket and cream turtleneck is partially visible behind a white door frame, holding a knife in their right hand. Their head is tilted slightly forward, and their mouth is open as if speaking or reacting, while their left hand is raised near their face. The background shows a plain wall with some visible wear and a tiled section near the bottom.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

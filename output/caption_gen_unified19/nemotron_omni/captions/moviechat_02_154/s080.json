@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s080",
+  "time_range": [
+    395.0,
+    400.0
+  ],
+  "visual_description": "A person lies motionless on muddy ground amid grass, then the scene shifts to a man in a dark suit standing in a temple illuminated by red lanterns and surrounded by offerings. He faces another man in a patterned shirt who laughs loudly, while a figure in a red jacket stands behind them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man speaks in a conversational tone, followed by hearty laughter from the other man, with ambient temple sounds in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s080\", \"time_range\": [395, 400], \"visual\": \"A person lies motionless on muddy ground amid grass, then the scene shifts to a man in a dark suit standing in a temple illuminated by red lanterns and surrounded by offerings. He faces another man in a patterned shirt who laughs loudly, while a figure in a red jacket stands behind them.\", \"audio\": \"A man speaks in a conversational tone, followed by hearty laughter from the other man, with ambient temple sounds in the background.\", \"con"
+}

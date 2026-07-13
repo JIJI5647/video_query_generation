@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a clear, uninterrupted voice with a neutral tone and moderate pace, with no background noise or interruptions.",
+  "temporal_description": "A person's hands are visible, resting on a dark, textured surface with a zipper running along it. The individual is wearing a white shirt with a buttoned cuff and a dark suit jacket. Their right hand is positioned near the zipper, while the left hand rests beside it, both fingers slightly curled. The person’s posture remains still throughout, with no significant movement or gesture observed. The background is out of focus, showing a plain, light-colored wall.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person's hands are visible, resting on a dark, textured surface with a zipper running along it. The individual is wearing a white shirt with a buttoned cuff and a dark suit jacket. Their right hand is positioned near the zipper, while the left hand rests beside it, both fingers slightly curled. The person’s posture remains still throughout, with no significant movement or gesture observed. The background is out of focus, showing a plain, light-colored wall.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A man with short dark hair is seated indoors, holding a phone to his ear with his right hand. He wears a dark-colored shirt and a silver watch on his left wrist. The background is dimly lit with a blue-green hue, and horizontal blinds are visible behind him. His head is slightly tilted downward, and his gaze is directed downward or to the side, with his eyes occasionally closing. His posture remains mostly still throughout the clip, with minimal movement.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair is seated indoors, holding a phone to his ear with his right hand. He wears a dark-colored shirt and a silver watch on his left wrist. The background is dimly lit with a blue-green hue, and horizontal blinds are visible behind him. His head is slightly tilted downward, and his gaze is directed downward or to the side, with his eyes occasionally closing. His posture remains mostly still throughout the clip, with minimal movement.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

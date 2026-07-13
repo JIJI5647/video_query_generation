@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "A green leaf dominates the foreground while a bald man with a mustache looks forward with a neutral expression. The view then shifts to his back as he stands before a wall of glass aquarium tanks containing fish and decorations.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is indistinct and not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s041\", \"time_range\": [200.0, 205.0], \"visual\": \"A green leaf dominates the foreground while a bald man with a mustache looks forward with a neutral expression. The view then shifts to his back as he stands before a wall of glass aquarium tanks containing fish and decorations.\", \"audio\": \"The audio is indistinct and not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

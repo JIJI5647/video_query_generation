@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and no significant background noise.",
+  "temporal_description": "Two men are standing in a room, facing each other. The man on the left wears a pink plaid shirt and gestures with his right hand while speaking. The man on the right, wearing a blue plaid shirt, faces him with his arms crossed. Behind them, a framed picture hangs on the wall, and a lamp is visible on the left side. The man in the blue shirt occasionally shifts his gaze and posture slightly, while the man in the pink shirt remains mostly stationary, continuing to gesture as he speaks.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are standing in a room, facing each other. The man on the left wears a pink plaid shirt and gestures with his right hand while speaking. The man on the right, wearing a blue plaid shirt, faces him with his arms crossed. Behind them, a framed picture hangs on the wall, and a lamp is visible on the left side. The man in the blue shirt occasionally shifts his gaze and posture slightly, while the man in the pink shirt remains mostly stationary, continuing to gesture as he speaks.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

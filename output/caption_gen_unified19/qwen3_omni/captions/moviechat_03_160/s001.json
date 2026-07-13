@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A man in a light-colored shirt sits in a dimly lit room, looking down at a laptop. Another person is visible in the background, out of focus. The man then looks up, his expression serious, before raising his hands to his head in a gesture of frustration or stress.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A rhythmic, percussive beat plays in the background, creating a tense atmosphere.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"A man in a light-colored shirt sits in a dimly lit room, looking down at a laptop. Another person is visible in the background, out of focus. The man then looks up, his expression serious, before raising his hands to his head in a gesture of frustration or stress.\", \"audio\": \"A rhythmic, percussive beat plays in the background, creating a tense atmosphere.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

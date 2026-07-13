@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_description": "A man in a dark jacket holds an axe and swings it toward a door in a dimly lit room with a lamp and a globe on the wall. A woman with dark hair, wearing a blue jacket over a turtleneck, peers from behind a partially open door, gripping a small object in both hands. Her face is visible, and she is looking toward the man with her mouth open.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, sharp metallic impact, characterized by a high-frequency \"clank\" and a brief, resonant \"clang,\" suggesting a heavy metal object—such as a door, gate, or industrial component—being forcefully struck or slammed. This initial sound is followed by a rapid, high-pitched metallic rattle, likely caused by a chain, latch, or similar mechanism vibrating in response to the impact. The reverberation is pronounced, indicating the event occurs in a large, hard-surfaced, enclosed space such as a warehouse, garage, or industrial facility. Immediately after, a deep, low-frequency rumble emerges, resembling the sound of a large engine or heavy machinery starting up. This rumble is accompanied by a continuous, high-pitched whirring or grinding noise, consistent with the operation of a motor or hydraulic system. The mechanical sounds are steady and unchanging, with no evidence of acceleration or deceleration, and are enveloped in the same reverberant acoustic environment as the initial impact. As the mechanical sounds persist, a second, even more forceful metallic impact occurs, marked by a lower-pitched \"thud\" and a longer, more resonant \"clang.\" This impact is accompanied by a complex",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark jacket holds an axe and swings it toward a door in a dimly lit room with a lamp and a globe on the wall. A woman with dark hair, wearing a blue jacket over a turtleneck, peers from behind a partially open door, gripping a small object in both hands. Her face is visible, and she is looking toward the man with her mouth open.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

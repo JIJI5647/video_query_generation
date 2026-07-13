@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_description": "Four individuals surround a gurney holding a decomposing human body; two men in suits stand at the head and foot, while a man in a white shirt and apron and a woman in a dark top stand at the side. The man in the apron leans over the body, touching it, while the woman stands with her back to the camera, and the men in suits appear to be observing. The scene takes place in a dimly lit room with wooden doors and cabinets, and the individuals are positioned around the gurney with varying postures indicating focused attention on the body.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a low, steady hum and a faint high-frequency hiss, establishing a sterile, clinical atmosphere. A male voice, close to the microphone and speaking in a calm, analytical tone, asks, “What do you make of these?” His delivery is measured and professional, suggesting a forensic or investigative context. Immediately following, a second male voice, slightly more distant and with a deeper, gravelly timbre, responds, “Different configuration than the other victims.” His speech is deliberate and precise, reinforcing the impression of a methodical examination. The first speaker then instructs, “Get closer,” his tone remaining calm and directive, likely addressing a colleague or subordinate. The second speaker begins to reply, “Victim’s skin—,” but his statement is abruptly cut off mid-word, leaving the observation incomplete and heightening the sense of urgency or interruption. Throughout the exchange, the voices are clear and well-articulated, with no distortion or clipping, and the background hum and hiss remain constant, indicating a controlled, indoor environment. The acoustics are dry and close, with no reverberation, suggesting a small, well-furnished room such as a morgue, laboratory, or evidence room. The absence of extraneous sounds—",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Four individuals surround a gurney holding a decomposing human body; two men in suits stand at the head and foot, while a man in a white shirt and apron and a woman in a dark top stand at the side. The man in the apron leans over the body, touching it, while the woman stands with her back to the camera, and the men in suits appear to be observing. The scene takes place in a dimly lit room with wooden doors and cabinets, and the individuals are positioned around the gurney with varying postures i",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

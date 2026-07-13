@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_04_28DaysLater_clip_6",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A woman with wet hair stands under a shower, water streaming over her shoulder and arm as she raises her hand. The lighting is dim and the background is mostly obscured.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sound of running water fills the scene, accompanied by faint breathing.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"A woman with wet hair stands under a shower, water streaming over her shoulder and arm as she raises her hand. The lighting is dim and the background is mostly obscured.\", \"audio\": \"The sound of running water fills the scene, accompanied by faint breathing.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

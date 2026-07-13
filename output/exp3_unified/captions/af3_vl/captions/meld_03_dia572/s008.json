@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A woman lies in a hospital bed wearing a white gown and pink blanket, her head propped up, while a man in a beige jacket stands beside her, leaning forward and gesturing with his hands. The man appears to be speaking to her, his gaze directed at her as he moves his arms expressively. Medical equipment, including an IV stand and a wall-mounted device, is visible in the background, along with curtains and a window with blinds.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman lies in a hospital bed wearing a white gown and pink blanket, her head propped up, while a man in a beige jacket stands beside her, leaning forward and gesturing with his hands. The man appears to be speaking to her, his gaze directed at her as he moves his arms expressively. Medical equipment, including an IV stand and a wall-mounted device, is visible in the background, along with curtains and a window with blinds.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

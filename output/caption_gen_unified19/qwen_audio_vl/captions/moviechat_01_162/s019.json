@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "Two men are seated inside a moving vehicle; the driver grips the steering wheel while the passenger holds a drink. Both appear focused forward, with the driver’s gaze directed ahead and the passenger’s gaze slightly turned toward the driver. The interior is dimly lit, with blurred motion visible through the windows, indicating rapid movement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely the sound of a firearm being handled or a mechanical device being activated. Immediately following this, a male voice with a clear, standard Mandarin accent and a slightly raspy, mid-to-low pitch speaks in a calm, conversational tone: “啊，上前还有枪啊。” (“Ah, there’s a gun ahead.”). His delivery is measured and unemotional. The background is filled with a continuous, low-frequency mechanical hum, reminiscent of a large engine or industrial machinery, accompanied by a faint, high-frequency hiss that indicates the use of a consumer-grade recording device. The acoustic environment is dry and lacks reverberation, implying the speaker is in a small, enclosed, or acoustically treated space. After a brief pause, the same male voice continues, now with a more deliberate and slightly louder tone: “我真想跟大家说。” (“I really want to tell everyone.”). This statement is delivered, as if the speaker is about to share important information but is restrained from doing so. The mechanical hum persists throughout, and the recording ends abruptly, with no fade-out",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a moving vehicle; the driver grips the steering wheel while the passenger holds a drink. Both appear focused forward, with the driver’s gaze directed ahead and the passenger’s gaze slightly turned toward the driver. The interior is dimly lit, with blurred motion visible through the windows, indicating rapid movement.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

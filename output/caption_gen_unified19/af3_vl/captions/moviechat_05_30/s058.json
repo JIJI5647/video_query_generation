@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_description": "Two individuals stand facing each other in a dimly lit, stone-walled corridor; one wears a striped shirt and the other a hooded jacket. The person in the striped shirt gestures with their hand while speaking, and the other turns slightly away, their gaze shifting toward a distant light source. Both appear partially illuminated by a warm, directional light casting shadows on the textured walls.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a neutral tone and moderate pace, followed by a male voice with a similar tone and pace, both speaking in English.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two individuals stand facing each other in a dimly lit, stone-walled corridor; one wears a striped shirt and the other a hooded jacket. The person in the striped shirt gestures with their hand while speaking, and the other turns slightly away, their gaze shifting toward a distant light source. Both appear partially illuminated by a warm, directional light casting shadows on the textured walls.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

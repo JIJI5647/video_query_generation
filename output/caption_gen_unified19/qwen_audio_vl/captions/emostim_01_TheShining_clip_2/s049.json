@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_description": "A person with dark, shoulder-length hair, wearing a dark blue jacket over a light-colored turtleneck, is partially visible peeking from behind a white, vertically-paneled door or wall. Their hands are clasped together near their chest, and their head is slightly tilted as they look toward the camera. The setting appears to be an indoor space with plain, somewhat stained walls and a tiled baseboard.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, strained male scream—“Aaaah!”—delivered with a sharp, breathy quality that. This is immediately followed by a loud, resonant thud, characterized by a deep, low-frequency impact and a brief, metallic ringing, suggesting a heavy object striking a hard, hollow surface such as a metal door or wall. The reverberation is pronounced, indicating the event occurs in a large, hard-surfaced, enclosed space like a gymnasium or warehouse. A second, similar scream—“Aaaah!”—erupts, matching the first in pitch and intensity, and is again followed by a forceful, metallic impact with a short, ringing echo. The sequence repeats with a third scream—“Aaaah!”—and a corresponding heavy, resonant thud, reinforcing the impression of a cyclical, violent event. The final scream—“Aaaah!”—is abruptly cut off mid-sound, leaving only a faint, low-frequency hum and a persistent high-frequency hiss, which are likely artifacts of the recording equipment or the environment. Throughout the recording, the audio is marked by low fidelity, with a constant background hiss",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with dark, shoulder-length hair, wearing a dark blue jacket over a light-colored turtleneck, is partially visible peeking from behind a white, vertically-paneled door or wall. Their hands are clasped together near their chest, and their head is slightly tilted as they look toward the camera. The setting appears to be an indoor space with plain, somewhat stained walls and a tiled baseboard.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

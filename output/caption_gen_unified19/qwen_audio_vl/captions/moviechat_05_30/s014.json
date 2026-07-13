@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A bald man in a dark robe stands with his back to the camera, facing a blurred background of golden light. A young man with glasses and a brown jacket looks down and turns his head slightly, while others in dark clothing move in the background. The scene is dimly lit, with the young man’s gaze directed downward and his posture slightly hunched.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins with a sudden, overwhelming low-frequency rumble that immediately fills the soundscape, accompanied by a sharp, high-frequency metallic screech. These sounds are so intense that they cause severe digital clipping and distortion, resulting in a harsh, crackling texture. The rumble and screech are layered, with the screech suggesting the friction of metal wheels against rails, while the rumble evokes the immense weight and power of a large train. The environment is acoustically vast and reverberant, with echoes and decays that indicate a large, hard-surfaced space such as a tunnel or underground station. The recording is monophonic, with no sense of spatial movement, and the sound source remains fixed and central. As the initial impact fades, the rumble continues but becomes less intense, while the metallic screech diminishes and is replaced by a rhythmic, percussive clatter. This clatter, characterized by a steady \"clack-clack\" pattern, is typical of train wheels passing over rail joints, and is accompanied by a persistent high-frequency hiss, likely from the recording device or the environment. The reverberation remains strong, reinforcing the impression of a large, enclosed space. No voices, music",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A bald man in a dark robe stands with his back to the camera, facing a blurred background of golden light. A young man with glasses and a brown jacket looks down and turns his head slightly, while others in dark clothing move in the background. The scene is dimly lit, with the young man’s gaze directed downward and his posture slightly hunched.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

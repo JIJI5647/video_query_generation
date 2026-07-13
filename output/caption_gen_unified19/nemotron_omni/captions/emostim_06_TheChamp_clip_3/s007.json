@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A young child with short blonde hair and a gray shirt is shown in close-up, his face wet with tears and his eyes downcast. An adult's hand gently rests on his cheek while he leans forward, appearing distressed.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A child's quiet sobbing is audible, and a gentle voice can be heard offering comfort. The background remains silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"A young child with short blonde hair and a gray shirt is shown in close-up, his face wet with tears and his eyes downcast. An adult's hand gently rests on his cheek while he leans forward, appearing distressed.\", \"audio\": \"A child's quiet sobbing is audible, and a gentle voice can be heard offering comfort. The background remains silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

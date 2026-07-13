@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically controlled indoor environment, likely a private office or interrogation room, with a faint electronic hiss and a subtle low-frequency hum indicating the presence of recording equipment and possibly HVAC. A single male voice, speaking Mandarin Chinese in a calm, measured, and authoritative tone, addresses an unseen audience or another person. He states, “不用到处看” (“No need to look around”), immediately followed by a brief rustling sound, likely from paper or clothing, suggesting the speaker is handling documents or adjusting his position. The speaker continues, “律师在这儿” (“The lawyer is here”), emphasizing the presence of legal representation, and then asserts, “警察不可以录像” (“The police cannot record”), with a firm and deliberate delivery that conveys authority and control. He concludes with, “录下来也没用” (“Even if it’s recorded, it’s useless”), reinforcing his position and implying that any recording would be invalid or irrelevant. Throughout, the speaker’s voice remains clear and steady, with no emotional inflection, and the background remains free of other voices or environmental sounds. The recording ends abruptly, with a sharp digital click, indicating a manual stop or edit.\n\nIn summary, the audio captures a brief, formal exchange in a Mandarin-speaking legal setting, where a male speaker—likely a lawyer or legal representative—asserts the presence of legal counsel and the illegality of police recording, using a composed and authoritative tone. The environment is controlled and professional, with no extraneous sounds, and the clip ends with a distinct digital artifact, suggesting intentional editing. The content and delivery reflect a culturally specific legal context, emphasizing the speaker’s role in upholding procedural rights and maintaining order.",
+  "temporal_description": "A man in a dark suit and glasses is seated, looking downward with a cigarette held in his hand, emitting smoke. Another person, partially visible and out of focus, is positioned in front of him, also holding a cigarette. The scene shifts to a person in a white shirt and headphones, seated in front of multiple computer monitors displaying various images, and they are seen pointing at one of the screens.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and glasses is seated, looking downward with a cigarette held in his hand, emitting smoke. Another person, partially visible and out of focus, is positioned in front of him, also holding a cigarette. The scene shifts to a person in a white shirt and headphones, seated in front of multiple computer monitors displaying various images, and they are seen pointing at one of the screens.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

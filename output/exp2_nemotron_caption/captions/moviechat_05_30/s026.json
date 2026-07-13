@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "The scene begins in a dark, debris‑filled setting where a sudden bright flash erupts, scattering sparks across the darkness. Sparks continue to fall as the camera reveals a long, dimly lit corridor with wooden beams. A group of people, led by a woman in a white shirt, walks forward down the corridor.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A voice shouts a name in a foreign language, followed by the sound of an explosion and falling sparks.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s026\", \"time_range\": [125.0, 130.0], \"visual\": \"The scene begins in a dark, debris‑filled setting where a sudden bright flash erupts, scattering sparks across the darkness. Sparks continue to fall as the camera reveals a long, dimly lit corridor with wooden beams. A group of people, led by a woman in a white shirt, walks forward down the corridor.\", \"audio\": \"A voice shouts a name in a foreign language, followed by the sound of an explosion and falling sparks.\", \"confidence\": \"hi"
+}

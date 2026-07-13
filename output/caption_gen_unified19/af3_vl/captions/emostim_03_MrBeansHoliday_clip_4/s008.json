@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A man in a suit rides a bicycle down a rural road, his basket holding pumpkins, while a white Jeep drives alongside him. The Jeep’s driver is visible, and another person is seated in the passenger seat. The scene is set on a sunny day with trees and open fields lining the road.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing with a medium pitch and moderate tempo, accompanied by the sound of a car engine revving and accelerating.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit rides a bicycle down a rural road, his basket holding pumpkins, while a white Jeep drives alongside him. The Jeep’s driver is visible, and another person is seated in the passenger seat. The scene is set on a sunny day with trees and open fields lining the road.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

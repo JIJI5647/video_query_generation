@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s092",
+  "time_range": [
+    455.0,
+    460.0
+  ],
+  "visual_description": "A man in a light blue shirt and striped tie walks forward, holding three white takeout containers with food, while other similarly dressed individuals follow behind him in an office hallway. The man’s gaze is directed ahead, and his posture is upright as he moves. Reflections and glass partitions are visible in the background, with people partially obscured or blurred.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace and pitch, accompanied by the sound of footsteps and keys jingling.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt and striped tie walks forward, holding three white takeout containers with food, while other similarly dressed individuals follow behind him in an office hallway. The man’s gaze is directed ahead, and his posture is upright as he moves. Reflections and glass partitions are visible in the background, with people partially obscured or blurred.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

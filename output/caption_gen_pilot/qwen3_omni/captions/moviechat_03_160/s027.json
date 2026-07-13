@@ -1,0 +1,63 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue patterned shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, holding a pen, and talking to another man"
+      },
+      {
+        "person": "a man in a black shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting at a table, facing the man in the blue shirt, and listening"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room, possibly a restaurant or bar, with a chalkboard on the wall and other people in the background"
+    },
+    "objects": [
+      {
+        "object": "a pen",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man in the blue shirt"
+      }
+    ],
+    "interactions": [
+      "The man in the blue shirt is talking to the man in the black shirt."
+    ],
+    "key_actions": [
+      "The man in the blue shirt is talking and gesturing with his hand."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue patterned shirt",
+      "facial_cues": [
+        "talking",
+        "gesturing with his hand"
+      ],
+      "body_cues": [
+        "sitting at a table"
+      ],
+      "gaze": "towards the man in the black shirt"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s027\", \"time_range\": [130.0, 135.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a blue patterned shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting at a table, holding a pen, and talking to another man\"}, {\"person\": \"a man in a black shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting at a table, facing the man in the blue shirt, and listening\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dim"
+}

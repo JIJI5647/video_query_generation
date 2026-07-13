@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s038",
+  "time_range": [
+    185.0,
+    190.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a sad tone, speaking at a moderate pace.",
+  "temporal_description": "A man with dark, medium-length hair and a beard is standing in a hallway, partially obscured by a door frame. He is wearing a dark red jacket over a plaid shirt and is looking toward the right side of the frame. His head is slightly tilted, and his gaze remains fixed in that direction throughout the clip. The background includes a framed picture on the wall and a dark curtain to the right. His posture is relatively still, with minimal movement, suggesting he is observing something out of frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark, medium-length hair and a beard is standing in a hallway, partially obscured by a door frame. He is wearing a dark red jacket over a plaid shirt and is looking toward the right side of the frame. His head is slightly tilted, and his gaze remains fixed in that direction throughout the clip. The background includes a framed picture on the wall and a dark curtain to the right. His posture is relatively still, with minimal movement, suggesting he is observing something out of frame.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

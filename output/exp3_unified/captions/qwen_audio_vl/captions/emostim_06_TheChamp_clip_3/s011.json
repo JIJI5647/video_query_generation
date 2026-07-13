@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "An older man with thinning hair, wearing a black shirt, is seated and being supported by a person whose hand rests on his shoulder. The man’s head is slightly bowed, and his gaze is directed downward, with his posture appearing slumped. The background is dimly lit and indistinct, with a green cloth visible on the right side.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins abruptly with a high-pitched, breathy, and slightly strained voice of a young child, likely between two and four years old, urgently calling out, “Wake up, Jeff!” The child’s tone is insistent and slightly frantic, marked by a rapid pace and a rising pitch, especially on the word “Jeff.” Immediately following, the child continues with, “Don’t sleep now,” delivered in a similar urgent manner, though the phrase is slightly muffled and less clear, possibly due to the child’s proximity to the microphone or the limitations of the recording device. The child’s voice remains the sole focus, with no other sounds present—no background noise, music, or environmental cues. The final phrase, “You gotta go,” is spoken with a slightly lower pitch and a more resigned tone, suggesting a shift from urgency to gentle insistence. The recording ends abruptly, with no fade-out or trailing sound, indicating a manual stop or a hard cut. The audio is of low fidelity, characterized by a persistent electronic hiss and a limited frequency range, with the child’s voice dominating the midrange and lacking both deep bass and crisp treble. The recording is monophonic, with no stereo separation, and the child’s voice is centered and close",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "An older man with thinning hair, wearing a black shirt, is seated and being supported by a person whose hand rests on his shoulder. The man’s head is slightly bowed, and his gaze is directed downward, with his posture appearing slumped. The background is dimly lit and indistinct, with a green cloth visible on the right side.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

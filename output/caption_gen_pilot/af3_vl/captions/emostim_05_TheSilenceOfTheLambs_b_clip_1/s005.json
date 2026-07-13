@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a clear, uninterrupted voice with a neutral tone and moderate pace, with no background noise or interruptions.",
+  "temporal_description": "A man with glasses and a white shirt is seen in a close-up, his eyes closed and head slightly tilted downward. The scene shifts to a close-up of hands using a metal tool to manipulate a dark substance in a container, with a tube nearby. The camera then pans upward, revealing a row of glass bottles on a shelf, and finally focuses on a person’s face reflected in a glass surface, their expression neutral and gaze directed forward.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with glasses and a white shirt is seen in a close-up, his eyes closed and head slightly tilted downward. The scene shifts to a close-up of hands using a metal tool to manipulate a dark substance in a container, with a tube nearby. The camera then pans upward, revealing a row of glass bottles on a shelf, and finally focuses on a person’s face reflected in a glass surface, their expression neutral and gaze directed forward.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

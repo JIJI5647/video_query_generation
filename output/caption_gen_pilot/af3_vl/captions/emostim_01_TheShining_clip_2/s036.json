@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s036",
+  "time_range": [
+    175.0,
+    180.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a clear, uninterrupted voice with a neutral tone and moderate pace, with no background noise or interruptions.",
+  "temporal_description": "A person wearing a blue robe is seen from behind, leaning out of a bathroom window with their head and upper body partially outside. Their long dark hair is visible, and they appear to be struggling or pushing against something outside. The scene shifts to an exterior view showing the person partially buried in snow, with only their arms and hands visible as they move slightly in the snow. The person’s hands are seen moving in the snow, and their body remains mostly obscured by the snow and the window frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a blue robe is seen from behind, leaning out of a bathroom window with their head and upper body partially outside. Their long dark hair is visible, and they appear to be struggling or pushing against something outside. The scene shifts to an exterior view showing the person partially buried in snow, with only their arms and hands visible as they move slightly in the snow. The person’s hands are seen moving in the snow, and their body remains mostly obscured by the snow and the ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

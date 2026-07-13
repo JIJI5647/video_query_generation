@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and a moderate speaking rate, conveying a sense of distress or discomfort.",
+  "temporal_description": "A young boy with light-colored hair is shown in a close-up, his face partially illuminated while the background remains dark. He is holding a hand that appears to be covered in a reddish substance, possibly blood or a similar liquid. His gaze is directed downward toward the hand, and his facial expression is tense, with his mouth slightly open and his brow furrowed. His posture is hunched slightly forward, indicating focus or concern as he looks at the hand he is holding.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored hair is shown in a close-up, his face partially illuminated while the background remains dark. He is holding a hand that appears to be covered in a reddish substance, possibly blood or a similar liquid. His gaze is directed downward toward the hand, and his facial expression is tense, with his mouth slightly open and his brow furrowed. His posture is hunched slightly forward, indicating focus or concern as he looks at the hand he is holding.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

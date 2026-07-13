@@ -1,0 +1,108 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a white lab coat",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking at the patient"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "leaning over the patient and talking to her"
+      },
+      {
+        "person": "a woman in a hospital gown",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "lying in a hospital bed, talking and gesturing with her hands"
+      },
+      {
+        "person": "a woman in a blue shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "sitting in a chair, looking at the patient"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "hospital room with a bed, medical equipment, and a window with blinds"
+    },
+    "objects": [
+      {
+        "object": "hospital bed",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "occupied by the patient"
+      },
+      {
+        "object": "medical equipment",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "attached to the wall and bed"
+      },
+      {
+        "object": "window with blinds",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "closed"
+      }
+    ],
+    "interactions": [
+      "The man in the light-colored shirt is talking to the woman in the hospital gown.",
+      "The woman in the white lab coat is attending to the patient."
+    ],
+    "key_actions": [
+      "The woman in the hospital gown is talking and gesturing.",
+      "The man in the light-colored shirt is leaning over the patient."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a white lab coat",
+      "facial_cues": [
+        "neutral expression"
+      ],
+      "body_cues": [
+        "standing with hands on hips"
+      ],
+      "gaze": "towards the patient"
+    },
+    {
+      "person": "a man in a light-colored shirt",
+      "facial_cues": [
+        "concerned expression"
+      ],
+      "body_cues": [
+        "leaning over the patient"
+      ],
+      "gaze": "towards the patient"
+    },
+    {
+      "person": "a woman in a hospital gown",
+      "facial_cues": [
+        "concerned expression"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "towards the man"
+    }
+  ],
+  "audio_description": "A woman is speaking, followed by a man speaking, and then a woman laughing.",
+  "temporal_description": "The audio starts with a woman speaking, then a man speaks, and finally a woman laughs.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a white lab coat\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and looking at the patient\"}, {\"person\": \"a man in a light-colored shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"leaning over the patient and talking to her\"}, {\"person\": \"a woman in a hospital gown\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"l"
+}

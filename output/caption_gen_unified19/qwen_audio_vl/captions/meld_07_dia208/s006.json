@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "Four individuals are seated closely on a couch in a dimly lit, warmly decorated room; one woman in a blue top reaches toward a small plate held by a man in a beige turtleneck, while another woman in red sits to his right, and a fourth woman with dark hair sits to his left. The man in beige gestures with both hands as he speaks, looking toward the woman in red, while the woman in blue appears to be offering or taking something from the plate. The woman in red looks toward the man, her hands clasped, and the woman in blue leans forward slightly, her gaze fixed on the plate and the man’s hands.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched metallic clatter, likely a small metal object such as a spoon or utensil striking a hard surface like a countertop or table. This sound is immediately followed by a male voice, close to the microphone, exclaiming, “Oh.” His tone is casual and mildly, with a General American accent. He continues, “Damn, I got it on my pants,” his voice rising in pitch and volume. The background is filled with a low-level murmur of indistinct voices, suggesting a busy, populated indoor environment such as a restaurant or cafeteria. A female voice, also close to the microphone and speaking with a clear, General American accent, responds with, “Here, I’ll get it.” Her tone is calm and efficient, and she moves with purpose, as indicated by the rustling of fabric and the sound of a chair scraping against the floor. She continues, “We better take these off upstairs or that stain’s—,” but her sentence is abruptly cut off mid-word, leaving the thought unfinished. The background murmur persists, and the overall audio quality is clear, with no distortion or static, though the recording is mono and lacks stereo depth. The exchange",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Four individuals are seated closely on a couch in a dimly lit, warmly decorated room; one woman in a blue top reaches toward a small plate held by a man in a beige turtleneck, while another woman in red sits to his right, and a fourth woman with dark hair sits to his left. The man in beige gestures with both hands as he speaks, looking toward the woman in red, while the woman in blue appears to be offering or taking something from the plate. The woman in red looks toward the man, her hands clasp",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

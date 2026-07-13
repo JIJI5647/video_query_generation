@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a faint, high-frequency hiss, indicating a low-fidelity recording environment. Immediately, a male voice with a clear, authoritative tone and a standard Mandarin accent issues a command: “用刚才的频道再通知大象一次，说行动取消。” (“Use the channel from just now to notify Elephant again, say the operation is canceled.”) His speech is firm, urgent, and delivered at a moderate pace, with a slight echo suggesting a large, hard-surfaced room. As he speaks, a continuous, low-frequency electronic hum and a faint, high-pitched whine are present in the background, characteristic of electronic equipment or machinery in a military or command center setting. The audio is monophonic, with all sounds centered and no spatial separation.\n\nFollowing the command, a second male voice, younger and more subdued, responds with a crisp, respectful “是，长官。” (“Yes, sir.”) His tone is formal and deferential, reflecting a subordinate’s acknowledgment of a superior’s order. The background hum and whine persist, and the recording remains monophonic and compressed, with a limited frequency range and no stereo imaging. The clip ends abruptly, with no fade-out or lingering sound, suggesting a deliberate edit or the conclusion of a recording session.\n\nIn summary, the audio captures a brief, urgent exchange between a military officer and his subordinate in a command center, set against a backdrop of electronic hum and whine. The Mandarin dialogue, formal address, and technical environment point to a modern Chinese military context, with the exchange focused on canceling a military operation. The recording’s technical limitations and abrupt ending reinforce its utilitarian, documentary nature, likely intended for internal communication or training purposes.",
+  "temporal_description": "A man in a light blue shirt and dark tie, with an ID badge hanging from his neck, is seen holding a handgun in a dimly lit room with blinds in the background. He appears to be looking intently at something off-screen, his expression focused and his posture tense. Later, the same man is shown standing in a different room, wearing a dark suit and tie, with a badge visible, standing still and looking upward. The room has bulletin boards with papers pinned to them and a window covered with plastic sheeting. In another scene, the man is seen adjusting his tie while standing near a camera on a tripod, with the blinds still visible behind him. He appears to be looking down at his tie and then up, possibly interacting with someone off-screen.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light blue shirt and dark tie, with an ID badge hanging from his neck, is seen holding a handgun in a dimly lit room with blinds in the background. He appears to be looking intently at something off-screen, his expression focused and his posture tense. Later, the same man is shown standing in a different room, wearing a dark suit and tie, with a badge visible, standing still and looking upward. The room has bulletin boards with papers pinned to them and a window covered with plastic s",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

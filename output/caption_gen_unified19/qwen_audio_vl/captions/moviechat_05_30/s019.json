@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A person in plaid pants and boots walks forward on a dark, earthy ground. A group of people stands behind, mostly in dim light, with one individual in the foreground crouching low, reaching toward the ground. Their faces are partially visible, and their postures suggest focused attention on the ground or the person crouching.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a persistent, low-level hiss, characteristic of a consumer-grade recording device, accompanied by a faint, steady hum likely from nearby electrical equipment. The environment is acoustically dry, with no reverberation or echo, indicating a small, enclosed, and likely furnished space. The first audible event is a soft, low-frequency rustling, resembling the gentle movement of fabric or a hand brushing against a surface, suggesting the presence of a person preparing to interact with an object. This is followed by a brief, sharp, high-pitched click, consistent with the sound of a plastic button or latch being pressed, possibly as part of a device’s activation or opening mechanism. Immediately after, a louder, more complex rustling occurs, marked by a crisp, high-frequency crinkle and a lower-frequency thud, indicating the handling of a stiff, thin material such as a plastic wrapper or foil-lined pouch. The sequence concludes with a single, sustained, low-pitched electronic tone, likely a confirmation beep from a device, which is abruptly cut off, signaling the end of the recording. Throughout the clip, there is no speech, music, or other human vocalization. The sounds are clear and distinct, with no distortion or clipping, and the frequency",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in plaid pants and boots walks forward on a dark, earthy ground. A group of people stands behind, mostly in dim light, with one individual in the foreground crouching low, reaching toward the ground. Their faces are partially visible, and their postures suggest focused attention on the ground or the person crouching.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

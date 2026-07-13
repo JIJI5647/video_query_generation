@@ -1,0 +1,61 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s076",
+  "time_range": [
+    375.0,
+    380.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with short, graying hair wearing a light-colored suit jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking to his left, then turning his head slightly forward."
+      },
+      {
+        "person": "a man in a dark suit standing behind the seated man",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing still."
+      },
+      {
+        "person": "a person with dark hair in a dark shirt standing to the right",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing still."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, a metal security gate is visible in the background."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The seated man turns his head slightly forward.",
+      "The man in the dark suit stands behind the seated man."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with short, graying hair wearing a light-colored suit jacket",
+      "facial_cues": [
+        "his eyes are open and looking forward",
+        "his mouth is closed"
+      ],
+      "body_cues": [
+        "his head is turned slightly forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A low, continuous hum or drone is audible throughout the clip.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s076\", \"time_range\": [375.0, 380.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with short, graying hair wearing a light-colored suit jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting and looking to his left, then turning his head slightly forward.\"}, {\"person\": \"a man in a dark suit standing behind the seated man\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"standing still.\"}, {\"person\": \"a person with dark"
+}

@@ -1,0 +1,72 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a red plaid shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting at a table and talking to another man"
+      },
+      {
+        "person": "a man in a black sweater",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting at a table with his arms crossed, listening to the other man"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a coffee shop decorated for Christmas with garlands and lights in the background"
+    },
+    "objects": [
+      {
+        "object": "a small round table",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "on the table are two mugs and a small metal pitcher"
+      }
+    ],
+    "interactions": [
+      "The man in the red plaid shirt is talking to the man in the black sweater."
+    ],
+    "key_actions": [
+      "The man in the red plaid shirt is talking to the man in the black sweater."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a red plaid shirt",
+      "facial_cues": [
+        "talking"
+      ],
+      "body_cues": [
+        "sitting at a table"
+      ],
+      "gaze": "looking at the man in the black sweater"
+    },
+    {
+      "person": "a man in a black sweater",
+      "facial_cues": [
+        "listening"
+      ],
+      "body_cues": [
+        "arms crossed"
+      ],
+      "gaze": "looking at the man in the red plaid shirt"
+    }
+  ],
+  "audio_description": "A man is speaking in a conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a red plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting at a table and talking to another man\"}, {\"person\": \"a man in a black sweater\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"sitting at a table with his arms crossed, listening to the other man\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a coffee shop decorated for Christma"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_description": "A dimly lit, crowded scene shows numerous figures in dark, armored attire, mostly hunched or crouched in close proximity. Some individuals appear to be moving or gesturing with their arms, while others remain still, their faces obscured by shadows or their own posture. The overall environment is dark with faint firelight illuminating parts of the scene, emphasizing the dense, chaotic arrangement of people.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful orchestral hit, featuring a full string section and brass ensemble. The strings deliver a rapid, ascending arpeggio, while the brass provides a bold, sustained chord, all enveloped in a lush, reverberant studio mix. This cinematic introduction is immediately followed by a sharp, high-frequency metallic impact—reminiscent of a sword clash or a dramatic metallic strike—accompanied by a brief, high-pitched vocal exclamation from a male voice, which is heavily processed and distorted, suggesting a stylized battle cry or grunt. The orchestral music continues with a driving, rhythmic motif, as the strings maintain a fast, ascending pattern and the brass sustains a powerful chord, creating a sense of urgency and tension. Percussion, likely timpani or orchestral drums, adds a deep, resonant pulse, reinforcing the epic atmosphere. The music is layered with a subtle, low-frequency rumble, evoking the presence of a large crowd or distant battle, and the overall sound is highly compressed and dynamically controlled, with no ambient noise or environmental cues. As the orchestral intensity builds, a second, even more forceful metallic impact occurs, this time with a lower pitch and greater resonance, suggesting",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A dimly lit, crowded scene shows numerous figures in dark, armored attire, mostly hunched or crouched in close proximity. Some individuals appear to be moving or gesturing with their arms, while others remain still, their faces obscured by shadows or their own posture. The overall environment is dark with faint firelight illuminating parts of the scene, emphasizing the dense, chaotic arrangement of people.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

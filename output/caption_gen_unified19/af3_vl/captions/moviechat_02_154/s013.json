@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_description": "Two men in dark suits stand beside a parked Rolls-Royce on a wet, nighttime city street, illuminated by streetlights and building lights. One man gestures slightly while speaking, his gaze directed toward the other, who stands still and looks back. The background shows tall buildings with lit windows and a reflective, rain-slicked pavement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, with no significant background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in dark suits stand beside a parked Rolls-Royce on a wet, nighttime city street, illuminated by streetlights and building lights. One man gestures slightly while speaking, his gaze directed toward the other, who stands still and looks back. The background shows tall buildings with lit windows and a reflective, rain-slicked pavement.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

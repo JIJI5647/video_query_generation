@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant background noise or emotional inflection.",
+  "temporal_description": "A man with an earring and a ring on his finger is seated in the driver’s seat of a car, gripping the steering wheel. Rain streaks the windshield, blurring the view outside. Another man, wearing a dark jacket, sits in the passenger seat, smoking a cigarette. Both are visible in the car’s interior, with the driver occasionally shifting his gaze and the passenger exhaling smoke.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with an earring and a ring on his finger is seated in the driver’s seat of a car, gripping the steering wheel. Rain streaks the windshield, blurring the view outside. Another man, wearing a dark jacket, sits in the passenger seat, smoking a cigarette. Both are visible in the car’s interior, with the driver occasionally shifting his gaze and the passenger exhaling smoke.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

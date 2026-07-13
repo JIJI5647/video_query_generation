@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "The man in a light-colored jacket leans over the woman lying in a hospital bed, his hand resting on her chest. The woman, wearing a white gown, lies on pink sheets with a furrowed brow and a concerned expression. A female doctor in a white coat and gloves approaches the bedside and pulls a pink blanket over the patient.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"The man in a light-colored jacket leans over the woman lying in a hospital bed, his hand resting on her chest. The woman, wearing a white gown, lies on pink sheets with a furrowed brow and a concerned expression. A female doctor in a white coat and gloves approaches the bedside and pulls a pink blanket over the patient.\", \"audio\": \"The audio is unclear.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

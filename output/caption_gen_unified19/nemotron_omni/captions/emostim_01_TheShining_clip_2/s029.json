@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_description": "A nighttime view of a steep, snow‑covered slope beside a building and a staircase, illuminated by distant streetlights. A lone figure slides down the slope, moving from the left side toward the center of the frame.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures the sound of wind and the soft rustle of snow as the person slides down the hill.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s029\", \"time_range\": [140.0, 145.0], \"visual\": \"A nighttime view of a steep, snow‑covered slope beside a building and a staircase, illuminated by distant streetlights. A lone figure slides down the slope, moving from the left side toward the center of the frame.\", \"audio\": \"The audio captures the sound of wind and the soft rustle of snow as the person slides down the hill.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "A man with dark hair and a beard, wearing a patterned sweater, sits at a table in a crowded restaurant. He looks forward with a neutral expression. The background is filled with other diners, creating a busy atmosphere.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains a series of heavy, strained gasps and groans, suggesting physical exertion or distress.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s023\", \"time_range\": [110.0, 115.0], \"visual\": \"A man with dark hair and a beard, wearing a patterned sweater, sits at a table in a crowded restaurant. He looks forward with a neutral expression. The background is filled with other diners, creating a busy atmosphere.\", \"audio\": \"The audio contains a series of heavy, strained gasps and groans, suggesting physical exertion or distress.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s047",
+  "time_range": [
+    230.0,
+    235.0
+  ],
+  "visual_description": "A man in a dark red shirt and blue jeans stands in a dimly lit bedroom, swinging a large axe. He brings the axe down forcefully on a door, then smiles and turns away. The room contains a bed, a nightstand with a lamp, and a bookshelf.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud crash is heard as the axe hits the door, followed by a scream.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s047\", \"time_range\": [230.0, 235.0], \"visual\": \"A man in a dark red shirt and blue jeans stands in a dimly lit bedroom, swinging a large axe. He brings the axe down forcefully on a door, then smiles and turns away. The room contains a bed, a nightstand with a lamp, and a bookshelf.\", \"audio\": \"A loud crash is heard as the axe hits the door, followed by a scream.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

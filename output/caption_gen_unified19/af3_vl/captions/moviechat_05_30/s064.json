@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_description": "A person with glasses is partially visible in a dimly lit, cluttered industrial or mechanical space, their face obscured by shadows and foreground objects. The scene is dark, with tall arched structures and machinery lining a narrow aisle, suggesting an underground or abandoned facility. The person’s gaze is directed forward, and their posture is upright, though their exact actions are unclear due to the low lighting and obstruction.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a steady pace, accompanied by a noticeable sigh at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with glasses is partially visible in a dimly lit, cluttered industrial or mechanical space, their face obscured by shadows and foreground objects. The scene is dark, with tall arched structures and machinery lining a narrow aisle, suggesting an underground or abandoned facility. The person’s gaze is directed forward, and their posture is upright, though their exact actions are unclear due to the low lighting and obstruction.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

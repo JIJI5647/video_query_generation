@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A group of people stands facing a large screen displaying a news report with a man’s face and text; some are in uniform, others in casual attire, all with their backs to the camera. They appear to be watching intently, with minimal movement, as the screen shows a scene involving a person in a white coat and another individual. The setting is an indoor space with dim lighting, marble walls, and a hanging lamp above.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice delivering a solemn statement with a slow pace and a low pitch, conveying a sense of deep sorrow and respect.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people stands facing a large screen displaying a news report with a man’s face and text; some are in uniform, others in casual attire, all with their backs to the camera. They appear to be watching intently, with minimal movement, as the screen shows a scene involving a person in a white coat and another individual. The setting is an indoor space with dim lighting, marble walls, and a hanging lamp above.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

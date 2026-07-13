@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A man in a dark suit and glasses stands facing forward, his expression neutral. A woman with shoulder-length hair is partially visible, looking off to the side. The background shows a plain wall and a wooden door frame, with dim, muted lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a close-miked, high-fidelity recording of a single person drinking from a glass or ceramic mug. The sequence starts with a sharp, high-pitched clink as the mug is set down on a hard surface, followed by a brief, low-frequency thud. Immediately, a series of wet, resonant gulping sounds are heard, each with a distinct, throaty quality and a subtle, low-frequency rumble, indicating the liquid is being swallowed. These gulps are spaced irregularly, with the first being the loudest and most forceful, followed by two more, each slightly softer and more subdued, suggesting the drinker is gradually finishing the beverage. The drinking is accompanied by faint, low-frequency rustling, likely from the person’s clothing or subtle body movement, and a persistent, low-level electronic hiss from the recording equipment. The environment is acoustically dry, with no reverberation or background noise, implying a small, quiet, and well-dampened indoor space. After the final gulp, the audio transitions abruptly to a loud, synthetic electronic tone. This tone is a pure, low-frequency square wave at approximately 110 Hz (A2), characterized by a buzzy, harmonically rich tim",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and glasses stands facing forward, his expression neutral. A woman with shoulder-length hair is partially visible, looking off to the side. The background shows a plain wall and a wooden door frame, with dim, muted lighting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

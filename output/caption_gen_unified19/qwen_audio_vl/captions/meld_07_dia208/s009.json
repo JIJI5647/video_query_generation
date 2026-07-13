@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    41.05
+  ],
+  "visual_description": "Three individuals sit in a café-like setting: a man in a black shirt and jeans on a brown couch, a woman in a red top seated beside him, and another woman in a striped sweater in a separate chair, holding a cup. The man gestures with his hands while speaking, the woman in red turns toward him, and the woman in stripes looks at them, holding her cup. Background patrons are seated at tables, and a coffee mug and magazine rest on a wooden table in the foreground.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single, clear male voice speaking the phrase, “the brother and sister.” The speaker’s tone is neutral and declarative, with a standard American accent and no discernible regional inflection. The delivery is measured and calm, with a slight emphasis on the word “sister,” suggesting a focus on the familial relationship being described. The voice is recorded in a controlled, acoustically treated environment, likely a studio or sound booth, as evidenced by the absence of background noise, reverberation, or environmental sounds. The recording is of high fidelity, with a full frequency range and no distortion, hiss, or artifacts. The phrase is spoken in a single, uninterrupted utterance, and the clip ends abruptly after the final word, with no trailing silence or additional sounds. In summary, the audio consists solely of a professionally recorded, neutral statement by a male speaker, “the brother and sister,” delivered in a clear, controlled setting. The clip is concise, focused, and devoid of any extraneous content, background noise, or inflection, indicating its likely use as a reference or sample for media production or linguistic analysis.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three individuals sit in a café-like setting: a man in a black shirt and jeans on a brown couch, a woman in a red top seated beside him, and another woman in a striped sweater in a separate chair, holding a cup. The man gestures with his hands while speaking, the woman in red turns toward him, and the woman in stripes looks at them, holding her cup. Background patrons are seated at tables, and a coffee mug and magazine rest on a wooden table in the foreground.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

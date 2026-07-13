@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_description": "A man in a suit and glasses is shown in a close-up, looking slightly upward and to the side. The scene cuts to a pair of hands, one holding a small tool, manipulating a small object on a surface. The background is out of focus, suggesting an indoor setting with muted tones.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency hum, likely from a nearby appliance or electronic device, establishing a quiet, indoor setting. Immediately, a male voice with a General American accent speaks in a calm, measured, and slightly muffled tone, saying, “some flames in the mouth.” The delivery is neutral and observational, with no inflection, and the phrase is cut off abruptly, suggesting the recording was edited or the speaker was interrupted. As the voice fades, a soft, low-frequency rustling sound emerges, resembling the movement of fabric or a person shifting position, accompanied by a subtle, high-frequency hiss that persists throughout the recording. This rustling is gentle and non-intrusive, indicating minimal movement in a small, acoustically dampened room. The ambient hum and hiss continue, with no other voices, music, or environmental sounds present, reinforcing the sense of isolation and focus on the speaker. Suddenly, all natural sounds are replaced by a loud, synthetic electronic tone—a pure, low-frequency square wave at approximately 110 Hz (A2), characterized by a harsh, buzzy timbre and a static, unwavering pitch. This tone is digitally clipped, resulting in a distorted, aggressive sound that dominates the audio",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses is shown in a close-up, looking slightly upward and to the side. The scene cuts to a pair of hands, one holding a small tool, manipulating a small object on a surface. The background is out of focus, suggesting an indoor setting with muted tones.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

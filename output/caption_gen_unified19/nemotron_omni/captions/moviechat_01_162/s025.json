@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_description": "The driver, a man in a black shirt, sits in the left seat of a moving car, his face partially visible and focused on the road. The passenger, a man with dark hair, sits in the right seat, holding a white object near his mouth and looking forward with a strained expression. The interior is dimly lit and the background outside the windows is blurred with greenery.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is unclear, with no distinct speech or ambient sounds discernible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s025\", \"time_range\": [120.0, 125.0], \"visual\": \"The driver, a man in a black shirt, sits in the left seat of a moving car, his face partially visible and focused on the road. The passenger, a man with dark hair, sits in the right seat, holding a white object near his mouth and looking forward with a strained expression. The interior is dimly lit and the background outside the windows is blurred with greenery.\", \"audio\": \"The audio is unclear, with no distinct speech or ambient so"
+}

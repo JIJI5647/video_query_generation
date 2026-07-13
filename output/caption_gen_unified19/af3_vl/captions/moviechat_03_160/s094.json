@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s094",
+  "time_range": [
+    465.0,
+    470.0
+  ],
+  "visual_description": "A man with gray hair, wearing a light-colored shirt and tie, sits at a table eating from a white bowl with chopsticks, while another man in a dark suit is partially visible beside him. The scene appears to be a dimly lit dining area with other people seated around, some blurred in the background. The man eating looks down at his food, holding chopsticks mid-motion, while the man beside him is turned away, partially obscuring the view.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a steady pace and moderate pitch, accompanied by the sound of footsteps and ambient background noise.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with gray hair, wearing a light-colored shirt and tie, sits at a table eating from a white bowl with chopsticks, while another man in a dark suit is partially visible beside him. The scene appears to be a dimly lit dining area with other people seated around, some blurred in the background. The man eating looks down at his food, holding chopsticks mid-motion, while the man beside him is turned away, partially obscuring the view.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

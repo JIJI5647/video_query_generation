@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man in a blue plaid shirt sits in a chair facing away from the camera, while two other men stand behind him in a warmly lit room with furniture and wall decor. The man in the foreground slightly turns his head, and the two standing men appear to be conversing or observing something off-camera. The room has a cozy, domestic ambiance with visible lamps, framed pictures, and a doorway in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins abruptly in a small, acoustically dry room, with a faint electronic hiss and a low-frequency hum present throughout. The first male voice, positioned close to the microphone, speaks in a clear, assertive, and slightly impatient tone: “Where are the disposable cameras?” His delivery is direct and carries a sense of urgency, suggesting he is searching for the cameras and is not pleased with the lack of immediate response. Immediately following, the second male voice, slightly more distant and with a lower pitch, responds in a calm, neutral, and slightly higher register: “What disposable cameras?” His tone is matter-of-fact, indicating either genuine confusion or a deliberate attempt to feign ignorance. A soft rustling sound, likely from clothing or movement, is heard in the background, reinforcing the sense of a physical search or interaction. The first speaker repeats his question with increased urgency and a sharper, more forceful tone: “Where are the disposable cameras?” This repetition underscores his impatience and the seriousness of the situation. The second speaker begins to reply with “What disp—”, but his response is abruptly cut off mid-word, leaving the exchange unresolved. The audio ends suddenly, with no fade-out or additional sounds, indicating a deliberate edit",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a blue plaid shirt sits in a chair facing away from the camera, while two other men stand behind him in a warmly lit room with furniture and wall decor. The man in the foreground slightly turns his head, and the two standing men appear to be conversing or observing something off-camera. The room has a cozy, domestic ambiance with visible lamps, framed pictures, and a doorway in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

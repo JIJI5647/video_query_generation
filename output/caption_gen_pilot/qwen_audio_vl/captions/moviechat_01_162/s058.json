@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a brief, high-pitched electronic chime, reminiscent of a notification or system alert, immediately followed by a low-frequency electronic hum that persists throughout the recording. This hum, likely originating from a computer or recording device, is accompanied by a faint, steady hiss, indicating the use of consumer-grade equipment. The overall sound quality is clear but not studio-grade, with a limited frequency range and a slightly muffled character, suggesting the recording was made in a small, acoustically treated room such as a police interrogation or evidence review room.\n\nA single male voice, speaking in standard Mandarin Chinese, enters with a calm, measured, and authoritative tone. His delivery is slow and deliberate, with each phrase separated by distinct pauses, and his voice is centered in the stereo field, indicating close microphone placement. The speaker’s accent is standard Putonghua, with no regional inflections, and his manner is formal and professional, consistent with a police officer or investigator presenting evidence. He states: “根据闭路电视的录像，黄景斯四点十五分进入大厦。” (“Based on the closed-circuit television footage, Huang Jingsi entered the building at 4:15.”) The speech is clear and intelligible, with no background noise or environmental distractions, reinforcing the impression of a controlled, professional setting.\n\nAs the speaker finishes, a sharp, high-pitched electronic beep sounds, likely a system notification or a digital marker indicating the end of the recording or a transition in the evidence review process. The audio then cuts off abruptly, with no fade-out or residual noise, suggesting a deliberate stop or the conclusion of the segment.\n\nIn summary, the audio is a short, professionally produced excerpt from a police or investigative context, featuring a Mandarin-speaking male presenting CCTV evidence regarding a person’s entry into a building. The technical characteristics—electronic chime, hum, hiss, and beep—along with the formal, neutral delivery and controlled environment, indicate its use in an official investigation or legal proceeding. The clip is devoid of extraneous sounds, music, or emotional inflection, focusing solely on the factual presentation of evidence.",
+  "temporal_description": "The scene is set in a modern, multi-level office space with glass partitions and metal railings. Several individuals are visible, including a man in a white shirt and tie standing near a monitor displaying a security camera feed, another man in a white shirt walking down a staircase, and others seated or moving around the area. The man near the monitor has his hands on his hips and is looking toward the screen, while the man descending the stairs is walking with a steady pace. The environment is well-lit with overhead lighting and features potted plants and office furniture.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene is set in a modern, multi-level office space with glass partitions and metal railings. Several individuals are visible, including a man in a white shirt and tie standing near a monitor displaying a security camera feed, another man in a white shirt walking down a staircase, and others seated or moving around the area. The man near the monitor has his hands on his hips and is looking toward the screen, while the man descending the stairs is walking with a steady pace. The environment is",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

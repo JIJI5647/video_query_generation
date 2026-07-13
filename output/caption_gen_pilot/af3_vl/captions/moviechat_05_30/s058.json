@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking neutrally, followed by a male voice with a neutral tone, both at a moderate pace, with no significant background noise.",
+  "temporal_description": "A man and a woman stand facing each other in a dimly lit, stone-walled corridor. The man, wearing a striped shirt under a dark jacket, gestures with his hands while speaking. The woman, dressed in a dark jacket with a hood, stands still, her gaze fixed on the man. The lighting casts shadows across their faces and the surrounding architecture, highlighting the aged stone walls and arches. The man eventually turns and walks away, leaving the woman standing alone in the corridor.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man and a woman stand facing each other in a dimly lit, stone-walled corridor. The man, wearing a striped shirt under a dark jacket, gestures with his hands while speaking. The woman, dressed in a dark jacket with a hood, stands still, her gaze fixed on the man. The lighting casts shadows across their faces and the surrounding architecture, highlighting the aged stone walls and arches. The man eventually turns and walks away, leaving the woman standing alone in the corridor.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

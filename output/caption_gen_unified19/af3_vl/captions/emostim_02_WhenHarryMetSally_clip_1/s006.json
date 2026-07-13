@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man with dark hair and a striped sweater sits across from a woman with blonde, curly hair, both facing each other at a table. The man holds small food items in his hands and gestures slightly while looking at the woman, who is seen from behind. Other people are visible in the background, seated and moving around in what appears to be a busy dining area.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with dark hair and a striped sweater sits across from a woman with blonde, curly hair, both facing each other at a table. The man holds small food items in his hands and gestures slightly while looking at the woman, who is seen from behind. Other people are visible in the background, seated and moving around in what appears to be a busy dining area.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with clear and steady prosody, and no significant non-speech sounds.",
+  "temporal_description": "Two men are seated at a table in a dimly lit, cluttered room, possibly a restaurant or bar. The man on the left, wearing a patterned shirt, holds chopsticks and gestures with his hand while speaking. The man on the right, dressed in a dark jacket, listens attentively, occasionally bringing his hand to his mouth. In the background, other individuals are visible, some standing and smoking, contributing to the busy atmosphere. The setting includes a chalkboard with writing, and the overall environment appears casual and informal.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated at a table in a dimly lit, cluttered room, possibly a restaurant or bar. The man on the left, wearing a patterned shirt, holds chopsticks and gestures with his hand while speaking. The man on the right, dressed in a dark jacket, listens attentively, occasionally bringing his hand to his mouth. In the background, other individuals are visible, some standing and smoking, contributing to the busy atmosphere. The setting includes a chalkboard with writing, and the overall environm",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

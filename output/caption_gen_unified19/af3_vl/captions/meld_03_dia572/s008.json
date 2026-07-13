@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A woman lies in a hospital bed, partially covered by a pink blanket, while a man in a beige jacket stands beside her, leaning forward and gesturing with his hands. The man appears to be speaking or explaining something, with his gaze directed toward the woman, who looks up at him with her arms slightly raised. Medical equipment and curtains are visible in the background, indicating a hospital room setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman lies in a hospital bed, partially covered by a pink blanket, while a man in a beige jacket stands beside her, leaning forward and gesturing with his hands. The man appears to be speaking or explaining something, with his gaze directed toward the woman, who looks up at him with her arms slightly raised. Medical equipment and curtains are visible in the background, indicating a hospital room setting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

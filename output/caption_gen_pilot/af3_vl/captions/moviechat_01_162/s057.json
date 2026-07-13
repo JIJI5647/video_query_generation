@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a single male voice with a high pitch and a neutral tone, speaking at a moderate pace. There are no noticeable non-speech sounds or background noise.",
+  "temporal_description": "A person is seen in silhouette, standing still and facing away from the camera, looking toward a sky filled with clouds. The sky transitions from a lighter hue to darker tones as the scene progresses, eventually fading to black. The person remains motionless throughout, with no discernible facial expressions or gestures visible due to the silhouette effect. The scene is static, with no other people or objects in view.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person is seen in silhouette, standing still and facing away from the camera, looking toward a sky filled with clouds. The sky transitions from a lighter hue to darker tones as the scene progresses, eventually fading to black. The person remains motionless throughout, with no discernible facial expressions or gestures visible due to the silhouette effect. The scene is static, with no other people or objects in view.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

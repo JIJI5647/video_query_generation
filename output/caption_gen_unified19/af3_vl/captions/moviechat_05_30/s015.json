@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A crowd of people in school uniforms and jackets move hurriedly through a dimly lit corridor, some looking ahead while others glance sideways. In the background, a large, fiery explosion illuminates a darkened bridge and castle-like structure, with sparks and smoke rising into the night sky. One girl in uniform smiles slightly while walking, her gaze directed forward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and breathy voice speaking rapidly, with a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A crowd of people in school uniforms and jackets move hurriedly through a dimly lit corridor, some looking ahead while others glance sideways. In the background, a large, fiery explosion illuminates a darkened bridge and castle-like structure, with sparks and smoke rising into the night sky. One girl in uniform smiles slightly while walking, her gaze directed forward.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

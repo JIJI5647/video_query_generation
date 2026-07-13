@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A woman speaks in a neutral tone, her voice clear and steady, with no background noise or interruptions.",
+  "temporal_description": "A man in a dark shirt stands in an office environment, holding his hand to his mouth, while other individuals in business attire are visible in the background, some standing and others seated at desks. The foreground is partially obscured by the back of another person wearing a dark shirt. Later, the scene shifts to show two men in light blue shirts, one with his hand near his face, both facing away from the camera toward a window or glass wall, with other people faintly visible in the background. The lighting is dim, and the setting appears to be an indoor office or institutional space.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark shirt stands in an office environment, holding his hand to his mouth, while other individuals in business attire are visible in the background, some standing and others seated at desks. The foreground is partially obscured by the back of another person wearing a dark shirt. Later, the scene shifts to show two men in light blue shirts, one with his hand near his face, both facing away from the camera toward a window or glass wall, with other people faintly visible in the backgroun",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

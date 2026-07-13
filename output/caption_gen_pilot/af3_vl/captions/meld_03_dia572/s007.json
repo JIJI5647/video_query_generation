@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A female voice, speaking neutrally and at a moderate pace, expresses a desire for privacy and asks about missing a girlfriend, with no notable background sounds.",
+  "temporal_description": "A man in a beige jacket stands beside a hospital bed, holding a curtain open with one hand while gesturing with the other. Behind him, a woman lies in the bed, propped up with her head resting on a pillow, her arms behind her head, and her gaze directed toward the man. The room is a hospital setting, with medical equipment visible, including an IV stand and a wall-mounted panel with outlets. The man’s posture is upright and attentive, and the woman appears relaxed, with her body partially covered by a pink blanket.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a beige jacket stands beside a hospital bed, holding a curtain open with one hand while gesturing with the other. Behind him, a woman lies in the bed, propped up with her head resting on a pillow, her arms behind her head, and her gaze directed toward the man. The room is a hospital setting, with medical equipment visible, including an IV stand and a wall-mounted panel with outlets. The man’s posture is upright and attentive, and the woman appears relaxed, with her body partially covere",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

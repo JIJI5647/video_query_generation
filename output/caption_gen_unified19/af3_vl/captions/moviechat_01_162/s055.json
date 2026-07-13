@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_description": "A person in silhouette walks from right to left across a dimly lit, outdoor scene with a cloudy sky and a partially visible building structure on the left. The individual’s posture is upright and they appear to be in motion, moving away from the camera’s perspective. The scene is dark with low visibility, emphasizing the silhouette against the twilight sky and faint background elements.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a low pitch and a slow pace, accompanied by a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in silhouette walks from right to left across a dimly lit, outdoor scene with a cloudy sky and a partially visible building structure on the left. The individual’s posture is upright and they appear to be in motion, moving away from the camera’s perspective. The scene is dark with low visibility, emphasizing the silhouette against the twilight sky and faint background elements.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

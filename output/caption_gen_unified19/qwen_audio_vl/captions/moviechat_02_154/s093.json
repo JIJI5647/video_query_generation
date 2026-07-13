@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_description": "In a dimly lit room with a pool table, a person in a patterned dress stands behind another person lying face-down on the table, while a third person in a suit is partially visible in the foreground. Outside at night, a man in a suit stands holding a phone, illuminated by a light source, while another person is bent over in the background near a vehicle. The standing man’s gaze is directed downward at the phone, and his posture is upright and still.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, resonant, and sustained synthesized drone, enveloped in heavy reverb that creates a vast, cavernous atmosphere. This drone, likely produced by a low-frequency synthesizer or processed cello, is centered in the stereo field and establishes a somber, ominous mood. Shortly after, a high-pitched, breathy, and plaintive melody emerges, played on a synthesized instrument mimicking a flute or recorder. The melody is slow, legato, and features expressive vibrato and portamento, evoking a sense of lamentation and ancient sorrow. Its timbre is airy and slightly nasal, with a subtle, continuous hiss in the background, suggesting either analog tape noise or a deliberate lo-fi effect. The melody is panned slightly to the right, while the drone remains centered, and both are enveloped in the same expansive reverb, reinforcing the impression of a large, empty space. As the melody continues, a sharp, metallic percussive sound—reminiscent of a sword being drawn or a latch being released—cuts through the soundscape. This sound is dry, with no reverb, and is panned to the left, providing a sudden, attention-grabbing contrast to the otherwise reverber",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit room with a pool table, a person in a patterned dress stands behind another person lying face-down on the table, while a third person in a suit is partially visible in the foreground. Outside at night, a man in a suit stands holding a phone, illuminated by a light source, while another person is bent over in the background near a vehicle. The standing man’s gaze is directed downward at the phone, and his posture is upright and still.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

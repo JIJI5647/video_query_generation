@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A young blonde child with tears on his face looks up at an adult male whose hand rests on the child's cheek. The child wears a gray shirt while the adult is partially visible in dark clothing.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The child is sobbing audibly. A calm male voice speaks softly.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s022\", \"time_range\": [105.0, 110.0], \"visual\": \"A young blonde child with tears on his face looks up at an adult male whose hand rests on the child's cheek. The child wears a gray shirt while the adult is partially visible in dark clothing.\", \"audio\": \"The child is sobbing audibly. A calm male voice speaks softly.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

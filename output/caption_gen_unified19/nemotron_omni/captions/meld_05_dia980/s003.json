@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a grey sweater sits at a table holding a piece of paper and gesturing with his hands while speaking to another man. The second man, wearing a black jacket over a white shirt, leans over the table in a kitchen area, looking down at the paper. A red plastic cup sits on the table.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio consists of the man in the grey sweater speaking and the other man listening quietly.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual\": \"A man in a grey sweater sits at a table holding a piece of paper and gesturing with his hands while speaking to another man. The second man, wearing a black jacket over a white shirt, leans over the table in a kitchen area, looking down at the paper. A red plastic cup sits on the table.\", \"audio\": \"The audio consists of the man in the grey sweater speaking and the other man listening quietly.\", \"confidence\": \"high\", \"evidence_strength"
+}

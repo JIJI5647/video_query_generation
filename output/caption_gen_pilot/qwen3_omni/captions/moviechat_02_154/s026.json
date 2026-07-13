@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with spiky hair, wearing a black leather jacket, a red shirt, and a floral-patterned shirt underneath",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and looking down, then turning his head to the right."
+      },
+      {
+        "person": "a man in a blue denim jacket with a brown collar",
+        "visibility": "partially visible",
+        "position": "background",
+        "action": "standing behind vertical bars, looking forward."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a window with horizontal blinds in the background."
+    },
+    "objects": [
+      {
+        "object": "vertical bars",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "blocking the view of the man in the denim jacket."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the leather jacket turns his head to the right.",
+      "The man in the denim jacket stands still behind bars."
+    ],
+    "visibility_notes": "The man in the denim jacket is partially obscured by the bars."
+  },
+  "visual_expression": [
+    {
+      "person": "a man with spiky hair, wearing a black leather jacket, a red shirt, and a floral-patterned shirt underneath",
+      "facial_cues": [
+        "looking down",
+        "turning his head to the right"
+      ],
+      "body_cues": [
+        "sitting"
+      ],
+      "gaze": "down, then to the right."
+    },
+    {
+      "person": "a man in a blue denim jacket with a brown collar",
+      "facial_cues": [
+        "looking forward"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "forward."
+    }
+  ],
+  "audio_description": "A loud, sustained, low-pitched electronic tone is heard.",
+  "temporal_description": "The electronic tone plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s026\", \"time_range\": [125.0, 130.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with spiky hair, wearing a black leather jacket, a red shirt, and a floral-patterned shirt underneath\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting and looking down, then turning his head to the right.\"}, {\"person\": \"a man in a blue denim jacket with a brown collar\", \"visibility\": \"partially visible\", \"position\": \"background\", \"action\": \"standing behind vertic"
+}

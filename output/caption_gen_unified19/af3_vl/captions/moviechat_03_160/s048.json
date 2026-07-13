@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s048",
+  "time_range": [
+    235.0,
+    240.0
+  ],
+  "visual_description": "In a dimly lit indoor setting, a man with gray hair in a suit holds a phone to his ear while seated, with blurred figures in the background. Another man sits in a small boat at night, illuminated faintly, with a third person beside him, all appearing to be in motion or preparing to move. The scene is dark with minimal lighting, emphasizing the contrast between the boat and the surrounding night.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit indoor setting, a man with gray hair in a suit holds a phone to his ear while seated, with blurred figures in the background. Another man sits in a small boat at night, illuminated faintly, with a third person beside him, all appearing to be in motion or preparing to move. The scene is dark with minimal lighting, emphasizing the contrast between the boat and the surrounding night.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_description": "A man in a suit stands in a dimly lit room, looking toward another man who is holding a camera and adjusting his tie. The second man is partially obscured by the camera equipment and appears to be preparing for a recording. Both individuals are positioned indoors, with blinds visible in the background and a faint reflection in a glass surface.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip opens with a faint, high-frequency hiss, indicating a low-fidelity recording environment. Immediately, a male voice with a clear, authoritative tone and a standard Mandarin accent issues a command: “用刚才的频道再通知大象一次，说行动取消。” (“Use the channel from just now to notify Elephant again, say the operation is canceled.”) His speech is firm, urgent, and delivered at a moderate pace, with a slight echo suggesting a large, hard-surfaced room. As he speaks, a continuous, low-frequency electronic hum and a faint, high-pitched whine are present in the background, characteristic of electronic equipment or machinery in a military or command center setting. The audio is monophonic, with all sounds centered and no spatial separation. Following the command, a second male voice, younger and more subdued, responds with a crisp, respectful “是，长官。” (“Yes, sir.”) His tone is formal and deferential, reflecting a subordinate’s acknowledgment of a superior’s order. The background hum and whine persist, and the recording remains monophonic and compressed, with a limited frequency range and no stereo imaging. The clip ends abruptly, with no fade-out or lingering sound, suggesting a deliberate edit or the",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit stands in a dimly lit room, looking toward another man who is holding a camera and adjusting his tie. The second man is partially obscured by the camera equipment and appears to be preparing for a recording. Both individuals are positioned indoors, with blinds visible in the background and a faint reflection in a glass surface.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

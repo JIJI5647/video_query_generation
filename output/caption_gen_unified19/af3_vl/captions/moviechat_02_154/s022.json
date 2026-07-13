@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A man in a suit and glasses is seen in profile, looking forward with a neutral posture. In the background, several people stand near parked cars on a wet city street at night, illuminated by streetlights and building lights, with tall buildings including one labeled \"MANDARIN ORIENTAL\" visible. The scene is dark and urban, with reflections on the wet pavement and a green circular light visible on a nearby structure.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and breathy voice with a slow pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses is seen in profile, looking forward with a neutral posture. In the background, several people stand near parked cars on a wet city street at night, illuminated by streetlights and building lights, with tall buildings including one labeled \"MANDARIN ORIENTAL\" visible. The scene is dark and urban, with reflections on the wet pavement and a green circular light visible on a nearby structure.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

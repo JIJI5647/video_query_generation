@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a gray sweater sits at a table holding a white card, looking upward with his mouth open. Another man in a black jacket stands beside him, partially obscuring the view, while a third person is seated out of focus in the foreground. The scene takes place in a kitchen with cabinets, a refrigerator, and various items on shelves visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a gray sweater sits at a table holding a white card, looking upward with his mouth open. Another man in a black jacket stands beside him, partially obscuring the view, while a third person is seated out of focus in the foreground. The scene takes place in a kitchen with cabinets, a refrigerator, and various items on shelves visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

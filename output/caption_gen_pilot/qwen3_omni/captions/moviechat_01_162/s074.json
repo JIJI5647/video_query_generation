@@ -1,0 +1,84 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s074",
+  "time_range": [
+    365.0,
+    370.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light blue shirt and striped tie",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "stands, then turns and punches the other man in the face."
+      },
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "stands, then is punched in the face by the other man."
+      },
+      {
+        "person": "a man in the foreground",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "sits and is partially visible."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with glass partitions and computer monitors."
+    },
+    "objects": [
+      {
+        "object": "a computer monitor",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "displays a blue screen."
+      },
+      {
+        "object": "a lanyard with an ID badge",
+        "visibility": "clearly visible",
+        "position": "around the neck of the man on the right",
+        "action": "worn by the man."
+      }
+    ],
+    "interactions": [
+      "The man on the left punches the man on the right in the face."
+    ],
+    "key_actions": [
+      "punching"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light blue shirt and striped tie",
+      "facial_cues": [
+        "frown"
+      ],
+      "body_cues": [
+        "raises his right arm to punch"
+      ],
+      "gaze": "looking at the other man before punching."
+    },
+    {
+      "person": "a man in a white shirt and black tie",
+      "facial_cues": [
+        "frown"
+      ],
+      "body_cues": [
+        "stands with hands on hips, then recoils from the punch"
+      ],
+      "gaze": "looking at the other man before being punched."
+    }
+  ],
+  "audio_description": "A loud slap sound is heard, followed by a male grunt.",
+  "temporal_description": "The man on the left punches the man on the right, and the sound of the impact is heard immediately after.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s074\", \"time_range\": [365.0, 370.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light blue shirt and striped tie\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"stands, then turns and punches the other man in the face.\"}, {\"person\": \"a man in a white shirt and black tie\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"stands, then is punched in the face by the other man.\"}, {\"person\": \"a man in the foreground\", \"visibility\": \"parti"
+}

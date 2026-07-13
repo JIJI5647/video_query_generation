@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s035",
+  "time_range": [
+    170.0,
+    175.0
+  ],
+  "visual_description": "A chained, monstrous figure crawls on the ground in darkness, its grotesque face partially illuminated. The scene shifts to a line of robed figures holding torches, with green light glowing behind them. A large crowd then advances with torches toward a lit building, while a close-up reveals a distressed individual's face.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible sounds are clearly discernible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s035\", \"time_range\": [170.0, 175.0], \"visual\": \"A chained, monstrous figure crawls on the ground in darkness, its grotesque face partially illuminated. The scene shifts to a line of robed figures holding torches, with green light glowing behind them. A large crowd then advances with torches toward a lit building, while a close-up reveals a distressed individual's face.\", \"audio\": \"No audible sounds are clearly discernible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

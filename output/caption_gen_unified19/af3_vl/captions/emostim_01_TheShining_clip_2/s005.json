@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A child with short, light-colored hair, wearing a striped sweater, stands facing away from the camera, holding a long object resembling a knife. The child is positioned in a dimly lit room with a lamp on a side table to the left, a closed door ahead, and a bookshelf and old television to the right. The child’s posture is upright, and their head is slightly turned toward the door, suggesting they are looking at or approaching it.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a moderate pace, speaking in a neutral tone without any noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child with short, light-colored hair, wearing a striped sweater, stands facing away from the camera, holding a long object resembling a knife. The child is positioned in a dimly lit room with a lamp on a side table to the left, a closed door ahead, and a bookshelf and old television to the right. The child’s posture is upright, and their head is slightly turned toward the door, suggesting they are looking at or approaching it.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

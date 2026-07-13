@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "A man with long hair and a beard peers through a hole in a wooden door, smiling widely. He then uses a piece of wood to force the door open further, revealing a chain lock. The man's hand is visible as he pushes the wood against the door.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man's voice says, 'I'm home.' The sound of a door being forced open is heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s027\", \"time_range\": [130.0, 135.0], \"visual\": \"A man with long hair and a beard peers through a hole in a wooden door, smiling widely. He then uses a piece of wood to force the door open further, revealing a chain lock. The man's hand is visible as he pushes the wood against the door.\", \"audio\": \"A man's voice says, 'I'm home.' The sound of a door being forced open is heard.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

@@ -1,0 +1,75 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a red and black patterned dress",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on a bed next to a man, touching his chest, and smiling at him"
+      },
+      {
+        "person": "a man in an orange shirt and glasses",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "lying on a bed, holding a cigar, and looking at the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom with a white bed and brown walls"
+    },
+    "objects": [
+      {
+        "object": "a cigar",
+        "visibility": "clearly visible",
+        "position": "right hand of the man",
+        "action": "being held by the man"
+      }
+    ],
+    "interactions": [
+      "The woman touches the man's chest."
+    ],
+    "key_actions": [
+      "The woman lies on the bed and touches the man's chest.",
+      "The man lies on the bed and holds a cigar."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a red and black patterned dress",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "lying on the bed",
+        "touching the man's chest"
+      ],
+      "gaze": "looking at the man"
+    },
+    {
+      "person": "a man in an orange shirt and glasses",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "lying on the bed",
+        "holding a cigar"
+      ],
+      "gaze": "looking at the woman"
+    }
+  ],
+  "audio_description": "A loud, sustained, high-pitched electronic tone is heard.",
+  "temporal_description": "The tone is present throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s043\", \"time_range\": [210.0, 215.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a red and black patterned dress\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"lying on a bed next to a man, touching his chest, and smiling at him\"}, {\"person\": \"a man in an orange shirt and glasses\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"lying on a bed, holding a cigar, and looking at the woman\"}], \"scene\": {\"location\": \"indoor ro"
+}

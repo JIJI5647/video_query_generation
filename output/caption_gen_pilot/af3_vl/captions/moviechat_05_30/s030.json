@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a sad tone, speaking at a moderate pace. There are no significant non-speech sounds, and the overall atmosphere is somber.",
+  "temporal_description": "A person is visible, partially obscured by darkness, with their upper body and arms emerging from behind a wooden surface. Their hands are clasped together near their face, and their head is slightly tilted downward. The scene is dimly lit, with faint light illuminating the person’s face and the wooden surface in front of them. The background is mostly dark, with indistinct shapes and shadows, suggesting an outdoor or enclosed, nighttime setting. The person remains still throughout the clip, with minimal movement, maintaining a fixed posture.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person is visible, partially obscured by darkness, with their upper body and arms emerging from behind a wooden surface. Their hands are clasped together near their face, and their head is slightly tilted downward. The scene is dimly lit, with faint light illuminating the person’s face and the wooden surface in front of them. The background is mostly dark, with indistinct shapes and shadows, suggesting an outdoor or enclosed, nighttime setting. The person remains still throughout the clip, wit",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

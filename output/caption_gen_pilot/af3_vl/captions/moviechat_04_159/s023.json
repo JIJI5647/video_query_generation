@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a clear, uninterrupted voice with a neutral tone and moderate pace, with no noticeable background noise or emotional inflection.",
+  "temporal_description": "A hand holds a silver Motorola flip phone displaying a list of dialed calls, then moves the phone toward a laptop, where fingers type rapidly on the keyboard. The scene transitions to a nighttime aerial view of a city, with lights illuminating streets and buildings, gradually zooming in on a specific area with a dark, possibly industrial or urban structure.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A hand holds a silver Motorola flip phone displaying a list of dialed calls, then moves the phone toward a laptop, where fingers type rapidly on the keyboard. The scene transitions to a nighttime aerial view of a city, with lights illuminating streets and buildings, gradually zooming in on a specific area with a dark, possibly industrial or urban structure.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

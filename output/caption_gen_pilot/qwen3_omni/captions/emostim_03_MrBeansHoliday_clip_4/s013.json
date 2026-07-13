@@ -1,0 +1,54 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a brown suit and red tie",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "riding a bicycle"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a rural road with green fields and trees in the background under a blue sky with clouds"
+    },
+    "objects": [
+      {
+        "object": "a white pickup truck",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "driving alongside the man on the road"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man rides a bicycle next to a moving pickup truck."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a brown suit and red tie",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "riding a bicycle"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "Upbeat, rhythmic music with a male voice singing in a repetitive, chant-like manner.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s013\", \"time_range\": [60.0, 65.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a brown suit and red tie\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"riding a bicycle\"}], \"scene\": {\"location\": \"street\", \"setting\": \"a rural road with green fields and trees in the background under a blue sky with clouds\"}, \"objects\": [{\"object\": \"a white pickup truck\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"driving alongside the man on the roa"
+}

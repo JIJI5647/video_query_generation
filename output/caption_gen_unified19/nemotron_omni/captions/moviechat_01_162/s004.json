@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a dark suit and white shirt holds a black handgun with both hands, aiming at a person whose face shows blood on the forehead. He wears earphones and his expression is focused, then he lowers the weapon and looks to his right. The view then shifts to a building exterior and a sky with birds before showing a person lying on the ground.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A gunshot is heard, followed by a brief pause in the ambient sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s004\", \"time_range\": [15.0, 20.0], \"visual\": \"A man in a dark suit and white shirt holds a black handgun with both hands, aiming at a person whose face shows blood on the forehead. He wears earphones and his expression is focused, then he lowers the weapon and looks to his right. The view then shifts to a building exterior and a sky with birds before showing a person lying on the ground.\", \"audio\": \"A gunshot is heard, followed by a brief pause in the ambient sounds.\", \"confidenc"
+}

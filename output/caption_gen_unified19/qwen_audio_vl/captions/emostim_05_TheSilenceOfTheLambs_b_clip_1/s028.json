@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_description": "A person’s face, partially visible, lies still with their mouth open, revealing teeth and gums. Gloved hands manipulate a pair of tweezers or forceps within the mouth, while another gloved hand holds the lips open. The scene is a close-up, clinical view focused on the oral cavity and the precise hand movements.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a high-fidelity, professionally produced orchestral string section, featuring violins, violas, and cellos. The music is slow, melancholic, and cinematic, with a minor key and a descending melodic line that evokes a sense of and tension. The strings are arranged in a wide stereo field, with violins panned left and cellos right, and the overall sound is enveloped in lush, natural-sounding reverb, suggesting a large concert hall or studio setting. The music is emotionally charged, with a sense of unresolved suspense and a feeling of loss or impending tragedy. At the four-second mark, the music is abruptly and completely cut off, with no fade or transition. This sudden silence is immediately followed by a single, loud, low-frequency electronic buzz. The buzz is harsh, synthetic, and static, with a fundamental frequency around 60 Hz and strong harmonics, resembling a square or sawtooth wave. It is centered in the stereo field, dry, and devoid of any reverb or environmental context, creating a stark contrast to the preceding music. The buzz is sustained for the remainder of the clip, with no variation in pitch or amplitude, and is reminiscent of a digital error tone or system alert",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person’s face, partially visible, lies still with their mouth open, revealing teeth and gums. Gloved hands manipulate a pair of tweezers or forceps within the mouth, while another gloved hand holds the lips open. The scene is a close-up, clinical view focused on the oral cavity and the precise hand movements.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

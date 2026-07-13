@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s034",
+  "time_range": [
+    165.0,
+    170.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, loud, and harsh metallic impact, characterized by a deep, resonant thud and a high-frequency metallic scrape. This sound is heavily distorted due to digital clipping, suggesting the recording device was overwhelmed by the force of the event. The impact is followed by a brief, chaotic metallic rattle, indicating loose or broken components, and is accompanied by a faint, high-pitched squeal, likely from metal-on-metal friction. The reverberation is short and dense, implying the event occurred in a small, enclosed, and acoustically reflective space, such as a garage or workshop.\n\nImmediately after the impact, a powerful, multi-tone air horn blares, its sound rich in harmonics and marked by a slightly dissonant, brassy timbre. The horn is sustained for several seconds, with a steady pitch and volume, and is also heavily clipped, resulting in a harsh, distorted quality. The horn’s reverberation is dense and short, consistent with the same enclosed environment as the initial impact. The horn’s tone is reminiscent of those used on large vehicles like trucks or buses, and its sustained, urgent character suggests a warning or alarm.\n\nAs the horn fades, a male voice, strained and breathless, urgently calls out, “Hajime!” The name is delivered in a high-pitched, panicked tone, with a sharp, rising inflection and a sense of alarm. The speaker’s voice is close to the microphone, and the breathlessness and urgency indicate recent physical exertion or shock. The delivery is in standard Japanese, with no regional accent, and the emotional tone is one of alarm and distress.\n\nFollowing the exclamation, the audio transitions to a brief, low-frequency electronic tone, likely a censor beep or a system alert. This tone is steady, synthetic, and unmodulated, with a harsh, buzzy timbre and a frequency around 100 Hz. It is abruptly cut off, suggesting a deliberate edit or censorship, and is not accompanied by any other sounds.\n\nThroughout the recording, there is a persistent low-level hiss, indicating a moderate to low recording quality, and the overall frequency range is limited, with a focus on mid and low frequencies. The dynamic range is compressed, and the loudness is high, especially during the impact and horn sections. The spatial impression is of a small, hard-walled room, and the sequence of events is clear: a violent impact, an urgent air horn, a panicked call for help, and a final electronic tone.\n\nIn summary, the audio captures a sudden, violent incident in a Japanese garage or workshop, featuring a metallic impact, a sustained air horn alarm, and a panicked male voice calling out “Hajime!” The recording is marked by technical imperfections and abrupt editing, with the final electronic tone suggesting censorship or a system alert. The scene conveys a sense of urgency, alarm, and distress, likely depicting a moment of crisis or emergency.",
+  "temporal_description": "Inside a car, two men are seated, one in the driver’s seat and the other in the passenger seat. The driver is leaning forward, gripping the steering wheel, while the passenger is leaning toward him, their faces close together. Both appear to be engaged in a tense interaction, with the passenger gesturing with their hand and the driver maintaining a focused posture. The interior of the car is dimly lit, with light filtering through the windows, and the camera captures their faces and upper bodies in close-up shots.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Inside a car, two men are seated, one in the driver’s seat and the other in the passenger seat. The driver is leaning forward, gripping the steering wheel, while the passenger is leaning toward him, their faces close together. Both appear to be engaged in a tense interaction, with the passenger gesturing with their hand and the driver maintaining a focused posture. The interior of the car is dimly lit, with light filtering through the windows, and the camera captures their faces and upper bodies",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

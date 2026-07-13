@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s053",
+  "time_range": [
+    260.0,
+    265.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a woman screaming, followed by a man speaking, with a noticeable pause between their voices.",
+  "temporal_description": "A person with long dark hair, wearing a blue robe, is partially visible behind a damaged wall, holding a knife. They are seen covering their face with one hand while the other hand grips the knife. The wall has large, torn sections revealing a dark space behind it. A man in a plaid shirt appears through the torn wall, holding a wooden object, and looks around cautiously before moving away. The scene is confined to a narrow, deteriorating interior space with visible peeling paint and exposed wood.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a blue robe, is partially visible behind a damaged wall, holding a knife. They are seen covering their face with one hand while the other hand grips the knife. The wall has large, torn sections revealing a dark space behind it. A man in a plaid shirt appears through the torn wall, holding a wooden object, and looks around cautiously before moving away. The scene is confined to a narrow, deteriorating interior space with visible peeling paint and exposed wood",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

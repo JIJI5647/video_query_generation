@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_description": "A man in a brown suit and white shirt is bent over, looking down with a strained expression. He is holding the handlebars of a bicycle with a basket containing tomatoes. The background is a blurry outdoor scene with other people.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice sings in a high-pitched, strained tone, accompanied by a simple, repetitive electronic music track.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s011\", \"time_range\": [50.0, 55.0], \"visual\": \"A man in a brown suit and white shirt is bent over, looking down with a strained expression. He is holding the handlebars of a bicycle with a basket containing tomatoes. The background is a blurry outdoor scene with other people.\", \"audio\": \"A male voice sings in a high-pitched, strained tone, accompanied by a simple, repetitive electronic music track.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

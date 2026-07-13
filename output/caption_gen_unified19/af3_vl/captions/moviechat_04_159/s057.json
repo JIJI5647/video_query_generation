@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_description": "A man in a suit is seated in the back of a car, head tilted back, eyes closed. In another scene, a person is seen from behind, facing a computer monitor displaying data, with another person partially visible nearby. The setting appears to be a dimly lit interior, possibly a vehicle or office, with blurred background elements.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace with a slightly breathy quality.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit is seated in the back of a car, head tilted back, eyes closed. In another scene, a person is seen from behind, facing a computer monitor displaying data, with another person partially visible nearby. The setting appears to be a dimly lit interior, possibly a vehicle or office, with blurred background elements.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

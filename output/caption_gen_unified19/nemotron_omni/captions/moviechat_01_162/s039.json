@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_description": "A man in a dark shirt sits in the back seat of a car, his face covered in sweat and his mouth open as if shouting. Another person leans close, partially visible, with a hand near the man's neck. The dim, bluish lighting highlights the sweat on their skin and the car interior.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A strained male voice is audible, speaking urgently. Heavy breathing accompanies the speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s039\", \"time_range\": [190.0, 195.0], \"visual\": \"A man in a dark shirt sits in the back seat of a car, his face covered in sweat and his mouth open as if shouting. Another person leans close, partially visible, with a hand near the man's neck. The dim, bluish lighting highlights the sweat on their skin and the car interior.\", \"audio\": \"A strained male voice is audible, speaking urgently. Heavy breathing accompanies the speech.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_description": "A person in a dark, damaged interior with debris and broken structures is seen running forward with urgency. The individual is partially illuminated by ambient light, wearing a dark jacket and carrying an object in one hand, while their gaze is directed ahead. The environment appears chaotic, with scattered wreckage and dim lighting casting shadows across the scene.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, overwhelming surge of sound, immediately immersing the listener in a chaotic, high-intensity environment. A deep, resonant, and distorted roar dominates the soundscape, accompanied by a high-pitched, metallic screech that suggests the violent friction of metal under extreme stress. The roar is so powerful that it causes severe digital clipping, resulting in a harsh, crackling distortion that obscures finer details. This initial moment is marked by a sense of immense scale and destructive force, evoking the impression of a colossal mechanical entity or a catastrophic event. As the roar continues, a rapid succession of sharp, percussive impacts erupts, each one distinct and forceful, resembling the sound of heavy metal objects colliding or being shattered. These impacts are layered with a continuous, high-frequency crackling and sizzling, reminiscent of electrical arcing or the rapid burning of materials. The overall effect is one of relentless, destructive energy, with the soundscape remaining dense and overwhelming, devoid of any human speech, music, or ambient environmental cues. The sequence of impacts and crackling intensifies, with the metallic screech persisting and the energy of the event escalating. The audio remains saturated with distortion, and the sense of scale",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark, damaged interior with debris and broken structures is seen running forward with urgency. The individual is partially illuminated by ambient light, wearing a dark jacket and carrying an object in one hand, while their gaze is directed ahead. The environment appears chaotic, with scattered wreckage and dim lighting casting shadows across the scene.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

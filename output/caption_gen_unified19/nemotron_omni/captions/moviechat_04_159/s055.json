@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_description": "A man in a white shirt stands on a dimly lit balcony, gripping the railing while a translucent plastic sheet hangs nearby. He looks toward the left side of the corridor, his posture relaxed. The background shows a narrow hallway with green doors and distant lights.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s055\", \"time_range\": [270.0, 275.0], \"visual\": \"A man in a white shirt stands on a dimly lit balcony, gripping the railing while a translucent plastic sheet hangs nearby. He looks toward the left side of the corridor, his posture relaxed. The background shows a narrow hallway with green doors and distant lights.\", \"audio\": \"The audio is silent.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

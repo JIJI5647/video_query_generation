@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A child's voice, high-pitched and urgent, shouts 'Wake him up!' with a sense of excitement and urgency, while a woman's voice is faintly heard in the background.",
+  "temporal_description": "A young child with light-colored hair, wearing a gray shirt, is seen from behind, clinging to an adult. The adult, wearing a dark jacket over a white collared shirt and glasses, is standing and leaning slightly forward, with their hands resting on the child's back. The child's arms are wrapped around the adult's torso, and their head is tilted upward, looking toward the adult. The adult's face is partially visible, and they appear to be looking down at the child. The setting is dimly lit, with a plain, dark background, suggesting an indoor environment. The child's posture indicates closeness and physical contact with the adult, while the adult's stance suggests a gentle, supportive presence.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair, wearing a gray shirt, is seen from behind, clinging to an adult. The adult, wearing a dark jacket over a white collared shirt and glasses, is standing and leaning slightly forward, with their hands resting on the child's back. The child's arms are wrapped around the adult's torso, and their head is tilted upward, looking toward the adult. The adult's face is partially visible, and they appear to be looking down at the child. The setting is dimly lit, with a",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,77 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s057",
+  "time_range": [
+    280.0,
+    285.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man with brown hair wearing a dark striped shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "holding a large, folded map and speaking to the woman"
+      },
+      {
+        "person": "a woman with dark hair wearing a dark jacket",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "listening to the man and then speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit stone room with a window in the background, illuminated by a cool blue light that shifts to a warmer yellow tone."
+    },
+    "objects": [
+      {
+        "object": "a large, folded map",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "held by the man"
+      }
+    ],
+    "interactions": [
+      "The man and the woman are having a conversation."
+    ],
+    "key_actions": [
+      "The man holds a map and speaks.",
+      "The woman listens and then responds."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man with brown hair wearing a dark striped shirt",
+      "facial_cues": [
+        "clearly visible face",
+        "mouth moving while speaking"
+      ],
+      "body_cues": [
+        "holding a map",
+        "leaning slightly forward"
+      ],
+      "gaze": "looking at the woman"
+    },
+    {
+      "person": "a woman with dark hair wearing a dark jacket",
+      "facial_cues": [
+        "clearly visible face",
+        "mouth moving while speaking"
+      ],
+      "body_cues": [
+        "standing still",
+        "head slightly tilted"
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "A man and a woman are having a conversation.",
+  "temporal_description": "The man speaks first, followed by the woman.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s057\", \"time_range\": [280.0, 285.0], \"visual_objective\": {\"people\": [{\"person\": \"a man with brown hair wearing a dark striped shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"holding a large, folded map and speaking to the woman\"}, {\"person\": \"a woman with dark hair wearing a dark jacket\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"listening to the man and then speaking\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dimly lit "
+}

@@ -1,0 +1,57 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy in a red and grey sweater",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and writing on a door with a red marker"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a bedroom at night with a bed and a lamp visible in the background"
+    },
+    "objects": [
+      {
+        "object": "a door",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "being written on by the boy"
+      }
+    ],
+    "interactions": [
+      "the boy writes on the door"
+    ],
+    "key_actions": [
+      "the boy writes on the door"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy in a red and grey sweater",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "standing",
+        "holding a marker"
+      ],
+      "gaze": "on the door"
+    }
+  ],
+  "audio_description": "a high-pitched, sustained electronic tone is heard.",
+  "temporal_description": "the tone is present throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual_objective\": {\"people\": [{\"person\": \"a young boy in a red and grey sweater\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and writing on a door with a red marker\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a bedroom at night with a bed and a lamp visible in the background\"}, \"objects\": [{\"object\": \"a door\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"being written on by the "
+}

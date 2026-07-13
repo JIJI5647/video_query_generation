@@ -1,0 +1,57 @@
+{
+  "video_id": "meld_03_dia572",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a blue and white plaid shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and gesturing with his hands open, then reaching into a brown bag"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a hospital room with a patient bed and curtains in the background"
+    },
+    "objects": [
+      {
+        "object": "a brown leather bag",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being opened by the man"
+      }
+    ],
+    "interactions": [
+      "the man reaches into the bag"
+    ],
+    "key_actions": [
+      "the man gestures with his hands and then opens the bag"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a blue and white plaid shirt",
+      "facial_cues": [
+        "frowning",
+        "mouth open"
+      ],
+      "body_cues": [
+        "gesturing with hands open"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "a man is speaking in an agitated tone, followed by a woman shouting in distress.",
+  "temporal_description": "The man speaks, then the woman shouts in response.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a blue and white plaid shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and gesturing with his hands open, then reaching into a brown bag\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a hospital room with a patient bed and curtains in the background\"}, \"objects\": [{\"object\": \"a brown leather bag\", \"visibility\": \"clearly visible\", \"position\": \"foreg"
+}

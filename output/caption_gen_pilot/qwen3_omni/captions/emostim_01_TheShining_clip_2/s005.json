@@ -1,0 +1,56 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a young boy with short, light-colored hair",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and holding a knife"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a lamp, a door, and a bookshelf"
+    },
+    "objects": [
+      {
+        "object": "knife",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "held by the boy"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the boy stands still, holding the knife",
+      "the camera slowly pans left, revealing more of the room"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a young boy with short, light-colored hair",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "holding a knife",
+        "standing still"
+      ],
+      "gaze": "towards the door"
+    }
+  ],
+  "audio_description": "a high-pitched, sustained electronic tone is heard.",
+  "temporal_description": "the tone is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual_objective\": {\"people\": [{\"person\": \"a young boy with short, light-colored hair\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing and holding a knife\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a lamp, a door, and a bookshelf\"}, \"objects\": [{\"object\": \"knife\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"held by the boy\"}], \"interactions\": [], \"key_actions\": [\"t"
+}

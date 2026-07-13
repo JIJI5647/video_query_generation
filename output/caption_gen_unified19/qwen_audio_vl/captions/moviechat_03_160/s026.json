@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "Two men sit across from each other at a table in a dimly lit, cluttered room; one wears a patterned shirt and holds a pen, the other wears a dark jacket. The man in the patterned shirt gestures with his pen while leaning forward, and the other man leans in slightly, looking at him. Behind them, other figures are partially visible, moving in the background near a wall with writing.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency thump, likely caused by a microphone bump or handling noise, immediately followed by a brief, low-level rustling sound, possibly from clothing or a hand brushing against the microphone. These subtle noises set the scene in a quiet, enclosed indoor environment, characterized by a persistent, low-level electronic hiss and a faint hum, indicative of a consumer-grade recording device in a small, acoustically dampened room. The first speaker, a middle-aged man with a clear, slightly raspy voice and a standard Mandarin accent, speaks in a conversational, mildly amused tone: “是啊，在那儿数落陈哥，真的还发脾气。” (“Yeah, there he was, criticizing Brother Chen, and he really got.”) His speech is delivered at a moderate pace, with a rising inflection on “是啊” and a gentle, narrative cadence, suggesting he is recounting a recent event to a familiar listener. The second speaker, a younger male with a higher-pitched, neutral voice, responds with a brief, inquisitive “啊？” (“Huh?”), his tone. This exchange is marked by a natural, informal rhythm, with the first speaker",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men sit across from each other at a table in a dimly lit, cluttered room; one wears a patterned shirt and holds a pen, the other wears a dark jacket. The man in the patterned shirt gestures with his pen while leaning forward, and the other man leans in slightly, looking at him. Behind them, other figures are partially visible, moving in the background near a wall with writing.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

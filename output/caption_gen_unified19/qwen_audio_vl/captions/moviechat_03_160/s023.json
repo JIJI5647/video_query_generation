@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "An older man with gray hair, wearing a light-colored suit, holds a phone to his ear while seated. In a dimly lit, cluttered room with shelves holding bowls and other items, another person in a dark shirt stands near a table with food, while others are partially visible in the background. The man on the phone has a neutral expression, and the standing person appears to be reaching toward something on the table.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic impact—a high-pitched clang followed by a resonant, low-frequency thud—suggesting the forceful closure of a heavy metal door or gate. This sound reverberates briefly, indicating a large, hard-surfaced indoor space such as a warehouse, garage, or industrial corridor. Immediately after, a male voice with a clear, mid-to-low pitch and a neutral, matter-of-fact tone says, “搞定啦” (“Gǎodìng la”), a Mandarin Chinese phrase meaning “It’s done” or “All set.” His delivery is calm and confident, implying the completion of a task. A brief pause follows, during which a faint, low-frequency hum—likely from distant machinery or an HVAC system—can be heard, reinforcing the industrial setting. The same male speaker then switches to Thai, asking, “อะไรวะ พวกมันทำงานกันยังไง” (“Arai wa? Phûak mân thamngan gan yang ngai”), which translates to “What the heck? How do they work?” His tone shifts to one of and mild, suggesting he is observing or questioning the operation of a machine or system. The speech is clear and intellig",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "An older man with gray hair, wearing a light-colored suit, holds a phone to his ear while seated. In a dimly lit, cluttered room with shelves holding bowls and other items, another person in a dark shirt stands near a table with food, while others are partially visible in the background. The man on the phone has a neutral expression, and the standing person appears to be reaching toward something on the table.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

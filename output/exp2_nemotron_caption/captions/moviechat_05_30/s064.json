@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s064",
+  "time_range": [
+    315.0,
+    320.0
+  ],
+  "visual_description": "In a dimly lit, gothic library with towering arches and rows of shelves, a man with round glasses and dark hair stands facing forward. The camera then zooms in on his face, showing wide eyes and a slightly open mouth.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "the audio is silent",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s064\", \"time_range\": [315.0, 320.0], \"visual\": \"In a dimly lit, gothic library with towering arches and rows of shelves, a man with round glasses and dark hair stands facing forward. The camera then zooms in on his face, showing wide eyes and a slightly open mouth.\", \"audio\": \"the audio is silent\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

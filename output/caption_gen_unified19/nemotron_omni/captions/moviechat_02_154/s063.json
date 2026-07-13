@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_description": "A man in a light green suit walks down a hallway, checks his wristwatch, points forward, and is followed by a man in a patterned shirt. The camera then shows a row of aquarium tanks filled with green plants and small fish. A bald man with a beard stands in profile, looking at the tanks.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains ambient hallway sounds and faint footsteps, with no discernible speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s063\", \"time_range\": [310.0, 315.0], \"visual\": \"A man in a light green suit walks down a hallway, checks his wristwatch, points forward, and is followed by a man in a patterned shirt. The camera then shows a row of aquarium tanks filled with green plants and small fish. A bald man with a beard stands in profile, looking at the tanks.\", \"audio\": \"The audio contains ambient hallway sounds and faint footsteps, with no discernible speech.\", \"confidence\": \"high\", \"evidence_strength\": "
+}

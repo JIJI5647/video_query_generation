@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A man in a light-colored shirt and lanyard walks past a dark doorway, his gaze directed downward. In a dimly lit office, another man in a dark suit and tie stands facing forward, while others are seated or moving around in the background. A third man in a light shirt is seen from behind, holding a phone to his ear as he walks.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by background music.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt and lanyard walks past a dark doorway, his gaze directed downward. In a dimly lit office, another man in a dark suit and tie stands facing forward, while others are seated or moving around in the background. A third man in a light shirt is seen from behind, holding a phone to his ear as he walks.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

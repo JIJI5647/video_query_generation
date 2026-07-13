@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow, deliberate pace, conveying a sense of urgency and distress.",
+  "temporal_description": "A man in a dark suit sits in the driver’s seat of a black car, his face partially illuminated by ambient light, while another man with a mustache sits in the passenger seat, both appearing still and facing forward. The car is parked on a city street at night, with storefronts and illuminated signs visible in the background, including one that reads “CASHIERE FASHION.” The driver occasionally glances around, and the passenger remains mostly motionless, with their gaze directed forward. The scene is dimly lit, emphasizing the contrast between the car’s interior and the bright exterior lights.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit sits in the driver’s seat of a black car, his face partially illuminated by ambient light, while another man with a mustache sits in the passenger seat, both appearing still and facing forward. The car is parked on a city street at night, with storefronts and illuminated signs visible in the background, including one that reads “CASHIERE FASHION.” The driver occasionally glances around, and the passenger remains mostly motionless, with their gaze directed forward. The scene ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

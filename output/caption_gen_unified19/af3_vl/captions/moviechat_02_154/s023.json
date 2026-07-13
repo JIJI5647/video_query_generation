@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_description": "A man with tousled dark hair, wearing a dark jacket over a patterned shirt and a necklace, stands in a dimly lit urban street at night, his gaze directed downward. Several people are visible in the background near parked cars and illuminated buildings, some standing and others walking, while streetlights cast reflections on the wet pavement. The scene is framed with vertical blinds partially obscuring the view, and the man’s posture is slightly hunched as he looks down.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a high-pitched, urgent siren followed by the sound of footsteps, suggesting a rapid response to an emergency.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with tousled dark hair, wearing a dark jacket over a patterned shirt and a necklace, stands in a dimly lit urban street at night, his gaze directed downward. Several people are visible in the background near parked cars and illuminated buildings, some standing and others walking, while streetlights cast reflections on the wet pavement. The scene is framed with vertical blinds partially obscuring the view, and the man’s posture is slightly hunched as he looks down.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

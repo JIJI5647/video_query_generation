@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with clear and moderate-paced speech, and no noticeable background noise or emotional inflection.",
+  "temporal_description": "A woman with shoulder-length hair lies in a hospital bed, covered with a pink blanket and wearing a white hospital gown. She is positioned on her back, looking upward, with her hands resting on her abdomen. A man with short dark hair, wearing a light-colored jacket over a shirt, leans over her from the side of the bed, his hands placed gently on her abdomen. He is looking down at her, his head slightly tilted. The hospital room has pink walls, medical equipment including an IV stand and outlets, and a window with blinds partially visible in the background. The woman’s gaze is directed upward, and the man’s posture suggests attentiveness.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length hair lies in a hospital bed, covered with a pink blanket and wearing a white hospital gown. She is positioned on her back, looking upward, with her hands resting on her abdomen. A man with short dark hair, wearing a light-colored jacket over a shirt, leans over her from the side of the bed, his hands placed gently on her abdomen. He is looking down at her, his head slightly tilted. The hospital room has pink walls, medical equipment including an IV stand and outlets,",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

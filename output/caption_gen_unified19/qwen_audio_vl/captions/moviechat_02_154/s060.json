@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s060",
+  "time_range": [
+    295.0,
+    300.0
+  ],
+  "visual_description": "Three men stand in a dimly lit alleyway; one holds a glass bottle, another faces him while holding a lit sign with Chinese characters, and the third is partially visible on the left. The central man gestures slightly with his hand while looking at the man with the sign, and the man with the sign turns his head slightly toward him. The scene is narrow and cluttered, with a striped awning overhead and walls showing signs of wear.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a burst of high-energy, fast-paced instrumental music, immediately immersing the listener in a dense, layered soundscape. The lead instrument is a bright, metallic-sounding plucked string, likely a banjo or mandolin, performing rapid, syncopated melodic runs in a style reminiscent of American bluegrass or old-time folk. Supporting this are a fiddle or violin playing a lively, ornamented melody, a double bass providing a steady, rhythmic walking line, and a banjo or guitar strumming a driving, percussive rhythm. The ensemble is tightly coordinated, with each instrument contributing to a propulsive, dance-like groove. The recording is of low fidelity, marked by pronounced digital clipping and distortion, especially during the loudest passages, which results in a harsh, compressed sound. The frequency range is limited, with a strong midrange and little bass or treble extension, and the overall mix is monophonic, with all instruments centered and no sense of spatial depth. The music is abruptly cut off mid-phrase, with no fade or resolution, indicating a hard edit. Immediately following the musical segment, a loud, synthetic electronic tone replaces the music. This tone is a pure, unmodulated square wave",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men stand in a dimly lit alleyway; one holds a glass bottle, another faces him while holding a lit sign with Chinese characters, and the third is partially visible on the left. The central man gestures slightly with his hand while looking at the man with the sign, and the man with the sign turns his head slightly toward him. The scene is narrow and cluttered, with a striped awning overhead and walls showing signs of wear.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

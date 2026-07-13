@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s072",
+  "time_range": [
+    355.0,
+    360.0
+  ],
+  "visual_description": "A man in a suit sits at a table, hands resting on a closed laptop, wearing a watch and a ring. Behind him, another man holds a phone to his ear, partially obscured, while a third man stands in the background, mostly in shadow. The scene is dimly lit with blueish tones, and the man in the foreground looks downward with a neutral posture.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, intense burst of sound: a high-pitched, metallic screech reminiscent of train wheels grinding against steel rails, immediately followed by a deep, resonant metallic clang. This initial impact is heavily distorted and clipped, producing a harsh, abrasive texture that dominates the opening moments. The screech and clang are enveloped in a dense, reverberant echo, suggesting a vast, enclosed space such as a subway tunnel or underground station. The reverberation is so pronounced that the soundscape feels cavernous and immersive, with the echoes lingering and overlapping, creating a sense of spatial depth and scale. As the initial chaos subsides, the reverberation continues to decay, and a new layer emerges: a rhythmic, mechanical clatter. This sound, characterized by a steady, metallic \"clack-clack\" pattern, evokes the movement of train wheels over track joints or the operation of a turnstile. The rhythm is regular and consistent, with each clack slightly reverberant, reinforcing the impression of a large, hard-surfaced environment. The mechanical clatter is clear and distinct, standing out against the fading echoes of the earlier impact. Throughout the recording, there is no speech, music, or human presence",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit sits at a table, hands resting on a closed laptop, wearing a watch and a ring. Behind him, another man holds a phone to his ear, partially obscured, while a third man stands in the background, mostly in shadow. The scene is dimly lit with blueish tones, and the man in the foreground looks downward with a neutral posture.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

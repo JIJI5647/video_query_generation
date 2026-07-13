@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "In the dimly lit scene, faint silhouettes of people are visible moving across a rugged, rocky terrain toward a distant illuminated structure. Their forms are mostly obscured by darkness, with only vague outlines and minimal discernible gestures or postures. The environment is shadowy and sparse, with the only visible light emanating from the distant building and scattered faint glows along a path.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace. There are no noticeable non-speech sounds or cues in the clip.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In the dimly lit scene, faint silhouettes of people are visible moving across a rugged, rocky terrain toward a distant illuminated structure. Their forms are mostly obscured by darkness, with only vague outlines and minimal discernible gestures or postures. The environment is shadowy and sparse, with the only visible light emanating from the distant building and scattered faint glows along a path.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

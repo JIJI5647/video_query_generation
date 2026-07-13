@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "The scene is set in a dim, industrial interior with metal railings and chains. A dark-clad figure moves swiftly across a narrow walkway, confronting another figure in the background who appears to be defending. The confrontation escalates with a bright flash of light and sparks as the dark figure strikes, causing debris to scatter and the opponent to tumble onto a metal platform.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio captures the clang of metal and heavy breathing as the figures engage in combat. There is no clear speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s041\", \"time_range\": [200.0, 205.0], \"visual\": \"The scene is set in a dim, industrial interior with metal railings and chains. A dark-clad figure moves swiftly across a narrow walkway, confronting another figure in the background who appears to be defending. The confrontation escalates with a bright flash of light and sparks as the dark figure strikes, causing debris to scatter and the opponent to tumble onto a metal platform.\", \"audio\": \"The audio captures the clang of metal and"
+}

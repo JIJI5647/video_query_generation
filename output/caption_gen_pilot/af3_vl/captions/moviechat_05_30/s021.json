@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and intense emotion, likely shouting or screaming, conveying a sense of urgency or distress.",
+  "temporal_description": "A large group of people, mostly men, are gathered in a dimly lit, outdoor setting, possibly a forest or cavernous area. They are dressed in dark, rugged clothing, and many appear to be in a crouched or kneeling position, facing forward. One individual in the foreground is prominently visible, with long hair and a dark jacket, appearing to be in motion or gesturing. The scene transitions to a person running through a narrow, stone-walled corridor, suggesting urgency or escape. The final shot shows a vast, dark landscape with a long, illuminated bridge or structure in the distance, surrounded by dense trees or cliffs, creating a sense of isolation and scale.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A large group of people, mostly men, are gathered in a dimly lit, outdoor setting, possibly a forest or cavernous area. They are dressed in dark, rugged clothing, and many appear to be in a crouched or kneeling position, facing forward. One individual in the foreground is prominently visible, with long hair and a dark jacket, appearing to be in motion or gesturing. The scene transitions to a person running through a narrow, stone-walled corridor, suggesting urgency or escape. The final shot show",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_description": "A man in a suit and tie stands in a dimly lit room with framed pictures on the wall. Five individuals in dark clothing stand in a line in a tiled, industrial-looking corridor with metal grates overhead. All are facing forward, with neutral postures and direct gazes toward the camera.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, sustained, synthesized drone that immediately establishes a somber and ominous atmosphere. This drone, likely produced by a low-frequency synthesizer or processed string sample, is enveloped in a spacious, reverberant digital environment, creating a sense of vastness and isolation. The sound is centered in the stereo field, with no other ambient noises present, and is accompanied by a faint, high-frequency hiss characteristic of analog tape or low-fidelity digital recording. Shortly after the drone starts, a slow, deliberate, and heavy percussive beat enters, resembling a deep, resonant drum or synthesized kick. This beat is marked by a long decay and subtle reverb, reinforcing the sense of emptiness and suspense. The rhythm is steady and unchanging, with no melodic or harmonic development, and the overall mood remains and foreboding. At the four-second mark, a sharp, high-pitched metallic click is heard, reminiscent of a mechanical latch or switch being engaged. This sound is dry, close, and distinctly separate from the reverberant background, suggesting a physical action such as a door opening or a device being activated. Immediately following this, the drone and percussion are abruptly cut off, replaced by a loud, harsh",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and tie stands in a dimly lit room with framed pictures on the wall. Five individuals in dark clothing stand in a line in a tiled, industrial-looking corridor with metal grates overhead. All are facing forward, with neutral postures and direct gazes toward the camera.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

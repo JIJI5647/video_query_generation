@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A group of cyclists in colorful jerseys and helmets are pedaling vigorously in a tight peloton along a paved road. They are leaning forward in aerodynamic positions, with some riders partially obscured by others, and their gazes are focused ahead. The scene is set outdoors under a clear blue sky, with rolling hills and fields visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a burst of high-energy, professionally produced pop-punk music, immediately immersing the listener in a dense, compressed soundscape. The instrumentation features a driving drum kit with a prominent snare, a melodic bass guitar, and two electric guitars—one rhythm and one lead—both heavily distorted and panned to opposite sides of the stereo field. The lead guitar delivers a catchy, melodic riff, while the rhythm guitar provides a solid, palm-muted foundation. The mix is characterized by a wide stereo image, with vocals and drums centered and guitars spread across the spectrum, creating a sense of depth and space. A male vocalist, singing in a clear, high-pitched, and slightly nasal tone, enters with the lyric, \"What do you want from me?\" His delivery is urgent and emotionally charged, with a strained, almost desperate quality. The vocal is processed with heavy compression, reverb, and delay, giving it a polished, modern pop-punk sheen. The lyrics are delivered in a General American accent, with no regional inflections, and the phrasing is clipped and rapid, matching the song’s fast tempo and energetic mood. As the music continues, the vocalist repeats the phrase, \"What do you want from me?\" with",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of cyclists in colorful jerseys and helmets are pedaling vigorously in a tight peloton along a paved road. They are leaning forward in aerodynamic positions, with some riders partially obscured by others, and their gazes are focused ahead. The scene is set outdoors under a clear blue sky, with rolling hills and fields visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_description": "A solitary figure is visible at the top of a snow-covered slope, positioned near the edge of a structure with vertical siding. The person appears to be sitting or crouched, with their body angled slightly downward, suggesting they may be preparing to descend or observing the slope. The scene is dimly lit by artificial lights, casting a blue hue over the snow and surrounding area, with the structure’s silhouette standing against the dark background. No facial expressions, gestures, or detailed body movements are discernible due to the distance and lighting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, loud, and complex mechanical sound, immediately immersing the listener in a dense, reverberant environment. The dominant feature is a deep, low-frequency rumble, accompanied by a persistent, high-pitched metallic whine and a rhythmic, percussive clatter. These elements combine to create a powerful, industrial soundscape, with the clatter resembling the rapid, metallic impacts of train wheels passing over rail joints. The reverberation is pronounced, suggesting the recording was made in a large, enclosed space such as a subway tunnel or underground station, with hard surfaces amplifying the echoes and lending a cavernous quality to the sound. Throughout the clip, the mechanical noise remains steady and unchanging, with no speech, music, or other environmental sounds present. The recording is of moderate fidelity, with a limited frequency range and a faint background hiss, but the main sounds are clear and well-defined. The audio ends abruptly, with no fade-out or lingering reverberation, indicating a deliberate cut-off. In summary, the audio captures the intense, immersive sound of a subway or train car in motion within a reverberant underground setting, characterized by a deep rumble, metallic whine, and rhythmic clatter",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A solitary figure is visible at the top of a snow-covered slope, positioned near the edge of a structure with vertical siding. The person appears to be sitting or crouched, with their body angled slightly downward, suggesting they may be preparing to descend or observing the slope. The scene is dimly lit by artificial lights, casting a blue hue over the snow and surrounding area, with the structure’s silhouette standing against the dark background. No facial expressions, gestures, or detailed bo",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

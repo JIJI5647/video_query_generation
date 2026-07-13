@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_06_dia823",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A woman with brown hair in a messy updo sits on a striped couch, wearing a blue patterned dress and a necklace. She gestures with her hands while looking slightly to her right, her posture relaxed but engaged in conversation. The background shows a cluttered living room with furniture and various items visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone with a moderate pace and pitch, with no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with brown hair in a messy updo sits on a striped couch, wearing a blue patterned dress and a necklace. She gestures with her hands while looking slightly to her right, her posture relaxed but engaged in conversation. The background shows a cluttered living room with furniture and various items visible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A woman with curly blonde hair and a man with dark hair sit side by side, both holding food items and looking toward the right. The woman gestures with her left hand while the man holds his food with both hands; both are seated at a table in a crowded, indoor setting with blurred background figures. Their gazes are directed off-camera to the right, and their postures are relaxed as they eat.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a neutral tone and moderate pace, speaking in English.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with curly blonde hair and a man with dark hair sit side by side, both holding food items and looking toward the right. The woman gestures with her left hand while the man holds his food with both hands; both are seated at a table in a crowded, indoor setting with blurred background figures. Their gazes are directed off-camera to the right, and their postures are relaxed as they eat.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

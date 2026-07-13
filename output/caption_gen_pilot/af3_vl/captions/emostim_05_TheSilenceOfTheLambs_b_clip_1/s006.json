@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or emotional inflection.",
+  "temporal_description": "A woman with shoulder-length brown hair, wearing a dark purple collared shirt, is seen from behind and then turns to her right, revealing her profile. She stands in front of a window with a grid pattern, and behind her, a shelf with bottles is visible. Her head turns slightly as she looks toward the side, and her gaze shifts subtly. The lighting is soft, and the background suggests an indoor setting, possibly an office or institutional space.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair, wearing a dark purple collared shirt, is seen from behind and then turns to her right, revealing her profile. She stands in front of a window with a grid pattern, and behind her, a shelf with bottles is visible. Her head turns slightly as she looks toward the side, and her gaze shifts subtly. The lighting is soft, and the background suggests an indoor setting, possibly an office or institutional space.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

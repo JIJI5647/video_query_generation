@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_description": "A man with shoulder-length hair, wearing a red jacket over a plaid shirt and jeans, walks down a narrow hallway with patterned wallpaper. He holds a small object in his right hand and looks upward as he moves forward, his gaze shifting slightly. The hallway features a circular mirror on the wall and several doors, with a light fixture overhead.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate loudness, speaking at a moderate pace with a clear and steady prosody. There are no noticeable non-speech sounds or inflections.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with shoulder-length hair, wearing a red jacket over a plaid shirt and jeans, walks down a narrow hallway with patterned wallpaper. He holds a small object in his right hand and looks upward as he moves forward, his gaze shifting slightly. The hallway features a circular mirror on the wall and several doors, with a light fixture overhead.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

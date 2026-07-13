@@ -1,0 +1,46 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black leather jacket",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "walking away from the camera into a room"
+      },
+      {
+        "person": "a man in a patterned shirt",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "standing and looking at a table with food"
+      },
+      {
+        "person": "two men in dark shirts",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "standing and looking towards the man in the leather jacket"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit, with a door and a table with food visible"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A person speaks briefly, followed by a loud, dramatic musical sting.",
+  "temporal_description": "The audio begins with a short spoken phrase, immediately followed by a sudden, loud musical sound.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s079\", \"time_range\": [390.0, 395.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black leather jacket\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"walking away from the camera into a room\"}, {\"person\": \"a man in a patterned shirt\", \"visibility\": \"partially visible\", \"position\": \"left\", \"action\": \"standing and looking at a table with food\"}, {\"person\": \"two men in dark shirts\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"stan"
+}

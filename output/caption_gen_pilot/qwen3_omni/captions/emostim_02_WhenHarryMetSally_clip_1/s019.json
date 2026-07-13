@@ -1,0 +1,48 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "touching her hair"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a crowded room with many people in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the woman touches her hair"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde hair",
+      "facial_cues": [
+        "eyes closed",
+        "mouth slightly open"
+      ],
+      "body_cues": [
+        "hand touching hair"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "A person sighs and speaks with a weary tone.",
+  "temporal_description": "The woman's expression and action remain consistent throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s019\", \"time_range\": [90.0, 95.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with blonde hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"touching her hair\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a crowded room with many people in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"the woman touches her hair\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a woman with blonde hair\", \"facial_cues\": "
+}

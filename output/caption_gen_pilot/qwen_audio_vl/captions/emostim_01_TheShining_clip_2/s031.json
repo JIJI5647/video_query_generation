@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, metallic screech that immediately dominates the soundscape. This screech, reminiscent of steel wheels grinding against rails, is harsh, abrasive, and rich in upper-mid and high-frequency content, with a piercing, almost painful timbre. The sound is accompanied by a deep, resonant rumble, suggesting the immense mass and power of a moving train. The screech is not static; it fluctuates in pitch and intensity, indicating the train is negotiating a curve or applying brakes, with the pitch rising and falling in a cyclical pattern. The reverberation is pronounced, with echoes and fluttering reflections that imply the train is moving through a large, enclosed, and highly reflective space—such as a tunnel or underground station. The overall effect is overwhelming and intense, with the screech and rumble filling the entire frequency spectrum and creating a sense of urgency and tension.\n\nAt the peak of this mechanical cacophony, the audio is abruptly cut off mid-screech, with no fade or natural decay. Instantly, a pure, low-frequency electronic tone replaces the train sounds. This tone is steady, unwavering, and centered in the stereo field, with a fundamental frequency of approximately 110 Hz (A2) and a harmonically rich, buzzy timbre characteristic of a sawtooth or square wave. The tone is dry and devoid of any reverberation or environmental context, suggesting it was generated electronically and inserted directly into the audio. It remains constant in pitch and volume until the end of the clip, with no modulation or variation.\n\nThroughout the recording, there is no speech, music, or human presence—only the mechanical and electronic sounds. The audio quality is moderate, with the train sounds exhibiting some distortion and clipping, especially at the loudest moments, while the electronic tone is clean and undistorted. The transition between the two sounds is abrupt and jarring, with no overlap or blending, indicating deliberate editing.\n\nIn summary, the audio presents a vivid, immersive depiction of a train’s mechanical distress within a reverberant, enclosed space, followed by an immediate, stark transition to a pure electronic tone. The absence of speech or music, the intense mechanical sounds, and the abrupt edit suggest the clip is designed for dramatic effect, likely as a sound effect or audio cue in media production, rather than as a documentary or field recording. The overall impression is one of tension, urgency, and sudden interruption, with the electronic tone serving as a clear signal of transition or conclusion.",
+  "temporal_description": "A person with long dark hair, wearing a blue outfit, is partially buried in snow, positioned in front of a wooden structure with a window. Their hands are visible, moving slightly as they appear to be struggling or adjusting their position. The scene transitions to a man with shoulder-length hair, wearing a red jacket over a plaid shirt, standing in a hallway with floral wallpaper and a round mirror on the wall. He is holding an object in his right hand and looking forward with a slight smile.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a blue outfit, is partially buried in snow, positioned in front of a wooden structure with a window. Their hands are visible, moving slightly as they appear to be struggling or adjusting their position. The scene transitions to a man with shoulder-length hair, wearing a red jacket over a plaid shirt, standing in a hallway with floral wallpaper and a round mirror on the wall. He is holding an object in his right hand and looking forward with a slight smile.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

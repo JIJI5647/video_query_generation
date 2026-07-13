@@ -1,0 +1,47 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with brown hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and to the side"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with a plain wall in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the woman looks down and to the side"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with brown hair",
+      "facial_cues": [
+        "furrowed brow",
+        "closed eyes",
+        "mouth slightly open"
+      ],
+      "body_cues": [],
+      "gaze": "down and to the side"
+    }
+  ],
+  "audio_description": "a low, sustained electronic tone is audible.",
+  "temporal_description": "the tone is present throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with brown hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking down and to the side\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit room with a plain wall in the background\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"the woman looks down and to the side\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a woman with brown ha"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "A group of armored knights in dark helmets stand in formation holding tall spears against a cloudy sky with castle towers in the background. A pale hand grips a thin wand against a black background. A bald man in dark robes looks downward with a tense expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "There is no audible sound present in this segment.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual\": \"A group of armored knights in dark helmets stand in formation holding tall spears against a cloudy sky with castle towers in the background. A pale hand grips a thin wand against a black background. A bald man in dark robes looks downward with a tense expression.\", \"audio\": \"There is no audible sound present in this segment.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

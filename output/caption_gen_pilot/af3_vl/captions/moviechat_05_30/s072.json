@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s072",
+  "time_range": [
+    355.0,
+    360.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow, deliberate pace, conveying a sense of urgency and distress.",
+  "temporal_description": "A person with short dark hair and round glasses, wearing a brown jacket over a gray shirt, stands in a dimly lit, cluttered room filled with shelves of bottles and various objects. Initially facing forward, the person turns their head slightly to the side, then turns their back to the camera, revealing the back of their head and shoulders as they remain still. The room’s dark ambiance and dense arrangement of items suggest an old, possibly storeroom-like setting. The person’s posture is upright, and their gaze is directed forward or slightly downward, indicating attentiveness or contemplation.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with short dark hair and round glasses, wearing a brown jacket over a gray shirt, stands in a dimly lit, cluttered room filled with shelves of bottles and various objects. Initially facing forward, the person turns their head slightly to the side, then turns their back to the camera, revealing the back of their head and shoulders as they remain still. The room’s dark ambiance and dense arrangement of items suggest an old, possibly storeroom-like setting. The person’s posture is upright,",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

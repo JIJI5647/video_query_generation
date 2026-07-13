@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A young male voice, speaking Mandarin in a neutral tone and moderate pace, asks a question while the ambient sound suggests a man is speaking into a microphone.",
+  "temporal_description": "Two men are seated inside a vehicle, with the man in the foreground holding a wrapped object near his face, partially obscuring it. The man in the background is seated in the driver’s seat, looking forward with his head slightly turned. Both appear to be wearing dark clothing, and the interior of the car is dimly lit, with blurred greenery visible through the windows. The man in the foreground maintains a steady posture, while the driver’s hand is on the steering wheel, suggesting the car is in motion.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a vehicle, with the man in the foreground holding a wrapped object near his face, partially obscuring it. The man in the background is seated in the driver’s seat, looking forward with his head slightly turned. Both appear to be wearing dark clothing, and the interior of the car is dimly lit, with blurred greenery visible through the windows. The man in the foreground maintains a steady posture, while the driver’s hand is on the steering wheel, suggesting the car is in ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

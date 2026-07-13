@@ -1,0 +1,83 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a suit and glasses",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "speaking and looking down and to the side"
+      },
+      {
+        "person": "a man in a white shirt and tie",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting and looking forward"
+      },
+      {
+        "person": "a man in a blue denim shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit room with blinds on the window in the background"
+    },
+    "objects": [
+      {
+        "object": "a typewriter",
+        "visibility": "partially visible",
+        "position": "left",
+        "action": "sitting on a desk"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the suit speaks",
+      "the two men in the background sit and listen"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a suit and glasses",
+      "facial_cues": [
+        "speaking",
+        "looking down",
+        "looking to the side"
+      ],
+      "body_cues": [],
+      "gaze": "down and to the side"
+    },
+    {
+      "person": "a man in a white shirt and tie",
+      "facial_cues": [
+        "looking forward"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    },
+    {
+      "person": "a man in a blue denim shirt",
+      "facial_cues": [
+        "looking forward"
+      ],
+      "body_cues": [],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A man is speaking in a calm, conversational tone.",
+  "temporal_description": "The man in the suit speaks throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s032\", \"time_range\": [155.0, 160.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a suit and glasses\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"speaking and looking down and to the side\"}, {\"person\": \"a man in a white shirt and tie\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"sitting and looking forward\"}, {\"person\": \"a man in a blue denim shirt\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": "
+}

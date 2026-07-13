@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "holding a flip phone to his ear"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit, with a spotlight on the man"
+    },
+    "objects": [
+      {
+        "object": "a flip phone",
+        "visibility": "clearly visible",
+        "position": "in the man's hand",
+        "action": "being held to the ear"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man holds the phone to his ear"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "hand holding phone to ear"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "a male voice shouts urgently in Mandarin.",
+  "temporal_description": "the man holds the phone to his ear throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"holding a flip phone to his ear\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"darkly lit, with a spotlight on the man\"}, \"objects\": [{\"object\": \"a flip phone\", \"visibility\": \"clearly visible\", \"position\": \"in the man's hand\", \"action\": \"being held to the ear\"}], \"interactions\": [], \"key_actions\": [\"the "
+}

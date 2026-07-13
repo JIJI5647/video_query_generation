@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A man in a blue polo shirt and light pants sits on a brown couch, gesturing with his hands while looking toward another person seated beside him. The second person, wearing a red shirt, is partially visible and also gesturing as they interact. In the background, other individuals are standing or seated, and a green pole and various items on shelves are visible in the room.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and moderate speed, speaking in a neutral tone without any noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a blue polo shirt and light pants sits on a brown couch, gesturing with his hands while looking toward another person seated beside him. The second person, wearing a red shirt, is partially visible and also gesturing as they interact. In the background, other individuals are standing or seated, and a green pole and various items on shelves are visible in the room.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

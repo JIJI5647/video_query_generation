@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s087",
+  "time_range": [
+    430.0,
+    435.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single male voice, speaking in standard Mandarin Chinese, recorded in a quiet, acoustically treated indoor environment. The speaker’s tone is calm, slightly weary, and gently resigned, as if addressing someone familiar. He says, “不多说了啊，省得你烦，啊？” (“I won’t say much more, so as not to bother you, okay?”), with a rising intonation on the final particle “啊” that softens the statement into a gentle, almost affectionate inquiry. The delivery is slow and deliberate, with a low pitch and a hint of a sigh, conveying a sense of mild exasperation and a desire to avoid further discussion. The voice is clear and close-mic’d, with no background noise or reverberation, and a faint electronic hiss is present, likely from the recording equipment.\n\nImmediately after the speech, a sharp, high-frequency click is heard, consistent with a mechanical button press or switch, suggesting the speaker is ending the recording or interacting with a device. This is followed by a brief, low-frequency thump, possibly from a hand or object making contact with a surface, reinforcing the impression of a physical action accompanying the conclusion of the recording.\n\nAt the end of the clip, a loud, synthetic electronic tone abruptly begins. This tone is a pure, low-frequency square wave at approximately 110 Hz (A2), with a harsh, buzzy timbre and no modulation or fade. It is much louder than the preceding speech and is likely a system-generated alert or error signal, such as a “recording stopped” or “error” notification from a digital device. The tone continues until the audio ends, with no further speech or environmental sounds.\n\nIn summary, the audio captures a brief, intimate moment of a Mandarin-speaking man deciding to stop talking to avoid bothering someone, followed by a mechanical action and a sudden electronic alert. The recording is clear and close-mic’d, with no background distractions, and the sequence of events suggests a personal, informal context—possibly a private message or a casual recording session—concluded by a device-generated notification.",
+  "temporal_description": "A man with short, light-colored hair, wearing a dark shirt, is seated indoors, holding a phone to his ear with his right hand. Behind him, a golden decorative object is partially visible, and the background features dim lighting with vertical architectural elements. The scene shifts to a close-up of another man with dark hair, wearing a light-colored shirt, holding a silver phone to his ear, his gaze directed downward. His expression remains neutral, and his posture is slightly hunched as he listens.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short, light-colored hair, wearing a dark shirt, is seated indoors, holding a phone to his ear with his right hand. Behind him, a golden decorative object is partially visible, and the background features dim lighting with vertical architectural elements. The scene shifts to a close-up of another man with dark hair, wearing a light-colored shirt, holding a silver phone to his ear, his gaze directed downward. His expression remains neutral, and his posture is slightly hunched as he lis",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

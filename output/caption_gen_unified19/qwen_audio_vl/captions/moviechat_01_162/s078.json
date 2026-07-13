@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s078",
+  "time_range": [
+    385.0,
+    390.0
+  ],
+  "visual_description": "Two men in white shirts and ties sit side by side, one wearing a uniform with epaulets. The man on the left looks toward the right, while the man on the right looks down. Both are seated in what appears to be an office or interrogation room with neutral-colored walls and chairs.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically treated indoor environment, likely a small office or conference room, with a faint electronic hiss and a subtle low-frequency hum indicating the presence of recording equipment and possibly HVAC. A male voice, speaking Mandarin Chinese with a standard Putonghua accent, delivers the phrase “彻底找出来” (“thoroughly find out”) in a firm, authoritative tone, suggesting a directive or command. Immediately following, a second male voice, slightly higher in pitch and more subdued, responds with “是” (“yes”), affirming the order. The first speaker then says “OK” in English, maintaining a clipped, businesslike delivery, and the second voice replies with a soft, non-verbal “嗯” (“mm-hmm”), further confirming compliance. A brief pause ensues, during which the only audible sounds are the persistent background hiss and hum, along with a faint rustling noise, likely from clothing or paper, indicating subtle movement by the speakers. The first speaker then resumes, saying “还有” (“and also”), signaling the introduction of an additional instruction. As he begins to speak, a sharp, high-pitched electronic beep abruptly interrupts, cutting off the final syllable of his word and ending the recording instantly",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men in white shirts and ties sit side by side, one wearing a uniform with epaulets. The man on the left looks toward the right, while the man on the right looks down. Both are seated in what appears to be an office or interrogation room with neutral-colored walls and chairs.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

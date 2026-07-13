@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A group of men in light-colored shirts are seen from behind, walking through a dimly lit corridor with reflective surfaces. One man turns his head slightly, revealing a side profile as he walks. The scene includes a television screen displaying a news report with Chinese characters, and the men’s movements suggest they are moving purposefully through the space.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in light-colored shirts are seen from behind, walking through a dimly lit corridor with reflective surfaces. One man turns his head slightly, revealing a side profile as he walks. The scene includes a television screen displaying a news report with Chinese characters, and the men’s movements suggest they are moving purposefully through the space.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

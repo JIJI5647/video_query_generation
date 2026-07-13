@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a white shirt and black tie is shown in close-up, his face partially obscured by another man in a suit and glasses who stands behind him. The second man, wearing a patterned bow tie, looks downward with his head slightly tilted. Both are indoors, with muted green walls and a wooden door visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a clear, steady voice with a moderate pitch and pace, accompanied by occasional breaths and a slight pause between phrases.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and black tie is shown in close-up, his face partially obscured by another man in a suit and glasses who stands behind him. The second man, wearing a patterned bow tie, looks downward with his head slightly tilted. Both are indoors, with muted green walls and a wooden door visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

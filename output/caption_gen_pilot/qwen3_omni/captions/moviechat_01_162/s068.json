@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with a television and glass partitions"
+    },
+    "objects": [
+      {
+        "object": "a television",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "displaying a security camera feed"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man is speaking",
+      "the television is displaying a security camera feed"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and black tie",
+      "facial_cues": [
+        "mouth open",
+        "angry expression"
+      ],
+      "body_cues": [
+        "standing",
+        "gesturing with hand"
+      ],
+      "gaze": "towards the right"
+    }
+  ],
+  "audio_description": "a man is shouting in an agitated tone.",
+  "temporal_description": "The man's voice is loud and agitated throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s068\", \"time_range\": [335.0, 340.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and black tie\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing and speaking\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office or control room with a television and glass partitions\"}, \"objects\": [{\"object\": \"a television\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"displaying a security camera feed\"}], \"interactions"
+}

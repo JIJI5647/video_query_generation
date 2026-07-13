@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A crowd of people in school uniforms and coats move hurriedly through a dimly lit corridor, with some faces partially visible as they walk past. In a contrasting scene, a large, fiery explosion illuminates a dark, forested landscape with a metal bridge and a castle-like structure engulfed in flames. The people’s postures suggest movement and urgency, while the second scene shows debris and smoke rising against the burning backdrop.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, intense burst of sound: a high-pitched, scream from a young woman, immediately followed by a deep, guttural roar from a large animal. The scream is raw and unfiltered, marked by a rapid rise in pitch and a strained, breathy quality, conveying acute terror and pain. The animal’s roar is resonant and powerful, with a low-frequency rumble and a harsh, raspy timbre, suggesting a large predator such as a lion or tiger. Both sounds are heavily distorted due to severe digital clipping, resulting in a harsh, crackling texture that obscures finer details. The scream and roar overlap, with the animal’s vocalization dominating the soundscape and the scream fading beneath it. The environment is acoustically reverberant, with echoes and a sense of vastness, indicating a large, hard-surfaced enclosure typical of a zoo or wildlife park. No other background noises, such as crowd sounds or ambient environmental cues, are present, focusing all attention on the immediate confrontation. As the animal’s roar fades, a deep, ominous synthesized drone emerges, characterized by a low-frequency, sustained tone with a metallic, industrial timbre. This drone is heavily processed with reverb and delay",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A crowd of people in school uniforms and coats move hurriedly through a dimly lit corridor, with some faces partially visible as they walk past. In a contrasting scene, a large, fiery explosion illuminates a dark, forested landscape with a metal bridge and a castle-like structure engulfed in flames. The people’s postures suggest movement and urgency, while the second scene shows debris and smoke rising against the burning backdrop.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

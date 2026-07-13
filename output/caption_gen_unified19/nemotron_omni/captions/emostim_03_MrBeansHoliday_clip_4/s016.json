@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_description": "A man in a brown suit rides a bicycle down a paved road, looking ahead with a concerned expression. He passes a truck with metal cages on its back where a dog barks and chickens are visible inside. The scene is set in a sunny, rural landscape with dry grass and hills.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The man's voice sounds urgent as he rides, and a dog barks loudly nearby.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual\": \"A man in a brown suit rides a bicycle down a paved road, looking ahead with a concerned expression. He passes a truck with metal cages on its back where a dog barks and chickens are visible inside. The scene is set in a sunny, rural landscape with dry grass and hills.\", \"audio\": \"The man's voice sounds urgent as he rides, and a dog barks loudly nearby.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

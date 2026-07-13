@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A young child with light-colored hair, wearing a gray hoodie, is seated and appears to be looking down or to the side. An adult’s hand is visible near the child’s shoulder, suggesting proximity or interaction. The background is dark and indistinct, with minimal visible details beyond the child and the adult’s hand.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and moderate speed, accompanied by a gasp and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair, wearing a gray hoodie, is seated and appears to be looking down or to the side. An adult’s hand is visible near the child’s shoulder, suggesting proximity or interaction. The background is dark and indistinct, with minimal visible details beyond the child and the adult’s hand.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

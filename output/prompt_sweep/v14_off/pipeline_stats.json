@@ -1,0 +1,48 @@
+{
+  "total_videos": 5,
+  "total_segments": 102,
+  "total_raw_captions": 102,
+  "total_emotion_events": 27,
+  "total_initial_queries": 38,
+  "total_accepted_queries": 24,
+  "total_discarded_queries": 14,
+  "average_accepted_queries_per_video": 4.8,
+  "emotion_distribution": {
+    "surprised": 5,
+    "sad": 12,
+    "excited": 2,
+    "happy": 4,
+    "frustrated": 2,
+    "fear": 1,
+    "angry": 1
+  },
+  "query_type_distribution_initial": {
+    "emotion_state": 22,
+    "evidence_cue": 12,
+    "explicit_event": 4
+  },
+  "query_type_distribution_final_accepted": {
+    "emotion_state": 14,
+    "evidence_cue": 8,
+    "explicit_event": 2
+  },
+  "rewrite_count_distribution": {
+    "0": 38
+  },
+  "pass_rate_after_initial_verification": 0.6842,
+  "pass_rate_after_rewrites": 0.6316,
+  "discarded_query_count": 14,
+  "diversity_warnings": [
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: 4 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: 6 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: queries 'emostim_03_MrBeansHoliday_clip_4_q01' and 'emostim_03_MrBeansHoliday_clip_4_q03' are semantically similar (word overlap 75%)",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: queries 'emostim_03_MrBeansHoliday_clip_4_q02' and 'emostim_03_MrBeansHoliday_clip_4_q04' are semantically similar (word overlap 81%)",
+    "[emostim_06_TheChamp_clip_3] WARNING: 6 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_06_TheChamp_clip_3] WARNING: queries 'emostim_06_TheChamp_clip_3_q01' and 'emostim_06_TheChamp_clip_3_q03' are semantically similar (word overlap 86%)",
+    "[emostim_06_TheChamp_clip_3] WARNING: queries 'emostim_06_TheChamp_clip_3_q03' and 'emostim_06_TheChamp_clip_3_q05' are semantically similar (word overlap 78%)",
+    "[meld_03_dia572] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[meld_03_dia572] WARNING: all accepted queries have the same query_type 'emotion_state' — low diversity"
+  ],
+  "regrounding_changed_count": 0,
+  "regrounding_fallback_count": 0
+}

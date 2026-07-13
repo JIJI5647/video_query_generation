@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and dark tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a modern office with cubicles, desks, and a staircase in the background."
+    },
+    "objects": [
+      {
+        "object": "a computer monitor",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "displaying a map"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the white shirt speaks."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt and dark tie",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "standing"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a serious tone.",
+  "temporal_description": "The man in the white shirt speaks throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s058\", \"time_range\": [285.0, 290.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and dark tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and speaking\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a modern office with cubicles, desks, and a staircase in the background.\"}, \"objects\": [{\"object\": \"a computer monitor\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"displaying a map\"}], \"intera"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and no significant background noise.",
+  "temporal_description": "Three men are seated in a dimly lit room, each wearing headphones and facing forward. The man on the right is focused on a screen, occasionally adjusting his headphones. The man in the middle looks forward with a neutral expression, while the man on the left, partially visible, appears to be observing or listening. The background features a dark wall with faint markings, and a bottle is visible on the table in front of the man on the right. The overall setting suggests a monitoring or communication environment.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men are seated in a dimly lit room, each wearing headphones and facing forward. The man on the right is focused on a screen, occasionally adjusting his headphones. The man in the middle looks forward with a neutral expression, while the man on the left, partially visible, appears to be observing or listening. The background features a dark wall with faint markings, and a bottle is visible on the table in front of the man on the right. The overall setting suggests a monitoring or communicat",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

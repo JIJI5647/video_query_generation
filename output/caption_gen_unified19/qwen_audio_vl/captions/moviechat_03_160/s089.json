@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s089",
+  "time_range": [
+    440.0,
+    445.0
+  ],
+  "visual_description": "A group of men in business attire descend a staircase inside a dimly lit building; some wear ties and name tags, while others are in dark jackets. One man in the foreground holds a small object, looking down as he walks, while others follow behind with neutral postures. The scene is framed by metal railings and overhead lighting, with a few individuals visible on an upper landing.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a low, ominous synthesized drone that immediately establishes a and suspenseful atmosphere. This drone, characterized by a deep, resonant bass and a slightly dissonant, metallic timbre, is accompanied by a faint, high-frequency shimmer, reminiscent of a reversed cymbal or digital pad. The sound is enveloped in a spacious, artificial reverb, suggesting a large, empty, and possibly industrial or institutional setting. The drone remains static and unchanging, with no melodic or rhythmic development, and is free from any environmental or human sounds. Abruptly, the drone is cut off, and a sequence of sharp, percussive footsteps begins. These footsteps are highly detailed and close-mic’d, featuring a hard, resonant impact with a brief, bright echo, indicating movement across a hard, reflective surface such as concrete or tile. The footsteps are accompanied by the rustling of synthetic fabric, likely from a jacket or pants, and the subtle jingle of keys or a small metal object, suggesting the presence of a person in motion. The footsteps are irregular and urgent, with no consistent rhythm, implying a hurried or pace. The movement is spatially dynamic, shifting from the left to the right stereo field",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in business attire descend a staircase inside a dimly lit building; some wear ties and name tags, while others are in dark jackets. One man in the foreground holds a small object, looking down as he walks, while others follow behind with neutral postures. The scene is framed by metal railings and overhead lighting, with a few individuals visible on an upper landing.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

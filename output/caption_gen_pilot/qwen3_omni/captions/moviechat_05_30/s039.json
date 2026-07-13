@@ -1,0 +1,44 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a group of people",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running away from an explosion"
+      }
+    ],
+    "scene": {
+      "location": "outdoor courtyard",
+      "setting": "a large stone building is on fire and exploding, with people running away from the danger."
+    },
+    "objects": [
+      {
+        "object": "fire",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "burning and spreading across the building"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "people running away from the explosion",
+      "fire spreading across the building"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud explosion is heard, followed by a woman shouting in distress.",
+  "temporal_description": "The explosion occurs at the beginning of the clip, and the people are seen running away from it.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s039\", \"time_range\": [190.0, 195.0], \"visual_objective\": {\"people\": [{\"person\": \"a group of people\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"running away from an explosion\"}], \"scene\": {\"location\": \"outdoor courtyard\", \"setting\": \"a large stone building is on fire and exploding, with people running away from the danger.\"}, \"objects\": [{\"object\": \"fire\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"burning and spreading acros"
+}

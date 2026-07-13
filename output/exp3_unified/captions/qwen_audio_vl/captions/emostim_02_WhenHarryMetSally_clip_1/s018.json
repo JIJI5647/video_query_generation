@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_description": "A woman with curly blonde hair, seen from behind, faces a man with dark hair and a beard wearing a striped sweater; both are seated at a table in a crowded, brightly lit public dining area. The man holds a small object in his hands, looking toward the woman with his head slightly tilted, while the woman’s gaze is directed toward him. Other diners are visible in the background, blurred and out of focus, suggesting a bustling restaurant setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, high-pitched gasp from a woman, immediately followed by a deep, audible sigh that conveys a sense of relief or exhaustion. The recording is clear and intimate, with the woman’s breathy, slightly breathless voice captured in close proximity to the microphone. The environment is quiet, with only a faint, steady electronic hum in the background, suggesting a small, acoustically dampened room such as a bedroom or private office. No other voices or environmental sounds are present. Shortly after, a man’s voice enters, calm and gently concerned, asking, “Are you okay?” His tone is measured and reassuring, with a slight upward inflection at the end, indicating genuine care. The man’s voice is slightly more distant from the microphone, and the room’s acoustics impart a subtle reverberation, suggesting he is standing a few feet away. The woman does not respond verbally; instead, she emits a soft, low-pitched, breathy exhalation, which is quieter and more subdued than her initial sigh, further reinforcing her state of relief or fatigue. The audio concludes with a brief, low-frequency electronic tone, likely a notification or system alert, which is abruptly cut off, indicating the recording was stopped",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with curly blonde hair, seen from behind, faces a man with dark hair and a beard wearing a striped sweater; both are seated at a table in a crowded, brightly lit public dining area. The man holds a small object in his hands, looking toward the woman with his head slightly tilted, while the woman’s gaze is directed toward him. Other diners are visible in the background, blurred and out of focus, suggesting a bustling restaurant setting.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

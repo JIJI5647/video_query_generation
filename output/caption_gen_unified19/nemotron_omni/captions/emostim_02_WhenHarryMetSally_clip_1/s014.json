@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_description": "A blonde woman in a black sweater over a white collared shirt with a brooch sits across from a man in a striped sweater at a diner table. She gestures with her hands while speaking and then looks down, while the man holds a utensil and eats. The table is set with plates of food, drinks, and condiments, and the background shows a busy kitchen and other patrons.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The woman speaks while the man chews. Background restaurant noise is audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s014\", \"time_range\": [65.0, 70.0], \"visual\": \"A blonde woman in a black sweater over a white collared shirt with a brooch sits across from a man in a striped sweater at a diner table. She gestures with her hands while speaking and then looks down, while the man holds a utensil and eats. The table is set with plates of food, drinks, and condiments, and the background shows a busy kitchen and other patrons.\", \"audio\": \"The woman speaks while the man chews. Background restaurant noi"
+}

@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s075",
+  "time_range": [
+    370.0,
+    375.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "an older man with white hair wearing a light-colored suit jacket and a white shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "walking forward and gesturing with his right hand."
+      },
+      {
+        "person": "a group of men in dark clothing",
+        "visibility": "clearly visible",
+        "position": "left and background",
+        "action": "standing and following the older man."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dimly lit room with greenish-yellow tiled walls and framed pictures."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The older man walks forward and gestures.",
+      "The group of men follow him."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "an older man with white hair wearing a light-colored suit jacket and a white shirt",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "looking forward and slightly to his left."
+    }
+  ],
+  "audio_description": "A male voice speaks in Mandarin Chinese.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s075\", \"time_range\": [370.0, 375.0], \"visual_objective\": {\"people\": [{\"person\": \"an older man with white hair wearing a light-colored suit jacket and a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"walking forward and gesturing with his right hand.\"}, {\"person\": \"a group of men in dark clothing\", \"visibility\": \"clearly visible\", \"position\": \"left and background\", \"action\": \"standing and following the older man.\"}], \"scene\": {\"location\": \"indoor r"
+}

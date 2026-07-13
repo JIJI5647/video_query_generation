@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "A man in a white shirt is seen holding a phone to his ear, his head slightly tilted as he listens. Another man in a similar white shirt stands beside him, partially obscured, looking down at something in his hands. The background is blurred but appears to be an indoor setting with framed pictures or posters on the wall.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by a telephone ringing in the background.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt is seen holding a phone to his ear, his head slightly tilted as he listens. Another man in a similar white shirt stands beside him, partially obscured, looking down at something in his hands. The background is blurred but appears to be an indoor setting with framed pictures or posters on the wall.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

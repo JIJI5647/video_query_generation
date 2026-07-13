@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A black SUV with a roof-mounted light bar is driving at night, its headlights illuminating the road ahead. Inside, two individuals are visible: a driver wearing a cap and a passenger seated beside them. The SUV navigates through urban streets, passing other vehicles and streetlights, with the camera maintaining a steady focus on the front of the vehicle. The passenger occasionally turns their head, while the driver remains focused on the road, both appearing to be in motion throughout the scene.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A black SUV with a roof-mounted light bar is driving at night, its headlights illuminating the road ahead. Inside, two individuals are visible: a driver wearing a cap and a passenger seated beside them. The SUV navigates through urban streets, passing other vehicles and streetlights, with the camera maintaining a steady focus on the front of the vehicle. The passenger occasionally turns their head, while the driver remains focused on the road, both appearing to be in motion throughout the scene.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

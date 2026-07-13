@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s088",
+  "time_range": [
+    435.0,
+    440.0
+  ],
+  "visual_description": "A man in a light blue shirt leans forward with his head down, then turns his head to the side and raises his right arm to cover his face while seated in an office chair with blinds behind him. He remains in an indoor office setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is silent with no discernible sounds.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s088\", \"time_range\": [435.0, 440.0], \"visual\": \"A man in a light blue shirt leans forward with his head down, then turns his head to the side and raises his right arm to cover his face while seated in an office chair with blinds behind him. He remains in an indoor office setting.\", \"audio\": \"The audio is silent with no discernible sounds.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

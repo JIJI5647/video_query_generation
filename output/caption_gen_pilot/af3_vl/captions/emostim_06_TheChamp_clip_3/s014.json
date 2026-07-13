@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s014",
+  "time_range": [
+    65.0,
+    70.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and a moderate speaking rate, accompanied by background music.",
+  "temporal_description": "A person with short, light-colored hair is seen from behind, embracing another individual who is wearing dark clothing. The person with light hair has their arms wrapped around the other person, holding them close. The embrace appears to be stationary, with slight movements as the person with light hair adjusts their hold. The setting is dimly lit, with a plain, textured wall in the background, and the two individuals remain in close physical contact throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with short, light-colored hair is seen from behind, embracing another individual who is wearing dark clothing. The person with light hair has their arms wrapped around the other person, holding them close. The embrace appears to be stationary, with slight movements as the person with light hair adjusts their hold. The setting is dimly lit, with a plain, textured wall in the background, and the two individuals remain in close physical contact throughout the clip.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

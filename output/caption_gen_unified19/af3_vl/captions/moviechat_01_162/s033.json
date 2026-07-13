@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s033",
+  "time_range": [
+    160.0,
+    165.0
+  ],
+  "visual_description": "Two men are seated inside a vehicle, with the front passenger visible in profile and the driver partially obscured in the background. The front passenger’s head is turned slightly toward the side, and his gaze is directed forward; the driver’s head is angled downward. Both appear to be wearing dark clothing, and the interior of the car is dimly lit with blurred greenery visible through the windows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a slow pace, followed by a gasp and a sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a vehicle, with the front passenger visible in profile and the driver partially obscured in the background. The front passenger’s head is turned slightly toward the side, and his gaze is directed forward; the driver’s head is angled downward. Both appear to be wearing dark clothing, and the interior of the car is dimly lit with blurred greenery visible through the windows.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

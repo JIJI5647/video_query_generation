@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with a moderate pace, accompanied by the sound of footsteps and a dog barking in the background.",
+  "temporal_description": "A man in a dark suit stands beside a car at night, holding a cigarette to his lips. He is partially illuminated by the car’s interior light, with his face and upper body visible. Behind him, another person in a striped shirt appears briefly, moving near tall grass and a dirt path. The scene is dimly lit, with the car’s interior light casting shadows and highlighting the man’s posture as he remains still, occasionally exhaling smoke.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit stands beside a car at night, holding a cigarette to his lips. He is partially illuminated by the car’s interior light, with his face and upper body visible. Behind him, another person in a striped shirt appears briefly, moving near tall grass and a dirt path. The scene is dimly lit, with the car’s interior light casting shadows and highlighting the man’s posture as he remains still, occasionally exhaling smoke.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

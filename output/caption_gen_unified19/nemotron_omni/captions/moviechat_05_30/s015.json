@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A man in a brown jacket walks away from the camera through a crowded hall filled with students in dark uniforms and ties, passing a woman with a long braid. The hall features tall stone columns and dim lighting, with people moving in various directions.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The sounds are indistinct, consisting of muffled crowd chatter and footsteps, making the audio unclear.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual\": \"A man in a brown jacket walks away from the camera through a crowded hall filled with students in dark uniforms and ties, passing a woman with a long braid. The hall features tall stone columns and dim lighting, with people moving in various directions.\", \"audio\": \"The sounds are indistinct, consisting of muffled crowd chatter and footsteps, making the audio unclear.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

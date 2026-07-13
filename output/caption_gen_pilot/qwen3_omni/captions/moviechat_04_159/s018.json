@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "sitting and exhaling smoke"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "darkly lit with a spotlight on the man"
+    },
+    "objects": [
+      {
+        "object": "smoke",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "rising from the man's mouth"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man exhales smoke",
+      "the man looks down"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "smoke around his face",
+        "mustache"
+      ],
+      "body_cues": [
+        "sitting",
+        "exhaling smoke"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "a man speaks in a calm tone.",
+  "temporal_description": "The man exhales smoke and then speaks.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s018\", \"time_range\": [85.0, 90.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"sitting and exhaling smoke\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"darkly lit with a spotlight on the man\"}, \"objects\": [{\"object\": \"smoke\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"rising from the man's mouth\"}], \"interactions\": [], \"key_actions\": [\"the man exhales smoke\""
+}

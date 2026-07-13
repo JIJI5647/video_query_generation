@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "The man in the pink plaid shirt bends down to pick up a clear glass bowl from a table. He then stands up and turns to face the man in the blue plaid shirt, who is standing and looking at him. The man in the pink shirt holds the bowl and speaks to the other man.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks in a conversational tone, followed by another male voice responding in a similar tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual\": \"The man in the pink plaid shirt bends down to pick up a clear glass bowl from a table. He then stands up and turns to face the man in the blue plaid shirt, who is standing and looking at him. The man in the pink shirt holds the bowl and speaks to the other man.\", \"audio\": \"A male voice speaks in a conversational tone, followed by another male voice responding in a similar tone.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

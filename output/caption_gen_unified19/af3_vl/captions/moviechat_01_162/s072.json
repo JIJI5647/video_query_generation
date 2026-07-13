@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s072",
+  "time_range": [
+    355.0,
+    360.0
+  ],
+  "visual_description": "In a dimly lit, modern office meeting room, several men in business attire sit around a large table, while one man stands at the head, facing them. The seated individuals are focused forward, some with papers and mugs on the table, while the standing man appears to be addressing the group. One close-up shows a man in profile, his gaze directed downward, with his hair slightly tousled and his posture upright.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable prosody or non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, modern office meeting room, several men in business attire sit around a large table, while one man stands at the head, facing them. The seated individuals are focused forward, some with papers and mugs on the table, while the standing man appears to be addressing the group. One close-up shows a man in profile, his gaze directed downward, with his hair slightly tousled and his posture upright.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

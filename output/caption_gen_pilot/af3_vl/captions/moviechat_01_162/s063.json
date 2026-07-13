@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a white shirt and tie stands with one hand on his hip, facing forward, in what appears to be a security or monitoring room. Behind him, a television screen displays a security camera feed of a hallway. Another man, wearing a uniform with epaulets, sits in the foreground, partially out of focus, looking toward the right. The room has glass walls and dim lighting, with reflections visible on the glass. The man in the white shirt remains still, occasionally shifting his gaze slightly, while the seated man remains mostly motionless.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt and tie stands with one hand on his hip, facing forward, in what appears to be a security or monitoring room. Behind him, a television screen displays a security camera feed of a hallway. Another man, wearing a uniform with epaulets, sits in the foreground, partially out of focus, looking toward the right. The room has glass walls and dim lighting, with reflections visible on the glass. The man in the white shirt remains still, occasionally shifting his gaze slightly, whil",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

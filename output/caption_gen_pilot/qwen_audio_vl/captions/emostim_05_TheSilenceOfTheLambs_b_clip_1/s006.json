@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically treated indoor environment, likely a home office or study. A faint, low-frequency hum—possibly from a computer fan or HVAC system—sets a subtle background, accompanied by a soft, persistent hiss characteristic of a consumer-grade microphone. The space is small to medium-sized, with minimal reverberation, indicating the presence of sound-absorbing materials.\n\nA male voice, speaking in a calm, neutral, and slightly weary tone, addresses someone named Sterling with the phrase, “Okay, Sterling.” His speech is clear and unhurried, delivered in a General American accent, and is followed by a brief pause. During this pause, a soft rustling sound is heard, likely from the speaker shifting in his chair or adjusting his clothing, reinforcing the sense of a solitary, focused setting.\n\nImmediately after the pause, a sharp, metallic click occurs, consistent with the operation of a mechanical device such as a stapler, latch, or switch. This is followed by a brief, low-frequency thud, suggesting the device or an object is being set down on a hard surface. The sequence of sounds is deliberate and controlled, indicating a purposeful action.\n\nAs the mechanical sounds fade, a loud, synthetic electronic tone abruptly enters. This tone is a pure, low-frequency square wave at approximately 110 Hz (A2), with a harsh, buzzy timbre and no modulation or fade. It is significantly louder than the preceding sounds and dominates the audio, continuing until the clip ends. The tone is reminiscent of a system alert, error signal, or notification, and its sudden onset and unmodulated nature suggest it is a digital artifact or a deliberate alert.\n\nThroughout the clip, there is no evidence of other people, conversation, or environmental distractions. The recording is monophonic, with all sounds centered and no spatial cues. The overall impression is of a solitary individual performing a routine task—possibly in a home office or study—interacting with a device and receiving a system notification. The audio’s technical quality is moderate, with a limited frequency range and a persistent hiss, but the speech and mechanical sounds are clear and intelligible.\n\nIn summary, the audio captures a brief, focused moment in a quiet, private indoor setting, featuring a male speaker addressing “Sterling,” performing a mechanical action, and receiving a loud, synthetic alert tone. The scene is devoid of extraneous noise or social interaction, suggesting a solitary, task-oriented environment typical of modern home office or study spaces.",
+  "temporal_description": "A woman with shoulder-length brown hair, wearing a dark purple collared shirt, is seen from behind and then turns to her right, revealing her profile. She stands in front of a window with a grid pattern, and behind her, a shelf with bottles is visible. Her head turns slightly as she looks toward the side, and her gaze shifts subtly. The lighting is soft, and the background suggests an indoor setting, possibly an office or institutional space.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair, wearing a dark purple collared shirt, is seen from behind and then turns to her right, revealing her profile. She stands in front of a window with a grid pattern, and behind her, a shelf with bottles is visible. Her head turns slightly as she looks toward the side, and her gaze shifts subtly. The lighting is soft, and the background suggests an indoor setting, possibly an office or institutional space.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

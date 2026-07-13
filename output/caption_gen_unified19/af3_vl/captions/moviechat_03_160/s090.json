@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s090",
+  "time_range": [
+    445.0,
+    450.0
+  ],
+  "visual_description": "A group of men in dark suits and shirts descend a staircase in a dimly lit indoor setting, with one man in a light-colored shirt leading the way. They move downward in a coordinated manner, their gazes forward, and some appear to be holding or adjusting objects in their hands. The scene is framed from behind the lead man, showing the staircase and railings with limited visibility of the upper levels.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a low pitch with a moderate pace and a slight breathiness, suggesting a calm and composed demeanor.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in dark suits and shirts descend a staircase in a dimly lit indoor setting, with one man in a light-colored shirt leading the way. They move downward in a coordinated manner, their gazes forward, and some appear to be holding or adjusting objects in their hands. The scene is framed from behind the lead man, showing the staircase and railings with limited visibility of the upper levels.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

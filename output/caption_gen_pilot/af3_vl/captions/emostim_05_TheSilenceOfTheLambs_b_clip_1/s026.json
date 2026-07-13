@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by a subtle background hum.",
+  "temporal_description": "A person wearing gloves is holding a surgical instrument and performing a procedure on a patient's body, while another gloved hand assists by holding the area open. The scene is set in a clinical environment with a green tiled wall in the background. A man in a white shirt and glasses is visible, standing still and looking forward. The focus remains on the hands and the surgical area, with minimal movement from the individuals involved.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing gloves is holding a surgical instrument and performing a procedure on a patient's body, while another gloved hand assists by holding the area open. The scene is set in a clinical environment with a green tiled wall in the background. A man in a white shirt and glasses is visible, standing still and looking forward. The focus remains on the hands and the surgical area, with minimal movement from the individuals involved.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

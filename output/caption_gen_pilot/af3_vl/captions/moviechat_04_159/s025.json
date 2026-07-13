@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "A man in a white shirt is holding a white telephone receiver to his ear, his gaze directed forward with a neutral expression. In a subsequent scene, another man in a white shirt stands in the foreground, while a third man is visible in the background, also on the phone. The setting appears to be an office or workspace with glass partitions and framed pictures on the wall. The man in the foreground stands still, occasionally shifting his gaze, while the man in the background remains seated and engaged in his phone conversation.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a white shirt is holding a white telephone receiver to his ear, his gaze directed forward with a neutral expression. In a subsequent scene, another man in a white shirt stands in the foreground, while a third man is visible in the background, also on the phone. The setting appears to be an office or workspace with glass partitions and framed pictures on the wall. The man in the foreground stands still, occasionally shifting his gaze, while the man in the background remains seated and en",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

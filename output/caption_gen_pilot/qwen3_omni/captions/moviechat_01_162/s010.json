@@ -1,0 +1,27 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "street",
+      "setting": "urban area at night with buildings and streetlights"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, sustained electronic tone is heard.",
+  "temporal_description": "The tone is present for the entire duration of the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual_objective\": {\"people\": [], \"scene\": {\"location\": \"street\", \"setting\": \"urban area at night with buildings and streetlights\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [], \"visibility_notes\": \"\"}, \"visual_expression\": [], \"audio_description\": \"A loud, sustained electronic tone is heard.\", \"temporal_description\": \"The tone is present for the entire duration of the clip.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

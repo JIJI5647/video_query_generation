@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, conveying a sense of calm and neutrality.",
+  "temporal_description": "The scene is a dimly lit, cavernous room filled with intricate machinery and equipment, resembling a workshop or laboratory. The space is cluttered with various mechanical parts, pipes, and tools, arranged in dense, layered stacks along the walls and floor. No people are visible in the frame, and there are no discernible movements or actions occurring. The overall atmosphere is static and shadowy, with faint light sources highlighting portions of the machinery and architectural elements like arched ceilings and pillars.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The scene is a dimly lit, cavernous room filled with intricate machinery and equipment, resembling a workshop or laboratory. The space is cluttered with various mechanical parts, pipes, and tools, arranged in dense, layered stacks along the walls and floor. No people are visible in the frame, and there are no discernible movements or actions occurring. The overall atmosphere is static and shadowy, with faint light sources highlighting portions of the machinery and architectural elements like arc",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

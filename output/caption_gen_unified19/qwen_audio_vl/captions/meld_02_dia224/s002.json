@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A man in a blue polo shirt sits on an orange couch, smiling broadly and gesturing with his right hand toward someone off-screen to his left. Another person, partially visible in a red shirt, is seated beside him, their face turned away. The background shows a dimly lit café or lounge with other patrons and tables, including a green column and a vase with yellow flowers.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a male voice, positioned slightly left of center in the stereo field, delivering the phrase \"Jake, Joey\" in a clear, mid-to-low pitch with a gentle, playful tone. The room’s acoustics are evident, with a short, natural reverberation and a subtle background hiss, indicating a live, moderately sized indoor space. Immediately following, a second male voice, slightly right of center and higher in pitch, repeats \"It's Jake, Joey\" with a more pronounced, teasing inflection, accompanied by a soft, breathy chuckle that adds warmth and intimacy. The audience, comprised of several people, responds with a collective, low-pitched, breathy laugh, their amusement blending into a single, organic sound that fills the space. The first speaker repeats \"Jake, Joey\" with a similar playful tone, and the second voice again echoes \"It's Jake, Joey,\" this time with a slightly more exaggerated, performative delivery. The audience laughs again, their reaction growing in volume and intensity, with the laughter now more pronounced and layered, suggesting heightened engagement and enjoyment. The second speaker then delivers \"It's Jake\" with a rising, sing-song inflection, emphasizing the comedic rhythm and prompting a final, louder",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a blue polo shirt sits on an orange couch, smiling broadly and gesturing with his right hand toward someone off-screen to his left. Another person, partially visible in a red shirt, is seated beside him, their face turned away. The background shows a dimly lit café or lounge with other patrons and tables, including a green column and a vase with yellow flowers.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

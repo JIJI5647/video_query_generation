@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by occasional pauses and a slight increase in volume.",
+  "temporal_description": "A man with short dark hair and a goatee, wearing a dark jacket, is seated in a dimly lit environment. He holds a cigarette between his fingers, occasionally exhaling smoke, and his gaze shifts slightly as he looks around. His hands are visible, one holding the cigarette and the other occasionally interacting with a silver flip phone, pressing buttons on its keypad. The background is dark and indistinct, with faint light highlighting his face and hands.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with short dark hair and a goatee, wearing a dark jacket, is seated in a dimly lit environment. He holds a cigarette between his fingers, occasionally exhaling smoke, and his gaze shifts slightly as he looks around. His hands are visible, one holding the cigarette and the other occasionally interacting with a silver flip phone, pressing buttons on its keypad. The background is dark and indistinct, with faint light highlighting his face and hands.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

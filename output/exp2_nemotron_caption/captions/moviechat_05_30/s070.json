@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s070",
+  "time_range": [
+    345.0,
+    350.0
+  ],
+  "visual_description": "The scene is a dimly lit, cluttered interior filled with stacked crates, metal objects, and a large statue of a turbaned man standing on a raised platform. A small figure, appearing as a child in dark clothing, moves along a long metal rail that stretches across the foreground. The camera follows the child as they walk away down a narrow aisle between the piles of items.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "the audio is quiet with only faint ambient sounds",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s070\", \"time_range\": [345.0, 350.0], \"visual\": \"The scene is a dimly lit, cluttered interior filled with stacked crates, metal objects, and a large statue of a turbaned man standing on a raised platform. A small figure, appearing as a child in dark clothing, moves along a long metal rail that stretches across the foreground. The camera follows the child as they walk away down a narrow aisle between the piles of items.\", \"audio\": \"the audio is quiet with only faint ambient sounds\""
+}

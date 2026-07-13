@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_description": "A man with disheveled hair, wearing a red jacket over a plaid shirt, leans against a light-colored door and looks toward the camera with a shifting expression. The scene cuts to a person in a dark coat sitting in deep snow, hands clasped, facing a frosted window.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Audio is not audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s039\", \"time_range\": [190.0, 195.0], \"visual\": \"A man with disheveled hair, wearing a red jacket over a plaid shirt, leans against a light-colored door and looks toward the camera with a shifting expression. The scene cuts to a person in a dark coat sitting in deep snow, hands clasped, facing a frosted window.\", \"audio\": \"Audio is not audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

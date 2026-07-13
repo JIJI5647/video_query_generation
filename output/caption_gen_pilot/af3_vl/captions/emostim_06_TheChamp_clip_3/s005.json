@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and a moderate speaking rate, conveying a sense of urgency or distress.",
+  "temporal_description": "A young boy with light-colored hair, wearing a gray shirt, is seated and looking downward, his hands clasped together in front of him. An adult’s hand, partially visible, holds a black and white shoe near the boy’s face. The boy’s head turns slightly to the side, and his gaze remains focused downward or toward the shoe. The background is dark, emphasizing the boy and the shoe as the central elements in the frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored hair, wearing a gray shirt, is seated and looking downward, his hands clasped together in front of him. An adult’s hand, partially visible, holds a black and white shoe near the boy’s face. The boy’s head turns slightly to the side, and his gaze remains focused downward or toward the shoe. The background is dark, emphasizing the boy and the shoe as the central elements in the frame.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

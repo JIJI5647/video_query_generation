@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman in a grey cardigan and blue jeans",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking forward on a wooden bridge, holding a wand"
+      }
+    ],
+    "scene": {
+      "location": "indoor bridge",
+      "setting": "dimly lit, gothic-style architecture with wooden planks and railings"
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the woman"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the woman walks forward"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman in a grey cardigan and blue jeans",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "walking forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful musical score with a low, sustained note and a high, tense melody.",
+  "temporal_description": "The music begins with a low, sustained note, then a high, tense melody is introduced, creating a suspenseful atmosphere.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s028\", \"time_range\": [135.0, 140.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman in a grey cardigan and blue jeans\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"walking forward on a wooden bridge, holding a wand\"}], \"scene\": {\"location\": \"indoor bridge\", \"setting\": \"dimly lit, gothic-style architecture with wooden planks and railings\"}, \"objects\": [{\"object\": \"a wand\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"held by"
+}

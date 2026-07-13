@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s042",
+  "time_range": [
+    205.0,
+    210.0
+  ],
+  "visual_description": "A person in dark clothing is propelled through the air amid debris and shattered glass in a dimly lit, industrial-looking interior. Below, several individuals in school uniforms are seen in motion, some falling or reacting to the chaos, while others stand or sit in the background. The scene is chaotic, with flying fragments and disarrayed structures, and the visible faces and postures suggest sudden movement and disruption.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, and breathy voice with a rapid pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in dark clothing is propelled through the air amid debris and shattered glass in a dimly lit, industrial-looking interior. Below, several individuals in school uniforms are seen in motion, some falling or reacting to the chaos, while others stand or sit in the background. The scene is chaotic, with flying fragments and disarrayed structures, and the visible faces and postures suggest sudden movement and disruption.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

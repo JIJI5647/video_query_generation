@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_description": "Three men are seated around a large table in a dimly lit, wood-paneled room with blinds covering windows; one man faces away from the camera, another sits across the table looking down, and the third is partially visible from the side. The man facing away is wearing a blue shirt and appears to be leaning slightly forward, while the man across the table has his hands clasped and looks down at the table. The room has a formal, institutional feel with wooden flooring and shelves in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, high-pitched, breathy voice with a slow, deliberate pace, accompanied by a noticeable gasp at the beginning.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men are seated around a large table in a dimly lit, wood-paneled room with blinds covering windows; one man faces away from the camera, another sits across the table looking down, and the third is partially visible from the side. The man facing away is wearing a blue shirt and appears to be leaning slightly forward, while the man across the table has his hands clasped and looks down at the table. The room has a formal, institutional feel with wooden flooring and shelves in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

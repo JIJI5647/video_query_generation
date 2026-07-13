@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s063",
+  "time_range": [
+    310.0,
+    315.0
+  ],
+  "visual_description": "A man in a dark jacket holds a phone to his ear, his face showing tears and his mouth open as if speaking. The view shifts to a night street with a lit lamp and a car whose bright headlights illuminate the wet road. The man appears again in the darkness, standing with an object near his chest and looking upward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A man's voice is heard, sounding urgent and raised, while the ambient sound of a car engine and passing traffic can be heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s063\", \"time_range\": [310.0, 315.0], \"visual\": \"A man in a dark jacket holds a phone to his ear, his face showing tears and his mouth open as if speaking. The view shifts to a night street with a lit lamp and a car whose bright headlights illuminate the wet road. The man appears again in the darkness, standing with an object near his chest and looking upward.\", \"audio\": \"A man's voice is heard, sounding urgent and raised, while the ambient sound of a car engine and passing traffi"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s027",
+  "time_range": [
+    130.0,
+    135.0
+  ],
+  "visual_description": "A man in a light blue shirt stands in an office holding a white cup and takes a sip, while a seated man in a white shirt looks on and handles a small object. The background shows a wall of framed photographs and another person walking past. The standing man lowers the cup and glances downward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet with faint office ambience and a subtle clink as the cup is lifted, with no clear speech audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s027\", \"time_range\": [130.0, 135.0], \"visual\": \"A man in a light blue shirt stands in an office holding a white cup and takes a sip, while a seated man in a white shirt looks on and handles a small object. The background shows a wall of framed photographs and another person walking past. The standing man lowers the cup and glances downward.\", \"audio\": \"The audio is quiet with faint office ambience and a subtle clink as the cup is lifted, with no clear speech audible.\", \"confidenc"
+}

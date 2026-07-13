@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s023",
+  "time_range": [
+    110.0,
+    115.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and a sad tone, speaking at a moderate pace. There are no significant non-speech sounds, and the overall atmosphere is somber.",
+  "temporal_description": "A man in a patterned jacket is seen in a dimly lit, narrow corridor, holding a sparking object that emits bright sparks as he moves. He appears to be walking or running while manipulating the object, which causes sparks to fly. The scene shifts to a wide view of a large, dark wooden bridge spanning a deep chasm, with the sparks from the object visible as they illuminate the structure. The bridge is surrounded by dense, dark forest and mist, with faint lights visible on the far side. The man is no longer visible in the wider shots, and the focus is on the bridge and the sparks descending from above.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a patterned jacket is seen in a dimly lit, narrow corridor, holding a sparking object that emits bright sparks as he moves. He appears to be walking or running while manipulating the object, which causes sparks to fly. The scene shifts to a wide view of a large, dark wooden bridge spanning a deep chasm, with the sparks from the object visible as they illuminate the structure. The bridge is surrounded by dense, dark forest and mist, with faint lights visible on the far side. The man is n",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

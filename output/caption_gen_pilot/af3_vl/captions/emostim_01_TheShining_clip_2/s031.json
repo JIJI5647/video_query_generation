@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a woman speaking with a clear and steady voice, accompanied by the sound of a train approaching in the background.",
+  "temporal_description": "A person with long dark hair, wearing a blue outfit, is partially buried in snow, positioned in front of a wooden structure with a window. Their hands are visible, moving slightly as they appear to be struggling or adjusting their position. The scene transitions to a man with shoulder-length hair, wearing a red jacket over a plaid shirt, standing in a hallway with floral wallpaper and a round mirror on the wall. He is holding an object in his right hand and looking forward with a slight smile.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with long dark hair, wearing a blue outfit, is partially buried in snow, positioned in front of a wooden structure with a window. Their hands are visible, moving slightly as they appear to be struggling or adjusting their position. The scene transitions to a man with shoulder-length hair, wearing a red jacket over a plaid shirt, standing in a hallway with floral wallpaper and a round mirror on the wall. He is holding an object in his right hand and looking forward with a slight smile.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s018",
+  "time_range": [
+    85.0,
+    90.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A man in a light-colored shirt is seated, looking intently at a screen in a dimly lit room. Later, a close-up shows a hand with a ring clasped tightly in another hand, both clad in dark clothing. Another man in a suit and tie, wearing earphones, stands in a dark room with multiple computer screens and other people working in the background. He turns his head slightly, then walks toward a window, where another man in a light shirt is seen holding a phone to his ear, looking out the window.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt is seated, looking intently at a screen in a dimly lit room. Later, a close-up shows a hand with a ring clasped tightly in another hand, both clad in dark clothing. Another man in a suit and tie, wearing earphones, stands in a dark room with multiple computer screens and other people working in the background. He turns his head slightly, then walks toward a window, where another man in a light shirt is seen holding a phone to his ear, looking out the window.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

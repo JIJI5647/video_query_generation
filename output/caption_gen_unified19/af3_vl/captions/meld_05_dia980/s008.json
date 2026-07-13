@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_05_dia980",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    39.62
+  ],
+  "visual_description": "Two men are in a kitchen; one in a gray sweatshirt holds a red cup and faces the other, who wears a black jacket over a white shirt and looks toward him. The man in gray slightly tilts his head while holding the cup, and the man in black has his arms slightly outstretched and gazes at his companion. Behind them, kitchen cabinets and a refrigerator with various items are visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are in a kitchen; one in a gray sweatshirt holds a red cup and faces the other, who wears a black jacket over a white shirt and looks toward him. The man in gray slightly tilts his head while holding the cup, and the man in black has his arms slightly outstretched and gazes at his companion. Behind them, kitchen cabinets and a refrigerator with various items are visible.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

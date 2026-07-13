@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a faint, low-frequency electronic hum, likely originating from a nearby powered device such as a computer or amplifier. This hum is accompanied by a subtle, high-frequency hiss, characteristic of a consumer-grade recording device’s noise floor. The overall sound is muffled and lacks high-frequency detail, suggesting the use of a low-fidelity microphone or a compressed digital format. The environment is acoustically dry, with no reverberation or echo, indicating a small, well-dampened room.\n\nShortly after the start, a young child’s voice enters, speaking in a slow, deliberate, and slightly strained manner. The child’s speech is marked by a flat, monotonous intonation and a breathy, nasal quality, with a pitch in the mid-to-high range. The child articulates the phrase “Red rum,” with each syllable pronounced carefully and with a slight upward inflection on the final syllable. The delivery is slow and hesitant, as if the child is reading aloud or attempting to recall the phrase. The words are spoken in a General American English accent, with no regional inflection, and the pronunciation is clear but not perfectly crisp, likely due to the child’s age and the recording’s limitations.\n\nAs the child finishes the phrase, a loud, synthetic electronic tone abruptly begins. This tone is a low-frequency, buzzy, sawtooth-like waveform, centered around 110 Hz (A2), and is heavily distorted with a harsh, abrasive timbre. The tone is much louder than the preceding speech and hum, dominating the audio and masking all other sounds. It is sustained at a constant pitch and volume, with no modulation or fade, and is abruptly cut off at the end of the clip, leaving no residual sound.\n\nThroughout the recording, there are no other voices, background noises, or environmental cues. The only audible elements are the child’s speech, the electronic hum, the hiss, and the synthetic tone. The child’s phrase “Red rum” is a well-known palindrome and a direct reference to the horror novel *The Shining* by Stephen King, where it is a pivotal clue. The deliberate, slow delivery and the subsequent electronic tone suggest a staged or performative context, possibly for a creative, comedic, or experimental purpose. The use of a synthetic tone as a dramatic punctuation further reinforces the impression of intentional sound design.\n\nIn summary, the audio clip features a young child slowly and deliberately saying “Red rum” in a dry, acoustically isolated setting, followed by a loud, distorted electronic tone. The recording is low-fidelity, with a constant hum and hiss, and the content and delivery strongly evoke the cultural reference to *The Shining*. The overall effect is a brief, staged, and intentionally dramatic sound event, likely created for artistic or comedic purposes.",
+  "temporal_description": "A young child with light-colored hair, wearing a striped sweater, stands in a dimly lit room holding a large knife in one hand and a small object in the other. The child is positioned near a bookshelf and an old television set, with a lamp casting warm light nearby. The child’s body is mostly turned away from the camera, and they appear to be looking toward the bookshelf or television, occasionally shifting their stance slightly. Their posture is upright, and their gaze remains fixed on the area in front of them.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair, wearing a striped sweater, stands in a dimly lit room holding a large knife in one hand and a small object in the other. The child is positioned near a bookshelf and an old television set, with a lamp casting warm light nearby. The child’s body is mostly turned away from the camera, and they appear to be looking toward the bookshelf or television, occasionally shifting their stance slightly. Their posture is upright, and their gaze remains fixed on the area",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A woman in a leopard-print dress with red floral patterns is kneeling on a bed, massaging the back of a man who is lying face down. The man is shirtless and covered with a white sheet, while the woman’s hands move rhythmically over his back. The room has a dim, warm ambiance with a bedside table holding glasses and a plate. The scene transitions to darkness, then to a blurry view of a green light and a red object, possibly a hand or clothing, moving in the dark.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman in a leopard-print dress with red floral patterns is kneeling on a bed, massaging the back of a man who is lying face down. The man is shirtless and covered with a white sheet, while the woman’s hands move rhythmically over his back. The room has a dim, warm ambiance with a bedside table holding glasses and a plate. The scene transitions to darkness, then to a blurry view of a green light and a red object, possibly a hand or clothing, moving in the dark.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

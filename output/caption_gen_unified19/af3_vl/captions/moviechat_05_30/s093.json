@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s093",
+  "time_range": [
+    460.0,
+    465.0
+  ],
+  "visual_description": "A person with round glasses and a light blue shirt is seen in a dimly lit, cluttered room filled with various objects and furniture. Another figure is partially visible in the background, standing near a bookshelf. The person in the foreground appears to be looking upward with their mouth slightly open, while their hands are raised near their head.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a high pitch and loud volume, speaking rapidly and with a trembling, breathy quality.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with round glasses and a light blue shirt is seen in a dimly lit, cluttered room filled with various objects and furniture. Another figure is partially visible in the background, standing near a bookshelf. The person in the foreground appears to be looking upward with their mouth slightly open, while their hands are raised near their head.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

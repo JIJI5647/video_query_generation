@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_description": "A man with light brown hair and a beard, wearing a dark jacket over a white shirt, is seated at a table, looking slightly to his right with his mouth open. Behind him, a woman with curly gray hair, wearing a dark patterned top and a brown vest, sits at the same table, gazing forward with a neutral expression. In the background, other patrons and a person in a gray coat are visible, suggesting a busy indoor setting like a restaurant or café.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a high-pitched, fast-paced, and breathy voice with a gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man with light brown hair and a beard, wearing a dark jacket over a white shirt, is seated at a table, looking slightly to his right with his mouth open. Behind him, a woman with curly gray hair, wearing a dark patterned top and a brown vest, sits at the same table, gazing forward with a neutral expression. In the background, other patrons and a person in a gray coat are visible, suggesting a busy indoor setting like a restaurant or café.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

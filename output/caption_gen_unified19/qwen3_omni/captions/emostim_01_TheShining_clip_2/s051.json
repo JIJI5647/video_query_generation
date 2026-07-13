@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s051",
+  "time_range": [
+    250.0,
+    255.0
+  ],
+  "visual_description": "A woman with long, dark hair and a blue robe is pressed against a white wall, holding a knife. She is screaming with her mouth wide open, her eyes wide with terror. A large cleaver is swung at her from the left, striking the wall near her head.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A woman screams in terror, followed by a loud crashing sound as the cleaver hits the wall.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s051\", \"time_range\": [250.0, 255.0], \"visual\": \"A woman with long, dark hair and a blue robe is pressed against a white wall, holding a knife. She is screaming with her mouth wide open, her eyes wide with terror. A large cleaver is swung at her from the left, striking the wall near her head.\", \"audio\": \"A woman screams in terror, followed by a loud crashing sound as the cleaver hits the wall.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_description": "A woman with curly blonde hair, wearing a dark sweater over a white shirt, sits facing a man with dark hair and a plaid shirt, both holding sandwiches. The man, seen from behind and side, gestures with his hand while eating, and the woman looks toward him. They are seated at a table in a crowded dining area with other patrons visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with a moderate pitch and pace, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with curly blonde hair, wearing a dark sweater over a white shirt, sits facing a man with dark hair and a plaid shirt, both holding sandwiches. The man, seen from behind and side, gestures with his hand while eating, and the woman looks toward him. They are seated at a table in a crowded dining area with other patrons visible in the background.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

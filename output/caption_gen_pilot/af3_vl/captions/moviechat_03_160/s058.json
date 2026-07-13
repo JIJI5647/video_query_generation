@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s058",
+  "time_range": [
+    285.0,
+    290.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with no significant prosody or background noise.",
+  "temporal_description": "The video displays a computer screen with a software interface for sending mass SMS messages to mobile users. The screen shows a message composition window with Chinese text, a list of phone numbers, and a map interface with street names and coordinates. The interface includes buttons for scanning, locking, and programming, as well as a section for sending messages to all GSM900 users. The screen is predominantly blue and black, with text and graphical elements indicating a technical or surveillance operation. No people are visible in the video.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video displays a computer screen with a software interface for sending mass SMS messages to mobile users. The screen shows a message composition window with Chinese text, a list of phone numbers, and a map interface with street names and coordinates. The interface includes buttons for scanning, locking, and programming, as well as a section for sending messages to all GSM900 users. The screen is predominantly blue and black, with text and graphical elements indicating a technical or surveill",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

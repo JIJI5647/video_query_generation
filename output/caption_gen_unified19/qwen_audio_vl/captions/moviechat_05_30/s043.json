@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s043",
+  "time_range": [
+    210.0,
+    215.0
+  ],
+  "visual_description": "A group of people in dark robes and some in casual attire are scattered across a grand, dimly lit stone staircase, many holding wands and in motion. Several individuals are running or crouching, some appear to be falling or being pushed, while others are engaged in physical movement suggesting a chaotic scene. The architecture features tall columns and ornate railings, with flickering light sources casting shadows along the corridor.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio begins with a sudden, high-pitched scream from a young female, immediately followed by a deep, guttural roar that is unmistakably non-human. The roar is resonant and powerful, suggesting a large, monstrous entity, and is accompanied by a low-frequency rumble that reverberates through the space. The scream is abruptly cut off, indicating a violent interruption. As the roar fades, a sharp, metallic impact occurs, characterized by a high-frequency \"shing\" and a lower \"clank,\" reminiscent of a blade striking metal or a heavy object colliding with a hard surface. This is followed by a rapid sequence of metallic scraping and clattering, as if a large metal object is being dragged or dropped across a hard floor, with the reverberation suggesting a vast, enclosed environment. A second, more guttural roar erupts, deeper and more menacing than the first, accompanied by a low-frequency rumble and a brief, high-pitched metallic screech, possibly from a blade or metal object being forced against another surface. The roar is abruptly truncated, implying a sudden, violent event. The soundscape then shifts to a series of rapid, high-pitched metallic impacts, resembling a flurry of blade strikes or a weapon being swung",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people in dark robes and some in casual attire are scattered across a grand, dimly lit stone staircase, many holding wands and in motion. Several individuals are running or crouching, some appear to be falling or being pushed, while others are engaged in physical movement suggesting a chaotic scene. The architecture features tall columns and ornate railings, with flickering light sources casting shadows along the corridor.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

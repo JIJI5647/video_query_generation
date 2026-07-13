@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice speaking in a neutral tone, with no significant background noise or emotional inflection.",
+  "temporal_description": "A young child with short, light-colored hair stands in a dimly lit room, wearing a striped sweater. They are holding a dark, rectangular object, possibly a phone or remote, and appear to be looking down at it intently. The child is positioned near a wooden table cluttered with various items, including a vase with flowers and a small box. In the background, an old television set is visible, along with a lamp casting a warm glow, and curtains frame the scene. The child’s posture is upright, and their gaze is fixed on the object in their hands.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with short, light-colored hair stands in a dimly lit room, wearing a striped sweater. They are holding a dark, rectangular object, possibly a phone or remote, and appear to be looking down at it intently. The child is positioned near a wooden table cluttered with various items, including a vase with flowers and a small box. In the background, an old television set is visible, along with a lamp casting a warm glow, and curtains frame the scene. The child’s posture is upright, and th",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

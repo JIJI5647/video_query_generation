@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a woman's voice with a high pitch and a sad tone, accompanied by a child's voice, creating a somber atmosphere.",
+  "temporal_description": "A solitary figure stands in the foreground, silhouetted against a snowy, dimly lit landscape. Behind them, large wooden buildings with snow-covered roofs are illuminated by sparse overhead lights, casting long shadows across the snow. The scene is still and quiet, with no visible movement from the person or surroundings, and the figure appears to be gazing toward the buildings. The overall atmosphere is cold and isolated, with the person’s posture upright and stationary.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A solitary figure stands in the foreground, silhouetted against a snowy, dimly lit landscape. Behind them, large wooden buildings with snow-covered roofs are illuminated by sparse overhead lights, casting long shadows across the snow. The scene is still and quiet, with no visible movement from the person or surroundings, and the figure appears to be gazing toward the buildings. The overall atmosphere is cold and isolated, with the person’s posture upright and stationary.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

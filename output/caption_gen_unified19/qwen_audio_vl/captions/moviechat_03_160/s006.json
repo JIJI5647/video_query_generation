@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_description": "A man in a dark shirt is partially visible behind a metal grille, his face turned slightly away. The scene shifts to a dimly lit interior with wooden shelves holding bowls and a person’s silhouette barely visible in the doorway. The man’s posture is still, and his gaze is directed off-screen, with minimal movement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful entrance: a deep, resonant bass drum delivers a powerful, syncopated pulse, immediately joined by a sharp, metallic snare or rimshot that accentuates the rhythm. A high-pitched, metallic percussion instrument—likely a cimbalom or similar—interjects with rapid, shimmering arpeggios, creating a bright, crystalline texture. The ensemble is tightly synchronized, with each instrument occupying a distinct space in the stereo field, and the overall sound is dry and direct, suggesting a studio or controlled environment. The music is energetic and urgent, with a relentless, driving rhythm and no ambient noise or speech. As the piece progresses, the bass drum maintains its deep, resonant pulse, while the metallic percussion continues its rapid, arpeggiated patterns, now more complex and interwoven with the rhythm. The snare or rimshot remains sharp and precise, reinforcing the syncopated groove. The ensemble’s interplay intensifies, with the metallic instrument’s arpeggios becoming more intricate and the bass drum’s resonance deepening. The stereo image remains wide and immersive, with each instrument clearly defined. The music sustains its high energy and urgency, with no melodic",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark shirt is partially visible behind a metal grille, his face turned slightly away. The scene shifts to a dimly lit interior with wooden shelves holding bowls and a person’s silhouette barely visible in the doorway. The man’s posture is still, and his gaze is directed off-screen, with minimal movement.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

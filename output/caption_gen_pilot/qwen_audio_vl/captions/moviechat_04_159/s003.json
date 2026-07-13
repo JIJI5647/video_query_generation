@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a single male voice, speaking in Mandarin Chinese with a clear, standard accent and a calm, measured tone. He says, \"要我来问你家里有没有什么要帮忙的\" (\"They asked me to ask you if there's anything at home that needs help\"), his delivery slow and deliberate, with a slight downward inflection at the end. The speech is recorded in a quiet, acoustically treated indoor environment, likely a studio or sound booth, as evidenced by the absence of background noise, room reverberation, and the close, intimate quality of the voice. The recording is high-fidelity, with a full frequency range and no distortion or artifacts.\n\nImmediately after the speech, a brief silence occurs, during which a faint, low-frequency rustling sound is heard, consistent with the movement of fabric or a person shifting position. This is followed by a soft, low-pitched thud, suggesting the placement of a small, soft object—such as a bag or book—onto a surface. The sequence of sounds is natural and unforced, reinforcing the impression of a real, lived-in moment.\n\nAt the conclusion of these sounds, a loud, synthetic electronic tone abruptly begins. This tone is a pure, low-frequency sine wave, centered around 110 Hz (A2), with a harsh, buzzy timbre due to the addition of upper harmonics. The tone is static, unwavering, and digitally generated, with no modulation or fade-in, and it completely dominates the audio, masking all previous sounds. The tone persists until the end of the clip, at which point the audio is cut off sharply, with no fade or trailing noise.\n\nThroughout the clip, there is no music, no other voices, and no environmental cues beyond the initial speech and the subtle sounds of movement. The overall atmosphere is intimate and focused, with the speaker’s words and the subsequent actions suggesting a moment of personal inquiry and assistance, possibly in a domestic or caregiving context. The sudden intrusion of the electronic tone at the end is jarring and disruptive, evoking a sense of alarm or censorship, and is reminiscent of audio censorship tones or error signals used in broadcast or media contexts.\n\nIn summary, the audio presents a brief, realistic scene of a Mandarin-speaking man offering help, followed by subtle physical actions, and abruptly interrupted by a loud, synthetic electronic tone. The recording is of high technical quality, with a clear narrative arc and a dramatic, unresolved ending that leaves the listener with a sense of interruption and unresolved tension.",
+  "temporal_description": "A man in a dark suit and glasses is seated, looking downward with a cigarette held in his right hand, smoke rising from it. Another man, partially visible and out of focus, is positioned to the left, also holding a lit cigarette. The scene is dimly lit with a blueish hue, emphasizing the smoke and the men’s faces. Both men remain still, with the foreground man’s gaze fixed downward and the other’s face turned slightly away.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark suit and glasses is seated, looking downward with a cigarette held in his right hand, smoke rising from it. Another man, partially visible and out of focus, is positioned to the left, also holding a lit cigarette. The scene is dimly lit with a blueish hue, emphasizing the smoke and the men’s faces. Both men remain still, with the foreground man’s gaze fixed downward and the other’s face turned slightly away.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s013",
+  "time_range": [
+    60.0,
+    65.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and no significant background noise.",
+  "temporal_description": "An older man with gray hair, wearing a light-colored suit jacket over a collared shirt, is seated indoors and holding a phone to his ear with his right hand. He is positioned slightly off-center in the frame, with shelves holding bowls and jars visible behind him. His head is tilted slightly downward, and his gaze is directed downward or toward the side, with minimal movement throughout the clip. His posture remains mostly still, with slight shifts in his head position and hand placement on the phone.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "An older man with gray hair, wearing a light-colored suit jacket over a collared shirt, is seated indoors and holding a phone to his ear with his right hand. He is positioned slightly off-center in the frame, with shelves holding bowls and jars visible behind him. His head is tilted slightly downward, and his gaze is directed downward or toward the side, with minimal movement throughout the clip. His posture remains mostly still, with slight shifts in his head position and hand placement on the ",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

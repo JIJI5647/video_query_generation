@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s012",
+  "time_range": [
+    55.0,
+    60.0
+  ],
+  "visual_description": "A woman with voluminous blonde hair, wearing a dark cardigan over a white collared shirt, is seated and holding a small object in her hands, looking down at it. A man with dark, curly hair, wearing a plaid shirt, is seated across from her, also looking down at his hands as he manipulates a small object. The background shows other people seated at tables in a busy indoor setting, suggesting a public space like a café or restaurant.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a neutral tone and moderate pace, accompanied by a brief pause and a subtle sigh.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with voluminous blonde hair, wearing a dark cardigan over a white collared shirt, is seated and holding a small object in her hands, looking down at it. A man with dark, curly hair, wearing a plaid shirt, is seated across from her, also looking down at his hands as he manipulates a small object. The background shows other people seated at tables in a busy indoor setting, suggesting a public space like a café or restaurant.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

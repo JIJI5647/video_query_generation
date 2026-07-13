@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s021",
+  "time_range": [
+    100.0,
+    105.0
+  ],
+  "visual_description": "A man in a black shirt sits in the front seat of a car at night, his face illuminated as he looks forward and moves his mouth, while another man with dark hair sits in the back seat, partially visible and looking ahead. The interior is dimly lit, with blurred outdoor lights visible through the windows.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice is audible, speaking while the car interior hums softly. No other distinct sounds are heard.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s021\", \"time_range\": [100.0, 105.0], \"visual\": \"A man in a black shirt sits in the front seat of a car at night, his face illuminated as he looks forward and moves his mouth, while another man with dark hair sits in the back seat, partially visible and looking ahead. The interior is dimly lit, with blurred outdoor lights visible through the windows.\", \"audio\": \"A male voice is audible, speaking while the car interior hums softly. No other distinct sounds are heard.\", \"confidence\""
+}

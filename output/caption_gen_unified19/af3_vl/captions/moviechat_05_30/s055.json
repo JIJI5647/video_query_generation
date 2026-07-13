@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s055",
+  "time_range": [
+    270.0,
+    275.0
+  ],
+  "visual_description": "A hand traces a detailed, aged map with handwritten labels, illuminated by dim, warm light. Two individuals stand side by side in a dimly lit stone corridor, both focused on the map held between them, their gazes fixed downward. The person on the left holds the map open while the other leans in closely, their posture indicating attentive examination.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a high pitch and moderate pace, speaking in a neutral tone.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A hand traces a detailed, aged map with handwritten labels, illuminated by dim, warm light. Two individuals stand side by side in a dimly lit stone corridor, both focused on the map held between them, their gazes fixed downward. The person on the left holds the map open while the other leans in closely, their posture indicating attentive examination.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

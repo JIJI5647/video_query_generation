@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s032",
+  "time_range": [
+    155.0,
+    160.0
+  ],
+  "visual_description": "A man with dark hair and a dark shirt peers through a wavy metal bar of a barred window, his face illuminated by dim green light. He stares intently forward, his expression serious and focused. The background is blurred, suggesting a dim interior space.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet, with only a faint ambient hum audible, and no discernible speech.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s032\", \"time_range\": [155.0, 160.0], \"visual\": \"A man with dark hair and a dark shirt peers through a wavy metal bar of a barred window, his face illuminated by dim green light. He stares intently forward, his expression serious and focused. The background is blurred, suggesting a dim interior space.\", \"audio\": \"The audio is quiet, with only a faint ambient hum audible, and no discernible speech.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

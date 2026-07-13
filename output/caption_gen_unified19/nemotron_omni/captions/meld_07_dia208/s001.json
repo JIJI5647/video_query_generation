@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "In a cozy coffee shop, a woman in a blue top and jeans sits on a brown couch next to a man in a beige sweater, while a woman in a red top sits beside them. A man in a red sweater reclines with his legs up to the left, and a man in a striped purple sweater walks from the bar area across the scene and sits on a green armchair in the foreground.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Ambient chatter and low murmur of conversation fill the room, with occasional faint clinking of cups.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"In a cozy coffee shop, a woman in a blue top and jeans sits on a brown couch next to a man in a beige sweater, while a woman in a red top sits beside them. A man in a red sweater reclines with his legs up to the left, and a man in a striped purple sweater walks from the bar area across the scene and sits on a green armchair in the foreground.\", \"audio\": \"Ambient chatter and low murmur of conversation fill the room, with occasional faint"
+}

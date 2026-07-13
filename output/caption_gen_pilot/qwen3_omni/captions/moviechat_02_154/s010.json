@@ -1,0 +1,55 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "getting out of a car"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "nighttime, dimly lit with streetlights and building lights in the background"
+    },
+    "objects": [
+      {
+        "object": "a dark-colored car",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "parked"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man opens the car door and steps out."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "not clearly visible"
+      ],
+      "body_cues": [
+        "reaching for the car door",
+        "stepping out"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A dramatic, orchestral musical score plays.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"getting out of a car\"}], \"scene\": {\"location\": \"street\", \"setting\": \"nighttime, dimly lit with streetlights and building lights in the background\"}, \"objects\": [{\"object\": \"a dark-colored car\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"parked\"}], \"interactions\": [], \"key_actions\": [\"The man o"
+}

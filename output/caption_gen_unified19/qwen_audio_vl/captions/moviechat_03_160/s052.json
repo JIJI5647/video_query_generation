@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s052",
+  "time_range": [
+    255.0,
+    260.0
+  ],
+  "visual_description": "Three men stand in a dimly lit hallway; one in a dark jacket faces forward, another in a patterned shirt stands center, and a third in a light jacket is partially visible on the right. The man in the patterned shirt gestures with his right hand while looking at the man in the light jacket, who appears to be speaking. The scene is framed by a doorway and tiled walls, with faint Chinese characters visible on a poster in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, likely from a mechanical device such as a camera shutter or a button press, immediately followed by a brief, high-pitched electronic chime. This chime, reminiscent of a notification or confirmation sound from a digital device, is clean and synthetic, with a short decay. The ambient environment is characterized by a low-level, continuous electronic hiss, indicating the use of a consumer-grade recording device in a quiet, indoor setting. The acoustics are dry and intimate, with no reverberation or echo, suggesting a small, well-dampened room. Shortly after, a male voice, speaking in standard Central Thai with a polite and formal tone, says, “ขอบคุณมากครับ” (“Thank you very much”). His delivery is clear, measured, and respectful, with a mid-to-high pitch and a slight upward inflection at the end, typical of formal Thai speech. The voice is close to the microphone, and the recording remains free of distortion or clipping. A second male voice, slightly lower in pitch and also speaking standard Thai, responds with, “ครับ ขอบคุณมากครับ” (“Yes, thank you very much”). His tone is equally polite and formal",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three men stand in a dimly lit hallway; one in a dark jacket faces forward, another in a patterned shirt stands center, and a third in a light jacket is partially visible on the right. The man in the patterned shirt gestures with his right hand while looking at the man in the light jacket, who appears to be speaking. The scene is framed by a doorway and tiled walls, with faint Chinese characters visible on a poster in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

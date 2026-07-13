@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s049",
+  "time_range": [
+    240.0,
+    245.0
+  ],
+  "visual_description": "Two men stand on a balcony at night; one in a light shirt holds a phone to his ear while the other, in a dark suit, faces him. The man on the phone gestures slightly with his free hand while looking down, and the suited man watches him with a neutral posture. Behind them, buildings and dim streetlights are visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a brief, sharp electronic click, likely the result of a button press or device activation, immediately followed by a faint, low-frequency hum and a subtle high-frequency hiss that persist throughout the recording. These background noises suggest the use of a consumer-grade recording device in a quiet, enclosed indoor setting, such as a home or office, with no evidence of external environmental sounds. A male voice, speaking Mandarin Chinese with a standard Putonghua accent, initiates the conversation with a calm, slightly inquisitive tone: “有没有信心？” (“Do you have confidence?”). His delivery is measured and neutral, indicating a routine inquiry. The second male voice, also speaking Mandarin with a standard accent, responds in a relaxed, dismissive manner: “没什么啦，小意思。” (“It’s nothing, a piece of cake.”). His tone is casual and self-assured, suggesting familiarity and comfort with the situation. The first speaker then shifts to a more informal register, addressing the second as “爸爸” (“Dad”), and says, “喂，爸爸。” (“Hey, Dad.”). This change in address, along with the use of “喂” (a casual greeting), signals a familial relationship and a move from a professional or formal context",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men stand on a balcony at night; one in a light shirt holds a phone to his ear while the other, in a dark suit, faces him. The man on the phone gestures slightly with his free hand while looking down, and the suited man watches him with a neutral posture. Behind them, buildings and dim streetlights are visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

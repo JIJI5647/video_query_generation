@@ -1,0 +1,45 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person wearing gloves",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "using tweezers on a person's neck"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "medical setting with green background"
+    },
+    "objects": [
+      {
+        "object": "tweezers",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being used on the neck"
+      }
+    ],
+    "interactions": [
+      "The person uses tweezers on the neck of another person."
+    ],
+    "key_actions": [
+      "Using tweezers on the neck"
+    ],
+    "visibility_notes": "The person's face is not visible, only their hands and the neck area are in view."
+  },
+  "visual_expression": [],
+  "audio_description": "A high-pitched, sustained electronic tone is audible.",
+  "temporal_description": "The tone is continuous throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s026\", \"time_range\": [125.0, 130.0], \"visual_objective\": {\"people\": [{\"person\": \"a person wearing gloves\", \"visibility\": \"partially visible\", \"position\": \"foreground\", \"action\": \"using tweezers on a person's neck\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"medical setting with green background\"}, \"objects\": [{\"object\": \"tweezers\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being used on the neck\"}], \"interactions\": [\"The person uses tweezers o"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s050",
+  "time_range": [
+    245.0,
+    250.0
+  ],
+  "visual_description": "The scene opens in a dimly lit stone corridor where three men in dark coats move forward; one wears a white collar, another has white hair, and the third is partially obscured. One of the men runs ahead, sprinting down the long, arched hallway away from the camera, his figure becoming smaller as he approaches a distant doorway. The corridor remains empty after he disappears into the doorway, with only the stone arches and faint lighting visible.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "No audible sound is heard.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s050\", \"time_range\": [245.0, 250.0], \"visual\": \"The scene opens in a dimly lit stone corridor where three men in dark coats move forward; one wears a white collar, another has white hair, and the third is partially obscured. One of the men runs ahead, sprinting down the long, arched hallway away from the camera, his figure becoming smaller as he approaches a distant doorway. The corridor remains empty after he disappears into the doorway, with only the stone arches and faint ligh"
+}

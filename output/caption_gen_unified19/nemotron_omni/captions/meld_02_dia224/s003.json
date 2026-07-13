@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_02_dia224",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man with curly brown hair in a light blue polo shirt sits on an orange couch, laughing and extending his right hand toward a person in a red shirt. The person in the red shirt gestures with his right hand while speaking, and the background shows other patrons and a green lamp.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Laughter and conversational speech are audible, with the man in blue laughing and the man in red speaking.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual\": \"A man with curly brown hair in a light blue polo shirt sits on an orange couch, laughing and extending his right hand toward a person in a red shirt. The person in the red shirt gestures with his right hand while speaking, and the background shows other patrons and a green lamp.\", \"audio\": \"Laughter and conversational speech are audible, with the man in blue laughing and the man in red speaking.\", \"confidence\": \"high\", \"evidence_stren"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_description": "A bald man in dark robes lies in a blue-lit setting, his face contorted in a grimace. The scene cuts to a silhouetted figure in a long robe standing on a rocky ledge, holding a wand before a glowing blue sphere. Close-ups reveal the textured tip of the wand against a blurred background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual\": \"A bald man in dark robes lies in a blue-lit setting, his face contorted in a grimace. The scene cuts to a silhouetted figure in a long robe standing on a rocky ledge, holding a wand before a glowing blue sphere. Close-ups reveal the textured tip of the wand against a blurred background.\", \"audio\": \"The audio is not clearly audible.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

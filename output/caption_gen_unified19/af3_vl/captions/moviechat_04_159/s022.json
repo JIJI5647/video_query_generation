@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s022",
+  "time_range": [
+    105.0,
+    110.0
+  ],
+  "visual_description": "A man in a dark shirt stands behind a seated man at a desk with a microphone and computer, while a woman in a light shirt sits at another desk nearby, both appearing focused on their tasks. The standing man gestures toward the seated man’s computer screen, which displays a phone call log, while the seated man looks down at his keyboard. The scene is set in a dimly lit, modern office with glass partitions and visible equipment, suggesting a professional or technical workspace.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no significant prosody or non-speech sounds.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark shirt stands behind a seated man at a desk with a microphone and computer, while a woman in a light shirt sits at another desk nearby, both appearing focused on their tasks. The standing man gestures toward the seated man’s computer screen, which displays a phone call log, while the seated man looks down at his keyboard. The scene is set in a dimly lit, modern office with glass partitions and visible equipment, suggesting a professional or technical workspace.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

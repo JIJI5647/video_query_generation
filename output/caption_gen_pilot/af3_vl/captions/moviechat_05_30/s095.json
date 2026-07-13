@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s095",
+  "time_range": [
+    470.0,
+    475.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, accompanied by occasional background noise and a brief pause, suggesting a moment of contemplation or transition.",
+  "temporal_description": "In a dimly lit, cluttered room filled with debris and furniture, a man in a light-colored jacket is bent over, actively searching through a pile of objects. Another person, dressed in dark clothing, stands nearby, observing the man’s actions. The standing person eventually moves closer, bending down to examine something on the ground. The man continues his search, occasionally shifting his position and reaching into the pile, while the other person remains mostly stationary, occasionally adjusting their stance. The scene is static, with the camera maintaining a consistent overhead perspective throughout.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, cluttered room filled with debris and furniture, a man in a light-colored jacket is bent over, actively searching through a pile of objects. Another person, dressed in dark clothing, stands nearby, observing the man’s actions. The standing person eventually moves closer, bending down to examine something on the ground. The man continues his search, occasionally shifting his position and reaching into the pile, while the other person remains mostly stationary, occasionally adjusti",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,45 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s028",
+  "time_range": [
+    135.0,
+    140.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person wearing gloves",
+        "visibility": "partially visible",
+        "position": "foreground",
+        "action": "using tweezers to extract something from a person's mouth"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "medical setting"
+    },
+    "objects": [
+      {
+        "object": "tweezers",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being used to extract something from the mouth"
+      }
+    ],
+    "interactions": [
+      "the person with gloves uses tweezers to extract something from the mouth"
+    ],
+    "key_actions": [
+      "using tweezers to extract something from the mouth"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A high-pitched, sustained electronic tone is audible.",
+  "temporal_description": "The electronic tone is present throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s028\", \"time_range\": [135.0, 140.0], \"visual_objective\": {\"people\": [{\"person\": \"a person wearing gloves\", \"visibility\": \"partially visible\", \"position\": \"foreground\", \"action\": \"using tweezers to extract something from a person's mouth\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"medical setting\"}, \"objects\": [{\"object\": \"tweezers\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being used to extract something from the mouth\"}], \"interactions\": [\""
+}

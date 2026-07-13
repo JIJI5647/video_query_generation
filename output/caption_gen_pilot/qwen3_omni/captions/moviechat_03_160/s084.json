@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s084",
+  "time_range": [
+    415.0,
+    420.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and striped tie",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking forward with a serious expression"
+      },
+      {
+        "person": "a group of four men",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing still and looking forward"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish tint, tiled walls, and a metal security gate in the background"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "a man walks forward",
+      "a group of men stand still"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and striped tie",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "walking forward"
+      ],
+      "gaze": "straight ahead"
+    }
+  ],
+  "audio_description": "A low, ominous musical score plays in the background.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s084\", \"time_range\": [415.0, 420.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and striped tie\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"walking forward with a serious expression\"}, {\"person\": \"a group of four men\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing still and looking forward\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a greenish tint, tiled walls, and a metal"
+}

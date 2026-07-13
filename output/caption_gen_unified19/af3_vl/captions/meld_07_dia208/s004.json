@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "Two men sit at a small round table in a café setting; the man on the left wears a red plaid shirt and gestures with his hands while speaking, the man on the right wears a black long-sleeved shirt with arms crossed and looks toward the other man. Behind them, other patrons are visible, and the background includes festive decorations and a chalkboard with writing. Both men are seated, facing each other, with mugs and a small container on the table between them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a neutral tone and moderate pace, speaking clearly without any noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men sit at a small round table in a café setting; the man on the left wears a red plaid shirt and gestures with his hands while speaking, the man on the right wears a black long-sleeved shirt with arms crossed and looks toward the other man. Behind them, other patrons are visible, and the background includes festive decorations and a chalkboard with writing. Both men are seated, facing each other, with mugs and a small container on the table between them.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

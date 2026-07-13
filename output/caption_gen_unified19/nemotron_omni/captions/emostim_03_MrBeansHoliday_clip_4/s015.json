@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s015",
+  "time_range": [
+    70.0,
+    75.0
+  ],
+  "visual_description": "A man wearing a black cap and a plaid shirt sits inside a vehicle, holding a piece of food to his mouth and chewing. Later, a man in a brown suit and red tie leans out of a vehicle window, extending his arm outward while a dog barks nearby. The view then shows the suited man running down a road past a woman with a backpack, ending with a close‑up of his surprised expression.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Chewing sounds and a dog bark are audible, accompanied by background vehicle and road noise.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s015\", \"time_range\": [70.0, 75.0], \"visual\": \"A man wearing a black cap and a plaid shirt sits inside a vehicle, holding a piece of food to his mouth and chewing. Later, a man in a brown suit and red tie leans out of a vehicle window, extending his arm outward while a dog barks nearby. The view then shows the suited man running down a road past a woman with a backpack, ending with a close‑up of his surprised expression.\", \"audio\": \"Chewing sounds and a dog bark are audible, accom"
+}

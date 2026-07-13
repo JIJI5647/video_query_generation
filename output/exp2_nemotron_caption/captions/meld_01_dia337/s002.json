@@ -1,0 +1,28 @@
+{
+  "video_id": "meld_01_dia337",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "A man in a pink plaid shirt bends over a beige couch, then stands up holding a white object while facing a man in a blue plaid shirt. The man in pink looks at the other man with raised eyebrows, appearing surprised. The scene includes a framed picture on the wall, two wall-mounted lamps, and a door marked 232.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "Not audible",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual\": \"A man in a pink plaid shirt bends over a beige couch, then stands up holding a white object while facing a man in a blue plaid shirt. The man in pink looks at the other man with raised eyebrows, appearing surprised. The scene includes a framed picture on the wall, two wall-mounted lamps, and a door marked 232.\", \"audio\": \"Not audible\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

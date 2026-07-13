@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s029",
+  "time_range": [
+    140.0,
+    145.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a clear and steady tone, accompanied by a moderate pace and a neutral prosody. There are no significant non-speech sounds present.",
+  "temporal_description": "A person wearing transparent gloves is holding a pair of tweezers and extracting a dark, elongated object from the mouth of another individual who is lying down. The person receiving the procedure has visible skin texture and some discoloration on their face. The tweezers are used to carefully pull the object out, which is then held up for viewing. The person performing the procedure keeps their hands steady and focused on the task, while the other individual remains still with their mouth open.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing transparent gloves is holding a pair of tweezers and extracting a dark, elongated object from the mouth of another individual who is lying down. The person receiving the procedure has visible skin texture and some discoloration on their face. The tweezers are used to carefully pull the object out, which is then held up for viewing. The person performing the procedure keeps their hands steady and focused on the task, while the other individual remains still with their mouth open.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

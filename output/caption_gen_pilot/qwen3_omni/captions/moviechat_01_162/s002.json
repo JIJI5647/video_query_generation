@@ -1,0 +1,80 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a black suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "lying on his back on the hood of a car with blood on his face and head, appearing to be dead or unconscious"
+      },
+      {
+        "person": "a man in a light-colored suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking at the man on the car with a shocked expression"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing and looking at the man on the car with a shocked expression"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "urban street with a modern building and a small evergreen tree in the background"
+    },
+    "objects": [
+      {
+        "object": "a car",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being used as a surface for the man in the black suit to lie on"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a man lies motionless on a car",
+      "two other men look on in shock"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored suit",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "stiff posture"
+      ],
+      "gaze": "towards the man on the car"
+    },
+    {
+      "person": "a man in a dark suit",
+      "facial_cues": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "body_cues": [
+        "stiff posture"
+      ],
+      "gaze": "towards the man on the car",
+      "visibility": "not clearly visible"
+    }
+  ],
+  "audio_description": "A dramatic, suspenseful musical score with a strong, rhythmic beat plays in the background.",
+  "temporal_description": "The music plays continuously throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s002\", \"time_range\": [5.0, 10.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a black suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"lying on his back on the hood of a car with blood on his face and head, appearing to be dead or unconscious\"}, {\"person\": \"a man in a light-colored suit\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"standing and looking at the man on the car with a shocked expression\"}, {\"person\": \"a "
+}

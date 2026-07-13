@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s031",
+  "time_range": [
+    150.0,
+    155.0
+  ],
+  "visual_description": "A person in a dark blue outfit is partially buried in snow, reaching upward with both hands near a wooden structure. Another person in a red jacket and plaid shirt stands in a doorway, holding a bowl and looking toward the snow-covered area. The scene is dimly lit, with snow piled around the doorway and on the ground.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched, metallic screech that immediately dominates the soundscape. This screech, reminiscent of steel wheels grinding against rails, is harsh, abrasive, and rich in upper-mid and high-frequency content, with a piercing, almost painful timbre. The sound is accompanied by a deep, resonant rumble, suggesting the immense mass and power of a moving train. The screech is not static; it fluctuates in pitch and intensity, indicating the train is negotiating a curve or applying brakes, with the pitch rising and falling in a cyclical pattern. The reverberation is pronounced, with echoes and fluttering reflections that imply the train is moving through a large, enclosed, and highly reflective space—such as a tunnel or underground station. The overall effect is overwhelming and intense, with the screech and rumble filling the entire frequency spectrum and creating a sense of urgency and tension. At the peak of this mechanical cacophony, the audio is abruptly cut off mid-screech, with no fade or natural decay. Instantly, a pure, low-frequency electronic tone replaces the train sounds. This tone is steady, unwavering, and centered in the stereo field, with a fundamental frequency of",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in a dark blue outfit is partially buried in snow, reaching upward with both hands near a wooden structure. Another person in a red jacket and plaid shirt stands in a doorway, holding a bowl and looking toward the snow-covered area. The scene is dimly lit, with snow piled around the doorway and on the ground.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

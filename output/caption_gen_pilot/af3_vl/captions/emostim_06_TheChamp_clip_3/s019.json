@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s019",
+  "time_range": [
+    90.0,
+    95.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice, likely a girl, speaking in a high-pitched, neutral tone, followed by a man's voice, both set against a backdrop of soft music.",
+  "temporal_description": "A young child with light-colored hair is being held close by an adult, whose face is partially visible. The child is facing the adult, and their head is slightly tilted, with their gaze directed toward the adult. The adult’s hand is gently placed on the child’s cheek or jaw. The background is dimly lit and out of focus, suggesting an indoor setting. The child’s posture is relaxed, and their facial expression is neutral or slightly pensive, with their mouth slightly open. The adult’s posture is upright, and their gaze is focused on the child.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with light-colored hair is being held close by an adult, whose face is partially visible. The child is facing the adult, and their head is slightly tilted, with their gaze directed toward the adult. The adult’s hand is gently placed on the child’s cheek or jaw. The background is dimly lit and out of focus, suggesting an indoor setting. The child’s posture is relaxed, and their facial expression is neutral or slightly pensive, with their mouth slightly open. The adult’s posture is u",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

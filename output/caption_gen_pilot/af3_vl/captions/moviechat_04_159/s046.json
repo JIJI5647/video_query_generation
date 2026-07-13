@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s046",
+  "time_range": [
+    225.0,
+    230.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone with moderate pitch and speed, accompanied by occasional non-speech sounds like heavy breathing and brief silences, creating a tense and suspenseful atmosphere.",
+  "temporal_description": "A man in a light-colored shirt stands in a dimly lit indoor space, possibly a hallway or corridor, with blurred figures moving in the background. He appears to be looking downward, his posture still and his gaze fixed ahead. Later, he walks away from the camera, seen from behind, ascending a staircase in a dimly lit building with visible railings and a fire extinguisher nearby. He pauses at the top, raises his hand to his ear as if holding a phone, and remains still, facing away from the camera.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a light-colored shirt stands in a dimly lit indoor space, possibly a hallway or corridor, with blurred figures moving in the background. He appears to be looking downward, his posture still and his gaze fixed ahead. Later, he walks away from the camera, seen from behind, ascending a staircase in a dimly lit building with visible railings and a fire extinguisher nearby. He pauses at the top, raises his hand to his ear as if holding a phone, and remains still, facing away from the camera.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

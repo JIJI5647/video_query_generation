@@ -1,0 +1,30 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s002",
+  "time_range": [
+    5.0,
+    10.0
+  ],
+  "visual_description": "In a warmly lit, crowded café decorated with festive red bows, several people are seated on couches and chairs around small tables, some holding mugs. Two men sit at a small round table, one in a red plaid shirt leaning forward with his arms crossed, the other in a black shirt resting his chin on his hand, both looking toward each other. Others in the background are seated or standing, some engaged in conversation, while one person in a striped shirt moves quickly past the foreground.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a male speaker, positioned close to the microphone, delivering the phrase, “the camera.” His voice is clear, mid-to-low in pitch, and carries a conversational, slightly amused tone. The recording environment is quiet, with only a faint electronic hiss and a subtle low-frequency hum in the background, suggesting a small, acoustically treated room such as a studio or sound booth. Immediately following, the same speaker continues, “But you know, that same thing happened to me one time,” maintaining a relaxed, storytelling cadence. The delivery is natural and informal, with a slight upward inflection on “you know” and a brief pause before “one time,” indicating a personal anecdote. As the speaker finishes, a second male voice interjects with a single, sharp, high-pitched laugh, which is dry and unembellished, implying a small, controlled audience. This laugh is immediately followed by a brief, low-pitched chuckle from a third male voice, reinforcing the sense of a small, familiar group. The laughter is genuine and spontaneous, suggesting a shared moment of amusement among the participants. The first speaker resumes, beginning, “When did that—” but is abruptly cut off mid-word by a hard",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a warmly lit, crowded café decorated with festive red bows, several people are seated on couches and chairs around small tables, some holding mugs. Two men sit at a small round table, one in a red plaid shirt leaning forward with his arms crossed, the other in a black shirt resting his chin on his hand, both looking toward each other. Others in the background are seated or standing, some engaged in conversation, while one person in a striped shirt moves quickly past the foreground.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

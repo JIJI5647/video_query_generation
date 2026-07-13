@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s004",
+  "time_range": [
+    15.0,
+    20.0
+  ],
+  "visual_description": "A man in a suit and glasses is shown in close-up, looking downward with a hand holding a lit cigarette near his face. Another person, partially visible and out of focus, holds the cigarette. The scene is dimly lit with blue tones, suggesting an indoor, possibly office or interrogation setting.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The speaker's voice is clear and steady, with a moderate pace and no noticeable inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit and glasses is shown in close-up, looking downward with a hand holding a lit cigarette near his face. Another person, partially visible and out of focus, holds the cigarette. The scene is dimly lit with blue tones, suggesting an indoor, possibly office or interrogation setting.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s067",
+  "time_range": [
+    330.0,
+    335.0
+  ],
+  "visual_description": "The scene is a dimly lit interior with a twisted, tree‑like column and shadowy surroundings. A man wearing glasses is shown in close‑up profile, his face partially illuminated as he looks to the side.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is quiet and indistinct, with no clear speech or sound discernible.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s067\", \"time_range\": [330, 335], \"visual\": \"The scene is a dimly lit interior with a twisted, tree‑like column and shadowy surroundings. A man wearing glasses is shown in close‑up profile, his face partially illuminated as he looks to the side.\", \"audio\": \"The audio is quiet and indistinct, with no clear speech or sound discernible.\", \"confidence\": \"medium\", \"evidence_strength\": \"ambiguous\"}"
+}

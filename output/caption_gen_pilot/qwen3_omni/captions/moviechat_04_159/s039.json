@@ -1,0 +1,72 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s039",
+  "time_range": [
+    190.0,
+    195.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit and light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking to the left"
+      },
+      {
+        "person": "a man in a dark suit and white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "standing and looking forward"
+      },
+      {
+        "person": "a man in a light blue shirt and dark pants",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "standing with hands in pockets"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with multiple computer monitors and a large whiteboard with diagrams and text, suggesting a briefing or command center."
+    },
+    "objects": [
+      {
+        "object": "computer monitors",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "displaying blue-toned images"
+      },
+      {
+        "object": "whiteboard",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "displaying diagrams and text"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "The man in the dark suit and light-colored shirt turns his head to the left."
+    ],
+    "visibility_notes": "The man in the dark suit and light-colored shirt is in the foreground, while other men are in the background. The room is dimly lit, with the monitors providing some illumination."
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark suit and light-colored shirt",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "turning his head to the left"
+      ],
+      "gaze": "to the left"
+    }
+  ],
+  "audio_description": "A male voice is speaking in a serious tone.",
+  "temporal_description": "The man in the dark suit and light-colored shirt turns his head to the left as the audio continues.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s039\", \"time_range\": [190.0, 195.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit and light-colored shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and looking to the left\"}, {\"person\": \"a man in a dark suit and white shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"standing and looking forward\"}, {\"person\": \"a man in a light blue shirt and dark pants\", \"visibility\": \"clearly visible\", \"posit"
+}

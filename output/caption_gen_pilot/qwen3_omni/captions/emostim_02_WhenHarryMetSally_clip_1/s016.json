@@ -1,0 +1,46 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde, curly hair",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "looking down and then up, speaking"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "crowded, possibly a restaurant or cafe"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "the woman looks down, then up, and speaks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde, curly hair",
+      "facial_cues": [
+        "blinking",
+        "mouth moving"
+      ],
+      "body_cues": [],
+      "gaze": "down, then up"
+    }
+  ],
+  "audio_description": "a person is speaking, with background noise from a crowd.",
+  "temporal_description": "The woman's gaze shifts from down to up as she speaks.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with blonde, curly hair\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"looking down and then up, speaking\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"crowded, possibly a restaurant or cafe\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"the woman looks down, then up, and speaks\"], \"visibility_notes\": \"\"}, \"visual_expression\": [{\"person\": \"a woman with b"
+}

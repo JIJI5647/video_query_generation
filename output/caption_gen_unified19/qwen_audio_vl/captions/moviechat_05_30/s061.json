@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_description": "Three silhouetted figures are visible in a dimly lit, ruined Gothic-style interior, framed by arched doorways. One person is gesturing toward the others as they stand near the center of the archway, with debris scattered across the foreground. Their postures suggest movement and interaction, but facial details and specific gestures are indistinct due to backlighting and distance.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, high-pitched metallic screech, characterized by a rapid, abrasive, and resonant quality that suggests the violent friction of metal against metal. This sound is immediately followed by a deep, powerful, and resonant thud, which reverberates with a long decay, indicating a massive object colliding with a hard surface in a large, enclosed space. The impact is accompanied by a complex array of secondary noises: a sharp, brittle crack reminiscent of shattering glass or splintering wood, a brief metallic clatter as smaller components scatter, and a low-frequency rumble that conveys the weight and inertia of the event. The reverberation is dense and prolonged, with overlapping echoes that fill the space, suggesting a cavernous, industrial environment such as a warehouse, factory, or underground tunnel. As the reverberation fades, a new sound emerges: a low-frequency, rhythmic mechanical hum, steady and unwavering, evoking the operation of heavy machinery or a large engine. This hum is joined by a persistent, high-frequency hiss, likely the result of air displacement or pressurized gas release, and a subtle, continuous low-frequency rumble that underpins the entire soundscape. The mechanical hum",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Three silhouetted figures are visible in a dimly lit, ruined Gothic-style interior, framed by arched doorways. One person is gesturing toward the others as they stand near the center of the archway, with debris scattered across the foreground. Their postures suggest movement and interaction, but facial details and specific gestures are indistinct due to backlighting and distance.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,49 @@
+{
+  "caption_model": "nemotron_omni",
+  "model_kind": "av",
+  "non_commercial": false,
+  "video_dir": "data/pilot_study",
+  "num_videos": 5,
+  "num_segments": 186,
+  "num_captions": 186,
+  "total_seconds": 670.5,
+  "segment_seconds": 5.0,
+  "stride": 5.0,
+  "per_video": [
+    {
+      "video_id": "emostim_01_TheShining_clip_2",
+      "num_segments": 57,
+      "num_cached": 57,
+      "seconds": 0.0
+    },
+    {
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "num_segments": 11,
+      "num_cached": 11,
+      "seconds": 0.0
+    },
+    {
+      "video_id": "meld_01_dia337",
+      "num_segments": 14,
+      "num_cached": 1,
+      "seconds": 65.4
+    },
+    {
+      "video_id": "meld_02_dia224",
+      "num_segments": 8,
+      "num_cached": 0,
+      "seconds": 69.2
+    },
+    {
+      "video_id": "moviechat_05_30",
+      "num_segments": 96,
+      "num_cached": 0,
+      "seconds": 535.4
+    }
+  ],
+  "model_paths": {
+    "caption_model_path": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+    "audio_model_path": null,
+    "video_model_path": null
+  }
+}

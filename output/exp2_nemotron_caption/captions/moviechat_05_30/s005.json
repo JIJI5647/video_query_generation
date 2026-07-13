@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A gaunt, pale man in black robes raises his arm while standing in a dim, rocky environment, his expression strained. The view expands to show two robed figures on a rocky outcrop surrounded by a swirling, bright magical aura, with a large crowd of similarly dressed followers gathered on a hill below. A close‑up shows a stern‑looking woman in dark robes, and another figure lifts a wand, sending a beam of light upward.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is low and muffled, with indistinct sounds that could be magical incantations or ambient noise, but no clear speech is audible. No distinct vocalizations are clearly identifiable.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s005\", \"time_range\": [20.0, 25.0], \"visual\": \"A gaunt, pale man in black robes raises his arm while standing in a dim, rocky environment, his expression strained. The view expands to show two robed figures on a rocky outcrop surrounded by a swirling, bright magical aura, with a large crowd of similarly dressed followers gathered on a hill below. A close‑up shows a stern‑looking woman in dark robes, and another figure lifts a wand, sending a beam of light upward.\", \"audio\": \"The a"
+}

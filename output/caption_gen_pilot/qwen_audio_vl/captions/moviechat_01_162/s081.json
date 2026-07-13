@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s081",
+  "time_range": [
+    400.0,
+    405.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically reflective indoor space, likely a small to medium-sized room with hard surfaces such as wood or tile. The initial sound is a soft, low-frequency rustle, suggesting the movement of fabric or paper, possibly as someone adjusts their position or prepares to play an instrument. This is immediately followed by a sharp, high-frequency click, characteristic of a fingernail or fingernail-like object striking a hard surface, such as the edge of a wooden or plastic instrument. A brief, low-frequency thump then occurs, indicating a hand or object making contact with a surface, perhaps to steady the instrument or as part of the playing technique.\n\nA sustained, low-pitched note emerges, played on a shakuhachi—a Japanese bamboo flute. The note is resonant and breathy, with a slightly unstable pitch that gently wavers, reflecting the performer’s unsteady breath control. The timbre is airy and reedy, with a subtle, raspy edge, and the note is held for several seconds. The room’s natural reverberation is evident, with the sound lingering and decaying softly, reinforcing the sense of a small, enclosed space. The note is played with a slow, deliberate vibrato, imparting a mournful, contemplative quality. Throughout, a faint, continuous hiss is present, likely from the recording equipment, and the overall sound is monophonic and moderately compressed, with a limited frequency range and no digital artifacts.\n\nAbruptly, the shakuhachi note is cut off mid-decay by a hard edit, with no natural fade or lingering resonance. Instantly, a loud, synthetic electronic tone replaces the flute. This tone is a low-frequency, buzzy, sawtooth-like waveform, centered around 110 Hz (A2), and is harsh, abrasive, and unwavering in pitch and amplitude. The electronic sound is dry and devoid of any reverberation or environmental context, and it is presented at a much higher volume than the preceding shakuhachi, creating a jarring and disruptive effect. The tone persists unchanged until the end of the clip, with no further musical or environmental sounds.\n\nThe recording is monophonic and of moderate fidelity, with a limited frequency range and a constant background hiss. The shakuhachi segment is intimate and contemplative, while the sudden electronic tone is aggressive and disruptive, creating a stark contrast in both timbre and emotional impact. The abrupt transition and lack of musical or narrative connection between the two sounds suggest an experimental or conceptual intent, possibly exploring the collision of traditional and modern sonic worlds. The absence of speech, lyrics, or environmental cues further emphasizes the focus on the interplay between acoustic and electronic sound.\n\nIn summary, the audio clip presents a deliberate juxtaposition of a contemplative shakuhachi performance in a reverberant room and a sudden, abrasive electronic tone, with no speech or environmental context. The contrast in timbre, emotional tone, and spatial character highlights a conceptual exploration of tradition versus modernity, culminating in a jarring, unresolved sonic collision.",
+  "temporal_description": "In a dimly lit, ornate room viewed through a window, two men are seated at a table, engaged in conversation. One man, with short dark hair, faces the other, who has lighter hair and is seen from behind. The man with darker hair gestures with his hands while speaking, occasionally leaning forward. Behind them, a large, colorful mural of a deity adorns the wall, and decorative elements like statues and plants are visible. The scene is framed by heavy curtains and a textured wall, with a small framed picture visible on the left side of the frame.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dimly lit, ornate room viewed through a window, two men are seated at a table, engaged in conversation. One man, with short dark hair, faces the other, who has lighter hair and is seen from behind. The man with darker hair gestures with his hands while speaking, occasionally leaning forward. Behind them, a large, colorful mural of a deity adorns the wall, and decorative elements like statues and plants are visible. The scene is framed by heavy curtains and a textured wall, with a small fram",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

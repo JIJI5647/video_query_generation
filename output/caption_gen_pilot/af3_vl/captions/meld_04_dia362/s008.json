@@ -1,0 +1,29 @@
+{
+  "video_id": "meld_04_dia362",
+  "segment_id": "s008",
+  "time_range": [
+    35.0,
+    40.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a neutral tone and moderate pace, speaking clearly in English without any noticeable background noise or emotional inflection.",
+  "temporal_description": "A woman with shoulder-length brown hair, wearing a white lab coat over a striped shirt and a name badge, is seated beside a hospital bed. She appears to be speaking, with her head slightly tilted and her gaze directed forward. Behind her, the bed is covered in pink linens, and medical equipment, including a monitor and a pink basin, is visible on a bedside table. The scene shifts to a man in a beige jacket leaning over a woman lying in the hospital bed, his hand resting on her head. The woman in the bed is covered with a pink blanket and appears to be looking up at him. The room has a pink headboard with medical outlets and a wooden door in the background.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with shoulder-length brown hair, wearing a white lab coat over a striped shirt and a name badge, is seated beside a hospital bed. She appears to be speaking, with her head slightly tilted and her gaze directed forward. Behind her, the bed is covered in pink linens, and medical equipment, including a monitor and a pink basin, is visible on a bedside table. The scene shifts to a man in a beige jacket leaning over a woman lying in the hospital bed, his hand resting on her head. The woman in",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s079",
+  "time_range": [
+    390.0,
+    395.0
+  ],
+  "visual_description": "A person with glasses is leaning forward, their hand resting on a wooden box on a cluttered table surrounded by ropes and mechanical devices. The scene is dimly lit, with the person’s face partially illuminated, showing their focused gaze downward toward the box. Their posture is hunched and attentive, suggesting concentration on the object in front of them.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a moderate pitch and a slightly breathy quality, speaking at a moderate pace.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with glasses is leaning forward, their hand resting on a wooden box on a cluttered table surrounded by ropes and mechanical devices. The scene is dimly lit, with the person’s face partially illuminated, showing their focused gaze downward toward the box. Their posture is hunched and attentive, suggesting concentration on the object in front of them.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

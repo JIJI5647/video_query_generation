@@ -1,0 +1,68 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s026",
+  "time_range": [
+    125.0,
+    130.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "gesturing with his hands and pointing forward"
+      },
+      {
+        "person": "a woman in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting at a desk and looking at a laptop"
+      },
+      {
+        "person": "a man in a light-colored shirt",
+        "visibility": "clearly visible",
+        "position": "background",
+        "action": "sitting at a desk and looking down"
+      }
+    ],
+    "scene": {
+      "location": "indoor office",
+      "setting": "a modern office with glass walls and desks with computers"
+    },
+    "objects": [
+      {
+        "object": "a computer monitor",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "displaying a video of a man sitting at a triangular table"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "the man in the white shirt gestures and points",
+      "the woman and the other man are seated at their desks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a white shirt",
+      "facial_cues": [
+        "serious expression"
+      ],
+      "body_cues": [
+        "gesturing with hands",
+        "pointing forward"
+      ],
+      "gaze": "forward"
+    }
+  ],
+  "audio_description": "A male voice speaks in a conversational tone.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s026\", \"time_range\": [125.0, 130.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"gesturing with his hands and pointing forward\"}, {\"person\": \"a woman in a light-colored shirt\", \"visibility\": \"clearly visible\", \"position\": \"background\", \"action\": \"sitting at a desk and looking at a laptop\"}, {\"person\": \"a man in a light-colored shirt\", \"visibility\": \"clearly visible\", \"position\": \"backg"
+}

@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a child's voice with a high pitch and a moderate speaking rate, accompanied by a noticeable sniffle, suggesting a possible emotional state.",
+  "temporal_description": "A young boy with light-colored hair, wearing a gray shirt, is seated and holding a small object in his hands. He is looking down at the object, occasionally moving his fingers around it. An adult’s hand is visible near his shoulder, gently touching or steadying him. The background is dark, focusing attention on the boy and his actions. His posture is slightly hunched as he concentrates on the object in his hands.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light-colored hair, wearing a gray shirt, is seated and holding a small object in his hands. He is looking down at the object, occasionally moving his fingers around it. An adult’s hand is visible near his shoulder, gently touching or steadying him. The background is dark, focusing attention on the boy and his actions. His posture is slightly hunched as he concentrates on the object in his hands.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

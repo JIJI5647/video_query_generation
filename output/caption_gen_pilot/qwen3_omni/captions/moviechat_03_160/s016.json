@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s016",
+  "time_range": [
+    75.0,
+    80.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a person in a dark suit",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "clenching their fist"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a window in the background"
+    },
+    "objects": [
+      {
+        "object": "a ring",
+        "visibility": "clearly visible",
+        "position": "on the person's hand",
+        "action": "worn on the ring finger"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "clenching a fist"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a person in a dark suit",
+      "facial_cues": [
+        "unclear"
+      ],
+      "body_cues": [
+        "clenching a fist"
+      ],
+      "gaze": "not clearly visible"
+    }
+  ],
+  "audio_description": "A rhythmic, percussive sound with a metallic quality plays in the background.",
+  "temporal_description": "The rhythmic sound continues steadily throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s016\", \"time_range\": [75.0, 80.0], \"visual_objective\": {\"people\": [{\"person\": \"a person in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"clenching their fist\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a window in the background\"}, \"objects\": [{\"object\": \"a ring\", \"visibility\": \"clearly visible\", \"position\": \"on the person's hand\", \"action\": \"worn on the ring finger\"}], \"interactions\": [], \"key_actions\": [\"clenching a"
+}

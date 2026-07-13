@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s025",
+  "time_range": [
+    120.0,
+    125.0
+  ],
+  "visual_description": "Two men are seated inside a vehicle, with the man in the foreground holding a wrapped object near his face and looking forward, while the other man sits in the backseat, slightly out of focus and turned slightly away. The foreground man’s hand is wrapped in white bandages, and both appear to be wearing dark clothing. The scene is dimly lit with blurred greenery visible through the windows, suggesting motion.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and pitch, and no noticeable background noise or inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "Two men are seated inside a vehicle, with the man in the foreground holding a wrapped object near his face and looking forward, while the other man sits in the backseat, slightly out of focus and turned slightly away. The foreground man’s hand is wrapped in white bandages, and both appear to be wearing dark clothing. The scene is dimly lit with blurred greenery visible through the windows, suggesting motion.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

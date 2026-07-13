@@ -1,0 +1,54 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s068",
+  "time_range": [
+    335.0,
+    340.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a light-colored jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking and talking on a phone"
+      },
+      {
+        "person": "a man in a striped shirt",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "walking alongside the first man"
+      }
+    ],
+    "scene": {
+      "location": "street",
+      "setting": "a narrow alley at night, dimly lit with a yellowish light source and posters on the wall."
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "The man in the light-colored jacket walks and talks on his phone.",
+      "The man in the striped shirt walks beside him."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a light-colored jacket",
+      "facial_cues": [
+        "holding a phone to his ear"
+      ],
+      "body_cues": [
+        "walking"
+      ],
+      "gaze": "looking forward"
+    }
+  ],
+  "audio_description": "A man is speaking on a phone in a foreign language.",
+  "temporal_description": "The man continues to talk on the phone as he walks.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s068\", \"time_range\": [335.0, 340.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a light-colored jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"walking and talking on a phone\"}, {\"person\": \"a man in a striped shirt\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"walking alongside the first man\"}], \"scene\": {\"location\": \"street\", \"setting\": \"a narrow alley at night, dimly lit with a yellowish light source and poster"
+}

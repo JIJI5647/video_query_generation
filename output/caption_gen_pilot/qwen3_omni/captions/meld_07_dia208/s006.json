@@ -1,0 +1,107 @@
+{
+  "video_id": "meld_07_dia208",
+  "segment_id": "s006",
+  "time_range": [
+    25.0,
+    30.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a beige turtleneck sweater",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "sitting on a couch, gesturing with his hands, and speaking."
+      },
+      {
+        "person": "a woman in a blue long-sleeved shirt",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "sitting on a couch, holding a plate, and speaking."
+      },
+      {
+        "person": "a woman in a red long-sleeved shirt",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "sitting on a couch, listening, and speaking."
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a living room with a couch and a coffee table."
+    },
+    "objects": [
+      {
+        "object": "a plate",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "held by the woman in the blue shirt."
+      },
+      {
+        "object": "a coffee table",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "in front of the couch."
+      },
+      {
+        "object": "a mug",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "on the coffee table."
+      }
+    ],
+    "interactions": [
+      "The man and the woman in the blue shirt are talking to each other.",
+      "The woman in the red shirt is listening to the conversation."
+    ],
+    "key_actions": [
+      "The man gestures with his hands while speaking.",
+      "The woman in the blue shirt holds a plate and speaks.",
+      "The woman in the red shirt speaks."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a beige turtleneck sweater",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "towards the woman in the blue shirt."
+    },
+    {
+      "person": "a woman in a blue long-sleeved shirt",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "holding a plate",
+        "gesturing with hands"
+      ],
+      "gaze": "towards the man."
+    },
+    {
+      "person": "a woman in a red long-sleeved shirt",
+      "facial_cues": [
+        "mouth open",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "gesturing with hands"
+      ],
+      "gaze": "towards the man."
+    }
+  ],
+  "audio_description": "Multiple people are speaking in a conversational tone.",
+  "temporal_description": "The conversation continues throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s006\", \"time_range\": [25.0, 30.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a beige turtleneck sweater\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"sitting on a couch, gesturing with his hands, and speaking.\"}, {\"person\": \"a woman in a blue long-sleeved shirt\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"sitting on a couch, holding a plate, and speaking.\"}, {\"person\": \"a woman in a red long-sleeved shirt\", \"visibility\": \"cle"
+}

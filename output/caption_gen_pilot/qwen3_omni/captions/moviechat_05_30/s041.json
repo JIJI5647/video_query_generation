@@ -1,0 +1,37 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "running forward and casting a spell"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a dark, stone-walled chamber with a metal bridge and chains"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [
+      "casting a spell",
+      "running"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "a loud, magical spell sound effect is heard",
+  "temporal_description": "the spell sound effect starts and continues throughout the clip",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s041\", \"time_range\": [200.0, 205.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark robe\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"running forward and casting a spell\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a dark, stone-walled chamber with a metal bridge and chains\"}, \"objects\": [], \"interactions\": [], \"key_actions\": [\"casting a spell\", \"running\"], \"visibility_notes\": \"\"}, \"visual_expression\": [], \"audio_description\": \"a l"
+}

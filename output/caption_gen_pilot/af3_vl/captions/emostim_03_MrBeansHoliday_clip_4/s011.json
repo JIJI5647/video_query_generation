@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s011",
+  "time_range": [
+    50.0,
+    55.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice singing a song with a medium pitch and a moderate tempo.",
+  "temporal_description": "A man in a brown suit and red tie is riding a bicycle with a basket full of tomatoes and onions. He is leaning forward, gripping the handlebars, and pedaling along a rural road. Behind him, a group of cyclists in colorful jerseys are riding in a line, maintaining a steady pace. The background features rolling hills with rows of crops and scattered trees under a clear blue sky. The camera occasionally shifts to a point-of-view shot from the basket, showing the road ahead and a vehicle approaching in the distance.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a brown suit and red tie is riding a bicycle with a basket full of tomatoes and onions. He is leaning forward, gripping the handlebars, and pedaling along a rural road. Behind him, a group of cyclists in colorful jerseys are riding in a line, maintaining a steady pace. The background features rolling hills with rows of crops and scattered trees under a clear blue sky. The camera occasionally shifts to a point-of-view shot from the basket, showing the road ahead and a vehicle approaching",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

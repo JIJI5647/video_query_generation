@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s024",
+  "time_range": [
+    115.0,
+    120.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by occasional non-speech sounds like heavy breathing and sighs.",
+  "temporal_description": "A group of people are running across a wooden bridge at night, their movements urgent and hurried. The bridge is dimly lit, with smoke or mist rising from the left side, partially obscuring the view. The individuals are dressed in dark, possibly historical or fantasy-style clothing, with one person in the foreground holding a stick or wand-like object. Their faces are partially visible, showing focused expressions as they run, with some looking ahead and others glancing around. The camera follows them closely, capturing their swift, determined strides and the motion of their clothing as they move forward.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of people are running across a wooden bridge at night, their movements urgent and hurried. The bridge is dimly lit, with smoke or mist rising from the left side, partially obscuring the view. The individuals are dressed in dark, possibly historical or fantasy-style clothing, with one person in the foreground holding a stick or wand-like object. Their faces are partially visible, showing focused expressions as they run, with some looking ahead and others glancing around. The camera follow",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

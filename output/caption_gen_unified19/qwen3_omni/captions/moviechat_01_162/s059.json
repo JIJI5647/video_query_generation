@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_description": "A man in a white shirt and black tie stands in an office, looking at a monitor. The monitor displays a security camera feed of a corridor. Another person is partially visible, sitting and watching the screen.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A male voice speaks in a calm, clear tone, delivering a message.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s059\", \"time_range\": [290.0, 295.0], \"visual\": \"A man in a white shirt and black tie stands in an office, looking at a monitor. The monitor displays a security camera feed of a corridor. Another person is partially visible, sitting and watching the screen.\", \"audio\": \"A male voice speaks in a calm, clear tone, delivering a message.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

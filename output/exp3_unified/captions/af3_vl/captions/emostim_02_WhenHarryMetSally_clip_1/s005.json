@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_description": "A woman with blonde, wavy hair wearing a dark sweater and white collared shirt sits beside a man with dark hair and a striped shirt, both holding small pieces of food. They are seated in a crowded room with other people visible in the background, and the woman gestures with her hands while looking down at the food. The man looks toward the woman with his mouth slightly open, and both appear engaged in the activity of eating.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male speaker with a neutral tone and moderate pace, speaking clearly and without inflection.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A woman with blonde, wavy hair wearing a dark sweater and white collared shirt sits beside a man with dark hair and a striped shirt, both holding small pieces of food. They are seated in a crowded room with other people visible in the background, and the woman gestures with her hands while looking down at the food. The man looks toward the woman with his mouth slightly open, and both appear engaged in the activity of eating.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

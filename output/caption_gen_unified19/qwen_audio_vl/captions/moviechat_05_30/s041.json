@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s041",
+  "time_range": [
+    200.0,
+    205.0
+  ],
+  "visual_description": "A person in dark clothing runs across a metal bridge, dodging debris and obstacles while moving quickly. Another figure in dark attire stands ahead, seemingly confronting or pursuing the runner. The scene is dimly lit, with industrial metal structures and falling fragments visible in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, explosive impact: a deep, resonant metallic clang, immediately followed by a high-pitched, glassy shattering sound. This is accompanied by a sharp, guttural male grunt, conveying pain or exertion, and a brief, high-pitched metallic screech, reminiscent of metal scraping against metal. The soundscape is dense and chaotic, with a low-frequency rumble and a high-frequency hiss, all enveloped in a cavernous, reverberant acoustic space. The initial impact is so loud that it causes digital clipping, resulting in harsh, distorted audio. As the chaos continues, a rapid sequence of metallic impacts and scraping noises unfolds, layered with a sustained, high-pitched whine that suggests a high-speed mechanical process, such as a spinning blade or turbine. The reverberation is pronounced, with echoes trailing each sound, reinforcing the impression of a vast, empty, industrial environment. The metallic screech intensifies, and a deep, guttural roar emerges, evoking the presence of a monstrous or mechanical entity. The soundscape is further enriched by a low-frequency rumble and a high-frequency hiss, with the metallic elements dominating the mix. The sequence escalates as a powerful",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person in dark clothing runs across a metal bridge, dodging debris and obstacles while moving quickly. Another figure in dark attire stands ahead, seemingly confronting or pursuing the runner. The scene is dimly lit, with industrial metal structures and falling fragments visible in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

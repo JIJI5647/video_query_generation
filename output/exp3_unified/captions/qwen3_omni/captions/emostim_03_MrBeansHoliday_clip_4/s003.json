@@ -1,0 +1,28 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A man in a brown suit and tie is riding a bicycle on a paved road. A white Jeep is driving alongside him, and the man looks over at the vehicle. The background consists of green hills and a clear blue sky.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio contains the sound of a vehicle engine and road noise, suggesting the Jeep is in motion.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s003\", \"time_range\": [10.0, 15.0], \"visual\": \"A man in a brown suit and tie is riding a bicycle on a paved road. A white Jeep is driving alongside him, and the man looks over at the vehicle. The background consists of green hills and a clear blue sky.\", \"audio\": \"The audio contains the sound of a vehicle engine and road noise, suggesting the Jeep is in motion.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}]"
+}

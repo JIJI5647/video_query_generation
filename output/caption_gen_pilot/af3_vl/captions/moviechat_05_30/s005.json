@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s005",
+  "time_range": [
+    20.0,
+    25.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a single, intense scream with a high-pitched, strained quality, conveying a sense of extreme distress or fear.",
+  "temporal_description": "A pale, bald figure in dark robes is seen in a dim, rocky environment, initially raising an arm and later moving toward the ground. The scene shifts to show two figures standing on a rocky outcrop, facing a glowing, swirling magical portal. A large group of similarly dressed individuals stands in formation below, observing the two figures. One of the figures on the outcrop casts a bright beam of light downward. A close-up of an older woman in dark clothing is shown, her face partially illuminated.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A pale, bald figure in dark robes is seen in a dim, rocky environment, initially raising an arm and later moving toward the ground. The scene shifts to show two figures standing on a rocky outcrop, facing a glowing, swirling magical portal. A large group of similarly dressed individuals stands in formation below, observing the two figures. One of the figures on the outcrop casts a bright beam of light downward. A close-up of an older woman in dark clothing is shown, her face partially illuminate",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

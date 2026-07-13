@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_03_160",
+  "segment_id": "s009",
+  "time_range": [
+    40.0,
+    45.0
+  ],
+  "visual_description": "Two men in light-colored shirts sit at a desk; one adjusts his glasses while the other looks forward with a focused expression. The camera then shifts to a man leaning on a laptop, appearing tired, before cutting to a wider view of a dimly lit office where a man in a white shirt stands behind a seated colleague working on a laptop. A man in a dark suit and tie, wearing a headset, stands looking ahead while other staff move in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is not clearly audible.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s009\", \"time_range\": [40.0, 45.0], \"visual\": \"Two men in light-colored shirts sit at a desk; one adjusts his glasses while the other looks forward with a focused expression. The camera then shifts to a man leaning on a laptop, appearing tired, before cutting to a wider view of a dimly lit office where a man in a white shirt stands behind a seated colleague working on a laptop. A man in a dark suit and tie, wearing a headset, stands looking ahead while other staff move in the back"
+}

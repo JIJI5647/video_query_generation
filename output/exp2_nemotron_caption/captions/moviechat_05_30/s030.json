@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s030",
+  "time_range": [
+    145.0,
+    150.0
+  ],
+  "visual_description": "A distressed man in a patterned sweater leans over a wooden floor, peering up from a dark opening. The scene shifts to near‑total darkness where a faint silhouette of a figure is barely visible. Finally, a distant, illuminated tower or structure glows faintly against the night sky.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio is mostly silent with a faint rustling sound, unclear if any speech is present.",
+  "temporal_description": "",
+  "confidence": "medium",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s030\", \"time_range\": [145.0, 150.0], \"visual\": \"A distressed man in a patterned sweater leans over a wooden floor, peering up from a dark opening. The scene shifts to near‑total darkness where a faint silhouette of a figure is barely visible. Finally, a distant, illuminated tower or structure glows faintly against the night sky.\", \"audio\": \"The audio is mostly silent with a faint rustling sound, unclear if any speech is present.\", \"confidence\": \"medium\", \"evidence_strength\": \"amb"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s069",
+  "time_range": [
+    340.0,
+    345.0
+  ],
+  "visual_description": "An overhead view shows a dimly lit, cluttered workshop filled with machinery and tools. A person in a light-colored shirt and dark pants is bent over near the center, seemingly adjusting or inspecting equipment. Another individual in darker clothing is partially visible near the right edge, appearing to move or interact with machinery.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sharp, metallic click, reminiscent of a latch or switch being engaged, immediately followed by a brief, high-frequency rustling sound. This rustling, likely produced by a stiff fabric such as canvas or denim, suggests the handling of a bag or piece of clothing. The rustling is accompanied by a subtle, low-frequency thump, indicating the object is being set down or adjusted. These sounds are captured with high fidelity, featuring a wide frequency range and a low noise floor, and are presented in a dry, close-mic’d manner with no environmental reverberation. As the initial sounds fade, a synthesized musical score emerges, characterized by a slow, minor-key melody played on a digital piano or electric piano. The music is enveloped in lush, artificial reverb, creating a spacious and cinematic atmosphere. The melody is simple, repetitive, and melancholic, with a descending motif that evokes a sense of or foreboding. The harmonic structure is built on minor chords, and the rhythm is slow and deliberate, reinforcing the somber mood. The music is presented in stereo, with the melody centered and the reverb extending across the sound field, while the initial rustling and thump remain localized to the left channel. Throughout",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "An overhead view shows a dimly lit, cluttered workshop filled with machinery and tools. A person in a light-colored shirt and dark pants is bent over near the center, seemingly adjusting or inspecting equipment. Another individual in darker clothing is partially visible near the right edge, appearing to move or interact with machinery.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

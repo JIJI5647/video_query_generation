@@ -1,0 +1,124 @@
+PROMPT VERSION: generation_prompt_events_v11_multitype
+
+TASK:
+You are given TWO signals extracted from one video:
+  (1) OBSERVATION captions (segment-level multimodal evidence per time range — NO
+      emotion), and
+  (2) EMOTION EVENTS (the moments where an emotion was judged, each with one of
+      eight labels and the observable cues supporting it).
+Read both, then write high-precision, emotion-related temporal grounding queries
+for human annotation. Each query is grounded on a ``time_range`` (in seconds) and
+must be answerable from the observable evidence at that time.
+
+FOR EACH EMOTION EVENT, write 2-3 queries of DIFFERENT query_types (see types
+below) that each capture the SAME moment from a different angle — e.g. one
+emotion_state query about the felt emotion, one evidence_cue query about the
+observable cue, and one explicit_event query about the action/interaction. Only
+write a type if it is genuinely supported by the observable evidence; if a moment
+only supports one angle, write one query rather than padding with weak ones. Never
+invent evidence to hit a count.
+
+You do NOT see the video. Treat the captions and events as the ground truth of
+what is observable.
+
+VIDEO ID: {video_id}
+
+SIGNAL A — OBSERVATION CAPTIONS (segment-level, NO emotion). Each caption:
+- ``time_range``: [start, end] seconds.
+- ``visual_objective``: objective visual facts — { people:[{person, visibility,
+  position, action}], scene:{location, setting}, objects, interactions,
+  key_actions, visibility_notes }.
+- ``visual_expression``: observable cues per person — [{ person, facial_cues,
+  body_cues, gaze }].
+- ``audio_description``: NON-VERBAL audio (tone of voice, shouting, crying,
+  laughing, silence). NOT a transcript; do not quote it as speech.
+- ``temporal_description``: how the action/audio progresses (optional).
+- ``confidence`` / ``evidence_strength``: how reliable the caption is.
+{captions_json}
+
+SIGNAL B — EMOTION EVENTS (the emotion signal; each is a judged emotional moment):
+- ``emotion_label``: one of angry, excited, fear, sad, surprised, frustrated,
+  happy, disappointed.
+- ``event_description``, ``time_range``, ``target_person_or_group``.
+- ``visual_evidence`` / ``audio_evidence``: the observable cues behind the label.
+- ``confidence`` / ``evidence_strength``.
+{events_json}
+
+GENERATION RULES:
+
+1. GROUND QUERIES ON THE EMOTION EVENTS. Build queries around the emotion events
+   in Signal B, using the matching observation captions (Signal A) for the
+   concrete observable cues and timing. Prefer events with higher
+   confidence/evidence_strength.
+
+2. STAY OBSERVABLE. Every query must be answerable from observable evidence
+   (facial cues, body cues, gaze, actions, non-verbal audio). Do not ask about
+   unobservable mental content (what someone intends/knows/remembers/wants).
+
+3. EVIDENCE STRENGTH DECIDES QUERY TYPE.
+   - Event with "clear" evidence or "high" confidence -> you MAY write an
+     emotion_state query, e.g.
+       "At what point does the woman appear surprised while speaking excitedly?"
+   - Weak/ambiguous event -> prefer an evidence_cue query naming only the cue, e.g.
+       "When does the woman widen her eyes and open her mouth while talking?"
+
+4. DO NOT INVENT events, people, cues, or objects not present in the captions or
+   events. There is no transcript: never quote spoken words.
+
+5. QUERY_TEXT MUST BE SELF-CONTAINED: a natural description of the target person
+   (clothing, role, position), the action, the facial/expression cue, the voice
+   cue, and the interaction partner when needed.
+   Good: "When does the woman in a white shirt widen her eyes and speak excitedly?"
+   Bad:  "When does the person in s022 appear surprised?"   (internal id)
+
+6. NEVER EXPOSE INTERNAL ANNOTATION in query_text: no segment id (e.g. "s009"), no
+   person id, no timestamp or time range. The ``time_range`` field carries timing.
+
+7. PER EVENT, COVER MULTIPLE TYPES. For each emotion event, prefer giving 2-3
+   queries with DIFFERENT query_types (explicit_event, emotion_state,
+   evidence_cue), each a distinct angle on that same moment — not reworded
+   duplicates. Use varied question starters ("When does...", "At what point...",
+   "Which moment shows...", "How does the video show..."). Drop a type if the
+   evidence does not genuinely support it.
+
+8. Language & anonymization: English only; visual descriptions, never
+   character/actor/place/brand names. Role words (doctor, judge) and visually
+   grounded kinship terms (mother, husband) are allowed.
+
+QUERY TYPE DEFINITIONS:
+- explicit_event: an observable emotional action, interaction, or audio event.
+- emotion_state: a person's perceived emotional state (only when the event's
+  evidence is clear/high per rule 3; hedging like "appears"/"looks" is optional).
+- evidence_cue: an observable cue supporting emotion reasoning (facial expression,
+  voice, gaze, posture, hesitation, silence, interactional response).
+
+GROUNDING METADATA (you provide ``time_range`` and ``grounding_evidence``; the
+system fills internal ``segment_ids`` / ``source_caption_ids`` from your
+time_range — do NOT output those):
+- ``time_range``: the [start, end] in seconds covering the evidence the query
+  relies on (use the event's range, or the union across consecutive captions for
+  one continuous event). Do NOT merge unrelated moments.
+- ``grounding_evidence``:
+  - ``visual_evidence``: e.g. ["eyes widened", "mouth open"]
+  - ``audio_evidence``: e.g. ["excited voice"]
+
+OUTPUT REQUIREMENTS:
+Return valid JSON only. No markdown, no comments, no text outside the JSON object.
+
+The output JSON must match this schema exactly:
+{
+"video_id": "{video_id}",
+"queries": [
+{
+"video_id": "{video_id}",
+"query_id": "<{video_id}_q01, {video_id}_q02, ...>",
+"query_type": "<explicit_event | emotion_state | evidence_cue>",
+"query_text": "<natural English query; no proper nouns, no segment ids, no person ids, no timestamps>",
+"time_range": [<start_seconds>, <end_seconds>],
+"grounding_evidence": {
+"visual_evidence": ["<observable visual cue>", "..."],
+"audio_evidence": ["<observable non-verbal audio cue>", "..."]
+}
+}
+]
+}

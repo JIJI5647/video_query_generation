@@ -1,0 +1,28 @@
+{
+  "video_id": "moviechat_04_159",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_description": "A sweaty man in a dark suit looks down, brings a cigarette to his mouth, and a lighter flame lights it; the shot then cuts to a man in glasses and a suit looking down as the flame ignites the cigarette.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A brief click and crackle accompany the lighter, with faint breathing audible in the background.",
+  "temporal_description": "",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+  "caption_status": "normalized",
+  "raw_output_preview": "{\"segment_id\": \"s001\", \"time_range\": [0.0, 5.0], \"visual\": \"A sweaty man in a dark suit looks down, brings a cigarette to his mouth, and a lighter flame lights it; the shot then cuts to a man in glasses and a suit looking down as the flame ignites the cigarette.\", \"audio\": \"A brief click and crackle accompany the lighter, with faint breathing audible in the background.\", \"confidence\": \"high\", \"evidence_strength\": \"clear\"}"
+}

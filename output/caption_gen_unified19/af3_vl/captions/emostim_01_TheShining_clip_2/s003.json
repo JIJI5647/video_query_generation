@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_description": "A young boy with light brown hair, wearing a striped sweater, stands in a dimly lit room holding a large knife in his right hand and a small object in his left. He turns his head slightly to his left, looking toward a television set, while the warm glow of a lamp illuminates part of the room. The room contains vintage furniture, curtains, and a cluttered table with various items, with the boy positioned near the center of the frame.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a female voice with a low pitch and slow pace, sounding and.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young boy with light brown hair, wearing a striped sweater, stands in a dimly lit room holding a large knife in his right hand and a small object in his left. He turns his head slightly to his left, looking toward a television set, while the warm glow of a lamp illuminates part of the room. The room contains vintage furniture, curtains, and a cluttered table with various items, with the boy positioned near the center of the frame.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

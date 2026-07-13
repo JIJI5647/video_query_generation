@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A child in a red sweater stands at a door, reaching for the doorknob, while another person lies asleep in bed nearby. The child is seen from behind, with their back to the camera, and the room is dimly lit by a bedside lamp. The sleeping person is partially covered by a patterned blanket and appears to be resting peacefully.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice with a low pitch and a slow pace, accompanied by a noticeable gasp.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child in a red sweater stands at a door, reaching for the doorknob, while another person lies asleep in bed nearby. The child is seen from behind, with their back to the camera, and the room is dimly lit by a bedside lamp. The sleeping person is partially covered by a patterned blanket and appears to be resting peacefully.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

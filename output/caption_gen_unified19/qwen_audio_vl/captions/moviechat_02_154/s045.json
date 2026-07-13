@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s045",
+  "time_range": [
+    220.0,
+    225.0
+  ],
+  "visual_description": "In a dark outdoor setting illuminated by a single overhead light, two figures are visible near a parked car, one standing beside the open driver’s side door and the other partially inside the vehicle. The standing person appears to be holding a phone or small object to their ear, while the other person is seated with their arm extended outward. The surrounding area is dimly lit, with vegetation visible near the car and distant city lights in the background.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a rich, cinematic orchestral score, dominated by sweeping strings and a prominent, mournful brass melody. The music is grand and emotionally charged, evoking a sense of tragedy or loss, and is presented in a wide stereo field with a lush, reverberant quality that suggests a large concert hall or studio. The orchestral arrangement is dense and layered, with no other sounds present, and the music is abruptly cut off mid-phrase, leaving a sudden silence. Immediately following the silence, a sharp, metallic click is heard, panned slightly to the left. This sound is dry, percussive, and closely mic’d, resembling the actuation of a mechanical switch or button. The click is followed by a brief, low-frequency thud, also dry and centered, which suggests a physical object being placed or set down on a hard surface. These sounds are isolated and lack any environmental context, indicating a controlled recording environment. After a short pause, a loud, synthetic electronic tone begins. This tone is a pure, low-frequency square wave at approximately 110 Hz (A2), with a harsh, buzzy timbre and no modulation or variation. It is centered in the stereo field and is much louder than the preceding sounds",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "In a dark outdoor setting illuminated by a single overhead light, two figures are visible near a parked car, one standing beside the open driver’s side door and the other partially inside the vehicle. The standing person appears to be holding a phone or small object to their ear, while the other person is seated with their arm extended outward. The surrounding area is dimly lit, with vegetation visible near the car and distant city lights in the background.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

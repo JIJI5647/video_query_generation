@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s040",
+  "time_range": [
+    195.0,
+    200.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip features a male voice speaking in a neutral tone with a moderate pace, accompanied by the sound of footsteps and background music.",
+  "temporal_description": "A man in a dark red leather jacket is seated at a round table in a dimly lit, modestly furnished dining area. He is seen from behind and side angles, holding a small plate with food, and later placing it on the table. The table has a yellow-lidded container, plates with food, and a hot pot. The walls are adorned with posters and notices, and other tables and chairs are visible in the background. The man remains seated, occasionally adjusting his posture and looking around the room.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a dark red leather jacket is seated at a round table in a dimly lit, modestly furnished dining area. He is seen from behind and side angles, holding a small plate with food, and later placing it on the table. The table has a yellow-lidded container, plates with food, and a hot pot. The walls are adorned with posters and notices, and other tables and chairs are visible in the background. The man remains seated, occasionally adjusting his posture and looking around the room.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

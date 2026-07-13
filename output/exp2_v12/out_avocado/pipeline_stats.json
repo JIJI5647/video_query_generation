@@ -1,0 +1,59 @@
+{
+  "total_videos": 5,
+  "total_segments": 102,
+  "total_raw_captions": 102,
+  "total_emotion_events": 74,
+  "total_initial_queries": 61,
+  "total_accepted_queries": 47,
+  "total_discarded_queries": 14,
+  "average_accepted_queries_per_video": 9.4,
+  "emotion_distribution": {
+    "frustrated": 11,
+    "angry": 6,
+    "surprised": 8,
+    "disappointed": 6,
+    "sad": 16,
+    "happy": 5,
+    "excited": 11,
+    "fear": 11
+  },
+  "query_type_distribution_initial": {
+    "evidence_cue": 42,
+    "emotion_state": 12,
+    "explicit_event": 7
+  },
+  "query_type_distribution_final_accepted": {
+    "evidence_cue": 38,
+    "emotion_state": 6,
+    "explicit_event": 3
+  },
+  "rewrite_count_distribution": {
+    "0": 61
+  },
+  "pass_rate_after_initial_verification": 0.7705,
+  "pass_rate_after_rewrites": 0.7705,
+  "discarded_query_count": 14,
+  "diversity_warnings": [
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: 13 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q01' and 'emostim_02_WhenHarryMetSally_clip_1_q03' are semantically similar (word overlap 72%)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q01' and 'emostim_02_WhenHarryMetSally_clip_1_q08' are semantically similar (word overlap 83%)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q01' and 'emostim_02_WhenHarryMetSally_clip_1_q16' are semantically similar (word overlap 83%)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q03' and 'emostim_02_WhenHarryMetSally_clip_1_q08' are semantically similar (word overlap 72%)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q03' and 'emostim_02_WhenHarryMetSally_clip_1_q16' are semantically similar (word overlap 72%)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q08' and 'emostim_02_WhenHarryMetSally_clip_1_q16' are semantically similar (word overlap 78%)",
+    "[emostim_02_WhenHarryMetSally_clip_1] WARNING: queries 'emostim_02_WhenHarryMetSally_clip_1_q10' and 'emostim_02_WhenHarryMetSally_clip_1_q16' are semantically similar (word overlap 70%)",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: only 2 accepted queries (recommended minimum: 3)",
+    "[emostim_03_MrBeansHoliday_clip_4] WARNING: all accepted queries have the same query_type 'emotion_state' — low diversity",
+    "[emostim_06_TheChamp_clip_3] WARNING: 10 accepted queries start with 'when does' — repetitive phrasing",
+    "[emostim_06_TheChamp_clip_3] WARNING: 10 accepted queries start with 'at what' — repetitive phrasing",
+    "[meld_01_dia337] WARNING: only 1 accepted queries (recommended minimum: 3)",
+    "[meld_01_dia337] WARNING: all accepted queries have the same query_type 'emotion_state' — low diversity",
+    "[meld_03_dia572] WARNING: 10 accepted queries start with 'when does' — repetitive phrasing",
+    "[meld_03_dia572] WARNING: queries 'meld_03_dia572_q01' and 'meld_03_dia572_q06' are semantically similar (word overlap 76%)",
+    "[meld_03_dia572] WARNING: queries 'meld_03_dia572_q01' and 'meld_03_dia572_q08' are semantically similar (word overlap 76%)",
+    "[meld_03_dia572] WARNING: queries 'meld_03_dia572_q01' and 'meld_03_dia572_q10' are semantically similar (word overlap 72%)",
+    "[meld_03_dia572] WARNING: queries 'meld_03_dia572_q04' and 'meld_03_dia572_q05' are semantically similar (word overlap 73%)",
+    "[meld_03_dia572] WARNING: queries 'meld_03_dia572_q06' and 'meld_03_dia572_q08' are semantically similar (word overlap 82%)",
+    "[meld_03_dia572] WARNING: queries 'meld_03_dia572_q09' and 'meld_03_dia572_q10' are semantically similar (word overlap 78%)"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "A group of men in dark suits are walking across a dimly lit urban street at night, with some standing near parked cars. One man in the foreground turns his head slightly, while others walk ahead or stand in clusters, their faces partially obscured by shadows and lighting. The scene is framed by tall buildings, streetlights, and a green traffic signal, with reflections visible on wet pavement.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, intense burst of sound: a rapid, rhythmic metallic clatter, reminiscent of a chain-link fence or gate being forcefully struck or shaken, accompanied by a persistent low-frequency rumble and a faint high-frequency hiss. These background noises suggest a large, open, and possibly industrial or urban outdoor setting, with the microphone positioned close to the action. The recording is of low fidelity, with pronounced digital clipping and distortion, especially during the loudest moments, and a compressed dynamic range that flattens the audio. Amidst this cacophony, a male voice shouts “喂呀!” (“Hey!”) in a high-pitched, urgent tone, immediately followed by a second male voice, slightly lower in pitch, exclaiming “喂呀喂呀!” (“Hey! Hey!”). Both voices are strained and, their shouts partially masked by the metallic noise and background rumble. The first speaker then urgently commands, “你定定眼!” (“Calm down!”), his tone shifting from alarm to a desperate attempt at control, though the urgency remains. The second voice responds with a brief, indistinct utterance, likely “喂呀!” (“Hey!”), but it is nearly lost in the ongoing metallic cl",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A group of men in dark suits are walking across a dimly lit urban street at night, with some standing near parked cars. One man in the foreground turns his head slightly, while others walk ahead or stand in clusters, their faces partially obscured by shadows and lighting. The scene is framed by tall buildings, streetlights, and a green traffic signal, with reflections visible on wet pavement.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

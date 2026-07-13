@@ -1,0 +1,34 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a white shirt and black tie",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "standing with hands on hips, holding a small object"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "an office or control room with glass walls and a television monitor displaying a security camera feed of a corridor"
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s059\", \"time_range\": [290.0, 295.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a white shirt and black tie\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"standing with hands on hips, holding a small object\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"an office or control room with glass walls and a television monitor displaying a security camera feed of a corridor\"}}, \"objects\": [{\"object\": \"television monitor\", \"visibility\": \"clearly visi"
+}

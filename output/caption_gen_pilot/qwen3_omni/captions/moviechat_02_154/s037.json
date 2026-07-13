@@ -1,0 +1,38 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s037",
+  "time_range": [
+    180.0,
+    185.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dark room with a table and a fire pit"
+    },
+    "objects": [
+      {
+        "name": "gold watch",
+        "description": "a gold-colored wristwatch with a white dial and a date window, placed on a dark surface."
+      },
+      {
+        "name": "fire pit",
+        "description": "a container filled with burning coals and flames, emitting bright orange and yellow light."
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "a hand reaches into the frame and touches the gold watch."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "a loud, high-pitched screeching sound is heard, followed by a crashing noise.",
+  "temporal_description": "the screeching sound starts abruptly, followed by a crashing sound.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s037\", \"time_range\": [180.0, 185.0], \"visual_objective\": {\"people\": [], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dark room with a table and a fire pit\"}, \"objects\": [{\"name\": \"gold watch\", \"description\": \"a gold-colored wristwatch with a white dial and a date window, placed on a dark surface.\"}, {\"name\": \"fire pit\", \"description\": \"a container filled with burning coals and flames, emitting bright orange and yellow light.\"}], \"interactions\": [], \"key_actions\": [\"a hand re"
+}

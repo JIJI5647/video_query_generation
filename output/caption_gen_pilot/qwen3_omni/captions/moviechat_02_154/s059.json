@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s059",
+  "time_range": [
+    290.0,
+    295.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark leather jacket",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "eating from a steaming bowl with chopsticks"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "dimly lit with a greenish hue, shelves with bottles in the background"
+    },
+    "objects": [
+      {
+        "object": "a steaming bowl",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "being eaten from"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "eating",
+      "using chopsticks"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark leather jacket",
+      "facial_cues": [
+        "focusing on the bowl",
+        "chewing"
+      ],
+      "body_cues": [
+        "leaning forward",
+        "holding chopsticks"
+      ],
+      "gaze": "down at the bowl"
+    }
+  ],
+  "audio_description": "Upbeat, rhythmic music with a strong beat plays in the background.",
+  "temporal_description": "The man continues to eat throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s059\", \"time_range\": [290.0, 295.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark leather jacket\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"eating from a steaming bowl with chopsticks\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"dimly lit with a greenish hue, shelves with bottles in the background\"}, \"objects\": [{\"object\": \"a steaming bowl\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"being eaten from\""
+}

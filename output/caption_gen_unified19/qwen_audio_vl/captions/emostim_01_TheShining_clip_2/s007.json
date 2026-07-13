@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_01_TheShining_clip_2",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_description": "A child, wearing a striped sweater and dark pants, stands facing a closed door, holding a knife in their right hand. They are positioned near a bedside table with a lit lamp, and a person is lying in bed under a patterned blanket, seemingly asleep. The child’s back is mostly to the camera, and they appear to be focused on the door, occasionally shifting their stance slightly. The room is dimly lit, with warm lighting from the lamp casting shadows on the walls and door. The bed is to the left, and a clock is visible on the wall above the bedside table.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a loud, high-pitched, metallic ringing that immediately fills the soundscape. This sound is reminiscent of a bicycle bell or a small, hand-held bell, characterized by a bright, resonant tone with a rapid attack and a long, shimmering decay. The ringing is continuous and unbroken, with no discernible rhythm or pattern, and is accompanied by a faint, persistent background hiss, likely from the recording equipment. The bell’s sound is centered in the stereo field, with no spatial movement, and the environment is acoustically dry, suggesting a small, enclosed space with little reverberation. Shortly after the bell begins, a single male voice enters, speaking in a low, breathy, and slightly raspy tone. The speaker, who sounds like a young adult or middle-aged man with a General American accent, utters the phrase “Red Rock” in a slow, deliberate, and weary manner. The delivery is flat and emotionally neutral, with no inflection or emphasis, and the words are slightly muffled, as if spoken from a distance or with the mouth partially covered. The voice is also centered in the stereo field and is accompanied by the same background hiss, with no additional environmental sounds present. As the bell",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A child, wearing a striped sweater and dark pants, stands facing a closed door, holding a knife in their right hand. They are positioned near a bedside table with a lit lamp, and a person is lying in bed under a patterned blanket, seemingly asleep. The child’s back is mostly to the camera, and they appear to be focused on the door, occasionally shifting their stance slightly. The room is dimly lit, with warm lighting from the lamp casting shadows on the walls and door. The bed is to the left, an",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

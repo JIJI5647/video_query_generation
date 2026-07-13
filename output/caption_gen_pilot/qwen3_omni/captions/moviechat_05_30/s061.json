@@ -1,0 +1,50 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s061",
+  "time_range": [
+    300.0,
+    305.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "pushing another man forward"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "pushing another man forward"
+      },
+      {
+        "person": "a man in a dark suit",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "being pushed forward by the other two men"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a large, ruined stone hall with a gothic archway, filled with rubble and debris."
+    },
+    "objects": [],
+    "interactions": [
+      "The two men on the sides are pushing the man in the center forward."
+    ],
+    "key_actions": [
+      "The two men on the sides push the man in the center forward through the archway."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "A loud, deep, and resonant roar, like a large creature or monster, is heard.",
+  "temporal_description": "The roar begins at the start of the clip and continues throughout.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s061\", \"time_range\": [300.0, 305.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"pushing another man forward\"}, {\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"pushing another man forward\"}, {\"person\": \"a man in a dark suit\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"being pushed forward by the other two men\"}], \"scene"
+}

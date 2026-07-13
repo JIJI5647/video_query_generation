@@ -1,0 +1,29 @@
+{
+  "video_id": "moviechat_01_162",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with a moderate pace and clear enunciation, accompanied by a steady background hum.",
+  "temporal_description": "The video shows two individuals seated inside a moving vehicle, viewed from the rear. The driver, with dark hair and wearing a dark jacket, is seen holding their head with one hand, while the passenger remains mostly obscured. The car is traveling along a road surrounded by greenery, with raindrops visible on the windshield, blurring the view outside. The driver’s posture is slumped slightly, and their hand remains on their head throughout the clip.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "The video shows two individuals seated inside a moving vehicle, viewed from the rear. The driver, with dark hair and wearing a dark jacket, is seen holding their head with one hand, while the passenger remains mostly obscured. The car is traveling along a road surrounded by greenery, with raindrops visible on the windshield, blurring the view outside. The driver’s posture is slumped slightly, and their hand remains on their head throughout the clip.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

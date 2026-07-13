@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_06_TheChamp_clip_3",
+  "segment_id": "s003",
+  "time_range": [
+    10.0,
+    15.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins in a quiet, acoustically neutral indoor setting, likely a small to medium-sized room with hard surfaces and minimal furnishings. The only audible element is a young child, estimated to be between 6 and 18 months old, who emits a series of high-pitched, strained vocalizations. The sequence starts with a brief, breathy, upward-inflected \"ah\" sound, followed by a longer, wavering \"oooh\" that rises and falls in pitch, conveying a sense of distress or discomfort. This is succeeded by a sharp, gasping inhalation, indicating the child is struggling to breathe or is in pain. The final vocalization is a short, high-pitched \"ah\" that is abruptly cut off, suggesting the child is either interrupted or the recording ends suddenly.\n\nThroughout the clip, the child’s voice is clear and close to the microphone, with no distortion or background noise, and the room’s acoustics are dry and unembellished. The emotional tone is unmistakably one of acute distress, with the child’s cries and gasps reflecting a state of pain or discomfort. There are no other voices, environmental sounds, or contextual cues present, and the recording ends abruptly, leaving the situation unresolved.\n\nIn summary, the audio captures a brief, intense episode of a very young child’s distress in a quiet, unadorned indoor environment. The absence of speech, music, or other contextual elements focuses attention solely on the child’s vocalizations, which are marked by high pitch, strain, and emotional urgency. The recording’s technical clarity and abrupt ending underscore the immediacy and unresolved nature of the child’s discomfort.",
+  "temporal_description": "A young child with blonde hair, wearing a gray shirt, is being held by an adult whose arms are wrapped around the child's shoulders. The adult is wearing a white shirt with dark sleeves and has a red wheel-like object visible behind them. The child’s hands are clasped together in front of them, and their head is slightly tilted downward. The adult’s hands remain steady on the child’s shoulders throughout the scene, and the child’s gaze is directed forward. The setting appears dimly lit, with the background mostly dark, emphasizing the two figures in the foreground.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A young child with blonde hair, wearing a gray shirt, is being held by an adult whose arms are wrapped around the child's shoulders. The adult is wearing a white shirt with dark sleeves and has a red wheel-like object visible behind them. The child’s hands are clasped together in front of them, and their head is slightly tilted downward. The adult’s hands remain steady on the child’s shoulders throughout the scene, and the child’s gaze is directed forward. The setting appears dimly lit, with the",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

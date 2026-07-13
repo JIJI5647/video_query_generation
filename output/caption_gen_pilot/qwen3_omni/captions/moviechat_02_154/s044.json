@@ -1,0 +1,77 @@
+{
+  "video_id": "moviechat_02_154",
+  "segment_id": "s044",
+  "time_range": [
+    215.0,
+    220.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man wearing glasses and an orange shirt",
+        "visibility": "clearly visible",
+        "position": "center",
+        "action": "lying on a white couch, holding a cigar, and smiling"
+      },
+      {
+        "person": "a woman with dark curly hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "lying on the couch next to the man, with her hand on his chest"
+      }
+    ],
+    "scene": {
+      "location": "indoor room",
+      "setting": "a room with a white couch and a brown wall in the background"
+    },
+    "objects": [
+      {
+        "object": "a cigar",
+        "visibility": "clearly visible",
+        "position": "right hand of the man",
+        "action": "held by the man"
+      }
+    ],
+    "interactions": [
+      "the woman's hand is on the man's chest",
+      "the man is smiling at the woman"
+    ],
+    "key_actions": [
+      "the man is lying on the couch",
+      "the woman is lying on the couch next to the man",
+      "the man is holding a cigar"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man wearing glasses and an orange shirt",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "lying on the couch",
+        "holding a cigar"
+      ],
+      "gaze": "looking at the woman"
+    },
+    {
+      "person": "a woman with dark curly hair",
+      "facial_cues": [
+        "smiling"
+      ],
+      "body_cues": [
+        "lying on the couch",
+        "hand on the man's chest"
+      ],
+      "gaze": "looking at the man"
+    }
+  ],
+  "audio_description": "A loud, sustained, high-pitched electronic tone is heard.",
+  "temporal_description": "The tone is present throughout the clip.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s044\", \"time_range\": [215.0, 220.0], \"visual_objective\": {\"people\": [{\"person\": \"a man wearing glasses and an orange shirt\", \"visibility\": \"clearly visible\", \"position\": \"center\", \"action\": \"lying on a white couch, holding a cigar, and smiling\"}, {\"person\": \"a woman with dark curly hair\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"lying on the couch next to the man, with her hand on his chest\"}], \"scene\": {\"location\": \"indoor room\", \"setting\": \"a room with a"
+}

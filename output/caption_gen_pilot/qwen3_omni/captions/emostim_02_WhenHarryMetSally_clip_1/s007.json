@@ -1,0 +1,74 @@
+{
+  "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+  "segment_id": "s007",
+  "time_range": [
+    30.0,
+    35.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a woman with blonde curly hair",
+        "visibility": "clearly visible",
+        "position": "left",
+        "action": "eating a sandwich and talking to the man across from her"
+      },
+      {
+        "person": "a man with dark hair and a mustache",
+        "visibility": "clearly visible",
+        "position": "right",
+        "action": "eating a sandwich and talking to the woman"
+      }
+    ],
+    "scene": {
+      "location": "indoor",
+      "setting": "a crowded restaurant or diner with other patrons in the background"
+    },
+    "objects": [
+      {
+        "object": "sandwich",
+        "visibility": "clearly visible",
+        "position": "in the hands of both people"
+      }
+    ],
+    "interactions": [
+      "The man and woman are sitting at a table, eating sandwiches, and having a conversation."
+    ],
+    "key_actions": [
+      "The woman speaks and gestures with her hand.",
+      "The man speaks and gestures with his hand."
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a woman with blonde curly hair",
+      "facial_cues": [
+        "mouth open as if speaking",
+        "eyebrows slightly raised"
+      ],
+      "body_cues": [
+        "gesturing with her right hand"
+      ],
+      "gaze": "towards the man"
+    },
+    {
+      "person": "a man with dark hair and a mustache",
+      "facial_cues": [
+        "mouth open as if speaking",
+        "eyebrows raised"
+      ],
+      "body_cues": [
+        "gesturing with his right hand"
+      ],
+      "gaze": "towards the woman"
+    }
+  ],
+  "audio_description": "A woman and a man are having a conversation.",
+  "temporal_description": "The woman speaks, then the man responds.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s007\", \"time_range\": [30.0, 35.0], \"visual_objective\": {\"people\": [{\"person\": \"a woman with blonde curly hair\", \"visibility\": \"clearly visible\", \"position\": \"left\", \"action\": \"eating a sandwich and talking to the man across from her\"}, {\"person\": \"a man with dark hair and a mustache\", \"visibility\": \"clearly visible\", \"position\": \"right\", \"action\": \"eating a sandwich and talking to the woman\"}], \"scene\": {\"location\": \"indoor\", \"setting\": \"a crowded restaurant or diner with other "
+}

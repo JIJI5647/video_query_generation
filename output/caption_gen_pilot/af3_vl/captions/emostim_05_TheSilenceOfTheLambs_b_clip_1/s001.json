@@ -1,0 +1,29 @@
+{
+  "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+  "segment_id": "s001",
+  "time_range": [
+    0.0,
+    5.0
+  ],
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio features a male voice speaking in a neutral tone, with clear and steady prosody, and no significant background noise or emotional inflection.",
+  "temporal_description": "A person wearing a dark jacket with a zipper is seated, their hand moving near the zipper area. The camera focuses closely on the jacket and hand, with the background blurred and indistinct. The person’s posture is upright, and their hand gestures suggest they are adjusting or interacting with the jacket. The scene is static, with minimal movement beyond the hand’s motion.",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "af3_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person wearing a dark jacket with a zipper is seated, their hand moving near the zipper area. The camera focuses closely on the jacket and hand, with the background blurred and indistinct. The person’s posture is upright, and their hand gestures suggest they are adjusting or interacting with the jacket. The scene is static, with minimal movement beyond the hand’s motion.",
+  "audio_source_model": "nvidia/audio-flamingo-3-hf",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

@@ -1,0 +1,30 @@
+{
+  "video_id": "emostim_03_MrBeansHoliday_clip_4",
+  "segment_id": "s017",
+  "time_range": [
+    80.0,
+    85.0
+  ],
+  "visual_description": "A man in a suit rides a bicycle down a paved road, his hands gripping the handlebars and his gaze forward. In the distance, other cyclists are visible ahead on the same road, and a vehicle can be seen further down the road. The scene is set in a rural landscape with dry grass, hills, and power lines visible under a clear sky.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a sudden, forceful entrance into a high-energy instrumental rock segment, immediately immersing the listener in a dense, professionally produced soundscape. The drums establish a relentless, driving rhythm with a punchy kick drum, sharp snare hits accented by gated reverb, and crisp, rapid hi-hats. The bass guitar provides a solid, melodic foundation, tightly synchronized with the drums and panned slightly left, while the rhythm guitar, heavily distorted and panned hard left, delivers a chugging, palm-muted riff. The lead guitar, panned hard right, introduces a melodic, high-register motif that stands out above the mix. The overall mix is wide and immersive, with each instrument occupying a distinct spatial position, and the sound is characterized by a bright, modern, and aggressive tone. As the segment progresses, the lead guitar transitions from its initial motif to a rapid, ascending melodic run, showcasing technical proficiency and adding a sense of urgency. The rhythm section maintains its intensity, with the drums and bass locking into a tight groove. The lead guitar then shifts to a sustained, high-pitched note, which is heavily processed with reverb and delay, creating a shimmering, atmospheric effect that contrasts with the aggressive rhythm.",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A man in a suit rides a bicycle down a paved road, his hands gripping the handlebars and his gaze forward. In the distance, other cyclists are visible ahead on the same road, and a vehicle can be seen further down the road. The scene is set in a rural landscape with dry grass, hills, and power lines visible under a clear sky.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

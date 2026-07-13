@@ -1,0 +1,30 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s065",
+  "time_range": [
+    320.0,
+    325.0
+  ],
+  "visual_description": "A person with round glasses is visible in a dimly lit scene, their face partially illuminated. The camera then shifts to a dark, cluttered interior space with indistinct shapes and objects, where a figure can be faintly seen moving in the distance. The person’s gaze is directed slightly upward and to the side, and their posture appears tense.",
+  "visual_objective": {
+    "people": [],
+    "scene": {
+      "location": "",
+      "setting": ""
+    },
+    "objects": [],
+    "interactions": [],
+    "key_actions": [],
+    "visibility_notes": ""
+  },
+  "visual_expression": [],
+  "audio_description": "The audio clip begins with a rich, cinematic orchestral score, immediately immersing the listener in a grand, suspenseful atmosphere. The music is led by a string section—violins, violas, cellos, and double basses—playing a slow, descending motif in a minor key. The cellos and double basses establish a deep, resonant foundation, while the violins and violas weave a high-register melody. The arrangement is lush and enveloping, with a wide stereo image and a sense of vast, reverberant space, evoking the acoustics of a concert hall or cathedral. The music is entirely instrumental, with no vocals or environmental sounds, and is marked by a high-fidelity, studio-quality recording. The tone is one of foreboding and anticipation, reminiscent of classic film scores from the mid-20th century, particularly those of Bernard Herrmann, and is designed to build tension and suspense. At precisely 4.5 seconds, the music is abruptly and completely cut off, with no fade or transition. This sudden silence is immediately replaced by a loud, harsh, low-frequency electronic buzz. The buzz is monophonic, centered in the stereo field, and features a fundamental frequency of approximately",
+  "temporal_description": "",
+  "confidence": "low",
+  "evidence_strength": "ambiguous",
+  "source_caption_model": "qwen_audio_vl",
+  "caption_status": "merged",
+  "raw_output_preview": "A person with round glasses is visible in a dimly lit scene, their face partially illuminated. The camera then shifts to a dark, cluttered interior space with indistinct shapes and objects, where a figure can be faintly seen moving in the distance. The person’s gaze is directed slightly upward and to the side, and their posture appears tense.",
+  "audio_source_model": "Qwen/Qwen3-Omni-30B-A3B-Captioner",
+  "video_source_model": "Qwen/Qwen3-VL-8B-Instruct"
+}

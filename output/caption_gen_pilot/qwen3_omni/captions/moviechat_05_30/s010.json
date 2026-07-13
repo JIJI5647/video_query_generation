@@ -1,0 +1,57 @@
+{
+  "video_id": "moviechat_05_30",
+  "segment_id": "s010",
+  "time_range": [
+    45.0,
+    50.0
+  ],
+  "visual_objective": {
+    "people": [
+      {
+        "person": "a man in a dark robe",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "kneeling on a rocky surface, holding a wand"
+      }
+    ],
+    "scene": {
+      "location": "outdoor rocky area",
+      "setting": "dark and stormy with a glowing, turbulent sky in the background"
+    },
+    "objects": [
+      {
+        "object": "a wand",
+        "visibility": "clearly visible",
+        "position": "foreground",
+        "action": "held by the man"
+      }
+    ],
+    "interactions": [],
+    "key_actions": [
+      "kneeling",
+      "holding a wand"
+    ],
+    "visibility_notes": ""
+  },
+  "visual_expression": [
+    {
+      "person": "a man in a dark robe",
+      "facial_cues": [
+        "pale face",
+        "open mouth"
+      ],
+      "body_cues": [
+        "kneeling",
+        "holding a wand"
+      ],
+      "gaze": "downward"
+    }
+  ],
+  "audio_description": "a loud, distorted, and echoing sound, possibly a scream or roar, is heard.",
+  "temporal_description": "the sound starts abruptly and fades out.",
+  "confidence": "high",
+  "evidence_strength": "clear",
+  "source_caption_model": "Qwen/Qwen3-Omni-30B-A3B-Instruct",
+  "caption_status": "normalized",
+  "raw_output_preview": "[{\"segment_id\": \"s010\", \"time_range\": [45.0, 50.0], \"visual_objective\": {\"people\": [{\"person\": \"a man in a dark robe\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"kneeling on a rocky surface, holding a wand\"}], \"scene\": {\"location\": \"outdoor rocky area\", \"setting\": \"dark and stormy with a glowing, turbulent sky in the background\"}, \"objects\": [{\"object\": \"a wand\", \"visibility\": \"clearly visible\", \"position\": \"foreground\", \"action\": \"held by the man\"}], \"interactions\": ["
+}
