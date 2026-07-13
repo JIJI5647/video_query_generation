@@ -73,8 +73,8 @@ def test_normalize_plain_text_av():
     assert isinstance(cap, OmniCaption)
     assert cap.segment_id == "s001" and cap.video_id == "v"
     assert cap.time_range == [0.0, 5.0]
-    # AV plain text lands in temporal_description; visuals not fabricated.
-    assert "eyes widen" in cap.temporal_description
+    # AV plain text lands in visual_description; visuals not fabricated.
+    assert "eyes widen" in cap.visual_description
     assert cap.source_caption_model == "qwen3_omni"
 
 
@@ -171,7 +171,7 @@ def test_normalize_audio_only_never_fabricates_visual():
         source_caption_model="secap", modality="audio",
     )
     assert cap.audio_description == "a trembling, shaky voice"
-    assert not cap.temporal_description
+    assert not cap.visual_description
     assert cap.visual_objective.people == [] and cap.visual_expression == []
 
 
@@ -182,7 +182,7 @@ def test_normalize_video_only_never_fabricates_audio():
         source_caption_model="qwen_vl", modality="video",
     )
     assert cap.audio_description == ""  # video-only must not invent audio
-    assert "paces" in cap.temporal_description
+    assert "paces" in cap.visual_description
 
 
 # ---------------------------------------------------------------------------
@@ -201,7 +201,7 @@ def test_merge_audio_video_caption():
     assert isinstance(cap, OmniCaption)
     # Audio evidence from the audio model; visual/temporal from the video model.
     assert cap.audio_description == "a shaky, tearful voice"
-    assert "covers her face" in cap.temporal_description
+    assert "covers her face" in cap.visual_description
     assert cap.audio_source_model == "yaoxunxu/SECaps"
     assert cap.video_source_model == "Qwen/Qwen3-VL-8B-Instruct"
 
@@ -230,7 +230,7 @@ def test_normalize_caption_output_audio_video_merges():
     )
     cap = cqt.normalize_caption_output(out, seg, "v", "qwen_audio_vl")
     assert cap.audio_description == "a trembling voice"
-    assert "backs away" in cap.temporal_description
+    assert "backs away" in cap.visual_description
     assert cap.audio_source_model == "A" and cap.video_source_model == "B"
 
 
@@ -275,7 +275,7 @@ def test_batch_fake_session_round_trip_av():
         sess.close()
     assert sess.calls == 2 and sess.closed
     assert [c.segment_id for c in caps] == ["s001", "s002"]
-    assert "s002" in caps[1].temporal_description
+    assert "s002" in caps[1].visual_description
     assert caps[0].confidence == "medium"  # avocado default
     # Both are valid OmniCaptions that round-trip through write/read helpers.
     assert all(isinstance(c, OmniCaption) for c in caps)
@@ -567,4 +567,48 @@ def test_run_timechat_folds_array_output(monkeypatch):
         out.raw_output, seg, "v", source_caption_model="timechat", modality="av",
     )
     assert cap.caption_status == "normalized"
-    assert "She looks afraid." in cap.temporal_description
+    assert "She looks afraid." in cap.visual_description
+
+
+# --- emotion-leak neutralizer (best-effort, for prompt-less audio captioners) ---
+
+def test_neutralize_strips_attribution_clause():
+    txt = ("The audio features a female voice with a high pitch and moderate "
+           "speed, expressing surprise or shock, accompanied by heavy breathing "
+           "and a gasp.")
+    out = cqt._neutralize_emotion_words(txt)
+    for w in ("surprise", "shock", "expressing"):
+        assert w not in out.lower()
+    # observable acoustic cues preserved
+    assert "high pitch" in out and "heavy breathing" in out and "gasp" in out
+
+
+def test_neutralize_strips_standalone_adjective_and_tidies_article():
+    out = cqt._neutralize_emotion_words("A man speaks in a sad, low-pitched voice with a slow pace.")
+    assert "sad" not in out.lower()
+    assert "a low-pitched voice" in out  # article-comma artifact cleaned
+
+
+def test_neutralize_leaves_emotion_free_text_untouched():
+    txt = "Heavy breathing and a sudden gasp, then silence."
+    assert cqt._neutralize_emotion_words(txt) == txt
+
+
+def test_neutralize_handles_empty():
+    assert cqt._neutralize_emotion_words("") == ""
+    assert cqt._neutralize_emotion_words(None) is None
+
+
+def test_merge_audio_video_caption_neutralizes_audio(monkeypatch):
+    from emotion_query_pipeline.models import Segment
+    seg = Segment(segment_id="s001", index=0, start_time=0.0, end_time=5.0,
+                  clip_path="x/s001.mp4")
+    cap = cqt.merge_audio_video_caption(
+        "A loud voice, conveying anger, with sharp consonants.",
+        "A man stands and gestures.",
+        seg, "vid1",
+        audio_source_model="am", video_source_model="vm",
+        source_caption_model="qwen_audio_vl",
+    )
+    assert "anger" not in cap.audio_description.lower()
+    assert "sharp consonants" in cap.audio_description

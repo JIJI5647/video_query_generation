@@ -104,6 +104,7 @@ class GeminiLLMClient(BaseLLMClient):
         "CaptionBatchOutput": "caption",
         "EmotionEventOutput": "emotion_event",
         "GenerationOutput": "generation",
+        "RegroundingOutput": "reground",
         "VerificationBatchOutput": "verification",
         "RewriteBatchOutput": "rewrite",
     }

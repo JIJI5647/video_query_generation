@@ -36,6 +36,7 @@ from emotion_query_pipeline.emotion_events import generate_emotion_events
 from emotion_query_pipeline.export import export_all
 from emotion_query_pipeline.generation import generate_queries
 from emotion_query_pipeline.llm_client import GeminiLLMClient
+from emotion_query_pipeline.regrounding import reground_queries
 from emotion_query_pipeline.segmentation import (
     extract_segment_clips,
     grid_key,
@@ -238,6 +239,39 @@ def main() -> None:
         "entirely (no clip upload/watch, no verification_results). Every "
         "video's traces end up empty, matching the existing 0-queries path.",
     )
+    # --- Re-grounding stage (between generation and verification) ---
+    parser.add_argument(
+        "--regrounding",
+        dest="regrounding",
+        action="store_true",
+        default=True,
+        help="Re-select each query's grounding segment(s) with a Gemini call "
+        "after generation, before verification (default on). The original "
+        "generation-stage grounding is preserved in gen_time_range/"
+        "gen_segment_ids; a missing/invalid selection falls back to it.",
+    )
+    parser.add_argument(
+        "--no-regrounding",
+        dest="regrounding",
+        action="store_false",
+        help="Disable the re-grounding stage; verification checks the "
+        "generation stage's own grounding, as before this stage existed.",
+    )
+    parser.add_argument(
+        "--regrounding-scope",
+        choices=["full", "window"],
+        default="full",
+        help="'full' (default): the re-grounding call sees ALL of the video's "
+        "captions for every query. 'window': restricted to +/- "
+        "--regrounding-window segments around each query's original grounding.",
+    )
+    parser.add_argument(
+        "--regrounding-window",
+        type=int,
+        default=2,
+        help="window scope only: how many segments on each side of a query's "
+        "original grounding are offered as re-grounding candidates.",
+    )
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -386,6 +420,24 @@ def main() -> None:
                 )
             print(f"  {len(gen_output.queries)} queries generated")
 
+            # Step 4.5: re-ground queries — a Gemini call re-selects each
+            # query's grounding segment(s) from its text (no video); the
+            # original generation-stage grounding is preserved in gen_*
+            # fields. Runs before verification so verification checks the
+            # FINAL (re-grounded) clip(s).
+            if args.regrounding and gen_output.queries:
+                print(f"  → re-grounding {len(gen_output.queries)} query(ies) "
+                      f"(Gemini, scope={args.regrounding_scope})...", flush=True)
+                with timer.stage("reground"):
+                    gen_output.queries, rg_stats = reground_queries(
+                        video_id, gen_output.queries, gen_captions, segments,
+                        client, scope=args.regrounding_scope,
+                        window=args.regrounding_window,
+                    )
+                result.regrounding[video_id] = rg_stats
+                print(f"  reground: {rg_stats['changed']} changed, "
+                      f"{rg_stats['fallback']} fell back (of {rg_stats['total']})")
+
             # Step 6: make the grounded segment clips available to verify/rewrite,
             # then check each query against just its own clip(s). Gemini needs the
             # clips uploaded (URIs); Qwen3-Omni watches the local clip paths
@@ -482,6 +534,7 @@ def main() -> None:
         result.raw_captions,
         result.emotion_events,
         warnings,
+        result.regrounding,
     )
 
     print(f"\nExporting to: {output_dir}")

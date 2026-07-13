@@ -70,7 +70,35 @@ def _build_arg_parser() -> argparse.ArgumentParser:
     p.add_argument("--video-model-path", default=None)
     p.add_argument("--device-map", default="auto")
     p.add_argument("--attn-impl", default=None)
-    p.add_argument("--max-new-tokens", type=int, default=1024)
+    p.add_argument("--max-new-tokens", type=int, default=256)
+    p.add_argument(
+        "--vllm-video", action="store_true",
+        help="Run Qwen3-VL video captioning under vLLM in a subprocess server "
+             "(~10-70x faster; models qwen_audio_vl / af3_vl / secap_qwen). Requires "
+             "conda_envs/vllm_env; see docs/vllm_captioning.md.",
+    )
+    # Nemotron-3-Nano-Omni (served via a vLLM/trtllm OpenAI-compatible server).
+    p.add_argument("--nemotron-base-url", default="http://0.0.0.0:8000/v1",
+                    help="OpenAI-compatible base URL of the Nemotron server.")
+    p.add_argument(
+        "--nemotron-model",
+        default="nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+        help="Served model id (the HF repo id passed to trtllm-serve / vllm serve).",
+    )
+    p.add_argument(
+        "--nemotron-max-tokens", type=int, default=8192,
+        help="Generation budget for the Nemotron reasoning model (raise so the "
+        "chain-of-thought isn't truncated before the JSON, like Qwen Thinking).",
+    )
+    p.add_argument("--nemotron-no-thinking", action="store_true",
+                    help="Disable the Nemotron reasoning trace (enable_thinking=False).")
+    p.add_argument(
+        "--caption-parallel", type=int, default=1,
+        help="Caption this many segments concurrently. Only honoured for "
+        "concurrency-safe (HTTP-served, e.g. nemotron_omni) sessions; in-process "
+        "GPU sessions always run sequentially regardless. The served engine's "
+        "continuous batching turns the concurrent calls into one batched forward.",
+    )
     return p
 
 
@@ -153,6 +181,11 @@ def main() -> None:
         device_map=args.device_map,
         attn_impl=args.attn_impl,
         max_new_tokens=args.max_new_tokens,
+        use_vllm_video=args.vllm_video,
+        nemotron_base_url=args.nemotron_base_url,
+        nemotron_model=args.nemotron_model,
+        nemotron_max_tokens=args.nemotron_max_tokens,
+        nemotron_enable_thinking=not args.nemotron_no_thinking,
     )
 
     # Load the model ONCE for the whole run.
@@ -176,16 +209,20 @@ def main() -> None:
             print(f"  {len(segments)} segment(s)")
             v_t0 = time.perf_counter()
             n_cached = 0
+            caps_by_id: Dict[str, OmniCaption] = {}
+            todo: List[Segment] = []
             for seg in segments:
                 all_segments.append(seg)
                 cache_file = _cache_path(output_dir, video_id, seg.segment_id)
                 if cache_file.is_file() and not args.overwrite_captions:
-                    cap = OmniCaption.model_validate(
+                    caps_by_id[seg.segment_id] = OmniCaption.model_validate(
                         json.loads(cache_file.read_text(encoding="utf-8"))
                     )
-                    all_captions.append(cap)
                     n_cached += 1
-                    continue
+                else:
+                    todo.append(seg)
+
+            def _caption_one(seg: Segment):
                 audio_path = audio_by_segment.get(seg.segment_id)
                 out = session.caption(
                     seg, video_path=(seg.clip_path or str(video_path)),
@@ -194,12 +231,31 @@ def main() -> None:
                 cap = cqt.normalize_caption_output(
                     out, seg, video_id, args.caption_model
                 )
+                cache_file = _cache_path(output_dir, video_id, seg.segment_id)
                 cache_file.parent.mkdir(parents=True, exist_ok=True)
                 cache_file.write_text(
                     json.dumps(cap.model_dump(), ensure_ascii=False, indent=2),
                     encoding="utf-8",
                 )
-                all_captions.append(cap)
+                return seg.segment_id, cap
+
+            # Concurrency is opt-in (--caption-parallel) AND only for sessions that
+            # declare themselves thread-safe (HTTP-served, e.g. nemotron_omni). An
+            # in-process GPU session must stay sequential. Results are reassembled
+            # in segment order so raw_captions.jsonl stays aligned with segments.
+            workers = max(1, getattr(args, "caption_parallel", 1))
+            if todo and workers > 1 and getattr(session, "concurrent_safe", False):
+                from concurrent.futures import ThreadPoolExecutor
+                with ThreadPoolExecutor(max_workers=min(workers, len(todo))) as ex:
+                    for sid, cap in ex.map(_caption_one, todo):
+                        caps_by_id[sid] = cap
+            else:
+                for seg in todo:
+                    sid, cap = _caption_one(seg)
+                    caps_by_id[sid] = cap
+
+            for seg in segments:
+                all_captions.append(caps_by_id[seg.segment_id])
             v_secs = time.perf_counter() - v_t0
             per_video.append({
                 "video_id": video_id,

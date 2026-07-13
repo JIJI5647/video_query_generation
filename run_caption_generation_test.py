@@ -58,7 +58,22 @@ def _build_arg_parser() -> argparse.ArgumentParser:
     p.add_argument("--video-model-path", default=None)
     p.add_argument("--device-map", default="auto")
     p.add_argument("--attn-impl", default=None)
-    p.add_argument("--max-new-tokens", type=int, default=1024)
+    p.add_argument("--max-new-tokens", type=int, default=256)
+    # Nemotron-3-Nano-Omni (served via a vLLM/trtllm OpenAI-compatible server).
+    p.add_argument("--nemotron-base-url", default="http://0.0.0.0:8000/v1",
+                    help="OpenAI-compatible base URL of the Nemotron server.")
+    p.add_argument(
+        "--nemotron-model",
+        default="nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+        help="Served model id (the HF repo id passed to trtllm-serve / vllm serve).",
+    )
+    p.add_argument(
+        "--nemotron-max-tokens", type=int, default=8192,
+        help="Generation budget for the Nemotron reasoning model (raise so the "
+        "chain-of-thought isn't truncated before the JSON, like Qwen Thinking).",
+    )
+    p.add_argument("--nemotron-no-thinking", action="store_true",
+                    help="Disable the Nemotron reasoning trace (enable_thinking=False).")
     return p
 
 
@@ -162,6 +177,10 @@ def main() -> None:
         device_map=args.device_map,
         attn_impl=args.attn_impl,
         max_new_tokens=args.max_new_tokens,
+        nemotron_base_url=args.nemotron_base_url,
+        nemotron_model=args.nemotron_model,
+        nemotron_max_tokens=args.nemotron_max_tokens,
+        nemotron_enable_thinking=not args.nemotron_no_thinking,
     )
 
     # caption model -> raw output(s) per segment (heavy; runs on the server).

@@ -26,6 +26,7 @@ _PROMPT_TEMPLATES = [
     "omni_caption_prompt.txt",
     "emotion_event_prompt.txt",
     "generation_prompt.txt",
+    "regrounding_prompt.txt",
     "verification_prompt.txt",
     "rewrite_prompt.txt",
 ]
@@ -103,6 +104,8 @@ def export_final_queries(
                 segment_ids=t.segment_ids,
                 grounding_evidence=t.grounding_evidence,
                 source_caption_ids=t.source_caption_ids,
+                gen_time_range=t.gen_time_range,
+                gen_segment_ids=t.gen_segment_ids,
                 rewrite_count=t.rewrite_count,
                 verification_rounds=[rd.model_dump() for rd in t.verification_rounds],
                 final_status=t.final_status,

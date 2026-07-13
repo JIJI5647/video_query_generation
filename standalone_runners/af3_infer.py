@@ -20,10 +20,14 @@ Two modes:
 import sys
 
 _AUDIO_CAPTION_INSTRUCTION = (
-    "Listen to this short audio clip. In 1-3 sentences describe HOW the audio "
-    "sounds (voice quality, prosody, non-speech sounds such as shouting, crying, "
-    "laughing, heavy breathing, silence) — not the exact spoken words. Do NOT "
-    "describe anything visual."
+    "Listen to this short audio clip. In AT MOST 2 sentences describe HOW the "
+    "audio sounds (voice quality, prosody, non-speech sounds such as shouting, "
+    "crying, laughing, heavy breathing, silence) — not the exact spoken words. "
+    "Do NOT name or infer any emotion: describe only the acoustic qualities "
+    "themselves (pitch, loudness, pace, breathiness, gasp, tremor, sigh), NEVER "
+    "an emotion the voice 'expresses' or 'conveys' (do not write 'surprised', "
+    "'angry', 'sad', 'shocked', etc.). Emotion is decided in a later, separate "
+    "stage. Do NOT describe anything visual. Hard limit: 2 sentences."
 )
 
 

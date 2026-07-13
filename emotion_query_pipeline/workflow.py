@@ -2,21 +2,26 @@
 
 Generation is done upstream (caption-based, no video); this module takes the
 resulting ``GenerationOutput`` plus a ``segment_id -> clip URI`` map and runs a
-single combined loop. Verification and rewriting are ONE call: the verifier
-already returns a concrete ``suggested_revision`` for a ``revise`` verdict, so we
-apply that revision inline instead of making a separate rewrite call —
+single combined loop. Verification defaults to the per-dimension architecture
+(``verify_queries_per_dimension``, variant ``p7_rolecot`` — role framing + CoT,
+each of relevance/answerability/query_quality judged in its own call; see
+``prompts/README.md``). That path never returns a ``suggested_revision`` (only
+the combined single-call ``verify_queries``/``verify_queries_many`` — still used
+by ``run_verification.py``'s non-per-dimension arm — does), so:
 
   * ``pass``   -> accepted as-is;
   * ``fail``   -> discarded immediately (never revised);
-  * ``revise`` -> the verifier's ``suggested_revision`` is applied and the query
-                  is re-verified next round (bounded by ``max_rewrites``).
+  * ``revise`` -> no suggestion to apply inline, so it is discarded too — this
+                  variant relies entirely on the generation stage's initial
+                  quality, not on a rewrite loop. ``max_rewrites`` is kept for
+                  the (rare) case a caller wires up a combined-call client.
 
 Each query is verified while the model watches ONLY the clips of the segments the
 query is grounded on (``segment_ids``) -- not the whole video. Calls are per-query;
 per-round outputs are merged so downstream stats/export are unchanged (we still
-emit ``RewriteRecord``s for every applied revision). A per-query API failure
-discards just that query instead of aborting the whole video. The accepted cap is
-a parameter (``max_accepted``).
+emit ``RewriteRecord``s for every applied revision, when there are any). A
+per-query API failure discards just that query instead of aborting the whole
+video. The accepted cap is a parameter (``max_accepted``).
 """
 from __future__ import annotations
 
@@ -38,7 +43,7 @@ from .models import (
     VerificationBatchOutput,
     VerificationResult,
 )
-from .verification import verify_queries, verify_queries_many
+from .verification import verify_queries, verify_queries_many, verify_queries_per_dimension
 
 
 @dataclass
@@ -53,6 +58,10 @@ class PipelineResult:
     raw_captions: Dict[str, list] = field(default_factory=dict)
     emotion_events: Dict[str, EmotionEventOutput] = field(default_factory=dict)
     validation_warnings: List[str] = field(default_factory=list)
+    # Re-grounding stage stats per video: {"total": N, "changed": C, "fallback": F}
+    # (see ``regrounding.reground_queries``). Empty for a video where
+    # regrounding was disabled or produced no queries to reground.
+    regrounding: Dict[str, Dict[str, int]] = field(default_factory=dict)
 
 
 def _make_trace(q: EventGroundedQuery) -> QueryTrace:
@@ -71,6 +80,8 @@ def _make_trace(q: EventGroundedQuery) -> QueryTrace:
         segment_ids=list(q.segment_ids),
         grounding_evidence=q.grounding_evidence,
         source_caption_ids=list(q.source_caption_ids),
+        gen_time_range=list(q.gen_time_range),
+        gen_segment_ids=list(q.gen_segment_ids),
         rewrite_count=0,
         verification_rounds=[],
         final_status="discarded",
@@ -149,6 +160,8 @@ def _apply_verification_results(
                 segment_ids=list(old_q.segment_ids),
                 grounding_evidence=old_q.grounding_evidence,
                 source_caption_ids=list(old_q.source_caption_ids),
+                gen_time_range=list(old_q.gen_time_range),
+                gen_segment_ids=list(old_q.gen_segment_ids),
             )
             # stays pending for re-verification
         else:
@@ -237,19 +250,26 @@ def run_query_pipeline(
     max_accepted: int = 8,
     prompts_dir: Optional[Path] = None,
     verify_parallel: int = 1,
+    verify_variant: str = "p7_rolecot",
 ) -> Tuple[
     Dict[str, QueryTrace],
     List[VerificationBatchOutput],
     List[RewriteBatchOutput],
 ]:
-    """Run the combined verify+revise loop for one video's generated queries.
+    """Run the verify(+revise) loop for one video's generated queries.
 
     ``segment_uris`` maps ``segment_id`` to the Files API URI of that segment's
     clip. Each query is verified against only the clips of its own ``segment_ids``,
-    not the whole video. ``verify_parallel`` queries are verified in one batched
-    call (truly batched on the Qwen3-Omni engine). Verification and rewriting are
-    a single call: a ``revise`` verdict carries a ``suggested_revision`` that is
-    applied inline and re-verified next round (up to ``max_rewrites`` revisions).
+    not the whole video. Verification defaults to the per-dimension architecture
+    (``verify_variant``, default ``p7_rolecot`` — role + CoT; see
+    ``prompts/perdim/``): relevance/query_quality are judged from the query text
+    alone, answerability watches the clip(s), each in its own call.
+    ``verify_parallel`` queries are grouped into one batched call per dimension
+    (truly batched on the Qwen3-Omni engine). This path never produces a
+    ``suggested_revision``, so a ``revise`` verdict is discarded rather than
+    rewritten — there is no rewrite round in the default configuration, but
+    ``max_rewrites`` rounds still run (each re-verifying whatever the previous
+    round left pending) in case a caller passes a combined-call variant.
     """
     traces: Dict[str, QueryTrace] = {}
     current_queries: Dict[str, EventGroundedQuery] = {}
@@ -261,16 +281,20 @@ def run_query_pipeline(
     all_ver: List[VerificationBatchOutput] = []
     all_rw: List[RewriteBatchOutput] = []
 
-    # One combined verify+revise call per round. Round 1 is the initial verify;
-    # each extra round re-verifies queries whose revision was applied last round.
-    # At most max_rewrites extra rounds (a query is revised at most max_rewrites
-    # times before being discarded).
+    # One verify round per iteration. Round 1 is the initial verify; with the
+    # default per-dimension variant there are no suggested_revisions to apply,
+    # so pending empties out after round 1 (revise == discard, see module
+    # docstring) — the loop still supports extra rounds for a combined-call
+    # variant wired in by a caller.
     for round_index in range(1, max_rewrites + 2):
         if not pending:
             break
-        ver_output = _verify_per_query(
-            video_id, [current_queries[qid] for qid in sorted(pending)],
-            segment_uris, round_index, client, prompts_dir, verify_parallel,
+        round_queries = [current_queries[qid] for qid in sorted(pending)]
+        ver_output = verify_queries_per_dimension(
+            video_id, round_queries,
+            [_query_uris(q, segment_uris) for q in round_queries],
+            round_index, client, prompts_dir,
+            variant=verify_variant, verify_parallel=verify_parallel,
         )
         all_ver.append(ver_output)
         rewrites = _apply_verification_results(

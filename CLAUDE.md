@@ -158,3 +158,75 @@ the entire Qwen3-Omni backend — prompt construction, JSON extraction, field va
 cache/resume decision, atomic write, and the `OmniCaption → EmotionCaption` adapter are pure
 Python (heavy deps imported lazily). Only constructing `GeminiLLMClient` or
 `GeminiUploader` touches external services/models.
+
+## Research automation — leader workflow
+
+When acting on a high-level research goal, Claude is the **research engineering leader** for
+this project. The leader **decides and delegates**; it does not do everything itself, and it
+does not let a subagent set major direction. Route work by task type:
+
+| Task type | Who handles it |
+|---|---|
+| Find / filter / rank papers | **academic-search** skill (`.claude/skills/academic-search`) |
+| Deep-read a paper / README / model card | **paper-reader** subagent |
+| A defined implementation / fix | **implementer** subagent |
+| Failure, exception, OOM, 503, runaway gen, hang, JSON corruption | **error-analyst** subagent |
+| Experiment-result / metrics / case analysis | **result-analyst** subagent |
+| Code structure / module / config / reproducibility review | **architecture-reviewer** subagent |
+
+Subagent definitions live in `.claude/agents/*.md` and the skill in `.claude/skills/` —
+both **project-level, on `/work`, so they survive container restarts**. NEVER place agents
+or skills under `~/.claude/` — `$HOME` is wiped on restart (see progress_log).
+
+### Automatic research loop
+When a task is about improving **query generation, caption quality, verification, temporal
+grounding, evaluation, or model integration**, the leader runs this loop:
+
+1. State the current research goal explicitly.
+2. Use the **academic-search** skill to retrieve relevant papers.
+3. Hand the most relevant paper(s) to **paper-reader** for deep reading.
+4. Turn the paper's insight into a concrete pipeline-improvement hypothesis.
+5. Decide whether user approval is required (see approval rules below).
+6. If approved or not gated, hand a minimal implementation to **implementer**.
+7. Run the minimal validation.
+8. Hand outputs to **result-analyst** to judge whether it actually improved.
+9. On failure/anomaly, hand it to **error-analyst**.
+10. Leader summarizes conclusion, evidence, risks, and next step.
+11. If Notion MCP is available, record the stage result to Notion (see Notion rules).
+
+### academic-search usage
+Prefer **2024–2026** papers. Venue priority: ACL, EMNLP, NAACL, CVPR, ICCV, ECCV, ACM MM,
+NeurIPS, ICLR, AAAI. Priority directions: emotion-aware video query generation, video
+question generation, video temporal grounding, video moment retrieval, multimodal emotion
+reasoning, affective video understanding, audio-visual captioning, evidence-based video QA,
+verifier / self-refinement for multimodal generation, query-quality evaluation. Do **not**
+return generic video-captioning papers unless they directly help this pipeline. Division of
+labor: academic-search **finds**, paper-reader **reads**, leader **decides**, implementer
+**changes**, result-analyst **evaluates**, Notion **records**. (Node.js is only needed for
+the skill's Google-Scholar/CNKI browser mode; the open APIs — arXiv, Semantic Scholar,
+OpenAlex, Crossref — cover the venues above without it.)
+
+### Approval rules
+**Ask the user directly in chat** (never via Notion) before any of:
+- editing `prompts/*.txt`;
+- changing default configuration;
+- changing core pipeline behavior;
+- deleting or overwriting experiment data;
+- launching an expensive or long-running GPU job;
+- touching **secap**;
+- `git commit` / `git push`;
+- large-scale refactors.
+
+**No approval needed** for: using academic-search; reading papers / READMEs / docs; read-only
+repo inspection; analyzing existing experiment outputs; lightweight stats; structure review;
+proposing design suggestions; writing a stage result to Notion.
+
+### Notion MCP rules
+Notion MCP is configured in `.mcp.json` (project scope, remote HTTP `https://mcp.notion.com/mcp`);
+it needs a one-time `/mcp` OAuth approval per fresh `$HOME` (the `.mcp.json` entry persists;
+the OAuth token does not). When connected, Notion is the **experiment-result ledger only** —
+not an approval system and not a raw-log store. Record stage results with: Experiment Name,
+Date, Stage, Architecture Version, Pipeline Components, Research Motivation, Changes Made,
+Dataset / Videos / Run ID, Metrics, Baseline Result, New Result, Improvement, Failure Modes,
+Conclusion, Next Experiment. Do **not** write full terminal logs, long verbatim paper text,
+or discarded intermediate drafts to Notion.

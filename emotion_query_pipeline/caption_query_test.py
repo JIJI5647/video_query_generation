@@ -28,6 +28,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import subprocess
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -53,6 +54,14 @@ _AF3_SCRIPT = str(_PROJECT_ROOT / "standalone_runners" / "af3_infer.py")
 _SECAP_ENV_PYTHON = os.environ.get(
     "SECAP_ENV_PYTHON", str(_PROJECT_ROOT / "conda_envs" / "secap_env" / "bin" / "python")
 )
+# Qwen3-VL video captioning can optionally run under vLLM (~10-70x faster than the
+# in-process transformers path) in its own env, whose CUDA-12 vLLM/torch pins conflict
+# with the shared env — so it too runs as a persistent subprocess server. Opt-in via
+# RunnerConfig.use_vllm_video / --vllm-video. See standalone_runners/qwen3vl_vllm_server.py.
+_VLLM_ENV_PYTHON = os.environ.get(
+    "VLLM_ENV_PYTHON", str(_PROJECT_ROOT / "conda_envs" / "vllm_env" / "bin" / "python")
+)
+_VLLM_QWEN3VL_SCRIPT = str(_PROJECT_ROOT / "standalone_runners" / "qwen3vl_vllm_server.py")
 _SECAP_REPO_DIR = Path(
     os.environ.get("SECAP_REPO_DIR", str(_PROJECT_ROOT / "third_party" / "SECap"))
 )
@@ -63,18 +72,91 @@ _EVIDENCE_VALUES = ("clear", "ambiguous", "weak")
 # Text-caption instructions for the single-modality sub-runners (observation
 # only, no emotion — emotion is judged later by the Gemini emotion-event stage).
 VIDEO_CAPTION_INSTRUCTION = (
-    "Watch this short video clip (no audio). In 2-4 sentences describe ONLY what "
-    "is visible: the people (appearance, position, visibility), their observable "
-    "actions, the scene, and any observable facial cues, body cues, posture, "
-    "gestures and gaze. Do NOT name or infer any emotion, and do NOT describe "
-    "sound or speech. Describe only what is visible."
+    "Watch this short video clip (no audio). In AT MOST 3 sentences describe "
+    "ONLY what is visible: the people (appearance, position, visibility), their "
+    "observable actions, the scene, and any observable facial cues, body cues, "
+    "posture, gestures and gaze. Do NOT name or infer any emotion, and do NOT "
+    "describe sound or speech. Describe only what is visible. Hard limit: 3 "
+    "sentences."
 )
 AUDIO_CAPTION_INSTRUCTION = (
-    "Listen to this short audio clip. In 1-3 sentences describe HOW the audio "
-    "sounds (voice quality, prosody, non-speech sounds such as shouting, crying, "
-    "laughing, heavy breathing, silence) — not the exact spoken words. Do NOT "
-    "describe anything visual."
+    "Listen to this short audio clip. In AT MOST 2 sentences describe HOW the "
+    "audio sounds (voice quality, prosody, non-speech sounds such as shouting, "
+    "crying, laughing, heavy breathing, silence) — not the exact spoken words. "
+    "Do NOT name or infer any emotion: describe only the acoustic qualities "
+    "themselves (pitch, loudness, pace, breathiness, gasp, tremor, sigh), NEVER "
+    "an emotion the voice 'expresses' or 'conveys' (do not write 'surprised', "
+    "'angry', 'sad', 'shocked', etc.). Emotion is decided in a later, separate "
+    "stage. Do NOT describe anything visual. Hard limit: 2 sentences."
 )
+
+
+# ---------------------------------------------------------------------------
+# Emotion-leak neutralizer
+# ---------------------------------------------------------------------------
+# Some caption backends infer emotion despite instructions — notably the
+# Qwen3-Omni-Captioner audio model, which takes NO text prompt and cannot be
+# told to stay observation-only (see the qwen_audio_vl spec). This best-effort
+# post-processor strips inferred-emotion words/clauses from caption text so the
+# "captions carry NO emotion; emotion is judged in a later stage" boundary holds.
+# It is deliberately conservative: it removes attribution clauses and standalone
+# emotion adjectives, never the acoustic/observable cues (gasp, high pitch, ...).
+_EMOTION_LEAK_WORDS = (
+    # the 8 targets + inflections
+    "angry", "anger", "excited", "excitement", "fear", "fearful", "afraid",
+    "sad", "sadness", "surprised", "surprise", "frustrated", "frustration",
+    "happy", "happiness", "disappointed", "disappointment",
+    # common leaked synonyms
+    "shocked", "shock", "upset", "distressed", "distress", "anxious", "anxiety",
+    "nervous", "worried", "worry", "joyful", "joy", "cheerful", "annoyed",
+    "irritated", "furious", "terrified", "panicked", "alarmed", "enraged",
+    "delighted", "elated", "gloomy", "sorrowful", "tense", "agitated",
+    "emotional", "emotion",
+)
+_EMO_ALT = "|".join(sorted(_EMOTION_LEAK_WORDS, key=len, reverse=True))
+# An attribution clause: "..., expressing surprise or shock" / "conveying a
+# sense of anger" — drop the whole clause when it names an emotion.
+_EMO_ATTRIB_RE = re.compile(
+    r"[,;]?\s*\b(?:express(?:ing|es|ed)?|convey(?:ing|s|ed)?|suggest(?:ing|s|ed)?|"
+    r"indicat(?:ing|es|ed)?|signal(?:l?ing|s|led)?|reflect(?:ing|s|ed)?|"
+    r"showing|denoting|with (?:a )?(?:sense|feeling|air|tone) of)\b[^.,;]*?\b(?:"
+    + _EMO_ALT + r")\b[^.,;]*",
+    flags=re.IGNORECASE,
+)
+# A standalone emotion adjective (word-boundary), possibly with a leading
+# hedging adverb ("clearly sad", "seemingly angry").
+_EMO_WORD_RE = re.compile(
+    r"\b(?:clearly|seemingly|apparently|visibly|slightly|very|quite|somewhat)?\s*\b(?:"
+    + _EMO_ALT + r")\b",
+    flags=re.IGNORECASE,
+)
+_WS_FIX_RE = re.compile(r"\s+([.,;])")
+_MULTI_WS_RE = re.compile(r"\s{2,}")
+_MULTI_PUNCT_RE = re.compile(r"([.,;])\s*[.,;]+")
+
+
+def _neutralize_emotion_words(text: str) -> str:
+    """Best-effort removal of inferred-emotion words/clauses from caption text.
+
+    Removes emotion-attribution clauses ("expressing surprise") and standalone
+    emotion adjectives ("a sad, high-pitched voice" -> "a high-pitched voice"),
+    then tidies leftover punctuation/whitespace. Observable acoustic/visual cues
+    (gasp, high pitch, raised voice, wide eyes) are NOT in the word list and are
+    preserved. Not perfect — a backstop for backends that can't be prompted.
+    """
+    if not text:
+        return text
+    out = _EMO_ATTRIB_RE.sub("", text)
+    out = _EMO_WORD_RE.sub("", out)
+    out = _MULTI_PUNCT_RE.sub(r"\1", out)
+    out = _WS_FIX_RE.sub(r"\1", out)
+    out = _MULTI_WS_RE.sub(" ", out)
+    # "a sad, low-pitched voice" -> "a, low..." -> "a low-pitched voice".
+    out = re.sub(r"\b(a|an)\s*,\s*(?=[a-z])", r"\1 ", out, flags=re.IGNORECASE)
+    # Tidy dangling connectors left by removed words, e.g. "a  and high pitch".
+    out = re.sub(r"\b(?:a|an|and|or|with|of)\s+([.,;])", r"\1", out)
+    out = re.sub(r"\s+(?:and|or)\s*$", "", out.strip())
+    return out.strip(" ,;").strip()
 
 
 # ---------------------------------------------------------------------------
@@ -159,6 +241,14 @@ CAPTION_MODEL_SPECS: Dict[str, ModelSpec] = {
         default_video_model_path="Qwen/Qwen3-VL-8B-Instruct",
         note="SECap speech/audio-emotion caption (used directly) + Qwen3-VL "
         "video. Does NOT call Qwen3-Omni-Captioner.",
+    ),
+    "nemotron_omni": ModelSpec(
+        name="nemotron_omni",
+        kind="av",
+        requires_video=True,
+        requires_audio=False,
+        default_model_path="nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+        note="Nemotron-3-Nano-Omni AV caption via vLLM OpenAI server.",
     ),
 }
 
@@ -281,15 +371,15 @@ def _valid_enum(value: Any, allowed: tuple, default: str) -> str:
 def _route_plain_text(data: Dict[str, Any], text: str, modality: str) -> None:
     """Place a plain-text caption into the right OmniCaption field(s) by modality.
 
-    - ``av``    -> temporal_description (a neutral progression field describing
-                   both streams; we never split what we can't split).
+    - ``av``    -> visual_description (a single blob covering both streams; we
+                   never split what we can't split — audio stays "").
     - ``audio`` -> audio_description (audio evidence only; NEVER visual).
-    - ``video`` -> temporal_description (visual/temporal; NEVER audio_description).
+    - ``video`` -> visual_description (visual only; NEVER audio_description).
     """
     if modality == "audio":
         data["audio_description"] = text
-    else:  # "av" or "video" -> temporal_description, no fabricated audio/visual
-        data["temporal_description"] = text
+    else:  # "av" or "video" -> visual_description, no fabricated audio
+        data["visual_description"] = text
 
 
 def normalize_to_omni_caption(
@@ -330,16 +420,27 @@ def normalize_to_omni_caption(
         # Map only the recognized OmniCaption content fields, and only when they
         # have a usable type (a string field must be a str; the nested visual
         # fields must be dict/list). Anything else is ignored (never fabricated).
+        # ``visual``/``audio`` are the unified prompt's keys; the rest are
+        # legacy structured-format keys kept for backward compat.
+        for key in ("visual", "visual_description"):
+            val = parsed.get(key)
+            if isinstance(val, str) and val.strip():
+                data["visual_description"] = val
+                break
         vo = parsed.get("visual_objective")
         if isinstance(vo, dict):
             data["visual_objective"] = vo
         ve = parsed.get("visual_expression")
         if isinstance(ve, list):
             data["visual_expression"] = ve
-        for key in ("audio_description", "temporal_description"):
+        for key in ("audio", "audio_description"):
             val = parsed.get(key)
             if isinstance(val, str) and val.strip():
-                data[key] = val
+                data["audio_description"] = val
+                break
+        temporal = parsed.get("temporal_description")
+        if isinstance(temporal, str) and temporal.strip():
+            data["temporal_description"] = temporal
         conf = parsed.get("confidence")
         if conf in _CONFIDENCE_VALUES:
             data["confidence"] = conf
@@ -401,8 +502,8 @@ def normalize_to_omni_caption(
             time_range=tr,
             audio_description=data.get("audio_description", "")
             if isinstance(data.get("audio_description"), str) else "",
-            temporal_description=data.get("temporal_description", "")
-            if isinstance(data.get("temporal_description"), str) else preview,
+            visual_description=data.get("visual_description", "")
+            if isinstance(data.get("visual_description"), str) else preview,
             confidence="low",
             evidence_strength="weak",
             source_caption_model=source_caption_model,
@@ -440,7 +541,9 @@ def merge_audio_video_caption(
     )
     audio_str = _raw_to_text(audio_text).strip()
     if audio_str:
-        cap.audio_description = audio_str
+        # The audio sub-model (esp. Qwen3-Omni-Captioner, which takes no text
+        # prompt) may infer emotion; strip it so captions stay observation-only.
+        cap.audio_description = _neutralize_emotion_words(audio_str)
         cap.caption_status = "merged"
     return cap
 
@@ -742,7 +845,16 @@ class RunnerConfig:
     video_model_path: Optional[str] = None
     device_map: str = "auto"
     attn_impl: Optional[str] = None
-    max_new_tokens: int = 1024
+    max_new_tokens: int = 256
+    # When True, Qwen3-VL video captioning runs under vLLM in a subprocess server
+    # (models qwen_audio_vl / af3_vl / secap_qwen) instead of in-process transformers.
+    use_vllm_video: bool = False
+    # Nemotron-3-Nano-Omni (served via a vLLM/trtllm OpenAI-compatible HTTP server —
+    # see nemotron_client.NemotronOpenAIClient; no in-process model load).
+    nemotron_base_url: str = "http://0.0.0.0:8000/v1"
+    nemotron_model: str = "nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8"
+    nemotron_max_tokens: int = 8192
+    nemotron_enable_thinking: bool = True
 
 
 def run_caption_model(
@@ -768,7 +880,40 @@ def run_caption_model(
         return _run_avocado(spec, segment, video_path, config)
     if caption_model == "timechat":
         return _run_timechat(spec, segment, video_path, config)
+    if caption_model == "nemotron_omni":
+        return _run_nemotron(spec, segment, video_path, config, prompts_dir)
     raise ValueError(f"no runner for caption model {caption_model!r}")
+
+
+def _run_nemotron(
+    spec: ModelSpec,
+    segment: Segment,
+    video_path: Optional[str],
+    config: RunnerConfig,
+    prompts_dir: Optional[Path],
+) -> CaptionModelOutput:
+    """Nemotron-3-Nano-Omni AV caption via the vLLM/trtllm OpenAI-compatible server.
+
+    Mirrors ``_run_qwen3_omni`` (same prompt builder, same single-clip framing)
+    but calls out to the served model over HTTP instead of an in-process
+    ``transformers`` engine — no model load here, just a thin client. Reuses the
+    SAME ``NemotronOpenAIClient`` already used by the verify/rewrite backend
+    (``run_verification.py --verify-rewrite-backend nemotron``).
+    """
+    from .nemotron_client import NemotronOpenAIClient  # lazy: only urllib, but
+    # kept lazy for consistency with the other (heavy) runners.
+    from .omni_captioning import build_omni_caption_prompt
+
+    model = config.nemotron_model or spec.default_model_path
+    prompt = build_omni_caption_prompt([segment], prompts_dir)
+    client = NemotronOpenAIClient(
+        base_url=config.nemotron_base_url,
+        model=model,
+        max_tokens=config.nemotron_max_tokens,
+        enable_thinking=config.nemotron_enable_thinking,
+    )
+    raw = client.generate_json(prompt, "omni_caption", video_uri=video_path)
+    return CaptionModelOutput(modality="av", raw_output=raw, source_caption_model=model)
 
 
 def _run_qwen3_omni(
@@ -999,7 +1144,7 @@ def _qwen_omni_captioner_generate(model, processor, audio_path: str) -> str:
     ).to(model.device).to(model.dtype)
     with torch.no_grad():
         gen = model.generate(
-            **inputs, return_audio=False, thinker_max_new_tokens=1024
+            **inputs, return_audio=False, thinker_max_new_tokens=256
         )
     text_ids = gen[0] if isinstance(gen, (tuple, list)) else gen
     seq = getattr(text_ids, "sequences", text_ids)

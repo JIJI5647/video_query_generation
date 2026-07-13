@@ -64,41 +64,72 @@ def _caption_time_range(
     return [round(min(s for s, _ in spans), 2), round(max(e for _, e in spans), 2)]
 
 
+def _synthesize_visual_prose(caption) -> str:
+    """Fallback visual prose for a caption with no ``visual_description``.
+
+    Used only when ``visual_description`` is empty: a legacy structured
+    ``OmniCaption`` (old cached run, ``visual_objective``/``visual_expression``/
+    ``temporal_description`` populated instead) or a legacy flat
+    ``EmotionCaption``. Keeps old cached runs serializing sensibly rather than
+    emitting an empty ``caption`` string.
+    """
+    if isinstance(caption, OmniCaption):
+        parts: List[str] = []
+        vo = caption.visual_objective
+        for p in vo.people:
+            desc = " ".join(x for x in (p.person, p.action) if x).strip()
+            if desc:
+                parts.append(desc)
+        if vo.scene and (vo.scene.location or vo.scene.setting):
+            scene = " ".join(x for x in (vo.scene.location, vo.scene.setting) if x)
+            if scene:
+                parts.append(f"Scene: {scene}")
+        for ve in caption.visual_expression:
+            cues = [str(c) for c in list(ve.facial_cues) + list(ve.body_cues) if c]
+            if cues:
+                who = f"{ve.person}: " if ve.person else ""
+                parts.append(f"{who}{', '.join(cues)}")
+        legacy = getattr(caption, "temporal_description", "") or ""
+        if legacy.strip():
+            parts.append(legacy.strip())
+        return " ".join(p for p in parts if p).strip()
+    # Legacy flat EmotionCaption.
+    parts = []
+    person_action = " ".join(x for x in (caption.person, caption.action) if x).strip()
+    if person_action:
+        parts.append(person_action)
+    if caption.observable_evidence:
+        parts.append(", ".join(caption.observable_evidence))
+    return " ".join(p for p in parts if p).strip()
+
+
 def _caption_payload_entry(caption, tr: List[float]) -> dict:
     """One OBSERVATION caption as the model sees it — a unified schema for both types.
 
-    ``OmniCaption`` passes through its full ``visual_objective`` /
-    ``visual_expression`` structure; the legacy flat ``EmotionCaption`` is mapped
-    into the same shape (sparsely). NO emotion is included — emotion lives in the
-    separate emotion-events payload.
+    The model-facing content is a single unstructured ``caption`` string:
+    ``"Visual: <visual prose>\\nAudio: <audio prose>"`` (the ``Audio:`` line is
+    omitted when there is no audio evidence). ``OmniCaption.visual_description``
+    is the primary source for the visual prose; a legacy structured/flat caption
+    with no ``visual_description`` falls back to ``_synthesize_visual_prose`` so
+    old cached runs still serialize sensibly. NO emotion is included — emotion
+    lives in the separate emotion-events payload.
     """
     if isinstance(caption, OmniCaption):
-        visual_objective = caption.visual_objective.model_dump()
-        visual_expression = [ve.model_dump() for ve in caption.visual_expression]
-        audio_description = caption.audio_description
-        temporal_description = getattr(caption, "temporal_description", "")
+        visual = (caption.visual_description or "").strip()
+        audio = (caption.audio_description or "").strip()
     else:
-        visual_objective = {
-            "people": [{"person": caption.person, "action": caption.action}],
-            "scene": {},
-            "objects": [],
-            "interactions": [],
-            "key_actions": [],
-            "visibility_notes": "",
-        }
-        visual_expression = (
-            [{"facial_cues": list(caption.observable_evidence)}]
-            if caption.observable_evidence
-            else []
-        )
-        audio_description = caption.sound
-        temporal_description = ""
+        visual = ""
+        audio = (caption.sound or "").strip()
+    if not visual:
+        visual = _synthesize_visual_prose(caption)
+    lines = []
+    if visual:
+        lines.append(f"Visual: {visual}")
+    if audio:
+        lines.append(f"Audio: {audio}")
     return {
         "time_range": tr,
-        "visual_objective": visual_objective,
-        "visual_expression": visual_expression,
-        "audio_description": audio_description,
-        "temporal_description": temporal_description,
+        "caption": "\n".join(lines),
         "confidence": caption.confidence,
         "evidence_strength": caption.evidence_strength,
     }
@@ -187,12 +218,27 @@ def generate_queries(
     )
     raw = client.generate_json(prompt, "GenerationOutput", video_uri=None)
     raw.setdefault("video_id", video_id)
+    _valid_query_types = {"explicit_event", "emotion_state", "evidence_cue"}
+    cleaned_queries = []
+    dropped = 0
     for i, q in enumerate(raw.get("queries") or [], 1):
         q.setdefault("video_id", video_id)
         # The model occasionally omits query_id; fill a deterministic one so a
         # single missing id doesn't fail validation for the whole video.
         if not q.get("query_id"):
             q["query_id"] = f"{video_id}_q{i:02d}"
+        # It also occasionally emits an out-of-enum query_type (e.g. an emotion
+        # label like 'happy' instead of one of explicit_event/emotion_state/
+        # evidence_cue). Drop just that query rather than letting one bad value
+        # fail GenerationOutput validation for the ENTIRE video.
+        if q.get("query_type") not in _valid_query_types:
+            dropped += 1
+            continue
+        cleaned_queries.append(q)
+    if dropped:
+        print(f"  [generation] dropped {dropped} query(ies) with invalid "
+              f"query_type for {video_id}")
+    raw["queries"] = cleaned_queries
 
     output = GenerationOutput.model_validate(raw)
     return _resolve_time_ranges(output, segments, captions)

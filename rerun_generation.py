@@ -31,6 +31,8 @@ from emotion_query_pipeline.export import export_all
 from emotion_query_pipeline.generation import generate_queries
 from emotion_query_pipeline.llm_client import GeminiLLMClient
 from emotion_query_pipeline.models import OmniCaption, Segment
+from emotion_query_pipeline.omni_captioning import Qwen3OmniCaptioner, QwenOmniLLMClient
+from emotion_query_pipeline.regrounding import reground_queries
 from emotion_query_pipeline.segmentation import (
     extract_segment_clips,
     grid_key_from_segments,
@@ -59,6 +61,33 @@ def _load_by_video(path: Path, model) -> Dict[str, list]:
     return dict(by_v)
 
 
+def _load_segments_by_video(path: Path, known_video_ids: set) -> Dict[str, list]:
+    """Group ``segments.jsonl`` by video.
+
+    ``Segment`` itself carries no ``video_id`` field (see ``models.Segment``), and
+    ``segment_id`` (``s001``, ``s002``, ...) resets per video so it is NOT a safe
+    cross-video key. The main pipeline's ``export.py`` injects a ``video_id`` when
+    writing, but ``run_caption_generation.py`` (the batch caption-only tool) writes
+    bare ``Segment`` dumps for ALL videos into one file. Handle both: use a
+    per-record ``video_id`` key if present, else recover it from ``clip_path``,
+    whose cache directory is always ``.../<video_id>/<grid_key>/<file>``
+    (``segmentation.extract_segment_clips`` / ``clip_extractor``) — match the
+    path component that's one of the video_ids we already know about (from
+    ``raw_captions.jsonl``), rather than assuming a fixed path depth.
+    """
+    by_v: Dict[str, list] = defaultdict(list)
+    for r in _read_jsonl(path):
+        vid = r.get("video_id")
+        if not vid and r.get("clip_path"):
+            parts = set(Path(r["clip_path"]).parts)
+            matches = parts & known_video_ids
+            vid = next(iter(matches)) if len(matches) == 1 else None
+        if vid is None:
+            continue  # not attributable to a single known video -> skip
+        by_v[vid].append(Segment.model_validate(r))
+    return dict(by_v)
+
+
 def _find_video(video_dir: Path, video_id: str) -> Path | None:
     for ext in _VIDEO_EXTENSIONS:
         p = video_dir / f"{video_id}{ext}"
@@ -84,6 +113,99 @@ def main() -> None:
     parser.add_argument("--segments-dir", default="data/processed_segments")
     parser.add_argument("--force-reextract", action="store_true")
     parser.add_argument("--emotion-event-model", default=None)
+    parser.add_argument(
+        "--verify-rewrite-backend",
+        choices=["gemini", "qwen3_omni", "nemotron", "qwen_omni_vllm"],
+        default="qwen3_omni",
+        help="Backend for the verification + rewrite stages (both watch the "
+        "query's segment clip(s)). 'qwen3_omni' (default) watches the local clips "
+        "on the shared Qwen3-Omni model (no upload, in-process transformers); "
+        "'nemotron'/'qwen_omni_vllm' watch local clips via an OpenAI-compatible "
+        "HTTP server (trtllm-serve / vllm serve); 'gemini' uploads clips to the "
+        "Files API. Generation (query writing) always stays on Gemini.",
+    )
+    parser.add_argument(
+        "--parallel", type=int, default=1,
+        help="qwen3_omni only: queries per batched verify call (truly batched on "
+        "the qwen3_omni engine; Gemini runs sequentially).",
+    )
+    parser.add_argument(
+        "--qwen-model-path", default="Qwen/Qwen3-Omni-30B-A3B-Instruct",
+        help="Model path/name for the qwen3_omni verify/rewrite backend.",
+    )
+    parser.add_argument(
+        "--qwen-attn-impl", default=None,
+        help="attn_implementation for the transformers engine "
+        "(e.g. flash_attention_2, sdpa, eager). Default lets HF choose.",
+    )
+    parser.add_argument(
+        "--qwen-video-reader-backend",
+        choices=["torchvision", "decord", "torchcodec"],
+        default="torchvision",
+        help="Force the qwen_omni_utils video reader (sets "
+        "FORCE_QWENVL_VIDEO_READER). Default 'torchvision' avoids torchcodec, "
+        "which often fails to load on mismatched CUDA/ffmpeg.",
+    )
+    # Nemotron-3-Nano-Omni (OpenAI-compatible server: trtllm-serve or vllm serve).
+    parser.add_argument("--nemotron-base-url", default="http://0.0.0.0:8000/v1",
+                        help="OpenAI-compatible base URL of the Nemotron server.")
+    parser.add_argument(
+        "--nemotron-model",
+        default="nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+        help="Served model id (the HF repo id passed to trtllm-serve / vllm serve).",
+    )
+    parser.add_argument(
+        "--nemotron-max-tokens", type=int, default=8192,
+        help="Generation budget for the Nemotron reasoning model (raise so the "
+        "chain-of-thought isn't truncated before the JSON, like Qwen Thinking).",
+    )
+    parser.add_argument("--nemotron-no-thinking", action="store_true",
+                        help="Disable the Nemotron reasoning trace (enable_thinking=False).")
+    # Qwen3-Omni served over vLLM (OpenAI-compatible server), reusing the same
+    # NemotronOpenAIClient HTTP shim as the nemotron backend above.
+    parser.add_argument("--qwen-vllm-base-url", default="http://0.0.0.0:8000/v1",
+                        help="OpenAI-compatible base URL of the vLLM-served Qwen3-Omni server.")
+    parser.add_argument("--qwen-vllm-model",
+                        default="Qwen/Qwen3-Omni-30B-A3B-Instruct",
+                        help="Served model id (the HF repo id passed to vllm serve).")
+    parser.add_argument("--qwen-vllm-max-tokens", type=int, default=4096,
+                        help="Generation budget for the vLLM-served Qwen3-Omni model.")
+    parser.add_argument(
+        "--qwen-vllm-thinking", action="store_true",
+        help="Enable the Qwen3-Omni reasoning trace (enable_thinking=True) — only "
+        "meaningful for the Thinking checkpoint. Default sends no chat_template_kwargs "
+        "at all (Instruct checkpoints have no thinking mode).",
+    )
+    # --- Re-grounding stage (between generation and verification) ---
+    parser.add_argument(
+        "--regrounding",
+        dest="regrounding",
+        action="store_true",
+        default=True,
+        help="Re-select each query's grounding segment(s) with a Gemini call "
+        "after generation, before verification (default on).",
+    )
+    parser.add_argument(
+        "--no-regrounding",
+        dest="regrounding",
+        action="store_false",
+        help="Disable the re-grounding stage.",
+    )
+    parser.add_argument(
+        "--regrounding-scope",
+        choices=["full", "window"],
+        default="full",
+        help="'full' (default): sees ALL of the video's captions per query. "
+        "'window': restricted to +/- --regrounding-window segments around each "
+        "query's original grounding.",
+    )
+    parser.add_argument(
+        "--regrounding-window",
+        type=int,
+        default=2,
+        help="window scope only: segments on each side of a query's original "
+        "grounding offered as re-grounding candidates.",
+    )
     args = parser.parse_args()
 
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -95,8 +217,10 @@ def main() -> None:
     video_dir = Path(args.video_dir)
     output_dir = Path(args.output)
 
-    segments = _load_by_video(captions_dir / "segments.jsonl", Segment)
     raw_captions = _load_by_video(captions_dir / "raw_captions.jsonl", OmniCaption)
+    segments = _load_segments_by_video(
+        captions_dir / "segments.jsonl", set(raw_captions.keys())
+    )
     # No filtering — generation reads all captions and selects moments itself.
     gen_caption_source = raw_captions
     source_name = "raw_captions.jsonl"
@@ -108,8 +232,15 @@ def main() -> None:
     video_ids = sorted(gen_caption_source)
     print(f"Re-generating queries for {len(video_ids)} video(s) "
           f"from {source_name} in {captions_dir}")
-    print(f"Models — generation: {args.generation_model} "
-          f"| verification: {args.verification_model} | rewrite: {args.rewrite_model}\n")
+    if args.verify_rewrite_backend == "qwen3_omni":
+        vr_desc = f"{args.qwen_model_path} (transformers)"
+    elif args.verify_rewrite_backend == "nemotron":
+        vr_desc = f"{args.nemotron_model} (vllm/trtllm-serve @ {args.nemotron_base_url})"
+    elif args.verify_rewrite_backend == "qwen_omni_vllm":
+        vr_desc = f"{args.qwen_vllm_model} (vllm serve @ {args.qwen_vllm_base_url})"
+    else:
+        vr_desc = f"{args.verification_model} / {args.rewrite_model}"
+    print(f"Models — generation: {args.generation_model} | verify/rewrite: {vr_desc}\n")
 
     client = GeminiLLMClient(
         caption_model=args.generation_model,  # unused here
@@ -120,6 +251,57 @@ def main() -> None:
         api_key=api_key,
     )
     uploader = GeminiUploader(api_key=api_key)
+
+    # Verify/rewrite client: shared Qwen3-Omni engine (default, watches local
+    # clips, no upload), an OpenAI-compatible served backend (nemotron /
+    # qwen_omni_vllm, also local clips via file:// URIs), or Gemini (uploads clips
+    # to the Files API). Generation (query writing) and emotion-events always stay
+    # on the Gemini `client` above.
+    use_qwen_vr = args.verify_rewrite_backend == "qwen3_omni"
+    # Backends that watch LOCAL clip files directly (no Gemini Files API upload).
+    use_local_clips = args.verify_rewrite_backend in (
+        "qwen3_omni", "nemotron", "qwen_omni_vllm",
+    )
+    vr_client = client
+    if use_qwen_vr:
+        qwen_engine = Qwen3OmniCaptioner(
+            model_path=args.qwen_model_path,
+            attn_implementation=args.qwen_attn_impl,
+            video_reader_backend=args.qwen_video_reader_backend,
+        )
+        vr_client = QwenOmniLLMClient(qwen_engine)
+        print(f"Verify/rewrite backend — qwen3_omni ({args.qwen_model_path}) | "
+              f"engine=transformers (watches local clips, no upload)\n")
+    elif args.verify_rewrite_backend == "nemotron":
+        from emotion_query_pipeline.nemotron_client import NemotronOpenAIClient
+        vr_client = NemotronOpenAIClient(
+            base_url=args.nemotron_base_url,
+            model=args.nemotron_model,
+            max_tokens=args.nemotron_max_tokens,
+            enable_thinking=not args.nemotron_no_thinking,
+            max_workers=max(1, args.parallel),
+        )
+        print(f"Verify/rewrite backend — nemotron ({args.nemotron_model} @ "
+              f"{args.nemotron_base_url}, max_tokens={args.nemotron_max_tokens}, "
+              f"thinking={not args.nemotron_no_thinking})\n")
+    elif args.verify_rewrite_backend == "qwen_omni_vllm":
+        from emotion_query_pipeline.nemotron_client import NemotronOpenAIClient
+        vr_client = NemotronOpenAIClient(
+            base_url=args.qwen_vllm_base_url,
+            model=args.qwen_vllm_model,
+            max_tokens=args.qwen_vllm_max_tokens,
+            enable_thinking=True if args.qwen_vllm_thinking else None,
+            max_workers=max(1, args.parallel),
+        )
+        print(f"Verify/rewrite backend — qwen_omni_vllm ({args.qwen_vllm_model} @ "
+              f"{args.qwen_vllm_base_url}, max_tokens={args.qwen_vllm_max_tokens}, "
+              f"thinking={args.qwen_vllm_thinking})\n")
+
+    print(
+        f"Re-grounding — {'on' if args.regrounding else 'off'}"
+        + (f" (scope={args.regrounding_scope}, window={args.regrounding_window})"
+           if args.regrounding else "")
+    )
 
     result = PipelineResult()
     per_video_usage: List[dict] = []
@@ -155,6 +337,20 @@ def main() -> None:
             )
             print(f"  {len(gen_output.queries)} queries generated")
 
+            # Re-ground queries — a Gemini call re-selects each query's
+            # grounding segment(s) from its text (no video); the original
+            # generation-stage grounding is preserved in gen_* fields. Runs
+            # before verification so verification checks the FINAL clip(s).
+            if args.regrounding and gen_output.queries:
+                gen_output.queries, rg_stats = reground_queries(
+                    video_id, gen_output.queries, caps, full_segs,
+                    client, scope=args.regrounding_scope,
+                    window=args.regrounding_window,
+                )
+                result.regrounding[video_id] = rg_stats
+                print(f"  reground: {rg_stats['changed']} changed, "
+                      f"{rg_stats['fallback']} fell back (of {rg_stats['total']})")
+
             # Step 6: cut (or reuse cached) the grounded segment clips, upload
             # them, then verify/rewrite each query against just its own clip(s).
             if gen_output.queries:
@@ -170,17 +366,22 @@ def main() -> None:
                     )
                 segment_uris: dict = {}
                 for seg in needed_segs:
-                    if seg.clip_path:
+                    if not seg.clip_path:
+                        continue
+                    if use_local_clips:
+                        segment_uris[seg.segment_id] = seg.clip_path  # local path, no upload
+                    else:
                         f = uploader.upload(seg.clip_path)
                         uploaded_segment_files.append(f)
                         segment_uris[seg.segment_id] = f.uri
                 traces, ver_outs, rw_outs = run_query_pipeline(
                     video_id,
                     gen_output,
-                    client,
+                    vr_client,
                     segment_uris,
                     max_rewrites=args.max_rewrites,
                     max_accepted=args.max_accepted,
+                    verify_parallel=args.parallel,
                 )
             else:
                 traces, ver_outs, rw_outs = {}, [], []
@@ -232,6 +433,7 @@ def main() -> None:
         result.raw_captions,
         result.emotion_events,
         warnings,
+        result.regrounding,
     )
 
     print(f"\nExporting to: {output_dir}")

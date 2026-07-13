@@ -31,6 +31,18 @@ def _omni(seg_id, start, end):
     return OmniCaption.model_validate({
         "segment_id": seg_id,
         "time_range": [start, end],
+        "visual_description": "A woman in a white shirt talks, eyes widened, gaze "
+                               "toward the man.",
+        "audio_description": "The woman speaks with a raised voice.",
+        "confidence": "high", "evidence_strength": "clear",
+    })
+
+
+def _legacy_structured_omni(seg_id, start, end):
+    """An old-format cached OmniCaption: structured fields, no visual_description."""
+    return OmniCaption.model_validate({
+        "segment_id": seg_id,
+        "time_range": [start, end],
         "visual_objective": {
             "people": [{"person": "a woman in a white shirt", "action": "talking"}],
             "scene": {"location": "indoor room", "setting": "conversation"},
@@ -77,35 +89,59 @@ class FakeClient:
         return {"queries": list(self.queries)}
 
 
-def test_omni_payload_keeps_rich_structure():
+def test_omni_payload_concatenates_visual_and_audio():
     seg_time = gen._segment_time_map(_segments())
     payload = gen._captions_payload([_omni("s001", 0.0, 5.0)], seg_time)
     e = payload[0]
     assert e["time_range"] == [0.0, 5.0]
-    # Full nested structure preserved (not flattened to person/action strings).
-    assert e["visual_objective"]["people"][0]["person"] == "a woman in a white shirt"
-    assert e["visual_expression"][0]["facial_cues"] == ["eyes widened"]
-    assert e["audio_description"] == "The woman speaks with a raised voice."
-    assert e["temporal_description"].startswith("Her voice rises")
-    # Observation-only: NO emotion field anywhere in the payload.
+    assert e["caption"] == (
+        "Visual: A woman in a white shirt talks, eyes widened, gaze toward the man.\n"
+        "Audio: The woman speaks with a raised voice."
+    )
+    # Observation-only: NO emotion field anywhere in the payload, and no more
+    # structured sub-fields (superseded by the single "caption" string).
     assert "emotion_description" not in e and "emotion" not in e
+    assert "visual_objective" not in e and "visual_expression" not in e
 
 
 def test_flat_caption_maps_into_same_schema():
     seg_time = gen._segment_time_map(_segments())
     e = gen._captions_payload([_flat("s001")], seg_time)[0]
-    # Same keys as the omni payload, filled sparsely from the flat caption.
-    assert e["visual_objective"]["people"][0]["person"] == "a man in a suit"
-    assert e["visual_expression"][0]["facial_cues"] == ["furrowed brow"]
-    assert e["audio_description"] == "shouting"
+    # Legacy flat EmotionCaption is synthesized into the same "caption" prose.
+    assert "a man in a suit" in e["caption"]
+    assert "furrowed brow" in e["caption"]
+    assert "Audio: shouting" in e["caption"]
     assert "emotion_description" not in e and "emotion" not in e
+
+
+def test_payload_entry_falls_back_for_legacy_structured_caption():
+    """A legacy cached OmniCaption (no visual_description) still serializes."""
+    seg_time = gen._segment_time_map(_segments())
+    e = gen._captions_payload([_legacy_structured_omni("s001", 0.0, 5.0)], seg_time)[0]
+    assert e["caption"].startswith("Visual: ")
+    assert "a woman in a white shirt" in e["caption"]
+    assert "talking" in e["caption"]
+    assert "eyes widened" in e["caption"]
+    assert "Audio: The woman speaks with a raised voice." in e["caption"]
+
+
+def test_payload_entry_omits_audio_line_when_empty():
+    seg_time = gen._segment_time_map(_segments())
+    caption = OmniCaption.model_validate({
+        "segment_id": "s001", "time_range": [0.0, 5.0],
+        "visual_description": "A man in a suit paces the room.",
+        "audio_description": "", "confidence": "medium", "evidence_strength": "weak",
+    })
+    e = gen._captions_payload([caption], seg_time)[0]
+    assert e["caption"] == "Visual: A man in a suit paces the room."
+    assert "Audio:" not in e["caption"]
 
 
 def test_build_prompt_includes_caption_and_event_fields():
     prompt = gen.build_generation_prompt(
         "v", [_omni("s001", 0.0, 5.0)], [_event(0.0, 5.0)], _segments()
     )
-    assert "visual_objective" in prompt and "visual_expression" in prompt
+    assert "Visual: A woman in a white shirt" in prompt
     assert "raised voice" in prompt
     # The emotion signal comes from the events payload.
     assert "surprised" in prompt

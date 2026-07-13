@@ -162,23 +162,31 @@ class OmniCaption(BaseModel):
     segment_id: str
     time_range: List[float] = Field(default_factory=list)
     # Content.
+    # ``visual_description`` is the PRIMARY visual content field (unstructured
+    # prose: people, actions, scene, objects, observable facial/body cues, gaze —
+    # everything a caption model can see). ``visual_objective`` /
+    # ``visual_expression`` are kept only for backward compat with old cached
+    # structured runs; new captions leave them at their empty defaults.
+    visual_description: str = ""
     visual_objective: OmniVisualObjective = Field(default_factory=OmniVisualObjective)
     visual_expression: List[OmniVisualExpression] = Field(default_factory=list)
     audio_description: str = ""
-    # Optional non-transcript temporal/audio progression.
+    # Optional non-transcript temporal/audio progression. Legacy structured-format
+    # field, kept for backward compat with old cached runs.
     temporal_description: str = ""
     confidence: Literal["high", "medium", "low"] = "low"
     evidence_strength: Literal["clear", "ambiguous", "weak"] = "ambiguous"
 
 
 # Top-level fields a cached OmniCaption must carry to be treated as a valid,
-# resumable result. Observation-only — NO emotion. ``temporal_description`` is
-# optional and intentionally NOT required.
+# resumable result. Observation-only — NO emotion. A cache written by the OLD
+# structured format (``visual_objective``/``visual_expression`` instead of
+# ``visual_description``) is treated as stale and regenerated — see Change 1 in
+# docs/progress_log.md.
 OMNI_REQUIRED_FIELDS: tuple[str, ...] = (
     "segment_id",
     "time_range",
-    "visual_objective",
-    "visual_expression",
+    "visual_description",
     "audio_description",
     "confidence",
     "evidence_strength",
@@ -250,11 +258,29 @@ class EventGroundedQuery(BaseModel):
     grounding_evidence: Optional[GroundingEvidence] = None
     # Internal provenance: the caption ids whose segments the query covers.
     source_caption_ids: List[str] = Field(default_factory=list)
+    # Re-grounding stage (post-generation, pre-verification): the ORIGINAL
+    # generation-stage grounding, preserved once ``time_range``/``segment_ids``
+    # above are overwritten with Gemini's re-selected grounding. Empty when
+    # re-grounding is disabled or hasn't run yet — never mutated after the copy.
+    gen_time_range: List[float] = Field(default_factory=list)
+    gen_segment_ids: List[str] = Field(default_factory=list)
 
 
 class GenerationOutput(BaseModel):
     video_id: str
     queries: List[EventGroundedQuery] = Field(default_factory=list)
+
+
+class RegroundingRecord(BaseModel):
+    """One query's re-selected grounding, as returned by the re-grounding call."""
+
+    query_id: str
+    segment_ids: List[str] = Field(default_factory=list)
+
+
+class RegroundingOutput(BaseModel):
+    video_id: str
+    groundings: List[RegroundingRecord] = Field(default_factory=list)
 
 
 class VerificationResult(BaseModel):
@@ -314,6 +340,9 @@ class QueryTrace(BaseModel):
     segment_ids: List[str] = Field(default_factory=list)
     grounding_evidence: Optional[GroundingEvidence] = None
     source_caption_ids: List[str] = Field(default_factory=list)
+    # Pre-regrounding generation-stage grounding (empty if regrounding disabled).
+    gen_time_range: List[float] = Field(default_factory=list)
+    gen_segment_ids: List[str] = Field(default_factory=list)
     rewrite_count: int = 0
     verification_rounds: List[RoundDecision] = Field(default_factory=list)
     final_status: Literal["accepted", "discarded"] = "discarded"
@@ -333,6 +362,9 @@ class FinalQueryRecord(BaseModel):
     segment_ids: List[str] = Field(default_factory=list)
     grounding_evidence: Optional[GroundingEvidence] = None
     source_caption_ids: List[str] = Field(default_factory=list)
+    # Pre-regrounding generation-stage grounding (empty if regrounding disabled).
+    gen_time_range: List[float] = Field(default_factory=list)
+    gen_segment_ids: List[str] = Field(default_factory=list)
     rewrite_count: int
     verification_rounds: List[Dict[str, Any]] = Field(default_factory=list)
     final_status: Literal["accepted", "discarded"]
@@ -355,3 +387,6 @@ class PipelineStats(BaseModel):
     pass_rate_after_rewrites: float
     discarded_query_count: int
     diversity_warnings: List[str]
+    # Re-grounding stage (0 if disabled or no queries were re-grounded).
+    regrounding_changed_count: int = 0
+    regrounding_fallback_count: int = 0

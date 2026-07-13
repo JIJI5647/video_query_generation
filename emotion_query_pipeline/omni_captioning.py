@@ -50,7 +50,10 @@ DEFAULT_SAMPLING_PARAMS: Dict[str, Any] = {
     "temperature": 0.0,
     "top_p": 0.95,
     "top_k": 20,
-    "max_tokens": 2048,
+    # Unified caption = visual ≤3 sentences + audio ≤2 sentences (one segment per
+    # prompt, DEFAULT_CAPTION_BATCH_SIZE=1). If --caption-batch-size is raised so
+    # one prompt returns several captions, raise this proportionally.
+    "max_tokens": 256,
 }
 
 # Default per-prompt caption batch size. Qwen3-Omni captioning is strictly one
@@ -106,7 +109,7 @@ def build_omni_caption_prompt(
     JSON array of one caption per clip. Works for N == 1 (array of one).
     """
     template = load_prompt_template(
-        prompts_dir or _PROMPTS_DIR, "omni_caption_prompt.txt"
+        prompts_dir or _PROMPTS_DIR, "omni_caption_prompt_unified.txt"
     )
     lines = [
         f"Clip {i} -> {s.segment_id} ({s.start_time:.2f}-{s.end_time:.2f}s)"
@@ -174,6 +177,22 @@ def extract_caption_json(raw_text: str) -> dict:
     return obj
 
 
+def _translate_unified_fields(data: dict) -> None:
+    """Map the unified prompt's ``visual``/``audio`` keys onto the schema fields.
+
+    ``omni_caption_prompt_unified.txt`` asks for ``{"visual": ..., "audio":
+    ...}``; ``OmniCaption`` stores those as ``visual_description`` /
+    ``audio_description``. Mutates ``data`` in place; a legacy structured
+    response (no ``visual``/``audio`` keys) is left untouched.
+    """
+    visual = data.get("visual")
+    if isinstance(visual, str) and visual.strip() and not data.get("visual_description"):
+        data["visual_description"] = visual
+    audio = data.get("audio")
+    if isinstance(audio, str) and audio.strip() and not data.get("audio_description"):
+        data["audio_description"] = audio
+
+
 def missing_required_fields(data: dict) -> List[str]:
     """Required top-level fields (spec §9.2) that are absent or empty.
 
@@ -201,6 +220,7 @@ def parse_caption(raw_text: str, segment: Segment, video_id: str) -> OmniCaption
     Raises ``CaptionParseError`` (with ``raw_text``) on any failure.
     """
     data = extract_caption_json(raw_text)
+    _translate_unified_fields(data)
     missing = missing_required_fields(data)
     if missing:
         raise CaptionParseError(
@@ -290,11 +310,12 @@ def salvage_caption(
     ``OmniCaption`` allows extra keys and defaults the rest — force the trusted
     metadata, and pin ``confidence=low`` / ``evidence_strength=weak`` so the
     generator treats it as soft evidence. When nothing decoded, the raw model
-    text is stuffed into ``temporal_description`` so the segment is at least
+    text is stuffed into ``visual_description`` so the segment is at least
     described. A ``caption_status="salvaged"`` marker is carried for debug/export.
     """
     tr = [round(segment.start_time, 2), round(segment.end_time, 2)]
     data: Dict[str, Any] = dict(item) if isinstance(item, dict) else {}
+    _translate_unified_fields(data)
     data["segment_id"] = segment.segment_id
     data["time_range"] = tr
     data["video_id"] = video_id
@@ -306,9 +327,9 @@ def salvage_caption(
     data["evidence_strength"] = "weak"
     fallback = (raw_text or "").strip()[:500] or "(unparseable)"
     if not (str(data.get("audio_description") or "")).strip() and not (
-        str(data.get("temporal_description") or "")
+        str(data.get("visual_description") or "")
     ).strip():
-        data["temporal_description"] = fallback
+        data["visual_description"] = fallback
     try:
         return OmniCaption.model_validate(data)
     except Exception:
@@ -320,7 +341,7 @@ def salvage_caption(
             video_id=video_id,
             time_range=tr,
             audio_description=audio if isinstance(audio, str) else "",
-            temporal_description=fallback,
+            visual_description=fallback,
             confidence="low",
             evidence_strength="weak",
             caption_status="salvaged",
@@ -350,6 +371,7 @@ def parse_captions(
             seg = segments[idx]  # fall back to clip order
         if seg is None or seg.segment_id in out:
             continue
+        _translate_unified_fields(item)
         if missing_required_fields(item):
             continue
         item["segment_id"] = seg.segment_id

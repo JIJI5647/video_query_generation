@@ -31,6 +31,14 @@ live auth token and must never be committed):
   **before** starting `claude` for the first time in the fresh `$HOME`, to restore the
   install + login from the snapshot (no reinstall, no re-login).
 
+`env.sh` runs this automatically so `source env.sh` alone is enough: restores from the
+snapshot if one exists and `$HOME` doesn't have credentials yet, or just refreshes the
+snapshot if already logged in. If neither a snapshot nor a local `claude` binary exists at
+all (truly first-ever setup, no prior backup ever made), it falls back to running the
+official installer (`curl -fsSL https://claude.ai/install.sh | bash`) non-interactively —
+login is still a one-time manual step in that case (no OAuth token exists anywhere to
+restore), after which run `backup.sh` once to snapshot it for future restarts.
+
 Deliberately does NOT snapshot conversation history / live session state
 (`~/.claude/projects/`, `sessions/`, `session-env/`, `shell-snapshots/`, `tasks/`,
 `file-history/`, `plans/`, `downloads/`, `cache/`, `backups/`) — those are per-session
@@ -39,6 +47,17 @@ open* session's transcript mid-write would risk losing its tail end. Losing old
 conversation history/resumability on restart is a known, accepted gap here — not what
 this solves.
 
+**Exception: the agent's persistent memory** (`~/.claude/projects/<slug>/memory/`) is
+NOT session transcript despite living under the excluded `~/.claude/projects/` path — it's
+durable cross-conversation knowledge the agent writes to directly, so it needed real
+persistence rather than being caught by the exclusion above. Fixed by moving it out from
+under `$HOME` entirely: it now lives at
+`/work/mzha0323/.claude_persist/agent_memory/<slug>/` and
+`~/.claude/projects/<slug>/memory` is a symlink to that (done once directly; `restore.sh`
+recreates the symlink for every project dir found under `agent_memory/` after a restart).
+Being a symlink (not a copy), writes land on `/work` immediately — `backup.sh` doesn't need
+to do anything for it.
+
 ## Verification: Qwen3-Omni-Thinking sweep
 
 Ablation of the 9 per-dimension verification-prompt variants (p0-p8), run with the
@@ -46,13 +65,27 @@ Ablation of the 9 per-dimension verification-prompt variants (p0-p8), run with t
 (`--qwen-model-path`, `--qwen-max-tokens 8192`). Scored against `data/test5_eval/gold.jsonl`
 (55 gold-labeled queries) into `output/verify_metrics_thinking.csv`.
 
-| Variant | Status | n | dec_acc | accept_f1 | false_pass |
-|---|---|---|---|---|---|
-| p0_norule | done | 55 | 0.618 | 0.615 | 47.2% |
-| p1_rule | done | 55 | 0.709 | 0.706 | 38.9% |
-| p2_role | done | 55 | 0.673 | 0.638 | 36.1% |
-| p3_fewshot | done | 55 | 0.618 | 0.630 | 50.0% |
-| p4_zscot ... p8_rawcot | **running** (started 2026-07-06 05:49, `run_p4_p8_thinking_sweep.sh`, pid file `p4_p8_sweep.pid`) | - | - | - | - |
+| Variant | Status | n | dec_acc | accept_f1 | false_pass | wall time |
+|---|---|---|---|---|---|---|
+| p0_norule | done | 55 | 0.618 | 0.615 | 47.2% | 2.63h |
+| p1_rule | done | 55 | 0.709 | 0.706 | 38.9% | 3.28h |
+| p2_role | done | 55 | 0.673 | 0.638 | 36.1% | 4.62h |
+| p3_fewshot | done | 55 | 0.618 | 0.630 | 50.0% | 5.40h |
+| p4_zscot | done | 55 | 0.673 | 0.667 | 41.7% | 5.88h |
+| p5_fewshotcot | done | 55 | 0.673 | 0.667 | 41.7% | 4.56h |
+| p6_rolefewshot | done | 55 | 0.655 | 0.654 | 44.4% | 3.75h |
+| p7_rolecot | done | 55 | 0.600 | 0.553 | 41.7% | 5.48h |
+| p8_rawcot | **running** (started 2026-07-07 01:29:52, last variant of `run_p4_p8_thinking_sweep.sh`, pid file `p4_p8_sweep.pid`) | - | - | - | - | in progress (5h11m so far) |
+
+Wall time = per-variant sweep duration (all 5 videos, 3 dimensions each, `--parallel 1`), read off
+`logs/p{0_p8,1_p3,4_p8}_thinking_sweep.log` timestamps — total compute so far for p0-p7:
+**35.6h**. No correlation between strategy complexity and runtime (p4_zscot, the longest at
+5.88h, scores mid-pack; p1_rule, 2nd-shortest, scores best) — runtime is driven by
+per-video/per-query variance in the Thinking model's CoT length, not variant design.
+
+p0-p7 scored into `output/verify_metrics_thinking_p0_p7.csv` (2026-07-07). Best so far: **p1_rule**
+(dec_acc 0.709, accept_f1 0.706, lowest false_pass 38.9%) — none of p4-p7 beat it. Worst: p7_rolecot
+(dec_acc 0.600). Full 9-variant table + final `verify_metrics_thinking.csv` once p8 finishes.
 
 p4-p8 launched as one background sweep (`nohup bash run_p4_p8_thinking_sweep.sh > logs/p4_p8_thinking_sweep.log 2>&1 &`),
 same settings as p0-p3 (`--qwen-model-path Qwen/Qwen3-Omni-30B-A3B-Thinking --qwen-max-tokens 8192 --parallel 1`).
@@ -179,3 +212,59 @@ All 5 models ran the full 3-stage pipeline over real 5s segments without crashin
 TimeChat's caption content is no longer being thrown away. Verify accept-rates are not a
 quality signal here (5 gold-free segments, no comparable baseline) — this is still a
 plumbing/integration check, not a benchmark.
+
+## Verification: Nemotron-3-Nano-Omni + TensorRT-LLM (attempted — blocked by GPU driver)
+
+Goal: run the same p0-p8 per-dimension verifier ablation on NVIDIA's
+`Nemotron-3-Nano-Omni-30B-A3B-Reasoning` (a Mamba2-hybrid-MoE omni model with
+C-RADIOv4-H vision + Parakeet audio encoders, ~3B active of 31B; a *reasoning*
+checkpoint, so a natural counterpart to the Qwen3-Omni-**Thinking** sweep) served on
+**TensorRT-LLM**, the efficient NVIDIA inference framework.
+
+**Outcome: cannot run TensorRT-LLM (nor the newest vLLM) for this model on this machine —
+hard blocker is the host GPU driver, which cannot be upgraded from inside the container.**
+
+- The model's serving support is brand new and lands only in **CUDA-13-era** stacks:
+  - TensorRT-LLM: the omni arch + `nano-v3` reasoning parser need **1.3.0rc13+**, whose
+    wheels hard-depend on `cuda-python>=13`, `nvidia-nccl-cu13`, `torch>=2.10` (CUDA 13).
+  - vLLM: Nemotron-3-Nano-Omni support landed in **vLLM 0.20.0**, which pins
+    `torch==2.11.0` (also CUDA 13). Our `conda_envs/vllm_env` has vLLM 0.14.0, whose model
+    registry has NO `NemotronH_Nano_Omni_Reasoning_V3` entry.
+- This host: **driver 550.163.01** (CUDA 12.6, Hopper H200, cc 9.0), **no docker**, no root
+  to touch the kernel driver. Per NVIDIA's forward-compatibility matrix, **CUDA 13.x
+  forward-compat needs a base driver >= R580** (R570 is the floor for `cuda-compat-13`);
+  R550 does not qualify. So no CUDA-13 runtime — trtllm 1.3 / vLLM 0.20 / torch 2.10-2.11 —
+  can initialize a CUDA context here. The docker image path (`nvcr.io/.../tensorrt-llm`) is
+  also out (no docker).
+
+**What was still done (the genuine attempt + a drop-in integration ready for an R580+ box):**
+
+1. **Downloaded** `nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8` (33 GB, 4 safetensors
+   + remote code) into `HF_HOME=/work/mzha0323/hf_cache`. FP8 (modelopt) is the right
+   precision for Hopper (NVFP4's FP4 tensor cores are Blackwell-only; BF16 would be 62 GB).
+2. **Installed TensorRT-LLM 1.3.0rc15** into `/work/mzha0323/trtllm_venv` (pip, from
+   `pypi.nvidia.com`) to attempt it for real — see `logs/trtllm_install.log`. [RUNTIME
+   RESULT — trtllm-serve / import outcome: TO BE FILLED once the install finishes.]
+3. **Engine-agnostic integration** (works unchanged for `trtllm-serve` OR `vllm serve`,
+   since both expose the identical OpenAI `/v1/chat/completions` API — switching engines is
+   a one-line change to the server launch command only):
+   - `emotion_query_pipeline/nemotron_client.py` — `NemotronOpenAIClient`, a duck-typed
+     `BaseLLMClient` that POSTs to the OpenAI-compatible endpoint. Takes LOCAL clip path(s)
+     as `video_uri` (like `QwenOmniLLMClient`, no upload), converts to `file://` URIs,
+     fires a chunk of requests concurrently (HTTP analog of the Qwen batched forward), and
+     robustly extracts JSON (strips `<think>` blocks / fences, `raw_decode` from first `{`).
+     A query that exhausts retries returns `{}` (read as a fail-safe "invalid format" by the
+     per-dimension verifier) so one bad query never loses the rest of its chunk — same
+     blast-radius guarantee as the Qwen path.
+   - `run_verification.py` — new `--verify-rewrite-backend nemotron` with
+     `--nemotron-{base-url,model,max-tokens,no-thinking}`; `use_local_clips` now covers both
+     the Qwen engine and the Nemotron server.
+   - `run_trtllm_serve.sh` — launches `trtllm-serve` (nano-v3 reasoning parser, FP8).
+   - `run_nemotron_sweep.sh` — the p0-p8 sweep against the server (mirrors
+     `run_verification_sweep.sh`); score with `eval_verification.py` into
+     `output/nemotron_sweep/verify_metrics_nemotron.csv`, comparable to the Qwen Thinking
+     table above. Client logic unit-checked offline (no server needed).
+
+**To actually run it:** on a host with driver >= R580 (or R570 + cuda-compat-13), start
+`bash run_trtllm_serve.sh`, wait for the server, then `bash run_nemotron_sweep.sh`. No code
+changes needed. On this R550 box the sweep cannot run against TensorRT-LLM.

@@ -4,6 +4,10 @@ Aligns each ``verification_results.jsonl`` with ``gold.jsonl`` by query_id (only
 queries that have full human labels are scored), then reports, per results file:
 
   - Dec.Acc   : 3-class decision accuracy (pass/fail/revise) vs gold decision
+  - DimAcc    : mean of the 3 per-dimension binary accuracies (relevance/answerability/
+                query_quality each scored independently vs their own gold field, then
+                averaged) — unlike Dec.Acc this gives partial credit when only one
+                dimension is wrong instead of failing the whole query
   - Accept.F1 : F1 for the "pass" (accept-as-is) class on the final decision
   - FalsePass%: of gold non-pass queries, how many the model passed (safety leak)
   - Rel/Ans/Qual.F1 : per-dimension F1 (positive class = "pass")
@@ -48,6 +52,11 @@ def _dim_prf(pairs):
     return _prf1(tp, fp, fn)
 
 
+def _dim_acc(pairs):
+    """pairs: (gold_bool, pred_bool). Fraction where pred == gold."""
+    return sum(1 for g, p in pairs if g == p) / len(pairs) if pairs else 0.0
+
+
 def _label_from_path(path: Path) -> str:
     # output/verify_p3_fewshot/verification_results.jsonl -> p3_fewshot
     parent = path.parent.name
@@ -77,6 +86,8 @@ def score_one(gold: Dict[str, dict], results_path: Path) -> dict:
 
     n = len(dec_pairs)
     dec_acc = sum(1 for gd, pd in dec_pairs if gd == pd) / n if n else 0.0
+    dim_accs = (_dim_acc(rel), _dim_acc(ans), _dim_acc(qual))
+    dim_acc_avg = sum(dim_accs) / 3
     # Accept ("pass") class F1 on the final decision.
     tp = sum(1 for gd, pd in dec_pairs if gd == "pass" and pd == "pass")
     fp = sum(1 for gd, pd in dec_pairs if gd != "pass" and pd == "pass")
@@ -90,6 +101,8 @@ def score_one(gold: Dict[str, dict], results_path: Path) -> dict:
         "label": _label_from_path(results_path),
         "n": n,
         "dec_acc": dec_acc,
+        "dim_acc_avg": dim_acc_avg,
+        "dim_accs": dim_accs,    # (rel_acc, ans_acc, qual_acc)
         "accept_f1": accept_f1,
         "false_pass": false_pass,
         "rel": _dim_prf(rel),    # (precision, recall, f1)
@@ -115,13 +128,13 @@ def main() -> None:
     scores.sort(key=lambda s: s["label"])
 
     # --- Decision-level overview ---
-    head = (f"{'prompt':16} {'N':>3} {'Dec.Acc':>8} {'Accept.F1':>9} "
+    head = (f"{'prompt':16} {'N':>3} {'Dec.Acc':>8} {'DimAcc':>7} {'Accept.F1':>9} "
             f"{'FalsePass':>9} {'JSONErr':>7}")
     print("=== Decision (pass/fail/revise vs gold) ===")
     print(head)
     print("-" * len(head))
     for s in scores:
-        print(f"{s['label']:16} {s['n']:>3} {s['dec_acc']:>8.3f} "
+        print(f"{s['label']:16} {s['n']:>3} {s['dec_acc']:>8.3f} {s['dim_acc_avg']:>7.3f} "
               f"{s['accept_f1']:>9.3f} {s['false_pass']:>9.1%} {s['json_err']:>7.1%}")
 
     # --- Per-dimension Precision / Recall / F1 (positive class = "pass") ---
@@ -138,7 +151,8 @@ def main() -> None:
 
     if args.csv:
         import csv
-        cols = ["label", "n", "dec_acc", "accept_f1", "false_pass", "json_err",
+        cols = ["label", "n", "dec_acc", "dim_acc_avg", "rel_acc", "ans_acc", "qual_acc",
+                "accept_f1", "false_pass", "json_err",
                 "rel_prec", "rel_recall", "rel_f1",
                 "ans_prec", "ans_recall", "ans_f1",
                 "qual_prec", "qual_recall", "qual_f1"]
@@ -146,8 +160,9 @@ def main() -> None:
             w = csv.DictWriter(f, fieldnames=cols)
             w.writeheader()
             for s in scores:
-                row = {k: s[k] for k in ("label", "n", "dec_acc", "accept_f1",
-                                         "false_pass", "json_err")}
+                row = {k: s[k] for k in ("label", "n", "dec_acc", "dim_acc_avg",
+                                         "accept_f1", "false_pass", "json_err")}
+                row["rel_acc"], row["ans_acc"], row["qual_acc"] = s["dim_accs"]
                 for dk, pre in (("rel", "rel"), ("ans", "ans"), ("qual", "qual")):
                     row[f"{pre}_prec"], row[f"{pre}_recall"], row[f"{pre}_f1"] = s[dk]
                 w.writerow(row)

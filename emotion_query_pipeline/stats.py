@@ -22,6 +22,7 @@ def compute_stats(
     raw_captions: Dict[str, list],
     emotion_events: Dict[str, EmotionEventOutput],
     validation_warnings: List[str],
+    regrounding: Dict[str, Dict[str, int]] | None = None,
 ) -> PipelineStats:
     total_videos = len(video_traces)
     total_initial = sum(
@@ -74,6 +75,10 @@ def compute_stats(
 
     diversity_warnings = [w for w in validation_warnings if "WARNING" in w]
 
+    # Re-grounding stage (0/0 if disabled — regrounding stays {}).
+    regrounding_changed = sum(v.get("changed", 0) for v in (regrounding or {}).values())
+    regrounding_fallback = sum(v.get("fallback", 0) for v in (regrounding or {}).values())
+
     return PipelineStats(
         total_videos=total_videos,
         total_segments=total_segments,
@@ -91,4 +96,6 @@ def compute_stats(
         pass_rate_after_rewrites=round(pass_rate_after_rewrites, 4),
         discarded_query_count=total_discarded,
         diversity_warnings=diversity_warnings,
+        regrounding_changed_count=regrounding_changed,
+        regrounding_fallback_count=regrounding_fallback,
     )

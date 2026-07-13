@@ -20,7 +20,11 @@ helpers, only when a session is actually constructed and used).
 """
 from __future__ import annotations
 
+import select
 import subprocess
+import threading
+import time
+from collections import deque
 from pathlib import Path
 from typing import List, Optional
 
@@ -61,6 +65,51 @@ class Qwen3OmniSession:
         raw = self._captioner.generate(messages)
         return CaptionModelOutput(
             modality="av", raw_output=raw, source_caption_model=self.model_path
+        )
+
+    def close(self) -> None:
+        pass
+
+
+class NemotronCaptionSession:
+    """Nemotron-3-Nano-Omni caption via the vLLM/trtllm OpenAI-compatible server.
+
+    Unlike the other in-process sessions, ``__init__`` holds only a cheap HTTP
+    client config (``NemotronOpenAIClient``) — no weights to load, the model is
+    already resident in the served process. Kept as a session (rather than the
+    per-segment ``_run_nemotron`` runner) purely for interface parity with
+    ``build_caption_session``; there is no per-run state to amortize.
+
+    ``concurrent_safe`` tells the batch driver that ``caption()`` may be called
+    from several threads at once: the client is a stateless HTTP shim (each call
+    builds its own request), so the served engine's continuous batching turns N
+    concurrent calls into one batched forward. In-process sessions leave this
+    False (a single GPU model can't be driven from multiple threads safely).
+    """
+
+    concurrent_safe = True
+
+    def __init__(self, spec: ModelSpec, config: RunnerConfig,
+                 prompts_dir: Optional[Path] = None) -> None:
+        from .nemotron_client import NemotronOpenAIClient  # lazy (import-safe)
+
+        self.model = config.nemotron_model or spec.default_model_path
+        self.prompts_dir = prompts_dir
+        self._client = NemotronOpenAIClient(
+            base_url=config.nemotron_base_url,
+            model=self.model,
+            max_tokens=config.nemotron_max_tokens,
+            enable_thinking=config.nemotron_enable_thinking,
+        )
+
+    def caption(self, segment: Segment, video_path: Optional[str],
+                audio_path: Optional[str]) -> CaptionModelOutput:
+        from .omni_captioning import build_omni_caption_prompt  # lazy
+
+        prompt = build_omni_caption_prompt([segment], self.prompts_dir)
+        raw = self._client.generate_json(prompt, "omni_caption", video_uri=video_path)
+        return CaptionModelOutput(
+            modality="av", raw_output=raw, source_caption_model=self.model
         )
 
     def close(self) -> None:
@@ -149,24 +198,54 @@ class SubprocessAudioSession:
             cmd, cwd=cwd, stdin=subprocess.PIPE, stdout=subprocess.PIPE,
             stderr=subprocess.PIPE, text=True, bufsize=1,
         )
-        # Wait for the server to finish loading the model.
+        # Drain stderr in a background thread so a chatty server (e.g. vLLM logs
+        # a lot) can never fill the ~64KB pipe buffer and deadlock — the server
+        # would block writing stderr while we block reading stdout for the caption.
+        self._stderr_buf: "deque[str]" = deque(maxlen=500)
+        self._stderr_thread = threading.Thread(target=self._drain_stderr, daemon=True)
+        self._stderr_thread.start()
+        # Wait for the server to finish loading the model, bounded by startup_timeout —
+        # a plain blocking readline() here would hang forever if the model load stalls
+        # (e.g. a hung network filesystem read), leaving no diagnostic and no way for
+        # the caller to notice or clean up the orphaned subprocess.
+        deadline = time.monotonic() + startup_timeout
         while True:
+            remaining = deadline - time.monotonic()
+            if remaining <= 0:
+                self._kill()
+                raise TimeoutError(
+                    f"audio server did not become ready within {startup_timeout:.0f}s: "
+                    f"{' '.join(cmd)}\n--- stderr (tail) ---\n{self._stderr_tail()}"
+                )
+            ready, _, _ = select.select([self._proc.stdout], [], [], remaining)
+            if not ready:
+                continue
             line = self._proc.stdout.readline()
             if line == "":
-                err = self._proc.stderr.read() if self._proc.stderr else ""
                 raise RuntimeError(
                     f"audio server exited before ready: {' '.join(cmd)}\n"
-                    f"--- stderr (tail) ---\n{err[-4000:]}"
+                    f"--- stderr (tail) ---\n{self._stderr_tail()}"
                 )
             if line.strip() == "###READY###":
                 break
 
+    def _drain_stderr(self) -> None:
+        try:
+            for line in self._proc.stderr:
+                self._stderr_buf.append(line)
+        except Exception:
+            pass
+
+    def _stderr_tail(self) -> str:
+        # Give the drain thread a beat to flush after the process exits.
+        self._stderr_thread.join(timeout=1.0)
+        return "".join(self._stderr_buf)[-4000:]
+
     def caption_audio(self, audio_path: str) -> str:
         if self._proc.poll() is not None:
-            err = self._proc.stderr.read() if self._proc.stderr else ""
             raise RuntimeError(
                 f"audio server died (exit {self._proc.returncode}).\n"
-                f"--- stderr (tail) ---\n{err[-4000:]}"
+                f"--- stderr (tail) ---\n{self._stderr_tail()}"
             )
         self._proc.stdin.write(str(Path(audio_path).resolve()) + "\n")
         self._proc.stdin.flush()
@@ -176,10 +255,9 @@ class SubprocessAudioSession:
         while True:
             line = self._proc.stdout.readline()
             if line == "":
-                err = self._proc.stderr.read() if self._proc.stderr else ""
                 raise RuntimeError(
                     f"audio server closed stdout mid-caption.\n"
-                    f"--- stderr (tail) ---\n{err[-4000:]}"
+                    f"--- stderr (tail) ---\n{self._stderr_tail()}"
                 )
             stripped = line.strip()
             if stripped == "###CAPTION_START###":
@@ -201,6 +279,26 @@ class SubprocessAudioSession:
             self._proc.wait(timeout=30)
         except Exception:
             self._proc.kill()
+
+    def _kill(self) -> None:
+        try:
+            self._proc.terminate()
+            self._proc.wait(timeout=10)
+        except Exception:
+            self._proc.kill()
+
+
+class Qwen3VLVllmVideoSession(SubprocessAudioSession):
+    """Qwen3-VL video captioner served by vLLM in a persistent subprocess.
+
+    Same persistent-server protocol as ``SubprocessAudioSession`` (spawn once, wait for
+    ``###READY###``, one path per line, caption between markers) — only the exposed method
+    name differs (``caption_video``), so it is a drop-in for ``Qwen3VLVideoSession`` in the
+    audio+video factory branch. Runs in ``conda_envs/vllm_env`` (CUDA-12 vLLM stack).
+    """
+
+    def caption_video(self, video_path: str) -> str:
+        return self.caption_audio(video_path)
 
 
 class AudioVideoSession:
@@ -251,6 +349,8 @@ def build_caption_session(caption_model: str, config: RunnerConfig,
 
     if caption_model == "qwen3_omni":
         return Qwen3OmniSession(spec, config, prompts_dir)
+    if caption_model == "nemotron_omni":
+        return NemotronCaptionSession(spec, config, prompts_dir)
     if caption_model == "avocado":
         return Qwen25OmniAVSession(
             spec, config, cqt._AVOCADO_PROMPT,
@@ -263,7 +363,18 @@ def build_caption_session(caption_model: str, config: RunnerConfig,
     if caption_model in ("qwen_audio_vl", "af3_vl", "secap_qwen"):
         video_model = config.video_model_path or spec.default_video_model_path
         audio_model = config.audio_model_path or spec.default_audio_model_path
-        video_session = Qwen3VLVideoSession(video_model, config)
+        if getattr(config, "use_vllm_video", False):
+            video_session = Qwen3VLVllmVideoSession(
+                [cqt._VLLM_ENV_PYTHON, cqt._VLLM_QWEN3VL_SCRIPT, "--server",
+                 "--model", video_model,
+                 "--max-new-tokens", str(config.max_new_tokens),
+                 # Qwen3-VL-8B needs ~20GB; cap low so a co-resident audio model
+                 # (e.g. Qwen3-Omni-Captioner 30B for qwen_audio_vl) has GPU room.
+                 "--gpu-memory-utilization", "0.35"],
+                video_model,
+            )
+        else:
+            video_session = Qwen3VLVideoSession(video_model, config)
         if caption_model == "qwen_audio_vl":
             audio_session = QwenOmniCaptionerAudioSession(audio_model)
         elif caption_model == "af3_vl":

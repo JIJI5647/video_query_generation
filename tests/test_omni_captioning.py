@@ -40,27 +40,29 @@ def _segments(n):
 
 
 def _good_caption_dict(seg_id="s022", time_range=(105.0, 110.0)) -> dict:
+    """A well-formed caption in the OmniCaption schema's own field names."""
     return {
         "segment_id": seg_id,
         "time_range": list(time_range),
-        "visual_objective": {
-            "people": [{
-                "person": "a woman in a white shirt",
-                "visibility": "clearly visible",
-                "position": "foreground",
-                "action": "talking to a man",
-            }],
-            "scene": {"location": "indoor room", "setting": "conversation scene"},
-            "objects": [], "interactions": [], "key_actions": ["leaning forward"],
-            "visibility_notes": "",
-        },
-        "visual_expression": [{
-            "person": "the woman in a white shirt",
-            "facial_cues": ["eyes widened", "mouth open"],
-            "body_cues": [], "gaze": "looking toward the man",
-        }],
+        "visual_description": "A woman in a white shirt, clearly visible in the "
+                               "foreground, leans forward and talks to a man, "
+                               "eyes widened, mouth open, looking toward him.",
         "audio_description": "The woman speaks with an excited voice.",
-        "temporal_description": "Her voice rises sharply midway through the clip.",
+        "confidence": "high",
+        "evidence_strength": "clear",
+    }
+
+
+def _unified_raw_caption_dict(seg_id="s022", time_range=(105.0, 110.0)) -> dict:
+    """A well-formed caption in the RAW unified-prompt shape (``visual``/``audio``
+    keys), as the model actually emits it before ``_translate_unified_fields``."""
+    return {
+        "segment_id": seg_id,
+        "time_range": list(time_range),
+        "visual": "A woman in a white shirt, clearly visible in the foreground, "
+                  "leans forward and talks to a man, eyes widened, mouth open, "
+                  "looking toward him.",
+        "audio": "The woman speaks with an excited voice.",
         "confidence": "high",
         "evidence_strength": "clear",
     }
@@ -80,7 +82,7 @@ def test_constructing_captioner_does_not_load_model():
     assert cap.use_audio_in_video is True
     assert cap.video_reader_backend == "torchvision"
     assert cap.sampling_params == {
-        "temperature": 0.0, "top_p": 0.95, "top_k": 20, "max_tokens": 2048,
+        "temperature": 0.0, "top_p": 0.95, "top_k": 20, "max_tokens": 256,
     }
     for mod in ("torch", "transformers", "qwen_omni_utils"):
         assert mod not in sys.modules
@@ -146,10 +148,17 @@ def test_missing_required_fields():
     assert "audio_description" in oc.missing_required_fields(d)
     d2 = _good_caption_dict(); d2["time_range"] = [1.0]
     assert "time_range" in oc.missing_required_fields(d2)
-    # temporal_description is OPTIONAL — its absence must not flag missing.
-    d3 = _good_caption_dict(); d3.pop("temporal_description", None)
-    assert oc.missing_required_fields(d3) == []
+    d3 = _good_caption_dict(); del d3["visual_description"]
+    assert "visual_description" in oc.missing_required_fields(d3)
     assert oc.missing_required_fields(_good_caption_dict()) == []
+
+
+def test_translate_unified_fields_maps_visual_audio_keys():
+    """The unified prompt's raw ``visual``/``audio`` keys map onto the schema."""
+    d = _unified_raw_caption_dict()
+    oc._translate_unified_fields(d)
+    assert d["visual_description"].startswith("A woman in a white shirt")
+    assert d["audio_description"] == "The woman speaks with an excited voice."
 
 
 # ---------------------------------------------------------------------------
@@ -160,6 +169,15 @@ def test_parse_caption_overrides_metadata():
     cap = oc.parse_caption(json.dumps(d), _segment(), "vid01")
     assert cap.segment_id == "s022" and cap.time_range == [105.0, 110.0]
     assert cap.video_id == "vid01"
+
+
+def test_parse_caption_translates_unified_visual_audio_keys():
+    """parse_caption accepts the model's raw {"visual": ..., "audio": ...} output."""
+    d = _unified_raw_caption_dict(seg_id="WRONG", time_range=(0.0, 1.0))
+    cap = oc.parse_caption(json.dumps(d), _segment(), "vid01")
+    assert cap.segment_id == "s022"
+    assert cap.visual_description.startswith("A woman in a white shirt")
+    assert cap.audio_description == "The woman speaks with an excited voice."
 
 
 def test_parse_caption_missing_raises_with_raw():
@@ -198,7 +216,7 @@ def test_parse_captions_skips_invalid_keeps_valid():
 def test_caption_has_no_emotion_field():
     cap = OmniCaption.model_validate(_good_caption_dict())
     assert not hasattr(cap, "emotion_description")
-    assert cap.temporal_description.startswith("Her voice rises")
+    assert cap.visual_description.startswith("A woman in a white shirt")
 
 
 # ---------------------------------------------------------------------------
@@ -217,7 +235,7 @@ def test_read_valid_cache_states(tmp_path):
     bad = tmp_path / "bad.json"; bad.write_text("{ not json", encoding="utf-8")
     assert oc.read_valid_cache(bad)[1] == "json_parse_error"
     inc = tmp_path / "inc.json"
-    d = _good_caption_dict(); del d["visual_objective"]
+    d = _good_caption_dict(); del d["visual_description"]
     inc.write_text(json.dumps(d), encoding="utf-8")
     assert oc.read_valid_cache(inc)[1] == "missing_required_fields"
 

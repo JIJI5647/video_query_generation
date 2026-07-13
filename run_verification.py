@@ -73,7 +73,8 @@ def main() -> None:
     parser.add_argument("--video-dir", required=True)
     parser.add_argument("--output", required=True)
     parser.add_argument("--verify-rewrite-backend",
-                        choices=["gemini", "qwen3_omni"], default="qwen3_omni")
+                        choices=["gemini", "qwen3_omni", "nemotron", "qwen_omni_vllm"],
+                        default="qwen3_omni")
     parser.add_argument("--verification-model", default="gemini-3.1-flash-lite")
     parser.add_argument(
         "--using-prompt", default=None,
@@ -107,9 +108,44 @@ def main() -> None:
     parser.add_argument("--qwen-video-reader-backend",
                         choices=["torchvision", "decord", "torchcodec"],
                         default="torchvision")
+    # Nemotron-3-Nano-Omni (OpenAI-compatible server: trtllm-serve or vllm serve).
+    parser.add_argument("--nemotron-base-url", default="http://0.0.0.0:8000/v1",
+                        help="OpenAI-compatible base URL of the Nemotron server.")
+    parser.add_argument(
+        "--nemotron-model",
+        default="nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-FP8",
+        help="Served model id (the HF repo id passed to trtllm-serve / vllm serve).",
+    )
+    parser.add_argument(
+        "--nemotron-max-tokens", type=int, default=8192,
+        help="Generation budget for the Nemotron reasoning model (raise so the "
+        "chain-of-thought isn't truncated before the JSON, like Qwen Thinking).",
+    )
+    parser.add_argument("--nemotron-no-thinking", action="store_true",
+                        help="Disable the Nemotron reasoning trace (enable_thinking=False).")
+    # Qwen3-Omni served over vLLM (OpenAI-compatible server), reusing the same
+    # NemotronOpenAIClient HTTP shim as the nemotron backend above.
+    parser.add_argument("--qwen-vllm-base-url", default="http://0.0.0.0:8000/v1",
+                        help="OpenAI-compatible base URL of the vLLM-served Qwen3-Omni server.")
+    parser.add_argument("--qwen-vllm-model",
+                        default="Qwen/Qwen3-Omni-30B-A3B-Instruct",
+                        help="Served model id (the HF repo id passed to vllm serve).")
+    parser.add_argument("--qwen-vllm-max-tokens", type=int, default=4096,
+                        help="Generation budget for the vLLM-served Qwen3-Omni model.")
+    parser.add_argument(
+        "--qwen-vllm-thinking", action="store_true",
+        help="Enable the Qwen3-Omni reasoning trace (enable_thinking=True) — only "
+        "meaningful for the Thinking checkpoint. Default sends no chat_template_kwargs "
+        "at all (Instruct checkpoints have no thinking mode).",
+    )
     args = parser.parse_args()
 
     use_qwen_vr = args.verify_rewrite_backend == "qwen3_omni"
+    # Backends that watch LOCAL clip files directly (no Gemini Files API upload):
+    # the Qwen in-process engine and the served-HTTP backends (file:// URIs).
+    use_local_clips = args.verify_rewrite_backend in (
+        "qwen3_omni", "nemotron", "qwen_omni_vllm",
+    )
 
     queries_dir = Path(args.queries_dir)
     video_dir = Path(args.video_dir)
@@ -162,6 +198,30 @@ def main() -> None:
         vr_client = QwenOmniLLMClient(engine)
         print(f"Verify backend — qwen3_omni ({args.qwen_model_path}, "
               f"max_new_tokens={sampling['max_tokens']})")
+    elif args.verify_rewrite_backend == "nemotron":
+        from emotion_query_pipeline.nemotron_client import NemotronOpenAIClient
+        vr_client = NemotronOpenAIClient(
+            base_url=args.nemotron_base_url,
+            model=args.nemotron_model,
+            max_tokens=args.nemotron_max_tokens,
+            enable_thinking=not args.nemotron_no_thinking,
+            max_workers=max(1, args.parallel),
+        )
+        print(f"Verify backend — nemotron ({args.nemotron_model} @ "
+              f"{args.nemotron_base_url}, max_tokens={args.nemotron_max_tokens}, "
+              f"thinking={not args.nemotron_no_thinking})")
+    elif args.verify_rewrite_backend == "qwen_omni_vllm":
+        from emotion_query_pipeline.nemotron_client import NemotronOpenAIClient
+        vr_client = NemotronOpenAIClient(
+            base_url=args.qwen_vllm_base_url,
+            model=args.qwen_vllm_model,
+            max_tokens=args.qwen_vllm_max_tokens,
+            enable_thinking=True if args.qwen_vllm_thinking else None,
+            max_workers=max(1, args.parallel),
+        )
+        print(f"Verify backend — qwen_omni_vllm ({args.qwen_vllm_model} @ "
+              f"{args.qwen_vllm_base_url}, max_tokens={args.qwen_vllm_max_tokens}, "
+              f"thinking={args.qwen_vllm_thinking})")
     else:
         api_key = os.environ.get("GEMINI_API_KEY")
         if not api_key:
@@ -210,7 +270,7 @@ def main() -> None:
             for seg in needed_segs:
                 if not seg.clip_path:
                     continue
-                if use_qwen_vr:
+                if use_local_clips:
                     segment_uris[seg.segment_id] = seg.clip_path
                 elif uploader is not None:
                     f = uploader.upload(seg.clip_path)
