@@ -1,0 +1,51 @@
+video_id,query_id,query_type,query_text,time_range,segment_ids,gen_time_range,gen_segment_ids
+emostim_01_TheShining_clip_2,emostim_01_TheShining_clip_2_q001,emotion_state,When does the young boy appear frightened while holding a knife and facing a closed door?,"[20.0, 35.0]","s005,s006,s007","[15.0, 25.0]","s004,s005"
+emostim_01_TheShining_clip_2,emostim_01_TheShining_clip_2_q006,explicit_event,"When does the man angrily swing an axe at the door, making loud crashing sounds?","[85.0, 95.0]","s018,s019","[85.0, 95.0]","s018,s019"
+emostim_01_TheShining_clip_2,emostim_01_TheShining_clip_2_q007,evidence_cue,"When does the woman, tense with effort, struggle to open a door while holding a knife, showing fear?","[100.0, 105.0]",s021,"[100.0, 105.0]",s021
+emostim_02_WhenHarryMetSally_clip_1,emostim_02_WhenHarryMetSally_clip_1_q01,emotion_state,When does the woman appear surprised as the man speaks in a surprised tone?,"[40.0, 45.0]",s009,"[40.0, 45.0]",s009
+emostim_02_WhenHarryMetSally_clip_1,emostim_02_WhenHarryMetSally_clip_1_q06,evidence_cue,"When does the woman groan repeatedly with her head tilted back and eyes closed, indicating sadness?","[100.0, 105.0]",s021,"[100.0, 105.0]",s021
+emostim_02_WhenHarryMetSally_clip_1,emostim_02_WhenHarryMetSally_clip_1_q07,evidence_cue,"When does the woman groan in pain with her head tilted back and eyes closed, showing sadness?","[100.0, 105.0]",s021,"[105.0, 110.0]",s022
+emostim_03_MrBeansHoliday_clip_4,emostim_03_MrBeansHoliday_clip_4_q01,emotion_state,When does the man in the brown suit and red tie appear happy while making a 'call me' gesture?,"[30.0, 35.0]",s007,"[25.0, 30.0]",s006
+emostim_04_28DaysLater_clip_6,emostim_04_28DaysLater_clip_6_q01,emotion_state,When does the young woman appear frightened as she looks around?,"[0.0, 5.0]",s001,"[0.0, 5.0]",s001
+emostim_04_28DaysLater_clip_6,emostim_04_28DaysLater_clip_6_q02,evidence_cue,"When does a man in a dark outfit exhibit panic or urgency through his quick movements and tense demeanor, suggesting fear?","[5.0, 10.0]",s002,"[5.0, 10.0]",s002
+emostim_04_28DaysLater_clip_6,emostim_04_28DaysLater_clip_6_q08,emotion_state,At what point does the shirtless man appear sad or in distress as he stumbles and collapses with a chest wound?,"[45.0, 50.0]",s010,"[45.0, 50.0]",s010
+emostim_05_TheSilenceOfTheLambs_b_clip_1,emostim_05_TheSilenceOfTheLambs_b_clip_1_q01,emotion_state,"When does the woman with brown hair appear fearful, looking down with a pained expression?","[40.0, 45.0]",s009,"[35.0, 45.0]","s008,s009"
+emostim_05_TheSilenceOfTheLambs_b_clip_1,emostim_05_TheSilenceOfTheLambs_b_clip_1_q02,evidence_cue,"When does the woman with long brown hair look around with a concerned expression and darting eyes, showing fear?","[50.0, 55.0]",s011,"[50.0, 55.0]",s011
+emostim_05_TheSilenceOfTheLambs_b_clip_1,emostim_05_TheSilenceOfTheLambs_b_clip_1_q04,emotion_state,"When does the woman with brown hair and blue eyes show fear, looking upwards with a concerned expression and then shifting to worry or sadness?","[80.0, 85.0]",s017,"[80.0, 85.0]",s017
+emostim_06_TheChamp_clip_3,emostim_06_TheChamp_clip_3_q01,evidence_cue,When does the young child cry and sob with a distressed expression?,"[5.0, 15.0]","s002,s003","[5.0, 15.0]","s002,s003"
+emostim_06_TheChamp_clip_3,emostim_06_TheChamp_clip_3_q02,emotion_state,When does the young child appear sad while wailing?,"[15.0, 55.0]","s004,s005,s006,s007,s008,s009,s010,s011","[15.0, 55.0]","s004,s005,s006,s007,s008,s009,s010,s011"
+emostim_06_TheChamp_clip_3,emostim_06_TheChamp_clip_3_q03,evidence_cue,When does the young boy exhibit distress by wailing with tears on his face?,"[15.0, 20.0]",s004,"[15.0, 20.0]",s004
+emostim_07_TheSilenceOfTheLambs_a_clip_2,emostim_07_TheSilenceOfTheLambs_a_clip_2_q01,emotion_state,When does the woman with dark hair appear frightened?,"[5.0, 10.0]",s002,"[5.0, 12.76]","s002,s003"
+emostim_07_TheSilenceOfTheLambs_a_clip_2,emostim_07_TheSilenceOfTheLambs_a_clip_2_q02,evidence_cue,When does the woman with dark hair show fear by looking off to the side with a tense expression and a mouth slightly open?,"[5.0, 10.0]",s002,"[5.0, 10.0]",s002
+meld_01_dia337,meld_01_dia337_q01,emotion_state,When does the man in the blue shirt appear surprised?,"[15.0, 20.0]",s004,"[55.0, 60.0]",s012
+meld_01_dia337,meld_01_dia337_q02,evidence_cue,When does the man in the blue shirt turn his head sharply and speak with a tone of surprise and concern?,"[55.0, 60.0]",s012,"[55.0, 60.0]",s012
+meld_01_dia337,meld_01_dia337_q03,emotion_state,When does the man in the pink shirt look surprised?,"[65.0, 67.9]",s014,"[65.0, 67.9]",s014
+meld_02_dia224,meld_02_dia224_q01,emotion_state,When does the man in the blue shirt appear happy?,"[0.0, 5.0]",s001,"[0.0, 5.0]",s001
+meld_02_dia224,meld_02_dia224_q02,evidence_cue,"When does the man in the blue shirt laugh heartily, leaning forward with his hands gesturing, showing happiness?","[0.0, 5.0]",s001,"[0.0, 5.0]",s001
+meld_02_dia224,meld_02_dia224_q03,emotion_state,When does the man in the light blue polo shirt appear happy?,"[5.0, 10.0]",s002,"[5.0, 10.0]",s002
+meld_03_dia572,meld_03_dia572_q01,emotion_state,When does the woman appear sad while looking down at her stomach with a pained expression?,"[5.0, 10.0]",s002,"[5.0, 10.0]",s002
+meld_03_dia572,meld_03_dia572_q03,emotion_state,"At what point does the woman appear sad, visibly distressed and clutching her stomach?","[20.0, 25.0]",s005,"[20.0, 25.0]",s005
+meld_03_dia572,meld_03_dia572_q04,evidence_cue,"When does the woman speak in an agitated tone, showing frustration?","[25.0, 30.0]",s006,"[25.0, 30.0]",s006
+meld_04_dia362,meld_04_dia362_q01,emotion_state,When does the woman in the hospital bed appear sad while crying?,"[5.0, 10.0]",s002,"[0.0, 10.0]","s001,s002"
+meld_04_dia362,meld_04_dia362_q02,evidence_cue,"When does the woman in the hospital gown speak in a strained, emotional tone, showing sadness?","[0.0, 5.0]",s001,"[0.0, 10.0]","s001,s002"
+meld_04_dia362,meld_04_dia362_q03,emotion_state,When does the woman in the hospital bed seem disappointed with a pained expression?,"[10.0, 20.0]","s003,s004","[10.0, 20.0]","s003,s004"
+meld_05_dia980,meld_05_dia980_q01,emotion_state,When does the man in the gray sweater appear frustrated while speaking?,"[5.0, 10.0]",s002,"[5.0, 10.0]",s002
+meld_05_dia980,meld_05_dia980_q02,evidence_cue,"When does the man in the gray sweater speak with a questioning and exasperated tone, showing frustration?","[5.0, 10.0]",s002,"[5.0, 10.0]",s002
+meld_06_dia823,meld_06_dia823_q01,emotion_state,When does the blonde woman in the patterned shirt appear happy as she enters the room and speaks?,"[0.0, 5.0]",s001,"[0.0, 10.0]","s001,s002"
+meld_06_dia823,meld_06_dia823_q02,evidence_cue,How does the woman with brown hair show disappointment with her serious expression and hand gestures while speaking firmly?,"[15.0, 20.0]",s004,"[10.0, 20.0]","s003,s004"
+meld_06_dia823,meld_06_dia823_q03,explicit_event,When does the woman holding a small black object smile happily towards someone off-screen?,"[20.0, 25.0]",s005,"[20.0, 25.0]",s005
+meld_07_dia208,meld_07_dia208_q01,emotion_state,When does the man in the black sweater appear happy while looking at the man in the red plaid shirt?,"[5.0, 10.0]",s002,"[5.0, 10.0]",s002
+meld_07_dia208,meld_07_dia208_q02,evidence_cue,When does the man in the black sweater show happiness with a slight smile while looking at the man in the red plaid shirt?,"[5.0, 10.0]",s002,"[5.0, 10.0]",s002
+meld_07_dia208,meld_07_dia208_q03,explicit_event,When does the woman with curly dark hair enthusiastically urge someone to try the cake while pointing at it?,"[20.0, 25.0]",s005,"[20.0, 25.0]",s005
+moviechat_01_162,moviechat_01_162_q02,evidence_cue,"When does the man in the dark suit look down with a somber expression, showing sadness?","[195.0, 200.0]",s040,"[40.0, 45.0]",s009
+moviechat_01_162,moviechat_01_162_q03,emotion_state,"When does the driver appear weary and sad, resting his head in his hand?","[80.0, 90.0]","s017,s018","[80.0, 85.0]",s017
+moviechat_01_162,moviechat_01_162_q04,evidence_cue,"When does the man with dark hair rest his hand on his forehead and look down with a weary expression, conveying sadness?","[80.0, 90.0]","s017,s018","[85.0, 90.0]",s018
+moviechat_02_154,moviechat_02_154_q12,evidence_cue,"What moment shows two men walking towards a luxury sedan at night on a wet street, with rhythmic footsteps and an ambient hum, contributing to a sense of fear?","[55.0, 60.0]",s012,"[55.0, 60.0]",s012
+moviechat_02_154,moviechat_02_154_q21,evidence_cue,"What moment shows a man intently looking to the right in a dark scene with a distorted, echoing sound, possibly a siren, indicating fear?","[100.0, 105.0]",s021,"[100.0, 105.0]",s021
+moviechat_02_154,moviechat_02_154_q24,evidence_cue,"When does the young man with dark hair look down and then forward with a serious expression, while a low, continuous hum is audible, suggesting fear?","[115.0, 120.0]",s024,"[115.0, 120.0]",s024
+moviechat_03_160,moviechat_03_160_q01,emotion_state,When does the man in the light-colored shirt appear frustrated?,"[0.0, 5.0]",s001,"[0.0, 5.0]",s001
+moviechat_03_160,moviechat_03_160_q02,evidence_cue,"When does the man in the light-colored shirt raise his hands to his head, showing frustration?","[0.0, 5.0]",s001,"[0.0, 5.0]",s001
+moviechat_04_159,moviechat_04_159_q01,emotion_state,When does the man with short dark hair and a goatee appear sad while lighting a cigarette?,"[0.0, 5.0]",s001,"[0.0, 5.0]",s001
+moviechat_04_159,moviechat_04_159_q03,emotion_state,At what point does the woman in the white shirt look surprised while looking at a laptop?,"[115.0, 120.0]",s024,"[115.0, 120.0]",s024
+moviechat_05_30,moviechat_05_30_q01,explicit_event,"When does the man in the black robe appear to be shouting or casting a spell, accompanied by a loud, distorted scream?","[20.0, 25.0]",s005,"[20.0, 25.0]",s005
+moviechat_05_30,moviechat_05_30_q02,emotion_state,When does the man in the black robe exhibit frustration?,"[20.0, 25.0]",s005,"[20.0, 25.0]",s005

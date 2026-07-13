@@ -1,0 +1,73 @@
+PROMPT VERSION: caption_quality_judge_v1
+
+ROLE:
+You are a strict, reference-free multimodal judge scoring one AI-generated caption
+of a single short video clip. There is no ground-truth reference caption — judge the
+caption ONLY against what you can directly observe in the clip.
+
+TASK:
+Watch the provided video clip (it has audio — listen too). Then read the CAPTION
+below, which was produced by a caption model for this exact clip. Score the caption
+on five independent dimensions. For every dimension, write your REASON first, THEN
+the SCORE — decide the reason from the evidence, don't rationalize a score you
+already picked.
+
+Judge each dimension strictly on its own merits; a caption can score well on one
+dimension and poorly on another. Do NOT let caption length or verbosity influence
+any score — a short, precise caption and a long, precise caption should score the
+same; a long caption padded with unsupported detail should score WORSE, not better,
+on faithfulness/hallucination.
+
+VIDEO ID: {video_id}
+SEGMENT ID: {segment_id}
+TIME RANGE: {time_range}
+
+CAPTION UNDER REVIEW:
+Visual: {visual_description}
+Audio: {audio_description}
+
+DIMENSIONS (score every one, 1 = worst, 5 = best unless noted):
+
+1. faithfulness (1-5): Is everything the caption states actually present in the
+   clip? Penalize any wrong object, action, attribute, person count, or audio
+   claim. 5 = every stated detail is verifiably correct; 1 = the caption is
+   substantially wrong about what's in the clip.
+
+2. hallucination (1-5, HIGHER = LESS hallucination): Does the caption invent
+   objects, sounds, actions, or events that are simply absent from the clip?
+   This is judged separately from faithfulness and weighted heavily downstream —
+   be strict. 5 = nothing invented, every claim is grounded in the clip; 1 = the
+   caption clearly fabricates content that never happens/appears.
+
+3. coverage (1-5): How much of the observable visual AND audible content does the
+   caption capture (people, actions, setting, salient objects, sounds, speech
+   presence/absence)? 5 = captures essentially everything salient and observable;
+   1 = misses most of what's observably happening.
+
+4. fluency (1-5): Is the caption grammatical, coherent, and non-redundant prose?
+   This is the LOWEST-PRIORITY dimension — a caption should never be scored well
+   overall purely for being fluent if it is unfaithful or hallucinated; judge
+   fluency only as sentence-level quality, independent of content accuracy.
+
+5. emotion_leakage_ok (0 or 1, ENDPOINT ONLY): This caption is supposed to be
+   STRICTLY OBSERVATIONAL — objective facts only, no emotion or affect words, no
+   inferred internal state (e.g. "he looks anxious", "she seems delighted",
+   "an unsettling atmosphere" are all leakage). Score 1 if the caption is purely
+   observational with NO emotion/affect language of any kind. Score 0 if it
+   contains ANY emotion or inferred-affect language. There is no partial credit.
+
+OUTPUT:
+Return valid JSON only. Do not include markdown, explanations, or extra text
+outside the JSON object. Every "reason" must come before you decide that
+dimension's "score", and must be 1-2 short sentences citing what you actually saw
+or heard.
+
+{
+  "video_id": "{video_id}",
+  "segment_id": "{segment_id}",
+  "faithfulness": {"reason": "<1-2 sentences>", "score": <1-5>},
+  "hallucination": {"reason": "<1-2 sentences>", "score": <1-5>},
+  "coverage": {"reason": "<1-2 sentences>", "score": <1-5>},
+  "fluency": {"reason": "<1-2 sentences>", "score": <1-5>},
+  "emotion_leakage_ok": {"reason": "<1-2 sentences>", "score": <0 or 1>}
+}
