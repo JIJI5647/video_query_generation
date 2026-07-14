@@ -1,0 +1,145 @@
+PROMPT VERSION: generation_prompt_direct_noevent_v1 (ablation: v12 rules, NO emotion-event signal)
+
+TASK:
+You are given segment-level OBSERVATION captions extracted from one video (multimodal
+evidence per time range — NO emotion). Read them, FIRST identify the moments where the
+observable evidence clearly supports one of the eight target emotions, then write
+high-precision, emotion-related temporal grounding queries for human annotation. Each
+query is grounded on a ``time_range`` (in seconds) and must be answerable from the
+observable evidence at that time.
+
+FOR EACH emotional moment you identify, write 2-3 queries of DIFFERENT query_types
+(see types below) that each capture the SAME moment from a different angle — e.g. one
+emotion_state query about the felt emotion, one evidence_cue query about the
+observable cue, and one explicit_event query about the action/interaction. Only
+write a type if it is genuinely supported by the observable evidence; if a moment
+only supports one angle, write one query rather than padding with weak ones. Never
+invent evidence to hit a count. If a stretch of the video shows no clear
+emotion-relevant evidence, write NO queries for it.
+
+You do NOT see the video. Treat the captions as the ground truth of what is
+observable.
+
+VIDEO ID: {video_id}
+
+OBSERVATION CAPTIONS (segment-level, NO emotion). Each caption:
+- ``time_range``: [start, end] seconds.
+- ``caption``: unstructured observation prose in two labelled parts —
+  "Visual: <objective visual facts: people (appearance, position, visibility),
+  their observable actions, the scene, objects/interactions, and observable
+  facial cues, body cues, gaze>" and, only when there is audio evidence,
+  "Audio: <NON-VERBAL audio: tone of voice, shouting, crying, laughing,
+  silence>". The Audio part is NOT a transcript; do not quote it as speech, and
+  it is omitted entirely when there is no audio evidence.
+- ``confidence`` / ``evidence_strength``: how reliable the caption is.
+{captions_json}
+
+GENERATION RULES:
+
+CORE RULE (overrides everything below if in conflict) — ANCHOR EVERY QUERY TO ONE
+TARGET EMOTION. Every query_text, whatever its type, must make ONE of the
+eight target emotions (angry, excited, fear, sad, surprised, frustrated, happy,
+disappointed) unambiguous — either by naming it, or by naming a cue that
+canonically signals THAT specific emotion. A query a reader could not map to
+exactly one target emotion is INVALID; do not write it.
+   - emotion_state: name the emotion ("appear frightened").
+   - evidence_cue: tie the cue TO the emotion ("widen her eyes and gasp in
+     surprise"), NEVER a bare cue ("widen her eyes while talking").
+   - explicit_event: tie the action TO the emotion ("shout angrily at the man"),
+     NEVER a bare action ("shout at the man").
+
+1. IDENTIFY EMOTIONAL MOMENTS FROM THE CAPTIONS YOURSELF. A moment qualifies only
+   when the observable evidence in the captions (facial cues, body cues, gaze,
+   actions, how the audio sounds) supports one of the eight target emotions.
+   Prefer moments backed by captions with higher confidence/evidence_strength.
+   A continuous emotional moment may span one or several CONTIGUOUS segments —
+   treat a continuation of the same emotion by the same person as ONE moment,
+   not one moment per segment.
+
+2. STAY OBSERVABLE — AND DO NOT OVER-ATTRIBUTE. Every query must be answerable from
+   observable evidence (facial cues, body cues, gaze, actions, non-verbal audio).
+   Do not ask about unobservable mental content (what someone
+   intends/knows/remembers/wants). Only assert a target emotion when the captions'
+   observable cues support THAT emotion. If the cue is only "serious face" or
+   "looking forward", do NOT upgrade it to "sad"/"afraid" — write the emotion the
+   cue actually shows, or skip the query.
+
+3. EVIDENCE STRENGTH DECIDES QUERY TYPE.
+   - Moment with "clear" evidence or "high" confidence captions -> you MAY write an
+     emotion_state query, e.g.
+       "At what point does the woman appear surprised while speaking excitedly?"
+   - Weak/ambiguous evidence -> prefer an evidence_cue query that STILL names the
+     target emotion via its cue, e.g.
+       "When does the woman widen her eyes and gasp, showing surprise?"
+     NEVER a bare cue with no emotion, e.g. "...widen her eyes while talking".
+
+4. DO NOT INVENT events, people, cues, or objects not present in the captions.
+   There is no transcript: never quote spoken words.
+
+5. QUERY_TEXT MUST BE SELF-CONTAINED: a natural description of the target person
+   (clothing, role, position), the action, the facial/expression cue, the voice
+   cue, and the interaction partner when needed.
+   Good: "When does the woman in a white shirt widen her eyes and speak excitedly?"
+   Bad:  "When does the person in s022 appear surprised?"   (internal id)
+
+6. NEVER EXPOSE INTERNAL ANNOTATION in query_text: no segment id (e.g. "s009"), no
+   person id, no timestamp or time range. The ``time_range`` field carries timing.
+
+7. PER MOMENT, COVER MULTIPLE TYPES. For each emotional moment, prefer giving 2-3
+   queries with DIFFERENT query_types (explicit_event, emotion_state,
+   evidence_cue), each a distinct angle on that same moment — not reworded
+   duplicates. Use varied question starters ("When does...", "At what point...",
+   "Which moment shows...", "How does the video show..."). Drop a type if the
+   evidence does not genuinely support it.
+
+8. Language & anonymization: English only; visual descriptions, never
+   character/actor/place/brand names. Role words (doctor, judge) and visually
+   grounded kinship terms (mother, husband) are allowed.
+
+FORBIDDEN (these are auto-rejected by the downstream verifier — do NOT generate them):
+- broad mental states not among the 8 targets: concerned, distressed, thoughtful,
+  tense, focused, serious, uncomfortable, curious, worried, anxious, confused,
+  pensive, wary.
+- non-target emotions: disgust, guilt, shame, pride, jealousy, boredom, calmness,
+  physical pain, arousal.
+- plot / scene / bare-action descriptions with no target emotion, e.g. "hold a
+  knife and cover their face", "touch the side of the jeep", "lower their head",
+  "run a hand through their hair" (unless explicitly tied to a target emotion).
+
+QUERY TYPE DEFINITIONS:
+- explicit_event: an observable emotional action, interaction, or audio event.
+- emotion_state: a person's perceived emotional state (only when the evidence is
+  clear/high per rule 3; hedging like "appears"/"looks" is optional).
+- evidence_cue: an observable cue supporting emotion reasoning (facial expression,
+  voice, gaze, posture, hesitation, silence, interactional response).
+
+GROUNDING METADATA (you provide ``time_range`` and ``grounding_evidence``; the
+system fills internal ``segment_ids`` / ``source_caption_ids`` from your
+time_range — do NOT output those):
+- ``time_range``: the [start, end] in seconds covering the evidence the query
+  relies on (use the caption time range, or the union across consecutive captions
+  for one continuous moment). Do NOT merge unrelated moments.
+- ``grounding_evidence``:
+  - ``visual_evidence``: e.g. ["eyes widened", "mouth open"]
+  - ``audio_evidence``: e.g. ["excited voice"]
+
+OUTPUT REQUIREMENTS:
+Return valid JSON only. No markdown, no comments, no text outside the JSON object.
+
+The output JSON must match this schema exactly:
+{
+"video_id": "{video_id}",
+"queries": [
+{
+"video_id": "{video_id}",
+"query_id": "<{video_id}_q01, {video_id}_q02, ...>",
+"query_type": "<explicit_event | emotion_state | evidence_cue>",
+"query_text": "<natural English query; no proper nouns, no segment ids, no person ids, no timestamps>",
+"time_range": [<start_seconds>, <end_seconds>],
+"grounding_evidence": {
+"visual_evidence": ["<observable visual cue>", "..."],
+"audio_evidence": ["<observable non-verbal audio cue>", "..."]
+}
+}
+]
+}

@@ -1,0 +1,92 @@
+PROMPT VERSION: emotion_event_prompt_v2 (evidence-bound, per-person, calibrated)
+
+TASK:
+You are given OBSERVATION captions for every short segment of one video, in time
+order. Each caption describes only what is visible and audible — it contains NO
+emotion. Your job is to infer the EMOTION EVENTS in this video: the specific
+moments where one of the eight target emotions is clearly supported by the
+observable evidence.
+
+VIDEO ID: {video_id}
+
+THE EIGHT EMOTION LABELS (you may use ONLY these — no others):
+- angry: hostility directed at someone/something — glaring, shouting AT a person,
+  aggressive posture/actions. (Distinguish from frustrated: anger has a target.)
+- excited: high-energy positive arousal — animated movements, raised joyful voice,
+  jumping, fast enthusiastic speech.
+- fear: perceived threat — recoiling, freezing, trembling, widened eyes with
+  backing away, screaming in terror.
+- sad: low-energy negative state — crying, slumped posture, downcast gaze,
+  trembling low voice. (Distinguish from disappointed: sadness is about loss/grief.)
+- surprised: sudden reaction to the unexpected — widened eyes, gasp, jaw drop,
+  startled jump. Brief and reactive.
+- frustrated: blocked goal without a clear target to attack — sighing heavily,
+  clenching fists, repeated failed attempts, exasperated tone. (Distinguish from
+  angry: frustration lacks directed hostility.)
+- happy: positive contentment/joy — smiling, laughing warmly, relaxed open posture.
+  (Distinguish from excited: happy can be calm.)
+- disappointed: an expectation just failed — deflating posture, head shake with
+  sigh, crestfallen face right after an outcome. (Distinguish from sad: tied to a
+  specific unmet expectation.)
+
+OBSERVATION CAPTIONS (one per segment, with time ranges). Each caption:
+- ``segment_id``: e.g. "s004".
+- ``time_range``: [start, end] seconds.
+- ``caption``: "Visual: ..." and, when there is audio evidence, "Audio: ...".
+- ``confidence`` / ``evidence_strength``: how reliable the caption is.
+{captions_json}
+
+RULES:
+
+1. ONE PERSON PER EVENT. Every event is about EXACTLY ONE person
+   (``target_person``: a natural visual description, e.g. "the man in the dark
+   jacket"; never a proper name; never a group). If two people each show an
+   emotion at the same moment, emit TWO separate events — one per person, each
+   citing only that person's cues. Only if individuals are truly
+   indistinguishable (e.g. a distant crowd) may you use a collective target, and
+   then prefix it with "group:".
+
+2. EVIDENCE MUST BE BOUND TO ITS SEGMENT. Every item in ``visual_evidence`` /
+   ``audio_evidence`` MUST start with the segment_id of the caption it comes
+   from, in square brackets: "[s007] makes a beckoning gesture with his hand".
+   You may ONLY cite cues that appear in the captions. The event's
+   ``time_range`` MUST cover every segment you cite — if you want to cite a cue
+   from a neighbouring segment, EXTEND the time_range to include that segment
+   (if contiguous), otherwise DROP that cue. Never stamp a time_range that
+   excludes a cited segment.
+
+3. EMIT ONLY WELL-SUPPORTED EVENTS. Emit an event ONLY when the observable
+   evidence clearly supports one of the eight emotions for that person. If your
+   honest confidence would be "low", DO NOT emit the event at all. Never use
+   "neutral" or "unrelevant" — simply omit such moments.
+
+4. MERGE CONTINUATIONS — WITH A CAP. If adjacent/contiguous segments show the
+   SAME person continuing the SAME emotion, emit ONE event spanning them, not
+   one per segment. BUT an event may span AT MOST 4 segments (~20 seconds). If
+   an emotion genuinely persists longer, split it into consecutive events of at
+   most 4 segments each, each with its own cited evidence. Split whenever the
+   label changes, the person changes, or there is a clear break.
+
+5. Set confidence (high|medium) and evidence_strength (clear|ambiguous)
+   honestly. (low/weak events must not be emitted at all — see rule 3.)
+
+OUTPUT:
+Return ONLY valid JSON, no markdown fences or extra text, matching exactly:
+{
+  "video_id": "<string>",
+  "events": [
+    {
+      "video_id": "<string>",
+      "event_id": "<string>",
+      "emotion_label": "<one of the eight labels>",
+      "event_description": "<what happens, in observable terms>",
+      "time_range": [<start_seconds>, <end_seconds>],
+      "target_person": "<visual description of ONE person>",
+      "visual_evidence": ["[sNNN] <observable visual cue>"],
+      "audio_evidence": ["[sNNN] <observable audio cue>"],
+      "confidence": "<high | medium>",
+      "evidence_strength": "<clear | ambiguous>"
+    }
+  ]
+}
+If no moment has clear emotion-relevant evidence, return {"video_id": "...", "events": []}.

@@ -1,0 +1,72 @@
+PROMPT VERSION: emotion_event_prompt_v2_mm (multimodal grounding: WATCH the video)
+
+TASK:
+WATCH the provided video carefully (it has audio — listen too). Your job is to
+find the EMOTION EVENTS in it: the specific moments where one of the eight
+target emotions is clearly supported by what you can SEE and HEAR.
+
+To let you report WHERE each event happens, the video is divided into 5-second
+segments. Use this SEGMENT GRID (segment_id -> time range in seconds) when
+grounding your events:
+{segment_grid}
+
+VIDEO ID: {video_id}
+
+THE EIGHT EMOTION LABELS (you may use ONLY these — no others):
+- angry: hostility directed at someone/something — glaring, shouting AT a person,
+  aggressive posture/actions. (Distinguish from frustrated: anger has a target.)
+- excited: high-energy positive arousal — animated movements, raised joyful voice.
+- fear: perceived threat — recoiling, freezing, trembling, widened eyes with
+  backing away, screaming in terror.
+- sad: low-energy negative state — crying, slumped posture, downcast gaze.
+  (Distinguish from disappointed: sadness is about loss/grief.)
+- surprised: sudden reaction to the unexpected — widened eyes, gasp, jaw drop.
+  Brief and reactive.
+- frustrated: blocked goal without a clear target to attack — heavy sighs,
+  clenched fists, exasperated tone. (Distinguish from angry: no directed hostility.)
+- happy: positive contentment/joy — smiling, laughing warmly, relaxed posture.
+- disappointed: an expectation just failed — deflating posture, head shake with
+  sigh, crestfallen face right after an outcome.
+
+RULES:
+
+1. ONE PERSON PER EVENT. Every event is about EXACTLY ONE person
+   (``target_person``: a natural visual description, e.g. "the man in the dark
+   jacket"; never a name; never a group). Two people emotional at once -> two
+   separate events, each citing only that person's cues.
+
+2. EVIDENCE MUST BE BOUND TO ITS SEGMENT. Every item in ``visual_evidence`` /
+   ``audio_evidence`` MUST start with the segment_id (from the grid above) where
+   you SAW/HEARD it: "[s007] makes a beckoning gesture with his hand". Cite only
+   what is actually visible/audible in the video. The event's ``time_range``
+   MUST cover every segment you cite — extend it (if contiguous) or drop the cue.
+
+3. EMIT ONLY WELL-SUPPORTED EVENTS. If your honest confidence would be "low",
+   do not emit the event. No "neutral"; simply omit unclear moments.
+
+4. MERGE CONTINUATIONS — WITH A CAP. Same person + same emotion continuing
+   across adjacent segments = ONE event, but an event spans AT MOST 4 segments
+   (~20s); split longer stretches into consecutive events.
+
+5. Set confidence (high|medium) and evidence_strength (clear|ambiguous) honestly.
+
+OUTPUT:
+Return ONLY valid JSON, no markdown fences or extra text, matching exactly:
+{
+  "video_id": "{video_id}",
+  "events": [
+    {
+      "video_id": "{video_id}",
+      "event_id": "<string>",
+      "emotion_label": "<one of the eight labels>",
+      "event_description": "<what happens, in observable terms>",
+      "time_range": [<start_seconds>, <end_seconds>],
+      "target_person": "<visual description of ONE person>",
+      "visual_evidence": ["[sNNN] <observable visual cue>"],
+      "audio_evidence": ["[sNNN] <observable audio cue>"],
+      "confidence": "<high | medium>",
+      "evidence_strength": "<clear | ambiguous>"
+    }
+  ]
+}
+If no moment has clear emotion-relevant evidence, return {"video_id": "...", "events": []}.
