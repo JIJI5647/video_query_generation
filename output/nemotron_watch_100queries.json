@@ -1,0 +1,3047 @@
+[
+  {
+    "video_id": "emostim_01_TheShining_clip_2",
+    "query_id": "emostim_01_TheShining_clip_2_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman in the bed appear surprised?",
+    "time_range": [
+      65.0,
+      70.0
+    ],
+    "segment_ids": [
+      "s014"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the woman in the bed sits up in alarm"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s014",
+        "caption": "Visual: A young boy in a striped sweater stands in a dimly lit bedroom, facing a woman in bed. The boy holds a knife and moves it toward the woman, who sits up in alarm. The word 'REDRUM' is written in red on the door behind them. | Audio: A child's voice shouts repeatedly, sounding panicked and urgent. The shouting is loud and clear, with a high-pitched, strained tone."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+    "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the plaid shirt appear surprised while holding a sandwich?",
+    "time_range": [
+      40.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "raised eyebrows",
+        "widened eyes",
+        "open mouth",
+        "holding a sandwich"
+      ],
+      "audio_evidence": [
+        "the man speaking in a surprised tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A man and a woman are sitting at a table in a crowded restaurant. The man, wearing a plaid shirt, is eating a sandwich and looking at the woman. The woman, with blonde hair and wearing a dark sweater over a white collared shirt, is looking at the man and speaking. | Audio: The woman speaks in a conversational tone, followed by the man speaking in a surprised tone. The background is filled with the indistinct murmur of other people talking."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_03_MrBeansHoliday_clip_4",
+    "query_id": "emostim_03_MrBeansHoliday_clip_4_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the suit appear happy?",
+    "time_range": [
+      25.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s006",
+      "s007",
+      "s008",
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiling",
+        "looking directly at the camera"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s006",
+        "caption": "Visual: A man in a brown suit and red tie is riding a bicycle on a dirt road. He is smiling and looking directly at the camera. The background consists of a rural landscape with fields and a blue sky with some clouds. | Audio: A rock song with a male vocalist singing in a high-pitched voice. The music is loud and energetic."
+      },
+      {
+        "segment_id": "s007",
+        "caption": "Visual: A man in a brown jacket and red tie is riding a bicycle on a road. He smiles and makes a 'call me' gesture with his hand. The background shows a rural landscape with trees and a blue sky. | Audio: A rock song with a male vocalist singing in the background."
+      },
+      {
+        "segment_id": "s008",
+        "caption": "Visual: A man in a brown suit and red tie is riding a bicycle on a paved road. He is smiling and gives a thumbs-up gesture to the camera. A silver Jeep is driving alongside him, and the background consists of green trees and a clear blue sky. | Audio: A rock song with a male vocalist singing in English plays in the background."
+      },
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A man in a brown suit and red tie rides a bicycle with a basket of produce on the front. He is pedaling on a paved road, smiling as he passes a group of professional cyclists in colorful jerseys who are riding in a tight pack. The cyclists are leaning forward in an aerodynamic posture, focused on the road ahead. | Audio: A rock song with a male vocalist singing in a high-pitched voice plays in the background."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_04_28DaysLater_clip_6",
+    "query_id": "emostim_04_28DaysLater_clip_6_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the person in a dark, hooded outfit appear fearful?",
+    "time_range": [
+      40.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "person in a dark, hooded outfit running through a doorway into a room"
+      ],
+      "audio_evidence": [
+        "loud low-frequency rumble or growl"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A person in a dark, hooded outfit is seen from behind, running through a doorway into a room. The room contains a large, ornate mirror and a clawfoot bathtub. The person appears to be fleeing from something, moving quickly and with urgency. | Audio: A loud, low-frequency rumble or growl is heard, suggesting the presence of a large creature or monster. The sound is deep and menacing, creating a sense of danger and suspense."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+    "query_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "When does the woman with brown hair lower her gaze and furrow her brow?",
+    "time_range": [
+      40.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looking down with a pained expression",
+        "brow furrowed"
+      ],
+      "audio_evidence": [
+        "low, sustained, ominous musical tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A woman with brown hair is shown in a close-up, looking down with a pained expression. Her face is partially obscured by a blurry object in the foreground. She appears to be in distress, with her brow furrowed and eyes downcast. | Audio: A low, sustained, and ominous musical tone plays in the background, creating a suspenseful atmosphere."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_06_TheChamp_clip_3",
+    "query_id": "emostim_06_TheChamp_clip_3_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the young child with blonde hair wearing a grey shirt appear sad?",
+    "time_range": [
+      5.0,
+      20.0
+    ],
+    "segment_ids": [
+      "s002",
+      "s003",
+      "s004"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "distressed expression, mouth slightly open"
+      ],
+      "audio_evidence": [
+        "audibly crying and sobbing"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A young child with blonde hair is being held by an adult whose hands are visible on the child's shoulders. The child is looking forward with a distressed expression, their mouth slightly open. The scene is dark, with only the subjects illuminated. | Audio: The child is audibly crying and sobbing, with heavy, distressed breathing."
+      },
+      {
+        "segment_id": "s003",
+        "caption": "Visual: A young child with blonde hair is being held by an adult in a dark environment. The child is visibly distressed, with their face contorted in crying and their hands gripping the adult's arms. The adult's hands are wrapped around the child's upper arms, providing support. | Audio: The child is audibly crying and whimpering, with sounds of distress and sobbing."
+      },
+      {
+        "segment_id": "s004",
+        "caption": "Visual: A young boy with blonde hair, wearing a grey shirt, is shown in a close-up. He is crying, with tears on his face and his mouth open as if wailing. An adult's hand is visible on his shoulder, and the background is dark. | Audio: The audio consists of the boy's loud, distressed crying and wailing."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+    "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman with dark hair wearing a green cardigan with star patterns appear surprised?",
+    "time_range": [
+      5.0,
+      10.0
+    ],
+    "segment_ids": [
+      "s002"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "tense expression",
+        "mouth slightly open"
+      ],
+      "audio_evidence": [
+        "sudden metallic clang"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A woman with dark hair, wearing a green cardigan with star patterns over a light-colored shirt, is seen in a dimly lit room with a brick wall. She is looking off to the side with a tense expression, her mouth slightly open as if in surprise or fear. Her head turns quickly to the right, and the scene ends with a red light flashing in the background. | Audio: The audio contains a low, continuous hum, possibly from machinery or an electrical source, and a sudden, sharp metallic clang or impact sound."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_01_dia337",
+    "query_id": "meld_01_dia337_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the pink plaid shirt appear happy?",
+    "time_range": [
+      45.0,
+      50.0
+    ],
+    "segment_ids": [
+      "s010"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiles"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s010",
+        "caption": "Visual: A man in a pink plaid shirt stands facing another man in a blue plaid shirt. The man in pink gestures with his right hand while speaking, then smiles and points at the other man. The man in blue listens with his arms crossed, then begins to speak. | Audio: A male voice speaks in a conversational tone, followed by another male voice. The audio is clear and the speech is easily understandable."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_02_dia224",
+    "query_id": "meld_02_dia224_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the blue shirt appear happy while sitting on the orange couch?",
+    "time_range": [
+      0.0,
+      5.0
+    ],
+    "segment_ids": [
+      "s001"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiling",
+        "laughing",
+        "leaning forward"
+      ],
+      "audio_evidence": [
+        "loud sustained laughter"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s001",
+        "caption": "Visual: A man in a red shirt sits on an orange couch, looking at another man in a blue shirt. The man in the blue shirt is laughing heartily, leaning forward with his hands gesturing. The background shows a bar setting with other people and tables. | Audio: A man asks a question, followed by loud, sustained laughter from the other man."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_03_dia572",
+    "query_id": "meld_03_dia572_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman in the hospital bed, wearing a white gown and covered with a pink blanket, appear sad?",
+    "time_range": [
+      5.0,
+      15.0
+    ],
+    "segment_ids": [
+      "s002",
+      "s003"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looking down at her stomach with a pained expression"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A woman in a white hospital gown sits up in a hospital bed, looking down at her stomach with a pained expression. A man in a light-colored jacket sits beside her, looking at her with a concerned expression. The hospital room is equipped with medical monitors and an IV stand. | Audio: A woman is speaking, followed by a loud, sustained electronic tone."
+      },
+      {
+        "segment_id": "s003",
+        "caption": "Visual: The scene is set in a hospital room with multiple beds. A woman in a white hospital gown lies in a bed, holding her stomach and appearing to be in pain. A man in a plaid shirt stands beside her, looking down at her with concern, while another man in a light-colored shirt leans over a different patient in an adjacent bed. | Audio: A woman is heard groaning in pain, followed by a man asking a question in a concerned tone. The audio is clear and the emotional state of the speakers is evident."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_04_dia362",
+    "query_id": "meld_04_dia362_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman in the white hospital gown appear sad?",
+    "time_range": [
+      0.0,
+      20.0
+    ],
+    "segment_ids": [
+      "s001",
+      "s002",
+      "s003",
+      "s004"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the woman lies in a hospital bed with a pained expression, eyes closed, and appears distressed"
+      ],
+      "audio_evidence": [
+        "the woman speaks in a strained, emotional tone and cries"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s001",
+        "caption": "Visual: A woman with brown hair lies in a hospital bed, wearing a white gown and looking distressed. A man in a light-colored jacket stands beside her, leaning over and speaking to her. The woman holds a white cloth to her head, and the man places his hand on her shoulder. | Audio: The woman is speaking in a strained, emotional tone, and the man is speaking in a concerned tone. There is a low hum in the background, possibly from medical equipment."
+      },
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A woman in a white hospital gown lies in a hospital bed, visibly distressed and crying. A man in a light-colored shirt leans over her, looking down at her with a concerned expression. The woman raises her hand to her face, wiping her eyes. | Audio: The woman is crying and speaking in a distressed, high-pitched voice. The man speaks to her in a calm, reassuring tone."
+      },
+      {
+        "segment_id": "s003",
+        "caption": "Visual: A woman lies in a hospital bed, wearing a white gown, with her eyes closed and a pained expression. A man in a light-colored jacket leans over her, looking down with a concerned expression and placing his hand on her stomach. The scene is set in a hospital room with medical equipment visible in the background. | Audio: A man speaks in a calm, reassuring tone, followed by a loud, sustained electronic beep, likely from a medical monitor."
+      },
+      {
+        "segment_id": "s004",
+        "caption": "Visual: A man in a light-colored jacket leans over a woman lying in a hospital bed. The woman, wearing a white hospital gown, looks up at him with a pained expression. The man gently places his hand on her stomach as he speaks to her. | Audio: A man speaks in a concerned tone, followed by a loud, sustained electronic beep."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_05_dia980",
+    "query_id": "meld_05_dia980_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the gray sweater appear frustrated?",
+    "time_range": [
+      5.0,
+      10.0
+    ],
+    "segment_ids": [
+      "s002"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "holds a small white card and gestures with his hands"
+      ],
+      "audio_evidence": [
+        "speaks in a questioning and slightly exasperated tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: The man in the gray sweater holds a small white card and gestures with his hands while speaking. The man in the black jacket sits across from him, listening intently. A red plastic cup sits on the table between them. | Audio: A man speaks in a questioning and slightly exasperated tone. The audience laughs in the background."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_06_dia823",
+    "query_id": "meld_06_dia823_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman with long blonde hair wearing a patterned blouse appear happy?",
+    "time_range": [
+      0.0,
+      5.0
+    ],
+    "segment_ids": [
+      "s001"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiling",
+        "pleased expression"
+      ],
+      "audio_evidence": [
+        "cheerful tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s001",
+        "caption": "Visual: A blonde woman in a patterned shirt and black pants walks into a living room, smiling and holding a purple jacket. She stops and turns to speak to someone off-screen, her expression pleased. In the background, other people are visible sitting on a couch and standing near a kitchen area. | Audio: A woman speaks in a cheerful tone, followed by a man's voice. The woman's voice is clear and friendly, and the man's voice is also audible."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_07_dia208",
+    "query_id": "meld_07_dia208_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman in the red top appear surprised?",
+    "time_range": [
+      30.0,
+      35.0
+    ],
+    "segment_ids": [
+      "s007"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "audio_evidence": [
+        "exclamation of surprise"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s007",
+        "caption": "Visual: A man in a beige turtleneck sweater sits on a couch between two women, one in a blue top and one in a red top. He gestures with his hands while speaking, then stands up and walks away. The woman in the red top gives a thumbs-up gesture as he leaves. | Audio: A man speaks, followed by a woman's sarcastic response. The man says goodbye, and the woman exclaims in surprise."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_01_162",
+    "query_id": "moviechat_01_162_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the man with the bandaged right hand in the car appear to be experiencing fear?",
+    "time_range": [
+      135.0,
+      155.0
+    ],
+    "segment_ids": [
+      "s028",
+      "s029",
+      "s030",
+      "s031"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "wide eyes",
+        "tense facial expression",
+        "face glistening with sweat",
+        "holding his bandaged right hand up to his nose and mouth"
+      ],
+      "audio_evidence": [
+        "male voice speaks in a strained, questioning tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s028",
+        "caption": "Visual: A man with dark hair and a black shirt is sitting in the driver's seat of a car. He has a white bandage on his right hand, which he is holding up to his nose. His eyes are wide and he is looking forward with a tense expression. | Audio: A male voice speaks in a strained, questioning tone. The audio quality is slightly muffled."
+      },
+      {
+        "segment_id": "s029",
+        "caption": "Visual: A man with short black hair, wearing a black shirt, is sitting in the driver's seat of a car. He is looking forward with a pained expression, his face glistening with sweat. In the background, another man with dark hair is visible in the passenger seat, holding his hand to his face. | Audio: A male voice speaks in Mandarin, followed by a loud, distorted electronic sound."
+      },
+      {
+        "segment_id": "s030",
+        "caption": "Visual: Two men are inside a car. The man in the foreground, with short hair and a black shirt, is speaking with a distressed expression. The man in the background, with longer dark hair, has his hand over his mouth and appears to be in pain or discomfort. | Audio: A male voice speaks in Mandarin with a strained and emotional tone, suggesting a tense or dramatic situation."
+      },
+      {
+        "segment_id": "s031",
+        "caption": "Visual: A man with dark hair and a mustache sits in the driver's seat of a car, his face glistening with sweat. He holds his right hand, which is wrapped in a white bandage, up to his mouth and nose. His eyes are wide and fixed forward, conveying a sense of intense focus or distress. | Audio: A male voice speaks a short phrase in a strained, urgent tone. The background is filled with the low, continuous rumble of a vehicle engine."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_02_154",
+    "query_id": "moviechat_02_154_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in a green suit and checkered tie appear happy?",
+    "time_range": [
+      205.0,
+      210.0
+    ],
+    "segment_ids": [
+      "s042"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the man in a green suit and checkered tie is smiling"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s042",
+        "caption": "Visual: A man with a bald head, wearing a dark jacket, stands with his back to the camera, looking at a wall of aquariums filled with fish. The scene then cuts to a man in a green suit and a checkered tie smiling as he walks into a room, followed by a woman in a red and black patterned dress. The woman looks to her right with a neutral expression. | Audio: A male voice speaks in a foreign language, followed by a loud, dramatic musical sting."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_03_160",
+    "query_id": "moviechat_03_160_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in a light-colored shirt appear frustrated?",
+    "time_range": [
+      0.0,
+      5.0
+    ],
+    "segment_ids": [
+      "s001"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "serious expression",
+        "raised hands to head"
+      ],
+      "audio_evidence": [
+        "rhythmic percussive beat"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s001",
+        "caption": "Visual: A man in a light-colored shirt sits in a dimly lit room, looking down at a laptop. Another person is visible in the background, out of focus. The man then looks up, his expression serious, before raising his hands to his head in a gesture of frustration or stress. | Audio: A rhythmic, percussive beat plays in the background, creating a tense atmosphere."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_04_159",
+    "query_id": "moviechat_04_159_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the white shirt appear happy?",
+    "time_range": [
+      105.0,
+      110.0
+    ],
+    "segment_ids": [
+      "s022"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the man in the white shirt smiles"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s022",
+        "caption": "Visual: A man in a dark suit leans over a desk to speak to a man in a white shirt who is sitting at a computer. The man in the white shirt smiles and looks up at the man in the suit. In the background, a woman in a light-colored shirt is also working at a computer. | Audio: A male voice speaks in Mandarin, followed by a female voice. The audio is clear and sounds like a conversation."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_05_30",
+    "query_id": "moviechat_05_30_mm001",
+    "query_type": "emotion_state",
+    "query_text": "When does the man wearing a dark jacket over a striped shirt appear happy?",
+    "time_range": [
+      15.0,
+      20.0
+    ],
+    "segment_ids": [
+      "s004"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "his facial expression shifts from serious to smiling"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s004",
+        "caption": "Visual: A man and a woman stand close together in a dark, rocky environment. They are facing each other, and their expressions shift from serious to smiling as they interact. The dim lighting highlights their faces against the shadowy background. | Audio: A low, ominous musical score plays in the background, creating a tense atmosphere. There are no other discernible sounds."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_01_TheShining_clip_2",
+    "query_id": "emostim_01_TheShining_clip_2_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "When does the woman in the bed sit up in alarm?",
+    "time_range": [
+      65.0,
+      70.0
+    ],
+    "segment_ids": [
+      "s014"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the woman in the bed sits up in alarm"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s014",
+        "caption": "Visual: A young boy in a striped sweater stands in a dimly lit bedroom, facing a woman in bed. The boy holds a knife and moves it toward the woman, who sits up in alarm. The word 'REDRUM' is written in red on the door behind them. | Audio: A child's voice shouts repeatedly, sounding panicked and urgent. The shouting is loud and clear, with a high-pitched, strained tone."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+    "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm003",
+    "query_type": "explicit_event",
+    "query_text": "Which moment shows the man in the plaid shirt reacting with surprise by speaking while holding his sandwich?",
+    "time_range": [
+      40.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "holding a sandwich",
+        "speaking",
+        "surprised facial expression"
+      ],
+      "audio_evidence": [
+        "the man speaking in a surprised tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A man and a woman are sitting at a table in a crowded restaurant. The man, wearing a plaid shirt, is eating a sandwich and looking at the woman. The woman, with blonde hair and wearing a dark sweater over a white collared shirt, is looking at the man and speaking. | Audio: The woman speaks in a conversational tone, followed by the man speaking in a surprised tone. The background is filled with the indistinct murmur of other people talking."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_03_MrBeansHoliday_clip_4",
+    "query_id": "emostim_03_MrBeansHoliday_clip_4_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does he smile and look directly at the camera?",
+    "time_range": [
+      25.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s006",
+      "s007",
+      "s008",
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiling",
+        "looking directly at the camera"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s006",
+        "caption": "Visual: A man in a brown suit and red tie is riding a bicycle on a dirt road. He is smiling and looking directly at the camera. The background consists of a rural landscape with fields and a blue sky with some clouds. | Audio: A rock song with a male vocalist singing in a high-pitched voice. The music is loud and energetic."
+      },
+      {
+        "segment_id": "s007",
+        "caption": "Visual: A man in a brown jacket and red tie is riding a bicycle on a road. He smiles and makes a 'call me' gesture with his hand. The background shows a rural landscape with trees and a blue sky. | Audio: A rock song with a male vocalist singing in the background."
+      },
+      {
+        "segment_id": "s008",
+        "caption": "Visual: A man in a brown suit and red tie is riding a bicycle on a paved road. He is smiling and gives a thumbs-up gesture to the camera. A silver Jeep is driving alongside him, and the background consists of green trees and a clear blue sky. | Audio: A rock song with a male vocalist singing in English plays in the background."
+      },
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A man in a brown suit and red tie rides a bicycle with a basket of produce on the front. He is pedaling on a paved road, smiling as he passes a group of professional cyclists in colorful jerseys who are riding in a tight pack. The cyclists are leaning forward in an aerodynamic posture, focused on the road ahead. | Audio: A rock song with a male vocalist singing in a high-pitched voice plays in the background."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_04_28DaysLater_clip_6",
+    "query_id": "emostim_04_28DaysLater_clip_6_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "When does the person in a dark, hooded outfit display rapid movement and a tense posture that indicate fear?",
+    "time_range": [
+      40.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "person in a dark, hooded outfit moving quickly through a doorway"
+      ],
+      "audio_evidence": [
+        "deep menacing growl"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A person in a dark, hooded outfit is seen from behind, running through a doorway into a room. The room contains a large, ornate mirror and a clawfoot bathtub. The person appears to be fleeing from something, moving quickly and with urgency. | Audio: A loud, low-frequency rumble or growl is heard, suggesting the presence of a large creature or monster. The sound is deep and menacing, creating a sense of danger and suspense."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+    "query_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1_mm003",
+    "query_type": "explicit_event",
+    "query_text": "When does the woman with brown hair display a distressed expression with her eyes downcast?",
+    "time_range": [
+      40.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looking down with a pained expression",
+        "brow furrowed"
+      ],
+      "audio_evidence": [
+        "low, sustained, ominous musical tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A woman with brown hair is shown in a close-up, looking down with a pained expression. Her face is partially obscured by a blurry object in the foreground. She appears to be in distress, with her brow furrowed and eyes downcast. | Audio: A low, sustained, and ominous musical tone plays in the background, creating a suspenseful atmosphere."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_06_TheChamp_clip_3",
+    "query_id": "emostim_06_TheChamp_clip_3_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "When does the young child with blonde hair wearing a grey shirt display a visibly distressed expression with tears on his face?",
+    "time_range": [
+      5.0,
+      20.0
+    ],
+    "segment_ids": [
+      "s002",
+      "s003",
+      "s004"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "visibly distressed expression, tears on his face"
+      ],
+      "audio_evidence": [
+        "audibly crying and whimpering"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A young child with blonde hair is being held by an adult whose hands are visible on the child's shoulders. The child is looking forward with a distressed expression, their mouth slightly open. The scene is dark, with only the subjects illuminated. | Audio: The child is audibly crying and sobbing, with heavy, distressed breathing."
+      },
+      {
+        "segment_id": "s003",
+        "caption": "Visual: A young child with blonde hair is being held by an adult in a dark environment. The child is visibly distressed, with their face contorted in crying and their hands gripping the adult's arms. The adult's hands are wrapped around the child's upper arms, providing support. | Audio: The child is audibly crying and whimpering, with sounds of distress and sobbing."
+      },
+      {
+        "segment_id": "s004",
+        "caption": "Visual: A young boy with blonde hair, wearing a grey shirt, is shown in a close-up. He is crying, with tears on his face and his mouth open as if wailing. An adult's hand is visible on his shoulder, and the background is dark. | Audio: The audio consists of the boy's loud, distressed crying and wailing."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+    "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "When does the woman's mouth open slightly and her head turn quickly to the right, indicating she is surprised?",
+    "time_range": [
+      5.0,
+      10.0
+    ],
+    "segment_ids": [
+      "s002"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "mouth slightly open",
+        "head turning quickly to the right"
+      ],
+      "audio_evidence": [
+        "sudden metallic clang"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A woman with dark hair, wearing a green cardigan with star patterns over a light-colored shirt, is seen in a dimly lit room with a brick wall. She is looking off to the side with a tense expression, her mouth slightly open as if in surprise or fear. Her head turns quickly to the right, and the scene ends with a red light flashing in the background. | Audio: The audio contains a low, continuous hum, possibly from machinery or an electrical source, and a sudden, sharp metallic clang or impact sound."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_01_dia337",
+    "query_id": "meld_01_dia337_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "When does the man in the pink plaid shirt smile?",
+    "time_range": [
+      45.0,
+      50.0
+    ],
+    "segment_ids": [
+      "s010"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiles"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s010",
+        "caption": "Visual: A man in a pink plaid shirt stands facing another man in a blue plaid shirt. The man in pink gestures with his right hand while speaking, then smiles and points at the other man. The man in blue listens with his arms crossed, then begins to speak. | Audio: A male voice speaks in a conversational tone, followed by another male voice. The audio is clear and the speech is easily understandable."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_02_dia224",
+    "query_id": "meld_02_dia224_mm003",
+    "query_type": "explicit_event",
+    "query_text": "When does the man in the blue shirt laugh heartily and gesture with his hands?",
+    "time_range": [
+      0.0,
+      5.0
+    ],
+    "segment_ids": [
+      "s001"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "laughing heartily",
+        "hand gestures"
+      ],
+      "audio_evidence": [
+        "loud sustained laughter"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s001",
+        "caption": "Visual: A man in a red shirt sits on an orange couch, looking at another man in a blue shirt. The man in the blue shirt is laughing heartily, leaning forward with his hands gesturing. The background shows a bar setting with other people and tables. | Audio: A man asks a question, followed by loud, sustained laughter from the other man."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_03_dia572",
+    "query_id": "meld_03_dia572_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the woman in the hospital bed display a sad expression by looking down at her stomach with a pained look?",
+    "time_range": [
+      5.0,
+      15.0
+    ],
+    "segment_ids": [
+      "s002",
+      "s003"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looking down at her stomach with a pained look"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A woman in a white hospital gown sits up in a hospital bed, looking down at her stomach with a pained expression. A man in a light-colored jacket sits beside her, looking at her with a concerned expression. The hospital room is equipped with medical monitors and an IV stand. | Audio: A woman is speaking, followed by a loud, sustained electronic tone."
+      },
+      {
+        "segment_id": "s003",
+        "caption": "Visual: The scene is set in a hospital room with multiple beds. A woman in a white hospital gown lies in a bed, holding her stomach and appearing to be in pain. A man in a plaid shirt stands beside her, looking down at her with concern, while another man in a light-colored shirt leans over a different patient in an adjacent bed. | Audio: A woman is heard groaning in pain, followed by a man asking a question in a concerned tone. The audio is clear and the emotional state of the speakers is evident."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_04_dia362",
+    "query_id": "meld_04_dia362_mm003",
+    "query_type": "explicit_event",
+    "query_text": "When does the man lean over the woman in the white hospital gown while she is crying?",
+    "time_range": [
+      0.0,
+      20.0
+    ],
+    "segment_ids": [
+      "s001",
+      "s002",
+      "s003",
+      "s004"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the man leans over the woman in the white hospital gown"
+      ],
+      "audio_evidence": [
+        "the woman is crying"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s001",
+        "caption": "Visual: A woman with brown hair lies in a hospital bed, wearing a white gown and looking distressed. A man in a light-colored jacket stands beside her, leaning over and speaking to her. The woman holds a white cloth to her head, and the man places his hand on her shoulder. | Audio: The woman is speaking in a strained, emotional tone, and the man is speaking in a concerned tone. There is a low hum in the background, possibly from medical equipment."
+      },
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A woman in a white hospital gown lies in a hospital bed, visibly distressed and crying. A man in a light-colored shirt leans over her, looking down at her with a concerned expression. The woman raises her hand to her face, wiping her eyes. | Audio: The woman is crying and speaking in a distressed, high-pitched voice. The man speaks to her in a calm, reassuring tone."
+      },
+      {
+        "segment_id": "s003",
+        "caption": "Visual: A woman lies in a hospital bed, wearing a white gown, with her eyes closed and a pained expression. A man in a light-colored jacket leans over her, looking down with a concerned expression and placing his hand on her stomach. The scene is set in a hospital room with medical equipment visible in the background. | Audio: A man speaks in a calm, reassuring tone, followed by a loud, sustained electronic beep, likely from a medical monitor."
+      },
+      {
+        "segment_id": "s004",
+        "caption": "Visual: A man in a light-colored jacket leans over a woman lying in a hospital bed. The woman, wearing a white hospital gown, looks up at him with a pained expression. The man gently places his hand on her stomach as he speaks to her. | Audio: A man speaks in a concerned tone, followed by a loud, sustained electronic beep."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_05_dia980",
+    "query_id": "meld_05_dia980_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "Which moment shows the man in the gray sweater showing signs of frustration by gesturing with his hands while holding a small white card?",
+    "time_range": [
+      5.0,
+      10.0
+    ],
+    "segment_ids": [
+      "s002"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "gestures with his hands while holding a small white card"
+      ],
+      "audio_evidence": [
+        "speaks in a questioning and slightly exasperated tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: The man in the gray sweater holds a small white card and gestures with his hands while speaking. The man in the black jacket sits across from him, listening intently. A red plastic cup sits on the table between them. | Audio: A man speaks in a questioning and slightly exasperated tone. The audience laughs in the background."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_06_dia823",
+    "query_id": "meld_06_dia823_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "When does the woman with long blonde hair wearing a patterned blouse smile broadly while speaking in a cheerful tone?",
+    "time_range": [
+      0.0,
+      5.0
+    ],
+    "segment_ids": [
+      "s001"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "broad smile"
+      ],
+      "audio_evidence": [
+        "cheerful tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s001",
+        "caption": "Visual: A blonde woman in a patterned shirt and black pants walks into a living room, smiling and holding a purple jacket. She stops and turns to speak to someone off-screen, her expression pleased. In the background, other people are visible sitting on a couch and standing near a kitchen area. | Audio: A woman speaks in a cheerful tone, followed by a man's voice. The woman's voice is clear and friendly, and the man's voice is also audible."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_07_dia208",
+    "query_id": "meld_07_dia208_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the woman in the red top widen her eyes and gasp in surprise?",
+    "time_range": [
+      30.0,
+      35.0
+    ],
+    "segment_ids": [
+      "s007"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "audio_evidence": [
+        "exclamation of surprise"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s007",
+        "caption": "Visual: A man in a beige turtleneck sweater sits on a couch between two women, one in a blue top and one in a red top. He gestures with his hands while speaking, then stands up and walks away. The woman in the red top gives a thumbs-up gesture as he leaves. | Audio: A man speaks, followed by a woman's sarcastic response. The man says goodbye, and the woman exclaims in surprise."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_01_162",
+    "query_id": "moviechat_01_162_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the man with the bandaged right hand in the car show visual cues of fear such as widened eyes and a tense expression?",
+    "time_range": [
+      135.0,
+      155.0
+    ],
+    "segment_ids": [
+      "s028",
+      "s029",
+      "s030",
+      "s031"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "wide eyes",
+        "tense expression",
+        "sweat glistening on his face",
+        "bandaged right hand held to his nose"
+      ],
+      "audio_evidence": [
+        "male voice speaks in a strained, urgent tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s028",
+        "caption": "Visual: A man with dark hair and a black shirt is sitting in the driver's seat of a car. He has a white bandage on his right hand, which he is holding up to his nose. His eyes are wide and he is looking forward with a tense expression. | Audio: A male voice speaks in a strained, questioning tone. The audio quality is slightly muffled."
+      },
+      {
+        "segment_id": "s029",
+        "caption": "Visual: A man with short black hair, wearing a black shirt, is sitting in the driver's seat of a car. He is looking forward with a pained expression, his face glistening with sweat. In the background, another man with dark hair is visible in the passenger seat, holding his hand to his face. | Audio: A male voice speaks in Mandarin, followed by a loud, distorted electronic sound."
+      },
+      {
+        "segment_id": "s030",
+        "caption": "Visual: Two men are inside a car. The man in the foreground, with short hair and a black shirt, is speaking with a distressed expression. The man in the background, with longer dark hair, has his hand over his mouth and appears to be in pain or discomfort. | Audio: A male voice speaks in Mandarin with a strained and emotional tone, suggesting a tense or dramatic situation."
+      },
+      {
+        "segment_id": "s031",
+        "caption": "Visual: A man with dark hair and a mustache sits in the driver's seat of a car, his face glistening with sweat. He holds his right hand, which is wrapped in a white bandage, up to his mouth and nose. His eyes are wide and fixed forward, conveying a sense of intense focus or distress. | Audio: A male voice speaks a short phrase in a strained, urgent tone. The background is filled with the low, continuous rumble of a vehicle engine."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_02_154",
+    "query_id": "moviechat_02_154_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the man in a green suit and checkered tie show a smile?",
+    "time_range": [
+      205.0,
+      210.0
+    ],
+    "segment_ids": [
+      "s042"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the man in a green suit and checkered tie is smiling as he walks into a room"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s042",
+        "caption": "Visual: A man with a bald head, wearing a dark jacket, stands with his back to the camera, looking at a wall of aquariums filled with fish. The scene then cuts to a man in a green suit and a checkered tie smiling as he walks into a room, followed by a woman in a red and black patterned dress. The woman looks to her right with a neutral expression. | Audio: A male voice speaks in a foreign language, followed by a loud, dramatic musical sting."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_03_160",
+    "query_id": "moviechat_03_160_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the man in a light-colored shirt raise his hands to his head, indicating frustration?",
+    "time_range": [
+      0.0,
+      5.0
+    ],
+    "segment_ids": [
+      "s001"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "raised hands to head"
+      ],
+      "audio_evidence": [
+        "tense percussive beat"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s001",
+        "caption": "Visual: A man in a light-colored shirt sits in a dimly lit room, looking down at a laptop. Another person is visible in the background, out of focus. The man then looks up, his expression serious, before raising his hands to his head in a gesture of frustration or stress. | Audio: A rhythmic, percussive beat plays in the background, creating a tense atmosphere."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_04_159",
+    "query_id": "moviechat_04_159_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "When does the man in the white shirt display a smile that signals happiness?",
+    "time_range": [
+      105.0,
+      110.0
+    ],
+    "segment_ids": [
+      "s022"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the man in the white shirt smiles"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s022",
+        "caption": "Visual: A man in a dark suit leans over a desk to speak to a man in a white shirt who is sitting at a computer. The man in the white shirt smiles and looks up at the man in the suit. In the background, a woman in a light-colored shirt is also working at a computer. | Audio: A male voice speaks in Mandarin, followed by a female voice. The audio is clear and sounds like a conversation."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_05_30",
+    "query_id": "moviechat_05_30_mm002",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the man in a dark jacket over a striped shirt display a smile that signals happiness?",
+    "time_range": [
+      15.0,
+      20.0
+    ],
+    "segment_ids": [
+      "s004"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "he smiles broadly"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s004",
+        "caption": "Visual: A man and a woman stand close together in a dark, rocky environment. They are facing each other, and their expressions shift from serious to smiling as they interact. The dim lighting highlights their faces against the shadowy background. | Audio: A low, ominous musical score plays in the background, creating a tense atmosphere. There are no other discernible sounds."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_01_TheShining_clip_2",
+    "query_id": "emostim_01_TheShining_clip_2_mm003",
+    "query_type": "explicit_event",
+    "query_text": "When does the woman in the bed react with surprise by sitting up in the bed?",
+    "time_range": [
+      65.0,
+      70.0
+    ],
+    "segment_ids": [
+      "s014"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the woman in the bed sits up in alarm"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s014",
+        "caption": "Visual: A young boy in a striped sweater stands in a dimly lit bedroom, facing a woman in bed. The boy holds a knife and moves it toward the woman, who sits up in alarm. The word 'REDRUM' is written in red on the door behind them. | Audio: A child's voice shouts repeatedly, sounding panicked and urgent. The shouting is loud and clear, with a high-pitched, strained tone."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+    "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman with voluminous blonde hair, wearing a white collared shirt and a dark cardigan appear happy?",
+    "time_range": [
+      75.0,
+      80.0
+    ],
+    "segment_ids": [
+      "s016"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "slowly raises her gaze forward with a subtle, knowing smile"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s016",
+        "caption": "Visual: A woman with voluminous blonde hair, wearing a white collared shirt and a dark cardigan, is shown in a close-up. She looks down and to her right, then slowly raises her gaze forward with a subtle, knowing smile. The background is a blurry, crowded indoor space, suggesting a public setting like a diner. | Audio: The audio consists of a low, continuous hum, likely from an appliance or machinery, with no other discernible sounds."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_03_MrBeansHoliday_clip_4",
+    "query_id": "emostim_03_MrBeansHoliday_clip_4_mm003",
+    "query_type": "explicit_event",
+    "query_text": "Which moment shows him giving a thumbs-up gesture while smiling?",
+    "time_range": [
+      25.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s006",
+      "s007",
+      "s008",
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "thumbs-up gesture",
+        "smiling"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s006",
+        "caption": "Visual: A man in a brown suit and red tie is riding a bicycle on a dirt road. He is smiling and looking directly at the camera. The background consists of a rural landscape with fields and a blue sky with some clouds. | Audio: A rock song with a male vocalist singing in a high-pitched voice. The music is loud and energetic."
+      },
+      {
+        "segment_id": "s007",
+        "caption": "Visual: A man in a brown jacket and red tie is riding a bicycle on a road. He smiles and makes a 'call me' gesture with his hand. The background shows a rural landscape with trees and a blue sky. | Audio: A rock song with a male vocalist singing in the background."
+      },
+      {
+        "segment_id": "s008",
+        "caption": "Visual: A man in a brown suit and red tie is riding a bicycle on a paved road. He is smiling and gives a thumbs-up gesture to the camera. A silver Jeep is driving alongside him, and the background consists of green trees and a clear blue sky. | Audio: A rock song with a male vocalist singing in English plays in the background."
+      },
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A man in a brown suit and red tie rides a bicycle with a basket of produce on the front. He is pedaling on a paved road, smiling as he passes a group of professional cyclists in colorful jerseys who are riding in a tight pack. The cyclists are leaning forward in an aerodynamic posture, focused on the road ahead. | Audio: A rock song with a male vocalist singing in a high-pitched voice plays in the background."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+    "query_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman with long brown hair appear fearful?",
+    "time_range": [
+      45.0,
+      55.0
+    ],
+    "segment_ids": [
+      "s010",
+      "s011"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looking down and to the side with a concerned expression",
+        "eyes darting from side to side"
+      ],
+      "audio_evidence": [
+        "low serious tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s010",
+        "caption": "Visual: A woman with long brown hair is shown in a close-up, looking down and to the side with a concerned expression. Her face is partially obscured by a blurred object in the foreground. She appears to be in a dimly lit room. | Audio: A person is speaking in a low, serious tone, with a slight echo in the background."
+      },
+      {
+        "segment_id": "s011",
+        "caption": "Visual: A woman with long brown hair is seen from a low angle, her face partially obscured by a horizontal object in the foreground. She looks around with a concerned expression, her eyes darting from side to side. The background is a dimly lit, indistinct room. | Audio: A woman speaks in a hushed, urgent tone, followed by a low, sustained musical note."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_06_TheChamp_clip_3",
+    "query_id": "emostim_06_TheChamp_clip_3_mm003",
+    "query_type": "explicit_event",
+    "query_text": "When does the young child with blonde hair wearing a grey shirt cry loudly while gripping the adult's arms?",
+    "time_range": [
+      5.0,
+      20.0
+    ],
+    "segment_ids": [
+      "s002",
+      "s003",
+      "s004"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "crying with mouth open, gripping adult's arms"
+      ],
+      "audio_evidence": [
+        "loud, distressed crying and wailing"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A young child with blonde hair is being held by an adult whose hands are visible on the child's shoulders. The child is looking forward with a distressed expression, their mouth slightly open. The scene is dark, with only the subjects illuminated. | Audio: The child is audibly crying and sobbing, with heavy, distressed breathing."
+      },
+      {
+        "segment_id": "s003",
+        "caption": "Visual: A young child with blonde hair is being held by an adult in a dark environment. The child is visibly distressed, with their face contorted in crying and their hands gripping the adult's arms. The adult's hands are wrapped around the child's upper arms, providing support. | Audio: The child is audibly crying and whimpering, with sounds of distress and sobbing."
+      },
+      {
+        "segment_id": "s004",
+        "caption": "Visual: A young boy with blonde hair, wearing a grey shirt, is shown in a close-up. He is crying, with tears on his face and his mouth open as if wailing. An adult's hand is visible on his shoulder, and the background is dark. | Audio: The audio consists of the boy's loud, distressed crying and wailing."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+    "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm003",
+    "query_type": "explicit_event",
+    "query_text": "When does the woman turn her head sharply to the right after hearing the sudden metallic clang, showing surprise?",
+    "time_range": [
+      5.0,
+      10.0
+    ],
+    "segment_ids": [
+      "s002"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "head turning sharply to the right"
+      ],
+      "audio_evidence": [
+        "sudden metallic clang"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A woman with dark hair, wearing a green cardigan with star patterns over a light-colored shirt, is seen in a dimly lit room with a brick wall. She is looking off to the side with a tense expression, her mouth slightly open as if in surprise or fear. Her head turns quickly to the right, and the scene ends with a red light flashing in the background. | Audio: The audio contains a low, continuous hum, possibly from machinery or an electrical source, and a sudden, sharp metallic clang or impact sound."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_01_dia337",
+    "query_id": "meld_01_dia337_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the blue plaid shirt appear surprised?",
+    "time_range": [
+      55.0,
+      60.0
+    ],
+    "segment_ids": [
+      "s012"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the man in the blue plaid shirt has a look of surprise and concern on his face"
+      ],
+      "audio_evidence": [
+        "a male voice speaks with a tone of surprise and concern"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s012",
+        "caption": "Visual: The scene takes place indoors, likely in a living room or hallway. Two men are having a conversation. The man on the left, wearing a pink and white plaid shirt, is facing the man on the right, who is wearing a blue and black plaid shirt over a white t-shirt. The man in the blue shirt turns his head sharply to his right, then back to the other man, with a look of surprise and concern on his face. | Audio: A male voice speaks with a tone of surprise and concern, followed by another male voice speaking with a calm, reassuring tone. The first voice then speaks again, sounding more urgent and anxious."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_02_dia224",
+    "query_id": "meld_02_dia224_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in a light blue polo shirt appear happy while laughing heartily with his head tilted back?",
+    "time_range": [
+      5.0,
+      10.0
+    ],
+    "segment_ids": [
+      "s002"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "laughing heartily with head tilted back",
+        "eyes closed",
+        "smiling",
+        "sitting on a brown couch"
+      ],
+      "audio_evidence": [
+        "sound of a person laughing"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A man in a light blue polo shirt sits on a brown couch, laughing heartily with his head tilted back and eyes closed. He extends his right hand forward in a gesture of greeting or excitement. The background shows a casual indoor setting with other people and furniture, suggesting a social gathering. | Audio: A male voice is heard speaking, followed by the sound of a person laughing."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_03_dia572",
+    "query_id": "meld_03_dia572_mm003",
+    "query_type": "explicit_event",
+    "query_text": "Which moment shows the woman in the hospital bed holding her stomach and groaning in pain, indicating a sad emotional state?",
+    "time_range": [
+      5.0,
+      15.0
+    ],
+    "segment_ids": [
+      "s002",
+      "s003"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "holding her stomach",
+        "pained facial expression"
+      ],
+      "audio_evidence": [
+        "groaning in pain"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A woman in a white hospital gown sits up in a hospital bed, looking down at her stomach with a pained expression. A man in a light-colored jacket sits beside her, looking at her with a concerned expression. The hospital room is equipped with medical monitors and an IV stand. | Audio: A woman is speaking, followed by a loud, sustained electronic tone."
+      },
+      {
+        "segment_id": "s003",
+        "caption": "Visual: The scene is set in a hospital room with multiple beds. A woman in a white hospital gown lies in a bed, holding her stomach and appearing to be in pain. A man in a plaid shirt stands beside her, looking down at her with concern, while another man in a light-colored shirt leans over a different patient in an adjacent bed. | Audio: A woman is heard groaning in pain, followed by a man asking a question in a concerned tone. The audio is clear and the emotional state of the speakers is evident."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_04_dia362",
+    "query_id": "meld_04_dia362_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman in the white hospital gown appear sad?",
+    "time_range": [
+      25.0,
+      35.0
+    ],
+    "segment_ids": [
+      "s006",
+      "s007"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "she lies in the bed with a distressed expression, eyes wide and mouth open"
+      ],
+      "audio_evidence": [
+        "her voice is shaky and pleading"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s006",
+        "caption": "Visual: A woman in a white hospital gown lies in a hospital bed, visibly distressed. A man in a light-colored shirt leans over her, looking concerned, while a woman in a white lab coat stands beside the bed, holding the patient's hand. The scene is set in a hospital room with medical equipment visible in the background. | Audio: A woman is speaking in a distressed and urgent tone, her voice shaky and pleading. The audio quality is clear, capturing the emotional intensity of her speech."
+      },
+      {
+        "segment_id": "s007",
+        "caption": "Visual: A woman with long brown hair lies in a hospital bed, wearing a white gown and looking distressed. A man with dark hair, wearing a light-colored shirt, leans over her, speaking with a concerned expression. A woman in a white lab coat stands nearby, observing the interaction. | Audio: A woman speaks, followed by a man speaking. The audio is clear and intelligible."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_05_dia980",
+    "query_id": "meld_05_dia980_mm003",
+    "query_type": "explicit_event",
+    "query_text": "When does the man in the gray sweater become visibly exasperated while speaking to the man in the black jacket?",
+    "time_range": [
+      5.0,
+      10.0
+    ],
+    "segment_ids": [
+      "s002"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "leans forward and holds a small white card",
+        "gestures with his hands"
+      ],
+      "audio_evidence": [
+        "speaks in a questioning and slightly exasperated tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: The man in the gray sweater holds a small white card and gestures with his hands while speaking. The man in the black jacket sits across from him, listening intently. A red plastic cup sits on the table between them. | Audio: A man speaks in a questioning and slightly exasperated tone. The audience laughs in the background."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_06_dia823",
+    "query_id": "meld_06_dia823_mm003",
+    "query_type": "explicit_event",
+    "query_text": "When does the woman with long blonde hair wearing a patterned blouse laugh while speaking in a cheerful tone?",
+    "time_range": [
+      0.0,
+      5.0
+    ],
+    "segment_ids": [
+      "s001"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "laughing",
+        "mouth open",
+        "crinkled eyes"
+      ],
+      "audio_evidence": [
+        "cheerful tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s001",
+        "caption": "Visual: A blonde woman in a patterned shirt and black pants walks into a living room, smiling and holding a purple jacket. She stops and turns to speak to someone off-screen, her expression pleased. In the background, other people are visible sitting on a couch and standing near a kitchen area. | Audio: A woman speaks in a cheerful tone, followed by a man's voice. The woman's voice is clear and friendly, and the man's voice is also audible."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_01_162",
+    "query_id": "moviechat_01_162_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the man inside the car, wearing a black jacket, appear fearful?",
+    "time_range": [
+      160.0,
+      170.0
+    ],
+    "segment_ids": [
+      "s033",
+      "s034"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "sweat on his face",
+        "tense expression",
+        "distressed look"
+      ],
+      "audio_evidence": [
+        "strained male voice"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s033",
+        "caption": "Visual: Two men are sitting in the front seats of a car. The man in the foreground, wearing a black shirt, has sweat on his face and is looking forward with a tense expression. The man in the background is out of focus and appears to be looking down. | Audio: A male voice speaks in Mandarin, followed by a loud, distorted sound effect."
+      },
+      {
+        "segment_id": "s034",
+        "caption": "Visual: A man in a dark jacket is inside a car, looking distressed and sweating. He is being held by another man in a dark shirt who is leaning into the car from the outside. The man inside appears to be in pain or discomfort as the other man holds him. | Audio: A loud, sustained horn sound is heard, followed by a male voice speaking in a strained tone."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_02_154",
+    "query_id": "moviechat_02_154_mm003",
+    "query_type": "explicit_event",
+    "query_text": "Which moment shows the man in a green suit and checkered tie smiling as he walks into the room?",
+    "time_range": [
+      205.0,
+      210.0
+    ],
+    "segment_ids": [
+      "s042"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the man in a green suit and checkered tie is smiling as he walks into a room"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s042",
+        "caption": "Visual: A man with a bald head, wearing a dark jacket, stands with his back to the camera, looking at a wall of aquariums filled with fish. The scene then cuts to a man in a green suit and a checkered tie smiling as he walks into a room, followed by a woman in a red and black patterned dress. The woman looks to her right with a neutral expression. | Audio: A male voice speaks in a foreign language, followed by a loud, dramatic musical sting."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_03_160",
+    "query_id": "moviechat_03_160_mm003",
+    "query_type": "explicit_event",
+    "query_text": "Which moment shows the man in a light-colored shirt expressing frustration by raising his hands to his head?",
+    "time_range": [
+      0.0,
+      5.0
+    ],
+    "segment_ids": [
+      "s001"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "raised hands to head"
+      ],
+      "audio_evidence": [
+        "tense percussive beat"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s001",
+        "caption": "Visual: A man in a light-colored shirt sits in a dimly lit room, looking down at a laptop. Another person is visible in the background, out of focus. The man then looks up, his expression serious, before raising his hands to his head in a gesture of frustration or stress. | Audio: A rhythmic, percussive beat plays in the background, creating a tense atmosphere."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_04_159",
+    "query_id": "moviechat_04_159_mm003",
+    "query_type": "explicit_event",
+    "query_text": "When does the man in the white shirt share a laugh with his coworker?",
+    "time_range": [
+      105.0,
+      110.0
+    ],
+    "segment_ids": [
+      "s022"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the man in the white shirt laughs"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s022",
+        "caption": "Visual: A man in a dark suit leans over a desk to speak to a man in a white shirt who is sitting at a computer. The man in the white shirt smiles and looks up at the man in the suit. In the background, a woman in a light-colored shirt is also working at a computer. | Audio: A male voice speaks in Mandarin, followed by a female voice. The audio is clear and sounds like a conversation."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_05_30",
+    "query_id": "moviechat_05_30_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the dark‑haired woman appear happy?",
+    "time_range": [
+      15.0,
+      20.0
+    ],
+    "segment_ids": [
+      "s004"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "she smiles"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s004",
+        "caption": "Visual: A man and a woman stand close together in a dark, rocky environment. They are facing each other, and their expressions shift from serious to smiling as they interact. The dim lighting highlights their faces against the shadowy background. | Audio: A low, ominous musical score plays in the background, creating a tense atmosphere. There are no other discernible sounds."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_01_TheShining_clip_2",
+    "query_id": "emostim_01_TheShining_clip_2_mm007",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman with dark hair in a blue top appear surprised while holding a small child?",
+    "time_range": [
+      80.0,
+      85.0
+    ],
+    "segment_ids": [
+      "s017"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "woman with dark hair",
+        "blue top",
+        "holding a small child",
+        "mouth open",
+        "eyes wide"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s017",
+        "caption": "Visual: A woman with dark hair, wearing a blue sweater, is shown in a state of shock, her mouth open and eyes wide as she holds a small child. The child is wrapped in a patterned blanket and appears to be crying. The scene is dimly lit, suggesting an indoor setting. | Audio: A loud, high-pitched scream is heard, followed by a crashing sound, indicating a sudden and violent event."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+    "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the woman with voluminous blonde hair, wearing a white collared shirt and a dark cardigan slowly raise her gaze forward with a subtle, knowing smile?",
+    "time_range": [
+      75.0,
+      80.0
+    ],
+    "segment_ids": [
+      "s016"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "slowly raises her gaze forward with a subtle, knowing smile"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s016",
+        "caption": "Visual: A woman with voluminous blonde hair, wearing a white collared shirt and a dark cardigan, is shown in a close-up. She looks down and to her right, then slowly raises her gaze forward with a subtle, knowing smile. The background is a blurry, crowded indoor space, suggesting a public setting like a diner. | Audio: The audio consists of a low, continuous hum, likely from an appliance or machinery, with no other discernible sounds."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_03_MrBeansHoliday_clip_4",
+    "query_id": "emostim_03_MrBeansHoliday_clip_4_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the suit appear frustrated while riding his bicycle?",
+    "time_range": [
+      50.0,
+      60.0
+    ],
+    "segment_ids": [
+      "s011",
+      "s012"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "bent over, looking down with a strained expression"
+      ],
+      "audio_evidence": [
+        "male voice sings in a high-pitched, strained tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s011",
+        "caption": "Visual: A man in a brown suit and white shirt is bent over, looking down with a strained expression. He is holding the handlebars of a bicycle with a basket containing tomatoes. The background is a blurry outdoor scene with other people. | Audio: A male voice sings in a high-pitched, strained tone, accompanied by a simple, repetitive electronic music track."
+      },
+      {
+        "segment_id": "s012",
+        "caption": "Visual: A man in a brown suit and white shirt is riding a bicycle on a paved road. He is pedaling hard, leaning forward with a strained expression. The background is a blurry rural landscape with green fields and trees under a blue sky. | Audio: A rock song with a male vocalist singing in English plays in the background."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+    "query_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "When does the woman with long brown hair widen her eyes and look around with a concerned expression?",
+    "time_range": [
+      45.0,
+      55.0
+    ],
+    "segment_ids": [
+      "s010",
+      "s011"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "wide-eyed",
+        "looking around with a concerned expression"
+      ],
+      "audio_evidence": [
+        "low serious tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s010",
+        "caption": "Visual: A woman with long brown hair is shown in a close-up, looking down and to the side with a concerned expression. Her face is partially obscured by a blurred object in the foreground. She appears to be in a dimly lit room. | Audio: A person is speaking in a low, serious tone, with a slight echo in the background."
+      },
+      {
+        "segment_id": "s011",
+        "caption": "Visual: A woman with long brown hair is seen from a low angle, her face partially obscured by a horizontal object in the foreground. She looks around with a concerned expression, her eyes darting from side to side. The background is a dimly lit, indistinct room. | Audio: A woman speaks in a hushed, urgent tone, followed by a low, sustained musical note."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_06_TheChamp_clip_3",
+    "query_id": "emostim_06_TheChamp_clip_3_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the young blonde-haired boy wearing a grey shirt appear sad?",
+    "time_range": [
+      25.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s006",
+      "s007",
+      "s008",
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "tears on his face",
+        "distressed expression"
+      ],
+      "audio_evidence": [
+        "audibly crying and whimpering"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s006",
+        "caption": "Visual: A young boy with blonde hair is shown in a close-up, crying with tears on his face. He is wearing a grey shirt and appears to be in distress. An adult's hand is visible, gently touching the boy's head and shoulder in a comforting gesture. | Audio: The boy is audibly crying and whimpering, with his voice breaking as he speaks. The audio is clear, capturing the emotional distress in his voice."
+      },
+      {
+        "segment_id": "s007",
+        "caption": "Visual: A young boy with blonde hair, wearing a grey shirt, is shown in a close-up. He is crying, with tears on his face, and appears to be in distress. An adult's hands are visible, holding the boy's hands and a black object, possibly a phone or camera. | Audio: The audio contains the sound of a child crying and whimpering, indicating distress."
+      },
+      {
+        "segment_id": "s008",
+        "caption": "Visual: A young boy with blonde hair is shown in a close-up, his face wet with tears. He is looking down at his hands, which are covered in a red substance resembling blood. His expression is one of distress and he appears to be crying. | Audio: A child's voice is heard shouting urgently, followed by a loud, sustained electronic tone."
+      },
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A young boy with blonde hair is shown in a close-up, his face contorted in distress as he cries. He is holding a hand that has a visible wound with blood on it. The background is dark, focusing all attention on the boy and the injured hand. | Audio: The audio contains the sound of a child crying, with audible sobs and whimpers. The crying is the dominant sound, indicating a state of distress."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+    "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman in a dark green button-up shirt appear fearful while holding a handgun?",
+    "time_range": [
+      10.0,
+      12.76275
+    ],
+    "segment_ids": [
+      "s003"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "woman in dark green shirt",
+        "holding a handgun with both hands",
+        "tense facial expression indicating fear"
+      ],
+      "audio_evidence": [
+        "loud sustained low-frequency electronic tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s003",
+        "caption": "Visual: A woman with dark hair, wearing a dark green button-up shirt, is shown in a dimly lit, narrow corridor. She holds a handgun with both hands, aiming it forward with a focused and tense expression. The walls are made of old, peeling tiles, and the lighting casts long shadows across the scene. | Audio: The audio is dominated by a loud, sustained, low-frequency electronic tone, similar to a siren or alarm, which is continuous throughout the clip."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_01_dia337",
+    "query_id": "meld_01_dia337_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "When does the man in the blue plaid shirt turn his head sharply to his right and then back, showing a look of surprise?",
+    "time_range": [
+      55.0,
+      60.0
+    ],
+    "segment_ids": [
+      "s012"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the man in the blue plaid shirt turns his head sharply to his right and then back"
+      ],
+      "audio_evidence": [
+        "a male voice speaks with a tone of surprise and concern"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s012",
+        "caption": "Visual: The scene takes place indoors, likely in a living room or hallway. Two men are having a conversation. The man on the left, wearing a pink and white plaid shirt, is facing the man on the right, who is wearing a blue and black plaid shirt over a white t-shirt. The man in the blue shirt turns his head sharply to his right, then back to the other man, with a look of surprise and concern on his face. | Audio: A male voice speaks with a tone of surprise and concern, followed by another male voice speaking with a calm, reassuring tone. The first voice then speaks again, sounding more urgent and anxious."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_02_dia224",
+    "query_id": "meld_02_dia224_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the man in a light blue polo shirt extend his right hand forward in a gesture of greeting or excitement while laughing?",
+    "time_range": [
+      5.0,
+      10.0
+    ],
+    "segment_ids": [
+      "s002"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "extends right hand forward",
+        "laughing"
+      ],
+      "audio_evidence": [
+        "sound of a person laughing"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s002",
+        "caption": "Visual: A man in a light blue polo shirt sits on a brown couch, laughing heartily with his head tilted back and eyes closed. He extends his right hand forward in a gesture of greeting or excitement. The background shows a casual indoor setting with other people and furniture, suggesting a social gathering. | Audio: A male voice is heard speaking, followed by the sound of a person laughing."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_03_dia572",
+    "query_id": "meld_03_dia572_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman in the hospital gown appear sad while looking up at the man with a pained expression?",
+    "time_range": [
+      20.0,
+      25.0
+    ],
+    "segment_ids": [
+      "s005"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looking up at the man with a pained expression"
+      ],
+      "audio_evidence": [
+        "speaking in a strained and pained tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s005",
+        "caption": "Visual: A man in a blue and white plaid shirt stands with his arms outstretched, looking down at a woman lying in a hospital bed. The woman, wearing a light-colored hospital gown, is visibly in distress, clutching her stomach and looking up at the man with a pained expression. A brown leather bag rests on the bed beside her. | Audio: A woman's voice is heard speaking in a strained and pained tone, followed by a man's voice speaking in a calm, explanatory tone."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_04_dia362",
+    "query_id": "meld_04_dia362_mm006",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the light-colored shirt and tie appear surprised?",
+    "time_range": [
+      40.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "wide eyes",
+        "raised eyebrows",
+        "open mouth"
+      ],
+      "audio_evidence": [
+        "man's voice expressing surprise"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A woman with brown hair lies in a hospital bed, wearing a white gown and covered with a pink blanket. A man in a light-colored shirt and tie leans over her, looking concerned. A woman in a white lab coat stands nearby, observing the scene. | Audio: A woman's voice speaks in a calm, matter-of-fact tone, followed by a man's voice expressing surprise. The audio is clear and easily understandable."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_05_dia980",
+    "query_id": "meld_05_dia980_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the dark green jacket appear surprised?",
+    "time_range": [
+      35.0,
+      39.622183
+    ],
+    "segment_ids": [
+      "s008"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looking up and to his right with a surprised expression"
+      ],
+      "audio_evidence": [
+        "a male voice speaks, followed by a loud, sustained electronic buzzer sound"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s008",
+        "caption": "Visual: A man in a dark green jacket over a white t-shirt stands in a kitchen, looking up and to his right with a surprised expression. Another man in a grey sweater stands to his left, holding a red plastic cup and looking at him. The background shows kitchen cabinets and a refrigerator with various items on top. | Audio: A male voice speaks, followed by a loud, sustained electronic buzzer sound."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_06_dia823",
+    "query_id": "meld_06_dia823_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman with long blonde hair wearing a patterned blouse appear happy?",
+    "time_range": [
+      20.0,
+      25.0
+    ],
+    "segment_ids": [
+      "s005"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiles"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s005",
+        "caption": "Visual: A woman with long blonde hair, wearing a patterned blouse, sits and pulls a small black object from a colorful bag. She holds the object up and smiles while looking towards someone off-screen. In the background, a man in a dark shirt and a woman in a white shirt are sitting on a couch. | Audio: A woman speaks in a conversational tone, followed by a man speaking in a similar tone. The audio is clear and the speech is easily understandable."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_01_162",
+    "query_id": "moviechat_01_162_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the man inside the car display sweat on his face and a tense expression that signal fear?",
+    "time_range": [
+      160.0,
+      170.0
+    ],
+    "segment_ids": [
+      "s033",
+      "s034"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "sweat on his face",
+        "tense expression",
+        "distressed look"
+      ],
+      "audio_evidence": [
+        "strained male voice"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s033",
+        "caption": "Visual: Two men are sitting in the front seats of a car. The man in the foreground, wearing a black shirt, has sweat on his face and is looking forward with a tense expression. The man in the background is out of focus and appears to be looking down. | Audio: A male voice speaks in Mandarin, followed by a loud, distorted sound effect."
+      },
+      {
+        "segment_id": "s034",
+        "caption": "Visual: A man in a dark jacket is inside a car, looking distressed and sweating. He is being held by another man in a dark shirt who is leaning into the car from the outside. The man inside appears to be in pain or discomfort as the other man holds him. | Audio: A loud, sustained horn sound is heard, followed by a male voice speaking in a strained tone."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_02_154",
+    "query_id": "moviechat_02_154_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman with long, dark, curly hair wearing a red and black patterned sleeveless dress appear happy?",
+    "time_range": [
+      210.0,
+      215.0
+    ],
+    "segment_ids": [
+      "s043"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiles at the man"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s043",
+        "caption": "Visual: A woman with long, dark, curly hair, wearing a red and black patterned sleeveless dress, leans over a man lying on a white couch. The man, wearing glasses and an orange collared shirt, holds a cigar in his right hand and looks up at her. The woman places her left hand on his chest and smiles at him. | Audio: A loud, sustained, high-pitched electronic tone, similar to a siren or alarm, is audible throughout the clip."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_03_160",
+    "query_id": "moviechat_03_160_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in a white shirt appear frustrated while looking down with a serious expression?",
+    "time_range": [
+      70.0,
+      75.0
+    ],
+    "segment_ids": [
+      "s015"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looking down with a serious expression"
+      ],
+      "audio_evidence": [
+        "low, ominous musical score plays"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s015",
+        "caption": "Visual: A man in a white shirt is shown in a close-up, looking down with a serious expression. He raises his hands to the back of his head, then lowers them to his lap. The scene is dimly lit, focusing on his upper body and hands. | Audio: A low, ominous musical score plays, creating a tense atmosphere. The music is slow and suspenseful, with a deep, resonant tone."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_04_159",
+    "query_id": "moviechat_04_159_mm004",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman in a white shirt and blue lanyard appear surprised while looking at the laptop?",
+    "time_range": [
+      115.0,
+      120.0
+    ],
+    "segment_ids": [
+      "s024"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "wide eyes",
+        "open mouth"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s024",
+        "caption": "Visual: The video opens with a close-up of a dark, textured surface, possibly a piece of fabric or a bag, with a white string or thread visible. The scene then cuts to a woman in a white shirt and blue lanyard sitting at a desk, looking at a laptop with a surprised expression. A man in a light-colored shirt and tie is then shown in a similar office setting, looking down and then up with a serious expression. | Audio: A female voice speaks in Mandarin Chinese, followed by a male voice also speaking in Mandarin Chinese. The audio quality is clear and the speech is easily understandable."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_05_30",
+    "query_id": "moviechat_05_30_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "When does the dark‑haired woman's expression shift from serious to smiling, indicating happiness?",
+    "time_range": [
+      15.0,
+      20.0
+    ],
+    "segment_ids": [
+      "s004"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "her face changes to a smile"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s004",
+        "caption": "Visual: A man and a woman stand close together in a dark, rocky environment. They are facing each other, and their expressions shift from serious to smiling as they interact. The dim lighting highlights their faces against the shadowy background. | Audio: A low, ominous musical score plays in the background, creating a tense atmosphere. There are no other discernible sounds."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_01_TheShining_clip_2",
+    "query_id": "emostim_01_TheShining_clip_2_mm008",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the woman with dark hair widen her eyes and open her mouth in surprise while holding the child?",
+    "time_range": [
+      80.0,
+      85.0
+    ],
+    "segment_ids": [
+      "s017"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "dark hair",
+        "blue top",
+        "holding child",
+        "wide eyes",
+        "open mouth"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s017",
+        "caption": "Visual: A woman with dark hair, wearing a blue sweater, is shown in a state of shock, her mouth open and eyes wide as she holds a small child. The child is wrapped in a patterned blanket and appears to be crying. The scene is dimly lit, suggesting an indoor setting. | Audio: A loud, high-pitched scream is heard, followed by a crashing sound, indicating a sudden and violent event."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+    "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm007",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman with voluminous blonde hair and a white collared shirt appear surprised?",
+    "time_range": [
+      80.0,
+      85.0
+    ],
+    "segment_ids": [
+      "s017"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looks forward with a surprised expression"
+      ],
+      "audio_evidence": [
+        "a woman sighs"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s017",
+        "caption": "Visual: A woman with voluminous blonde hair and a white collared shirt looks forward with a surprised expression. The scene then cuts to a man with dark hair and a beard, wearing a striped sweater, sitting at a table and looking at the woman. He is holding a small object in his hands. | Audio: A woman sighs, followed by a man saying 'Oh'."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_03_MrBeansHoliday_clip_4",
+    "query_id": "emostim_03_MrBeansHoliday_clip_4_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "When does the man in the suit display a frustrated, strained expression while leaning forward and pedaling hard?",
+    "time_range": [
+      50.0,
+      60.0
+    ],
+    "segment_ids": [
+      "s011",
+      "s012"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "bent over, looking down with a strained expression",
+        "leaning forward while pedaling hard"
+      ],
+      "audio_evidence": [
+        "male voice sings in a high-pitched, strained tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s011",
+        "caption": "Visual: A man in a brown suit and white shirt is bent over, looking down with a strained expression. He is holding the handlebars of a bicycle with a basket containing tomatoes. The background is a blurry outdoor scene with other people. | Audio: A male voice sings in a high-pitched, strained tone, accompanied by a simple, repetitive electronic music track."
+      },
+      {
+        "segment_id": "s012",
+        "caption": "Visual: A man in a brown suit and white shirt is riding a bicycle on a paved road. He is pedaling hard, leaning forward with a strained expression. The background is a blurry rural landscape with green fields and trees under a blue sky. | Audio: A rock song with a male vocalist singing in English plays in the background."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_06_TheChamp_clip_3",
+    "query_id": "emostim_06_TheChamp_clip_3_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the boy's face become wet with tears and his expression contort in distress?",
+    "time_range": [
+      25.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s006",
+      "s007",
+      "s008",
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "face wet with tears",
+        "expression contorted in distress"
+      ],
+      "audio_evidence": [
+        "audible sobs and whimpers"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s006",
+        "caption": "Visual: A young boy with blonde hair is shown in a close-up, crying with tears on his face. He is wearing a grey shirt and appears to be in distress. An adult's hand is visible, gently touching the boy's head and shoulder in a comforting gesture. | Audio: The boy is audibly crying and whimpering, with his voice breaking as he speaks. The audio is clear, capturing the emotional distress in his voice."
+      },
+      {
+        "segment_id": "s007",
+        "caption": "Visual: A young boy with blonde hair, wearing a grey shirt, is shown in a close-up. He is crying, with tears on his face, and appears to be in distress. An adult's hands are visible, holding the boy's hands and a black object, possibly a phone or camera. | Audio: The audio contains the sound of a child crying and whimpering, indicating distress."
+      },
+      {
+        "segment_id": "s008",
+        "caption": "Visual: A young boy with blonde hair is shown in a close-up, his face wet with tears. He is looking down at his hands, which are covered in a red substance resembling blood. His expression is one of distress and he appears to be crying. | Audio: A child's voice is heard shouting urgently, followed by a loud, sustained electronic tone."
+      },
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A young boy with blonde hair is shown in a close-up, his face contorted in distress as he cries. He is holding a hand that has a visible wound with blood on it. The background is dark, focusing all attention on the boy and the injured hand. | Audio: The audio contains the sound of a child crying, with audible sobs and whimpers. The crying is the dominant sound, indicating a state of distress."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+    "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "When does the woman's facial expression become tense and her eyes widen while aiming the gun?",
+    "time_range": [
+      10.0,
+      12.76275
+    ],
+    "segment_ids": [
+      "s003"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "tense facial expression",
+        "widened eyes",
+        "aiming the gun with both hands"
+      ],
+      "audio_evidence": [
+        "loud sustained low-frequency electronic tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s003",
+        "caption": "Visual: A woman with dark hair, wearing a dark green button-up shirt, is shown in a dimly lit, narrow corridor. She holds a handgun with both hands, aiming it forward with a focused and tense expression. The walls are made of old, peeling tiles, and the lighting casts long shadows across the scene. | Audio: The audio is dominated by a loud, sustained, low-frequency electronic tone, similar to a siren or alarm, which is continuous throughout the clip."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_01_dia337",
+    "query_id": "meld_01_dia337_mm006",
+    "query_type": "explicit_event",
+    "query_text": "When does the man in the blue plaid shirt react with surprise and concern by turning his head and speaking?",
+    "time_range": [
+      55.0,
+      60.0
+    ],
+    "segment_ids": [
+      "s012"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "the man in the blue plaid shirt turns his head sharply to his right and then back, displaying a look of surprise"
+      ],
+      "audio_evidence": [
+        "the male voice expresses surprise and concern"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s012",
+        "caption": "Visual: The scene takes place indoors, likely in a living room or hallway. Two men are having a conversation. The man on the left, wearing a pink and white plaid shirt, is facing the man on the right, who is wearing a blue and black plaid shirt over a white t-shirt. The man in the blue shirt turns his head sharply to his right, then back to the other man, with a look of surprise and concern on his face. | Audio: A male voice speaks with a tone of surprise and concern, followed by another male voice speaking with a calm, reassuring tone. The first voice then speaks again, sounding more urgent and anxious."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_02_dia224",
+    "query_id": "meld_02_dia224_mm007",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the blue polo shirt appear happy?",
+    "time_range": [
+      10.0,
+      15.0
+    ],
+    "segment_ids": [
+      "s003"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiles",
+        "looks at the other man"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s003",
+        "caption": "Visual: A man in a blue polo shirt sits on an orange couch, smiling and looking towards another man. The other man, wearing a red shirt, is partially visible and appears to be speaking. The background shows a typical indoor setting with other people and furniture. | Audio: A male voice speaks in a casual tone, followed by a brief, indistinct sound."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_03_dia572",
+    "query_id": "meld_03_dia572_mm007",
+    "query_type": "emotion_state",
+    "query_text": "When does the woman in a hospital gown appear frustrated while raising her hands to her head?",
+    "time_range": [
+      35.0,
+      40.0
+    ],
+    "segment_ids": [
+      "s008"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "raises her hands to her head"
+      ],
+      "audio_evidence": [
+        "sighs"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s008",
+        "caption": "Visual: A woman with brown hair lies in a hospital bed, wearing a white gown and covered with a pink blanket. A man in a light-colored jacket stands beside her, gesturing with his hands as he speaks. The woman raises her hands to her head, then lowers them and looks at the man with a concerned expression. | Audio: A man speaks in a calm, reassuring tone. A woman sighs and then speaks in a concerned tone. The audio is clear and easy to understand."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_04_dia362",
+    "query_id": "meld_04_dia362_mm007",
+    "query_type": "evidence_cue",
+    "query_text": "When does the man in the light-colored shirt and tie widen his eyes and open his mouth in surprise?",
+    "time_range": [
+      40.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "wide eyes",
+        "raised eyebrows",
+        "open mouth"
+      ],
+      "audio_evidence": [
+        "man's voice expressing surprise"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A woman with brown hair lies in a hospital bed, wearing a white gown and covered with a pink blanket. A man in a light-colored shirt and tie leans over her, looking concerned. A woman in a white lab coat stands nearby, observing the scene. | Audio: A woman's voice speaks in a calm, matter-of-fact tone, followed by a man's voice expressing surprise. The audio is clear and easily understandable."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_05_dia980",
+    "query_id": "meld_05_dia980_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "When does the man in the dark green jacket look up and to his right with a surprised expression?",
+    "time_range": [
+      35.0,
+      39.622183
+    ],
+    "segment_ids": [
+      "s008"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looking up and to his right with a surprised expression"
+      ],
+      "audio_evidence": [
+        "a loud, sustained electronic buzzer sound"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s008",
+        "caption": "Visual: A man in a dark green jacket over a white t-shirt stands in a kitchen, looking up and to his right with a surprised expression. Another man in a grey sweater stands to his left, holding a red plastic cup and looking at him. The background shows kitchen cabinets and a refrigerator with various items on top. | Audio: A male voice speaks, followed by a loud, sustained electronic buzzer sound."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_06_dia823",
+    "query_id": "meld_06_dia823_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the woman with long blonde hair in a patterned blouse smile, indicating happiness?",
+    "time_range": [
+      20.0,
+      25.0
+    ],
+    "segment_ids": [
+      "s005"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiles"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s005",
+        "caption": "Visual: A woman with long blonde hair, wearing a patterned blouse, sits and pulls a small black object from a colorful bag. She holds the object up and smiles while looking towards someone off-screen. In the background, a man in a dark shirt and a woman in a white shirt are sitting on a couch. | Audio: A woman speaks in a conversational tone, followed by a man speaking in a similar tone. The audio is clear and the speech is easily understandable."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_01_162",
+    "query_id": "moviechat_01_162_mm006",
+    "query_type": "explicit_event",
+    "query_text": "Which moment shows the man inside the car being held by another man while looking distressed and sweating, indicating fear?",
+    "time_range": [
+      160.0,
+      170.0
+    ],
+    "segment_ids": [
+      "s033",
+      "s034"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "other man holding him",
+        "sweat on his face",
+        "tense expression",
+        "distressed look"
+      ],
+      "audio_evidence": [
+        "strained male voice"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s033",
+        "caption": "Visual: Two men are sitting in the front seats of a car. The man in the foreground, wearing a black shirt, has sweat on his face and is looking forward with a tense expression. The man in the background is out of focus and appears to be looking down. | Audio: A male voice speaks in Mandarin, followed by a loud, distorted sound effect."
+      },
+      {
+        "segment_id": "s034",
+        "caption": "Visual: A man in a dark jacket is inside a car, looking distressed and sweating. He is being held by another man in a dark shirt who is leaning into the car from the outside. The man inside appears to be in pain or discomfort as the other man holds him. | Audio: A loud, sustained horn sound is heard, followed by a male voice speaking in a strained tone."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_02_154",
+    "query_id": "moviechat_02_154_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "When does the woman in a red and black patterned sleeveless dress smile at the man?",
+    "time_range": [
+      210.0,
+      215.0
+    ],
+    "segment_ids": [
+      "s043"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiles at the man"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s043",
+        "caption": "Visual: A woman with long, dark, curly hair, wearing a red and black patterned sleeveless dress, leans over a man lying on a white couch. The man, wearing glasses and an orange collared shirt, holds a cigar in his right hand and looks up at her. The woman places her left hand on his chest and smiles at him. | Audio: A loud, sustained, high-pitched electronic tone, similar to a siren or alarm, is audible throughout the clip."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_03_160",
+    "query_id": "moviechat_03_160_mm006",
+    "query_type": "explicit_event",
+    "query_text": "When does the man in a white shirt raise his hands to the back of his head in frustration?",
+    "time_range": [
+      70.0,
+      75.0
+    ],
+    "segment_ids": [
+      "s015"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "raises his hands to the back of his head"
+      ],
+      "audio_evidence": [
+        "low, ominous musical score plays"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s015",
+        "caption": "Visual: A man in a white shirt is shown in a close-up, looking down with a serious expression. He raises his hands to the back of his head, then lowers them to his lap. The scene is dimly lit, focusing on his upper body and hands. | Audio: A low, ominous musical score plays, creating a tense atmosphere. The music is slow and suspenseful, with a deep, resonant tone."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_04_159",
+    "query_id": "moviechat_04_159_mm005",
+    "query_type": "evidence_cue",
+    "query_text": "When does the woman in a white shirt and blue lanyard widen her eyes and gasp in surprise while looking at the laptop?",
+    "time_range": [
+      115.0,
+      120.0
+    ],
+    "segment_ids": [
+      "s024"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "eyes widened",
+        "mouth open"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s024",
+        "caption": "Visual: The video opens with a close-up of a dark, textured surface, possibly a piece of fabric or a bag, with a white string or thread visible. The scene then cuts to a woman in a white shirt and blue lanyard sitting at a desk, looking at a laptop with a surprised expression. A man in a light-colored shirt and tie is then shown in a similar office setting, looking down and then up with a serious expression. | Audio: A female voice speaks in Mandarin Chinese, followed by a male voice also speaking in Mandarin Chinese. The audio quality is clear and the speech is easily understandable."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_05_30",
+    "query_id": "moviechat_05_30_mm006",
+    "query_type": "explicit_event",
+    "query_text": "When does the dark‑haired woman smile at the man, showing a happy moment?",
+    "time_range": [
+      15.0,
+      20.0
+    ],
+    "segment_ids": [
+      "s004"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "she smiles while looking at him"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s004",
+        "caption": "Visual: A man and a woman stand close together in a dark, rocky environment. They are facing each other, and their expressions shift from serious to smiling as they interact. The dim lighting highlights their faces against the shadowy background. | Audio: A low, ominous musical score plays in the background, creating a tense atmosphere. There are no other discernible sounds."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_01_TheShining_clip_2",
+    "query_id": "emostim_01_TheShining_clip_2_mm009",
+    "query_type": "explicit_event",
+    "query_text": "Which moment shows the woman with dark hair gasping in surprise as she embraces the child?",
+    "time_range": [
+      80.0,
+      85.0
+    ],
+    "segment_ids": [
+      "s017"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "dark hair",
+        "blue top",
+        "embracing child",
+        "gasping",
+        "surprised expression"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s017",
+        "caption": "Visual: A woman with dark hair, wearing a blue sweater, is shown in a state of shock, her mouth open and eyes wide as she holds a small child. The child is wrapped in a patterned blanket and appears to be crying. The scene is dimly lit, suggesting an indoor setting. | Audio: A loud, high-pitched scream is heard, followed by a crashing sound, indicating a sudden and violent event."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+    "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm011",
+    "query_type": "evidence_cue",
+    "query_text": "When does the woman with blonde curly hair wearing a dark sweater look down with a pained expression?",
+    "time_range": [
+      85.0,
+      90.0
+    ],
+    "segment_ids": [
+      "s018"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looks down with a pained expression"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s018",
+        "caption": "Visual: A woman with blonde, curly hair and a white collared shirt under a dark sweater sits at a table, looking down with a pained expression. Across from her, a man with dark hair and a striped sweater holds a sandwich and looks at her with a concerned expression. The background is a busy, out-of-focus restaurant with other patrons. | Audio: A woman groans in pain, followed by a man asking if she is okay in a concerned tone."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_03_MrBeansHoliday_clip_4",
+    "query_id": "emostim_03_MrBeansHoliday_clip_4_mm006",
+    "query_type": "explicit_event",
+    "query_text": "When does the man in the suit pedal intensely and lean forward, indicating his frustration?",
+    "time_range": [
+      50.0,
+      60.0
+    ],
+    "segment_ids": [
+      "s011",
+      "s012"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "pedaling intensely",
+        "leaning forward with a strained expression"
+      ],
+      "audio_evidence": [
+        "male voice sings in a high-pitched, strained tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s011",
+        "caption": "Visual: A man in a brown suit and white shirt is bent over, looking down with a strained expression. He is holding the handlebars of a bicycle with a basket containing tomatoes. The background is a blurry outdoor scene with other people. | Audio: A male voice sings in a high-pitched, strained tone, accompanied by a simple, repetitive electronic music track."
+      },
+      {
+        "segment_id": "s012",
+        "caption": "Visual: A man in a brown suit and white shirt is riding a bicycle on a paved road. He is pedaling hard, leaning forward with a strained expression. The background is a blurry rural landscape with green fields and trees under a blue sky. | Audio: A rock song with a male vocalist singing in English plays in the background."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_06_TheChamp_clip_3",
+    "query_id": "emostim_06_TheChamp_clip_3_mm006",
+    "query_type": "explicit_event",
+    "query_text": "When does the boy cry while an adult's hands hold his arm?",
+    "time_range": [
+      25.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s006",
+      "s007",
+      "s008",
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "tears on his face",
+        "crying",
+        "adult hands holding his arm"
+      ],
+      "audio_evidence": [
+        "audibly crying"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s006",
+        "caption": "Visual: A young boy with blonde hair is shown in a close-up, crying with tears on his face. He is wearing a grey shirt and appears to be in distress. An adult's hand is visible, gently touching the boy's head and shoulder in a comforting gesture. | Audio: The boy is audibly crying and whimpering, with his voice breaking as he speaks. The audio is clear, capturing the emotional distress in his voice."
+      },
+      {
+        "segment_id": "s007",
+        "caption": "Visual: A young boy with blonde hair, wearing a grey shirt, is shown in a close-up. He is crying, with tears on his face, and appears to be in distress. An adult's hands are visible, holding the boy's hands and a black object, possibly a phone or camera. | Audio: The audio contains the sound of a child crying and whimpering, indicating distress."
+      },
+      {
+        "segment_id": "s008",
+        "caption": "Visual: A young boy with blonde hair is shown in a close-up, his face wet with tears. He is looking down at his hands, which are covered in a red substance resembling blood. His expression is one of distress and he appears to be crying. | Audio: A child's voice is heard shouting urgently, followed by a loud, sustained electronic tone."
+      },
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A young boy with blonde hair is shown in a close-up, his face contorted in distress as he cries. He is holding a hand that has a visible wound with blood on it. The background is dark, focusing all attention on the boy and the injured hand. | Audio: The audio contains the sound of a child crying, with audible sobs and whimpers. The crying is the dominant sound, indicating a state of distress."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+    "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm006",
+    "query_type": "explicit_event",
+    "query_text": "When does she aim the gun forward with a focused and tense look, showing fear?",
+    "time_range": [
+      10.0,
+      12.76275
+    ],
+    "segment_ids": [
+      "s003"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "aiming the gun forward",
+        "focused and tense look",
+        "dark green button-up shirt"
+      ],
+      "audio_evidence": [
+        "loud sustained low-frequency electronic tone"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s003",
+        "caption": "Visual: A woman with dark hair, wearing a dark green button-up shirt, is shown in a dimly lit, narrow corridor. She holds a handgun with both hands, aiming it forward with a focused and tense expression. The walls are made of old, peeling tiles, and the lighting casts long shadows across the scene. | Audio: The audio is dominated by a loud, sustained, low-frequency electronic tone, similar to a siren or alarm, which is continuous throughout the clip."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_01_dia337",
+    "query_id": "meld_01_dia337_mm007",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the pink plaid shirt appear surprised?",
+    "time_range": [
+      65.0,
+      67.903991
+    ],
+    "segment_ids": [
+      "s014"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looks up and to his left with a surprised expression"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s014",
+        "caption": "Visual: The man in the pink plaid shirt looks at his watch and then at the man in the blue plaid shirt, who is turned towards him. The man in the pink shirt then looks up and to his left with a surprised expression. The man in the blue shirt is mostly seen from the back and side. | Audio: A male voice speaks, followed by a short, high-pitched electronic beep."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_02_dia224",
+    "query_id": "meld_02_dia224_mm008",
+    "query_type": "evidence_cue",
+    "query_text": "When does the man in the blue polo shirt smile while looking at the other man?",
+    "time_range": [
+      10.0,
+      15.0
+    ],
+    "segment_ids": [
+      "s003"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiles"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s003",
+        "caption": "Visual: A man in a blue polo shirt sits on an orange couch, smiling and looking towards another man. The other man, wearing a red shirt, is partially visible and appears to be speaking. The background shows a typical indoor setting with other people and furniture. | Audio: A male voice speaks in a casual tone, followed by a brief, indistinct sound."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_03_dia572",
+    "query_id": "meld_03_dia572_mm008",
+    "query_type": "evidence_cue",
+    "query_text": "At what point does the woman in a hospital gown display frustration through raising her hands to her head?",
+    "time_range": [
+      35.0,
+      40.0
+    ],
+    "segment_ids": [
+      "s008"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "raises her hands to her head"
+      ],
+      "audio_evidence": [
+        "sighs"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s008",
+        "caption": "Visual: A woman with brown hair lies in a hospital bed, wearing a white gown and covered with a pink blanket. A man in a light-colored jacket stands beside her, gesturing with his hands as he speaks. The woman raises her hands to her head, then lowers them and looks at the man with a concerned expression. | Audio: A man speaks in a calm, reassuring tone. A woman sighs and then speaks in a concerned tone. The audio is clear and easy to understand."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_04_dia362",
+    "query_id": "meld_04_dia362_mm008",
+    "query_type": "explicit_event",
+    "query_text": "When does the man in the light-colored shirt and tie lean over the woman in the hospital bed with a surprised expression?",
+    "time_range": [
+      40.0,
+      45.0
+    ],
+    "segment_ids": [
+      "s009"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "leaning forward",
+        "surprised facial expression"
+      ],
+      "audio_evidence": [
+        "man's voice expressing surprise"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s009",
+        "caption": "Visual: A woman with brown hair lies in a hospital bed, wearing a white gown and covered with a pink blanket. A man in a light-colored shirt and tie leans over her, looking concerned. A woman in a white lab coat stands nearby, observing the scene. | Audio: A woman's voice speaks in a calm, matter-of-fact tone, followed by a man's voice expressing surprise. The audio is clear and easily understandable."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "meld_06_dia823",
+    "query_id": "meld_06_dia823_mm006",
+    "query_type": "explicit_event",
+    "query_text": "Which moment shows the woman with long blonde hair in a patterned blouse smiling, indicating happiness?",
+    "time_range": [
+      20.0,
+      25.0
+    ],
+    "segment_ids": [
+      "s005"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "smiles"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s005",
+        "caption": "Visual: A woman with long blonde hair, wearing a patterned blouse, sits and pulls a small black object from a colorful bag. She holds the object up and smiles while looking towards someone off-screen. In the background, a man in a dark shirt and a woman in a white shirt are sitting on a couch. | Audio: A woman speaks in a conversational tone, followed by a man speaking in a similar tone. The audio is clear and the speech is easily understandable."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_01_162",
+    "query_id": "moviechat_01_162_mm007",
+    "query_type": "emotion_state",
+    "query_text": "When does the man in the black leather jacket appear fearful?",
+    "time_range": [
+      170.0,
+      180.0
+    ],
+    "segment_ids": [
+      "s035",
+      "s036"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "looking down and to his right with a distressed expression",
+        "leaning forward while sweating"
+      ],
+      "audio_evidence": [
+        "strained urgent tone",
+        "heavy breathing"
+      ]
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s035",
+        "caption": "Visual: Two men are inside a car. The man in the driver's seat, wearing a black leather jacket, is looking down and to his right with a distressed expression. The man in the passenger seat, wearing a black shirt, is leaning in and speaking to him with an urgent expression. | Audio: A man is speaking in a strained, urgent tone. Heavy breathing is audible throughout the clip."
+      },
+      {
+        "segment_id": "s036",
+        "caption": "Visual: Two men are in a car at night. The man in the black leather jacket is leaning forward, looking distressed and sweating. The other man, in a dark shirt, is close to him, appearing to speak urgently. | Audio: A male voice speaks in a strained, urgent tone. Heavy breathing is audible, suggesting physical exertion or distress."
+      }
+    ],
+    "human_segments": []
+  },
+  {
+    "video_id": "moviechat_02_154",
+    "query_id": "moviechat_02_154_mm008",
+    "query_type": "evidence_cue",
+    "query_text": "When does a single tear become visible on the man's cheek?",
+    "time_range": [
+      255.0,
+      260.0
+    ],
+    "segment_ids": [
+      "s052"
+    ],
+    "grounding_evidence": {
+      "visual_evidence": [
+        "a single tear visible on his cheek"
+      ],
+      "audio_evidence": []
+    },
+    "selected_captions": [
+      {
+        "segment_id": "s052",
+        "caption": "Visual: A man with short dark hair is shown in a close-up, his face partially obscured by shadow, with a single tear visible on his cheek. The scene cuts to a wider shot of a dimly lit room where two men sit at a table facing a third man in a suit who is seated behind a desk. A fourth man in a plaid shirt enters through a doorway in the background. | Audio: A male voice speaks in a calm, narrative tone. The audio is clear and intelligible."
+      }
+    ],
+    "human_segments": []
+  }
+]
