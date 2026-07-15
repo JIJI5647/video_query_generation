@@ -1,0 +1,3039 @@
+{
+  "schema_version": 1,
+  "dataset": "/Users/mingjiezhang/learning/Research Pathway/video_query_generation/output/nemotron_watch_100queries.json",
+  "updated_at": "2026-07-15T06:52:39.035722+00:00",
+  "annotations": [
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_01_TheShining_clip_2",
+      "query_id": "emostim_01_TheShining_clip_2_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman in the bed appear surprised?",
+      "model_segment_ids": [
+        "s014"
+      ],
+      "model_time_range": [
+        65,
+        70
+      ],
+      "human_segment_ids": [
+        "s014"
+      ],
+      "human_time_ranges": [
+        [
+          65,
+          70
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T13:48:52.410658+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_01_TheShining_clip_2",
+      "query_id": "emostim_01_TheShining_clip_2_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman in the bed sit up in alarm?",
+      "model_segment_ids": [
+        "s014"
+      ],
+      "model_time_range": [
+        65,
+        70
+      ],
+      "human_segment_ids": [
+        "s014"
+      ],
+      "human_time_ranges": [
+        [
+          65,
+          70
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:16:40.822644+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_01_TheShining_clip_2",
+      "query_id": "emostim_01_TheShining_clip_2_mm003",
+      "query_type": "explicit_event",
+      "query_text": "When does the woman in the bed react with surprise by sitting up in the bed?",
+      "model_segment_ids": [
+        "s014"
+      ],
+      "model_time_range": [
+        65,
+        70
+      ],
+      "human_segment_ids": [
+        "s014"
+      ],
+      "human_time_ranges": [
+        [
+          65,
+          70
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:07:04.690526+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_01_TheShining_clip_2",
+      "query_id": "emostim_01_TheShining_clip_2_mm007",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman with dark hair in a blue top appear surprised while holding a small child?",
+      "model_segment_ids": [
+        "s017"
+      ],
+      "model_time_range": [
+        80,
+        85
+      ],
+      "human_segment_ids": [
+        "s017"
+      ],
+      "human_time_ranges": [
+        [
+          80,
+          85
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:09:16.100762+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_01_TheShining_clip_2",
+      "query_id": "emostim_01_TheShining_clip_2_mm008",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the woman with dark hair widen her eyes and open her mouth in surprise while holding the child?",
+      "model_segment_ids": [
+        "s017"
+      ],
+      "model_time_range": [
+        80,
+        85
+      ],
+      "human_segment_ids": [
+        "s017"
+      ],
+      "human_time_ranges": [
+        [
+          80,
+          85
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:12:25.705247+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_01_TheShining_clip_2",
+      "query_id": "emostim_01_TheShining_clip_2_mm009",
+      "query_type": "explicit_event",
+      "query_text": "Which moment shows the woman with dark hair gasping in surprise as she embraces the child?",
+      "model_segment_ids": [
+        "s017"
+      ],
+      "model_time_range": [
+        80,
+        85
+      ],
+      "human_segment_ids": [
+        "s016",
+        "s017"
+      ],
+      "human_time_ranges": [
+        [
+          75,
+          80
+        ],
+        [
+          80,
+          85
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:43:25.254726+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the plaid shirt appear surprised while holding a sandwich?",
+      "model_segment_ids": [
+        "s009"
+      ],
+      "model_time_range": [
+        40,
+        45
+      ],
+      "human_segment_ids": [
+        "s009"
+      ],
+      "human_time_ranges": [
+        [
+          40,
+          45
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:46:01.292260+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm003",
+      "query_type": "explicit_event",
+      "query_text": "Which moment shows the man in the plaid shirt reacting with surprise by speaking while holding his sandwich?",
+      "model_segment_ids": [
+        "s009"
+      ],
+      "model_time_range": [
+        40,
+        45
+      ],
+      "human_segment_ids": [
+        "s009"
+      ],
+      "human_time_ranges": [
+        [
+          40,
+          45
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:17:05.293111+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman with voluminous blonde hair, wearing a white collared shirt and a dark cardigan appear happy?",
+      "model_segment_ids": [
+        "s016"
+      ],
+      "model_time_range": [
+        75,
+        80
+      ],
+      "human_segment_ids": [
+        "s016"
+      ],
+      "human_time_ranges": [
+        [
+          75,
+          80
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:07:10.921554+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the woman with voluminous blonde hair, wearing a white collared shirt and a dark cardigan slowly raise her gaze forward with a subtle, knowing smile?",
+      "model_segment_ids": [
+        "s016"
+      ],
+      "model_time_range": [
+        75,
+        80
+      ],
+      "human_segment_ids": [
+        "s016"
+      ],
+      "human_time_ranges": [
+        [
+          75,
+          80
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:09:26.881456+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm007",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman with voluminous blonde hair and a white collared shirt appear surprised?",
+      "model_segment_ids": [
+        "s017"
+      ],
+      "model_time_range": [
+        80,
+        85
+      ],
+      "human_segment_ids": [
+        "s017"
+      ],
+      "human_time_ranges": [
+        [
+          80,
+          85
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:12:32.538834+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_02_WhenHarryMetSally_clip_1",
+      "query_id": "emostim_02_WhenHarryMetSally_clip_1_mm011",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman with blonde curly hair wearing a dark sweater look down with a pained expression?",
+      "model_segment_ids": [
+        "s018"
+      ],
+      "model_time_range": [
+        85,
+        90
+      ],
+      "human_segment_ids": [
+        "s018"
+      ],
+      "human_time_ranges": [
+        [
+          85,
+          90
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "No pain",
+      "updated_at": "2026-07-15T06:43:59.110426+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "query_id": "emostim_03_MrBeansHoliday_clip_4_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the suit appear happy?",
+      "model_segment_ids": [
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "model_time_range": [
+        25,
+        45
+      ],
+      "human_segment_ids": [
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s014"
+      ],
+      "human_time_ranges": [
+        [
+          25,
+          30
+        ],
+        [
+          30,
+          35
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          40,
+          45
+        ],
+        [
+          65,
+          70
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:47:03.392233+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "query_id": "emostim_03_MrBeansHoliday_clip_4_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does he smile and look directly at the camera?",
+      "model_segment_ids": [
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "model_time_range": [
+        25,
+        45
+      ],
+      "human_segment_ids": [
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "human_time_ranges": [
+        [
+          25,
+          30
+        ],
+        [
+          30,
+          35
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          40,
+          45
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:17:37.558293+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "query_id": "emostim_03_MrBeansHoliday_clip_4_mm003",
+      "query_type": "explicit_event",
+      "query_text": "Which moment shows him giving a thumbs-up gesture while smiling?",
+      "model_segment_ids": [
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "model_time_range": [
+        25,
+        45
+      ],
+      "human_segment_ids": [
+        "s008"
+      ],
+      "human_time_ranges": [
+        [
+          35,
+          40
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:07:24.722651+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "query_id": "emostim_03_MrBeansHoliday_clip_4_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the suit appear frustrated while riding his bicycle?",
+      "model_segment_ids": [
+        "s011",
+        "s012"
+      ],
+      "model_time_range": [
+        50,
+        60
+      ],
+      "human_segment_ids": [],
+      "human_time_ranges": [],
+      "not_groundable": true,
+      "notes": "No frustrated",
+      "updated_at": "2026-07-14T14:09:43.168834+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "query_id": "emostim_03_MrBeansHoliday_clip_4_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "When does the man in the suit display a frustrated, strained expression while leaning forward and pedaling hard?",
+      "model_segment_ids": [
+        "s011",
+        "s012"
+      ],
+      "model_time_range": [
+        50,
+        60
+      ],
+      "human_segment_ids": [
+        "s011",
+        "s012"
+      ],
+      "human_time_ranges": [
+        [
+          50,
+          55
+        ],
+        [
+          55,
+          60
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:12:37.738857+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_03_MrBeansHoliday_clip_4",
+      "query_id": "emostim_03_MrBeansHoliday_clip_4_mm006",
+      "query_type": "explicit_event",
+      "query_text": "When does the man in the suit pedal intensely and lean forward, indicating his frustration?",
+      "model_segment_ids": [
+        "s011",
+        "s012"
+      ],
+      "model_time_range": [
+        50,
+        60
+      ],
+      "human_segment_ids": [
+        "s011",
+        "s012"
+      ],
+      "human_time_ranges": [
+        [
+          50,
+          55
+        ],
+        [
+          55,
+          60
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:44:17.176678+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "query_id": "emostim_04_28DaysLater_clip_6_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the person in a dark, hooded outfit appear fearful?",
+      "model_segment_ids": [
+        "s009"
+      ],
+      "model_time_range": [
+        40,
+        45
+      ],
+      "human_segment_ids": [
+        "s009"
+      ],
+      "human_time_ranges": [
+        [
+          40,
+          45
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T13:49:25.562513+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_04_28DaysLater_clip_6",
+      "query_id": "emostim_04_28DaysLater_clip_6_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "When does the person in a dark, hooded outfit display rapid movement and a tense posture that indicate fear?",
+      "model_segment_ids": [
+        "s009"
+      ],
+      "model_time_range": [
+        40,
+        45
+      ],
+      "human_segment_ids": [
+        "s009"
+      ],
+      "human_time_ranges": [
+        [
+          40,
+          45
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:21:49.601564+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+      "query_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman with brown hair lower her gaze and furrow her brow?",
+      "model_segment_ids": [
+        "s009"
+      ],
+      "model_time_range": [
+        40,
+        45
+      ],
+      "human_segment_ids": [
+        "s009"
+      ],
+      "human_time_ranges": [
+        [
+          40,
+          45
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T13:49:58.529736+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+      "query_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1_mm003",
+      "query_type": "explicit_event",
+      "query_text": "When does the woman with brown hair display a distressed expression with her eyes downcast?",
+      "model_segment_ids": [
+        "s009"
+      ],
+      "model_time_range": [
+        40,
+        45
+      ],
+      "human_segment_ids": [
+        "s009"
+      ],
+      "human_time_ranges": [
+        [
+          40,
+          45
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:22:06.815115+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+      "query_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman with long brown hair appear fearful?",
+      "model_segment_ids": [
+        "s010",
+        "s011"
+      ],
+      "model_time_range": [
+        45,
+        55
+      ],
+      "human_segment_ids": [
+        "s010",
+        "s011"
+      ],
+      "human_time_ranges": [
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          55
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:07:29.651917+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1",
+      "query_id": "emostim_05_TheSilenceOfTheLambs_b_clip_1_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman with long brown hair widen her eyes and look around with a concerned expression?",
+      "model_segment_ids": [
+        "s010",
+        "s011"
+      ],
+      "model_time_range": [
+        45,
+        55
+      ],
+      "human_segment_ids": [
+        "s010",
+        "s011"
+      ],
+      "human_time_ranges": [
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          55
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:09:47.180693+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "query_id": "emostim_06_TheChamp_clip_3_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the young child with blonde hair wearing a grey shirt appear sad?",
+      "model_segment_ids": [
+        "s002",
+        "s003",
+        "s004"
+      ],
+      "model_time_range": [
+        5,
+        20
+      ],
+      "human_segment_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          25,
+          30
+        ],
+        [
+          30,
+          35
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          40,
+          45
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          55
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:51:28.299382+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "query_id": "emostim_06_TheChamp_clip_3_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "When does the young child with blonde hair wearing a grey shirt display a visibly distressed expression with tears on his face?",
+      "model_segment_ids": [
+        "s002",
+        "s003",
+        "s004"
+      ],
+      "model_time_range": [
+        5,
+        20
+      ],
+      "human_segment_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          25,
+          30
+        ],
+        [
+          30,
+          35
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          40,
+          45
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          55
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:22:22.525100+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "query_id": "emostim_06_TheChamp_clip_3_mm003",
+      "query_type": "explicit_event",
+      "query_text": "When does the young child with blonde hair wearing a grey shirt cry loudly while gripping the adult's arms?",
+      "model_segment_ids": [
+        "s002",
+        "s003",
+        "s004"
+      ],
+      "model_time_range": [
+        5,
+        20
+      ],
+      "human_segment_ids": [
+        "s002",
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          25,
+          30
+        ],
+        [
+          30,
+          35
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          40,
+          45
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          55
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:07:41.688190+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "query_id": "emostim_06_TheChamp_clip_3_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the young blonde-haired boy wearing a grey shirt appear sad?",
+      "model_segment_ids": [
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "model_time_range": [
+        25,
+        45
+      ],
+      "human_segment_ids": [
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011"
+      ],
+      "human_time_ranges": [
+        [
+          15,
+          20
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          25,
+          30
+        ],
+        [
+          30,
+          35
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          40,
+          45
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          55
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:09:58.530501+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "query_id": "emostim_06_TheChamp_clip_3_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the boy's face become wet with tears and his expression contort in distress?",
+      "model_segment_ids": [
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "model_time_range": [
+        25,
+        45
+      ],
+      "human_segment_ids": [
+        "s003",
+        "s004",
+        "s005",
+        "s006",
+        "s007",
+        "s008",
+        "s009",
+        "s010",
+        "s011"
+      ],
+      "human_time_ranges": [
+        [
+          10,
+          15
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          20,
+          25
+        ],
+        [
+          25,
+          30
+        ],
+        [
+          30,
+          35
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          40,
+          45
+        ],
+        [
+          45,
+          50
+        ],
+        [
+          50,
+          55
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:12:48.172430+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_06_TheChamp_clip_3",
+      "query_id": "emostim_06_TheChamp_clip_3_mm006",
+      "query_type": "explicit_event",
+      "query_text": "When does the boy cry while an adult's hands hold his arm?",
+      "model_segment_ids": [
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "model_time_range": [
+        25,
+        45
+      ],
+      "human_segment_ids": [
+        "s006",
+        "s007",
+        "s008",
+        "s009"
+      ],
+      "human_time_ranges": [
+        [
+          25,
+          30
+        ],
+        [
+          30,
+          35
+        ],
+        [
+          35,
+          40
+        ],
+        [
+          40,
+          45
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:47:00.453259+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman with dark hair wearing a green cardigan with star patterns appear surprised?",
+      "model_segment_ids": [
+        "s002"
+      ],
+      "model_time_range": [
+        5,
+        10
+      ],
+      "human_segment_ids": [
+        "s002"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:51:41.603502+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman's mouth open slightly and her head turn quickly to the right, indicating she is surprised?",
+      "model_segment_ids": [
+        "s002"
+      ],
+      "model_time_range": [
+        5,
+        10
+      ],
+      "human_segment_ids": [
+        "s002"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:22:54.386762+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm003",
+      "query_type": "explicit_event",
+      "query_text": "When does the woman turn her head sharply to the right after hearing the sudden metallic clang, showing surprise?",
+      "model_segment_ids": [
+        "s002"
+      ],
+      "model_time_range": [
+        5,
+        10
+      ],
+      "human_segment_ids": [
+        "s002"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:07:45.351775+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman in a dark green button-up shirt appear fearful while holding a handgun?",
+      "model_segment_ids": [
+        "s003"
+      ],
+      "model_time_range": [
+        10,
+        12.76275
+      ],
+      "human_segment_ids": [
+        "s003"
+      ],
+      "human_time_ranges": [
+        [
+          10,
+          12.76275
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:10:01.395978+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman's facial expression become tense and her eyes widen while aiming the gun?",
+      "model_segment_ids": [
+        "s003"
+      ],
+      "model_time_range": [
+        10,
+        12.76275
+      ],
+      "human_segment_ids": [
+        "s003"
+      ],
+      "human_time_ranges": [
+        [
+          10,
+          12.76275
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:12:53.006907+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2",
+      "query_id": "emostim_07_TheSilenceOfTheLambs_a_clip_2_mm006",
+      "query_type": "explicit_event",
+      "query_text": "When does she aim the gun forward with a focused and tense look, showing fear?",
+      "model_segment_ids": [
+        "s003"
+      ],
+      "model_time_range": [
+        10,
+        12.76275
+      ],
+      "human_segment_ids": [
+        "s003"
+      ],
+      "human_time_ranges": [
+        [
+          10,
+          12.76275
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:47:05.469337+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_01_dia337",
+      "query_id": "meld_01_dia337_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the pink plaid shirt appear happy?",
+      "model_segment_ids": [
+        "s010"
+      ],
+      "model_time_range": [
+        45,
+        50
+      ],
+      "human_segment_ids": [
+        "s010"
+      ],
+      "human_time_ranges": [
+        [
+          45,
+          50
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:51:59.257515+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_01_dia337",
+      "query_id": "meld_01_dia337_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "When does the man in the pink plaid shirt smile?",
+      "model_segment_ids": [
+        "s010"
+      ],
+      "model_time_range": [
+        45,
+        50
+      ],
+      "human_segment_ids": [
+        "s010"
+      ],
+      "human_time_ranges": [
+        [
+          45,
+          50
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:23:07.937495+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_01_dia337",
+      "query_id": "meld_01_dia337_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the blue plaid shirt appear surprised?",
+      "model_segment_ids": [
+        "s012"
+      ],
+      "model_time_range": [
+        55,
+        60
+      ],
+      "human_segment_ids": [],
+      "human_time_ranges": [],
+      "not_groundable": true,
+      "notes": "No surprised",
+      "updated_at": "2026-07-14T14:08:07.906700+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_01_dia337",
+      "query_id": "meld_01_dia337_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "When does the man in the blue plaid shirt turn his head sharply to his right and then back, showing a look of surprise?",
+      "model_segment_ids": [
+        "s012"
+      ],
+      "model_time_range": [
+        55,
+        60
+      ],
+      "human_segment_ids": [
+        "s012"
+      ],
+      "human_time_ranges": [
+        [
+          55,
+          60
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:10:06.846720+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_01_dia337",
+      "query_id": "meld_01_dia337_mm006",
+      "query_type": "explicit_event",
+      "query_text": "When does the man in the blue plaid shirt react with surprise and concern by turning his head and speaking?",
+      "model_segment_ids": [
+        "s012"
+      ],
+      "model_time_range": [
+        55,
+        60
+      ],
+      "human_segment_ids": [
+        "s012",
+        "s013"
+      ],
+      "human_time_ranges": [
+        [
+          55,
+          60
+        ],
+        [
+          60,
+          65
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:13:03.819150+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_01_dia337",
+      "query_id": "meld_01_dia337_mm007",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the pink plaid shirt appear surprised?",
+      "model_segment_ids": [
+        "s014"
+      ],
+      "model_time_range": [
+        65,
+        67.903991
+      ],
+      "human_segment_ids": [
+        "s014"
+      ],
+      "human_time_ranges": [
+        [
+          65,
+          67.903991
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:47:14.184315+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_02_dia224",
+      "query_id": "meld_02_dia224_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the blue shirt appear happy while sitting on the orange couch?",
+      "model_segment_ids": [
+        "s001"
+      ],
+      "model_time_range": [
+        0,
+        5
+      ],
+      "human_segment_ids": [
+        "s001",
+        "s002"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:52:09.442730+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_02_dia224",
+      "query_id": "meld_02_dia224_mm003",
+      "query_type": "explicit_event",
+      "query_text": "When does the man in the blue shirt laugh heartily and gesture with his hands?",
+      "model_segment_ids": [
+        "s001"
+      ],
+      "model_time_range": [
+        0,
+        5
+      ],
+      "human_segment_ids": [
+        "s001",
+        "s002"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:23:19.840567+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_02_dia224",
+      "query_id": "meld_02_dia224_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in a light blue polo shirt appear happy while laughing heartily with his head tilted back?",
+      "model_segment_ids": [
+        "s002"
+      ],
+      "model_time_range": [
+        5,
+        10
+      ],
+      "human_segment_ids": [
+        "s001",
+        "s002"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:08:17.168247+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_02_dia224",
+      "query_id": "meld_02_dia224_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the man in a light blue polo shirt extend his right hand forward in a gesture of greeting or excitement while laughing?",
+      "model_segment_ids": [
+        "s002"
+      ],
+      "model_time_range": [
+        5,
+        10
+      ],
+      "human_segment_ids": [
+        "s002"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:10:12.380350+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_02_dia224",
+      "query_id": "meld_02_dia224_mm007",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the blue polo shirt appear happy?",
+      "model_segment_ids": [
+        "s003"
+      ],
+      "model_time_range": [
+        10,
+        15
+      ],
+      "human_segment_ids": [
+        "s003"
+      ],
+      "human_time_ranges": [
+        [
+          10,
+          15
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:13:09.772037+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_02_dia224",
+      "query_id": "meld_02_dia224_mm008",
+      "query_type": "evidence_cue",
+      "query_text": "When does the man in the blue polo shirt smile while looking at the other man?",
+      "model_segment_ids": [
+        "s003"
+      ],
+      "model_time_range": [
+        10,
+        15
+      ],
+      "human_segment_ids": [
+        "s002",
+        "s003"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          15
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:47:32.196640+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_03_dia572",
+      "query_id": "meld_03_dia572_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman in the hospital bed, wearing a white gown and covered with a pink blanket, appear sad?",
+      "model_segment_ids": [
+        "s002",
+        "s003"
+      ],
+      "model_time_range": [
+        5,
+        15
+      ],
+      "human_segment_ids": [],
+      "human_time_ranges": [],
+      "not_groundable": true,
+      "notes": "No Sad",
+      "updated_at": "2026-07-15T05:52:46.180979+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_03_dia572",
+      "query_id": "meld_03_dia572_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the woman in the hospital bed display a sad expression by looking down at her stomach with a pained look?",
+      "model_segment_ids": [
+        "s002",
+        "s003"
+      ],
+      "model_time_range": [
+        5,
+        15
+      ],
+      "human_segment_ids": [
+        "s002",
+        "s003"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          15
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:23:39.685636+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_03_dia572",
+      "query_id": "meld_03_dia572_mm003",
+      "query_type": "explicit_event",
+      "query_text": "Which moment shows the woman in the hospital bed holding her stomach and groaning in pain, indicating a sad emotional state?",
+      "model_segment_ids": [
+        "s002",
+        "s003"
+      ],
+      "model_time_range": [
+        5,
+        15
+      ],
+      "human_segment_ids": [
+        "s002",
+        "s003"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          15
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:08:23.500058+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_03_dia572",
+      "query_id": "meld_03_dia572_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman in the hospital gown appear sad while looking up at the man with a pained expression?",
+      "model_segment_ids": [
+        "s005"
+      ],
+      "model_time_range": [
+        20,
+        25
+      ],
+      "human_segment_ids": [],
+      "human_time_ranges": [],
+      "not_groundable": true,
+      "notes": "No evident",
+      "updated_at": "2026-07-14T14:10:35.246608+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_03_dia572",
+      "query_id": "meld_03_dia572_mm007",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman in a hospital gown appear frustrated while raising her hands to her head?",
+      "model_segment_ids": [
+        "s008"
+      ],
+      "model_time_range": [
+        35,
+        40
+      ],
+      "human_segment_ids": [
+        "s008"
+      ],
+      "human_time_ranges": [
+        [
+          35,
+          40
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:13:20.322756+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_03_dia572",
+      "query_id": "meld_03_dia572_mm008",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the woman in a hospital gown display frustration through raising her hands to her head?",
+      "model_segment_ids": [
+        "s008"
+      ],
+      "model_time_range": [
+        35,
+        40
+      ],
+      "human_segment_ids": [
+        "s008"
+      ],
+      "human_time_ranges": [
+        [
+          35,
+          40
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:47:38.946774+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_04_dia362",
+      "query_id": "meld_04_dia362_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman in the white hospital gown appear sad?",
+      "model_segment_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004"
+      ],
+      "model_time_range": [
+        0,
+        20
+      ],
+      "human_segment_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004",
+        "s005"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          15,
+          20
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:53:37.812442+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_04_dia362",
+      "query_id": "meld_04_dia362_mm003",
+      "query_type": "explicit_event",
+      "query_text": "When does the man lean over the woman in the white hospital gown while she is crying?",
+      "model_segment_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004"
+      ],
+      "model_time_range": [
+        0,
+        20
+      ],
+      "human_segment_ids": [
+        "s001",
+        "s002",
+        "s003",
+        "s004"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          15
+        ],
+        [
+          15,
+          20
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:24:13.227542+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_04_dia362",
+      "query_id": "meld_04_dia362_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman in the white hospital gown appear sad?",
+      "model_segment_ids": [
+        "s006",
+        "s007"
+      ],
+      "model_time_range": [
+        25,
+        35
+      ],
+      "human_segment_ids": [
+        "s006",
+        "s007"
+      ],
+      "human_time_ranges": [
+        [
+          25,
+          30
+        ],
+        [
+          30,
+          35
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:08:32.199761+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_04_dia362",
+      "query_id": "meld_04_dia362_mm006",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the light-colored shirt and tie appear surprised?",
+      "model_segment_ids": [
+        "s009"
+      ],
+      "model_time_range": [
+        40,
+        45
+      ],
+      "human_segment_ids": [
+        "s009",
+        "s010"
+      ],
+      "human_time_ranges": [
+        [
+          40,
+          45
+        ],
+        [
+          45,
+          50
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:10:59.212118+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_04_dia362",
+      "query_id": "meld_04_dia362_mm007",
+      "query_type": "evidence_cue",
+      "query_text": "When does the man in the light-colored shirt and tie widen his eyes and open his mouth in surprise?",
+      "model_segment_ids": [
+        "s009"
+      ],
+      "model_time_range": [
+        40,
+        45
+      ],
+      "human_segment_ids": [
+        "s009"
+      ],
+      "human_time_ranges": [
+        [
+          40,
+          45
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:13:34.019790+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_04_dia362",
+      "query_id": "meld_04_dia362_mm008",
+      "query_type": "explicit_event",
+      "query_text": "When does the man in the light-colored shirt and tie lean over the woman in the hospital bed with a surprised expression?",
+      "model_segment_ids": [
+        "s009"
+      ],
+      "model_time_range": [
+        40,
+        45
+      ],
+      "human_segment_ids": [
+        "s009"
+      ],
+      "human_time_ranges": [
+        [
+          40,
+          45
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:48:01.157581+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_05_dia980",
+      "query_id": "meld_05_dia980_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the gray sweater appear frustrated?",
+      "model_segment_ids": [
+        "s002"
+      ],
+      "model_time_range": [
+        5,
+        10
+      ],
+      "human_segment_ids": [
+        "s002"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:53:52.131933+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_05_dia980",
+      "query_id": "meld_05_dia980_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "Which moment shows the man in the gray sweater showing signs of frustration by gesturing with his hands while holding a small white card?",
+      "model_segment_ids": [
+        "s002"
+      ],
+      "model_time_range": [
+        5,
+        10
+      ],
+      "human_segment_ids": [
+        "s002"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:24:24.474297+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_05_dia980",
+      "query_id": "meld_05_dia980_mm003",
+      "query_type": "explicit_event",
+      "query_text": "When does the man in the gray sweater become visibly exasperated while speaking to the man in the black jacket?",
+      "model_segment_ids": [
+        "s002"
+      ],
+      "model_time_range": [
+        5,
+        10
+      ],
+      "human_segment_ids": [
+        "s002"
+      ],
+      "human_time_ranges": [
+        [
+          5,
+          10
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:08:36.482609+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_05_dia980",
+      "query_id": "meld_05_dia980_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the dark green jacket appear surprised?",
+      "model_segment_ids": [
+        "s008"
+      ],
+      "model_time_range": [
+        35,
+        39.622183
+      ],
+      "human_segment_ids": [
+        "s008"
+      ],
+      "human_time_ranges": [
+        [
+          35,
+          39.622183
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "No Dark green jacket",
+      "updated_at": "2026-07-14T14:11:15.763226+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_05_dia980",
+      "query_id": "meld_05_dia980_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "When does the man in the dark green jacket look up and to his right with a surprised expression?",
+      "model_segment_ids": [
+        "s008"
+      ],
+      "model_time_range": [
+        35,
+        39.622183
+      ],
+      "human_segment_ids": [
+        "s008"
+      ],
+      "human_time_ranges": [
+        [
+          35,
+          39.622183
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:13:49.171126+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_06_dia823",
+      "query_id": "meld_06_dia823_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman with long blonde hair wearing a patterned blouse appear happy?",
+      "model_segment_ids": [
+        "s001"
+      ],
+      "model_time_range": [
+        0,
+        5
+      ],
+      "human_segment_ids": [
+        "s001",
+        "s002",
+        "s005"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          20,
+          25
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:55:18.192966+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_06_dia823",
+      "query_id": "meld_06_dia823_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman with long blonde hair wearing a patterned blouse smile broadly while speaking in a cheerful tone?",
+      "model_segment_ids": [
+        "s001"
+      ],
+      "model_time_range": [
+        0,
+        5
+      ],
+      "human_segment_ids": [
+        "s001"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:06:17.542910+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_06_dia823",
+      "query_id": "meld_06_dia823_mm003",
+      "query_type": "explicit_event",
+      "query_text": "When does the woman with long blonde hair wearing a patterned blouse laugh while speaking in a cheerful tone?",
+      "model_segment_ids": [
+        "s001"
+      ],
+      "model_time_range": [
+        0,
+        5
+      ],
+      "human_segment_ids": [
+        "s001"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:08:40.416228+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_06_dia823",
+      "query_id": "meld_06_dia823_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman with long blonde hair wearing a patterned blouse appear happy?",
+      "model_segment_ids": [
+        "s005"
+      ],
+      "model_time_range": [
+        20,
+        25
+      ],
+      "human_segment_ids": [
+        "s005"
+      ],
+      "human_time_ranges": [
+        [
+          20,
+          25
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:11:27.344655+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_06_dia823",
+      "query_id": "meld_06_dia823_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the woman with long blonde hair in a patterned blouse smile, indicating happiness?",
+      "model_segment_ids": [
+        "s005"
+      ],
+      "model_time_range": [
+        20,
+        25
+      ],
+      "human_segment_ids": [
+        "s005"
+      ],
+      "human_time_ranges": [
+        [
+          20,
+          25
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:13:54.793085+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_06_dia823",
+      "query_id": "meld_06_dia823_mm006",
+      "query_type": "explicit_event",
+      "query_text": "Which moment shows the woman with long blonde hair in a patterned blouse smiling, indicating happiness?",
+      "model_segment_ids": [
+        "s005"
+      ],
+      "model_time_range": [
+        20,
+        25
+      ],
+      "human_segment_ids": [
+        "s005"
+      ],
+      "human_time_ranges": [
+        [
+          20,
+          25
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:49:25.172119+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_07_dia208",
+      "query_id": "meld_07_dia208_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman in the red top appear surprised?",
+      "model_segment_ids": [
+        "s007"
+      ],
+      "model_time_range": [
+        30,
+        35
+      ],
+      "human_segment_ids": [
+        "s007"
+      ],
+      "human_time_ranges": [
+        [
+          30,
+          35
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:55:34.430013+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "meld_07_dia208",
+      "query_id": "meld_07_dia208_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the woman in the red top widen her eyes and gasp in surprise?",
+      "model_segment_ids": [
+        "s007"
+      ],
+      "model_time_range": [
+        30,
+        35
+      ],
+      "human_segment_ids": [
+        "s007"
+      ],
+      "human_time_ranges": [
+        [
+          30,
+          35
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:06:20.990515+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_01_162",
+      "query_id": "moviechat_01_162_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the man with the bandaged right hand in the car appear to be experiencing fear?",
+      "model_segment_ids": [
+        "s028",
+        "s029",
+        "s030",
+        "s031"
+      ],
+      "model_time_range": [
+        135,
+        155
+      ],
+      "human_segment_ids": [
+        "s028",
+        "s029",
+        "s030",
+        "s031"
+      ],
+      "human_time_ranges": [
+        [
+          135,
+          140
+        ],
+        [
+          140,
+          145
+        ],
+        [
+          145,
+          150
+        ],
+        [
+          150,
+          155
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:56:02.841439+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_01_162",
+      "query_id": "moviechat_01_162_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the man with the bandaged right hand in the car show visual cues of fear such as widened eyes and a tense expression?",
+      "model_segment_ids": [
+        "s028",
+        "s029",
+        "s030",
+        "s031"
+      ],
+      "model_time_range": [
+        135,
+        155
+      ],
+      "human_segment_ids": [
+        "s028",
+        "s029",
+        "s030",
+        "s031"
+      ],
+      "human_time_ranges": [
+        [
+          135,
+          140
+        ],
+        [
+          140,
+          145
+        ],
+        [
+          145,
+          150
+        ],
+        [
+          150,
+          155
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:06:27.122134+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_01_162",
+      "query_id": "moviechat_01_162_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the man inside the car, wearing a black jacket, appear fearful?",
+      "model_segment_ids": [
+        "s033",
+        "s034"
+      ],
+      "model_time_range": [
+        160,
+        170
+      ],
+      "human_segment_ids": [
+        "s033",
+        "s034"
+      ],
+      "human_time_ranges": [
+        [
+          160,
+          165
+        ],
+        [
+          165,
+          170
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:08:48.049816+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_01_162",
+      "query_id": "moviechat_01_162_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the man inside the car display sweat on his face and a tense expression that signal fear?",
+      "model_segment_ids": [
+        "s033",
+        "s034"
+      ],
+      "model_time_range": [
+        160,
+        170
+      ],
+      "human_segment_ids": [
+        "s033",
+        "s034"
+      ],
+      "human_time_ranges": [
+        [
+          160,
+          165
+        ],
+        [
+          165,
+          170
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:11:46.323048+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_01_162",
+      "query_id": "moviechat_01_162_mm006",
+      "query_type": "explicit_event",
+      "query_text": "Which moment shows the man inside the car being held by another man while looking distressed and sweating, indicating fear?",
+      "model_segment_ids": [
+        "s033",
+        "s034"
+      ],
+      "model_time_range": [
+        160,
+        170
+      ],
+      "human_segment_ids": [
+        "s033",
+        "s034"
+      ],
+      "human_time_ranges": [
+        [
+          160,
+          165
+        ],
+        [
+          165,
+          170
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:14:02.147368+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_01_162",
+      "query_id": "moviechat_01_162_mm007",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the black leather jacket appear fearful?",
+      "model_segment_ids": [
+        "s035",
+        "s036"
+      ],
+      "model_time_range": [
+        170,
+        180
+      ],
+      "human_segment_ids": [
+        "s035",
+        "s036"
+      ],
+      "human_time_ranges": [
+        [
+          170,
+          175
+        ],
+        [
+          175,
+          180
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:50:44.194381+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_02_154",
+      "query_id": "moviechat_02_154_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in a green suit and checkered tie appear happy?",
+      "model_segment_ids": [
+        "s042"
+      ],
+      "model_time_range": [
+        205,
+        210
+      ],
+      "human_segment_ids": [
+        "s042"
+      ],
+      "human_time_ranges": [
+        [
+          205,
+          210
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T05:57:59.994277+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_02_154",
+      "query_id": "moviechat_02_154_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the man in a green suit and checkered tie show a smile?",
+      "model_segment_ids": [
+        "s042"
+      ],
+      "model_time_range": [
+        205,
+        210
+      ],
+      "human_segment_ids": [
+        "s042"
+      ],
+      "human_time_ranges": [
+        [
+          205,
+          210
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:06:33.238502+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_02_154",
+      "query_id": "moviechat_02_154_mm003",
+      "query_type": "explicit_event",
+      "query_text": "Which moment shows the man in a green suit and checkered tie smiling as he walks into the room?",
+      "model_segment_ids": [
+        "s042"
+      ],
+      "model_time_range": [
+        205,
+        210
+      ],
+      "human_segment_ids": [
+        "s042"
+      ],
+      "human_time_ranges": [
+        [
+          205,
+          210
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:08:52.732221+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_02_154",
+      "query_id": "moviechat_02_154_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman with long, dark, curly hair wearing a red and black patterned sleeveless dress appear happy?",
+      "model_segment_ids": [
+        "s043"
+      ],
+      "model_time_range": [
+        210,
+        215
+      ],
+      "human_segment_ids": [
+        "s043"
+      ],
+      "human_time_ranges": [
+        [
+          210,
+          215
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:11:47.175037+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_02_154",
+      "query_id": "moviechat_02_154_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman in a red and black patterned sleeveless dress smile at the man?",
+      "model_segment_ids": [
+        "s043"
+      ],
+      "model_time_range": [
+        210,
+        215
+      ],
+      "human_segment_ids": [
+        "s043"
+      ],
+      "human_time_ranges": [
+        [
+          210,
+          215
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:14:05.435577+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_02_154",
+      "query_id": "moviechat_02_154_mm008",
+      "query_type": "evidence_cue",
+      "query_text": "When does a single tear become visible on the man's cheek?",
+      "model_segment_ids": [
+        "s052"
+      ],
+      "model_time_range": [
+        255,
+        260
+      ],
+      "human_segment_ids": [],
+      "human_time_ranges": [],
+      "not_groundable": true,
+      "notes": "No tears",
+      "updated_at": "2026-07-15T06:52:39.035722+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_03_160",
+      "query_id": "moviechat_03_160_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in a light-colored shirt appear frustrated?",
+      "model_segment_ids": [
+        "s001"
+      ],
+      "model_time_range": [
+        0,
+        5
+      ],
+      "human_segment_ids": [
+        "s001"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:00:31.552546+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_03_160",
+      "query_id": "moviechat_03_160_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the man in a light-colored shirt raise his hands to his head, indicating frustration?",
+      "model_segment_ids": [
+        "s001"
+      ],
+      "model_time_range": [
+        0,
+        5
+      ],
+      "human_segment_ids": [
+        "s001"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:06:36.370507+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_03_160",
+      "query_id": "moviechat_03_160_mm003",
+      "query_type": "explicit_event",
+      "query_text": "Which moment shows the man in a light-colored shirt expressing frustration by raising his hands to his head?",
+      "model_segment_ids": [
+        "s001"
+      ],
+      "model_time_range": [
+        0,
+        5
+      ],
+      "human_segment_ids": [
+        "s001"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:08:56.749308+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_03_160",
+      "query_id": "moviechat_03_160_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in a white shirt appear frustrated while looking down with a serious expression?",
+      "model_segment_ids": [
+        "s015"
+      ],
+      "model_time_range": [
+        70,
+        75
+      ],
+      "human_segment_ids": [
+        "s015"
+      ],
+      "human_time_ranges": [
+        [
+          70,
+          75
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:11:56.192676+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_03_160",
+      "query_id": "moviechat_03_160_mm006",
+      "query_type": "explicit_event",
+      "query_text": "When does the man in a white shirt raise his hands to the back of his head in frustration?",
+      "model_segment_ids": [
+        "s015"
+      ],
+      "model_time_range": [
+        70,
+        75
+      ],
+      "human_segment_ids": [
+        "s001"
+      ],
+      "human_time_ranges": [
+        [
+          0,
+          5
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:28:22.725476+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_04_159",
+      "query_id": "moviechat_04_159_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the man in the white shirt appear happy?",
+      "model_segment_ids": [
+        "s022"
+      ],
+      "model_time_range": [
+        105,
+        110
+      ],
+      "human_segment_ids": [
+        "s022"
+      ],
+      "human_time_ranges": [
+        [
+          105,
+          110
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:11:07.173148+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_04_159",
+      "query_id": "moviechat_04_159_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "When does the man in the white shirt display a smile that signals happiness?",
+      "model_segment_ids": [
+        "s022"
+      ],
+      "model_time_range": [
+        105,
+        110
+      ],
+      "human_segment_ids": [
+        "s022"
+      ],
+      "human_time_ranges": [
+        [
+          105,
+          110
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:06:42.237961+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_04_159",
+      "query_id": "moviechat_04_159_mm003",
+      "query_type": "explicit_event",
+      "query_text": "When does the man in the white shirt share a laugh with his coworker?",
+      "model_segment_ids": [
+        "s022"
+      ],
+      "model_time_range": [
+        105,
+        110
+      ],
+      "human_segment_ids": [
+        "s022"
+      ],
+      "human_time_ranges": [
+        [
+          105,
+          110
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:09:01.180299+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_04_159",
+      "query_id": "moviechat_04_159_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the woman in a white shirt and blue lanyard appear surprised while looking at the laptop?",
+      "model_segment_ids": [
+        "s024"
+      ],
+      "model_time_range": [
+        115,
+        120
+      ],
+      "human_segment_ids": [
+        "s024"
+      ],
+      "human_time_ranges": [
+        [
+          115,
+          120
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:12:05.958975+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_04_159",
+      "query_id": "moviechat_04_159_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "When does the woman in a white shirt and blue lanyard widen her eyes and gasp in surprise while looking at the laptop?",
+      "model_segment_ids": [
+        "s024"
+      ],
+      "model_time_range": [
+        115,
+        120
+      ],
+      "human_segment_ids": [],
+      "human_time_ranges": [],
+      "not_groundable": true,
+      "notes": "No Evidence",
+      "updated_at": "2026-07-15T06:29:06.399607+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_05_30",
+      "query_id": "moviechat_05_30_mm001",
+      "query_type": "emotion_state",
+      "query_text": "When does the man wearing a dark jacket over a striped shirt appear happy?",
+      "model_segment_ids": [
+        "s004"
+      ],
+      "model_time_range": [
+        15,
+        20
+      ],
+      "human_segment_ids": [
+        "s004"
+      ],
+      "human_time_ranges": [
+        [
+          15,
+          20
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:16:23.288281+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_05_30",
+      "query_id": "moviechat_05_30_mm002",
+      "query_type": "evidence_cue",
+      "query_text": "At what point does the man in a dark jacket over a striped shirt display a smile that signals happiness?",
+      "model_segment_ids": [
+        "s004"
+      ],
+      "model_time_range": [
+        15,
+        20
+      ],
+      "human_segment_ids": [
+        "s004"
+      ],
+      "human_time_ranges": [
+        [
+          15,
+          20
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:06:46.653605+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_05_30",
+      "query_id": "moviechat_05_30_mm004",
+      "query_type": "emotion_state",
+      "query_text": "When does the dark‑haired woman appear happy?",
+      "model_segment_ids": [
+        "s004"
+      ],
+      "model_time_range": [
+        15,
+        20
+      ],
+      "human_segment_ids": [
+        "s004"
+      ],
+      "human_time_ranges": [
+        [
+          15,
+          20
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:09:05.550443+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_05_30",
+      "query_id": "moviechat_05_30_mm005",
+      "query_type": "evidence_cue",
+      "query_text": "When does the dark‑haired woman's expression shift from serious to smiling, indicating happiness?",
+      "model_segment_ids": [
+        "s004"
+      ],
+      "model_time_range": [
+        15,
+        20
+      ],
+      "human_segment_ids": [
+        "s004"
+      ],
+      "human_time_ranges": [
+        [
+          15,
+          20
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-14T14:12:12.723877+00:00"
+    },
+    {
+      "model": "nemotron_watch_100",
+      "video_id": "moviechat_05_30",
+      "query_id": "moviechat_05_30_mm006",
+      "query_type": "explicit_event",
+      "query_text": "When does the dark‑haired woman smile at the man, showing a happy moment?",
+      "model_segment_ids": [
+        "s004"
+      ],
+      "model_time_range": [
+        15,
+        20
+      ],
+      "human_segment_ids": [
+        "s004"
+      ],
+      "human_time_ranges": [
+        [
+          15,
+          20
+        ]
+      ],
+      "not_groundable": false,
+      "notes": "",
+      "updated_at": "2026-07-15T06:29:23.866422+00:00"
+    }
+  ]
+}
