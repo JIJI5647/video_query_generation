@@ -99,7 +99,25 @@ exactly one target emotion is INVALID; do not write it.
    "Which moment shows...", "How does the video show..."). Drop a type if the
    evidence does not genuinely support it.
 
-8. Language & anonymization: English only; visual descriptions, never
+8. DISAMBIGUATE RECURRING EMOTIONS ACROSS EVENTS. Before writing, scan for other
+   events with the SAME target person AND the SAME emotion_label at a DIFFERENT,
+   non-overlapping time_range (e.g. a person who is afraid at two separate moments).
+   When such recurrence exists, EVERY query for each occurrence MUST include an
+   observable detail UNIQUE to that occurrence — the specific action, object,
+   location, or interaction drawn from THAT event's own visual/audio evidence — so a
+   reader can tell which moment it refers to. A reader must never be able to swap one
+   occurrence's query_text onto the other occurrence's time_range.
+     Good (two afraid moments): "...appear fearful while holding the child in the
+       hallway" vs "...appear fearful while looking out the frosted bathroom window".
+     Bad (interchangeable): "...appear fearful?" written twice with different
+       time_range.
+   If two occurrences share the same person+emotion but genuinely have NO
+   distinguishing observable cue, write ONE query for the clearest occurrence rather
+   than near-identical queries pointing at different times.
+   This rule is ONLY about the same person+emotion at DIFFERENT times. Two queries at
+   the SAME time_range describing different cues (per rule 7) are fine and encouraged.
+
+9. Language & anonymization: English only; visual descriptions, never
    character/actor/place/brand names. Role words (doctor, judge) and visually
    grounded kinship terms (mother, husband) are allowed.
 
