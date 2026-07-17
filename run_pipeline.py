@@ -244,18 +244,18 @@ def main() -> None:
         "--regrounding",
         dest="regrounding",
         action="store_true",
-        default=True,
+        default=False,
         help="Re-select each query's grounding segment(s) with a Gemini call "
-        "after generation, before verification (default on). The original "
-        "generation-stage grounding is preserved in gen_time_range/"
-        "gen_segment_ids; a missing/invalid selection falls back to it.",
+        "after generation, before verification. DEFAULT OFF: MLLM re-grounding is "
+        "retired — even the strongest off-the-shelf grounder (Qwen3-VL-30B) scores "
+        "only ~0.30 mIoU vs human on this data, so timestamps are finalized by human "
+        "annotation, not a model. The generation-stage grounding is kept as-is.",
     )
     parser.add_argument(
         "--no-regrounding",
         dest="regrounding",
         action="store_false",
-        help="Disable the re-grounding stage; verification checks the "
-        "generation stage's own grounding, as before this stage existed.",
+        help="Explicitly disable the re-grounding stage (this is the default).",
     )
     parser.add_argument(
         "--regrounding-scope",

@@ -66,13 +66,11 @@ def normalize_v2(events, seg_time, video_id):
                     cited.append(m.group(1))
         if cited:
             idxs = sorted({idx_of[s] for s in cited})
-            # best window of <=4 covering most cited segs
-            best = (0, idxs[0])
-            for start in idxs:
-                cnt = sum(1 for i in idxs if start <= i <= start + 3)
-                if cnt > best[0]:
-                    best = (cnt, start)
-            lo = best[1]; hi = min(lo + 3, idxs[-1])
+            # NO CAP: cover the full contiguous span of the cited segments so a
+            # long continuous emotion (e.g. a 50s cry) is not truncated. The v2
+            # prompt still splits on label/person/gap; this only removes the
+            # former <=4-segment ceiling.
+            lo = idxs[0]; hi = idxs[-1]
             win = {i for i in range(lo, hi + 1) if i in by_idx}
             keep_ids = {by_idx[i] for i in win}
             # drop cues outside the window
@@ -100,7 +98,7 @@ def normalize_v2(events, seg_time, video_id):
             if len(tr) != 2:
                 continue
             ids = [s for s, (a, b) in seg_time.items() if a < tr[1] and tr[0] < b]
-            ids = sorted(ids, key=lambda s: idx_of[s])[:4]
+            ids = sorted(ids, key=lambda s: idx_of[s])
             if not ids:
                 continue
             e["segment_ids"] = ids
@@ -115,6 +113,7 @@ def normalize_v2(events, seg_time, video_id):
 
 
 def main():
+    global SRC
     ap = argparse.ArgumentParser()
     ap.add_argument("--backend", required=True,
                     choices=["gemini-text", "gemini-mm", "local"])
@@ -126,8 +125,12 @@ def main():
     ap.add_argument("--gemini-model", default="gemini-2.5-flash")
     ap.add_argument("--max-tokens", type=int, default=8192)
     ap.add_argument("--no-thinking", action="store_true")
+    ap.add_argument("--captions-dir", default=str(SRC),
+                    help="dir with raw_captions.jsonl + segments.jsonl "
+                         "(default: eval_unified19/qwen3_omni)")
     args = ap.parse_args()
 
+    SRC = Path(args.captions_dir)
     vids = [v.strip() for v in args.videos.split(",") if v.strip()]
     out = Path(args.output); out.mkdir(parents=True, exist_ok=True)
 

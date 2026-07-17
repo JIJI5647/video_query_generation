@@ -911,6 +911,9 @@ def _run_nemotron(
         model=model,
         max_tokens=config.nemotron_max_tokens,
         enable_thinking=config.nemotron_enable_thinking,
+        use_audio_in_video=True,  # AV caption path — the omni model must hear the
+        # clip (crying, tone, laughter); without this the served route captions
+        # video-only and loses the audio evidence the 5s transformers path has.
     )
     raw = client.generate_json(prompt, "omni_caption", video_uri=video_path)
     return CaptionModelOutput(modality="av", raw_output=raw, source_caption_model=model)

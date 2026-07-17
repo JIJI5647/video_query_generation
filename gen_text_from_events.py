@@ -21,14 +21,18 @@ def main():
     ap.add_argument("--videos", required=True)
     ap.add_argument("--output", required=True)
     ap.add_argument("--gen-model", default="gemini-2.5-flash-lite")
+    ap.add_argument("--captions-dir", default=str(CAP),
+                    help="dir with raw_captions.jsonl + segments.jsonl "
+                         "(default: eval_unified19/qwen3_omni)")
     args = ap.parse_args()
 
     vids = [v.strip() for v in args.videos.split(",") if v.strip()]
     evd = Path(args.events_dir)
     out = Path(args.output); out.mkdir(parents=True, exist_ok=True)
 
-    raw = _load_by_video(CAP / "raw_captions.jsonl", OmniCaption)
-    segs = _load_segments_by_video(CAP / "segments.jsonl", set(raw.keys()))
+    cap_dir = Path(args.captions_dir)
+    raw = _load_by_video(cap_dir / "raw_captions.jsonl", OmniCaption)
+    segs = _load_segments_by_video(cap_dir / "segments.jsonl", set(raw.keys()))
     ev_by = defaultdict(list)
     for l in open(evd / "emotion_events.jsonl"):
         d = json.loads(l)

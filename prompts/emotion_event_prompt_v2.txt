@@ -60,12 +60,12 @@ RULES:
    honest confidence would be "low", DO NOT emit the event at all. Never use
    "neutral" or "unrelevant" — simply omit such moments.
 
-4. MERGE CONTINUATIONS — WITH A CAP. If adjacent/contiguous segments show the
-   SAME person continuing the SAME emotion, emit ONE event spanning them, not
-   one per segment. BUT an event may span AT MOST 4 segments (~20 seconds). If
-   an emotion genuinely persists longer, split it into consecutive events of at
-   most 4 segments each, each with its own cited evidence. Split whenever the
-   label changes, the person changes, or there is a clear break.
+4. MERGE CONTINUATIONS. If adjacent/contiguous segments show the SAME person
+   continuing the SAME emotion, emit ONE event spanning ALL of them, not one per
+   segment — even if that is many segments (a 50-second cry is ONE event, not
+   several). Do NOT split a single continuous emotion just to keep it short.
+   Split ONLY when the label changes, the person changes, or there is a clear
+   break / gap in the emotional moment.
 
 5. Set confidence (high|medium) and evidence_strength (clear|ambiguous)
    honestly. (low/weak events must not be emitted at all — see rule 3.)
